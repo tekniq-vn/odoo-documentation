@@ -54,3 +54,16 @@ $(MD_BUILD_DIR)/_static/style.css: $(ODOO_DIR)/extensions/odoo_theme/static/styl
 	mkdir -p $(MD_BUILD_DIR)/_static
 	python3 -m pysassc $(ODOO_DIR)/extensions/odoo_theme/static/style.scss $(MD_BUILD_DIR)/_static/style.css
 	@echo "Compilation finished."
+
+static:
+	@echo "⏳  Copying images from content/ …"
+	@rsync -av \
+	  --include='*/' \
+	  --include='*.png' \
+	  --include='*.jpg' \
+	  --include='*.jpeg' \
+	  --include='*.svg' \
+	  --exclude='*' \
+	  $(ODOO_DIR)/content/ \
+	  $(MD_BUILD_DIR)
+	@echo "✅  Markdown + images in $(MD_BUILD_DIR)"

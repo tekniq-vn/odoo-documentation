@@ -17,7 +17,7 @@ ifndef CURRENT_LANG
 endif
 
 SPHINX_BUILD   = sphinx-build
-CONFIG_DIR     = .
+CONFIG_DIR     = $(ODOO_DIR)
 SPHINXOPTS     = -D project_root=$(ROOT) -D canonical_version=$(CANONICAL_VERSION) \
                  -D versions=$(VERSIONS) -D languages=$(LANGUAGES) -D language=$(CURRENT_LANG) \
                  -D is_remote_build=$(IS_REMOTE_BUILD) \
@@ -26,7 +26,7 @@ SPHINXOPTS     = -D project_root=$(ROOT) -D canonical_version=$(CANONICAL_VERSIO
                  -A plausible_script=$(PLAUSIBLE_SCRIPT) \
                  -A plausible_domain=$(PLAUSIBLE_DOMAIN) \
 				 -j $(WORKERS)
-SOURCE_DIR     = content
+SOURCE_DIR     = $(ODOO_DIR)/content
 
 MD_BUILD_DIR = $(BUILD_DIR)/md
 ifdef VERSIONS
@@ -37,10 +37,20 @@ ifneq ($(CURRENT_LANG),en)
 endif
 
 
-.PHONY: markdown
+.PHONY: markdown clean
 
-markdown: 
+clean: 
+	@echo "Cleaning build files..."
+	rm -rf $(BUILD_DIR)/*
+	@echo "Cleaning finished."
+
+markdown: $(MD_BUILD_DIR)/_static/style.css
 	@echo "Starting build..."
-	@cd $(ODOO_DIR) && $(SPHINX_BUILD) -c $(CONFIG_DIR) -b markdown $(SPHINXOPTS) $(SOURCE_DIR) $(MD_BUILD_DIR)
+	$(SPHINX_BUILD) -c $(CONFIG_DIR) -b markdown $(SPHINXOPTS) $(SOURCE_DIR) $(MD_BUILD_DIR)
 	@echo "Build finished."
 
+$(MD_BUILD_DIR)/_static/style.css: $(ODOO_DIR)/extensions/odoo_theme/static/style.scss $(ODOO_DIR)/extensions/odoo_theme/static/scss/*.scss
+	@echo "Compiling stylesheets..."
+	mkdir -p $(MD_BUILD_DIR)/_static
+	python3 -m pysassc $(ODOO_DIR)/extensions/odoo_theme/static/style.scss $(MD_BUILD_DIR)/_static/style.css
+	@echo "Compilation finished."

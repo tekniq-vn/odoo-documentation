@@ -1,0 +1,16 @@
+# Standard modules
+
+* [Accounting](standard_modules/account.md)
+  * [Account Tag](standard_modules/account/account_account_tag.md)
+  * [Account](standard_modules/account/account_account.md)
+  * [Fiscal Position](standard_modules/account/account_fiscal_position.md)
+  * [Account Group](standard_modules/account/account_group.md)
+  * [Report](standard_modules/account/account_report.md)
+  * [Report Line](standard_modules/account/account_report_line.md)
+  * [Taxes](standard_modules/account/account_tax.md)
+  * [Tax Repartitions](standard_modules/account/account_tax_repartition.md)
+* [Payment](standard_modules/payment.md)
+  * [Payment Method](standard_modules/payment/payment_method.md)
+  * [Payment Provider](standard_modules/payment/payment_provider.md)
+  * [Payment Token](standard_modules/payment/payment_token.md)
+  * [Payment Transaction](standard_modules/payment/payment_transaction.md)

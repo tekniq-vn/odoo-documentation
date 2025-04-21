@@ -1,0 +1,4 @@
+[submodule "odoo-docs"]
+	path = odoo-docs
+	url = https://github.com/odoo/documentation.git
+	branch = 17.0

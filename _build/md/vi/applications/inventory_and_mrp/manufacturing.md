@@ -1,0 +1,47 @@
+# Sản xuất
+
+**Odoo Manufacturing** helps manufacturers schedule, plan, and process manufacturing orders. With
+the work center control panel, put tablets on the shop floor to control work orders in real-time and
+allow workers to trigger maintenance operations, feedback loops, quality issues, etc.
+
+#### SEE ALSO
+- [Odoo Tutorials: MRP](https://www.odoo.com/slides/mrp-29)
+- [Odoo Tutorials: Barcode Scanner](https://www.odoo.com/slides/barcode-30)
+- [IoT Boxes (MES)](../general/iot.md)
+
+* [Thiết lập cơ bản](manufacturing/basic_setup.md)
+  * [Cấu hình sản phẩm sản xuất](manufacturing/basic_setup/configure_manufacturing_product.md)
+  * [Danh mục vật tư](manufacturing/basic_setup/bill_configuration.md)
+  * [Sản xuất một bước](manufacturing/basic_setup/one_step_manufacturing.md)
+  * [Sản xuất hai bước](manufacturing/basic_setup/two_step_manufacturing.md)
+  * [Sản xuất ba bước](manufacturing/basic_setup/three_step_manufacturing.md)
+  * [Chi phí lệnh sản xuất](manufacturing/basic_setup/mo_costs.md)
+* [Advanced configuration](manufacturing/advanced_configuration.md)
+  * [Quản lý BoM dùng cho biến thể sản phẩm](manufacturing/advanced_configuration/product_variants.md)
+  * [Bộ kit](manufacturing/advanced_configuration/kit_shipping.md)
+  * [Quản lý bán thành phẩm](manufacturing/advanced_configuration/sub_assemblies.md)
+  * [Quản lý công đoạn sử dụng khu vực sản xuất](manufacturing/advanced_configuration/using_work_centers.md)
+  * [Hạng mục phụ thuộc của công đoạn](manufacturing/advanced_configuration/work_order_dependencies.md)
+* [Quy trình](manufacturing/workflows.md)
+  * [Kế hoạch sản xuất tổng thể](manufacturing/workflows/use_mps.md)
+  * [Khu vực sản xuất ngừng hoạt động](manufacturing/workflows/work_center_time_off.md)
+  * [Phế phẩm trong quá trình sản xuất](manufacturing/workflows/scrap_manufacturing.md)
+  * [Manufacturing backorders](manufacturing/workflows/manufacturing_backorders.md)
+  * [Split and merge manufacturing orders](manufacturing/workflows/split_merge.md)
+  * [Unbuild orders](manufacturing/workflows/unbuild_orders.md)
+  * [Phụ phẩm](manufacturing/workflows/byproducts.md)
+  * [Continuous product improvement](manufacturing/workflows/continuous_improvement.md)
+* [Xưởng](manufacturing/shop_floor.md)
+  * [Shop Floor overview](manufacturing/shop_floor/shop_floor_overview.md)
+  * [Shop Floor time tracking](manufacturing/shop_floor/shop_floor_tracking.md)
+* [Thầu phụ](manufacturing/subcontracting.md)
+  * [Basic subcontracting](manufacturing/subcontracting/subcontracting_basic.md)
+  * [Basic subcontracting lead times](manufacturing/subcontracting/basic_subcontracting_lead_times.md)
+  * [Resupply subcontractor](manufacturing/subcontracting/subcontracting_resupply.md)
+  * [Resupply subcontracting lead times](manufacturing/subcontracting/resupply_subcontracting_lead_times.md)
+  * [Dropship to subcontractor](manufacturing/subcontracting/subcontracting_dropship.md)
+  * [Dropship subcontracting lead times](manufacturing/subcontracting/dropship_subcontracting_lead_times.md)
+* [Báo cáo](manufacturing/reporting.md)
+  * [Allocation reports](manufacturing/reporting/allocation.md)
+  * [Overall equipment effectiveness](manufacturing/reporting/oee.md)
+  * [Production analysis](manufacturing/reporting/production_analysis.md)

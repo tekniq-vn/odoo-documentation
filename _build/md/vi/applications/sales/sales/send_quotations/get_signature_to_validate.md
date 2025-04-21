@@ -14,7 +14,7 @@ To activate the *Online Signature* feature, go to Sales app â€£ Configuration â€
 Settings, scroll to the Quotations & Orders heading, and activate the
 Online Signature feature by checking the box beside it.
 
-![The Online Signature feature option in the Settings of the Odoo Sales application.](applications/sales/sales/send_quotations/get_signature_to_validate/signature-setting.png)
+![The Online Signature feature option in the Settings of the Odoo Sales application.](get_signature_to_validate/signature-setting.png)
 
 Then, click the Save button in the top-left corner.
 
@@ -22,24 +22,24 @@ Then, click the Save button in the top-left corner.
 When making a quotation template, the online signature feature is the Signature
 option, located in the Online confirmation field of the quotation template form.
 
-![The Online confirmation signature option found on every quotation template in Odoo.](applications/sales/sales/send_quotations/get_signature_to_validate/signature-feature-quotation-template.png)
+![The Online confirmation signature option found on every quotation template in Odoo.](get_signature_to_validate/signature-feature-quotation-template.png)
 
 On standard quotations, the online signature feature is the Signature option, located
 under the Other Info tab of the quotation form.
 
-![The online signature feature option in the Other Info tab of a quotation form in Odoo.](applications/sales/sales/send_quotations/get_signature_to_validate/signature-other-info-tab.png)
+![The online signature feature option in the Other Info tab of a quotation form in Odoo.](get_signature_to_validate/signature-other-info-tab.png)
 
 ## Order confirmations with online signatures
 
 When clients access quotations online through their customer portal, there's a Sign &
 Pay button directly on the quotation.
 
-![The Sign and Pay button present on online quotations in Odoo Sales.](applications/sales/sales/send_quotations/get_signature_to_validate/sign-and-pay-button.png)
+![The Sign and Pay button present on online quotations in Odoo Sales.](get_signature_to_validate/sign-and-pay-button.png)
 
 When clicked, a Validate Order pop-up window appears. In this pop-up window, the
 Full Name field is auto-populated, based on the contact information in the database.
 
-![The Validate Order pop-up window for online signatures in Odoo Sales.](applications/sales/sales/send_quotations/get_signature_to_validate/validate-order-popup.png)
+![The Validate Order pop-up window for online signatures in Odoo Sales.](get_signature_to_validate/validate-order-popup.png)
 
 Then, customers have the option to enter an online signature with any of the following options:
 Auto, Draw, or Load.

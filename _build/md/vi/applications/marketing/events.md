@@ -16,7 +16,7 @@ Events dashboard in the upper-right corner, via a series of view-related icon bu
 By default, the Events dashboard is displayed in the <i class="oi oi-view-kanban"></i>
 Kanban view, which is populated with a variety of pipeline stages.
 
-![Overview of events setting with the kanban view in Odoo Events.](applications/marketing/events/kanban-dashboard.png)
+![Overview of events setting with the kanban view in Odoo Events.](events/kanban-dashboard.png)
 
 This view showcases all the events in the database in their respective stages. By default, the
 stages are: New, Booked, Announced, Ended, and
@@ -33,7 +33,7 @@ of the event, and the person responsible for the event.
 To quickly add a new event to a pipeline, click the <i class="fa fa-plus"></i> (plus) icon at the
 top of the stage to which the event should be added to reveal a blank Kanban card to fill out.
 
-![Typical blank kanban card to fill out in the Odoo Events application.](applications/marketing/events/blank-kanban-card.png)
+![Typical blank kanban card to fill out in the Odoo Events application.](events/blank-kanban-card.png)
 
 In this blank Kanban card, enter the name of Event, along with the start and end
 Date and time.
@@ -55,7 +55,7 @@ the desired settings and/or features, and click Save to activate them.
 In the Events section of the Settings page, there are selectable features
 that can be enabled to add various elements to events created with the Odoo **Events** application.
 
-![The Events section on the Odoo Events settings page in the Odoo Events application.](applications/marketing/events/settings-events-section.png)
+![The Events section on the Odoo Events settings page in the Odoo Events application.](events/settings-events-section.png)
 
 The Schedule & Tracks feature allows users to manage and publish a schedule with tracks
 for events. *Tracks* is a catch-all term that refers to talks, lectures, demonstrations,
@@ -89,7 +89,7 @@ different booth tiers, with individual price points, and sell them to interested
 The Registration section of the Settings page provides selectable settings
 that are directly related to event registration.
 
-![The Registration section in the Odoo Events settings page in the Odoo Events application.](applications/marketing/events/settings-registration-section.png)
+![The Registration section in the Odoo Events settings page in the Odoo Events application.](events/settings-registration-section.png)
 
 The Tickets setting allows users to sell event tickets, via standard sales orders.
 
@@ -102,7 +102,7 @@ website/eCommerce store.
 In the Attendance section of the Settings page, there is a selectable
 setting that is directly related to how attendees can attend/enter the event.
 
-![The Attendance section in the Odoo Events Settings page in the Odoo Events application.](applications/marketing/events/settings-attendance-section.png)
+![The Attendance section in the Odoo Events Settings page in the Odoo Events application.](events/settings-attendance-section.png)
 
 The Use Event Barcode setting, when activated, enables barcode (and QR code) scanning
 for attendees to enter the event. This provides attendees with quick access, and helps Odoo users

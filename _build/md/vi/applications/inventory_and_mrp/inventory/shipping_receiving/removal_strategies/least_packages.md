@@ -47,4 +47,4 @@ the quantities to fulfill the Demand are picked. Since the order demanded eighty
 kilograms, which exceeds the quantity in the opened package of `54 kg`, an unopened package of `100
 kg` is selected.
 
-![Show which package was picked in the *Pick From* field.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages/least-package.png)
+![Show which package was picked in the *Pick From* field.](least_packages/least-package.png)

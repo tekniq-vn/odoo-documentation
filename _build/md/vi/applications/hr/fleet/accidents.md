@@ -80,7 +80,7 @@ the desired record, and click Open to upload the file.
 > Once a file is added to a service record, a Files section appears in the *chatter*.
 > To attach more records, click <i class="fa fa-plus-square"></i> Attach files to add more
 > documents.
-![Enter the information for an accident repair.](applications/hr/fleet/accidents/service-form.png)
+![Enter the information for an accident repair.](accidents/service-form.png)
 
 ## Service stages
 
@@ -117,7 +117,7 @@ Open the main *Services* dashboard, by navigating to Fleet app ‣ Fleet ‣
 Services. Next, click on the individual service record to open the detailed service form. Click the
 desired stage in the top-right corner, above the service form, to change the status.
 
-![The stages as seen from the service form.](applications/hr/fleet/accidents/running.png)
+![The stages as seen from the service form.](accidents/running.png)
 
 <a id="fleet-kanban"></a>
 
@@ -132,7 +132,7 @@ services appear in a Kanban view, organized by their respective Status.
 
 Drag-and-drop the service record to the desired stage.
 
-![The Kanban view of stages, with a card being dragged and dropped to the Running stage.](applications/hr/fleet/accidents/drag-n-drop.png)
+![The Kanban view of stages, with a card being dragged and dropped to the Running stage.](accidents/drag-n-drop.png)
 
 ## Accident reporting
 
@@ -175,7 +175,7 @@ the right of the search bar, revealing a drop-down menu. Click Vehicle in the
 
 Thông tin này hiển thị chi phí thực tế cho từng xe, bao gồm cả chi phí hợp đồng (chẳng hạn như chi phí thuê xe hàng tháng) và tất cả chi phí dịch vụ, bao gồm cả các tai nạn. Di chuột qua một cột để hiển thị cửa sổ dữ liệu hiện lên, cho thấy tên phương tiện và tổng chi phí. Từ đó, bạn sẽ có được cái nhìn đầy đủ hơn về chi phí của xe.
 
-![The Cost Analysis report, displaying total costs by vehicle.](applications/hr/fleet/accidents/total-costs.png)
+![The Cost Analysis report, displaying total costs by vehicle.](accidents/total-costs.png)
 
 To view the individual cost details for both contract costs and repairs, click the
 <i class="oi oi-view-pivot"></i> (Pivot) icon in the top-right corner of the Cost
@@ -183,7 +183,7 @@ Analysis dashboard. This displays each vehicle on a separate line, and displays 
 Contract cost and Service cost, as well as the Total cost.
 
 ![The Cost Analysis report, displaying the contract and service costs separately, as well as
-the total.](applications/hr/fleet/accidents/fleet-pivot.png)
+the total.](accidents/fleet-pivot.png)
 
 #### NOTE
 The <i class="oi oi-view-pivot"></i> (Pivot) view organizes the data by vehicle, by default,
@@ -218,7 +218,7 @@ the other fields as-is.
 
 Click the Add button at the bottom to add the new custom filter.
 
-![The filter settings to be added to only display new and running services.](applications/hr/fleet/accidents/custom-filters.png)
+![The filter settings to be added to only display new and running services.](accidents/custom-filters.png)
 
 This slight modification only presents services in the New and Running
 stages. This is a helpful report for a company managing a high number of repairs at any given time.

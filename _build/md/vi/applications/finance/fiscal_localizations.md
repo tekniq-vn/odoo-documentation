@@ -24,7 +24,7 @@ To select a fiscal localization package for your company, go to Accounting ‣
 Configuration ‣ Settings ‣ Fiscal Localization, select the appropriate package from the list
 and save.
 
-![Select your country's fiscal localization package in Odoo Accounting.](applications/finance/fiscal_localizations/package-selection.png)
+![Select your country's fiscal localization package in Odoo Accounting.](fiscal_localizations/package-selection.png)
 
 ### Sử dụng
 

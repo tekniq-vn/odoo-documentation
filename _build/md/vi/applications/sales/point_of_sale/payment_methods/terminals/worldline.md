@@ -56,7 +56,7 @@ Enable the payment terminal [in the application settings](../../configuration.md
 Bank and select Worldline in the Use a Payment Terminal field.
 Then, select your terminal device in the Payment Terminal Device field.
 
-![image](applications/sales/point_of_sale/payment_methods/terminals/worldline/worldline-payment-terminals.png)
+![image](worldline/worldline-payment-terminals.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
 [POS' settings](../../configuration.md#configuration-settings), click Edit, and add the payment method

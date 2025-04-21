@@ -38,7 +38,7 @@ mode](../../../general/developer_mode.md#developer-mode), click on the user menu
 Preferences. Under the Account Security tab, click on New API
 Key, confirm your password, give a descriptive name to your new key, and copy the API key.
 
-![creation of an Odoo external API key for a database](applications/finance/accounting/reporting/silverfin/api-key-db.png)
+![creation of an Odoo external API key for a database](silverfin/api-key-db.png)
 
 #### SEE ALSO
 [API Keys](../../../../developer/reference/external_api.md#api-external-api-keys)
@@ -49,4 +49,4 @@ Key, confirm your password, give a descriptive name to your new key, and copy th
 
 Để thêm một khóa API vào *tất cả* cơ sở dữ liệu được quản lý bởi một người dùng duy nhất cùng lúc **(phương pháp dễ dàng nhất cho những người làm công việc tài chính)**, hãy truy cập vào trang web của Odoo <[https://www.odoo.com](https://www.odoo.com)>_ và đăng nhập bằng tài khoản quản trị viên của bạn. Sau đó, mở cài đặt bảo mật tài khoản ở chế độ lập trình viên <[https://www.odoo.com/my/security?debug=1](https://www.odoo.com/my/security?debug=1)>_, nhấp vào Khoá API mới, xác nhận mật khẩu của bạn, đặt tên mô tả cho khóa API mới của bạn và sao chép khóa API mới.
 
-![creation of an Odoo external API key for an Odoo user](applications/finance/accounting/reporting/silverfin/api-key-user.png)
+![creation of an Odoo external API key for an Odoo user](silverfin/api-key-user.png)

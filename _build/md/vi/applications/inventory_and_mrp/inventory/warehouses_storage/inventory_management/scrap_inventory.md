@@ -27,7 +27,7 @@ Click the drop-down menu in the Product field, and select the product that shoul
 scrapped from inventory. In the Quantity field, change the value to the quantity of the
 product that should be scrapped (by default, this value is set to `1.00`).
 
-![Filled out new scrap order form with product details.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory/scrap-inventory-new-scrap-order.png)
+![Filled out new scrap order form with product details.](scrap_inventory/scrap-inventory-new-scrap-order.png)
 
 The Source Location defaults to the location where the product is currently stored. The
 Scrap Location defaults to the designated scrap location (Virtual
@@ -45,7 +45,7 @@ Once ready, click Validate to complete the new . Once validated, a
 Product Moves smart button appears at the top of the form. Click the smart button to
 view the details of the scrap operation.
 
-![Product Moves smart button on new scrap order form.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory/scrap-inventory-product-moves-button.png)
+![Product Moves smart button on new scrap order form.](scrap_inventory/scrap-inventory-product-moves-button.png)
 
 ## Scrap from an existing operation
 
@@ -57,7 +57,7 @@ To scrap a product during an operation, navigate to the Inventory app. From the
 Inventory Overview, click the # To Process button on an operation's task
 card (i.e. the Receipts task card).
 
-![# To Process button on Receipts task card on Inventory Overview page.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory/scrap-inventory-receipts-task-card.png)
+![# To Process button on Receipts task card on Inventory Overview page.](scrap_inventory/scrap-inventory-receipts-task-card.png)
 
 Then, select an operation to process from the resulting list of existing orders. Doing so opens that
 operation's form.
@@ -65,7 +65,7 @@ operation's form.
 Click the <i class="fa fa-cog"></i> (cog) icon, and select Scrap from the resulting
 drop-down menu. This opens a Scrap Products pop-up window.
 
-![Scrap Products pop-up window on operation form.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory/scrap-inventory-popup-window.png)
+![Scrap Products pop-up window on operation form.](scrap_inventory/scrap-inventory-popup-window.png)
 
 From this pop-up window, click the drop-down menu in the Product field, and select the
 products from the operation that should be scrapped. Adjust the value in the Quantity
@@ -82,4 +82,4 @@ Once ready, click Scrap Products. A Scraps smart button appears at the top
 of the operation form. Click this smart button to view the details of all scrap orders created from
 this specific operation.
 
-![Scraps smart button showing all scrap orders from operation.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory/scrap-inventory-scraps-smart-button.png)
+![Scraps smart button showing all scrap orders from operation.](scrap_inventory/scrap-inventory-scraps-smart-button.png)

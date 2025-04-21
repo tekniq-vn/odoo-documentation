@@ -11,7 +11,7 @@ The default *Members Analysis* report displays a bar chart, measuring the Quanti
 memberships against the amount of Revenue Done. The data is grouped by the assigned
 salesperson, then by the month the membership begins.
 
-![A sample of the members analysis report.](applications/sales/members/members_analysis/example-report.png)
+![A sample of the members analysis report.](members_analysis/example-report.png)
 
 Additional [Group By](../../essentials/search.md#search-group) options include the following:
 

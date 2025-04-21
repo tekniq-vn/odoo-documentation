@@ -33,7 +33,7 @@ contacts, a paid plan of Sendcloud is **required**.
 Once logged into the Sendcloud account, navigate to Settings ‣ Shipping ‣
 Addresses, and fill in the field for Warehouse address.
 
-![Adding addresses in the Sendcloud settings.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping/settings-shipping.png)
+![Adding addresses in the Sendcloud settings.](sendcloud_shipping/settings-shipping.png)
 
 To allow Sendcloud to process returns as well, a Return Address is required. Under the
 Miscellaneous section, there is a field called Address Name (optional). The
@@ -52,7 +52,7 @@ company name replacing `CompanyName` (e.g. `Odoo StealthyWood`).
 Then, check the box next to Service Points and select the shipping services for this
 integration. After saving, the Public and Secret Keys are generated.
 
-![Configuring the Sendcloud integration and receiving the credentials.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping/public-secret-keys.png)
+![Configuring the Sendcloud integration and receiving the credentials.](sendcloud_shipping/public-secret-keys.png)
 
 ## Thiết lập trong Odoo
 
@@ -68,7 +68,7 @@ After the Sendcloud account is set up and configured, it's time to configure the
 get started, go to Odoo's Apps module, search for the `Sendcloud Shipping` integration,
 and install it.
 
-![Sendcloud Shipping module in the Odoo Apps module.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping/sendcloud-mod.png)
+![Sendcloud Shipping module in the Odoo Apps module.](sendcloud_shipping/sendcloud-mod.png)
 
 <a id="inventory-shipping-receiving-link-sendcloud-module"></a>
 
@@ -100,7 +100,7 @@ After configuring and saving the form, follow these steps to load the shipping p
 - Select the shipping products the company would like to use for deliveries and returns.
 - Nhấp Chọn.
 
-![Example of shipping products configured in Odoo.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping/sendcloud-example.png)
+![Example of shipping products configured in Odoo.](sendcloud_shipping/sendcloud-example.png)
 
 <a id="inventory-shipping-receiving-sendcloud-shipping-info"></a>
 
@@ -159,7 +159,7 @@ field.
 From here, choose either: Shipping to customers, Returns from customers, or
 Both.
 
-![Use Shipping Rules field.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping/enable-shipping-rules.png)
+![Use Shipping Rules field.](sendcloud_shipping/enable-shipping-rules.png)
 
 Then, in the Sendcloud website, navigate to Settings ‣ Shipping rules. Create a
 new shipping rule by clicking Create New.
@@ -188,7 +188,7 @@ Use custom prices from a direct carrier contract, via CSV upload, by first loggi
 navigating to Settings ‣ Carriers ‣ My contracts, and then selecting the
 intended contract.
 
-![Navigate to the contracts section in Sendcloud.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping/contracts.png)
+![Navigate to the contracts section in Sendcloud.](sendcloud_shipping/contracts.png)
 
 Under the Contract prices section, click Download CSV and fill out the
 contract prices in the price column of the CSV file template.
@@ -196,7 +196,7 @@ contract prices in the price column of the CSV file template.
 #### WARNING
 Ensure the CSV file includes the correct prices to avoid any inaccuracies.
 
-![Show sample contract CSV from Sendcloud, highlighting the price column.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping/price-csv.png)
+![Show sample contract CSV from Sendcloud, highlighting the price column.](sendcloud_shipping/price-csv.png)
 
 Upload the completed CSV file to Sendcloud, then click Save these prices.
 

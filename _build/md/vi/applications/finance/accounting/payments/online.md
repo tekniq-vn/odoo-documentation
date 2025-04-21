@@ -10,7 +10,7 @@ To make it more convenient for your customers to pay the invoices you issue, you
 allows your customers to see their invoices online and pay directly with their favorite payment
 method, making the payment process much easier.
 
-![Payment provider choice after having clicked on "Pay Now"](applications/finance/accounting/payments/online/online-payment-providers.png)
+![Payment provider choice after having clicked on "Pay Now"](online/online-payment-providers.png)
 
 ## Cấu hình
 
@@ -29,11 +29,11 @@ After issuing the invoice, click on *Send & Print* and send the invoice by email
 They will receive an email with a link that redirects them to the invoice on their **Customer
 Portal**.
 
-![Email with a link to view the invoice online on the Customer Portal.](applications/finance/accounting/payments/online/view-invoice.png)
+![Email with a link to view the invoice online on the Customer Portal.](online/view-invoice.png)
 
 They can choose which Payment Provider to use by clicking on *Pay Now*.
 
-!["Pay now" button on an invoice in the Customer Portal.](applications/finance/accounting/payments/online/pay-now.png)
+!["Pay now" button on an invoice in the Customer Portal.](online/pay-now.png)
 
 #### SEE ALSO
 - [Thanh toán online](../../payment_providers.md)

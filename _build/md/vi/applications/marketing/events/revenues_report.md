@@ -10,7 +10,7 @@ The following documentation focuses on the reporting options related to event *R
 To access the *Attendees* reporting page, navigate to Events app ‣ Reporting ‣
 Revenues.
 
-![The default view of the Revenues reporting page in the Odoo Events application.](applications/marketing/events/revenues_report/default-view.png)
+![The default view of the Revenues reporting page in the Odoo Events application.](revenues_report/default-view.png)
 
 By default, the Revenues reporting page appears as a graph (a <i class="fa fa-line-chart"></i>
 (Line Chart) with <i class="fa fa-database"></i> (Stacked) data). The default filters,
@@ -115,7 +115,7 @@ The following is an example of how various filters and grouping options can crea
 graph report related to event revenues. In this case, the configurations present data about sold or
 free tickets to published events, with the metrics separated by ticket type and event.
 
-![The event ticket analysis sample report with unique filters and groupings in place.](applications/marketing/events/revenues_report/event-ticket-analysis.png)
+![The event ticket analysis sample report with unique filters and groupings in place.](revenues_report/event-ticket-analysis.png)
 
 To create such a report, navigate to Events app ‣ Reporting ‣ Revenues. Stay in
 the default graph view, but remove the default filters from the search bar.
@@ -149,7 +149,7 @@ pivot table report related to event revenues. In this case, the configurations p
 how much revenue different event types have generated, in order to gauge which events are the most
 profitable.
 
-![The event type analysis sample report with unique filters and groupings in place.](applications/marketing/events/revenues_report/event-type-analysis.png)
+![The event type analysis sample report with unique filters and groupings in place.](revenues_report/event-type-analysis.png)
 
 First, navigate to Events app ‣ Reporting ‣ Revenues, and switch to the pivot
 table view, by clicking the <i class="oi oi-view-pivot"></i> (Pivot) icon in the upper-right

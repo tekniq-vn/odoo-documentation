@@ -54,7 +54,7 @@ For the webhooks configuration, add the URL of your Odoo database (e.g.,
 `https://mycompany.odoo.com`) followed by `/pos_mercado_pago/notification` (e.g.,
 `https://mycompany.odoo.com/pos_mercado_pago/notification`).
 
-![Webhooks configuration on Mercado Pago.](applications/sales/point_of_sale/payment_methods/terminals/mercado_pago/webhooks.png)
+![Webhooks configuration on Mercado Pago.](mercado_pago/webhooks.png)
 
 <a id="pos-mercado-pago-method"></a>
 
@@ -73,7 +73,7 @@ For the webhooks configuration, add the URL of your Odoo database (e.g.,
      the back of your terminal.
    - Click the Force PDV button to activate the Point of Sale mode.
 
-![Form to create a new payment method.](applications/sales/point_of_sale/payment_methods/terminals/mercado_pago/payment-method.png)
+![Form to create a new payment method.](mercado_pago/payment-method.png)
 
 Select the payment method by going to the [POS' settings](../../configuration.md#configuration-settings) and adding
 it to the payment method under the Payment Methods field of the Payment

@@ -28,7 +28,7 @@ configure it here.
 Once activated, customers can choose the payment provider of their choice during the **checkout
 process**, at the Confirm Order step.
 
-![Payment provider selection at checkout](applications/websites/ecommerce/payments/payments-checkout.png)
+![Payment provider selection at checkout](payments/payments-checkout.png)
 
 ## eWallets and gift cards
 
@@ -39,7 +39,7 @@ section, enable Discounts, Loyalty & Gift Card.
 Once enabled, customers can enter their gift card **code** or pay with their eWallet at the checkout
 step.
 
-![Enter gift card code to process checkout](applications/websites/ecommerce/payments/payments-ewallets-giftcards.png)
+![Enter gift card code to process checkout](payments/payments-ewallets-giftcards.png)
 
 #### SEE ALSO
 [Use eWallets and gift cards](../../sales/sales/products_prices/ewallets_giftcards.md)

@@ -17,7 +17,7 @@ do this, go to Inventory ‣ Configuration ‣ Settings, and under the
 Traceability section, check the box next to Consignment, and then click
 Save to finish.
 
-![Enabled Consignment setting in Inventory configuration.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock/owned-stock-enable-consignment.png)
+![Enabled Consignment setting in Inventory configuration.](owned_stock/owned-stock-enable-consignment.png)
 
 ## Receive (and store) consignment stock
 
@@ -42,7 +42,7 @@ the quantities to be received into the warehouse under the Done column. If the
 Units of Measure feature is enabled, the  can be changed,
 as well. Once all the consignment stock has been received, Validate the receipt.
 
-![Matching vendor fields in consignment Receipt creation.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock/owned-stock-receipt-fields.png)
+![Matching vendor fields in consignment Receipt creation.](owned_stock/owned-stock-receipt-fields.png)
 
 ## Sell and deliver consignment stock
 
@@ -61,7 +61,7 @@ Add the consignment product under the Product column in the order lines, set the
 Quantity, and fill out any other pertinent product details on the form. Once the
 quotation is complete, click Confirm.
 
-![Sales order of consignment stock.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock/owned-stock-sales-order.png)
+![Sales order of consignment stock.](owned_stock/owned-stock-sales-order.png)
 
 Once the quotation has been confirmed, it becomes a sales order. From here, the products can be
 delivered by clicking on the Delivery smart button, and selecting Validate
@@ -84,7 +84,7 @@ valuation.
 
 Để xem tất cả thông tin về các dịch chuyển tồn kho hiện có, đi đến trang chủ Dịch chuyển sản phẩm bằng cách vào Tồn kho ‣ Báo cáo ‣ Dịch chuyển sản phẩm. Đối với sản phẩm ký gửi, thông tin trong báo cáo này giống như bất kỳ sản phẩm nào khác: có thể xem lại lịch sử dịch chuyển sản phẩm; thông tin về Số lượng đã xử lý và tài liệu Tham chiếu đều có sẵn; đồng thời các Vị trí của sản phẩm cũng được hiển thị. Tồn kho ký gửi sẽ có nguồn gốc từ Vị trí đối tác/nhà cung cấp.
 
-![Consignment stock moves history.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock/owned-stock-moves-history.png)
+![Consignment stock moves history.](owned_stock/owned-stock-moves-history.png)
 
 ### Stock on hand report
 

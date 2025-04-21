@@ -44,7 +44,7 @@ Add permissions for each one:
 #### NOTE
 The User.Read permission will be added by default.
 
-![API permissions needed for Odoo integration are listed under the Microsoft Graph.](applications/general/email_communication/azure_oauth/permissions.png)
+![API permissions needed for Odoo integration are listed under the Microsoft Graph.](azure_oauth/permissions.png)
 
 ## Assign users and groups
 
@@ -56,7 +56,7 @@ link labeled Managed Application in Local Directory, or the last option on the b
 right-hand side of the table.
 
 ![Add users/groups by clicking the Managed application in local directory link for the
-created application.](applications/general/email_communication/azure_oauth/managed-application.png)
+created application.](azure_oauth/managed-application.png)
 
 In the left sidebar menu, select Users and Groups. Next, click on (+) Add
 User/Group. Depending on the account, either a Group and a User can be
@@ -72,7 +72,7 @@ application.
 
 Sau khi đã thiết lập ứng dụng Microsoft Azure, cần tạo thông tin xác thực để cài đặt Odoo. Các thông tin này bao gồm ID máy khách và Mã bí mật của máy khách. Để bắt đầu, bạn có thể sao chép ID máy khách từ trang Tổng quan của ứng dụng. ID máy khách hoặc ID ứng dụng nằm dưới mục Tên hiển thị trong phần Cơ bản của trang tổng quan ứng dụng.
 
-![Application/Client ID located in the Overview of the app.](applications/general/email_communication/azure_oauth/application-id.png)
+![Application/Client ID located in the Overview of the app.](azure_oauth/application-id.png)
 
 Next, the Client Secret Value needs to be retrieved. To get this value, click on
 Certificates & Secrets in the left sidebar menu. Then, a Client Secret
@@ -92,7 +92,7 @@ and Secret ID will be created. It is important to copy the Value or
 Client Secret Value into a notepad as it will become encrypted after leaving this page.
 The Secret ID is not needed.
 
-![Client Secret Value or Value in the app's credentials.](applications/general/email_communication/azure_oauth/secretvalue.png)
+![Client Secret Value or Value in the app's credentials.](azure_oauth/secretvalue.png)
 
 After these steps, the following items should be ready to be set up in Odoo:
 
@@ -118,7 +118,7 @@ Save the progress.
 Then, copy and paste the Client ID (Application ID) and Client Secret
 (Client Secret Value) into the respective fields and Save the settings.
 
-![Outlook Credentials in Odoo General Settings.](applications/general/email_communication/azure_oauth/outlookcreds.png)
+![Outlook Credentials in Odoo General Settings.](azure_oauth/outlookcreds.png)
 
 ### Configure outgoing email server
 
@@ -135,14 +135,14 @@ Then, click on Connect your Outlook account.
 A new window from Microsoft opens to complete the authorization process. Select the
 appropriate email address that is being configured in Odoo.
 
-![Permission page to grant access between newly created app and Odoo.](applications/general/email_communication/azure_oauth/verify-outlook.png)
+![Permission page to grant access between newly created app and Odoo.](azure_oauth/verify-outlook.png)
 
 Then, allow Odoo to access the Microsoft account by clicking on Yes. After this, the
 page will navigate back to the newly configured Outgoing Mail Server in Odoo. The
 configuration automatically loads the token in Odoo, and a tag stating
 Outlook Token Valid appears in green.
 
-![Valid Outlook Token indicator.](applications/general/email_communication/azure_oauth/outlook-token.png)
+![Valid Outlook Token indicator.](azure_oauth/outlook-token.png)
 
 Finally, click Test Connection. A confirmation message should appear. The Odoo database
 can now send safe, secure emails through Microsoft Outlook using OAuth authentication.
@@ -172,7 +172,7 @@ When using this configuration, every email that is sent from the database will u
 the configured `notification` mailbox. However it should be noted that the name of the sender will
 appear but their email address will change:
 
-![Name from real sender with static email.](applications/general/email_communication/azure_oauth/from-name-remain.png)
+![Name from real sender with static email.](azure_oauth/from-name-remain.png)
 
 #### User-specific (multiple user) configuration
 

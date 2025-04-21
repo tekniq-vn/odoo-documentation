@@ -99,4 +99,4 @@ It is also possible to see  data in a pivot view, or a list displaying each time
 clicking the <i class="oi oi-view-pivot"></i> (pivot view) or <i class="oi oi-view-list"></i> (list
 view) buttons at the top-right corner of the page.
 
-![The dashboard of the OEE report.](applications/inventory_and_mrp/manufacturing/reporting/oee/oee-report.png)
+![The dashboard of the OEE report.](oee/oee-report.png)

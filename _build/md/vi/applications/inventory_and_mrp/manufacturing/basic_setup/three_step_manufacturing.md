@@ -27,7 +27,7 @@ Sau khi chuyển các thành phần ra khỏi vị trí lưu trữ của chúng,
 
 Cuối cùng, quay lại  bằng cách nhấp vào breadcrumb WH/MO/XXXXX ở đầu trang.
 
-![Breadcrumb của lệnh sản xuất trên một lệnh chuyển thành phần.](applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing/mo-bread-crumb.png)
+![Breadcrumb của lệnh sản xuất trên một lệnh chuyển thành phần.](three_step_manufacturing/mo-bread-crumb.png)
 
 ## Xử lý lệnh sản xuất
 
@@ -39,11 +39,11 @@ Cuối cùng, quay lại  bằng cách nhấp vào breadcrumb WH/MO/XXXXX ở đ
 
 Trên trang , chọn tab Công đoạn. Khi bắt đầu thực hiện công đoạn đầu tiên mà bạn cần hoàn thành, hãy nhấp vào nút Bắt đầu cho công đoạn này. Sau đó, Odoo *Sản xuất* khởi động một đồng hồ tính giờ để theo dõi thời gian cần để hoàn thành công đoạn.
 
-![Nút Bắt đầu cho công đoạn trong lệnh sản xuất.](applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing/start-button-2.png)
+![Nút Bắt đầu cho công đoạn trong lệnh sản xuất.](three_step_manufacturing/start-button-2.png)
 
 Khi hoàn thành, hãy nhấp vào nút Hoàn tất cho công đoạn đó. Lặp lại quy trình tương tự cho mỗi công đoạn được liệt kê trên tab Công đoạn.
 
-![Nút Hoàn tất cho công đoạn trong lệnh sản xuất.](applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing/done-button.png)
+![Nút Hoàn tất cho công đoạn trong lệnh sản xuất.](three_step_manufacturing/done-button.png)
 
 Sau khi hoàn thành tất cả công đoạn, hãy nhấp vào Sản xuất tất cả ở đầu màn hình để đánh dấu  là Hoàn tất và ghi nhận (các) sản phẩm đã sản xuất vào hàng tồn kho.
 
@@ -55,11 +55,11 @@ Trên , nhấp vào tab Công đoạn, sau đó chọn nút ↗️ (hình vuông
 
 Trên cửa sổ bật lên, chọn nút Mở Xưởng ở góc trên bên trái của cửa sổ để mở phân hệ *Xưởng*.
 
-![Nút Mở Xưởng để thực hiện công đoạn trong lệnh sản xuất.](applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing/shop-floor-button.png)
+![Nút Mở Xưởng để thực hiện công đoạn trong lệnh sản xuất.](three_step_manufacturing/shop-floor-button.png)
 
 Khi truy cập trực tiếp từ một công đoạn cụ thể trong , *Xưởng* mặc định là trang dành cho khu vực sản xuất nơi được cấu hình để thực hiện công đoạn. Trang này hiển thị một thẻ dành cho công đoạn và thẻ đó hiển thị số , sản phẩm và số lượng đơn vị cần sản xuất cũng như các bước cần thiết để hoàn thành công đoạn.
 
-![Thẻ công đoạn trên trang khu vực sản xuất trong phân hệ Xưởng.](applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing/work-order-card.png)
+![Thẻ công đoạn trên trang khu vực sản xuất trong phân hệ Xưởng.](three_step_manufacturing/work-order-card.png)
 
 Công đoạn được xử lý bằng cách hoàn thành từng bước đã liệt kê trên thẻ của công đoạn đó. Bạn có thể thực hiện việc này bằng cách nhấp vào một bước và làm theo hướng dẫn hiển thị trên cửa sổ bật lên. Khi hoàn thành bước này, hãy nhấp vào Tiếp theo để chuyển sang bước kế tiếp, nếu cần.
 

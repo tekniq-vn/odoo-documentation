@@ -21,7 +21,7 @@ Configuration ‣ Settings, select the POS, and activate Is a Bar/Restaurant.
 
 These features are displayed in the Restaurant & Bar section.
 
-![restaurant and bar-specific features](applications/sales/point_of_sale/restaurant/restaurant-bar-section.png)
+![restaurant and bar-specific features](restaurant/restaurant-bar-section.png)
 
 <a id="restaurant-orders"></a>
 

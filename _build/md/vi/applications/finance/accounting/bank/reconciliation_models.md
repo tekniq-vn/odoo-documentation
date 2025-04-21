@@ -36,14 +36,14 @@ New.
 If a record matches with several reconciliation models, the first one in the *sequence* of models
 is applied. You can rearrange the order by dragging and dropping the handle next to the name.
 
-![Rearrange the sequence of models in the list view.](applications/finance/accounting/bank/reconciliation_models/list-view.png)
+![Rearrange the sequence of models in the list view.](reconciliation_models/list-view.png)
 
 ### Invoices/Bills perfect match
 
 This model should be at the top of the *sequence* of models, as it enables Odoo to suggest matching
 existing invoices or bills with a bank transaction based on set conditions.
 
-![Set rules to trigger the reconciliation.](applications/finance/accounting/bank/reconciliation_models/invoices-bills-perfect-match.png)
+![Set rules to trigger the reconciliation.](reconciliation_models/invoices-bills-perfect-match.png)
 
 Odoo tự động đối chiếu thanh toán khi tùy chọn Tự động xác thực được chọn và các điều kiện của mô hình được đáp ứng hoàn hảo. Trong trường hợp này, hệ thống mong đợi tìm thấy tham chiếu hóa đơn/thanh toán (vì đã chọn Nhãn) và tên đối tác (vì đã chọn Đối tác đã được thiết lập) trên dòng sao kê ngân hàng để gợi ý bút toán đối ứng chính xác và tự động đối chiếu thanh toán.
 
@@ -57,7 +57,7 @@ counterpart entries tab.
 The reconciliation model Type is Rule to match invoices/bills, and the
 Payment tolerance should be set.
 
-![Set rules to trigger the reconciliation.](applications/finance/accounting/bank/reconciliation_models/partial-match.png)
+![Set rules to trigger the reconciliation.](reconciliation_models/partial-match.png)
 
 #### NOTE
 The Payment tolerance is only applicable to lower payments. It is disregarded when an
@@ -73,7 +73,7 @@ reconciliation model Type is Rule to suggest counterpart entry, and the
 Label can be used for example, to identify the information referring to the
 Bank fees in the label of the transaction.
 
-![Set rules to trigger the reconciliation.](applications/finance/accounting/bank/reconciliation_models/bank-fees.png)
+![Set rules to trigger the reconciliation.](reconciliation_models/bank-fees.png)
 
 #### NOTE
 [Regular expressions](https://regexone.com/), often abbreviated as **Regex**, can be used in
@@ -85,7 +85,7 @@ To use regular expressions in your reconciliation models, set the Transaction Ty
 to Match Regex and add your expression. Odoo automatically retrieves the
 transactions that match your Regex expression and the conditions specified in your model.
 
-![Using Regex in Odoo](applications/finance/accounting/bank/reconciliation_models/regex.png)
+![Using Regex in Odoo](reconciliation_models/regex.png)
 
 ## Partner mapping
 
@@ -94,4 +94,4 @@ Việc map đối tác cho phép bạn thiết lập quy tắc tự động kh�
 To create a partner mapping rule, go to the Partner Mapping tab and enter the
 Find Text in Label, Find Text in Notes, and Partner.
 
-![defining partner mapping](applications/finance/accounting/bank/reconciliation_models/partner-mapping.png)
+![defining partner mapping](reconciliation_models/partner-mapping.png)

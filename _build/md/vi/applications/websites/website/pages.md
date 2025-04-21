@@ -34,7 +34,7 @@ Pages need to be published to make them accessible to website visitors. To publi
 page, access it and toggle the switch in the upper-right corner from Unpublished
 to Published, or vice versa.
 
-![Unpublished/Published toggle](applications/websites/website/pages/un-published_toggle.png)
+![Unpublished/Published toggle](pages/un-published_toggle.png)
 
 #### NOTE
 It is also possible to:
@@ -72,7 +72,7 @@ The Name tab allows you to:
   - 301 Moved permanently: to redirect the page permanently;
   - 302 Moved temporarily: to redirect the page temporarily.
 
-  ![Redirect old URL](applications/websites/website/pages/page-redirection.png)
+  ![Redirect old URL](pages/page-redirection.png)
 
 You can further adapt the page's properties in the Publish tab:
 

@@ -40,7 +40,7 @@ Thông tin bổ sung được bao gồm trong biểu mẫu ban đầu. Gồm có
 
 Có thể thêm nhiều địa chỉ vào cả liên hệ Cá nhân và Công ty. Để thực hiện, nhấp vào Thêm trong tab Liên hệ & Địa chỉ. Sau đó, một biểu mẫu pop-up Tạo liên hệ sẽ hiển thị và bạn có thể cấu hình thêm các địa chỉ trong đó.
 
-![Thêm liên hệ/địa chỉ vào biểu mẫu liên hệ.](applications/essentials/contacts/contact-form-add-address.png)
+![Thêm liên hệ/địa chỉ vào biểu mẫu liên hệ.](contacts/contact-form-add-address.png)
 
 Trên biểu mẫu pop-up Tạo liên hệ, bắt đầu bằng cách nhấp vào trường mặc định Địa chỉ khác ở trên cùng để hiển thị menu thả xuống gồm các tùy chọn liên quan đến địa chỉ.
 
@@ -52,7 +52,7 @@ Chọn bất kỳ tùy chọn nào sau đây:
 - Địa chỉ khác: thêm địa chỉ thay thế vào biểu mẫu liên hệ hiện có.
 - Địa chỉ riêng tư: thêm địa chỉ riêng tư vào biểu mẫu liên hệ hiện có.
 
-![Tạo một liên hệ/địa chỉ mới trên biểu mẫu liên hệ.](applications/essentials/contacts/create-contact-window.png)
+![Tạo một liên hệ/địa chỉ mới trên biểu mẫu liên hệ.](contacts/create-contact-window.png)
 
 Sau khi chọn một tùy chọn, hãy nhập thông tin liên hệ tương ứng cần sử dụng cho loại địa chỉ đã chỉ định.
 

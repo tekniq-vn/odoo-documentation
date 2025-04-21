@@ -32,7 +32,7 @@ Settings ‣ Technical ‣ Emails: Alias Domains to access the configuration.
 An email to the catchall always needs to be a reply to a previous email sent from the database. If
 an email is sent directly to the catchall, the sender will receive the following message:
 
-![Bounce email from "MAILER-DEAMON" explaining how to contact the database.](applications/general/email_communication/email_servers_inbound/direct-mail-to-catchall.png)
+![Bounce email from "MAILER-DEAMON" explaining how to contact the database.](email_servers_inbound/direct-mail-to-catchall.png)
 
 #### NOTE
 Địa chỉ email `info@company-name.com` hiển thị trong ảnh chụp màn hình trên là địa chỉ email được thiết lập cho công ty. Khi bật chế độ nhà phát triển trên hồ sơ công ty, các tùy chọn cấu hình bổ sung (chẳng hạn như nhận tất cả và trả về) sẽ hiển thị. Có thể chỉnh sửa bằng cách nhấp vào liên kết nội bộ của Miền email. Thông thường, không nên thay đổi các tùy chọn này trừ khi có nhu cầu cụ thể, vì điều đó sẽ ảnh hưởng đến tất cả các phản hồi đối với email đã gửi trước đó.
@@ -63,7 +63,7 @@ could not be handled by Odoo.
 
 A notification will also be displayed in the Discuss icon on the navigation bar.
 
-![An email sent to a contact had an issue and the error is reported on the navbar.](applications/general/email_communication/email_servers_inbound/mail-error-notif-navbar.png)
+![An email sent to a contact had an issue and the error is reported on the navbar.](email_servers_inbound/mail-error-notif-navbar.png)
 
 <a id="email-inbound-default"></a>
 
@@ -84,7 +84,7 @@ On **Odoo.sh**, it is possible to use several Odoo subdomains. In the settings o
 additional Odoo subdomains can be added as long as they are not used yet in another branch. These
 domains must then be added to the alias domains to be used by a company.
 
-![Setting up an Odoo subdomain on a branch.](applications/general/email_communication/email_servers_inbound/custom-subdomain-sh.png)
+![Setting up an Odoo subdomain on a branch.](email_servers_inbound/custom-subdomain-sh.png)
 
 <a id="email-inbound-custom-domain"></a>
 
@@ -93,13 +93,13 @@ domains must then be added to the alias domains to be used by a company.
 The [alias domain](email_servers_outbound.md#email-outbound-alias-domain) must be selected in the general
 settings. If you have multiple companies, each one must be configured.
 
-![The alias domain in the general settings.](applications/general/email_communication/email_servers_inbound/alias-domain-settings.png)
+![The alias domain in the general settings.](email_servers_inbound/alias-domain-settings.png)
 
 All the aliases will use this custom domain. Replies on models for which an alias is configured
 are done to `[alias]@my-custom-domain.com`. Replies to other models are sent to the catchall through
 `catchall@my-custom-domain.com`.
 
-![Technical schema of mailing route when using a custom domain in Odoo.](applications/general/email_communication/email_servers_inbound/diagram-mail-custom-domain.png)
+![Technical schema of mailing route when using a custom domain in Odoo.](email_servers_inbound/diagram-mail-custom-domain.png)
 
 #### IMPORTANT
 If emails are sent using Odoo's email servers while using a custom domain, follow the
@@ -188,7 +188,7 @@ Odoo.sh
 
 The custom subdomain must be added to the [settings of the project](../../../administration/odoo_sh/getting_started/settings.md):
 
-![Adding a custom subdomain for mail to Odoo.sh project settings.](applications/general/email_communication/email_servers_inbound/custom-subdomain-sh.png)
+![Adding a custom subdomain for mail to Odoo.sh project settings.](email_servers_inbound/custom-subdomain-sh.png)
 
 <a id="email-inbound-loops"></a>
 
@@ -201,7 +201,7 @@ a specific time span.
 By default, an email address can send up to 20 emails in 120 minutes. If more emails are sent, they
 are blocked and the sender receives the following message:
 
-![Bounce email received after attempting contact too many times an alias.](applications/general/email_communication/email_servers_inbound/bounce-mail-loop.png)
+![Bounce email received after attempting contact too many times an alias.](email_servers_inbound/bounce-mail-loop.png)
 
 To change the default behavior, enable [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode), then go to Settings
 ‣ Technical ‣ Parameters: System Parameters to add two parameters.
@@ -236,7 +236,7 @@ Click New. Then, type in `mail.catchall.domain.allowed` for the Key field.
 Next, for the Value field, add the domains separated by commas. Manually
 <i class="fa fa-cloud-upload"></i> (Save), and the system parameter takes immediate effect.
 
-![mail.catchall.domain.allowed system parameter set.](applications/general/email_communication/email_servers_inbound/allowed-domain.png)
+![mail.catchall.domain.allowed system parameter set.](email_servers_inbound/allowed-domain.png)
 
 ## Phát hiện gửi đến dựa trên phần cục bộ
 

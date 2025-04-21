@@ -11,7 +11,7 @@ both fields with the information to be printed on the receipts.
 To **print receipts** automatically once the payment is registered, enable the Automatic
 Receipt Printing setting.
 
-![biên lai POS](applications/sales/point_of_sale/receipts_invoices/receipt.png)
+![biên lai POS](receipts_invoices/receipt.png)
 
 #### SEE ALSO
 - [Hoá đơn](restaurant/bill_printing.md)
@@ -23,7 +23,7 @@ From the POS interface, click Orders, open the dropdown selection menu next to t
 search bar, and change the default All active orders filter to Paid. Then,
 select the corresponding order and click Print Receipt.
 
-![Print receipt button from the backend](applications/sales/point_of_sale/receipts_invoices/print-receipt.png)
+![Print receipt button from the backend](receipts_invoices/print-receipt.png)
 
 #### NOTE
 You can filter the list of orders using the search bar. Type in your reference and click
@@ -47,7 +47,7 @@ To define what journals will be used for a specific POS, go to the [POS' setting
 accounting journals used by default for orders and invoices in the Default Journals
 section.
 
-![accounting section in the POS settings](applications/sales/point_of_sale/receipts_invoices/invoice-config.png)
+![accounting section in the POS settings](receipts_invoices/invoice-config.png)
 
 ### Invoice a customer
 
@@ -69,7 +69,7 @@ To retrieve invoices from the **POS dashboard**,
 2. to access an order's invoice, open the **order form** by selecting the order, then click
    Invoice.
 
-![invoice smart button from an order form](applications/sales/point_of_sale/receipts_invoices/invoice-smart-button.png)
+![invoice smart button from an order form](receipts_invoices/invoice-smart-button.png)
 
 #### NOTE
 - **Invoiced orders** can be identified by the Invoiced status in the
@@ -81,7 +81,7 @@ To retrieve invoices from the **POS dashboard**,
 
 Khách hàng cũng có thể yêu cầu hóa đơn bằng cách quét **mã QR** được in trên biên lai. Sau khi quét, họ cần điền thông tin thanh toán vào biểu mẫu và nhấp vào Lấy hóa đơn của tôi. Một mặt, thao tác này sẽ tạo ra hóa đơn có sẵn để tải xuống. Mặt khác, trạng thái đơn hàng sẽ chuyển từ Đã thanh toán hoặc Đã ghi sổ sang Đã xuất hóa đơn trong backend Odoo.
 
-![order status change](applications/sales/point_of_sale/receipts_invoices/order-status.png)
+![order status change](receipts_invoices/order-status.png)
 
 To use this feature, you have to enable QR codes on receipts by going to Point of
 Sale ‣ Configuration ‣ Settings. Then, select the POS in the Point of Sale field,

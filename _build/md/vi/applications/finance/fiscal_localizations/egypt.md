@@ -34,12 +34,12 @@ these codes to [configure your Odoo Accounting app](#egypt-e-invoicing-configura
 
 Access your company profile on the ETA portal by clicking on View Taxpayer Profile.
 
-![Clicking on "View Taxpayer Profile" on an ETA invoicing portal](applications/finance/fiscal_localizations/egypt/taxpayer-profile.png)
+![Clicking on "View Taxpayer Profile" on an ETA invoicing portal](egypt/taxpayer-profile.png)
 
 Next, go to the Representatives section and then click on Register ERP.
 Fill out the ERP Name (e.g., `Odoo`) and leave the other fields empty.
 
-![Filling out of the form to register an ERP system on the ETA portal.](applications/finance/fiscal_localizations/egypt/add-erp-system.png)
+![Filling out of the form to register an ERP system on the ETA portal.](egypt/add-erp-system.png)
 
 Once successfully registered, the website displays your API credentials:
 
@@ -60,7 +60,7 @@ To connect your Odoo database to your ETA portal account, go to Accounting ‣
 Configuration ‣ Settings ‣ ETA E-Invoicing Settings, and set the ETA Client ID and
 ETA Secret that you retrieved when you [registered Odoo on your ETA portal](#egypt-e-invoicing-eta-portal). Set an invoicing threshold if needed.
 
-![Configuration of the ETA E-Invoicing credentials in Odoo Accounting](applications/finance/fiscal_localizations/egypt/eta-api-integration.png)
+![Configuration of the ETA E-Invoicing credentials in Odoo Accounting](egypt/eta-api-integration.png)
 
 #### IMPORTANT
 - **Test on your preproduction portal** before starting to issue real invoices on the production
@@ -117,7 +117,7 @@ Egyptian ETA settings section:
 - Set the ETA Activity Code.
 - Set the ETA Branch ID (use `0` if you have one branch only).
 
-![Sales journal configuration of an Egyptian company's branch](applications/finance/fiscal_localizations/egypt/branch-journal.png)
+![Sales journal configuration of an Egyptian company's branch](egypt/branch-journal.png)
 
 #### IMPORTANT
 The contact selected in the Branch field must be set as a Company
@@ -175,7 +175,7 @@ installation on your computer.
 
 Select Odoo IoT as the type of install.
 
-![Selection of "Odoo IoT" during the installation of Odoo Community.](applications/finance/fiscal_localizations/egypt/install-odoo-local-proxy.png)
+![Selection of "Odoo IoT" during the installation of Odoo Community.](egypt/install-odoo-local-proxy.png)
 
 #### NOTE
 This installation of Odoo only works as a server and does not install any Odoo apps on your
@@ -201,4 +201,4 @@ Once the local proxy server is installed on your computer, you can link it with 
    installation](#egypt-e-invoicing-local-proxy), then click on Save.
 3. Click on Get certificate.
 
-![Creating a new thumb drive for the e-invoicing of an egyptian company.](applications/finance/fiscal_localizations/egypt/thumb-drive.png)
+![Creating a new thumb drive for the e-invoicing of an egyptian company.](egypt/thumb-drive.png)

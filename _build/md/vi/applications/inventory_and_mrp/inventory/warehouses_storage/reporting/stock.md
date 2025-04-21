@@ -8,7 +8,7 @@ The reporting feature is only accessible to users with [admin access](../../../.
 
 To access the stock report, go to Inventory app ‣ Reporting ‣ Stock.
 
-![Show the stock report, accessible by going to Inventory > Reporting > Stock.](applications/inventory_and_mrp/inventory/warehouses_storage/reporting/stock/stock-report.png)
+![Show the stock report, accessible by going to Inventory > Reporting > Stock.](stock/stock-report.png)
 
 ## Navigate the stock report
 
@@ -66,7 +66,7 @@ find specific stock records.
   of Sale* app. Appears in the search because the Available in Self Order checkbox
   was ticked in the Point of Sale section of a product form's Sales
   tab. The option is only available when the Available in POS checkbox is ticked.
-  ![In the Sales tab of a product form, showing *Available in Self Order* setting.](applications/inventory_and_mrp/inventory/warehouses_storage/reporting/stock/available-in-self-order.png)
+  ![In the Sales tab of a product form, showing *Available in Self Order* setting.](stock/available-in-self-order.png)
 - Not available in Self: display products available in *PoS*, but not available in
   self order.
 

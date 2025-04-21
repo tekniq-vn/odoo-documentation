@@ -45,7 +45,7 @@ unbuilt.
 Finally, once the product has been unbuilt, click the Unbuild button at the top of the
 order to confirm that it has been completed.
 
-![A filled-out unbuild order.](applications/inventory_and_mrp/manufacturing/workflows/unbuild_orders/unbuild-order.png)
+![A filled-out unbuild order.](unbuild_orders/unbuild-order.png)
 
 #### WARNING
 While it is possible to create unbuild orders for products that have zero (or fewer) units
@@ -59,7 +59,7 @@ bottom of the pop-up window. To return to the unconfirmed unbuild order, click
 Discard, instead.
 
 ![The insufficient quantity pop-up that appears after trying to confirm an unbuild order
-for a product with zero or fewer units on hand.](applications/inventory_and_mrp/manufacturing/workflows/unbuild_orders/insufficient-quantity.png)
+for a product with zero or fewer units on hand.](unbuild_orders/insufficient-quantity.png)
 
 After completing an unbuild order, inventory counts automatically update, based on the quantity of
 products unbuilt, and the quantity of components reclaimed.

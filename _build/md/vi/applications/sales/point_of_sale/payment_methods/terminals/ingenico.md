@@ -29,7 +29,7 @@ documentation](../../../../general/iot.md).
 
 At this point, the terminal restarts and should be displayed on the IoT system's form in Odoo.
 
-![image](applications/sales/point_of_sale/payment_methods/terminals/ingenico/payment_terminal_02.png)
+![image](ingenico/payment_terminal_02.png)
 
 ### Configure the payment method
 
@@ -38,7 +38,7 @@ Enable the payment terminal [in the application settings](../../configuration.md
 Bank and select Ingenico in the Use a Payment Terminal field.
 Then, select your terminal device in the Payment Terminal Device field.
 
-![image](applications/sales/point_of_sale/payment_methods/terminals/ingenico/payment-method.png)
+![image](ingenico/payment-method.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
 [POS' settings](../../configuration.md#configuration-settings), click Edit, and add the payment method

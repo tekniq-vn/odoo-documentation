@@ -135,7 +135,7 @@ Then, create a vendor batch payment:
 Once validated, the Bacs file is available in the chatter. You can also Re-generate
 Export File if you need a new Bacs file for that batch payment.
 
-![Vendor Batch Payment view with generated BACS file.](applications/finance/fiscal_localizations/united_kingdom/bacs-files.png)
+![Vendor Batch Payment view with generated BACS file.](united_kingdom/bacs-files.png)
 
 ### Invoice payments
 

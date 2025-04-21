@@ -24,21 +24,21 @@ To do so, open a to-do and click the gear button (⚙), then Convert to Task.
 Next, select the Project, Assignees, and Tags, then click
 Convert to Task. The to-do is now a project task and appears in the selected project.
 
-![Converting a to-do into a task](applications/productivity/to_do/convert-task-button.png)
+![Converting a to-do into a task](to_do/convert-task-button.png)
 
 ## Managing the to-do pipeline
 
 Your assigned **to-dos** are displayed on the app dashboard. You can drag and drop a to-do to move
 it from one stage to another.
 
-![Example of a to-do pipeline](applications/productivity/to_do/to-do-pipeline.png)
+![Example of a to-do pipeline](to_do/to-do-pipeline.png)
 
 ### Lên lịch hoạt động
 
 To schedule an activity on a to-do, click the clock button on the app dashboard, then the
 + Schedule an activity button.
 
-![Scheduling an activity from the To-do dashboard](applications/productivity/to_do/schedule-activity.png)
+![Scheduling an activity from the To-do dashboard](to_do/schedule-activity.png)
 
 To create the activity:
 
@@ -58,7 +58,7 @@ The To Do activity is *not* a to-do task. Selecting it does not create a to-do t
 If you use the [Project app](../services/project.md), your to-dos also appear as private tasks
 under the My Tasks view.
 
-![Example of a "My Tasks" pipeline in the Project app](applications/productivity/to_do/my-task-pipeline.png)
+![Example of a "My Tasks" pipeline in the Project app](to_do/my-task-pipeline.png)
 
 #### NOTE
 A padlock icon is visible on your private tasks to quickly identify them among your project

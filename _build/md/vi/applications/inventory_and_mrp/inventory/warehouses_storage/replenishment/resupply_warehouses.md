@@ -20,7 +20,7 @@ The initial configuration for both replenishment strategies is the same. First g
 Inventory app ‣ Configuration ‣ Settings. In the Warehouse section,
 activate Storage Locations. Then, click Save to apply the setting.
 
-![Enable Storage Locations in Inventory settings.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses/storage-locations.png)
+![Enable Storage Locations in Inventory settings.](resupply_warehouses/storage-locations.png)
 
 ### Kho hàng
 
@@ -43,7 +43,7 @@ resupply this warehouse.
 #### SEE ALSO
 [Kho hàng](../inventory_management/warehouses.md)
 
-![Supply one warehouse with another in the Warehouse Configuration tab.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses/warehouse.png)
+![Supply one warehouse with another in the Warehouse Configuration tab.](resupply_warehouses/warehouse.png)
 
 ### Set route on a product
 
@@ -100,11 +100,11 @@ After completing the setup, trigger replenishment using one of several methods, 
 
   Click the Replenish button on the top-left of the product page. In the pop-up window,
   set the warehouse to the retail shop, (e.g. `Store`), and click Confirm.
-  ![Replenish pop-up window on the product form.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses/replenish.png)
+  ![Replenish pop-up window on the product form.](resupply_warehouses/replenish.png)
 - Create a quotation, and in the Other Info tab, set the Warehouse to the
   retail shop (e.g. `Store`), when selling the product makes the on-hand quantity of the product go
   below the minimum set on the reordering rule.
-  ![Create a quote at the store.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses/warehouse-field.png)
+  ![Create a quote at the store.](resupply_warehouses/warehouse-field.png)
 
 Once triggered, Odoo creates two transfers: One is a *delivery order* from the central, supplying
 warehouse, which contains all the necessary products to the store, and the second is a *receipt* at

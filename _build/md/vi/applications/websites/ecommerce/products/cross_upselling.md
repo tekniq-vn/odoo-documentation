@@ -23,7 +23,7 @@ To enable **optional products**, go to Website ‣ eCommerce ‣ Products, selec
 product, go to the Sales tab, and enter the products you wish to feature in the
 Optional Products field.
 
-![Optional products cross-selling](applications/websites/ecommerce/products/cross_upselling/add-to-cart.png)
+![Optional products cross-selling](cross_upselling/add-to-cart.png)
 
 <a id="ecommerce-cross-upselling-accessory"></a>
 
@@ -36,7 +36,7 @@ To enable **accessory products**, go to Website ‣ eCommerce ‣ Products, sele
 a product, go to the Sales tab, and enter the products you wish to feature in the
 Accessory Products field.
 
-![Suggested accessories at checkout during cart review](applications/websites/ecommerce/products/cross_upselling/accessory-products.png)
+![Suggested accessories at checkout during cart review](cross_upselling/accessory-products.png)
 
 <a id="ecommerce-cross-upselling-alternative"></a>
 
@@ -46,7 +46,7 @@ You can display **alternative products** at the bottom of the product page as an
 technique, encouraging customers to consider a more expensive variant or product than their
 initial choice by presenting appealing alternatives.
 
-![Alternative products on the product page](applications/websites/ecommerce/products/cross_upselling/cross_upselling-alternative.png)
+![Alternative products on the product page](cross_upselling/cross_upselling-alternative.png)
 
 To enable alternative products, navigate to Website ‣ eCommerce ‣ Products,
 select the desired product, and go to the Sales tab. In the

@@ -44,7 +44,7 @@ Grid or Cols as the Layout.
 The Grid layout allows you to reposition and resize elements, such as images or text, by
 dragging and dropping them.
 
-![When the grid layout is selected, choose an image and drag and drop it where needed.](applications/websites/website/web_design/building_blocks/grid-layout.png)
+![When the grid layout is selected, choose an image and drag and drop it where needed.](building_blocks/grid-layout.png)
 
 <a id="building-blocks-cols"></a>
 
@@ -58,14 +58,14 @@ By default, **on mobile devices**, one element is visible per line to ensure tha
 easily readable and accessible on smaller screens. To adjust the value, click the <i class="fa fa-mobile"></i>
 (mobile icon) at the top of the website editor and adapt the number of columns.
 
-![Adjust the number of images per line on mobile view.](applications/websites/website/web_design/building_blocks/cols.png)
+![Adjust the number of images per line on mobile view.](building_blocks/cols.png)
 
 ## Duplicating a building block
 
 You can duplicate a building block by clicking on the duplicate icon. Once duplicated, the new block
 appears on your website beneath the original one.
 
-![Duplicating a building block](applications/websites/website/web_design/building_blocks/duplicate-container.png)
+![Duplicating a building block](building_blocks/duplicate-container.png)
 
 ## Reordering a building block
 
@@ -74,7 +74,7 @@ or click the down arrow to move it after.
 
 You can also use the drag-and-drop icon to move a block manually.
 
-![Reordering building blocks](applications/websites/website/web_design/building_blocks/reordering-blocks.png)
+![Reordering building blocks](building_blocks/reordering-blocks.png)
 
 ## Saving a custom building block
 
@@ -82,12 +82,12 @@ You can save a customized building block and reuse it elsewhere. To do so, selec
 the Customize tab, and click the <i class="fa fa-floppy-o"></i> (floppy disk) icon to
 save it.
 
-![Saving a building block](applications/websites/website/web_design/building_blocks/saving-custom-block.png)
+![Saving a building block](building_blocks/saving-custom-block.png)
 
 Saved building blocks are available in the Custom section of the Blocks tab.
 Click the <i class="fa fa-pencil"></i> (pen) icon to edit their name.
 
-![Custom section with saved building blocks](applications/websites/website/web_design/building_blocks/custom-blocks.png)
+![Custom section with saved building blocks](building_blocks/custom-blocks.png)
 
 <a id="building-blocks-visibility"></a>
 
@@ -99,7 +99,7 @@ You can hide specific elements depending on the visitor's device. To do so, sele
 hide, and in the Customize tab, scroll down to Visibility, and click the
 Show/Hide on Mobile or the Show/Hide on Desktop icon.
 
-![Click the "show/hide on mobile" icons to show or hide some elements on mobile.](applications/websites/website/web_design/building_blocks/show-hide-on-mobile.png)
+![Click the "show/hide on mobile" icons to show or hide some elements on mobile.](building_blocks/show-hide-on-mobile.png)
 
 ### Conditional visibility
 

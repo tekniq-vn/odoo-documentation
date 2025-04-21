@@ -4,7 +4,7 @@ A *workflow* is the overall *activity* structure of a marketing automation campa
 be a single workflow in each campaign. However, a workflow can be made up of any number of
 [activities](#marketing-automation-activities) to meet the needs of the campaign.
 
-![A workflow in an Odoo Marketing Automation campaign.](applications/marketing/marketing_automation/workflow_activities/workflow-activities.png)
+![A workflow in an Odoo Marketing Automation campaign.](workflow_activities/workflow-activities.png)
 
 <a id="marketing-automation-activities"></a>
 
@@ -30,7 +30,7 @@ workflow, or click Save & New to add the activity to the workflow and open a new
 Create Activities pop-up window to add another activity. Clicking Discard
 closes the pop-up window without saving the activity.
 
-![The create activities pop-up window.](applications/marketing/marketing_automation/workflow_activities/create-activities.png)
+![The create activities pop-up window.](workflow_activities/create-activities.png)
 
 <a id="marketing-automation-activity-types"></a>
 
@@ -56,7 +56,7 @@ To create a new template directly from the Mail Template field, start typing the
 of the new template, then select Create and edit... to reveal a Create
 Marketing Template pop-up window. Proceed to create and configure the new email template.
 
-![The create and edit email drop-down option on create activities pop-up window.](applications/marketing/marketing_automation/workflow_activities/email-activity-type.png)
+![The create and edit email drop-down option on create activities pop-up window.](workflow_activities/email-activity-type.png)
 
 Once the email template is configured, click Save & Close to save the activity, and
 return to the Create Activities pop-up window, in order to continue to configure the
@@ -78,7 +78,7 @@ Pick a Server Action in the Server Action field is available. This field is
 a drop-down menu containing all the pre-configured server actions for the campaign's
 Target model. Optionally, [create a new server action](#marketing-automation-create-sa).
 
-![The Server Action drop-down menu on create activities pop-up window.](applications/marketing/marketing_automation/workflow_activities/sa-activity-type.png)
+![The Server Action drop-down menu on create activities pop-up window.](workflow_activities/sa-activity-type.png)
 
 After selecting a pre-configured server action, no other activity type configuration is needed.
 Click Save & Close to save the activity, and return to the Create Activities
@@ -93,7 +93,7 @@ Action field a title for the new action, then click Create and edit.... Doing so
 reveals a blank Create Server Action pop-up window, wherein a custom server action can
 be created and configured.
 
-![The Create Server Action pop-up window.](applications/marketing/marketing_automation/workflow_activities/create-sa.png)
+![The Create Server Action pop-up window.](workflow_activities/create-sa.png)
 
 On the Create Server Action pop-up window, select the Type of server action.
 The configuration fields change, depending on the selected Type:
@@ -124,7 +124,7 @@ To create a new template directly from the SMS Template field, start typing the 
 the new template, and select Create and edit... to reveal a Create Marketing
 Template pop-up window. Proceed to create and configure the new SMS template.
 
-![The create and edit email drop-down option on create activities pop-up window.](applications/marketing/marketing_automation/workflow_activities/sms-activity-type.png)
+![The create and edit email drop-down option on create activities pop-up window.](workflow_activities/sms-activity-type.png)
 
 Once the SMS template is configured, click Save & Close to save the activity, and return
 to the Create Activities pop-up window, in order to configure the [trigger](#marketing-automation-trigger).
@@ -140,7 +140,7 @@ Once an [activity type](#marketing-automation-activity-types) is configured, the
 the Create Activities pop-up window is to define when the activity should be executed.
 This is done in the Trigger field group.
 
-![The trigger field group on Create Activities pop-up window.](applications/marketing/marketing_automation/workflow_activities/trigger.png)
+![The trigger field group on Create Activities pop-up window.](workflow_activities/trigger.png)
 
 To set an execution delay for the activity from when the [trigger type](#marketing-automation-trigger-type) occurs, type a whole number in the *interval number* input
 (e.g. `2` is valid, `0` is also valid, and `1.5` is not).
@@ -226,7 +226,7 @@ Action*), and are as follows:
 
 Email
 
-![The trigger types for child activities of an email activity.](applications/marketing/marketing_automation/workflow_activities/email-trigger-types.png)
+![The trigger types for child activities of an email activity.](workflow_activities/email-trigger-types.png)
 
 Each trigger the child activity on the following conditions of the parent activity:
 
@@ -241,7 +241,7 @@ Each trigger the child activity on the following conditions of the parent activi
 
 Tác vụ phía máy chủ
 
-![The trigger types for child activities of a server action activity.](applications/marketing/marketing_automation/workflow_activities/sa-trigger-types.png)
+![The trigger types for child activities of a server action activity.](workflow_activities/sa-trigger-types.png)
 
 Triggers the child activity on the following condition of the parent activity:
 
@@ -249,7 +249,7 @@ Triggers the child activity on the following condition of the parent activity:
 
 SMS
 
-![The trigger types for child activities of an SMS activity.](applications/marketing/marketing_automation/workflow_activities/sms-trigger-types.png)
+![The trigger types for child activities of an SMS activity.](workflow_activities/sms-trigger-types.png)
 
 Each trigger the child activity on the following conditions of the parent activity:
 

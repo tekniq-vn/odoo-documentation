@@ -8,16 +8,16 @@ review its potential, and gauge its viability, before the opportunity is assigne
 To activate the *Leads* setting, navigate to CRM app ‣ Configuration ‣ Settings
 and check the box labeled, Leads. Then, click Save.
 
-![Leads setting on CRM configuration page.](applications/sales/crm/acquire_leads/convert/convert-leads-leads-setting.png)
+![Leads setting on CRM configuration page.](convert/convert-leads-leads-setting.png)
 
 Activating this feature adds a new menu option, Leads, to the header bar, located along
 the top of the screen.
 
-![Leads menu on CRM application.](applications/sales/crm/acquire_leads/convert/convert-leads-leads-menu.png)
+![Leads menu on CRM application.](convert/convert-leads-leads-menu.png)
 
 Sau khi cài đặt *Lead* được kích hoạt, nó sẽ áp dụng cho tất cả bộ phận sales theo mặc định. Để tắt tính năng lead cho một bộ phận cụ thể, hãy đi đến Ứng dụng CRM ‣ Cấu hình ‣ Bộ phận Sales. Sau đó, chọn một bộ phận từ danh sách để mở trang cấu hình của bộ phận đó. Bỏ chọn hộp kiểm Lead, nằm bên dưới trường Bộ phận sales, rồi nhấp Lưu.
 
-![Leads menu on CRM application.](applications/sales/crm/acquire_leads/convert/convert-leads-leads-button.png)
+![Leads menu on CRM application.](convert/convert-leads-leads-button.png)
 
 ## Convert a lead into an opportunity
 
@@ -29,11 +29,11 @@ If a Similar Leads smart button appears at the top of the page for the lead, it
 indicates a similar lead or opportunity already exists in the database. Before converting this
 lead, click the smart button to confirm if the lead should be merged.
 
-![Close up of a lead with emphasis on the Similar Leads smart button.](applications/sales/crm/acquire_leads/convert/similar-leads-smart-button.png)
+![Close up of a lead with emphasis on the Similar Leads smart button.](convert/similar-leads-smart-button.png)
 
 Click the Convert to Opportunity button, located at the top-left of the page.
 
-![Create opportunity button on a lead record.](applications/sales/crm/acquire_leads/convert/convert-leads-convert-opp-button.png)
+![Create opportunity button on a lead record.](convert/convert-leads-convert-opp-button.png)
 
 This opens a Convert to opportunity pop-up modal. Here, in the Conversion
 Action field, select the Convert to opportunity option.
@@ -56,7 +56,7 @@ assignments.
 If the lead has already been assigned to a salesperson or a team, these fields automatically
 populate with that information.
 
-![Create opportunity pop-up.](applications/sales/crm/acquire_leads/convert/convert-leads-conversion-action.png)
+![Create opportunity pop-up.](convert/convert-leads-conversion-action.png)
 
 Under the Customer heading, choose from the following options:
 

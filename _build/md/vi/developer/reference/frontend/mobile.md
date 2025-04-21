@@ -22,7 +22,7 @@ These features work with **Odoo Enterprise 10.0+** only
 
 Internal workings of the mobile application:
 
-![image](developer/reference/frontend/mobile/mobile_working.jpg)
+![image](mobile/mobile_working.jpg)
 
 Of course, it is a web page that loads on a Mobile Native Web container. But it
 is integrated in such a way that you can access native resources from your web
@@ -45,7 +45,7 @@ from the Native resources. For example the Camera or GPS Location.
 Just like the Odoo Web Framework, the Mobile API can be used anywhere by getting the object from
 **web_mobile.rpc**
 
-![image](developer/reference/frontend/mobile/odoo_mobile_api.png)
+![image](mobile/odoo_mobile_api.png)
 
 The mobile RPC object provides a list of methods that are available (this only works with the mobile
 app).
@@ -73,7 +73,7 @@ remains visible and interactive.
 mobile.methods.showToast({'message': 'Message sent'});
 ```
 
-![image](developer/reference/frontend/mobile/toast.png)
+![image](mobile/toast.png)
 
 #### Vibrating device
 
@@ -113,7 +113,7 @@ mobile.methods.showSnackBar({'message': 'Message is deleted', 'btn_text': 'Undo'
 });
 ```
 
-![image](developer/reference/frontend/mobile/snackbar.png)
+![image](mobile/snackbar.png)
 
 #### Showing notification
 
@@ -133,7 +133,7 @@ view at any time.
 mobile.showNotification({'title': 'Simple Notification', 'message': 'This is a test for a simple notification'})
 ```
 
-![image](developer/reference/frontend/mobile/mobile_notification.png)
+![image](mobile/mobile_notification.png)
 
 #### Create contact in device
 
@@ -166,7 +166,7 @@ var contact = {
 mobile.methods.addContact(contact);
 ```
 
-![image](developer/reference/frontend/mobile/mobile_contact_create.png)
+![image](mobile/mobile_contact_create.png)
 
 #### Scanning barcodes
 
@@ -200,4 +200,4 @@ Use switchAccount to switch from one account to another on the device.
 mobile.methods.switchAccount();
 ```
 
-![image](developer/reference/frontend/mobile/mobile_switch_account.png)
+![image](mobile/mobile_switch_account.png)

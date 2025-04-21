@@ -56,4 +56,4 @@ Admin has the lowest performance in terms of referrals, as he has only one appli
 This information can be helpful to the recruitment team, so they can determine the most active
 referrers in the company, and who is the most successful in terms of hires.
 
-![The customized report showing which employees have the most referrals and hires.](applications/hr/referrals/reporting/employee-counts.png)
+![The customized report showing which employees have the most referrals and hires.](reporting/employee-counts.png)

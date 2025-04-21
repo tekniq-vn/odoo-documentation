@@ -15,7 +15,7 @@ Similar leads and opportunities are identified by comparing the *email address* 
 of the associated contact. If a similar lead/opportunity is found, a *Similar Leads* smart button
 appears at the top of the lead (or opportunity) record.
 
-![An opportunity record with emphasis on the Similar Leads smart button.](applications/sales/crm/pipeline/merge_similar/similar-smart-button.png)
+![An opportunity record with emphasis on the Similar Leads smart button.](merge_similar/similar-smart-button.png)
 
 ### Comparing similar leads and opportunities
 
@@ -46,7 +46,7 @@ appropriate drop-down menus.
 Below those fields, the leads/opportunities to merge are listed, along with their related
 information. To merge those selected leads/opportunities, click Merge.
 
-![List of similar leads and opportunities selected for merge in the CRM app.](applications/sales/crm/pipeline/merge_similar/select-merge.png)
+![List of similar leads and opportunities selected for merge in the CRM app.](merge_similar/select-merge.png)
 
 ## When leads/opportunities should not be merged
 

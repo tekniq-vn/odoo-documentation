@@ -25,7 +25,7 @@ displayed in a card-like structure. We will build such a view for our real estat
 #### NOTE
 **Goal**: at the end of this section a Kanban view of the properties should be created:
 
-![Kanban view](developer/tutorials/server_framework_101/14_qwebintro/kanban.png)
+![Kanban view](14_qwebintro/kanban.png)
 
 In our estate application, we would like to add a Kanban view to display our properties. Kanban
 views are a standard Odoo view (like the form and list views), but their structure is much more

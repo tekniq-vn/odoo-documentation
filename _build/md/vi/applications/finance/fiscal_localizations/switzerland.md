@@ -6,11 +6,11 @@ The ISRs are payment slips used in Switzerland. You can print them
 directly from Odoo. On the customer invoices, there is a new button
 called *Print ISR*.
 
-![image](applications/finance/fiscal_localizations/switzerland/switzerland00.png)![image](applications/finance/fiscal_localizations/switzerland/switzerland01.png)
+![image](switzerland/switzerland00.png)![image](switzerland/switzerland01.png)
 
 Then you open a pdf with the ISR.
 
-![image](applications/finance/fiscal_localizations/switzerland/switzerland02.png)
+![image](switzerland/switzerland02.png)
 
 There exists two layouts for ISR: one with, and one without the bank
 coordinates. To choose which one to use, there is an option to print the
@@ -18,7 +18,7 @@ bank information on the ISR. To activate it, go in
 Accounting ‣ Configuration ‣ Settings ‣ Customer Invoices
 and enable **Print bank on ISR**:
 
-![image](applications/finance/fiscal_localizations/switzerland/switzerland03.png)
+![image](switzerland/switzerland03.png)
 
 ### ISR reference on invoices
 
@@ -27,7 +27,7 @@ invoices.
 
 Để thực hiện việc này, bạn cần cấu hình Sổ nhật ký thường dùng để xuất hóa đơn. Truy cập Kế toán ‣ Cấu hình ‣ Sổ nhật ký, mở Sổ nhật ký bạn muốn chỉnh sửa (Theo mặc định, Sổ nhật ký có tên *Hóa đơn bán hàng*), nhấp vào *Chỉnh sửa* và mở tab *Cài đặt nâng cao*. Trong trường **Tiêu chuẩn nội dung**, chọn *Thụy Sĩ* và nhấp *Lưu*.
 
-![Configure your Journal to display your ISR as payment reference on your invoices in Odoo](applications/finance/fiscal_localizations/switzerland/switzerland-isr-reference.png)
+![Configure your Journal to display your ISR as payment reference on your invoices in Odoo](switzerland/switzerland-isr-reference.png)
 
 ## Currency Rate Live Update
 
@@ -36,7 +36,7 @@ Tax Administration from Switzerland. For this, go in
 Accounting ‣ Settings, activate the multi-currencies setting and choose the service
 you want.
 
-![image](applications/finance/fiscal_localizations/switzerland/switzerland04.png)
+![image](switzerland/switzerland04.png)
 
 ## Updated VAT for January 2018
 
@@ -53,7 +53,7 @@ If you have started on an earlier version, you first have to update the
 module "Switzerland - Accounting Reports". For this, you go in
 Apps ‣ remove the filter "Apps" ‣ search for "Switzerland - Accounting Reports" ‣ open the module ‣ click on "upgrade".
 
-![image](applications/finance/fiscal_localizations/switzerland/switzerland05.png)
+![image](switzerland/switzerland05.png)
 
 Once it has been done, you can work on creating new taxes for the
 updated rates.

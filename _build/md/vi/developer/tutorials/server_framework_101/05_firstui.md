@@ -96,7 +96,7 @@ Restart the server and you should see the file loaded in the log.
 **Goal**: at the end of this section, three menus should be created and the default view is
 displayed:
 
-![Root menus](developer/tutorials/server_framework_101/05_firstui/estate_menu_root.png)![First level and action menus](developer/tutorials/server_framework_101/05_firstui/estate_menu_action.png)![Default form view](developer/tutorials/server_framework_101/05_firstui/estate_form_default.png)
+![Root menus](05_firstui/estate_menu_root.png)![First level and action menus](05_firstui/estate_menu_action.png)![Default form view](05_firstui/estate_form_default.png)
 
 To reduce the complexity in declaring a menu (`ir.ui.menu`) and connecting it to the corresponding action,
 we can use the `<menuitem>` shortcut .
@@ -117,7 +117,7 @@ However, menus always follow an architecture, and in practice there are three le
    dropdown menu)
 2. The first level menu, displayed in the top bar
 3. The action menus
-   ![Root menus](developer/tutorials/server_framework_101/05_firstui/menu_01.png)![First level and action menus](developer/tutorials/server_framework_101/05_firstui/menu_02.png)
+   ![Root menus](05_firstui/menu_01.png)![First level and action menus](05_firstui/menu_02.png)
 
 The easiest way to define the structure is to create it in the XML file. A basic
 structure for our `test_model_action` is:
@@ -142,7 +142,7 @@ and you'll even be able to create your first real estate property advertisement!
 of bedrooms and the availability date should have default values. Additionally the selling price
 and availability date values won't be copied when the record is duplicated.
 
-![Interaction between model and view](developer/tutorials/server_framework_101/05_firstui/attribute_and_default.gif)
+![Interaction between model and view](05_firstui/attribute_and_default.gif)
 
 The reserved fields `active` and `state` are added to the `estate.property` model.
 
@@ -199,7 +199,7 @@ not be listed! `active` is an example of a reserved field with a specific behavi
 a record has `active=False`, it is automatically removed from any search. To display the
 created property, you will need to specifically search for inactive records.
 
-![Inactive records](developer/tutorials/server_framework_101/05_firstui/inactive.gif)
+![Inactive records](05_firstui/inactive.gif)
 
 Note that the default `active=False` value was assigned to all existing records.
 

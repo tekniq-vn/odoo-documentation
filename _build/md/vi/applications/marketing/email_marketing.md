@@ -12,7 +12,7 @@ detailed reporting metrics to track the campaigns' overall effectiveness.
 After installing the application, click the Email Marketing app icon from the main
 Odoo dashboard. Doing so reveals the main Mailings dashboard in the default list view.
 
-![View of the main dashboard of the Odoo Email Marketing application.](applications/marketing/email_marketing/mailings-dashboard.png)
+![View of the main dashboard of the Odoo Email Marketing application.](email_marketing/mailings-dashboard.png)
 
 In the search bar, the default filter of My Mailings is present to show all the mailings
 related to the current user. To remove that filter, click the ✖️ (remove) icon next to
@@ -61,7 +61,7 @@ of additional column options.
 The Kanban view, represented by the (inverted bar graph) icon, can be accessed in the
 upper-right corner of the Mailings dashboard in the Email Marketing app.
 
-![Kanban view of the main dashboard of the Odoo Email Marketing application.](applications/marketing/email_marketing/kanban-view.png)
+![Kanban view of the main dashboard of the Odoo Email Marketing application.](email_marketing/kanban-view.png)
 
 While in Kanban view, the email information is displayed in the various stages.
 
@@ -83,7 +83,7 @@ vertical dots) icon appears. When clicked, a mini drop-down menu reveals the opt
 the email, Delete the email, or Archive the message for potential future
 use.
 
-![View of the three-dot drop-down menu on the Odoo Email Marketing dashboard.](applications/marketing/email_marketing/three-dot-dropdown.png)
+![View of the three-dot drop-down menu on the Odoo Email Marketing dashboard.](email_marketing/three-dot-dropdown.png)
 
 <a id="email-marketing-calendar-view"></a>
 
@@ -95,7 +95,7 @@ upper-right corner of the Mailings dashboard in the Email Marketing app.
 While in calendar view, a monthly calendar (by default), shows when the mailings have been sent or
 are scheduled to be sent.
 
-![Calendar view of the mailings dashboard in the Email Marketing application.](applications/marketing/email_marketing/calendar-view.png)
+![Calendar view of the mailings dashboard in the Email Marketing application.](email_marketing/calendar-view.png)
 
 The current date is represented by a 🔴 (red circle) icon over the date on the calendar.
 
@@ -125,7 +125,7 @@ corner of the Mailings dashboard in the Email Marketing app.
 While in graph view, the status of the emails on the Mailings page is represented in a
 bar graph, but other graph view options can be implemented, if needed.
 
-![How the Graph view appears in the Odoo Email Marketing application.](applications/marketing/email_marketing/graph-view.png)
+![How the Graph view appears in the Odoo Email Marketing application.](email_marketing/graph-view.png)
 
 In the upper-left corner, above the graph, there is a Measures drop-down menu. When
 clicked, different filter options become available to further customize the graph views.
@@ -154,7 +154,7 @@ always available to further customize the information being displayed.
 To access those options, click the (downward arrow) icon, located to the right of the
 search bar. Doing so reveals a drop-down mega menu featuring those filtering and grouping options.
 
-![The drop-down mega menu of search options the Odoo Email Marketing application.](applications/marketing/email_marketing/search-mega-menu.png)
+![The drop-down mega menu of search options the Odoo Email Marketing application.](email_marketing/search-mega-menu.png)
 
 These options provide various ways to specify and organize the information seen on the
 Mailings dashboard.
@@ -164,7 +164,7 @@ Bộ lọc
 This section of the drop-down mega menu provides different ways to filter email results being
 shown on the Mailings dashboard in the Email Marketing app.
 
-![View of filters drop-down menu options on the Odoo Email Marketing dashboard.](applications/marketing/email_marketing/filters-dropdown.png)
+![View of filters drop-down menu options on the Odoo Email Marketing dashboard.](email_marketing/filters-dropdown.png)
 
 The options are: My Mailings, Sent Date, A/B Tests,
 A/B Tests to review, Archived, and Add Custom Filter.
@@ -173,14 +173,14 @@ If Add Custom Filter is selected, Odoo reveals a pop-up window, with three
 customizable fields to fill in, in order to create custom filter rules for Odoo to use to
 retrieve results that fit more specific criteria.
 
-![Add custom filter pop-up window that appears in Odoo Email Marketing app.](applications/marketing/email_marketing/add-custom-filter-popup.png)
+![Add custom filter pop-up window that appears in Odoo Email Marketing app.](email_marketing/add-custom-filter-popup.png)
 
 Nhóm theo
 
 This section of the drop-down mega menu provides different ways to group email results being
 shown on the Mailings dashboard in the Email Marketing app.
 
-![View of the Group By drop-down menu on the Odoo Email Marketing application.](applications/marketing/email_marketing/group-by-dropdown.png)
+![View of the Group By drop-down menu on the Odoo Email Marketing application.](email_marketing/group-by-dropdown.png)
 
 Using this section, the data can be grouped by the messages' Status, or who it was
 Sent By.
@@ -200,7 +200,7 @@ This section provides the opportunity to save custom filters and/or groupings fo
 To utilize this section, click the Save current search field, which reveals
 additional fields.
 
-![View of the Favorites drop-down menu on the Odoo Email Marketing application.](applications/marketing/email_marketing/favorites-dropdown.png)
+![View of the Favorites drop-down menu on the Odoo Email Marketing application.](email_marketing/favorites-dropdown.png)
 
 Give the favorited filter/grouping a title on the blank line above the checkboxes for
 Default filter and Shared.
@@ -217,11 +217,11 @@ the Favorites section of the mega drop-down menu.
 To view and modify the *Email Marketing* settings, navigate to Email Marketing app
 ‣ Configuration ‣ Settings.
 
-![View of the Configuration menu with Settings page in the Odoo Email Marketing application.](applications/marketing/email_marketing/configuration-settings.png)
+![View of the Configuration menu with Settings page in the Odoo Email Marketing application.](email_marketing/configuration-settings.png)
 
 On the Settings page, there are four features available.
 
-![View of the Settings page in the Odoo Email Marketing application.](applications/marketing/email_marketing/settings.png)
+![View of the Settings page in the Odoo Email Marketing application.](email_marketing/settings.png)
 
 The features are:
 
@@ -243,7 +243,7 @@ New button in the upper-left corner of the Mailings dashboard page.
 
 Clicking New reveals a blank email form.
 
-![View of a blank email detail form in Odoo Email Marketing application.](applications/marketing/email_marketing/blank-email-detail-form.png)
+![View of a blank email detail form in Odoo Email Marketing application.](email_marketing/blank-email-detail-form.png)
 
 On the email form, there are fields for the [Subject](#email-marketing-subject) and
 [Recipients](#email-marketing-recipients) of the email.
@@ -289,7 +289,7 @@ Odoo then sends the email to contacts on that specific mailing list(s).
 When the Recipients field is clicked, a drop-down menu of other options is revealed.
 Each option provides different ways Odoo can create a target audience for the email.
 
-![View of recipients drop-down menu in the Odoo Email Marketing application.](applications/marketing/email_marketing/recipients-dropdown.png)
+![View of recipients drop-down menu in the Odoo Email Marketing application.](email_marketing/recipients-dropdown.png)
 
 Those options (excluding the default Mailing List) provide the option to create a more
 specified recipient filter, in an equation-like format, which appears beneath the
@@ -330,7 +330,7 @@ selections, until the preferred configuration has been achieved.
 The number of records in the database that match the configured rule(s) are indicated
 beneath the configured filter rule(s), in green.
 
-![View of how recipient filters can be customized in Odoo Email Marketing.](applications/marketing/email_marketing/filter-records.png)
+![View of how recipient filters can be customized in Odoo Email Marketing.](email_marketing/filter-records.png)
 
 #### NOTE
 Some sub-menu options in the first rule field allow for a second choice to provide even more
@@ -352,12 +352,12 @@ sign), (sitemap), and 🗑️ (trash) icons.
 In the Mail Body tab, there are a number of pre-configured message templates to choose
 from.
 
-![View of the templates in the Mail Body tab in Odoo Email Marketing application.](applications/marketing/email_marketing/mail-body-templates.png)
+![View of the templates in the Mail Body tab in Odoo Email Marketing application.](email_marketing/mail-body-templates.png)
 
 Select the desired template, and proceed to modify every element of its design details with Odoo's
 drag-and-drop building blocks, which appear on the right sidebar when a template is chosen.
 
-![View of the building blocks in the Mail Body tab in Odoo Email Marketing application.](applications/marketing/email_marketing/template-building-blocks.png)
+![View of the building blocks in the Mail Body tab in Odoo Email Marketing application.](email_marketing/template-building-blocks.png)
 
 The features on the sidebar used to create and customize emails are separated into three sections:
 Blocks, Customize, and Design.
@@ -414,7 +414,7 @@ The Send Final On field allows users to choose a date that is used to know *when
 should determine the "winning" email, and subsequently, send that version of the email to the
 remaining recipients.
 
-![View of the A/B Tests tab in Odoo Email Marketing application.](applications/marketing/email_marketing/ab-test-tab.png)
+![View of the A/B Tests tab in Odoo Email Marketing application.](email_marketing/ab-test-tab.png)
 
 To the right of those fields is a Create an Alternative Version button. When clicked,
 Odoo presents a new Mail Body tab for the user to create an alternate version of the
@@ -436,7 +436,7 @@ Without the *Mailing Campaigns* feature activated, the Settings tab on the email
 only contains the Preview Text, Send From, Reply To,
 Attachments, and Responsible fields.
 
-![View of settings tab in Odoo Email Marketing app, without campaign setting activated.](applications/marketing/email_marketing/settings-without-features.png)
+![View of settings tab in Odoo Email Marketing app, without campaign setting activated.](email_marketing/settings-without-features.png)
 
 #### Nội dung email
 
@@ -457,7 +457,7 @@ Attachments, and Responsible fields.
 If the *Mailing Campaign* feature *is* activated, an additional Campaign field
 appears in the Tracking section of the Settings tab.
 
-![View of settings tab in Odoo Email Marketing when campaign setting is activated.](applications/marketing/email_marketing/settings-tab-with-campaign.png)
+![View of settings tab in Odoo Email Marketing when campaign setting is activated.](email_marketing/settings-tab-with-campaign.png)
 
 The additional Campaign field allows users to attach this particular email to a
 mailing campaign, if desired.
@@ -479,7 +479,7 @@ upper-left corner of the email form: [Send](#email-marketing-send), [Schedule](#
 
 The Send button reveals a Ready to unleash emails? pop-up window.
 
-![View of pop-up window that appears when the send button on an email form is clicked.](applications/marketing/email_marketing/send-popup.png)
+![View of pop-up window that appears when the send button on an email form is clicked.](email_marketing/send-popup.png)
 
 When the Send to all button is clicked, Odoo sends the email to the desired recipients.
 Once Odoo has sent the mailing, the status changes to Sent.
@@ -491,11 +491,11 @@ Once Odoo has sent the mailing, the status changes to Sent.
 The Schedule button reveals a When do you want to send your mailing? pop-up
 window.
 
-![View of pop-up window that appears when the schedule button on an email form is clicked.](applications/marketing/email_marketing/schedule-popup.png)
+![View of pop-up window that appears when the schedule button on an email form is clicked.](email_marketing/schedule-popup.png)
 
 In this pop-up window, click the Send on field to reveal a calendar pop-up window.
 
-![View of pop-up window that appears when the schedule button on an email form is clicked.](applications/marketing/email_marketing/schedule-popup-calendar.png)
+![View of pop-up window that appears when the schedule button on an email form is clicked.](email_marketing/schedule-popup-calendar.png)
 
 From the calendar pop-up window, select the future date and time for Odoo to send this email. Then,
 click ✔️ Apply. When a date and time are chosen, click the Schedule button,
@@ -507,7 +507,7 @@ and the status of the mailing changes to In Queue.
 
 The Test button reveals a Test Mailing pop-up window.
 
-![View of pop-up window that appears when the test button on an email form is clicked.](applications/marketing/email_marketing/test-popup.png)
+![View of pop-up window that appears when the test button on an email form is clicked.](email_marketing/test-popup.png)
 
 From this pop-up window, enter the email addresses of the contacts to whom Odoo should send this
 test email in the Recipients field. Multiple contacts can be added in this field, if
@@ -533,7 +533,7 @@ activated in the *Settings* page of the *Email Marketing* application. To do tha
 Email Marketing app ‣ Configuration ‣ Settings, tick the box beside
 Mailing Campaigns, and click the Save button.
 
-![View of the campaign feature setting in Odoo Email Marketing.](applications/marketing/email_marketing/campaigns-feature.png)
+![View of the campaign feature setting in Odoo Email Marketing.](email_marketing/campaigns-feature.png)
 
 Once the Mailing Campaigns feature is activated, a new Campaigns menu option
 appears in the header.
@@ -541,7 +541,7 @@ appears in the header.
 When that is clicked, Odoo reveals a separate Campaigns page, displaying all the mailing
 campaigns in the database, and the current stage they are in, showcased in a default Kanban view.
 
-![View of the campaign page in Odoo Email Marketing.](applications/marketing/email_marketing/campaigns-page.png)
+![View of the campaign page in Odoo Email Marketing.](email_marketing/campaigns-page.png)
 
 #### NOTE
 This information can also be viewed in a list, by clicking the ☰ (horizontal lines)
@@ -568,7 +568,7 @@ To do that, navigate to Email Marketing app ‣ Campaigns ‣ New.
 When the New button is clicked in the default Kanban view on the Campaigns
 page, a Kanban card appears in the New stage.
 
-![View of the campaign pop-up kanban in Odoo Email Marketing.](applications/marketing/email_marketing/campaigns-kanban-popup.png)
+![View of the campaign pop-up kanban in Odoo Email Marketing.](email_marketing/campaigns-kanban-popup.png)
 
 New campaign cards can also be made by clicking the ➕ (plus sign) at the top of any
 Kanban stage on the Campaigns page.
@@ -592,12 +592,12 @@ Edit button to reveal the campaign form for further modifications.
 To enter the list view on the Campaigns page, click the ☰ (horizontal lines)
 icon in the upper-right corner. Doing so reveals all campaign information in a list format.
 
-![View of the campaign page in list view in Odoo Email Marketing.](applications/marketing/email_marketing/campaign-page-list-view.png)
+![View of the campaign page in list view in Odoo Email Marketing.](email_marketing/campaign-page-list-view.png)
 
 To create a campaign from the Campaigns page while in list view, click the
 New button. Doing so reveals a blank campaign form.
 
-![View of the blank campaign form in Odoo Email Marketing.](applications/marketing/email_marketing/blank-campaign-form.png)
+![View of the blank campaign form in Odoo Email Marketing.](email_marketing/blank-campaign-form.png)
 
 From this campaign form, a Campaign Name, a Responsible, and
 Tags can be added.
@@ -617,7 +617,7 @@ Those additional buttons are: Send Mailing and Send SMS.
 On the campaign form (after clicking Edit from the Kanban card, or selecting an existing
 campaign from the Campaigns page) there are additional options and metrics available.
 
-![View of the campaign form in Odoo Email Marketing.](applications/marketing/email_marketing/campaign-form.png)
+![View of the campaign form in Odoo Email Marketing.](email_marketing/campaign-form.png)
 
 At the top of the form, various smart buttons can be seen that showcase specific analytics related
 to the campaign. Those smart buttons are: Revenues, Quotations,
@@ -642,7 +642,7 @@ Campaign field, and start typing the name of the new campaign. Then, select eith
 Create "[Campaign Name]" or Create and edit... from the drop-down menu that
 appears.
 
-![View of the mailing campaign creation in the Settings tab of an email form.](applications/marketing/email_marketing/mailing-campaign-settings.png)
+![View of the mailing campaign creation in the Settings tab of an email form.](email_marketing/mailing-campaign-settings.png)
 
 Select Create to add this new mailing campaign to the database, and modify its settings
 in the future.
@@ -650,7 +650,7 @@ in the future.
 Select Create and Edit... to add this new mailing campaign to the database, and reveal a
 Create Campaign pop-up window.
 
-![View of the email mailing campaign pop-up window in Odoo Email Marketing application.](applications/marketing/email_marketing/mailing-campaign-popup.png)
+![View of the email mailing campaign pop-up window in Odoo Email Marketing application.](email_marketing/mailing-campaign-popup.png)
 
 Here, the new mailing campaign can be further customized. Users can adjust the Campaign
 Name, assign a Responsible, and add Tags.

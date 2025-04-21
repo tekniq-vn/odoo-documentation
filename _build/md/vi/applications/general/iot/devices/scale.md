@@ -32,7 +32,7 @@ If a product is configured with a price per weight, selecting it on the PoS scre
 the scale popup. The cashier can then weigh the product to automatically add the correct price to
 the cart.
 
-![Electronic Scale dashboard view when no items are being weighed.](applications/general/iot/devices/scale/scale-view.png)
+![Electronic Scale dashboard view when no items are being weighed.](scale/scale-view.png)
 
 ## Ariva S scales
 

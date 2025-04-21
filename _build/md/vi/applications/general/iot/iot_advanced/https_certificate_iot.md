@@ -30,10 +30,10 @@ When the certificate has been received:
 
 - The IoT system's homepage address is updated to a new HTTPS URL ending with `.odoo-iot.com`. Click
   the URL to establish a secure HTTPS connection.
-  ![Odoo IoT app IoT box with .odoo-iot.com domain.](applications/general/iot/iot_advanced/https_certificate_iot/iot-new-domain.png)
+  ![Odoo IoT app IoT box with .odoo-iot.com domain.](https_certificate_iot/iot-new-domain.png)
 - The HTTPS certificate banner displays the certificate's validity period. To view this
   information, click the <i class="fa fa-cogs"></i> (cogs) button on the IoT system's homepage.
-  ![IoT box homepage with HTTPS certificate validity date.](applications/general/iot/iot_advanced/https_certificate_iot/https-valid.png)
+  ![IoT box homepage with HTTPS certificate validity date.](https_certificate_iot/https-valid.png)
 
 ## HTTPS certificate generation issues and errors
 

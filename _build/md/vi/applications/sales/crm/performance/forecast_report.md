@@ -13,7 +13,7 @@ pipeline, and are expected to close within four months. It also shows opportunit
 assigned expected closing date. The opportunities are grouped by month in a <i class="oi oi-view-kanban"></i>
 (Kanban) view.
 
-![A sample version of the Forecast report in the CRM app.](applications/sales/crm/performance/forecast_report/sample-report.png)
+![A sample version of the Forecast report in the CRM app.](forecast_report/sample-report.png)
 
 ### Expected closing date
 
@@ -52,7 +52,7 @@ the corresponding icon at the top of the report to switch to a <i class="fa fa-b
 chart), <i class="fa fa-line-chart"></i> (line chart), or <i class="fa fa-pie-chart"></i> (pie
 chart).
 
-![A pie chart view of the Forecast report.](applications/sales/crm/performance/forecast_report/pie-chart-view.png)
+![A pie chart view of the Forecast report.](forecast_report/pie-chart-view.png)
 
 Click the <i class="oi oi-view-pivot"></i> (pivot) icon to change to the pivot view, or the <i class="oi oi-view-list"></i> (list) icon to change to the list view.
 

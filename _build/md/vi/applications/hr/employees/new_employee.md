@@ -10,7 +10,7 @@ upper-left corner. Doing so reveals a blank employee form.
 
 Proceed to fill out the required information, along with any additional details.
 
-![Create a new employee form with all fields filled out.](applications/hr/employees/new_employee/new-employee-form.png)
+![Create a new employee form with all fields filled out.](new_employee/new-employee-form.png)
 
 #### NOTE
 The current company phone number and name are populated in the Work Phone and
@@ -32,7 +32,7 @@ an upwards arrow) icon.
   was hired by, or create a new company by typing the name in the field, and clicking
   Create or Create and edit... from the mini drop-down menu that appears.
 
-![A new employee form with the required fields highlighted.](applications/hr/employees/new_employee/employee-new.png)
+![A new employee form with the required fields highlighted.](new_employee/employee-new.png)
 
 ### Các trường thông tin không bắt buộc
 
@@ -71,7 +71,7 @@ manager automatically populates the Coach field.
 
 Tiếp theo, nhập lịch sử làm việc của nhân viên trong tab Sơ yếu lý lịch. Mỗi dòng trong sơ yếu lý lịch phải được nhập riêng. Khi tạo mục nhập lần đầu tiên, nhấp vào Tạo mục nhập mới và biểu mẫu Tạo dòng sơ yếu lý lịch sẽ xuất hiện. Sau khi thêm mục nhập, nút Tạo mục nhập mới sẽ được thay thế bằng nút Thêm. Nhập các thông tin sau cho từng mục nhập.
 
-![A resumé entry form with all the information populated.](applications/hr/employees/new_employee/resume-lines.png)
+![A resumé entry form with all the information populated.](new_employee/resume-lines.png)
 - Title: type in the title of the previous work experience.
 - Employee: select the employee from the drop-down menu.
 - Type: from the drop-down menu, select either Experience,
@@ -108,7 +108,7 @@ If the skill types are configured, a Pick a skill from the list button appears i
 Click the Pick a skill from the list button, and select the following information for
 each skill.
 
-![A skill form with the information filled out.](applications/hr/employees/new_employee/select-skills.png)
+![A skill form with the information filled out.](new_employee/select-skills.png)
 - Skill Type: select a [skill type](#employees-skill-types) by clicking the radio
   button next to the skill type.
 - Skill: after selecting a Skill Type, the corresponding skills associated
@@ -238,7 +238,7 @@ information for the new employee:
   - Company: using the drop-down menu, select the company the location applies to.
     The current company populates this field, by default.
 
-  ![A new work location form with all fields filled out.](applications/hr/employees/new_employee/location.png)
+  ![A new work location form with all fields filled out.](new_employee/location.png)
 - Schedule: select the Working Hours and Timezone for the
   employee. The Internal Link arrow opens a detailed view of the specific daily working
   hours. Working hours can be modified or deleted here.
@@ -423,7 +423,7 @@ Manufacturing costs are added to the costs for producing a product, if the value
 manufactured product is **not** a fixed amount. This cost does **not** affect the *Payroll*
 application.
 
-![Enter any information prompted in the HR Settings tab for the employee.](applications/hr/employees/new_employee/hr-settings.png)
+![Enter any information prompted in the HR Settings tab for the employee.](new_employee/hr-settings.png)
 
 <a id="employees-docs"></a>
 
@@ -436,4 +436,4 @@ button to access all documents.
 Refer to [documentation](../../productivity/documents.md) on the *Documents* app for more
 information.
 
-![All uploaded documents associated with the employee appear in the documents smart-button.](applications/hr/employees/new_employee/documents.png)
+![All uploaded documents associated with the employee appear in the documents smart-button.](new_employee/documents.png)

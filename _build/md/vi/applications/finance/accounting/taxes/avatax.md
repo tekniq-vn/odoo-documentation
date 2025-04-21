@@ -172,7 +172,7 @@ First, tick the checkbox to the left of the AvaTax settings, to activate *AvaTax
 database. This is a quick, convenient way to activate and deactivate *AvaTax* tax calculation on the
 Odoo database.
 
-![Cấu hình cài đặt AvaTax](applications/finance/accounting/taxes/avatax/avatax-configuration-settings.png)
+![Cấu hình cài đặt AvaTax](avatax/avatax-configuration-settings.png)
 
 #### Khoá học tiên quyết
 
@@ -205,7 +205,7 @@ First, log into the *AvaTax* portal ([sandbox](https://sandbox.admin.avalara.com
 The Company Code value is located in the row of the Company in the
 Company Code column.
 
-![AvaTax company code highlighted on the company details page.](applications/finance/accounting/taxes/avatax/company-code.png)
+![AvaTax company code highlighted on the company details page.](avatax/company-code.png)
 
 #### Transaction options
 
@@ -311,7 +311,7 @@ product category to add the AvaTax Category to. In the AvaTax Category
 field, select a category from the drop-down menu, or Search More... to open the complete
 list of options.
 
-![Specify AvaTax Category on products.](applications/finance/accounting/taxes/avatax/avatax-category.png)
+![Specify AvaTax Category on products.](avatax/avatax-category.png)
 
 #### Product mapping
 
@@ -321,7 +321,7 @@ Danh mục *AvaTax* cũng có thể được thiết lập cho từng sản ph�
 If both the product, and its category, have an AvaTax Category set, the product's
 AvaTax Category takes precedence.
 
-![Override product categories as needed.](applications/finance/accounting/taxes/avatax/override-avatax-product-category.png)
+![Override product categories as needed.](avatax/override-avatax-product-category.png)
 
 #### IMPORTANT
 Mapping an AvaTax Category on either the *Product* or *Product Category* should be

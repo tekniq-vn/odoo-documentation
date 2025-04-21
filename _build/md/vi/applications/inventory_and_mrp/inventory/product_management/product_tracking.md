@@ -24,7 +24,7 @@ To do that, go to the Inventory app ‣ Configuration ‣ Settings, scroll down 
 the Traceability section, and click the box next to Lots & Serial Numbers.
 Then, click the Save button to save changes.
 
-![Enabled lots and serial numbers feature in inventory settings.](applications/inventory_and_mrp/inventory/product_management/product_tracking/differences-enabled-setting.png)
+![Enabled lots and serial numbers feature in inventory settings.](product_tracking/differences-enabled-setting.png)
 
 ## When to use lots
 
@@ -68,7 +68,7 @@ Doing so reveals all existing lots and serial numbers, and each can be expanded 
 quantities with that assigned number. For unique serial numbers that are *not* reused, there should
 *only* be one product per serial number.
 
-![Reporting page with drop-down lists of lots and serial numbers.](applications/inventory_and_mrp/inventory/product_management/product_tracking/differences-tracking.png)
+![Reporting page with drop-down lists of lots and serial numbers.](product_tracking/differences-tracking.png)
 
 * [Sử dụng số sê-ri để theo dõi sản phẩm](product_tracking/serial_numbers.md)
 * [Chỉ định số sê-ri](product_tracking/create_sn.md)

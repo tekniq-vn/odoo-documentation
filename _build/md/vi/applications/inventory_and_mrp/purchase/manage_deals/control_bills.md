@@ -13,13 +13,13 @@ To configure the *bill control* policy, navigate to Purchase app ‣ Configurati
 select either Ordered quantities or Received quantities. Then, click
 Save.
 
-![Selected bill control policy in Purchase app settings.](applications/inventory_and_mrp/purchase/manage_deals/control_bills/control-bills-selected-policy.png)
+![Selected bill control policy in Purchase app settings.](control_bills/control-bills-selected-policy.png)
 - Ordered quantities: creates a vendor bill as soon as a  is confirmed. The products
   and quantities in the  are used to generate a draft bill.
 - Received quantities: a bill is created only *after* part of the total order has been
   received. The products and quantities received are used to generate a draft bill. An error message
   appears if creation of a vendor bill is attempted without receiving anything.
-  ![Bill control policy draft bill error message.](applications/inventory_and_mrp/purchase/manage_deals/control_bills/control-bills-error-message-popup.png)
+  ![Bill control policy draft bill error message.](control_bills/control-bills-error-message-popup.png)
 
 #### NOTE
 If a specific product should use a different control policy than selected in the *Purchase* app
@@ -39,7 +39,7 @@ To activate *3-way matching*, navigate to Purchase app ‣ Configuration ‣
 Settings, and scroll down to the Invoicing section. Then, tick the checkbox for
 3-way matching to enable the feature, and click Save.
 
-![Enabled 3-way matching feature in Purchase app settings.](applications/inventory_and_mrp/purchase/manage_deals/control_bills/control-bills-three-way-matching.png)
+![Enabled 3-way matching feature in Purchase app settings.](control_bills/control-bills-three-way-matching.png)
 
 #### IMPORTANT
 The 3-way matching feature **only** works with the Bill Control policy
@@ -59,12 +59,12 @@ The  selected from the list **must not** be billed yet, or an Invalid Operation
 pop-up window appears. This occurs for  with a Received quantities policy, and a
 Fully Billed Billing Status.
 
-![Invalid Operation pop-up window for billed Purchase Order.](applications/inventory_and_mrp/purchase/manage_deals/control_bills/control-bills-invalid-operation.png)
+![Invalid Operation pop-up window for billed Purchase Order.](control_bills/control-bills-invalid-operation.png)
 
 Click the drop-down menu next to Should Be Paid to view the available options:
 Yes, No, and Exception.
 
-![Should Be Paid field status on draft vendor bill.](applications/inventory_and_mrp/purchase/manage_deals/control_bills/control-bills-should-be-paid.png)
+![Should Be Paid field status on draft vendor bill.](control_bills/control-bills-should-be-paid.png)
 
 #### NOTE
 If the total quantity of products from a  has not been received, Odoo only includes the
@@ -98,7 +98,7 @@ Orders ‣ Purchase Orders, and select a  to view.
 
 Click the Other Information tab, and locate the Billing Status field.
 
-![Billing status field on a purchase order form.](applications/inventory_and_mrp/purchase/manage_deals/control_bills/control-bills-billing-status.png)
+![Billing status field on a purchase order form.](control_bills/control-bills-billing-status.png)
 
 The table below details the different values the Billing Status field could read, and
 when they are displayed, depending on the *Bill Control* policy used.

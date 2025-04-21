@@ -43,7 +43,7 @@ Theo mặc định, trường Vị trí nguồn được đặt thành vị trí
 
 Bật hộp kiểm Bổ sung số lượng bị loại bỏ nếu cần tạo phiếu xuất kho để thay thế (các) thành phần đã loại bỏ sau khi xác nhận lệnh loại bỏ. Tùy chọn này chỉ nên được bật cho các kho hàng có quy trình sản xuất [hai bước](../basic_setup/two_step_manufacturing.md) hoặc [ba bước](../basic_setup/three_step_manufacturing.md), vì trong quy trình sản xuất [một bước](../basic_setup/one_step_manufacturing.md) không cần lấy thành phần.
 
-![Cửa sổ Loại bỏ bật lên.](applications/inventory_and_mrp/manufacturing/workflows/scrap_manufacturing/scrap-window.png)
+![Cửa sổ Loại bỏ bật lên.](scrap_manufacturing/scrap-window.png)
 
 Nhấp vào nút Loại bỏ để loại bỏ thành phần đã chọn. Sau khi một hoặc nhiều lệnh loại bỏ được tạo, nút thông minh Loại bỏ sẽ xuất hiện ở đầu màn hình. Nhấp vào nút đó để xem danh sách tất cả các lệnh loại bỏ liên quan đến .
 

@@ -101,7 +101,7 @@ The following options are only visible in the Options tab if the [Host Selection
 billing. As long as the *Discuss* application is not intentionally uninstalled, the
 Notify by Discuss option works.
 
-![Frontdesk station form with all the information filled out.](applications/hr/frontdesk/station-form.png)
+![Frontdesk station form with all the information filled out.](frontdesk/station-form.png)
 
 #### Side Message tab
 
@@ -130,7 +130,7 @@ Enter the following information on the drink form:
   appears. For example, entering the number one would place that drink at the top of the list, and
   appear first in the sequence.
 
-![Drink form with the information filled out for an espresso.](applications/hr/frontdesk/espresso.png)
+![Drink form with the information filled out for an espresso.](frontdesk/espresso.png)
 
 ## Station dashboard
 

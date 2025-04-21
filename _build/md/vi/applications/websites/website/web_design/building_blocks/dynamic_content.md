@@ -18,7 +18,7 @@ selected.
 The Form block is used to collect information from website visitors and create records
 in your database.
 
-![Example of a form block](applications/websites/website/web_design/building_blocks/dynamic_content/form-block.png)
+![Example of a form block](dynamic_content/form-block.png)
 
 ### Tác vụ
 
@@ -36,7 +36,7 @@ become available:
 Select another action with the Action field found under the Customize tab's
 Form section.
 
-![Editing a form to change its action](applications/websites/website/web_design/building_blocks/dynamic_content/form-block-settings.png)
+![Editing a form to change its action](dynamic_content/form-block-settings.png)
 
 By default, actions redirect visitors to a *thank you* page after submitting the form. Use the
 URL field to change where they are redirected. It is also possible to let visitors stay
@@ -60,7 +60,7 @@ contains. The fields available depend on the selected action.
 The Products block is available after installing the eCommerce app. It is used to
 display a selection of products sold on your website.
 
-![Example of a products block](applications/websites/website/web_design/building_blocks/dynamic_content/products-block.png)
+![Example of a products block](dynamic_content/products-block.png)
 
 By default, the block displays the Newest Products. To change which products are shown,
 go to the Customize tab's Products section and select as Filter
@@ -76,7 +76,7 @@ the Category field.
 Embedding code allows you to integrate content from third-party services into a page, such as videos
 from YouTube, maps from Google Maps, social media posts from Instagram, etc.
 
-![Add the link to the embedded code you want to point to](applications/websites/website/web_design/building_blocks/dynamic_content/embed-code.png)
+![Add the link to the embedded code you want to point to](dynamic_content/embed-code.png)
 
 After adding the block to a page, click the Edit button found under the
 Customize tab's Embed Code section and enter the code, replacing the code

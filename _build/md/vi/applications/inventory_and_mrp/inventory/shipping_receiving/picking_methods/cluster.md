@@ -22,7 +22,7 @@ To enable cluster picking, begin by navigating to Inventory app ‣ Configuratio
 ‣ Settings. Under the Operations heading, activate the Packages and
 Batch Transfers options.
 
-![Activate *Packages* and *Batch Transfers* features in the settings.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster/configs.png)
+![Activate *Packages* and *Batch Transfers* features in the settings.](cluster/configs.png)
 
 Since batch picking is used to optimize the *pick* operation in Odoo, the Storage
 Locations and Multi-Step Routes options, under the Warehouse heading, must
@@ -33,7 +33,7 @@ also be checked on this settings page.
 
 When finished, click Save.
 
-![Enable *Storage Locations* and *Multi-Step Routes* Inventory > Configuration > Settings.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster/locations-routes-checkbox.png)
+![Enable *Storage Locations* and *Multi-Step Routes* Inventory > Configuration > Settings.](cluster/locations-routes-checkbox.png)
 
 <a id="inventory-misc-create-package"></a>
 
@@ -88,7 +88,7 @@ checkbox.
 
 Conclude the process by clicking Confirm.
 
-![Show *Add to batch* window to create a batch transfer.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster/add-to-batch-window.png)
+![Show *Add to batch* window to create a batch transfer.](cluster/add-to-batch-window.png)
 
 ## Process batches
 
@@ -129,4 +129,4 @@ package form, and select the Print option.
 Next, select one of the three print options to generate the package barcode from the
 Package Reference field.
 
-![Display where the package barcode can be generated.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster/find-package-barcode.png)
+![Display where the package barcode can be generated.](cluster/find-package-barcode.png)

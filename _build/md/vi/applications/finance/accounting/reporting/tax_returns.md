@@ -25,7 +25,7 @@ Tax Return Periodicity, you can set:
 - Reminder: define when Odoo should remind you to submit your tax return;
 - Journal: select the journal in which to record the tax return.
 
-![Configure how often tax returns have to be made in Odoo Accounting](applications/finance/accounting/reporting/tax_returns/tax_return_periodicity.png)
+![Configure how often tax returns have to be made in Odoo Accounting](tax_returns/tax_return_periodicity.png)
 
 #### NOTE
 This is usually configured during the [app's initial set up](../get_started.md).
@@ -39,13 +39,13 @@ taxes. Therefore, it is crucial to make sure that all recorded transactions use 
 You can see the Tax Grids by opening the Journal Items tab of any
 invoice and bill.
 
-![see which tax grids are used to record transactions in Odoo Accounting](applications/finance/accounting/reporting/tax_returns/tax_return_grids.png)
+![see which tax grids are used to record transactions in Odoo Accounting](tax_returns/tax_return_grids.png)
 
 To configure your tax grids, go to Accounting ‣ Configuration ‣ Taxes,
 and open the tax you want to modify. There, you can edit your tax settings, along with the tax
 grids that are used to record invoices or credit notes.
 
-![Configure taxes and their tax grids in Odoo Accounting](applications/finance/accounting/reporting/tax_returns/tax_return_taxes.png)
+![Configure taxes and their tax grids in Odoo Accounting](tax_returns/tax_return_taxes.png)
 
 #### NOTE
 Taxes and reports are usually already pre-configured in Odoo: a [fiscal localization package](../../fiscal_localizations.md#fiscal-localizations-packages) is installed according to the country you select at the creation
@@ -71,7 +71,7 @@ Closing Journal Entry, which can help you avoid some tax declaration errors.
 To check the current Tax Lock Date, or to edit it, go to
 Accounting ‣ Accounting ‣ Actions: Lock Dates.
 
-![Lock your tax for a specific period in Odoo Accounting](applications/finance/accounting/reporting/tax_returns/tax_return_lock.png)
+![Lock your tax for a specific period in Odoo Accounting](tax_returns/tax_return_lock.png)
 
 <a id="tax-returns-report"></a>
 
@@ -88,7 +88,7 @@ Documents Name, the Folder to store it in, and add any Tags.
 The report includes all the values to report to the tax authorities, along with the amount to be
 paid or refunded.
 
-![download the PDF with your Tax Report in Odoo Accounting](applications/finance/accounting/reporting/tax_returns/tax_return_report.png)
+![download the PDF with your Tax Report in Odoo Accounting](tax_returns/tax_return_report.png)
 
 #### NOTE
 If you forgot to lock your tax date before clicking on Closing Journal Entry, then

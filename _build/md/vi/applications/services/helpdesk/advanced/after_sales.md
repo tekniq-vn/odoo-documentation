@@ -16,7 +16,7 @@ settings page, and choose which of the following options to enable:
 - Repairs: creates repair orders for broken or faulty products.
 - Field Service: plans onsite intervention through the *Field Service* application.
 
-![image](applications/services/helpdesk/advanced/after_sales/after-sales-enable.png)
+![image](after_sales/after-sales-enable.png)
 
 <a id="helpdesk-refunds"></a>
 
@@ -34,7 +34,7 @@ To create a credit note, navigate to a ticket on the Helpdesk app, and click the
 Refund button in the top-left corner of the ticket form. This opens a
 Refund pop-up window.
 
-![View of a refund creation page.](applications/services/helpdesk/advanced/after_sales/after-sales-refund-details.png)
+![View of a refund creation page.](after_sales/after-sales-refund-details.png)
 
 Fill out the fields with the necessary information:
 
@@ -68,7 +68,7 @@ though this information can be altered.
 Once the credit note has been posted, a Credit Notes smart button is added to the
 *Helpdesk* ticket.
 
-![View of smart buttons on a ticket focusing on the credit note button.](applications/services/helpdesk/advanced/after_sales/after-sales-credit-note-smart-button.png)
+![View of smart buttons on a ticket focusing on the credit note button.](after_sales/after-sales-credit-note-smart-button.png)
 
 #### SEE ALSO
 [Credit notes and refunds](../../../finance/accounting/customer_invoices/credit_notes.md)
@@ -88,7 +88,7 @@ To generate a coupon, open a *Helpdesk* ticket and click on the Coupon button in
 top-left corner. Select an option from the Coupon Program drop-down menu in the
 Generate a Coupon pop-up window that appears.
 
-![View of a coupon generation window.](applications/services/helpdesk/advanced/after_sales/after-sales-generate-coupon.png)
+![View of a coupon generation window.](after_sales/after-sales-generate-coupon.png)
 
 #### NOTE
 > To create a new Coupon Program, navigate to Sales app ‣ Products
@@ -110,7 +110,7 @@ email. Additional recipients can be added to the email as well, in the Recipient
 field of the Compose Email pop-up window. If an expiration date was selected for the
 code, it is included in the message template.
 
-![View of an email draft window with coupon code.](applications/services/helpdesk/advanced/after_sales/after-sales-coupon-email.png)
+![View of an email draft window with coupon code.](after_sales/after-sales-coupon-email.png)
 
 Click Get Share Link to generate a link to send directly to the customer. Doing so opens
 a Share Coupons pop-up window. Click the Copy button next to the
@@ -121,7 +121,7 @@ After a Coupon Code has been generated, a Coupons smart button is added to
 the top of the ticket; click the smart button to view the coupon code, expiration date, and
 additional information.
 
-![View of the smart buttons on a ticket focusing on the coupon button.](applications/services/helpdesk/advanced/after_sales/after-sales-coupon-smart-button.png)
+![View of the smart buttons on a ticket focusing on the coupon button.](after_sales/after-sales-coupon-smart-button.png)
 
 #### SEE ALSO
 - [Phiếu giảm giá](https://www.youtube.com/watch?v=KW5cZHg10jQ)
@@ -135,7 +135,7 @@ Returns are completed through *reverse transfers*, which generate new warehouse 
 returning products. Click the Return button in the top-left corner of a ticket to open
 the Reverse Transfer pop-up window.
 
-![View of a Helpdesk ticket with the return button highlighted.](applications/services/helpdesk/advanced/after_sales/after-sales-return-button.png)
+![View of a Helpdesk ticket with the return button highlighted.](after_sales/after-sales-return-button.png)
 
 #### IMPORTANT
 The Return button **only** appears on a ticket if the customer has a recorded
@@ -151,7 +151,7 @@ icon.
 Select a Return Location where the items should be directed after the return is
 completed.
 
-![View of a reverse transfer creation page.](applications/services/helpdesk/advanced/after_sales/after-sales-reverse-transfer.png)
+![View of a reverse transfer creation page.](after_sales/after-sales-reverse-transfer.png)
 
 Click Return to confirm the return. This generates a new warehouse operation for the
 incoming returned products.
@@ -159,7 +159,7 @@ incoming returned products.
 Use the breadcrumbs to return to the helpdesk ticket. A new Return smart button can now
 be accessed at the top of the ticket.
 
-![View of the return smart button on a helpdesk ticket.](applications/services/helpdesk/advanced/after_sales/after-sales-return-smart-button.png)
+![View of the return smart button on a helpdesk ticket.](after_sales/after-sales-return-smart-button.png)
 
 #### SEE ALSO
 [Returns and refunds](../../../sales/sales/products_prices/returns.md)
@@ -174,7 +174,7 @@ created from the *Helpdesk* ticket, and managed through the *Repairs* applicatio
 To create a new repair order, open a Helpdesk ticket and click on the
 Repair button in the top-left corner. This opens a Repair Reference form.
 
-![View of a repair reference page.](applications/services/helpdesk/advanced/after_sales/after-sales-repair-reference.png)
+![View of a repair reference page.](after_sales/after-sales-repair-reference.png)
 
 Fill out the fields with the necessary information:
 
@@ -202,7 +202,7 @@ this repair, click Create Quotation.
 
 A Repairs smart button is then added to the ticket, linking to the repair order.
 
-![View of smart buttons focusing on repair button.](applications/services/helpdesk/advanced/after_sales/after-sales-repair-smart-button.png)
+![View of smart buttons focusing on repair button.](after_sales/after-sales-repair-smart-button.png)
 
 <a id="helpdesk-field"></a>
 
@@ -215,7 +215,7 @@ the progress of a *Field Service* task just as they would a *Helpdesk* ticket.
 To create a new *Field Service* task, navigate to a Helpdesk ticket. Click
 Plan Intervention to open the Create a Field Service task pop-up window.
 
-![View of a Field Service task creation page.](applications/services/helpdesk/advanced/after_sales/after-sales-field-service-create.png)
+![View of a Field Service task creation page.](after_sales/after-sales-field-service-create.png)
 
 Confirm or update the task Title.
 
@@ -243,7 +243,7 @@ Click Create Task or Create & View Task.
 After the task is created, a Tasks smart button is added to the ticket, linking the
 Field Service task to the ticket.
 
-![View of ticket smart buttons focused on task.](applications/services/helpdesk/advanced/after_sales/after-sales-field-service-smart-button.png)
+![View of ticket smart buttons focused on task.](after_sales/after-sales-field-service-smart-button.png)
 
 #### SEE ALSO
 [Field Service](https://www.odoo.com/slides/slide/advanced-settings-862?fullscreen=1)

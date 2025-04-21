@@ -30,7 +30,7 @@ Remaining Value by Product, Product Category, Date,
 or Company. Clicking the <i class="fa fa-minus-square-o"></i> (minus) icon collapses it
 back to its previous state.
 
-![Inventory aging report.](applications/inventory_and_mrp/inventory/warehouses_storage/reporting/aging/inventory-aging.png)
+![Inventory aging report.](aging/inventory-aging.png)
 
 #### NOTE
 Records in the Inventory Aging report are *stock valuation layers* (SVLs),
@@ -59,6 +59,6 @@ To create a report to identify items that have been in stock for a while, follow
    over Date from the drop-down menu and choose Year, Quarter,
    Month, Week, or Day. Doing so expands the columns to show the
    Remaining Qty and Remaining Value by the selected time period.
-   ![Pivot table, highlighting the plus icon to expand columns.](applications/inventory_and_mrp/inventory/warehouses_storage/reporting/aging/column-expand-icon.png)
+   ![Pivot table, highlighting the plus icon to expand columns.](aging/column-expand-icon.png)
 5. The report now displays the on-hand stock of items, and their total purchasing cost, for each
    time period.

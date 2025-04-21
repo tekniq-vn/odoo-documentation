@@ -15,7 +15,7 @@ Marketing app ‣ Mailing Lists ‣ Mailing Lists ‣ New.
 
 Clicking New reveals a blank mailing list form.
 
-![View of the mailing list form in the Odoo Email Marketing application.](applications/marketing/email_marketing/mailing_lists/new-mailing-list-form.png)
+![View of the mailing list form in the Odoo Email Marketing application.](mailing_lists/new-mailing-list-form.png)
 
 On the form, type a name in the Mailing List field at the top.
 
@@ -73,11 +73,11 @@ list, where contacts can be created or imported, and then added to the specific 
 Contacts can also be directly imported to a specific mailing list from the Mailing Lists
 page, by clicking Import Contacts to the far-right of the desired mailing list.
 
-![The import contacts button of a mailing list line in Odoo Email Marketing.](applications/marketing/email_marketing/mailing_lists/import-contacts-button.png)
+![The import contacts button of a mailing list line in Odoo Email Marketing.](mailing_lists/import-contacts-button.png)
 
 Doing so reveals an Import Mailing Contacts pop-up form.
 
-![The import mailing contacts pop-up form that appears in Odoo Email Marketing.](applications/marketing/email_marketing/mailing_lists/import-mailing-contacts-popup.png)
+![The import mailing contacts pop-up form that appears in Odoo Email Marketing.](mailing_lists/import-mailing-contacts-popup.png)
 
 Here, the desired mailing list is auto-populated in the Import contacts in field.
 Beneath that, write or paste email addresses in the Contact List field.
@@ -92,7 +92,7 @@ database, navigate to Email Marketing app ‣ Mailing Lists ‣ Mailing List
 Contacts. Doing so reveals the Mailing List Contacts page, featuring a list of all
 contacts associated with every mailing list.
 
-![The Mailing List page in the Odoo Email Marketing application.](applications/marketing/email_marketing/mailing_lists/mailing-list-page.png)
+![The Mailing List page in the Odoo Email Marketing application.](mailing_lists/mailing-list-page.png)
 
 The default Exclude Blacklisted Emails filter appears in the search bar.
 
@@ -105,7 +105,7 @@ Mailing List Contacts page to reveal their contact form.
 At the bottom of their contact form, click Add a line under the Mailing List
 column, locate the desired mailing list from the drop-down menu, and select it.
 
-![The Add a line for mailing lists on a standard contact form in Odoo Email Marketing.](applications/marketing/email_marketing/mailing_lists/contact-form-mailing-list-add.png)
+![The Add a line for mailing lists on a standard contact form in Odoo Email Marketing.](mailing_lists/contact-form-mailing-list-add.png)
 
 To remove a contact from a mailing list that the contact has been added to, enable the
 Opt Out checkbox. If the Opt Out checkbox is ticked, the ability to add a
@@ -141,7 +141,7 @@ Next, in the search bar of the right-sidebar, search for `Newsletter`. The Newsl
 selection of building blocks is used to add subscription fields for any mailing list onto the
 website.
 
-![View of how to quickly search for Newsletter blocks in the Odoo Website application.](applications/marketing/email_marketing/mailing_lists/newsletter-block-search.png)
+![View of how to quickly search for Newsletter blocks in the Odoo Website application.](mailing_lists/newsletter-block-search.png)
 
 Doing so reveals the following building block options: Newsletter Block,
 Newsletter Popup, and Newsletter. Any of these options can be used to add
@@ -150,11 +150,11 @@ subscription fields for a mailing list onto the website.
 The Newsletter Block option places a customizable block onto the body of the website
 where a visitor to enter their email and click a button to subscribe to a designated mailing list.
 
-![Sample of how a newsletter block appears on an Odoo Website.](applications/marketing/email_marketing/mailing_lists/newsletter-block-sample.png)
+![Sample of how a newsletter block appears on an Odoo Website.](mailing_lists/newsletter-block-sample.png)
 
 Tùy chọn Cửa sổ bật lên bản tin email hiển thị một cửa sổ bật lên có thể tùy chỉnh, xuất hiện khi khách truy cập cuộn đến phần cụ thể của trang web nơi đặt khối dựng. Khi khách truy cập đến phần được chỉ định, một cửa sổ bật lên sẽ xuất hiện, trong đó họ có thể nhập địa chỉ email, nhấp vào nút và đăng ký danh sách liên hệ đã xác định trước đó.
 
-![Sample of how a newsletter popup block appears on an Odoo Website.](applications/marketing/email_marketing/mailing_lists/newsletter-popup-sample.png)
+![Sample of how a newsletter popup block appears on an Odoo Website.](mailing_lists/newsletter-popup-sample.png)
 
 The Newsletter option provides the same functionality as the other options. However, it
 only consists of a field for the visitor to enter their email address, and a button to subscribe to
@@ -163,7 +163,7 @@ the mailing list.
 It is covertly designed in this fashion to be cleanly implemented into the content of the webpage
 and/or footer.
 
-![Sample of how a newsletter block appears on an Odoo Website.](applications/marketing/email_marketing/mailing_lists/newsletter-sample.png)
+![Sample of how a newsletter block appears on an Odoo Website.](mailing_lists/newsletter-sample.png)
 
 Once the desired newsletter building block is chosen, drag-and-drop it onto the body of the
 website. Then, select the newly-placed newsletter building block to reveal its configuration options
@@ -172,7 +172,7 @@ on the right-sidebar.
 From there, open the Newsletter drop-down menu, and select the specific mailing list
 that should be applied to the block.
 
-![The newsletter drop-down menu in the customize sidebar that appears in Odoo Website.](applications/marketing/email_marketing/mailing_lists/newsletter-dropdown-customize-sidebar.png)
+![The newsletter drop-down menu in the customize sidebar that appears in Odoo Website.](mailing_lists/newsletter-dropdown-customize-sidebar.png)
 
 Once the desired configurations and customizations are complete, be sure to click the
 Save button in the upper-right corner.

@@ -25,7 +25,7 @@ Fill in the following information and click Get tracked link to generate a track
 4. Source: The source identifies the precise platform or website that referred the
    visitor, such as a search engine, a newsletter, or a website.
 
-![Create a link tracker URL](applications/websites/website/reporting/link_tracker/create-link-tracker.png)
+![Create a link tracker URL](link_tracker/create-link-tracker.png)
 
 The Campaign, Medium, and Source are called  parameters. They are incorporated in the tracked URL.
 
@@ -36,7 +36,7 @@ specific audiences. To achieve this, click the Edit button on your website, sele
 building block, go to the Customize tab, scroll down to Visibility, and
 click Conditionally.
 
-![Use the conditional visibility to display site elements to specific audiences.](applications/websites/website/reporting/link_tracker/conditional-visibility.png)
+![Use the conditional visibility to display site elements to specific audiences.](link_tracker/conditional-visibility.png)
 
 For each parameter available in the [Visibility](../web_design/building_blocks.md#building-blocks-visibility) section, you can
 choose Visible for or Hidden for and select the record you want from the
@@ -47,13 +47,13 @@ dropdown list.
 To get an overview of your tracked links, go to Website ‣ Site ‣ Link Tracker
 and scroll down to Your tracked links section.
 
-![Get an overview of all the links you track.](applications/websites/website/reporting/link_tracker/your-tracked-links.png)
+![Get an overview of all the links you track.](link_tracker/your-tracked-links.png)
 
 ### Thống kê
 
 To measure the performance of tracked links, click the Stats button.
 
-![View the statistics related to a specific tracked link.](applications/websites/website/reporting/link_tracker/statistics.png)
+![View the statistics related to a specific tracked link.](link_tracker/statistics.png)
 
 Scroll down to the Statistics section to get an overview of the number of clicks of your
 tracked links. You can display information for a specific period by clicking the

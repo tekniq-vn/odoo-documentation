@@ -62,12 +62,12 @@ manually.
 To access the IoT box's homepage, open a web browser **on the same network as the IoT box** and
 navigate to the IoT box's IP address.
 
-![IoT box's homepage](applications/general/iot/iot_box/iot-homepage.png)
+![IoT box's homepage](iot_box/iot-homepage.png)
 
 The IoT box's IP address can be retrieved by:
 
 - connecting the IoT box to an external monitor: the IP address is displayed on the screen.
-  ![POS display with IoT box's IP address](applications/general/iot/iot_box/iot-pos-display.png)
+  ![POS display with IoT box's IP address](iot_box/iot-pos-display.png)
 - connecting the IoT box to a printer: the IP address is automatically printed.
 - accessing the administrator interface of the router to which the IoT box is connected or using
   third-party software to scan the network.

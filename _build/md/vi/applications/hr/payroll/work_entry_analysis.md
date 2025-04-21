@@ -27,7 +27,7 @@ Current Month: Previous Period or Current Month: Previous Year.
 The report updates and displays the data for the current time period, data for the selected previous
 time period, as well as the Variation between the two, in a percentage.
 
-![A pivot table comparing the work entries of the current month and the previous month.](applications/hr/payroll/work_entry_analysis/work-entry-comparison.png)
+![A pivot table comparing the work entries of the current month and the previous month.](work_entry_analysis/work-entry-comparison.png)
 
 #### NOTE
 If no work entries for a specific [work entry type](../payroll.md#payroll-work-entries) are logged for
@@ -71,4 +71,4 @@ August 2024, whereas Beth Evans worked the most overtime hours in
 September 2024. Additionally, Mitchell Admin had the largest variation
 change, with a -100% change from August 2024 to September 2024.
 
-![A pivot table comparing the overtime from September 2024 with August 2024.](applications/hr/payroll/work_entry_analysis/variation.png)
+![A pivot table comparing the overtime from September 2024 with August 2024.](work_entry_analysis/variation.png)

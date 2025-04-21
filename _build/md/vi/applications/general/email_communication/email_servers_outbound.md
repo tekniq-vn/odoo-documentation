@@ -10,7 +10,7 @@ configuration is required.
 When a database is created, the subdomain `company-name.odoo.com` is used to send and receive
 emails. The deliverability is optimized for this subdomain as it uses Odoo’s DNS configuration.
 
-![Odoo’s default outbound messages configuration.](applications/general/email_communication/email_servers_outbound/diagram-inbound-mailing-method.png)
+![Odoo’s default outbound messages configuration.](email_servers_outbound/diagram-inbound-mailing-method.png)
 
 Emails are sent with `catchall@company-name.odoo.com` as the *reply-to* address. In addition,
 delivery errors are sent to `bounce@company-name.odoo.com`.
@@ -63,7 +63,7 @@ the alias domain list in [Chế độ lập trình viên (chế độ gỡ lỗi
 All email aliases (e.g., related to CRM or Helpdesk teams) must have their corresponding mailbox in
 the custom domain mail server.
 
-![Technical schema of external mail server configuration with Odoo.](applications/general/email_communication/email_servers_outbound/diagram-owned-domain-odoo-server.png)
+![Technical schema of external mail server configuration with Odoo.](email_servers_outbound/diagram-owned-domain-odoo-server.png)
 
 To receive emails in the Odoo database within the corresponding chatter (CRM, invoices, sales
 orders, etc.), one of these three methods must be used:
@@ -126,14 +126,14 @@ managed by the Marketing Automation or Email Marketing application.
 
 Đầu tiên, kích hoạt chế độ lập trình viên và đi đến Cài đặt ‣ Kỹ thuật ‣ Email: Máy chủ thư đi. Tại đó, thêm hai bản ghi máy chủ thư đi, một cho máy chủ email giao dịch và một cho máy chủ email hàng loạt. Nhập giá trị Ưu tiên thấp hơn cho máy chủ giao dịch (VD: `1`) so với máy chủ gửi thư hàng loạt (VD: `2`) để các email giao dịch được ưu tiên.
 
-![Example of split between transaction and mass mailing mail servers.](applications/general/email_communication/email_servers_outbound/split-transaction-massmail-mail-servers.png)
+![Example of split between transaction and mass mailing mail servers.](email_servers_outbound/split-transaction-massmail-mail-servers.png)
 
 Now, go to Email Marketing ‣ Configuration ‣ Settings, enable
 Dedicated Server, and select the appropriate email server. Odoo uses the server
 with the lowest priority value for transactional emails, and the server selected here for mass
 mailings.
 
-![Dedicated mail server on Email Marketing app settings.](applications/general/email_communication/email_servers_outbound/dedicated-mass-mail-server.png)
+![Dedicated mail server on Email Marketing app settings.](email_servers_outbound/dedicated-mass-mail-server.png)
 
 <a id="email-outbound-different-servers-personalized-from-filtering"></a>
 
@@ -178,7 +178,7 @@ It is also possible to use Odoo's mail server for transactional emails in additi
 On Odoo Online and Odoo.sh, databases are started with Odoo's SMTP server. If no outgoing mail
 server is set, the default Odoo's SMTP server will be used.
 
-![Adding a mail server using the Odoo's mail server with the CLI authentication.](applications/general/email_communication/email_servers_outbound/command-line-interface-option-mail-server.png)![Splitting of Odoo mail server for transactional emails and Mail server for Mass mailing.](applications/general/email_communication/email_servers_outbound/split-mail-servers.png)
+![Adding a mail server using the Odoo's mail server with the CLI authentication.](email_servers_outbound/command-line-interface-option-mail-server.png)![Splitting of Odoo mail server for transactional emails and Mail server for Mass mailing.](email_servers_outbound/split-mail-servers.png)
 
 #### NOTE
 On Odoo Online, the command line interface is equivalent to the default Odoo mail

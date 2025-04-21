@@ -34,7 +34,7 @@ Nếu [bộ lọc cấu hình sẵn](#search-preconfigured-filters) không đủ
 
 Cửa sổ pop-up Thêm bộ lọc tùy chỉnh hiển thị tùy chọn phù hợp, quy tắc lọc và nút bật/tắt Bao gồm dữ liệu đã lưu trữ để hiển thị cả các bản ghi đã lưu trữ.
 
-![Cửa sổ bật lên Thêm bộ lọc tùy chỉnh.](applications/essentials/search/custom-filter.png)
+![Cửa sổ bật lên Thêm bộ lọc tùy chỉnh.](search/custom-filter.png)
 
 Cấu hình so khớp mặc định là Khớp bất kỳ quy tắc sau, cho biết rằng mỗi quy tắc lọc được áp dụng độc lập. Để thay đổi cấu hình so khớp thành Khớp tất cả quy tắc sau, thì ít nhất hai quy tắc lọc phải được thêm vào bộ lọc tùy chỉnh.
 
@@ -81,7 +81,7 @@ Các tùy chọn trong phần <i class="fa fa-adjust"></i> So sánh được s�
 
 Ngoài ra, một số báo cáo chỉ cho phép sử dụng tính năng So sánh khi chọn loại biểu đồ <i class="fa fa-pie-chart"></i> (biểu đồ tròn) hoặc chế độ xem <i class="oi oi-view-pivot"></i> (pivot). Dù bạn có thể chọn tùy chọn So sánh ngay cả khi chế độ xem khác được bật, nhưng việc này **không** thay đổi cách hiển thị dữ liệu trên báo cáo.
 
-![Thanh Tìm kiếm... để xem báo cáo phân tích sản xuất.](applications/essentials/search/comparison-section.png)
+![Thanh Tìm kiếm... để xem báo cáo phân tích sản xuất.](search/comparison-section.png)
 
 Để xem dữ liệu bằng một trong hai phép so sánh, hãy bắt đầu bằng cách chọn một giai đoạn trong cột Bộ lọc trên menu thả xuống của thanh Tìm kiếm.... Sau đó, chọn (Bộ lọc thời gian): Giai đoạn trước hoặc (Bộ lọc thời gian): Năm trước trong phần So sánh.
 
@@ -106,6 +106,6 @@ Mục Yêu thích là cách lưu một tìm kiếm cụ thể để sử dụng 
 
 Sau khi thiết lập xong các tùy chọn, hãy nhấp vào Lưu để lưu tìm kiếm yêu thích.
 
-![Lưu tìm kiếm yêu thích trên báo cáo Phân tích doanh số](applications/essentials/search/favorites.png)
+![Lưu tìm kiếm yêu thích trên báo cáo Phân tích doanh số](search/favorites.png)
 
 Bạn có thể truy cập danh sách yêu thích đã lưu bằng cách nhấp vào biểu tượng 🔽 (mũi tên hướng xuống) trên thanh tìm kiếm, sau đó chọn bộ lọc đã lưu trong menu thả xuống Danh sách yêu thích. Để xóa mục yêu thích đã lưu, hãy nhấp vào biểu tượng 🗑️ (thùng rác) bên cạnh tìm kiếm đã đánh dấu là mục yêu thích.

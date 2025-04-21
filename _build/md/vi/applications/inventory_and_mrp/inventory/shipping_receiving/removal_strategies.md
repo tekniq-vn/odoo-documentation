@@ -22,7 +22,7 @@ documentation page.
 
 Removal strategies are set on either the product category or storage location.
 
-![Change the Force Removal Strategy for either the Product Categories or Locations.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/navigate-location-category.png)
+![Change the Force Removal Strategy for either the Product Categories or Locations.](removal_strategies/navigate-location-category.png)
 
 Configure removal strategies on the location by going to Inventory ‣ Configuration
 ‣ Locations, and selecting the desired location. On the location form, choose a removal strategy
@@ -67,7 +67,7 @@ expiration dates. To enable this feature, navigate to Inventory ‣ Configuratio
 ‣ Settings. Under the Traceability heading, check the box beside Lots &
 Serial Numbers to enable the feature.
 
-![Enable lots and serial numbers.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/enable-lots.png)
+![Enable lots and serial numbers.](removal_strategies/enable-lots.png)
 
 Next, ensure the intended product is tracked by lots or serial numbers by navigating to the product
 form through Inventory ‣ Products ‣ Products, and selecting the desired
@@ -89,7 +89,7 @@ To activate these features, navigate to Inventory ‣ Configuration ‣ Settings
 Under the Warehouse heading, enable the Storage Location and
 Multi-Step Routes features.
 
-![Enable the locations and route features.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/enable-location.png)
+![Enable the locations and route features.](removal_strategies/enable-location.png)
 
 <a id="inventory-warehouses-storage-exp-setup"></a>
 
@@ -102,7 +102,7 @@ Configuration ‣ Settings.
 Under the Traceability heading, ensure the Lots & Serial Numbers feature is
 selected, and then select the check box for Expiration Dates to enable the feature.
 
-![Enable expiration dates feature for FEFO.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/enable-expiration.png)
+![Enable expiration dates feature for FEFO.](removal_strategies/enable-expiration.png)
 
 <a id="inventory-warehouses-storage-pack-setup"></a>
 
@@ -114,7 +114,7 @@ removal strategy.
 Navigate to Inventory ‣ Configuration ‣ Settings and select the check box for
 the Packages feature.
 
-![Enable the packages feature.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/enable-pack.png)
+![Enable the packages feature.](removal_strategies/enable-pack.png)
 
 #### SEE ALSO
 - [Kiện hàng](../product_management/configure/package.md)

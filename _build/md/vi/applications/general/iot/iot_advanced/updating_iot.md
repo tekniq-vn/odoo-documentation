@@ -34,7 +34,7 @@ Hộp IoT
 > 4. Click Select target and select the SD card.
 > 5. Click Flash and wait for the process to finish.
 
-> ![Flashing the SD card with balenaEtcher](applications/general/iot/iot_advanced/updating_iot/etcher-flash.png)
+> ![Flashing the SD card with balenaEtcher](updating_iot/etcher-flash.png)
 
 **Core code update**
 

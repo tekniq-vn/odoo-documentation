@@ -25,7 +25,7 @@ access your course on the front end.
 
 Nhấp Mới để tạo khóa học mới. Khi trang hiện ra, bạn có thể thêm Tiêu đề khóa học và một hoặc nhiều Thẻ để mô tả khóa học. Bạn có thể thêm hình ảnh minh họa bằng cách di chuột vào hình ảnh camera giữ chỗ và nhấp vào biểu tượng chỉnh sửa. Bốn tab cho phép bạn chỉnh sửa thêm khóa học: [Nội dung](#elearning-content), [Mô tả](#elearning-description), [Tùy chọn](#elearning-options) và [Karma](#elearning-karma).
 
-![Create your elearning course.](applications/websites/elearning/elearning-course-creation.png)
+![Create your elearning course.](elearning/elearning-course-creation.png)
 
 <a id="elearning-content"></a>
 
@@ -44,7 +44,7 @@ is part of the [Surveys](../marketing/surveys/create.md) app.
 You can add a short description or information related to your course in the Description
 tab. It appears under your course title on your website.
 
-![Add a description to your course.](applications/websites/elearning/course-description.png)
+![Add a description to your course.](elearning/course-description.png)
 
 <a id="elearning-options"></a>
 
@@ -54,7 +54,7 @@ In the Options tab, different configurations are available:
 [Course](#elearning-course),  [Communication](#elearning-communication),
 [Access rights](#elearning-access-rights), and [Display](#elearning-display).
 
-![Overview of the Options tab](applications/websites/elearning/options-tab.png)
+![Overview of the Options tab](elearning/options-tab.png)
 
 <a id="elearning-course"></a>
 
@@ -154,7 +154,7 @@ Manage your content by going to eLearning ‣ Courses ‣ Contents. Click
 New to create content. Add your Content Title, and if you want
 [Tags](#elearning-tags), then fill in the related information among the different tabs.
 
-![Create your content.](applications/websites/elearning/elearning-content-tab.png)
+![Create your content.](elearning/elearning-content-tab.png)
 
 ### Document tab
 
@@ -179,7 +179,7 @@ your course content.
 Click Add a line to add a link or a file that supports your participants' learning.
 It appears in the course content on your website.
 
-![Additional ressources](applications/websites/elearning/additional-content.png)
+![Additional ressources](elearning/additional-content.png)
 
 <a id="elearning-quiz"></a>
 
@@ -207,4 +207,4 @@ You must be on your website's front end to publish your content. To do so, click
 Go To Website smart button, and tick the Publish option available in the
 right-hand corner.
 
-![Publish your content.](applications/websites/elearning/elearning-publish-button.png)
+![Publish your content.](elearning/elearning-publish-button.png)

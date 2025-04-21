@@ -11,7 +11,7 @@ To view or modify *Helpdesk* teams, go to Helpdesk app ‣ Configuration ‣
 Helpdesk Teams. To create a new team, click the New button in the top-left of the
 dashboard.
 
-![View of the Helpdesk teams page in Odoo Helpdesk.](applications/services/helpdesk/helpdesk-teams-list.png)
+![View of the Helpdesk teams page in Odoo Helpdesk.](helpdesk/helpdesk-teams-list.png)
 
 On the blank Helpdesk team form, enter a Name for the new team. Then, enter a
 description of the team in the field below the team name, if desired. To change the company this
@@ -22,7 +22,7 @@ The team description is published on the public facing [website form](helpdesk/o
 description included in this field should **not** include any information that is for internal
 use only.
 
-![View of a Helpdesk team's website form displaying the team description.](applications/services/helpdesk/team-description-webform.png)
+![View of a Helpdesk team's website form displaying the team description.](helpdesk/team-description-webform.png)
 
 ### Visibility & Assignment
 
@@ -68,7 +68,7 @@ manually on each ticket individually, or through Automatic Assignment. Check the
 Automatic Assignment checkbox to enable this feature for the team.
 
 ![View of a Helpdesk team settings page emphasizing the automatic assignment features in Odoo
-Helpdesk.](applications/services/helpdesk/helpdesk-visibility-assignment.png)
+Helpdesk.](helpdesk/helpdesk-visibility-assignment.png)
 
 As soon as Automatic Assignment has been enabled, additional fields appear.
 
@@ -122,7 +122,7 @@ To change the order of the stages, click the <i class="oi oi-draggable"></i> (dr
 left of the stage name, and drag it to the desired place on the list.
 
 ![View of the stage list page emphasizing the buttons used to change the order the stages
-appear in the list.](applications/services/helpdesk/stages-list-buttons.png)
+appear in the list.](helpdesk/stages-list-buttons.png)
 
 To create a new stage, click the New button at the top-left of the stage list. Doing so
 reveals a blank stage form.
@@ -130,7 +130,7 @@ reveals a blank stage form.
 Choose a Name for the new stage, and add a description, if desired. Then, proceed to
 fill out the remaining fields following the steps below.
 
-![View of a stage's settings page in Odoo Helpdesk.](applications/services/helpdesk/new-stage-details.png)
+![View of a stage's settings page in Odoo Helpdesk.](helpdesk/new-stage-details.png)
 
 ### Add email and SMS templates to stages
 
@@ -151,7 +151,7 @@ Create and edit from the drop-down menu that appears, and complete the form deta
 
 Follow the same steps to select, edit, or create an SMS Template.
 
-![View of an SMS template setup page in Odoo Helpdesk](applications/services/helpdesk/sms-template.png)
+![View of an SMS template setup page in Odoo Helpdesk](helpdesk/sms-template.png)
 
 #### SEE ALSO
 [Mẫu Email](../general/companies/email_template.md)
@@ -191,7 +191,7 @@ team's Kanban card.
 Select a stage to fold temporarily, then click the <i class="fa fa-gear"></i> (gear) icon, and
 select Fold from the drop-down menu.
 
-![Kanban view of a Helpdesk stage, with the temporary fold option emphasized.](applications/services/helpdesk/fold-stage-kanban.png)
+![Kanban view of a Helpdesk stage, with the temporary fold option emphasized.](helpdesk/fold-stage-kanban.png)
 
 #### IMPORTANT
 Manually folding a stage from the Kanban view is temporary and does **not** close the tickets in

@@ -32,7 +32,7 @@ Once an order is completed, proceed to checkout by clicking Payment. Select the
 **payment method**, enter the received amount, and click Validate. Click
 New Order to move on to the next customer.
 
-![POS session interface.](applications/sales/point_of_sale/pos-interface.png)
+![POS session interface.](point_of_sale/pos-interface.png)
 
 #### NOTE
 The system can only load a limited number of products for effective opening. Click
@@ -67,12 +67,12 @@ window in which you can add or modify content for the note.
 Product notes from an [imported SO](point_of_sale/shop/sales_order.md) are displayed
 identically in the cart.
 
-![Customer note button and notes (SO and POS session) on products in the cart](applications/sales/point_of_sale/customer-notes.png)
+![Customer note button and notes (SO and POS session) on products in the cart](point_of_sale/customer-notes.png)
 
 Customer notes appear on customers' receipts and invoices similarly to how they appear in the cart,
 under the related product.
 
-![Customer receipt with notes from an SO and from the customer note feature](applications/sales/point_of_sale/notes-receipt.png)
+![Customer receipt with notes from an SO and from the customer note feature](point_of_sale/notes-receipt.png)
 
 <a id="pos-refund"></a>
 
@@ -87,7 +87,7 @@ To return and refund a product,
 5. once the order is completed, click Payment to proceed to the refund;
 6. click Validate and New Order to move on to the next customer.
 
-![refund view from a POS](applications/sales/point_of_sale/refund.png)
+![refund view from a POS](point_of_sale/refund.png)
 
 #### NOTE
 - You can filter the **orders list** by Receipt Number, Date or
@@ -107,7 +107,7 @@ To add or take out cash from the register, click the **menu icon** in the upper 
 screen and Cash In/Out.
 
 ![Dropdown menu to close a POS session, reach the backend, add or take cash out or check
-orders](applications/sales/point_of_sale/menu-button.png)
+orders](point_of_sale/menu-button.png)
 
 Doing so opens a pop-up window on which you can select Cash In or Cash Out,
 enter the amount and the reason, and click Confirm.
@@ -127,7 +127,7 @@ various information:
 
 Trước khi đóng cửa sổ này, hãy đếm tiền mặt bằng biểu tượng máy tính. Thao tác này sẽ mở cửa sổ bật lên tính toán tổng số tiền trong ngăn két dựa trên các đồng xu và tờ tiền được đếm và nhập thủ công. Sau đó, nhấp Xác nhận hoặc Hủy để đóng cửa sổ. Số tiền tính toán sẽ được hiển thị trong cột Đã đếm, và Thông tin tiền được ghi rõ trong phần **Ghi chú**.
 
-![How to close a POS session.](applications/sales/point_of_sale/closing-control.png)
+![How to close a POS session.](point_of_sale/closing-control.png)
 
 Once you are done controlling the amounts, click Close Session to close and go back to
 the **POS dashboard**.

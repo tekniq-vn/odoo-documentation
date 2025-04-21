@@ -18,7 +18,7 @@ To do so, navigate to the Apps application from the main Odoo dashboard.
 Then, remove the Apps filter, and type in `Delivery Costs` in the Search...
 bar. After finding the Delivery Costs module, click Activate to install it.
 
-![Install the Delivery Costs module.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/install-module.png)
+![Install the Delivery Costs module.](setup_configuration/install-module.png)
 
 ## Thêm phương thức vận chuyển
 
@@ -33,7 +33,7 @@ drop-down menu, verify whether the feature is enabled by following these steps:
 2. Scroll to the Shipping section and enable the Delivery Methods feature
    by checking the corresponding checkbox.
 
-![Enable the *Delivery Methods* feature by checking the box in Configuration > Settings.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/enable-delivery.png)
+![Enable the *Delivery Methods* feature by checking the box in Configuration > Settings.](setup_configuration/enable-delivery.png)
 
 On the Shipping Methods page, add a method by clicking New. Doing so opens
 a form to provide details about the shipping provider, including:
@@ -135,7 +135,7 @@ New, or select the desired route.
 On the route form, in the Applicable On section, tick the Shipping Methods
 checkbox.
 
-![Routes form with the Shipping Methods checkbox selected.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/shipping-route.png)
+![Routes form with the Shipping Methods checkbox selected.](setup_configuration/shipping-route.png)
 
 Then, go to Inventory app ‣ Configuration ‣ Shipping Methods, and select the
 desired shipping method.
@@ -147,7 +147,7 @@ routes from the drop-down menu.
 If the desired route is not selectable, check that the *Shipping Methods* option is enabled in
 the route's *Applicable On* section.
 
-![Show set routes on shipping method form.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/set-routes.png)
+![Show set routes on shipping method form.](setup_configuration/set-routes.png)
 
 <a id="inventory-shipping-sales-order"></a>
 
@@ -177,7 +177,7 @@ The shipping method added to the sales order is linked to the shipping carrier d
 delivery order. To add or change the delivery method on the delivery itself, go to the
 Additional Info tab and modify the Carrier field.
 
-![Shipping carrier information on the delivery form.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/delivery-order.png)
+![Shipping carrier information on the delivery form.](setup_configuration/delivery-order.png)
 
 * [Third-party shipping carriers](setup_configuration/third_party_shipper.md)
 * [Print shipping labels](setup_configuration/labels.md)

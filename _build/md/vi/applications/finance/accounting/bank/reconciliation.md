@@ -21,12 +21,12 @@ either:
   reconciliation. You can remove the Not Matched filter from the search bar to include
   previously reconciled transactions.
 
-![Reaching the bank reconciliation tool from your accounting dashboard](applications/finance/accounting/bank/reconciliation/bank-card.png)
+![Reaching the bank reconciliation tool from your accounting dashboard](reconciliation/bank-card.png)
 
 The bank reconciliation view is structured into three distinct sections: transactions, counterpart
 entries, and resulting entry.
 
-![The user interface of the reconciliation view of a bank journal.](applications/finance/accounting/bank/reconciliation/user-interface.png)
+![The user interface of the reconciliation view of a bank journal.](reconciliation/user-interface.png)
 
 Giao dịch
 : The transactions section on the left shows all bank transactions, with the newest displayed
@@ -93,7 +93,7 @@ of the relevant optional fields.
 Lines are silently reconciled unless a write-off entry is required, which launches a
 reconciliation wizard.
 
-![Click on fully paid to manually set an invoice as entirely paid.](applications/finance/accounting/bank/reconciliation/fully-paid.png)
+![Click on fully paid to manually set an invoice as entirely paid.](reconciliation/fully-paid.png)
 
 <a id="reconciliation-button"></a>
 

@@ -18,7 +18,7 @@ Navigate to Email Marketing app ‣ Configuration ‣ Settings, and tick the
 checkbox next to the Blacklist Option when Unsubscribing feature. Then, click
 Save in the upper-left corner of the Settings page.
 
-![View of the blacklist feature in the Settings page of the Odoo Email Marketing app.](applications/marketing/email_marketing/unsubscriptions/blacklist-feature.png)
+![View of the blacklist feature in the Settings page of the Odoo Email Marketing app.](unsubscriptions/blacklist-feature.png)
 
 ### Ngừng đăng ký
 
@@ -35,7 +35,7 @@ mailing list, presents them with a Mailing Subscriptions page where they can dir
 manage their subscriptions, and informs them that they've been Successfully
 Unsubscribed.
 
-![The Mailng Subscriptions page that appears when 'Unsubscribe' link in mailing is clicked.](applications/marketing/email_marketing/unsubscriptions/mailing-subscriptions-page.png)
+![The Mailng Subscriptions page that appears when 'Unsubscribe' link in mailing is clicked.](unsubscriptions/mailing-subscriptions-page.png)
 
 Beneath that, Odoo asks the former subscriber to Please let us know why you updated your
 subscription, and the user can proceed to choose the appropriate opt-out reason from a series of
@@ -58,7 +58,7 @@ Exclude Me.
 Upon clicking Exclude Me, Odoo informs the recipient they have been successfully
 blacklisted, with a message reading: ✔️ Email added to our blocklist.
 
-![The blocklist question on the Mailing Subscriptions page that recipients see.](applications/marketing/email_marketing/unsubscriptions/mailing-subscriptions-blocklist-question.png)
+![The blocklist question on the Mailing Subscriptions page that recipients see.](unsubscriptions/mailing-subscriptions-blocklist-question.png)
 
 Beneath that, Odoo asks the former subscriber to Please let us know why you want to be
 added to our blocklist, and the user can proceed to choose the appropriate reason from a series of
@@ -73,13 +73,13 @@ Marketing* app for future analysis.
 To view a complete list of all blacklisted email addresses, navigate to Email
 Marketing app ‣ Configuration ‣ Blacklisted Email Addresses.
 
-![View of the blacklisted email addresses page in Odoo Email Marketing.](applications/marketing/email_marketing/unsubscriptions/blacklisted-email-addresses.png)
+![View of the blacklisted email addresses page in Odoo Email Marketing.](unsubscriptions/blacklisted-email-addresses.png)
 
 When a blacklisted record is selected from this list, Odoo reveals a separate page with the
 recipient's contact information, along with the provided Reason why they chose to
 blacklist themselves.
 
-![View of a blacklisted contact detail form in Odoo Email Marketing.](applications/marketing/email_marketing/unsubscriptions/blacklisted-contact-form.png)
+![View of a blacklisted contact detail form in Odoo Email Marketing.](unsubscriptions/blacklisted-contact-form.png)
 
 In the *chatter* of the blacklisted record page, there's a time-stamped message, informing the user
 when the recipient blacklisted themselves (via a Mail Blacklist created log note).
@@ -101,7 +101,7 @@ In this pop-up window, the email address of the selected blacklisted record is s
 Reason field, in which a reason can be entered, explaining why this particular contact
 was removed from the blacklist.
 
-![View of the unblacklist pop-up window in the Odoo Email Marketing application.](applications/marketing/email_marketing/unsubscriptions/unblacklist-popup.png)
+![View of the unblacklist pop-up window in the Odoo Email Marketing application.](unsubscriptions/unblacklist-popup.png)
 
 After filling in the fields, click Confirm to officially remove that particular contact
 from the blacklist.

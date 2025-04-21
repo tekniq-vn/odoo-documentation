@@ -30,7 +30,7 @@ New, and a reward form loads. Enter the following information on the form:
 - Description tab: type in the description for the reward. This is visible on the reward
   card, beneath the title. This field is required.
 
-![A filled out reward form with all details entered.](applications/hr/referrals/rewards/rewards.png)
+![A filled out reward form with all details entered.](rewards/rewards.png)
 
 #### IMPORTANT
 It is advised to enter a Cost and add a Photo. If a cost is not entered,
@@ -64,4 +64,4 @@ reward are subtracted from the user's available points. The rewards presented ar
 reflect the user's current available points.
 
 ![Buy button appears below a mug and backpack reward, while the bicycle reward states how
-many more reward points are needed to redeem.](applications/hr/referrals/rewards/redeem-rewards.png)
+many more reward points are needed to redeem.](rewards/redeem-rewards.png)

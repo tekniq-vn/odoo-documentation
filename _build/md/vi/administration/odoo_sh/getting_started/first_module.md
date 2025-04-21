@@ -29,11 +29,11 @@ Trong chế độ xem nhánh:
 * chọn nhánh *master* trong tuỳ chọn *Sao chép*,
 * nhập *feature-1* vào mục *Thành*.
 
-  ![pic1](administration/odoo_sh/getting_started/first_module/firstmodule-development-+.png)  ![pic2](administration/odoo_sh/getting_started/first_module/firstmodule-development-fork.png)
+  ![pic1](first_module/firstmodule-development-+.png)  ![pic2](first_module/firstmodule-development-fork.png)
 
 Sau khi bản dựng được tạo, bạn có thể truy cập trình soạn thảo và đi đến thư mục  *~/src/user* để truy cập vào mã nhánh phát triển của bạn.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-development-editor.png)![image](administration/odoo_sh/getting_started/first_module/firstmodule-development-editor-interface.png)
+![image](first_module/firstmodule-development-editor.png)![image](first_module/firstmodule-development-editor-interface.png)
 
 ### Từ máy tính của bạn
 
@@ -152,15 +152,15 @@ $ git push
 
 Nhánh của bạn sẽ xuất hiện trong nhánh phát triển của dự án.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-branch.png)
+![image](first_module/firstmodule-test-branch.png)
 
 Trong chế độ xem nhánh của dự án, bạn có thể nhấp vào tên nhánh ở bảng điều hướng bên trái để truy cập lịch sử của nhánh đó.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-branch-history.png)
+![image](first_module/firstmodule-test-branch-history.png)
 
 Ở đây, bạn có thể thấy được những thay đổi bạn vừa push, bao gồm cả chú thích bạn đã thiết lập. Khi cơ sở dữ liệu đã sẵn sàng, bạn có thể truy cập bằng cách nhấp vào nút *Kết nối*.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-database.png)
+![image](first_module/firstmodule-test-database.png)
 
 Nếu bạn cấu hình dự án Odoo.sh để tự động cài đặt phân hệ, bạn sẽ thấy ngay phân hệ đó trong số các ứng dụng của cơ sở dữ liệu. Nếu không, nó sẽ có trong các ứng dụng cần cài đặt.
 
@@ -175,15 +175,15 @@ Sau khi đã kiểm thử phân hệ trong bản dựng phát triển bằng d�
 Bạn có thể:
 
 * Biến nhánh phát triển thành nhánh staging bằng cách kéo và thả nó vào tiêu đề phần *staging*.
-  ![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-devtostaging.png)
+  ![image](first_module/firstmodule-test-devtostaging.png)
 * Hợp nhất nhánh này vào nhánh staging hiện có bằng cách kéo và thả nó vào nhánh staging đã cho.
-  ![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-devinstaging.png)
+  ![image](first_module/firstmodule-test-devinstaging.png)
 
 Bạn cũng có thể sử dụng lệnh `git merge` để hợp nhất các nhánh của mình.
 
 Thao tác này sẽ tạo ra bản dựng staging mới, bản dựng này sẽ sao chép cơ sở dữ liệu production và chạy nó bằng máy chủ đã cập nhật những thay đổi mới nhất cho nhánh của bạn.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-mergedinstaging.png)
+![image](first_module/firstmodule-test-mergedinstaging.png)
 
 Khi cơ sở dữ liệu đã sẵn sàng, bạn có thể truy cập bằng nút *Kết nối*.
 
@@ -198,11 +198,11 @@ Phân hệ có thể không xuất hiện trực tiếp trong ứng dụng để
 * Kích hoạt chế độ [lập trình viên](../../../applications/general/developer_mode.md#developer-mode)
 * trong menu ứng dụng, nhấp vào nút *Cập nhật danh sách ứng dụng*,
 * trong hộp thoại xuất hiện, nhấp vào nút *Cập nhật*.
-  ![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-updateappslist.png)
+  ![image](first_module/firstmodule-test-updateappslist.png)
 
 Sau đó, phân hệ của bạn sẽ xuất hiện trong danh sách các ứng dụng có sẵn.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-mymoduleinapps.png)
+![image](first_module/firstmodule-test-mymoduleinapps.png)
 
 ## Triển khai trong production
 
@@ -210,13 +210,13 @@ Sau khi bạn đã kiểm thử phân hệ trong nhánh staging bằng dữ li�
 
 Kéo và thả nhánh staging của bạn vào nhánh production.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-mergeinproduction.png)
+![image](first_module/firstmodule-test-mergeinproduction.png)
 
 Bạn cũng có thể sử dụng lệnh `git merge` để hợp nhất các nhánh của mình.
 
 Thao tác này sẽ hợp nhất những thay đổi mới nhất của nhánh staging vào nhánh production và cập nhật những thay đổi mới nhất này cho máy chủ production của bạn.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-mergedinproduction.png)
+![image](first_module/firstmodule-test-mergedinproduction.png)
 
 Khi cơ sở dữ liệu đã sẵn sàng, bạn có thể truy cập bằng nút *Kết nối*.
 
@@ -326,7 +326,7 @@ $ git push
 
 Sau đó, nền tảng sẽ tạo bản dựng mới cho nhánh *feature-1*.
 
-![image](administration/odoo_sh/getting_started/first_module/firstmodule-test-addachange-build.png)
+![image](first_module/firstmodule-test-addachange-build.png)
 
 Sau khi đã kiểm thử các thay đổi, bạn có thể hợp nhất chúng vào nhánh production, ví dụ bằng cách kéo và thả nhánh này trên nhánh production trong giao diện Odoo.sh. Khi bạn tăng phiên bản phân hệ trong tệp kê khai, nền tảng sẽ tự động cập nhật phân hệ và trường mới của bạn sẽ có ngay. Nếu không, bạn có thể cập nhật phân hệ trong danh sách ứng dụng theo cách thủ công.
 

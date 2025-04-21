@@ -18,7 +18,7 @@ A list of all expense reports with a status of either To Submit, Submitted,
 Approved, Posted, or Done appears. Expense reports with a status
 of Refused are hidden, by default.
 
-![Reports to validate are found on the Reports to Approve page.](applications/finance/expenses/approve_expenses/expense-reports-list.png)
+![Reports to validate are found on the Reports to Approve page.](approve_expenses/expense-reports-list.png)
 
 ## Phê duyệt báo cáo chi phí
 
@@ -57,7 +57,7 @@ Employee column title to select all the reports in the list.
 
 Next, click the Approve Report button.
 
-![Approve multiple reports by clicking the checkboxes next to each report.](applications/finance/expenses/approve_expenses/approve-report.png)
+![Approve multiple reports by clicking the checkboxes next to each report.](approve_expenses/approve-report.png)
 
 ## Từ chối báo cáo chi phí
 
@@ -79,13 +79,13 @@ The only people that can be tagged in a message are *followers* of the specific 
 who is a follower, click the <i class="fa fa-user-o"></i> (user) icon to display the followers
 of the expense report.
 
-![Send messages in the chatter.](applications/finance/expenses/approve_expenses/chatter.png)
+![Send messages in the chatter.](approve_expenses/chatter.png)
 
 To refuse an expense report, click Refuse, and a Refuse Expense pop-up
 window appears. Enter a brief explanation for the refusal beneath the REASON TO REFUSE
 EXPENSE field, then click Refuse.
 
-![Send messages in the chatter.](applications/finance/expenses/approve_expenses/refuse-expense.png)
+![Send messages in the chatter.](approve_expenses/refuse-expense.png)
 
 Once the expense report is refused, the status changes to Refused, and the only button
 that appears in the top-left is Reset to Draft.

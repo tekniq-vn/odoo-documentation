@@ -24,7 +24,7 @@ displayed.
  can also be accessed from Manufacturing app ‣ Products ‣ Bill of
 Materials.
 
-![Show the current version BOM in the Misc tab.](applications/inventory_and_mrp/plm/manage_changes/version_control/current-version.png)
+![Show the current version BOM in the Misc tab.](version_control/current-version.png)
 
 ## Lịch sử phiên bản
 
@@ -37,7 +37,7 @@ the ≣ (four horizontal lines) icon on the top right corner.
 #### NOTE
 The ECO smart button is visible on the  **only** if the *PLM* app is installed.
 
-![Show ECO smart button on a BoM.](applications/inventory_and_mrp/plm/manage_changes/version_control/eco-smart-button.png)
+![Show ECO smart button on a BoM.](version_control/eco-smart-button.png)
 
 In the list of  for the product, navigate to the search bar at the top, and click the
 ▼ (down arrow) icon on the right to access a drop-down menu of Filters.
@@ -49,14 +49,14 @@ Responsible user who applied the change, and the Effective Date of the
 Click each  to view the past components, operations, and design files associated with the
 .
 
-![Display ECO revision history for a BoM for a product.](applications/inventory_and_mrp/plm/manage_changes/version_control/eco-list.png)
+![Display ECO revision history for a BoM for a product.](version_control/eco-list.png)
 
 #### NOTE
 If the Effective Date field is empty, the Effective date of the  is
 automatically set to As soon as possible and no dates are recorded in the revision
 history of the .
 
-![List of BOM effective dates.](applications/inventory_and_mrp/plm/manage_changes/version_control/no-effective-date.png)
+![List of BOM effective dates.](version_control/no-effective-date.png)
 
 ## Design files
 
@@ -70,7 +70,7 @@ icon.
 The files associated with the  are displayed in the Files section. To add more
 design files, select the Attach files button.
 
-![Show paperclip icon in the chatter to attach files to a BoM.](applications/inventory_and_mrp/plm/manage_changes/version_control/attach-files.png)
+![Show paperclip icon in the chatter to attach files to a BoM.](version_control/attach-files.png)
 
 ### Manage design files in an ECO
 

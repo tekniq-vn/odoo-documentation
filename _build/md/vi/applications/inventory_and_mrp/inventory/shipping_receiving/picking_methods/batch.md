@@ -22,13 +22,13 @@ To activate the batch picking option, begin by going to Inventory app ‣
 Configuration ‣ Settings. Under the Operations section, check the Batch
 Transfers box.
 
-![Enable the *Batch Transfers* in Inventory > Configuration > Settings.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/batch-transfer-checkbox.png)
+![Enable the *Batch Transfers* in Inventory > Configuration > Settings.](batch/batch-transfer-checkbox.png)
 
 Since batch picking is a method to optimize the *pick* operation in Odoo, the Storage
 Locations and Multi-Step Routes options under the Warehouse heading must
 also be checked on this settings page. When finished, click Save.
 
-![Enable *Storage Locations* and *Multi-Step Routes* Inventory > Configuration > Settings.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/locations-routes-checkbox.png)
+![Enable *Storage Locations* and *Multi-Step Routes* Inventory > Configuration > Settings.](batch/locations-routes-checkbox.png)
 
 Lastly, enable the warehouse picking feature, by navigating to the warehouse settings page, which is
 accessible from Inventory app ‣ Configuration ‣ Warehouses.
@@ -41,7 +41,7 @@ Outgoing Shipments, select either the Send goods in output and then deliver
 - [Delivery in two steps](../daily_operations/receipts_delivery_two_steps.md)
 - [Three-step delivery](../daily_operations/delivery_three_steps.md)
 
-![Set up 2-step or 3-step outgoing shipments.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/set-2-or-3-step-shipment.png)
+![Set up 2-step or 3-step outgoing shipments.](batch/set-2-or-3-step-shipment.png)
 
 ## Create batch transfers
 
@@ -76,13 +76,13 @@ a list. Navigate to the Inventory app ‣ Operations drop-down menu, and select 
 of the Transfers to open a filtered list of transfers.
 
 ![Show all transfer types in a drop-down menu: Receipts, Deliveries, Internal Transfers,
-Manufacturings, Batch Transfers, Dropships.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/transfers-drop-down.png)
+Manufacturings, Batch Transfers, Dropships.](batch/transfers-drop-down.png)
 
 On the transfers list, select the checkbox to the left of the selected transfers to add in a batch.
 Next, navigate to the Actions ⚙️ (gear) button, and click Add to batch from
 the resulting drop-down menu.
 
-![Use *Add to batch* button, from the *Action* button's list.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/add-to-batch.png)
+![Use *Add to batch* button, from the *Action* button's list.](batch/add-to-batch.png)
 
 Doing so opens an Add to batch pop-up window, wherein the employee
 Responsible for the picking can be assigned.
@@ -94,7 +94,7 @@ To begin with a draft, select the Draft checkbox.
 
 Conclude the process by clicking Confirm.
 
-![Show *Add to batch* window to create a batch transfer.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/add-to-batch-window.png)
+![Show *Add to batch* window to create a batch transfer.](batch/add-to-batch-window.png)
 
 ## Process batch transfer
 
@@ -128,7 +128,7 @@ Click No Backorder to finish the picking *without* creating another batch pickin
 
 Click Discard to cancel the validation, and return to the batch transfer form.
 
-![Show the *Create Backorder* pop-up.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/create-backorder.png)
+![Show the *Create Backorder* pop-up.](batch/create-backorder.png)
 
 <a id="inventory-warehouses-storage-barcode-picking"></a>
 
@@ -140,7 +140,7 @@ the Batch Transfers button.
 By default, confirmed batch pickings appear on the Batch Transfers page. On that page,
 click on the desired batch transfer to open the detailed list of products for the picking.
 
-![Show list of to-do batch transfers in *Barcode* app.](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch/barcode-batch-transfers.png)
+![Show list of to-do batch transfers in *Barcode* app.](batch/barcode-batch-transfers.png)
 
 For the chosen batch transfer, follow the instructions at the top of the page in the black
 background. Begin by scanning the product's barcode to record a single product for picking. To

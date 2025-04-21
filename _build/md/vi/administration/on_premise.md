@@ -16,14 +16,14 @@ Sao chép cơ sở dữ liệu bằng cách truy cập trình quản lý cơ s�
 
 Trong trường hợp xảy ra lỗi đăng ký, thông báo sau sẽ hiển thị.
 
-![Thông báo lỗi đăng ký cơ sở dữ liệu](administration/on_premise/error-message-sub-code.png)
+![Thông báo lỗi đăng ký cơ sở dữ liệu](on_premise/error-message-sub-code.png)
 
 Để xử lý vấn đề:
 
 - Kiểm tra **tính hợp lệ của gói đăng ký Odoo Enterprise** của bạn bằng cách xác minh xem thông tin đăng ký của bạn có thẻ Đang hoạt động trên [Tài khoản Odoo](https://accounts.odoo.com/my/subscription) hay không hoặc liên hệ với Chuyên viên Quản lý Tài khoản của bạn.
 - Đảm bảo rằng **không có cơ sở dữ liệu nào khác được liên kết** với mã đăng ký, vì mỗi gói đăng ký chỉ có thể liên kết với một cơ sở dữ liệu.
 - Xác minh rằng **không có cơ sở dữ liệu nào dùng cùng một UUID** (Mã định danh duy nhất) bằng cách mở [Odoo Hợp đồng](https://accounts.odoo.com/my/subscription). Nếu hai hoặc nhiều cơ sở dữ liệu đang dùng cùng một UUID, tên của chúng sẽ được hiển thị.
-  ![Thông báo lỗi UUID cơ sở dữ liệu](administration/on_premise/unlink-db-name-collision.png)
+  ![Thông báo lỗi UUID cơ sở dữ liệu](on_premise/unlink-db-name-collision.png)
 
   Nếu đúng như vậy, hãy thay đổi UUID của (các) cơ sở dữ liệu theo cách thủ công hoặc [gửi phiếu hỗ trợ](https://www.odoo.com/help).
 - Vì thông báo cập nhật phải có thể đến được máy chủ xác thực đăng ký của Odoo, hãy đảm bảo **cài đặt mạng và tường lửa** của bạn cho phép máy chủ Odoo mở các kết nối đi tới:
@@ -36,7 +36,7 @@ Trong trường hợp xảy ra lỗi đăng ký, thông báo sau sẽ hiển th�
 
 Nếu bạn có nhiều người dùng trong cơ sở dữ liệu cục bộ hơn số lượng được cung cấp trong gói đăng ký Odoo Enterprise, thông báo sau sẽ hiển thị.
 
-![Thông báo lỗi quá nhiều người dùng trên một cơ sở dữ liệu](administration/on_premise/add-more-users.png)
+![Thông báo lỗi quá nhiều người dùng trên một cơ sở dữ liệu](on_premise/add-more-users.png)
 
 Khi thông báo này xuất hiện, bạn có 30 ngày để hành động trước khi cơ sở dữ liệu hết hạn. Số ngày đếm ngược sẽ được cập nhật mỗi ngày.
 
@@ -51,7 +51,7 @@ Khi cơ sở dữ liệu của bạn có đúng số lượng người dùng, th
 
 Nếu cơ sở dữ liệu hết hạn trước khi bạn gia hạn gói đăng ký, thông báo sau sẽ hiển thị.
 
-![Thông báo lỗi cơ sở dữ liệu hết hạn](administration/on_premise/database-expired.png)
+![Thông báo lỗi cơ sở dữ liệu hết hạn](on_premise/database-expired.png)
 
 Thông báo này sẽ xuất hiện nếu bạn không hành động trước khi thời gian đếm ngược 30 ngày kết thúc.
 

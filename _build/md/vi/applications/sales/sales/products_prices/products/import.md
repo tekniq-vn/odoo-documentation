@@ -18,12 +18,12 @@ corner. Doing so reveals a drop-down menu.
 
 From this drop-down menu, select the Import records option.
 
-![The Import records option selectable from the gear icon on the Products page in Odoo Sales.](applications/sales/sales/products_prices/products/import/gear-import-records-option.png)
+![The Import records option selectable from the gear icon on the Products page in Odoo Sales.](import/gear-import-records-option.png)
 
 Selecting Import records reveals a separate page with a link to download the
 Import Template for Products. Click that link to download the template.
 
-![The Import records option selectable from the gear icon on the Products page in Odoo Sales.](applications/sales/sales/products_prices/products/import/import-template-products.png)
+![The Import records option selectable from the gear icon on the Products page in Odoo Sales.](import/import-template-products.png)
 
 Once the template download is complete, open the spreadsheet file to customize it.
 
@@ -54,7 +54,7 @@ before any changes are made, there are a few elements to keep in mind during the
   To manually match a column name with a field in Odoo, click the Odoo Field drop-down
   menu next to the File Column that needs a manual adjustment, and select the
   appropriate field from that drop-down menu.
-  ![The Odoo Field drop-down menu next to a Field Column that needs to be manually adjusted.](applications/sales/sales/products_prices/products/import/odoo-field-dropdown-menu.png)
+  ![The Odoo Field drop-down menu next to a Field Column that needs to be manually adjusted.](import/odoo-field-dropdown-menu.png)
 
 ## Import product template spreadsheet
 
@@ -62,7 +62,7 @@ After customizing the product template spreadsheet, return to the Odoo product i
 the template download link is found, and click the Upload File button in the upper-left
 corner.
 
-![The upload file button on the import products template download page in Odoo Sales.](applications/sales/sales/products_prices/products/import/upload-file-button.png)
+![The upload file button on the import products template download page in Odoo Sales.](import/upload-file-button.png)
 
 Then, a pop-up window appears, in which the completed product template spreadsheet file should be
 selected and uploaded to Odoo.
@@ -70,7 +70,7 @@ selected and uploaded to Odoo.
 After that, Odoo reveals a page showcasing all the elements of the newly-configured product template
 spreadsheet, separated by File Column, Odoo Field, and Comments.
 
-![The import a file page in Odoo Sales after a product template has been uploaded.](applications/sales/sales/products_prices/products/import/import-a-file-page.png)
+![The import a file page in Odoo Sales after a product template has been uploaded.](import/import-a-file-page.png)
 
 From here, the File Column can be manually assigned to an Odoo Field, if
 necessary.
@@ -81,12 +81,12 @@ click the Test button in the upper-left corner.
 If everything is lined up and applied correctly, Odoo reveals a blue banner at the top of the page,
 informing the user that Everything seems valid.
 
-![The everything seems valid message that appears if file columns are entered correctly.](applications/sales/sales/products_prices/products/import/everything-seems-valid-message.png)
+![The everything seems valid message that appears if file columns are entered correctly.](import/everything-seems-valid-message.png)
 
 If there are any errors, Odoo reveals a red banner at the top of the page, with instructions of
 where to locate the specific issues, and how to fix them.
 
-![The import error message that appears if file columns don't match an Odoo Field.](applications/sales/sales/products_prices/products/import/import-error-message.png)
+![The import error message that appears if file columns don't match an Odoo Field.](import/import-error-message.png)
 
 Once those errors are fixed, click Test again to ensure all necessary issues have been
 remedied appropriately.
@@ -100,7 +100,7 @@ When clicked, Odoo instantly imports those products, and reveals the main Produc
 with a pop-up message in the upper-right corner. This pop-up message informs the user how many
 products were successfully imported.
 
-![The pop-up window that appears after a successful product import process in Odoo Sales.](applications/sales/sales/products_prices/products/import/successful-import-popup.png)
+![The pop-up window that appears after a successful product import process in Odoo Sales.](import/successful-import-popup.png)
 
 At this point, all the newly-imported products are accessible and editable via the
 Products page.
@@ -152,7 +152,7 @@ The column names/titles of the attributes and values spreadsheet should be as fo
 Attribute, Display Type, Variant Creation Mode, and
 Values / Value.
 
-![An attributes and values spreadsheet template for imports.](applications/sales/sales/products_prices/products/import/attributes-and-values-spreadsheet.png)
+![An attributes and values spreadsheet template for imports.](import/attributes-and-values-spreadsheet.png)
 - Attribute: name of the attribute (e.g. `Size`).
 - Display Type: display type used in the product configurator. There are three display
   type options:
@@ -196,7 +196,7 @@ Attributes / Values, and Name columns.
 There can be other columns, as well, but these columns are **required** in order to properly import
 products with specific variants.
 
-![Product variants spreadsheet with product attributes and variants for import purposes.](applications/sales/sales/products_prices/products/import/product-attribute-spreadsheet-import.png)
+![Product variants spreadsheet with product attributes and variants for import purposes.](import/product-attribute-spreadsheet-import.png)
 - Name: product name
 - Product Attributes / Attribute: name of attribute
 - Product Attributes / Values: values pertaining to the corresponding attribute

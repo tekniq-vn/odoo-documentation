@@ -15,7 +15,7 @@ To access a complete overview of all social marketing campaigns, open the Social
 Marketing application, and click Campaigns from the header menu. Doing so reveals
 a separate page with every campaign in a default kanban view.
 
-![View of the campaigns page in the Odoo Social Marketing application.](applications/marketing/social_marketing/social_campaigns/campaigns-page.png)
+![View of the campaigns page in the Odoo Social Marketing application.](social_campaigns/campaigns-page.png)
 
 Each *stage* in the kanban view can be edited, by clicking the gear icon to the left of
 the + (plus sign) - located to the right of the stage title.
@@ -25,7 +25,7 @@ The **gear icon** *only* appears when the cursor hovers to the left of the **+ (
 When the gear icon is clicked, a drop-down menu reveals the options: Fold,
 Edit Stage, and Delete.
 
-![View of the campaigns page in the Odoo Social Marketing application.](applications/marketing/social_marketing/social_campaigns/campaign-stage-dropdown.png)
+![View of the campaigns page in the Odoo Social Marketing application.](social_campaigns/campaign-stage-dropdown.png)
 
 Clicking Fold minimizes that specific stage's column. The stage column can be restored
 by clicking the folded version of it on the main Campaigns dashboard in the default
@@ -54,7 +54,7 @@ corner of the Campaigns dashboard.
 Both options reveal a new campaign detail window directly on the Campaigns dashboard
 when clicked.
 
-![View of the quick add option for campaigns in Odoo Social Marketing.](applications/marketing/social_marketing/social_campaigns/quick-add-campaign.png)
+![View of the quick add option for campaigns in Odoo Social Marketing.](social_campaigns/quick-add-campaign.png)
 
 Here, the Campaign Name, Responsible, and Tags can be entered.
 When all modifications are complete, click Add to add the campaign to the database.
@@ -80,7 +80,7 @@ On a *Campaign Template* page, numerous elements can be customized/modified, and
 communications can be created, modified, and sent or scheduled. Below is a sample of a completed
 campaign template.
 
-![View of a sample campaign template page in Odoo Social Marketing.](applications/marketing/social_marketing/social_campaigns/create-campaign.png)
+![View of a sample campaign template page in Odoo Social Marketing.](social_campaigns/create-campaign.png)
 
 #### IMPORTANT
 In order for the Send New Mailing option to appear on campaign templates, make sure

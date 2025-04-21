@@ -8,7 +8,7 @@ Odoo cho phép sử dụng một danh mục vật tư (BoM) cho nhiều biến t
 
 Để biết thêm thông tin về cách cấu hình các biến thể sản phẩm, hãy tham khảo tài liệu [biến thể sản phẩm](../../../sales/sales/products_prices/products/variants.md).
 
-![Chọn "Biến thể" từ phần cài đặt ứng dụng Tồn kho.](applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants/product-variants-variants-settings.png)
+![Chọn "Biến thể" từ phần cài đặt ứng dụng Tồn kho.](product_variants/product-variants-variants-settings.png)
 
 ## Tạo thuộc tính sản phẩm tùy chỉnh
 
@@ -32,7 +32,7 @@ Sau đó, bên dưới header Giá trị, nhấp vào menu thả xuống để c
 
 Khi hoàn thành, hãy nhấp vào Lưu để lưu thay đổi.
 
-![Tab biến thể trên biểu mẫu sản phẩm có các giá trị và thuộc tính.](applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants/product-variants-product-form.png)
+![Tab biến thể trên biểu mẫu sản phẩm có các giá trị và thuộc tính.](product_variants/product-variants-product-form.png)
 
 ## Áp dụng các thành phần của BoM cho biến thể sản phẩm
 
@@ -47,7 +47,7 @@ Chọn giá trị mong muốn trong các cột Số lượng và Đơn vị tín
 #### NOTE
 Tùy chọn Áp dụng cho các biến thể để chỉ định thành phần cho những biến thể sản phẩm cụ thể trên  sẽ khả dụng sau khi cài đặt Biến thể được kích hoạt từ ứng dụng Tồn kho. Nếu trường Áp dụng cho các biến thể không hiển thị ngay lập tức, hãy kích hoạt trường này từ menu tùy chọn bổ sung (biểu tượng dấu ba chấm, bên phải hàng header).
 
-![Tùy chọn "Áp dụng cho các biến thể" trên menu tùy chọn bổ sung.](applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants/product-variants-apply-on-variants.png)
+![Tùy chọn "Áp dụng cho các biến thể" trên menu tùy chọn bổ sung.](product_variants/product-variants-apply-on-variants.png)
 
 Mỗi thành phần có thể được chỉ định cho nhiều biến thể. Nếu không chỉ định biến thể cho thành phần, thì nó sẽ được sử dụng trong mọi biến thể của sản phẩm. Nguyên tắc tương tự được áp dụng khi cấu hình hoạt động và phụ phẩm.
 
@@ -67,7 +67,7 @@ Sau đó, trong tab Chi tiết đơn hàng, nhấp vào Thêm sản phẩm và c
 
 Từ cửa sổ bật lên, nhấp vào tùy chọn thuộc tính mong muốn để cấu hình đúng biến thể của sản phẩm cần sản xuất. Sau đó, nhấp vào biểu tượng + hoặc - màu xanh lá cây bên cạnh `1` để thay đổi số lượng bán và sản xuất, nếu muốn.
 
-![Cửa sổ bật lên Cấu hình sản phẩm để chọn thuộc tính biến thể.](applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants/product-variants-variant-popup.png)
+![Cửa sổ bật lên Cấu hình sản phẩm để chọn thuộc tính biến thể.](product_variants/product-variants-variant-popup.png)
 
 Sau khi đã chọn tất cả các thông số kỹ thuật, hãy nhấp vào Thêm. Thao tác này sẽ biến cửa sổ bật lên thành cửa sổ bật lên Cấu hình thứ hai, nơi các sản phẩm tùy chọn khả dụng sẽ xuất hiện, nếu chúng đã được tạo trước đó.
 
@@ -87,7 +87,7 @@ Từ chế độ xem máy tính bảng, nhấp vào Đánh dấu là hoàn tất
 
 Ngoài ra, bạn có thể nhấp vào nút Đánh dấu là hoàn tất ở đầu biểu mẫu lệnh sản xuất để hoàn thành lệnh sản xuất đó.
 
-![Lệnh sản xuất cho các biến thể của sản phẩm có BoM.](applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants/product-variants-manufacturing-order.png)
+![Lệnh sản xuất cho các biến thể của sản phẩm có BoM.](product_variants/product-variants-manufacturing-order.png)
 
 Sau đó, quay lại  thông qua breadcrumb ở đầu trang.
 

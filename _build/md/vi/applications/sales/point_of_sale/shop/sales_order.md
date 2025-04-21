@@ -10,7 +10,7 @@ From the **Point of Sale** application, open a new session. Then, click on
 Quotations/Orders to get the complete list of quotations and sales orders created on the
 sales application.
 
-![Quotations and sales order button on the Point of Sale interface](applications/sales/point_of_sale/shop/sales_order/pos-interface.png)
+![Quotations and sales order button on the Point of Sale interface](sales_order/pos-interface.png)
 
 #### NOTE
 To ease finding the right sales order, you can filter that list on the **customer** or on the
@@ -21,7 +21,7 @@ Quotations/Orders to reduce the list to one particular customer.
 
 From the list of sales order, select one to make a payment.
 
-![list view of sales orders and quotations](applications/sales/point_of_sale/shop/sales_order/list-of-so.png)
+![list view of sales orders and quotations](sales_order/list-of-so.png)
 
 Bạn có thể:
 

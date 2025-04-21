@@ -31,7 +31,7 @@ scanners interpret barcodes in Odoo.
 There is also a Configure Product Barcodes internal link arrow, along with a set of
 Print buttons for printing barcode commands and a barcode demo sheet.
 
-![Enabled Barcode feature in Inventory app settings.](applications/inventory_and_mrp/barcode/operations/adjustments/adjustments-barcode-setting.png)
+![Enabled Barcode feature in Inventory app settings.](adjustments/adjustments-barcode-setting.png)
 
 #### SEE ALSO
 For more information on setting up and configuring the Barcode app, refer to the
@@ -49,7 +49,7 @@ the bottom of the screen.
 Doing so navigates to the *Barcode Inventory Client Action* page, labeled as Inventory
 Adjustment in the top header section.
 
-![Barcode app start screen with scanner.](applications/inventory_and_mrp/barcode/operations/adjustments/adjustments-barcode-scanner.png)
+![Barcode app start screen with scanner.](adjustments/adjustments-barcode-scanner.png)
 
 To begin the adjustment, first scan the *source location*, which is the current location in the
 warehouse of the product whose count should be adjusted. Then, scan the product barcode(s).
@@ -87,7 +87,7 @@ bottom of the screen.
 This navigates to a new, blank page where the desired product, quantity, and source location must be
 chosen.
 
-> ![Keypad to add products on Barcode Inventory Client Action page.](applications/inventory_and_mrp/barcode/operations/adjustments/adjustments-keypad.png)
+> ![Keypad to add products on Barcode Inventory Client Action page.](adjustments/adjustments-keypad.png)
 
 Đầu tiên, nhấp vào dòng Sản phẩm và chọn sản phẩm cần điều chỉnh tồn kho. Sau đó, nhập thủ công số lượng của sản phẩm đó bằng cách thay đổi số `1` trong dòng Số lượng, hoặc nhấp vào các nút +1 và -1 để tăng/giảm số lượng sản phẩm. Bạn cũng có thể sử dụng bàn phím số để nhập số lượng.
 

@@ -17,7 +17,7 @@ for more information about Fiscal Localization Packages.
 
 The step-by-step Accounting onboarding banner is composed of four steps:
 
-![Step-by-step onboarding banner in Odoo Accounting](applications/finance/accounting/get_started/accounting-onboarding-banner.png)
+![Step-by-step onboarding banner in Odoo Accounting](get_started/accounting-onboarding-banner.png)
 1. [Kỳ kế toán](#accounting-setup-periods)
 2. [Tài khoản ngân hàng](#accounting-setup-bank)
 3. [Thuế](#accounting-setup-taxes)
@@ -89,7 +89,7 @@ opening balances.
 Basic settings are displayed on this page to help you review your Chart of Accounts. To access all
 the settings of an account, click on the Setup button at the end of the line.
 
-![Setup of the Chart of Accounts and their opening balances in Odoo Accounting](applications/finance/accounting/get_started/setup_chart_of_accounts.png)
+![Setup of the Chart of Accounts and their opening balances in Odoo Accounting](get_started/setup_chart_of_accounts.png)
 
 #### NOTE
 [Click here](get_started/chart_of_accounts.md) for more information on how to configure your
@@ -106,7 +106,7 @@ Accounting ‣ Customers ‣ Invoices.
 
 The Invoicing onboarding banner consists of four main steps:
 
-![Step-by-step onboarding banner in Odoo Invoicing](applications/finance/accounting/get_started/invoicing-onboarding-banner.png)
+![Step-by-step onboarding banner in Odoo Invoicing](get_started/invoicing-onboarding-banner.png)
 1. [Dữ liệu công ty](#invoicing-setup-company)
 2. [Bố cục chứng từ](#invoicing-setup-layout)
 3. [Tạo hoá đơn](#invoicing-setup-invoice)

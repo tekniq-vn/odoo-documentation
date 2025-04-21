@@ -46,7 +46,7 @@ template.
 The Appraisals section of the settings menu determines the frequency that appraisals are
 performed, and if it is possible to request additional feedback.
 
-![The appraisals sections with the timeline filled in and 360 feedback enabled.](applications/hr/appraisals/appraisals-setting.png)
+![The appraisals sections with the timeline filled in and 360 feedback enabled.](appraisals/appraisals-setting.png)
 
 <a id="appraisals-appraisal-plan"></a>
 
@@ -101,7 +101,7 @@ appears at the bottom of the list. Enter the name of the rating in the field.
 To rearrange the order of the ratings, click the (six small gray boxes) icon to the left
 of a rating, and drag the rating to the desired position on the list.
 
-![The evaluation scale, with the new button and click and drag icons highlighted.](applications/hr/appraisals/evaluation-scale.png)
+![The evaluation scale, with the new button and click and drag icons highlighted.](appraisals/evaluation-scale.png)
 
 ### Phản hồi 360
 
@@ -109,7 +109,7 @@ The 360 Feedback section displays information for all the surveys currently conf
 in the *Appraisals* application. To view the surveys, and their statistics, navigate to
 Appraisals application ‣ Configuration ‣ 360 Feedback.
 
-![A list view of all available surveys in the Appraisals application.](applications/hr/appraisals/survey-list.png)
+![A list view of all available surveys in the Appraisals application.](appraisals/survey-list.png)
 
 Each appraisal (or survey) is presented in its own line on the 360 Feedback page, along
 with various information related to that particular appraisal.

@@ -18,7 +18,7 @@ Select QR menu or QR menu + Ordering to give customers access to your
 menu or product catalog by scanning a QR code on their personal device. The latter also
 allows them to place an order and make a payment.
 
-![QR menu and kiosk setting activation](applications/sales/point_of_sale/self_order/qr-activation.png)
+![QR menu and kiosk setting activation](self_order/qr-activation.png)
 - Click <i class="fa fa-arrow-right"></i> Print QR Codes to download a .pdf document with the
   generated QR codes.
 - Click <i class="fa fa-arrow-right"></i> Download QR Codes to download a compressed file
@@ -33,7 +33,7 @@ Ki-ốt
 When Kiosk is selected, customers can access the menu or product catalog, place
 orders, and pay from a self-ordering kiosk.
 
-![QR menu and kiosk setting activation](applications/sales/point_of_sale/self_order/kiosk-activation.png)
+![QR menu and kiosk setting activation](self_order/kiosk-activation.png)
 
 Once a self-ordering type is selected, the [additional settings](#pos-self-order-add-settings)
 update to fit the selected type's needs.
@@ -176,7 +176,7 @@ On the customers' end,
 2. Select the items and click Order to place an order.
 3. Follow the instructions on-screen to assign a table and pay for the order.
 
-![kiosk end-screen for customers](applications/sales/point_of_sale/self_order/kiosk-endscreen.png)
+![kiosk end-screen for customers](self_order/kiosk-endscreen.png)
 
 #### IMPORTANT
 - A POS session must be open for customers to place an order.

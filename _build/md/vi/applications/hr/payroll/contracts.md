@@ -15,7 +15,7 @@ from the top menu. All employee contracts, and their current contract status, ar
 Kanban view, by default. The Kanban view displays running contracts, contracts that require action,
 expired contracts, and cancelled contracts.
 
-![Contracts dashboard view showing running contracts and contracts with issues.](applications/hr/payroll/contracts/contracts-overview.png)
+![Contracts dashboard view showing running contracts and contracts with issues.](contracts/contracts-overview.png)
 
 #### NOTE
 The list of contracts in the *Payroll* application matches the list of contracts in the
@@ -68,7 +68,7 @@ where the information can be entered. Required fields are underlined in bold.
   Seasonal, Full-Time, or Part-Time from the drop-down menu.
 
 ![New contract form to be filled in when creating a new contract, with required fields
-outlined in red.](applications/hr/payroll/contracts/required-fields.png)
+outlined in red.](contracts/required-fields.png)
 - Contact Reference: type in the name or title for the contract, such as `John Smith
   Contract`. This field is **required**.
 - Employee: name of the employee the contract applies to.
@@ -106,7 +106,7 @@ outlined in red.](applications/hr/payroll/contracts/required-fields.png)
   Pay and Wage fields are entered. This amount is the total monthly cost for the
   employer. This field **cannot** be modified, and is calculated based on the Yearly
   Cost (Real).
-  ![Optional tabs for a new contract.](applications/hr/payroll/contracts/salary-info.png)
+  ![Optional tabs for a new contract.](contracts/salary-info.png)
 
 ## Contract Details tab
 
@@ -164,7 +164,7 @@ This application is required for an employee to sign any contract.
 - Notes: a text field where any notes for the employee contract are entered for future
   reference.
 
-![Contract details in optional tabs for a new contract.](applications/hr/payroll/contracts/contract-details.png)
+![Contract details in optional tabs for a new contract.](contracts/contract-details.png)
 - Analytic Account: this field allows a link between the contract and a specific
   analytic account for accounting purposes.
 - Contract Template: select a pre-existing contract template from the drop-down menu.
@@ -214,7 +214,7 @@ tabs, such as Personal Documents, appears if applicable.
 
 ## Salary information
 
-![Optional tabs for a new contract.](applications/hr/payroll/contracts/salary-info.png)
+![Optional tabs for a new contract.](contracts/salary-info.png)
 
 This section is where the specific salary details are defined. This section is country-specific, so
 these fields vary, depending on where the company is located.
@@ -243,7 +243,7 @@ button. Next, the contract must be sent to the employee to be signed.
 
 Click on one of the following buttons to send the contract to the employee:
 
-![Send the contract to the employee via one of the buttons.](applications/hr/payroll/contracts/send-contract.png)
+![Send the contract to the employee via one of the buttons.](contracts/send-contract.png)
 - Generate Simulation Link: this option is **only** for Belgian companies. Clicking this
   opens a pop-up window that contains the basic information from the contract, as well as a link for
   the contract when using the salary configurator. Click Send to send an email to the
@@ -274,7 +274,7 @@ deductions or allocations are set.
 To add a new deduction, first navigate to Payroll app ‣ Contracts ‣ Salary
 Attachments. Next, click Create, and a new salary attachment form loads.
 
-![The salary attachment form with everything filled in for Ronnie Hart's child support.](applications/hr/payroll/contracts/garnishment.png)
+![The salary attachment form with everything filled in for Ronnie Hart's child support.](contracts/garnishment.png)
 
 Fill out the following fields on the form:
 

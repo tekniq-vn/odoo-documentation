@@ -85,7 +85,7 @@ To fetch them manually, proceed as follows:
 Go to Accounting ‣ Configuration ‣ KE OSCU Codes to view the complete list of
 fetched OSCU codes.
 
-![List of fetched OSCU codes.](applications/finance/fiscal_localizations/kenya/oscu-codes.png)
+![List of fetched OSCU codes.](kenya/oscu-codes.png)
 
 <a id="etims-unspsc"></a>
 
@@ -189,7 +189,7 @@ If the elements above are defined, the product is automatically registered while
 operation to the KRA. If not, you will be alerted by a yellow banner at the top of the screen
 inviting you to check the missing elements.
 
-![Product registration template.](applications/finance/fiscal_localizations/kenya/product-registration.png)
+![Product registration template.](kenya/product-registration.png)
 
 ## Stock movements
 
@@ -242,7 +242,7 @@ are the following:
    vendor bill has been confirmed on eTIMS, the **KRA invoice number** can be found in the
    eTIMS Details tab.
 
-![Bill registration steps.](applications/finance/fiscal_localizations/kenya/purchase-order-lines.png)
+![Bill registration steps.](kenya/purchase-order-lines.png)
 
 ## Xuất hóa đơn
 

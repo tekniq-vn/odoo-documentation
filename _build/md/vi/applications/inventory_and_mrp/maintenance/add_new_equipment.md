@@ -32,7 +32,7 @@ and configure the equipment as follows:
   Work Centers, selecting a work center or creating a new one using the Create button,
   and clicking the Equipment tab on the work center form
 
-![An example of a fully configured new equipment form.](applications/inventory_and_mrp/maintenance/add_new_equipment/new-equipment-form.png)
+![An example of a fully configured new equipment form.](add_new_equipment/new-equipment-form.png)
 
 ## Include additional product information
 
@@ -48,7 +48,7 @@ details about the piece of equipment:
 - Cost: the amount the equipment was purchased for
 - Warranty Expiration Date: the date on which the equipment's warranty will expire
 
-![The product information tab for the new piece of equipment.](applications/inventory_and_mrp/maintenance/add_new_equipment/new-equipment-product-information.png)
+![The product information tab for the new piece of equipment.](add_new_equipment/new-equipment-product-information.png)
 
 ## Add maintenance details
 
@@ -71,4 +71,4 @@ frequency of the piece of equipment:
   number is calculated automatically based on the duration of previous maintenance requests, and
   cannot be configured manually.
 
-![The maintenance tab for a piece of equipment.](applications/inventory_and_mrp/maintenance/add_new_equipment/new-equipment-maintenance.png)
+![The maintenance tab for a piece of equipment.](add_new_equipment/new-equipment-maintenance.png)

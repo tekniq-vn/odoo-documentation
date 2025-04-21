@@ -15,7 +15,7 @@ Mục tiêu của việc gán số sê-ri cho sản phẩm là để đảm bả
 
 Để theo dõi sản phẩm bằng số sê-ri, thì tính năng Số lô & sê-ri phải được bật. Để bật tính năng này, hãy đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt, cuộn xuống phần Truy xuất nguồn gốc và nhấp vào ô bên cạnh Số lô & sê-ri. Nhớ nhấp nút Lưu để lưu thay đổi.
 
-![Cài đặt số lô và sê-ri đã bật.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-enabled-setting.png)
+![Cài đặt số lô và sê-ri đã bật.](serial_numbers/serial-numbers-enabled-setting.png)
 
 <a id="inventory-product-management-configure-lots"></a>
 
@@ -27,7 +27,7 @@ Khi vào biểu mẫu sản phẩm, hãy nhấp vào Chỉnh sửa và nhấp v�
 
 Khi vào biểu mẫu sản phẩm, hãy nhấp vào Chỉnh sửa, điều hướng đến tab Tồn kho và cuộn đến phần Truy xuất nguồn gốc. Sau đó, chọn tùy chọn Theo số sê-ri duy nhất và nhấp vào Lưu để lưu các thay đổi. Giờ đây, bạn có thể chọn và chỉ định số sê-ri mới hoặc có sẵn cho các lô sản phẩm này mới nhập về hoặc được sản xuất.
 
-![Bật tính năng theo dõi bằng số sê-ri trên biểu mẫu sản phẩm.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-product-tracking.png)
+![Bật tính năng theo dõi bằng số sê-ri trên biểu mẫu sản phẩm.](serial_numbers/serial-numbers-product-tracking.png)
 
 #### WARNING
 Nếu sản phẩm không được gán số sê-ri, thì cửa sổ pop-up thông báo lỗi người dùng sẽ xuất hiện. Thông báo lỗi nêu rằng (các) sản phẩm hiện có không có lô/số sê-ri. Tuy nhiên, có thể gán số lô/sê-ri cho sản phẩm bằng cách điều chỉnh tồn kho.
@@ -44,7 +44,7 @@ Mô tả chi tiết về số lô/sê-ri này cũng có thể được thêm và
 
 Khi mọi cấu hình mong muốn đã hoàn tất, nhấp vào nút Lưu để lưu tất cả thay đổi.
 
-![Đã tạo số sê-ri mới cho sản phẩm hiện có.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-new-serial-number.png)
+![Đã tạo số sê-ri mới cho sản phẩm hiện có.](serial_numbers/serial-numbers-new-serial-number.png)
 
 Sau khi tạo số sê-ri mới, gán cho sản phẩm mong muốn và lưu lại, hãy quay lại biểu mẫu sản phẩm bằng cách đi đến Sản phẩm ‣ Sản phẩm và chọn sản phẩm mà số sê-ri mới tạo này vừa được gán.
 
@@ -61,12 +61,12 @@ Có thể gán số sê-ri cho hàng **sắp nhập** trên phiếu nhập kho b
 #### SEE ALSO
 [Chỉ định số sê-ri](create_sn.md)
 
-![Mành hình chứa biểu tượng danh sách có dấu đầu dòng và các nút thông minh Hoạt động chi tiết.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/assign-serial-numbers.png)
+![Mành hình chứa biểu tượng danh sách có dấu đầu dòng và các nút thông minh Hoạt động chi tiết.](serial_numbers/assign-serial-numbers.png)
 
 #### WARNING
 Nếu bạn nhấp vào Xác thực trước khi gán số sê-ri cho số lượng đã nhận, thì cửa sổ pop-up thông báo Lỗi người dùng sẽ xuất hiện. Cửa sổ pop-up yêu cầu nhập số lô hoặc số sê-ri cho các sản phẩm đã đặt.  **không thể** được xác thực nếu không gán số sê-ri.
 
-![Cửa sổ pop-up báo lỗi người dùng yêu cầu nhập số sê-ri.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-user-error-popup.png)
+![Cửa sổ pop-up báo lỗi người dùng yêu cầu nhập số sê-ri.](serial_numbers/serial-numbers-user-error-popup.png)
 
 Có nhiều cách để thực hiện việc này: gán số sê-ri theo cách thủ công, gán số sê-ri tự động và sao chép/dán số sê-ri từ bảng tính.
 
@@ -80,7 +80,7 @@ Sau đó, trong trường Số sê-ri, nhập tổng số mặt hàng cần đư
 
 Cuối cùng, nhấp vào Gán số sê-ri, một danh sách sẽ hiện ra với các số sê-ri mới khớp với số lượng sản phẩm đã đặt.
 
-![Tự động gán số sê-ri trong cửa sổ pop-up hoạt động chi tiết.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-auto-assign-sn.png)
+![Tự động gán số sê-ri trong cửa sổ pop-up hoạt động chi tiết.](serial_numbers/serial-numbers-auto-assign-sn.png)
 
 #### Sao chép/dán số sê-ri từ bảng tính
 
@@ -88,7 +88,7 @@ Cuối cùng, nhấp vào Gán số sê-ri, một danh sách sẽ hiện ra vớ
 
 Từ đây, có thể nhập thủ công các địa điểm Đến và số lượng Hoàn tất vào từng dòng số sê-ri.
 
-![Danh sách số sê-ri được sao chép trong bảng tính Excel.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-excel-spreadsheet.png)
+![Danh sách số sê-ri được sao chép trong bảng tính Excel.](serial_numbers/serial-numbers-excel-spreadsheet.png)
 
 Sau khi tất cả số lượng sản phẩm đã được gán một số sê-ri, hãy nhấp vào nút Xác nhận để đóng cửa sổ pop-up. Sau đó, nhấp vào Xác thực.
 
@@ -116,7 +116,7 @@ Trong cửa sổ pop-up này, Số lô/sê-ri sẽ được chọn theo mặc đ
 
 Cuối cùng, nhấp vào nút Xác thực để xuất sản phẩm.
 
-![Số sê-ri được liệt kê trong cửa sổ bật lên chi tiết thao tác.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-detailed-operations-popup.png)
+![Số sê-ri được liệt kê trong cửa sổ bật lên chi tiết thao tác.](serial_numbers/serial-numbers-detailed-operations-popup.png)
 
 Khi xác thực lệnh giao hàng, nút thông minh Truy xuất nguồn gốc sẽ xuất hiện. Nhấp vào nút thông minh Truy xuất nguồn gốc để xem Báo cáo truy xuất nguồn gốc đã cập nhật, bao gồm chứng từ Tham chiếu, Sản phẩm đang được truy xuất, Ngày và Số lô/sê-ri được gán.
 
@@ -132,7 +132,7 @@ Theo mặc định trong Odoo, việc tạo số sê-ri mới chỉ được ph�
 
 Đối với loại hoạt động Lệnh giao hàng, nằm trên trang Loại hoạt động, bạn có thể bật tùy chọn Tạo số lô/sê-ri mới bằng cách chọn Lệnh giao hàng từ trang Loại hoạt động, nhấp vào Chỉnh sửa và nhấp vào ô cạnh tùy chọn Tạo số lô/sê-ri mới (trong phần Truy xuất nguồn gốc). Hãy nhớ nhấp vào Lưu để lưu các thay đổi.
 
-![Đã bật cài đặt truy xuất nguồn gốc trong biểu mẫu loại hoạt động.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-operations-types.png)
+![Đã bật cài đặt truy xuất nguồn gốc trong biểu mẫu loại hoạt động.](serial_numbers/serial-numbers-operations-types.png)
 
 ## Truy xuất nguồn gốc bằng số sê-ri
 
@@ -146,7 +146,7 @@ Từ đây, các sản phẩm được gán số sê-ri sẽ được liệt kê
 
 Thao tác này sẽ hiển thị tất cả số sê-ri và lô hiện có và có thể mở rộng để hiển thị tất cả số lượng sản phẩm được gán số đó. Đối với các số sê-ri duy nhất không được sử dụng lại, chỉ được có một sản phẩm cho mỗi số sê-ri.
 
-![Trang báo cáo số sê-ri với danh sách thả xuống.](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers/serial-numbers-reporting-page.png)
+![Trang báo cáo số sê-ri với danh sách thả xuống.](serial_numbers/serial-numbers-reporting-page.png)
 
 #### SEE ALSO
 [Theo dõi sản phẩm](../product_tracking.md)

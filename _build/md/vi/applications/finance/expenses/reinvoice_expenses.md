@@ -60,7 +60,7 @@ Once the expense report is submitted, a <i class="fa fa-money"></i> Sales Orders
 appears at the top-center of both the expense report, and each individual expense record being
 reinvoiced.
 
-![Ensure the customer to be invoiced is called out on the expense.](applications/finance/expenses/reinvoice_expenses/reinvoice-expense.png)
+![Ensure the customer to be invoiced is called out on the expense.](reinvoice_expenses/reinvoice-expense.png)
 
 #### IMPORTANT
 Selecting the proper  in the Customer to Reinvoice field is
@@ -81,7 +81,7 @@ Analytic Distribution section is populated for every expense line.
 If an Analytic Distribution entry is missing, assign the correct accounts from the
 drop-down menu, then click Approve.
 
-![The expense report with all the Analytic Distribution lines populated.](applications/finance/expenses/reinvoice_expenses/analytic-dist.png)
+![The expense report with all the Analytic Distribution lines populated.](reinvoice_expenses/analytic-dist.png)
 
 #### NOTE
 The Approve button **only** appears after an expense report has been [submitted](expense_reports.md#expenses-submit).
@@ -109,6 +109,6 @@ a  to open the individual  details.
 
 The expenses are listed in the  Order Lines tab.
 
-![See the expenses listed on the sales order after clicking into it.](applications/finance/expenses/reinvoice_expenses/so-details.png)
+![See the expenses listed on the sales order after clicking into it.](reinvoice_expenses/so-details.png)
 
 Tiếp theo, nhấp Tạo hóa đơn, một cửa sổ bật lên Tạo hóa đơn sẽ xuất hiện. Chọn loại hóa đơn là Hóa đơn thường xuyên, Khoản trả trước (theo phần trăm) hoặc Khoản trả trước (số tiền cố định). Sau đó, nhấp Tạo hóa đơn nháp. Thao tác này tạo hóa đơn nháp cho khách hàng. Nhấp Xác nhận để xác nhận hóa đơn, và khách hàng sẽ được tính phí cho các khoản chi phí.

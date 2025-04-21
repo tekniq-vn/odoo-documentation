@@ -12,7 +12,7 @@ so, navigate to Manufacturing app ‣ Configuration ‣ Settings, and tick the
 By-Products checkbox, located under the Operations heading. Then, click
 Save to apply the change.
 
-![The By-Products setting on the Manufacturing app settings page.](applications/inventory_and_mrp/manufacturing/workflows/byproducts/byproducts-setting.png)
+![The By-Products setting on the Manufacturing app settings page.](byproducts/byproducts-setting.png)
 
 With the By-Products setting enabled, a By-products tab appears on product
 .
@@ -31,7 +31,7 @@ operation in the Produced in Operation field. For example, if a scrap wood by-pr
 produced during an *Assemble* operation, select that operation in the Produced in
 Operation field.
 
-![The By-Products tab on a BoM, configured with a "Scrap Wood" by-product.](applications/inventory_and_mrp/manufacturing/workflows/byproducts/byproducts-tab.png)
+![The By-Products tab on a BoM, configured with a "Scrap Wood" by-product.](byproducts/byproducts-tab.png)
 
 ## Manufacture by-product
 
@@ -52,4 +52,4 @@ components and products. Each by-product is listed on the resulting Inventory Mo
 page, with the From column displaying the virtual production location, and the
 To column displaying the location where the by-product is stored.
 
-![The Product Moves page for an MO with by-products.](applications/inventory_and_mrp/manufacturing/workflows/byproducts/product-moves.png)
+![The Product Moves page for an MO with by-products.](byproducts/product-moves.png)

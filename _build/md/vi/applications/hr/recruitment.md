@@ -97,7 +97,7 @@ If the browser window is set to a size smaller than the entire width of the scre
 full-screen), then the resumé does not appear on the right-side. Instead, the resumé appears in
 the Files section of the chatter, below the applicant's card.
 
-![The resumé on an applicant's card, appearing on the right side.](applications/hr/recruitment/cv-display.png)
+![The resumé on an applicant's card, appearing on the right side.](recruitment/cv-display.png)
 
 <a id="recruitment-cv-ocr"></a>
 
@@ -146,7 +146,7 @@ passed, if the applicant has not accepted the offer, the offer is no longer avai
 
 Để truy cập chế độ xem Kanban cho một vị trí tuyển dụng, hãy đi đến trang chủ của Ứng dụng Tuyển dụng - đây là chế độ xem mặc định khi mở ứng dụng. Tất cả các vị trí tuyển dụng sẽ hiển thị trên đây. Nhấp vào nút thông minh (#) Đơn ứng tuyển mới trên thẻ vị trí tuyển dụng để chuyển đến chế độ xem Kanban hiển thị tất cả ứng viên cho vị trí cụ thể đó.
 
-![Main dashboard view of job position card, showing new applications button.](applications/hr/recruitment/new-applicants-button.png)
+![Main dashboard view of job position card, showing new applications button.](recruitment/new-applicants-button.png)
 
 Inside the job application, the Kanban stages appear, with all the applicants populated in their
 respective columns, indicating what stage they are currently in. There are six default stages in
@@ -164,7 +164,7 @@ the applicants in it are hidden from view. To expand the folded stage and view t
 for that column, click anywhere on the thin gray column that says the stage name and the column
 expands, revealing the applicants.
 
-![Expand a folded column by clicking on it in the Kanban view.](applications/hr/recruitment/stages.png)
+![Expand a folded column by clicking on it in the Kanban view.](recruitment/stages.png)
 
 Each stage has a color-coded bar beneath the stage name, providing status information for the
 applicant's in that specific stage. The status colors are:
@@ -178,7 +178,7 @@ The status for each card is set manually. To set the status, click on the small 
 lower-left of the applicant card. A status pop-up window appears. Click on the desired status for
 the applicant. The status dot on the applicant card as well as the status bar updates.
 
-![The applicant card statuses, and status bar.](applications/hr/recruitment/status-dots.png)
+![The applicant card statuses, and status bar.](recruitment/status-dots.png)
 
 <a id="recruitment-customize-stages"></a>
 
@@ -191,7 +191,7 @@ a business.
 
 Để tạo giai đoạn mới, nhấp vào <i class="fa fa-plus"></i> Giai đoạn và một cột mới sẽ xuất hiện. Nhập tiêu đề cho giai đoạn mới vào trường Tiêu đề giai đoạn, sau đó nhấp Thêm. Cột mới sẽ xuất hiện và bạn có thể tạo thêm giai đoạn mới khác. Nếu không cần tạo thêm giai đoạn nào nữa, nhấp vào bất kỳ đâu trên màn hình để thoát khỏi chế độ tạo giai đoạn mới.
 
-![The plus sign to click to add a new column to the Kanban stages.](applications/hr/recruitment/add-column.png)
+![The plus sign to click to add a new column to the Kanban stages.](recruitment/add-column.png)
 
 <a id="recruitment-modify-stages"></a>
 
@@ -200,7 +200,7 @@ a business.
 Để chỉnh sửa cài đặt của một giai đoạn, hãy di chuột lên tên của giai đoạn đó, biểu tượng <i class="fa fa-cog"></i> (bánh răng) sẽ xuất hiện ở góc trên bên phải. Nhấp vào biểu tượng <i class="fa fa-cog"></i> (bánh răng) này để mở menu, sau đó chọn Chỉnh sửa. Một biểu mẫu Chỉnh sửa: (Giai đoạn) sẽ hiện ra. Thực hiện các chỉnh sửa mong muốn trên biểu mẫu, rồi nhấp Lưu & đóng khi hoàn tất.
 
 ![The gear icon that appears when a column name is moused over, and the drop-down menu it
-displays when clicked.](applications/hr/recruitment/gear.png)
+displays when clicked.](recruitment/gear.png)
 
 <a id="recruitment-edit-stage"></a>
 
@@ -269,7 +269,7 @@ information on email templates, refer to the [Mẫu Email](../general/companies/
 To manually send an email, click Send message in the chatter. A text box appears, as
 well as the applicant's email address.
 
-![Send an email from the chatter.](applications/hr/recruitment/full-composer.png)
+![Send an email from the chatter.](recruitment/full-composer.png)
 
 Click the <i class="fa fa-expand"></i> (expand) full composer icon in the bottom right corner of
 the Send Message tab in the chatter. A Compose Email pop-up window loads,
@@ -297,7 +297,7 @@ attachment, click the <i class="fa fa-close"></i> (delete) icon to the right of 
 Nếu cần thay đổi nội dung email, hãy chỉnh sửa phần thân email. Nếu muốn lưu các thay đổi để sử dụng sau này, có thể lưu email dưới dạng mẫu mới. Nhấp nút Lưu mẫu ở phía dưới. Để gửi email, nhấp Gửi và email sẽ được gửi đến ứng viên. Sau đó, email sẽ xuất hiện trong cửa sổ trò chuyện.
 
 ![Send a custom survey, also referred to as an interview form, to an applicant using a
-pre-configured template.](applications/hr/recruitment/send-survey.png)
+pre-configured template.](recruitment/send-survey.png)
 
 #### SEE ALSO
 - [Job positions](recruitment/new_job.md)

@@ -28,7 +28,7 @@ Save to finish enabling it.
 If these options are *not* enabled, a default Register button becomes available for
 visitors to interact with and procure free registrations to the event.
 
-![View of the settings page for Odoo Events.](applications/marketing/events/sell_tickets/events-settings-tickets.png)
+![View of the settings page for Odoo Events.](sell_tickets/events-settings-tickets.png)
 
 With those settings enabled, Odoo automatically creates a new *Product Type* called, *Event Ticket*,
 which is accessible on every product form. Odoo also creates three event registration products (with
@@ -39,14 +39,14 @@ When creating a new event registration product, the *Product Type* **must** be s
 Ticket* on the product form, in order for it to be selected in the *Product* column under the
 *Tickets* tab on an event form.
 
-![View of an event form highlighting the column product under the tickets tab in Odoo.](applications/marketing/events/sell_tickets/events-tickets-registration-product.png)
+![View of an event form highlighting the column product under the tickets tab in Odoo.](sell_tickets/events-tickets-registration-product.png)
 
 #### NOTE
 Any event with paid tickets sold, features a <i class="fa fa-dollar"></i> Sales smart button at
 the top of the event form, where the respective sales orders attributed to those ticket sales
 become available.
 
-![View of an event's form and the sales smart button in Odoo Events.](applications/marketing/events/sell_tickets/events-sales-smartbutton.png)
+![View of an event's form and the sales smart button in Odoo Events.](sell_tickets/events-sales-smartbutton.png)
 
 Clicking the <i class="fa fa-dollar"></i> Sales smart button reveals a separate page, showcasing
 all the sales orders (standard and/or online) related to tickets that have been sold for that
@@ -65,7 +65,7 @@ Type set to Event Ticket on its product form.
 Once an event registration product is selected, a Configure an event pop-up window
 appears.
 
-![Standard 'Configure an event' pop-up window that appears on an event ticket sales order.](applications/marketing/events/sell_tickets/configure-event-popup.png)
+![Standard 'Configure an event' pop-up window that appears on an event ticket sales order.](sell_tickets/configure-event-popup.png)
 
 From the Configure an event pop-up window, select to which event this ticket purchase is
 related to in the Event field drop-down menu. Then, in the Event Ticket
@@ -90,7 +90,7 @@ purchasing process.
 If different ticket tiers are configured for the event, the visitor is presented with a
 Tickets pop-up window.
 
-![The tickets pop-up window that appears on the event's website when 'Register' is clicked.](applications/marketing/events/sell_tickets/tickets-popup.png)
+![The tickets pop-up window that appears on the event's website when 'Register' is clicked.](sell_tickets/tickets-popup.png)
 
 From here, visitors select which ticket tier they would like to purchase, along with a quantity,
 using the numerical drop-down menu available to the right of their desired ticket. Once the desired
@@ -99,7 +99,7 @@ selections have been entered, the visitor then clicks the Register button.
 Then, an Attendees pop-up window appears, containing all the questions that have been
 configured in the *Questions* tab of the event form for this particular event.
 
-![The attendees pop-up window that appears on the event's website when 'Ok' is clicked.](applications/marketing/events/sell_tickets/attendees-popup.png)
+![The attendees pop-up window that appears on the event's website when 'Ok' is clicked.](sell_tickets/attendees-popup.png)
 
 If multiple tickets are being purchased at once, there are numbered sections for each individual
 ticket registrant, each containing the same questions. However, if any question has been configured

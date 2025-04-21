@@ -34,7 +34,7 @@ by matching conditions within the records set by the [deduplication rules](#data
 
 Navigate to this dashboard by going to Data Cleaning app ‣ Deduplication.
 
-![Deduplication dashboard in the Data Cleaning application.](applications/productivity/data_cleaning/data-cleaning-duplicates.png)
+![Deduplication dashboard in the Data Cleaning application.](data_cleaning/data-cleaning-duplicates.png)
 
 The RULE sidebar lists each of the active deduplication rules, and displays the total
 number of duplicates detected beside each rule.
@@ -141,7 +141,7 @@ conditions within the records set by the [recycle record's rules](#data-cleaning
 
 Navigate to this dashboard by going to Data Cleaning app ‣ Recycle Records.
 
-![Field Recycle Records dashboard in the Data Cleaning application.](applications/productivity/data_cleaning/data-cleaning-recycle.png)
+![Field Recycle Records dashboard in the Data Cleaning application.](data_cleaning/data-cleaning-recycle.png)
 
 The RECYCLE RULES sidebar lists each of the active recycle record rules.
 
@@ -219,7 +219,7 @@ to follow a convention set by the field cleaning rules.
 
 Navigate to this dashboard by going to Data Cleaning app ‣ Field Cleaning.
 
-![Field Cleaning Records dashboard in the Data Cleaning application.](applications/productivity/data_cleaning/data-cleaning-field.png)
+![Field Cleaning Records dashboard in the Data Cleaning application.](data_cleaning/data-cleaning-field.png)
 
 The CLEANING RULES sidebar lists each of the active cleaning rules.
 

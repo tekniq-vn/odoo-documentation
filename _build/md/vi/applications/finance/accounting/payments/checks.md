@@ -31,7 +31,7 @@ the reconciliation and creating only **one journal entry**.
 
 Để thực hiện việc này, bạn *bắt buộc* phải làm theo các bước thiết lập sau. Truy cập Kế toán ‣ Cấu hình ‣ Sổ nhật ký ‣ Ngân hàng. Nhấp vào tab Thanh toán đến sau đó chọn Thêm một dòng, chọn Thủ công làm Phương thức thanh toán, và nhập `Séc` làm Tên. Nhấp vào nút menu bật/tắt, tích chọn Tài khoản khoản thu chưa thanh toán, trong cột Tài khoản khoản thu chưa thanh toán, thiết lập tài khoản Ngân hàng cho phương thức thanh toán **Séc**.
 
-![Bypass the Outstanding Receipts account using the Bank account.](applications/finance/accounting/payments/checks/outstanding-payment-accounts.png)
+![Bypass the Outstanding Receipts account using the Bank account.](checks/outstanding-payment-accounts.png)
 
 ## Payment registration
 
@@ -53,7 +53,7 @@ Customer ‣ Invoices), and click Register Payment. Fill in the payment informat
 - Memo: enter the check number;
 - Nhấp Tạo thanh toán.
 
-![Kiểm tra thông tin thanh toán](applications/finance/accounting/payments/checks/payment-checks.png)
+![Kiểm tra thông tin thanh toán](checks/payment-checks.png)
 
 The generated journal entries are different depending on the payment registration method chosen.
 

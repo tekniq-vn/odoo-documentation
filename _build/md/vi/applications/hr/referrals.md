@@ -37,7 +37,7 @@ At any point during onboarding, the Skip button may be clicked. This exits the
 onboarding, and the main *Referrals* dashboard loads. If Skip is clicked, onboarding
 slides will not load anymore when opening the *Referrals* application.
 
-![An onboarding slide with the skip and next buttons visible at the bottom.](applications/hr/referrals/onboarding.png)
+![An onboarding slide with the skip and next buttons visible at the bottom.](referrals/onboarding.png)
 
 #### NOTE
 If there are any candidates hired that the user had referred prior to opening the Referrals app
@@ -57,13 +57,13 @@ The Company field only appears when in a multi-company database.
 
 Hình ảnh cũng có thể được chỉnh sửa. Di chuột qua hình thu nhỏ của hình ảnh ở góc trên bên phải của biểu mẫu. Biểu tượng :guilabel: `✏️ (bút chì)` và biểu tượng :guilabel: `🗑️ (thùng rác)` sẽ xuất hiện. Nhấp vào biểu tượng :guilabel: `✏️ (bút chì)` để thay đổi hình ảnh. Cửa sổ trình duyệt tệp sẽ tải. Điều hướng đến hình ảnh mong muốn, chọn hình ảnh đó, sau đó nhấp vào :guilabel: `Mở`. Hình ảnh mới sẽ xuất hiện trong hình thu nhỏ. Để xóa hình ảnh, hãy nhấp vào biểu tượng :guilabel: `🗑️ (thùng rác)`, sau đó chọn hình ảnh mới bằng biểu tượng :guilabel: `✏️ (bút chì)`.
 
-![An onboarding slide in edit mode, with the main fields highlighted.](applications/hr/referrals/edit-onboarding.png)
+![An onboarding slide in edit mode, with the main fields highlighted.](referrals/edit-onboarding.png)
 
 The sequence in which the slides appear can be changed from the *Onboarding* dashboard. Click the
 (six small gray boxes) icon to the left of the the slide text, and drag the slide to the
 desired position.
 
-![The onboarding slides in a list, with the drag and drop arrows highlighted.](applications/hr/referrals/onboarding-reorder.png)
+![The onboarding slides in a list, with the drag and drop arrows highlighted.](referrals/onboarding-reorder.png)
 
 <a id="referrals-hired"></a>
 
@@ -83,7 +83,7 @@ beneath the avatar. Click on an available avatar to select it.
 Nếu có nhiều hơn một người được giới thiệu đã được tuyển dụng kể từ khi mở ứng dụng *Giới thiệu*, sau khi chọn hình đại diện đầu tiên, người dùng sẽ được nhắc chọn hình đại diện khác cho những người được giới thiệu tiếp theo. Sau khi đã chọn xong tất cả hình đại diện, trang chủ sẽ tải và hiển thị tất cả các hình đại diện. Di chuột qua từng hình đại diện để hiển thị tên của họ ở phía trên.
 
 ![The hired screen. A selection of avatars are presented to chose from, with any already
-chosen are greyed out.](applications/hr/referrals/avatars.png)
+chosen are greyed out.](referrals/avatars.png)
 
 ### Modify friends
 
@@ -106,7 +106,7 @@ The referral friend form automatically saves, but can be saved manually at any t
 corner. To cancel any changes made, click the ✖️ (Discard all changes) icon to delete
 any changes, and revert to the original content.
 
-![A friend form in edit mode.](applications/hr/referrals/edit-friend.png)
+![A friend form in edit mode.](referrals/edit-friend.png)
 
 #### WARNING
 It is not advised to edit the images. An image file must have a transparent background in order
@@ -149,7 +149,7 @@ manually* option, represented by a (cloud upload) icon, located in the top-left 
 To cancel any changes made, click the ✖️ (Discard all changes) icon to delete any
 changes, and revert to the original content.
 
-![A level form in edit mode.](applications/hr/referrals/levels.png)
+![A level form in edit mode.](referrals/levels.png)
 
 #### WARNING
 It is not advised to edit the images. An image file must have a transparent background in order
@@ -175,7 +175,7 @@ Leveling up does not cost the user any points, the user simply needs to earn the
 points required.
 
 ![A 'Click to level up!' appears beneath the user's image, and a large 'Level up!' appears
-above their image.](applications/hr/referrals/level-up.png)
+above their image.](referrals/level-up.png)
 
 #### NOTE
 Once a user has reached the highest configured level, they will continue to accrue points that

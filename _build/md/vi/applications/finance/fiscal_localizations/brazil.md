@@ -62,7 +62,7 @@ given to your company.
    - Điện thoại
    - Email
 
-   ![Cấu hình công ty.](applications/finance/fiscal_localizations/brazil/contact-configuration.png)
+   ![Cấu hình công ty.](brazil/contact-configuration.png)
 2. Configure the Fiscal Information within the Sales and Purchase tab:
    - Add the Fiscal Position for [AvaTax Brazil](#brazil-fiscal-positions).
    - Tax Regime: Federal Tax Regime
@@ -70,7 +70,7 @@ given to your company.
      or Non-Taxpayer
    - Main Activity Sector
 
-   ![Company fiscal configuration.](applications/finance/fiscal_localizations/brazil/contact-fiscal-configuration.png)
+   ![Company fiscal configuration.](brazil/contact-fiscal-configuration.png)
 3. Configure the following extra Fiscal Information if you are going to issue NFS-e:
    - Add the Fiscal Position for [AvaTax Brazil](#brazil-fiscal-positions).
    - COFINS Details: Taxable, Not Taxable, Taxable with rate 0%, Exempt,
@@ -79,7 +79,7 @@ given to your company.
      Suspended
    - CSLL Taxable If the company is subject to CSLL or not
 
-   ![Company fiscal configuration for NFSe.](applications/finance/fiscal_localizations/brazil/contact-fiscal-configuration-nfse.png)
+   ![Company fiscal configuration for NFSe.](brazil/contact-fiscal-configuration-nfse.png)
 4. Finally, upload a company logo and save the contact.
 
 #### NOTE
@@ -127,7 +127,7 @@ When you create the account from Odoo, be sure to select the right environment. 
 email used to open the account cannot be used to open another account. Save your API
 ID and API Key when you create the account from Odoo.
 
-![Transfer API Credentials.](applications/finance/fiscal_localizations/brazil/transfer-api-credentials.png)
+![Transfer API Credentials.](brazil/transfer-api-credentials.png)
 
 After you create the account from Odoo, you need to go to the Avalara Portal to set up your
 password:
@@ -139,7 +139,7 @@ password:
 4. You will receive an email with a token and a link to create your password. Click on this link and
    copy-paste the token to allocate your desired password.
 
-![AvaTax account configuration.](applications/finance/fiscal_localizations/brazil/avatax-account-configuration.png)
+![AvaTax account configuration.](brazil/avatax-account-configuration.png)
 
 #### NOTE
 You can transfer  credentials. Use this only when you have already created an account in
@@ -183,7 +183,7 @@ invoices, the Type field selects the document type used when creating the invoic
 Type field will only be displayed if the Use Documents field is selected on
 the journal.
 
-![Journal configuration with the Use Documents? field checked.](applications/finance/fiscal_localizations/brazil/journal-configuration.png)
+![Journal configuration with the Use Documents? field checked.](brazil/journal-configuration.png)
 
 #### NOTE
 When creating the journal, ensure the field Dedicated Credit Note Sequence is
@@ -225,7 +225,7 @@ on the product depending on its intended use:
 - SPED Fiscal Product Type: Fiscal product type according to SPED list table
 - Purpose of Use: Specify the intended purpose of use for this product
 
-![Product configuration.](applications/finance/fiscal_localizations/brazil/product-configuration.png)
+![Product configuration.](brazil/product-configuration.png)
 
 #### NOTE
 Odoo automatically creates three products to be used for transportation costs associated with
@@ -265,7 +265,7 @@ Before using the integration, specify the following information on the contact:
    - Điện thoại
    - Email
 
-   ![Contact configuration.](applications/finance/fiscal_localizations/brazil/contact-configuration.png)
+   ![Contact configuration.](brazil/contact-configuration.png)
 
    #### NOTE
    The CPF, IE, IM, and SUFRAMA code fields are
@@ -278,7 +278,7 @@ Before using the integration, specify the following information on the contact:
      ICMS regime, Exempt status, or Non-taxpayer
    - Main Activity Sector: list of main activity sectors of the contact
 
-   ![Contact fiscal configuration.](applications/finance/fiscal_localizations/brazil/contact-fiscal-configuration.png)
+   ![Contact fiscal configuration.](brazil/contact-fiscal-configuration.png)
 3. Configure the following extra Fiscal Information if you are going to issue NFS-e:
    - Add the Fiscal Position for [AvaTax Brazil](#brazil-fiscal-positions)
    - COFINS Details: Taxable, Not Taxable, Taxable with rate 0%, Exempt,
@@ -287,7 +287,7 @@ Before using the integration, specify the following information on the contact:
      Suspended
    - CSLL Taxable: If the company is subject to CSLL or not
 
-   ![Contact fiscal configuration for NFSe.](applications/finance/fiscal_localizations/brazil/contact-fiscal-configuration-nfse.png)
+   ![Contact fiscal configuration for NFSe.](brazil/contact-fiscal-configuration-nfse.png)
 
 <a id="brazil-fiscal-positions"></a>
 
@@ -300,7 +300,7 @@ the Fiscal Position.
 The Fiscal Position can be configured on the [contact](#brazil-contacts) or
 selected when creating a sales order or an invoice.
 
-![Fiscal position configuration](applications/finance/fiscal_localizations/brazil/fiscal-position-configuration.png)
+![Fiscal position configuration](brazil/fiscal-position-configuration.png)
 
 ## Quy trình
 
@@ -373,7 +373,7 @@ populated for most cases:
 - Freight Model determines how the goods are planned to be transported - domestic
 - Transporter Brazil determines who is doing the transportation
 
-![Invoice information needed to process an electronic invoice.](applications/finance/fiscal_localizations/brazil/invoice-info-needed.png)![Process electronic invoice pop-up in Odoo.](applications/finance/fiscal_localizations/brazil/process-electronic-invoice.png)
+![Invoice information needed to process an electronic invoice.](brazil/invoice-info-needed.png)![Process electronic invoice pop-up in Odoo.](brazil/process-electronic-invoice.png)
 
 #### NOTE
 All of the fields available on the invoice used to issue an electronic invoice are also available
@@ -419,7 +419,7 @@ Cancel an e-invoice for goods (NF-e) in Odoo by clicking Request Cancel and addi
 cancellation Reason on the pop-up that appears. If you want to send this cancellation
 reason to the customer via email, activate the E-mail checkbox.
 
-![Invoice cancellation reason in Odoo.](applications/finance/fiscal_localizations/brazil/invoice-cancellation.png)
+![Invoice cancellation reason in Odoo.](brazil/invoice-cancellation.png)
 
 #### NOTE
 This is an electronic cancellation, which means that Odoo will send a request to the government
@@ -438,7 +438,7 @@ This can be done in Odoo by clicking Correction Letter and adding a correction
 Reason on the pop-up that appears. To send this correction reason to a customer via
 email, activate the E-mail checkbox.
 
-![Correction letter reason in Odoo.](applications/finance/fiscal_localizations/brazil/correction-letter.png)
+![Correction letter reason in Odoo.](brazil/correction-letter.png)
 
 #### NOTE
 Correction letters are only available for electronic invoices for goods (NF-e).
@@ -452,7 +452,7 @@ Invalidate Number Range (BR) wizard, add the Initial Number and
 End Number of the range that should be canceled, and enter an invalidation
 Reason.
 
-![Number range invalidation selection in Odoo.](applications/finance/fiscal_localizations/brazil/range-number-invalidation.png)![Number range invalidation wizard in Odoo.](applications/finance/fiscal_localizations/brazil/range-number-invalidation-wizard.png)
+![Number range invalidation selection in Odoo.](brazil/range-number-invalidation.png)![Number range invalidation wizard in Odoo.](brazil/range-number-invalidation-wizard.png)
 
 #### NOTE
 Invalidate invoice number range documents are only available for electronic invoices for goods

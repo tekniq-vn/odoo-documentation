@@ -4,7 +4,7 @@
 in one place. It offers non-intrusive connectivity to ASPSPs' official APIs across Europe without
 storing data.
 
-![Enable Banking logo](applications/finance/accounting/bank/bank_synchronization/enablebanking/enablebanking.png)
+![Enable Banking logo](enablebanking/enablebanking.png)
 
 **Odoo** synchronizes directly with banks to get access to all bank transactions and automatically
 import them into your database.
@@ -22,5 +22,5 @@ import them into your database.
 2. Chọn ngân hàng của bạn;
 3. Make sure you give your consent to share your account information with Odoo by clicking
    Continue authentication;
-   ![Enable Banking authentication page](applications/finance/accounting/bank/bank_synchronization/enablebanking/enablebankingauth.png)
+   ![Enable Banking authentication page](enablebanking/enablebankingauth.png)
 4. Finally, you are redirected to your bank's login page.

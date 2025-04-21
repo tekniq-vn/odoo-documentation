@@ -87,7 +87,7 @@ To access the XML/HTML editor for an email template, first enter [developer mode
 and proceed to edit the XML/HTML. To return to the standard text editor, click the </>
 icon again.
 
-![HTML editor in the email template.](applications/general/companies/email_template/html-code-editor.png)
+![HTML editor in the email template.](email_template/html-code-editor.png)
 
 #### WARNING
 The XML/HTML editor should be accessed with caution as this is the backend code of the template.
@@ -108,7 +108,7 @@ the email, and the Language.
 
 Để sử dụng phần giữ chỗ động trong phần Thân của email, hãy mở tính năng **powerbox** bằng cách nhập `/` vào phần thân của mẫu email trong tab Nội dung. Cuộn xuống cuối danh sách tùy chọn, đến Công cụ marketing. Tiếp theo, chọn Phần giữ chỗ động. Sau đó, chọn phần giữ chỗ động từ danh sách các tùy chọn khả dụng và làm theo hướng dẫn để cấu hình phần giữ chỗ động đó với trường Odoo tương ứng mong muốn. Mỗi phần giữ chỗ động sẽ có cấu hình khác nhau.
 
-![Using dynamic placeholders in an email template.](applications/general/companies/email_template/dynamic-placeholders.png)
+![Using dynamic placeholders in an email template.](email_template/dynamic-placeholders.png)
 
 #### NOTE
 Each unique combination of Fields, Sub-models and Sub-fields
@@ -127,7 +127,7 @@ Customizing email templates are out of the scope of Odoo Support.
 A rich text editor toolbar can be accessed by highlighting text in the email template. This can be
 used to change the heading, font size/style, color, add a list type, or a link.
 
-![Rich text editor in the email template.](applications/general/companies/email_template/rich-text-editor.png)
+![Rich text editor in the email template.](email_template/rich-text-editor.png)
 
 ### Resetting email templates
 
@@ -135,7 +135,7 @@ Should the email template not work because the code has been altered it can be r
 back to the out-of-box default template. Simply click on the Reset Template button in
 the upper left-hand of the screen and the template will be reset.
 
-![Resetting the email template.](applications/general/companies/email_template/reset.png)
+![Resetting the email template.](email_template/reset.png)
 
 ### Default reply on email templates
 
@@ -143,7 +143,7 @@ Under the Email Configuration tab on an email template, there is a Reply To
 field. In this field, add email addresses to which replies are redirected when sending emails en
 masse using this template.
 
-![Reply-to field on template.](applications/general/companies/email_template/reply-to-template-sales.png)
+![Reply-to field on template.](email_template/reply-to-template-sales.png)
 
 The Reply To field is **only** used for mass mailing (sending emails in bulk). Bulk
 emails can be sent in almost every Odoo application that has a list view option.
@@ -158,7 +158,7 @@ defined and customized. This option will be available on the Action button on pa
 where emails can be sent in bulk---for example, on the Customers page of the CRM app.
 This action occurs throughout the Odoo database.
 
-![Email composer in mass mailing mode with reply-to highlighted.](applications/general/companies/email_template/composer-mass-mailing.png)
+![Email composer in mass mailing mode with reply-to highlighted.](email_template/composer-mass-mailing.png)
 
 ## Transactional emails and corresponding URLs
 
@@ -202,7 +202,7 @@ In order to edit translations, first enter [developer mode](../developer_mode.md
 email template, click on the Edit button, and then click on the language button,
 represented by the initials of the language currently being used (e.g. EN for English).
 
-![Edit the language of a template.](applications/general/companies/email_template/edit-language-template.png)
+![Edit the language of a template.](email_template/edit-language-template.png)
 
 #### NOTE
 If there aren't multiple languages installed and activated in the database, or if the user does
@@ -212,7 +212,7 @@ A pop-up window with the different languages installed on the database appears. 
 editing of translations is possible. When the desired changes have been made, click the
 Save button to save the changes.
 
-![Translation of the body of the Appointment Booked template.](applications/general/companies/email_template/translation-body.png)
+![Translation of the body of the Appointment Booked template.](email_template/translation-body.png)
 
 #### NOTE
 When editing the translations, the default language set in the database appears in **bold**.

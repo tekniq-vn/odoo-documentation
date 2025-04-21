@@ -10,7 +10,7 @@ To use a barcode scanner, you must enable the feature in the Inventory app. Go t
 Inventory ‣ Configuration ‣ Settings, in the Barcode section, tick
 Barcode Scanner and save.
 
-![barcode setting in the Inventory application](applications/sales/point_of_sale/shop/barcode/barcode-inventory.png)
+![barcode setting in the Inventory application](barcode/barcode-inventory.png)
 
 #### SEE ALSO
 - [Set up a barcode scanner](../../../inventory_and_mrp/barcode/setup/hardware.md)

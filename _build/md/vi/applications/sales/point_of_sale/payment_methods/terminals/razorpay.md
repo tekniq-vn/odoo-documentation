@@ -35,7 +35,7 @@ You need the following credentials to set up the payment method in Odoo:
    4. Fill in the Razorpay API Key field with the [Razorpay API key](#razorpay-credentials).
    5. Set the Razorpay Allowed Payment Modes according to your needs.
 
-   ![Razorpay connection form](applications/sales/point_of_sale/payment_methods/terminals/razorpay/create-method-razorpay.png)
+   ![Razorpay connection form](razorpay/create-method-razorpay.png)
 
    #### NOTE
    You can enable the Razorpay Test Mode field while testing or keep it unchecked for

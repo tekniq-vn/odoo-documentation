@@ -22,7 +22,7 @@ out the Asterisk (VoIP) field:
 - WebSocket: type in `wss://pabx.axivox.com:3443`
 - VoIP Environment: set as Production
 
-![Integration of Axivox as VoIP provider in an Odoo database.](applications/productivity/voip/axivox/axivox_config/voip-configuration.png)
+![Integration of Axivox as VoIP provider in an Odoo database.](axivox_config/voip-configuration.png)
 
 ### Configure VoIP user in Odoo
 
@@ -41,7 +41,7 @@ Preferences tab, fill out the VOIP Configuration section:
 - Reject incoming calls: option to reject all incoming calls
 - How to place calls on mobile: method to make calls on a mobile device
 
-![Integration of Axivox user in the Odoo user preference.](applications/productivity/voip/axivox/axivox_config/odoo-user.png)
+![Integration of Axivox user in the Odoo user preference.](axivox_config/odoo-user.png)
 
 #### IMPORTANT
 When entering the SIP Password into the user's Preferences tab, this

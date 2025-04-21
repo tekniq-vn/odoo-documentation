@@ -42,19 +42,19 @@ On the product form, under the General Information tab, set the Product Type
 to Storable Product. This is necessary because Odoo only tracks stock quantities for
 storable products, and quantities are needed to trigger reordering rules.
 
-![Set the Product Type as Storable.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/product-type.png)
+![Set the Product Type as Storable.](reordering_rules/product-type.png)
 
 Next, click the Inventory tab and select one or more routes from the Routes
 section. Doing so tells Odoo which route to use to replenish the product.
 
-![Select one or more routes on the Inventory tab.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/select-routes.png)
+![Select one or more routes on the Inventory tab.](reordering_rules/select-routes.png)
 
 If the product is reordered using the Buy route, confirm that the Can be
 Purchased checkbox is enabled under the product name. This makes the Purchase tab
 appear. Click on the Purchase tab, and specify at least one vendor, and the price that
 they sell the product for, so that Odoo knows which company the product should be purchased from.
 
-![Specify a vendor and price on the Purchase tab.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/specify-vendor.png)
+![Specify a vendor and price on the Purchase tab.](reordering_rules/specify-vendor.png)
 
 If the product is replenished using the Manufacture route, it needs to have at least one
 *bill of materials* (BoM) associated with it. This is necessary because Odoo only creates
@@ -63,7 +63,7 @@ manufacturing orders for products with a .
 If a  does not already exist for the product, select the Bill of Materials smart
 button at the top of the product form, then click New to configure a new .
 
-![The Bill of Materials smart button on a product form.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/bom-smart-button.png)
+![The Bill of Materials smart button on a product form.](reordering_rules/bom-smart-button.png)
 
 <a id="inventory-warehouses-storage-rr-fields"></a>
 
@@ -83,7 +83,7 @@ and fill out the following fields for the new reordering rule line item:
   number that should be ordered. For example, if the Multiple Quantity is set to `5`,
   and only 3 are needed, 5 products are replenished.
 
-![The form for creating a new reordering rule.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/reordering-rule-form.png)
+![The form for creating a new reordering rule.](reordering_rules/reordering-rule-form.png)
 
 #### NOTE
 To learn how the On Hand, Forecast, and To Order fields are
@@ -143,7 +143,7 @@ example, if the product should be purchased from a vendor, select the Buy route.
 In the Min Quantity field and Max Quantity field, leave the values set to
 `0.00`. In the To Order field, enter a value of `1.00`.
 
-![A 0/0/1 reordering rule.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/001-rule.png)
+![A 0/0/1 reordering rule.](reordering_rules/001-rule.png)
 
 With the reordering rule configured using these values, each time an  causes the forecasted
 quantity of the product to fall below the Min Quantity of `0.00`, the selected
@@ -210,7 +210,7 @@ Reorder filter.
 When a product appears on the replenishment dashboard, clicking the Order Once button
 generates the purchase or manufacturing order with the specified amounts To Order.
 
-![Click the Order Once button on the replenishment dashboard to replenish stock.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/manual.png)
+![Click the Order Once button on the replenishment dashboard to replenish stock.](reordering_rules/manual.png)
 
 <a id="inventory-warehouses-storage-route"></a>
 
@@ -233,7 +233,7 @@ the column titles, and checking the Route option from the drop-down menu that ap
 Click inside of the column on the row of a reordering rule, and a drop-down menu shows all available
 routes for that rule. Select one to set it as the preferred route.
 
-![Select a preferred route from the drop-down.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/select-preferred-route.png)
+![Select a preferred route from the drop-down.](reordering_rules/select-preferred-route.png)
 
 #### IMPORTANT
 If multiple routes are enabled for a product but no preferred route is set for its reordering
@@ -264,7 +264,7 @@ unlocks advanced configurations of reordering rules. Consider the following:
   #### NOTE
   Procurement groups link replenishment methods to demand, enabling smart buttons to appear when
   using the [MTO route](mto.md).
-  ![Showing smart button to PO.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/po-smartbutton.png)
+  ![Showing smart button to PO.](reordering_rules/po-smartbutton.png)
 
   In the context of reordering rules:
   - Reordering rules do not automatically assign a procurement group, which is why there are no
@@ -377,7 +377,7 @@ tariffs).
 
 Ordering separately for these sales orders totals $300 in shipping costs.
 
-![Show forecasted date visualization.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/forecasted-date.png)
+![Show forecasted date visualization.](reordering_rules/forecasted-date.png)
 
 Setting Visibility Days to `20.0` allows Odoo to "look ahead" 20 days from December 4
 ( 1's forecasted date) to December 24.
@@ -385,7 +385,7 @@ Setting Visibility Days to `20.0` allows Odoo to "look ahead" 20 days from Decem
 - It groups  2's order with  1, reducing shipping costs by consolidating orders.
 -  3, which is due on Dec 25, is one day late and is not grouped with the other two orders.
 
-![Visibility days visualization.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/visibility-days.png)
+![Visibility days visualization.](reordering_rules/visibility-days.png)
 
 ### Counterexample where visibility days is not triggered
 
@@ -399,4 +399,4 @@ Considering the example above, if  1 does not exist, then:
 This shows that visibility days complement just-in-time logic by optimizing it to balance
 replenishment costs more effectively.
 
-![Example where the visibility days does not trigger.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules/counterexample.png)
+![Example where the visibility days does not trigger.](reordering_rules/counterexample.png)

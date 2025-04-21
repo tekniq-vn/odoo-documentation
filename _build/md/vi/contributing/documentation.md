@@ -145,14 +145,14 @@ Contribute from the GitHub interface
    in the top right corner of the page.
 4. Click on the Fork this repository button to create a fork () of the repository on your account. This creates a copy of the codebase to which you
    can make changes without affecting the main codebase. Skip this step if you work at Odoo.
-   ![image](contributing/documentation/fork-repository.png)
+   ![image](documentation/fork-repository.png)
 5. Make the desired changes while taking care of following the [content](documentation/content_guidelines.md) and [RST](documentation/rst_guidelines.md)
    guidelines.
 6. Scroll to the bottom of the page and fill out the small form to propose your changes. In
    the first text box, write a very short summary of your changes. For instance, "Fix a typo"
    or "Add documentation for invoicing of sales orders." In the second text box, explain *why*
    you are proposing these changes. Then, click on the Propose changes button.
-   ![image](contributing/documentation/propose-changes.png)
+   ![image](documentation/propose-changes.png)
 7. Review your changes and click on the Create pull request button.
 8. Tick the Allow edits from maintainer checkbox. Skip this step if you work at
    Odoo.

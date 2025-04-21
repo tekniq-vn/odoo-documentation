@@ -18,7 +18,7 @@ Mailing List Contacts.
 Click Mailing Lists ‣ Mailing Lists to see an overview of all mailing lists in
 the database.
 
-![View of the main SMS mailing list page on the Odoo SMS Marketing application.](applications/marketing/sms_marketing/mailing_lists_blacklists/mailing-list-main-page.png)
+![View of the main SMS mailing list page on the Odoo SMS Marketing application.](mailing_lists_blacklists/mailing-list-main-page.png)
 
 To edit any existing list, select the desired list from the Mailing Lists page, and
 proceed to modify it in a number of ways.
@@ -26,7 +26,7 @@ proceed to modify it in a number of ways.
 To create a new mailing list, click Create in the upper left corner of the
 Mailing Lists page. Doing so, will reveal a blank mailing list template form.
 
-![View of the mailing list pop-up window in Odoo SMS Marketing.](applications/marketing/sms_marketing/mailing_lists_blacklists/sms-mailing-list-popup.png)
+![View of the mailing list pop-up window in Odoo SMS Marketing.](mailing_lists_blacklists/sms-mailing-list-popup.png)
 
 First, choose a name for the Mailing List, and activate the option Is
 Public, to make the mailing list accessible to recipients on the Subscription Management
@@ -52,7 +52,7 @@ with in-depth data associated with the mailing list.
 To make changes to the mailing list itself, click the Edit button in the upper-left
 corner of the mailing list detail form.
 
-![View of the mailing list template form in Odoo SMS Marketing.](applications/marketing/sms_marketing/mailing_lists_blacklists/sms-mailing-list.png)
+![View of the mailing list template form in Odoo SMS Marketing.](mailing_lists_blacklists/sms-mailing-list.png)
 
 #### NOTE
 Don't forget to hit the Save button once changes have been made.
@@ -63,7 +63,7 @@ Access contacts information from one or more mailing lists navigate to Mailing L
 ‣ Mailing List Contacts to reveal a dashboard with with all the contacts associated with one or
 more of the configured mailing lists in the database.
 
-![View of the mailing lists contact page in the Odoo SMS Marketing application.](applications/marketing/sms_marketing/mailing_lists_blacklists/mailing-list-contacts-page.png)
+![View of the mailing lists contact page in the Odoo SMS Marketing application.](mailing_lists_blacklists/mailing-list-contacts-page.png)
 
 #### NOTE
 By default, Odoo reveals the Mailing List Contacts page with the Exclude
@@ -80,7 +80,7 @@ of interactions with contacts and prospects.
 
 For example, sales representatives can use the chatter to quickly find out which  mailing promotions a certain customer has received (or not received).
 
-![View of what the chatter looks like in the Odoo Contacts app.](applications/marketing/sms_marketing/mailing_lists_blacklists/sms-marketing-chatter.png)
+![View of what the chatter looks like in the Odoo Contacts app.](mailing_lists_blacklists/sms-marketing-chatter.png)
 
 ## Danh sách hạn chế
 
@@ -96,13 +96,13 @@ To see a complete collection of blacklisted numbers, navigate to the SMS Marketi
 app ‣ Configuration ‣ Blacklisted Phone Numbers to reveal a dashboard containing every
 blacklisted phone number in the database.
 
-![SMS Blacklist menu in the application.](applications/marketing/sms_marketing/mailing_lists_blacklists/sms-blacklist-menu.png)
+![SMS Blacklist menu in the application.](mailing_lists_blacklists/sms-blacklist-menu.png)
 
 To manually add a number to a blacklist, click the Create button in the upper-left
 corner of the dashboard and enter the phone number on the next page's form. There's also a
 checkbox to indicate whether that particular phone numnber is Active (or not).
 
-![SMS Blacklist menu in the application.](applications/marketing/sms_marketing/mailing_lists_blacklists/sms-blacklist-create.png)
+![SMS Blacklist menu in the application.](mailing_lists_blacklists/sms-blacklist-create.png)
 
 Once the form is completed, click Save to add it to the Blacklisted Phone
 Numbers list. To remove any number from the blacklist, select the desired number on the dashboard,
@@ -117,4 +117,4 @@ To do that, navigate to SMS Marketing app ‣ Configuration ‣ Blacklisted Phon
 Numbers, and then select the Favorites drop-down menu (beneath the search bar), and
 click Import records.
 
-![View of how to import a blacklist in Odoo SMS Marketing.](applications/marketing/sms_marketing/mailing_lists_blacklists/import-blacklist.png)
+![View of how to import a blacklist in Odoo SMS Marketing.](mailing_lists_blacklists/import-blacklist.png)

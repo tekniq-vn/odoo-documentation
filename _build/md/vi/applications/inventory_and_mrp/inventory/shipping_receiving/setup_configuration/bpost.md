@@ -38,7 +38,7 @@ On the Shipping Manager page, go to the Admin tab, then the
 General Settings tab, to find the Account ID and Passphrase
 needed to configure Odoo's shipping method.
 
-![In the *Admin* tab, show the Account ID and Passphrase.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost/credentials.png)
+![In the *Admin* tab, show the Account ID and Passphrase.](bpost/credentials.png)
 
 <a id="inventory-shipping-receiving-bpost-method"></a>
 
@@ -93,4 +93,4 @@ For domestic deliveries, these features are available in the Options section:
 - Enable the Generate Return Label feature to automatically print a return label upon
   validating the delivery order.
 
-![Show Bpost shipping method.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost/bpost.png)
+![Show Bpost shipping method.](bpost/bpost.png)

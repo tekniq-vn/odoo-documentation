@@ -17,7 +17,7 @@ Membership products require a start and end date, as they are used to determine 
 status](#sales-membership-status). Membership products can be sold *before* their active start
 date.
 
-![A new membership product in the members app.](applications/sales/members/membership-product.png)
+![A new membership product in the members app.](members/membership-product.png)
 
 Membership products can be added to a sales order, and invoiced as regular products or
 subscriptions.
@@ -59,7 +59,7 @@ To publish a list of active members on the website, the *Online Members Director
 first be [installed](../general/apps_modules.md#general-install). After installing the module, add the `/members` page to
 the website's menu by [editing the website menu](../websites/website/pages/menus.md).
 
-![The Online Members directory module in Odoo.](applications/sales/members/membership-directory-app.png)
+![The Online Members directory module in Odoo.](members/membership-directory-app.png)
 
 ### Publish individual members
 

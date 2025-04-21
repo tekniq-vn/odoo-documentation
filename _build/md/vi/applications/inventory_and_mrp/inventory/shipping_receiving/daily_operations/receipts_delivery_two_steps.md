@@ -27,7 +27,7 @@ Settings. Under the Warehouse section, tick the checkbox next to Multi-Step
 Routes, and click Save. Doing so also activates the Storage Locations
 feature.
 
-![Enabled Multi-Step Routes feature in Inventory app settings.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-settings.png)
+![Enabled Multi-Step Routes feature in Inventory app settings.](receipts_delivery_two_steps/receipts-delivery-two-steps-settings.png)
 
 Next, configure a warehouse for two-step receipts and deliveries. Navigate to
 Inventory app ‣ Configuration ‣ Warehouses, and select a warehouse to edit.
@@ -36,7 +36,7 @@ Under the Warehouse Configuration tab, set Incoming Shipments to
 Receive goods in input and then stock (2 steps), and set Outgoing Shipments
 to Send goods in output and then deliver (2 steps).
 
-![Incoming and outgoing shipments set to two-step on warehouse form.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-shipments.png)
+![Incoming and outgoing shipments set to two-step on warehouse form.](receipts_delivery_two_steps/receipts-delivery-two-steps-shipments.png)
 
 #### NOTE
 Selecting two-step receipts and deliveries automatically creates new *Input* and *Output*
@@ -62,7 +62,7 @@ opens a blank Request for Quotation (RfQ) form.
 Add a vendor in the Vendor field. Then, fill out the various fields on the , as
 necessary.
 
-![Filled out new Request for Quotation from vendor.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-new-rfq.png)
+![Filled out new Request for Quotation from vendor.](receipts_delivery_two_steps/receipts-delivery-two-steps-new-rfq.png)
 
 Under the Products tab, click Add a product, and select a product to add to
 the .
@@ -73,7 +73,7 @@ stage.
 Once the  is confirmed, a Receipt smart button appears at the top of the form.
 Clicking the smart button opens the warehouse receipt (WH/IN) form.
 
-![Delivery smart button for validated purchase order.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-smart-button.png)
+![Delivery smart button for validated purchase order.](receipts_delivery_two_steps/receipts-delivery-two-steps-smart-button.png)
 
 ### Process receipt
 
@@ -81,7 +81,7 @@ From the warehouse receipt form, the products ordered can be received into the w
 the products, click Validate. Once validated, the receipt moves to the Done
 stage, and the products move to the WH/Input location.
 
-![Receipt form for products ordered from vendor.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-receipt-form.png)
+![Receipt form for products ordered from vendor.](receipts_delivery_two_steps/receipts-delivery-two-steps-receipt-form.png)
 
 Click back to the  (via the breadcrumbs, at the top of the form) to view the  form. On the
 product line, the quantity in the Received column now matches the ordered
@@ -103,7 +103,7 @@ WH/Input to WH/Stock.
 Once the transfer is validated, the products enter inventory, and are available for customer
 deliveries or manufacturing orders.
 
-![Internal transfer form for products ordered from vendor.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-internal-transfer.png)
+![Internal transfer form for products ordered from vendor.](receipts_delivery_two_steps/receipts-delivery-two-steps-internal-transfer.png)
 
 <a id="inventory-shipping-receiving-two-step-delivery"></a>
 
@@ -121,7 +121,7 @@ opens a blank sales quotation form.
 Add a customer in the Customer field. Then, fill out the various fields on the sales
 quotation form, as necessary.
 
-![Filled out new sales order form.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-new-sales-order.png)
+![Filled out new sales order form.](receipts_delivery_two_steps/receipts-delivery-two-steps-new-sales-order.png)
 
 Under the Order Lines tab, click Add a product, and select a product to add
 to the sales order quotation.
@@ -132,7 +132,7 @@ stage.
 Once the  is confirmed, a Delivery smart button appears at the top of the form.
 Clicking the smart button opens the warehouse delivery (WH/OUT) form.
 
-![Delivery smart button on validated sales order form.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-delivery-button.png)
+![Delivery smart button on validated sales order form.](receipts_delivery_two_steps/receipts-delivery-two-steps-delivery-button.png)
 
 ### Process picking
 
@@ -148,7 +148,7 @@ Pick task card. This reveals a list of all pickings to process.
 Click on the picking (WH/PICK) operation associated with the sales order to reveal the picking
 order.
 
-![Picking order form for products included in sales order.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-picking-form.png)
+![Picking order form for products included in sales order.](receipts_delivery_two_steps/receipts-delivery-two-steps-picking-form.png)
 
 Manually set the quantity by changing the value in the Quantity column, to match the
 value in the Demand column.
@@ -167,7 +167,7 @@ via the breadcrumbs, and locate the Delivery Orders task card.
 Click the # To Process button on the task card to reveal a list of all delivery orders
 to process, and select the order associated with the previously validated picking.
 
-![Delivery order form for products ordered by customer.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps/receipts-delivery-two-steps-delivery-order.png)
+![Delivery order form for products ordered by customer.](receipts_delivery_two_steps/receipts-delivery-two-steps-delivery-order.png)
 
 To deliver the products, change the value in the Quantity field to match the ordered
 quantity in the Demand field.

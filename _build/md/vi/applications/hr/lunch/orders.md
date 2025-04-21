@@ -32,7 +32,7 @@ The main section, beneath the user's information, displays all the products in a
 view. Each product card displays the name, cost, vendor, photo, and description of the product. If
 the product is configured as new, it also displays a New tag.
 
-![The *Lunch* app dashboard with all areas highlighted.](applications/hr/lunch/orders/dashboard.png)
+![The *Lunch* app dashboard with all areas highlighted.](orders/dashboard.png)
 
 #### NOTE
 Anywhere a vendor's name is listed in the *Lunch* app, such as on Kanban product cards, their
@@ -67,7 +67,7 @@ is then sent to the vendor regarding the order, such as any special requests or 
 When all selections for the product have been made, click the Add To Cart button in the
 lower-left of the pop-up window. To cancel the order, click the Discard button.
 
-![The pop-up window for a personal pizza, with all the extras highlighted and selected.](applications/hr/lunch/orders/pizza.png)
+![The pop-up window for a personal pizza, with all the extras highlighted and selected.](orders/pizza.png)
 
 #### Lỗi
 
@@ -106,7 +106,7 @@ for the currently selected quantity of the product.
 
 Phần bên phải của tóm tắt Đơn hàng của bạn hiển thị thông tin mua hàng. Tổng số tiền cho toàn bộ đơn hàng bữa trưa trong ngày được hiển thị. Trường Đã thanh toán cho biết số tiền đã thanh toán trong ngày so với số tiền Tổng. Trường Cần thanh toán hiển thị số tiền còn lại trong Tổng số tiền cần phải thanh toán để đặt đơn hàng hiện đang được cấu hình.
 
-![The Your Orders section of the dashboard, with the purchasing information highlighted.](applications/hr/lunch/orders/your-order.png)
+![The Your Orders section of the dashboard, with the purchasing information highlighted.](orders/your-order.png)
 
 ### Submit an order
 
@@ -153,7 +153,7 @@ appears. Click Re-order to instantly reorder that same product, with the same ex
 applicable. The new order appears in the list, under the current date, and the product is paid for,
 with money deducted from the user's account.
 
-![The list view that appears when navigating to the My Orders dashboard.](applications/hr/lunch/orders/my-orders.png)
+![The list view that appears when navigating to the My Orders dashboard.](orders/my-orders.png)
 
 ## Tài khoản của Tôi
 
@@ -171,4 +171,4 @@ Entries with a positive balance either represent funds added to the user's lunch
 canceled orders that were eventually refunded to the user. These appear in a `$XX.XX` format.
 
 ![The My Account dashboard with the entry for adding funds to the user's lunch account
-highlighted.](applications/hr/lunch/orders/my-account.png)
+highlighted.](orders/my-account.png)

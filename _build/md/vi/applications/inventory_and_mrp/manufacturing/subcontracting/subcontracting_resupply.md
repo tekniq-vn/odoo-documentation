@@ -84,7 +84,7 @@ For a full overview of  configuration, see the [Bill of materials](../basic_setu
 In the BoM Type field, select the Subcontracting option. Then, add one or
 more subcontractors in the Subcontractors field that appears below.
 
-![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply/bom-type.png)
+![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](subcontracting_resupply/bom-type.png)
 
 Finally, make sure that all necessary components are specified on the Components tab. To
 add a new component, click Add a line, select the component in the Component
@@ -198,7 +198,7 @@ subcontractor. This order can also be accessed from the , by clicking the Resupp
 smart button at the top of the page.
 
 ![A PO for a *Resupply Subcontractor on Order* product, with Resupply and Receipt smart
-buttons at the top of the page.](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply/subcontractor-po.png)
+buttons at the top of the page.](subcontracting_resupply/subcontractor-po.png)
 
 ### Process Resupply Subcontractor order
 

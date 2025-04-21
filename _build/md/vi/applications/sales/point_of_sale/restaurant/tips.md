@@ -9,7 +9,7 @@ Tipping is customary in multiple countries. Point of Sale allows tipping in [sho
 
 Để cho phép nhận tiền tip trong POS, kích hoạt tính năng Tip tại Điểm bán ‣ Cấu hình ‣ Cài đặt. Ở đầu trang, chọn POS mà bạn muốn cho phép **tip**, cuộn xuống phần Thanh toán và tích vào Tip. Sau khi bật, thêm Sản phẩm tip vào trường tương ứng và lưu lại. Sản phẩm được chỉ định sẽ được sử dụng làm tham chiếu trên hóa đơn của khách hàng.
 
-![enable tips in a POS](applications/sales/point_of_sale/restaurant/tips/tips-setup.png)
+![enable tips in a POS](tips/tips-setup.png)
 
 <a id="tip-product"></a>
 
@@ -49,7 +49,7 @@ To use this feature, the selected payment method must have a bank journal attrib
 To add tips to an order, [access the payment screen](../../point_of_sale.md#pos-sell) and click ♥ Tip.
 Then, enter the tipping amount, click Confirm to validate, and process the payment.
 
-![tip popup window](applications/sales/point_of_sale/restaurant/tips/add-tip.png)
+![tip popup window](tips/add-tip.png)
 
 Alternatively, you can select the [tip product](#tip-product) on the POS interface to add it to
 the cart. When selected, the product is automatically set as a tip, and its default value equals its
@@ -66,10 +66,10 @@ the terminal's screen before proceeding to the payment.
 At checkout, select a card payment method and click Close Tab. Doing so generates a bill
 to complete by the customer.
 
-![tipping bill after payment to complete by customers](applications/sales/point_of_sale/restaurant/tips/tipping-bill.png)
+![tipping bill after payment to complete by customers](tips/tipping-bill.png)
 
 On the following screen, click the percentage (15%, 20%, 25%),
 No Tip, or enter the tipping amount the customer chose to give. Then, click
 Settle to move to the following order.
 
-![screen to select a tip amount to collect after payment](applications/sales/point_of_sale/restaurant/tips/tip-after-payment.png)
+![screen to select a tip amount to collect after payment](tips/tip-after-payment.png)

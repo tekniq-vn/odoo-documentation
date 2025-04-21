@@ -22,7 +22,7 @@ SEPA Direct Debit (SDD), and click on Save. Enter your company's
 Creditor Identifier. This number is provided by your bank institution, or the authority
 responsible for delivering them.
 
-![Add a SEPA Creditor Identifier to Odoo Accounting](applications/finance/accounting/payments/batch_sdd/creditor-identifier.png)
+![Add a SEPA Creditor Identifier to Odoo Accounting](batch_sdd/creditor-identifier.png)
 
 ## SEPA Direct Debit Mandates
 
@@ -93,7 +93,7 @@ To do so, go to Accounting app ‣ Customers ‣ Payments, select the needed
 payments, then click on Action, and finally Create a batch Payment. Once
 you click on Validate, the `.xml` file is directly available for download.
 
-![Generate an .XML file for your SDD payments in Odoo Accounting](applications/finance/accounting/payments/batch_sdd/xml.png)
+![Generate an .XML file for your SDD payments in Odoo Accounting](batch_sdd/xml.png)
 
 Finally, upload this file to your online banking interface to process the payments.
 

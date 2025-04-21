@@ -31,7 +31,7 @@ Create a new recurring plan by clicking New on the Recurring Plans
 dashboard, to reveal a blank form where the plan Name, DETAILS,
 SELF-SERVICE and Pricing field values are specified.
 
-![A blank recurring plan form in the Odoo Subscriptions application.](applications/sales/subscriptions/recurring-plan-blank-form.png)
+![A blank recurring plan form in the Odoo Subscriptions application.](subscriptions/recurring-plan-blank-form.png)
 
 #### IMPORTANT
 The `Days` unit of measure *cannot* be used as a Billing Period for subscription
@@ -100,7 +100,7 @@ By default, the Recurring option is already enabled, prompting Odoo to recognize
 as a subscription product. Be sure to leave the Recurring and Can be Sold
 options enabled.
 
-![A basic subscription product form in Odoo Subscriptions application.](applications/sales/subscriptions/subscription-product-form.png)
+![A basic subscription product form in Odoo Subscriptions application.](subscriptions/subscription-product-form.png)
 
 On the product form, configure the following items in the General Information tab so the
 subscription product will function correctly:
@@ -155,7 +155,7 @@ Optionally, specify a:
   where, payment may then be obtained immediately or within a certain amount of days, weeks, months,
   etc.
 
-![A completed example of a new subscription quotation in Odoo.](applications/sales/subscriptions/new-subscription-form.png)
+![A completed example of a new subscription quotation in Odoo.](subscriptions/new-subscription-form.png)
 
 <a id="subscriptions-confirmation"></a>
 

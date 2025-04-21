@@ -29,7 +29,7 @@ Then, create the payment method:
 - Enter your payment terminal serial number in the Stripe Serial Number field;
 - Click Don't forget to complete Stripe connect before using this payment method.
 
-![payment method creation form](applications/sales/point_of_sale/payment_methods/terminals/stripe/create-method-stripe.png)
+![payment method creation form](stripe/create-method-stripe.png)
 
 #### NOTE
 - Click Identify Customer to allow this payment method **exclusively** for identified
@@ -43,7 +43,7 @@ Then, create the payment method:
 
 Nhấp vào Kết nối Stripe. Thao tác này sẽ tự động chuyển hướng bạn đến trang cấu hình. Điền tất cả thông tin để tạo tài khoản Stripe của bạn và liên kết với Odoo. Sau khi hoàn tất biểu mẫu, bạn có thể lấy khóa API (Khóa có thể hiển thị và Khóa bí mật) trên trang web **Stripe**. Để thực hiện, hãy nhấp vào Lấy khóa bí mật và có thể hiển thị của bạn, nhấp vào khóa để sao chép chúng và dán chúng vào các trường tương ứng trong Odoo. Giờ đây, thiết bị đầu cuối của bạn đã sẵn sàng để được cấu hình trong POS.
 
-![stripe connection form](applications/sales/point_of_sale/payment_methods/terminals/stripe/stripe-connect.png)
+![stripe connection form](stripe/stripe-connect.png)
 
 #### NOTE
 - When you use **Stripe** exclusively in Point of Sale, you only need the **Secret Key** to use

@@ -42,7 +42,7 @@ display an online product catalog for those without.
 
 Để thực hiện, truy cập Trang web ‣ Cấu hình ‣ Cài đặt ‣ Cửa hàng - Sản phẩm và tích vào Không cho phép bán sản phẩm có giá bằng 0. Thao tác này tạo trường URL nút mới để nhập **URL chuyển hướng**. Sau đó, đặt giá sản phẩm thành `0.00` từ **mẫu sản phẩm** hoặc từ [bảng giá](../../sales/sales/products_prices/prices/pricing.md).
 
-![Contact us button on product page](applications/websites/ecommerce/cart/cart-contactus.png)
+![Contact us button on product page](cart/cart-contactus.png)
 
 #### NOTE
 The 'Contact Us' button and '*Not Available For Sale*' text can both be modified using the
@@ -63,7 +63,7 @@ and place the building block. Once placed, you have the following options:
 - Action: choose if the button should Add to Cart or Buy Now
   (instant checkout).
 
-![Customizable 'Add to Cart' button](applications/websites/ecommerce/cart/cart-add.png)
+![Customizable 'Add to Cart' button](cart/cart-add.png)
 
 <a id="cart-buy-now"></a>
 
@@ -75,7 +75,7 @@ does not replace the Add to Cart button. To enable it, go to
 Website ‣ Configuration ‣ Settings ‣ Shop - Checkout Process and tick
 Buy Now.
 
-![Buy Now button](applications/websites/ecommerce/cart/cart-buy-now.png)
+![Buy Now button](cart/cart-buy-now.png)
 
 ## Re-order from portal
 
@@ -84,4 +84,4 @@ portal. To do so, go to Website ‣ Configuration ‣ Settings ‣ Shop - Checko
 Process and enable Re-order From Portal. Customers can find the Order Again
 button on their **sales order** from the **customer portal**.
 
-![Re-order button](applications/websites/ecommerce/cart/cart-reorder.png)
+![Re-order button](cart/cart-reorder.png)

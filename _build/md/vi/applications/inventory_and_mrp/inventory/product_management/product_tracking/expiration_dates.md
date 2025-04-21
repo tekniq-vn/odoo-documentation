@@ -24,7 +24,7 @@ enable the Lots & Serial Numbers feature.
 Once that feature is activated, a new option will appear to enable Expiration Dates.
 Click that checkbox to enable the feature, and be sure to Save changes.
 
-![Enabled lots and serial numbers and expiration dates settings.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-enabled-settings.png)
+![Enabled lots and serial numbers and expiration dates settings.](expiration_dates/expiration-dates-enabled-settings.png)
 
 ## Configure expiration dates on products
 
@@ -53,7 +53,7 @@ If a product has stock on-hand prior to activating tracking by lots or serial nu
 inventory adjustment might need to be performed in order to assign lot numbers to the existing
 stock.
 
-![Expiration dates configuration on the product form.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-product-configuration.png)
+![Expiration dates configuration on the product form.](expiration_dates/expiration-dates-product-configuration.png)
 
 Under the Dates field, there are four categories of expiration information to configure
 for the product:
@@ -95,7 +95,7 @@ causes a User Error popup to appear. The popup requires entry of a lot or serial
 number for the ordered products. The  cannot be validated
 without an assigned lot or serial number.
 
-![User error popup when validating an order with no lot number.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-user-error-popup.png)
+![User error popup when validating an order with no lot number.](expiration_dates/expiration-dates-user-error-popup.png)
 
 From here, click the Additional Options menu (hamburger) icon located on the far-right
 of the product line. When clicked, a Detailed Operations pop-up will appear.
@@ -109,7 +109,7 @@ previously configured).
 After the expiration date has been established, mark the Done quantities, and click
 Confirm to close the pop-up. Finally, click Validate.
 
-![Detailed operations popup showing expiration dates for ordered products.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-detailed-operations-popup.png)
+![Detailed operations popup showing expiration dates for ordered products.](expiration_dates/expiration-dates-detailed-operations-popup.png)
 
 A Traceability smart button will appear upon validating the receipt. Click the
 Traceability smart button to see the updated Traceability Report, which
@@ -125,7 +125,7 @@ To create a , go to Manufacturing app ‣ Operations
 ‣ Manufacturing Orders, and click Create. Choose a product to manufacture from the
 Product field drop-down menu, then select the Quantity to produce.
 
-![Manufacturing order for product with expiration date.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-manufacturing-order.png)
+![Manufacturing order for product with expiration date.](expiration_dates/expiration-dates-manufacturing-order.png)
 
 #### NOTE
 To manufacture a product, there must be materials to consume in the lines in the
@@ -149,7 +149,7 @@ configured for the product is displayed. That same information is also available
 for that specific product, or by going to Inventory app ‣ Products ‣ Lots/Serial
 Numbers.
 
-![Dates tab with expiration information for specific lot number.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-dates-tab-lot-number.png)
+![Dates tab with expiration information for specific lot number.](expiration_dates/expiration-dates-dates-tab-lot-number.png)
 
 ## Sell products with expiration dates
 
@@ -193,7 +193,7 @@ Date parameter from the drop-down menu. Finally, click Apply to apply the filter
 
 Doing so breaks down all perishable products, their expiration dates, and the assigned lot number.
 
-![Group by expiration dates on lots and serial numbers page.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-group-by-dates.png)
+![Group by expiration dates on lots and serial numbers page.](expiration_dates/expiration-dates-group-by-dates.png)
 
 <a id="inventory-product-management-expiration-alerts"></a>
 
@@ -219,4 +219,4 @@ Lots/Serial Numbers dashboard.
 
 Then, click Filters, and choose Expiration Alerts.
 
-![Expiration alert for product past the expiration date.](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates/expiration-dates-expiration-alert.png)
+![Expiration alert for product past the expiration date.](expiration_dates/expiration-dates-expiration-alert.png)

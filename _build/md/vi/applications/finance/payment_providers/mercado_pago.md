@@ -14,7 +14,7 @@ countries, currencies and payment methods in Latin America.
    de producción.
 3. Copy the Access token and save it for later.
 
-![Production and testing credentials in Mercado Pago.](applications/finance/payment_providers/mercado_pago/mp-credentials.png)
+![Production and testing credentials in Mercado Pago.](mercado_pago/mp-credentials.png)
 
 <a id="payment-providers-mercado-pago-configure-odoo"></a>
 

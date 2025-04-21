@@ -26,12 +26,12 @@ behaviors. Create a new action instead.*
 
 To create a new automation rule, click New.
 
-![The Automation Rules page in the Odoo Subscriptions application.](applications/sales/subscriptions/automatic_alerts/automation-rules-page.png)
+![The Automation Rules page in the Odoo Subscriptions application.](automatic_alerts/automation-rules-page.png)
 
 Clicking New reveals a blank Automation Rules form with numerous fields to
 configure.
 
-![A sample Automation Rules form in the Odoo Subscriptions application.](applications/sales/subscriptions/automatic_alerts/automation-rules-form.png)
+![A sample Automation Rules form in the Odoo Subscriptions application.](automatic_alerts/automation-rules-form.png)
 
 ### Automation rule form fields
 

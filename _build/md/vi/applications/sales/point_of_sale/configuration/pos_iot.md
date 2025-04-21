@@ -30,4 +30,4 @@ To connect the POS with an [IoT system](../../../general/iot.md):
 
 ## Setup example
 
-![A suggested configuration for a point of sale system.](applications/sales/point_of_sale/configuration/pos_iot/pos-connections.png)
+![A suggested configuration for a point of sale system.](pos_iot/pos-connections.png)

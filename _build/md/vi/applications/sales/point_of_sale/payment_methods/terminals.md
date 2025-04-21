@@ -10,7 +10,7 @@ payment options, including credit and debit cards, making the payment process mo
 Go to the [application settings](../configuration.md#configuration-settings), scroll down to the
 Payment Terminals section, and tick your terminal's checkbox.
 
-![checkbox in the settings to enable a payment terminal](applications/sales/point_of_sale/payment_methods/terminals/settings-pt.png)
+![checkbox in the settings to enable a payment terminal](terminals/settings-pt.png)
 
 Then, follow the corresponding documentation to configure your device:
 

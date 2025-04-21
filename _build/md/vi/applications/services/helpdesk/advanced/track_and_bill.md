@@ -40,7 +40,7 @@ To create a new project where the timesheets are recorded, click into the Projec
 drop-down menu, type a name for the project, and then click Create from the drop-down
 menu beneath.
 
-![View of a helpdesk team settings page emphasizing the track and bill time settings.](applications/services/helpdesk/advanced/track_and_bill/track-bill-enable-settings.png)
+![View of a helpdesk team settings page emphasizing the track and bill time settings.](track_and_bill/track-bill-enable-settings.png)
 
 <a id="helpdesk-configure-service-products"></a>
 
@@ -53,7 +53,7 @@ form. The product is configured with the Product Type set to Service and the
 Invoicing Policy set to Based on Timesheets. Make any necessary changes to
 the product record, such as the Cost or Sales Price.
 
-![View of a service product with the invoicing policy set to 'Based on timesheets'.](applications/services/helpdesk/advanced/track_and_bill/track-bill-product-based-on-timesheets.png)
+![View of a service product with the invoicing policy set to 'Based on timesheets'.](track_and_bill/track-bill-product-based-on-timesheets.png)
 
 In order to invoice for support services **before** the work has been completed (also known as
 *prepaid support services*), a separate product with a different invoicing policy must be created.
@@ -66,7 +66,7 @@ Service. Then, set the Invoicing Policy to Prepaid/Fixed Price.
 This means an invoice can be generated and payment can be received for this product before any
 timesheets entries have been recorded for these services.
 
-![View of a service product with the invoicing policy set to 'prepaid/fixed'.](applications/services/helpdesk/advanced/track_and_bill/track-bill-product-prepaid-fixed.png)
+![View of a service product with the invoicing policy set to 'prepaid/fixed'.](track_and_bill/track-bill-product-prepaid-fixed.png)
 
 Finally, set the Sales Price, and confirm that the Unit of Measure is set to
 Hours.
@@ -129,7 +129,7 @@ Hours Spent.
 As new lines are added to Timesheets tab, the Remaining Hours on SO field,
 at the bottom-right of the tab, is automatically updated.
 
-![View of the timesheets tab on a ticket with an emphasis on the remaining hours on an SO.](applications/services/helpdesk/advanced/track_and_bill/track-bill-remaining-hours-total.png)
+![View of the timesheets tab on a ticket with an emphasis on the remaining hours on an SO.](track_and_bill/track-bill-remaining-hours-total.png)
 
 #### NOTE
 If the number of hours on the Timesheets tab exceeds the number of hours sold, the
@@ -183,7 +183,7 @@ drop-down menu, and record the time spent in the Hours Spent column.
 
 Repeat these steps as needed until all time spent on the issues has been recorded.
 
-![View of the timesheets tab on a helpdesk ticket.](applications/services/helpdesk/advanced/track_and_bill/track-bill-record-timesheet-hours.png)
+![View of the timesheets tab on a helpdesk ticket.](track_and_bill/track-bill-record-timesheet-hours.png)
 
 ### Create an invoice for hours tracked on a ticket
 
@@ -196,7 +196,7 @@ button at the top of the ticket.
 Before creating the invoice, confirm that the number in the Delivered column matches the
 total number of Hours Spent listed in the Timesheets tab on the ticket.
 
-![View of a sales order with emphasis on the delivered column.](applications/services/helpdesk/advanced/track_and_bill/track-bill-delivered-timesheet-hours.png)
+![View of a sales order with emphasis on the delivered column.](track_and_bill/track-bill-delivered-timesheet-hours.png)
 
 Then, click Create Invoice. This opens a Create invoice(s) pop-up window.
 
@@ -209,7 +209,7 @@ Use the Timesheets Period field if this invoice should **only** include timeshee
 from a certain time period. If this field is left blank, **all** applicable timesheets that have
 not yet been invoiced will be included.
 
-![View of create invoices pop up showing timesheets period fields.](applications/services/helpdesk/advanced/track_and_bill/track-bill-create-invoice-timesheets-period.png)
+![View of create invoices pop up showing timesheets period fields.](track_and_bill/track-bill-create-invoice-timesheets-period.png)
 
 When the necessary information has been entered, click Create Draft. The invoice can
 then be reviewed, edited, and sent to the customer for payment.

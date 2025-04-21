@@ -12,7 +12,7 @@ desired quotation, or create a new one by clicking New.
 On the quotation form, click the Expiration field to reveal a pop-up calendar. From this
 pop-up calendar, select the desired month and date as the expiration date for the quotation.
 
-![The expiration field on a standard quotation form in Odoo Sales.](applications/sales/sales/send_quotations/deadline/quotation-deadlines-expiration-field.png)
+![The expiration field on a standard quotation form in Odoo Sales.](deadline/quotation-deadlines-expiration-field.png)
 
 ## Quotation template expiration
 
@@ -27,7 +27,7 @@ On the quotation template form, add a specific number of days to the Quotation e
 after field, located beneath the quotation template name. The number of days represents how long
 the quotation will be valid for, before it expires.
 
-![The quotation expires after field on a quotation template form in Odoo Sales.](applications/sales/sales/send_quotations/deadline/quotation-deadlines-expires-after.png)
+![The quotation expires after field on a quotation template form in Odoo Sales.](deadline/quotation-deadlines-expires-after.png)
 
 Then, whenever that specific quotation template is used in a quote, an expiration date is
 automatically calculated, based on the number of days designated above. However, this date can be

@@ -21,7 +21,7 @@ can:
 
 Some of Spreadsheet's main  elements are highlighted and defined below.
 
-![Spreadsheet main UI elements](applications/productivity/spreadsheet/ui-elements.png)
+![Spreadsheet main UI elements](spreadsheet/ui-elements.png)
 1. Thanh menu
 2. Thanh trên cùng
 3. Thanh công thức

@@ -54,4 +54,4 @@ Inventory app ‣ Configuration ‣ Settings.
 #### SEE ALSO
 [Use inventory adjustments to add stock to new warehouses](count_products.md)
 
-![Example warehouse form.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses/warehouse-form.png)
+![Example warehouse form.](warehouses/warehouse-form.png)

@@ -6,7 +6,7 @@ the top of the dashboard to share important information with users.
 Alerts remain on the main *Referrals* dashboard for the specified amount of time configured on the
 individual alert.
 
-![Two alert banners appear above the user's photo.](applications/hr/referrals/alerts/alerts.png)
+![Two alert banners appear above the user's photo.](alerts/alerts.png)
 
 ## Create an alert
 
@@ -38,7 +38,7 @@ Click New to open a blank alert form. Enter the following information on the for
     navigates to that URL. When selected, a URL field appears below the On
     Click section. Enter the desired URL in that field.
 
-![An alert form completely filled in with all selections entered.](applications/hr/referrals/alerts/alert-form.png)
+![An alert form completely filled in with all selections entered.](alerts/alert-form.png)
 
 ## Dismiss an alert
 

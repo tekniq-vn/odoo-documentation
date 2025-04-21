@@ -4,7 +4,7 @@ Odoo *Helpdesk* integrates with the *Forum*, *eLearning*, and *Knowledge* apps t
 Center*. The *Help Center* is a centralized location where teams and customers can search for and
 share detailed information about products and services.
 
-![Overview of the settings page of a team emphasizing the Help Center features.](applications/services/helpdesk/overview/help_center/help-center-enable-features.png)
+![Overview of the settings page of a team emphasizing the Help Center features.](help_center/help-center-enable-features.png)
 
 ## Cấu hình
 
@@ -27,7 +27,7 @@ Odoo's *Knowledge* application is a collaborative library, where users can store
 information. The *Knowledge* app is accessible throughout the database by clicking on the
 Knowledge (bookmark) icon.
 
-![View of a message in Helpdesk focusing on the Knowledge bookmark icon.](applications/services/helpdesk/overview/help_center/help-center-knowledge-bookmark-icon.png)
+![View of a message in Helpdesk focusing on the Knowledge bookmark icon.](help_center/help-center-knowledge-bookmark-icon.png)
 
 ### Enable Knowledge on a Helpdesk team
 
@@ -64,7 +64,7 @@ When a ticket is selected, Odoo reveals that ticket's detail form.
 Click the Knowledge (bookmark) icon, located at the top-right of the page, to open a
 pop-up search window.
 
-![View of knowledge search window from a helpdesk ticket.](applications/services/helpdesk/overview/help_center/help-center-knowledge-search.png)
+![View of knowledge search window from a helpdesk ticket.](help_center/help-center-knowledge-search.png)
 
 When Odoo reveals the desired article, click it, or highlight the Article title, and
 press **Enter**. This will open the article in the Knowledge application.
@@ -84,7 +84,7 @@ To publish an article, navigate to the desired article, by following the above s
 Share icon in the upper-right corner. This reveals a menu. Slide the toggle button
 labeled Share to Web to read Article Published.
 
-![View of a knowledge article focused on sharing and publishing options.](applications/services/helpdesk/overview/help_center/help-center-knowledge-sharing.png)
+![View of a knowledge article focused on sharing and publishing options.](help_center/help-center-knowledge-sharing.png)
 
 ### Solve tickets with a clipboard box
 
@@ -100,7 +100,7 @@ nested article or create a new one by clicking the ➕ (plus sign) icon next to 
 Type `/` to open the *powerbox*, and view a drop-down list of [commands](../../../productivity/knowledge/articles_editing.md). Select or type `clipboard`. A gray block is
 then added to the page. Add any necessary content to this block.
 
-![View of a clipboard in knowledge with focus on send and copy options.](applications/services/helpdesk/overview/help_center/help-center-knowledge-clipboard-options.png)
+![View of a clipboard in knowledge with focus on send and copy options.](help_center/help-center-knowledge-clipboard-options.png)
 
 #### NOTE
 Clipboard boxes only display the Use as description or Send as Message
@@ -165,7 +165,7 @@ Tickets in the Helpdesk application.
 
 At the top of the ticket detail form, click the Share on Forum button.
 
-![Overview of the Forums page of a website to show the available ones in Odoo Helpdesk.](applications/services/helpdesk/overview/help_center/help-center-share-on-forum.png)
+![Overview of the Forums page of a website to show the available ones in Odoo Helpdesk.](help_center/help-center-share-on-forum.png)
 
 When clicked, a pop-up window appears. Here, the Forum post and Title can be
 edited to correct any typos, or modified to remove any proprietary or client information.
@@ -221,7 +221,7 @@ Choose the Content Type from the drop-down menu and upload the file, or paste th
 where instructed. Click Save when finished. Click Add Section to organize
 the course in sections.
 
-![View of a course being published for Odoo Helpdesk.](applications/services/helpdesk/overview/help_center/help-center-elearning-course-contents-page.png)
+![View of a course being published for Odoo Helpdesk.](help_center/help-center-elearning-course-contents-page.png)
 
 #### NOTE
 In order to add a certification to a course, go to eLearning ‣ Configuration
@@ -264,4 +264,4 @@ With all the course content selected, click any of the boxes in the Is Published
 This reveals a pop-up window, asking for confirmation that all selected records are intended to be
 published. Click Confirm to automatically publish all course content.
 
-![View of a course contents being published in Odoo Helpdesk back-end.](applications/services/helpdesk/overview/help_center/help-center-elearning-publish-back-end.png)
+![View of a course contents being published in Odoo Helpdesk back-end.](help_center/help-center-elearning-publish-back-end.png)

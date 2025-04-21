@@ -18,7 +18,7 @@ To get started, we want to display a counter in the systray.
 3. Update the content of the item so that it displays the following string: `Clicks: 0`, and
    add a button on the right to increment the value.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/systray.png)
+![image](01_build_clicker_game/systray.png)
 
 And voila, we have a completely working clicker game!
 
@@ -56,7 +56,7 @@ is a main action, managed by the web client, that displays a component.
 4. To avoid disrupting employees' workflow, we prefer the client action to open within a popover
    rather than in fullscreen mode. Modify the `doAction` call to open it in a popover.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/client_action.png)
+![image](01_build_clicker_game/client_action.png)
 
 #### SEE ALSO
 - [How to create a client action](../../howtos/javascript_client_action.md#howtos-javascript-client-action)
@@ -83,7 +83,7 @@ location of our state to make it available for all our components. This is a per
    the systray item to remove its own local state and use it. Also, you can remove the `+10 clicks` button.
 4. Display the state in the client action, and add a `+10` clicks button in it.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/increment_button.png)
+![image](01_build_clicker_game/increment_button.png)
 
 #### SEE ALSO
 - [Short explanation on services](../discover_js_framework/02_build_a_dashboard.md#tutorials-discover-js-framework-services)
@@ -114,7 +114,7 @@ format numbers in a easier to comprehend way: for example, `1234` could be forma
    #### NOTE
    Owl allows component that contains just text nodes!
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/humanized_number.png)
+![image](01_build_clicker_game/humanized_number.png)
 
 #### SEE ALSO
 - [definition of humanNumber function](https://github.com/odoo/odoo/blob/c638913df191dfcc5547f90b8b899e7738c386f1/addons/web/static/src/core/utils/numbers.js#L119)
@@ -127,7 +127,7 @@ as a tooltip.
 1. Tooltip needs an html element. Change the `ClickValue` to wrap the value in a `<span/>` element
 2. Add a dynamic `data-tooltip` attribute to display the exact value.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/humanized_tooltip.png)
+![image](01_build_clicker_game/humanized_tooltip.png)
 
 #### SEE ALSO
 - [Documentation in the tooltip service](https://github.com/odoo/odoo/blob/c638913df191dfcc5547f90b8b899e7738c386f1/addons/web/static/src/core/tooltip/tooltip_service.js#L17)
@@ -146,7 +146,7 @@ every 10 seconds.
 4. Set a 10s interval in the service that will increment the number of clicks by `10*clickBots`.
 5. Make sure the Buy button is disabled if the player does not have enough clicks.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/clickbot.png)
+![image](01_build_clicker_game/clickbot.png)
 
 ## 9. Refactor to a class model
 
@@ -174,7 +174,7 @@ for communication: event buses.
 3. When that happens, use the `effect` service to display a rainbow man.
 4. Add some text to explain that the user can now buy clickbots.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/milestone.png)
+![image](01_build_clicker_game/milestone.png)
 
 #### SEE ALSO
 - [Owl documentation on event bus](https://github.com/odoo/owl/blob/master/doc/reference/utils.md#eventbus)
@@ -190,7 +190,7 @@ which are just more powerful: they provide with 100 clicks each 10s, but they co
 3. bigbots should be available at `level >=2`
 4. Display the corresponding information in the client action
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/bigbot.png)
+![image](01_build_clicker_game/bigbot.png)
 
 ## 12. Add a new type of resource: power
 
@@ -203,7 +203,7 @@ one click, clickbots now provide us with `multiplier` clicks).
 3. change bots to use that number as a multiplier.
 4. Update the user interface to display and let the user purchase a new power level (costs: 50k).
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/bigbot.png)
+![image](01_build_clicker_game/bigbot.png)
 
 ## 13. Define some random rewards
 
@@ -256,7 +256,7 @@ We want the user to obtain sometimes bonuses, to reward using Odoo.
 3. That method should choose a reward, send a sticky notification, with a button `Collect` that will
    then apply the reward, and finally, it should open the `clicker` client action.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/reward.png)
+![image](01_build_clicker_game/reward.png)
 
 #### SEE ALSO
 - [Documentation on patching a class](../../reference/frontend/patching_code.md#frontend-patching-class)
@@ -268,7 +268,7 @@ We want the user to obtain sometimes bonuses, to reward using Odoo.
 1. Add a command `Open Clicker Game` to the command palette.
 2. Add another command: `Buy 1 click bot`.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/command_palette.png)
+![image](01_build_clicker_game/command_palette.png)
 
 #### SEE ALSO
 - [Example of use of command provider registry](https://github.com/odoo/odoo/blob/c638913df191dfcc5547f90b8b899e7738c386f1/addons/web/static/src/core/debug/debug_providers.js#L10)
@@ -285,7 +285,7 @@ fruits (either pears or cherries).
 4. Update the client user interface to display the number of trees and fruits, and also, to buy trees.
 5. Increment the fruit number by 1 for each tree every 30s.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/trees.png)
+![image](01_build_clicker_game/trees.png)
 
 ## 17. Use a dropdown menu for the systray item
 
@@ -299,7 +299,7 @@ access to some commands and some more information. Let us use a dropdown menu!
    and fruits.
 4. Also, a few dropdown items with some commands: open the clicker game, buy a clickbot, ...
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/dropdown.png)
+![image](01_build_clicker_game/dropdown.png)
 
 ## 18. Use a Notebook component
 
@@ -310,7 +310,7 @@ and features in various tabs, with the `Notebook` component:
 2. All `click` content should be displayed in one tab.
 3. All `tree/fruits` content should be displayed in another tab.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/notebook.png)
+![image](01_build_clicker_game/notebook.png)
 
 #### SEE ALSO
 - [Odoo: Documentation on Notebook component](../../reference/frontend/owl_components.md#frontend-owl-notebook)
@@ -349,4 +349,4 @@ To test our migration system, let us add a new type of trees: peaches.
 2. Increment the state version number.
 3. Define a migration.
 
-![image](developer/tutorials/master_odoo_web_framework/01_build_clicker_game/peach_tree.png)
+![image](01_build_clicker_game/peach_tree.png)

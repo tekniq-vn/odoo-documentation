@@ -18,7 +18,7 @@ alternatively from the <i class="oi oi-view-list"></i> List or <i class="fa fa-t
 views, click the New button in the upper-left corner of the dashboard to open up a new
 event form.
 
-![Typical event template in the Odoo Events application.](applications/marketing/events/create_events/blank-event-template.png)
+![Typical event template in the Odoo Events application.](create_events/blank-event-template.png)
 
 #### NOTE
 If certain fields do not readily appear on the event form, that means an additional application
@@ -106,7 +106,7 @@ Those tabs are: [Tickets](#events-event-tickets), [Communication](#events-event-
 
 Create custom tickets (and ticket tiers) for events in the Tickets tab of an event form.
 
-![A typical tickets tab on an event form in the Odoo Events application.](applications/marketing/events/create_events/tickets-tab.png)
+![A typical tickets tab on an event form in the Odoo Events application.](create_events/tickets-tab.png)
 
 To create a ticket, click Add a line in the Tickets tab. Then, enter a name
 for the ticket (e.g. `Basic Ticket` or `VIP`) in the Name field.
@@ -150,7 +150,7 @@ To delete any tickets from the Tickets tab, click the <i class="fa fa-trash-o"><
 In the Communication tab of an event form, create various marketing communications that
 can be scheduled to be sent at specific intervals leading up to, and following, the event.
 
-![Typical communication tab on an event form in the Odoo Events application.](applications/marketing/events/create_events/communication-tab.png)
+![Typical communication tab on an event form in the Odoo Events application.](create_events/communication-tab.png)
 
 #### NOTE
 Theo mặc định, Odoo cung cấp ba mẫu thông tin liên lạc riêng biệt cấu hình sẵn trên mỗi biểu mẫu sự kiện mới. Một trong số đó là email được gửi sau mỗi lượt đăng ký để xác nhận việc mua vé với người tham dự. Hai mẫu còn lại là email nhắc sự kiện, được lên lịch gửi tại các khoảng thời gian khác nhau trước khi sự kiện diễn ra để nhắc nhở người nhận về sự kiện sắp tới.
@@ -216,7 +216,7 @@ their preferences, expectations, and other things of that nature. This informati
 to create more detailed reporting metrics, in addition to being utilized to create specific lead
 generation rules.
 
-![Typical questions tab on an event form in the Odoo Events application.](applications/marketing/events/create_events/questions-tab.png)
+![Typical questions tab on an event form in the Odoo Events application.](create_events/questions-tab.png)
 
 #### NOTE
 By default, Odoo provides three questions in the Questions tab for every event form.
@@ -231,7 +231,7 @@ as well as their preferences.
 To add a question in the Questions tab, click Add a line. Doing so reveals a
 Create Question pop-up window. From here, users can create and configure their question.
 
-![The Create Question pop-up window that appears in the Odoo Events application.](applications/marketing/events/create_events/create-question-popup.png)
+![The Create Question pop-up window that appears in the Odoo Events application.](create_events/create-question-popup.png)
 
 First, enter the question in the field at the top of the form. Then, decide if the question should
 require a Mandatory Answer and/or if Odoo should Ask once per order, by
@@ -284,7 +284,7 @@ an event form.
 In the Notes tab of an event form, users can leave detailed internal notes and/or
 event-related instructions/information for attendees.
 
-![Typical notes tab on an event form in the Odoo Events application.](applications/marketing/events/create_events/notes-tab.png)
+![Typical notes tab on an event form in the Odoo Events application.](create_events/notes-tab.png)
 
 In the Note field of the Notes tab, users can leave internal notes for other
 event employees, like "to-do" lists, contact information, instructions, and so on.

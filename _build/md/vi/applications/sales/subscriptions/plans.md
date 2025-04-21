@@ -11,7 +11,7 @@ Then, click New to create a new plan, or select an existing plan to edit it.
 Since the Odoo *Subscriptions* app is integrated closely with the *Sales* app, subscription plans
 use the same form as quotation templates.
 
-![Subscription plan (quotation template) configuration form.](applications/sales/subscriptions/plans/subplan-quotation-template.png)
+![Subscription plan (quotation template) configuration form.](plans/subplan-quotation-template.png)
 
 The subscription plan form contains the following options:
 
@@ -51,7 +51,7 @@ the following additional options:
   subscription plan are recorded. Leave this field blank to use the sales journal with the lowest
   sequence.
 
-![Subscription plan with Recurrence selected.](applications/sales/subscriptions/plans/subplan-recurrence.png)
+![Subscription plan with Recurrence selected.](plans/subplan-recurrence.png)
 
 In the Lines tab, create the order lines for the quotation. Click Add a
 product, select a product to include in the plan, and then enter the Quantity and
@@ -64,7 +64,7 @@ If the subscription plan has unique [terms and conditions](../../finance/account
 Terms & Conditions tab. If terms conditions are specified on a plan, these will be used
 instead of the default terms and conditions set up in the *Sales* app settings.
 
-![Subscription plan Terms & Conditions tab.](applications/sales/subscriptions/plans/subplan-terms-conditions.png)
+![Subscription plan Terms & Conditions tab.](plans/subplan-terms-conditions.png)
 
 ## Use subscription plans on quotations
 

@@ -41,7 +41,7 @@ Once approval rules have been defined for a button:
 
 - A **user avatar** icon is displayed next to the button's label for each approval rule that has
   been defined.
-  > ![Confirm button with approval for purchase orders](applications/studio/approval_rules/approvals-button.png)
+  > ![Confirm button with approval for purchase orders](approval_rules/approvals-button.png)
 - When an unauthorized user clicks the button, an error message is displayed in the top-right corner
   and an activity is created for the user specified in the Responsible field.
 - Only users from the group defined in the Allowed Group field are authorized to approve
@@ -56,4 +56,4 @@ Authorized users can:
 - reject the action by clicking the **user avatar** icon next to the button's label, then clicking
   the <i class="fa fa-times"></i> (Reject) button in the dialog that opens.
 
-![Approval dialog](applications/studio/approval_rules/approvals-awaiting.png)
+![Approval dialog](approval_rules/approvals-awaiting.png)

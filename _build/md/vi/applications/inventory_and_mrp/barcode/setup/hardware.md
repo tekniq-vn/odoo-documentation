@@ -5,7 +5,7 @@
 Follow this guide to choose and set up a barcode scanner compatible with Odoo's *Inventory* and
 *Barcode* apps.
 
-![An image of an example barcode scanner.](applications/inventory_and_mrp/barcode/setup/hardware/barcode-scanner.png)
+![An image of an example barcode scanner.](hardware/barcode-scanner.png)
 
 ## Scanner types
 
@@ -46,7 +46,7 @@ keyboard (HID), with the language set based on the keyboard that is in use.
 To configure the keyboard layout for a **Zebra** scanner, scan the keyboard wedge barcode for the
 desired language in the scanner's user manual.
 
-![Example of a user manual for keyboard layout.](applications/inventory_and_mrp/barcode/setup/hardware/keyboard-barcode.png)
+![Example of a user manual for keyboard layout.](hardware/keyboard-barcode.png)
 
 ### Automatic carriage return
 
@@ -76,7 +76,7 @@ home screen.
 Once the profile is selected, scroll down to the Keyboard Output option, and ensure the
 Enable/disable keystroke output option is Enabled.
 
-![Show keystroke option in the Zebra scanner's DataWedge app.](applications/inventory_and_mrp/barcode/setup/hardware/enable-keystroke.png)
+![Show keystroke option in the Zebra scanner's DataWedge app.](hardware/enable-keystroke.png)
 
 Once that option is enabled, go back to the Profile options page, and go to the
 Keystroke output section. Then, open the Key event options submenu. Under
@@ -104,7 +104,7 @@ resulting list of options, select Data Processing Settings.
 The Data Processing Settings specify how barcode data is processed by the computer.
 Locate the Wedge Method setting. By default, this is set to Standard.
 
-![Data processing settings options for Honeywell scanner.](applications/inventory_and_mrp/barcode/setup/hardware/hardware-honeywell-settings.png)
+![Data processing settings options for Honeywell scanner.](hardware/hardware-honeywell-settings.png)
 
 Change the Wedge Method setting to Keyboard.
 
@@ -125,12 +125,12 @@ Next, select the Default Profile, or create a new profile, if needed.
 Under the General Settings, click Data Output, followed by
 Keyboard Emulation.
 
-![Cipherlab scanner data output setting page.](applications/inventory_and_mrp/barcode/setup/hardware/hardware-cipherlab-settings.png)
+![Cipherlab scanner data output setting page.](hardware/hardware-cipherlab-settings.png)
 
 By default, the Input Method, under Keyboard Emulation, is set to
 Default Mode. Change this setting to KeyEvent.
 
-![Cipherlab scanner keyboard emulation settings.](applications/inventory_and_mrp/barcode/setup/hardware/hardware-cipherlab-emulation.png)
+![Cipherlab scanner keyboard emulation settings.](hardware/hardware-cipherlab-emulation.png)
 
 After completing the steps, conduct a test scan to verify the Cipherlab scanner is working as
 intended.

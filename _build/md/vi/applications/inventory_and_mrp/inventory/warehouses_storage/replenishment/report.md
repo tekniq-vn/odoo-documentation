@@ -23,7 +23,7 @@ Order Once.
 Clicking <i class="fa fa-bell-slash"></i> Snooze temporarily deactivates the reordering rule for
 the set period, hiding the entry from the replenishment dashboard, when it is supposed to appear.
 
-![Replenishment report that displays recommended quantities to order.](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report/replenishment-dashboard.png)
+![Replenishment report that displays recommended quantities to order.](report/replenishment-dashboard.png)
 
 #### NOTE
 Automatic reordering rules appear on this menu, too but are hidden by default.

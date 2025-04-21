@@ -58,4 +58,4 @@ In the Open: Stock move pop-up window, the Pick from field displays where
 the quantities to fulfill the Demand are picked from. Since the order demanded six
 shirts, all five shirts from `LOT1`, and one shirt from `LOT2`, are selected.
 
-![Two lots being reserved for a sales order with the FIFO strategy.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo/white-shirt-picking.png)
+![Two lots being reserved for a sales order with the FIFO strategy.](fifo/white-shirt-picking.png)

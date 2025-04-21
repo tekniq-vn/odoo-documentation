@@ -42,7 +42,7 @@ By default, the Default Worksheet template is selected. To define another defaul
 worksheet template, click the ➔ (Internal link) icon that appears when you
 hover your mouse over the Project field on the task form.
 
-![Mouse on project name to setup default worksheet template](applications/services/field_service/worksheets/template-default.png)
+![Mouse on project name to setup default worksheet template](worksheets/template-default.png)
 
 Then, in the Settings tab,  scroll down to the Field service section and
 select the Worksheet Template you want to set up as default.

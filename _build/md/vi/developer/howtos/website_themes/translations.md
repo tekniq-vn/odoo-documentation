@@ -20,7 +20,7 @@ Click Translate to start translating. Depending on the language, some text is
 automatically translated and highlighted in green, while everything that should be translated
 manually is highlighted in yellow.
 
-![Translate button](developer/howtos/website_themes/translations/translate-button.png)
+![Translate button](translations/translate-button.png)
 
 However, you have to understand what's happening under the hood when you translate something
 through the Website Builder.
@@ -34,7 +34,7 @@ duplicated view will be created and all your modifications will be saved into th
 translations also). The only exception concerns the homepage (by default, Odoo creates a base and
 duplicated view even before you've edited anything).
 
-![Translations dupliclated page](developer/howtos/website_themes/translations/translations-page.png)
+![Translations dupliclated page](translations/translations-page.png)
 
 We recommend to be very careful about the order in which you will carry out translations or
 modifications in the source language, either if you created the page through the Website Builder or
@@ -112,7 +112,7 @@ Translating pages directly from the backend allows you to translate several lang
 time. To do so, go to Settings ‣ Technical ‣ User Interface: Views, search for
 the name of the page you want to translate, and click the Edit Translations button.
 
-![Edit translations](developer/howtos/website_themes/translations/edit-translations.png)
+![Edit translations](translations/edit-translations.png)
 
 <a id="website-themes-translations-export"></a>
 

@@ -14,7 +14,7 @@ To view all the available reports for the database, including all the localizati
 navigate to Payroll app ‣ Reporting to view the available reports in a drop-down
 menu. Click on a specific report to view it.
 
-![Report dashboard view showing extra reports for Belgium databases.](applications/hr/payroll/reporting/reports.png)
+![Report dashboard view showing extra reports for Belgium databases.](reporting/reports.png)
 
 If a report is unavailable to a user, an Invalid Operation pop-up window appears,
 stating: You must be logged in to a (country) company to use this feature, where
@@ -28,7 +28,7 @@ Click on Payroll app ‣ Reporting ‣ Payroll to display the Payroll
 Analysis report. This report shows all the payslips generated in the last 365 days, due to the
 default [filter](#payroll-filters): `Last 365 Days Payslip`.
 
-![Payroll overview report showing payroll for the last 365 days.](applications/hr/payroll/reporting/payroll-report.png)
+![Payroll overview report showing payroll for the last 365 days.](reporting/payroll-report.png)
 
 The report can display metrics for a variety of parameters. Click the Measures box to
 view a drop-down menu with the various metric options to display. The default options available
@@ -50,7 +50,7 @@ include:
 
 Net Wage is the default metric for the Payroll report.
 
-![The various measures available to display for the Payroll Analysis report.](applications/hr/payroll/reporting/measures.png)
+![The various measures available to display for the Payroll Analysis report.](reporting/measures.png)
 
 #### Biểu đồ đường
 
@@ -84,7 +84,7 @@ options. The various options are:
 #### NOTE
 These options can be combined to create a variety of views.
 
-![Menu buttons with the line chart called out, along with the other option buttons.](applications/hr/payroll/reporting/line-chart.png)
+![Menu buttons with the line chart called out, along with the other option buttons.](reporting/line-chart.png)
 
 #### Biểu đồ cột
 
@@ -97,7 +97,7 @@ for visualizing the progression over time or other categories.
 
 An option to display the columns in [Descending](#payroll-descending) or [Ascending](#payroll-ascending) order appears at the end of the options.
 
-![Menu buttons with the bar chart called out, along with the other option buttons.](applications/hr/payroll/reporting/bar-chart.png)
+![Menu buttons with the bar chart called out, along with the other option buttons.](reporting/bar-chart.png)
 
 #### Biểu đồ tròn
 
@@ -105,7 +105,7 @@ To display the data in a pie chart, click on the Pie Chart button (represented b
 (pie chart) icon) in the menu bar. There are no additional options available in this
 view.
 
-![Menu buttons with the pie chart called out.](applications/hr/payroll/reporting/pie-chart.png)
+![Menu buttons with the pie chart called out.](reporting/pie-chart.png)
 
 #### Bảng pivot
 
@@ -119,7 +119,7 @@ and the number of Days of Unpaid Time Off. The information is organized by depar
 To display more information on the report, click the Measures button to reveal a
 drop-down menu. Then, click on any other metric to display it on the pivot table.
 
-![Pivot table view with the various metrics called out.](applications/hr/payroll/reporting/pivot.png)
+![Pivot table view with the various metrics called out.](reporting/pivot.png)
 
 To sort the entries by a specific column, such as Net Wage, click on the column name
 twice. The first click selects the column, and the second click sorts the information in descending
@@ -129,11 +129,11 @@ To export the data in an XLSX format, click the Download xlsx button, represente
 ⬇️ (down arrow above a horizontal bar) icon, located at the far-right of the available
 icons. The information is then downloaded into a spreadsheet.
 
-![The menu options with the download button highlighted.](applications/hr/payroll/reporting/xlsx.png)
+![The menu options with the download button highlighted.](reporting/xlsx.png)
 
 Bất kỳ báo cáo nào cũng có thể được chèn vào bảng tính bằng cách nhấp vào nút Chèn vào bảng tính. Một cửa sổ bật lên có tiêu đề Chọn một bảng tính để chèn (loại báo cáo) của bạn sẽ xuất hiện, yêu cầu chọn bảng tính để hiển thị thông tin. Chọn một bảng tính hoặc trang chủ hiện có, hoặc chọn một Bảng tính trống mới. Nhấp vào nút Xác nhận để chuyển sang chế độ xem bảng tính với báo cáo đã được thêm vào.
 
-![The view of data sent to a spreadsheet.](applications/hr/payroll/reporting/spreadsheet.png)
+![The view of data sent to a spreadsheet.](reporting/spreadsheet.png)
 
 <a id="payroll-doc-storage"></a>
 

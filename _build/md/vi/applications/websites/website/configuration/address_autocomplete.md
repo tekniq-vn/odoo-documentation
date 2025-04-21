@@ -5,7 +5,7 @@ exist and are understood by the carrier. The Google Places API allows developers
 information about places using HTTP requests. The autocompletion predicts a list of places when the
 user starts typing the address.
 
-![Address autocomplete example](applications/websites/website/configuration/address_autocomplete/address-autocomplete-example.png)
+![Address autocomplete example](address_autocomplete/address-autocomplete-example.png)
 
 #### SEE ALSO
 - [Google Maps Platform](https://mapsplatform.google.com/maps-products)
@@ -14,7 +14,7 @@ user starts typing the address.
 To do so, go to Website ‣ Configuration ‣ Settings and enable
 Address Autocomplete in the SEO section.
 
-![Enable address autocomplete](applications/websites/website/configuration/address_autocomplete/enable-address-autocomplete.png)
+![Enable address autocomplete](address_autocomplete/enable-address-autocomplete.png)
 
 Insert your Google Places API key in the API Key field. If you don't have
 one, create yours on the [Google Cloud Console](https://console.cloud.google.com/getting-started)

@@ -112,7 +112,7 @@ readable. It is possible to disable this process by enabling the
 Odoo screen) and select About Odoo then Activate
 the developer mode:
 
-![image](developer/tutorials/web/about_odoo.png)![image](developer/tutorials/web/devmode.png)
+![image](web/about_odoo.png)![image](web/devmode.png)
 
 This will reload the web client with optimizations disabled, making
 development and debugging significantly more comfortable.
@@ -1409,7 +1409,7 @@ When an `ActionManager` instance receive an action of type
 the views themselves to a *view manager*, which will then set up one or
 multiple views depending on the original action's requirements:
 
-![image](developer/tutorials/web/viewarchitecture.png)
+![image](web/viewarchitecture.png)
 
 #### The Views
 

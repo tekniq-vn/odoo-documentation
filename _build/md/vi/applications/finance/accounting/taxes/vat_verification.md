@@ -23,7 +23,7 @@ Intra-Community Valid checkbox. Odoo tests the VAT number through the VIES and
 automatically checks or unchecks the Intra-Community Valid checkbox depending on the
 validity of the VAT number.
 
-![Intra-community valid checkbox on the contact record](applications/finance/accounting/taxes/vat_verification/intra-community-valid.png)
+![Intra-community valid checkbox on the contact record](vat_verification/intra-community-valid.png)
 
 #### IMPORTANT
 It is possible to manually override the Intra-Community Valid field on a contact in

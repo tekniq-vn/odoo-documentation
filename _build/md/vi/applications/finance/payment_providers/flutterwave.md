@@ -19,7 +19,7 @@ covering several African countries and payment methods.
 4. Make sure *all* the remaining checkboxes are ticked.
 5. Click on **Save** to finalize the configuration.
 
-![Cài đặt Flutterwave](applications/finance/payment_providers/flutterwave/flutterwave-settings.png)
+![Cài đặt Flutterwave](flutterwave/flutterwave-settings.png)
 
 <a id="payment-providers-flutterwave-configure-odoo"></a>
 

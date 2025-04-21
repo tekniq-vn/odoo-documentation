@@ -13,7 +13,7 @@ This document will guide you through the setup of a [KeyCDN](https://www.keycdn.
 
 Trên trang chủ KeyCDN, hãy bắt đầu bằng cách đi đến mục menu Vùng ở bên trái. Trên biểu mẫu, hãy cung cấp giá trị cho Tên vùng, giá trị này sẽ xuất hiện như một phần trong  của . Sau đó, đặt Trạng thái vùng thành hoạt động để kích hoạt vùng. Đối với Loại vùng, hãy đặt giá trị thành Pull, và cuối cùng, bên dưới Cài đặt pull, hãy nhập URL gốc— địa chỉ này phải là  đầy đủ của cơ sở dữ liệu Odoo.
 
-![Trang cấu hình Zone của KeyCDN.](applications/websites/website/configuration/cdn/keycdn-zone.png)
+![Trang cấu hình Zone của KeyCDN.](cdn/keycdn-zone.png)
 
 Under the General Settings heading below the zone form, click the Show all
 settings button to expand the zone options. This should be the last option on the page. After
@@ -23,7 +23,7 @@ enabled.
 Next, scroll to the bottom of the zone configuration page and Save the changes. KeyCDN
 will indicate that the new zone will be deployed. This can take about 10 minutes.
 
-![KeyCDN deploying the new Zone.](applications/websites/website/configuration/cdn/zone-url.png)
+![KeyCDN deploying the new Zone.](cdn/zone-url.png)
 
 #### NOTE
 A new Zone URL has been generated for your Zone, in this example it is
@@ -44,14 +44,14 @@ forward slash (`/`) after the CDN Base URL.
 
 Save the settings when complete.
 
-![Kích hoạt cài đặt CDN trong Odoo.](applications/websites/website/configuration/cdn/cdn-base-url.png)
+![Kích hoạt cài đặt CDN trong Odoo.](cdn/cdn-base-url.png)
 
 Now the website is using the CDN for the resources matching the CDN filters regular
 expressions.
 
 Trong mã HTML của website Odoo, việc tích hợp  được xác minh hoạt động chính xác bằng cách kiểm tra  của hình ảnh. Giá trị *URL Cơ sở CDN* có thể được xem bằng cách sử dụng tính năng Kiểm tra của trình duyệt web trên trang web Odoo. Tìm bản ghi của nó bằng cách tìm kiếm trong tab Mạng bên trong công cụ lập trình.
 
-![The CDN Base URL can be seen using the inspect function on the Odoo website.](applications/websites/website/configuration/cdn/test-pull.png)
+![The CDN Base URL can be seen using the inspect function on the Odoo website.](cdn/test-pull.png)
 
 ### Prevent security issues by activating cross-origin resource sharing (CORS)
 
@@ -70,6 +70,6 @@ below will appear in the web browser's developer console:
 Cross-Origin Resource Sharing policy: No 'Access-Control-Allow-Origin' header is present on the
 requested resource. Origin 'http://yourdatabase.odoo.com' is therefore not allowed access.`
 
-![Error message populated in the browser console.](applications/websites/website/configuration/cdn/odoo-security-message.png)
+![Error message populated in the browser console.](cdn/odoo-security-message.png)
 
 Enabling the  option in the  settings fixes this issue.

@@ -42,4 +42,4 @@ Accounting ‣ Reporting ‣ Tax Report, and selecting the **tax unit** in
 Tax Unit. This report contains the aggregated transactions of all **constituents** and
 the .XML export contains the name and VAT number of the **main** company.
 
-![tax unit tax report](applications/finance/accounting/get_started/tax_units/report.png)
+![tax unit tax report](tax_units/report.png)

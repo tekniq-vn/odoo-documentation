@@ -21,11 +21,11 @@ You can easily cancel the request made to the carrier system.
   still cancel the request.
   Simply click on the **Cancel** button next to the **Carrier Tracking Ref**:
 
-![image](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel/cancel01.png)
+![image](cancel/cancel01.png)
 
 You will now see that the shipment has been cancelled.
 
-![image](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel/cancel02.png)
+![image](cancel/cancel02.png)
 
 You can now change the carrier if you wish.
 
@@ -35,7 +35,7 @@ After cancelling the shipping request, you can change the carrier you
 want to use. Confirm it by clicking on the **Send to shipper** button. You
 will get a new tracking number and a new label.
 
-![image](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel/cancel03.png)
+![image](cancel/cancel03.png)
 
 #### SEE ALSO
 * lập hoá đơn

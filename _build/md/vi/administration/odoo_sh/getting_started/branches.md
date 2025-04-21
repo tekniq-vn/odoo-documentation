@@ -4,7 +4,7 @@
 
 Chế độ xem nhánh cung cấp cho bạn cái nhìn tổng quan về các nhánh khác nhau có trong kho lưu trữ của bạn.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches.png)
+![image](branches/interface-branches.png)
 
 <a id="odoosh-gettingstarted-branches-stages"></a>
 
@@ -14,7 +14,7 @@ Odoo.sh cung cấp ba giai đoạn khác nhau cho nhánh của bạn: production
 
 Bạn có thể thay đổi giai đoạn của một nhánh bằng cách kéo và thả nó vào tiêu đề của phần giai đoạn.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-stagechange.png)
+![image](branches/interface-branches-stagechange.png)
 
 <a id="stage-production"></a>
 
@@ -65,7 +65,7 @@ Cơ sở dữ liệu được tạo cho các nhánh phát triển sẽ tồn t�
 
 Bạn có thể hợp nhất các nhánh một cách dễ dàng bằng cách kéo và thả chúng vào nhau.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-merge.png)
+![image](branches/interface-branches-merge.png)
 
 Khi bạn muốn kiểm thử những thay đổi của các nhánh phát triển bằng dữ liệu production, bạn có thể:
 
@@ -98,7 +98,7 @@ Tổng quan về lịch sử nhánh:
 * Nội dung commit và người viết chúng,
 * Các sự kiện khác nhau được liên kết với nền tảng, chẳng hạn như thay đổi giai đoạn, nhập cơ sở dữ liệu, khôi phục bản sao lưu.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-history.png)
+![image](branches/interface-branches-history.png)
 
 Đối với mỗi sự kiện, trạng thái được hiển thị ở góc trên cùng bên phải. Nó có thể cung cấp thông tin về hoạt động đang diễn ra trên cơ sở dữ liệu (cài đặt, cập nhật, nhập bản sao lưu, ...) hoặc kết quả của hoạt động đó (kiểm tra phản hồi, nhập bản sao lưu thành công,...). Khi thao tác thành công, bạn có thể truy cập cơ sở dữ liệu nhờ nút *kết nối*.
 
@@ -108,13 +108,13 @@ Tổng quan về lịch sử nhánh:
 
 Tab này chứa công cụ nhận thư. Thông tin tổng quan về các email mà cơ sở dữ liệu của bạn gửi đi được hiển thị tại đây. Công cụ nhận thư có sẵn trên các nhánh phát triển và staging vì các email trong cơ sở dữ liệu production của bạn thực sự được gửi thay vì bị chặn.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-mails.png)
+![image](branches/interface-branches-mails.png)
 
 ### Shell
 
 Shell truy cập vào container của bạn. Bạn có thể thực hiện các lệnh linux cơ bản (`ls`, `top`) và mở shell trên cơ sở dữ liệu của mình bằng cách gõ `psql`.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-shell.png)
+![image](branches/interface-branches-shell.png)
 
 Bạn có thể mở nhiều tab, kéo và thả chúng để sắp xếp bố cục theo ý muốn, chẳng hạn như cạnh nhau.
 
@@ -125,7 +125,7 @@ Shell chạy dài không được đảm bảo. Các shell không sử dụng c�
 
 Môi trường phát triển tích hợp trực (IDE) online để chỉnh sửa mã nguồn. Bạn cũng có thể mở terminal, bảng điều khiển Python và thậm chí cả bảng điều khiển Odoo Shell.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-editor.png)
+![image](branches/interface-branches-editor.png)
 
 Bạn có thể mở nhiều tab, kéo và thả chúng để sắp xếp bố cục theo ý muốn, chẳng hạn như cạnh nhau.
 
@@ -133,7 +133,7 @@ Bạn có thể mở nhiều tab, kéo và thả chúng để sắp xếp bố c
 
 Liên kết này chứa các số liệu theo dõi khác nhau của bản dựng hiện tại.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-monitoring.png)
+![image](branches/interface-branches-monitoring.png)
 
 Bạn có thể thu phóng, thay đổi phạm vi thời gian hoặc chọn số liệu cụ thể trên mỗi biểu đồ. Trên biểu đồ, các chú thích giúp bạn liên hệ với các thay đổi trên bản dựng (nhập cơ sở dữ liệu, git push,...).
 
@@ -143,7 +143,7 @@ Bạn có thể thu phóng, thay đổi phạm vi thời gian hoặc chọn số
 
 Một chế độ xem để xem nhật ký máy chủ của bạn.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-logs.png)
+![image](branches/interface-branches-logs.png)
 
 Có sẵn các nhật ký khác nhau:
 
@@ -163,7 +163,7 @@ Bạn có thể tạm dừng tìm nạp nhật ký bằng cách nhấp vào nút
 
 Danh sách các bản sao lưu có sẵn để tải xuống và khôi phục, khả năng thực hiện sao lưu thủ công và nhập cơ sở dữ liệu.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-backups.png)
+![image](branches/interface-branches-backups.png)
 
 Odoo.sh sao lưu cơ sở dữ liệu production hàng ngày. Nó lưu giữ 7 bản sao lưu hàng ngày, 4 bản sao lưu hàng tuần và 3 bản sao lưu hàng tháng. Mỗi bản sao lưu bao gồm kết xuất cơ sở dữ liệu, filestore (tệp đính kèm, trường nhị phân), nhật ký và phiên.
 
@@ -205,7 +205,7 @@ Khả dụng cho các nhánh production và staging trong các dự án hợp l�
 
 Tại đây bạn có thể tìm thấy một số cài đặt chỉ áp dụng cho nhánh hiện được chọn.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-settings.jpg)
+![image](branches/interface-branches-settings.jpg)
 
 **Hành vi khi có commit mới**
 
@@ -215,7 +215,7 @@ Tại đây bạn có thể tìm thấy một số cài đặt chỉ áp dụng 
 
 Chọn các phân hệ cần cài đặt tự động cho các bản dựng phát triển của bạn.
 
-![image](administration/odoo_sh/getting_started/branches/interface-settings-modulesinstallation.png)
+![image](branches/interface-settings-modulesinstallation.png)
 * *Chỉ cài đặt các phân hệ của tôi* sẽ chỉ cài đặt các phân hệ của nhánh. Đây là tùy chọn mặc định. Không bao gồm [các phân hệ phụ](../advanced/submodules.md#odoosh-advanced-submodules).
 * *Cài đặt toàn bộ (tất cả phân hệ)* sẽ cài đặt các phân hệ của nhánh, những phân hệ có trong phân hệ phụ và tất cả phân hệ tiêu chuẩn của Odoo. Khi chạy cài đặt toàn bộ, bộ kiểm thử sẽ bị tắt.
 * *Cài đặt danh sách các phân hệ* sẽ cài đặt các phân hệ được chỉ định trong phần nhập liệu ngay bên dưới tùy chọn này. Tên là tên kỹ thuật của các phân hệ và chúng phải được phân tách bằng dấu phẩy.
@@ -275,7 +275,7 @@ Việc quên cấu hình SPF hoặc DKIM để ủy quyền cho Odoo làm máy c
 
 Ở góc trên bên phải của màn hình, có sẵn các lệnh shell khác nhau.
 
-![image](administration/odoo_sh/getting_started/branches/interface-branches-shellcommands.png)
+![image](branches/interface-branches-shellcommands.png)
 
 Mỗi lệnh có thể được sao chép trong bộ nhớ tạm để sử dụng trong thiết bị đầu cuối và một số lệnh có thể được sử dụng trực tiếp từ Odoo.sh bằng cách nhấp vào nút *chạy*, trong trường hợp đó, một cửa sổ bật lên sẽ nhắc người dùng xác định các phần giữ chỗ cuối cùng như `<URL>`, `<PATH>`, ...
 
@@ -335,9 +335,9 @@ Tải lên những thay đổi bạn vừa thêm vào nhánh *master* trên kho 
 1. [Tạo mã khóa SSH mới](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
 2. [Sao chép mã khóa SSH vào bộ nhớ tạm của bạn](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) (chỉ áp dụng bước 1)
 3. Dán nội dung đã sao chép vào mã khóa SSH hồ sơ của bạn và nhấn "Thêm"
-   ![image](administration/odoo_sh/getting_started/branches/SSH-key-pasting.png)
+   ![image](branches/SSH-key-pasting.png)
 4. Mã khóa sẽ xuất hiện bên dưới
-   ![image](administration/odoo_sh/getting_started/branches/SSH-key-appearing.png)
+   ![image](branches/SSH-key-appearing.png)
 
 #### Kết nối
 
@@ -349,7 +349,7 @@ $ ssh <build_id>@<domain>
 
 Bạn sẽ tìm thấy lối tắt cho lệnh này trong tab SSH ở góc trên bên phải.
 
-![image](administration/odoo_sh/getting_started/branches/SSH-panel.png)
+![image](branches/SSH-panel.png)
 
 Miễn là bạn có [đúng quyền truy cập](settings.md#odoosh-gettingstarted-settings-collaborators) trên dự án, bạn sẽ được cấp quyền truy cập ssh vào bản dựng.
 

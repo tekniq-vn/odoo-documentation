@@ -43,12 +43,12 @@ Preferences tab. Either use any other email address or use your Odoo subdomain (
 When a message is sent, an <i class="fa fa-envelope-o"></i> (envelope) icon is displayed in the
 chatter. The icon turns red when delivery has failed for at least one recipient.
 
-![Red envelope icon displayed in the chatter.](applications/general/email_communication/faq/red-envelope.png)
+![Red envelope icon displayed in the chatter.](faq/red-envelope.png)
 
 Left-click the envelope to display information about the delivery, and, if possible, the relevant
 [error messages](#email-issues-outgoing-delivery-failure-messages).
 
-![Example of a sending failure.](applications/general/email_communication/faq/sending-failures.png)
+![Example of a sending failure.](faq/sending-failures.png)
 
 Click See Error Details to get extra information for the fail reason, **if** Odoo was
 able to process the original error or bounce email.
@@ -62,7 +62,7 @@ red to white.
 
 Unsent emails also appear in the Odoo email queue. To access it, activate the [developer mode](../developer_mode.md#developer-mode) and go to Settings ‣ Technical ‣ Email: Emails.
 
-![Example of the technical email queue view.](applications/general/email_communication/faq/technical-menu-email-delivery-failed.png)
+![Example of the technical email queue view.](faq/technical-menu-email-delivery-failed.png)
 
 Failed emails display the Delivery Failed status. Click Retry to put a
 failed email in the email queue again. It will then appear with the Outgoing status. The
@@ -83,7 +83,7 @@ scheduled action that cleans redundant data on your Odoo database.
 
 ##### Daily limit reached
 
-![Email limit reached warning.](applications/general/email_communication/faq/email-limit.png)
+![Email limit reached warning.](faq/email-limit.png)
 
 Odoo giới hạn số lượng email có thể được gửi từ một cơ sở dữ liệu Odoo Online. Hầu hết các nhà cung cấp dịch vụ email (VD: Google, Yahoo,...) sẽ đưa địa chỉ IP máy chủ của Odoo vào danh sách hạn chế nếu máy chủ email của Odoo gửi quá nhiều email đến các địa chỉ không tồn tại hoặc không còn hợp lệ. Điều này cũng áp dụng cho các email rác không được yêu cầu mà được gửi qua cơ sở dữ liệu Odoo.
 
@@ -161,7 +161,7 @@ Emails that are considered urgent (from one person to another, such as sales ord
 purchase orders, etc.) are sent immediately. They do not show up under Settings ‣
 Technical ‣ Email: Emails, unless their delivery fails.
 
-![Example of sending information header when a mailing campaign is queued.](applications/general/email_communication/faq/email-marketing-asap-notice.png)
+![Example of sending information header when a mailing campaign is queued.](faq/email-marketing-asap-notice.png)
 
 Email campaigns are sent as soon as possible (after clicking the Send button) or at a
 scheduled time (after clicking the Schedule button).

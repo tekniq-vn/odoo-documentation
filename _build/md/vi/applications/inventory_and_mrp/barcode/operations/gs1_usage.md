@@ -53,7 +53,7 @@ After activating tracking by lots and serial numbers from the settings page, spe
 feature is to be applied on each product by navigating to the Inventory tab on the
 product form. Under Tracking, choose the By Lots radio button.
 
-![Enable product tracking by lots in the "Inventory" tab of the product form.](applications/inventory_and_mrp/barcode/operations/gs1_usage/track-by-lots.png)
+![Enable product tracking by lots in the "Inventory" tab of the product form.](gs1_usage/track-by-lots.png)
 
 ### Scan barcode on receipt
 
@@ -102,4 +102,4 @@ Reporting ‣ Product Moves.
 
 Các mục trên báo cáo Dịch chuyển sản phẩm được nhóm theo sản phẩm theo mặc định. Để xác nhận số lượng đã nhận, nhấp vào một dòng sản phẩm để mở menu thả xuống có thể thu gọn, hiển thị danh sách các *dòng dịch chuyển tồn kho* cho sản phẩm đó. Dòng dịch chuyển tồn kho mới nhất khớp với số tham chiếu nhập kho (VD: `WH/IN/00013`) và số lượng đã xử lý trong quét mã vạch, chứng tỏ rằng các bản ghi đã xử lý trong ứng dụng *Mã vạch* được lưu trữ chính xác trong *Tồn kho*.
 
-![Reception stock move record for 52.1 kg of peaches.](applications/inventory_and_mrp/barcode/operations/gs1_usage/stock-moves-peach.png)
+![Reception stock move record for 52.1 kg of peaches.](gs1_usage/stock-moves-peach.png)

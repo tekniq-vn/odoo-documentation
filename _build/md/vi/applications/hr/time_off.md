@@ -121,7 +121,7 @@ they currently have, allowing a negative balance. If enabled, an Amount in Negat
 field appears. In this field, enter the maximum amount of negative time allowed, in days.
 
 ![The top half of the time off type form, with all the information filled out for sick time
-off.](applications/hr/time_off/time-off-type-form-top.png)
+off.](time_off/time-off-type-form-top.png)
 
 ##### Payroll section
 
@@ -147,7 +147,7 @@ When an employee takes time off, and is also using timesheets, Odoo creates entr
 - Cover Image: Select an icon to be used in the **Time Off** app dashboard.
 
 ![The lower half of the time off type form, with all the information filled out for sick time
-off.](applications/hr/time_off/time-off-type-form-bottom.png)
+off.](time_off/time-off-type-form-bottom.png)
 
 <a id="time-off-accrual-plans"></a>
 
@@ -183,7 +183,7 @@ Nhập thông tin sau đây trên biểu mẫu:
   menu, select the company the accrual plan applies to. If left blank, the accrual plan can be used
   for all companies.
 
-![An accrual plan form with all the entries filled out.](applications/hr/time_off/accrual-plan-form.png)
+![An accrual plan form with all the entries filled out.](time_off/accrual-plan-form.png)
 
 <a id="time-off-rules"></a>
 
@@ -258,7 +258,7 @@ Once the form is completed, click Save & Close to save the Create Milestone
 form, and close the modal, or click Save & New to save the form and create another
 milestone. Add as many milestones as desired.
 
-![A milestone form with all the entries filled out.](applications/hr/time_off/milestone.png)
+![A milestone form with all the entries filled out.](time_off/milestone.png)
 
 <a id="time-off-public-holidays"></a>
 
@@ -305,7 +305,7 @@ Enter the following information on that new line:
   entries](payroll.md#payroll-work-entries) for the holiday appear. Select the work entry type from the
   drop-down menu.
 
-![The list of public holidays in the configuration menu.](applications/hr/time_off/holidays.png)
+![The list of public holidays in the configuration menu.](time_off/holidays.png)
 
 ### Mandatory days
 
@@ -346,7 +346,7 @@ Enter the following information on that new line:
   across it. The selected color appears on the main **Time Off** app dashboard, in both the calendar
   and in the legend.
 
-![The Mandatory Days section with three configured days.](applications/hr/time_off/mandatory.png)
+![The Mandatory Days section with three configured days.](time_off/mandatory.png)
 
 ## Tổng quan
 
@@ -385,7 +385,7 @@ Click on a time off entry to view the details for the specific time off entry. T
 hours or days are listed, along with the start and end time of the time off. To view the details of
 the time off request in a modal, click the View button.
 
-![Overview of the user's team, with time off requests shown.](applications/hr/time_off/overview.png)
+![Overview of the user's team, with time off requests shown.](time_off/overview.png)
 
 <a id="time-off-reporting"></a>
 
@@ -419,7 +419,7 @@ The information shown in the list includes: the Employee name, Number of
 Days off requested, the Start Date, End Date, Status, and
 Description.
 
-![Report of time off, shown by each employee in a list view.](applications/hr/time_off/employee-report.png)
+![Report of time off, shown by each employee in a list view.](time_off/employee-report.png)
 
 The report can be displayed in other ways, as well. Click the corresponding button option in the
 top-right corner of the page to view the data in that specific way. The various options are a
@@ -437,7 +437,7 @@ To view a list of all time off, organized by time off type, navigate to Time Off
 Hover over a bar to view the Duration (Days) of that specific time off type.
 
 ![The various time off types, and how many days requested, in a bar chart. Details are
-highlighted in a red box.](applications/hr/time_off/bar-chart.png)
+highlighted in a red box.](time_off/bar-chart.png)
 
 Click on a bar to go to a detailed list view of all the time off requests for that time off type.
 

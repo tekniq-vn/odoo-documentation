@@ -49,7 +49,7 @@ You can define a specific e-invoicing format for each customer. To do so, go to
 Accounting ‣ Customers ‣ Customers, open the customer form, go to the
 Accounting tab and select the appropriate format.
 
-![Select an EDI format for a specific customer](applications/finance/accounting/customer_invoices/electronic_invoicing/customer-form.png)
+![Select an EDI format for a specific customer](electronic_invoicing/customer-form.png)
 
 ### National electronic invoicing
 
@@ -68,7 +68,7 @@ go to the Advanced Settings tab, and enable the formats you need for this journa
 From a confirmed invoice, click Send & Print to open the send window. Check the
 e-invoicing option to generate and attach the e-invoice file.
 
-![The Peppol option is checked and an e-invoicing XML file is attached to the email.](applications/finance/accounting/customer_invoices/electronic_invoicing/send-window.png)
+![The Peppol option is checked and an e-invoicing XML file is attached to the email.](electronic_invoicing/send-window.png)
 
 ## Peppol
 
@@ -103,7 +103,7 @@ Go to Accounting ‣ Configuration ‣ Settings. If you do not have the
 Peppol module installed, first tick the Enable PEPPOL checkbox and then **manually
 save**.
 
-![Peppol module installation](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-install.png)
+![Peppol module installation](electronic_invoicing/peppol-install.png)
 
 Fill in the following information:
 
@@ -122,39 +122,39 @@ Fill in the following information:
 If you are migrating from another access point, insert the Migration key from the
 previous provider.
 
-![Configuration for peppol](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-settings.png)
+![Configuration for peppol](electronic_invoicing/peppol-settings.png)
 
 Finally, click Validate registration. If you want to explore or demo Peppol, you can
 choose to register in Demo mode. Otherwise, select Live.
 
-> ![Peppol demo mode selection](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-demo-mode.png)
+> ![Peppol demo mode selection](electronic_invoicing/peppol-demo-mode.png)
 
 #### NOTE
 When testing Peppol, the system parameter `account_peppol.edi.mode` can be changed to `test`.
 Then, a radio button appears with the option to register on the test server.
 
-![Peppol test mode parameter](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-system-parameter.png)![Peppol test mode selection](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-test-mode-settings.png)
+![Peppol test mode parameter](electronic_invoicing/peppol-system-parameter.png)![Peppol test mode selection](electronic_invoicing/peppol-test-mode-settings.png)
 
 Now, you can request a verification code to be sent to you by clicking Verify phone
 number.
 
-![phone validation request verification](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-registration-verify.png)
+![phone validation request verification](electronic_invoicing/peppol-registration-verify.png)
 
 A text message containing a code is sent to the phone number provided to finalize the verification
 process.
 
-![phone validation](applications/finance/accounting/customer_invoices/electronic_invoicing/phone-registration.png)
+![phone validation](electronic_invoicing/phone-registration.png)
 
 Once you enter the code and click Confirm, you can see that your registration is pending
 activation. From this point onwards, the default journal for receiving Vendor Bills can be set.
 
-![pending application](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-registration-pending.png)
+![pending application](electronic_invoicing/peppol-registration-pending.png)
 
 It should be automatically activated within a day.
 
 Your application status should be updated soon after you are registered on the Peppol network.
 
-![active application](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-registration-active.png)
+![active application](electronic_invoicing/peppol-registration-active.png)
 
 All invoices and vendor bills can now be sent directly using the Peppol network.
 
@@ -165,7 +165,7 @@ are also registered as a Peppol participant.
 
 Để thực hiện, hãy truy cập Kế toán ‣ Khách hàng ‣ Khách hàng và mở biểu mẫu khách hàng. Sau đó, đi đến Tab Kế toán ‣ Hóa đơn điện tử, chọn định dạng chính xác và đảm bảo Mã Peppol EAS cùng Endpoint đã được điền đầy đủ. Tiếp theo, nhấp Xác minh. Nếu liên hệ tồn tại trên mạng, tính hợp lệ của endpoint Peppol sẽ được đặt thành Hợp lệ.
 
-![verify contact registration](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-contact-verify.png)
+![verify contact registration](electronic_invoicing/peppol-contact-verify.png)
 
 #### IMPORTANT
 While Odoo prefills both the EAS code and the Endpoint number based on the information available
@@ -179,25 +179,25 @@ Select the customers you want to verify and then click Actions ‣ Verify Peppol
 
 Khi đã sẵn sàng gửi hóa đơn qua mạng Peppol, chỉ cần nhấp vào Gửi & in trên biểu mẫu hóa đơn. Để gửi nhiều hóa đơn, hãy chọn chúng trong chế độ xem danh sách và nhấp vào Tác vụ ‣ Gửi & in; các hóa đơn này sẽ được gửi theo lô sau đó. Cần đánh dấu cả hai ô BIS Billing 3.0 và Gửi qua PEPPOL.
 
-![Send peppol invoice](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-send-print.png)
+![Send peppol invoice](electronic_invoicing/peppol-send-print.png)
 
 Posted invoices that can be sent via Peppol are marked as Peppol Ready.
 To display them, use the Peppol Ready filter or access the Accounting dashboard and
 click Peppol ready invoices on the corresponding sales journal.
 
-![Filter Peppol ready invoices](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-ready-invoices.png)
+![Filter Peppol ready invoices](electronic_invoicing/peppol-ready-invoices.png)
 
 Once the invoices are sent via Peppol, the status is changed to Processing. The
 status is changed to `Done` after they have been successfully delivered to the contact's Access
 Point.
 
-![Peppol message status](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-message-processing.png)
+![Peppol message status](electronic_invoicing/peppol-message-processing.png)
 
 A cron runs regularly to check the status of these invoices. It is possible to check the status
 before the cron runs by clicking Fetch Peppol invoice status in the corresponding
 sales journal on the Accounting dashboard.
 
-![Fetch invoice Peppol status](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-fetch-message-status.png)
+![Fetch invoice Peppol status](electronic_invoicing/peppol-fetch-message-status.png)
 
 ### Receive vendor bills
 
@@ -205,10 +205,10 @@ Once a day, a cron checks whether any new documents have been sent to you via th
 These documents are imported, and the corresponding vendor bills are created automatically as
 drafts.
 
-![peppol receive bills](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-receive-bills.png)
+![peppol receive bills](electronic_invoicing/peppol-receive-bills.png)
 
 If you want to retrieve incoming Peppol documents before the cron runs, you can do so from the
 Accounting dashboard on the main Peppol purchase journal that you set up in the settings. Just click
 Fetch from Peppol.
 
-![Fetch bills from Peppol](applications/finance/accounting/customer_invoices/electronic_invoicing/peppol-fetch-bills.png)
+![Fetch bills from Peppol](electronic_invoicing/peppol-fetch-bills.png)

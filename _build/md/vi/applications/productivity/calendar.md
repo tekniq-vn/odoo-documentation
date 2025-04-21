@@ -10,7 +10,7 @@ The selected view option appears as a Day, Week, Month, or
 Year drop-down menu. Under the view options drop-down menu, users can also enable or
 disable Show weekends.
 
-![Overview of Calendar app.](applications/productivity/calendar/calendar-overview.png)
+![Overview of Calendar app.](calendar/calendar-overview.png)
 
 ## Sync third-party calendars
 
@@ -47,7 +47,7 @@ Các hoạt động liên quan đến lịch trình khác như Họp hoặc Gọ
 To put an event on the calendar, open the Calendar app, and click into the target
 date. On the New Event pop-up window that appears, start by adding the event title.
 
-![Schedule an event window on Calendar app.](applications/productivity/calendar/calendar-schedule-event.png)
+![Schedule an event window on Calendar app.](calendar/calendar-schedule-event.png)
 
 The target date auto-populates in the Start field. This can be changed by clicking
 into the date section, and selecting a date from the calendar. For multi-day events, select the end
@@ -69,7 +69,7 @@ link.
 Next, either create the event by clicking Save & Close, or select More
 Options to further configure the event.
 
-![The full event form for a new calendar event.](applications/productivity/calendar/calendar-new-meeting.png)
+![The full event form for a new calendar event.](calendar/calendar-new-meeting.png)
 
 The Description field allows users to add additional information and details about the
 meeting.
@@ -104,7 +104,7 @@ When scheduling an event for multiple users, on the **Calendar** app dashboard, 
 next to Attendees to view team members' availability. Tick (or untick) the checkbox next
 to listed users to show (or hide) individual calendars.
 
-![View of Attendees section on Calendar app.](applications/productivity/calendar/calendar-attendees.png)
+![View of Attendees section on Calendar app.](calendar/calendar-attendees.png)
 
 <a id="calendar-share-availabilities"></a>
 
@@ -121,7 +121,7 @@ Within the Share Availabilities feature, selecting times is only possible on the
 Once availability has been selected, click the <i class="fa fa-external-link"></i> Open button to
 navigate to the associated appointment.
 
-![Share availability window on Calendar app.](applications/productivity/calendar/calendar-meeting-share-availability.png)
+![Share availability window on Calendar app.](calendar/calendar-meeting-share-availability.png)
 
 Several configuration options are available on the appointment form:
 

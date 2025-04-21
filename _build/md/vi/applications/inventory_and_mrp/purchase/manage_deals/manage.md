@@ -22,7 +22,7 @@ The policy selected acts as the default for any new product created. Each policy
 - Received quantities: a bill is only created **after** all (or part) of the total order
   has been received. The products and quantities received are used to generate a draft bill.
 
-![Bill control policies in purchase app settings.](applications/inventory_and_mrp/purchase/manage_deals/manage/manage-configuration-settings.png)
+![Bill control policies in purchase app settings.](manage/manage-configuration-settings.png)
 
 Once a policy is selected, click Save to save the changes.
 
@@ -82,7 +82,7 @@ Additionally, the bill Amount, Payment Date, and Memo
 Once ready, click Create Payment to finish creating the Vendor Bill. Doing
 so displays a green Paid banner on the  form.
 
-![Vendor bill form for ordered quantities control policy.](applications/inventory_and_mrp/purchase/manage_deals/manage/manage-draft-vendor-bill.png)
+![Vendor bill form for ordered quantities control policy.](manage/manage-draft-vendor-bill.png)
 
 ### Số lượng đã nhận
 
@@ -104,7 +104,7 @@ products are received causes an Invalid Operation pop-up window to appear.
 Odoo requires at least partial quantities of the items included in the  to be received in
 order to create a vendor bill.
 
-![User error pop-up for received quantities control policy.](applications/inventory_and_mrp/purchase/manage_deals/manage/manage-user-error-popup.png)
+![User error pop-up for received quantities control policy.](manage/manage-user-error-popup.png)
 
 On the , click the Receipt smart button to view the warehouse receipt form.
 
@@ -187,7 +187,7 @@ Accounting app.
 Once ready, click the Create Payment button. This creates a list of journal entries on a
 separate page. The journal entries on this list are all tied to their corresponding vendor bills.
 
-![Batch billing register payment pop-up window.](applications/inventory_and_mrp/purchase/manage_deals/manage/manage-batch-billing.png)
+![Batch billing register payment pop-up window.](manage/manage-batch-billing.png)
 
 #### SEE ALSO
 [Bill control policies](control_bills.md)

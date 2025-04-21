@@ -12,7 +12,7 @@ Multi-company is **only** available in *One App Free* databases, or with [Custom
 
 Danh sách [các công ty mà nhân viên có quyền truy cập](companies.md#general-employee-access) trong multi-company database có thể được tìm thấy ở góc trên bên phải của thanh menu chính của Odoo, nơi liệt kê những công ty đang hoạt động. Nhấp vào tên công ty để hiển thị danh sách tất cả công ty được phép. Để chuyển sang một công ty khác, hãy nhấp vào tên công ty trong menu thả xuống. Để bật nhiều công ty cùng một lúc, hãy đánh dấu vào hộp kiểm bên cạnh mỗi tên công ty mong muốn.
 
-![An example of the list of companies a user has access to when logged into a database.](applications/general/multi_company/company-access.png)
+![An example of the list of companies a user has access to when logged into a database.](multi_company/company-access.png)
 
 #### NOTE
 The database may refresh after each checkbox is ticked.

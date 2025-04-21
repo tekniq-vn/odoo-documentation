@@ -157,7 +157,7 @@ if access rights are not set up correctly (are too permissive).
 If you try to mark a property as "sold" as the real estate agent, you should get
 an access error:
 
-![image](developer/tutorials/restrict_data_access/error.png)
+![image](restrict_data_access/error.png)
 
 This happens because `estate_account` tries to create an invoice during the
 process, but creating an invoice requires the right to all invoice management.

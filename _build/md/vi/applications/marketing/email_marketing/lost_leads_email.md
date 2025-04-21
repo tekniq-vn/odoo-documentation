@@ -60,7 +60,7 @@ selection chosen in the third field.
 In the third field, use the calendar popover window to select dates, and click Apply to
 lock in the time range.
 
-![A custom filter rule setting the time period to be anything before today's date.](applications/marketing/email_marketing/lost_leads_email/created-on.png)
+![A custom filter rule setting the time period to be anything before today's date.](lost_leads_email/created-on.png)
 
 #### IMPORTANT
 When there is more than one rule applied, make sure the statement at the top of the
@@ -68,7 +68,7 @@ Recipients filter list reads: Match all of the following rules. If it
 does not, click on the statement, and select all from the drop-down menu (as opposed
 to any).
 
-![The statement at the top of the filters list, with the drop-down menu open.](applications/marketing/email_marketing/lost_leads_email/match-all.png)
+![The statement at the top of the filters list, with the drop-down menu open.](lost_leads_email/match-all.png)
 
 <a id="email-marketing-stage-filter"></a>
 
@@ -90,7 +90,7 @@ rule's parameters.
 When the rule is added in this way, the logic in the third field renders as `OR` (`|`)
 statements.
 
-![Include multiple Stages in the filtering rule, using the "is in" operator.](applications/marketing/email_marketing/lost_leads_email/stage-is-in.png)
+![Include multiple Stages in the filtering rule, using the "is in" operator.](lost_leads_email/stage-is-in.png)
 
 <a id="email-marketing-lost-reason-filter"></a>
 
@@ -107,7 +107,7 @@ lost reasons, as needed, where each lost reason occupies one rule row at a time.
 For more information, refer to the section below outlining how to [select appropriate lost
 reasons](#email-marketing-select-lost-reasons).
 
-![A list of filter rules that exclude all lost reasons other than the desired reason.](applications/marketing/email_marketing/lost_leads_email/reasons.png)
+![A list of filter rules that exclude all lost reasons other than the desired reason.](lost_leads_email/reasons.png)
 
 <a id="email-marketing-active-filter"></a>
 
@@ -128,7 +128,7 @@ For the first field of the bottom rule of the branch, select Active from the dro
 menu again. However, this time, select is not from the operator drop-down menu in the
 second field. The rule should then read: Active *is not* `set`.
 
-![A pair of Match Any Of filter rules that include both active and inactive leads.](applications/marketing/email_marketing/lost_leads_email/active.png)
+![A pair of Match Any Of filter rules that include both active and inactive leads.](lost_leads_email/active.png)
 
 ## Add body content
 
@@ -180,7 +180,7 @@ top of the email to analyze the results, and determine follow-up actions.
 Clicking on any of the smart buttons opens a list of records matching that button's specific
 criteria.
 
-![The Mailing page of a sent email showing the smart buttons along the top of the page.](applications/marketing/email_marketing/lost_leads_email/smart-buttons.png)
+![The Mailing page of a sent email showing the smart buttons along the top of the page.](lost_leads_email/smart-buttons.png)
 
 The smart buttons include:
 

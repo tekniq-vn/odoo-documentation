@@ -27,7 +27,7 @@ Default Nomenclature or Default GS1 Nomenclature can be selected.
 There is also a Configure Product Barcodes internal link arrow, and a set of
 Print buttons for printing barcode commands and a barcode demo sheet.
 
-![Enabled Barcode feature in Inventory app settings.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-barcode-setting.png)
+![Enabled Barcode feature in Inventory app settings.](receipts_deliveries/receipts-deliveries-barcode-setting.png)
 
 For more on setting up and configuring the Barcode app, refer to the [Set up your
 barcode scanner](../setup/hardware.md) and [Activate the Barcodes in Odoo](../setup/software.md)
@@ -51,7 +51,7 @@ to the quotation.
 Once ready, click Save at the top of the form, then click Confirm Order to
 confirm the  to a .
 
-![Completed purchase order for barcode product.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-purchase-order.png)
+![Completed purchase order for barcode product.](receipts_deliveries/receipts-deliveries-purchase-order.png)
 
 To process and scan barcodes for warehouse receipts, navigate to the Barcode app.
 
@@ -59,7 +59,7 @@ Once inside the Barcode app, a Barcode Scanning screen displaying different
 options is presented. To process receipts, click on the Operations button at the bottom
 of the screen. This navigates to an Operations overview page.
 
-![Barcode app start screen with scanner.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-barcode-scanner.png)
+![Barcode app start screen with scanner.](receipts_deliveries/receipts-deliveries-barcode-scanner.png)
 
 From this page, locate the Receipts card, and click the # To Process button
 to view all outstanding receipts. Then, select the desired receipt operation to process. This
@@ -73,7 +73,7 @@ shown. At the bottom of the screen, there are options to Add Product or
 Validate, depending on if products need to be added to the operation, or if the whole
 operation should be validated at once.
 
-![Overview of receipts in transfer to scan.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-scanner-overview.png)
+![Overview of receipts in transfer to scan.](receipts_deliveries/receipts-deliveries-scanner-overview.png)
 
 To process and scan each product individually, choose a specific product line. The +#
 button (in this case, +10) can be clicked to indicate receipt of that product, or the
@@ -98,7 +98,7 @@ click the +# button on the product line for the products being received, and cli
 Validate. The receipt has now been processed, and the Barcode app can be
 closed out.
 
-![Overview of receipts in transfer to validate.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-validate-transfer.png)
+![Overview of receipts in transfer to validate.](receipts_deliveries/receipts-deliveries-validate-transfer.png)
 
 ## Scan barcodes for delivery orders
 
@@ -115,7 +115,7 @@ Add a product, and select the desired product(s) to add to the quotation.
 Once ready, click Save at the top of the form, and click Confirm Order to
 confirm the quotation to a .
 
-![Completed sales order for barcode product.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-sales-order.png)
+![Completed sales order for barcode product.](receipts_deliveries/receipts-deliveries-sales-order.png)
 
 To process and scan barcodes for warehouse deliveries, navigate to the Barcode app.
 
@@ -127,7 +127,7 @@ From this page, locate the Delivery Orders card, and click the # To Process
 button to view all outstanding deliveries. Then, select the desired delivery order to process. This
 navigates to the barcode transfer screen.
 
-![Operations overview page in Barcode app dashboard.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-operations-page.png)
+![Operations overview page in Barcode app dashboard.](receipts_deliveries/receipts-deliveries-operations-page.png)
 
 From this screen, an overview of all deliveries to process within that transfer (**WH/OUT/000XX**)
 is shown. At the bottom of the screen, there are options to Add Product or
@@ -159,4 +159,4 @@ Then, from the overview page with all receipts to process within that transfer (
 click the +# button on the product line for the products being received, and click
 Validate. The delivery has now been processed, and the *Barcode* app can be closed out.
 
-![Overview of deliveries in transfer to validate.](applications/inventory_and_mrp/barcode/operations/receipts_deliveries/receipts-deliveries-validate-delivery.png)
+![Overview of deliveries in transfer to validate.](receipts_deliveries/receipts-deliveries-validate-delivery.png)

@@ -7,7 +7,7 @@ allow this payment method *exclusively* for registered customers.
 Then, select the Journal. Choose Cash to use this payment method for cash
 payments, or Bank to use it for card payments.
 
-![Creating a new payment method for a POS.](applications/sales/point_of_sale/payment_methods/payment-method.png)
+![Creating a new payment method for a POS.](payment_methods/payment-method.png)
 
 #### NOTE
 Selecting a bank journal automatically adds the Use a Payment Terminal

@@ -45,4 +45,4 @@ In the Open: Stock move pop-up window, the Pick from field displays where
 the quantities to fulfill the Demand are picked from. Since the order demanded seven
 cinder blocks, the newest cinder blocks from `LOT3` are selected, using the  removal strategy.
 
-![The detailed operations shows which lots are being selected for the picking.](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo/cinder-block-picking.png)
+![The detailed operations shows which lots are being selected for the picking.](lifo/cinder-block-picking.png)

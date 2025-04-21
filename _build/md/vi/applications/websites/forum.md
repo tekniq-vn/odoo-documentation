@@ -140,7 +140,7 @@ Add the Rank Name, the Required Karma points to reach it, its
 Description, a Motivational message to encourage users to reach it, and an
 image.
 
-![Default forum ranks](applications/websites/forum/ranks.png)
+![Default forum ranks](forum/ranks.png)
 
 <a id="forum-badges"></a>
 
@@ -173,7 +173,7 @@ Next, determine how the badge should be granted by clicking Add under the
 Rewards for challenges section. Select a challenge to add it or create one by clicking
 New.
 
-![Default forum badges](applications/websites/forum/badges.png)
+![Default forum badges](forum/badges.png)
 
 <a id="forum-tags"></a>
 
@@ -230,7 +230,7 @@ Click the ellipsis button (...) to:
 > - Flag a question or answer as offensive.
 > - Convert a comment into an answer.
 > - View the related [Helpdesk ticket](../services/helpdesk/overview/help_center.md#helpdesk-forum), if any.
-![Posts actions](applications/websites/forum/post-actions.png)
+![Posts actions](forum/post-actions.png)
 
 #### NOTE
 By default, 150 karma points are required to view another user's profile. This value can be
@@ -243,12 +243,12 @@ configured when creating a new website.
 On the forum's front end, the sidebar's Moderation tools section gathers the essential
 moderator functionalities.
 
-![Forum sidebar moderation tools](applications/websites/forum/moderation-tools.png)
+![Forum sidebar moderation tools](forum/moderation-tools.png)
 
 To Validate: access all questions and answers waiting for validation before being
 displayed to non-moderator users.
 
-![Question to validate](applications/websites/forum/to-validate.png)
+![Question to validate](forum/to-validate.png)
 
 #### NOTE
 A question is pending if a user does not have the required karma. The user is not able to post
@@ -260,7 +260,7 @@ Accept to remove the offensive flag or Offensive to confirm it, then select
 a reason and click Mark as offensive. The post is then hidden from users without
 moderation rights, and 100 karma points are deducted from the offending user's tally.
 
-![Offensive reason selection](applications/websites/forum/offensive-reason.png)
+![Offensive reason selection](forum/offensive-reason.png)
 
 Closed: access all questions that have been closed. It is possible to Delete
 or Reopen them. To close a question, open it, click the ellipsis button

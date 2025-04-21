@@ -426,7 +426,7 @@ The second inheritance mechanism (delegation) allows to link every record of a
 model to a record in a parent model, and provides transparent access to the
 fields of the parent record.
 
-![image](developer/reference/backend/orm/inheritance_methods.png)
+![image](../reference/backend/orm/inheritance_methods.png)
 
 #### SEE ALSO
 * `_inherit`

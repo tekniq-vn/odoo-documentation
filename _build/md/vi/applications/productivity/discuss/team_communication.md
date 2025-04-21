@@ -9,7 +9,7 @@ updates, and latest developments having to do with the organization.
 
 Mọi người đều có thể xem kênh *Công khai*, trong khi kênh *Riêng tư* chỉ hiển thị với những người dùng được mời. Để tạo kênh mới, đi đến ứng dụng Thảo luận, sau đó nhấp vào biểu tượng ➕ (dấu cộng) bên cạnh tiêu đề Kênh trong menu bên trái. Sau khi nhập tên kênh, hai tùy chọn có thể chọn sẽ xuất hiện: Tùy chọn đầu tiên là kênh có dấu thăng (`#`) để chỉ ra rằng đó là kênh công khai; tùy chọn thứ hai là kênh có biểu tượng ổ khóa (`🔒`) bên cạnh để chỉ ra rằng đó là kênh riêng tư. Chọn loại kênh phù hợp nhất với nhu cầu trao đổi thông tin.
 
-![View of discuss's sidebar and a channel being created in Odoo Discuss.](applications/productivity/discuss/team_communication/public-private-channel.png)
+![View of discuss's sidebar and a channel being created in Odoo Discuss.](team_communication/public-private-channel.png)
 
 ### Tuỳ chọn cấu hình
 
@@ -17,7 +17,7 @@ The channel's Group Name, Description, and Privacy settings can
 be modified by clicking on the channel's settings, represented by a ⚙️ (gear) icon in
 the left sidebar menu, next to the channel's name.
 
-![View of a channel's settings form in Odoo Discuss.](applications/productivity/discuss/team_communication/channel-settings.png)
+![View of a channel's settings form in Odoo Discuss.](team_communication/channel-settings.png)
 
 #### Privacy and Members tabs
 
@@ -33,7 +33,7 @@ should be invited. Inviting members can also be done from the *Discuss* app's ma
 selecting the channel, clicking the *add user* icon in the top-right corner of the dashboard, and
 finally clicking Invite to Channel once all the users have been added.
 
-![View of Discuss' option to invite members in Odoo Discuss.](applications/productivity/discuss/team_communication/invite-channel.png)
+![View of Discuss' option to invite members in Odoo Discuss.](team_communication/invite-channel.png)
 
 When the Selected group of users option is selected, it reveals the ability to add an
 Authorized Group, along with the options to Auto Subscribe Groups and
@@ -50,7 +50,7 @@ Once at least 20 channels, direct messages, or live chat conversations (if *Live
 installed on the database) are pinned in the sidebar, a Quick search… bar is displayed.
 This feature is a convenient way to filter conversations and quickly find relevant communications.
 
-![View of the Discuss' sidebar emphasizing the quick search bar in Odoo Discuss.](applications/productivity/discuss/team_communication/quick-search.png)
+![View of the Discuss' sidebar emphasizing the quick search bar in Odoo Discuss.](team_communication/quick-search.png)
 
 ### Tìm kênh
 
@@ -61,7 +61,7 @@ Search... function accepts wildcards by using the underscore character [ `_` ], 
 specific searches can be saved by using the Favorites ‣ Save Current Search
 drop-down menu.
 
-![View of a channel being searched through filters in Odoo Discuss](applications/productivity/discuss/team_communication/filter.png)
+![View of a channel being searched through filters in Odoo Discuss](team_communication/filter.png)
 
 ## Linking channel in chatter
 
@@ -70,7 +70,7 @@ Các kênh có thể được liên kết trong phần cửa sổ trò chuyện 
 Users are able to contribute to this group channel (either public or member based) by typing
 messages in window and pressing *enter*.
 
-![Channel linked in chatter with the channel open on the lower right quadrant.](applications/productivity/discuss/team_communication/chatter-channel.png)
+![Channel linked in chatter with the channel open on the lower right quadrant.](team_communication/chatter-channel.png)
 
 #### SEE ALSO
 - [Thảo luận](../discuss.md)

@@ -16,7 +16,7 @@ to the totals of its bills or receipts.
 Go to Point of Sale ‣ Configuration ‣ Settings
 and enable *Cash Rounding*, then click on *Save*.
 
-![image](applications/sales/point_of_sale/pricing/cash_rounding/cash_rounding01.png)
+![image](cash_rounding/cash_rounding01.png)
 
 Go to Point of Sale ‣ Configuration ‣ Point of
 Sale, open the point of sale you want to configure, and enable the
@@ -29,12 +29,12 @@ Define here your *Rounding Precision*, *Profit Account*, and
 *Loss Account*, then save both the Rounding Method and your Point
 of Sale settings.
 
-![image](applications/sales/point_of_sale/pricing/cash_rounding/cash_rounding02.png)
+![image](cash_rounding/cash_rounding02.png)
 
 All total amounts of this point of sale now add a line to apply the
 rounding according to your settings.
 
-![image](applications/sales/point_of_sale/pricing/cash_rounding/cash_rounding03.png)
+![image](cash_rounding/cash_rounding03.png)
 
 #### NOTE
 Odoo Point of Sale only supports the Add a rounding line rounding strategy.

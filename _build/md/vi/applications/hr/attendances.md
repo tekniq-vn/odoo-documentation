@@ -92,7 +92,7 @@ Week or Month view is selected, the column for the current day is
 highlighted. If the Year view is selected, the current month is highlighted.
 
 ![The overview dashboard presenting the information for the week, with the current day
-highlighted.](applications/hr/attendances/overview.png)
+highlighted.](attendances/overview.png)
 
 Any entries that have errors appear in red, indicating they need to be resolved by a user with the
 proper [access rights](#attendances-access-rights) and/or are [approvers](#attendances-approvers) for the employee(s) with the errors.
@@ -179,7 +179,7 @@ sections.
   GPS Coordinates. This opens a map in a new browser tab, with the specific location
   pointed out.
 
-![The detailed information for an attendance entry.](applications/hr/attendances/details.png)
+![The detailed information for an attendance entry.](attendances/details.png)
 
 ### Lỗi
 
@@ -193,7 +193,7 @@ An error typically occurs when an employee has checked in but has not checked ou
 Để sửa lỗi, mục nhập chấm công phải được sửa đổi hoặc xóa. Nhấp vào mục nhập để hiển thị cửa sổ bật lên chứa thông tin chi tiết cho mục nhập cụ thể đó. Để sửa đổi thông tin Check In và/hoặc Check Out, hãy nhấp vào trường Check In hoặc Check Out và một công cụ chọn ngày sẽ xuất hiện. Nhấp vào ngày mong muốn, sau đó sử dụng công cụ chọn thời gian bên dưới lịch để chọn thời gian cụ thể cho mục nhập. Khi thông tin chính xác, hãy nhấp vào Áp dụng
 
 ![The pop-up that allows for modifications to an attendance entry with an error. The calendar
-selector is shown, and the time selector is highlighted.](applications/hr/attendances/errors.png)
+selector is shown, and the time selector is highlighted.](attendances/errors.png)
 
 When all the information on the pop-up is correct, click Save & Close. When the entry no
 longer has an error, the entry appears in gray instead of red.
@@ -223,7 +223,7 @@ measure from the drop-down menu.
 The report can also be inserted into a spreadsheet. Click the Insert in Spreadsheet
 button and a pop-up appears. Select the desired spreadsheet, and click Confirm.
 
-![The default report view, with all the optional view buttons highlighted.](applications/hr/attendances/reporting.png)
+![The default report view, with all the optional view buttons highlighted.](attendances/reporting.png)
 
 #### SEE ALSO
 - [Check in and out](attendances/check_in_check_out.md)

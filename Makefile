@@ -7,6 +7,7 @@ ifndef WORKERS
 endif
 
 ODOO_DIR       = odoo-docs
+MARKDOWN_HTTP_BASE = ""
 
 ifndef BUILD_DIR
   BUILD_DIR    = _build

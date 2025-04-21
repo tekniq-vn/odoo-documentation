@@ -23,7 +23,7 @@ In our real estate module, we need to organize the fields in a logical way:
 #### NOTE
 **Goal**: at the end of this section, the list view should look like this:
 
-![List view](developer/tutorials/server_framework_101/06_basicviews/list.png)
+![List view](06_basicviews/list.png)
 
 List views, also called tree views, display records in a tabular form.
 
@@ -55,7 +55,7 @@ remains unique for each view!
 #### NOTE
 **Goal**: at the end of this section, the form view should look like this:
 
-![Form view](developer/tutorials/server_framework_101/06_basicviews/form.png)
+![Form view](06_basicviews/form.png)
 
 Forms are used to create and edit single records.
 
@@ -108,7 +108,7 @@ This parameter allows you to just refresh the page to view your view modificatio
 #### NOTE
 **Goal**: at the end of this section, the search view should look like this:
 
-![Search fields](developer/tutorials/server_framework_101/06_basicviews/search_01.png)![Filter](developer/tutorials/server_framework_101/06_basicviews/search_02.png)![Group By](developer/tutorials/server_framework_101/06_basicviews/search_03.png)
+![Search fields](06_basicviews/search_01.png)![Filter](06_basicviews/search_02.png)![Group By](06_basicviews/search_03.png)
 
 Search views are slightly different from the list and form views since they don't display
 *content*. Although they apply to a specific model, they are used to filter

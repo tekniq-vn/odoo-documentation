@@ -14,7 +14,7 @@ To set prices to delivery methods, go to Inventory app ‣ Configuration ‣
 Settings. Under the Shipping section, enable the Delivery Methods feature.
 Then, click Save.
 
-![Enable the "Delivery Methods" feature in Settings.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing/enable-delivery.png)
+![Enable the "Delivery Methods" feature in Settings.](invoicing/enable-delivery.png)
 
 ## Thêm phương thức vận chuyển
 
@@ -47,7 +47,7 @@ Sales app and select the desired sales order.
 
 On the sales order, click the Add Shipping button at the bottom-right corner.
 
-![Click "Add Shipping" button at the bottom right, near the total.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing/add-shipping.png)
+![Click "Add Shipping" button at the bottom right, near the total.](invoicing/add-shipping.png)
 
 In the Add a shipping method pop-up window, choose the intended carrier in the
 Shipping Method field.
@@ -58,7 +58,7 @@ shipping data Odoo's shipping carrier integration.
 The Cost is automatically calculated using the weight of the items in the order.
 Finally, click the Add button to close the window.
 
-![Calculate shipping by selecting a shipping method.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing/add-a-shipping-method.png)
+![Calculate shipping by selecting a shipping method.](invoicing/add-a-shipping-method.png)
 
 <a id="inventory-shipping-invoice-on-so"></a>
 
@@ -66,17 +66,17 @@ On the sales order, the delivery product appears in the Order Lines tab, with th
 Unit Price set as the shipping cost calculated in the Add a shipping method
 pop-up window.
 
-![Show delivery product on the sales order line.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing/delivery-product.png)
+![Show delivery product on the sales order line.](invoicing/delivery-product.png)
 
 Finally, after the product is delivered, click the Create invoice button, and an invoice
 is created that includes the shipping cost that was added earlier.
 
-![Show "Create Invoice" button.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing/create-invoice.png)
+![Show "Create Invoice" button.](invoicing/create-invoice.png)
 
 Then, click the Create and View Invoice button, and a draft invoice is generated, with
 the shipping cost included in the Invoice Lines tab.
 
-![Show delivery product in the invoice line.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing/invoice-line.png)
+![Show delivery product in the invoice line.](invoicing/invoice-line.png)
 
 <a id="inventory-shipping-invoice-shipping"></a>
 
@@ -88,7 +88,7 @@ Price of zero.
 Then, on a draft invoice, modify the Unit Price to reflect the real shipping cost.
 Finally, invoice the customer the adjusted shipping cost by clicking Confirm.
 
-![Show delivery product on the invoice line.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing/invoice-cost.png)
+![Show delivery product on the invoice line.](invoicing/invoice-cost.png)
 
 #### SEE ALSO
 - [Third-party shipping carriers](third_party_shipper.md)

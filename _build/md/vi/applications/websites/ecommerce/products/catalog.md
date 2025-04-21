@@ -14,14 +14,14 @@ To do so, go to Website ‣ eCommerce ‣ Products, select the product you wish 
 modify, click on the Sales tab, and select the Categories you want under
 eCommerce Shop.
 
-![eCommerce categories under the "Sales" tab](applications/websites/ecommerce/products/catalog/catalog-categories.png)
+![eCommerce categories under the "Sales" tab](catalog/catalog-categories.png)
 
 #### NOTE
 A single product can appear under multiple eCommerce categories.
 
 Khi các danh mục sản phẩm đã được cấu hình, hãy truy cập **trang cửa hàng chính** và nhấp vào Chỉnh sửa ‣ Tab Tùy chỉnh. Trong tùy chọn Danh mục, bạn có thể bật menu ở Bên trái, ở Trên cùng hoặc cả hai. Nếu chọn danh mục Bên trái, tùy chọn Danh mục đệ quy có thể thu gọn sẽ xuất hiện và cho phép hiển thị menu danh mục Bên trái dưới dạng có thể thu gọn.
 
-![Categories options for your eCommerce website](applications/websites/ecommerce/products/catalog/catalog-panel-categories.png)
+![Categories options for your eCommerce website](catalog/catalog-panel-categories.png)
 
 #### SEE ALSO
 [Sản phẩm](../products.md)
@@ -44,7 +44,7 @@ Attributes & Variants tab.
 #### SEE ALSO
 - [Biến thể sản phẩm](../../../sales/sales/products_prices/products/variants.md)
 
-![Attributes and variants of your product](applications/websites/ecommerce/products/catalog/catalog-attributes.png)
+![Attributes and variants of your product](catalog/catalog-attributes.png)
 
 To enable **attribute filtering**, go to your **main shop page**, click on Edit ‣
 Customize tab and select either Left, Top, or both. Additionally, you can
@@ -68,7 +68,7 @@ The **sorting** options are:
 
 Ngoài ra, bạn có thể **chỉnh sửa thủ công** thứ tự sản phẩm trong danh mục bằng cách vào **trang cửa hàng chính** và nhấp vào sản phẩm. Trong phần Sản phẩm của phần Tùy chỉnh, bạn có thể sắp xếp lại thứ tự bằng cách nhấp vào các mũi tên. `<<` `>>` di chuyển sản phẩm **xa** sang phải hoặc trái, và `<` `>` di chuyển sản phẩm theo **một** hàng sang phải hoặc trái. Bạn cũng có thể thay đổi thứ tự sản phẩm trong danh mục tại Trang web ‣ Thương mại điện tử ‣ Sản phẩm và kéo thả các sản phẩm trong danh sách.
 
-![Product rearrangement in the catalog](applications/websites/ecommerce/products/catalog/catalog-reorder.png)
+![Product rearrangement in the catalog](catalog/catalog-reorder.png)
 
 ## Page design
 
@@ -84,7 +84,7 @@ To do so, go on to your Category page ‣ Edit ‣ Customize. Here, you can choo
 the layout, the number of columns to display the products, etc. The Product Description
 button makes the product description visible from the category page, underneath the product picture.
 
-![Layout options of the category pages.](applications/websites/ecommerce/products/catalog/catalog-category-layout.png)
+![Layout options of the category pages.](catalog/catalog-category-layout.png)
 
 ### Điểm nổi bật của sản phẩm
 
@@ -104,7 +104,7 @@ The [developer mode](../../../general/developer_mode.md) is only intended for ex
 users who wish to have access to advanced tools. Using the **developer mode** is *not*
 recommended for regular users.
 
-![Ribbon highlight](applications/websites/ecommerce/products/catalog/catalog-product-highlight.png)
+![Ribbon highlight](catalog/catalog-product-highlight.png)
 
 ## Tính năng bổ sung
 
@@ -119,7 +119,7 @@ appear when hovering the mouse over a product's image.
   etc.;
 - Wishlist Button: adds a button to **wishlist** the product.
 
-![Feature buttons for add to cart, comparison list, and wishlist](applications/websites/ecommerce/products/catalog/catalog-buttons.png)![Appearance of buttons when hoovering over the mouse](applications/websites/ecommerce/products/catalog/catalog-features.png)
+![Feature buttons for add to cart, comparison list, and wishlist](catalog/catalog-buttons.png)![Appearance of buttons when hoovering over the mouse](catalog/catalog-features.png)
 
 ## Add content
 
@@ -127,7 +127,7 @@ You can use **building blocks** to add content on the category page, with a vari
 ranging from Structure to Dynamic Content. Specific areas are defined to use
 blocks are defined and highlighted on the page when **dragging-and-dropping** a block.
 
-![Building blocks areas](applications/websites/ecommerce/products/catalog/catalog-content.png)
+![Building blocks areas](catalog/catalog-content.png)
 - If you drop a building block **on top** of the product list, it creates a new category header
   specific to *that* category.
 - If you drop a building **on the top** or **bottom** of the page, it becomes visible on *all*

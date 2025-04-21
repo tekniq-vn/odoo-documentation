@@ -9,7 +9,7 @@ website.
 **reporting view**, go to Website ‣ Reporting ‣ eCommerce. This dashboard helps
 you monitor everything related to sales, such as sales performance per product, category, day, etc.
 
-![Performance reporting of eCommerce](applications/websites/ecommerce/performance/reporting.png)
+![Performance reporting of eCommerce](performance/reporting.png)
 
 By clicking Measures, you can select the type of measurement used, such as:
 

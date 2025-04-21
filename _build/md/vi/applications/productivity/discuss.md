@@ -48,7 +48,7 @@ conversation, or click <i class="fa fa-phone"></i> Start a Call to begin a meeti
 At the top of the direct message window, click the name of the direct message to change the group
 name, and choose to add a description in the adjacent Add a description field.
 
-![View of the conversation actions.](applications/productivity/discuss/conversation-actions.png)
+![View of the conversation actions.](discuss/conversation-actions.png)
 
 #### NOTE
 The Add a description field is **only** available for group messages with more than
@@ -86,7 +86,7 @@ dashboard, click Start a meeting in the top-left corner, and select who to invit
 meeting, via the Invite People drop-down window that appears. To start a meeting from a
 direct message, click the <i class="fa fa-phone"></i> Start a Call icon in the top-right corner.
 
-![View of a Meeting in Odoo Discuss.](applications/productivity/discuss/meeting.png)
+![View of a Meeting in Odoo Discuss.](discuss/meeting.png)
 
 Once a meeting has been started, the following buttons can be used:
 
@@ -108,7 +108,7 @@ Once a meeting has been started, the following buttons can be used:
 Access user-specific preferences for the **Discuss** app by navigating to Settings
 app ‣ Manage Users, select a user, then click the Preferences tab.
 
-![View of the Preferences tab for Odoo Discuss.](applications/productivity/discuss/preferences-user.png)
+![View of the Preferences tab for Odoo Discuss.](discuss/preferences-user.png)
 
 Thông báo được đặt mặc định là Xử lý bằng email. Khi bật cài đặt này, một email thông báo sẽ được Odoo gửi mỗi khi có tin nhắn được gửi từ khung cửa sổ trò chuyện của một bản ghi, một ghi chú được gửi kèm đề cập `@` (từ khung cửa sổ trò chuyện của bản ghi), hoặc một thông báo được gửi cho bản ghi mà người dùng đang theo dõi.
 
@@ -121,7 +121,7 @@ The **Discuss** application enables communication across all of Odoo's applicati
 and channels, or start a new message, select the speech bubbles that are consistently present in the
 upper-right corner of the database header.
 
-![Use Discuss across other applications by clicking the speech bubbles.](applications/productivity/discuss/discuss-in-other-apps.png)
+![Use Discuss across other applications by clicking the speech bubbles.](discuss/discuss-in-other-apps.png)
 
 #### SEE ALSO
 - [Use channels for team communication](discuss/team_communication.md)

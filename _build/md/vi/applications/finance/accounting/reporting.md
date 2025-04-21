@@ -17,7 +17,7 @@ To expand the lines of a report and view its details, click the <i class="fa fa-
 to the right of the account, journal entry, payment, invoice, etc. to Annotate and view
 the details.
 
-![Annotate reports.](applications/finance/accounting/reporting/reporting-annotate.png)
+![Annotate reports.](reporting/reporting-annotate.png)
 
 To export reports in PDF or XLSX format, click PDF at the top or click the
 <i class="fa fa-caret-down"></i> (down arrow) icon next to the PDF button and
@@ -26,7 +26,7 @@ select XLSX.
 To compare values across periods, click the Comparison menu and select the periods you
 want to compare.
 
-![Comparison menu to compare time periods.](applications/finance/accounting/reporting/reporting-comparison.png)
+![Comparison menu to compare time periods.](reporting/reporting-comparison.png)
 
 <a id="accounting-reporting-balance-sheet"></a>
 

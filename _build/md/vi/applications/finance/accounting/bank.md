@@ -13,7 +13,7 @@ Cash journals and accounts must be configured manually.
 Bank journals are displayed by default on the Accounting Dashboard in the form of cards
 which include action buttons.
 
-![Bank journals are displayed on the Accounting Dashboard and contain action buttons](applications/finance/accounting/bank/card.png)
+![Bank journals are displayed on the Accounting Dashboard and contain action buttons](bank/card.png)
 
 <a id="bank-accounts-manage"></a>
 
@@ -68,7 +68,7 @@ Journals and select the journal you want to modify.
 
 You can edit the accounting information and bank account number according to your needs.
 
-![Manually configure your bank information](applications/finance/accounting/bank/bank-journal-config.png)
+![Manually configure your bank information](bank/bank-journal-config.png)
 
 #### SEE ALSO
 - [Hệ thống đa tiền tệ](get_started/multi_currency.md)
@@ -103,7 +103,7 @@ Account Number. On the new page, click on the external link arrow next to your
 Bank and update your bank information accordingly. These details are used when
 registering payments.
 
-![Edit your bank information](applications/finance/accounting/bank/bank-account-number.png)
+![Edit your bank information](bank/bank-account-number.png)
 
 ### Cầu nối ngân hàng
 
@@ -153,7 +153,7 @@ configure, and click on Configuration, then open the Incoming/Outgoing
 Payments tab. To display the outstanding accounts column, click on the toggle button and check the
 Outstanding Receipts/Payments accounts, then update the account.
 
-![Select the toggle button and click on outstanding Accounts](applications/finance/accounting/bank/toggle-button.png)
+![Select the toggle button and click on outstanding Accounts](bank/toggle-button.png)
 
 #### NOTE
 - If you do not specify an outstanding payments account or an outstanding receipts account for a

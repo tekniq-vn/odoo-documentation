@@ -64,17 +64,17 @@ In order to retrieve the HMAC Key, you'll need to configure a `Standard Notifica
 this, log into your Adyen account then go to Developers ‣ Webhooks ‣ Add webhook
 ‣ Add Standard notification.
 
-![Cấu hình webhook.](applications/finance/payment_providers/adyen/adyen-add-webhook.png)
+![Cấu hình webhook.](adyen/adyen-add-webhook.png)
 
 There, in General ‣ Server configuration ‣ URL, enter your server address
 followed by `/payment/adyen/notification`.
 
-![Enter the notification URL.](applications/finance/payment_providers/adyen/adyen-webhook-url.png)
+![Enter the notification URL.](adyen/adyen-webhook-url.png)
 
 Then enter Security ‣ HMAC Key ‣ Generate. Be careful to copy the key as you
 will not be allowed to do it later without generating a new one.
 
-![Generate a HMAC key and save it.](applications/finance/payment_providers/adyen/adyen-hmac-key.png)
+![Generate a HMAC key and save it.](adyen/adyen-hmac-key.png)
 
 You have to save the webhook to finalize its creation.
 
@@ -88,7 +88,7 @@ URLs, proceed as follows:
 1. Log into your Adyen account, then go to Developers ‣ API URLs.
 2. Copy the Prefix for your live Customer area (i.e., **data center**) and save it for
    later.
-   ![Copy the prefix for the Adyen APIs](applications/finance/payment_providers/adyen/adyen-api-urls.png)
+   ![Copy the prefix for the Adyen APIs](adyen/adyen-api-urls.png)
 3. In Odoo, [navigate to the payment provider Adyen](../payment_providers.md#payment-providers-add-new).
 4. In the Checkout API URL field, enter the following URL and replace `yourprefix` with
    the prefix you previously saved:
@@ -113,7 +113,7 @@ To allow payment originated from your website, follow the steps in [API Key and 
 to navigate to your API user and go to Add allowed origins, then add the URLs from
 where payments will be made (the URLs of the servers hosting your Odoo instances).
 
-![Allows payments originated from a specific domain.](applications/finance/payment_providers/adyen/adyen-allowed-origins.png)
+![Allows payments originated from a specific domain.](adyen/adyen-allowed-origins.png)
 
 ### Place a hold on a card
 
@@ -125,7 +125,7 @@ To set it up, enable the **Capture Amount Manually** option on Odoo, as explaine
 Then, open your Adyen Merchant Account, go to Account ‣ Settings, and set the
 **Capture Delay** to **manual**.
 
-![Capture Delay settings in Adyen](applications/finance/payment_providers/adyen/adyen_capture_delay.png)
+![Capture Delay settings in Adyen](adyen/adyen_capture_delay.png)
 
 #### NOTE
 - After **7 days**, if the transaction has not been captured yet, the customer has the right to

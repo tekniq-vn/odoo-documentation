@@ -28,7 +28,7 @@ To do so, go to Accounting ‣ Configuration ‣ Journals, open your bank journa
 then fill out the Account Number and Bank under the Bank Account
 Number column.
 
-![Bank account number column in the bank journal](applications/finance/accounting/customer_invoices/epc_qr_code/bank-journal.png)
+![Bank account number column in the bank journal](epc_qr_code/bank-journal.png)
 
 ## Issue invoices with EPC QR codes
 
@@ -47,4 +47,4 @@ IBAN by default and uses it to generate the EPC QR code.
 
 When the invoice is printed or previewed, the QR code is included at the bottom.
 
-![QR code on a customer invoice](applications/finance/accounting/customer_invoices/epc_qr_code/invoice-qr-code.png)
+![QR code on a customer invoice](epc_qr_code/invoice-qr-code.png)

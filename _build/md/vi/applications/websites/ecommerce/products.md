@@ -212,7 +212,7 @@ directly, or for additional options, click New, then Upload your file.
 To make the file available on the product page (before payment), leave the Visibility
 field blank and toggle the Show on product page switch.
 
-![digital file available before payment on the  product page](applications/websites/ecommerce/products/digital-files.png)
+![digital file available before payment on the  product page](products/digital-files.png)
 
 <a id="ecommerce-products-digital-files-after-payment"></a>
 
@@ -288,7 +288,7 @@ Shop - Products section, and enable Product Comparison Tool.
 
 Biểu tượng <i class="fa fa-exchange"></i> (So sánh) hiện có sẵn trên mỗi thẻ sản phẩm ở trang cửa hàng chính khi khách hàng di chuột qua. Để so sánh sản phẩm, khách hàng có thể nhấp vào tùy chọn <i class="fa fa-exchange"></i> (So sánh) trên các sản phẩm muốn so sánh, sau đó nhấp <i class="fa fa-exchange"></i> So sánh trong cửa sổ bật lên ở cuối trang để xem bảng tóm tắt so sánh.
 
-![Product comparison window](applications/websites/ecommerce/products/products-compare.png)
+![Product comparison window](products/products-compare.png)
 
 #### NOTE
 - The Product Comparison Tool is only available for products with

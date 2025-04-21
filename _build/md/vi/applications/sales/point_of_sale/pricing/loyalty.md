@@ -10,11 +10,11 @@ Point of Sale ‣ Configuration ‣ Point of sale and
 select your PoS interface. Under the Pricing features, select *Loyalty
 Program*
 
-![image](applications/sales/point_of_sale/pricing/loyalty/loyalty01.png)
+![image](loyalty/loyalty01.png)
 
 From there you can create and edit your loyalty programs.
 
-![image](applications/sales/point_of_sale/pricing/loyalty/loyalty02.png)
+![image](loyalty/loyalty02.png)
 
 You can decide what type of program you wish to use, if the reward is a
 discount or a gift, make it specific to some products or cover your
@@ -28,7 +28,7 @@ the transaction and they will accumulate until they are spent. They are
 spent using the button *Rewards* when they have enough points
 according to the rules defined in the loyalty program.
 
-![image](applications/sales/point_of_sale/pricing/loyalty/loyalty03.png)
+![image](loyalty/loyalty03.png)
 
 You can see the price is instantly updated to reflect the pricelist. You
 can finalize the order in your usual way.

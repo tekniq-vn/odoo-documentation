@@ -9,7 +9,7 @@ app, such as:
 - [pipeline revenue reports](#templates-pipeline-reports), or
 - [sales commission report](#templates-sales-commission).
 
-![View of all the default templates](applications/productivity/spreadsheet/templates/report-templates.png)
+![View of all the default templates](templates/report-templates.png)
 
 You can also [save any spreadsheet as a template](#templates-save) and [manage and edit
 existing templates](#templates-manage).
@@ -24,7 +24,7 @@ Budget reports compare a company's actual spending with its budget over a define
 templates are available: one uses quarterly intervals (Budget Report (Quarterly)), while
 the other uses monthly intervals (Budget Report (Monthly)).
 
-![Extract of a budget report](applications/productivity/spreadsheet/templates/budget-report.png)
+![Extract of a budget report](templates/budget-report.png)
 
 The cells under the Actuals column are automatically filled in with the amount of money
 made and spent over the corresponding period (month or quarter). The data is taken from posted
@@ -50,7 +50,7 @@ Two pipeline revenue reports are available. The Pipeline Revenue Report (Monthly
 dedicated to one-time revenue (), while the MRR/NRR
 Pipeline Revenue Report (Monthly) covers recurring and non-recurring revenue ().
 
-![Extract of a pipeline revenue report](applications/productivity/spreadsheet/templates/pipeline-revenue.png)
+![Extract of a pipeline revenue report](templates/pipeline-revenue.png)
 
 The cells under the Actuals column are automatically filled in with the amount of
 monthly revenue from **won** opportunities.
@@ -82,7 +82,7 @@ For actuals and forecasts:
 
 This report presents the monthly commission earned or due to each salesperson.
 
-![Extract of a sales commission report](applications/productivity/spreadsheet/templates/sales-commission.png)
+![Extract of a sales commission report](templates/sales-commission.png)
 
 The Rate column is pre-filled with the percentage rate from the Rates tab,
 which can be customized for each product category according to the company's policy. Adjusting the

@@ -6,7 +6,7 @@ high-level information about how the business is performing.
 To start sending digest emails, begin by navigating to Settings app ‣ Statistics
 section, activate the Digest Emails feature, and click Save.
 
-![Digest Emails section inside General Settings.](applications/general/companies/digest_emails/digest-email-settings.png)
+![Digest Emails section inside General Settings.](digest_emails/digest-email-settings.png)
 
 A variety of settings can be configured for digest emails, such as:
 
@@ -53,7 +53,7 @@ The  can be customized using Odoo *Studio*. Additional
 costs to the database subscription are incurred should *Studio* need to be installed. See this
 section on [Custom KPIs with Odoo Studio](#digest-emails-custom-kpi).
 
-![Customize default Digest Email settings and custom KPIs.](applications/general/companies/digest_emails/periodic-digest.png)
+![Customize default Digest Email settings and custom KPIs.](digest_emails/periodic-digest.png)
 
 <a id="digest-emails-deactivate"></a>
 
@@ -93,7 +93,7 @@ are added (or deselected), click Save.
 The following  are available in the KPIs tab on
 a digest email template form out-of-box in Odoo:
 
-![KPIs listed in the out-of-box digest email.](applications/general/companies/digest_emails/oob-kpis.png)
+![KPIs listed in the out-of-box digest email.](digest_emails/oob-kpis.png)
 
 General
 : - Người dùng đã kết nối

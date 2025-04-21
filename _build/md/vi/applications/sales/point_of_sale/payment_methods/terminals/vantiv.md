@@ -26,7 +26,7 @@ Type the name you want to give to your Vantiv Credentials and click Create
 and edit. Enter your Merchant ID and Merchant Password, then click
 Save & Close.
 
-![Vantiv payment method](applications/sales/point_of_sale/payment_methods/terminals/vantiv/vantiv-method.png)
+![Vantiv payment method](vantiv/vantiv-method.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
 [POS' settings](../../configuration.md#configuration-settings) and add the payment method under the

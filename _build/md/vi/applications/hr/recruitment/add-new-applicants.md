@@ -45,7 +45,7 @@ Edit, and a detailed applicant form loads. Refer to the [New applicant form](#re
 When doing a quick add, clicking away from an empty card, or clicking the <i class="fa fa-trash-o"></i>
 (trash) icon, discards the applicant.
 
-![All the fields for a new applicant form entered when using the Quick Add option.](applications/hr/recruitment/add-new-applicants/quick-add.png)
+![All the fields for a new applicant form entered when using the Quick Add option.](add-new-applicants/quick-add.png)
 
 <a id="recruitment-create-new-applicant"></a>
 
@@ -61,7 +61,7 @@ Complete the fields in the following sections on the new applicant form.
 #### NOTE
 Depending on installed applications and configurations, some fields may **not** be displayed.
 
-![All the fields for a new applicant form entered.](applications/hr/recruitment/add-new-applicants/new-applicant.png)
+![All the fields for a new applicant form entered.](add-new-applicants/new-applicant.png)
 
 <a id="recruitment-applicant-details"></a>
 

@@ -27,7 +27,7 @@ After logging in with the Microsoft *Entra ID*, [register an application](https:
 To create an application, click + Add in the top menu. From the resulting drop-down
 menu, select App Registration.
 
-![Microsoft Azure management page with + Add and App Registration menu highlighted.](applications/productivity/calendar/outlook/app-register.png)
+![Microsoft Azure management page with + Add and App Registration menu highlighted.](outlook/app-register.png)
 
 Enter a unique Name for the connected application.
 
@@ -41,7 +41,7 @@ When configuring the Redirect URI, choose the Web option from the first
 drop-down menu. Then, enter the Odoo database URI (URL) followed by
 `/microsoft_account/authentication`.
 
-![The "Supported account type" and "Redirect URI" settings in the Microsoft Entra ID portal.](applications/productivity/calendar/outlook/azure-register-application.png)
+![The "Supported account type" and "Redirect URI" settings in the Microsoft Entra ID portal.](outlook/azure-register-application.png)
 
 For more information on the restrictions and limitations of URIs, check Microsoft's [Redirect URI
 (reply URL) restrictions and limitations](https://docs.microsoft.com/en-us/azure/active-directory/develop/reply-url) page.
@@ -51,7 +51,7 @@ application registration. The Application (client) ID is produced. Copy this val
 it is needed later, in the [Cấu hình trong Odoo](#outlook-calendar-odoo-setup).
 
 ![Application client ID highlighted in the essentials section of the newly created
-application.](applications/productivity/calendar/outlook/app-client-id.png)
+application.](outlook/app-client-id.png)
 
 ### Create client secret
 
@@ -63,7 +63,7 @@ To add a client secret, click Certificates & secrets in the left menu. Then clic
 + New client secret to create the client secret.
 
 ![New client secret page with certificates and secrets menu and new client secret option
-highlighted.](applications/productivity/calendar/outlook/client-secret.png)
+highlighted.](outlook/client-secret.png)
 
 Next, type a Description, and select when the client secret Expires.
 Available options include: 90 days (3 months), 365 days (12 months),
@@ -87,18 +87,18 @@ In the Odoo database, go to Calendar app ‣ Configuration ‣ Settings, and tic
 the checkbox beside the Outlook Calendar setting. Remember to click Save to
 implement the changes.
 
-![The "Outlook Calendar" setting activated in Odoo.](applications/productivity/calendar/outlook/outlook-calendar-setting.png)
+![The "Outlook Calendar" setting activated in Odoo.](outlook/outlook-calendar-setting.png)
 
 From the Microsoft *Azure* portal, under the Overview section of the application, copy
 the Application (Client) ID, if it has not already been copied, and paste it into the
 Client ID field in Odoo.
 
-![The "Client ID" in the Microsoft Azure portal.](applications/productivity/calendar/outlook/client-id.png)
+![The "Client ID" in the Microsoft Azure portal.](outlook/client-id.png)
 
 Copy the previously-acquired Value (Client Secret Value), and paste it into the
 Client Secret field in Odoo.
 
-![The "Client Secret" token to be copied from Microsoft to Odoo.](applications/productivity/calendar/outlook/client-secret-value.png)
+![The "Client Secret" token to be copied from Microsoft to Odoo.](outlook/client-secret-value.png)
 
 Finally, on the Odoo Settings ‣ General Settings page, click Save.
 
@@ -138,14 +138,14 @@ In summary, once a user synchronizes their Outlook calendar with the Odoo calend
 In the Odoo database, open to the *Calendar* module, and click the Outlook sync button
 on the right-side of the page, beneath the monthly calendar.
 
-![The "Outlook" sync button in Odoo Calendar.](applications/productivity/calendar/outlook/outlook-sync-button.png)
+![The "Outlook" sync button in Odoo Calendar.](outlook/outlook-sync-button.png)
 
 The synchronization is a two-way process, meaning that events are reconciled in both accounts
 (*Outlook* and Odoo). The page redirects to a Microsoft login page, and the user is asked to log in
 to their account, if they are not already. Finally, grant the required permissions by clicking
 Accept.
 
-![Authentication process on Microsoft Outlook OAuth page.](applications/productivity/calendar/outlook/accept-terms.png)
+![Authentication process on Microsoft Outlook OAuth page.](outlook/accept-terms.png)
 
 #### NOTE
 All users that want to use the synchronization simply need to [sync their calendar with
@@ -167,7 +167,7 @@ Reset Account button, which can be accessed by navigating to Settings
 app ‣ Manage Users. Then, select the user to modify the calendar, and click on the
 Calendar tab.
 
-![Reset buttons highlighted on the calendar tab of the user.](applications/productivity/calendar/outlook/outlook-reset.png)
+![Reset buttons highlighted on the calendar tab of the user.](outlook/outlook-reset.png)
 
 Next, click Reset Account under the correct calendar.
 
@@ -176,7 +176,7 @@ Next, click Reset Account under the correct calendar.
 The following reset options are available for troubleshooting *Microsoft Outlook Calendar* sync with
 Odoo:
 
-![Outlook calendar reset options in Odoo.](applications/productivity/calendar/outlook/reset-calendar.png)
+![Outlook calendar reset options in Odoo.](outlook/reset-calendar.png)
 
 User's Existing Events:
 

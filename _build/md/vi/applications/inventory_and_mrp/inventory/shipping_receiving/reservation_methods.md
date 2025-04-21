@@ -34,7 +34,7 @@ operation type. Or, create a new one by clicking New.
 In the General tab of the operation type form, locate the Reservation Method
 option, and choose which method should be used for this type of operation.
 
-![Reservation method field on delivery order operation type form.](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/reservation-methods-operations-type-field.png)
+![Reservation method field on delivery order operation type form.](reservation_methods/reservation-methods-operations-type-field.png)
 
 ## Required applications
 
@@ -67,7 +67,7 @@ Operations Types, and then clicking on a specific operations type.
 When the Type of Operation is changed to Receipt on an
 Operations Type form, reservation methods are **not** available.
 
-![Operations Types highlighted from the Configurations submenu in the Inventory app.](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/reservation-methods-operations-type-menu.png)
+![Operations Types highlighted from the Configurations submenu in the Inventory app.](reservation_methods/reservation-methods-operations-type-menu.png)
 
 #### SEE ALSO
 - [At confirmation reservation](reservation_methods/at_confirmation.md)

@@ -23,12 +23,12 @@ automatically into your database.
    address is used to create your Salt Edge account. Please make sure you enter a
    valid email address, as otherwise, you will not be able to access your Salt Edge
    account.
-   ![Email address to provide to Salt Edge for the creation of your account.](applications/finance/accounting/bank/bank_synchronization/saltedge/saltedge-contact-email.png)
+   ![Email address to provide to Salt Edge for the creation of your account.](saltedge/saltedge-contact-email.png)
 4. After entering your email address, you are redirected to Salt Edge to continue
    the synchronization process.
-   ![Salt Edge Login page.](applications/finance/accounting/bank/bank_synchronization/saltedge/saltedge-login-page.png)
+   ![Salt Edge Login page.](saltedge/saltedge-login-page.png)
 5. Make sure you give your consent by checking the consent checkbox.
-   ![Salt Edge give consent page.](applications/finance/accounting/bank/bank_synchronization/saltedge/saltedge-give-consent.png)
+   ![Salt Edge give consent page.](saltedge/saltedge-give-consent.png)
 6. Complete the synchronization by following the steps.
 
 ### Update your credentials

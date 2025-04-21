@@ -22,7 +22,7 @@ Purchase Agreements.
 
 Then, click Save to apply the change.
 
-![Purchase Agreements enabled in the Purchase app settings.](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders/calls-for-tenders-enabled-setting.png)
+![Purchase Agreements enabled in the Purchase app settings.](calls_for_tenders/calls-for-tenders-enabled-setting.png)
 
 <a id="purchase-manage-deals-create-rfq"></a>
 
@@ -44,7 +44,7 @@ To create alternative  from the original, click the Alternatives tab. Then, clic
 Create Alternative. When clicked, a Create alternative pop-up window
 appears.
 
-![Calls for tenders pop-up to create alternative quotation.](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders/calls-for-tenders-create-alternative.png)
+![Calls for tenders pop-up to create alternative quotation.](calls_for_tenders/calls-for-tenders-create-alternative.png)
 
 From this window, select an alternative vendor from the drop-down menu next to the
 Vendor field, to whom the alternative quotation is assigned.
@@ -78,7 +78,7 @@ clicking Add a product, and selecting the desired products from the drop-down me
 
 Once the desired number of specific products are added, click Send by Email.
 
-![Blank alternative quotation with alternatives in breadcrumbs.](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders/calls-for-tenders-blank-quotation.png)
+![Blank alternative quotation with alternatives in breadcrumbs.](calls_for_tenders/calls-for-tenders-blank-quotation.png)
 
 This opens a Compose Email pop-up window, wherein the message to the vendor can be
 customized, and attachments can be added, if necessary. Once ready, click Send.
@@ -107,7 +107,7 @@ separately, there are no other orders linked yet.
 However, to link this  with existing alternatives, click Link to Existing RfQ on
 the first line in the Vendor column.
 
-![Pop-up to link new quotation to existing RFQs.](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders/calls-for-tenders-link-rfq-popup.png)
+![Pop-up to link new quotation to existing RFQs.](calls_for_tenders/calls-for-tenders-link-rfq-popup.png)
 
 This opens an Add: Alternative POs pop-up window. Select the desired previously-created
 , and click Select. All of these orders are now copied to this , and can be
@@ -127,7 +127,7 @@ Then, click the Alternatives tab to see all linked . Next, under the
 Create Alternative option, click Compare Product Lines. This navigates to
 the Compare Order Lines page.
 
-![Compare Product Lines page for alternative RFQs.](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders/calls-for-tenders-compare-products.png)
+![Compare Product Lines page for alternative RFQs.](calls_for_tenders/calls-for-tenders-compare-products.png)
 
 The Compare Order Lines page, by default, groups by Product. Each product
 included in any of the  is displayed in its own nested drop-down list, and features all of the
@@ -162,7 +162,7 @@ The cost in the Total column for each product that wasn't chosen is automaticall
 Although they haven't been canceled yet, this indicates that each of those orders can be canceled
 without having an effect on the other live orders, once those orders have been confirmed.
 
-![Canceled quotations in the Purchase app overview.](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders/calls-for-tenders-zero-total.png)
+![Canceled quotations in the Purchase app overview.](calls_for_tenders/calls-for-tenders-zero-total.png)
 
 To confirm an  for which products were selected, click into an , and click
 Confirm Order.
@@ -188,7 +188,7 @@ any additional product quantities need to be ordered later.
 Once all products are ordered, select Cancel Alternatives from whichever 
 is open at that time.
 
-![Keep or cancel pop-up for alternative RFQs.](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders/calls-for-tenders-keep-or-cancel.png)
+![Keep or cancel pop-up for alternative RFQs.](calls_for_tenders/calls-for-tenders-keep-or-cancel.png)
 
 Finally, using the breadcrumbs at the top of the page, click Requests for Quotation to
 navigate back to an overview of all .

@@ -87,4 +87,4 @@ corner. Then, click Edit from the drop-down menu.
 On the Edit: [stage] pop-up window, select the check boxes for Folded in
 kanban view, Allow to apply changes and Final Stage.
 
-![Show configurations of the closing stage.](applications/inventory_and_mrp/plm/manage_changes/eco_type/closing-stage.png)
+![Show configurations of the closing stage.](eco_type/closing-stage.png)

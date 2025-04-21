@@ -105,7 +105,7 @@ If the user is busy on another call, or away from the phone, there is an option 
 to Send to voicemail as a last resort, located in the Forwarding on no
 answer and Forwarding on busy fields.
 
-![Send to voicemail as a last resort options highlighted on the Forwardings tab of the user.](applications/productivity/voip/axivox/vm_audio_messages/forwardings.png)
+![Send to voicemail as a last resort options highlighted on the Forwardings tab of the user.](vm_audio_messages/forwardings.png)
 
 If the Send to voicemail as a last resort box is ticked, when the forwarding actions
 stated in each section are not successful, the caller is routed to the voicemail set on the
@@ -197,7 +197,7 @@ Finally, when these steps are complete, click Save to save the audio message.
 
 To implement the changes, click Apply changes in the upper-right corner of the screen.
 
-![Convert text to message window with voice, text, generate button and save highlighted.](applications/productivity/voip/axivox/vm_audio_messages/sample-message.png)
+![Convert text to message window with voice, text, generate button and save highlighted.](vm_audio_messages/sample-message.png)
 
 <a id="voip-axivox-music-on-hold"></a>
 

@@ -20,7 +20,7 @@ To enable the *Storage Locations* setting, navigate to Inventory app ‣
 Configuration ‣ Settings, and tick the checkbox next to Storage Locations, under the
 Warehouses heading. Then, click Save.
 
-![The Storage Locations setting on the Inventory app settings page.](applications/inventory_and_mrp/quality/quality_management/failure_locations/storage-locations-setting.png)
+![The Storage Locations setting on the Inventory app settings page.](failure_locations/storage-locations-setting.png)
 
 #### IMPORTANT
 Failure locations are most effective when used for products configured as *storable products*.
@@ -55,7 +55,7 @@ In the Failure Locations field, select one or more locations from the drop-down 
 create a new location, type the desired location name into the field, and then select
 Create "[name]" from the drop-down menu.
 
-![A QCP form in the Quality app, configured with a failure location.](applications/inventory_and_mrp/quality/quality_management/failure_locations/qcp-form.png)
+![A QCP form in the Quality app, configured with a failure location.](failure_locations/qcp-form.png)
 
 ## Send products to failure location
 
@@ -76,7 +76,7 @@ quality check. In the Failure Location field, select a location to which the fai
 quantity should be sent. Then, click Confirm at the bottom of the pop-up window to close
 it.
 
-![The pop-up window that appears after a quality check fails.](applications/inventory_and_mrp/quality/quality_management/failure_locations/failed-pop-up.png)
+![The pop-up window that appears after a quality check fails.](failure_locations/failed-pop-up.png)
 
 Finally, on the order, click the Validate button at the top of the page. Doing so
 confirms the products that failed the quality check were sent to the failure location, while

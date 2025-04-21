@@ -45,10 +45,10 @@ inalterability check column, you can see whether or not a journal's posted entri
 a hash (V) or not (X). The coverage column tells you when a journal's posted entries started being
 locked.
 
-![Configuration report for two journals](applications/finance/accounting/reporting/data_inalterability/journal-overview.png)
+![Configuration report for two journals](data_inalterability/journal-overview.png)
 
 The second section gives you the result of the data consistency check for each hashed journal. You
 can view the first hashed entry and its corresponding hash and the last hashed entry and its
 corresponding hash.
 
-![Data consistency check report for a journal](applications/finance/accounting/reporting/data_inalterability/data-consistency-check.png)
+![Data consistency check report for a journal](data_inalterability/data-consistency-check.png)

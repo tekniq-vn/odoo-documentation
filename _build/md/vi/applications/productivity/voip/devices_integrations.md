@@ -48,17 +48,17 @@ continue with the call using the microphone.
 
 This step is **necessary**, whether using the mobile Odoo application or web browser.
 
-![Allow the database to access the microphone.](applications/productivity/voip/devices_integrations/allow-mic.png)
+![Allow the database to access the microphone.](devices_integrations/allow-mic.png)
 
 Odoo then asks how to make the call. The two options are : VOIP or Phone
 (should the tablet be enabled for calling). Click the box next to Remember ? should this
 decision be the default moving forward.
 
-![Window prompt to choose whether to use VOIP or the devices phone to make the call.](applications/productivity/voip/devices_integrations/voip-phone.png)
+![Window prompt to choose whether to use VOIP or the devices phone to make the call.](devices_integrations/voip-phone.png)
 
 Here is the layout of what the Odoo *VoIP* app looks like on a mobile device:
 
-![Layout of what the VoIP app looks like on the a mobile device.](applications/productivity/voip/devices_integrations/voip-odoo-dashboard.png)
+![Layout of what the VoIP app looks like on the a mobile device.](devices_integrations/voip-odoo-dashboard.png)
 
 <a id="voip-zoiper"></a>
 
@@ -78,13 +78,13 @@ icon to add an account.
 If the  account is already set up, then click
 Yes. This means an account username and password has already been produced.
 
-![Zoiper account setup, shown in the view from a mobile device.](applications/productivity/voip/devices_integrations/account-settings-zoiper-group.png)
+![Zoiper account setup, shown in the view from a mobile device.](devices_integrations/account-settings-zoiper-group.png)
 
 Next, tap on Select a provider. On the screen that populates, tap Country,
 in the upper-right corner, to narrow the providers down to a specific country. Choose the country
 for the provider that is being configured, then find the Provider, and select it.
 
-![Zoiper account setup, choosing the provider.](applications/productivity/voip/devices_integrations/provider-zoiper-odoo.png)
+![Zoiper account setup, choosing the provider.](devices_integrations/provider-zoiper-odoo.png)
 
 Under  options, enter the Account name,
 Domain, Username, and Password. All this information varies,
@@ -103,7 +103,7 @@ Registration Status: OK.
 
 At this point, *Zoiper* is now set up to make phone calls using the  service.
 
-![Zoiper account setup, registration successful.](applications/productivity/voip/devices_integrations/sip-options-zoiper.png)
+![Zoiper account setup, registration successful.](devices_integrations/sip-options-zoiper.png)
 
 ## Linphone
 
@@ -125,4 +125,4 @@ complete, press Login.
 At this point, *Linphone* is ready to start making calls, once there is a green button at the top of
 the application screen that reads, Connected.
 
-![Linphone account setup, registration successful.](applications/productivity/voip/devices_integrations/linphone-odoo-setup.png)
+![Linphone account setup, registration successful.](devices_integrations/linphone-odoo-setup.png)

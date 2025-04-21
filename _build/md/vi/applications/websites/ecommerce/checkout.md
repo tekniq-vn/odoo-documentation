@@ -22,7 +22,7 @@ can then redeem gift cards and promotional codes at the Review Order step.
 Furthermore, you can display the subtotal with discounts applied by enabling Show
 Discount in Subtotal.
 
-![Subtotal discount](applications/websites/ecommerce/checkout/checkout-subtotal.png)
+![Subtotal discount](checkout/checkout-subtotal.png)
 
 ### Address: B2B fields
 
@@ -38,7 +38,7 @@ between the Address and Confirm Order steps. To do so, go to
 Edit ‣ Customize from any checkout page, and enable Extra Step
 Option.
 
-![Checkout steps](applications/websites/ecommerce/checkout/checkout-steps.png)
+![Checkout steps](checkout/checkout-steps.png)
 
 The Extra Info step is an online form linked to the quotation or sales order of the
 customer. The information added during that step can be found on the quotation or sales order of the
@@ -49,7 +49,7 @@ the top-right corner, and then clicking on any of the form's fields. All customi
 well as the + Field button to add new fields, are available at the bottom of the
 Customize menu under the Field section.
 
-![Online form customization](applications/websites/ecommerce/checkout/checkout-form.png)
+![Online form customization](checkout/checkout-form.png)
 
 ### Confirm order: terms and conditions
 
@@ -57,7 +57,7 @@ You can ask customers to agree to the Terms & Conditions in order to confirm the
 by enabling Accept Terms & Conditions under Edit ‣ Customize on any
 checkout page.
 
-![Điều khoản và điều kiện](applications/websites/ecommerce/checkout/checkout-terms.png)
+![Điều khoản và điều kiện](checkout/checkout-terms.png)
 
 ## Thanh toán nhanh
 
@@ -69,7 +69,7 @@ product's page by going Edit ‣ Customize, in the Cart section.
 
 The button can be found next to the Add to Cart button on the product's page.
 
-![Buy now (express checkout) button](applications/websites/ecommerce/checkout/checkout-express.png)
+![Buy now (express checkout) button](checkout/checkout-express.png)
 
 <a id="checkout-sign"></a>
 

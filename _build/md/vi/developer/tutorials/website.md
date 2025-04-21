@@ -68,7 +68,7 @@ $ ./odoo-bin --addons-path addons,my-modules
 and open a page to [http://localhost:8069/academy/academy/](http://localhost:8069/academy/academy/), you should see your
 "page" appear:
 
-![image](developer/tutorials/website/helloworld.png)
+![image](website/helloworld.png)
 
 ## Templates
 
@@ -114,7 +114,7 @@ Academy and clicking Upgrade.
 
 Going to [http://localhost:8069/academy/academy/](http://localhost:8069/academy/academy/) should now result in:
 
-![image](developer/tutorials/website/basic-list.png)
+![image](website/basic-list.png)
 
 ## Storing data in Odoo
 
@@ -286,7 +286,7 @@ manifest and template) access [http://localhost:8069/academy/academy/](http://lo
 yield a nicer looking page with branding and a number of built-in page
 elements (top-level menu, footer, …)
 
-![image](developer/tutorials/website/layout.png)
+![image](website/layout.png)
 
 The website layout also provides support for editing tools: click
 Sign In (in the top-right), fill the credentials in (`admin` /

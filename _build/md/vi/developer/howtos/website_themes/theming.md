@@ -123,7 +123,7 @@ always required. It usually contains much more information.
 > - Odoo version and major number are mandatory. However, patch number is optional. If you want
 >   to specify the required version of Odoo to run your module, you should use a five arguments
 >   structure, using the first two arguments to indicate your current Odoo version (`* = 17.0`).
-![Module versioning](developer/howtos/website_themes/theming/versioning.png)
+![Module versioning](theming/versioning.png)
 
 Example:
 `17.0.1.0.0`
@@ -309,7 +309,7 @@ ensures it stays consistent.
 | o-color-3 | Extra (Light) |
 | o-color-4 | Whitish       |
 | o-color-5 | Blackish      |
-![Theme colors](developer/howtos/website_themes/theming/theme-colors.png)
+![Theme colors](theming/theme-colors.png)
 
 **Declaration**
 
@@ -343,7 +343,7 @@ $o-website-values-palettes: (
 );
 ```
 
-![Theme colors Airproof](developer/howtos/website_themes/theming/theme-colors-airproof.png)
+![Theme colors Airproof](theming/theme-colors-airproof.png)
 
 **Color combinations**
 
@@ -351,7 +351,7 @@ Based on the previously defined five color palettes, the Website Builder automat
 five color combinations, each defining a color for the background, text, headings, links, primary
 buttons, and secondary buttons. These colors can be customized later by the user.
 
-![Theme colors](developer/howtos/website_themes/theming/theme-colors-big.png)
+![Theme colors](theming/theme-colors-big.png)
 
 The colors used in a color combination are accessible and can be overridden through
 `$o-color-palettes` using a specific prefix (`o-cc` for `color combination`).
@@ -479,7 +479,7 @@ Odoo's Website Builder allows to select a style for your text. Some are just tag
 `Header` with no extra CSS class. Other combine tag and style directly applied on them like the
 `Header 1 Display`.
 
-![Header styles](developer/howtos/website_themes/theming/header.png)
+![Header styles](theming/header.png)
 ```xml
 <!-- h1 with display heading sizes -->
 <h1 class="display-1">Heading 1 with Display Heading 1 size</h1>
@@ -501,7 +501,7 @@ Odoo's Website Builder allows to select a style for your text. Some are just tag
 The sizing classes are added on a freshly created `span` tag inside the targeted element (See
 examples below).
 
-![Sizing classes](developer/howtos/website_themes/theming/sizing.png)
+![Sizing classes](theming/sizing.png)
 
 <a id="theming-module-bootstrap-fonts-sizing-headings-and-body"></a>
 

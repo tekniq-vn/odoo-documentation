@@ -12,13 +12,13 @@ supports all kinds of uses and computations.
 are also used to prefill the Taxes field when adding a new line on an invoice in
 [Accounting Firms](../accounting.md#fiduciaries) mode.
 
-![Odoo fills out the Tax field automatically according to the Default Taxes](applications/finance/accounting/taxes/default-configuration.png)
+![Odoo fills out the Tax field automatically according to the Default Taxes](taxes/default-configuration.png)
 
 To change your **default taxes**, go to Accounting ‣ Configuration ‣ Settings
 ‣ Taxes ‣ Default Taxes, select the appropriate taxes for your default sales tax and purchase
 tax, and click on Save.
 
-![Define which taxes to use by default on Odoo](applications/finance/accounting/taxes/default-taxes.png)
+![Define which taxes to use by default on Odoo](taxes/default-taxes.png)
 
 #### NOTE
 **Default taxes** are automatically set up according to the country selected at the creation of
@@ -33,7 +33,7 @@ country's sales taxes are already preconfigured on your database. However, only 
 activated by default. To activate taxes relevant to your business, go to Accounting
 ‣ Configuration ‣ Taxes and enable the toggle button under the Active column.
 
-![Activate pre-configured taxes in Odoo Accounting](applications/finance/accounting/taxes/list.png)
+![Activate pre-configured taxes in Odoo Accounting](taxes/list.png)
 
 <a id="taxes-configuration"></a>
 
@@ -42,7 +42,7 @@ activated by default. To activate taxes relevant to your business, go to Account
 To edit or create a **tax**, go to Accounting ‣ Configuration ‣ Taxes and open
 a tax or click on New.
 
-![Edition of a tax in Odoo Accounting](applications/finance/accounting/taxes/edit.png)
+![Edition of a tax in Odoo Accounting](taxes/edit.png)
 
 ### Basic options
 
@@ -119,7 +119,7 @@ The Tax Scope restricts the use of taxes to a type of product, either **goods** 
 Allocate with precision the amount of the taxable basis or percentages of the computed tax to
 multiple accounts and tax grids.
 
-![Allocate tax amounts to the right accounts and tax grids](applications/finance/accounting/taxes/definition.png)
+![Allocate tax amounts to the right accounts and tax grids](taxes/definition.png)
 - **Based On**:
   - Base: the price on the invoice line
   - % of tax: a percentage of the computed tax.
@@ -138,7 +138,7 @@ multiple accounts and tax grids.
 The tax label is displayed on each invoice line in the Taxes column. This is visible to
 *front-end* users on exported invoices, in customer portals, etc.
 
-![The label on invoices is displayed on each invoice line](applications/finance/accounting/taxes/invoice-label.png)
+![The label on invoices is displayed on each invoice line](taxes/invoice-label.png)
 
 <a id="taxes-tax-group"></a>
 
@@ -182,7 +182,7 @@ By default, only the Tax excluded column is displayed on invoices. To display th
 Tax included column, click the **dropdown toggle** button and check
 Tax incl..
 
-![image](applications/finance/accounting/taxes/toggle-button.png)
+![image](taxes/toggle-button.png)
 
 <a id="taxes-base-subsequent"></a>
 
@@ -194,7 +194,7 @@ the same product.
 You can configure a new [group of taxes](#taxes-computation) to include this tax or add it
 directly to a product line.
 
-![The eco-tax is taken into the basis of the 21% VAT tax](applications/finance/accounting/taxes/subsequent-line.png)
+![The eco-tax is taken into the basis of the 21% VAT tax](taxes/subsequent-line.png)
 
 #### WARNING
 The order in which you add the taxes on a product line has no effect on how amounts are computed.
@@ -204,7 +204,7 @@ they are applied.
 To reorder the sequence, go to Accounting ‣ Configuration ‣ Taxes, and drag
 and drop the lines with the handles next to the tax names.
 
-![The taxes' sequence in Odoo determines which tax is applied first](applications/finance/accounting/taxes/list-sequence.png)
+![The taxes' sequence in Odoo determines which tax is applied first](taxes/list-sequence.png)
 
 ## Extra taxes
 

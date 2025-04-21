@@ -45,12 +45,12 @@ Once the payment from the subscription quotation is confirmed, the quotation tur
 order. An In Progress tag is applied to the sales order form, and a series of buttons
 also appear at the top of the sales order, including a Renew button.
 
-![Renew button on subscription sales order with Odoo Subscriptions.](applications/sales/subscriptions/renewals/renew-button.png)
+![Renew button on subscription sales order with Odoo Subscriptions.](renewals/renew-button.png)
 
 When the Renew button is clicked, Odoo instantly presents a new renewal quotation,
 complete with a Renewal Quotation tag.
 
-![Renewal quotation in the Odoo Subscriptions application.](applications/sales/subscriptions/renewals/renewal-quotation.png)
+![Renewal quotation in the Odoo Subscriptions application.](renewals/renewal-quotation.png)
 
 From here, a standard sales flow can occur to confirm the quotation. This typically begins
 by clicking Send by Email, which sends a copy of the quotation to the customer, by
@@ -63,18 +63,18 @@ the renewal of the subscription from the original sales order.
 Once the Renewal Quotation is confirmed, it becomes a sales order, and a
 Sales History smart button appears at the top of the page.
 
-![Sales History smart button in the Odoo Subscriptions application.](applications/sales/subscriptions/renewals/sales-history-smart-button.png)
+![Sales History smart button in the Odoo Subscriptions application.](renewals/sales-history-smart-button.png)
 
 When that Sales History smart button is clicked, Odoo reveals a separate page,
 showcasing the different sales orders attached to this subscription, along with their individual
 Subscription Status.
 
-![Renewal quotation in the Odoo Subscriptions application.](applications/sales/subscriptions/renewals/sales-history-page.png)
+![Renewal quotation in the Odoo Subscriptions application.](renewals/sales-history-page.png)
 
 Additionally, once the Renewal Quotation is confirmed, an MRR smart button
 also appears at the top of the sales order.
 
-![MRR smart button in the Odoo Subscriptions application.](applications/sales/subscriptions/renewals/mrr-smart-button.png)
+![MRR smart button in the Odoo Subscriptions application.](renewals/mrr-smart-button.png)
 
 When clicked, Odoo reveals an MRR Analysis page, detailing the monthly recurring revenue
 related to this specific subscription.
@@ -96,7 +96,7 @@ in exception. Reload the sales order, and the Payment Failure tag is gone.
 
 Nếu thanh toán **đã** được thực hiện, cần phải tạo và ghi nhận hóa đơn mới theo cách thủ công. Thao tác này sẽ tự động cập nhật ngày phát hành hóa đơn tiếp theo của gói đăng ký. Sau khi tạo xong, hãy truy cập [chế độ gỡ lỗi](../../general/developer_mode.md) và đi tới đơn bán hàng mới. Chọn tab Thông tin khác và bỏ chọn ô Hợp đồng ngoại lệ. Khi tải lại đơn hàng, nhãn Lỗi thanh toán sẽ không còn hiển thị.
 
-![The "contract in exception" option selected with the "payment failure" tag shown.](applications/sales/subscriptions/renewals/contract-in-exception.png)
+![The "contract in exception" option selected with the "payment failure" tag shown.](renewals/contract-in-exception.png)
 
 In both cases, once the Contract in exception option is no longer selected, Odoo
 handles renewals automatically again. If the subscription remains in *payment failure*, it is

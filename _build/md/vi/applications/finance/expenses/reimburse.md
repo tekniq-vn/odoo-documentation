@@ -52,7 +52,7 @@ window:
 - Memo: The text entered in the [Expense Report Summary](expense_reports.md) field of the expense report populates this field, by default.
 
 ![The Register Payment pop-up window filled out for an individual expense report
-reimbursement.](applications/finance/expenses/reimburse/payment.png)
+reimbursement.](reimburse/payment.png)
 
 When the fields of the pop-up window are completed, click the Create Payment button to
 register the payment, and reimburse the employee.
@@ -70,7 +70,7 @@ list. Once ticked, the number of selected expense reports appears at the top of 
 ((#) Selected). Additionally, a Register Payment button also appears in the
 upper-left corner.
 
-![Expense reports filtered by the status Posted, making the Register Payment button visible.](applications/finance/expenses/reimburse/multiple-reports.png)
+![Expense reports filtered by the status Posted, making the Register Payment button visible.](reimburse/multiple-reports.png)
 
 Click the Register Payment button, and a Register Payment pop-up window
 appears. Enter the following information in the pop-up window:
@@ -87,7 +87,7 @@ appears. Enter the following information in the pop-up window:
 - Payment Date: Enter the date the payments are issued. The current date populates this
   field, by default.
 
-![The Register Payment pop-up window filled out.](applications/finance/expenses/reimburse/register.png)
+![The Register Payment pop-up window filled out.](reimburse/register.png)
 
 When the fields on the pop-up window are completed, click the Create Payments button to
 register the payments, and reimburse the employees.
@@ -106,7 +106,7 @@ the following payslip does **not** appear.
 
 Đi đến Ứng dụng Chi phí ‣ Báo cáo chi phí, và nhấp vào báo cáo chi phí cụ thể sẽ được hoàn trả trong kỳ lương tiếp theo. Nhấp vào nút thông minh Báo cáo trong phiếu lương tiếp theo, và các khoản chi phí sẽ được thêm vào phiếu lương kế tiếp xuất cho nhân viên đó. Ngoài ra, một tin nhắn sẽ được ghi lại trong phần cửa sổ trò chuyện cho biết chi phí đã được thêm vào phiếu lương tiếp theo.
 
-![The Report in Next Payslip button, visible with an expense report status of Approved.](applications/finance/expenses/reimburse/pay-via-payslip.png)
+![The Report in Next Payslip button, visible with an expense report status of Approved.](reimburse/pay-via-payslip.png)
 
 The status for the expense report remains Approved. The status only changes to
 Posted (and then Done), when the paycheck is processed.

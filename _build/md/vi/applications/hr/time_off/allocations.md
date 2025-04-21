@@ -82,7 +82,7 @@ information:
   allocation, enter it in this field at the bottom of the form.
 
 ![A new allocation form with all the fields filled out for the annual two week vacation
-granted to all employees.](applications/hr/time_off/allocations/new-allocation.png)
+granted to all employees.](allocations/new-allocation.png)
 
 <a id="time-off-request-allocation"></a>
 
@@ -124,4 +124,4 @@ automatically saved as it is entered. However, the form can be saved manually at
 clicking the <i class="fa fa-cloud-upload"></i> (cloud upload) icon.
 
 ![An allocation request form filled out for an employee requesting an additional week of
-sick time.](applications/hr/time_off/allocations/allocation-request.png)
+sick time.](allocations/allocation-request.png)

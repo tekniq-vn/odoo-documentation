@@ -8,7 +8,7 @@ To make a new department, navigate to Employees app ‣ Departments, then click
 New in the top-left to reveal a blank department form. Fill out the following
 information on the department form:
 
-![The department for with all fields filled out.](applications/hr/employees/departments/department-form.png)
+![The department for with all fields filled out.](departments/department-form.png)
 - Department Name: enter a name for the department.
 - Manager: using the drop-down menu, select the department manager.
 - Parent Department: if the new department is housed within another department (has a
@@ -46,7 +46,7 @@ To view the currently configured departments, navigate to Employees app ‣
 Departments. All departments appear in a Kanban view, by default, and are listed in alphabetical
 order.
 
-![The departments dashboard view with all the department cards in a Kanban view.](applications/hr/employees/departments/departments.png)
+![The departments dashboard view with all the department cards in a Kanban view.](departments/departments.png)
 
 ### Chế độ xem kanban
 
@@ -89,7 +89,7 @@ Parent Department, and Color for each department.
 
 The departments are sorted alphabetically by Department Name, by default.
 
-![The departments presented in a list view.](applications/hr/employees/departments/list.png)
+![The departments presented in a list view.](departments/list.png)
 
 ### Hierarchy view
 

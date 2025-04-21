@@ -29,7 +29,7 @@ click the <i class="fa fa-info-circle"></i> (information) icon in the footer of 
 Invoice Lines tab. To access additional information, such as the related journal entry,
 click View.
 
-![See detailed information of a payment.](applications/finance/accounting/payments/information-icon.png)
+![See detailed information of a payment.](payments/information-icon.png)
 
 #### NOTE
 - The customer invoice or vendor bill must be in the Posted status to register the
@@ -68,7 +68,7 @@ A blue banner appears when validating a new invoice/bill and an **outstanding pa
 this specific customer or vendor. To match it with the invoice or bill, click Add
 under Outstanding Credits or Outstanding Debits.
 
-![Shows the Add option to reconcile an invoice or a bill with a payment.](applications/finance/accounting/payments/add-option.png)
+![Shows the Add option to reconcile an invoice or a bill with a payment.](payments/add-option.png)
 
 The invoice or bill is then marked as In payment until the payment is [reconciled](bank/reconciliation.md) with its corresponding [bank transaction(s)](bank/transactions.md).
 
@@ -148,7 +148,7 @@ outstanding balance. There are two options:
   change the Label if needed. A journal entry will be created to balance the accounts
   payable or receivable with the selected account.
 
-![register a partial payment](applications/finance/accounting/payments/partial-payment.png)
+![register a partial payment](payments/partial-payment.png)
 
 <a id="accounting-payments-reconciling-payments"></a>
 

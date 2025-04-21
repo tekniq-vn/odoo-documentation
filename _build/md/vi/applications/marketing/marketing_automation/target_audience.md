@@ -35,7 +35,7 @@ To refine the Filter rules of a campaign, click the ➕ Add condition button
 to reveal a new row with configurable rule parameters. See the [Search, filter, and group
 records](../../essentials/search.md#search-custom-filters) documentation for more information on how to create filter rules.
 
-![A new filter rule row on the campaign form Filters.](applications/marketing/marketing_automation/target_audience/domain-filters.png)
+![A new filter rule row on the campaign form Filters.](target_audience/domain-filters.png)
 
 At the bottom of the filter rules is a # record(s) button, which indicates the total
 number of records targeted by this domain. Select the # record(s) button to open a

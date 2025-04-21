@@ -19,7 +19,7 @@ open the to reveal that team's pipeline on a separate page.
 From the pipeline page, hover over a stage's heading, and click the ⚙️ (gear) icon that
 appears in the top-right corner of that stage's Kanban column.
 
-![View of stage on Helpdesk pipeline with emphasis on gear icon and edit stage option.](applications/services/helpdesk/advanced/close_tickets/closing-edit-stage-gear.png)
+![View of stage on Helpdesk pipeline with emphasis on gear icon and edit stage option.](close_tickets/closing-edit-stage-gear.png)
 
 From the menu that appears, select Edit. This opens the stage's settings in a pop-up
 window.
@@ -29,7 +29,7 @@ window. Then, click Save & Close to confirm the changes.
 
 Tickets that reach this stage are now considered: *closed*.
 
-![Stage settings page.](applications/services/helpdesk/advanced/close_tickets/closing-folded-setting.png)
+![Stage settings page.](close_tickets/closing-folded-setting.png)
 
 #### WARNING
 Clicking the ⚙️ (gear) icon also displays the option to Fold the stage.
@@ -79,12 +79,12 @@ To allow customers to close their own tickets, start by navigating to Helpdesk a
 scroll to the Self-Service section, and check the box for Closure by
 Customers.
 
-![Customer closing setting in Odoo Helpdesk.](applications/services/helpdesk/advanced/close_tickets/closing-by-customer-setting.png)
+![Customer closing setting in Odoo Helpdesk.](close_tickets/closing-by-customer-setting.png)
 
 Once the ticket closing settings are enabled, a Close Ticket button is available for
 customers when they view their ticket through the customer portal.
 
-![Customer view of ticket closing in Odoo Helpdesk.](applications/services/helpdesk/advanced/close_tickets/closing-customer-view.png)
+![Customer view of ticket closing in Odoo Helpdesk.](close_tickets/closing-customer-view.png)
 
 #### NOTE
 Customers are able to view their tickets by clicking the View the ticket link they

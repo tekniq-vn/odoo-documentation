@@ -12,14 +12,14 @@ section, tick the Storage Locations checkbox. Then, click Save.
 Typically, the Storage Locations feature is used with [Multi-Step Routes](../../shipping_receiving/daily_operations/use_routes.md), which controls how products move between
 locations.
 
-![Show Storage Locations feature.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations/enable-location.png)
+![Show Storage Locations feature.](use_locations/enable-location.png)
 
 ## Create new location
 
 After enabling *Storage Locations*, go to Inventory app ‣ Configuration ‣
 Locations.
 
-![List of internal locations.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations/locations.png)
+![List of internal locations.](use_locations/locations.png)
 
 On this page, click New. The new location form can then be configured as follows:
 
@@ -49,7 +49,7 @@ location serves its intended purpose in the database:
   a destination for receiving products from *Buy*, *Manufacture*, or other procurement routes,
   ensuring products are correctly supplied to the warehouse.
 
-![Additional Information section of new location creation form.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations/new-location.png)
+![Additional Information section of new location creation form.](use_locations/new-location.png)
 
 Configure the remaining fields in the Additional Information section as follows:
 
@@ -66,7 +66,7 @@ Configure the remaining fields in the Additional Information section as follows:
 In the Cyclic Counting section, change the value in the Inventory Frequency
 (Days) field from the default `0`, if necessary.
 
-![Cyclic Counting section of new location creation form.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations/use-locations-cyclic-counting.png)
+![Cyclic Counting section of new location creation form.](use_locations/use-locations-cyclic-counting.png)
 
 When different than `0`, the inventory count dates for products stored at this location are
 automatically set at the defined frequency.

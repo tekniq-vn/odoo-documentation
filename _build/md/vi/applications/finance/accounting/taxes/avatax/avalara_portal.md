@@ -10,7 +10,7 @@ To access the console, first, navigate to either Avalara's [sandbox](https://san
 This will depend on which type of account was set in the [integration](../avatax.md). Log in to
 the management console.
 
-![Avalara dashboard after logging into management portal.](applications/finance/accounting/taxes/avatax/avalara_portal/avalara-portal.png)
+![Avalara dashboard after logging into management portal.](avalara_portal/avalara-portal.png)
 
 #### SEE ALSO
 For more information see Avalara's documentation: [Activate your Communications Customer Portal
@@ -24,7 +24,7 @@ To access transactions, click in the Transactions link on the main dashboard upo
 logging into the [Cổng thông tin Avalara (Avatax)](#avatax-portal). To manually access the *Transactions* page, while logged into
 the Avalara console, navigate to Transactions ‣ Transactions.
 
-![Avalara portal with the transactions shortcut highlighted.](applications/finance/accounting/taxes/avatax/avalara_portal/avalara-transactions.png)
+![Avalara portal with the transactions shortcut highlighted.](avalara_portal/avalara-transactions.png)
 
 ### Edit transaction
 
@@ -75,7 +75,7 @@ available by default, to sort by ascending or descending order:
 - Amount: the numeric amount of the total amount on the Odoo document.
 - Tax: the numeric amount of the tax applied to the total.
 
-![Transactions page on the Avalara portal with the filter and sort-by options highlighted.](applications/finance/accounting/taxes/avatax/avalara_portal/transactions.png)
+![Transactions page on the Avalara portal with the filter and sort-by options highlighted.](avalara_portal/transactions.png)
 
 #### Customize columns
 
@@ -164,7 +164,7 @@ the company collects customs duty. Simply click on the <i class="fa fa-plus"></i
 where you calculate customs duty icon below the tab.
 
 ![AvaTax management console, on the Where you collect tax page, with the add button and
-sales and use tax tab highlighted.](applications/finance/accounting/taxes/avatax/avalara_portal/where-you-collect-tax.png)
+sales and use tax tab highlighted.](avalara_portal/where-you-collect-tax.png)
 
 #### SEE ALSO
 [See Avalara's documentation: Add local jurisdiction taxes](https://community.avalara.com/support/s/document-item?language=en_US&bundleId=bla1700809896571_bla1700809896571&topicId=nbw1698727575499.html&_LANG=enus).
@@ -185,7 +185,7 @@ certificate images, and to be ready for an audit. For more on subscribing to thi
 
 Dịch vụ của Avalara bao gồm cả dịch vụ khai thuế, dành cho thời điểm nộp thuế vào cuối năm. Để truy cập vào dịch vụ thuế của Avalara, hãy đăng nhập vào cổng quản lý <[https://admin.avalara.com/](https://admin.avalara.com/)>_. Sau đó, từ trang chủ, nhấp vào Khai thuế. Avalara sẽ yêu cầu người dùng Avalara đăng nhập lại vì lý do bảo mật và sẽ chuyển hướng người dùng đến cổng thông tin *Khai thuế*.
 
-![Avalara portal with the returns shortcut highlighted.](applications/finance/accounting/taxes/avatax/avalara_portal/avalara-returns.png)
+![Avalara portal with the returns shortcut highlighted.](avalara_portal/avalara-returns.png)
 
 Click Get started to begin the tax return process. For more information, refer to this
 Avalara documentation: [About Managed Returns](https://community.avalara.com/support/s/document-item?language=en_US&bundleId=hps1656397152776_hps1656397152776&topicId=Learn_about_Managed_Returns.html&_LANG=enus).

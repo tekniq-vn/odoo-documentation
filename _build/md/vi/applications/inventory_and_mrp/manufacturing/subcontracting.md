@@ -27,7 +27,7 @@ To enable subcontracting in Odoo, navigate to Manufacturing app ‣ Configuratio
 ‣ Settings, and tick the checkbox next to the Subcontracting setting, under the
 Operations heading. Then, click Save.
 
-![The Subcontracting setting in the manufacturing app.](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting-setting.png)
+![The Subcontracting setting in the manufacturing app.](subcontracting/subcontracting-setting.png)
 
 With subcontracting enabled, a few different features become available in Odoo:
 

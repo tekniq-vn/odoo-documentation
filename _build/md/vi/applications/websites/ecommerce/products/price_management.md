@@ -39,7 +39,7 @@ You can choose to display the type of pricing next to the product price by going
 Website ‣ Site ‣ Homepage ‣ Shop, selecting a product, and then
 Edit ‣ Customize tab and enabling Tax Indication.
 
-![Tax type displayed on the product page](applications/websites/ecommerce/products/price_management/price-tax-display-type.png)
+![Tax type displayed on the product page](price_management/price-tax-display-type.png)
 
 #### SEE ALSO
 [B2B (tax excluded) and B2C (tax included) pricing](../../../finance/accounting/taxes/B2B_B2C.md)
@@ -52,12 +52,12 @@ Reference Price under the Shop - Products section. When enabled, ensure an amoun
 set in the Base Unit Count field of the **product template**, and in the
 Sales Price.
 
-![Cost per unit pricing on the product template](applications/websites/ecommerce/products/price_management/price-cost-per-unit.png)
+![Cost per unit pricing on the product template](price_management/price-cost-per-unit.png)
 
 The price per unit of measure can be found above the Add to Cart button on the product
 page.
 
-![Cost per unit pricing on the product page](applications/websites/ecommerce/products/price_management/price-cost-per-unit-page.png)
+![Cost per unit pricing on the product page](price_management/price-cost-per-unit-page.png)
 
 #### NOTE
 Pay attention that having the price per unit may be **mandatory** in some countries.
@@ -93,7 +93,7 @@ If you are selling in **multiple currencies** and have pricelists in foreign cur
 can select their corresponding pricelist anywhere on the Shop page from the drop-down
 menu next to the **search bar**.
 
-![Pricelists selection](applications/websites/ecommerce/products/price_management/price-pricelists.png)
+![Pricelists selection](price_management/price-pricelists.png)
 
 #### SEE ALSO
 - [Pricelists, discounts, and formulas](../../../sales/sales/products_prices/prices/pricing.md)
@@ -105,7 +105,7 @@ If you have permanently reduced the price of a product, a popular means to attra
 **strikethrough** strategy. The strategy consists in displaying the previous price crossed out and
 the **new discounted price** next to it.
 
-![Giá gạch ngang](applications/websites/ecommerce/products/price_management/price-strikethrough.png)
+![Giá gạch ngang](price_management/price-strikethrough.png)
 
 To display a 'striked' price, enable the Comparison Price option under
 Website ‣ Configuration ‣ Settings ‣ Shop - Products category. Then, head to

@@ -108,12 +108,12 @@ account (although they can not be used to log-in via the interface).
 In order to add a key to your account, simply go to your
 Preferences (or My Profile):
 
-![image](developer/reference/external_api/preferences.png)
+![image](external_api/preferences.png)
 
 then open the Account Security tab, and click
 New API Key:
 
-![image](developer/reference/external_api/account-security.png)
+![image](external_api/account-security.png)
 
 Input a description for the key, **this description should be as clear and
 complete as possible**: it is the only way you will have to identify your keys
@@ -128,7 +128,7 @@ lost).
 Once you have keys configured on your account, they will appear above the
 New API Key button, and you will be able to delete them:
 
-![image](developer/reference/external_api/delete-key.png)
+![image](external_api/delete-key.png)
 
 **A deleted API key can not be undeleted or re-set**. You will have to generate
 a new key and update all the places where you used the old one.

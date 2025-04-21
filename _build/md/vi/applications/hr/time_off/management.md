@@ -62,7 +62,7 @@ click the <i class="fa fa-check"></i> Validate button at the end of the line.
 To refuse a request, click the <i class="fa fa-times"></i> Refuse button at the far end of the
 line.
 
-![Time off requests with the filter, groupings, and status sections highlighted.](applications/hr/time_off/management/time-off-requests.png)
+![Time off requests with the filter, groupings, and status sections highlighted.](management/time-off-requests.png)
 
 For more details, click anywhere on the time off request line (except for the <i class="fa fa-thumbs-up"></i>
 Approve, <i class="fa fa-check"></i> Validate icon, and <i class="fa fa-times"></i>
@@ -127,7 +127,7 @@ highlighted in green, and the Refused requests are highlighted in gray.
 To approve an allocation request, click the <i class="fa fa-check"></i> Validate button at the end
 of the line. To refuse a request, click the <i class="fa fa-times"></i> Refuse button.
 
-![Allocations with the filter, groupings, and status sections highlighted.](applications/hr/time_off/management/allocations.png)
+![Allocations with the filter, groupings, and status sections highlighted.](management/allocations.png)
 
 If more details are needed, click anywhere on the allocation request line (except for the
 <i class="fa fa-check"></i> Validate or <i class="fa fa-times"></i> Refuse buttons) to view the

@@ -19,7 +19,7 @@ Then, set a default fiscal position that should be applied to all sales in the s
 Default field. You can also add more fiscal positions to choose from in the
 Allowed field.
 
-![image](applications/sales/point_of_sale/pricing/fiscal_position/flexible-taxes-setting.png)
+![image](fiscal_position/flexible-taxes-setting.png)
 
 According to the [fiscal localization package](../../../finance/fiscal_localizations.md)
 activated, several fiscal positions are preconfigured and can be set and used in POS. However, you
@@ -36,7 +36,7 @@ click the Tax button next to the **book-shaped** icon and select a fiscal positi
 the list. Doing so applies the defined rules automatically to all the products subject to the chosen
 fiscal position's regulations.
 
-![image](applications/sales/point_of_sale/pricing/fiscal_position/set-tax.png)
+![image](fiscal_position/set-tax.png)
 
 #### NOTE
 If a default fiscal position is set, the tax button displays the name of the fiscal position.

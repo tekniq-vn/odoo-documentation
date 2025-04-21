@@ -25,7 +25,7 @@ on Validation section to download the PDF of those selected documents automatica
 validating the Operation Type. For details on what each of the checkbox options do, jump
 to the related section.
 
-![Show the *Print on Validation* option in the "Pick" *Operation Type*.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation/print-on-validation.png)
+![Show the *Print on Validation* option in the "Pick" *Operation Type*.](print_on_validation/print-on-validation.png)
 
 <a id="inventory-shipping-receiving-delivery-slip"></a>
 
@@ -45,7 +45,7 @@ operation type downloads a PDF of the delivery slip.
 The delivery slip shows products, quantities, the delivery order reference number, and the total
 order weight.
 
-![Example delivery slip.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation/delivery-slip.png)
+![Example delivery slip.](print_on_validation/delivery-slip.png)
 
 <a id="inventory-shipping-receiving-return-slip"></a>
 
@@ -62,7 +62,7 @@ operation type downloads a PDF of the return slip.
 The return slip displays the company's return address, along with barcodes for both the order and
 the return operation.
 
-![Example return slip.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation/return-slip.png)
+![Example return slip.](print_on_validation/return-slip.png)
 
 <a id="inventory-shipping-receiving-product-labels"></a>
 
@@ -137,7 +137,7 @@ details on connecting a printer to Odoo's *IoT* app. Upon completion, assign the
 the printer, by navigating to IoT app ‣ Devices, and selecting the desired
 printer.
 
-![Show a list of IoT devices.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation/select-printer.png)
+![Show a list of IoT devices.](print_on_validation/select-printer.png)
 
 In the printer configuration form, go to the Printer Reports tab to configure the types
 of documents the printer automatically prints. Click Add a line to open the
@@ -147,7 +147,7 @@ select Shipping Labels.
 #### NOTE
 The Shipping Documents report is for [export documents](#inventory-shipping-receiving-export-doc).
 
-![Show carrier label report added to the *Printer Reports*.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation/printer-report.png)
+![Show carrier label report added to the *Printer Reports*.](print_on_validation/printer-report.png)
 
 After adding the Shipping Labels report in the Printer Reports tab, ensure
 the Report Type matches the IoT-connected printer's type.
@@ -168,7 +168,7 @@ ensure the Label Format matches the [report type assigned earlier](#inventory-sh
 - For laser printers, set the Label Format to PDF.
 - For Zebra printers, set the Label Format to ZPL2.
 
-![Show the *Label Type* field on FedEx's shipping method configuration page.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation/label-type.png)
+![Show the *Label Type* field on FedEx's shipping method configuration page.](print_on_validation/label-type.png)
 
 ### Example carrier label
 

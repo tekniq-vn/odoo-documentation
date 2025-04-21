@@ -14,7 +14,7 @@ The first step to track expenses is to configure the different types of expenses
 needed. Go to Expenses app ‣ Configuration ‣ Expense Categories to view the
 current expensable categories in a default list view.
 
-![Set expense costs on products.](applications/finance/expenses/categories.png)
+![Set expense costs on products.](expenses/categories.png)
 
 To create a new expense category, click New. A product form will appear, with the
 description field labeled Product Name.
@@ -29,7 +29,7 @@ Only two fields are required, the Product Name and the Unit of Measure.
 Enter the Product Name in the field, and select the Unit of Measure from the
 drop-down menu (most products will be set to Units).
 
-![Set expense costs on products.](applications/finance/expenses/new-expense-product.png)
+![Set expense costs on products.](expenses/new-expense-product.png)
 
 The Cost field on the product form is populated with a value of `0.00` by default. When
 a specific expense should always be reimbursed for a particular price, enter that amount in the

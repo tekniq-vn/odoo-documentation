@@ -8,7 +8,7 @@ In order to split a delivery order across multiple packages, the *Packages* sett
 To do so, navigate to Inventory ‣ Configuration ‣ Settings, then enable the
 checkbox next to Packages. Click Save to confirm the change.
 
-![The Packages setting on the Inventory app settings page.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack/packages-setting.png)
+![The Packages setting on the Inventory app settings page.](multipack/packages-setting.png)
 
 <a id="inventory-shipping-multiple-packages"></a>
 
@@ -21,7 +21,7 @@ items, a multiple quantity of the same item, or both.
 On the Operations tab, select the ⁞≣ (menu) icon in the line of the product
 that will be shipped in the first package.
 
-![The menu icon for a product in a delivery order.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack/product-menu-icon.png)
+![The menu icon for a product in a delivery order.](multipack/product-menu-icon.png)
 
 This makes a Detailed Operations pop-up window appear. In the table at the bottom of the
 pop-up window, the Reserved column shows the total quantity of the product included in
@@ -29,12 +29,12 @@ the delivery order.
 
 Nếu toàn bộ số lượng sẽ được giao trong kiện hàng đầu tiên, hãy nhập số từ cột Hoàn tất vào cột Đã giữ trữ. Nếu chỉ giao một phần số lượng trong kiện hàng đầu tiên, hãy nhập một số nhỏ hơn so với số xuất hiện trong cột Đã dự trữ. Nhấp Xác nhận để xác nhận số lượng Hoàn tất và đóng cửa sổ bật lên.
 
-![The Detailed Operations pop-up for a product in a delivery order.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack/detailed-operations.png)
+![The Detailed Operations pop-up for a product in a delivery order.](multipack/detailed-operations.png)
 
 Repeat the same steps for every item quantity that is included in the first package. Then, click
 Put In Pack to create a package with all of the selected items.
 
-![The Put In Pack button on a delivery order.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack/put-in-pack.png)
+![The Put In Pack button on a delivery order.](multipack/put-in-pack.png)
 
 For the next package, follow the same steps as detailed above, marking the quantity of each item to
 be included in the package as Done before clicking Put In Pack on the
@@ -55,19 +55,19 @@ Validate button, and a Create Backorder? pop-up window appears. Then, click
 the Create Backorder button. Doing so confirms the items being shipped immediately and
 creates a new delivery order for the items that will be shipped later.
 
-![The Create Backorder? pop-up window.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack/backorder-pop-up.png)
+![The Create Backorder? pop-up window.](multipack/backorder-pop-up.png)
 
 The backorder delivery order will be listed in the chatter of the original delivery order in a
 message that reads The backorder WH/OUT/XXXXX has been created.. Click on
 WH/OUT/XXXXX in the message to view the backorder delivery order.
 
-![The backorder delivery order listed in the chatter of the original delivery order.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack/backorder-chatter.png)
+![The backorder delivery order listed in the chatter of the original delivery order.](multipack/backorder-chatter.png)
 
 The backorder delivery order can also be accessed by navigating to Inventory,
 clicking the # Back Orders button on the Delivery Orders card, and selecting
 the delivery order.
 
-![The Back Orders button on the Delivery Orders card.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack/back-orders-button.png)
+![The Back Orders button on the Delivery Orders card.](multipack/back-orders-button.png)
 
 Once the remaining items are ready to be shipped, navigate to the backorder delivery order. The
 items can be shipped in a single package by clicking Validate and selecting

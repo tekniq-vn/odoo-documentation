@@ -42,7 +42,7 @@ Configuration tab.
 Lastly, click Save to finish creating a *regular* warehouse. Continue following the
 steps below to finish configuring the virtual parent warehouse.
 
-![New warehouse form.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses/stock-warehouses-create-warehouse.png)
+![New warehouse form.](stock_warehouses/stock-warehouses-create-warehouse.png)
 
 #### SEE ALSO
 - [Cấu hình kho hàng](../../warehouses_storage/inventory_management/warehouses.md)
@@ -87,7 +87,7 @@ To select the virtual warehouse's stock location in the Parent Location drop-dow
 menu, the parent warehouse stock location (e.g. `VWH/Stock`) **must**  have its
 Location Type set to Internal Location.
 
-![Set the child warehouse's *Parent Location* to the virtual warehouse.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses/configure-physical-wh.png)
+![Set the child warehouse's *Parent Location* to the virtual warehouse.](stock_warehouses/configure-physical-wh.png)
 
 Repeat the preceding steps to configure two or more child warehouses.
 
@@ -106,7 +106,7 @@ Click the virtual warehouse's stock location (e.g. `VWH/Stock`) that was [previo
 On the location form, under the Additional Information heading, set the
 Location Type to View. Save the changes.
 
-![Warehouse location types in location creation screen.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses/set-location-type-view.png)
+![Warehouse location types in location creation screen.](stock_warehouses/set-location-type-view.png)
 
 ## Example: sell products from a virtual warehouse
 
@@ -122,7 +122,7 @@ Then, click the Other Info tab on the sales order form. Under the Delivery
 section, change the Warehouse field value to the virtual warehouse that was
 [previously created](#inventory-routes-virtual-wh). Next, Confirm the sales order.
 
-![Set virtual warehouse as the *Warehouse* field in sales order's *Other Info* tab.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses/set-virtual-wh.png)
+![Set virtual warehouse as the *Warehouse* field in sales order's *Other Info* tab.](stock_warehouses/set-virtual-wh.png)
 
 Then, click the Delivery smart button. From the warehouse delivery form, confirm that
 the Source Location value matches the Warehouse field value from the sales
@@ -132,7 +132,7 @@ Finally, on the warehouse delivery form, under the Detailed Operations tab, conf
 the Locations in the From column for each product match the child locations
 that are tied to the virtual parent location.
 
-![Delivery order with matching source and child locations.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses/delivery-order.png)
+![Delivery order with matching source and child locations.](stock_warehouses/delivery-order.png)
 
 #### IMPORTANT
 > The Source Location on the warehouse delivery form, and the Warehouse

@@ -6,7 +6,7 @@ click on their **username** in the top-right corner of the screen, and click My 
 From there, customers can access their quotations, orders,
 invoices, etc.
 
-![Customer account log-in](applications/websites/ecommerce/customer_accounts/account-log.png)
+![Customer account log-in](customer_accounts/account-log.png)
 
 #### NOTE
 Customers can only have an account if the [sign in/up at checkout](checkout.md#checkout-sign) option
@@ -22,7 +22,7 @@ builder. Log in your **own** account with your Odoo database credentials, and go
 Edit ‣ Customize. From the website builder menu, enable or disable the documents
 customers can have access to.
 
-![Documents to which customers have access to from their account](applications/websites/ecommerce/customer_accounts/account-documents.png)
+![Documents to which customers have access to from their account](customer_accounts/account-documents.png)
 
 ## Multi-website account
 

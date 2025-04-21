@@ -90,7 +90,7 @@ Tuy nhiên, khi tiến hành sản xuất, giá trị trong cột Chi phí thự
 
 Sau khi  được hoàn thành bằng cách nhấp vào Sản xuất tất cả, các giá trị trong cột Chi phí MO sẽ cập nhật cho khớp với giá trị hiển thị trong cột Chi phí thực tế.
 
-![Trang Tổng quan MO](applications/inventory_and_mrp/manufacturing/basic_setup/mo_costs/overview.png)
+![Trang Tổng quan MO](mo_costs/overview.png)
 
 ## Chi phí sản xuất trung bình
 

@@ -28,7 +28,7 @@ Multi-Step Routes features are enabled.
 
 Next, activate the Storage Categories feature. Finally, click Save.
 
-![Show the Storage Categories feature.](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category/enable-categories.png)
+![Show the Storage Categories feature.](storage_category/enable-categories.png)
 
 <a id="inventory-routes-define-storage"></a>
 

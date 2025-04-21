@@ -70,7 +70,7 @@ Test Mode for a sandbox account.
 - Select all transactions within the desired range, copy them, and paste them into the
   Report 1 Download sheet of the [Excel import template](#authorize-import-template).
 
-![Selecting Authorize.Net transactions to import](applications/finance/payment_providers/authorize/authorize-report1.png)
+![Selecting Authorize.Net transactions to import](authorize/authorize-report1.png)
 
 Once the data is in the Report 1 Download sheet:
 

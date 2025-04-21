@@ -21,14 +21,14 @@ Confirm to confirm the order.
 After manufacturing the quantity that is being produced immediately, enter that number in the
 Quantity field at the top of the manufacturing order.
 
-![The quantity field on a manufacturing order.](applications/inventory_and_mrp/manufacturing/workflows/manufacturing_backorders/quantity-field.png)
+![The quantity field on a manufacturing order.](manufacturing_backorders/quantity-field.png)
 
 Next, click Validate, and a You produced less than initial demand pop-up
 window appears, from which a backorder can be created. Click Create Backorder to split
 the manufacturing order into two separate orders, with the reference tags *WH/MO/XXXXX-001* and
 *WH/MO/XXXXX-002*.
 
-![The Create Backorder button on the "You produced less than initial demand" pop-up window.](applications/inventory_and_mrp/manufacturing/workflows/manufacturing_backorders/create-backorder-button.png)
+![The Create Backorder button on the "You produced less than initial demand" pop-up window.](manufacturing_backorders/create-backorder-button.png)
 
 Order *001* contains the items that have been manufactured, and is closed immediately. Order *002*
 is the backorder that contains the items that have yet to be manufactured, and remains open, to be
@@ -75,7 +75,7 @@ On the Register Production pop-up window, enter the number of units produced in 
 Quantity field. Make sure the number entered is *less* than the number of units listed
 to the right of the field. Then, click Validate.
 
-![The Register Production pop-up window in the Shop Floor module.](applications/inventory_and_mrp/manufacturing/workflows/manufacturing_backorders/register-production.png)
+![The Register Production pop-up window in the Shop Floor module.](manufacturing_backorders/register-production.png)
 
 The pop-up window disappears and the # Units button on the work order's card updates to
 reflect the number of units produced, as a fraction of the number of units for which the  was

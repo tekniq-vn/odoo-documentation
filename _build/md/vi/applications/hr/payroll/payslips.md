@@ -11,7 +11,7 @@ three sections: To Pay, All Payslips, and Batches.
 These three sections provide all the tools needed to create payslips for employees, including
 individual payslips, a batch of payslips, or commission payslips.
 
-![Payslips menu selection in Payroll.](applications/hr/payroll/payslips/payslips.png)
+![Payslips menu selection in Payroll.](payslips/payslips.png)
 
 <a id="payroll-to-pay"></a>
 
@@ -21,7 +21,7 @@ Click on Payroll app ‣ Payslips ‣ To Pay to see the payslips that need to be
 paid. On this page, Odoo displays the payslips that have not been generated yet, and can be created
 from this dashboard.
 
-![View all payslips that need to be paid on the Payslips To Pay page.](applications/hr/payroll/payslips/all-pay-slips.png)
+![View all payslips that need to be paid on the Payslips To Pay page.](payslips/all-pay-slips.png)
 
 Each payslip lists the Reference number for the individual payslip, the
 Employee name, the Batch Name, the Company, the Basic
@@ -73,7 +73,7 @@ Fill out the following information on the payslip form:
   the list. Once an employee and/or contract is selected, any unavailable Structures set
   for that employee and/or contract do not appear. This field is **required**.
 
-![The top fields for a new payslip all filled out for a February payslip.](applications/hr/payroll/payslips/new-payslip.png)
+![The top fields for a new payslip all filled out for a February payslip.](payslips/new-payslip.png)
 
 #### NOTE
 Typically, after making a selection in the Employee field, Odoo auto-populates all
@@ -101,7 +101,7 @@ accounting department to ensure every entry that affects the *Accounting* applic
   Next, enter a Description, if desired. Lastly, enter the amount in the
   Count field.
 
-![The fields filled out in the worked days and inputs tab.](applications/hr/payroll/payslips/worked-days-tab.png)
+![The fields filled out in the worked days and inputs tab.](payslips/worked-days-tab.png)
 
 ##### Salary computation tab
 
@@ -111,7 +111,7 @@ accounting department to ensure every entry that affects the *Accounting* applic
 - Has Negative Net To Report: click the checkbox if the employee has a negative net
   amount for this payslip. This **only** appears if the employee's payslip has a negative balance.
 
-![The fields filled out in the salary computation tab.](applications/hr/payroll/payslips/salary-comp-tab.png)
+![The fields filled out in the salary computation tab.](payslips/salary-comp-tab.png)
 
 ##### Other info tab
 
@@ -134,7 +134,7 @@ accounting department to ensure every entry that affects the *Accounting* applic
 - Add an Internal Note...: any note or reference message for the new entry can be typed
   in this field.
 
-![The fields filled out in the other info tab.](applications/hr/payroll/payslips/other-info-tab.png)
+![The fields filled out in the other info tab.](payslips/other-info-tab.png)
 
 #### Process the new payslip
 
@@ -163,14 +163,14 @@ The database may need to be refreshed for the payslip and email to appear.
 To print the payslip, click the Print button. To cancel the payslip, click the
 Cancel button.
 
-![The new payslip is emailed to the employee and the email appears in the chatter.](applications/hr/payroll/payslips/payslip-chatter.png)
+![The new payslip is emailed to the employee and the email appears in the chatter.](payslips/payslip-chatter.png)
 
 Tiếp theo, khoản thanh toán phải được gửi đến nhân viên. Để thực hiện, nhấp vào nút Ghi nhận thanh toán. Thao tác này sẽ hiển thị biểu mẫu bật lên, trong đó cần chọn Sổ nhật ký ngân hàng mong muốn để thực hiện thanh toán từ menu thả xuống. Sau đó, nhấp vào nút Xác nhận để xác nhận sổ nhật ký và quay lại phiếu lương.
 
 #### IMPORTANT
 Để một phiếu lương có thể được thanh toán, nhân viên *bắt buộc* phải có thông tin tài khoản ngân hàng trong phần thông tin liên hệ. Nếu không có thông tin ngân hàng, phiếu lương không thể thanh toán được và hệ thống sẽ hiển thị lỗi khi nhấp vào nút Thanh toán. Thông tin ngân hàng có thể được tìm thấy trong tab [Thông tin cá nhân](../employees/new_employee.md#employees-private-info) trên thẻ nhân viên trong ứng dụng *Nhân viên*. Chỉnh sửa thẻ nhân viên và thêm thông tin ngân hàng nếu thiếu.
 
-![Banking information can be entered in an employee's card.](applications/hr/payroll/payslips/banking.png)
+![Banking information can be entered in an employee's card.](payslips/banking.png)
 
 Odoo automatically checks bank account information. If there is an error with the employee's listed
 bank account, an error appears in a pop-up window, stating, *The employee bank account is
@@ -202,7 +202,7 @@ following status options:
 - Done: the payslip is calculated and ready to be paid.
 - Paid: the employee has been paid.
 
-![View all payslips organized by batches. Click on the arrow to expand each batch.](applications/hr/payroll/payslips/all-payslips.png)
+![View all payslips organized by batches. Click on the arrow to expand each batch.](payslips/all-payslips.png)
 
 Click on an individual payslip to view the details for that payslip on a separate page. Using the
 breadcrumb menu, click Employee Payslips to go back to the list view of all payslips.
@@ -219,11 +219,11 @@ Payslips can also be exported to an Excel spreadsheet. To export **all** payslip
 corner. This reveals a drop-down menu. Click Export All to export all payslips to a
 spreadsheet.
 
-![Click on the Export All smart button to export all payslips to an Excel payslip.](applications/hr/payroll/payslips/export.png)
+![Click on the Export All smart button to export all payslips to an Excel payslip.](payslips/export.png)
 
 Để chỉ xuất những phiếu lương đã chọn, trước tiên hãy chọn các phiếu lương cần xuất từ danh sách. Sau đó, nhấp vào hộp kiểm ở bên trái mỗi phiếu lương để chọn phiếu lương đó. Khi chọn xong, một nút thông minh sẽ xuất hiện ở giữa phía trên của trang, cho biết số lượng phiếu lương đã chọn. Sau đó, nhấp vào biểu tượng ⚙️ (bánh răng) Tác vụ ở giữa phía trên của trang và chọn Xuất.
 
-![The individual list of employee ayslips with three selected to be exported.](applications/hr/payroll/payslips/export-select.png)
+![The individual list of employee ayslips with three selected to be exported.](payslips/export-select.png)
 
 #### NOTE
 Both *To Pay* and *All Payslips* display all the detailed information for each payslip.
@@ -238,7 +238,7 @@ Each batch displays the Name, Date From and Date To dates, its
 Status, the number of payslips in the batch (Payslips Count), and the
 Company.
 
-![View displaying all batches created.](applications/hr/payroll/payslips/batches.png)
+![View displaying all batches created.](payslips/batches.png)
 
 ### Create a new batch
 
@@ -256,7 +256,7 @@ The current company populates the Company field. If operating in a multi-company
 environment, it is **not** possible to modify the Company from the form. The batch
 **must** be created while in the database for the desired company.
 
-![Enter the details for the new batch.](applications/hr/payroll/payslips/new-batch-details.png)
+![Enter the details for the new batch.](payslips/new-batch-details.png)
 
 <a id="payroll-batch-process"></a>
 
@@ -267,7 +267,7 @@ detail page, different options (buttons) appear at the top, depending on the sta
 
 - New status: batches without any payslips added to them have a status of
   New. The following button options appear for these batches:
-  > ![A batch with a status of new, with the available buttons highlighted.](applications/hr/payroll/payslips/batch-new.png)
+  > ![A batch with a status of new, with the available buttons highlighted.](payslips/batch-new.png)
   > - Add Payslips: click the Add Payslips button to add payslips to the
   >   batch, and an Add Payslips pop-up window appears. Only payslips that can be added
   >   to the batch (payslips not currently part of a batch) appear on the list.
@@ -290,7 +290,7 @@ detail page, different options (buttons) appear at the top, depending on the sta
 - Confirmed status: batches that have been created and have payslips in them, but the
   payslips have *not* been processed, have a status of Confirmed. The following two
   button options appear for these batches:
-  ![A batch with a status of confirmed, with the available buttons highlighted.](applications/hr/payroll/payslips/batch-confirmed.png)
+  ![A batch with a status of confirmed, with the available buttons highlighted.](payslips/batch-confirmed.png)
   - Create Draft Entry: click the Create Draft Entry button to confirm the
     individual payslips (and the batch), and create a draft of the payslips. The batch now has a
     status of Done.
@@ -299,7 +299,7 @@ detail page, different options (buttons) appear at the top, depending on the sta
     payslips that have already been added to the batch.
 - Done status: batches with confirmed payslips in them have a status of
   Done. The following button options appear for these batches:
-  ![A batch with a status of done, with the available buttons highlighted.](applications/hr/payroll/payslips/batch-done.png)
+  ![A batch with a status of done, with the available buttons highlighted.](payslips/batch-done.png)
   - Create Payment Report: click the Create Payment Report button, and a
     Select a bank journal pop-up window appears. Select the correct bank journal from
     the drop-down menu.
@@ -316,7 +316,7 @@ detail page, different options (buttons) appear at the top, depending on the sta
     payslips that have already been added to the batch.
 - Paid status: batches that have been completed have a status of Paid. No
   other button options appear for this status.
-  ![A batch with a status of paid, with the available buttons highlighted.](applications/hr/payroll/payslips/batch-paid-2.png)
+  ![A batch with a status of paid, with the available buttons highlighted.](payslips/batch-paid-2.png)
 
 On the batch detail page, the individual payslips in the batch are accessible, via the
 Payslips smart button, located above the batch information, in the center. Click the
@@ -339,7 +339,7 @@ of the page.
 Doing so reveals a Generate Warrant Payslips pop-up window, in which the necessary
 information **must** be filled out.
 
-![Enter the commission details.](applications/hr/payroll/payslips/commission-details.png)
+![Enter the commission details.](payslips/commission-details.png)
 
 Trong cửa sổ bật lên này, hãy nhấp vào các menu thả xuống nằm bên cạnh trường Giai đoạn để hiển thị các cửa sổ bật lên lịch. Trên các cửa sổ bật lên lịch này, chọn giai đoạn mong muốn để tạo phiếu lương. Sử dụng các biểu tượng mũi tên < (trái) và > (phải) để điều hướng đến đúng tháng, sau đó nhấp vào ngày để chọn.
 

@@ -55,7 +55,7 @@ Fill in the Create tasks by sending an email to field as follows:
 >   `help`, `jobs`.
 > - **Domain**: in most cases, this is filled in by default with your [domain](../../../general/email_communication.md).
 > - **Accept Emails From**: refine the senders whose emails will create tasks in the project.
-![View of the email alias chosen on the dashboard view in Odoo Project](applications/services/project/tasks/task_creation/email-configuration.png)
+![View of the email alias chosen on the dashboard view in Odoo Project](task_creation/email-configuration.png)
 
 Once configured, the email alias can be seen under the name of your project on the Kanban dashboard.
 

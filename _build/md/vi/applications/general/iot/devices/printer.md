@@ -16,7 +16,7 @@ IoT systems support printers connected through USB, network connection, or Bluet
 [Supported printers](https://www.odoo.com/page/iot-hardware) are detected automatically, and
 appear in the Devices list of the IoT app.
 
-![The printer as it would appear in the IoT app devices list.](applications/general/iot/devices/printer/printer-detected.png)
+![The printer as it would appear in the IoT app devices list.](printer/printer-detected.png)
 
 #### NOTE
 Printers can take up to two minutes to appear in the IoT app Devices list.
@@ -64,7 +64,7 @@ It is possible to link report types to a specific printer. To do so:
 3. In the pop-up that opens, select the types of reports to be linked to the printer and click
    Select.
 
-![The list of reports assigned to a printer in the IoT app.](applications/general/iot/devices/printer/printer-reports.png)
+![The list of reports assigned to a printer in the IoT app.](printer/printer-reports.png)
 
 The first time a linked report is selected to print, a Select Printers pop-up window
 appears. Tick the checkbox next to the correct printer for the report, and click Print.
@@ -83,7 +83,7 @@ This step **only** prevents the report from automatically printing to the listed
 the current browser. The report is still [linked](#iot-link-printer) on the device, under
 the Printer Reports tab.
 
-![A list of reports currently linked to a printer in the IoT app.](applications/general/iot/devices/printer/clear-reports.png)
+![A list of reports currently linked to a printer in the IoT app.](printer/clear-reports.png)
 
 #### SEE ALSO
 [POS Order Printing](../../../sales/point_of_sale/restaurant/kitchen_printing.md)
@@ -111,7 +111,7 @@ Printer Server, then Printers, and select the printer in the list.
 In the Administration dropdown menu, click Modify Printer. Follow the steps
 and select the printer's *make* and *model*.
 
-![Edit the printer connected to the IoT system.](applications/general/iot/devices/printer/modify-printer.png)
+![Edit the printer connected to the IoT system.](printer/modify-printer.png)
 
 #### NOTE
 Epson receipt printers and Zebra label printers do not need a driver to work. Make sure that no
@@ -206,7 +206,7 @@ If the DYMO LabelWriter fails to print, install a new driver:
 3. Select Maintenance in the first dropdown menu.
 4. Select Modify Printer in the second dropdown menu.
    ![Modify the make and model of the DYMO LabelWriter. Maintenance and Modify dropdown
-   menus highlighted.](applications/general/iot/devices/printer/main-modify.png)
+   menus highlighted.](printer/main-modify.png)
 5. Select the specific network connection/printer on which the modification should be made and
    click Continue.
 6. On the next page, click Continue, then select DYMO from the
@@ -234,19 +234,19 @@ To resolve the delay issue after modifying the driver, reinstall the printer:
    LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO Label) (or whichever DYMO printer model is
    being used) pre-installed printer. Click Continue.
    ![Add a printer screen on OpenPrinting CUPS with DYMO LabelWriter 450 DUO Label
-   highlighted.](applications/general/iot/devices/printer/local-printer.png)
+   highlighted.](printer/local-printer.png)
 4. On the following screen, update the Name to something easily identifiable, as the
    original printer will remain in the list. Then, click Continue.
-   ![Rename printer page in the 'Add a Printer' flow, with the name field highlighted.](applications/general/iot/devices/printer/rename-printer.png)
+   ![Rename printer page in the 'Add a Printer' flow, with the name field highlighted.](printer/rename-printer.png)
 5. Set the Model field to DYMO LabelWriter 450 DUO Label (en) (or
    whichever DYMO printer model is being used), then click Add Printer to complete
    the installation.
    ![Choose model screen on the OpenPrinting CUPS console with model and add a printer
-   highlighted.](applications/general/iot/devices/printer/choose-printer.png)
+   highlighted.](printer/choose-printer.png)
 6. Click Printers in the top menu and click the newly installed printer
    DYMO LabelWriter 450 DUO Label (or whichever DYMO printer model is being used) from
    in the list.
-   ![Printer page with newly installed printer highlighted.](applications/general/iot/devices/printer/printer-page.png)
+   ![Printer page with newly installed printer highlighted.](printer/printer-page.png)
 7. Click the Maintenance dropdown list and select Print Test Page to print
    a test label. The test label should print out immediately, or after one or two seconds.
 

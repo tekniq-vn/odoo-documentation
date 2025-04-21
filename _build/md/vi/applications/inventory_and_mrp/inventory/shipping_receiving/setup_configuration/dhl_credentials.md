@@ -38,7 +38,7 @@ Inventory app ‣ Configuration ‣ Shipping Methods.
 Click New to open a blank shipping method form. If a shipping method has already been
 created, it can be selected from this screen.
 
-![The form for a DHL shipping method.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials/dhl-form.png)
+![The form for a DHL shipping method.](dhl_credentials/dhl-form.png)
 
 ### General information
 

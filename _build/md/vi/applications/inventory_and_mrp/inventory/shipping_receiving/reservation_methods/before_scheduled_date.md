@@ -16,7 +16,7 @@ configure, or create a new one by clicking New.
 In the General tab, locate the Reservation Method field, and select
 Before scheduled date.
 
-![Reservation method field on delivery order operation type form.](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date/before-scheduled-date-configuration.png)
+![Reservation method field on delivery order operation type form.](before_scheduled_date/before-scheduled-date-configuration.png)
 
 #### NOTE
 When the Type of Operation is changed to Receipt on an
@@ -48,7 +48,7 @@ For this example workflow, change it to `5` days.
 This sets the scheduled delivery date for this specific product to five days after the creation date
 of the sales order.
 
-![Product form with customer lead time set in Inventory tab.](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date/before-scheduled-date-customer-lead-time.png)
+![Product form with customer lead time set in Inventory tab.](before_scheduled_date/before-scheduled-date-customer-lead-time.png)
 
 ## Quy trình
 
@@ -86,7 +86,7 @@ tooltip reads Reserved, and reveals the available number of units (e.g., `0 Unit
 Additionally, unless there is a set replenishment or a live receipt, it also reads No
 future availability, in red text.
 
-![Confirmed sales order with product availability tooltip selected.](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date/before-scheduled-date-availability-tooltip.png)
+![Confirmed sales order with product availability tooltip selected.](before_scheduled_date/before-scheduled-date-availability-tooltip.png)
 
 Click the Delivery smart button to see the delivery order form.
 
@@ -98,7 +98,7 @@ Note the Scheduled Date field, above the Product Availability field,
 displays the date five days from the order creation date. This indicates that the products are not
 reserved until three days from today's date (two days before the scheduled delivery date).
 
-![Delivery order form with product availability and reserved quantity.](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date/before-scheduled-date-delivery-order-form.png)
+![Delivery order form with product availability and reserved quantity.](before_scheduled_date/before-scheduled-date-delivery-order-form.png)
 
 In the Operations tab on the Product line, the numbers in the
 Demand column and the Quantity column do not match (in this case, the

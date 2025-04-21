@@ -23,7 +23,7 @@ To create a single *Measure* quality check, navigate to Quality ‣ Quality Cont
 - In the Instructions text field of the Notes tab, enter instructions for
   how the picture should be taken.
 
-![A quality check form configured for a Measure quality check.](applications/inventory_and_mrp/quality/quality_check_types/measure_check/measure-check-form-1.png)
+![A quality check form configured for a Measure quality check.](measure_check/measure-check-form-1.png)
 
 ### Quality control point (QCP)
 
@@ -44,7 +44,7 @@ the new  form as follows:
 - In the Instructions text field, enter instructions for how the measurement should be
   taken.
 
-![A QCP form configured to create Measure quality checks.](applications/inventory_and_mrp/quality/quality_check_types/measure_check/measure-check-qcp-form.png)
+![A QCP form configured to create Measure quality checks.](measure_check/measure-check-qcp-form.png)
 
 ## Process a Measure quality check
 
@@ -79,7 +79,7 @@ To process a *Measure* quality check, measure the product as instructed, then en
 Measure field on the pop-up window. Finally, click Validate to register the
 recorded value.
 
-![A Measure quality check pop-up window on a manufacturing or inventory order.](applications/inventory_and_mrp/quality/quality_check_types/measure_check/measure-check-pop-up.png)
+![A Measure quality check pop-up window on a manufacturing or inventory order.](measure_check/measure-check-pop-up.png)
 
 If the value entered is within the range specified in the Tolerance section of the
 , the quality check passes and the pop-up window closes. The rest of the manufacturing or
@@ -87,7 +87,7 @@ inventory order can then be processed as usual.
 
 Tuy nhiên, nếu giá trị nhập vào nằm ngoài phạm vi đã chỉ định, một cửa sổ bật lên mới sẽ xuất hiện, có tiêu đề là Kiểm tra chất lượng không thành công. Nội dung của cửa sổ bật lên hiển thị thông báo cảnh báo có nội dung Bạn đã đo # đơn vị và giá trị phải nằm trong khoảng từ # đơn vị đến # đơn vị, cũng như hướng dẫn được nhập vào tab Thông báo nếu không thành công của . Ở cuối cửa sổ bật lên, hai nút sẽ xuất hiện: Điều chỉnh thước đo và Xác nhận thước đo.
 
-![The "Quality Check Failed" pop-up window.](applications/inventory_and_mrp/quality/quality_check_types/measure_check/measure-check-failed.png)
+![The "Quality Check Failed" pop-up window.](measure_check/measure-check-failed.png)
 
 If the measurement was not entered correctly and should be changed, select Correct
 Measure. Doing so re-opens the Quality Check pop-up window. Enter the corrected
@@ -132,7 +132,7 @@ to open a pop-up window that includes instructions for how the measurement shoul
 taking the measurement, enter it in the Measure field of the pop-up window, and then
 click Validate.
 
-![A Measure check in the Shop Floor module.](applications/inventory_and_mrp/quality/quality_check_types/measure_check/measure-check-shop-floor.png)
+![A Measure check in the Shop Floor module.](measure_check/measure-check-shop-floor.png)
 
 If the measurement entered is within the range specified in the Tolerance section of the
 , the quality check passes, and the pop-up window moves on to the next step of the work order.
@@ -141,7 +141,7 @@ titled Quality Check Failed.
 
 Nội dung cửa sổ bật lên Kiểm tra chất lượng không đạt hiển thị thông báo: Bạn đã tính # đơn vị và nó phải nằm giữa # đơn vị và # đơn vị, cùng với hướng dẫn đã nhập trong tab Thông báo nếu không thành công của . Ở cuối cửa sổ bật lên xuất hiện hai nút: Điều chỉnh chỉ số và Xác nhận chỉ số.
 
-![The Quality Check Failed pop-up window for a Measure check in the Shop Floor module.](applications/inventory_and_mrp/quality/quality_check_types/measure_check/shop-floor-measure-check-failed.png)
+![The Quality Check Failed pop-up window for a Measure check in the Shop Floor module.](measure_check/shop-floor-measure-check-failed.png)
 
 If the measurement was not entered correctly, and should be changed, select Correct
 Measure. Doing so opens a new pop-up window, titled Quality Check. Enter the corrected

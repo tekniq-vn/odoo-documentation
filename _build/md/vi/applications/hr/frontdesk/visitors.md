@@ -53,7 +53,7 @@ particular visitor requested a drink.
 When their drink has been served, click the Drink Served button to indicate the drink
 has been delivered to the guest. Once clicked, that button disappears.
 
-![The full list of currently checked in visitors, with the drinks to be served highlighted.](applications/hr/frontdesk/visitors/visitors.png)
+![The full list of currently checked in visitors, with the drinks to be served highlighted.](visitors/visitors.png)
 
 If any column is not visible, or if a visible column is preferred to be hidden, click the
 <i class="oi oi-settings-adjust"></i> (additional options) icon, located at the end of the column

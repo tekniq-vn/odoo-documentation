@@ -67,7 +67,7 @@ To know whether a customer usually pays late or not, you can set a trust level b
 Good Debtor, Normal Debtor, or Bad Debtor on their follow-up
 report. To do so, click on the bullet next to the customer's name and select a trust level.
 
-![Set debtor's trust level](applications/finance/accounting/payments/follow_up/debtor-level.png)
+![Set debtor's trust level](follow_up/debtor-level.png)
 
 ### Send reminders in batches
 

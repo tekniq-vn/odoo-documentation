@@ -4,7 +4,7 @@
 on any page of the database that contains a chatter thread, Kanban view, list view, or activities
 view of an application.
 
-![The summary view of activities for leads and opportunities in an Odoo database.](applications/sales/crm/optimize/utilize_activities/activities-view.png)
+![The summary view of activities for leads and opportunities in an Odoo database.](utilize_activities/activities-view.png)
 
 ## Loại hoạt động
 
@@ -51,7 +51,7 @@ Trường *Tác vụ* xác định mục đích của hoạt động. Một số
 - Nếu chọn Cuộc gọi điện thoại hoặc Cuộc họp, người dùng sẽ có tùy chọn mở lịch để lên lịch thời gian cho hoạt động này.
 - Nếu chọn Yêu cầu chữ ký, một liên kết sẽ được thêm vào hoạt động theo kế hoạch trong cửa sổ trò chuyện để mở ra một cửa sổ bật lên yêu cầu chữ ký.
 
-![The Activity settings on a new activity type with emphasis on the Action field.](applications/sales/crm/optimize/utilize_activities/action-field.png)
+![The Activity settings on a new activity type with emphasis on the Action field.](utilize_activities/action-field.png)
 
 #### NOTE
 Các tác vụ có thể chọn cho một loại hoạt động sẽ khác nhau, tùy vào ứng dụng hiện được cài đặt trong cơ sở dữ liệu.
@@ -78,7 +78,7 @@ In the Chaining Type field, select Suggest Next Activity. Upon doing so, the
 field underneath changes to: Suggest. Click the Suggest field drop-down menu
 to select any activities to recommend as follow-up tasks to this activity type.
 
-![The Next Activity section on a new activity type form.](applications/sales/crm/optimize/utilize_activities/next-activity.png)
+![The Next Activity section on a new activity type form.](utilize_activities/next-activity.png)
 
 In the Schedule field, choose a default deadline for these activities. To do so,
 configure a desired number of Days, Weeks, or Months. Then,
@@ -94,7 +94,7 @@ If an activity has the Chaining Type set to Suggest Next Activity, and
 has activities listed in the Suggest field, users are presented with recommendations
 for activities as next steps.
 
-![A schedule activity pop-up with emphasis on the recommended activities.](applications/sales/crm/optimize/utilize_activities/suggest-next-activity.png)
+![A schedule activity pop-up with emphasis on the recommended activities.](utilize_activities/suggest-next-activity.png)
 
 ##### Trigger next activity
 
@@ -180,13 +180,13 @@ the intervals configured on the [activity plan](#crm-activity-plans).
 Select a user in the Assigned To field. This user is assigned to any of the activities
 on the plan were configured with Ask at launch in the Assignment field.
 
-![The schedule activity pop-up window with an Activity plan selected.](applications/sales/crm/optimize/utilize_activities/schedule-activity-plan.png)
+![The schedule activity pop-up window with an Activity plan selected.](utilize_activities/schedule-activity-plan.png)
 
 Click Schedule.
 
 The details of the plan are added to the chatter, in addition to each of the activities.
 
-![The chatter thread of a CRM opportunity with a launched activity plan.](applications/sales/crm/optimize/utilize_activities/activity-plan-chatter.png)
+![The chatter thread of a CRM opportunity with a launched activity plan.](utilize_activities/activity-plan-chatter.png)
 
 #### SEE ALSO
 - [Hoạt động](../../../essentials/activities.md)

@@ -9,7 +9,7 @@ In this chapter we will see how to include media elements such as images, videos
 Record images in the database and use them later in your design/code. They will also be
 available for the end user through the *media dialog*.
 
-![Media window](developer/howtos/website_themes/media/media-window.png)
+![Media window](media/media-window.png)
 
 The Website Builder supports the following image file formats: JPG, GIF, PNG, and SVG.
 
@@ -144,4 +144,4 @@ Increase the icon size (fa-2x, fa-3x, fa-4x, or fa-5x classes).
 <span class="fa fa-2x fa-picture-o"/>
 ```
 
-![Icon options](developer/howtos/website_themes/media/icon-options.png)
+![Icon options](media/icon-options.png)

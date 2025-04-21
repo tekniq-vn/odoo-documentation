@@ -25,7 +25,7 @@ the partner autocomplete feature.
 Go to Settings app ‣ Contacts section. Then, activate the Partner
 Autocomplete feature, by ticking the checkbox beside it, and clicking Save.
 
-![View of settings page and the activations of the feature in Odoo.](applications/sales/crm/optimize/partner_autocomplete/settings-partner-autocomplete.png)
+![View of settings page and the activations of the feature in Odoo.](partner_autocomplete/settings-partner-autocomplete.png)
 
 ## Enrich contacts with corporate data
 
@@ -35,12 +35,12 @@ with corporate data related to that specific selection.
 
 For example, after typing `Odoo`, the following information populates:
 
-![Creating a new contact in Odoo](applications/sales/crm/optimize/partner_autocomplete/odoo-autocomplete.png)
+![Creating a new contact in Odoo](partner_autocomplete/odoo-autocomplete.png)
 
 In the chatter, the following information populates about the company, after clicking on the desired
 pre-populated contact:
 
-![View of the information being shown about odoo with the autocomplete option in Odoo](applications/sales/crm/optimize/partner_autocomplete/odoo-info-autocomplete.png)
+![View of the information being shown about odoo with the autocomplete option in Odoo](partner_autocomplete/odoo-info-autocomplete.png)
 
 ## Định giá
 

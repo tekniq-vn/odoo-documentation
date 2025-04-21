@@ -9,7 +9,7 @@ table status in real time, including occupancy, reservations, and kitchen orders
 
 Để tạo tầng và bàn từ backend, đi đến Điểm bán hàng ‣ Cấu hình ‣ Sơ đồ tầng, và nhấp vào Mới để tạo một tầng. Đặt tên cho tầng, chọn (các) điểm bán hàng liên quan và nhấp vào Thêm một dòng để tạo một bàn. Đặt tên cho bàn và xác định số lượng chỗ ngồi. Bạn cũng có thể liên kết bàn với một tài nguyên lịch hẹn để có thể đặt bàn. Sau khi hoàn tất, hãy nhấp vào Lưu & đóng hoặc Lưu & mới để xác nhận.
 
-![window to create a table in the POS backend](applications/sales/point_of_sale/restaurant/floors_tables/table-creation-backend.png)
+![window to create a table in the POS backend](floors_tables/table-creation-backend.png)
 
 #### NOTE
 The POS must be opened and [edited from the frontend](#floors-tables-frontend) to create a
@@ -29,7 +29,7 @@ Sau khi tạo xong một tầng, hãy thêm một bàn bằng cách nhấp vào 
 
 After making all the necessary modifications, click CLOSE to save.
 
-![the floor plan view in edit mode.](applications/sales/point_of_sale/restaurant/floors_tables/floor-map.png)
+![the floor plan view in edit mode.](floors_tables/floor-map.png)
 
 #### NOTE
 If no table is selected, the modifications are applied to the floor.

@@ -43,13 +43,13 @@ Plausible.io account, proceed as follows:
    instructions and click Start collecting data.
 3. Once done, click the Plausible logo in the upper-left part of the page to access your [list of
    websites](https://plausible.io/sites), then click the gear icon next to the website.
-   ![Click the gear icon in the list of websites.](applications/websites/website/reporting/analytics/plausible-gear-icon.png)
+   ![Click the gear icon in the list of websites.](analytics/plausible-gear-icon.png)
 4. In the sidebar, select Visibility, then click + New link.
 5. Enter a Name, leave the Password field empty, as the Plausible analytics
    dashboard integration in Odoo doesn't support it, then click Create shared link.
-   ![Credentials creation for the new shared link](applications/websites/website/reporting/analytics/plausible-create-sharedlink.png)
+   ![Credentials creation for the new shared link](analytics/plausible-create-sharedlink.png)
 6. Copy the shared link.
-   ![Copy the shared link URL from Plausible.io](applications/websites/website/reporting/analytics/plausible-copy-sharedlink.png)
+   ![Copy the shared link URL from Plausible.io](analytics/plausible-copy-sharedlink.png)
 7. In Odoo, go to Website ‣ Configuration ‣ Settings.
 8. In the SEO section, enable Plausible Analytics, then paste the
    Shared Link and click Save.
@@ -72,15 +72,15 @@ To follow your Odoo website's traffic with Google Analytics:
    - If you already have a Google Analytics account, sign in and click the gear icon in the
      bottom-left corner of the page to access the **Admin** page. Then, click + Create
      Property.
-     ![Measurement ID in Google Analytics.](applications/websites/website/reporting/analytics/GA-add-property.png)
+     ![Measurement ID in Google Analytics.](analytics/GA-add-property.png)
 3. Complete the next steps: [property creation](https://support.google.com/analytics/answer/9304153?hl=en/&visit_id=638278591144564289-3612494643&rd=2#property),
    business details, and business objectives.
 4. When you reach the **Data collection** step, choose the Web platform.
-   ![Choose a platform for your Google Analytics property.](applications/websites/website/reporting/analytics/GA-platform.png)
+   ![Choose a platform for your Google Analytics property.](analytics/GA-platform.png)
 5. Set up your data stream: Specify your Website URL and a Stream name, then
    click Create stream.
 6. Copy the Measurement ID.
-   ![Measurement ID in Google Analytics.](applications/websites/website/reporting/analytics/GA-measurement-id.png)
+   ![Measurement ID in Google Analytics.](analytics/GA-measurement-id.png)
 7. In Odoo, go to Website ‣ Configuration ‣ Settings.
 8. In the SEO section, enable Google Analytics, then paste the
    Measurement ID and click Save.
@@ -113,7 +113,7 @@ To use GTM, proceed as follows:
    Edit, go to the Themes tab, scroll down to the
    Website Settings section, then click <head> and </body> to
    paste the codes.
-   ![Install Google Tag Manager](applications/websites/website/reporting/analytics/gtm-codes.png)
+   ![Install Google Tag Manager](analytics/gtm-codes.png)
 
 #### NOTE
 The data is collected in the marketing tools used to monitor the website (e.g., Google Analytics,

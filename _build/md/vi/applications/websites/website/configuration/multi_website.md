@@ -11,7 +11,7 @@ To create a new website, proceed as follows:
 
 1. Go to Website ‣ Configuration ‣ Settings.
 2. Click + New Website.
-   ![New website button](applications/websites/website/configuration/multi_website/create-website.png)
+   ![New website button](multi_website/create-website.png)
 3. Specify the Website Name and Website domain. Each website must be
    published under its own [domain](domain_names.md).
 4. Adapt the Company name, Languages and Default language
@@ -30,7 +30,7 @@ new website. You can remove them by amending the website's menu.
 To switch from one website to another, click the menu next to the +New button in the
 top right corner and select the website you want to switch to.
 
-![Website selector](applications/websites/website/configuration/multi_website/switch-websites.png)
+![Website selector](multi_website/switch-websites.png)
 
 #### NOTE
 When you switch websites, you are redirected to the homepage of the other website.
@@ -57,7 +57,7 @@ website.
 
 Theo mặc định, các trang, sản phẩm, sự kiện,... được tạo từ frontend (sử dụng nút :guilabel: `+Mới`) chỉ khả dụng trên trang web mà nó được tạo. Tuy nhiên, các bản ghi được tạo từ backend sẽ khả dụng trên tất cả các trang web theo mặc định. Tính khả dụng của nội dung có thể được thay đổi trong backend, tại trường :guilabel: `Trang web`. Ví dụ, đối với sản phẩm, đi đến :menuselection: `Thương mại điện tử --> Sản phẩm`, sau đó chọn sản phẩm và đi đến tab :guilabel: `Bán hàng`. Đối với diễn đàn, hãy vào :menuselection: `Cấu hình --> Diễn đàn`, sau đó chọn diễn đàn.
 
-![Website field in Forum form](applications/websites/website/configuration/multi_website/forum-multi-website.png)
+![Website field in Forum form](multi_website/forum-multi-website.png)
 
 <a id="website-field"></a>
 
@@ -74,7 +74,7 @@ To modify the website on which a page is to be published, proceed as follows:
 
 1. Go to Website ‣ Site ‣ Pages.
 2. Open the search panel and select the website on which the page is currently published.
-   ![Display pages per website](applications/websites/website/configuration/multi_website/pages-switch-websites.png)
+   ![Display pages per website](multi_website/pages-switch-websites.png)
 3. Tick the check box next to the page(s) you want to change.
 4. Click the Website field and select the website, or empty it to publish the page on
    all websites.
@@ -110,7 +110,7 @@ Products can be priced differently based on the website using [pricelists](../..
 Each website has its own [analytics](../reporting/analytics.md#analytics-plausible). To switch between websites, click
 the buttons in the upper right corner.
 
-![Switch websites in analytics](applications/websites/website/configuration/multi_website/analytics-switch-websites.png)
+![Switch websites in analytics](multi_website/analytics-switch-websites.png)
 
 ### Other reporting data
 

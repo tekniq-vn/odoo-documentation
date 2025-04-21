@@ -66,7 +66,7 @@ field, there are:
   products shipped between different addresses, such as [Physical Locations/Inter-warehouse
   transit](#inventory-warehouses-storage-interwarehouse-transit).
 
-![List of locations in Odoo.](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/locations.png)
+![List of locations in Odoo.](inventory_management/locations.png)
 
 #### NOTE
 In Odoo, location types are color-coded:

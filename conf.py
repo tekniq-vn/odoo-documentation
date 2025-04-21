@@ -1,0 +1,17 @@
+import os, sys
+from pathlib import Path
+
+sys.path.insert(0, os.path.abspath('odoo-docs'))
+sys.path.insert(0, str(Path('extensions').absolute()))
+
+from conf import *
+
+extensions = list(extensions) + ['patch']
+#def main():
+#    from conf import extensions
+#    extensions = list(extensions) + ['patch']
+#    print(",".join(extensions))
+#    return extensions
+#
+#if __name__ == "__main__":
+#    main()

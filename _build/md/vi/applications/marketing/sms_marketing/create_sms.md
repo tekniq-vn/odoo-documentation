@@ -3,7 +3,7 @@
 To start, click Create on the main SMS Marketing dashboard, and Odoo reveals
 a blank SMS template form, which can be configured in a number of different ways.
 
-![Creating an SMS marketing template.](applications/marketing/sms_marketing/create_sms/sms-create.png)
+![Creating an SMS marketing template.](create_sms/sms-create.png)
 
 First, give the mailing a Subject, which describes what the mailing is about.
 
@@ -18,7 +18,7 @@ that specific list (e.g. number of contacts, mailings, recipients, etc.).
 
 To learn more about mailing lists and contacts, check out [Mailing lists and blacklists](mailing_lists_blacklists.md).
 
-![View of the mailing list page in the SMS marketing application.](applications/marketing/sms_marketing/create_sms/sms-mailing-list.png)
+![View of the mailing list page in the SMS marketing application.](create_sms/sms-mailing-list.png)
 
 To reveal all the possible options in the Recipients field, click the field to see all
 the choices Odoo makes available.
@@ -38,7 +38,7 @@ whatever criteria is configured in those fields. Multiple rules can be added.
 
 Nhập nội dung  vào trường văn bản trong tab Nội dung SMS. Bạn cũng có thể thêm liên kết và biểu tượng cảm xúc. Bên dưới trường văn bản, Odoo hiển thị số ký tự đã sử dụng trong tin nhắn cùng với số lần gửi  cần thiết để truyền tải toàn bộ nội dung.
 
-![SMS price check icon.](applications/marketing/sms_marketing/create_sms/sms-price-check.png)
+![SMS price check icon.](create_sms/sms-price-check.png)
 
 #### NOTE
 Credits must be purchased from Odoo in order to take advantage of the *SMS Marketing* app;
@@ -53,7 +53,7 @@ When links are used in  messages, Odoo automatically generates
 link trackers to gather analytical data and metrics related to those specific links, which can be
 found by going to Configuration ‣ Link Tracker.
 
-![SMS Link Tracker page.](applications/marketing/sms_marketing/create_sms/sms-link-tracker.png)
+![SMS Link Tracker page.](create_sms/sms-link-tracker.png)
 
 ### Adjust SMS settings
 
@@ -64,7 +64,7 @@ avoiding all future mailings.
 An employee can be designated as the Responsible in the Tracking section of
 the Settings tab, as well.
 
-![SMS Settings tab.](applications/marketing/sms_marketing/create_sms/sms-settings-tab.png)
+![SMS Settings tab.](create_sms/sms-settings-tab.png)
 
 ### Send SMS messages
 

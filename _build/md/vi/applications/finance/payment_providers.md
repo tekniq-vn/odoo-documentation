@@ -25,7 +25,7 @@ subscriptions with recurring payments using their favorite payment methods, such
 
 Each payment provider is linked to a list of supported [payment methods](#payment-providers-payment-methods) that can be (de)activated based on your needs.
 
-![Online payment form](applications/finance/payment_providers/online-payment.png)
+![Online payment form](payment_providers/online-payment.png)
 
 #### NOTE
 Các ứng dụng Odoo ủy quyền việc xử lý thông tin nhạy cảm cho nhà cung cấp dịch vụ thanh toán đã được chứng nhận, để bạn không cần lo lắng về việc tuân thủ PCI. Không có thông tin nhạy cảm nào (như số thẻ tín dụng) được lưu trữ trên máy chủ Odoo hoặc trong cơ sở dữ liệu Odoo được lưu trữ ở nơi khác. Thay vào đó, các ứng dụng Odoo sử dụng một mã tham chiếu duy nhất cho dữ liệu được lưu trữ an toàn trong hệ thống của nhà cung cấp dịch vụ thanh toán.
@@ -273,7 +273,7 @@ Từ góc độ kế toán, có hai loại quy trình thanh toán online: các k
 By default, the Bank Account defined for the [payment journal](#payment-providers-journal) is used, but you can also specify an [outstanding account](accounting/bank.md#bank-outstanding-accounts) for each payment provider to separate the provider's payments from
 other payments.
 
-![Define an outstanding account for a payment provider.](applications/finance/payment_providers/bank_journal.png)
+![Define an outstanding account for a payment provider.](payment_providers/bank_journal.png)
 
 #### SEE ALSO
 - [Chuyển khoản ngân hàng](payment_providers/wire_transfer.md)

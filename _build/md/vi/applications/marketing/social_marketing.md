@@ -33,7 +33,7 @@ activates *Facebook Page 1* and *Facebook Page 2*, then those pages will be acce
 However, if on that same database, the user adds Company 2 from the company drop-down menu in the
 header, and attempts to add those same streams, it results in a permission error.
 
-![View of the permission error that appears when incorrectly attempting to add stream.](applications/marketing/social_marketing/permission-error.png)
+![View of the permission error that appears when incorrectly attempting to add stream.](social_marketing/permission-error.png)
 
 ## Social media streams
 
@@ -41,7 +41,7 @@ To add a social media business account as a stream, navigate to Social Marketing
 app and select the Add A Stream button located in the upper-left corner. Doing so
 reveals an Add a Stream pop-up window.
 
-![View of the pop-up window that appears when Add a Stream is selected in Odoo.](applications/marketing/social_marketing/add-stream-social-popup.png)
+![View of the pop-up window that appears when Add a Stream is selected in Odoo.](social_marketing/add-stream-social-popup.png)
 
 In the Add a Stream pop-up window, choose to Link a new account for a
 business from any of the following popular social media platforms: Facebook,
@@ -52,7 +52,7 @@ navigates directly to that specific social media outlet's authorization page, wh
 be granted, in order for Odoo to add that particular social media account as a stream to the *Social
 Marketing* application.
 
-![Sample of a populated social marketing dashboard with social media streams and content.](applications/marketing/social_marketing/social-marketing-dashboard.png)
+![Sample of a populated social marketing dashboard with social media streams and content.](social_marketing/social-marketing-dashboard.png)
 
 Once permission is granted, Odoo navigates back to the Feed on the main
 Social Marketing dashboard, and a new column, with that account's posts, is added.
@@ -78,7 +78,7 @@ On the Social Media page there is a collection of all social media options, each
 complete with a Link account button: Facebook, Instagram,
 LinkedIn, Twitter, YouTube, and Push Notifications.
 
-![View of the social media page in the Odoo Social Marketing application.](applications/marketing/social_marketing/social-media-page.png)
+![View of the social media page in the Odoo Social Marketing application.](social_marketing/social-media-page.png)
 
 ## Social accounts page
 
@@ -88,7 +88,7 @@ Accounts display the Name, the Handle/Short Name, the Social
 Media platform, who it was Created by, and the Company to which it is
 associated.
 
-![View of the social accounts page in the Odoo Social Marketing application.](applications/marketing/social_marketing/social-accounts-page.png)
+![View of the social accounts page in the Odoo Social Marketing application.](social_marketing/social-accounts-page.png)
 
 To edit/modify any of the social accounts on this page, simply select the desired account from the
 list on this page, and proceed to make any adjustments necessary.
@@ -99,7 +99,7 @@ To view a separate page with all the social media streams that have been added t
 Marketing* dashboard, navigate to Social Marketing app ‣ Configuration ‣ Social
 Streams.
 
-![View of the social accounts page in the Odoo Social Marketing application.](applications/marketing/social_marketing/social-streams-page.png)
+![View of the social accounts page in the Odoo Social Marketing application.](social_marketing/social-streams-page.png)
 
 Here, the social stream information is organized in a list with the Social Media, the
 Title of the stream, the Type of the stream (e.g. Posts,
@@ -114,7 +114,7 @@ make any necessary adjustments.
 To see a complete overview of all the people who have visited the website(s) connected to the
 database, navigate to Social Marketing app ‣ Visitors.
 
-![View of the Visitors page in the Odoo Social Marketing application.](applications/marketing/social_marketing/visitors.png)
+![View of the Visitors page in the Odoo Social Marketing application.](social_marketing/visitors.png)
 
 Here, Odoo provides a detailed layout of all the visitors' pertinent information in a default kanban
 view. If visitors already have contact information in the database, the option to send them an

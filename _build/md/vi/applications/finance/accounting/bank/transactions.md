@@ -69,7 +69,7 @@ check, then click Statements.
 
 Mở chế độ xem đối chiếu ngân hàng (kanban) từ Trang chủ Kế toán bằng cách nhấp vào tên sổ nhật ký ngân hàng và xác định giao dịch tương ứng với giao dịch cuối cùng (mới nhất) trên sao kê ngân hàng của bạn. Nhấp vào nút Sao kê khi di chuột qua đường phân cách phía trên để tạo sao kê từ giao dịch đó trở xuống đến giao dịch cũ nhất chưa thuộc bất kỳ sao kê nào.
 
-![A "Statement" button is visible when hovering on the line separating two transactions.](applications/finance/accounting/bank/transactions/statements-kanban.png)
+![A "Statement" button is visible when hovering on the line separating two transactions.](transactions/statements-kanban.png)
 
 In the Create Statement window, fill out the statement's Reference, verify
 its Starting Balance and Ending Balance, and click Save.

@@ -18,7 +18,7 @@ click Create and edit... to open a setup form.
 To get a list of all the printers already created or to modify an already created printer, click
 --> Printers and select the desired printer to open the setup form.
 
-![settings to enable the kitchen printers](applications/sales/point_of_sale/restaurant/kitchen_printing/printers-settings.png)
+![settings to enable the kitchen printers](kitchen_printing/printers-settings.png)
 
 <a id="kitchen-printing-setup-form"></a>
 
@@ -41,14 +41,14 @@ Set your printer to print specific products based on their POS category. To do s
 Add a line in the Printed Product Categories field. If you leave this field
 empty, all products are sent to the printer regardless of their POS category.
 
-![setup form to configure a kitchen printer](applications/sales/point_of_sale/restaurant/kitchen_printing/printer-setup.png)
+![setup form to configure a kitchen printer](kitchen_printing/printer-setup.png)
 
 ## In đơn hàng
 
 From an open session, start taking an order and click Order to send it to the bar or the
 kitchen.
 
-![order button from the POS UI to send orders to a kitchen or a bar](applications/sales/point_of_sale/restaurant/kitchen_printing/order-button.png)
+![order button from the POS UI to send orders to a kitchen or a bar](kitchen_printing/order-button.png)
 
 #### NOTE
 When products can be printed, they appear in green in the cart, and the order button turns green.

@@ -29,7 +29,7 @@ Enrich all leads automatically. Click the Save button to activate the
 changes.
 
 ![CRM lead generation settings page, with lead enrichment activation highlighted, and enrich
-leads on demand only chosen.](applications/sales/crm/optimize/lead_enrichment/lead-enrichment-activate.png)
+leads on demand only chosen.](lead_enrichment/lead-enrichment-activate.png)
 
 ## Tăng cường lead
 
@@ -54,7 +54,7 @@ The same information will be retrieved at the same  credit cost (one per
 enrichment). This method of enrichment is useful when every lead does not need to be enriched, or
 cost is an issue.
 
-![Manual enrich button feature highlighted on the CRM lead.](applications/sales/crm/optimize/lead_enrichment/manual-enrichment.png)
+![Manual enrich button feature highlighted on the CRM lead.](lead_enrichment/manual-enrichment.png)
 
 ## Định giá
 
@@ -67,13 +67,13 @@ To buy credits, navigate to CRM app ‣ Configuration ‣ Settings. In the
 Lead Generation section, under the Lead Enrichment feature, click on
 Buy Credits.
 
-![Buy credits from the lead enrichment settings.](applications/sales/crm/optimize/lead_enrichment/buy-lead-enrichment-credits-setting.png)
+![Buy credits from the lead enrichment settings.](lead_enrichment/buy-lead-enrichment-credits-setting.png)
 
 Credits and balances may also be purchased by navigating to the Settings app. In
 the Contacts section, under the Odoo IAP feature, click on View
 My Services.
 
-![Buy credits in the Odoo IAP settings.](applications/sales/crm/optimize/lead_enrichment/view-my-services-setting.png)
+![Buy credits in the Odoo IAP settings.](lead_enrichment/view-my-services-setting.png)
 
 #### SEE ALSO
 [Mua hàng trong ứng dụng (IAP)](../../../essentials/in_app_purchase.md)

@@ -48,7 +48,7 @@ Here is the list of Spanish-specific statement reports available:
 You can access Spain-specific tax reports by clicking on the **book** icon when on a report and
 selecting its Spain-specific version: (ES).
 
-![Spain-specific tax reports.](applications/finance/fiscal_localizations/spain/modelo-reports.png)
+![Spain-specific tax reports.](spain/modelo-reports.png)
 
 ### Modelo 130
 
@@ -107,7 +107,7 @@ the **Settings** app.
 Once an invoice has been [created](../accounting/customer_invoices.md) and confirmed,
 a TicketBAI **banner** appears at the top.
 
-![TicketBAI banner at the top of the invoice once sent.](applications/finance/fiscal_localizations/spain/ticketbai-invoice.png)
+![TicketBAI banner at the top of the invoice once sent.](spain/ticketbai-invoice.png)
 
 Odoo sends invoices through TicketBAI automatically every **24 hours**. However, you can click
 Process now to send the invoice immediately.
@@ -117,7 +117,7 @@ Khi hóa đơn được **gửi**, trạng thái trường Hóa đơn điện t�
 #### NOTE
 The TBAI **QR code** is displayed on the invoice PDF.
 
-![QR code of the TicketBAI on the invoice.](applications/finance/fiscal_localizations/spain/qr-code.png)
+![QR code of the TicketBAI on the invoice.](spain/qr-code.png)
 
 ## FACe
 
@@ -161,4 +161,4 @@ Save. The **three** roles usually required are:
 - Unidad tramitadora: Pagador (Payer);
 - Oficina contable: Fiscal (Fiscal).
 
-![Administrative center contact form for public entities.](applications/finance/fiscal_localizations/spain/administrative-center.png)
+![Administrative center contact form for public entities.](spain/administrative-center.png)

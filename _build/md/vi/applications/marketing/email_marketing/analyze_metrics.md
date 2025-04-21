@@ -17,7 +17,7 @@ results for that mailing. Click on one of the mailings in the list to open the r
 
 At the top of the record, detailed metrics are displayed as smart buttons.
 
-![The smart buttons on a mass mailing, displaying the results of the message.](applications/marketing/email_marketing/analyze_metrics/metric-smart-buttons.png)
+![The smart buttons on a mass mailing, displaying the results of the message.](analyze_metrics/metric-smart-buttons.png)
 
 ### Tỷ lệ mở
 

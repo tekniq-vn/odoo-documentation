@@ -13,7 +13,7 @@ form can be customized, as needed, to suit the needs of a specific sales team.
 
 Truy cập vào Ứng dụng Trang web ‣ Liên hệ chúng tôi, sau đó nhấp Chỉnh sửa ở góc trên bên phải màn hình để mở trình chỉnh sửa web. Nhấp vào khối dựng biểu mẫu trong phần nội dung trang web để mở cài đặt cấu hình biểu mẫu trên thanh bên phải. Các tùy chọn sau có sẵn để tùy chỉnh biểu mẫu liên hệ từ phần Từ của thanh bên phải:
 
-![The form configuration settings on an Odoo website.](applications/sales/crm/acquire_leads/opportunities_form/form-customization.png)
+![The form configuration settings on an Odoo website.](opportunities_form/form-customization.png)
 - Action: the default action for a contact form is Send an Email. Select
   Create an Opportunity from the drop-down list to capture the information in the *CRM*
   app.
@@ -66,7 +66,7 @@ settings section on the sidebar. The following options are available to customiz
   choose whether to show or hide this field to mobile users.
 - Animation: select if this field should have any animation.
 
-![The field configuration settings on an Odoo website.](applications/sales/crm/acquire_leads/opportunities_form/field-customization.png)
+![The field configuration settings on an Odoo website.](opportunities_form/field-customization.png)
 
 ## Xem cơ hội
 

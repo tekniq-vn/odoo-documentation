@@ -17,7 +17,7 @@ labels. Finally, provide the company's [source address](third_party_shipper.md#i
 #### SEE ALSO
 [Third-party shipping carriers](third_party_shipper.md)
 
-![Set the "Get Rate and Create Shipment" option.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels/integration-level.png)
+![Set the "Get Rate and Create Shipment" option.](labels/integration-level.png)
 
 <a id="inventory-shipping-receiving-picking-config"></a>
 
@@ -56,7 +56,7 @@ To generate a tracking label for an order, begin by creating a quotation in Sale
 app ‣ Orders ‣ Quotations, clicking New, and filling out the quotation form. Then,
 click the Add Shipping button in the bottom-right corner of the quotation.
 
-![Show the "Add Shipping" button on the quotation.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels/add-shipping-button.png)
+![Show the "Add Shipping" button on the quotation.](labels/add-shipping-button.png)
 
 In the resulting pop-up window, select the intended carrier from the Shipping Method
 drop-down menu. The Total Order Weight field is automatically populated, based on the
@@ -75,7 +75,7 @@ delivery product](../setup_configuration.md#inventory-shipping-receiving-deliver
 Confirm on the quotation, and click the Delivery smart button to access the
 .
 
-![Show "Get rate" pop-up window.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels/get-rate.png)
+![Show "Get rate" pop-up window.](labels/get-rate.png)
 
 <a id="inventory-shipping-receiving-validate-print-label"></a>
 
@@ -101,13 +101,13 @@ shipping carrier's website.
 
 The tracking label is found in PDF format in the chatter.
 
-![Show generated shipping label in the chatter.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels/shipping-label.png)
+![Show generated shipping label in the chatter.](labels/shipping-label.png)
 
 #### NOTE
 For multi-package shipping, one label is generated per package. Each label appears in the
 chatter.
 
-![Sample label generated from Odoo's shipping connector with FedEx.](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels/sample-label.png)
+![Sample label generated from Odoo's shipping connector with FedEx.](labels/sample-label.png)
 
 #### SEE ALSO
 - lập hoá đơn

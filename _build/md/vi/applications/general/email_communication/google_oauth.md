@@ -24,7 +24,7 @@ browse for the Location. Set the Location as the *Google Workspace
 organization*. If you are using a personal Gmail account, then leave the Location as
 No Organization.
 
-![Project Name and Location for Google OAuth.](applications/general/email_communication/google_oauth/new-project.png)
+![Project Name and Location for Google OAuth.](google_oauth/new-project.png)
 
 Click on Create to finish this step.
 
@@ -87,7 +87,7 @@ from the dropdown menu.
   Secret. Finally, copy each generated value for later use when configuring in Odoo, and then
   navigate to the Odoo database.
 
-![Client ID and Client Secret for Google OAuth.](applications/general/email_communication/google_oauth/client-credentials.png)
+![Client ID and Client Secret for Google OAuth.](google_oauth/client-credentials.png)
 
 ## Thiết lập trong Odoo
 
@@ -104,7 +104,7 @@ Tiếp theo, đi đến Cài đặt ‣ Cài đặt chung, và trong phần Th�
 To configure the external Gmail account, return to the top of the Custom Email Servers
 setting and then click the Outgoing Email Servers link.
 
-![Configure Outgoing Email Servers in Odoo.](applications/general/email_communication/google_oauth/outgoing-servers.png)
+![Configure Outgoing Email Servers in Odoo.](google_oauth/outgoing-servers.png)
 
 Then, click on New or Create to create a new email server, and fill in the
 Name, Description, and the email Username (if required).
@@ -124,7 +124,7 @@ Allow. After that, the page navigates back to the newly configured outgoing emai
 server in Odoo. The configuration automatically loads the token in Odoo, and a tag stating
 Gmail Token Valid appears in green.
 
-![Configure Outgoing Email Servers in Odoo.](applications/general/email_communication/google_oauth/green-token.png)
+![Configure Outgoing Email Servers in Odoo.](google_oauth/green-token.png)
 
 Finally, Test the Connection. A confirmation message should appear. The Odoo database
 can now send safe, secure emails through Google using OAuth authentication.
@@ -136,7 +136,7 @@ can now send safe, secure emails through Google using OAuth authentication.
 Choosing Production as the Publishing Status (instead of
 Testing) will display the following warning message:
 
-![OAuth is Limited to 100 Sensitive Scope Logins.](applications/general/email_communication/google_oauth/published-status.png)
+![OAuth is Limited to 100 Sensitive Scope Logins.](google_oauth/published-status.png)
 
 To correct this warning, navigate to the [Google API Platform](https://console.cloud.google.com/apis/credentials/consent). If the Publishing status
 is In Production, click Back to Testing to correct the issue.
@@ -146,7 +146,7 @@ is In Production, click Back to Testing to correct the issue.
 If no test users are added to the OAuth consent screen, then a 403 access denied error will
 populate.
 
-![403 Access Denied Error.](applications/general/email_communication/google_oauth/403-error.png)
+![403 Access Denied Error.](google_oauth/403-error.png)
 
 To correct this error, return to the OAuth consent screen under APIs &
 Services and add test user(s) to the app. Add the email that you are configuring in Odoo.
@@ -156,7 +156,7 @@ Services and add test user(s) to the app. Add the email that you are configuring
 If the *Google Gmail* module in Odoo has not been updated to the latest version, then a
 Forbidden error message populates.
 
-![Forbidden you don't have the permission to access the requested resource.](applications/general/email_communication/google_oauth/forbidden-error.png)
+![Forbidden you don't have the permission to access the requested resource.](google_oauth/forbidden-error.png)
 
 To correct this error, go to the Apps module and clear out the search terms. Then,
 search for `Gmail` or `Google` and upgrade the Google Gmail module. Finally, click
@@ -167,7 +167,7 @@ on the three dots on the upper right of the module and select Upgrade.
 When creating the credentials (OAuth *Client ID* and *Client Secret*), if Desktop App is
 selected for the Application Type, an Authorization Error appears.
 
-![Error 400 Redirect URI Mismatch.](applications/general/email_communication/google_oauth/error-400.png)
+![Error 400 Redirect URI Mismatch.](google_oauth/error-400.png)
 
 To correct this error, delete the credentials already created and create new credentials, selecting
 Web Application for the Application Type. Then, under Authorized

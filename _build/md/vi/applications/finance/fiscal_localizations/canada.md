@@ -86,7 +86,7 @@ The following fiscal positions are available by default:
 - Yukon (YT)
 - Quốc tế (INTL)
 
-![The default fiscal positions for the Canada localization in Odoo Accounting.](applications/finance/fiscal_localizations/canada/l10n-ca-fiscal-positions.png)
+![The default fiscal positions for the Canada localization in Odoo Accounting.](canada/l10n-ca-fiscal-positions.png)
 
 #### NOTE
 When considering what taxes to be applied, it is the province where the delivery occurs that
@@ -139,14 +139,14 @@ Canadian localization, under the Accounting app ‣ Reporting drop-down menu:
 
   Be sure to select the Balance sheet (CA) option from the <i class="fa fa-book"></i>
   Report filter.
-  ![Balance sheet report selection for CA localization in Odoo.](applications/finance/fiscal_localizations/canada/l10n-ca-balance-sheet.png)
+  ![Balance sheet report selection for CA localization in Odoo.](canada/l10n-ca-balance-sheet.png)
 - [Profit & Loss](../accounting/reporting.md#accounting-reporting-balance-sheet): otherwise known as a *P&L statement* or
   *income statement*, provides a summary of a company's revenues, expenses, and profits/losses over
   a given period of time.
 
   Be sure to select the Profit and loss (CA) option from the <i class="fa fa-book"></i>
   Report filter.
-  ![Profit and loss report selection for CA localization in Odoo.](applications/finance/fiscal_localizations/canada/l10n-ca-profit-loss.png)
+  ![Profit and loss report selection for CA localization in Odoo.](canada/l10n-ca-profit-loss.png)
 - Cash Flow Statement: shows how much cash and cash equivalents a company has received
   and spent in a given period.
 - [Executive Summary](../accounting/reporting.md#accounting-reporting-executive-summary): an overview report that covers

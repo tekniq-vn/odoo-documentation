@@ -8,7 +8,7 @@ Ví dụ, các gói hàng khác nhau dùng cho lon nước ngọt, chẳng hạn
 
 Để sử dụng gói hàng, điều hướng đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt. Sau đó, dưới tiêu đề Sản phẩm, bật tính năng Gói hàng và nhấp vào Lưu.
 
-![Bật gói hàng bằng cách chọn "Gói hàng".](applications/inventory_and_mrp/inventory/product_management/configure/packaging/enable-packagings.png)
+![Bật gói hàng bằng cách chọn "Gói hàng".](packaging/enable-packagings.png)
 
 <a id="inventory-product-management-packaging-setup"></a>
 
@@ -49,7 +49,7 @@ Trên biểu mẫu danh mục sản phẩm, trong phần Logistics, Dự trữ g
 #### IMPORTANT
 **Phải** bật tính năng Gói hàng để có thể xem trường Dự trữ gói hàng. Để bật tính năng này, hãy vào Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt, cuộn đến phần Sản phẩm, đánh dấu vào ô Gói hàng và nhấp vào Lưu.
 
-![Hiển thị trường Dự trữ gói hàng trên trang danh mục sản phẩm.](applications/inventory_and_mrp/inventory/product_management/configure/packaging/reserve-packaging.png)
+![Hiển thị trường Dự trữ gói hàng trên trang danh mục sản phẩm.](packaging/reserve-packaging.png)
 
 ## Sử dụng gói hàng
 
@@ -71,7 +71,7 @@ Các tính năng *Gói hàng*, *Vị trí lưu kho* và *Tuyến cung ứng nhi�
 
 Trên trang Tuyến cung ứng, nhấp vào Mới hoặc chọn một tuyến cung ứng **không** dành cho kho hàng. Tiếp theo, trong phần Áp dụng cho, chọn ô Gói hàng.
 
-![Tạo tuyến cung ứng dành cho gói hàng.](applications/inventory_and_mrp/inventory/product_management/configure/packaging/route.png)
+![Tạo tuyến cung ứng dành cho gói hàng.](packaging/route.png)
 
 <a id="inventory-product-management-route-on-packaging"></a>
 
@@ -83,4 +83,4 @@ Trong biểu mẫu sản phẩm, chuyển sang tab Tồn kho. Trong phần Gói 
 
 Trong trường Tuyến cung ứng, chọn tuyến đường riêng theo gói hàng. Lặp lại các bước này cho tất cả gói hàng dự định sử dụng tuyến đường đó.
 
-![Thiết lập tuyến cung ứng dành cho gói hàng.](applications/inventory_and_mrp/inventory/product_management/configure/packaging/apply-route.png)
+![Thiết lập tuyến cung ứng dành cho gói hàng.](packaging/apply-route.png)

@@ -30,7 +30,7 @@ Go to Settings app ‣ Companies section ‣ Manage Companies. Then, either clic
 New, and fill in the form with the company's information, or select a pre-existing
 company to edit it.
 
-![Overview of a new company's form in Odoo.](applications/general/companies/company-info.png)
+![Overview of a new company's form in Odoo.](companies/company-info.png)
 
 ### Chuyển đổi giữa các công ty
 
@@ -44,7 +44,7 @@ company only. To do so, on their forms, choose between:
 - *A blank field*: the record is shared within all companies.
 - *Adding a company*: the record is visible to users logged in to that specific company.
 
-![View of a product's form emphasizing the company field in Odoo Sales.](applications/general/companies/product-form-company.png)
+![View of a product's form emphasizing the company field in Odoo Sales.](companies/product-form-company.png)
 
 When an environment is selected from the top menu, along with an additional company, records are
 shared between the two companies.
@@ -53,7 +53,7 @@ shared between the two companies.
 
 Các chi nhánh có thể được thêm vào công ty bằng cách đi đến Ứng dụng Cài đặt ‣ Phần Công ty ‣ Quản lý công ty. Sau đó, chọn công ty mong muốn từ danh sách. Từ biểu mẫu chi tiết công ty, mở tab Chi nhánh. Để thêm chi nhánh, nhấp Thêm một dòng và điền vào biểu mẫu bật lên Tạo chi nhánh xuất hiện.
 
-![Add a branch to a company with branches and add a line highlighted.](applications/general/companies/add-branch.png)
+![Add a branch to a company with branches and add a line highlighted.](companies/add-branch.png)
 
 <a id="general-employee-access"></a>
 
@@ -72,7 +72,7 @@ Multiple companies can be set for Allowed Companies, and *only one* can be set a
 Default Company.
 
 ![View of an user form emphasizing the multi companies field under the access rights tabs
-in Odoo.](applications/general/companies/access-rights-multi-companies.png)
+in Odoo.](companies/access-rights-multi-companies.png)
 
 If an administrator has multiple companies activated on the database, and is editing a record, the
 editing occurs on the record's related company.
@@ -96,7 +96,7 @@ To set document formats according to each company, *activate* and *select* the r
 and, under the Settings app ‣ Companies section, click on Configure
 Document Layout and edit the information as needed.
 
-![View of the settings page emphasizing the document layout field in Odoo.](applications/general/companies/document-layout.png)
+![View of the settings page emphasizing the document layout field in Odoo.](companies/document-layout.png)
 
 Company Details can be edited on the document layout. By default, this field is
 populated from the company information listed, when navigating here: Settings app
@@ -140,7 +140,7 @@ options:
   \* The given option needs to be selected, so Automatic Validation appears in the
   configuration.
 
-![View of the settings page emphasizing the inter company transaction field in Odoo.](applications/general/companies/inter-company-transactions.png)
+![View of the settings page emphasizing the inter company transaction field in Odoo.](companies/inter-company-transactions.png)
 
 #### NOTE
 Products **must** be configured as Can be sold and shared between the companies. See

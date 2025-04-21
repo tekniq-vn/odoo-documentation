@@ -7,7 +7,7 @@ Accounting ‣ Configuration ‣ Chart of Accounts.
 When browsing your chart of accounts, you can sort the accounts by Code,
 Account Name, or Type, but other options are available in the drop-down menu
 
-![Drop-down toggle button](applications/finance/accounting/get_started/chart_of_accounts/drop-down.png)![Group the accounts by type in Odoo Accounting](applications/finance/accounting/get_started/chart_of_accounts/chart-of-accounts-sort.png)
+![Drop-down toggle button](chart_of_accounts/drop-down.png)![Group the accounts by type in Odoo Accounting](chart_of_accounts/chart-of-accounts-sort.png)
 
 <a id="chart-of-account-create"></a>
 
@@ -106,13 +106,13 @@ Accounting ‣ Configuration ‣ Account Groups. Here, create a new group and en
 the name, code prefix, and company to which that group account should be available. Note
 that you must enter the same code prefix in both From and to fields.
 
-![Account groups creation.](applications/finance/accounting/get_started/chart_of_accounts/account-groups.png)
+![Account groups creation.](chart_of_accounts/account-groups.png)
 
 To display your **Trial Balance** report with your account groups, go to
 Accounting ‣ Reporting ‣ Trial Balance, then open the Options menu
 and select Hierarchy and Subtotals.
 
-![Account Groups in the Trial Balance in Odoo Accounting](applications/finance/accounting/get_started/chart_of_accounts/chart-of-accounts-groups.png)
+![Account Groups in the Trial Balance in Odoo Accounting](chart_of_accounts/chart-of-accounts-groups.png)
 
 ### Allow reconciliation
 
@@ -126,7 +126,7 @@ its payment. Therefore, the account used to record credit card payments needs to
 To do so, check the Allow Reconciliation box in the account's settings, and
 Save; or enable the button from the chart of accounts view.
 
-![Allow reconciliation for accounts in Odoo Accounting](applications/finance/accounting/get_started/chart_of_accounts/chart-of-accounts-reconciliation.png)
+![Allow reconciliation for accounts in Odoo Accounting](chart_of_accounts/chart-of-accounts-reconciliation.png)
 
 ### Ngừng sử dụng
 

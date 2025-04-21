@@ -73,7 +73,7 @@ To access it, go to Accounting ‣ Reporting ‣ Deferred Revenue.
 To view the journal items of each account, click on the account name and then Journal
 Items.
 
-![Deferred revenue report](applications/finance/accounting/customer_invoices/deferred_revenues/deferred_revenue_report.png)
+![Deferred revenue report](deferred_revenues/deferred_revenue_report.png)
 
 #### NOTE
 Only invoices whose accounting date is before the end of the period of the report

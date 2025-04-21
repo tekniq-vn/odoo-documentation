@@ -21,7 +21,7 @@ open the corresponding customer invoice and click Register Payment. In the pop-u
 window, select the Journal linked to your bank account and Batch Deposit as
 the Payment Method, and click Create Payment.
 
-![Registering a customer payment as part of a batch deposit](applications/finance/accounting/payments/batch/batch-payments.png)
+![Registering a customer payment as part of a batch deposit](batch/batch-payments.png)
 
 ### Add payments to a batch deposit
 
@@ -29,12 +29,12 @@ To add payments to a batch deposit, go to Accounting ‣ Customers ‣ Batch
 Payments, and click New. Next, select the Bank and choose Batch
 Deposit as the Payment Method.
 
-![Filling out a new inbound batch payment form](applications/finance/accounting/payments/batch/batch-customer-payment.png)
+![Filling out a new inbound batch payment form](batch/batch-customer-payment.png)
 
 Click Add a line. In the pop-up window, tick all payments to include in the batch
 deposit, then click Select.
 
-![Selecting all payments to include in the batch deposit](applications/finance/accounting/payments/batch/batch-lines-selection.png)
+![Selecting all payments to include in the batch deposit](batch/batch-lines-selection.png)
 
 Once done, click Validate to finalize the batch deposit.
 
@@ -45,7 +45,7 @@ batch payment. To do so, go to the Accounting Dashboard and click Reconcile
 Items on the related bank account. Go to the Batch Payments tab to select a specific
 batch and click Validate to finalize the process.
 
-![Reconciling the batch payment with all its transactions](applications/finance/accounting/payments/batch/batch-reconciliation.png)
+![Reconciling the batch payment with all its transactions](batch/batch-reconciliation.png)
 
 #### NOTE
 If a specific payment could not be processed by the bank or is missing, remove the related

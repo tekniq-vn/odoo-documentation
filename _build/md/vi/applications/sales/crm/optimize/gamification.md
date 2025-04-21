@@ -13,7 +13,7 @@ Type `CRM Gamification` to search.
 On the CRM Gamification module, click Install. This module features goals
 and challenges related to the *CRM* and *Sales* applications.
 
-![View of the gamification module being installed in Odoo.](applications/sales/crm/optimize/gamification/gamification-module-install.png)
+![View of the gamification module being installed in Odoo.](gamification/gamification-module-install.png)
 
 #### NOTE
 If **both** the *CRM* and *Sales* apps are installed, the *CRM Gamification* module is
@@ -23,7 +23,7 @@ To access the *Gamification Tools* menu, first enable [Chế độ lập trình 
 
 Next, navigate to Settings app ‣ Gamification Tools.
 
-![View if the gamification tools menu in Odoo Settings.](applications/sales/crm/optimize/gamification/gamification-tools-menu.png)
+![View if the gamification tools menu in Odoo Settings.](gamification/gamification-tools-menu.png)
 
 <a id="crm-create-rewards"></a>
 
@@ -36,7 +36,7 @@ they accomplish the goal.
 To view the existing badges, or create a new one, navigate to Settings ‣
 Gamification Tools ‣ Badges.
 
-![View of the badges page in Odoo.](applications/sales/crm/optimize/gamification/badges.png)
+![View of the badges page in Odoo.](gamification/badges.png)
 
 #### NOTE
 Some badges can be awarded outside of challenges, as well. Select the Kanban card for the desired
@@ -67,7 +67,7 @@ checkbox. This sets a limit on the number of times a user can grant this badge. 
 Limitation Number field, enter the maximum number of times this badge can be sent per
 month, per person.
 
-![The details page for a new badge.](applications/sales/crm/optimize/gamification/create-badge.png)
+![The details page for a new badge.](gamification/create-badge.png)
 
 <a id="crm-create-challenge"></a>
 
@@ -101,7 +101,7 @@ Enter a Target for the goal based on the Suffix.
 
 Repeat these steps for each additional goal.
 
-![The goals tab of a challenge form.](applications/sales/crm/optimize/gamification/challenge-goals.png)
+![The goals tab of a challenge form.](gamification/challenge-goals.png)
 
 ### Thêm phần thưởng
 

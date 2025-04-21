@@ -78,7 +78,7 @@ from the main Odoo dashboard, to open the Campaigns dashboard, which displays si
   Send an email to new leads and assign them a high priority if they open it.
   <br/>
 
-![Six campaign template cards on the Campaigns dashboard of the Marketing Automation app.](applications/marketing/marketing_automation/campaigns-dashboard.png)
+![Six campaign template cards on the Campaigns dashboard of the Marketing Automation app.](marketing_automation/campaigns-dashboard.png)
 
 These templates are designed to be used as starting points for creating new campaigns. Click one of
 the template cards to open the campaign form.

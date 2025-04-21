@@ -13,7 +13,7 @@ Odoo.sh
 
 Sau ba năm hỗ trợ ban đầu, bạn sẽ có thêm hai năm để hoàn tất nâng cấp. Bạn sẽ được thông báo khi cần nâng cấp.
 
-![Popup "phiên bản không được hỗ trợ" trên Odoo.sh.](administration/upgrade/odoo-sh-message.png)
+![Popup "phiên bản không được hỗ trợ" trên Odoo.sh.](upgrade/odoo-sh-message.png)
 
 On-premise
 
@@ -56,7 +56,7 @@ Cơ sở dữ liệu Odoo Online có thể được nâng cấp thủ công thô
 
 Trình quản lý cơ sở dữ liệu hiển thị tất cả các cơ sở dữ liệu được liên kết với tài khoản của người dùng. Các cơ sở dữ liệu không có trên phiên bản Odoo mới nhất sẽ hiển thị một mũi tên trong biểu tượng hình tròn bên cạnh tên của chúng, cho biết chúng có thể được nâng cấp.
 
-![Trình quản lý cơ sở dữ liệu có nút nâng cấp bên cạnh tên cơ sở dữ liệu.](administration/upgrade/databases-page.png)
+![Trình quản lý cơ sở dữ liệu có nút nâng cấp bên cạnh tên cơ sở dữ liệu.](upgrade/databases-page.png)
 
 Nhấp vào biểu tượng **mũi tên trong vòng tròn** để bắt đầu quá trình nâng cấp. Trong cửa sổ pop-up, hãy điền:
 
@@ -64,17 +64,17 @@ Nhấp vào biểu tượng **mũi tên trong vòng tròn** để bắt đầu q
 - Địa chỉ **email** sẽ nhận được liên kết đến cơ sở dữ liệu đã nâng cấp
 - Mục đích của bản nâng cấp, được tự động đặt thành Kiểm thử cho yêu cầu nâng cấp đầu tiên của bạn
 
-![Cửa sổ pop-up "Nâng cấp cơ sở dữ liệu của bạn".](administration/upgrade/upgrade-popup.png)
+![Cửa sổ pop-up "Nâng cấp cơ sở dữ liệu của bạn".](upgrade/upgrade-popup.png)
 
 Thẻ Đang nâng cấp được hiển thị bên cạnh tên cơ sở dữ liệu cho đến khi nâng cấp hoàn tất. Khi quá trình này thành công, một email có chứa liên kết đến cơ sở dữ liệu kiểm thử đã nâng cấp sẽ được gửi đến địa chỉ mà bạn đã cung cấp. Bạn cũng có thể truy cập cơ sở dữ liệu này từ trình quản lý cơ sở dữ liệu bằng cách nhấp vào mũi tên thả xuống trước tên cơ sở dữ liệu.
 
-![Việc nhấp vào mũi tên menu sẽ hiển thị cơ sở dữ liệu kiểm thử đã nâng cấp.](administration/upgrade/access-upgraded-db.png)
+![Việc nhấp vào mũi tên menu sẽ hiển thị cơ sở dữ liệu kiểm thử đã nâng cấp.](upgrade/access-upgraded-db.png)
 
 Odoo.sh
 
 Odoo.sh được tích hợp với nền tảng nâng cấp để đơn giản hóa quá trình nâng cấp.
 
-![Dự án và tab Odoo.sh](administration/upgrade/odoo-sh-staging.png)
+![Dự án và tab Odoo.sh](upgrade/odoo-sh-staging.png)
 
 Sau đó, **bản sao lưu tự động hàng ngày mới nhất** sẽ được gửi đến 
 
@@ -181,7 +181,7 @@ Odoo.sh
 
 Quá trình này tương tự như [nhận cơ sở dữ liệu kiểm thử đã nâng cấp](#upgrade-request-test) trên nhánh Production.
 
-![Chế độ xem từ tab nâng cấp](administration/upgrade/odoo-sh-prod.png)
+![Chế độ xem từ tab nâng cấp](upgrade/odoo-sh-prod.png)
 
 Quá trình này được **kích hoạt ngay khi có commit mới** trên nhánh. Điều này cho phép quá trình nâng cấp được đồng bộ hóa với việc triển khai mã nguồn đã nâng cấp của các phân hệ tùy chỉnh. Nếu không có phân hệ tùy chỉnh nào, quá trình nâng cấp sẽ được kích hoạt ngay lập tức.
 

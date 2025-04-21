@@ -33,7 +33,7 @@ displaying each record's Date, User, Description, and
 Amount. The total of all the cash moves is displayed at the bottom of the
 Amount column.
 
-![The list view of all cash moves.](applications/hr/lunch/user-accounts/cash.png)
+![The list view of all cash moves.](user-accounts/cash.png)
 
 ### Add funds
 
@@ -50,7 +50,7 @@ A blank Cash Moves form loads. Enter the following information on the form:
 - Amount: enter the amount being added to the lunch account.
 - Description: enter a brief description of the transaction.
 
-![The cash move form filled out for a transaction of $40.00.](applications/hr/lunch/user-accounts/cash-move-form.png)
+![The cash move form filled out for a transaction of $40.00.](user-accounts/cash-move-form.png)
 
 ## Kiểm soát tài khoản
 
@@ -69,7 +69,7 @@ group.
 Each record includes the Date, User, Description, and
 Amount.
 
-![The Control Accounts dashboard with two employee's transactions expanded.](applications/hr/lunch/user-accounts/control-accounts.png)
+![The Control Accounts dashboard with two employee's transactions expanded.](user-accounts/control-accounts.png)
 
 #### IMPORTANT
 This list only displays the various transactions within the *Lunch* app, and does **not** allow

@@ -43,7 +43,7 @@ Fill out the following fields on the vendor form:
   from the drop-down menu. If this field is left blank, the vendor's items are available to **all**
   companies.
 
-![The top portion of the vendor form filled out.](applications/hr/lunch/vendors/vendor-info.png)
+![The top portion of the vendor form filled out.](vendors/vendor-info.png)
 
 <a id="lunch-availability"></a>
 
@@ -55,7 +55,7 @@ week the vendor is available.
 
 By default, Monday through Friday are ticked.
 
-![The default view of the availability section, with Mon-Fri enabled.](applications/hr/lunch/vendors/availability.png)
+![The default view of the availability section, with Mon-Fri enabled.](vendors/availability.png)
 
 <a id="lunch-orders"></a>
 
@@ -80,7 +80,7 @@ for, in addition to how and when orders are placed and received.
   accepted. Enter the time in the following format: `HH:MM`. Then select either AM or
   PM from the drop-down menu, next to the time field.
 
-![The orders section of a vendor form, with all fields filled out.](applications/hr/lunch/vendors/orders.png)
+![The orders section of a vendor form, with all fields filled out.](vendors/orders.png)
 
 <a id="lunch-extras"></a>
 

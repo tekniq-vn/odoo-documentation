@@ -9,7 +9,7 @@ To utilize the reseller features, the *Resellers* module first needs to be insta
 the Apps application, and remove the Apps filter from the
 Search... bar. Then, search for `Resellers`.
 
-![The resellers module in Odoo.](applications/sales/crm/track_leads/resellers/resellers-module.png)
+![The resellers module in Odoo.](resellers/resellers-module.png)
 
 Click Activate on the Resellers module card that appears. Doing so installs
 the module, and returns to the main Odoo dashboard.
@@ -69,7 +69,7 @@ the Name field of a desired level, and enter a new name.
 To change the active status of an activation, slide the toggle in the Active column of
 the desired activation to the *inactive* position.
 
-![The list of default partner activations in the CRM app.](applications/sales/crm/track_leads/resellers/activations-toggle.png)
+![The list of default partner activations in the CRM app.](resellers/activations-toggle.png)
 
 ## Partner assignments
 
@@ -103,4 +103,4 @@ slide the Unpublished toggle to the active, Published position, if needed.
 
 Repeat these steps for all partners.
 
-![An example of the partners webpage, displaying available partners by level and location.](applications/sales/crm/track_leads/resellers/partners-webpage.png)
+![An example of the partners webpage, displaying available partners by level and location.](resellers/partners-webpage.png)

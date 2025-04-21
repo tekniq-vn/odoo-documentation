@@ -36,7 +36,7 @@ applicable).
 
 Để xem thông tin chi tiết về số dư ngày nghỉ, hãy nhấp vào biểu tượng <i class="fa fa-question-circle-o"></i> (dấu hỏi) ở cuối mục (NGÀY/GIỜ) KHẢ DỤNG trên bảng tổng quan về ngày nghỉ. Các thông tin chi tiết sẽ được hiển thị trong cửa sổ hiện lên, bao gồm: thời gian Đã phân bổ, thời gian Tích lũy (Tương lai), ngày nghỉ Đã phê duyệt đã lên lịch, ngày nghỉ Đã lên kế hoạch và ngày nghỉ Hiện có.
 
-![A view of the complete time off balance details in the popover window.](applications/hr/time_off/my_time/balance-details.png)
+![A view of the complete time off balance details in the popover window.](my_time/balance-details.png)
 
 A user can also select a future date to see an estimate of how much time they should accrue by that
 point. On the right side of the time off summary blocks, there is a Balance at the
@@ -68,7 +68,7 @@ in the upper-left corner, and a [New Time Off](request_time_off.md) pop-up windo
 New allocation requests can also be made from the Dashboard. Click the New
 Allocation Request button to request more time off, and a [New Allocation](allocations.md#time-off-request-allocation) pop-up window appears.
 
-![Time off dashboard view with the legend, time off summaries, and view buttons highlighted.](applications/hr/time_off/my_time/dashboard.png)
+![Time off dashboard view with the legend, time off summaries, and view buttons highlighted.](my_time/dashboard.png)
 
 <a id="time-off-my-time-off"></a>
 

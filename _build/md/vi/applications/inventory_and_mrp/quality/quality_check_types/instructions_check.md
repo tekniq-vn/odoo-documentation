@@ -5,7 +5,7 @@ when creating a new quality check or quality control point (QCP). *Instructions*
 text entry field that allows the creator to provide instructions for how to complete the check.
 
 For a full overview of how to configure a quality check or a , see the documentation on
-[quality checks](../quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](../quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+[quality checks](applications/inventory_and_mrp/quality/quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
 
 ## Process an Instructions quality check
 
@@ -30,7 +30,7 @@ On the selected manufacturing or inventory order, a purple Quality Checks button
 above the order. Click the button to open the Quality Check pop-up window, from which
 any quality checks created for the order can be processed.
 
-![The Quality Check pop-up window on a manufacturing or inventory order.](instructions_check/quality-check-pop-up.png)
+![The Quality Check pop-up window on a manufacturing or inventory order.](../../../../.gitbook/assets/quality-check-pop-up.png)
 
 To complete an *Instructions* quality check, follow the instructions detailed in the
 Quality Check pop-up window. Finally, click Validate to confirm that the
@@ -41,7 +41,7 @@ notify a quality team. To do so, click the Quality Alert button that appears at 
 of the manufacturing or inventory order after the check is validated.
 
 Clicking Quality Alert opens a quality alert form on a new page. For a complete guide on
-how to fill out quality alert forms, view the documentation on [quality alerts](../quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
+how to fill out quality alert forms, view the documentation on [quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
 
 ### Process work order quality check
 
@@ -67,11 +67,11 @@ Begin processing the work order's steps until the *Instructions* quality check s
 Click on the step to open a pop-up window that details how to complete the quality check. Once
 completed, click the Next button to complete the check, and move on to the next step.
 
-![An Instruction check as it appears in the Shop Floor module.](instructions_check/instructions-check-shop-floor.png)
+![An Instruction check as it appears in the Shop Floor module.](../../../../.gitbook/assets/instructions-check-shop-floor.png)
 
 Alternatively, an *Instructions* quality check can be completed by clicking the checkbox that
 appears on the right side of the step's line on the work order card. When using this method, the
 quality check automatically passes, without a pop-up window appearing.
 
 #### NOTE
-For a full guide to the *Shop Floor* module, see the [Shop Floor overview](../../manufacturing/shop_floor/shop_floor_overview.md#manufacturing-shop-floor-shop-floor-overview) documentation.
+For a full guide to the *Shop Floor* module, see the [Shop Floor overview](applications/inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.md#manufacturing-shop-floor-shop-floor-overview) documentation.

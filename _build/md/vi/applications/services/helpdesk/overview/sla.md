@@ -12,7 +12,7 @@ Configuration ‣ Helpdesk Teams. Click on a team to open that team's configurat
 
 From here, scroll to the Performance section. To turn off the  feature for the team, clear the SLA Policies checkbox.
 
-![View of a team page in Helpdesk focusing on the SLA Policies setting.](sla/sla-enable.png)
+![View of a team page in Helpdesk focusing on the SLA Policies setting.](../../../../.gitbook/assets/sla-enable.png)
 
 ## Create a new SLA policy
 
@@ -70,11 +70,11 @@ Employees ‣ Work Organization.
 
 The deadline is then added to the ticket, as well as a tag indicating the name of the  applied.
 
-![View of a ticket's form emphasizing an open SLA deadline on a ticket in Odoo Helpdesk.](sla/sla-open-deadline.png)
+![View of a ticket's form emphasizing an open SLA deadline on a ticket in Odoo Helpdesk.](../../../../.gitbook/assets/sla-open-deadline.png)
 
 When a ticket satisfies an  policy, the  tag turns green, and the deadline disappears from view on the ticket.
 
-![View of a ticket's form emphasizing a satisfied SLA in Odoo Helpdesk.](sla/sla-deadline.png)
+![View of a ticket's form emphasizing a satisfied SLA in Odoo Helpdesk.](../../../../.gitbook/assets/sla-deadline.png)
 
 #### IMPORTANT
 If a ticket fits the criteria for more than one , the
@@ -86,7 +86,7 @@ Reach Stage, the  tag turns red. After the
  has failed, the red tag stays on the ticket, even after the
 ticket is moved to the Reach Stage.
 
-![View of a ticket's form with a failing and passing SLA in Odoo Helpdesk.](sla/sla-passing-failing.png)
+![View of a ticket's form with a failing and passing SLA in Odoo Helpdesk.](../../../../.gitbook/assets/sla-passing-failing.png)
 
 <a id="helpdesk-analyze-sla-performance"></a>
 
@@ -101,7 +101,7 @@ SLA Status Analysis.
 By default, the report displays in a Pivot view. Any  policies in the database with tickets that failed to fulfill a policy, are in progress,
 or have satisfied a policy are listed. By default, they are grouped by team and ticket count.
 
-![View of the SLA status analysis report in Odoo Helpdesk.](sla/sla-status-analysis.png)
+![View of the SLA status analysis report in Odoo Helpdesk.](../../../../.gitbook/assets/sla-status-analysis.png)
 
 To change the display, or add additional measurements, click the Measures button to
 reveal a drop-down menu of reporting criteria, and choose from the options available.
@@ -110,13 +110,13 @@ Whenever a measurement is picked, a ✔️ (checkmark) icon appears in the drop-
 indicate that the measurement is included, and a corresponding new column emerges in the pivot table
 to show the relevant calculations.
 
-![View of the available measures in the SLA status analysis report.](sla/sla-pivot-measures.png)
+![View of the available measures in the SLA status analysis report.](../../../../.gitbook/assets/sla-pivot-measures.png)
 
 To add a group to a row or column, click the ➕ (plus) icon next to the policy name and
 then select one of the groups. To remove one, click the ➖ (minus) icon next to the
 policy name.
 
-![View of the available group by options in the SLA status analysis report.](sla/sla-pivot-groups.png)
+![View of the available group by options in the SLA status analysis report.](../../../../.gitbook/assets/sla-pivot-groups.png)
 
 ### Chế độ xem biểu đồ
 
@@ -127,15 +127,15 @@ at the top-left of the graph.
 
 Đồ thị cột
 
-![View of the SLA status analysis report in bar view.](sla/sla-report-bar.png)
+![View of the SLA status analysis report in bar view.](../../../../.gitbook/assets/sla-report-bar.png)
 
 Đồ thị đường
 
-![View of the SLA status analysis report in line view.](sla/sla-report-line.png)
+![View of the SLA status analysis report in line view.](../../../../.gitbook/assets/sla-report-line.png)
 
 Biểu đồ tròn
 
-![View of the SLA status analysis report in pie chart view.](sla/sla-report-pie.png)
+![View of the SLA status analysis report in pie chart view.](../../../../.gitbook/assets/sla-report-pie.png)
 
 ### Cohort view
 
@@ -144,8 +144,8 @@ the SLA Status Analysis report in a Cohort view, click the
 Cohort button, represented by (four cascading horizontal lines), in the
 top-right corner, next to the other view options.
 
-![View of the SLA status analysis report in cohort view.](sla/sla-report-cohort.png)
+![View of the SLA status analysis report in cohort view.](../../../../.gitbook/assets/sla-report-cohort.png)
 
 #### SEE ALSO
-- [Reporting views](../../../essentials/reporting.md#reporting-views)
-- [Allow customers to close their tickets](../advanced/close_tickets.md)
+- [Reporting views](applications/essentials/reporting.md#reporting-views)
+- [Allow customers to close their tickets](applications/services/helpdesk/advanced/close_tickets.md)

@@ -37,7 +37,7 @@ established in Dubai offering several online payment options.
 
 ## Configuration on Odoo
 
-1. [Navigate to the payment provider Amazon Payment Services](../payment_providers.md#payment-providers-add-new),
+1. [Navigate to the payment provider Amazon Payment Services](applications/finance/payment_providers.md#payment-providers-add-new),
    change its state to Enabled, and make sure it is Published.
 2. In the Credentials tab, fill the Merchant Identifier,
    Access Code, SHA Request Phrase and SHA Response Phrase with

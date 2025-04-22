@@ -16,7 +16,7 @@ Name for your project and click Create Project.
 You can customize your existing **projects** from the dashboard by clicking the drop-down toggle
 button (⋮) on your project's **card**.
 
-![Project card](project_management/project-settings.png)
+![Project card](../../../.gitbook/assets/project-settings.png)
 
 This enables a new menu divided into four parts:
 
@@ -41,7 +41,7 @@ This enables a new menu divided into four parts:
 Additionally, you can mark the project as Favorite, allowing you to find it using the
 My Favorites filter on the Kanban view;
 
-![Cài đặt dự án](project_management/project-settings-opened.png)
+![Cài đặt dự án](../../../.gitbook/assets/project-settings-opened.png)
 
 #### SEE ALSO
 [Odoo Tutorials: Customize projects](https://www.odoo.com/slides/slide/customize-projects-3615?fullscreen=1)

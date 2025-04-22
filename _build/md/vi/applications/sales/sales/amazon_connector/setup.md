@@ -24,7 +24,7 @@ and click Save.
 Then, return to Sales app ‣ Configuration ‣ Settings ‣ Connectors section,
 and click on the Amazon Accounts link under the Amazon Sync setting.
 
-![The Amazon Accounts link beneath the Amazon Sync settings in Odoo Sales.](setup/amazon-accounts-link-setting.png)
+![The Amazon Accounts link beneath the Amazon Sync settings in Odoo Sales.](../../../../.gitbook/assets/amazon-accounts-link-setting.png)
 
 Doing so reveals a separate Amazon Accounts page. From here, click New to
 create and link a new Amazon account.
@@ -33,12 +33,12 @@ On the blank Amazon Account form page, start by choosing a name for the account 
 `American Marketplace`). Then, in the Credentials tab, select the marketplace on which
 the seller account was initially created from the Home Marketplace drop-down menu.
 
-![A typical Amazon Account form page in the Odoo Sales application.](setup/amazon-accounts-form-page.png)
+![A typical Amazon Account form page in the Odoo Sales application.](../../../../.gitbook/assets/amazon-accounts-form-page.png)
 
 After saving, the field in the Credentials tab is replaced by a Link with
 Amazon button.
 
-![A typical Amazon Account form page and Link with Amazon button in Odoo Sales.](setup/amazon-accounts-form-link-button.png)
+![A typical Amazon Account form page and Link with Amazon button in Odoo Sales.](../../../../.gitbook/assets/amazon-accounts-form-link-button.png)
 
 Clicking that button redirects to either the Amazon login page, or directly to the required consent
 page, if the user is already logged in to Amazon.
@@ -71,7 +71,7 @@ the Amazon *Gift Wrapping* code for gift wrapping charges.
 For marketplace products, pairings are saved as *Amazon Offers*, which are listed under the
 Offers smart button on the account form.
 
-![The Amazon Offers smart button on the account form in Odoo Sales.](setup/amazon-offers-button.png)
+![The Amazon Offers smart button on the account form in Odoo Sales.](../../../../.gitbook/assets/amazon-offers-button.png)
 
 Offers are automatically created when the pairing is established, and they're used for subsequent
 orders to lookup SKUs. If no offer with a matching SKU is found, [the internal reference is
@@ -82,7 +82,7 @@ wrapping code, then a default database product, *Amazon Sale*, is used. The same
 default product *Amazon Shipping* if no database product is found for a given Amazon shipping code.
 
 #### NOTE
-To modify default products, activate the [developer mode](../../../general/developer_mode.md#developer-mode), and navigate to
+To modify default products, activate the [developer mode](applications/general/developer_mode.md#developer-mode), and navigate to
 Sales app ‣ Configuration ‣ Settings ‣ Connectors ‣ Amazon Sync ‣
 Default Products.
 
@@ -106,7 +106,7 @@ differences can be resolved with a write-off when reconciling the payments in Od
 All marketplaces are supported by the Amazon Connector. To add a new marketplace, proceed as
 follows:
 
-1. Activate the [developer mode](../../../general/developer_mode.md#developer-mode).
+1. Activate the [developer mode](applications/general/developer_mode.md#developer-mode).
 2. Go to Sales app ‣ Configuration ‣ Settings ‣ Connectors ‣ Amazon Sync ‣
    Amazon Marketplaces.
 3. Click New to create a new marketplace record.
@@ -124,5 +124,5 @@ follows:
 7. Chọn tài khoản mà bạn muốn sử dụng trên marketplace mới, đi tới tab Marketplace, và nhấn vào Cập nhật marketplace hiện có. Một hoạt ảnh sẽ xác nhận sự thành công của thao tác. Các marketplace mới thêm sẽ tự động được thêm vào danh sách các marketplace đã được đồng bộ hóa. Nếu marketplace mới không được thêm vào danh sách, điều đó có nghĩa là marketplace đó không tương thích hoặc không khả dụng cho tài khoản người bán.
 
 #### SEE ALSO
-- [Amazon Connector features](features.md)
-- [Amazon order management](manage.md)
+- [Amazon Connector features](applications/sales/sales/amazon_connector/features.md)
+- [Amazon order management](applications/sales/sales/amazon_connector/manage.md)

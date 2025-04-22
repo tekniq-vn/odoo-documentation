@@ -1,5 +1,5 @@
 # Nâng cao
 
-* [Container](advanced/containers.md)
-* [Phân hệ phụ](advanced/submodules.md)
-* [Câu hỏi về Kỹ thuật Thường gặp](advanced/frequent_technical_questions.md)
+* [Container](administration/odoo_sh/advanced/containers.md)
+* [Phân hệ phụ](administration/odoo_sh/advanced/submodules.md)
+* [Câu hỏi về Kỹ thuật Thường gặp](administration/odoo_sh/advanced/frequent_technical_questions.md)

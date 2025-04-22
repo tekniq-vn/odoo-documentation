@@ -57,7 +57,7 @@ following attributes:
 : name of the model to create (or update)
 
 `id`
-: the [external identifier](../../glossary.md#term-external-identifier) for this record. It is strongly
+: the [external identifier](developer/glossary.md#term-external-identifier) for this record. It is strongly
   recommended to provide one
   <br/>
   * for record creation, allows subsequent definitions to either modify or
@@ -70,7 +70,7 @@ following attributes:
 `forcecreate`
 : in update mode whether the record should be created if it doesn't exist
   <br/>
-  Requires an [external id](../../glossary.md#term-external-id), defaults to `True`.
+  Requires an [external id](developer/glossary.md#term-external-id), defaults to `True`.
 
 ### `field`
 
@@ -87,8 +87,8 @@ Nothing
   for the field.
 
 `search`
-: for [relational fields](orm.md#reference-fields-relational), should be
-  a [domain](orm.md#reference-orm-domains) on the field's model.
+: for [relational fields](developer/reference/backend/orm.md#reference-fields-relational), should be
+  a [domain](developer/reference/backend/orm.md#reference-orm-domains) on the field's model.
   <br/>
   Will evaluate the domain, search the field's model using it and set the
   search's result as the field's value. Will only use the first result if
@@ -96,7 +96,7 @@ Nothing
 
 `ref`
 : if a `ref` attribute is provided, its value must be a valid
-  [external id](../../glossary.md#term-external-id), which will be looked up and set as the field's value.
+  [external id](developer/glossary.md#term-external-id), which will be looked up and set as the field's value.
   <br/>
   Mostly for `Many2one` and
   `Reference` fields
@@ -110,7 +110,7 @@ Nothing
   <br/>
   `xml`, `html`
   : extracts the `field`'s children as a single document, evaluates
-    any [external id](../../glossary.md#term-external-id) specified with the form `%(external_id)s`.
+    any [external id](developer/glossary.md#term-external-id) specified with the form `%(external_id)s`.
     `%%` can be used to output actual  *%* signs.
   <br/>
   `file`
@@ -146,7 +146,7 @@ Nothing
   <br/>
   The evaluation context contains various modules (`time`, `datetime`,
   `timedelta`, `relativedelta`), a function to resolve [external
-  identifiers](../../glossary.md#term-external-identifiers) (`ref`) and the model object for the current field if
+  identifiers](developer/glossary.md#term-external-identifiers) (`ref`) and the model object for the current field if
   applicable (`obj`)
 
 ### `delete`
@@ -158,10 +158,10 @@ has the following attributes:
 : the model in which a specified record should be deleted
 
 `id`
-: the [external id](../../glossary.md#term-external-id) of a record to remove
+: the [external id](developer/glossary.md#term-external-id) of a record to remove
 
 `search`
-: a [domain](orm.md#reference-orm-domains) to find records of the model to
+: a [domain](developer/reference/backend/orm.md#reference-orm-domains) to find records of the model to
   remove
 
 `id` and `search` are exclusive
@@ -212,7 +212,7 @@ data files provide shorter alternatives to defining them using
 Defines an `ir.ui.menu` record with a number of defaults and fallbacks:
 
 `parent`
-: * If a `parent` attribute is set, it should be the [external id](../../glossary.md#term-external-id)
+: * If a `parent` attribute is set, it should be the [external id](developer/glossary.md#term-external-id)
     of an other menu item, used as the new item's parent
   * If no `parent` is provided, tries to interpret the `name` attribute
     as a `/`-separated sequence of menu names and find a place in the menu
@@ -227,37 +227,37 @@ Defines an `ir.ui.menu` record with a number of defaults and fallbacks:
 
 `groups`
 : A `groups` attribute is interpreted as a comma-separated sequence of
-  [external identifiers](../../glossary.md#term-external-identifiers) for `res.groups` models. If an
-  [external identifier](../../glossary.md#term-external-identifier) is prefixed with a minus (`-`), the group
+  [external identifiers](developer/glossary.md#term-external-identifiers) for `res.groups` models. If an
+  [external identifier](developer/glossary.md#term-external-identifier) is prefixed with a minus (`-`), the group
   is *removed* from the menu's groups
 
 `action`
-: if specified, the `action` attribute should be the [external id](../../glossary.md#term-external-id)
+: if specified, the `action` attribute should be the [external id](developer/glossary.md#term-external-id)
   of an action to execute when the menu is open
 
 `id`
-: the menu item's [external id](../../glossary.md#term-external-id)
+: the menu item's [external id](developer/glossary.md#term-external-id)
 
 <a id="reference-data-template"></a>
 
 ### `template`
 
-Creates a [QWeb view](../user_interface/view_architectures.md#reference-view-architectures-qweb) requiring only the `arch`
+Creates a [QWeb view](developer/reference/user_interface/view_architectures.md#reference-view-architectures-qweb) requiring only the `arch`
 section of the view, and allowing a few *optional* attributes:
 
 `id`
-: the view's [external identifier](../../glossary.md#term-external-identifier)
+: the view's [external identifier](developer/glossary.md#term-external-identifier)
 
 `name`, `inherit_id`, `priority`
 : same as the corresponding field on `ir.ui.view` (nb: `inherit_id`
-  should be an [external identifier](../../glossary.md#term-external-identifier))
+  should be an [external identifier](developer/glossary.md#term-external-identifier))
 
 `primary`
 : if set to `True` and combined with a `inherit_id`, defines the view
   as a primary
 
 `groups`
-: comma-separated list of group [external identifiers](../../glossary.md#term-external-identifiers)
+: comma-separated list of group [external identifiers](developer/glossary.md#term-external-identifiers)
 
 `page`
 : if set to `"True"`, the template is a website page (linkable to,
@@ -276,11 +276,11 @@ XML data files are flexible and self-descriptive, but very verbose when
 creating a number of simple records of the same model in bulk.
 
 For this case, data files can also use [csv](https://en.wikipedia.org/wiki/Comma-separated_values), this is often the case for
-[access rights](security.md#reference-security-acl):
+[access rights](developer/reference/backend/security.md#reference-security-acl):
 
 * the file name is `*model_name*.csv`
 * the first row lists the fields to write, with the special field `id`
-  for [external identifiers](../../glossary.md#term-external-identifiers) (used for creation or update)
+  for [external identifiers](developer/glossary.md#term-external-identifiers) (used for creation or update)
 * each row thereafter creates a new record
 
 Here's the first lines of the data file defining country states
@@ -325,9 +325,9 @@ rendered in a more readable format:
 
 For each row (record):
 
-* the first column is the [external id](../../glossary.md#term-external-id) of the record to create or
+* the first column is the [external id](developer/glossary.md#term-external-id) of the record to create or
   update
-* the second column is the [external id](../../glossary.md#term-external-id) of the country object to link
+* the second column is the [external id](developer/glossary.md#term-external-id) of the country object to link
   to (country objects must have been defined beforehand)
 * the third column is the `name` field for `res.country.state`
 * the fourth column is the `code` field for `res.country.state`

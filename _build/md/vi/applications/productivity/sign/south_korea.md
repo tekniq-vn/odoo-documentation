@@ -1,6 +1,6 @@
 # Odoo Sign legality in South Korea
 
-[Odoo Sign](../sign.md) is your trusted partner for secure, efficient, and legally compliant
+[Odoo Sign](applications/productivity/sign.md) is your trusted partner for secure, efficient, and legally compliant
 electronic signatures in South Korea.
 
 ## Legal framework for electronic signatures in South Korea

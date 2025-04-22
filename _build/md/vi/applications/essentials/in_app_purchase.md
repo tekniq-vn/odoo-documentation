@@ -2,7 +2,7 @@
 
 Mua hàng trong ứng dụng (IAP) là các dịch vụ tùy chọn giúp nâng cao cơ sở dữ liệu Odoo. Mỗi dịch vụ cung cấp những tính năng và chức năng riêng. Danh sách đầy đủ các dịch vụ có trên [Danh mục IAP của Odoo](https://iap.odoo.com/iap/all-in-app-services).
 
-![Danh mục IAP với nhiều dịch vụ khác nhau có sẵn trên IAP.Odoo.com.](in_app_purchase/iap.png)
+![Danh mục IAP với nhiều dịch vụ khác nhau có sẵn trên IAP.Odoo.com.](../../.gitbook/assets/iap.png)
 
 **Không** cần cấu hình hoặc thiết lập dịch vụ  trước khi sử dụng. Người dùng Odoo chỉ cần nhấp vào dịch vụ trong ứng dụng để kích hoạt. Tuy nhiên, mỗi dịch vụ yêu cầu tín dụng trả trước riêng và khi hết, người dùng **phải** [mua thêm](#iap-buying-credits) để tiếp tục sử dụng.
 
@@ -33,9 +33,9 @@ Dịch vụ  được tích hợp tự động với Odoo và **không** yêu c�
 #### SEE ALSO
 Để biết thêm thông tin về cách sử dụng nhiều dịch vụ  khác nhau và hướng dẫn chi tiết hơn liên quan đến chức năng SMS trong Odoo, hãy xem tài liệu dưới đây:
 
-- [Khai thác lead](../sales/crm/acquire_leads/lead_mining.md)
-- [Làm giàu kho liên hệ của bạn với Tự động điền thông tin đối tác](../sales/crm/optimize/partner_autocomplete.md)
-- [Marketing qua SMS](../marketing/sms_marketing.md)
+- [Khai thác lead](applications/sales/crm/acquire_leads/lead_mining.md)
+- [Làm giàu kho liên hệ của bạn với Tự động điền thông tin đối tác](applications/sales/crm/optimize/partner_autocomplete.md)
+- [Marketing qua SMS](applications/marketing/sms_marketing.md)
 
 <a id="in-app-purchase-credits"></a>
 
@@ -61,13 +61,13 @@ Sau đó, trang Dịch vụ IAP sẽ hiển thị và liệt kê các dịch v�
 
 Đầu tiên, hãy đi đến ứng dụng Cài đặt và nhập `IAP` vào thanh Tìm kiếm.... Ngoài ra, người dùng có thể cuộn xuống phần Liên hệ. Trong phần Liên hệ, nơi có ghi Odoo IAP, hãy nhấp vào Xem dịch vụ của tôi.
 
-![Ứng dụng Cài đặt hiển thị tiêu đề Odoo IAP và nút Xem dịch vụ của tôi.](in_app_purchase/view-services.png)
+![Ứng dụng Cài đặt hiển thị tiêu đề Odoo IAP và nút Xem dịch vụ của tôi.](../../.gitbook/assets/view-services.png)
 
 Sau đó, trang Tài khoản IAP sẽ hiển thị và liệt kê các dịch vụ  khác nhau trong cơ sở dữ liệu. Từ đây, nhấp vào một dịch vụ  để mở trang Thông tin tài khoản của dịch vụ đó, nơi bạn có thể mua thêm tín dụng.
 
 Trên trang Thông tin tài khoản, nhấp vào nút Mua tín dụng. Thao tác này sẽ tải trang Mua tín dụng cho (Tài khoản IAP) trong một tab mới. Từ đây, nhấp vào Mua trên gói tín dụng mong muốn. Sau đó, làm theo chỉ dẫn để nhập thông tin thanh toán và xác nhận đơn hàng.
 
-![Trang dịch vụ SMS trên IAP.Odoo.com có ​​bốn gói tín dụng có thể mua.](in_app_purchase/buy-pack.png)
+![Trang dịch vụ SMS trên IAP.Odoo.com có ​​bốn gói tín dụng có thể mua.](../../.gitbook/assets/buy-pack.png)
 
 Sau khi giao dịch hoàn tất, số tín dụng sẽ có sẵn để sử dụng trong cơ sở dữ liệu.
 

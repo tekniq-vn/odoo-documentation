@@ -13,11 +13,11 @@ Khi làm việc với cơ sở dữ liệu, đôi khi cần phải xuất dữ l
 
 Với Odoo, giá trị có thể được xuất từ ​​bất kỳ trường nào trong bất kỳ bản ghi nào. Để thực hiện, hãy kích hoạt chế độ xem danh sách (<i class="oi oi-view-list"></i> (list) icon), trên các mục cần xuất, sau đó chọn những bản ghi cần xuất. Để chọn một bản ghi, đánh dấu vào hộp kiểm bên cạnh bản ghi tương ứng. Cuối cùng, nhấp vào <i class="fa fa-cog"></i> Actions, sau đó Xuất.
 
-![Chế độ xem những mục khác nhau cần bật/nhấp để xuất dữ liệu.](export_import_data/list-view-export.png)
+![Chế độ xem những mục khác nhau cần bật/nhấp để xuất dữ liệu.](../../.gitbook/assets/list-view-export.png)
 
 Khi nhấp vào Xuất, một cửa sổ Xuất dữ liệu sẽ bật lên với một số tùy chọn để xuất dữ liệu:
 
-![Tổng quan về các tùy chọn cần cân nhắc khi xuất dữ liệu trong Odoo.](export_import_data/export-data-overview.png)
+![Tổng quan về các tùy chọn cần cân nhắc khi xuất dữ liệu trong Odoo.](../../.gitbook/assets/export-data-overview.png)
 1. Khi tùy chọn Tôi muốn cập nhật dữ liệu (xuất tương ứng nhập) được chọn, hệ thống chỉ hiển thị các trường có thể nhập. Tính năng này hữu ích trong trường hợp [các bản ghi hiện có cần được cập nhật](#essentials-update-data) và sẽ hoạt động giống như một bộ lọc. Nếu không chọn, bạn sẽ có nhiều tùy chọn trường hơn vì tất cả các trường sẽ hiển thị mà không chỉ các trường có thể nhập.
 2. Khi xuất, có tùy chọn xuất theo hai định dạng: `.csv` và `.xls`. Với `.csv`, các mục được phân tách bằng dấu phẩy, trong khi `.xls` chứa thông tin về tất cả bảng tính trong một tệp, bao gồm cả nội dung và định dạng.
 3. Đây là các mục có thể xuất. Sử dụng biểu tượng > (mũi tên hướng sang phải) để hiển thị thêm nhiều tùy chọn trường con. Sử dụng thanh Tìm kiếm để tìm các trường cụ thể. Để sử dụng tùy chọn Tìm kiếm hiệu quả hơn, hãy nhấp vào tất cả > (mũi tên hướng sang phải) để hiển thị tất cả các trường.
@@ -41,14 +41,14 @@ Dữ liệu có thể được nhập vào bất kỳ đối tượng kinh doanh
 
 Mở chế độ xem của đối tượng mà dữ liệu cần được nhập/điền vào và nhấp :menuselection: `⚙️ (Tác vụ) --> Nhập bản ghi`.
 
-![Menu hành động được hiển thị với tùy chọn nhập bản ghi được tô sáng.](export_import_data/import-button.png)
+![Menu hành động được hiển thị với tùy chọn nhập bản ghi được tô sáng.](../../.gitbook/assets/import-button.png)
 
 Sau khi nhấp vào Nhập bản ghi, Odoo sẽ hiển thị một trang riêng chứa các mẫu có thể tải xuống và điền vào bằng dữ liệu của công ty. Bạn có thể nhập các mẫu đó chỉ bằng một cú nhấp chuột, vì quá trình mapping dữ liệu đã được thực hiện. Để tải xuống một mẫu, hãy nhấp vào Mẫu nhập cho khách hàng ở giữa trang.
 
 #### IMPORTANT
 Khi nhập tệp , Odoo cung cấp tùy chọn Định dạng. Các tùy chọn này **không** xuất hiện khi nhập loại tệp Excel riêng (`.xls`, `.xlsx`).
 
-![Các tùy chọn định dạng được hiển thị khi tệp CVS được nhập vào Odoo.](export_import_data/formatting.png)
+![Các tùy chọn định dạng được hiển thị khi tệp CVS được nhập vào Odoo.](../../.gitbook/assets/formatting.png)
 
 Thực hiện những điều chỉnh cần thiết cho các tùy chọn  *Định dạng* và đảm bảo tất cả các cột trong Trường Odoo và Cột tệp không có lỗi. Cuối cùng, nhấp vào Nhập để nhập dữ liệu.
 
@@ -62,12 +62,12 @@ Sau khi tải mẫu xuống, hãy làm theo các bước sau:
 - Chúng tôi khuyên bạn **không** nên xóa cột ID ngoài (ID) (xem lý do trong phần tiếp theo).
 - Đặt ID duy nhất cho mỗi bản ghi bằng cách kéo trình tự ID xuống trong cột ID ngoài (ID).
 
-![Ảnh động về chuột kéo xuống cột ID để mỗi bản ghi có một ID duy nhất.](export_import_data/dragdown.gif)
+![Ảnh động về chuột kéo xuống cột ID để mỗi bản ghi có một ID duy nhất.](../../.gitbook/assets/dragdown.gif)
 
 #### NOTE
 Khi thêm một cột mới, Odoo có thể không tự động map được cột đó nếu nhãn của cột đó không phù hợp với bất kỳ trường nào trong Odoo. Tuy nhiên, bạn có thể map thủ công các cột mới khi kiểm thử quá trình nhập. Tìm kiếm trong menu thả xuống để tìm trường tương ứng.
 
-![Menu thả xuống được mở rộng trong màn hình nhập ban đầu trên Odoo.](export_import_data/field_list.png)
+![Menu thả xuống được mở rộng trong màn hình nhập ban đầu trên Odoo.](../../.gitbook/assets/field_list.png)
 
 Sau đó, sử dụng nhãn của trường này trong tệp nhập để đảm bảo các lần nhập trong tương lai thành công.
 
@@ -99,7 +99,7 @@ Mặc dù hành vi này có thể hữu ích trong hầu hết các trường h�
 
 Nếu điều này xảy ra, hãy kiểm tra tùy chọn Hiển thị các trường của trường quan hệ (nâng cao), sau đó danh sách đầy đủ các trường sẽ hiển thị cho mỗi cột.
 
-![Đang tìm kiếm trường phù hợp với cột thuế.](export_import_data/field_list.png)
+![Đang tìm kiếm trường phù hợp với cột thuế.](../../.gitbook/assets/field_list.png)
 
 ### Thay đổi định dạng nhập dữ liệu
 

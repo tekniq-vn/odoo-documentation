@@ -3,30 +3,30 @@
 <a id="inventory-shipping-third-party"></a>
 
 Users can link third-party shipping carriers to Odoo databases, in order to verify carriers'
-delivery to specific addresses, [automatically calculate shipping costs](../setup_configuration.md), and [generate shipping labels](labels.md).
+delivery to specific addresses, [automatically calculate shipping costs](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md), and [generate shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md).
 
 In Odoo, shipping carriers can be applied to a sales order (SO), invoice, or delivery order. For
 tips on resolving common issues when configuring shipping connectors, skip to the
 [Troubleshooting](#inventory-shipping-receiving-third-party-troubles) section.
 
 #### SEE ALSO
-- [Tích hợp DHL](dhl_credentials.md)
-- [Sendcloud integration](sendcloud_shipping.md)
-- [Tích hợp UPS](ups_credentials.md)
+- [Tích hợp DHL](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.md)
+- [Sendcloud integration](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.md)
+- [Tích hợp UPS](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.md)
 
 The following is a list of available shipping connectors in Odoo:
 
-| Đơn vị vận chuyển                    | Region availability                         |
-|--------------------------------------|---------------------------------------------|
-| [FedEx](fedex.md)                    | Tất cả                                      |
-| [DHL Express](dhl_credentials.md)    | Tất cả                                      |
-| [UPS](ups_credentials.md)            | Tất cả                                      |
-| US Postal Service                    | Hoa Kỳ                                      |
-| [Sendcloud](sendcloud_shipping.md)   | Some European countries (see details below) |
-| [Bpost](bpost.md)                    | Bỉ                                          |
-| Easypost                             | Bắc Mỹ                                      |
-| Shiprocket                           | Ấn Độ                                       |
-| [Starshipit](starshipit_shipping.md) | Australia and New Zealand                   |
+| Đơn vị vận chuyển                                                                                                    | Region availability                         |
+|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [FedEx](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex.md)                    | Tất cả                                      |
+| [DHL Express](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.md)    | Tất cả                                      |
+| [UPS](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.md)            | Tất cả                                      |
+| US Postal Service                                                                                                    | Hoa Kỳ                                      |
+| [Sendcloud](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.md)   | Some European countries (see details below) |
+| [Bpost](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost.md)                    | Bỉ                                          |
+| Easypost                                                                                                             | Bắc Mỹ                                      |
+| Shiprocket                                                                                                           | Ấn Độ                                       |
+| [Starshipit](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/starshipit_shipping.md) | Australia and New Zealand                   |
 
 #### IMPORTANT
 Other services from DHL are **not** supported.
@@ -55,10 +55,10 @@ to install it. Multiple third-party shipping connectors can be selected at once.
 Save.
 
 #### NOTE
-[Delivery methods](../setup_configuration.md) can also be integrated with operations in the
-*Sales*, *eCommerce*, and *Website* apps. To install, refer to the [install apps and modules](../../../../general/apps_modules.md#general-install) documentation.
+[Delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md) can also be integrated with operations in the
+*Sales*, *eCommerce*, and *Website* apps. To install, refer to the [install apps and modules](applications/general/apps_modules.md#general-install) documentation.
 
-![Options of available shipping connectors in Odoo.](third_party_shipper/shipping-connectors.png)
+![Options of available shipping connectors in Odoo.](../../../../../.gitbook/assets/shipping-connectors.png)
 
 <a id="inventory-shipping-receiving-configure-delivery-method"></a>
 
@@ -72,10 +72,10 @@ delivery method.
 The list often includes **two** delivery methods from the same Provider: one for
 international shipping and one for domestic shipping.
 
-Additional delivery methods can be created for specific purposes, such as [packaging](../../product_management/configure/packaging.md).
+Additional delivery methods can be created for specific purposes, such as [packaging](applications/inventory_and_mrp/inventory/product_management/configure/packaging.md).
 
 #### SEE ALSO
-[Configure delivery methods](../setup_configuration.md)
+[Configure delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
 
 #### NOTE
 Ensure the delivery method is published when it should be available on the *Website* app. To
@@ -99,14 +99,14 @@ The Shipping Method page contains details about the provider, including:
   shipment cost](#inventory-shipping-receiving-third-party-so) on an  or invoice.
 
   #### IMPORTANT
-  Select Get Rate and Create Shipment to also [generate shipping labels](labels.md).
+  Select Get Rate and Create Shipment to also [generate shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md).
 - Company: if the shipping method should apply to a specific company, select it from the
   drop-down menu. Leave the field blank to apply the method to all companies.
 - Delivery Product (*Required field*): the delivery charge name that is added to the
    or invoice.
 - Invoicing Policy: select and calculate an Estimated cost of shipping
   directly from the shipping carrier. If the Real cost of shipping is wanted instead,
-  refer to [Invoice real shipping costs](invoicing.md) document.
+  refer to [Invoice real shipping costs](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.md) document.
 - Margin on Rate: specify an additional percentage amount added to the base shipping
   rate to cover extra costs, such as handling fees, packaging materials, exchange rates, etc.
 - Free if order amount is above: enables free shipping for orders surpassing a specified
@@ -114,7 +114,7 @@ The Shipping Method page contains details about the provider, including:
 - Insurance Percentage: specify a percentage amount of the shipping costs reimbursed to
   the senders if the package is lost or stolen in transit.
 
-![Screenshot of a FedEx shipping method.](third_party_shipper/fedex.png)
+![Screenshot of a FedEx shipping method.](../../../../../.gitbook/assets/fedex.png)
 
 In the Configuration tab, fill out the API credential fields (e.g. API key, password,
 account number, etc.). Depending on the third-party shipping carrier chosen in the
@@ -123,9 +123,9 @@ fields. For more details about configuring specific carriers' credentials, refer
 documents:
 
 #### SEE ALSO
-- [Thông tin đăng nhập DHL](dhl_credentials.md)
-- [Thông tin đăng nhập Sendcloud](sendcloud_shipping.md)
-- [Thông tin đăng nhập UPS](ups_credentials.md)
+- [Thông tin đăng nhập DHL](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.md)
+- [Thông tin đăng nhập Sendcloud](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.md)
+- [Thông tin đăng nhập UPS](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.md)
 
 <a id="inventory-shipping-receiving-production-env"></a>
 
@@ -140,7 +140,7 @@ are at risk of being charged through their carrier account (e.g. UPS, FedEx, etc
 users charge customers for shipping. Verify all configurations are correct before launching the
 delivery method to Production.
 
-![Show the "Test Environment" smart button.](third_party_shipper/production.png)
+![Show the "Test Environment" smart button.](../../../../../.gitbook/assets/production.png)
 
 <a id="inventory-shipping-receiving-configure-source-address"></a>
 
@@ -153,12 +153,12 @@ Warehouses, and select the desired warehouse.
 On the warehouse configuration page, open the warehouse contact page by clicking the
 Company field.
 
-![Highlight the "Company" field.](third_party_shipper/internal-link.png)
+![Highlight the "Company" field.](../../../../../.gitbook/assets/internal-link.png)
 
 Verify that the Address and Phone number are correct, as they are required
 for the shipping connector to work properly.
 
-![Show company address and phone number.](third_party_shipper/company.png)
+![Show company address and phone number.](../../../../../.gitbook/assets/company1.png)
 
 <a id="inventory-shipping-receiving-configure-weight"></a>
 
@@ -170,7 +170,7 @@ Inventory app ‣ Products ‣ Products, and selecting the desired product.
 Then, switch to the Inventory tab, and define the Weight of the product in
 the Logistics section.
 
-![Display the "Weight" field in the Inventory tab of the product form.](third_party_shipper/product-weight.png)
+![Display the "Weight" field in the Inventory tab of the product form.](../../../../../.gitbook/assets/product-weight.png)
 
 <a id="inventory-shipping-receiving-apply-third-party-carrier"></a>
 
@@ -187,7 +187,7 @@ by going to Sales app ‣ Orders ‣ Quotations.
 
 Để chỉ định đơn vị vận chuyển bên thứ ba và nhận ước tính chi phí vận chuyển, hãy bắt đầu bằng cách truy cập Ứng dụng Bán hàng ‣ Đơn hàng ‣ Báo giá. Tạo hoặc chọn một báo giá hiện có, sau đó thêm chi phí vận chuyển thông qua đơn vị vận chuyển bên thứ ba vào báo giá bằng cách nhấp vào nút Thêm vận chuyển ở góc dưới bên phải của tab Chi tiết đơn hàng.
 
-![Show the "Add shipping" button at the bottom of a quotation.](third_party_shipper/add-shipping.png)
+![Show the "Add shipping" button at the bottom of a quotation.](../../../../../.gitbook/assets/add-shipping1.png)
 
 In the resulting Add a shipping method pop-up window, select the intended carrier from
 the Shipping Method drop-down menu. The Cost field is automatically filled
@@ -205,7 +205,7 @@ cost through the shipping connector. Then, click the Add button to add the deliv
 charge to the  or invoice.
 
 #### SEE ALSO
-[Charge customers for shipping after product delivery](invoicing.md)
+[Charge customers for shipping after product delivery](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.md)
 
 <a id="inventory-shipping-receiving-third-party-do"></a>
 
@@ -222,9 +222,9 @@ shipping carrier. When the delivery method is set to [production mode](#inventor
 provided.
 
 #### SEE ALSO
-[Generate shipping labels](labels.md)
+[Generate shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
 
-![Show the delivery order's "Additional info" tab.](third_party_shipper/delivery-info.png)
+![Show the delivery order's "Additional info" tab.](../../../../../.gitbook/assets/delivery-info.png)
 
 <a id="inventory-shipping-receiving-third-party-troubles"></a>
 
@@ -236,7 +236,7 @@ things are not working as expected:
 1. Ensure the [warehouse information](#inventory-shipping-receiving-configure-source-address)
    (e.g., address and phone number) in Odoo is correct **and** matches the records saved in the
    shipping provider's website.
-2. Verify that the [package type](../../product_management/configure/package.md#inventory-warehouses-storage-package-type) and parameters
+2. Verify that the [package type](applications/inventory_and_mrp/inventory/product_management/configure/package.md#inventory-warehouses-storage-package-type) and parameters
    are valid for the shipping carrier. To check, ensure the shipment can be directly created on the
    shipping carrier's website.
 3. When encountering a price mismatch between Odoo's estimated cost and the provider's charge, first
@@ -252,11 +252,11 @@ method's configuration page (Inventory app ‣ Configuration ‣ Shipping
 Method), and select the desired shipping method. Click the No Debugging smart button to
 activate Debug Requests.
 
-![Show the "No Debug" smart button.](third_party_shipper/no-debug.png)
+![Show the "No Debug" smart button.](../../../../../.gitbook/assets/no-debug.png)
 
 With Debug Requests activated, each time the shipping connector is used to estimate the
 cost of shipping, records are saved in the Logging report. To access the report, turn on
-[developer mode](../../../../general/developer_mode.md#developer-mode), and go to Settings app ‣ Technical ‣
+[developer mode](applications/general/developer_mode.md#developer-mode), and go to Settings app ‣ Technical ‣
 Database Structure section ‣ Logging.
 
 #### NOTE
@@ -264,10 +264,10 @@ Logs are created for a shipping method each time the [Get Rate](#inventory-shipp
 and invoices, **and** when a customer adds the shipping carrier to their order through the
 *Website* app.
 
-![Show how to find the "Logging" option from the "Technical" menu.](third_party_shipper/log.png)
+![Show how to find the "Logging" option from the "Technical" menu.](../../../../../.gitbook/assets/log.png)
 
 Click the *HTTP request* line item to open a detailed page, and verify the correct information is
 sent from Odoo to the shipping carrier. In the *HTTP response*, verify that the same information is
 received.
 
-![Show debug request history in Settings > Technical > Logging.](third_party_shipper/logging.png)
+![Show debug request history in Settings > Technical > Logging.](../../../../../.gitbook/assets/logging1.png)

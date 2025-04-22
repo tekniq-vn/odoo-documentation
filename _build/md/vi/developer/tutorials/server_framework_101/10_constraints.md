@@ -1,6 +1,6 @@
 # Chapter 10: Constraints
 
-The [previous chapter](09_actions.md) introduced the ability to add
+The [previous chapter](developer/tutorials/server_framework_101/09_actions.md) introduced the ability to add
 some business logic to our model. We can now link buttons to business code, but how can we prevent
 users from entering incorrect data? For example, in our real estate module nothing prevents
 users from setting a negative expected price.
@@ -12,17 +12,17 @@ Odoo provides two ways to set up automatically verified invariants:
 ## SQL
 
 **Reference**: the documentation related to this topic can be found in
-[Models](../../reference/backend/orm.md#reference-orm-models) and in the [PostgreSQL's documentation](https://www.postgresql.org/docs/12/ddl-constraints.html).
+[Models](developer/reference/backend/orm.md#reference-orm-models) and in the [PostgreSQL's documentation](https://www.postgresql.org/docs/12/ddl-constraints.html).
 
 #### NOTE
 **Goal**: at the end of this section:
 
 - Amounts should be (strictly) positive
 
-![Constraints on amounts](10_constraints/sql_01.gif)
+![Constraints on amounts](../../../.gitbook/assets/sql_01.gif)
 - Property types and tags should have a unique name
 
-![Constraints on names](10_constraints/sql_02.gif)
+![Constraints on names](../../../.gitbook/assets/sql_02.gif)
 
 SQL constraints are defined through the model attribute
 `_sql_constraints`. This attribute is assigned a list
@@ -52,7 +52,7 @@ the problematic data in order to apply the new constraints.
 **Goal**: at the end of this section, it will not be possible to accept an offer
 lower than 90% of the expected price.
 
-![Python constraint](10_constraints/python.gif)
+![Python constraint](../../../.gitbook/assets/python.gif)
 
 SQL constraints are an efficient way of ensuring data consistency. However it may be necessary
 to make more complex checks which require Python code. In this case we need a Python constraint.
@@ -84,6 +84,6 @@ prefer SQL over Python constraints.
 
 Our real estate module is starting to look good. We added some business logic, and now we make sure
 the data is consistent. However, the user interface is still a bit rough. Let's see how we can
-improve it in the [next chapter](11_sprinkles.md).
+improve it in the [next chapter](developer/tutorials/server_framework_101/11_sprinkles.md).
 
 <a id="postgresql-s-documentation"></a>

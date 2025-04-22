@@ -7,7 +7,7 @@ fees, and other charges.
 Odoo supports multiple invoicing and payment workflows.
 
 #### SEE ALSO
-[Invoicing processes](customer_invoices/overview.md)
+[Invoicing processes](applications/finance/accounting/customer_invoices/overview.md)
 
 From draft invoice to profit and loss report, the process involves several steps once the goods (or
 services) have been ordered/shipped (or rendered) to a customer, depending on the invoicing policy:
@@ -29,20 +29,20 @@ manually from the Customer Invoices journal in the Accounting Dashboard.
 An invoice must include the required information to enable the customer to pay promptly for their
 goods and services. Make sure the following fields are appropriately completed:
 
-- Khách hàng: Khi một khách hàng được chọn, Odoo sẽ tự động đưa thông tin từ hồ sơ khách hàng bao gồm địa chỉ hóa đơn, [điều khoản thanh toán ưu tiên](customer_invoices/payment_terms.md), [vị trí tài chính](taxes/fiscal_positions.md), tài khoản phải thu và các thông tin khác vào hóa đơn. Để thay đổi các giá trị này cho một hóa đơn cụ thể, hãy chỉnh sửa trực tiếp trên hóa đơn. Để thay đổi cho các hóa đơn trong tương lai, hãy thay đổi các giá trị trong hồ sơ liên hệ.
+- Khách hàng: Khi một khách hàng được chọn, Odoo sẽ tự động đưa thông tin từ hồ sơ khách hàng bao gồm địa chỉ hóa đơn, [điều khoản thanh toán ưu tiên](applications/finance/accounting/customer_invoices/payment_terms.md), [vị trí tài chính](applications/finance/accounting/taxes/fiscal_positions.md), tài khoản phải thu và các thông tin khác vào hóa đơn. Để thay đổi các giá trị này cho một hóa đơn cụ thể, hãy chỉnh sửa trực tiếp trên hóa đơn. Để thay đổi cho các hóa đơn trong tương lai, hãy thay đổi các giá trị trong hồ sơ liên hệ.
 - Invoice Date: If not set manually, this field is automatically set as the current date
   upon confirmation.
-- Due Date or [payment terms](customer_invoices/payment_terms.md): To specify when
+- Due Date or [payment terms](applications/finance/accounting/customer_invoices/payment_terms.md): To specify when
   the customer has to pay the invoice.
 - Journal: Is automatically set and can be changed if needed.
-- [Tiền tệ](get_started/multi_currency.md)
+- [Tiền tệ](applications/finance/accounting/get_started/multi_currency.md)
 - Product: Click Add a line to add a product.
 - Số lượng
 - Giá
-- [Taxes](taxes.md) (if applicable)
+- [Taxes](applications/finance/accounting/taxes.md) (if applicable)
 
 The Journal Items tab displays the accounting entries created.
-Additional invoice information such as the Customer Reference, [Fiscal Positions](taxes/fiscal_positions.md), [Incoterms](customer_invoices/incoterms.md), and more can be added or
+Additional invoice information such as the Customer Reference, [Fiscal Positions](applications/finance/accounting/taxes/fiscal_positions.md), [Incoterms](applications/finance/accounting/customer_invoices/incoterms.md), and more can be added or
 modified in the Other Info tab.
 
 #### NOTE
@@ -50,7 +50,7 @@ Odoo initially creates invoices in Draft status. Draft invoices have no accounti
 impact until they are [confirmed](#accounting-invoice-confirmation).
 
 #### SEE ALSO
-[Hóa đơn chiếu lệ](../../sales/sales/invoicing/proforma.md)
+[Hóa đơn chiếu lệ](applications/sales/sales/invoicing/proforma.md)
 
 <a id="accounting-invoice-confirmation"></a>
 
@@ -59,20 +59,20 @@ impact until they are [confirmed](#accounting-invoice-confirmation).
 Click Confirm when the document is completed. The document's status changes to
 Posted, and a journal entry is generated based on the invoice configuration. On
 confirmation, Odoo assigns each invoice a unique number from a defined
-[sequence](customer_invoices/sequence.md).
+[sequence](applications/finance/accounting/customer_invoices/sequence.md).
 
 #### NOTE
 - Once confirmed, an invoice can no longer be updated. Click Reset to draft if
   changes are needed.
 - If required, invoices and other journal entries can be locked once posted
-  using the [Lock posted entries with hash](reporting/data_inalterability.md#data-inalterability-lock) feature.
+  using the [Lock posted entries with hash](applications/finance/accounting/reporting/data_inalterability.md#data-inalterability-lock) feature.
 
 <a id="accounting-invoice-sending"></a>
 
 ## Gửi hoá đơn
 
 To send the invoice to the customer, click Send & Print. A Configure your
-document layout pop-up window will appear if a [default invoice layout](../../studio/pdf_reports.md#studio-pdf-reports-default-layout) hasn't been customized. Then, select how to send this invoice
+document layout pop-up window will appear if a [default invoice layout](applications/studio/pdf_reports.md#studio-pdf-reports-default-layout) hasn't been customized. Then, select how to send this invoice
 to the customer in the Send window.
 
 To send and print multiple invoices, go to Accounting ‣ Customers ‣ Invoices
@@ -90,13 +90,13 @@ reconciled with a corresponding bank transaction.
 
 #### SEE ALSO
 - thanh toán
-- [Đối chiếu ngân hàng](bank/reconciliation.md)
+- [Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)
 
 <a id="accounting-invoice-followup"></a>
 
 ## Follow-up thanh toán
 
-Các [tác vụ follow-up](payments/follow_up.md) của Odoo giúp các công ty theo dõi hóa đơn khách hàng. Có thể thiết lập những tác vụ khác nhau để nhắc nhở khách hàng thanh toán các hóa đơn chưa thanh toán, tùy thuộc vào mức độ chậm trễ của khách hàng. Những tác vụ này được nhóm thành các cấp độ nhắc nhở và sẽ kích hoạt khi một hóa đơn quá hạn một số ngày nhất định. Nếu có nhiều hóa đơn quá hạn cho cùng một khách hàng, các tác vụ sẽ được thực hiện trên hóa đơn quá hạn lâu nhất.
+Các [tác vụ follow-up](applications/finance/accounting/payments/follow_up.md) của Odoo giúp các công ty theo dõi hóa đơn khách hàng. Có thể thiết lập những tác vụ khác nhau để nhắc nhở khách hàng thanh toán các hóa đơn chưa thanh toán, tùy thuộc vào mức độ chậm trễ của khách hàng. Những tác vụ này được nhóm thành các cấp độ nhắc nhở và sẽ kích hoạt khi một hóa đơn quá hạn một số ngày nhất định. Nếu có nhiều hóa đơn quá hạn cho cùng một khách hàng, các tác vụ sẽ được thực hiện trên hóa đơn quá hạn lâu nhất.
 
 <a id="accounting-invoice-reporting"></a>
 
@@ -118,7 +118,7 @@ go to Accounting ‣ Reporting ‣ Partner Ledger.
 #### Tuổi nợ phải thu
 
 To review outstanding customer invoices and their related due dates, use the
-[Aged Receivable](reporting.md#accounting-reporting-aged-receivable) report. To access it, go to
+[Aged Receivable](applications/finance/accounting/reporting.md#accounting-reporting-aged-receivable) report. To access it, go to
 Accounting ‣ Reporting ‣ Aged Receivable.
 
 <a id="accounting-invoices-aged-payable"></a>
@@ -126,33 +126,33 @@ Accounting ‣ Reporting ‣ Aged Receivable.
 #### Tuổi nợ phải trả
 
 To review outstanding vendor bills and their related due dates, use the
-[Aged Payable](reporting.md#accounting-reporting-aged-payable) report. To access it, go to
+[Aged Payable](applications/finance/accounting/reporting.md#accounting-reporting-aged-payable) report. To access it, go to
 Accounting ‣ Reporting ‣ Aged Payable.
 
 <a id="accounting-invoices-profit-and-loss"></a>
 
 ### Lãi và lỗ
 
-The [Profit and Loss](reporting.md#accounting-reporting-profit-and-loss) statement shows details of income
+The [Profit and Loss](applications/finance/accounting/reporting.md#accounting-reporting-profit-and-loss) statement shows details of income
 and expenses.
 
 <a id="accounting-invoices-balance-sheet"></a>
 
 ### Bảng cân đối kế toán
 
-The [Balance Sheet](reporting.md#accounting-reporting-balance-sheet) summarizes the company's assets,
+The [Balance Sheet](applications/finance/accounting/reporting.md#accounting-reporting-balance-sheet) summarizes the company's assets,
 liabilities, and equity at a specific time.
 
-* [Invoicing processes](customer_invoices/overview.md)
-* [Delivery and invoice addresses](customer_invoices/customer_addresses.md)
-* [Payment terms and installment plans](customer_invoices/payment_terms.md)
-* [Default terms and conditions (T&C)](customer_invoices/terms_conditions.md)
-* [Cash discounts and tax reduction](customer_invoices/cash_discounts.md)
-* [Credit notes and refunds](customer_invoices/credit_notes.md)
-* [Làm tròn tiền](customer_invoices/cash_rounding.md)
-* [Doanh thu chưa thực hiện](customer_invoices/deferred_revenues.md)
-* [Electronic invoicing ()](customer_invoices/electronic_invoicing.md)
-* [Invoice sequence](customer_invoices/sequence.md)
-* [Snailmail](customer_invoices/snailmail.md)
-* [EPC QR codes](customer_invoices/epc_qr_code.md)
-* [Incoterm](customer_invoices/incoterms.md)
+* [Invoicing processes](applications/finance/accounting/customer_invoices/overview.md)
+* [Delivery and invoice addresses](applications/finance/accounting/customer_invoices/customer_addresses.md)
+* [Payment terms and installment plans](applications/finance/accounting/customer_invoices/payment_terms.md)
+* [Default terms and conditions (T&C)](applications/finance/accounting/customer_invoices/terms_conditions.md)
+* [Cash discounts and tax reduction](applications/finance/accounting/customer_invoices/cash_discounts.md)
+* [Credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md)
+* [Làm tròn tiền](applications/finance/accounting/customer_invoices/cash_rounding.md)
+* [Doanh thu chưa thực hiện](applications/finance/accounting/customer_invoices/deferred_revenues.md)
+* [Electronic invoicing ()](applications/finance/accounting/customer_invoices/electronic_invoicing.md)
+* [Invoice sequence](applications/finance/accounting/customer_invoices/sequence.md)
+* [Snailmail](applications/finance/accounting/customer_invoices/snailmail.md)
+* [EPC QR codes](applications/finance/accounting/customer_invoices/epc_qr_code.md)
+* [Incoterm](applications/finance/accounting/customer_invoices/incoterms.md)

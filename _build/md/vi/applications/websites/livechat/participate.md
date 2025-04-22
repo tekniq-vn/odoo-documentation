@@ -34,7 +34,7 @@ right side of the Preferences tab, click into the Online Chat Language
 field, and select one or more languages from the drop-down menu.
 
 #### IMPORTANT
-Only [languages](../../general/users/language.md) that are enabled on the database can be
+Only [languages](applications/general/users/language.md) that are enabled on the database can be
 selected in the Online Chat Language field.
 
 ## Join or leave a channel
@@ -45,7 +45,7 @@ Join button on the Kanban card for the appropriate channel.
 Any channel where the user is currently active shows a Leave button. Click this button
 to disconnect from the channel.
 
-![View of a channel form and the option to join a channel for Odoo Live Chat.](participate/leave-channel.png)
+![View of a channel form and the option to join a channel for Odoo Live Chat.](../../../.gitbook/assets/leave-channel.png)
 
 #### IMPORTANT
 Operators that do not show any activity in Odoo for more than thirty minutes are considered
@@ -60,12 +60,12 @@ while still participating in the conversation.
 Live chat conversations can also be viewed by navigating to the Discuss app. New
 conversations appear in bold under the LIVECHAT heading, located along the left panel.
 
-![View of the discuss application with a message sent through live chat in Odoo.](participate/managing-chat-responses.png)
+![View of the discuss application with a message sent through live chat in Odoo.](../../../.gitbook/assets/managing-chat-responses.png)
 
 Click on a conversation in the left panel to select it. This opens the conversation. From this
 view, an operator can participate in the chat the same as they would in the normal chat window.
 
 #### SEE ALSO
-- [Thảo luận](../../productivity/discuss.md)
-- [Trò chuyện Trực tiếp](../livechat.md)
-- [Commands and canned responses](responses.md)
+- [Thảo luận](applications/productivity/discuss.md)
+- [Trò chuyện Trực tiếp](applications/websites/livechat.md)
+- [Commands and canned responses](applications/websites/livechat/responses.md)

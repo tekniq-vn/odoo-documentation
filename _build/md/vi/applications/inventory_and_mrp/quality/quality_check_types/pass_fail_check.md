@@ -10,7 +10,7 @@ predetermined interval.
 
 This documentation only details the configuration options that are unique to *Pass - Fail* quality
 checks and . For a full overview of all the configuration options available when creating a
-single check or a , see the documentation on [quality checks](../quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](../quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+single check or a , see the documentation on [quality checks](applications/inventory_and_mrp/quality/quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
 
 ### Quality check
 
@@ -24,7 +24,7 @@ follows:
 - In the Instructions text field of the Notes tab, enter instructions for
   how to complete the quality check and the criteria that must be met for the check to pass.
 
-![A quality check form configured for a Pass - Fail quality check.](pass_fail_check/quality-check-form.png)
+![A quality check form configured for a Pass - Fail quality check.](../../../../.gitbook/assets/quality-check-form.png)
 
 ### Quality Control Point (QCP)
 
@@ -38,7 +38,7 @@ the new  form as follows:
 - In the Instructions text field, enter instructions for how to complete the quality
   check and the criteria that must be met for the check to pass.
 
-![A Quality Control Point (QCP) form configured to create a Pass - Fail quality check.](pass_fail_check/qcp-form.png)
+![A Quality Control Point (QCP) form configured to create a Pass - Fail quality check.](../../../../.gitbook/assets/qcp-form.png)
 
 ## Process a Pass - Fail quality check
 
@@ -67,7 +67,7 @@ To process a *Pass - Fail* quality check, follow the instructions shown on the Q
 Check pop-up window. If the criteria for the check is met, click the Pass button at the
 bottom of the window. If the criteria is not met, click the Fail button.
 
-![A Pass - Fail quality check pop-up window on a manufacturing or inventory order.](pass_fail_check/pass-fail-check-pop-up.png)
+![A Pass - Fail quality check pop-up window on a manufacturing or inventory order.](../../../../.gitbook/assets/pass-fail-check-pop-up.png)
 
 If a quality alert must be created, click the Quality Alert button that appears at the
 top of the manufacturing or inventory order after the check fails. Clicking Quality
@@ -75,7 +75,7 @@ Alert opens a quality alert form on a new page.
 
 #### SEE ALSO
 For a complete guide on how to fill out quality alert forms, view the documentation on
-[quality alerts](../quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
+[quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
 
 ### On a work order
 
@@ -104,4 +104,4 @@ If the Pass button is clicked, the pop-up window moves to the next step for the 
 order. If the Fail button is clicked, a Quality Check Failed pop-up window
 appears, detailing what should be done next.
 
-![A Pass - Fail check as it appears in the Shop Floor module.](pass_fail_check/pass-fail-check-shop-floor.png)
+![A Pass - Fail check as it appears in the Shop Floor module.](../../../../.gitbook/assets/pass-fail-check-shop-floor.png)

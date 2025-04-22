@@ -1,6 +1,6 @@
 # Odoo Sign legality in Morocco
 
-[Odoo Sign](../sign.md) is your trusted partner for secure, efficient, and legally compliant
+[Odoo Sign](applications/productivity/sign.md) is your trusted partner for secure, efficient, and legally compliant
 electronic signatures in Morocco.
 
 ## Legal framework for electronic signatures in Morocco

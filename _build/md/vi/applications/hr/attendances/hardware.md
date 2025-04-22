@@ -6,11 +6,11 @@ setting up a kiosk.
 
 ## Kiosk devices
 
-A kiosk is a self-service station, where employees can [check in and out of work](kiosks.md#attendances-kiosk-mode-entry) with either a [badge](#attendances-hardware-badges) or an
+A kiosk is a self-service station, where employees can [check in and out of work](applications/hr/attendances/kiosks.md#attendances-kiosk-mode-entry) with either a [badge](#attendances-hardware-badges) or an
 [RFID key fob](#attendances-hardware-rfid). Typically, these devices are dedicated as kiosks
 only, but any device with an internet browser is able to be set up as a kiosk.
 
-A kiosk is used by navigating to the webpage specified in the [configuration](kiosks.md#attendances-kiosk-settings) section of the *Attendances* app.
+A kiosk is used by navigating to the webpage specified in the [configuration](applications/hr/attendances/kiosks.md#attendances-kiosk-settings) section of the *Attendances* app.
 
 Kiosks are set up using one of the following types of devices:
 
@@ -38,7 +38,7 @@ that can be scanned at a kiosk to check in and out.
 
 Badges can be printed for employees using any thermal or inkjet printer.
 
-![A badge for an employee that is created from the Employees app.](hardware/badge.png)
+![A badge for an employee that is created from the Employees app.](../../../.gitbook/assets/badge.png)
 
 #### NOTE
 Badges are **not** required, as employees can manually identify themselves on the kiosk.
@@ -71,7 +71,7 @@ It is **required** to purchase *both* RFID key fobs and an RFID reader to use th
 in and out. Follow the manufacturer's directions to install the RFID reader, and set up the RFID key
 fob.
 
-![An RFID key fob is placed on an RFID reader.](hardware/rfid-reader.jpg)
+![An RFID key fob is placed on an RFID reader.](../../../.gitbook/assets/rfid-reader.jpg)
 
 #### NOTE
 An IoT box is **not** required to use RFID key fobs.

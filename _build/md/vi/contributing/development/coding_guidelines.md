@@ -375,7 +375,7 @@ based upon the first one.
 ## Python
 
 #### WARNING
-Do not forget to read the [Security Pitfalls](../../developer/reference/backend/security.md#reference-security-pitfalls)
+Do not forget to read the [Security Pitfalls](developer/reference/backend/security.md#reference-security-pitfalls)
 section as well to write secure code.
 
 ### PEP8 options

@@ -1,6 +1,6 @@
 ### icon
 
-The icon to use to display the button. See [icons](../icons.md#reference-user-interface-ui-icons) for
+The icon to use to display the button. See [icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons) for
 the reference list.
 
 * **Requirement:**

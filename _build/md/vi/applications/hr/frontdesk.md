@@ -101,7 +101,7 @@ The following options are only visible in the Options tab if the [Host Selection
 billing. As long as the *Discuss* application is not intentionally uninstalled, the
 Notify by Discuss option works.
 
-![Frontdesk station form with all the information filled out.](frontdesk/station-form.png)
+![Frontdesk station form with all the information filled out.](../../.gitbook/assets/station-form.png)
 
 #### Side Message tab
 
@@ -130,7 +130,7 @@ Enter the following information on the drink form:
   appears. For example, entering the number one would place that drink at the top of the list, and
   appear first in the sequence.
 
-![Drink form with the information filled out for an espresso.](frontdesk/espresso.png)
+![Drink form with the information filled out for an espresso.](../../.gitbook/assets/espresso.png)
 
 ## Station dashboard
 
@@ -166,6 +166,6 @@ Drinks report shows how many total requests were made for each drink.
 As with all reports in Odoo, the filters and groups can be modified to show other metrics, as well.
 
 #### SEE ALSO
-- [Khách](frontdesk/visitors.md)
+- [Khách](applications/hr/frontdesk/visitors.md)
 
-* [Khách](frontdesk/visitors.md)
+* [Khách](applications/hr/frontdesk/visitors.md)

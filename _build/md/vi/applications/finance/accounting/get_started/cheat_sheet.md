@@ -63,7 +63,7 @@ credits.
 
 ## Đối soát
 
-[Reconciliation](../bank/reconciliation.md) is the process of linking
+[Reconciliation](applications/finance/accounting/bank/reconciliation.md) is the process of linking
 journal items of a specific account and matching credits and debits.
 
 Its primary purpose is to link payments to their related invoices to mark them as paid. This is done

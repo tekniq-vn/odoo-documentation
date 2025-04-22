@@ -17,7 +17,7 @@ To create [direct debit mandates](#subscriptions-sepa-sdd-payment), the **Accoun
 
 #### IMPORTANT
 Before using , the database must be configured to allow the use of Euros on sales orders. To
-do so, a [pricelist](../../point_of_sale/pricing/pricelists.md) must be created for Euros.
+do so, a [pricelist](applications/sales/point_of_sale/pricing/pricelists.md) must be created for Euros.
 
 This can be done using the **Sales** or **Point of Sales** apps. From either app, navigate to
 Configuration ‣ Settings.
@@ -68,7 +68,7 @@ that is displayed, if the order remains pending after the payment is processed. 
 this field contains the message: Please make an unique payment transfer to
 confirm the SEPA mandate.
 
-![The SEPA Direct Debit Payment Provider form.](sdd/sdd-payment-provider.png)
+![The SEPA Direct Debit Payment Provider form.](../../../../.gitbook/assets/sdd-payment-provider.png)
 
 Once all necessary configuration settings are complete, the <i class="fa fa-eye-slash"></i>
 Unpublished smart button, located at the top of the page automatically changes to
@@ -151,7 +151,7 @@ checkbox at the top of the list to select all entries at once.
 Next, click Create Batch. A new batch payment form appears with the selected payments
 added to the list in the Batch Content tab.
 
-![The batch payment form containing the selected payments.](sdd/batch-payment-form.png)
+![The batch payment form containing the selected payments.](../../../../.gitbook/assets/batch-payment-form.png)
 
 This form also contains optional fields to customize the batch payment:
 
@@ -176,5 +176,5 @@ required by the SEPA customer-to-bank [implementation guidelines](https://www.eu
 which ensures compatibility with the banks.
 
 #### SEE ALSO
-- [Batch payments: SEPA Direct Debit (SDD)](../../../finance/accounting/payments/batch_sdd.md)
-- [Thanh toán online](../../../finance/accounting/payments/online.md)
+- [Batch payments: SEPA Direct Debit (SDD)](applications/finance/accounting/payments/batch_sdd.md)
+- [Thanh toán online](applications/finance/accounting/payments/online.md)

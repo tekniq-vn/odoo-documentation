@@ -97,7 +97,7 @@ To set a transaction code on an invoice line, create an invoice or a bill, click
 selection button, tick Intrastat, and use the newly-added Intrastat column
 to select a transaction code.
 
-![Adding the Intrastat column to an invoice or bill](intrastat/intrastat-column.png)
+![Adding the Intrastat column to an invoice or bill](../../../../.gitbook/assets/intrastat-column.png)
 
 #### SEE ALSO
 [National Bank of Belgium - Intrastat: Nature of transactions from January 2022](https://www.nbb.be/doc/dd/onegate/data/new_natures_of_transaction_2022_en.pdf)
@@ -158,7 +158,7 @@ Each report line refers to a single invoice line and contains the following info
 - [Quốc gia xuất xứ](#intrastat-origin-country);
 - [Thuế GTGT của đối tác](#intrastat-partner);
 - [Mã vận chuyển](#intrastat-transport-code);
-- [Mã Incoterm](../customer_invoices/incoterms.md);
+- [Mã Incoterm](applications/finance/accounting/customer_invoices/incoterms.md);
 - [Khối lượng](#intrastat-quantity);
 - [Supplementary Units](#intrastat-quantity); and
 - [Value](#intrastat-value), which is always expressed in euros even if the original invoice or

@@ -54,16 +54,16 @@ whenReady(() => mountComponent(Root, document.body));
 ```
 
 The `mountComponent` utility function will take care of creating the Owl application and configuring
-it correctly: it will create an environment, start the [services](../reference/frontend/services.md#frontend-services), make sure
+it correctly: it will create an environment, start the [services](developer/reference/frontend/services.md#frontend-services), make sure
 the app is translated and give the app access to the templates from your assets bundle, among other
 things.
 
 #### SEE ALSO
-[Owl components reference](../reference/frontend/owl_components.md#frontend-components).
+[Owl components reference](developer/reference/frontend/owl_components.md#frontend-components).
 
 ## 2. Creating an assets bundle containing our code
 
-In the manifest of your module, create a new [assets bundle](../reference/frontend/assets.md#reference-assets-bundle).
+In the manifest of your module, create a new [assets bundle](developer/reference/frontend/assets.md#reference-assets-bundle).
 It should include the `web._assets_core` bundle, which contains the Odoo JavaScript
 framework and the core libraries it needs (e.g. Owl and luxon), after which you can have a
 glob that adds all the files for your application in the bundle.
@@ -89,12 +89,12 @@ mandatory, as the components of the web framework use bootstrap classes for thei
 layout.
 
 #### SEE ALSO
-[Module manifest reference](../reference/backend/module.md#reference-module-manifest).
+[Module manifest reference](developer/reference/backend/module.md#reference-module-manifest).
 
 ## 3. XML view that calls the assets bundle
 
 Now that we have created our assets bundle, we need to create a
-[QWeb view](../reference/user_interface/view_architectures.md#reference-view-architectures-qweb) that uses that assets bundle.
+[QWeb view](developer/reference/user_interface/view_architectures.md#reference-view-architectures-qweb) that uses that assets bundle.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -129,7 +129,7 @@ should be an object that contains the following:
 ## 4. Controller that renders the view
 
 Now that we have the view, we need to make it accessible to the user. For that purpose, we will create
-an [HTTP controller](../reference/backend/http.md#reference-controllers) that renders that view and returns it to the user.
+an [HTTP controller](developer/reference/backend/http.md#reference-controllers) that renders that view and returns it to the user.
 
 ```py
 from odoo.http import request, route, Controller

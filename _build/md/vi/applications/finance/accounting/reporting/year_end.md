@@ -30,29 +30,29 @@ into account the value specified in the Last Day field.
 
 Before closing a fiscal year, ensure first everything is accurate and up-to-date:
 
-- Make sure all bank accounts are fully [reconciled](../bank/reconciliation.md) up to year-end,
+- Make sure all bank accounts are fully [reconciled](applications/finance/accounting/bank/reconciliation.md) up to year-end,
   and confirm that the ending book balances match the bank statement balances.
-- Verify that all [customer invoices](../customer_invoices.md) have been entered and
+- Verify that all [customer invoices](applications/finance/accounting/customer_invoices.md) have been entered and
   approved and that there are no draft invoices.
-- Confirm that all [vendor bills](../vendor_bills.md) have been entered and agreed upon.
-- Validate all [expenses](../../expenses.md), ensuring their accuracy.
-- Corroborate that all [received payments](../payments.md) have been encoded and recorded
+- Confirm that all [vendor bills](applications/finance/accounting/vendor_bills.md) have been entered and agreed upon.
+- Validate all [expenses](applications/finance/expenses.md), ensuring their accuracy.
+- Corroborate that all [received payments](applications/finance/accounting/payments.md) have been encoded and recorded
   accurately.
-- Close all [suspense accounts](../bank.md#bank-accounts-suspense).
-- Book all [depreciation](../vendor_bills/assets.md) and [deferred revenue](../customer_invoices/deferred_revenues.md) entries.
+- Close all [suspense accounts](applications/finance/accounting/bank.md#bank-accounts-suspense).
+- Book all [depreciation](applications/finance/accounting/vendor_bills/assets.md) and [deferred revenue](applications/finance/accounting/customer_invoices/deferred_revenues.md) entries.
 
 ### Closing a fiscal year
 
 Then, to close the fiscal year:
 
-- Run a [tax report](../reporting.md#accounting-reporting-tax-report), and verify that all tax information is
+- Run a [tax report](applications/finance/accounting/reporting.md#accounting-reporting-tax-report), and verify that all tax information is
   correct.
-- Reconcile all accounts on the [balance sheet](../reporting.md#accounting-reporting-balance-sheet):
+- Reconcile all accounts on the [balance sheet](applications/finance/accounting/reporting.md#accounting-reporting-balance-sheet):
   - Update the bank balances in Odoo according to the actual balances found on the bank statements.
-  - Reconcile all transactions in the cash and bank accounts by running the [aged receivables](../reporting.md#accounting-reporting-aged-receivable) and [aged payables](../reporting.md#accounting-reporting-aged-payable) reports.
+  - Reconcile all transactions in the cash and bank accounts by running the [aged receivables](applications/finance/accounting/reporting.md#accounting-reporting-aged-receivable) and [aged payables](applications/finance/accounting/reporting.md#accounting-reporting-aged-payable) reports.
   - Audit all accounts, being sure to fully understand all transactions and their nature, making
     sure to include loans and fixed assets.
-  - Optionally, [match payments](../payments.md#accounting-payments-auto-reconcile-tool) to validate any open
+  - Optionally, [match payments](applications/finance/accounting/payments.md#accounting-payments-auto-reconcile-tool) to validate any open
     vendor bills and customer invoices with their payments. While this step is optional, it could
     assist the year-end closing process if all outstanding payments and invoices are reconciled,
     potentially finding errors or mistakes in the system.

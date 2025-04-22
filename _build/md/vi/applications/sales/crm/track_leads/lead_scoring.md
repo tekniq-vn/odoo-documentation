@@ -45,7 +45,7 @@ Which variables are considered in this calculation can be [configured](#lead-sco
 The probability of success of each opportunity is displayed on the opportunity form, and it updates
 automatically as the opportunity progresses through the CRM pipeline.
 
-![The probability of success displayed on the opportunity form.](lead_scoring/probability-opportunity-form.png)
+![The probability of success displayed on the opportunity form.](../../../../.gitbook/assets/probability-opportunity-form.png)
 
 When an opportunity moves to the next stage, its probability of success automatically increases
 according to the predictive lead scoring algorithm.
@@ -64,7 +64,7 @@ Update Probabilities button.
 Then, click on the drop-down menu to choose which variables the predictive lead scoring feature
 will take into account.
 
-![The Update Probabilities window in the Predictive Lead Scoring settings.](lead_scoring/update-probabilities.png)
+![The Update Probabilities window in the Predictive Lead Scoring settings.](../../../../.gitbook/assets/update-probabilities.png)
 
 Any number of the following variables can be activated:
 
@@ -99,7 +99,7 @@ through each stage of the pipeline.
 
 To reactivate automatic probability, click on the gear icon next to the probability percentage.
 
-![The gear icon used to reactivate automatic probability on an opportunity form.](lead_scoring/probability-gear-icon.png)
+![The gear icon used to reactivate automatic probability on an opportunity form.](../../../../.gitbook/assets/probability-gear-icon.png)
 
 ## Assign leads based on probability
 
@@ -120,7 +120,7 @@ To set up automatic lead assignment, select Repeatedly for the Running
 section. Then, customize how often Odoo will trigger the automatic assignment in the
 Repeat every section.
 
-![The Rule-Based Assignment setting in CRM settings.](lead_scoring/rule-based-assignment.png)
+![The Rule-Based Assignment setting in CRM settings.](../../../../.gitbook/assets/rule-based-assignment.png)
 
 If rule-based assignment is set to run Repeatedly, the assignment can still be
 triggered manually using the circular arrow icon in the Rule-Based Assignment settings

@@ -42,19 +42,19 @@ On the product form, under the General Information tab, set the Product Type
 to Storable Product. This is necessary because Odoo only tracks stock quantities for
 storable products, and quantities are needed to trigger reordering rules.
 
-![Set the Product Type as Storable.](reordering_rules/product-type.png)
+![Set the Product Type as Storable.](../../../../../.gitbook/assets/product-type.png)
 
 Next, click the Inventory tab and select one or more routes from the Routes
 section. Doing so tells Odoo which route to use to replenish the product.
 
-![Select one or more routes on the Inventory tab.](reordering_rules/select-routes.png)
+![Select one or more routes on the Inventory tab.](../../../../../.gitbook/assets/select-routes1.png)
 
 If the product is reordered using the Buy route, confirm that the Can be
 Purchased checkbox is enabled under the product name. This makes the Purchase tab
 appear. Click on the Purchase tab, and specify at least one vendor, and the price that
 they sell the product for, so that Odoo knows which company the product should be purchased from.
 
-![Specify a vendor and price on the Purchase tab.](reordering_rules/specify-vendor.png)
+![Specify a vendor and price on the Purchase tab.](../../../../../.gitbook/assets/specify-vendor.png)
 
 If the product is replenished using the Manufacture route, it needs to have at least one
 *bill of materials* (BoM) associated with it. This is necessary because Odoo only creates
@@ -63,7 +63,7 @@ manufacturing orders for products with a .
 If a  does not already exist for the product, select the Bill of Materials smart
 button at the top of the product form, then click New to configure a new .
 
-![The Bill of Materials smart button on a product form.](reordering_rules/bom-smart-button.png)
+![The Bill of Materials smart button on a product form.](../../../../../.gitbook/assets/bom-smart-button.png)
 
 <a id="inventory-warehouses-storage-rr-fields"></a>
 
@@ -83,7 +83,7 @@ and fill out the following fields for the new reordering rule line item:
   number that should be ordered. For example, if the Multiple Quantity is set to `5`,
   and only 3 are needed, 5 products are replenished.
 
-![The form for creating a new reordering rule.](reordering_rules/reordering-rule-form.png)
+![The form for creating a new reordering rule.](../../../../../.gitbook/assets/reordering-rule-form.png)
 
 #### NOTE
 To learn how the On Hand, Forecast, and To Order fields are
@@ -125,7 +125,7 @@ Another key difference is that replenishment orders created by the *Replenish on
 linked to the original  by a smart button at the top of the order. When using the 0/0/1
 reordering rule, a replenishment order is created, but is not linked to the original .
 
-See the [Replenish on Order (MTO)](mto.md) documentation for a full overview of the MTO route.
+See the [Replenish on Order (MTO)](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md) documentation for a full overview of the MTO route.
 
 To create a 0/0/1 reordering rule, navigate to Inventory app ‣ Products ‣
 Products, and select a product.
@@ -143,7 +143,7 @@ example, if the product should be purchased from a vendor, select the Buy route.
 In the Min Quantity field and Max Quantity field, leave the values set to
 `0.00`. In the To Order field, enter a value of `1.00`.
 
-![A 0/0/1 reordering rule.](reordering_rules/001-rule.png)
+![A 0/0/1 reordering rule.](../../../../../.gitbook/assets/001-rule.png)
 
 With the reordering rule configured using these values, each time an  causes the forecasted
 quantity of the product to fall below the Min Quantity of `0.00`, the selected
@@ -160,7 +160,7 @@ way, the difference between the two types of reordering rules is how the rule is
 - [Auto](#inventory-warehouses-storage-auto-rr): A purchase or manufacturing order is
   automatically created when the forecasted stock falls below the reordering rule's minimum
   quantity. By default, the Auto trigger is selected.
-- [Manual](#inventory-warehouses-storage-manual-rr): The [Replenishment report](report.md)
+- [Manual](#inventory-warehouses-storage-manual-rr): The [Replenishment report](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md)
   lists products needing replenishment, showing current/forecasted stock, lead times, and arrival
   dates. Users can review forecasts before clicking *Order Once*.
 
@@ -197,7 +197,7 @@ tab of the product form.
 ### Thủ công
 
 *Manual reordering rules*, configured by setting the reordering rule's Trigger field to
-Manual, list a product on the [replenishment dashboard](report.md) when the
+Manual, list a product on the [replenishment dashboard](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md) when the
 forecasted quantity falls below a specified minimum. Products on this dashboard are called *needs*,
 because they are needed to fulfill upcoming sales orders, for which the forecasted quantity is not
 enough.
@@ -210,7 +210,7 @@ Reorder filter.
 When a product appears on the replenishment dashboard, clicking the Order Once button
 generates the purchase or manufacturing order with the specified amounts To Order.
 
-![Click the Order Once button on the replenishment dashboard to replenish stock.](reordering_rules/manual.png)
+![Click the Order Once button on the replenishment dashboard to replenish stock.](../../../../../.gitbook/assets/manual.png)
 
 <a id="inventory-warehouses-storage-route"></a>
 
@@ -233,7 +233,7 @@ the column titles, and checking the Route option from the drop-down menu that ap
 Click inside of the column on the row of a reordering rule, and a drop-down menu shows all available
 routes for that rule. Select one to set it as the preferred route.
 
-![Select a preferred route from the drop-down.](reordering_rules/select-preferred-route.png)
+![Select a preferred route from the drop-down.](../../../../../.gitbook/assets/select-preferred-route.png)
 
 #### IMPORTANT
 If multiple routes are enabled for a product but no preferred route is set for its reordering
@@ -263,8 +263,8 @@ unlocks advanced configurations of reordering rules. Consider the following:
 
   #### NOTE
   Procurement groups link replenishment methods to demand, enabling smart buttons to appear when
-  using the [MTO route](mto.md).
-  ![Showing smart button to PO.](reordering_rules/po-smartbutton.png)
+  using the [MTO route](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md).
+  ![Showing smart button to PO.](../../../../../.gitbook/assets/po-smartbutton.png)
 
   In the context of reordering rules:
   - Reordering rules do not automatically assign a procurement group, which is why there are no
@@ -287,11 +287,11 @@ unlocks advanced configurations of reordering rules. Consider the following:
 This is achieved using the [forecasted date](#inventory-warehouses-storage-forecasted-date),
 which determines when replenishment is necessary to avoid overstocking.
 
-Ngày dự kiến: là **ngày sớm nhất có thể** để nhận hàng nếu quá trình bổ sung hàng được bắt đầu ngay lập tức. Ngày này được tính bằng cách cộng dồn thời gian hoàn thành liên quan đến quá trình bổ sung hàng, bao gồm: [thời gian hoàn thành của nhà cung cấp](lead_times.md#inventory-warehouses-storage-purchase-lt) và [độ trễ mua hàng](lead_times.md#inventory-warehouses-storage-purchase-security-lt) khi mua hàng, hoặc [thời gian hoàn thành sản xuất](lead_times.md#inventory-warehouses-storage-manuf-lt) khi sản xuất. Cả quy tắc đặt hàng tự động và thủ công đều hoạt động theo cách này.
+Ngày dự kiến: là **ngày sớm nhất có thể** để nhận hàng nếu quá trình bổ sung hàng được bắt đầu ngay lập tức. Ngày này được tính bằng cách cộng dồn thời gian hoàn thành liên quan đến quá trình bổ sung hàng, bao gồm: [thời gian hoàn thành của nhà cung cấp](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-purchase-lt) và [độ trễ mua hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-purchase-security-lt) khi mua hàng, hoặc [thời gian hoàn thành sản xuất](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-manuf-lt) khi sản xuất. Cả quy tắc đặt hàng tự động và thủ công đều hoạt động theo cách này.
 
 Important considerations:
 
-- **If this feels risky**, consider adding buffer time or [adjusting lead times](lead_times.md)
+- **If this feels risky**, consider adding buffer time or [adjusting lead times](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md)
   for more flexibility.
 - While lead times and just-in-time logic provide additional control, **reordering rules work
   perfectly fine without them**. Keeping delivery dates on sales orders as their *creation date*
@@ -365,7 +365,7 @@ days if the stock falls below the minimum threshold on the forecasted date.
 ### Example where visibility days is triggered
 
 A product shipped from Asia has a combined vendor lead time of 30 days and a shipping cost of $100
-(including [landed costs](../../product_management/inventory_valuation/landed_costs.md) and
+(including [landed costs](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md) and
 tariffs).
 
 - November 4: Current date. The forecasted date is December 4 (30 days later).
@@ -377,7 +377,7 @@ tariffs).
 
 Ordering separately for these sales orders totals $300 in shipping costs.
 
-![Show forecasted date visualization.](reordering_rules/forecasted-date.png)
+![Show forecasted date visualization.](../../../../../.gitbook/assets/forecasted-date.png)
 
 Setting Visibility Days to `20.0` allows Odoo to "look ahead" 20 days from December 4
 ( 1's forecasted date) to December 24.
@@ -385,7 +385,7 @@ Setting Visibility Days to `20.0` allows Odoo to "look ahead" 20 days from Decem
 - It groups  2's order with  1, reducing shipping costs by consolidating orders.
 -  3, which is due on Dec 25, is one day late and is not grouped with the other two orders.
 
-![Visibility days visualization.](reordering_rules/visibility-days.png)
+![Visibility days visualization.](../../../../../.gitbook/assets/visibility-days.png)
 
 ### Counterexample where visibility days is not triggered
 
@@ -399,4 +399,4 @@ Considering the example above, if  1 does not exist, then:
 This shows that visibility days complement just-in-time logic by optimizing it to balance
 replenishment costs more effectively.
 
-![Example where the visibility days does not trigger.](reordering_rules/counterexample.png)
+![Example where the visibility days does not trigger.](../../../../../.gitbook/assets/counterexample.png)

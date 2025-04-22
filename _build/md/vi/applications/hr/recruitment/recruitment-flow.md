@@ -1,12 +1,12 @@
 # Recruitment flow
 
 When a prospective employee applies for a job in Odoo, there is a preconfigured process from the
-[initial inquiry](#recruitment-new) to the [creating of a new employee](offer_job_positions.md#recruitment-new-employee) once hired. The following outlines the default recruitment process for
+[initial inquiry](#recruitment-new) to the [creating of a new employee](applications/hr/recruitment/offer_job_positions.md#recruitment-new-employee) once hired. The following outlines the default recruitment process for
 Odoo's *Recruitment* application.
 
 #### IMPORTANT
 The following is based on Odoo's default recruitment pipeline. Be advised that if
-[modifications are made](../recruitment.md#recruitment-customize-stages) to the pipeline, the process
+[modifications are made](applications/hr/recruitment.md#recruitment-customize-stages) to the pipeline, the process
 differs.
 
 <a id="recruitment-new"></a>
@@ -15,7 +15,7 @@ differs.
 
 At the start of the process, all applicants appear in the New stage on the
 Applications page, whether submitted online or if the applicant is [manually
-entered by a recruiter](add-new-applicants.md).
+entered by a recruiter](applications/hr/recruitment/add-new-applicants.md).
 
 When the applicant's card is created, Odoo automatically populates the
 Subject/Application, the Applicant's Name, Email, and
@@ -39,7 +39,7 @@ To find the recruitment documents, navigate to the main Documents app dashboard,
 and click the Recruitment folder on the left-hand side. All recruitment documents are
 stored within that folder.
 
-If the [CV Display](../recruitment.md#recruitment-cv-display) option was enabled in the [Settings](../recruitment.md#recruitment-settings) of the *Recruitment* app, the resumé appears on the applicant's card, on the
+If the [CV Display](applications/hr/recruitment.md#recruitment-cv-display) option was enabled in the [Settings](applications/hr/recruitment.md#recruitment-settings) of the *Recruitment* app, the resumé appears on the applicant's card, on the
 right-hand side.
 
 #### NOTE
@@ -57,7 +57,7 @@ installed.
 Odoo uses the term *interview*, but these can be thought of as questionnaires, surveys, tests,
 certifications, etc. Custom interviews can be formatted to suit each individual job position's
 needs. For more information on creating and editing interviews, refer to the
-[Job positions](new_job.md) documentation.
+[Job positions](applications/hr/recruitment/new_job.md) documentation.
 
 To send an interview to an applicant, first click the applicant's card from the
 Applications page, to view the detailed applicant information. At the top-left of the
@@ -79,7 +79,7 @@ Enter the email address in the Email field, then click Save & Close.
 Once the applicant's information is saved, the Edit: (Applicant's Name) pop-up window
 closes, and the Send an interview pop-up window remains.
 
-Đôi khi, các mẫu email được cấu hình sẵn trong Odoo sử dụng các phần giữ chỗ động, sẽ tự động được điền bằng dữ liệu cụ thể khi email được gửi. Ví dụ, nếu một trình giữ chỗ dành cho tên ứng viên được sử dụng, nó sẽ được thay thế bằng tên thực tế của ứng viên trong email. Để biết thêm thông tin chi tiết về mẫu email, hãy tham khảo tài liệu [Mẫu Email](../../general/companies/email_template.md).
+Đôi khi, các mẫu email được cấu hình sẵn trong Odoo sử dụng các phần giữ chỗ động, sẽ tự động được điền bằng dữ liệu cụ thể khi email được gửi. Ví dụ, nếu một trình giữ chỗ dành cho tên ứng viên được sử dụng, nó sẽ được thay thế bằng tên thực tế của ứng viên trong email. Để biết thêm thông tin chi tiết về mẫu email, hãy tham khảo tài liệu [Mẫu Email](applications/general/companies/email_template.md).
 
 Thêm địa chỉ email của bất kỳ người nhận bổ sung nào cho khảo sát vào trường Email bổ sung, nếu muốn thêm người nhận email. Nếu một địa chỉ email có trong cơ sở dữ liệu dưới dạng liên hệ, hãy thêm liên hệ đó vào trường Người nhận. Nếu một email cần được gửi đến một người không có trong cơ sở dữ liệu dưới dạng liên hệ và họ **không** nên được thêm vào làm liên hệ, hãy thêm địa chỉ email của họ vào trường Email bổ sung.
 
@@ -104,7 +104,7 @@ To send the email with the interview link to the applicant, click Send at the bo
 the email pop-up window.
 
 ![Send a custom survey, also referred to as an interview form, to an applicant using a
-pre-configured template.](recruitment-flow/send-survey.png)
+pre-configured template.](../../../.gitbook/assets/send-survey1.png)
 
 <a id="recruitment-initial-qualification"></a>
 
@@ -129,7 +129,7 @@ informs the recruitment team to potentially set up a phone call or an interview 
 > Click the desired stage for the card, and the stage changes. A log note indicating the stage
 > change appears in the chatter, as well.
 ![Change the stage of an applicant by clicking on the desired stage at the top of the
-applicant's card.](recruitment-flow/stage-change.png)
+applicant's card.](../../../.gitbook/assets/stage-change.png)
 
 <a id="recruitment-first-interview"></a>
 
@@ -146,7 +146,7 @@ Alternatively, open the desired applicant's card from the Applications page, and
 the First Interview stage on the status bar at the top of the individual applicant's
 card.
 
-![An applicant's card moves from one stage to another by using the click and drag method.](recruitment-flow/move.png)
+![An applicant's card moves from one stage to another by using the click and drag method.](../../../.gitbook/assets/move.png)
 
 <a id="recruitment-second-interview"></a>
 
@@ -156,7 +156,7 @@ Sau khi ứng viên vượt qua giai đoạn Phỏng vấn lần 1, họ có th�
 
 When the applicant's card moves to the Second Interview stage, there are no automatic
 activities or emails configured for this stage, by default. The recruiter can now [schedule a
-second interview](schedule_interviews.md#recruitment-schedule-interviews-recruitment-scheduled) with the applicant,
+second interview](applications/hr/recruitment/schedule_interviews.md#recruitment-schedule-interviews-recruitment-scheduled) with the applicant,
 following the same process as the first interview.
 
 <a id="recruitment-contract-proposal"></a>
@@ -164,7 +164,7 @@ following the same process as the first interview.
 ## Đề xuất Hợp đồng
 
 After the applicant has completed the various interview processes, the next step is to [send
-the job offer](offer_job_positions.md).
+the job offer](applications/hr/recruitment/offer_job_positions.md).
 
 Once the offer has been sent, drag-and-drop the applicant's card to the Contract
 Proposal stage from the Kanban view of the Applications page, or click on the
@@ -182,4 +182,4 @@ bar.
 
 ## Refuse applicant
 
-At any point in the recruitment process, a candidate can be [refused](refuse_applicant.md).
+At any point in the recruitment process, a candidate can be [refused](applications/hr/recruitment/refuse_applicant.md).

@@ -3,11 +3,11 @@ include .env
 
 # Pass WORKERS=1 for single-worker build
 ifndef WORKERS
-  WORKERS = auto
+  WORKERS = 1
 endif
 
 ODOO_DIR       = odoo-docs
-MARKDOWN_HTTP_BASE = ""
+MARKDOWN_IMAGE_DIR = ".gitbook/assets"
 
 ifndef BUILD_DIR
   BUILD_DIR    = _build
@@ -22,6 +22,7 @@ CONFIG_DIR     = $(ODOO_DIR)
 SPHINXOPTS     = -D project_root=$(ROOT) -D canonical_version=$(CANONICAL_VERSION) \
                  -D versions=$(VERSIONS) -D languages=$(LANGUAGES) -D language=$(CURRENT_LANG) \
                  -D is_remote_build=$(IS_REMOTE_BUILD) \
+				 -D markdown_image_dir=$(MARKDOWN_IMAGE_DIR) \
                  -T \
                  -A google_analytics_key=$(GOOGLE_ANALYTICS_KEY) \
                  -A plausible_script=$(PLAUSIBLE_SCRIPT) \

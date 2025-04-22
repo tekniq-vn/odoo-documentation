@@ -12,7 +12,7 @@ Due to the complexity of IoT systems, the term *updating* can refer to several p
 Hộp IoT
 
 > To check if the IoT box is up-to-date (and update it if needed), [access the IoT box's
-> homepage](../iot_box.md#iot-iot-box-homepage), click the <i class="fa fa-cogs"></i> (cogs) button at the
+> homepage](applications/general/iot/iot_box.md#iot-iot-box-homepage), click the <i class="fa fa-cogs"></i> (cogs) button at the
 > top-right, then Update in the Version section.
 
 **Image update**
@@ -34,7 +34,7 @@ Hộp IoT
 > 4. Click Select target and select the SD card.
 > 5. Click Flash and wait for the process to finish.
 
-> ![Flashing the SD card with balenaEtcher](updating_iot/etcher-flash.png)
+> ![Flashing the SD card with balenaEtcher](../../../../.gitbook/assets/etcher-flash.png)
 
 **Core code update**
 
@@ -43,7 +43,7 @@ Hộp IoT
 
 Windows virtual IoT
 
-To update the Windows virtual IoT's image and code, [uninstall the program](../windows_iot.md#iot-windows-iot-uninstall) and [reinstall](../windows_iot.md#iot-windows-iot-installation) the latest
+To update the Windows virtual IoT's image and code, [uninstall the program](applications/general/iot/windows_iot.md#iot-windows-iot-uninstall) and [reinstall](applications/general/iot/windows_iot.md#iot-windows-iot-installation) the latest
 package.
 
 <a id="iot-updating-iot-handlers"></a>
@@ -51,19 +51,19 @@ package.
 ## Handler (driver) update
 
 To update the IoT system's handlers (i.e., drivers and interfaces) and synchronize them with the
-configured server handler's code, for example, to resolve issues where [devices](../devices.md)
+configured server handler's code, for example, to resolve issues where [devices](applications/general/iot/devices.md)
 are not functioning properly with the IoT system, proceed as follows:
 
-1. Access the [IoT box's](../iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](../windows_iot.md#iot-windows-iot-homepage) homepage and click the <i class="fa fa-cogs"></i> (cogs) button at
+1. Access the [IoT box's](applications/general/iot/iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) homepage and click the <i class="fa fa-cogs"></i> (cogs) button at
    the top-right.
 2. Click Update in the Version section.
 3. In the Update popup that opens, click Force Drivers Update.
 
 #### IMPORTANT
-If you have an [on-premise](../../../../administration/on_premise.md) or [Odoo.sh](../../../../administration/odoo_sh/overview/introduction.md) database, the configured server must be
+If you have an [on-premise](administration/on_premise.md) or [Odoo.sh](administration/odoo_sh/overview/introduction.md) database, the configured server must be
 up-to-date to ensure the handlers' code includes the latest fixes and patches.
 
 #### NOTE
 A handler update is also performed automatically every time the IoT system is restarted unless
 the Automatic drivers update option is disabled in the Technical
-information tab in the [IoT system's form](../connect.md#iot-connect-iot-form) in Odoo.
+information tab in the [IoT system's form](applications/general/iot/connect.md#iot-connect-iot-form) in Odoo.

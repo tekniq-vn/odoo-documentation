@@ -12,7 +12,7 @@ To manage the *Lunch* app, users need the appropriate Administrator rights. Thes
 set by navigating to the Settings app and selecting Manage Users. Then,
 click on the desired user to view their access rights.
 
-For more information on access rights, refer to the [Access rights](../../general/users/access_rights.md) documentation.
+For more information on access rights, refer to the [Access rights](applications/general/users/access_rights.md) documentation.
 
 #### NOTE
 Only users with administration rights are able to view the Manager and
@@ -42,7 +42,7 @@ The following information appears in the list:
   multi-company database.
 
 ![The list that appears in the Today's Orders dashboard, with the filters and top column
-names highlighted.](management/today.png)
+names highlighted.](../../../.gitbook/assets/today.png)
 
 <a id="lunch-cancel"></a>
 
@@ -59,7 +59,7 @@ cancel the order for that individual product.
 #### NOTE
 Only products with a red Status tag of Ordered can be canceled.
 
-![Order lines with the cancel button highlighted.](management/cancel.png)
+![Order lines with the cancel button highlighted.](../../../.gitbook/assets/cancel.png)
 
 <a id="lunch-send-orders"></a>
 
@@ -78,7 +78,7 @@ the Status column is updated from red Ordered tags to blue Sent
 tags, indicating the order has been sent to the vendor. Users who have placed orders in the *Lunch*
 app rely on the Status tags to track their orders.
 
-![A vendor's order with the X Cancel and Send Orders buttons highlighted.](management/send.png)
+![A vendor's order with the X Cancel and Send Orders buttons highlighted.](../../../.gitbook/assets/send.png)
 
 <a id="lunch-confirm-orders"></a>
 
@@ -102,7 +102,7 @@ can be confirmed one at a time. To confirm an individual product, click the ✔�
 button at the end of the individual product line. When confirming individual products with this
 method, the Confirm Orders button remains on the vendor line.
 
-![The Today's Orders dashboard, with the two different ways to confirm an order highlighted.](management/confirm.png)
+![The Today's Orders dashboard, with the two different ways to confirm an order highlighted.](../../../.gitbook/assets/confirm.png)
 
 <a id="lunch-notify"></a>
 
@@ -146,7 +146,7 @@ Orders can be [canceled](#lunch-cancel), [sent to the vendor](#lunch-send-orders
 [confirmed](#lunch-confirm-orders) upon arrival, and [employees can be notified](#lunch-notify) using the same method as on the [Today's Orders](#lunch-todays-orders)
 dashboard.
 
-![A list view of all the orders as seen in the Control Vendors dashboard.](management/control.png)
+![A list view of all the orders as seen in the Control Vendors dashboard.](../../../.gitbook/assets/control.png)
 
 #### NOTE
 The difference between the [Today's Orders](#lunch-todays-orders) dashboard and the
@@ -155,6 +155,6 @@ The difference between the [Today's Orders](#lunch-todays-orders) dashboard and 
 displays **all** orders made in the *Lunch* app.
 
 #### SEE ALSO
-- [Bữa ăn](../lunch.md)
-- [Đơn hàng](orders.md)
-- [Manage user accounts](user-accounts.md)
+- [Bữa ăn](applications/hr/lunch.md)
+- [Đơn hàng](applications/hr/lunch/orders.md)
+- [Manage user accounts](applications/hr/lunch/user-accounts.md)

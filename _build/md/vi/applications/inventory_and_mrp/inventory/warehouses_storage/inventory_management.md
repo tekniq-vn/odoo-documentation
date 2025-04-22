@@ -1,7 +1,7 @@
 # Inventory management
 
-In the Odoo *Inventory* app, [warehouses](inventory_management/warehouses.md) handle the broader
-organization and distribution of stock across different physical sites, while [locations](inventory_management/use_locations.md) provide a more detailed breakdown within each warehouse for
+In the Odoo *Inventory* app, [warehouses](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md) handle the broader
+organization and distribution of stock across different physical sites, while [locations](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md) provide a more detailed breakdown within each warehouse for
 efficient item management.
 
 This document serves as an introduction to the terminology and concepts necessary to master
@@ -13,25 +13,25 @@ documentation pages.
 
 ## Kho hàng
 
-[Warehouses](inventory_management/warehouses.md) represent a physical place, with a physical
+[Warehouses](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md) represent a physical place, with a physical
 address, where a company's items are stored.
 
-Configure [routes](../shipping_receiving/daily_operations/use_routes.md) in a warehouse to
+Configure [routes](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md) in a warehouse to
 control how products move to customers, from vendors, within the warehouse, or [between
-warehouses](replenishment/resupply_warehouses.md).
+warehouses](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.md).
 
 ## Vị trí
 
-[Locations](inventory_management/use_locations.md) refer to specific areas within a warehouse,
+[Locations](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md) refer to specific areas within a warehouse,
 such as shelves, floors, or aisles. These are sub-divisions within a warehouse, and are unique to
 that warehouse. Users can create and manage numerous locations within a single warehouse to organize
 inventory more precisely.
 
 #### SEE ALSO
-- [Vị trí](inventory_management/use_locations.md)
-- [Điều chỉnh tồn kho](inventory_management/count_products.md)
-- [Đếm theo chu kỳ](inventory_management/cycle_counts.md)
-- [Scrap inventory](inventory_management/scrap_inventory.md)
+- [Vị trí](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md)
+- [Điều chỉnh tồn kho](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md)
+- [Đếm theo chu kỳ](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.md)
+- [Scrap inventory](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.md)
 
 <a id="inventory-warehouses-storage-location-type"></a>
 
@@ -53,7 +53,7 @@ field, there are:
   #### IMPORTANT
   View locations should **not** contain products, but it is possible to move them there.
 - Internal Location: storage locations within the warehouse. Items stored in these
-  locations are accounted for in [inventory valuation](../product_management/inventory_valuation/using_inventory_valuation.md).
+  locations are accounted for in [inventory valuation](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md).
 - Customer Location: where sold products are tracked; items here are no longer in stock.
 - Inventory Loss: counterpart location to consume missing items or create stock,
   accounting for discrepancies.
@@ -61,12 +61,12 @@ field, there are:
   In Odoo, examples of inventory loss locations are *Inventory Adjustment*, used to account for
   discrepancies during an inventory count, and *Scrap*, which is where damaged goods are sent to
   account for inventory losses.
-- Production: where raw materials are consumed, and [manufactured products](../../manufacturing.md) are created.
+- Production: where raw materials are consumed, and [manufactured products](applications/inventory_and_mrp/manufacturing.md) are created.
 - Transit Location: used for inter-company or inter-warehouse operations to track
   products shipped between different addresses, such as [Physical Locations/Inter-warehouse
   transit](#inventory-warehouses-storage-interwarehouse-transit).
 
-![List of locations in Odoo.](inventory_management/locations.png)
+![List of locations in Odoo.](../../../../.gitbook/assets/locations2.png)
 
 #### NOTE
 In Odoo, location types are color-coded:
@@ -90,8 +90,8 @@ provide helpful context, and distinguish between internal and external locations
   not in inventory can be placed. These can be items that are no longer in inventory due to loss, or
   other factors.
 
-* [Kho hàng](inventory_management/warehouses.md)
-* [Vị trí](inventory_management/use_locations.md)
-* [Điều chỉnh tồn kho](inventory_management/count_products.md)
-* [Đếm theo chu kỳ](inventory_management/cycle_counts.md)
-* [Scrap inventory](inventory_management/scrap_inventory.md)
+* [Kho hàng](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md)
+* [Vị trí](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md)
+* [Điều chỉnh tồn kho](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md)
+* [Đếm theo chu kỳ](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.md)
+* [Scrap inventory](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.md)

@@ -107,7 +107,7 @@ global status (or not) of the rule.
 
 #### domain_force
 
-A predicate specified as a [domain](orm.md#reference-orm-domains), the
+A predicate specified as a [domain](developer/reference/backend/orm.md#reference-orm-domains), the
 rule allows the selected operations if the domain matches the record,
 and forbids it otherwise.
 
@@ -127,7 +127,7 @@ variables:
 `company_ids`
 : All the companies to which the current user has access as a list of
   company ids (not a recordset), see
-  [Security rules](../../howtos/company.md#howto-company-security) for more details.
+  [Security rules](developer/howtos/company.md#howto-company-security) for more details.
 
 The `perm_*method*` have completely different semantics than for
 [`ir.model.access`](#ir.model.access): for rules, they specify which operation the rules
@@ -166,7 +166,7 @@ and combine:
 
 An ORM `Field` can have a `groups` attribute
 providing a list of groups (as a comma-separated string of
-[external identifiers](../../glossary.md#term-external-identifiers)).
+[external identifiers](developer/glossary.md#term-external-identifiers)).
 
 If the current user is not in one of the listed groups, he will not have
 access to the field:
@@ -186,7 +186,7 @@ common mistakes leading to insecure code.
 
 ### Unsafe Public Methods
 
-Any public method can be executed via a [RPC call](../external_api.md#api-external-api-calling-methods) with the chosen parameters. The methods
+Any public method can be executed via a [RPC call](developer/reference/external_api.md#api-external-api-calling-methods) with the chosen parameters. The methods
 starting with a `_` are not callable from an action button or external API.
 
 On public methods, the record on which a method is executed and the parameters

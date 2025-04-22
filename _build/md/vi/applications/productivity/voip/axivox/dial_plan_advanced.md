@@ -16,7 +16,7 @@ There is even the option to route callers, depending on where they are calling f
 thus maximizing efficiency.
 
 #### IMPORTANT
-For more information on basic dial plans, and how to add elements, visit [Dial plan basics](dial_plan_basics.md).
+For more information on basic dial plans, and how to add elements, visit [Dial plan basics](applications/productivity/voip/axivox/dial_plan_basics.md).
 
 #### WARNING
 Using a browser add-on for spelling may hinder the use of the visual editor in dial plans. Do
@@ -24,7 +24,7 @@ Using a browser add-on for spelling may hinder the use of the visual editor in d
 
 ## Advanced elements
 
-In Axivox dial plans (as described in [Dial plan basics](dial_plan_basics.md)), there are two advanced elements that
+In Axivox dial plans (as described in [Dial plan basics](applications/productivity/voip/axivox/dial_plan_basics.md)), there are two advanced elements that
 can be used.
 
 - Record: recording feature is enabled (requires plan change, enabled in Axivox
@@ -38,9 +38,9 @@ Next, click on the Visual Editor button to the right of the desired dial plan to
 it. Finally, open the New element drop-down menu, select the element, and click
 Add.
 
-![Visual editor for a dial plan in Axivox, with Add and the dispatcher element highlighted.](dial_plan_advanced/visual-editor.png)
+![Visual editor for a dial plan in Axivox, with Add and the dispatcher element highlighted.](../../../../.gitbook/assets/visual-editor.png)
 
-For more information, visit [Dial plans](dial_plan_basics.md#voip-axivox-dial-plans).
+For more information, visit [Dial plans](applications/productivity/voip/axivox/dial_plan_basics.md#voip-axivox-dial-plans).
 
 #### IMPORTANT
 The Record element records calls that are routed through this element, and requires
@@ -77,7 +77,7 @@ be pre-configured numerically with actions. Instead, it acts as a virtual recept
 
 Để thêm một trong các phần tử này, hãy đi đến trang Kế hoạch quay số, nằm trong menu bên trái của `bảng điều khiển quản lý Axivox <https://manage.axivox.com>_`. Tiếp theo, nhấp vào nút Trình chỉnh sửa trực quan bên phải kế hoạch quay số để chỉnh sửa kế hoạch đó. Sau đó, mở menu thả xuống Phần tử mới, chọn phần tử cần thêm và nhấp Thêm.
 
-For more information, visit [Dial plans](dial_plan_basics.md#voip-axivox-dial-plans).
+For more information, visit [Dial plans](applications/productivity/voip/axivox/dial_plan_basics.md#voip-axivox-dial-plans).
 
 ### Digital receptionist scenario
 
@@ -105,7 +105,7 @@ of the Axivox console to them.
 For example, an Audio message needs to be made, and then selected in a
 Play a file or Menu element.
 
-For more information, see this documentation [Tin nhắn thoại](vm_audio_messages.md#voip-axivox-audio-messages).
+For more information, see this documentation [Tin nhắn thoại](applications/productivity/voip/axivox/vm_audio_messages.md#voip-axivox-audio-messages).
 
 ## Advanced routing elements
 
@@ -122,7 +122,7 @@ The following are advanced routing elements:
 - Time Condition: create time conditions to route incoming traffic around holidays, or
   other sensitive time-frames.
 
-Để thêm một trong các phần tử này, hãy đi đến trang Kế hoạch quay số, nằm trong menu bên trái của `bảng điều khiển quản lý Axivox <https://manage.axivox.com>_`. Tiếp theo, nhấp vào nút Trình chỉnh sửa trực quan bên phải kế hoạch quay số để chỉnh sửa kế hoạch đó. Sau đó, mở menu thả xuống Phần tử mới, chọn phần tử cần thêm và nhấp Thêm. Để biết thêm thông tin, hãy truy cập [Dial plans](dial_plan_basics.md#voip-axivox-dial-plans).
+Để thêm một trong các phần tử này, hãy đi đến trang Kế hoạch quay số, nằm trong menu bên trái của `bảng điều khiển quản lý Axivox <https://manage.axivox.com>_`. Tiếp theo, nhấp vào nút Trình chỉnh sửa trực quan bên phải kế hoạch quay số để chỉnh sửa kế hoạch đó. Sau đó, mở menu thả xuống Phần tử mới, chọn phần tử cần thêm và nhấp Thêm. Để biết thêm thông tin, hãy truy cập [Dial plans](applications/productivity/voip/axivox/dial_plan_basics.md#voip-axivox-dial-plans).
 
 ### Dispatcher scenario
 
@@ -148,7 +148,7 @@ their customers to certain queues, or users based on the customer's geo-location
 To specify all numbers behind a certain country code, or area code, include `d+` after the country
 code, or country code + area code.
 
-![Dispatcher configuration panel, with name, regular expression and add a line highlighted.](dial_plan_advanced/dispatcher.png)
+![Dispatcher configuration panel, with name, regular expression and add a line highlighted.](../../../../.gitbook/assets/dispatcher.png)
 
 When the desired configurations are complete on the Dispatcher pop-up window, be sure to
 click Save.
@@ -164,7 +164,7 @@ after setting at least one Regular Expression.
 Calls follow this route/path when their number does not match any Regular Expression set
 on the Dispatcher element.
 
-![Dial plan with dispatcher element highlighted.](dial_plan_advanced/dispatcher-element.png)
+![Dial plan with dispatcher element highlighted.](../../../../.gitbook/assets/dispatcher-element.png)
 
 ### Time condition scenario
 
@@ -182,7 +182,7 @@ The Time Condition element is especially useful for holidays, weekends, and to s
 working hours. When a caller reaches a destination where they can be helped, either with a real
 person or voicemail, this reduces wasted time and hangups.
 
-![Time condition element set in a dial plan on Axivox. Time condition is highlighted.](dial_plan_advanced/time-condition.png)
+![Time condition element set in a dial plan on Axivox. Time condition is highlighted.](../../../../.gitbook/assets/time-condition.png)
 
 #### IMPORTANT
 To set the Timezone that the Time Condition operates under, navigate to
@@ -201,7 +201,7 @@ double-clicking on the element directly in the Dialplan Editor pop-up window.
 Two fields appear where regular expressions can based in the Allow and Deny
 fields of the Access List pop-up window.
 
-![Access list element configuration with the allow/deny fields highlighted.](dial_plan_advanced/access-config.png)
+![Access list element configuration with the allow/deny fields highlighted.](../../../../.gitbook/assets/access-config.png)
 
 After setting the Allow and Deny fields with regular expressions or numbers,
 click Save on the Access List pop-up window.
@@ -214,7 +214,7 @@ connecting it to the Unknown path. Refused calls can be routed to the
 Hang up element. Lastly, Authorized callers can be sent to a specific
 extension or queue.
 
-![Access list element highlighted in an example dial plan.](dial_plan_advanced/access-list.png)
+![Access list element highlighted in an example dial plan.](../../../../.gitbook/assets/access-list.png)
 
 ## Switches
 
@@ -263,7 +263,7 @@ pop-up window.
 Then, from the New element drop-down menu, select Switch, and then click
 Add. Double-click on the element to further configure the Switch element.
 
-![Switch configuration in a dial plan, with inactive and active routes highlighted.](dial_plan_advanced/switch.png)
+![Switch configuration in a dial plan, with inactive and active routes highlighted.](../../../../.gitbook/assets/switch.png)
 
 ### Multi-switch
 
@@ -298,4 +298,4 @@ On the Dialplan Editor pop-up window that appears, click on the New element
 drop-down menu, and select Multi-Switch. Then, click Add. Double-click on
 the element to further configure the Switch element.
 
-![Multi-switch configuration in a dial plan, with chosen route highlighted.](dial_plan_advanced/multi-switch.png)
+![Multi-switch configuration in a dial plan, with chosen route highlighted.](../../../../.gitbook/assets/multi-switch.png)

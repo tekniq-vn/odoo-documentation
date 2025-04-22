@@ -6,7 +6,7 @@ Trong trường hợp đó, cần phải làm cho khu vực sản xuất này kh
 
 ## Cấu hình
 
-Trước khi một khu vực sản xuất có thể được đánh dấu là không khả dụng, nền tảng Odoo phải được cấu hình chính xác. Trước tiên, cần phải bật [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode). Khi bật chế độ này, nút thông minh *Ngày nghỉ* sẽ xuất hiện trên trang *Giờ làm việc* của mỗi khu vực sản xuất.
+Trước khi một khu vực sản xuất có thể được đánh dấu là không khả dụng, nền tảng Odoo phải được cấu hình chính xác. Trước tiên, cần phải bật [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode). Khi bật chế độ này, nút thông minh *Ngày nghỉ* sẽ xuất hiện trên trang *Giờ làm việc* của mỗi khu vực sản xuất.
 
 Tiếp theo, hãy cài đặt ứng dụng **Ngày nghỉ**. Đây là ứng dụng được sử dụng để quản lý thời gian nghỉ của tất cả tài nguyên trong Odoo, bao gồm cả nhân viên và khu vực sản xuất.
 
@@ -17,25 +17,25 @@ Bước cuối cùng là cấu hình các khu vực sản xuất một cách ch�
 Để tạo một khu vực sản xuất, hãy đi đến Ứng dụng Sản xuất ‣ Cấu hình ‣ Khu vực sản xuất ‣ Mới.
 
 #### SEE ALSO
-Để biết hướng dẫn chi tiết về cách tạo khu vực sản xuất, hãy tham khảo tài liệu về [khu vực sản xuất](../advanced_configuration/using_work_centers.md).
+Để biết hướng dẫn chi tiết về cách tạo khu vực sản xuất, hãy tham khảo tài liệu về [khu vực sản xuất](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md).
 
 Đảm bảo cả hai khu vực sản xuất đều có cùng thiết bị được liệt kê trong tab Thiết bị. Như vậy, các hoạt động được xử lý tại khu vực này cũng có thể được thực hiện tại khu vực kia.
 
 Trên khu vực sản xuất không khả dụng, hãy chọn khu vực sản xuất thứ hai từ menu thả xuống Khu vực sản xuất dự trù. Giờ đây, Odoo sẽ chuyển công đoạn đến khu vực sản xuất thứ hai khi khu vực đầu tiên không khả dụng vì bất kỳ lý do gì.
 
-![Biểu mẫu khu vực sản xuất được cấu hình với một trung tâm làm việc dự trù.](work_center_time_off/alternative-work-center-selection.png)
+![Biểu mẫu khu vực sản xuất được cấu hình với một trung tâm làm việc dự trù.](../../../../.gitbook/assets/alternative-work-center-selection.png)
 
 ## Thêm ngày ngừng hoạt động cho khu vực sản xuất
 
 Sau khi cấu hình xong, bạn có thể chỉ định ngày ngừng hoạt động cho một khu vực sản xuất. Bắt đầu bằng cách đi đến Ứng dụng Sản xuất ‣ Cấu hình ‣ Khu vực sản xuất và chọn khu vực sản xuất bị ảnh hưởng. Nhấp vào nút <i class="oi oi-arrow-right"></i> (Liên kết nội bộ) ở phía bên phải của menu thả xuống Giờ làm việc để mở trang giờ làm việc của khu vực sản xuất.
 
-![Nút "Liên kết ngoài" về Giờ làm việc trên biểu mẫu khu vực sản xuất.](work_center_time_off/working-hours-button.png)
+![Nút "Liên kết ngoài" về Giờ làm việc trên biểu mẫu khu vực sản xuất.](../../../../.gitbook/assets/working-hours-button.png)
 
 Trang giờ làm việc hiển thị giờ làm việc tiêu chuẩn cho khu vực sản xuất. Khi chế độ lập trình viên được kích hoạt, nút thông minh <i class="fa fa-plane"></i> Ngày nghỉ sẽ xuất hiện ở đầu trang. Nhấp vào nút đó để mở trang Ngày nghỉ của tài nguyên.
 
 Trên trang này, nhấp vào Mới để cấu hình một bản ghi ngày nghỉ mới. Trên biểu mẫu ngày nghỉ, hãy ghi chú Lý do đóng khu vực sản xuất (VD: thiết bị hỏng, bảo trì,...), chọn khu vực sản xuất bị ảnh hưởng làm Tài nguyên và chọn Ngày bắt đầu và Ngày kết thúc để xác định khoảng thời gian mà khu vực sản xuất này không khả dụng.
 
-![Biểu mẫu "Ngày nghỉ của tài nguyên".](work_center_time_off/time-off-form.png)
+![Biểu mẫu "Ngày nghỉ của tài nguyên".](../../../../.gitbook/assets/time-off-form.png)
 
 ## Lập kế hoạch khu vực sản xuất dự trù
 
@@ -47,6 +47,6 @@ Trên  đã xác nhận, hãy chọn tab Công đoạn. Theo mặc định, khu 
 
 Sau khi nhấp vào Kế hoạch, khu vực sản xuất được liệt kê trong cột Khu vực sản xuất của tab Công đoạn sẽ tự động được thay đổi thành khu vực sản xuất dự trù.
 
-![Trước khi nhấp vào "Kế hoạch", công đoạn sẽ được lên lịch tại "Dây chuyền lắp ráp chính".](work_center_time_off/before-planning.png)![Sau khi nhấp vào "Kế hoạch", công đoạn sẽ được lên lịch lại tại "Dây chuyền lắp ráp dự trù".](work_center_time_off/after-planning.png)
+![Trước khi nhấp vào "Kế hoạch", công đoạn sẽ được lên lịch tại "Dây chuyền lắp ráp chính".](../../../../.gitbook/assets/before-planning.png)![Sau khi nhấp vào "Kế hoạch", công đoạn sẽ được lên lịch lại tại "Dây chuyền lắp ráp dự trù".](../../../../.gitbook/assets/after-planning.png)
 
 Khi thời gian ngừng hoạt động của khu vực sản xuất không khả dụng kết thúc, Odoo sẽ biết được khu vực sản xuất đó đã khả dụng trở lại. Tại thời điểm này, việc nhấp vào nút Kế hoạch sẽ không chuyển các công đoạn đến khu vực sản xuất dự trù, trừ khi khu vực kia quá tải.

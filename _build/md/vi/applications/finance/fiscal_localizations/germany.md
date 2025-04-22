@@ -29,7 +29,7 @@ Then you can go in Accounting ‣ Reporting ‣ General Ledger then click on the
 ## Point of Sale in Germany: Technical Security System
 
 The **Kassensicherungsverordnung** (The Act on Protection against Manipulation of Digital Records)
-requires that electronic record-keeping systems - including the [point of sale](../../sales/point_of_sale.md) systems - must be equipped with a **Technical Security System**
+requires that electronic record-keeping systems - including the [point of sale](applications/sales/point_of_sale.md) systems - must be equipped with a **Technical Security System**
 (also called **TSS** or **TSE**).
 
 Odoo offers a service that is compliant with the help of [fiskaly](https://fiskaly.com), a
@@ -46,13 +46,13 @@ The only VAT rates allowed are given by fiskaly. You can check these rates by co
 
 #### Modules installation
 
-1. If your database was created before June 2021, [upgrade](../../general/apps_modules.md#general-upgrade) your **Point of
+1. If your database was created before June 2021, [upgrade](applications/general/apps_modules.md#general-upgrade) your **Point of
    Sale** app (`point_of_sale`) and the **Restaurant** module (`pos_restaurant`).
-2. [Install](../../general/apps_modules.md#general-install) the **Germany - Certification for Point of Sale**
+2. [Install](applications/general/apps_modules.md#general-install) the **Germany - Certification for Point of Sale**
    (`l10n_de_pos_cert`) and **Germany - Certification for Point of Sale of type restaurant**
    (`l10n_de_pos_res_cert`) modules.
 
-![Upgrading Odoo Point of Sale from the Apps dashboard](germany/pos-upgrade.png)
+![Upgrading Odoo Point of Sale from the Apps dashboard](../../../.gitbook/assets/pos-upgrade.png)
 
 #### Register your company at the financial authority
 
@@ -70,7 +70,7 @@ Update Info, fill out the following fields and *Save*.
 You can then **register your company through fiskaly** by opening the *fiskaly* tab and clicking on
 the *fiskaly Registration* button.
 
-![Button to register a company through fiskaly in Odoo](germany/fiskaly-registration.png)
+![Button to register a company through fiskaly in Odoo](../../../.gitbook/assets/fiskaly-registration.png)
 
 Once the registration has been finalized, new fields appear:
 
@@ -78,21 +78,21 @@ Once the registration has been finalized, new fields appear:
 - **fiskaly API key** and **secret** are the credentials the system uses to access the services
   offered by fiskaly.
 
-![fiskaly keys as displayed on Odoo](germany/fiskaly-keys.png)
+![fiskaly keys as displayed on Odoo](../../../.gitbook/assets/fiskaly-keys.png)
 
 #### NOTE
 It is possible to request new credentials if there is any issue with the current ones.
 
 #### Create and link a Technical Security System to your PoS
 
-![Create TSS option from a point of sale](germany/create-tss.png)
+![Create TSS option from a point of sale](../../../.gitbook/assets/create-tss.png)
 
 To use your point of sale in Germany, you first have to create a  for it.
 
 To do so, go to Point of Sale ‣ Configuration ‣ Point of Sale, open the point
 of sale you want to edit, then check the box next to **Create TSS** and *Save*.
 
-![Example of TSS ID and Client ID from fiskaly in Odoo Point of Sale](germany/tss-ids.png)
+![Example of TSS ID and Client ID from fiskaly in Odoo Point of Sale](../../../.gitbook/assets/tss-ids.png)
 
 Once the creation of the TSS is successful, you can find your **TSS ID** and **Client ID** under the
 *fiskaly API* section.
@@ -102,7 +102,7 @@ Once the creation of the TSS is successful, you can find your **TSS ID** and **C
 
 ### DSFinV-K
 
-![Menu to export DSFinV-K](germany/dsfinv-k-export.png)
+![Menu to export DSFinV-K](../../../.gitbook/assets/dsfinv-k-export.png)
 
 Whenever you close a PoS session, the orders' details are sent to the  service of fiskaly.
 
@@ -120,7 +120,7 @@ Specify a Point of Sale if you want to export this specific PoS' data only.
 
 The creation of a DSFinV-K export triggers on export at fiskaly's side.
 
-![Pending DSFinV-K export on Odoo](germany/dsfinv-k-export-fields.png)
+![Pending DSFinV-K export on Odoo](../../../.gitbook/assets/dsfinv-k-export-fields.png)
 
 As you can see, the **State** is *Pending*. This means that the export has been successfully
 triggered and is being processed. You have to click on *Refresh State* to check if it is ready.

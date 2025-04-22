@@ -18,7 +18,7 @@ Configuration ‣ Settings, and under the Invoicing heading, select an
 Invoicing Policy rule: Invoice what is ordered or Invoice what is
 delivered.
 
-![Choosing an invoicing policy on Odoo Sales.](invoicing_policy/invoicing-policy-setting.png)
+![Choosing an invoicing policy on Odoo Sales.](../../../../.gitbook/assets/invoicing-policy-setting.png)
 
 #### IMPORTANT
 If the Invoice what is delivered rule is chosen, it is **not** possible to activate
@@ -31,7 +31,7 @@ On any product page, via the Sales app ‣ Products ‣ Products dashboard, loca
 the Invoicing Policy option located under the General Information tab. It
 can be changed manually using the drop-down menu.
 
-![How to change your invoicing policy on a product form on Odoo Sales.](invoicing_policy/invoicing-policy-general-info-tab.png)
+![How to change your invoicing policy on a product form on Odoo Sales.](../../../../.gitbook/assets/invoicing-policy-general-info-tab.png)
 
 ## Impact on sales flow
 
@@ -52,14 +52,14 @@ If a user attempts to create an invoice without validating the delivered quantit
 error message appears: There is no invoiceable line. If a product has a Delivered
 quantities invoicing policy, please make sure that a quantity has been delivered.
 
-![If Delivered Quantities invoicing policy is chosen, ensure a quantity has been delivered.](invoicing_policy/invoicing-policy-error-message.png)
+![If Delivered Quantities invoicing policy is chosen, ensure a quantity has been delivered.](../../../../.gitbook/assets/invoicing-policy-error-message.png)
 
 #### NOTE
 Once a quotation is confirmed, and the status changes from Quotation sent to
 Sales order, the delivered and invoiced quantities are available to view, directly
 from the sales order. This is true for both invoicing policy rule options.
 
-![How to see your delivered and invoiced quantities on Odoo Sales.](invoicing_policy/invoicing-policy-order-lines.png)
+![How to see your delivered and invoiced quantities on Odoo Sales.](../../../../.gitbook/assets/invoicing-policy-order-lines.png)
 
 Odoo automatically adds the quantities to the invoice, both Delivered and
 Invoiced, even if it's a partial delivery, when the quotation is confirmed.
@@ -69,4 +69,4 @@ Down payment (percentage) or Down payment (fixed amount).
 
 #### SEE ALSO
 Be sure to check out the documentation explaining down payment options to learn more:
-[Khoản trả trước](down_payment.md)
+[Khoản trả trước](applications/sales/sales/invoicing/down_payment.md)

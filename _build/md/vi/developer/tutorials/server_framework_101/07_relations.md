@@ -1,6 +1,6 @@
 # Chapter 7: Relations Between Models
 
-The [previous chapter](06_basicviews.md) covered the creation of custom
+The [previous chapter](developer/tutorials/server_framework_101/06_basicviews.md) covered the creation of custom
 views for a model containing basic fields. However, in any real business scenario we need more than
 one model. Moreover, links between models are necessary. One can easily imagine one model containing
 the customers and another one containing the list of users. You might need to refer to a customer
@@ -24,10 +24,10 @@ In our real estate module, we want the following information for a property:
 
 - a new `estate.property.type` model should be created with the corresponding menu, action and views.
 
-![Property type](07_relations/property_type.png)
+![Property type](../../../.gitbook/assets/property_type.png)
 - three Many2one fields should be added to the `estate.property` model: property type, buyer and seller.
 
-![Property](07_relations/property_many2one.png)
+![Property](../../../.gitbook/assets/property_many2one.png)
 
 In our real estate module, we want to define the concept of property type. A property type
 is, for example, a house or an apartment. It is a standard business need to categorize
@@ -93,10 +93,10 @@ Now let's have a look at other types of links.
 
 - a new `estate.property.tag` model should be created with the corresponding menu and action.
 
-![Property tag](07_relations/property_tag.png)
+![Property tag](../../../.gitbook/assets/property_tag.png)
 - tags should be added to the `estate.property` model:
 
-![Property](07_relations/property_many2many.png)
+![Property](../../../.gitbook/assets/property_many2many.png)
 
 In our real estate module, we want to define the concept of property tags. A property tag
 is, for example, a property which is 'cozy' or 'renovated'.
@@ -136,7 +136,7 @@ operations like `recs1 | recs2`.
 - a new `estate.property.offer` model should be created with the corresponding form and tree view.
 - offers should be added to the `estate.property` model:
 
-![Property offers](07_relations/property_offer.png)
+![Property offers](../../../.gitbook/assets/property_offer.png)
 
 In our real estate module, we want to define the concept of property offers. A property offer
 is an amount a potential buyer offers to the seller. The offer can be lower or higher than the
@@ -177,4 +177,4 @@ for convenience.
 
 Still alive? This chapter is definitely not the easiest one. It introduced a couple of new concepts
 while relying on everything that was introduced before. The
-[next chapter](08_compute_onchange.md) will be lighter, don't worry ;-)
+[next chapter](developer/tutorials/server_framework_101/08_compute_onchange.md) will be lighter, don't worry ;-)

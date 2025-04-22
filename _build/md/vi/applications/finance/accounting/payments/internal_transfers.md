@@ -4,7 +4,7 @@ Internal money transfers can be handled in Odoo. At least two bank accounts are 
 internal transfers.
 
 #### SEE ALSO
-[How to add an additional bank account](../bank.md)
+[How to add an additional bank account](applications/finance/accounting/bank.md)
 
 ## Cấu hình
 
@@ -27,4 +27,4 @@ destination journal.
 Once this is done, you can book and reconcile your bank statement lines as usual.
 
 #### SEE ALSO
-[Đối chiếu ngân hàng](../bank/reconciliation.md)
+[Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)

@@ -10,7 +10,7 @@ To activate the features, go to Point of Sale ‣ Configuration ‣ Settings,
 select the POS, and activate Early Receipt Printing and Allow Bill Splitting
 in the Restaurant & Bar section.
 
-![activate the bill printing and bill splitting features in the POS settings](bill_printing/settings.png)
+![activate the bill printing and bill splitting features in the POS settings](../../../../.gitbook/assets/settings3.png)
 
 ## In hóa đơn
 
@@ -31,4 +31,4 @@ selected, click Payment and proceed to checkout for these items. Repeat for each
 - The feature is available as soon as at least two items are ordered.
 
 #### SEE ALSO
-- [Floors and tables](floors_tables.md)
+- [Floors and tables](applications/sales/point_of_sale/restaurant/floors_tables.md)

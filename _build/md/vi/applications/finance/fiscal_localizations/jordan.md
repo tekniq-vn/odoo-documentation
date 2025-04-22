@@ -6,14 +6,14 @@
 
 The following modules are installed automatically with the Jordanian localization:
 
-| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                                         |
-|---------------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jordan - Accounting | `l10n_jo`      | Jordanian [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages), complete with<br/>the Jordanian chart of accounts, taxes, tax report, and fiscal positions |
-| Jordan E-Invoicing  | `l10n_jo_edi`  | Integration module for JoFotara to support Jordanian e-invoicing requirements                                                                                                                 |
+| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                                                           |
+|---------------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Jordan - Accounting | `l10n_jo`      | Jordanian [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages), complete with<br/>the Jordanian chart of accounts, taxes, tax report, and fiscal positions |
+| Jordan E-Invoicing  | `l10n_jo_edi`  | Integration module for JoFotara to support Jordanian e-invoicing requirements                                                                                                                                   |
 
 #### NOTE
 In some cases, such as when upgrading to a version with additional modules, it is possible that
-modules may not be installed automatically. Any missing modules can be manually [installed](../../general/apps_modules.md#general-install).
+modules may not be installed automatically. Any missing modules can be manually [installed](applications/general/apps_modules.md#general-install).
 
 <a id="localizations-jordan-specifics"></a>
 
@@ -26,11 +26,11 @@ chart of accounts tailored to Jordan's standards.
 The Jordanian localization package provides the following key features to ensure compliance with
 local fiscal and accounting regulations:
 
-- [Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md): a predefined structure tailored to Jordanian
+- [Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md): a predefined structure tailored to Jordanian
   accounting standards
 - [Thuế](#localizations-jordan-taxes): pre-configured tax rates, including standard VAT, zero-rated,
   and exempt options
-- [Fiscal positions (tax and account mapping)](../accounting/taxes/fiscal_positions.md): automated tax adjustments based on customer or
+- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md): automated tax adjustments based on customer or
   supplier registration status
 - [Tax reporting](#localizations-jordan-tax-reporting): detailed overview of your net tax liability
 - [E-invoicing (JoFotara)](#localizations-jordan-jofotara): integration for electronic invoicing
@@ -40,7 +40,7 @@ local fiscal and accounting regulations:
 
 ### Thuế
 
-The following [taxes](../accounting/taxes.md) are available by default with the Jordanian
+The following [taxes](applications/finance/accounting/taxes.md) are available by default with the Jordanian
 localization package:
 
 - standard sales tax (16%): applied to most goods and services within Jordan.
@@ -52,8 +52,8 @@ localization package:
 
 ### Tax reporting
 
-The [VAT summary](../accounting/reporting/tax_returns.md) provides a detailed breakdown of
-taxable, zero-rated, and exempt transactions. Like other [financial reports](../accounting/reporting.md), the VAT summary can be filtered by period, compared against other
+The [VAT summary](applications/finance/accounting/reporting/tax_returns.md) provides a detailed breakdown of
+taxable, zero-rated, and exempt transactions. Like other [financial reports](applications/finance/accounting/reporting.md), the VAT summary can be filtered by period, compared against other
 periods, and exported in Excel and PDF formats, ensuring compliance with Jordanian tax laws.
 
 <a id="localizations-jordan-jofotara"></a>
@@ -178,7 +178,7 @@ To validate the QR code received from JoFotara on the invoice, follow these step
 
 #### Debit and credit notes
 
-To send a debit or credit note to JoFotara, first create the [debit](../accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-debit-note) or [credit note](../accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-credit-note). In the Print and Send window, click
+To send a debit or credit note to JoFotara, first create the [debit](applications/finance/accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-debit-note) or [credit note](applications/finance/accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-credit-note). In the Print and Send window, click
 Send via JoFotara to submit it for real-time validation. Upon successful validation, the
 QR code from JoFotara is embedded in the debit or credit note PDF.
 
@@ -201,4 +201,4 @@ Attempting to submit invoices to JoFotara with negative invoice lines will resul
 errors.
 
 #### SEE ALSO
-[Discount types](../../sales/sales/products_prices/prices/pricing.md#sales-pricing-discount-button)
+[Discount types](applications/sales/sales/products_prices/prices/pricing.md#sales-pricing-discount-button)

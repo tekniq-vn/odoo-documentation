@@ -22,7 +22,7 @@ possibilities.
 
 ## Configuration on Odoo
 
-1. [Navigate to the payment provider Buckaroo](../payment_providers.md#payment-providers-add-new) and change its state
+1. [Navigate to the payment provider Buckaroo](applications/finance/payment_providers.md#payment-providers-add-new) and change its state
    to Enabled.
 2. In the Credentials tab, fill the Website Key and Secret Key
    fields with the values you saved at the step
@@ -30,4 +30,4 @@ possibilities.
 3. Configure the options in the other tabs to your liking.
 
 #### SEE ALSO
-[Thanh toán online](../payment_providers.md)
+[Thanh toán online](applications/finance/payment_providers.md)

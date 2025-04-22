@@ -2,13 +2,13 @@
 
 DHL is one of the shipping carriers for which a *shipping connector* is available in Odoo's
 **Inventory** app. By enabling the shipping connector in the app's settings, and configuring at
-least one *shipping method*, the process of [calculating shipping rates](../setup_configuration.md) and [generating shipping labels](labels.md) is greatly simplified.
+least one *shipping method*, the process of [calculating shipping rates](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md) and [generating shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md) is greatly simplified.
 
 #### NOTE
 While a variety of shipping connectors are available for different carriers, this documentation
 details the configuration settings specific to integrating DHL. For instructions on configuring
 the integration settings common to all shippers, see the documentation on [third-party
-shippers](third_party_shipper.md).
+shippers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md).
 
 ## Enable DHL shipping connector
 
@@ -38,7 +38,7 @@ Inventory app ‣ Configuration ‣ Shipping Methods.
 Click New to open a blank shipping method form. If a shipping method has already been
 created, it can be selected from this screen.
 
-![The form for a DHL shipping method.](dhl_credentials/dhl-form.png)
+![The form for a DHL shipping method.](../../../../../.gitbook/assets/dhl-form.png)
 
 ### General information
 
@@ -49,7 +49,7 @@ In the Provider drop-down menu, select the DHL option. After doing so, a new
 DHL Configuration tab appears at the bottom of the form.
 
 All other fields in this section are identical on the shipping method forms for each shipping
-carrier. See the documentation on [third-party shippers](third_party_shipper.md) for instructions
+carrier. See the documentation on [third-party shippers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md) for instructions
 on how to properly configure them.
 
 ### Cấu hình DHL

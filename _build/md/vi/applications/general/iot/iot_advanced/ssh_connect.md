@@ -1,8 +1,8 @@
 # IoT box SSH connection
 
 #### NOTE
-SSH connections are only available for [IoT boxes](../iot_box.md), not the [Windows
-virtual IoT](../windows_iot.md).
+SSH connections are only available for [IoT boxes](applications/general/iot/iot_box.md), not the [Windows
+virtual IoT](applications/general/iot/windows_iot.md).
 
 #### WARNING
 - This feature should **only** be used with trusted parties, as it provides administrative
@@ -20,11 +20,11 @@ password:
    Debug.
 3. In the Remote Debugging popup that opens, click Generate and save the
    password securely. Once you close the popup, the password will no longer be available.
-   ![The Remote Debugging password generation window.](ssh_connect/ssh-generate-password.png)
+   ![The Remote Debugging password generation window.](../../../../.gitbook/assets/ssh-generate-password.png)
 4. Enter the Authentication Token provided by the user attempting to connect to the IoT
    box.
 5. Click Enable Remote Debugging.
 
 #### SEE ALSO
-- [Hộp IoT](../iot_box.md)
-- [IoT system connection to Odoo](../connect.md)
+- [Hộp IoT](applications/general/iot/iot_box.md)
+- [IoT system connection to Odoo](applications/general/iot/connect.md)

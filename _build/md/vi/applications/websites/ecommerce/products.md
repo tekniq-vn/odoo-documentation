@@ -26,9 +26,9 @@ page. When you Save, the product page is automatically published.
 
 ### Nhập sản phẩm
 
-To [import product data](../../essentials/export_import_data.md#import-data) using XLSX or CSV files, go to
+To [import product data](applications/essentials/export_import_data.md#import-data) using XLSX or CSV files, go to
 Website ‣ eCommerce ‣ Products, click the <i class="fa fa-cog"></i> (gear)
-icon, then [Import records](../../essentials/export_import_data.md#import-data).
+icon, then [Import records](applications/essentials/export_import_data.md#import-data).
 
 <a id="ecommerce-products-shop-page"></a>
 
@@ -36,7 +36,7 @@ icon, then [Import records](../../essentials/export_import_data.md#import-data).
 
 To customize the layout of the main Shop page or modify its content, click
 Edit. Go to the Blocks tab to add
-[building blocks](../website/web_design/building_blocks.md) or to the
+[building blocks](applications/websites/website/web_design/building_blocks.md) or to the
 Customize tab to change the page layout or add features:
 
 - Layout: Select Grid or List.
@@ -56,7 +56,7 @@ Customize tab to change the page layout or add features:
   Collapse Categories to make the category menu collapsible.
 - Datepicker: Toggle the switch to display a date range calendar to check the
   availability of rental products over a specific period. The
-  [Rental app](../../sales/rental.md) must be installed to use this feature.
+  [Rental app](applications/sales/rental.md) must be installed to use this feature.
 - Attributes: Show product attributes on the Left and/or display a
   <i class="fa fa-sliders"></i> (dropdown toggle) icon at the Top allowing customers to
   filter products based on their attributes.
@@ -102,12 +102,12 @@ by adding [variants](#ecommerce-products-product-variants), [digital documents](
 ### Tuỳ chỉnh
 
 To customize a product page, click Edit. Go to the Blocks tab to add
-[building blocks](../website/web_design/building_blocks.md).
+[building blocks](applications/websites/website/web_design/building_blocks.md).
 
 Go to the Customize tab to modify the page layout or add features:
 
 - Terms and Conditions: Toggle the switch to display a link to your
-  [terms and conditions](../../finance/accounting/customer_invoices/terms_conditions.md) on the
+  [terms and conditions](applications/finance/accounting/customer_invoices/terms_conditions.md) on the
   product page.
 - Khách hàng:
   > - Đánh giá: Cho phép người dùng cổng thông tin đã đăng nhập gửi đánh giá sản phẩm bằng cách nhấp vào số sao bên dưới tên sản phẩm và chia sẻ trải nghiệm của họ trong phần Nhận xét của khách hàng ở cuối trang. Các nhận xét có thể được xem từ trang sản phẩm bằng cách sử dụng biểu tượng :icon:fa-plus (:guilabel:dấu cộng) bên cạnh tiêu đề Nhận xét của khách hàng hoặc từ cửa sổ trò chuyện trên biểu mẫu sản phẩm. Để giới hạn quyền hiển thị chỉ cho nhân viên nội bộ, hãy tắt công tắc Công khai bên cạnh nhận xét đánh giá.
@@ -116,7 +116,7 @@ Go to the Customize tab to modify the page layout or add features:
 - Select Quantity: Toggle the switch to allow customers to select the product quantity
   they want to purchase.
 - Tax indication: Toggle the switch to indicate if the price is
-  [VAT included or excluded](products/price_management.md#ecommerce-price-management-tax-display).
+  [VAT included or excluded](applications/websites/ecommerce/products/price_management.md#ecommerce-price-management-tax-display).
 - Variants: Show all possible product [variants](#ecommerce-products-product-variants)
   vertically as a Products List or horizontally as selectable Options to
   compose the variant yourself.
@@ -169,7 +169,7 @@ Images must be in PNG or JPG format and with a minimum size of 1024x1024 to trig
 
 ## Biến thể sản phẩm
 
-[Product variants](../../sales/sales/products_prices/products/variants.md) are different versions
+[Product variants](applications/sales/sales/products_prices/products/variants.md) are different versions
 of the same product, such as various colors or materials, with potential differences in price and
 availability.
 
@@ -191,7 +191,7 @@ Visible or Hidden in the eCommerce Filter Visibility field.
 Two attribute values are needed to make the filter visible.
 
 #### SEE ALSO
-[Product variants](../../sales/sales/products_prices/products/variants.md)
+[Product variants](applications/sales/sales/products_prices/products/variants.md)
 
 <a id="ecommerce-products-digital-files"></a>
 
@@ -212,7 +212,7 @@ directly, or for additional options, click New, then Upload your file.
 To make the file available on the product page (before payment), leave the Visibility
 field blank and toggle the Show on product page switch.
 
-![digital file available before payment on the  product page](products/digital-files.png)
+![digital file available before payment on the  product page](../../../.gitbook/assets/digital-files.png)
 
 <a id="ecommerce-products-digital-files-after-payment"></a>
 
@@ -237,8 +237,8 @@ The eCommerce-related fields to translate are:
 
 #### NOTE
 - Having untranslated content on a web page may be detrimental to the user experience and
-  [SEO](../website/pages/seo.md). You can use the
-  [Translate](../website/configuration/translate.md) feature to translate the page's content.
+  [SEO](applications/websites/website/pages/seo.md). You can use the
+  [Translate](applications/websites/website/configuration/translate.md) feature to translate the page's content.
 - To check the language(s) of your website, go to Website ‣ Configuration ‣
   Settings and go to the Website Info section.
 
@@ -271,7 +271,7 @@ Inventory Defaults sub-section.
 
 In the Inventory Defaults sub-section, fill in those fields:
 
-- [Kho hàng](../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md).
+- [Kho hàng](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md).
 - Out-of-Stock: Enable Continue Selling to allow customers to place orders
   even when the product is **out of stock**. Leave the box unchecked to **prevent orders**.
 - Show Available Qty: Displays the available quantity left under a specified threshold
@@ -288,7 +288,7 @@ Shop - Products section, and enable Product Comparison Tool.
 
 Biểu tượng <i class="fa fa-exchange"></i> (So sánh) hiện có sẵn trên mỗi thẻ sản phẩm ở trang cửa hàng chính khi khách hàng di chuột qua. Để so sánh sản phẩm, khách hàng có thể nhấp vào tùy chọn <i class="fa fa-exchange"></i> (So sánh) trên các sản phẩm muốn so sánh, sau đó nhấp <i class="fa fa-exchange"></i> So sánh trong cửa sổ bật lên ở cuối trang để xem bảng tóm tắt so sánh.
 
-![Product comparison window](products/products-compare.png)
+![Product comparison window](../../../.gitbook/assets/products-compare.png)
 
 #### NOTE
 - The Product Comparison Tool is only available for products with
@@ -296,6 +296,6 @@ Biểu tượng <i class="fa fa-exchange"></i> (So sánh) hiện có sẵn trên
 - Selecting the <i class="fa fa-exchange"></i> (Compare) option from a product page is also
   possible.
 
-* [Danh mục](products/catalog.md)
-* [Quản lý giá](products/price_management.md)
-* [Cross-selling and upselling](products/cross_upselling.md)
+* [Danh mục](applications/websites/ecommerce/products/catalog.md)
+* [Quản lý giá](applications/websites/ecommerce/products/price_management.md)
+* [Cross-selling and upselling](applications/websites/ecommerce/products/cross_upselling.md)

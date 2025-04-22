@@ -43,24 +43,24 @@ products or processes are *Helpdesk* and *Quality*.
 
 The *Helpdesk* app is useful for receiving feedback from outside of the organization, like from
 clients or customers. This is accomplished by implementing one (or more) of the methods for
-[receiving tickets](../../../services/helpdesk/overview/receiving_tickets.md), including email
+[receiving tickets](applications/services/helpdesk/overview/receiving_tickets.md), including email
 aliases, live chat conversations, and website forms.
 
 Using these methods, customers can submit feedback about problems, which is then reviewed by a
-member of a [helpdesk team](../../../services/helpdesk.md). Depending on the outcome of the
+member of a [helpdesk team](applications/services/helpdesk.md). Depending on the outcome of the
 review, the team member may decide to take further action to ensure the issue is addressed. This can
-include creating a [quality alert](../../quality/quality_management/quality_alerts.md).
+include creating a [quality alert](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md).
 
 ### Chất lượng
 
 The *Quality* app is useful for receiving feedback from *within* the organization, like from
 employees.
 
-One method for accomplishing this is to set up a [quality control point](../../quality/quality_management/quality_control_points.md) (QCP). A  is used to automatically
+One method for accomplishing this is to set up a [quality control point](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md) (QCP). A  is used to automatically
 create quality checks at regular intervals, prompting employees to inspect, and confirm, the quality
 of a product.
 
-Khi phát hiện vấn đề, nhân viên có thể tạo [cảnh báo chất lượng](../../quality/quality_management/quality_alerts.md) để thông báo cho bộ phận quản lý chất lượng. Cảnh báo chất lượng cũng có thể được tạo độc lập với  khi nhân viên phát hiện vấn đề mà không cần được yêu cầu kiểm tra trước. Đây là cách hiệu quả để nhân viên hỗ trợ khách hàng thông báo cho bộ phận chất lượng về các vấn đề được đề cập trong phiếu hỗ trợ khách hàng.
+Khi phát hiện vấn đề, nhân viên có thể tạo [cảnh báo chất lượng](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md) để thông báo cho bộ phận quản lý chất lượng. Cảnh báo chất lượng cũng có thể được tạo độc lập với  khi nhân viên phát hiện vấn đề mà không cần được yêu cầu kiểm tra trước. Đây là cách hiệu quả để nhân viên hỗ trợ khách hàng thông báo cho bộ phận chất lượng về các vấn đề được đề cập trong phiếu hỗ trợ khách hàng.
 
 <a id="manufacturing-workflows-ci-suggest"></a>
 
@@ -72,7 +72,7 @@ addition, the *PLM* (*Product Lifecycle Management*) app can be used for this pu
 
 ### Chất lượng
 
-When creating a [quality alert](../../quality/quality_management/quality_alerts.md) to bring an
+When creating a [quality alert](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md) to bring an
 issue to the attention of a quality team, the Corrective Actions and
 Preventive Actions tabs can be used to provide feedback about how the issue can be
 addressed.
@@ -92,7 +92,7 @@ when deciding how to address the issue.
 The  app is used to manage the lifecycle of a product from its introduction through each
 successive version. As such, it is useful for testing ideas for product improvements.
 
-Using [engineering change orders](../../plm/manage_changes/engineering_change_orders.md), product
+Using [engineering change orders](applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.md), product
 management teams can create new iterations of product , adding or removing specific components
 or operations, as needed. The products created using these  are put through a review process
 to confirm the effectiveness of the changes.
@@ -110,10 +110,10 @@ products that have already been sold to customers.
 
 Once  changes have gone through the proper review process, they can be approved, and the
 updated  put into use. This is accomplished by configuring one of the  review stages to
-[apply the changes](../../plm/manage_changes/engineering_change_orders.md#plm-eco-apply-changes) made to the , at which point the updated 
+[apply the changes](applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.md#plm-eco-apply-changes) made to the , at which point the updated 
 becomes available for new .
 
-Product  can continue to be updated, as needed. The [version control](../../plm/manage_changes/version_control.md) features of the  app allow for easy management of
+Product  can continue to be updated, as needed. The [version control](applications/inventory_and_mrp/plm/manage_changes/version_control.md) features of the  app allow for easy management of
 all versions of a given .
 
 ### Dịch vụ hiện trường
@@ -122,7 +122,7 @@ The  app is a great way to make changes to product . However, these changes only
 products produced using the new . If a defective product has already been sold to a customer,
 it may be necessary to repair (or update) that product.
 
-In such a case, the *Field Service* app can be used to schedule [onsite interventions](../../../services/field_service/creating_tasks.md). These interventions allow service
+In such a case, the *Field Service* app can be used to schedule [onsite interventions](applications/services/field_service/creating_tasks.md). These interventions allow service
 technicians (or other employees) to be sent to a customer's location to address an issue with a
 product.
 
@@ -144,6 +144,6 @@ After implementing changes to a product or process, it may be wise to solicit cu
 feedback directly, rather than waiting to hear from them of their own volition. This may bring to
 light feedback that customers may have otherwise neglected to share.
 
-One of the best ways to accomplish this is through the [Surveys](../../../marketing/surveys.md)
+One of the best ways to accomplish this is through the [Surveys](applications/marketing/surveys.md)
 app. Creating a survey, and sending it to customers who receive an updated product, increases the
 likelihood of receiving relevant feedback about the product.

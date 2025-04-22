@@ -78,7 +78,7 @@ or are reserved for a different order.
 Equipment failure signifies any period of time when a work center is unusable due to maintenance
 issues with its equipment. This can be due to equipment breaking down, or when a work center is shut
 down for scheduled maintenance. In these cases, a work center can be blocked using a
-[maintenance request](../../maintenance/maintenance_requests.md).
+[maintenance request](applications/inventory_and_mrp/maintenance/maintenance_requests.md).
 
 ## reporting
 
@@ -99,4 +99,4 @@ It is also possible to see  data in a pivot view, or a list displaying each time
 clicking the <i class="oi oi-view-pivot"></i> (pivot view) or <i class="oi oi-view-list"></i> (list
 view) buttons at the top-right corner of the page.
 
-![The dashboard of the OEE report.](oee/oee-report.png)
+![The dashboard of the OEE report.](../../../../.gitbook/assets/oee-report.png)

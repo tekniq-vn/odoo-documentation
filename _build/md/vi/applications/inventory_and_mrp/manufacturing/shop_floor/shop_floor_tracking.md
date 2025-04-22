@@ -16,7 +16,7 @@ All active operators are listed in the operator panel on the left side of the mo
 be opened or collapsed by clicking the show/hide panel (white square with black column on
 left side) button, located in the top-left corner of the module.
 
-![The operator panel in the Shop Floor module, with the show/hide panel button above it.](shop_floor_tracking/operator-panel.png)
+![The operator panel in the Shop Floor module, with the show/hide panel button above it.](../../../../.gitbook/assets/operator-panel1.png)
 
 To sign in to *Shop Floor* as a different employee, click the + Add Operator button at
 the bottom of the panel. Doing so opens the Select Employee pop-up window, which lists
@@ -29,7 +29,7 @@ If a PIN code is required, a Password? pop-up window appears, showing a number p
 which the code can be entered. Enter the code using the number pad, and click Confirm to
 sign in to the *Shop Floor* module.
 
-![The "Password?" pop-up window, which is used to enter an operator PIN code.](shop_floor_tracking/pin-code.png)
+![The "Password?" pop-up window, which is used to enter an operator PIN code.](../../../../.gitbook/assets/pin-code.png)
 
 #### NOTE
 A PIN code can be set for each employee, which must be entered each time they sign in to the
@@ -59,7 +59,7 @@ Tiếp theo, đi đến trang của khu vực sản xuất nơi công đoạn đ
 
 Trên trang của khu vực sản xuất, tìm thẻ cho công đoạn. Khi công việc bắt đầu, hãy nhấp vào header của thẻ công đoạn để bắt đầu tính thời gian hoàn thành. Thời lượng này được hiển thị bằng một bộ đếm giờ trên header của thẻ công đoạn, theo dõi tổng thời gian làm việc trên công đoạn đó theo tất cả nhân viên.
 
-![A work order card with an active timer.](shop_floor_tracking/work-order-timer.png)
+![A work order card with an active timer.](../../../../.gitbook/assets/work-order-timer.png)
 
 Ngoài ra, số tham chiếu của công đoạn sẽ hiển thị trong bảng điều khiển của nhân viên vận hành, ngay bên dưới tên của nhân viên đang thực hiện công đoạn đó, cùng với một đồng hồ tính giờ thứ hai — dùng để theo dõi thời gian mà nhân viên đã dành riêng cho công đoạn này. Đồng hồ tính giờ này chỉ phản ánh thời gian làm việc trong phiên hiện tại, ngay cả khi nhân viên đó đã từng làm việc trên công đoạn này trước đó.
 
@@ -67,7 +67,7 @@ Employees are able to work on multiple work orders simultaneously, and track the
 The reference number for each work order being worked on appears below the employee's name, along
 with a timer.
 
-![An employee card in the operator panel, showing two work order timers.](shop_floor_tracking/employee-timer.png)
+![An employee card in the operator panel, showing two work order timers.](../../../../.gitbook/assets/employee-timer.png)
 
 To pause the timer on the work order card, and remove the work order from below the employee's name
 on the operator panel, click the header a second time.

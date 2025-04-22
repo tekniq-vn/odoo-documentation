@@ -12,10 +12,10 @@ have the charges applied directly to a Bpost business account, and automatically
 tracking labels through Odoo.
 
 #### SEE ALSO
-- [Third-party shipping carriers](third_party_shipper.md)
-- [Delivery methods](../setup_configuration.md)
-- [Tích hợp DHL](dhl_credentials.md)
-- [Tích hợp UPS](ups_credentials.md)
+- [Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
+- [Delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
+- [Tích hợp DHL](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.md)
+- [Tích hợp UPS](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.md)
 
 ## Account setup
 
@@ -38,7 +38,7 @@ On the Shipping Manager page, go to the Admin tab, then the
 General Settings tab, to find the Account ID and Passphrase
 needed to configure Odoo's shipping method.
 
-![In the *Admin* tab, show the Account ID and Passphrase.](bpost/credentials.png)
+![In the *Admin* tab, show the Account ID and Passphrase.](../../../../../.gitbook/assets/credentials.png)
 
 <a id="inventory-shipping-receiving-bpost-method"></a>
 
@@ -54,10 +54,10 @@ reveals the Bpost Configuration tab at the bottom of the form, where the Bpost
 credentials can be entered.
 
 For details on configuring the other fields on the shipping method, such as Delivery
-Product, refer to the [Configure third-party carrier](third_party_shipper.md) documentation.
+Product, refer to the [Configure third-party carrier](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md) documentation.
 
 #### NOTE
-To generate Bpost [shipping labels](labels.md) through Odoo, ensure the Integration
+To generate Bpost [shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md) through Odoo, ensure the Integration
 Level option is set to Get Rate and Create Shipment.
 
 In the Bpost Configuration tab, complete the following fields:
@@ -93,4 +93,4 @@ For domestic deliveries, these features are available in the Options section:
 - Enable the Generate Return Label feature to automatically print a return label upon
   validating the delivery order.
 
-![Show Bpost shipping method.](bpost/bpost.png)
+![Show Bpost shipping method.](../../../../../.gitbook/assets/bpost.png)

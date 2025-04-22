@@ -17,7 +17,7 @@ should not be viewed as guarantees.
 
 ## Cấu hình
 
-When using the [basic subcontracting](subcontracting_basic.md) workflow to manufacture a product,
+When using the [basic subcontracting](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.md) workflow to manufacture a product,
 a company is not responsible for supplying the subcontractor with the necessary components. This
 means that the only factors affecting the delivery date of a product are the amount of time it takes
 the subcontractor to manufacture and deliver it.
@@ -38,7 +38,7 @@ subcontractor in the Vendor column.
 Once the subcontractor has been added, enter the number of days it takes them to manufacture and
 deliver the product, in the Delivery Lead Time column.
 
-![The Delivery Lead Time field for a subcontractor, on the Purchase tab of a product page.](basic_subcontracting_lead_times/delivery-lead-time.png)
+![The Delivery Lead Time field for a subcontractor, on the Purchase tab of a product page.](../../../../.gitbook/assets/delivery-lead-time.png)
 
 #### NOTE
 Multiple subcontractors can be added to the Purchase tab on a product's page, and a

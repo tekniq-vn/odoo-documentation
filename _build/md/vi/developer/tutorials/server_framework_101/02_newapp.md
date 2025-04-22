@@ -13,18 +13,18 @@ to answer the specific business case.
 
 Here is an overview of the main list view containing some advertisements:
 
-![List view 01](02_newapp/overview_list_view_01.png)
+![List view 01](../../../.gitbook/assets/overview_list_view_01.png)
 
 The top area of the form view summarizes important information for the property, such as the name,
 the property type, the postcode and so on. The first tab contains information describing the
 property: bedrooms, living area, garage, garden...
 
-![Form view 01](02_newapp/overview_form_view_01.png)
+![Form view 01](../../../.gitbook/assets/overview_form_view_01.png)
 
 The second tab lists the offers for the property. We can see here that potential buyers can make
 offers above or below the expected selling price. It is up to the seller to accept an offer.
 
-![Form view 02](02_newapp/overview_form_view_02.png)
+![Form view 02](../../../.gitbook/assets/overview_form_view_02.png)
 
 Here is a quick video showing the workflow of the module.
 
@@ -33,13 +33,13 @@ Hopefully, this video will be recorded soon :-)
 ## Prepare the addon directory
 
 **Reference**: the documentation related to this topic can be found in
-[manifest](../../reference/backend/module.md#reference-module-manifest).
+[manifest](developer/reference/backend/module.md#reference-module-manifest).
 
 #### NOTE
 **Goal**: the goal of this section is to have Odoo recognize our new module, which will
 be an empty shell for now. It will be listed in the Apps:
 
-![The new module appears in the list](02_newapp/app_in_list.png)
+![The new module appears in the list](../../../.gitbook/assets/app_in_list.png)
 
 The first step of module creation is to create its directory. In the `tutorials`
 directory, add a new directory `estate`.
@@ -62,9 +62,9 @@ Restart the Odoo server and go to Apps. Click on Update Apps List, search for `e
 tadaaa, your module appears! Did it not appear? Maybe try removing the default 'Apps' filter ;-)
 
 #### WARNING
-Remember to enable the [developer mode](../../../applications/general/developer_mode.md#developer-mode) as explained in the previous
+Remember to enable the [developer mode](applications/general/developer_mode.md#developer-mode) as explained in the previous
 chapter. You won't see the Update Apps List button otherwise.
 
 You can even install the module! But obviously it's an empty shell, so no menu will appear.
 
-All good? If yes, then let's [create our first model](03_basicmodel.md)!
+All good? If yes, then let's [create our first model](developer/tutorials/server_framework_101/03_basicmodel.md)!

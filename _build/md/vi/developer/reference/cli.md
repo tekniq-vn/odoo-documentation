@@ -9,8 +9,8 @@ environment](#reference-cmdline-shell), [scaffold an Odoo module](#reference-cmd
 
 #### IMPORTANT
 The command to use to call the CLI depends on how you installed Odoo. In the examples below, we
-assume that you are [running Odoo from source](../../administration/on_premise/source.md) with the
-`odoo-bin` file. If you installed Odoo [from a distribution package](../../administration/on_premise/packages.md) or with [Docker](https://hub.docker.com/_/odoo/), you
+assume that you are [running Odoo from source](administration/on_premise/source.md) with the
+`odoo-bin` file. If you installed Odoo [from a distribution package](administration/on_premise/packages.md) or with [Docker](https://hub.docker.com/_/odoo/), you
 must adapt the command.
 
 Run Odoo from source
@@ -151,7 +151,7 @@ Example: `--test-tags :TestClass.test_func,/test_module,external`
 
 * The `-` specifies if we want to include or exclude tests matching this spec.
 * The tag will match tags added on a class with a `tagged()` decorator
-  (all [test classes](backend/testing.md#reference-testing) have `standard` and `at_install` tags
+  (all [test classes](developer/reference/backend/testing.md#reference-testing) have `standard` and `at_install` tags
   until explicitly removed, see the decorator documentation).
 * `*` will match all tags.
 * If tag is omitted on include mode, its value is `standard`.
@@ -387,7 +387,7 @@ Possible features are:
 
 ### --no-http
 
-do not start the HTTP or long-polling workers (may still start [cron](backend/actions.md#reference-actions-cron)
+do not start the HTTP or long-polling workers (may still start [cron](developer/reference/backend/actions.md#reference-actions-cron)
 workers)
 
 #### WARNING
@@ -427,7 +427,7 @@ in case there are other trusted proxies along the chain that must be ignored.
 request root URL, which in turn is used to update the `web.base.url`
 system parameter upon a successful admin authentication. This system
 parameter is used to generate all links for the current database; see
-[Web base URL of a database](../../applications/websites/website/configuration/domain_names.md#domain-name-web-base-url).
+[Web base URL of a database](applications/websites/website/configuration/domain_names.md#domain-name-web-base-url).
 
 #### WARNING
 proxy mode *must not* be enabled outside of a reverse proxy
@@ -437,7 +437,7 @@ scenario
 
 delegates serving attachments files to the static web server and sets both
 `X-Sendfile` (apache) and `X-Accel-*` (nginx) http headers on stream
-responses. See [Phục vụ tệp tĩnh và tệp đính kèm](../../administration/on_premise/deploy.md#deploy-streaming) for web server configuration.
+responses. See [Phục vụ tệp tĩnh và tệp đính kèm](administration/on_premise/deploy.md#deploy-streaming) for web server configuration.
 
 <a id="reference-cmdline-server-logging"></a>
 
@@ -578,14 +578,14 @@ Defaults to *120*.
 
 ### --max-cron-threads <count>
 
-number of workers dedicated to [cron](backend/actions.md#reference-actions-cron) jobs. Defaults to *2*.
+number of workers dedicated to [cron](developer/reference/backend/actions.md#reference-actions-cron) jobs. Defaults to *2*.
 The workers are threads in multi-threading mode and processes in multi-processing mode.
 
 For multi-processing mode, this is in addition to the HTTP worker processes.
 
 ### --limit-time-worker-cron <limit>
 
-Soft limit on how long a [cron](backend/actions.md#reference-actions-cron) thread/worker is
+Soft limit on how long a [cron](developer/reference/backend/actions.md#reference-actions-cron) thread/worker is
 allowed to live before is is restarted, in seconds.
 
 Set to 0 to disable.
@@ -634,7 +634,7 @@ dbfilter=odoo
 ## Shell
 
 The Odoo command line also allows launching Odoo as a Python console environment, enabling direct
-interaction with the [orm](backend/orm.md#reference-orm) and its functionalities.
+interaction with the [orm](developer/reference/backend/orm.md#reference-orm) and its functionalities.
 
 ```console
 $ odoo-bin shell
@@ -646,7 +646,7 @@ Specify a preferred REPL to use in shell mode. This shell is started with the `e
 already initialized to be able to access the ORM and other Odoo modules.
 
 #### SEE ALSO
-[Environment](backend/orm.md#reference-orm-environment)
+[Environment](developer/reference/backend/orm.md#reference-orm-environment)
 
 <a id="reference-cmdline-scaffold"></a>
 
@@ -668,7 +668,7 @@ Specify the database name that you would like to neutralize.
 Output the neutralization SQL instead of applying it
 
 #### SEE ALSO
-[Cơ sở dữ liệu bị vô hiệu hoá một phần](../../administration/neutralized_database.md)
+[Cơ sở dữ liệu bị vô hiệu hoá một phần](administration/neutralized_database.md)
 
 ## Scaffolding
 
@@ -705,7 +705,7 @@ This will create module *my_module* in directory  */addons/*.
 ## Database Population
 
 Odoo CLI supports database population features. If the feature is
-[implemented on a given model](backend/performance.md#reference-performance-populate-methods), it allows automatic
+[implemented on a given model](developer/reference/backend/performance.md#reference-performance-populate-methods), it allows automatic
 data generation of the model's records to test your modules in databases containing non-trivial
 amounts of records.
 
@@ -724,7 +724,7 @@ The generated records content is specified by the `_populate_factories()` method
 of a given model (cf. the `populate` folder of modules for further details).
 
 #### SEE ALSO
-[Database population](backend/performance.md#reference-performance-populate)
+[Database population](developer/reference/backend/performance.md#reference-performance-populate)
 
 <a id="reference-cmdline-cloc"></a>
 

@@ -2,3 +2,6 @@
 	path = odoo-docs
 	url = https://github.com/odoo/documentation.git
 	branch = 17.0
+[submodule "sphinx-markdown-builder"]
+	path = sphinx-markdown-builder
+	url = https://github.com/tekniq-vn/sphinx-markdown-builder.git

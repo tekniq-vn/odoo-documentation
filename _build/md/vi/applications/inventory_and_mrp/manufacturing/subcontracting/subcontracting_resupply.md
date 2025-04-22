@@ -26,7 +26,7 @@ directly to the subcontractor.
 The choice of which route to use depends upon the specific requirements of the subcontracting
 company and their subcontractors.
 
-See the [Dropship to subcontractor](subcontracting_dropship.md) documentation for a full overview of the *Dropship
+See the [Dropship to subcontractor](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.md) documentation for a full overview of the *Dropship
 Subcontractor on Order* route.
 
 ## Cấu hình
@@ -79,12 +79,12 @@ Alternatively, navigate to Manufacturing app ‣ Products ‣ Bills of Materials
 and select the  for the subcontracted product.
 
 #### SEE ALSO
-For a full overview of  configuration, see the [Bill of materials](../basic_setup/bill_configuration.md) documentation.
+For a full overview of  configuration, see the [Bill of materials](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md) documentation.
 
 In the BoM Type field, select the Subcontracting option. Then, add one or
 more subcontractors in the Subcontractors field that appears below.
 
-![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](subcontracting_resupply/bom-type.png)
+![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](../../../../.gitbook/assets/bom-type2.png)
 
 Finally, make sure that all necessary components are specified on the Components tab. To
 add a new component, click Add a line, select the component in the Component
@@ -198,7 +198,7 @@ subcontractor. This order can also be accessed from the , by clicking the Resupp
 smart button at the top of the page.
 
 ![A PO for a *Resupply Subcontractor on Order* product, with Resupply and Receipt smart
-buttons at the top of the page.](subcontracting_resupply/subcontractor-po.png)
+buttons at the top of the page.](../../../../.gitbook/assets/subcontractor-po2.png)
 
 ### Process Resupply Subcontractor order
 

@@ -12,7 +12,7 @@ This feature is only available for companies in several European countries such 
 Belgium, Finland, Germany, and the Netherlands.
 
 #### SEE ALSO
-- [Bank and cash accounts](../bank.md)
+- [Bank and cash accounts](applications/finance/accounting/bank.md)
 - [Odoo Academy: QR Code on Invoices for European Customers](https://www.odoo.com/r/VuU)
 
 ## Cấu hình
@@ -28,7 +28,7 @@ To do so, go to Accounting ‣ Configuration ‣ Journals, open your bank journa
 then fill out the Account Number and Bank under the Bank Account
 Number column.
 
-![Bank account number column in the bank journal](epc_qr_code/bank-journal.png)
+![Bank account number column in the bank journal](../../../../.gitbook/assets/bank-journal.png)
 
 ## Issue invoices with EPC QR codes
 
@@ -47,4 +47,4 @@ IBAN by default and uses it to generate the EPC QR code.
 
 When the invoice is printed or previewed, the QR code is included at the bottom.
 
-![QR code on a customer invoice](epc_qr_code/invoice-qr-code.png)
+![QR code on a customer invoice](../../../../.gitbook/assets/invoice-qr-code.png)

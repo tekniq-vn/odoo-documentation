@@ -36,7 +36,7 @@ note_id = sock.execute(DB, uid, PASS, 'note.note', 'create', args)
 ```
 
 #### SEE ALSO
-- [External API](../reference/external_api.md): The in-depth tutorial on XML-RPC, with examples spanning multiple programming languages.
+- [External API](developer/reference/external_api.md): The in-depth tutorial on XML-RPC, with examples spanning multiple programming languages.
 
 ## JSON-RPC Library
 

@@ -13,7 +13,7 @@ the payment is made in cash.
 Go to Accounting ‣ Configuration ‣ Settings
 and enable *Cash Rounding*, then click on *Save*.
 
-![image](cash_rounding/cash_rounding01.png)
+![image](../../../../.gitbook/assets/cash_rounding01.png)
 
 Go to Accounting ‣ Configuration ‣ Cash Roundings,
 and click on *Create*.

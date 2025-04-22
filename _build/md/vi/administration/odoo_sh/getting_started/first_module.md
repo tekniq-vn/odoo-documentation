@@ -4,7 +4,7 @@
 
 Chương này giúp bạn tạo phân hệ Odoo đầu tiên và triển khai phân hệ đó trong dự án Odoo.sh của bạn.
 
-Hướng dẫn này yêu cầu [bạn tạo một dự án trên Odoo.sh](create.md#odoosh-gettingstarted-create) và biết URL kho lưu trữ Github của mình.
+Hướng dẫn này yêu cầu [bạn tạo một dự án trên Odoo.sh](administration/odoo_sh/getting_started/create.md#odoosh-gettingstarted-create) và biết URL kho lưu trữ Github của mình.
 
 Giải thích cách sử dụng cơ bản của Git và Github.
 
@@ -29,11 +29,11 @@ Trong chế độ xem nhánh:
 * chọn nhánh *master* trong tuỳ chọn *Sao chép*,
 * nhập *feature-1* vào mục *Thành*.
 
-  ![pic1](first_module/firstmodule-development-+.png)  ![pic2](first_module/firstmodule-development-fork.png)
+  ![pic1](../../../.gitbook/assets/firstmodule-development-+.png)  ![pic2](../../../.gitbook/assets/firstmodule-development-fork.png)
 
 Sau khi bản dựng được tạo, bạn có thể truy cập trình soạn thảo và đi đến thư mục  *~/src/user* để truy cập vào mã nhánh phát triển của bạn.
 
-![image](first_module/firstmodule-development-editor.png)![image](first_module/firstmodule-development-editor-interface.png)
+![image](../../../.gitbook/assets/firstmodule-development-editor.png)![image](../../../.gitbook/assets/firstmodule-development-editor-interface.png)
 
 ### Từ máy tính của bạn
 
@@ -64,7 +64,7 @@ Từ trình soạn thảo Odoo.sh, trong terminal:
 $ odoo-bin scaffold my_module ~/src/user/
 ```
 
-Hoặc từ máy tính của bạn, nếu bạn có một [bản cài đặt Odoo](../../on_premise/source.md):
+Hoặc từ máy tính của bạn, nếu bạn có một [bản cài đặt Odoo](administration/on_premise/source.md):
 
 ```bash
 $ ./odoo-bin scaffold my_module ~/src/odoo-addons/
@@ -110,7 +110,7 @@ Bỏ chú thích nội dung của các tệp:
 
 ### Thủ công
 
-Nếu muốn tự tạo cấu trúc phân hệ, bạn có thể làm theo hướng dẫn [Server framework 101](../../../developer/tutorials/server_framework_101.md) để hiểu cấu trúc của phân hệ và nội dung của từng tệp.
+Nếu muốn tự tạo cấu trúc phân hệ, bạn có thể làm theo hướng dẫn [Server framework 101](developer/tutorials/server_framework_101.md) để hiểu cấu trúc của phân hệ và nội dung của từng tệp.
 
 ## Push nhánh phát triển
 
@@ -134,7 +134,7 @@ Từ terminal soạn thảo Odoo.sh:
 $ git push https HEAD:feature-1
 ```
 
-Lệnh trên được giải thích trong phần [Commit & push thay đổi của bạn](online-editor.md#odoosh-gettingstarted-online-editor-push) trong chương [Trình soạn thảo online](online-editor.md#odoosh-gettingstarted-online-editor). Phần này bao gồm giải thích về việc bạn sẽ được nhắc nhập tên người dùng và mật khẩu, và những việc cần làm nếu bạn sử dụng xác thực hai yếu tố.
+Lệnh trên được giải thích trong phần [Commit & push thay đổi của bạn](administration/odoo_sh/getting_started/online-editor.md#odoosh-gettingstarted-online-editor-push) trong chương [Trình soạn thảo online](administration/odoo_sh/getting_started/online-editor.md#odoosh-gettingstarted-online-editor). Phần này bao gồm giải thích về việc bạn sẽ được nhắc nhập tên người dùng và mật khẩu, và những việc cần làm nếu bạn sử dụng xác thực hai yếu tố.
 
 Hoặc, từ terminal máy tính của bạn:
 
@@ -152,15 +152,15 @@ $ git push
 
 Nhánh của bạn sẽ xuất hiện trong nhánh phát triển của dự án.
 
-![image](first_module/firstmodule-test-branch.png)
+![image](../../../.gitbook/assets/firstmodule-test-branch.png)
 
 Trong chế độ xem nhánh của dự án, bạn có thể nhấp vào tên nhánh ở bảng điều hướng bên trái để truy cập lịch sử của nhánh đó.
 
-![image](first_module/firstmodule-test-branch-history.png)
+![image](../../../.gitbook/assets/firstmodule-test-branch-history.png)
 
 Ở đây, bạn có thể thấy được những thay đổi bạn vừa push, bao gồm cả chú thích bạn đã thiết lập. Khi cơ sở dữ liệu đã sẵn sàng, bạn có thể truy cập bằng cách nhấp vào nút *Kết nối*.
 
-![image](first_module/firstmodule-test-database.png)
+![image](../../../.gitbook/assets/firstmodule-test-database.png)
 
 Nếu bạn cấu hình dự án Odoo.sh để tự động cài đặt phân hệ, bạn sẽ thấy ngay phân hệ đó trong số các ứng dụng của cơ sở dữ liệu. Nếu không, nó sẽ có trong các ứng dụng cần cài đặt.
 
@@ -175,15 +175,15 @@ Sau khi đã kiểm thử phân hệ trong bản dựng phát triển bằng d�
 Bạn có thể:
 
 * Biến nhánh phát triển thành nhánh staging bằng cách kéo và thả nó vào tiêu đề phần *staging*.
-  ![image](first_module/firstmodule-test-devtostaging.png)
+  ![image](../../../.gitbook/assets/firstmodule-test-devtostaging.png)
 * Hợp nhất nhánh này vào nhánh staging hiện có bằng cách kéo và thả nó vào nhánh staging đã cho.
-  ![image](first_module/firstmodule-test-devinstaging.png)
+  ![image](../../../.gitbook/assets/firstmodule-test-devinstaging.png)
 
 Bạn cũng có thể sử dụng lệnh `git merge` để hợp nhất các nhánh của mình.
 
 Thao tác này sẽ tạo ra bản dựng staging mới, bản dựng này sẽ sao chép cơ sở dữ liệu production và chạy nó bằng máy chủ đã cập nhật những thay đổi mới nhất cho nhánh của bạn.
 
-![image](first_module/firstmodule-test-mergedinstaging.png)
+![image](../../../.gitbook/assets/firstmodule-test-mergedinstaging.png)
 
 Khi cơ sở dữ liệu đã sẵn sàng, bạn có thể truy cập bằng nút *Kết nối*.
 
@@ -195,14 +195,14 @@ Phân hệ của bạn sẽ không được cài đặt tự động, mà bạn 
 
 Phân hệ có thể không xuất hiện trực tiếp trong ứng dụng để bạn cài đặt, mà trước tiên bạn cần cập nhật danh sách ứng dụng:
 
-* Kích hoạt chế độ [lập trình viên](../../../applications/general/developer_mode.md#developer-mode)
+* Kích hoạt chế độ [lập trình viên](applications/general/developer_mode.md#developer-mode)
 * trong menu ứng dụng, nhấp vào nút *Cập nhật danh sách ứng dụng*,
 * trong hộp thoại xuất hiện, nhấp vào nút *Cập nhật*.
-  ![image](first_module/firstmodule-test-updateappslist.png)
+  ![image](../../../.gitbook/assets/firstmodule-test-updateappslist.png)
 
 Sau đó, phân hệ của bạn sẽ xuất hiện trong danh sách các ứng dụng có sẵn.
 
-![image](first_module/firstmodule-test-mymoduleinapps.png)
+![image](../../../.gitbook/assets/firstmodule-test-mymoduleinapps.png)
 
 ## Triển khai trong production
 
@@ -210,13 +210,13 @@ Sau khi bạn đã kiểm thử phân hệ trong nhánh staging bằng dữ li�
 
 Kéo và thả nhánh staging của bạn vào nhánh production.
 
-![image](first_module/firstmodule-test-mergeinproduction.png)
+![image](../../../.gitbook/assets/firstmodule-test-mergeinproduction.png)
 
 Bạn cũng có thể sử dụng lệnh `git merge` để hợp nhất các nhánh của mình.
 
 Thao tác này sẽ hợp nhất những thay đổi mới nhất của nhánh staging vào nhánh production và cập nhật những thay đổi mới nhất này cho máy chủ production của bạn.
 
-![image](first_module/firstmodule-test-mergedinproduction.png)
+![image](../../../.gitbook/assets/firstmodule-test-mergedinproduction.png)
 
 Khi cơ sở dữ liệu đã sẵn sàng, bạn có thể truy cập bằng nút *Kết nối*.
 
@@ -326,7 +326,7 @@ $ git push
 
 Sau đó, nền tảng sẽ tạo bản dựng mới cho nhánh *feature-1*.
 
-![image](first_module/firstmodule-test-addachange-build.png)
+![image](../../../.gitbook/assets/firstmodule-test-addachange-build.png)
 
 Sau khi đã kiểm thử các thay đổi, bạn có thể hợp nhất chúng vào nhánh production, ví dụ bằng cách kéo và thả nhánh này trên nhánh production trong giao diện Odoo.sh. Khi bạn tăng phiên bản phân hệ trong tệp kê khai, nền tảng sẽ tự động cập nhật phân hệ và trường mới của bạn sẽ có ngay. Nếu không, bạn có thể cập nhật phân hệ trong danh sách ứng dụng theo cách thủ công.
 

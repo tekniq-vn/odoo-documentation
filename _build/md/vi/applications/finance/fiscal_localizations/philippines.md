@@ -2,7 +2,7 @@
 
 ## Cấu hình
 
-[Install](../../general/apps_modules.md#general-install) the 🇵🇭 Philippines [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) to get all the default accounting features of the Philippine
+[Install](applications/general/apps_modules.md#general-install) the 🇵🇭 Philippines [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) to get all the default accounting features of the Philippine
 localization, such as a chart of accounts, taxes, and the BIR 2307 report. These provide a base
 template to get started with using Philippine accounting.
 
@@ -26,7 +26,7 @@ installed and linked to the relevant account:
 For the withholding taxes (Configuration ‣ Taxes), there is an additional
 Philippines ATC field under the Philippines tab.
 
-![Philippines ATC code field set on taxes.](philippines/philippines-atc-code.png)
+![Philippines ATC code field set on taxes.](../../../.gitbook/assets/philippines-atc-code.png)
 
 #### NOTE
 Taxes' ATC codes are used for the BIR 2307 report. If a tax is created manually, its ATC code
@@ -43,7 +43,7 @@ For individuals not belonging to a company, identify them by using the following
 - Middle Name
 - Last Name
 
-![Individual type contact with First, Middle, and Last Name fields.](philippines/philippines-contact-individual.png)
+![Individual type contact with First, Middle, and Last Name fields.](../../../.gitbook/assets/philippines-contact-individual.png)
 
 #### NOTE
 For both Company and Individual, the TIN should follow the
@@ -58,17 +58,17 @@ orders and vendor payments with the applicable withholding taxes.
 To generate a BIR 2307 report, select one or multiple vendor bills from the list view, and click
 Action ‣ Download BIR 2307 XLS.
 
-![Multiple vendor bills selected with action to "Download BIR 2307 XLS".](philippines/philippines-multi-bill.png)
+![Multiple vendor bills selected with action to "Download BIR 2307 XLS".](../../../.gitbook/assets/philippines-multi-bill.png)
 
 A pop-up appears to review the selection, then click on Generate.
 
-![Pop up menu to generate BIR 2307 XLS file.](philippines/philippines-generate.png)
+![Pop up menu to generate BIR 2307 XLS file.](../../../.gitbook/assets/philippines-generate.png)
 
 This generates the `Form_2307.xls` file that lists all the vendor bill lines with the applicable
 withholding tax.
 
-The process above can also be used for a *single* vendor [payment](../accounting/payments.md) if
-it is linked to one or more [vendor bills](../accounting/payments.md) with applied withholding
+The process above can also be used for a *single* vendor [payment](applications/finance/accounting/payments.md) if
+it is linked to one or more [vendor bills](applications/finance/accounting/payments.md) with applied withholding
 taxes.
 
 #### NOTE
@@ -101,7 +101,7 @@ top:
   All vendor bills with the associated purchase taxes applied are shown in this report.
   <br/>
 
-![SLSP Report](philippines/slsp.png)
+![SLSP Report](../../../.gitbook/assets/slsp.png)
 
 By default, both reports exclude journal entries containing partners without a TIN number set and
 those with importation taxes set. To view or hide them, the Options: button gives
@@ -121,7 +121,7 @@ The tax report report is accessible by navigating to Reporting ‣ Statement Rep
 ‣ Tax Report ‣ 2550Q(PH). The form is based on the latest *2550Q (Quarterly Value-Added Tax
 Return)* Jan. 2023 version.
 
-![Báo cáo thuế 2550Q](philippines/2550Q.png)
+![Báo cáo thuế 2550Q](../../../.gitbook/assets/2550Q.png)
 
 #### IMPORTANT
 Odoo cannot generate the 2550Q BIR formatted PDF report directly. It should be used as a

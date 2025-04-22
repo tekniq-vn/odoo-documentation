@@ -7,7 +7,7 @@ Ceci est une traduction en français du contrat “Odoo Enterprise Subscription 
 Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle
 n'a aucune valeur légale.
 La seule référence officielle des termes du contrat “Odoo Enterprise Subscription Agreement”
-est la [version originale en anglais](../enterprise.md#enterprise-agreement).
+est la [version originale en anglais](legal/terms/enterprise.md#enterprise-agreement).
 
 #### NOTE
 Version 10a - 2022-10-27
@@ -581,13 +581,13 @@ Ceci est une traduction en français de la licence “Odoo Enterprise Edition Li
 Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle
 n'a aucune valeur légale.
 La seule référence officielle des termes de la licence “Odoo Enterprise Edition License”
-est la [version originale](../../licenses.md#odoo-enterprise-license).
+est la [version originale](legal/licenses.md#odoo-enterprise-license).
 
 This is a french translation of the "Odoo Enterprise Edition License”.
 This translation is provided in the hope that it will facilitate understanding, but it has
 no legal value.
 The only official reference of the terms of the “Odoo Enterprise Edition
-License” is the [original english version](../../licenses.md#odoo-enterprise-license).
+License” is the [original english version](legal/licenses.md#odoo-enterprise-license).
 
 <tt>{\\tt
 

@@ -1,6 +1,6 @@
 # Cấu hình hệ thống
 
-Tài liệu này mô tả các bước cơ bản để thiết lập Odoo trong môi trường production hoặc trên máy chủ kết nối internet. Tài liệu này tuân theo [cài đặt](../on_premise.md) và thường không cần thiết cho các hệ thống phát triển không được triển khai trên internet.
+Tài liệu này mô tả các bước cơ bản để thiết lập Odoo trong môi trường production hoặc trên máy chủ kết nối internet. Tài liệu này tuân theo [cài đặt](administration/on_premise.md) và thường không cần thiết cho các hệ thống phát triển không được triển khai trên internet.
 
 #### WARNING
 Nếu bạn đang thiết lập máy chủ công khai, hãy nhớ tham khảo các khuyến nghị về bảo mật của chúng tôi!
@@ -15,7 +15,7 @@ Không có vấn đề gì khi làm việc với backend (máy khách web) với
 
 Tuy nhiên, lại có vấn đề đối với người dùng không đăng nhập (cổng thông tin, trang web) mà không ràng buộc với cơ sở dữ liệu nào: Odoo cần biết cơ sở dữ liệu nào nên được sử dụng để tải trang web hoặc thực hiện thao tác. Sẽ không thành vấn đề nếu không sử dụng multi-tenancy, vì chỉ có một cơ sở dữ liệu để sử dụng. Nhưng nếu có thể truy cập nhiều cơ sở dữ liệu, thì Odoo cần một quy tắc để biết nên sử dụng cơ sở dữ liệu nào.
 
-Đó là một trong những mục đích của [`--db-filter`](../../developer/reference/cli.md#cmdoption-odoo-bin-db-filter): nó chỉ định cách cơ sở dữ liệu sẽ được chọn dựa trên tên máy chủ (miền) đang được yêu cầu. Giá trị là một [biểu thức chính quy](https://docs.python.org/3/library/re.html), có thể bao gồm tên máy chủ được cung cấp động (`%h`) hoặc miền phụ đầu tiên (`%d`) mà hệ thống đang được truy cập.
+Đó là một trong những mục đích của [`--db-filter`](developer/reference/cli.md#cmdoption-odoo-bin-db-filter): nó chỉ định cách cơ sở dữ liệu sẽ được chọn dựa trên tên máy chủ (miền) đang được yêu cầu. Giá trị là một [biểu thức chính quy](https://docs.python.org/3/library/re.html), có thể bao gồm tên máy chủ được cung cấp động (`%h`) hoặc miền phụ đầu tiên (`%d`) mà hệ thống đang được truy cập.
 
 Đối với các máy chủ lưu trữ nhiều cơ sở dữ liệu trong production, đặc biệt nếu sử dụng `trang web`, dbfilter **phải** được thiết lập, nếu không một số tính năng sẽ không hoạt động chính xác.
 
@@ -23,7 +23,7 @@ Tuy nhiên, lại có vấn đề đối với người dùng không đăng nh�
 
 * Chỉ hiển thị các cơ sở dữ liệu có tên bắt đầu bằng 'mycompany'
 
-trong [tệp cấu hình](../../developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
+trong [tệp cấu hình](developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
 
 ```ini
 [options]
@@ -32,7 +32,7 @@ dbfilter = ^mycompany.*$
 
 * Chỉ hiển thị các cơ sở dữ liệu khớp với tên miền phụ đầu tiên sau `www`: ví dụ cơ sở dữ liệu “mycompany” sẽ được hiển thị nếu yêu cầu đến được gửi đến `www.mycompany.com` hoặc `mycompany.co.uk`, nhưng không hiển thị đối với `www2.mycompany.com` hoặc `helpdesk.mycompany.com`.
 
-trong [tệp cấu hình](../../developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
+trong [tệp cấu hình](developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
 
 ```ini
 [options]
@@ -40,7 +40,7 @@ dbfilter = ^%d$
 ```
 
 #### NOTE
-Thiết lập [`--db-filter`](../../developer/reference/cli.md#cmdoption-odoo-bin-db-filter) phù hợp là một phần quan trọng trong việc bảo mật triển khai của bạn. Khi nó hoạt động chính xác và chỉ khớp với một cơ sở dữ liệu duy nhất cho mỗi tên máy chủ, chúng tôi khuyến nghị bạn nên chặn quyền truy cập vào màn hình trình quản lý cơ sở dữ liệu và sử dụng tham số khởi động `--no-database-list` để ngăn việc công khai cơ sở dữ liệu của bạn và chặn quyền truy cập vào màn hình quản lý cơ sở dữ liệu. Đọc thêm về [security]().
+Thiết lập [`--db-filter`](developer/reference/cli.md#cmdoption-odoo-bin-db-filter) phù hợp là một phần quan trọng trong việc bảo mật triển khai của bạn. Khi nó hoạt động chính xác và chỉ khớp với một cơ sở dữ liệu duy nhất cho mỗi tên máy chủ, chúng tôi khuyến nghị bạn nên chặn quyền truy cập vào màn hình trình quản lý cơ sở dữ liệu và sử dụng tham số khởi động `--no-database-list` để ngăn việc công khai cơ sở dữ liệu của bạn và chặn quyền truy cập vào màn hình quản lý cơ sở dữ liệu. Đọc thêm về [security]().
 
 ## PostgreSQL
 
@@ -76,12 +76,12 @@ max_connections = 80
 
 ### Cấu hình Odoo
 
-Odoo có sẵn kết nối với postgres cục bộ qua UNIX socket thông qua cổng 5432. Bạn có thể ghi đè tùy chọn này bằng cách sử dụng [tùy chọn cơ sở dữ liệu](../../developer/reference/cli.md#reference-cmdline-server-database) khi triển khai Postgres của bạn không phải là cục bộ và/hoặc không sử dụng cài đặt mặc định.
+Odoo có sẵn kết nối với postgres cục bộ qua UNIX socket thông qua cổng 5432. Bạn có thể ghi đè tùy chọn này bằng cách sử dụng [tùy chọn cơ sở dữ liệu](developer/reference/cli.md#reference-cmdline-server-database) khi triển khai Postgres của bạn không phải là cục bộ và/hoặc không sử dụng cài đặt mặc định.
 
-[Trình cài đặt trọn gói](packages.md) sẽ tự động tạo một người dùng mới (`odoo`) và thiết lập người dùng đó làm người dùng cơ sở dữ liệu.
+[Trình cài đặt trọn gói](administration/on_premise/packages.md) sẽ tự động tạo một người dùng mới (`odoo`) và thiết lập người dùng đó làm người dùng cơ sở dữ liệu.
 
 * Màn hình quản lý cơ sở dữ liệu được bảo vệ bằng cài đặt `admin_passwd`. Cài đặt này chỉ có thể được thiết lập bằng cách sử dụng các tệp cấu hình và chỉ cần kiểm tra trước khi thực hiện thay đổi cơ sở dữ liệu. Nó nên được thiết lập thành một giá trị được tạo ngẫu nhiên để đảm bảo bên thứ ba không thể sử dụng giao diện này.
-* Tất cả hoạt động cơ sở dữ liệu đều sử dụng [tuỳ chọn cơ sở dữ liệu](../../developer/reference/cli.md#reference-cmdline-server-database), bao gồm cả màn hình quản lý cơ sở dữ liệu. Để màn hình quản lý cơ sở dữ liệu hoạt động, người dùng PostgreSQL phải có quyền `createdb`.
+* Tất cả hoạt động cơ sở dữ liệu đều sử dụng [tuỳ chọn cơ sở dữ liệu](developer/reference/cli.md#reference-cmdline-server-database), bao gồm cả màn hình quản lý cơ sở dữ liệu. Để màn hình quản lý cơ sở dữ liệu hoạt động, người dùng PostgreSQL phải có quyền `createdb`.
 * Người dùng luôn có thể xóa cơ sở dữ liệu mà họ sở hữu. Để màn hình quản lý cơ sở dữ liệu ngừng hoạt động hoàn toàn, người dùng PostgreSQL cần được tạo bằng `no-createdb` và cơ sở dữ liệu phải thuộc sở hữu của một người dùng PostgreSQL khác.
 
   #### WARNING
@@ -95,7 +95,7 @@ Odoo có sẵn kết nối với postgres cục bộ qua UNIX socket thông qua 
 * với 'pwd' là mật khẩu
 * chỉ lọc db có tên bắt đầu bằng 'mycompany'
 
-trong [tệp cấu hình](../../developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
+trong [tệp cấu hình](developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
 
 ```ini
 [options]
@@ -123,11 +123,11 @@ Odoo tích hợp sẵn các máy chủ HTTP, cron và livechat, sử dụng đa 
 
 Máy chủ **đa luồng** là máy chủ đơn giản hơn, chủ yếu được sử dụng để phát triển và trình bày, và tương thích với nhiều hệ điều hành (bao gồm Windows). Một luồng mới được tạo ra cho mỗi yêu cầu HTTP mới, ngay cả đối với các kết nối tồn tại lâu dài như websocket. Các luồng daemon cron bổ sung cũng được tạo ra. Do hạn chế của Python (GIL), phần cứng không được tận dụng tối đa.
 
-Máy chủ đa luồng là máy chủ mặc định, cũng dành cho các container docker. Bạn có thể chọn nó bằng cách bỏ tùy chọn [`--workers`](../../developer/reference/cli.md#cmdoption-odoo-bin-workers) hoặc đặt thành `0`.
+Máy chủ đa luồng là máy chủ mặc định, cũng dành cho các container docker. Bạn có thể chọn nó bằng cách bỏ tùy chọn [`--workers`](developer/reference/cli.md#cmdoption-odoo-bin-workers) hoặc đặt thành `0`.
 
 Máy chủ **đa xử lý** là máy chủ toàn diện được sử dụng chủ yếu cho production. Nó không chịu trách nhiệm về giới hạn Python (GIL) tương tự đối với việc sử dụng tài nguyên và do đó tận dụng tốt nhất phần cứng. Một nhóm worker được tạo khi khởi động máy chủ. Các yêu cầu HTTP mới được hệ điều hành xếp vào hàng đợi cho đến khi có worker sẵn sàng xử lý chúng. Một worker HTTP theo sự kiện bổ sung dành cho livechat được tạo ra trên một cổng thay thế. Worker cron bổ sung cũng được tạo ra. Trình thu thập quy trình có thể cấu hình sẽ giám sát việc sử dụng tài nguyên và có thể loại bỏ/khởi động lại các worker bị lỗi.
 
-Máy chủ đa xử lý là máy chủ tuỳ chọn. Bạn có thể chọn nó bằng cách đặt tùy chọn [`--workers`](../../developer/reference/cli.md#cmdoption-odoo-bin-workers) thành số nguyên không null.
+Máy chủ đa xử lý là máy chủ tuỳ chọn. Bạn có thể chọn nó bằng cách đặt tùy chọn [`--workers`](developer/reference/cli.md#cmdoption-odoo-bin-workers) thành số nguyên không null.
 
 #### NOTE
 Vì được tùy chỉnh cao cho máy chủ Linux nên máy chủ đa xử lý không khả dụng trên Windows.
@@ -148,7 +148,7 @@ RAM cần thiết = #worker \* ( (tỷ lệ_worker_nhẹ \* ước tính_ram_cho
 
 ### LiveChat
 
-Trong đa xử lý, một worker LiveChat riêng sẽ tự động được khởi động và nghe trên [`--gevent-port`](../../developer/reference/cli.md#cmdoption-odoo-bin-gevent-port). Theo mặc định, các yêu cầu HTTP sẽ tiếp tục truy cập vào các worker HTTP thông thường thay vì worker LiveChat. Bạn phải triển khai một proxy trước Odoo và chuyển hướng các yêu cầu đến có đường dẫn bắt đầu bằng `/websocket/` đến worker LiveChat. Bạn cũng phải khởi động Odoo trong [`--proxy-mode`](../../developer/reference/cli.md#cmdoption-odoo-bin-proxy-mode) để nó sử dụng các header máy khách thực (như tên máy chủ, lược đồ và IP) thay vì các header proxy.
+Trong đa xử lý, một worker LiveChat riêng sẽ tự động được khởi động và nghe trên [`--gevent-port`](developer/reference/cli.md#cmdoption-odoo-bin-gevent-port). Theo mặc định, các yêu cầu HTTP sẽ tiếp tục truy cập vào các worker HTTP thông thường thay vì worker LiveChat. Bạn phải triển khai một proxy trước Odoo và chuyển hướng các yêu cầu đến có đường dẫn bắt đầu bằng `/websocket/` đến worker LiveChat. Bạn cũng phải khởi động Odoo trong [`--proxy-mode`](developer/reference/cli.md#cmdoption-odoo-bin-proxy-mode) để nó sử dụng các header máy khách thực (như tên máy chủ, lược đồ và IP) thay vì các header proxy.
 
 ### Cấu hình mẫu
 
@@ -159,7 +159,7 @@ Trong đa xử lý, một worker LiveChat riêng sẽ tự động được kh�
 * Chúng tôi sẽ sử dụng 8 worker + 1 cho cron. Chúng tôi cũng sẽ sử dụng hệ thống giám sát để đo tải CPU và kiểm tra xem nó có nằm trong khoảng từ 7 đến 7,5 không.
 * RAM = 9 \* ((0.8\*150) + (0.2\*1024)) ~= 3GB RAM for Odoo
 
-trong [tệp cấu hình](../../developer/reference/cli.md#reference-cmdline-config-file):
+trong [tệp cấu hình](developer/reference/cli.md#reference-cmdline-config-file):
 
 ```ini
 [options]
@@ -178,7 +178,7 @@ workers = 8
 
 Cho dù được truy cập thông qua trang web/máy khách web hay dịch vụ web, Odoo đều truyền thông tin xác thực dưới dạng văn bản thuần túy. Điều này có nghĩa là việc triển khai Odoo an toàn phải sử dụng HTTPS<sup>[3](#switching)</sup>. Có thể triển khai SSL termination thông qua hầu hết mọi proxy SSL termination, nhưng yêu cầu thiết lập sau:
 
-* Bật [`chế độ proxy`](../../developer/reference/cli.md#cmdoption-odoo-bin-proxy-mode) của Odoo. Chỉ nên bật tùy chọn này khi Odoo nằm sau proxy đảo ngược
+* Bật [`chế độ proxy`](developer/reference/cli.md#cmdoption-odoo-bin-proxy-mode) của Odoo. Chỉ nên bật tùy chọn này khi Odoo nằm sau proxy đảo ngược
 * Thiết lập proxy chấm dứt SSL ([Ví dụ chấm dứt Nginx](https://nginx.com/resources/admin-guide/nginx-ssl-termination/))
 * Thiết lập proxy ([Ví dụ proxy Nginx](https://nginx.com/resources/admin-guide/reverse-proxy/))
 * Proxy chấm dứt SSL của bạn cũng sẽ tự động chuyển hướng các kết nối không an toàn đến cổng an toàn
@@ -188,7 +188,7 @@ Cho dù được truy cập thông qua trang web/máy khách web hay dịch vụ
 * Chuyển hướng yêu cầu http sang https
 * Yêu cầu proxy tới Odoo
 
-trong [tệp cấu hình](../../developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
+trong [tệp cấu hình](developer/reference/cli.md#reference-cmdline-config-file) thiết lập:
 
 ```ini
 proxy_mode = True
@@ -294,15 +294,15 @@ Tuy nhiên, máy chủ WSGI sẽ chỉ hiển thị endpoint HTTP chính cho má
 
 ### Cron Worker
 
-Việc khởi chạy một trong các máy chủ Odoo tích hợp cạnh máy chủ WSGI là điều kiện bắt buộc để xử lý các tác vụ cron. Máy chủ đó phải được cấu hình để chỉ xử lý cron mà không phải các yêu cầu HTTP bằng tùy chọn cli [`--no-http`](../../developer/reference/cli.md#cmdoption-odoo-bin-no-http) hoặc cài đặt tệp cấu hình `http_enable = False`.
+Việc khởi chạy một trong các máy chủ Odoo tích hợp cạnh máy chủ WSGI là điều kiện bắt buộc để xử lý các tác vụ cron. Máy chủ đó phải được cấu hình để chỉ xử lý cron mà không phải các yêu cầu HTTP bằng tùy chọn cli [`--no-http`](developer/reference/cli.md#cmdoption-odoo-bin-no-http) hoặc cài đặt tệp cấu hình `http_enable = False`.
 
-Trên các hệ thống giống Linux, bạn nên sử dụng máy chủ đa xử lý thay vì máy chủ đa luồng để tận dụng tối đa phần cứng và tăng tính ổn định. Điều này có nghĩa là sử dụng các tùy chọn cli [`--workers=-1`](../../developer/reference/cli.md#cmdoption-odoo-bin-workers) và [`--max-cron-threads=n`](../../developer/reference/cli.md#cmdoption-odoo-bin-max-cron-threads).
+Trên các hệ thống giống Linux, bạn nên sử dụng máy chủ đa xử lý thay vì máy chủ đa luồng để tận dụng tối đa phần cứng và tăng tính ổn định. Điều này có nghĩa là sử dụng các tùy chọn cli [`--workers=-1`](developer/reference/cli.md#cmdoption-odoo-bin-workers) và [`--max-cron-threads=n`](developer/reference/cli.md#cmdoption-odoo-bin-max-cron-threads).
 
 ### LiveChat
 
 Phải sử dụng máy chủ WSGI tương thích với gevent để tính năng live chat hoạt động chính xác. Máy chủ đó phải có khả năng xử lý nhiều kết nối dài và đồng thời nhưng không cần nhiều sức mạnh xử lý. Tất cả các yêu cầu có đường dẫn bắt đầu bằng `/websocket/` phải được chuyển hướng đến máy chủ đó. Một máy chủ WSGI thông thường (dựa trên luồng/quy trình) phải được sử dụng cho tất cả các yêu cầu khác.
 
-Máy chủ cron Odoo cũng có thể được sử dụng để phục vụ các yêu cầu live chat. Chỉ cần thả tùy chọn cli [`--no-http`](../../developer/reference/cli.md#cmdoption-odoo-bin-no-http) từ máy chủ cron và đảm bảo các yêu cầu có đường dẫn bắt đầu bằng `/websocket/` được chuyển hướng đến máy chủ này, trên [`--http-port`](../../developer/reference/cli.md#cmdoption-odoo-bin-http-port) (máy chủ đa luồng) hoặc trên [`--gevent-port`](../../developer/reference/cli.md#cmdoption-odoo-bin-gevent-port) (máy chủ đa xử lý).
+Máy chủ cron Odoo cũng có thể được sử dụng để phục vụ các yêu cầu live chat. Chỉ cần thả tùy chọn cli [`--no-http`](developer/reference/cli.md#cmdoption-odoo-bin-no-http) từ máy chủ cron và đảm bảo các yêu cầu có đường dẫn bắt đầu bằng `/websocket/` được chuyển hướng đến máy chủ này, trên [`--http-port`](developer/reference/cli.md#cmdoption-odoo-bin-http-port) (máy chủ đa luồng) hoặc trên [`--gevent-port`](developer/reference/cli.md#cmdoption-odoo-bin-gevent-port) (máy chủ đa xử lý).
 
 <a id="deploy-streaming"></a>
 
@@ -342,13 +342,13 @@ server {
 }
 ```
 
-Các lệnh `root` và `try_files` thực tế phụ thuộc vào cài đặt của bạn, cụ thể là trên [`--addons-path`](../../developer/reference/cli.md#cmdoption-odoo-bin-addons-path).
+Các lệnh `root` và `try_files` thực tế phụ thuộc vào cài đặt của bạn, cụ thể là trên [`--addons-path`](developer/reference/cli.md#cmdoption-odoo-bin-addons-path).
 
 ### Phục vụ tệp đính kèm
 
 Tệp đính kèm là các tệp được lưu trữ trong filestore mà Odoo quy định quyền truy cập. Không thể truy cập trực tiếp qua máy chủ web tĩnh vì việc truy cập chúng đòi hỏi nhiều lần tra cứu trong cơ sở dữ liệu để xác định nơi lưu trữ tệp và liệu người dùng hiện tại có thể truy cập chúng hay không.
 
-Tuy nhiên, sau khi tệp đã được định vị và quyền truy cập đã được Odoo xác minh, bạn nên phục vụ tệp bằng máy chủ web tĩnh thay vì Odoo. Để Odoo ủy quyền phục vụ tệp cho máy chủ web tĩnh, tiện ích mở rộng X-Sendfile <[https://tn123.org/mod_xsendfile/](https://tn123.org/mod_xsendfile/)>\`_ (apache) hoặc [X-Accel](https://www.nginx.com/resources/wiki/start/topics/examples/x-accel/) (nginx) phải được bật và cấu hình trên máy chủ web tĩnh. Sau khi thiết lập xong, hãy khởi động Odoo bằng cờ CLI [`--x-sendfile`](../../developer/reference/cli.md#cmdoption-odoo-bin-x-sendfile) (cờ duy nhất này được sử dụng cho cả X-Sendfile và X-Accel).
+Tuy nhiên, sau khi tệp đã được định vị và quyền truy cập đã được Odoo xác minh, bạn nên phục vụ tệp bằng máy chủ web tĩnh thay vì Odoo. Để Odoo ủy quyền phục vụ tệp cho máy chủ web tĩnh, tiện ích mở rộng X-Sendfile <[https://tn123.org/mod_xsendfile/](https://tn123.org/mod_xsendfile/)>\`_ (apache) hoặc [X-Accel](https://www.nginx.com/resources/wiki/start/topics/examples/x-accel/) (nginx) phải được bật và cấu hình trên máy chủ web tĩnh. Sau khi thiết lập xong, hãy khởi động Odoo bằng cờ CLI [`--x-sendfile`](developer/reference/cli.md#cmdoption-odoo-bin-x-sendfile) (cờ duy nhất này được sử dụng cho cả X-Sendfile và X-Accel).
 
 #### NOTE
 - Tiện ích mở rộng X-Sendfile dành cho apache (và các máy chủ web tương thích) không yêu cầu bất kỳ cấu hình bổ sung nào.
@@ -360,7 +360,7 @@ Tuy nhiên, sau khi tệp đã được định vị và quyền truy cập đã
   }
   ```
 
-  Nếu bạn không biết đường dẫn đến filestore của mình là gì, hãy khởi động Odoo với tùy chọn [`--x-sendfile`](../../developer/reference/cli.md#cmdoption-odoo-bin-x-sendfile) và điều hướng đến URL `/web/filestore` trực tiếp qua Odoo (không điều hướng đến URL qua NGINX). Thao tác này sẽ tạo ra cảnh báo với thông báo chứa cấu hình bạn cần.
+  Nếu bạn không biết đường dẫn đến filestore của mình là gì, hãy khởi động Odoo với tùy chọn [`--x-sendfile`](developer/reference/cli.md#cmdoption-odoo-bin-x-sendfile) và điều hướng đến URL `/web/filestore` trực tiếp qua Odoo (không điều hướng đến URL qua NGINX). Thao tác này sẽ tạo ra cảnh báo với thông báo chứa cấu hình bạn cần.
 
 <a id="security"></a>
 
@@ -375,12 +375,12 @@ Khi triển khai máy chủ kết nối Internet, hãy nhớ cân nhắc các ch
 - Luôn đặt mật khẩu quản trị viên mạnh và hạn chế quyền truy cập vào các trang quản lý cơ sở dữ liệu ngay khi hệ thống được thiết lập. Tham khảo [Bảo mật Trình Quản lý Cơ sở Dữ liệu](#db-manager-security).
 - Chọn tên đăng nhập duy nhất và mật khẩu mạnh cho tất cả tài khoản quản trị viên trên tất cả cơ sở dữ liệu. Không sử dụng 'admin' làm tên đăng nhập. Không sử dụng những tên đăng nhập đó cho các hoạt động thường xuyên mà chỉ sử dụng để kiểm soát/quản lý cài đặt. *Không bao giờ* sử dụng bất kỳ mật khẩu mặc định nào như admin/admin, ngay cả đối với cơ sở dữ liệu kiểm thử/staging.
 - **Không** cài đặt dữ liệu demo trên các máy chủ kết nối internet. Cơ sở dữ liệu có dữ liệu demo chứa tên đăng nhập và mật khẩu mặc định có thể được sử dụng để xâm nhập vào hệ thống của bạn và gây ra sự cố nghiêm trọng, ngay cả trên hệ thống staging/phát triển.
-- Sử dụng bộ lọc cơ sở dữ liệu phù hợp ( [`--db-filter`](../../developer/reference/cli.md#cmdoption-odoo-bin-db-filter)) để giới hạn chế độ hiển thị cơ sở dữ liệu của bạn theo tên máy chủ. Tham khảo [dbfilter](#dbfilter). Bạn cũng có thể sử dụng [`-d`](../../developer/reference/cli.md#cmdoption-odoo-bin-d) để cung cấp danh sách (được phân tách bằng dấu phẩy) các cơ sở dữ liệu có sẵn để lọc, thay vì để hệ thống lấy tất cả chúng từ cơ sở dữ liệu backend.
-- Sau khi `db_name` và `dbfilter` của bạn được cấu hình và chỉ khớp với một cơ sở dữ liệu duy nhất cho mỗi tên máy chủ, bạn nên đặt tùy chọn cấu hình `list_db` thành `False` để ngăn chặn việc công khai toàn bộ cơ sở dữ liệu và chặn quyền truy cập vào màn hình quản lý cơ sở dữ liệu (điều này cũng được hiển thị dưới dạng tùy chọn dòng lệnh [`--no-database-list`](../../developer/reference/cli.md#cmdoption-odoo-bin-no-database-list))
-- Đảm bảo người dùng PostgreSQL ([`--db_user`](../../developer/reference/cli.md#cmdoption-odoo-bin-r)) *không* phải là siêu người dùng và cơ sở dữ liệu của bạn thuộc sở hữu của một người dùng khác. Ví dụ, chúng có thể thuộc sở hữu của siêu người dùng `postgres` nếu bạn đang sử dụng `db_user` chuyên dụng không có đặc quyền. Tham khảo thêm [Cấu hình Odoo](#setup-deploy-odoo).
+- Sử dụng bộ lọc cơ sở dữ liệu phù hợp ( [`--db-filter`](developer/reference/cli.md#cmdoption-odoo-bin-db-filter)) để giới hạn chế độ hiển thị cơ sở dữ liệu của bạn theo tên máy chủ. Tham khảo [dbfilter](#dbfilter). Bạn cũng có thể sử dụng [`-d`](developer/reference/cli.md#cmdoption-odoo-bin-d) để cung cấp danh sách (được phân tách bằng dấu phẩy) các cơ sở dữ liệu có sẵn để lọc, thay vì để hệ thống lấy tất cả chúng từ cơ sở dữ liệu backend.
+- Sau khi `db_name` và `dbfilter` của bạn được cấu hình và chỉ khớp với một cơ sở dữ liệu duy nhất cho mỗi tên máy chủ, bạn nên đặt tùy chọn cấu hình `list_db` thành `False` để ngăn chặn việc công khai toàn bộ cơ sở dữ liệu và chặn quyền truy cập vào màn hình quản lý cơ sở dữ liệu (điều này cũng được hiển thị dưới dạng tùy chọn dòng lệnh [`--no-database-list`](developer/reference/cli.md#cmdoption-odoo-bin-no-database-list))
+- Đảm bảo người dùng PostgreSQL ([`--db_user`](developer/reference/cli.md#cmdoption-odoo-bin-r)) *không* phải là siêu người dùng và cơ sở dữ liệu của bạn thuộc sở hữu của một người dùng khác. Ví dụ, chúng có thể thuộc sở hữu của siêu người dùng `postgres` nếu bạn đang sử dụng `db_user` chuyên dụng không có đặc quyền. Tham khảo thêm [Cấu hình Odoo](#setup-deploy-odoo).
 - Luôn cập nhật các cài đặt bằng cách thường xuyên cài đặt các bản dựng mới nhất, thông qua GitHub hoặc bằng cách tải xuống phiên bản mới nhất từ ​​https://www.odoo.com/page/download hoặc [http://nightly.odoo.com](http://nightly.odoo.com)
 - Cấu hình máy chủ của bạn ở chế độ đa xử lý với các giới hạn phù hợp với mức sử dụng thông thường của bạn (bộ nhớ/CPU/thời gian chờ). Tham khảo thêm [Máy chủ tích hợp](#builtin-server).
-- Chạy Odoo sau máy chủ web cung cấp HTTPS termination với chứng chỉ SSL hợp lệ, để ngăn chặn việc nghe lén các liên lạc bằng văn bản thuần tuý. Chứng chỉ SSL không tốn kém và có nhiều tùy chọn miễn phí. Cấu hình proxy web để giới hạn kích thước yêu cầu, cài đặt thời gian chờ thích hợp, sau đó bật tùy chọn [`proxy mode`](../../developer/reference/cli.md#cmdoption-odoo-bin-proxy-mode). Tham khảo thêm [HTTPS](#https-proxy).
+- Chạy Odoo sau máy chủ web cung cấp HTTPS termination với chứng chỉ SSL hợp lệ, để ngăn chặn việc nghe lén các liên lạc bằng văn bản thuần tuý. Chứng chỉ SSL không tốn kém và có nhiều tùy chọn miễn phí. Cấu hình proxy web để giới hạn kích thước yêu cầu, cài đặt thời gian chờ thích hợp, sau đó bật tùy chọn [`proxy mode`](developer/reference/cli.md#cmdoption-odoo-bin-proxy-mode). Tham khảo thêm [HTTPS](#https-proxy).
 - Nếu bạn cần cho phép truy cập SSH từ xa vào máy chủ của mình, hãy đảm bảo đặt mật khẩu mạnh cho **tất cả** tài khoản, không chỉ `root`. Chúng tôi khuyến khích tắt hoàn toàn xác thực bằng mật khẩu và chỉ cho phép xác thực bằng mã khóa công khai. Ngoài ra, hãy cân nhắc hạn chế quyền truy cập qua VPN, chỉ cho phép các IP đáng tin cậy trong tường lửa và/hoặc chạy hệ thống phát hiện tấn công brute-force như `fail2ban` hoặc tương đương.
 - Hãy cân nhắc cài đặt giới hạn tốc độ phù hợp trên proxy hoặc tường lửa của bạn để ngăn chặn các cuộc tấn công brute-force và tấn công từ chối dịch vụ. Tham khảo thêm [Chặn các Cuộc Tấn công Brute Force](#login-brute-force) để biết các biện pháp cụ thể.
 
@@ -470,7 +470,7 @@ tạo ra một chuỗi ký tự giả ngẫu nhiên có thể in được gồm 
 Có thể xảy ra trường hợp mật khẩu chính bị thất lạc hoặc bị xâm phạm và cần phải đặt lại. Quy trình sau đây dành cho quản trị viên hệ thống của cơ sở dữ liệu Odoo on-premise, nêu chi tiết cách đặt lại và mã hóa lại mật khẩu chính theo cách thủ công.
 
 #### SEE ALSO
-Để biết thêm thông tin về cách thay đổi mật khẩu tài khoản Odoo.com, vui lòng tham khảo tài liệu này: [thay đổi mật khẩu tài khoản Odoo.com](../odoo_accounts.md#odoocom-change-password).
+Để biết thêm thông tin về cách thay đổi mật khẩu tài khoản Odoo.com, vui lòng tham khảo tài liệu này: [thay đổi mật khẩu tài khoản Odoo.com](administration/odoo_accounts.md#odoocom-change-password).
 
 Khi tạo cơ sở dữ liệu on-premise mới, một mật khẩu chính ngẫu nhiên sẽ được tạo. Odoo khuyến khích sử dụng mật khẩu này để bảo mật cơ sở dữ liệu. Mật khẩu này được triển khai theo mặc định, do đó bất kỳ triển khai Odoo on-premise nào đều có một mật khẩu chính an toàn.
 

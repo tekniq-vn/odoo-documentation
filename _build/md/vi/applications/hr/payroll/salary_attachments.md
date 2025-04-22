@@ -19,7 +19,7 @@ Each salary attachment type displays the Name of the attachment type, the
 Code used when calculating payslips, a checkbox to indicate if there is No
 End Date, and whether it is Country specific (or universal).
 
-![The default salary attachment types.](salary_attachments/attachment-types.png)
+![The default salary attachment types.](../../../.gitbook/assets/attachment-types.png)
 
 ### Create new salary attachment types
 
@@ -61,7 +61,7 @@ blank Salary Attachment form loads. Enter the following information on the form:
 - Total Amount: This field **only** appears if the [salary attachment type](#payroll-salary-attachment-types) has no end date (the No End Date option is
   **not** ticked.)
 
-![The salary attachment form with all fields filled out.](salary_attachments/salary-attachment-form.png)
+![The salary attachment form with all fields filled out.](../../../.gitbook/assets/salary-attachment-form.png)
 
 Since the salary attachment form auto saves as the fields are populated, after making a salary
 attachment for an individual employee, there is no further action required.
@@ -104,4 +104,4 @@ record. From the Salary Attachment record, click the Cancel button to cancel
 the salary attachment, and stop having the designated money taken out of future paychecks.
 
 #### SEE ALSO
-[Salary attachment report](salary_attachment.md)
+[Salary attachment report](applications/hr/payroll/salary_attachment.md)

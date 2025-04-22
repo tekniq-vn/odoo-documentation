@@ -1,6 +1,6 @@
 # Cấu trúc lương
 
-The website configurator provides a range of Structure [building blocks](../building_blocks.md) to design your website's layout, including headings, images, and text.
+The website configurator provides a range of Structure [building blocks](applications/websites/website/web_design/building_blocks.md) to design your website's layout, including headings, images, and text.
 
 Below are presented two types of structure blocks: [Banner](#structure-banner) and
 [Masonry](#structure-masonry).
@@ -18,19 +18,19 @@ selected.
 The Banner block combines a title, text, images, and a call to action button, making it
 suitable for placement at the top of a website.
 
-![The default banner block](structure/default-image-content.png)
+![The default banner block](../../../../../.gitbook/assets/default-image-content.png)
 
 ### Call to action
 
 The call to action button encourages visitors to take a specific action, for example, consulting
 your shop, downloading a file, or making an appointment.
 
-![Selecting the call to action button](structure/call-to-action.png)
+![Selecting the call to action button](../../../../../.gitbook/assets/call-to-action1.png)
 
 To change the button's link, select it and click the Edit Link icon. Additional
 customization options are available in the Inline Text section.
 
-![Configuring the call to action button](structure/inline-text.png)
+![Configuring the call to action button](../../../../../.gitbook/assets/inline-text.png)
 
 <a id="structure-masonry"></a>
 
@@ -40,4 +40,4 @@ The Masonry block offers a range of templates that associate image and text bric
 change the default template, go to the Customize tab, click Template and
 select one.
 
-![Selecting a masonry building block template](structure/masonry-template.png)
+![Selecting a masonry building block template](../../../../../.gitbook/assets/masonry-template.png)

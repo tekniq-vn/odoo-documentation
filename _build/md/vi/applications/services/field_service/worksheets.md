@@ -26,13 +26,13 @@ then click Design Template to open **Studio** and customize your worksheet templ
 
 In Studio, drag and drop the desired fields from the left column into your worksheet on the right.
 To rearrange the fields on the worksheet, drag and drop them in the desired order. Click a field to
-customize its [properties](../../studio/fields.md#studio-fields-properties).
+customize its [properties](applications/studio/fields.md#studio-fields-properties).
 
 When your worksheet template is complete, click Close in the top right corner of the
 page to leave **Studio**.
 
 #### SEE ALSO
-[Fields and widgets in Studio](../../studio/fields.md)
+[Fields and widgets in Studio](applications/studio/fields.md)
 
 ## Add a worksheet template to a field service task
 
@@ -42,7 +42,7 @@ By default, the Default Worksheet template is selected. To define another defaul
 worksheet template, click the ➔ (Internal link) icon that appears when you
 hover your mouse over the Project field on the task form.
 
-![Mouse on project name to setup default worksheet template](worksheets/template-default.png)
+![Mouse on project name to setup default worksheet template](../../../.gitbook/assets/template-default.png)
 
 Then, in the Settings tab,  scroll down to the Field service section and
 select the Worksheet Template you want to set up as default.

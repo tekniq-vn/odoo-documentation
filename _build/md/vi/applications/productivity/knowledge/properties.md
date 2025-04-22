@@ -15,7 +15,7 @@ Properties ‣ Field Type, select the type and add a default value if needed. To
 appear in **kanban views**, check View in Kanban as well. To validate and close the
 property creation window, click anywhere.
 
-![Dropdown of property fields types](properties/fields.png)
+![Dropdown of property fields types](../../../.gitbook/assets/fields.png)
 
 The different types assess what the field content can be:
 
@@ -30,7 +30,7 @@ The different types assess what the field content can be:
 
 Some **field types** need to be configured:
 
-![property configuration form](properties/manyone.png)
+![property configuration form](../../../.gitbook/assets/manyone.png)
 
 | Loại      | Người dùng                                                                                                                                                                                                                                                                                                                                                                     |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

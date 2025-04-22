@@ -25,14 +25,14 @@ To do so, begin by navigating to Inventory app ‣ Configuration ‣ Routes. On 
 Routes page, click the <i class="fa fa-caret-down"></i> (down arrow) icon on the right
 side of the search bar, and click the Archived filter to enable it.
 
-![The archived filter on the Routes page.](mto/archived-filter.png)
+![The archived filter on the Routes page.](../../../../../.gitbook/assets/archived-filter.png)
 
 After enabling the Archived filter, the Routes page shows all routes which
 are currently archived. Tick the checkbox next to Replenish on Order (MTO), then click
 the <i class="fa fa-cog"></i> Actions button to reveal a drop-down menu. From the drop-down menu,
 select Unarchive.
 
-![The unarchive action on the Routes page.](mto/unarchive-button.png)
+![The unarchive action on the Routes page.](../../../../../.gitbook/assets/unarchive-button.png)
 
 Finally, remove the Archived filter from the search bar. The Routes page now
 shows all unarchived routes, including Replenish on Order (MTO), which is selectable on
@@ -53,7 +53,7 @@ The Replenish on Order (MTO) route **does not** work unless another route is sel
 as well. This is because Odoo needs to know how to replenish the product when an order is placed
 for it (buy or manufacture it).
 
-![Select the MTO route and a second route on the Inventory tab.](mto/select-routes.png)
+![Select the MTO route and a second route on the Inventory tab.](../../../../../.gitbook/assets/select-routes.png)
 
 If the product is purchased from a vendor to fulfill , enable the Can be Purchased
 checkbox under the product name. Doing so makes the Purchase tab appear alongside the
@@ -71,7 +71,7 @@ so, click the Bill of Materials smart button at the top of the screen, then clic
 New on the Bill of Materials page to configure a new  for the product.
 
 #### SEE ALSO
-For a full overview of  creation, see the documentation on [bills of materials](../../../manufacturing/basic_setup/bill_configuration.md).
+For a full overview of  creation, see the documentation on [bills of materials](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md).
 
 ## Replenish using MTO
 
@@ -113,6 +113,6 @@ the delivery.
 #### SEE ALSO
 For information on workflows that include the  route, see the following documentation:
 
-- [Inter-warehouse replenishment](resupply_warehouses.md)
-- [Basic subcontracting](../../../manufacturing/subcontracting/subcontracting_basic.md)
-- [Quản lý bán thành phẩm](../../../manufacturing/advanced_configuration/sub_assemblies.md)
+- [Inter-warehouse replenishment](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.md)
+- [Basic subcontracting](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.md)
+- [Quản lý bán thành phẩm](applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.md)

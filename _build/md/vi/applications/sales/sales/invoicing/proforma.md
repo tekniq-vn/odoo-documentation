@@ -16,14 +16,14 @@ To enable this feature, navigate to Sales app ‣ Configuration ‣ Settings, an
 in the Quotations & Orders section, click the checkbox next to Pro-Forma
 Invoice. Then, click Save to save all changes.
 
-![The Pro-Forma Invoice feature setting in the Odoo Sales application.](proforma/pro-forma-setting.png)
+![The Pro-Forma Invoice feature setting in the Odoo Sales application.](../../../../.gitbook/assets/pro-forma-setting.png)
 
 ## Send pro-forma invoice
 
 With the Pro-Forma Invoice feature activated, the option to send a pro-forma invoice is
 now available on any quotation or sales order, via the Send Pro-Forma Invoice button.
 
-![The Send Pro-Forma Invoice button on a typical sales order in Odoo Sales.](proforma/send-pro-forma-invoice-button.png)
+![The Send Pro-Forma Invoice button on a typical sales order in Odoo Sales.](../../../../.gitbook/assets/send-pro-forma-invoice-button.png)
 
 #### NOTE
 Pro-forma invoices can **not** be sent for a sales order or quotation if an invoice for a down
@@ -46,7 +46,7 @@ The pro-forma invoice is automatically added as an attachment to the email.
 When ready, click Send, and Odoo instantly sends the email, with the attached pro-forma
 invoice, to the customer.
 
-![The email pop-up window that appears with pro-forma invoice attached in Odoo Sales.](proforma/pro-forma-email-message-pop-up.png)
+![The email pop-up window that appears with pro-forma invoice attached in Odoo Sales.](../../../../.gitbook/assets/pro-forma-email-message-pop-up.png)
 
 #### SEE ALSO
-[Invoice based on delivered or ordered quantities](invoicing_policy.md)
+[Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)

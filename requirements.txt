@@ -1,1 +1,6 @@
-sphinx_markdown_builder
+# git+https://github.com/tekniq-vn/sphinx-markdown-builder.git@main
+
+-e ./sphinx-markdown-builder
+
+
+

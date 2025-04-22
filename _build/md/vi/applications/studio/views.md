@@ -1,6 +1,6 @@
 # Lượt xem
 
-Views are the interface that allows displaying the data contained in a [model](models_modules_apps.md). One model can have several views, which are simply different ways to show
+Views are the interface that allows displaying the data contained in a [model](applications/studio/models_modules_apps.md). One model can have several views, which are simply different ways to show
 the same data. In Studio, views are organized into four categories: [general](#studio-views-general), [multiple records](#studio-views-multiple-records), [timeline](#studio-views-timeline), and [reporting](#studio-views-reporting).
 
 <a id="studio-views-general"></a>
@@ -24,12 +24,12 @@ contacts, sales orders, products, etc.
   Can Edit, or Can Delete.
 - To add a button, click Add a button at the top of the form, enter a Label,
   and select the button's action:
-  - Run a Server Action: select the [server action](../../developer/reference/backend/actions.md#reference-actions-server) to
+  - Run a Server Action: select the [server action](developer/reference/backend/actions.md#reference-actions-server) to
     be executed from the dropdown list;
   - Call a method: specify an existing Python method already defined in Odoo.
 - To add a smart button, click the <i class="fa fa-plus-square"></i> (plus) icon in the top-right
   corner of the form. Enter a Label, choose an Icon, and select a
-  [related field](fields.md#studio-fields-relational-fields-related-field).
+  [related field](applications/studio/fields.md#studio-fields-relational-fields-related-field).
 
 <a id="studio-views-general-activity"></a>
 
@@ -98,7 +98,7 @@ records, and edit simple records.
 - To set a default grouping for records, select a field under Default Group By.
 - To add a button, click Add a button at the top of the list, enter a Label,
   and select the button's action:
-  - Run a Server Action: select the [server action](../../developer/reference/backend/actions.md#reference-actions-server) to
+  - Run a Server Action: select the [server action](developer/reference/backend/actions.md#reference-actions-server) to
     be executed from the dropdown list;
   - Call a method: specify an existing Python method already defined in Odoo.
 
@@ -110,7 +110,7 @@ The Map <i class="fa fa-map-marker"></i> view is used to display records on a ma
 is used in the Field Service app to plan an itinerary between different tasks.
 
 #### NOTE
-A [Many2One field](fields.md#studio-fields-relational-fields-many2one) linked to the *Contact* model
+A [Many2One field](applications/studio/fields.md#studio-fields-relational-fields-many2one) linked to the *Contact* model
 is required to activate the view, as the contact address is used to position records on the map.
 
 - To select which kind of contact should be used on the map, select it under Contact
@@ -126,7 +126,7 @@ is required to activate the view, as the contact address is used to position rec
 ## Chế độ xem dòng thời gian
 
 #### NOTE
-- When you first activate one of the timeline views, you need to select which [Date](fields.md#studio-fields-simple-fields-date) or [Date & Time](fields.md#studio-fields-simple-fields-date-time) fields on your model should be used to define when the
+- When you first activate one of the timeline views, you need to select which [Date](applications/studio/fields.md#studio-fields-simple-fields-date) or [Date & Time](applications/studio/fields.md#studio-fields-simple-fields-date-time) fields on your model should be used to define when the
   records start and stop in order to display them on the view. You can modify the
   Start Date Field and Stop Date Field after activating the view.
 - The settings described below are found under the view's View tab unless specified
@@ -151,13 +151,13 @@ calendar.
   #### NOTE
   As the number of colors is limited, the same color can end up being assigned to different
   values.
-- To display events lasting the whole day at the top of the calendar, select a [Checkbox field](fields.md#studio-fields-simple-fields-checkbox) that specifies if the event lasts the whole day.
+- To display events lasting the whole day at the top of the calendar, select a [Checkbox field](applications/studio/fields.md#studio-fields-simple-fields-checkbox) that specifies if the event lasts the whole day.
 - To choose the default time scale used to display events, select Day, Week,
   Month, or Year under Default Display Mode.
 
 #### NOTE
 You can also use a Delay Field to display the duration of the event in hours by
-selecting a [Decimal](fields.md#studio-fields-simple-fields-decimal) or [Integer](fields.md#studio-fields-simple-fields-integer) field on the model which specifies the duration of the
+selecting a [Decimal](applications/studio/fields.md#studio-fields-simple-fields-decimal) or [Integer](applications/studio/fields.md#studio-fields-simple-fields-integer) field on the model which specifies the duration of the
 event. However, if you set an End Date Field, the Delay Field will not be
 taken into account.
 

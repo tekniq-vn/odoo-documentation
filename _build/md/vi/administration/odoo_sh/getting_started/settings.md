@@ -4,13 +4,13 @@
 
 Các cài đặt cho phép bạn quản lý cấu hình của dự án.
 
-![image](settings/interface-settings.png)
+![image](../../../.gitbook/assets/interface-settings.png)
 
 ## Tên dự án
 
 Tên dự án của bạn.
 
-![image](settings/interface-settings-projectname.png)
+![image](../../../.gitbook/assets/interface-settings-projectname.png)
 
 Thông tin này xác định địa chỉ sẽ được sử dụng để truy cập vào cơ sở dữ liệu production của bạn.
 
@@ -22,7 +22,7 @@ Thông tin này xác định địa chỉ sẽ được sử dụng để truy c
 
 Quản lý người dùng Github có thể truy cập vào dự án của bạn.
 
-![image](settings/interface-settings-collaborators.png)
+![image](../../../.gitbook/assets/interface-settings-collaborators.png)
 
 Có ba cấp độ người dùng:
 
@@ -66,7 +66,7 @@ Những vai trò đó chỉ áp dụng cho việc sử dụng Odoo.sh. Điều q
 
 Cấp quyền truy cập công khai vào bản dựng phát triển của bạn.
 
-![image](settings/interface-settings-public.png)
+![image](../../../.gitbook/assets/interface-settings-public.png)
 
 Nếu được kích hoạt, tùy chọn này sẽ hiển thị công khai trang Bản dựng, cho phép khách truy cập xem lịch sử bản dựng phát triển của bạn.
 
@@ -90,7 +90,7 @@ Trạng thái commit được push lên GitHub có thể có các bối cảnh s
 
 ## Miền tuỳ chỉnh
 
-Để cấu hình các miền bổ sung, vui lòng tham khảo [phần cài đặt](branches.md#odoosh-gettingstarted-branches-tabs-settings) của nhánh.
+Để cấu hình các miền bổ sung, vui lòng tham khảo [phần cài đặt](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings) của nhánh.
 
 <a id="odoosh-gettingstarted-settings-submodules"></a>
 
@@ -107,7 +107,7 @@ Các cài đặt này chỉ bắt buộc đối với **kho lưu trữ riêng t�
 
 Phân hệ phụ <odoosh-advanced-submodules> của tài liệu này.
 
-![image](settings/interface-settings-submodules.png)
+![image](../../../.gitbook/assets/interface-settings-submodules.png)
 
 Khi một kho lưu trữ được đặt là riêng tư, thì sẽ không thể công khai tải xuống các nhánh và bản sửa đổi của nó. Do đó, bạn cần cấu hình mã khóa triển khai cho Odoo.sh, để máy chủ Git từ xa cho phép nền tảng của chúng tôi tải xuống các bản sửa đổi của kho lưu trữ riêng tư này.
 
@@ -128,7 +128,7 @@ Khi một kho lưu trữ được đặt là riêng tư, thì sẽ không thể 
 
 Phần này hiển thị kích thước lưu trữ mà dự án của bạn sử dụng.
 
-![image](settings/interface-settings-storage.png)
+![image](../../../.gitbook/assets/interface-settings-storage.png)
 
 Kích thước lưu trữ được tính như sau:
 
@@ -144,7 +144,7 @@ Nếu kích thước cơ sở dữ liệu production của bạn tăng quá mứ
 
 Bạn có thể cấu hình thêm các worker cơ sở dữ liệu tại đây. Việc có nhiều worker hơn giúp tăng tải lượng mà cơ sở dữ liệu production của bạn có thể xử lý. Nếu bạn thêm nhiều worker hơn, nó sẽ tự động được đồng bộ hóa với gói đăng ký của bạn.
 
-![image](settings/interface-settings-workers.png)
+![image](../../../.gitbook/assets/interface-settings-workers.png)
 
 #### WARNING
 Việc tăng worker sẽ không hoàn toàn giải quyết được mọi vấn đề về hiệu suất, mà điều này chỉ cho phép máy chủ xử lý nhiều kết nối hơn cùng một lúc. Nếu một số thao tác chậm bất thường, thì rất có thể là do vấn đề về mã. Trong trường hợp không phải do tùy chỉnh của bạn, bạn có thể mở phiếu hỗ trợ [tại đây](https://www.odoo.com/help).
@@ -153,10 +153,10 @@ Việc tăng worker sẽ không hoàn toàn giải quyết được mọi vấn 
 
 Các nhánh staging bổ sung cho phép bạn phát triển và kiểm thử nhiều tính năng hơn cùng lúc. Nếu bạn tăng nhánh staging, nó sẽ tự động được đồng bộ hóa với gói đăng ký của bạn.
 
-![image](settings/interface-settings-staging-branches.png)
+![image](../../../.gitbook/assets/interface-settings-staging-branches.png)
 
 ## Kích hoạt
 
 Hiển thị trạng thái kích hoạt của dự án. Bạn có thể thay đổi mã kích hoạt của dự án nếu cần.
 
-![image](settings/interface-settings-activation.png)
+![image](../../../.gitbook/assets/interface-settings-activation.png)

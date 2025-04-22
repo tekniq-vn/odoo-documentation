@@ -11,9 +11,9 @@ where the various campaign activities are located, a collection of useful data c
 individual activity block, like number of communications Sent, percentage of messages
 that have been Clicked, and more.
 
-![An activity block in the workflow section with useful analytical data in Odoo.](understanding_metrics/activity-analytics-block-sample.png)
+![An activity block in the workflow section with useful analytical data in Odoo.](../../../.gitbook/assets/activity-analytics-block-sample.png)
 
-To the left of the activity block, the configured [trigger time](workflow_activities.md) is
+To the left of the activity block, the configured [trigger time](applications/marketing/marketing_automation/workflow_activities.md) is
 displayed as a duration (either Hours, Days, Weeks, or
 Months) if it corresponds to period after the workflow begins.
 
@@ -22,7 +22,7 @@ If the trigger time is dependent on another activity or triggering action (e.g. 
 Replied, etc.) the time is displayed, along with the necessary action for that activity to be
 activated (e.g. `Replied after 2 Hours`).
 
-![Time trigger display when dependent on another activity in Odoo Marketing Automation.](understanding_metrics/replied-after-activity-time-trigger.png)
+![Time trigger display when dependent on another activity in Odoo Marketing Automation.](../../../.gitbook/assets/replied-after-activity-time-trigger.png)
 
 In the activity block, an icon represents each activity type. An ✉️ (envelope) icon
 means the activity is an email. Three tiny, interlocking ⚙️ (gear) icons means the
@@ -37,7 +37,7 @@ activity, in which that activity can be modified. Click the Delete button to com
 delete that specific activity from the workflow.
 
 #### SEE ALSO
-[Campaign workflow activities](workflow_activities.md)
+[Campaign workflow activities](applications/marketing/marketing_automation/workflow_activities.md)
 
 ### Activity graph tab
 
@@ -58,7 +58,7 @@ Bounced (percentage).
 Next to the Graph tab on the activity block, there's the option to open a
 Filter tab (represented by a filter/funnel icon).
 
-![What a campaign activity filter tab looks like in Odoo Marketing Automation.](understanding_metrics/activity-filter-tab.png)
+![What a campaign activity filter tab looks like in Odoo Marketing Automation.](../../../.gitbook/assets/activity-filter-tab.png)
 
 Clicking the Filter tab on an activity block, reveals what the specific filters are for
 that particular campaign activity, and how many records in the database match that specific
@@ -70,7 +70,7 @@ Odoo tracks all URLs used in marketing campaigns. To access and analyze those UR
 Marketing Automation app ‣ Reporting ‣ Link Tracker. Doing so reveals a
 Link Statistics page, wherein all campaign-related URLs can be analyzed.
 
-![What a campaign activity filter tab looks like in Odoo Marketing Automation.](understanding_metrics/campaign-link-tracker.png)
+![What a campaign activity filter tab looks like in Odoo Marketing Automation.](../../../.gitbook/assets/campaign-link-tracker.png)
 
 The default view on the Link Statistics page is the Bar Chart view, but
 there are different view options available in the upper-left corner. There is the option to view the
@@ -94,7 +94,7 @@ Odoo tracks all activities used in every marketing campaign. The data related to
 can be accessed and analyzed in the Traces page, which can be found by navigating to
 Marketing Automation app ‣ Reporting ‣ Traces.
 
-![The Traces page in the Odoo Marketing Automation application.](understanding_metrics/traces-page-marketing-automation.png)
+![The Traces page in the Odoo Marketing Automation application.](../../../.gitbook/assets/traces-page-marketing-automation.png)
 
 The default view on the Traces page is the Bar Chart view, but there are
 different view options available in the upper-left corner. There is the option to view the
@@ -123,7 +123,7 @@ Odoo tracks all participants related to every marketing campaign. The data relat
 participants can be accessed and analyzed in the Participants page, which can be found
 by navigating to Marketing Automation app ‣ Reporting ‣ Participants.
 
-![The Participants page in the Odoo Marketing Automation application.](understanding_metrics/participants-page-marketing-automation.png)
+![The Participants page in the Odoo Marketing Automation application.](../../../.gitbook/assets/participants-page-marketing-automation.png)
 
 The default view on the Participants page is the Pie Chart view, but there
 are different view options available in the upper-left corner. There is the option to view the

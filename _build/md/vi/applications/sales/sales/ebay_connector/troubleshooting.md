@@ -3,9 +3,9 @@
 #### SEE ALSO
 To learn more about the eBay connector visit these pages as well:
 
-- [eBay connector setup](setup.md)
-- [How to list a product?](manage.md)
-- [Linking existing listings](linking_listings.md)
+- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)
+- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
+- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
 
 ## Accept account deletion notifications
 
@@ -36,14 +36,14 @@ administrator must make sure that the Odoo source code is up-to-date.
 - If the company uses Odoo on Odoo.com or Odoo.sh platform, the code is already up-to-date, so
   proceed to the next step.
 - If the company uses Odoo with an on-premise setup or through a partner, then the administrator
-  must update the installation as detailed in [this documentation page](../../../../administration/on_premise/update.md) or by contacting an integrating partner.
+  must update the installation as detailed in [this documentation page](administration/on_premise/update.md) or by contacting an integrating partner.
 
 #### Update the list of available modules
 
 New modules must be *discovered* by the Odoo instance to be available in the Apps
 menu.
 
-To do so, activate the [developer mode](../../../general/developer_mode.md#developer-mode), and go to Apps ->
+To do so, activate the [developer mode](applications/general/developer_mode.md#developer-mode), and go to Apps ->
 Update Apps List. A wizard will ask for confirmation.
 
 #### Install the eBay Connector - Account Deletion update
@@ -70,7 +70,7 @@ First, input random text values for the Production App Key and for the
 Production Cert Key. Click on Generate Token to retrieve the
 Verification Token.
 
-![Generate a verification token in Odoo.](troubleshooting/generate-token.png)
+![Generate a verification token in Odoo.](../../../../.gitbook/assets/generate-token1.png)
 
 <a id="ebay-subscribe-account-deletion-notifications"></a>
 
@@ -80,7 +80,7 @@ Navigate to the [eBay developer portal](https://go.developer.ebay.com/). Configu
 deletion/notification settings in eBay by navigating to the `Hi [username]` at the top right of
 screen, then go to Alerts & Notifications.
 
-![Overview of the Alerts & Notifications dashboard of eBay](troubleshooting/ebay-your-account.png)
+![Overview of the Alerts & Notifications dashboard of eBay](../../../../.gitbook/assets/ebay-your-account.png)
 
 To subscribe to deletion/closure notifications, eBay needs a few details:
 
@@ -89,7 +89,7 @@ To subscribe to deletion/closure notifications, eBay needs a few details:
   - The URL to Odoo's account deletion notification endpoint
   - A verification token
 
-![Dedicated fields to enter the endpoint details](troubleshooting/ebay-notification-endpoint.png)
+![Dedicated fields to enter the endpoint details](../../../../.gitbook/assets/ebay-notification-endpoint.png)
 
 ### Verify the connectivity with the endpoint
 
@@ -97,9 +97,9 @@ After setting the retrieved endpoint details in eBay's dashboard, consider testi
 with the Send Test Notification button.
 
 > The following confirmation message should be received: "A test notification was sent successfully!"
-![Button to send test notification](troubleshooting/test-notification.png)
+![Button to send test notification](../../../../.gitbook/assets/test-notification.png)
 
 #### SEE ALSO
-- [How to list a product?](manage.md)
-- [Linking existing listings](linking_listings.md)
-- [eBay connector setup](setup.md)
+- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
+- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
+- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)

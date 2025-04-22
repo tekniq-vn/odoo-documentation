@@ -3,15 +3,15 @@
 Ứng dụng *Giới thiệu* của Odoo là nơi tập trung lưu trữ mọi thông tin liên quan đến giới thiệu - từ điểm kiếm được, đồng nghiệp được tuyển dụng và phần thưởng đã chọn. Người dùng có thể giới thiệu những người họ biết cho các vị trí công việc, sau đó kiếm điểm giới thiệu khi những người đó tiến triển trong chu trình tuyển dụng. Khi kiếm đủ điểm giới thiệu, chúng có thể được đổi lấy giải thưởng. Ứng dụng *Giới thiệu* tích hợp với các ứng dụng *Nhân viên*, *Tuyển dụng* và *Trang web*, tất cả đều phải được cài đặt để ứng dụng *Giới thiệu* hoạt động.
 
 The only configurations needed for the *Referrals* application *after* it has been installed, are
-related to the [rewards](referrals/rewards.md); everything else is pre-configured when Odoo
+related to the [rewards](applications/hr/referrals/rewards.md); everything else is pre-configured when Odoo
 *Referrals* is installed.
 
 Users with either Referral User, Officer, or Administrator
 access rights for the *Recruitment* application have access to the *Referrals* application. Only
 users with Administrator access rights for the *Recruitment* application have access to
-the [reporting](referrals/reporting.md) and configurations menus. For more information on users
-and access rights, refer to these documents: [Người dùng](../general/users.md) and
-[Quyền truy cập](../general/users/access_rights.md).
+the [reporting](applications/hr/referrals/reporting.md) and configurations menus. For more information on users
+and access rights, refer to these documents: [Người dùng](applications/general/users.md) and
+[Quyền truy cập](applications/general/users/access_rights.md).
 
 <a id="referrals-onboarding"></a>
 
@@ -37,7 +37,7 @@ At any point during onboarding, the Skip button may be clicked. This exits the
 onboarding, and the main *Referrals* dashboard loads. If Skip is clicked, onboarding
 slides will not load anymore when opening the *Referrals* application.
 
-![An onboarding slide with the skip and next buttons visible at the bottom.](referrals/onboarding.png)
+![An onboarding slide with the skip and next buttons visible at the bottom.](../../.gitbook/assets/onboarding.png)
 
 #### NOTE
 If there are any candidates hired that the user had referred prior to opening the Referrals app
@@ -57,13 +57,13 @@ The Company field only appears when in a multi-company database.
 
 Hình ảnh cũng có thể được chỉnh sửa. Di chuột qua hình thu nhỏ của hình ảnh ở góc trên bên phải của biểu mẫu. Biểu tượng :guilabel: `✏️ (bút chì)` và biểu tượng :guilabel: `🗑️ (thùng rác)` sẽ xuất hiện. Nhấp vào biểu tượng :guilabel: `✏️ (bút chì)` để thay đổi hình ảnh. Cửa sổ trình duyệt tệp sẽ tải. Điều hướng đến hình ảnh mong muốn, chọn hình ảnh đó, sau đó nhấp vào :guilabel: `Mở`. Hình ảnh mới sẽ xuất hiện trong hình thu nhỏ. Để xóa hình ảnh, hãy nhấp vào biểu tượng :guilabel: `🗑️ (thùng rác)`, sau đó chọn hình ảnh mới bằng biểu tượng :guilabel: `✏️ (bút chì)`.
 
-![An onboarding slide in edit mode, with the main fields highlighted.](referrals/edit-onboarding.png)
+![An onboarding slide in edit mode, with the main fields highlighted.](../../.gitbook/assets/edit-onboarding.png)
 
 The sequence in which the slides appear can be changed from the *Onboarding* dashboard. Click the
 (six small gray boxes) icon to the left of the the slide text, and drag the slide to the
 desired position.
 
-![The onboarding slides in a list, with the drag and drop arrows highlighted.](referrals/onboarding-reorder.png)
+![The onboarding slides in a list, with the drag and drop arrows highlighted.](../../.gitbook/assets/onboarding-reorder.png)
 
 <a id="referrals-hired"></a>
 
@@ -83,7 +83,7 @@ beneath the avatar. Click on an available avatar to select it.
 Nếu có nhiều hơn một người được giới thiệu đã được tuyển dụng kể từ khi mở ứng dụng *Giới thiệu*, sau khi chọn hình đại diện đầu tiên, người dùng sẽ được nhắc chọn hình đại diện khác cho những người được giới thiệu tiếp theo. Sau khi đã chọn xong tất cả hình đại diện, trang chủ sẽ tải và hiển thị tất cả các hình đại diện. Di chuột qua từng hình đại diện để hiển thị tên của họ ở phía trên.
 
 ![The hired screen. A selection of avatars are presented to chose from, with any already
-chosen are greyed out.](referrals/avatars.png)
+chosen are greyed out.](../../.gitbook/assets/avatars.png)
 
 ### Modify friends
 
@@ -106,7 +106,7 @@ The referral friend form automatically saves, but can be saved manually at any t
 corner. To cancel any changes made, click the ✖️ (Discard all changes) icon to delete
 any changes, and revert to the original content.
 
-![A friend form in edit mode.](referrals/edit-friend.png)
+![A friend form in edit mode.](../../.gitbook/assets/edit-friend.png)
 
 #### WARNING
 It is not advised to edit the images. An image file must have a transparent background in order
@@ -149,7 +149,7 @@ manually* option, represented by a (cloud upload) icon, located in the top-left 
 To cancel any changes made, click the ✖️ (Discard all changes) icon to delete any
 changes, and revert to the original content.
 
-![A level form in edit mode.](referrals/levels.png)
+![A level form in edit mode.](../../.gitbook/assets/levels.png)
 
 #### WARNING
 It is not advised to edit the images. An image file must have a transparent background in order
@@ -175,7 +175,7 @@ Leveling up does not cost the user any points, the user simply needs to earn the
 points required.
 
 ![A 'Click to level up!' appears beneath the user's image, and a large 'Level up!' appears
-above their image.](referrals/level-up.png)
+above their image.](../../.gitbook/assets/level-up.png)
 
 #### NOTE
 Once a user has reached the highest configured level, they will continue to accrue points that
@@ -183,30 +183,30 @@ can be redeemed for rewards, but they are no longer able to level up. The ring a
 remains solid cyan.
 
 #### SEE ALSO
-- [Share job positions](referrals/share_jobs.md)
-- [Referral points](referrals/points.md)
-- [Phần thưởng](referrals/rewards.md)
-- [Cảnh báo](referrals/alerts.md)
-- [Báo cáo](referrals/reporting.md)
+- [Share job positions](applications/hr/referrals/share_jobs.md)
+- [Referral points](applications/hr/referrals/points.md)
+- [Phần thưởng](applications/hr/referrals/rewards.md)
+- [Cảnh báo](applications/hr/referrals/alerts.md)
+- [Báo cáo](applications/hr/referrals/reporting.md)
 
-* [Share job positions](referrals/share_jobs.md)
-  * [Xem công việc](referrals/share_jobs.md#view-jobs)
-  * [Refer friends](referrals/share_jobs.md#refer-friends)
-  * [Share a job](referrals/share_jobs.md#share-a-job)
-    * [Liên kết](referrals/share_jobs.md#link)
-    * [Facebook](referrals/share_jobs.md#facebook)
-    * [X (trước đây là Twitter)](referrals/share_jobs.md#x-formerly-twitter)
-    * [LinkedIn](referrals/share_jobs.md#linkedin)
-    * [Gửi email cho một người bạn](referrals/share_jobs.md#email-a-friend)
-* [Referral points](referrals/points.md)
-  * [My referrals](referrals/points.md#my-referrals)
-    * [Điểm](referrals/points.md#points)
-* [Phần thưởng](referrals/rewards.md)
-  * [Create rewards](referrals/rewards.md#create-rewards)
-  * [Redeem rewards](referrals/rewards.md#redeem-rewards)
-* [Cảnh báo](referrals/alerts.md)
-  * [Create an alert](referrals/alerts.md#create-an-alert)
-  * [Dismiss an alert](referrals/alerts.md#dismiss-an-alert)
-* [Báo cáo](referrals/reporting.md)
-  * [Employees referral analysis report](referrals/reporting.md#employees-referral-analysis-report)
-    * [Use case: hired referrals](referrals/reporting.md#use-case-hired-referrals)
+* [Share job positions](applications/hr/referrals/share_jobs.md)
+  * [Xem công việc](applications/hr/referrals/share_jobs.md#view-jobs)
+  * [Refer friends](applications/hr/referrals/share_jobs.md#refer-friends)
+  * [Share a job](applications/hr/referrals/share_jobs.md#share-a-job)
+    * [Liên kết](applications/hr/referrals/share_jobs.md#link)
+    * [Facebook](applications/hr/referrals/share_jobs.md#facebook)
+    * [X (trước đây là Twitter)](applications/hr/referrals/share_jobs.md#x-formerly-twitter)
+    * [LinkedIn](applications/hr/referrals/share_jobs.md#linkedin)
+    * [Gửi email cho một người bạn](applications/hr/referrals/share_jobs.md#email-a-friend)
+* [Referral points](applications/hr/referrals/points.md)
+  * [My referrals](applications/hr/referrals/points.md#my-referrals)
+    * [Điểm](applications/hr/referrals/points.md#points)
+* [Phần thưởng](applications/hr/referrals/rewards.md)
+  * [Create rewards](applications/hr/referrals/rewards.md#create-rewards)
+  * [Redeem rewards](applications/hr/referrals/rewards.md#redeem-rewards)
+* [Cảnh báo](applications/hr/referrals/alerts.md)
+  * [Create an alert](applications/hr/referrals/alerts.md#create-an-alert)
+  * [Dismiss an alert](applications/hr/referrals/alerts.md#dismiss-an-alert)
+* [Báo cáo](applications/hr/referrals/reporting.md)
+  * [Employees referral analysis report](applications/hr/referrals/reporting.md#employees-referral-analysis-report)
+    * [Use case: hired referrals](applications/hr/referrals/reporting.md#use-case-hired-referrals)

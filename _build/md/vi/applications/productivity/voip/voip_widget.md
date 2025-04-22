@@ -21,7 +21,7 @@ The  number is the one provided by Axivox. It can be
 accessed by navigating to [https://manage.axivox.com/](https://manage.axivox.com/). After
 logging into the portal, go to Users ‣ Outgoing number (column).
 
-![VoIP call in Odoo.](voip_widget/call.png)
+![VoIP call in Odoo.](../../../.gitbook/assets/call.png)
 
 ## Khắc phục sự cố
 
@@ -50,7 +50,7 @@ The user can also mark the activity as complete, edit the details of the activit
 To call the customer related to a scheduled activity, click the 📞 (phone) icon, or
 click the ⌨️ (keyboard) icon to dial another number for the customer.
 
-![Activity control center on the VoIP widget.](voip_widget/activity-widget.png)
+![Activity control center on the VoIP widget.](../../../.gitbook/assets/activity-widget.png)
 
 Some other icons appear in the *VoIP* widget, categorized by two sections: Document and
 Activity.

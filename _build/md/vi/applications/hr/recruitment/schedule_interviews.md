@@ -35,7 +35,7 @@ Attendees section, located to the right of the calendar.
 To change the currently loaded meetings and events being displayed, uncheck an attendee whose
 calendar events are to be hidden. Only the checked attendees are visible on the calendar.
 
-![The calendar view, highlighting how to change the displayed meetings.](schedule_interviews/calendar.png)
+![The calendar view, highlighting how to change the displayed meetings.](../../../.gitbook/assets/calendar.png)
 
 To add a meeting to the calendar when in the *Day* or *Week* view, click on the start time of the
 meeting and drag down to the end time. Doing so selects the date, time, and the length of the
@@ -122,7 +122,7 @@ window. Enter any of the following additional fields:
   meeting participants of the meeting, via the selected option at the specified time. Multiple
   reminders can be selected in this field.
 
-![A new meeting card with all the details populated, and ready to save.](schedule_interviews/new-event.png)
+![A new meeting card with all the details populated, and ready to save.](../../../.gitbook/assets/new-event.png)
 
 ### Send meeting to attendees
 
@@ -139,7 +139,7 @@ using the default Calendar: Event Update email template, populates the email bod
 
 Những người theo dõi đơn ứng tuyển, cũng như người dùng đã tạo cuộc họp, được thêm vào dưới dạng Người nhận theo mặc định. Nếu cần, hãy thêm địa chỉ email của ứng viên vào danh sách để gửi email cho họ. Thực hiện bất kỳ thay đổi mong muốn nào khác cho email. Nếu cần tệp đính kèm, hãy nhấp vào nút Tệp đính kèm, đi đến tệp, sau đó nhấp vào Mở. Khi email đã sẵn sàng để gửi, hãy nhấp vào Gửi.
 
-![Enter the information to send the event via email.](schedule_interviews/email-event.png)
+![Enter the information to send the event via email.](../../../.gitbook/assets/email-event.png)
 
 To send the meeting via text message, click the <i class="fa fa-mobile"></i> SMS button next to
 the Attendees field on the expanded meeting form. A Send SMS Text Message
@@ -158,12 +158,12 @@ GSM7 criteria) appears beneath the Message field. Click Put In Queue to have
 the text sent later, after any other messages are scheduled, or click Send Now to send
 the message immediately.
 
-![Send a text message to the attendees of the meeting.](schedule_interviews/send-sms.png)
+![Send a text message to the attendees of the meeting.](../../../.gitbook/assets/send-sms.png)
 
 #### NOTE
 Sending text messages is **not** a default capability with Odoo. To send text messages, credits
 are required, which need to be purchased. For more information on IAP credits and plans, refer to
-the [Mua hàng trong ứng dụng (IAP)](../../essentials/in_app_purchase.md) documentation.
+the [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md) documentation.
 
 <a id="recruitment-schedule-interviews-applicant-scheduled"></a>
 
@@ -193,13 +193,13 @@ upper-right hand side of the stage name. Click the <i class="fa fa-cog"></i> (ge
 drop-down menu appears. Then, click on the Edit option, and an Edit: (Stage)
 form appears.
 
-![The drop-down that appears after clicking the cog.](schedule_interviews/edit-stage.png)
+![The drop-down that appears after clicking the cog.](../../../.gitbook/assets/edit-stage.png)
 
 The Email Template field is blank, by default. Using the drop-down menu, select
 Recruitment: Schedule interview for the Email Template field, then click
 Save & Close when done.
 
-![The Recruitment: Schedule Interview email template populating the Email Template field.](schedule_interviews/interview-template.png)
+![The Recruitment: Schedule Interview email template populating the Email Template field.](../../../.gitbook/assets/interview-template.png)
 
 ### Gửi email
 
@@ -230,7 +230,7 @@ the format and length of the meeting. In this example. the interview is virtual
 Đầu tiên, nếu có thể lựa chọn người để gặp, người dùng chọn người mà họ muốn đặt lịch hẹn bằng cách nhấp vào biểu tượng và tên của người đó. Nếu chỉ có sẵn một người để phỏng vấn ứng viên, bước này sẽ không khả dụng. Nếu ứng viên không muốn chọn người phỏng vấn, họ có thể nhấp trực tiếp vào Xem tất cả khung giờ trống <i class="fa fa-arrow-right"></i>.
 
 ![The first screen seen after clicking 'Plan my interview', where the applicant selects their
-interviewer.](schedule_interviews/select-interviewer.png)
+interviewer.](../../../.gitbook/assets/select-interviewer.png)
 
 #### NOTE
 If the applicant selects an interviewer, the applicant is shown a Select a date &
@@ -245,7 +245,7 @@ date & time page, but there is no OPERATOR section visible.
 Then the applicant clicks on an available day on the calendar, signified by a square around the
 date. Once a day is selected, they click on one of the available times to select that date and time.
 
-![The calendar screen with dates and times to schedule an interview.](schedule_interviews/select-date-time.png)
+![The calendar screen with dates and times to schedule an interview.](../../../.gitbook/assets/select-date-time.png)
 
 Once the date and time are selected, the applicant is navigated to an Add more details
 about you page. This page asks the applicant to enter their Full name,
@@ -255,7 +255,7 @@ the applicant is contacted to remind them about the scheduled interview.
 When everything is entered on the Add more details about you page, the applicant clicks
 the Confirm Appointment button, and the interview is scheduled.
 
-![The confirmation page with all the details for the interview displayed.](schedule_interviews/confirmation.png)
+![The confirmation page with all the details for the interview displayed.](../../../.gitbook/assets/confirmation.png)
 
 After confirming the interview, the applicant is taken to a confirmation page, where all the details
 of the interview are displayed. The option to add the meeting to the applicant's personal calendars

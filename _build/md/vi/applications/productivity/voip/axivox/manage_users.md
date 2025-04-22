@@ -98,7 +98,7 @@ specific country code.
 
 For a list of comprehensive country codes, visit: [https://countrycode.org](https://countrycode.org).
 
-![General tab layout in the Axivox management console.](manage_users/general-tab.png)
+![General tab layout in the Axivox management console.](../../../../.gitbook/assets/general-tab.png)
 
 In the Voicemail field, select either Yes or No from the
 drop-down menu.
@@ -150,7 +150,7 @@ When clicked, they can then set the Destination (user) and time frame. Should th
 original user's  extension, or incoming number, be busy,
 the call is forwarded to the destination(s).
 
-![Manage forwarding calls to different users or phone numbers in the Forwardings tab.](manage_users/forwardings-tab.png)
+![Manage forwarding calls to different users or phone numbers in the Forwardings tab.](../../../../.gitbook/assets/forwardings-tab.png)
 
 When the desired configurations are complete, click Save, then click Apply
 changes in the upper-right corner of the page.
@@ -173,12 +173,12 @@ The original user's  number does **not** ring with
 this option selected. Ring times can also be staggered, so the call is forwarded to another user
 after the first user does not pick up the call.
 
-![Ring destinations like different users or phone numbers from the Follow Me tab.](manage_users/follow-me-tab.png)
+![Ring destinations like different users or phone numbers from the Follow Me tab.](../../../../.gitbook/assets/follow-me-tab.png)
 
 #### IMPORTANT
 The Odoo mobile app, or another  mobile client, allows
 for simultaneous ringing of the user's extension or incoming number. For more information, visit
-the [VoIP Mobile Integrations](../devices_integrations.md) documentation.
+the [VoIP Mobile Integrations](applications/productivity/voip/devices_integrations.md) documentation.
 
 Once all desired configurations are complete, click Save, then click Apply
 changes in the upper-right corner.
@@ -201,7 +201,7 @@ These actions can be set on each number:
 - Pickup: this action allows the user to pick up an incoming call from a desk-phone.
 
 ![Manage user page with Keys tab highlighted and number 2 key drop-down menu selected (with
-highlight)](manage_users/user-keys.png)
+highlight)](../../../../.gitbook/assets/user-keys.png)
 
 Once all the desired configurations are complete, click Save, then click
 Apply changes in the upper-right corner.
@@ -225,8 +225,8 @@ form, contains credentials needed to configure Axivox users in Odoo and/or a dif
 #### SEE ALSO
 See the documentation on configuring Axivox, using the SIP identifiers:
 
-- [Use VoIP services in Odoo with Axivox](axivox_config.md)
-- [Axivox Mobile Integrations](../devices_integrations.md)
+- [Use VoIP services in Odoo with Axivox](applications/productivity/voip/axivox/axivox_config.md)
+- [Axivox Mobile Integrations](applications/productivity/voip/devices_integrations.md)
 
 Under the SIP Identifiers tab, the SIP username field represents the user's
 information that was entered in the Extension field, under the General tab.
@@ -236,7 +236,7 @@ The Domain field is assigned to the company by the Axivox representative.
 The value in the SIP Password field is unique for every Axivox user. This value is used
 to sign into Axivox on Odoo, and for any mobile  clients.
 
-![Important credentials used for external configurations of Axivox VoIP.](manage_users/sip-identifiers-tab.png)
+![Important credentials used for external configurations of Axivox VoIP.](../../../../.gitbook/assets/sip-identifiers-tab.png)
 
 The value listed in the Address of the proxy server field is typically:
 `pabx.axivox.com`, but is subject to change by Axivox, so be sure to check the SIP
@@ -292,7 +292,7 @@ Apply changes in the upper-right corner.
 Upon finishing the setup for a new user, an [Incoming numbers](#voip-axivox-incoming-number) can be linked.
 
 ![Manage a user page, with the permissions tab highlighted, along with the first permission
-highlighted indicating a no selection.](manage_users/user-permissions.png)
+highlighted indicating a no selection.](../../../../.gitbook/assets/user-permissions.png)
 
 <a id="voip-axivox-user-groups"></a>
 

@@ -54,7 +54,7 @@ The Integer field is used for all integer numbers ().
   value. The value cannot be edited on the UI, but a default value can be set.
 - Progress Bar: displays the value next to a percentage bar, usually for a computed
   value. The field cannot be edited manually, but a default value can be set.
-- Handle: displays a drag handle icon to order records manually in [List view](views.md#studio-views-multiple-records-list).
+- Handle: displays a drag handle icon to order records manually in [List view](applications/studio/views.md#studio-views-multiple-records-list).
 
 <a id="studio-fields-simple-fields-decimal"></a>
 
@@ -190,9 +190,9 @@ Radio, and Selection widgets have the same effects as described under
 The File field is used to upload any type of file, or sign a form (Sign
 widget).
 
-- Image: users can upload an image file, which is then displayed in [Form view](views.md#studio-views-general-form). This has the same effect as using the [Image field](#studio-fields-simple-fields-image).
+- Image: users can upload an image file, which is then displayed in [Form view](applications/studio/views.md#studio-views-general-form). This has the same effect as using the [Image field](#studio-fields-simple-fields-image).
 - PDF Viewer: users can upload a PDF file, which can be then browsed from the
-  [Form view](views.md#studio-views-general-form).
+  [Form view](applications/studio/views.md#studio-views-general-form).
 - Sign: users can electronically sign the form. This has the same effect as selecting
   the [Sign field](#studio-fields-simple-fields-sign).
 
@@ -200,7 +200,7 @@ widget).
 
 ### Image (`binary`)
 
-The Image field is used to upload an image and display it in [Form view](views.md#studio-views-general-form). This field type is a [File field](#studio-fields-simple-fields-file) with the Image widget selected by default.
+The Image field is used to upload an image and display it in [Form view](applications/studio/views.md#studio-views-general-form). This field type is a [File field](#studio-fields-simple-fields-file) with the Image widget selected by default.
 Consequently, the File, PDF Viewer, and Sign widgets have the
 same effects as described under [File](#studio-fields-simple-fields-file).
 
@@ -301,7 +301,7 @@ models. It uses an existing relationship to fetch and display information from a
 > for specific records only by clicking on Conditional and creating a filter.
 
 - Label: the field's name on the UI. This is not the name used in the PostgreSQL
-  database. To view and change the latter, activate the [developer mode](../general/developer_mode.md#developer-mode) and
+  database. To view and change the latter, activate the [developer mode](applications/general/developer_mode.md#developer-mode) and
   edit the Technical Name.
 - Help Tooltip: To explain the purpose of a field, add a description. The text is
   displayed inside a tooltip box when hovering with your mouse over the question mark beside the
@@ -313,9 +313,9 @@ models. It uses an existing relationship to fetch and display information from a
 - Default value: To display a default value in a field when a record is created, add a
   value.
 - Allow visibility to groups: To limit which users can view the field, select one or
-  more user access [groups](../general/users/access_rights.md#access-rights-groups).
+  more user access [groups](applications/general/users/access_rights.md#access-rights-groups).
 - Forbid visibility to groups: To prevent certain users from seeing the field, select
-  one or more user access [groups](../general/users/access_rights.md#access-rights-groups).
+  one or more user access [groups](applications/general/users/access_rights.md#access-rights-groups).
 
 <a id="studio-fields-properties-date-datetime"></a>
 

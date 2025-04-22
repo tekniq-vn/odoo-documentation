@@ -9,7 +9,7 @@ small JavaScript class subclassing the `Component` class.
 
 To get started, you need a running Odoo server and a development environment setup. Before getting
 into the exercises, make sure you have followed all the steps described in this
-[tutorial introduction](../discover_js_framework.md#tutorials-discover-js-framework-setup).
+[tutorial introduction](developer/tutorials/discover_js_framework.md#tutorials-discover-js-framework-setup).
 
 In this chapter, we use the `awesome_owl` addon, which provides a simplified environment that
 only contains Owl and a few other files. The goal is to learn Owl itself, without relying on Odoo
@@ -53,7 +53,7 @@ using the QWeb language:
 
 ## 1. Displaying a counter
 
-![image](01_owl_components/counter.png)
+![image](../../../.gitbook/assets/counter.png)
 
 As a first exercise, let us modify the `Playground` component located in
 `awesome_owl/static/src/` to turn it into a counter. To see the result, you can go to the
@@ -70,7 +70,7 @@ As a first exercise, let us modify the `Playground` component located in
 
 #### IMPORTANT
 Don't forget `/** @odoo-module **/` in your JavaScript files. More information on this can
-be found [here](../../reference/frontend/javascript_modules.md#frontend-modules-native-js).
+be found [here](developer/reference/frontend/javascript_modules.md#frontend-modules-native-js).
 
 This exercise showcases an important feature of Owl: the [reactivity system](https://github.com/odoo/owl/blob/master/doc/reference/reactivity.md).
 The `useState` function wraps a value in a proxy so Owl can keep track of which component
@@ -89,7 +89,7 @@ see how to create a [sub-component](https://github.com/odoo/owl/blob/master/doc/
 3. Use `<Counter/>` in the template of the `Playground` component to add two counters in your
    playground.
 
-![image](01_owl_components/double_counter.png)
+![image](../../../.gitbook/assets/double_counter.png)
 
 <a id="tutorials-discover-js-framework-simple-card"></a>
 
@@ -123,7 +123,7 @@ The above example should produce some html using bootstrap that look like this:
 1. Create a `Card` component
 2. Import it in `Playground` and display a few cards in its template
 
-![image](01_owl_components/simple_card.png)
+![image](../../../.gitbook/assets/simple_card.png)
 
 ## 4. Using `markup` to display html
 
@@ -147,7 +147,7 @@ function.
 #### NOTE
 The `t-esc` directive can still be used in Owl templates. It is slightly faster than `t-out`.
 
-![image](01_owl_components/markup.png)
+![image](../../../.gitbook/assets/markup.png)
 
 ## 5. Props validation
 
@@ -186,7 +186,7 @@ be called whenever the `Counter` component is incremented.
 4. Implement an `incrementSum` method in `Playground`
 5. Give that method as a prop to two (or more!) sub `Counter` components.
 
-![image](01_owl_components/sum_counter.png)
+![image](../../../.gitbook/assets/sum_counter.png)
 
 #### IMPORTANT
 There is a subtlety with callback props: they usually should be defined with the `.bind`
@@ -216,7 +216,7 @@ For this tutorial, a `todo` is an object that contains three values: an `id` (nu
 5. Display a `TodoList` in the playground.
 6. Add props validation to `TodoItem`.
 
-![image](01_owl_components/todo_list.png)
+![image](../../../.gitbook/assets/todo_list.png)
 
 #### NOTE
 The `t-foreach` directive is not exactly the same in Owl as the QWeb python implementation: it
@@ -234,7 +234,7 @@ using a [dynamic attributes](https://github.com/odoo/owl/blob/master/doc/referen
 Even though the directive is named `t-att` (for attribute), it can be used to set a `class` value (and
 html properties such as the `value` of an input).
 
-![image](01_owl_components/muted_todo.png)
+![image](../../../.gitbook/assets/muted_todo.png)
 
 ## 9. Adding a todo
 
@@ -254,7 +254,7 @@ a todo to the list.
 5. Make sure the todo has a unique id. It can be just a counter that increments at each todo.
 6. Bonus point: don't do anything if the input is empty.
 
-![image](01_owl_components/create_todo.png)
+![image](../../../.gitbook/assets/create_todo.png)
 
 #### SEE ALSO
 [Owl: Reactivity](https://github.com/odoo/owl/blob/master/doc/reference/reactivity.md)
@@ -296,7 +296,7 @@ hook functions have to be called in the `setup` method, and no later!
 <!-- J --> N(removed from DOM) -->
 <!-- end -->
 <!-- creation --> updates -->
-<!-- updates --> destruction -->![image](01_owl_components/component_lifecycle.svg)
+<!-- updates --> destruction -->![image](../../../.gitbook/assets/component_lifecycle.svg)
 
 An Owl component goes through a lot of phases: it can be instantiated, rendered,
 mounted, updated, detached, destroyed... This is the [component lifecycle](https://github.com/odoo/owl/blob/master/doc/reference/component.md#lifecycle).
@@ -345,7 +345,7 @@ setup() {
 2. Bonus point: extract the code into a specialized [hook](https://github.com/odoo/owl/blob/master/doc/reference/hooks.md)
    `useAutofocus` in a new `awesome_owl/utils.js` file.
 
-![image](01_owl_components/autofocus.png)
+![image](../../../.gitbook/assets/autofocus.png)
 
 ## 11. Toggling todos
 
@@ -361,7 +361,7 @@ way to do this is by adding a [callback prop](https://github.com/odoo/owl/blob/m
    `toggleState` function with the todo id.
 4. Make it work!
 
-![image](01_owl_components/toggle_todo.png)
+![image](../../../.gitbook/assets/toggle_todo.png)
 
 ## 12. Deleting todos
 
@@ -381,7 +381,7 @@ if (index >= 0) {
 }
 ```
 
-![image](01_owl_components/delete_todo.png)
+![image](../../../.gitbook/assets/delete_todo.png)
 
 <a id="tutorials-discover-js-framework-generic-card"></a>
 
@@ -403,7 +403,7 @@ Let us modify the `Card` component to use slots:
 3. Insert a few cards with arbitrary content, such as a `Counter` component.
 4. (bonus) Add prop validation.
 
-![image](01_owl_components/generic_card.png)
+![image](../../../.gitbook/assets/generic_card.png)
 
 #### SEE ALSO
 [Bootstrap: documentation on cards](https://getbootstrap.com/docs/5.2/components/card/)
@@ -419,4 +419,4 @@ want a button to toggle its content (show it or hide it)
 2. Add a `t-if` in the template to conditionally render the content
 3. Add a button in the header, and modify the code to flip the state when the button is clicked
 
-![image](01_owl_components/toggle_card.png)
+![image](../../../.gitbook/assets/toggle_card.png)

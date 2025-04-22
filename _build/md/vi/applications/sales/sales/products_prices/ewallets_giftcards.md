@@ -47,7 +47,7 @@ to Create an eWallet program. The following configuration options are available:
 - Point of Sale: select the  in which the program is valid
   and available. Leave this field empty to include all .
 
-![eWallet program configuration page](ewallets_giftcards/ewallet-configuration.png)
+![eWallet program configuration page](../../../../.gitbook/assets/ewallet-configuration.png)
 
 Once the program is configured, click the Generate eWallet button in the upper-left
 corner to generate eWallets. eWallets can be generated based on Customers and/or
@@ -58,7 +58,7 @@ value. Finally, set the Valid Until period if applicable.
 Generated eWallets can be accessed through the eWallets smart button in the upper-right
 corner. From there, Send or Share the eWallets via email or a URL link.
 
-![eWallets send and share buttons](ewallets_giftcards/ewallet-share.png)
+![eWallets send and share buttons](../../../../.gitbook/assets/ewallet-share.png)
 
 Click on an eWallet to change the Expiration Date, Partner, or
 Balance. The Code of an eWallet *cannot* be changed, deleted, or duplicated.
@@ -105,7 +105,7 @@ available:
 - Point of Sale: select the  in which the program is valid
   and available. Leave this field empty to include all .
 
-![Gift card program configuration page](ewallets_giftcards/giftcard-configuration.png)
+![Gift card program configuration page](../../../../.gitbook/assets/giftcard-configuration.png)
 
 Khi chương trình đã được cấu hình, nhấp vào nút Tạo thẻ quà tặng ở góc trên bên trái để tạo các thẻ quà tặng. Thẻ có thể được tạo cho Khách hàng ẩn danh hoặc Khách hàng được chọn. Đặt Số lượng cần tạo đối với Khách hàng ẩn danh, hoặc chọn Khách hàng và/hoặc Thẻ khách hàng đối với Khách hàng được chọn. Sau đó, thiết lập Giá trị thẻ quà tặng. Cuối cùng, nếu cần, hãy đặt khoảng thời gian Hiệu lực đến.
 
@@ -113,7 +113,7 @@ Generated gift cards can be accessed through the Gift Cards smart button in the
 upper-right corner. From there, Send or Share the gift cards via email or a
 URL link.
 
-![Gift cards send and share buttons](ewallets_giftcards/giftcard-share.png)
+![Gift cards send and share buttons](../../../../.gitbook/assets/giftcard-share.png)
 
 Click on a gift card to change the Expiration Date, Partner, or
 Balance. The Code of a gift card *cannot* be changed, deleted, or

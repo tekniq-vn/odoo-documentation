@@ -12,7 +12,7 @@ supported](https://developer.paypal.com/docs/reports/reference/paypal-supported-
 To access your PayPal account settings, log into PayPal, open the Account Settings, and
 open the Website payments menu.
 
-![PayPal account menu](paypal/paypal-account.png)
+![PayPal account menu](../../../.gitbook/assets/paypal-account.png)
 
 #### IMPORTANT
 Note that for PayPal to work **in Odoo**, the options [Auto Return](#paypal-auto-return) and
@@ -59,7 +59,7 @@ encoding formats as UTF-8.
 ## Cài đặt trong Odoo
 
 #### SEE ALSO
-[Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
+[Enabling a payment provider](applications/finance/payment_providers.md#payment-providers-add-new)
 
 Odoo needs your **API Credentials** to connect with your PayPal account. To do so, go to
 Accounting ‣ Configuration ‣ Payment Providers and Activate PayPal.
@@ -92,4 +92,4 @@ Test Mode.
 Run a test transaction from Odoo using the sandbox personal account.
 
 #### SEE ALSO
-- [Thanh toán online](../payment_providers.md)
+- [Thanh toán online](applications/finance/payment_providers.md)

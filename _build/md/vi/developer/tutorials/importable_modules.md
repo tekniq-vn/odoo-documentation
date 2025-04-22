@@ -1,8 +1,8 @@
 # Write importable modules
 
 #### IMPORTANT
-This tutorial assumes familiarity with the [Server framework 101](server_framework_101.md) tutorial and the
-[Define module data](define_module_data.md) tutorial.
+This tutorial assumes familiarity with the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial and the
+[Define module data](developer/tutorials/define_module_data.md) tutorial.
 
 Although, as developers, we prefer to have the full power of Python to write our modules,
 it is sometimes not possible to do so; typically on managed hosting solutions which do not
@@ -10,8 +10,8 @@ allow the deployment of custom Python code like the [Odoo.com](https://www.odoo.
 platform.
 
 However, the flexible nature of Odoo is meant to allow customizations out of the box. Whilst
-a lot is possible with [Studio](../../applications/studio.md), it is also possible to define
-models, fields and logic in [XML Data Files](define_module_data.md). This makes it easier
+a lot is possible with [Studio](applications/studio.md), it is also possible to define
+models, fields and logic in [XML Data Files](developer/tutorials/define_module_data.md). This makes it easier
 to develop, maintain and deploy these customizations.
 
 In this tutorial, we will learn how to define models, fields and logic in XML data files and bundle
@@ -20,10 +20,10 @@ We will also see the limitations of this approach to module development.
 
 ## Problem statement
 
-Like in the [Server framework 101](server_framework_101.md) tutorial, we will be working on Real Estate concepts.
+Like in the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial, we will be working on Real Estate concepts.
 
 Our goal is to create a new application to manage Real Estate properties in a similar (albeit
-simpler) way to the [Server framework 101](server_framework_101.md) tutorial. We will define the models, fields and
+simpler) way to the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial. We will define the models, fields and
 logic in XML data files instead of Python files.
 
 At the end of this tutorial, we will be able to achieve the following in our app:
@@ -71,7 +71,7 @@ necessary for modules that will be *imported*, but it is a good practice to keep
 To deploy the module, you will need to create a zip file of the module and upload it to your
 Odoo instance. Make sure that the module `base_import_module` is installed on your instance,
 then go to the Apps ‣ Import Module and upload the zip file. You must be
-in [developer mode](../../applications/general/developer_mode.md#developer-mode) to see the `Import Module` menu item.
+in [developer mode](applications/general/developer_mode.md#developer-mode) to see the `Import Module` menu item.
 
 If you modify the module, you will need to create a new zip file and upload it again, which
 will reload all the data in the module. Note however that some operations are not possible,
@@ -86,7 +86,7 @@ When uploading a module, the wizard will accept two options:
   option will force the update of all data marked as `noupdate="1"` in the XML files.
 - `Import demo data`: self explanatory
 
-It is also possible to deploy the module using the [odoo-bin](../reference/cli.md) command line
+It is also possible to deploy the module using the [odoo-bin](developer/reference/cli.md) command line
 tool with the `deploy` command:
 
 ```bash
@@ -229,7 +229,7 @@ default value of "today" for the `x_date_availability` field is not possible, fo
 ## Security
 
 Security in data modules is exactly the same as for Python modules and can be found
-in [Chapter 4: Security - A Brief Introduction](server_framework_101/04_securityintro.md).
+in [Chapter 4: Security - A Brief Introduction](developer/tutorials/server_framework_101/04_securityintro.md).
 
 Refer to that tutorial for details.
 
@@ -238,8 +238,8 @@ Refer to that tutorial for details.
 Views are the UI components that allow users to interact with the data. They are defined
 in XML files and can be found in the `views` directory of your module.
 
-Since views and actions are already defined in [Chapter 5: Finally, Some UI To Play With](server_framework_101/05_firstui.md) and
-[Chapter 6: Basic Views](server_framework_101/06_basicviews.md), we will not go into details here.
+Since views and actions are already defined in [Chapter 5: Finally, Some UI To Play With](developer/tutorials/server_framework_101/05_firstui.md) and
+[Chapter 6: Basic Views](developer/tutorials/server_framework_101/06_basicviews.md), we will not go into details here.
 
 ## Relations
 
@@ -248,7 +248,7 @@ In a normal Python module, one could define new fields on a model to link it to 
 in a single line of code. In a data module, this is still possible but requires a bit more
 legwork since we can't use the same syntax as in Python.
 
-As in [Chapter 7: Relations Between Models](server_framework_101/07_relations.md), we will add some relations to our `estate`
+As in [Chapter 7: Relations Between Models](developer/tutorials/server_framework_101/07_relations.md), we will add some relations to our `estate`
 module. We will add links to:
 
 - the customer who bought the property
@@ -324,7 +324,7 @@ based on other fields. This is useful for fields that are derived from other fie
 sum of sub-records (adding up the price of all the items in a sale order).
 
 **Reference**: the documentation related to this topic can be found in
-[Computed Fields](../reference/backend/orm.md#reference-fields-compute).
+[Computed Fields](developer/reference/backend/orm.md#reference-fields-compute).
 
 Data modules can define computed fields of any type, but are quite limited compared to Python
 modules. Indeed, since data modules are meant to be deployed on systems that do not allow arbitrary
@@ -395,7 +395,7 @@ Related fields are a simplified form of computed fields that mirror the value of
 through a many2one relationship.
 
 **Reference**: the documentation related to this topic can be found in
-[Related fields](../reference/backend/orm.md#reference-fields-related).
+[Related fields](developer/reference/backend/orm.md#reference-fields-related).
 
 Related fields can be of any type (the type of the field at the other end of the relation
 traversal). They are defined as if one were adding the field directly to the model with the
@@ -431,7 +431,7 @@ is to add so-called "actions" methods to your model then bind these methods to b
 (e.g to confirm a quote, post an invoice, etc.).
 
 In a data module, you can achieve the same effect by defining
-[Server Actions](../reference/backend/actions.md#reference-actions-server) bound to your model. Server actions represent
+[Server Actions](developer/reference/backend/actions.md#reference-actions-server) bound to your model. Server actions represent
 pieces of logic that are run dynamically on the server. These actions can be configured manually
 in the database directly via the
 Settings ‣ Technical ‣ Actions ‣ Server Actions menu and can be of different
@@ -448,7 +448,7 @@ This environment contains several utilities to help you interact with the Odoo d
 - `float_compare`: a utility function to compare two float values with a given precision
 - `b64encode` and `b64decode`: utility functions to encode and decode values in base64
 - `Command`: a utility class to help build complex expressions and commands (see the `Command`
-  class in the [ORM reference](../reference/backend/orm.md#reference-fields-relational))
+  class in the [ORM reference](developer/reference/backend/orm.md#reference-fields-relational))
 
 In addition, you have access to the recordset on which the action is executed (typically a single
 record when the action is executed from a form view, and multiple records when the action is
@@ -481,7 +481,7 @@ for property in records:
 ```
 
 To include this action as a button in the form view of the `x_estate.property` model, we can
-add the following [button](../reference/user_interface/view_architectures.md#reference-view-architectures-form-button) node in the header of our
+add the following [button](developer/reference/user_interface/view_architectures.md#reference-view-architectures-form-button) node in the header of our
 form view:
 
 ```xml
@@ -583,7 +583,7 @@ properly, as one needs to ensure that the automation will only run at the proper
 setting up specific fields to watch, etc.
 
 **Documentation**: a more complete documentation related to this topic can be found in
-[Quy tắc tự động hoá](../../applications/studio/automated_actions.md).
+[Quy tắc tự động hoá](applications/studio/automated_actions.md).
 
 #### NOTE
 Automation Rules are not part of the `base` module; they come with the `base_automation`
@@ -633,7 +633,7 @@ for order in records:
 </record>
 ```
 
-Note that the [XML IDs](define_module_data.md#tutorials-define-module-data-xml-id) to standard Odoo models, fields,
+Note that the [XML IDs](developer/tutorials/define_module_data.md#tutorials-define-module-data-xml-id) to standard Odoo models, fields,
 selection values, etc. can be found in the Odoo instance itself by navigating to the appropriate
 record in the technical menus and using the `View Metadata` menu entry of the debug menu. XML IDs
 for models are simply the model name with dots replaced by underscores and prefixed by `model_`

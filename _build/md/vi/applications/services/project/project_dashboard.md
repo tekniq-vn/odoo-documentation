@@ -24,19 +24,19 @@ or **Purchase Orders** if the corresponding applications are not installed.
 The following smart buttons are displayed on the top left of the project dashboard:
 
 > - Tasks: the number of completed (i.e., Done or Canceled
->   [tasks](tasks/task_stages_statuses.md#project-tasks-task-stages-statuses-statuses)) and all tasks, in format
+>   [tasks](applications/services/project/tasks/task_stages_statuses.md#project-tasks-task-stages-statuses-statuses)) and all tasks, in format
 >   completed/all, as well as the entire project's completion percentage estimation.
 > - Timesheets: the number of hours or days (depending on the **Timesheets** app
->   configuration) linked to the project. This includes all [timesheets](../timesheets.md),
+>   configuration) linked to the project. This includes all [timesheets](applications/services/timesheets.md),
 >   whether or not they have been validated.
 > - Planned: the number of hours that have been planned for shifts in the **Planning**
->   app. This includes all [planned shifts](../planning.md), including past shifts and shifts that
+>   app. This includes all [planned shifts](applications/services/planning.md), including past shifts and shifts that
 >   have not yet been published.
-> - Documents: number of [documents](../../productivity/documents.md) in the
+> - Documents: number of [documents](applications/productivity/documents.md) in the
 >   project’s workspace.
-> - Burndown Chart: click the smart button to access a [report](../../essentials/reporting.md)
+> - Burndown Chart: click the smart button to access a [report](applications/essentials/reporting.md)
 >   on the status of the project’s tasks over time.
-> - Timesheets and Planning: click the smart button to access a [report](../../essentials/reporting.md)
+> - Timesheets and Planning: click the smart button to access a [report](applications/essentials/reporting.md)
 >   on the project’s timesheets and shifts.
 > - **Additional fields**, such as Sales Orders, Sales Order Items,
 >   Purchase Orders, and more, represent the number of records linked to the project.
@@ -45,7 +45,7 @@ The following smart buttons are displayed on the top left of the project dashboa
 
 ### Mốc thời gian
 
-This section is only visible if [milestones](../../sales/sales/invoicing/milestone.md)
+This section is only visible if [milestones](applications/sales/sales/invoicing/milestone.md)
 have been created for this project. Click Add Milestone to create a new milestone.
 Click a milestone in the checklist to edit it, enable its checkbox to mark it as completed, or
 click the <i class="fa fa-trash"></i> (trash) icon to remove it.
@@ -65,7 +65,7 @@ If a budget has been set for the project, its status and related details are dis
 section. Click Add Budget to create a new budget for the project.
 
 #### NOTE
-[Analytic accounting](../../finance/accounting/reporting/analytic_accounting.md) must
+[Analytic accounting](applications/finance/accounting/reporting/analytic_accounting.md) must
 be enabled in your database’s **Accounting** application in order for this section to be
 displayed.
 

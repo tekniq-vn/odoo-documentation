@@ -5,13 +5,13 @@
 Có nhiều cách để nâng cấp phiên bản community tuỳ vào cài đặt hiện tại của bạn. Trong mọi trường hợp, các hướng dẫn cơ bản như sau:
 
 * Sao lưu cơ sở dữ liệu community
-  ![image](community_to_enterprise/db_manager.png)
+  ![image](../../.gitbook/assets/db_manager.png)
 * Tắt máy chủ của bạn
 * Cài đặt phân hệ web_enterprise
 * Khởi động lại máy chủ
 * Nhập mã đăng ký Odoo Enterprise của bạn
 
-![image](community_to_enterprise/enterprise_code.png)
+![image](../../.gitbook/assets/enterprise_code.png)
 
 ## Trên Linux, sử dụng trình cài đặt
 
@@ -36,7 +36,7 @@ Có nhiều cách để khởi chạy máy chủ khi sử dụng nguồn và có
 
 * Tắt máy chủ của bạn
 * Sao lưu cơ sở dữ liệu community
-* Cập nhật tham số `--addons-path` của lệnh khởi chạy của bạn (tham khảo [Cài đặt nguồn](source.md))
+* Cập nhật tham số `--addons-path` của lệnh khởi chạy của bạn (tham khảo [Cài đặt nguồn](administration/on_premise/source.md))
 * Cài đặt phân hệ web_enterprise bằng cách sử dụng
   ```console
   $ -d <database_name> -i web_enterprise --stop-after-init
@@ -49,9 +49,9 @@ Có nhiều cách để khởi chạy máy chủ khi sử dụng nguồn và có
 
 * Sao lưu cơ sở dữ liệu community
 * Gỡ cài đặt Odoo Community (sử dụng tệp thực thi Uninstall trong thư mục cài đặt) - PostgreSQL sẽ vẫn được cài đặt
-  ![image](community_to_enterprise/windows_uninstall.png)
+  ![image](../../.gitbook/assets/windows_uninstall.png)
 * Khởi chạy Trình cài đặt Odoo Enterprise và làm theo các bước như bình thường. Khi chọn đường dẫn cài đặt, bạn có thể thiết lập thư mục cài đặt Community (thư mục này vẫn chứa cài đặt PostgreSQL). Bỏ chọn `khởi động Odoo` ở cuối quá trình cài đặt
-  ![image](community_to_enterprise/windows_setup.png)
+  ![image](../../.gitbook/assets/windows_setup.png)
 * Sử dụng cửa sổ lệnh, cập nhật Cơ sở dữ liệu Odoo của bạn bằng lệnh này (từ đường dẫn cài đặt Odoo, trong thư mục phụ của máy chủ)
   ```console
   $ ..\python\python.exe odoo-bin -d <database_name> -i web_enterprise --stop-after-init

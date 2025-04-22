@@ -34,7 +34,7 @@ Pages need to be published to make them accessible to website visitors. To publi
 page, access it and toggle the switch in the upper-right corner from Unpublished
 to Published, or vice versa.
 
-![Unpublished/Published toggle](pages/un-published_toggle.png)
+![Unpublished/Published toggle](../../../.gitbook/assets/un-published_toggle.png)
 
 #### NOTE
 It is also possible to:
@@ -72,7 +72,7 @@ The Name tab allows you to:
   - 301 Moved permanently: to redirect the page permanently;
   - 302 Moved temporarily: to redirect the page temporarily.
 
-  ![Redirect old URL](pages/page-redirection.png)
+  ![Redirect old URL](../../../.gitbook/assets/page-redirection.png)
 
 You can further adapt the page's properties in the Publish tab:
 
@@ -85,7 +85,7 @@ You can further adapt the page's properties in the Publish tab:
 - Visibility: Select who can access the page:
   - Tất cả
   - Signed In
-  - Restricted Group: Select the [user access group(s)](../../general/users/access_rights.md) in the Authorized group field.
+  - Restricted Group: Select the [user access group(s)](applications/general/users/access_rights.md) in the Authorized group field.
   - With Password: Enter the password in the Password field.
 
 #### Duplicating pages
@@ -93,7 +93,7 @@ You can further adapt the page's properties in the Publish tab:
 To duplicate a page, access the page, then go to Site ‣ Properties and click
 Duplicate Page. Enter a Page Name, then click OK. By default,
 the new page is added after the duplicated page in the menu, but you can remove it from the menu or
-change its position using the [menu editor](pages/menus.md).
+change its position using the [menu editor](applications/websites/website/pages/menus.md).
 
 <a id="website-delete-page"></a>
 
@@ -111,9 +111,9 @@ To delete a page, proceed as follows:
 
 ### URL redirect mapping
 
-Mapping chuyển hướng URL là việc chuyển hướng người truy cập và công cụ tìm kiếm đến một URL khác với URL họ yêu cầu ban đầu. Kỹ thuật này được sử dụng để tránh liên kết hỏng khi bạn [xóa trang](#website-delete-page), [thay đổi URL](#website-page-properties) hoặc di chuyển trang web từ nền tảng khác sang [miền](configuration/domain_names.md) Odoo. Nó cũng có thể được dùng để cải thiện trang/seo.
+Mapping chuyển hướng URL là việc chuyển hướng người truy cập và công cụ tìm kiếm đến một URL khác với URL họ yêu cầu ban đầu. Kỹ thuật này được sử dụng để tránh liên kết hỏng khi bạn [xóa trang](#website-delete-page), [thay đổi URL](#website-page-properties) hoặc di chuyển trang web từ nền tảng khác sang [miền](applications/websites/website/configuration/domain_names.md) Odoo. Nó cũng có thể được dùng để cải thiện trang/seo.
 
-To access existing URL redirections and create new ones, [activate the developer mode](../../general/developer_mode.md) and go to Website ‣ Configuration ‣
+To access existing URL redirections and create new ones, [activate the developer mode](applications/general/developer_mode.md) and go to Website ‣ Configuration ‣
 Redirects.
 
 #### NOTE
@@ -153,7 +153,7 @@ to *new* pages, while the 308 redirect is used for *permanent* redirections of *
 
 #### SEE ALSO
 - [Google documentation on redirects and search](https://developers.google.com/search/docs/crawling-indexing/301-redirects)
-- [Search Engine Optimization (SEO)](pages/seo.md)
+- [Search Engine Optimization (SEO)](applications/websites/website/pages/seo.md)
 
-* [Menu](pages/menus.md)
-* [Search Engine Optimization (SEO)](pages/seo.md)
+* [Menu](applications/websites/website/pages/menus.md)
+* [Search Engine Optimization (SEO)](applications/websites/website/pages/seo.md)

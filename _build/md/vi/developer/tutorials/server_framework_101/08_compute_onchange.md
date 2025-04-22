@@ -1,6 +1,6 @@
 # Chapter 8: Computed Fields And Onchanges
 
-The [relations between models](07_relations.md) are a key component of
+The [relations between models](developer/tutorials/server_framework_101/07_relations.md) are a key component of
 any Odoo module. They are necessary for the modelization of any business case. However, we may want
 links between the fields within a given model. Sometimes the value of one field is determined from
 the values of other fields and other times we want to help the user with data entry.
@@ -13,17 +13,17 @@ other than class definitions and field declarations.
 ## Computed Fields
 
 **Reference**: the documentation related to this topic can be found in
-[Computed Fields](../../reference/backend/orm.md#reference-fields-compute).
+[Computed Fields](developer/reference/backend/orm.md#reference-fields-compute).
 
 #### NOTE
 **Goal**: at the end of this section:
 
 - In the property model, the total area and the best offer should be computed:
 
-![Compute fields](08_compute_onchange/compute.gif)
+![Compute fields](../../../.gitbook/assets/compute.gif)
 - In the property offer model, the validity date should be computed and can be updated:
 
-![Compute field with inverse](08_compute_onchange/compute_inverse.gif)
+![Compute field with inverse](../../../.gitbook/assets/compute_inverse.gif)
 
 In our real estate module, we have defined the living area as well as the garden area. It is then
 natural to define the total area as the sum of both fields. We will use the concept of a computed
@@ -41,7 +41,7 @@ method should set the value of the computed field for every record in
 
 By convention, `compute` methods are private, meaning that they cannot
 be called from the presentation tier, only from the business tier (see
-[Chapter 1: Architecture Overview](01_architecture.md#tutorials-server-framework-101-01-architecture)). Private methods have a name starting with an
+[Chapter 1: Architecture Overview](developer/tutorials/server_framework_101/01_architecture.md#tutorials-server-framework-101-01-architecture)). Private methods have a name starting with an
 underscore `_`.
 
 ### Dependencies
@@ -184,7 +184,7 @@ reaches a production server that you realize it slows down a whole process. Not 
 **Goal**: at the end of this section, enabling the garden will set a default area of 10 and
 an orientation to North.
 
-![Onchange](08_compute_onchange/onchange.gif)
+![Onchange](../../../.gitbook/assets/onchange.gif)
 
 In our real estate module, we also want to help the user with data entry. When the 'garden'
 field is set, we want to give a default value for the garden area as well as the orientation.
@@ -248,5 +248,5 @@ When using stored computed fields, pay close attention to the dependencies. When
 depend on other computed fields, changing a value can trigger a large number of recomputations.
 This leads to poor performance.
 
-In the [next chapter](09_actions.md), we'll see how we can trigger some
+In the [next chapter](developer/tutorials/server_framework_101/09_actions.md), we'll see how we can trigger some
 business logic when buttons are clicked.

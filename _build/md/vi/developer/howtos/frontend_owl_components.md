@@ -44,7 +44,7 @@ registry.category("public_components").add("your_module.YourComponent", YourComp
 ```
 
 #### SEE ALSO
-[Owl components reference](../reference/frontend/owl_components.md#frontend-components).
+[Owl components reference](developer/reference/frontend/owl_components.md#frontend-components).
 
 ## 2. Adding your component to the `web.assets_frontend` bundle
 
@@ -66,7 +66,7 @@ files:
 ```
 
 #### SEE ALSO
-[Module manifest reference](../reference/backend/module.md#reference-module-manifest).
+[Module manifest reference](developer/reference/backend/module.md#reference-module-manifest).
 
 ## 3. Adding an `<owl-component>` tag to a page
 

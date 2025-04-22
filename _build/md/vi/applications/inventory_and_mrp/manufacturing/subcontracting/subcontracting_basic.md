@@ -50,12 +50,12 @@ Alternatively, navigate to Manufacturing app ‣ Products ‣ Bills of Materials
 and select the  for the subcontracted product.
 
 #### SEE ALSO
-For a full overview of  configuration, see the [Bill of materials](../basic_setup/bill_configuration.md) documentation.
+For a full overview of  configuration, see the [Bill of materials](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md) documentation.
 
 In the BoM Type field, select the Subcontracting option. Then, add one or
 more subcontractors in the Subcontractors field that appears below.
 
-![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](subcontracting_basic/bom-type.png)
+![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](../../../../.gitbook/assets/bom-type.png)
 
 Finally, click on the Miscellaneous tab. In the Manuf. Lead Time field,
 enter the number of days it takes the subcontractor to manufacture the product. This number is
@@ -135,7 +135,7 @@ When a  is confirmed for a product manufactured using basic subcontracting, a re
 dropship order is automatically created, and can be accessed from the corresponding
 Receipt or Dropship smart button that appears at the top of the .
 
-![A PO for a basic subcontracting product, with a Receipt smart button at the top of the page.](subcontracting_basic/subcontractor-po.png)
+![A PO for a basic subcontracting product, with a Receipt smart button at the top of the page.](../../../../.gitbook/assets/subcontractor-po.png)
 
 ### Process receipt or dropship order
 

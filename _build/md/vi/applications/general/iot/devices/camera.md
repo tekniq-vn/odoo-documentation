@@ -10,7 +10,7 @@ This is usually done with a  cable of some sort.
 If the camera is [supported](https://www.odoo.com/page/iot-hardware), there is no need to set up
 anything, as it'll be detected as soon as it's connected.
 
-![Camera recognized on the IoT box.](camera/camera-dropdown.png)
+![Camera recognized on the IoT box.](../../../../.gitbook/assets/camera-dropdown.png)
 
 ## Link camera to quality control point in manufacturing process
 
@@ -23,12 +23,12 @@ clicking on Take a Picture from the drop-down menu. Doing so reveals a field cal
 Device, wherein the attached *device* can be selected. Save the changes, if
 required.
 
-![Setting up the device on the quality control point.](camera/control-point-device.png)
+![Setting up the device on the quality control point.](../../../../.gitbook/assets/control-point-device.png)
 
 The camera is now useable with the selected quality control point. When the quality control point
 is reached during the manufacturing process, the database prompts the operator to take a picture.
 
-![Graphic user interface of the device on the quality control point.](camera/serial-number-picture.png)
+![Graphic user interface of the device on the quality control point.](../../../../.gitbook/assets/serial-number-picture.png)
 
 #### NOTE
 Quality control points can also be accessed by navigating to IoT App ‣
@@ -36,8 +36,8 @@ Devices. From here, select the device. There is a Quality Control Points tab, wh
 they can be added with the device.
 
 #### SEE ALSO
-- [Quality control points](../../../inventory_and_mrp/quality/quality_management/quality_control_points.md)
-- [Quality alerts](../../../inventory_and_mrp/quality/quality_management/quality_alerts.md)
+- [Quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md)
+- [Quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md)
 
 ## Link camera to a work center in the Manufacturing app
 
@@ -55,4 +55,4 @@ On the Work Order screen, a status graphic indicates whether the database is
 correctly connected to the camera.
 
 #### SEE ALSO
-[Tích hợp với thiết bị IoT](../../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)
+[Tích hợp với thiết bị IoT](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)

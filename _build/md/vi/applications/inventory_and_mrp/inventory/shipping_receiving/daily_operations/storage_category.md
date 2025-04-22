@@ -1,6 +1,6 @@
 # Storage categories
 
-A *storage category* is used with [putaway rules](putaway.md), as an extra location attribute to
+A *storage category* is used with [putaway rules](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.md), as an extra location attribute to
 automatically propose optimal storage locations for products.
 
 Follow these steps to complete the setup:
@@ -11,7 +11,7 @@ Follow these steps to complete the setup:
 4. Add the storage category as an attribute to a [putaway rule](#inventory-routes-set-putaway-attribute)
 
 #### SEE ALSO
-[Quy tắc lưu kho](putaway.md)
+[Quy tắc lưu kho](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.md)
 
 #### NOTE
 Assigning categories to storage locations tells Odoo these locations meet specific
@@ -28,7 +28,7 @@ Multi-Step Routes features are enabled.
 
 Next, activate the Storage Categories feature. Finally, click Save.
 
-![Show the Storage Categories feature.](storage_category/enable-categories.png)
+![Show the Storage Categories feature.](../../../../../.gitbook/assets/enable-categories.png)
 
 <a id="inventory-routes-define-storage"></a>
 
@@ -77,7 +77,7 @@ their capacities in the Quantity field.
 
 ### Capacity by package
 
-For companies using [packages](../../product_management/configure/package.md), it becomes
+For companies using [packages](applications/inventory_and_mrp/inventory/product_management/configure/package.md), it becomes
 possible to ensure real-time storage capacity checks, based on package types (e.g., crates, bins,
 boxes, etc.).
 
@@ -97,7 +97,7 @@ Then, select the created category in the Storage Category field.
 
 ## Putaway rule
 
-With the [storage category](#inventory-routes-define-storage) and [location](#inventory-routes-assign-location) set up, create the [putaway rule](putaway.md) by navigating
+With the [storage category](#inventory-routes-define-storage) and [location](#inventory-routes-assign-location) set up, create the [putaway rule](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.md) by navigating
 to Inventory app ‣ Configuration ‣ Putaway Rules.
 
 Click the Create button to create the putaway rule. In the Having Category
@@ -111,7 +111,7 @@ category with a Capacity By Package](#inventory-routes-set-capacity-package).
 Continuing the example from above, the `High Frequency Pallets` storage category is assigned to the
 `PAL1` and `PAL2` locations.
 
-Then, [putaway rules](putaway.md#inventory-routes-putaway-rule) are set, so that any pallets received in
+Then, [putaway rules](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.md#inventory-routes-putaway-rule) are set, so that any pallets received in
 the warehouse are directed to be stored in `PAL1` and `PAL2` locations.
 
 Depending on the number of pallets on-hand at each of the storage locations, when one pallet of

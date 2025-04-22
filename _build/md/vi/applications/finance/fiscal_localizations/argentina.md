@@ -14,15 +14,15 @@ Below you can find videos with a general description of the localization, and ho
 
 ### Modules installation
 
-[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Argentinean
+[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Argentinean
 localization:
 
-| Tên                                                                           | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                          |
-|-------------------------------------------------------------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Argentina - Kế toán                                                           | `l10n_ar`              | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages), which represents<br/>the minimal configuration to operate in Argentina under the  regulations and guidelines. |
-| Báo cáo kế toán của Argentina                                                 | `l10n_ar_reports`      | VAT Book report and VAT summary report.                                                                                                                                                                        |
-| Hóa đơn điện tử của Argentina                                                 | `l10n_ar_edi`          | Includes all technical and functional requirements to generate electronic invoices via web<br/>service, based on the AFIP regulations.                                                                         |
-| [Thương mại điện tử của Argentina](#argentina-ecommerce-electronic-invoicing) | `l10n_ar_website_sale` | (optional) Allows the user to see Identification Type and AFIP Responsibility in the<br/>eCommerce checkout form in order to create electronic invoices.                                                       |
+| Tên                                                                           | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                                            |
+|-------------------------------------------------------------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Argentina - Kế toán                                                           | `l10n_ar`              | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages), which represents<br/>the minimal configuration to operate in Argentina under the  regulations and guidelines. |
+| Báo cáo kế toán của Argentina                                                 | `l10n_ar_reports`      | VAT Book report and VAT summary report.                                                                                                                                                                                          |
+| Hóa đơn điện tử của Argentina                                                 | `l10n_ar_edi`          | Includes all technical and functional requirements to generate electronic invoices via web<br/>service, based on the AFIP regulations.                                                                                           |
+| [Thương mại điện tử của Argentina](#argentina-ecommerce-electronic-invoicing) | `l10n_ar_website_sale` | (optional) Allows the user to see Identification Type and AFIP Responsibility in the<br/>eCommerce checkout form in order to create electronic invoices.                                                                         |
 
 <a id="argentina-configure-your-company"></a>
 
@@ -32,7 +32,7 @@ Once the localization modules are installed, the first step is to set up the com
 addition to the basic information, a key field to fill in is the AFIP Responsibility
 Type, which represents the fiscal obligation and structure of the company.
 
-![Select AFIP Responsibility Type.](argentina/select-responsibility-type.png)
+![Select AFIP Responsibility Type.](../../../.gitbook/assets/select-responsibility-type.png)
 
 ### Hệ thống tài khoản
 
@@ -45,7 +45,7 @@ requirements:
 - IVA Exento (290 accounts);
 - Responsable Inscripto (298 Accounts).
 
-![Select Fiscal Localization Package.](argentina/select-fiscal-package.png)
+![Select Fiscal Localization Package.](../../../.gitbook/assets/select-fiscal-package.png)
 
 ### Configure master data
 
@@ -62,7 +62,7 @@ other, the digital certificates of one instance are not valid in the other one.
 To select a database environment, go to Accounting ‣ Settings ‣ Argentinean
 Localization and choose either Prueba (Testing) or Produccion (Production).
 
-![Select AFIP database environment: Testing or Production.](argentina/select-environment.png)
+![Select AFIP database environment: Testing or Production.](../../../.gitbook/assets/select-environment.png)
 
 ##### AFIP certificates
 
@@ -75,13 +75,13 @@ Certificate if you do not have one already.
 1. Generate Certificate Sign Request (Odoo). When this option is selected, a file with
    extension `.csr` (certificate signing request) is generated to be used in the AFIP portal to
    request the certificate.
-   ![Request a certificate.](argentina/request-certificate.png)
+   ![Request a certificate.](../../../.gitbook/assets/request-certificate.png)
 2. Generate Certificate (AFIP). Access the AFIP portal and follow the instructions
    described in [this document](https://drive.google.com/file/d/17OKX2lNWd1bjUt3NxfqcCKBkBh-Xlpo-/view) to get a certificate.
 3. Upload Certificate and Private Key (Odoo). Once the certificate is generated, upload
    it to Odoo using the Pencil icon next to the field Certificado and select
    the corresponding file.
-   ![Upload Certificate and Private Key.](argentina/upload-certificate-private-key.png)
+   ![Upload Certificate and Private Key.](../../../.gitbook/assets/upload-certificate-private-key.png)
 
 #### Đối tác
 
@@ -91,7 +91,7 @@ As part of the Argentinean localization, document types defined by the AFIP are 
 **Partner form**. Information is essential for most transactions. There are six
 Identification Types available by default, as well as 32 inactive types.
 
-![A list of AR Localization document types in Odoo, as defined by AFIP.](argentina/identification-types.png)
+![A list of AR Localization document types in Odoo, as defined by AFIP.](../../../.gitbook/assets/identification-types.png)
 
 #### NOTE
 The complete list of Identification Types defined by the AFIP is included in Odoo,
@@ -103,14 +103,14 @@ In Argentina, the document type and corresponding transactions associated with c
 vendors is defined by the AFIP Responsibility type. This field should be defined in the **Partner
 form**.
 
-![Select AFIP Responsibility Type.](argentina/select-afip-responsibility-type.png)
+![Select AFIP Responsibility Type.](../../../.gitbook/assets/select-afip-responsibility-type.png)
 
 #### Thuế
 
 As part of the localization module, the taxes are created automatically with their related
 financial account and configuration, e.g., 73 taxes for Responsable Inscripto.
 
-![A list of AR Localization taxes with financial amount and configuration in Odoo.](argentina/automatic-tax-configuration.png)
+![A list of AR Localization taxes with financial amount and configuration in Odoo.](../../../.gitbook/assets/automatic-tax-configuration.png)
 
 ##### Taxes types
 
@@ -127,7 +127,7 @@ labeled as inactive in Odoo by default. Before creating a new tax, be sure to ch
 not already included as inactive.
 
 ![A list showing less common Argentinean tax options, which are labeled as inactive in Odoo
-by default.](argentina/special-inactive-taxes.png)
+by default.](../../../.gitbook/assets/special-inactive-taxes.png)
 
 <a id="document-types"></a>
 
@@ -148,7 +148,7 @@ is created automatically when the localization module is installed).
 The information required for the Document Types is included by default so the user does
 not need to fill anything on this view:
 
-![A list of document types in Odoo.](argentina/default-document-type-info.png)
+![A list of document types in Odoo.](../../../.gitbook/assets/default-document-type-info.png)
 
 #### NOTE
 There are several Document Types types that are inactive by default, but can be
@@ -166,7 +166,7 @@ transaction or operation. For example, when an invoice is related to a(n):
 The documents included in the localization already have the proper letter associated with each
 Document Type, so there is no further configuration necessary.
 
-![document types grouped by letters.](argentina/document-types-grouped-by-letters.png)
+![document types grouped by letters.](../../../.gitbook/assets/document-types-grouped-by-letters.png)
 
 ##### Sử dụng trên hoá đơn
 
@@ -200,7 +200,7 @@ The AFIP POS defines the following:
 1. the sequences of document types related to the web service;
 2. the structure and data of the electronic invoice file.
 
-![A AFIP POS System field which is available on Sales journals in Odoo.](argentina/sales-journal.png)
+![A AFIP POS System field which is available on Sales journals in Odoo.](../../../.gitbook/assets/sales-journal.png)
 
 ##### Web services
 
@@ -216,7 +216,7 @@ from:
   international customers and transactions that involve exportation processes, the document type
   related is type "E".
 
-![Web Services.](argentina/web-services.png)
+![Web Services.](../../../.gitbook/assets/web-services.png)
 
 Here are some useful fields to know when working with web services:
 
@@ -254,13 +254,13 @@ based on the AFIP document type:
 
 - **Invoice for a customer IVA Responsable Inscripto, prefix A** is the type of document that shows
   all the taxes in detail along with the customer's information.
-  ![Invoice for a customer IVA Responsable Inscripto, prefix A.](argentina/prefix-a-invoice-for-customer.png)
+  ![Invoice for a customer IVA Responsable Inscripto, prefix A.](../../../.gitbook/assets/prefix-a-invoice-for-customer.png)
 - **Invoice for an end customer, prefix B** is the type of document that does not detail the taxes,
   since the taxes are included in the total amount.
-  ![Invoice for an end customer, prefix B.](argentina/prefix-b-invoice-for-end-customer.png)
+  ![Invoice for an end customer, prefix B.](../../../.gitbook/assets/prefix-b-invoice-for-end-customer.png)
 - **Exportation Invoice, prefix E** is the type of document used when exporting goods that shows
   the incoterm.
-  ![Exportation Invoice, prefix E](argentina/prefix-e-exporation-invoice.png)
+  ![Exportation Invoice, prefix E](../../../.gitbook/assets/prefix-e-exporation-invoice.png)
 
 Even though some invoices use the same journal, the prefix and sequence are given by the
 Document Type field.
@@ -282,7 +282,7 @@ in the AFIP tab, including:
 - Result: indicates if the invoice has been Aceptado en AFIP and/or
   Aceptado con Observaciones.
 
-![AFIP Status.](argentina/afip-status.png)
+![AFIP Status.](../../../.gitbook/assets/afip-status.png)
 
 #### Invoice taxes
 
@@ -292,7 +292,7 @@ report:
 - A. Tax excluded: in this case the taxed amount needs to be clearly identified in the
   report. This condition applies when the customer has the following AFIP Responsibility type of
   **Responsable Inscripto**;
-  ![Tax excluded.](argentina/tax-amount-excluded.png)
+  ![Tax excluded.](../../../.gitbook/assets/tax-amount-excluded.png)
 - B. Tax amount included: this means that the taxed amount is included as part of the
   product price, subtotal, and totals. This condition applies when the customer has the following
   AFIP Responsibility types:
@@ -301,7 +301,7 @@ report:
   - Responsable Monotributo;
   - IVA liberado.
 
-  ![Tax amount included.](argentina/tax-amount-included.png)
+  ![Tax amount included.](../../../.gitbook/assets/tax-amount-included.png)
 
 #### Trường hợp vận dụng đặc biệt
 
@@ -310,19 +310,19 @@ report:
 For electronic invoices that include Services, the AFIP requires to report the service
 starting and ending date, this information can be filled in the tab Other Info.
 
-![Hoá đơn cho Dịch vụ.](argentina/invoices-for-services.png)
+![Hoá đơn cho Dịch vụ.](../../../.gitbook/assets/invoices-for-services.png)
 
 If the dates are not selected manually before the invoice is validated, the values will be filled
 automatically with the first and last day of the invoice's month.
 
-![Service Dates.](argentina/service-dates.png)
+![Service Dates.](../../../.gitbook/assets/service-dates.png)
 
 ##### Exportation invoices
 
 Invoices related to Exportation Transactions require that a journal uses the AFIP POS
 System **Expo Voucher - Web Service** so that the proper document type(s) can be associated.
 
-![Exporation journal.](argentina/exporation-journal.png)
+![Exporation journal.](../../../.gitbook/assets/exporation-journal.png)
 
 When the customer selected in the invoice is configured with an AFIP responsibility type
 Cliente / Proveedor del Exterior - Ley N° 19.640, Odoo automatically
@@ -334,13 +334,13 @@ assigns the:
 - Concepto AFIP: Products / Definitive export of goods;
 - Exempt Taxes.
 
-![Export invoice fields autofilled in Odoo.](argentina/export-invoice.png)
+![Export invoice fields autofilled in Odoo.](../../../.gitbook/assets/export-invoice.png)
 
 #### NOTE
 The Exportation Documents require Incoterms to be enabled and configured, which can be found in
 Other Info ‣ Accounting.
 
-![Export invoice - Incoterm.](argentina/export-invoice-incoterm.png)
+![Export invoice - Incoterm.](../../../.gitbook/assets/export-invoice-incoterm.png)
 
 ##### Fiscal bond
 
@@ -373,12 +373,12 @@ For these transactions it's important to consider the following requirements:
 - A bank account type CBU must be related to the emisor, otherwise the invoice cannot be validated,
   having an error message such as the following.
 
-![Bank account relation error.](argentina/bank-account-relation-error.png)
+![Bank account relation error.](../../../.gitbook/assets/bank-account-relation-error.png)
 
 To set up the Transmission Mode, go to settings and select either SDC or
 ADC.
 
-![Transmission Mode.](argentina/transmission-mode.png)
+![Transmission Mode.](../../../.gitbook/assets/transmission-mode.png)
 
 To change the Transmission Mode for a specific invoice, go to the Other Info
 tab and change it before confirming.
@@ -387,7 +387,7 @@ tab and change it before confirming.
 Changing the Transmission Mode will not change the mode selected in
 Settings.
 
-![Transmission Mode on Invoice.](argentina/transmission-mode-on-invoice.png)
+![Transmission Mode on Invoice.](../../../.gitbook/assets/transmission-mode-on-invoice.png)
 
 When creating a Credit/Debit note related to a FCE document:
 
@@ -398,7 +398,7 @@ When creating a Credit/Debit note related to a FCE document:
   an exchange difference if the currency rate is different between the emission day and the payment
   date. It is possible to create a credit/debit note to decrease/increase the amount to pay in ARS.
 
-![Credit & debit notes buttons.](argentina/credit-debit-notes-button.png)
+![Credit & debit notes buttons.](../../../.gitbook/assets/credit-debit-notes-button.png)
 
 When creating a Credit Note we can have two scenarios:
 
@@ -407,7 +407,7 @@ When creating a Credit Note we can have two scenarios:
 2. the Credit Note, is created to annulate the FCE document, in this case the field
    FCE, is Cancellation? must be *empty* (false).
 
-![FCE: Es Cancelación?](argentina/fce-es-cancelation.png)
+![FCE: Es Cancelación?](../../../.gitbook/assets/fce-es-cancelation.png)
 
 <a id="argentina-invoice-printed-report"></a>
 
@@ -417,22 +417,22 @@ The PDF Report related to electronic invoices that have been validated by the AF
 includes a barcode at the bottom of the format which represents the CAE number. The expiration date
 is also displayed as it is a legal requirement.
 
-![Invoice printed report.](argentina/invoice-printed-report.png)
+![Invoice printed report.](../../../.gitbook/assets/invoice-printed-report.png)
 
 #### Troubleshooting and auditing
 
 For auditing and troubleshooting purposes, it is possible to obtain detailed information of an
 invoice number that has been previously sent to the AFIP. To retrieve this information, activate the
-[developer mode](../../general/developer_mode.md#developer-mode), then go to the Accounting menu and click on
+[developer mode](applications/general/developer_mode.md#developer-mode), then go to the Accounting menu and click on
 the button Consult Invoice button in AFIP.
 
-![Consult invoice in AFIP.](argentina/consult-invoice-in-afip.png)![Details of invoice consulted in AFIP.](argentina/consult-invoice-in-afip-details.png)
+![Consult invoice in AFIP.](../../../.gitbook/assets/consult-invoice-in-afip.png)![Details of invoice consulted in AFIP.](../../../.gitbook/assets/consult-invoice-in-afip-details.png)
 
 It is also possible to retrieve the last number used in AFIP for a specific document type and POS
 Number as a reference for any possible issues on the sequence synchronization between Odoo and
 AFIP.
 
-![Consult the last invoice number.](argentina/consult-last-invoice-number.png)
+![Consult the last invoice number.](../../../.gitbook/assets/consult-last-invoice-number.png)
 
 ### Vendor bills
 
@@ -440,13 +440,13 @@ Based on the purchase journal selected for the vendor bill, the Document Type is
 required field. This value is auto-populated based on the AFIP Responsibility type of Issuer and
 Customer, but the value can be changed if necessary.
 
-![Changing journal and document type.](argentina/changing-journal-document-type.png)
+![Changing journal and document type.](../../../.gitbook/assets/changing-journal-document-type.png)
 
 The Document Number field needs to be registered manually and the format will be
 validated automatically. However, in case the format is invalid, a user error will be displayed
 indicating the correct format that is expected.
 
-![Vendor bill document number.](argentina/vendor-bill-document-number.png)
+![Vendor bill document number.](../../../.gitbook/assets/vendor-bill-document-number.png)
 
 The vendor bill number is structured in the same way as the customer invoices, excepted that the
 document sequence is entered by the user using the following format: *Document Prefix - Letter -
@@ -464,7 +464,7 @@ Argentinean Localization ‣ Validate document in the AFIP, considering the foll
 - Required: the verification is done, and it does not allow the user to post the vendor
   bill if the document number is not valid.
 
-![Verify Vendor Bills validity in AFIP.](argentina/verify-vendor-bills.png)
+![Verify Vendor Bills validity in AFIP.](../../../.gitbook/assets/verify-vendor-bills.png)
 
 ##### Validate vendor bills in Odoo
 
@@ -472,12 +472,12 @@ With the vendor validation settings enabled, a new button shows up on the vendor
 Odoo, labeled Verify on AFIP, which is located next to the AFIP
 Authorization code field.
 
-![Xác minh trên AFIP.](argentina/verify-on-afip.png)
+![Xác minh trên AFIP.](../../../.gitbook/assets/verify-on-afip.png)
 
 In case the vendor bill cannot be validated in AFIP, a value of Rejected will be
 displayed on the dashboard and the details of the invalidation will be added to the chatter.
 
-![Xác thực AFIP bị từ chối.](argentina/afip-auth-rejected.png)
+![Xác thực AFIP bị từ chối.](../../../.gitbook/assets/afip-auth-rejected.png)
 
 #### Trường hợp vận dụng đặc biệt
 
@@ -489,7 +489,7 @@ fuel and gasoline invoices.
 The vendor bill will be registered using one item for each product that is part of the VAT base
 amount, and an additional item to register the amount of the exempt concept.
 
-![VAT exempt.](argentina/vat-exempt.png)
+![VAT exempt.](../../../.gitbook/assets/vat-exempt.png)
 
 ##### Perception taxes
 
@@ -499,7 +499,7 @@ To edit the VAT perception and set the correct amount, you should use the Pencil
 that is the next to the Perception amount. After the VAT perception amount has been set,
 the invoice can then be validated.
 
-![Enter the perception amount.](argentina/enter-perception-amount.png)
+![Enter the perception amount.](../../../.gitbook/assets/enter-perception-amount.png)
 
 ### Check management
 
@@ -507,7 +507,7 @@ To install the *Third Party and Deferred/Electronic Checks Management* module, g
 Apps and search for the module by its technical name `l10n_latam_check` and click
 the Activate button.
 
-![l10n_latam_check module.](argentina/l10n-latam-check-module.png)
+![l10n_latam_check module.](../../../.gitbook/assets/l10n-latam-check-module.png)
 
 This module enables the required configuration for journals and payments to:
 
@@ -534,7 +534,7 @@ This last configuration **disables** the printing ability but enables to:
 - Enter check numbers manually
 - Adds a field to allocate the payment date of the check
 
-![Cấu hình sổ nhật ký ngân hàng.](argentina/bank-journal-conf.png)
+![Cấu hình sổ nhật ký ngân hàng.](../../../.gitbook/assets/bank-journal-conf.png)
 
 ##### Management of own checks
 
@@ -544,7 +544,7 @@ Register Payment button.
 On the payment registration modal, select the bank journal from which the payment is to be made and
 set the Check Cash-In Date, and the Amount.
 
-![Payment pop-up window with own check options enabled.](argentina/payment-popup-vendorbill.png)
+![Payment pop-up window with own check options enabled.](../../../.gitbook/assets/payment-popup-vendorbill.png)
 
 #### NOTE
 To manage current checks, the Check Cash-In Date field must be left blank or filled
@@ -555,11 +555,11 @@ To manage your existing own checks, navigate to Accounting ‣ Vendors ‣ Own
 Checks. This window shows critical information such as the dates when checks need to be paid, the
 total quantity of checks, and the total amount paid in checks.
 
-![Own checks menu location.](argentina/checks-menu-vendorbill.png)
+![Own checks menu location.](../../../.gitbook/assets/checks-menu-vendorbill.png)
 
 Điều quan trọng cần lưu ý là danh sách này được lọc trước để chỉ hiển thị các séc *chưa được đối chiếu* với sao kê ngân hàng – tức là chưa bị ghi nợ từ ngân hàng – điều này có thể được xác minh bằng trường Đã khớp với sao kê ngân hàng. Nếu bạn muốn xem tất cả các séc của mình, hãy xóa bộ lọc Chưa khớp ngân hàng bằng cách nhấp vào biểu tượng X.
 
-![Own checks menu organization and filtering.](argentina/check-menu-list-vendorbill.png)
+![Own checks menu organization and filtering.](../../../.gitbook/assets/check-menu-list-vendorbill.png)
 
 ##### Cancel an own check
 
@@ -568,7 +568,7 @@ Checks and select the check to be canceled, then click on the Void Check button.
 will break the reconciliation with the vendor bills and the bank statements and leave the check in a
 **canceled** state.
 
-![Empty Check button to cancel Own Checks](argentina/empty-check-button.png)
+![Empty Check button to cancel Own Checks](../../../.gitbook/assets/empty-check-button.png)
 
 #### Third party checks
 
@@ -591,7 +591,7 @@ following:
 - In the Journal Entries tab, set Cash Account: to `1.1.1.02.010 Cheques de
   Terceros`, input a Short Code of your choice, and select a Currency
 
-![Automatically created cash account.](argentina/auto-cash-account.png)
+![Automatically created cash account.](../../../.gitbook/assets/auto-cash-account.png)
 
 The available payment methods are listed in the *payments* tabs:
 
@@ -603,7 +603,7 @@ The available payment methods are listed in the *payments* tabs:
   Outgoing Payments tab. This method is used to receive and/or pay vendor bills using
   already *existing* checks, as well as for internal transfers.
 
-![Payment methods automatically created.](argentina/auto-payment-methods.png)
+![Payment methods automatically created.](../../../.gitbook/assets/auto-payment-methods.png)
 
 The *Rejected Third Party Checks* journal also needs to be created and/or configured. This journal
 is used to manage rejected third party checks and can be utilized to send checks rejected at the
@@ -631,7 +631,7 @@ Check Number, Payment Date, and Check Bank. Optionally, you can
 manually add the Check Issuer Vat, but this is automatically filled by the customer's
 VAT number related to the invoice.
 
-![Payment pop-up window with New Third Party Check options enabled.](argentina/third-party-payment-popup.png)
+![Payment pop-up window with New Third Party Check options enabled.](../../../.gitbook/assets/third-party-payment-popup.png)
 
 ##### Existing third party checks
 
@@ -643,7 +643,7 @@ Select Existing Third Party Checks as Payment Method, and select a check
 from the Check field. The field shows all **available existing checks** to be used as
 payment for vendor bills.
 
-![Payment pop-up window with Existing Third Party Check options enabled.](argentina/existing-third-party-popup.png)
+![Payment pop-up window with Existing Third Party Check options enabled.](../../../.gitbook/assets/existing-third-party-popup.png)
 
 When an **existing third party check** is used, you can review the operations related to it. For
 example, you can see if a third party check made to pay a customer invoice was later used as an
@@ -654,7 +654,7 @@ Accounting ‣ Vendors ‣ Own Checks depending on the case, and click on a chec
 In the Check Current Journal field, click on => Check Operations to bring up
 the check's history and movements.
 
-![Check Operations menu.](argentina/check-operations-menulist.png)
+![Check Operations menu.](../../../.gitbook/assets/check-operations-menulist.png)
 
 The menu also displays critical information related to these operations, such as:
 
@@ -667,7 +667,7 @@ The menu also displays critical information related to these operations, such as
 
 ### Ecommerce electronic invoicing
 
-[Install](../../general/apps_modules.md#general-install) the *Argentinian eCommerce* (`l10n_ar_website_sale`) module to
+[Install](applications/general/apps_modules.md#general-install) the *Argentinian eCommerce* (`l10n_ar_website_sale`) module to
 enable the following features and configurations:
 
 - Clients being able to create online accounts for eCommerce purposes.
@@ -682,7 +682,7 @@ integrate the eCommerce flow.
 
 ##### Client account registration
 
-To configure your website for client accounts, follow the instructions in the [checkout](../../websites/ecommerce/checkout.md) documentation.
+To configure your website for client accounts, follow the instructions in the [checkout](applications/websites/ecommerce/checkout.md) documentation.
 
 ##### Automatic invoice
 
@@ -691,10 +691,10 @@ Website ‣ Configuration ‣ Settings and activating the Automatic
 Invoice feature in the Invoicing section to automatically generate the required
 electronic documents when the online payment is confirmed.
 
-![Feature activated to invoice automatically.](argentina/l10nar-automatic-invoicing-ecommerce.png)
+![Feature activated to invoice automatically.](../../../.gitbook/assets/l10nar-automatic-invoicing-ecommerce.png)
 
 Since an online payment needs to be confirmed for the Automatic Invoice feature to
-generate the document, a [payment provider](../payment_providers.md) **must** be configured for
+generate the document, a [payment provider](applications/finance/payment_providers.md) **must** be configured for
 the related website.
 
 ##### Sản phẩm
@@ -713,13 +713,13 @@ Fiscal fields are available for input in the checkout process once the Country f
 set as `Argentina`. Inputting the fiscal data enables the purchase to conclude in the corresponding
 electronic document.
 
-![Fiscal required fields for electronic invoicing.](argentina/l10nar-fiscal-fields-ar-ecommerce.png)
+![Fiscal required fields for electronic invoicing.](../../../.gitbook/assets/l10nar-fiscal-fields-ar-ecommerce.png)
 
 When the client makes a successful purchase and payment, the necessary invoice is generated with
 the corresponding layout and fiscal stamps stated in the [Invoice printed report](#argentina-invoice-printed-report).
 
 #### SEE ALSO
-[Client account creation](../../websites/ecommerce/checkout.md)
+[Client account creation](applications/websites/ecommerce/checkout.md)
 
 ### Liquidity product direct sales
 
@@ -728,7 +728,7 @@ sales, the seller and the proprietary company of the goods can each register the
 sales and purchases.
 
 #### NOTE
-[Install](../../general/apps_modules.md#general-install) the *Argentinian Electronic Invoicing* module (`l10n_ar_edi`) to
+[Install](applications/general/apps_modules.md#general-install) the *Argentinian Electronic Invoicing* module (`l10n_ar_edi`) to
 use this feature.
 
 #### Cấu hình
@@ -752,7 +752,7 @@ New button, and fill in the following required information:
   related to this AFIP POS.
 - Địa chỉ POS AFIP: là trường liên quan đến địa chỉ thương mại đã đăng ký cho POS, thường là địa chỉ giống với công ty. Ví dụ, nếu một công ty có nhiều cửa hàng (vị trí thuế) thì AFIP yêu cầu công ty có một POS AFIP cho mỗi vị trí. Địa chỉ này sẽ được in trong báo cáo hóa đơn.
 
-![l10n_ar Purchase Journal Configuration.](argentina/l10n-ar-purchase-journal.png)
+![l10n_ar Purchase Journal Configuration.](../../../.gitbook/assets/l10n-ar-purchase-journal.png)
 
 ##### Sales journal
 
@@ -768,7 +768,7 @@ click the New button, and fill in the following required information:
 - Use Documents: check this field on the journal to select the electronic document type
   (in this case the electronic invoice).
 
-![l10n_ar Sales Journal Configuration.](argentina/l10n-ar-sales-journal.png)
+![l10n_ar Sales Journal Configuration.](../../../.gitbook/assets/l10n-ar-sales-journal.png)
 
 #### Invoicing flow
 
@@ -799,11 +799,11 @@ not sent to the AFIP.
 This pivot table allows you to validate the gross income in each jurisdiction. It serves as an
 affidavit for the corresponding taxes due but is not submitted to the AFIP.
 
-![IIBB Sales by jurisdiction.](argentina/iibb-sales-jurisdiction.png)
+![IIBB Sales by jurisdiction.](../../../.gitbook/assets/iibb-sales-jurisdiction.png)
 
 ### IIBB - Purchases by jurisdiction
 
 This pivot table allows you to validate the gross purchases in each jurisdiction. It serves as an
 affidavit for the corresponding taxes due but is not submitted to the AFIP.
 
-![IIBB Purchases by jurisdiction.](argentina/iibb-purchases-jurisdiction.png)
+![IIBB Purchases by jurisdiction.](../../../.gitbook/assets/iibb-purchases-jurisdiction.png)

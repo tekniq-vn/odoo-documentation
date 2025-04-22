@@ -2,12 +2,12 @@
 
 Upgrading to a new version of Odoo can be challenging, especially if the database you work on
 contains custom modules. This page intent is to explain the technical process of upgrading a
-database with customized modules. Refer to [Upgrade documentation](../../administration/upgrade.md)
+database with customized modules. Refer to [Upgrade documentation](administration/upgrade.md)
 for guidance on how to upgrade a database without customized modules.
 
 We consider a custom module, any module that extends the standard code of Odoo and that was not
 built with the Studio app. Before upgrading such a module, or before requesting its upgrade, have a
-look at the [Thỏa thuận mức dịch vụ (SLA)](../../administration/upgrade.md#upgrade-sla) to make sure who's responsible for it.
+look at the [Thỏa thuận mức dịch vụ (SLA)](administration/upgrade.md#upgrade-sla) to make sure who's responsible for it.
 
 While working on what we refer to as the **custom upgrade** of your database, keep in mind the goals
 of an upgrade:
@@ -55,7 +55,7 @@ You can find information on the changes between versions in the [Release Notes](
 
 Once the developments have stopped for the custom modules and the implemented features have been
 challenged to remove redundancy and unnecessary code, the next step is to request an upgraded test
-database. To do so, follow the steps mentioned in [Nhận cơ sở dữ liệu kiểm thử đã nâng cấp](../../administration/upgrade.md#upgrade-request-test), depending on the
+database. To do so, follow the steps mentioned in [Nhận cơ sở dữ liệu kiểm thử đã nâng cấp](administration/upgrade.md#upgrade-request-test), depending on the
 hosting type of your database.
 
 The purpose of this stage is not to start working with the custom modules in the upgraded database,
@@ -163,7 +163,7 @@ In case there are standard test failing, we suggest to analyze the reason for th
 ## Step 4: Upgraded database
 
 Once the custom modules are installable and working properly in an empty database, it is time to
-make them work on an [upgraded database](../../administration/upgrade.md#upgrade-request-test).
+make them work on an [upgraded database](administration/upgrade.md#upgrade-request-test).
 
 To make sure the custom code is working flawlessly in the new version, follow these steps:
 
@@ -174,9 +174,9 @@ To make sure the custom code is working flawlessly in the new version, follow th
 
 ### Migrate the data
 
-During the upgrade of the custom modules, you might have to use [upgrade scripts](../reference/upgrades/upgrade_scripts.md) to reflect changes from the source code to their
+During the upgrade of the custom modules, you might have to use [upgrade scripts](developer/reference/upgrades/upgrade_scripts.md) to reflect changes from the source code to their
 corresponding data. Together with the upgrade scripts, you can also make use of the
-[Upgrade utils](../reference/upgrades/upgrade_utils.md) and its helper functions.
+[Upgrade utils](developer/reference/upgrades/upgrade_utils.md) and its helper functions.
 
 - Any technical data that was renamed during the upgrade of the custom code (models, fields,
   external identifiers) should be renamed using upgrade scripts to avoid data loss during the
@@ -203,7 +203,7 @@ databases, it is not possible to run upgrade scripts on this platform.
 
 Odoo.sh
 
-As explained on the `Odoo.sh` tab of [Nhận cơ sở dữ liệu kiểm thử đã nâng cấp](../../administration/upgrade.md#upgrade-request-test), Odoo.sh is integrated with
+As explained on the `Odoo.sh` tab of [Nhận cơ sở dữ liệu kiểm thử đã nâng cấp](administration/upgrade.md#upgrade-request-test), Odoo.sh is integrated with
 the upgrade platform.
 
 Once the upgrade of a staging branch is on "Update on commit" mode, each time a commit is
@@ -216,12 +216,12 @@ the update of the custom modules done by the platform when the upgraded database
 On-premise
 
 Once you receive the upgraded dump of the database from the [Upgrade platform](https://upgrade.odoo.com), deploy the database and update all the custom modules by
-invoking the command [odoo-bin](../reference/cli.md) in the shell.
+invoking the command [odoo-bin](developer/reference/cli.md) in the shell.
 To update the custom modules, use the option: `-u <modules>,
 --update <modules>`.
 
 #### IMPORTANT
-As mentioned in the [CLI documentation](../reference/cli.md), the command used
+As mentioned in the [CLI documentation](developer/reference/cli.md), the command used
 to call the CLI depends on how you installed Odoo.
 
 <a id="upgrade-custom-upgraded-database-test-custom"></a>
@@ -238,7 +238,7 @@ Things to pay attention to:
   disabled. You can find the information on disabled views on the Upgrade report. This view needs to
   be activated again (or removed if not useful anymore). To achieve this, we recommend the use of
   upgrade scripts.
-- [Module data](../tutorials/define_module_data.md) not updated: Custom records that have the
+- [Module data](developer/tutorials/define_module_data.md) not updated: Custom records that have the
   `noupdate` flag are not updated when upgrading the module in the new database. For the custom
   data that needs to be updated due to changes in the new version, we recommend to use upgrade
   scripts to do so. See also: `update_record_from_xml()`.
@@ -250,9 +250,9 @@ Things to pay attention to:
 When the custom modules are working properly in the upgraded database, it is crucial to do another
 round of testing to assess the database usability and detect any issues that might have gone
 unnoticed in previous tests. For further information about testing the upgraded database, check
-[Kiểm thử phiên bản mới của cơ sở dữ liệu](../../administration/upgrade.md#upgrade-testing).
+[Kiểm thử phiên bản mới của cơ sở dữ liệu](administration/upgrade.md#upgrade-testing).
 
-As mentioned in [Nâng cấp cơ sở dữ liệu production](../../administration/upgrade.md#upgrade-production), both standard upgrade scripts and your database are
+As mentioned in [Nâng cấp cơ sở dữ liệu production](administration/upgrade.md#upgrade-production), both standard upgrade scripts and your database are
 constantly evolving. Therefore it is highly recommended to frequently request new upgraded test
 databases and ensure that the upgrade process is still successful.
 
@@ -265,4 +265,4 @@ might have occurred with the migrated data.
 ## Step 6: Production upgrade
 
 Once you are confident about upgrading your production database, follow the process described on
-[Nâng cấp cơ sở dữ liệu production](../../administration/upgrade.md#upgrade-production), depending on the hosting type of your database.
+[Nâng cấp cơ sở dữ liệu production](administration/upgrade.md#upgrade-production), depending on the hosting type of your database.

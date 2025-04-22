@@ -22,12 +22,12 @@ valuation](#inventory-avg-price-leaving-inventory).
 
 #### NOTE
 This document addresses a specific use case for theoretical purposes. For instructions on how to
-set up and use , refer to the [inventory valuation configuration](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+set up and use , refer to the [inventory valuation configuration](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
 doc.
 
 #### SEE ALSO
-- [Using inventory valuation](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md)
-- [Other inventory valuation methods](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-costing-methods)
+- [Using inventory valuation](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md)
+- [Other inventory valuation methods](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-costing-methods)
 
 ## Cấu hình
 
@@ -37,7 +37,7 @@ product category page, set Costing Method to `Average Cost (AVCO)` and
 Inventory Valuation to `Automated`.
 
 #### SEE ALSO
-[Inventory valuation configuration](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+[Inventory valuation configuration](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
 
 ## Using average cost valuation
 
@@ -62,7 +62,7 @@ $$
 - **Incoming Qty**: count of products arriving in the new shipment;
 - **Purchase Price**: estimated price of products at the reception of products (since vendor bills
   may arrive later). The amount includes not only the price for the products, but also added costs,
-  such as shipping, taxes, and [landed costs](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md). At
+  such as shipping, taxes, and [landed costs](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md). At
   reception of the vendor bill, this price is adjusted;
 - **Final Qty**: quantity of on-hand stock after the stock move.
 
@@ -141,7 +141,7 @@ are `0` tables left in stock.
 Bên cạnh việc sử dụng , các công ty áp dụng **kế toán Anglo-Saxon** còn duy trì tài khoản tạm giữ để theo dõi số tiền phải trả nhà cung cấp. Khi nhà cung cấp giao hàng, **giá trị tồn kho** tăng theo giá nhập hàng của sản phẩm đã nhập kho. Tài khoản tạm giữ (gọi là **nhập kho**) được ghi có và chỉ đối chiếu khi nhận được hóa đơn mua hàng.
 
 #### SEE ALSO
-- [Anglo-Saxon vs. Continental](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-accounting-types)
+- [Anglo-Saxon vs. Continental](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-accounting-types)
 
 Bảng dưới đây phản ánh các bút toán và tài khoản kế toán. Tài khoản *nhập kho* lưu trữ số tiền dự kiến sẽ thanh toán cho nhà cung cấp khi hóa đơn mua hàng vẫn chưa được nhận. Để cân đối tài khoản khi trả lại sản phẩm có sự chênh lệch giữa giá trị **định giá** của sản phẩm và giá mua thực tế, một tài khoản *chênh lệch giá* sẽ được tạo ra.
 
@@ -162,7 +162,7 @@ Bảng dưới đây phản ánh các bút toán và tài khoản kế toán. T�
 
 #### Tóm tắt
 
-Tại thời điểm nhận hàng, Odoo đảm bảo rằng các công ty có thể thanh toán cho hàng hóa đã mua bằng cách chuyển trước một khoản tiền tương ứng với giá trị của hàng hóa nhận được vào [tài khoản nợ phải trả](cheat_sheet.md), **Nhập kho**. Sau đó, khi nhận hóa đơn, số tiền trong tài khoản tạm giữ này sẽ được chuyển sang *Tài khoản phải trả*. Việc chuyển tiền vào tài khoản này có nghĩa là hóa đơn đã được thanh toán. **Nhập kho** sẽ được đối chiếu khi nhận được hóa đơn mua hàng.
+Tại thời điểm nhận hàng, Odoo đảm bảo rằng các công ty có thể thanh toán cho hàng hóa đã mua bằng cách chuyển trước một khoản tiền tương ứng với giá trị của hàng hóa nhận được vào [tài khoản nợ phải trả](applications/finance/accounting/get_started/cheat_sheet.md), **Nhập kho**. Sau đó, khi nhận hóa đơn, số tiền trong tài khoản tạm giữ này sẽ được chuyển sang *Tài khoản phải trả*. Việc chuyển tiền vào tài khoản này có nghĩa là hóa đơn đã được thanh toán. **Nhập kho** sẽ được đối chiếu khi nhận được hóa đơn mua hàng.
 
 Inventory valuation is a method of calculating how much each in-stock product is worth internally.
 Since there is a difference between the price the product is **valuated at** and the price the
@@ -191,19 +191,19 @@ Under Account Properties, create a new Price Difference Account by typing in
 the name of the account and clicking Create and Edit. Then set the account
 Type as `Expenses`, and click Save.
 
-![Create price difference account.](avg_price_valuation/create-price-difference.png)
+![Create price difference account.](../../../../.gitbook/assets/create-price-difference.png)
 
 Then, receive the shipment in the *Purchase* app or *Inventory* app, and navigate to the
 Accounting app ‣ Accounting ‣ Journal Entries. In the list, find the
 Reference that matches the warehouse reception operation for the relevant product.
 
-![Show accounting entry of 8 tables from the list.](avg_price_valuation/search-for-entry-of-tables.png)
+![Show accounting entry of 8 tables from the list.](../../../../.gitbook/assets/search-for-entry-of-tables.png)
 
 Click on the line for 8 tables. This accounting journal entry shows that when the 8 tables were
 received, the `Stock Valuation` account increased by `$80`. Conversely, the **Stock Input** account
 (set as `Stock Interim (Received)` account by default) is credited `$80`.
 
-![Debit stock valuation and credit stock input 80 dollars.](avg_price_valuation/accounting-entry-8-tables.png)
+![Debit stock valuation and credit stock input 80 dollars.](../../../../.gitbook/assets/accounting-entry-8-tables.png)
 
 #### Accounts balanced at received vendor bill
 
@@ -225,7 +225,7 @@ Switch to the Journal Items tab to view how `$80` is transferred from the holdin
 account, `Stock Interim (Received)` to `Accounts Payable`. Confirm the bill to record
 the payment to the vendor.
 
-![Show bill linked to the purchase order for 8 tables.](avg_price_valuation/receive-8-table-bill.png)
+![Show bill linked to the purchase order for 8 tables.](../../../../.gitbook/assets/receive-8-table-bill.png)
 
 ### On product delivery
 
@@ -237,7 +237,7 @@ To put it simply:
    `$120` worth of products exiting the company.
 2. Debit **Accounts Receivable** to record revenue from the sale.
 
-![Show journal items linked to sale order.](avg_price_valuation/sell-10-tables.png)
+![Show journal items linked to sale order.](../../../../.gitbook/assets/sell-10-tables.png)
 
 ### On product return
 
@@ -254,7 +254,7 @@ Tóm tắt:
 2. Debit **Stock Input** an additional `$2` to account for the **Price Difference**.
 3. Credit **Stock Valuation** `$12` because the item is leaving the stock.
 
-![2 dollar difference expensed in Price Difference account.](avg_price_valuation/expensing-price-difference-account.png)
+![2 dollar difference expensed in Price Difference account.](../../../../.gitbook/assets/expensing-price-difference-account.png)
 
 Once the vendor's refund is received,
 
@@ -262,4 +262,4 @@ Once the vendor's refund is received,
 2. Debit **Accounts Payable** `$10` to have the accountants collect and register the payment in
    their journal.
 
-![Return to get 10 dollars back.](avg_price_valuation/return-credit-note.png)
+![Return to get 10 dollars back.](../../../../.gitbook/assets/return-credit-note.png)

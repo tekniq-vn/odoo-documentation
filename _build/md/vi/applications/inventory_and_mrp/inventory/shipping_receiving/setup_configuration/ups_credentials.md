@@ -2,10 +2,10 @@
 
 UPS is a shipping carrier service that integrates with Odoo to coordinate shipping to all regions.
 Once integrated, users can create shipping methods that estimate shipping costs and [generate
-labels](labels.md).
+labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md).
 
 #### SEE ALSO
-[Third-party shipping carriers](third_party_shipper.md)
+[Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
 
 To set up the UPS shipping connector in Odoo, complete these steps:
 
@@ -21,7 +21,7 @@ button in the top-right corner to log in or create a UPS account.
 After logging in, click the profile icon in the top-right corner, and select Accounts and
 Payment from the drop-down menu.
 
-![Show how to navigate to the "Accounts and Payment" page from the home screen.](ups_credentials/accounts-payment.png)
+![Show how to navigate to the "Accounts and Payment" page from the home screen.](../../../../../.gitbook/assets/accounts-payment.png)
 
 On the Accounts and Payment Options page, two accounts must be configured: an Odoo
 shipment account and a payment card.
@@ -31,7 +31,7 @@ shipment account and a payment card.
 To add an Odoo shipment account, select Add New Account from the Add a
 Payment Method drop-down menu, and click Add.
 
-![Display "Add an account" option from the drop-down menu.](ups_credentials/new-account.png)
+![Display "Add an account" option from the drop-down menu.](../../../../../.gitbook/assets/new-account.png)
 
 On the next screen, labeled Open a Shipping Account, complete the forms to configure the
 shipping account type (e.g. Business) and if any regulated items will be shipped. Then
@@ -41,7 +41,7 @@ Identity, and Explore Discounts, with the last option being optional.
 When complete, submit the application on the last page of the wizard to finish setting up the
 shipping account.
 
-![Display UPS form to fill out company shipping information.](ups_credentials/shipping-account.png)
+![Display UPS form to fill out company shipping information.](../../../../../.gitbook/assets/shipping-account.png)
 
 <a id="inventory-shipping-receiving-ups-account-number"></a>
 
@@ -51,7 +51,7 @@ With the shipping account set up, the UPS Account Number becomes available. To a
 it, navigate to Profile ‣ Accounts and Payment and refer to the shipping
 account's Number field.
 
-![Show Account "Number" field for the shipping account.](ups_credentials/account-number.png)
+![Show Account "Number" field for the shipping account.](../../../../../.gitbook/assets/account-number.png)
 
 ### Thẻ thanh toán
 
@@ -59,7 +59,7 @@ Navigate back to the Accounts and Payments page and select the Add Payment
 Card option from the Add a Payment Method drop-down menu. Then, complete the form to
 add the credit card information.
 
-![Show "Add Payment Card" option from the drop-down.](ups_credentials/payment-card.png)
+![Show "Add Payment Card" option from the drop-down.](../../../../../.gitbook/assets/payment-card.png)
 
 ## UPS developer account setup
 
@@ -67,7 +67,7 @@ Next, log into the [UPS developer account](http://developer.ups.com/) to generat
 key. To begin, click the profile icon in the top-right corner, and choose the Apps
 option from the drop-down menu.
 
-![Display the "Apps" drop-down option after clicking the profile picture icon.](ups_credentials/apps.png)
+![Display the "Apps" drop-down option after clicking the profile picture icon.](../../../../../.gitbook/assets/apps.png)
 
 ### Thêm ứng dụng
 
@@ -80,7 +80,7 @@ Add existing account from the drop-down menu in the corresponding field, and the
 the [account number](#inventory-shipping-receiving-ups-account-number) linked to the UPS
 account created in the previous step.
 
-![Show form to fill in the UPS account number.](ups_credentials/developer-account-setup.png)
+![Show form to fill in the UPS account number.](../../../../../.gitbook/assets/developer-account-setup.png)
 
 Click Next, and proceed to the Add App form, and fill out the fields:
 
@@ -107,7 +107,7 @@ Finally, click Save and accept UPS's terms and conditions.
 #### SEE ALSO
 [UPS API Catalog](https://developer.ups.com/catalog?loc=en_US)
 
-![Show "Add Apps" form, where the app details are configured.](ups_credentials/add-app-development.png)
+![Show "Add Apps" form, where the app details are configured.](../../../../../.gitbook/assets/add-app-development.png)
 
 <a id="inventory-shipping-receiving-ups-client-id"></a>
 
@@ -116,12 +116,12 @@ Finally, click Save and accept UPS's terms and conditions.
 With the new app created, in the Profile ‣ My Apps ‣ App page, select the app
 from the Credentials section to view the UPS credentials.
 
-![Show newly created app in the "My Apps" section.](ups_credentials/my-apps.png)
+![Show newly created app in the "My Apps" section.](../../../../../.gitbook/assets/my-apps.png)
 
 In the Credentials section, copy the Client ID and Client Secret
 key.
 
-![Display the "Client ID" and "Client Secret" key.](ups_credentials/credentials.png)
+![Display the "Client ID" and "Client Secret" key.](../../../../../.gitbook/assets/credentials1.png)
 
 ## Thiết lập trong Odoo
 
@@ -136,7 +136,7 @@ it and create a new shipping method using UPS.
 
 In the Provider field, select UPS. Doing so reveals the UPS
 Configuration tab, where various fields must be entered. For details instructions on configuring
-the other fields on the shipping method, refer to the [Configure third-party carrier](third_party_shipper.md) documentation.
+the other fields on the shipping method, refer to the [Configure third-party carrier](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md) documentation.
 
 In the UPS Configuration tab, complete the following fields:
 
@@ -144,13 +144,13 @@ In the UPS Configuration tab, complete the following fields:
 - UPS Client ID: (*required*) Get the [Client ID](#inventory-shipping-receiving-ups-client-id) from the UPS developer website.
 - UPS Client Secret: (*required*) Get the [Client Secret](#inventory-shipping-receiving-ups-client-id) key from the UPS developer website.
 - UPS Service Type: Select from the drop-down menu the type of shipping service.
-- UPS Package Type: (*required*) Select from the drop-down menu the [package type](../../product_management/configure/package.md) that is supported for the shipping service.
+- UPS Package Type: (*required*) Select from the drop-down menu the [package type](applications/inventory_and_mrp/inventory/product_management/configure/package.md) that is supported for the shipping service.
 - Package Weight Unit: The unit of measure for the package weight.
 - Package Size Unit: The unit of measure for the package dimensions.
 - Label Format: Choose the label format shipping labels: PDF,
   ZPL, EPL, or SPL.
 
-![Show the "UPS Configuration" tab on the Shipping Methods form.](ups_credentials/ups-configuration.png)
+![Show the "UPS Configuration" tab on the Shipping Methods form.](../../../../../.gitbook/assets/ups-configuration.png)
 
 In the Options section, the following features are available:
 

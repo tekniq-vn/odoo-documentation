@@ -75,7 +75,7 @@ If you only use B2C or B2B prices on your website, simply select the appropriate
 
 If you have both B2B and B2C prices on a single website, please follow these instructions:
 
-1. Activate the [developer mode](../../../general/developer_mode.md#developer-mode) and go to General Settings
+1. Activate the [developer mode](applications/general/developer_mode.md#developer-mode) and go to General Settings
    ‣ Users & Companies ‣ Groups.
 2. Open either `Technical / Tax display B2B` or `Technical / Tax display B2C`.
 3. Under the Users tab, add the users requiring access to the price type. Add B2C users
@@ -88,7 +88,7 @@ usually the default configuration, but you can check your **Default Sale
 Tax** from the menu Configuration ‣ Settings
 of the Accounting application.
 
-![image](B2B_B2C/price_B2C_B2B01.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B01.png)
 
 Once done, you can create a **B2C** pricelist. You can activate the
 pricelist feature per customer from the menu:
@@ -104,7 +104,7 @@ included in price) and set a price on this product for B2C customers at
 10€, from the Sales ‣ Products
 menu of the Sales application:
 
-![image](B2B_B2C/price_B2C_B2B02.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B02.png)
 
 ### Setting the B2C fiscal position
 
@@ -113,7 +113,7 @@ menu: Configuration ‣ Fiscal Positions.
 This fiscal position should map the VAT 21% (tax excluded of price)
 with a VAT 21% (tax included in price)
 
-![image](B2B_B2C/price_B2C_B2B03.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B03.png)
 
 ## Test by creating a quotation
 
@@ -121,14 +121,14 @@ Create a quotation from the Sale application, using the
 Sales ‣ Quotations menu. You should have the
 following result: 8.26€ + 1.73€ = 9.99€.
 
-![image](B2B_B2C/price_B2C_B2B04.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B04.png)
 
 Then, create a quotation but **change the pricelist to B2C and the
 fiscal position to B2C** on the quotation, before adding your product.
 You should have the expected result, which is a total price of 10€ for
 the customer: 8.26€ + 1.74€ = 10.00€.
 
-![image](B2B_B2C/price_B2C_B2B05.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B05.png)
 
 This is the expected behavior for a customer of your shop.
 

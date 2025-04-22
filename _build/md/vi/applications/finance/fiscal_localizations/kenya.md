@@ -4,7 +4,7 @@
 
 ## Cấu hình
 
-Install the 🇰🇪 **Kenyan** [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) to get
+Install the 🇰🇪 **Kenyan** [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) to get
 all the features of the Kenyan localization.
 
 ## eTIMS
@@ -18,7 +18,7 @@ integrates with the existing **Trader Invoicing System (TIS)**, such as the one 
 The OSCU is used to validate, encrypt, sign, transmit, and store tax invoices.
 
 #### NOTE
-Make sure to [install](../../general/apps_modules.md#general-install) the **Kenya eTIMS EDI** modules to use the OSCU
+Make sure to [install](applications/general/apps_modules.md#general-install) the **Kenya eTIMS EDI** modules to use the OSCU
 device fully.
 
 <a id="kenya-initialization"></a>
@@ -47,7 +47,7 @@ Three server modes are available:
 
 #### IMPORTANT
 If your device has **already been initialized** (through another ERP, for example), enable the
-[Chế độ lập trình viên (chế độ gỡ lỗi)](../../general/developer_mode.md). Then, in the Kenya eTIMS Integration section,
+[Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md). Then, in the Kenya eTIMS Integration section,
 enter the ID of the unit in the Unit ID field and the key obtained through a previous
 initialization in the CMC Key field. Click Save when done.
 
@@ -77,7 +77,7 @@ or KRA office.
 Common standard codes are **automatically** fetched from the KRA eTIMS API servers every two days.
 To fetch them manually, proceed as follows:
 
-1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](../../general/developer_mode.md).
+1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md).
 2. Go to Settings ‣ Technical ‣ Automation: Scheduled Actions and search for
    KE eTIMS: Fetch KRA standard codes.
 3. Click the action in the list, then click Run Manually to fetch the codes.
@@ -85,7 +85,7 @@ To fetch them manually, proceed as follows:
 Go to Accounting ‣ Configuration ‣ KE OSCU Codes to view the complete list of
 fetched OSCU codes.
 
-![List of fetched OSCU codes.](kenya/oscu-codes.png)
+![List of fetched OSCU codes.](../../../.gitbook/assets/oscu-codes.png)
 
 <a id="etims-unspsc"></a>
 
@@ -94,7 +94,7 @@ fetched OSCU codes.
 The KRA needs UNSPSC codes for a product to be **registered**. UNSPSC codes are **automatically**
 fetched from the KRA eTIMS API servers every day. To fetch them manually, proceed as follows:
 
-1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](../../general/developer_mode.md).
+1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md).
 2. Go to Settings ‣ Technical ‣ Automation: Scheduled Actions and search for
    KE eTIMS: Fetch UNSPSC codes from eTIMS.
 3. Click the action in the list, then click Run Manually to fetch the codes.
@@ -107,7 +107,7 @@ Category field to view the complete list of fetched UNSPSC codes.
 Notices are **automatically** fetched from the KRA eTIMS API servers every day. To fetch them
 **manually**, proceed as follows:
 
-1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](../../general/developer_mode.md).
+1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md).
 2. Go to Settings ‣ Technical ‣ Automation: Scheduled Actions and search for
    KE eTIMS: Fetch KRA notices from eTIMS.
 3. Click the action in the list, then click Run Manually to fetch the notices.
@@ -120,9 +120,9 @@ fetched notices.
 <a id="kenya-branch"></a>
 
 #### SEE ALSO
-[Công ty](../../general/companies.md)
+[Công ty](applications/general/companies.md)
 
-If you have [multiple companies](../accounting.md#accounting-multi-company), you can centralize and manage them
+If you have [multiple companies](applications/finance/accounting.md#accounting-multi-company), you can centralize and manage them
 all on a single Odoo database. The KRA identifies and differentiates the **main** company from
 its **subsidiaries** by using IDs. Furthermore, subsidiaries are classified as **branches** of the
 main company.
@@ -189,7 +189,7 @@ If the elements above are defined, the product is automatically registered while
 operation to the KRA. If not, you will be alerted by a yellow banner at the top of the screen
 inviting you to check the missing elements.
 
-![Product registration template.](kenya/product-registration.png)
+![Product registration template.](../../../.gitbook/assets/product-registration.png)
 
 ## Stock movements
 
@@ -242,7 +242,7 @@ are the following:
    vendor bill has been confirmed on eTIMS, the **KRA invoice number** can be found in the
    eTIMS Details tab.
 
-![Bill registration steps.](kenya/purchase-order-lines.png)
+![Bill registration steps.](../../../.gitbook/assets/purchase-order-lines.png)
 
 ## Xuất hóa đơn
 
@@ -271,7 +271,7 @@ it:
 Customs import codes are **automatically** fetched from the KRA eTIMS API servers every day. To
 fetch them manually, proceed as follows:
 
-1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](../../general/developer_mode.md).
+1. Bật [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md).
 2. Go to Settings ‣ Technical ‣ Automation: Scheduled Actions and search for
    KE eTIMS: Receive Customs Imports from the OSCU.
 3. Click the action in the list, then click Run Manually to fetch the codes.

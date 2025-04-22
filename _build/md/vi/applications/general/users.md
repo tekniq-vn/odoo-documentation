@@ -5,10 +5,10 @@ users as the company needs and, in order to restrict the type of information eac
 rules can be applied to each user. Users and access rights can be added and changed at any point.
 
 #### SEE ALSO
-- [Thay đổi ngôn ngữ](users/language.md)
-- [Quyền truy cập](users/access_rights.md)
-- [Superuser mode](users/access_rights.md#access-rights-superuser)
-- [Create and modify groups](users/access_rights.md#access-rights-groups)
+- [Thay đổi ngôn ngữ](applications/general/users/language.md)
+- [Quyền truy cập](applications/general/users/access_rights.md)
+- [Superuser mode](applications/general/users/access_rights.md#access-rights-superuser)
+- [Create and modify groups](applications/general/users/access_rights.md#access-rights-groups)
 
 <a id="users-add-individual"></a>
 
@@ -17,20 +17,20 @@ rules can be applied to each user. Users and access rights can be added and chan
 To add new users, navigate to Settings app ‣ Users section ‣ Manage Users, and
 click on New.
 
-![View of the settings page emphasizing the manage users field in Odoo.](users/manage-users.png)
+![View of the settings page emphasizing the manage users field in Odoo.](../../.gitbook/assets/manage-users.png)
 
-Fill in the form with all the required information. Under the [Access Rights](users/access_rights.md) tab, choose the group within each application the user can have access to.
+Fill in the form with all the required information. Under the [Access Rights](applications/general/users/access_rights.md) tab, choose the group within each application the user can have access to.
 
 The list of applications shown is based on the applications installed on the database.
 
-![View of a user's form emphasizing the access rights tab in Odoo.](users/new-user.png)
+![View of a user's form emphasizing the access rights tab in Odoo.](../../.gitbook/assets/new-user.png)
 
 After filling out all the necessary fields on the page, manually Save. An invitation
 email is automatically sent to the user, using the email in the Email Address field. The
 user must click on the link included in the email to accept the invitation, and to create a database
 login.
 
-![View of a user's form with a notification that the invitation email has been sent in Odoo.](users/invitation-email.png)
+![View of a user's form with a notification that the invitation email has been sent in Odoo.](../../.gitbook/assets/invitation-email.png)
 
 #### WARNING
 Nếu công ty đang sử dụng gói đăng ký theo tháng, cơ sở dữ liệu sẽ tự động được cập nhật để phản ánh số người dùng được thêm mới. Trong trường hợp công ty đang sử dụng gói theo năm hoặc nhiều năm, một biểu ngữ thông báo hết hạn sẽ xuất hiện trong cơ sở dữ liệu. Người dùng có thể nhấp vào biểu ngữ đó để tạo một báo giá upsell nhằm cập nhật gói đăng ký. Ngoài ra, người dùng cũng có thể gửi phiếu hỗ trợ <[https://www.odoo.com/help](https://www.odoo.com/help)>_ để được trợ giúp xử lý vấn đề.
@@ -43,7 +43,7 @@ accessible via Settings app ‣ Users section ‣ Manage Users.
 There are three types of users: Internal User, Portal, and
 Public.
 
-![View of a user's form in developer mode emphasizing the user type field in Odoo.](users/user-type.png)
+![View of a user's form in developer mode emphasizing the user type field in Odoo.](../../.gitbook/assets/user-type.png)
 
 The Portal and Public user options do **not** allow the administrator to
 choose access rights. These users have specific access rights pre-set (such as, record rules and
@@ -65,7 +65,7 @@ Confirmation pop-up window that appears.
 If there are more users in an Odoo database than provisioned in the Odoo Enterprise subscription,
 the following message is displayed.
 
-![Too many users on a database error message.](users/add-more-users.png)
+![Too many users on a database error message.](../../.gitbook/assets/add-more-users1.png)
 
 When the message appears, the database administrator has 30 days to act before the database expires.
 The countdown is updated every day.
@@ -89,7 +89,7 @@ after a few days, when the next verification occurs.
 Password management is an important part of granting users autonomous access to the database at all
 times. Odoo offers a few different methods to reset a user's password.
 
-![Minimum Password Length highlighted in the Permissions section of General Settings.](users/minimum-password-length.png)
+![Minimum Password Length highlighted in the Permissions section of General Settings.](../../.gitbook/assets/minimum-password-length.png)
 
 <a id="users-reset-password"></a>
 
@@ -109,12 +109,12 @@ completed by the individual user, and this setting is enabled by default.
 To change this setting, go to Settings app ‣ Permissions section, activate
 Password Reset, and then click Save.
 
-![Enabling Password Reset in Odoo Settings](users/password-reset-login.png)
+![Enabling Password Reset in Odoo Settings](../../.gitbook/assets/password-reset-login.png)
 
 On the login page, click Reset Password to initiate the password reset process, and have
 a reset-token sent to the email on file.
 
-![Login screen on Odoo.com with the password reset option highlighted.](users/password-reset.png)
+![Login screen on Odoo.com with the password reset option highlighted.](../../.gitbook/assets/password-reset.png)
 
 <a id="users-reset-password-email"></a>
 
@@ -132,7 +132,7 @@ button appears.
 This email contains all the instructions needed to reset the password, along with a link redirecting
 the user to an Odoo login page.
 
-![Example of an email with a password reset link for an Odoo account.](users/password-reset-email.png)
+![Example of an email with a password reset link for an Odoo account.](../../.gitbook/assets/password-reset-email.png)
 
 <a id="users-change-password"></a>
 
@@ -140,7 +140,7 @@ the user to an Odoo login page.
 
 Truy cập Ứng dụng Cài đặt ‣ Người dùng & công ty ‣ Người dùng, và chọn một người dùng để mở biểu mẫu của họ. Nhấp vào biểu tượng ⚙️ Tác vụ, sau đó chọn Thay đổi mật khẩu từ menu thả xuống. Nhập mật khẩu mới vào cột Mật khẩu mới trong cửa sổ bật lên Thay đổi mật khẩu, và xác nhận thay đổi bằng cách nhấp Thay đổi mật khẩu.
 
-![Change a user's password on Odoo.](users/change-password.png)
+![Change a user's password on Odoo.](../../.gitbook/assets/change-password.png)
 
 #### NOTE
 This operation only modifies the password of the users locally, and does **not** affect their
@@ -170,18 +170,18 @@ company.
 If multi-company access is not configured correctly, it could lead to inconsistent multi-company
 behaviors. Because of this, only experienced Odoo users should make access rights changes to
 users for databases with a multi-company configuration. For technical explanations, refer to the
-developer documentation on [Multi-company Guidelines](../../developer/howtos/company.md).
+developer documentation on [Multi-company Guidelines](developer/howtos/company.md).
 
-![View of a user's form emphasizing the multi companies field in Odoo.](users/multi-companies.png)
+![View of a user's form emphasizing the multi companies field in Odoo.](../../.gitbook/assets/multi-companies.png)
 
 #### SEE ALSO
 công ty
 
-* [Thay đổi ngôn ngữ](users/language.md)
-* [Xác thực hai yếu tố](users/2fa.md)
-* [Quyền truy cập](users/access_rights.md)
-* [Quyền truy cập cổng thông tin](users/portal.md)
-* [Facebook sign-in authentication](users/facebook.md)
-* [Google Sign-In Authentication](users/google.md)
-* [Microsoft Azure sign-in authentication](users/azure.md)
-* [LDAP authentication](users/ldap.md)
+* [Thay đổi ngôn ngữ](applications/general/users/language.md)
+* [Xác thực hai yếu tố](applications/general/users/2fa.md)
+* [Quyền truy cập](applications/general/users/access_rights.md)
+* [Quyền truy cập cổng thông tin](applications/general/users/portal.md)
+* [Facebook sign-in authentication](applications/general/users/facebook.md)
+* [Google Sign-In Authentication](applications/general/users/google.md)
+* [Microsoft Azure sign-in authentication](applications/general/users/azure.md)
+* [LDAP authentication](applications/general/users/ldap.md)

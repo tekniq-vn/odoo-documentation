@@ -1,14 +1,14 @@
 # Đối chiếu ngân hàng
 
-**Đối chiếu ngân hàng** là quy trình khớp các [giao dịch ngân hàng](transactions.md) của bạn với hồ sơ kinh doanh như [hóa đơn bán hàng](../customer_invoices.md), [hóa đơn mua hàng](../vendor_bills.md) và [thanh toán](../payments.md). Quy trình này không chỉ bắt buộc với hầu hết doanh nghiệp mà còn mang lại nhiều lợi ích như: giảm thiểu rủi ro sai sót trong báo cáo tài chính, phát hiện hoạt động gian lận và quản lý dòng tiền hiệu quả hơn.
+**Đối chiếu ngân hàng** là quy trình khớp các [giao dịch ngân hàng](applications/finance/accounting/bank/transactions.md) của bạn với hồ sơ kinh doanh như [hóa đơn bán hàng](applications/finance/accounting/customer_invoices.md), [hóa đơn mua hàng](applications/finance/accounting/vendor_bills.md) và [thanh toán](applications/finance/accounting/payments.md). Quy trình này không chỉ bắt buộc với hầu hết doanh nghiệp mà còn mang lại nhiều lợi ích như: giảm thiểu rủi ro sai sót trong báo cáo tài chính, phát hiện hoạt động gian lận và quản lý dòng tiền hiệu quả hơn.
 
-Thanks to the bank [reconciliation models](reconciliation_models.md), Odoo pre-selects the
+Thanks to the bank [reconciliation models](applications/finance/accounting/bank/reconciliation_models.md), Odoo pre-selects the
 matching entries automatically.
 
 #### SEE ALSO
 - [Odoo Tutorials: Bank reconciliation](https://www.odoo.com/slides/slide/bank-reconciliation-2724)
-- [Đồng bộ hoá ngân hàng](bank_synchronization.md)
-- [Giao dịch](transactions.md)
+- [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
+- [Giao dịch](applications/finance/accounting/bank/transactions.md)
 
 ## Bank reconciliation view
 
@@ -21,12 +21,12 @@ either:
   reconciliation. You can remove the Not Matched filter from the search bar to include
   previously reconciled transactions.
 
-![Reaching the bank reconciliation tool from your accounting dashboard](reconciliation/bank-card.png)
+![Reaching the bank reconciliation tool from your accounting dashboard](../../../../.gitbook/assets/bank-card.png)
 
 The bank reconciliation view is structured into three distinct sections: transactions, counterpart
 entries, and resulting entry.
 
-![The user interface of the reconciliation view of a bank journal.](reconciliation/user-interface.png)
+![The user interface of the reconciliation view of a bank journal.](../../../../.gitbook/assets/user-interface.png)
 
 Giao dịch
 : The transactions section on the left shows all bank transactions, with the newest displayed
@@ -47,7 +47,7 @@ Bút toán kết quả
 
 ## Đối chiếu giao dịch
 
-Transactions can be matched automatically with the use of [reconciliation models](reconciliation_models.md), or they can be matched with [existing entries](#reconciliation-existing-entries), [batch payments](#reconciliation-batch-payments),
+Transactions can be matched automatically with the use of [reconciliation models](applications/finance/accounting/bank/reconciliation_models.md), or they can be matched with [existing entries](#reconciliation-existing-entries), [batch payments](#reconciliation-batch-payments),
 [manual operations](#reconciliation-manual-operations), and [reconciliation model buttons](#reconciliation-button).
 
 1. Select a transaction among unmatched bank transactions.
@@ -69,7 +69,7 @@ account with the corresponding receivable, payable, or outstanding account.
 ### Match existing entries
 
 This tab contains matching entries Odoo automatically pre-selects according to the reconciliation
-models. The entry order is based on [reconciliation models](reconciliation_models.md), with
+models. The entry order is based on [reconciliation models](applications/finance/accounting/bank/reconciliation_models.md), with
 suggested entries appearing first.
 
 <a id="reconciliation-batch-payments"></a>
@@ -93,12 +93,12 @@ of the relevant optional fields.
 Lines are silently reconciled unless a write-off entry is required, which launches a
 reconciliation wizard.
 
-![Click on fully paid to manually set an invoice as entirely paid.](reconciliation/fully-paid.png)
+![Click on fully paid to manually set an invoice as entirely paid.](../../../../.gitbook/assets/fully-paid.png)
 
 <a id="reconciliation-button"></a>
 
 ### Reconciliation model buttons
 
-Use a [reconciliation model](reconciliation_models.md) button for manual operations that are
+Use a [reconciliation model](applications/finance/accounting/bank/reconciliation_models.md) button for manual operations that are
 frequently used. These custom buttons allow you to quickly reconcile bank transactions manually and
 can also be used in combination with existing entries.

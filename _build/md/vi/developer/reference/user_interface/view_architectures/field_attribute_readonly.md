@@ -6,6 +6,6 @@ expression that evaluates to a bool.
 * **Requirement:**
   Optional
 * **Type:**
-  [Python expression](../view_architectures.md#reference-view-architectures-python-expression)
+  [Python expression](developer/reference/user_interface/view_architectures.md#reference-view-architectures-python-expression)
 * **Default:**
   `False`

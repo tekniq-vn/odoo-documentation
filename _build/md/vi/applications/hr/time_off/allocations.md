@@ -1,11 +1,11 @@
 # Phân bổ
 
-Once [time off types](../time_off.md#time-off-time-off-types) and [accrual plans](../time_off.md#time-off-accrual-plans) have been configured, the next step is to *allocate*, or give, time off to
+Once [time off types](applications/hr/time_off.md#time-off-time-off-types) and [accrual plans](applications/hr/time_off.md#time-off-accrual-plans) have been configured, the next step is to *allocate*, or give, time off to
 employees.
 
 The *Allocations* page of the **Time Off** app is **only** visible to users who have either *Time
 Off Officer* or *Administrator* access rights for the **Time Off** application. For more information
-on access rights, refer to the [access rights](../../general/users/access_rights.md)
+on access rights, refer to the [access rights](applications/general/users/access_rights.md)
 documentation.
 
 ## Allocate time off
@@ -23,7 +23,7 @@ information:
 - Time Off Type: Using the drop-down menu, select the type of time off that is being
   allocated to the employees.
 - Allocation Type: Select either Regular Allocation or Accrual
-  Allocation. If the allocation is **not** based on an [accrual plan](../time_off.md#time-off-accrual-plans), select Regular Allocation.
+  Allocation. If the allocation is **not** based on an [accrual plan](applications/hr/time_off.md#time-off-accrual-plans), select Regular Allocation.
 - Accrual Plan: If Accrual Allocation is selected for the
   Allocation Type, the Accrual Plan field appears. Using the drop-down menu,
   select the accrual plan with which the allocation is associated. An accrual plan **must** be
@@ -45,7 +45,7 @@ information:
   field is labeled Run until.
 
   #### IMPORTANT
-  Nếu Ngày bắt đầu nhập vào nằm giữa một khoảng thời gian, ví dụ giữa tháng, Odoo sẽ áp dụng phân bổ vào đầu hoặc cuối giai đoạn đó, tùy thuộc vào *Thời gian ghi nhận tích lũy* được nhập trong [kế hoạch tích lũy](../time_off.md#time-off-accrual-plans) (*Vào đầu giai đoạn tích lũy* hoặc *Vào cuối giai đoạn tích lũy*) thay vì ngày cụ thể đã nhập.
+  Nếu Ngày bắt đầu nhập vào nằm giữa một khoảng thời gian, ví dụ giữa tháng, Odoo sẽ áp dụng phân bổ vào đầu hoặc cuối giai đoạn đó, tùy thuộc vào *Thời gian ghi nhận tích lũy* được nhập trong [kế hoạch tích lũy](applications/hr/time_off.md#time-off-accrual-plans) (*Vào đầu giai đoạn tích lũy* hoặc *Vào cuối giai đoạn tích lũy*) thay vì ngày cụ thể đã nhập.
 
   For example, an allocation is created, and references an accrual plan that grants time *At the
   start of the accrual period*, monthly, on the first of the month.
@@ -63,7 +63,7 @@ information:
   than `6/18/24`.
 - Allocation: Enter the amount of time that is being allocated to the employees. This
   field displays the time in either Hours or Days, depending on how the
-  selected [Time Off Type](../time_off.md#time-off-time-off-types) is configured.
+  selected [Time Off Type](applications/hr/time_off.md#time-off-time-off-types) is configured.
 - Mode: Using the drop-down menu, select how the allocation is assigned. This selection
   determines who receives the time off allocation. The options are By Employee,
   By Company, By Department, or By Employee Tag.
@@ -82,7 +82,7 @@ information:
   allocation, enter it in this field at the bottom of the form.
 
 ![A new allocation form with all the fields filled out for the annual two week vacation
-granted to all employees.](allocations/new-allocation.png)
+granted to all employees.](../../../.gitbook/assets/new-allocation.png)
 
 <a id="time-off-request-allocation"></a>
 
@@ -90,7 +90,7 @@ granted to all employees.](allocations/new-allocation.png)
 
 If an employee has used all their time off, or will run out of time off, they can request an
 allocation for additional time. Allocations can be requested in one of two ways, either from the
-[Dashboard](my_time.md#time-off-dashboard) or the [My Allocations](my_time.md#time-off-my-allocations) view.
+[Dashboard](applications/hr/time_off/my_time.md#time-off-dashboard) or the [My Allocations](applications/hr/time_off/my_time.md#time-off-my-allocations) view.
 
 To create a new allocation request, click either the New Allocation Request button on
 the main **Time Off** dashboard, or the New button in the My Allocations
@@ -124,4 +124,4 @@ automatically saved as it is entered. However, the form can be saved manually at
 clicking the <i class="fa fa-cloud-upload"></i> (cloud upload) icon.
 
 ![An allocation request form filled out for an employee requesting an additional week of
-sick time.](allocations/allocation-request.png)
+sick time.](../../../.gitbook/assets/allocation-request.png)

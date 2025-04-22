@@ -53,9 +53,9 @@ Fill in the Create tasks by sending an email to field as follows:
 
 > - **Section of the alias before the @ symbol**: type the name of the email alias, e.g. `contact`,
 >   `help`, `jobs`.
-> - **Domain**: in most cases, this is filled in by default with your [domain](../../../general/email_communication.md).
+> - **Domain**: in most cases, this is filled in by default with your [domain](applications/general/email_communication.md).
 > - **Accept Emails From**: refine the senders whose emails will create tasks in the project.
-![View of the email alias chosen on the dashboard view in Odoo Project](task_creation/email-configuration.png)
+![View of the email alias chosen on the dashboard view in Odoo Project](../../../../.gitbook/assets/email-configuration.png)
 
 Once configured, the email alias can be seen under the name of your project on the Kanban dashboard.
 
@@ -75,14 +75,14 @@ If you have the Website app installed in your database, you can configure any fo
 website to trigger the creation of tasks in a project.
 
 1. Go to the website page where you wish to add the the form and
-   [add the Form building block](../../../websites/website/web_design/building_blocks.md#websites-website-web-design-building-blocks).
+   [add the Form building block](applications/websites/website/web_design/building_blocks.md#websites-website-web-design-building-blocks).
 2. In the website editor, edit the following fields:
    - Action: select Create a Task.
    - Project: choose the project that you want the new tasks to be created in.
-3. [Customize the form](../../../websites/website/web_design/building_blocks/dynamic_content.md#website-dynamic-content-form).
+3. [Customize the form](applications/websites/website/web_design/building_blocks/dynamic_content.md#website-dynamic-content-form).
 
 When the form is submitted, it automatically creates a project task. The task's content is defined
 by the form's corresponding fields.
 
 #### SEE ALSO
-[Dynamic website content](../../../websites/website/web_design/building_blocks/dynamic_content.md)
+[Dynamic website content](applications/websites/website/web_design/building_blocks/dynamic_content.md)

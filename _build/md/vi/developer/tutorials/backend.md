@@ -5,7 +5,7 @@
 # Building a Module
 
 #### WARNING
-This tutorial requires [having installed Odoo](../../administration/on_premise.md)
+This tutorial requires [having installed Odoo](administration/on_premise.md)
 
 ## Start/Stop the Odoo server
 
@@ -16,7 +16,7 @@ Business logic and extension is generally performed on the server side,
 although supporting client features (e.g. new data representation such as
 interactive maps) can be added to the client.
 
-In order to start the server, simply invoke the command [odoo-bin](../reference/cli.md#reference-cmdline) in the shell, adding the full path to the file if
+In order to start the server, simply invoke the command [odoo-bin](developer/reference/cli.md#reference-cmdline) in the shell, adding the full path to the file if
 necessary:
 
 ```bash
@@ -46,18 +46,18 @@ Business objects
 : Declared as Python classes, these resources are automatically persisted
   by Odoo based on their configuration
 
-[Object views](../reference/user_interface/view_architectures.md)
+[Object views](developer/reference/user_interface/view_architectures.md)
 : Definition of business objects UI display
 
-[Data files](../reference/backend/data.md#reference-data)
+[Data files](developer/reference/backend/data.md#reference-data)
 : XML or CSV files declaring the model metadata :
   <br/>
-  * [views](../reference/user_interface/view_architectures.md) or [reports](../reference/backend/reports.md#reference-reports),
-  * configuration data (modules parametrization, [security rules](../reference/backend/security.md#reference-security)),
+  * [views](developer/reference/user_interface/view_architectures.md) or [reports](developer/reference/backend/reports.md#reference-reports),
+  * configuration data (modules parametrization, [security rules](developer/reference/backend/security.md#reference-security)),
   * demonstration data
   * and more
 
-[Web controllers](../reference/backend/http.md#reference-controllers)
+[Web controllers](developer/reference/backend/http.md#reference-controllers)
 : Handle requests from web browsers
 
 Static web data
@@ -66,10 +66,10 @@ Static web data
 ### Module structure
 
 Each module is a directory within a *module directory*. Module directories
-are specified by using the [`--addons-path`](../reference/cli.md#cmdoption-odoo-bin-addons-path)
+are specified by using the [`--addons-path`](developer/reference/cli.md#cmdoption-odoo-bin-addons-path)
 option.
 
-An Odoo module is declared by its [manifest](../reference/backend/module.md#reference-module-manifest).
+An Odoo module is declared by its [manifest](developer/reference/backend/module.md#reference-module-manifest).
 
 A module is also a
 [Python package](http://docs.python.org/2/tutorial/modules.html#packages)
@@ -83,7 +83,7 @@ might contain:
 from . import mymodule
 ```
 
-Odoo provides a mechanism to help set up a new module, [odoo-bin](../reference/cli.md#reference-cmdline-server) has a subcommand [scaffold](../reference/cli.md#reference-cmdline-scaffold) to create an empty module:
+Odoo provides a mechanism to help set up a new module, [odoo-bin](developer/reference/cli.md#reference-cmdline-server) has a subcommand [scaffold](developer/reference/cli.md#reference-cmdline-scaffold) to create an empty module:
 
 ```console
 $ odoo-bin scaffold <module name> <where to put it>
@@ -194,7 +194,7 @@ overridden by setting `_rec_name`.
 Odoo is a highly data driven system. Although behavior is customized using
 [Python](https://python.org) code part of a module's value is in the data it sets up when loaded.
 
-Module data is declared via [data files](../reference/backend/data.md#reference-data), XML files with
+Module data is declared via [data files](developer/reference/backend/data.md#reference-data), XML files with
 `<record>` elements. Each `<record>` element creates or updates a database
 record.
 
@@ -209,7 +209,7 @@ record.
 ```
 
 * `model` is the name of the Odoo model for the record.
-* `id` is an [external identifier](../glossary.md#term-external-identifier), it allows referring to the record
+* `id` is an [external identifier](developer/glossary.md#term-external-identifier), it allows referring to the record
   (without having to know its in-database identifier).
 * `<field>` elements have a `name` which is the name of the field in the
   model (e.g. `description`). Their body is the field's value.
@@ -253,7 +253,7 @@ requests, the view with the correct type and the lowest priority will be
 used (so the lowest-priority view of each type is the default view for that
 type).
 
-[View inheritance](../reference/user_interface/view_records.md#reference-view-records-inheritance) allows altering views
+[View inheritance](developer/reference/user_interface/view_records.md#reference-view-records-inheritance) allows altering views
 declared elsewhere (adding or removing content).
 
 ### Generic view declaration
@@ -426,7 +426,7 @@ The second inheritance mechanism (delegation) allows to link every record of a
 model to a record in a parent model, and provides transparent access to the
 fields of the parent record.
 
-![image](../reference/backend/orm/inheritance_methods.png)
+![image](../../.gitbook/assets/inheritance_methods.png)
 
 #### SEE ALSO
 * `_inherit`
@@ -484,7 +484,7 @@ instead of a single view its `arch` field is composed of any number of
 
 #### Domains
 
-In Odoo, [Search domains](../reference/backend/orm.md#reference-orm-domains) are values that encode conditions on
+In Odoo, [Search domains](developer/reference/backend/orm.md#reference-orm-domains) are values that encode conditions on
 records. A domain is a  list of criteria used to select a subset of a model's
 records. Each criteria is a triple with a field name, an operator and a value.
 
@@ -761,7 +761,7 @@ default and behave as booleans (they can only be enabled by default).
 ### Gantt
 
 #### WARNING
-The gantt view requires the web_gantt module which is present in the [enterprise edition](../../administration.md#install-editions) version.
+The gantt view requires the web_gantt module which is present in the [enterprise edition](administration.md#install-editions) version.
 
 Horizontal bar charts typically used to show project planning and advancement,
 their root element is `<gantt>`.
@@ -832,7 +832,7 @@ For instance, project tasks may be organized by stage (each column is a
 stage), or by responsible (each column is a user), and so on.
 
 Kanban views define the structure of each card as a mix of form elements
-(including basic HTML) and [QWeb Templates](../reference/frontend/qweb.md#reference-qweb).
+(including basic HTML) and [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb).
 
 ## Security
 
@@ -957,7 +957,7 @@ for editing and merging PO/POT files.
 
 ### Printed reports
 
-Odoo uses a report engine based on [QWeb Templates](../reference/frontend/qweb.md#reference-qweb),
+Odoo uses a report engine based on [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb),
 [Twitter Bootstrap](https://getbootstrap.com) and [Wkhtmltopdf](https://wkhtmltopdf.org).
 
 A report is a combination two elements:
@@ -979,7 +979,7 @@ A report is a combination two elements:
       <field name="binding_type">report</field>
   </record>
   ```
-* A standard [QWeb view](../reference/user_interface/view_architectures.md#reference-view-architectures-qweb) for the actual report:
+* A standard [QWeb view](developer/reference/user_interface/view_architectures.md#reference-view-architectures-qweb) for the actual report:
   ```xml
   <t t-call="web.html_container">
       <t t-foreach="docs" t-as="o">
@@ -1012,7 +1012,7 @@ installed) and the PDF version through
 
 ### Dashboards
 
-* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](../reference/backend/orm.md#reference-fields-automatic-log-access)
+* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](developer/reference/backend/orm.md#reference-fields-automatic-log-access)
 * <a id='rawsql'>**[2]**</a> writing raw SQL queries is possible, but requires care as it bypasses all Odoo authentication and security mechanisms.
 
 <a id="postgresql-s-documentation"></a>

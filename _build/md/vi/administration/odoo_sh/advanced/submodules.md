@@ -12,7 +12,7 @@ Ngoài ra, bạn có thể chọn nhánh kho lưu trữ được thêm vào dư�
 
 Trong Odoo.sh, các phân hệ phụ cung cấp cho bạn khả năng sử dụng và phụ thuộc vào những phân hệ có sẵn trong các kho lưu trữ khác. Nền tảng sẽ phát hiện việc bạn thêm phân hệ thông qua phân hệ phụ  trong nhánh và tự động thêm chúng vào đường dẫn addon của bạn để bạn có thể cài đặt chúng trong cơ sở dữ liệu của mình.
 
-Nếu bạn thêm kho lưu trữ riêng tư dưới dạng phân hệ phụ trong các nhánh, bạn cần cấu hình mã khóa triển khai trong cài đặt dự án Odoo.sh và trong cài đặt kho lưu trữ của mình. Nếu không, Odoo.sh sẽ không được phép tải chúng xuống. Quy trình này được trình bày chi tiết trong chương [Cài đặt > Phân hệ phụ](../getting_started/settings.md#odoosh-gettingstarted-settings-submodules).
+Nếu bạn thêm kho lưu trữ riêng tư dưới dạng phân hệ phụ trong các nhánh, bạn cần cấu hình mã khóa triển khai trong cài đặt dự án Odoo.sh và trong cài đặt kho lưu trữ của mình. Nếu không, Odoo.sh sẽ không được phép tải chúng xuống. Quy trình này được trình bày chi tiết trong chương [Cài đặt > Phân hệ phụ](administration/odoo_sh/getting_started/settings.md#odoosh-gettingstarted-settings-submodules).
 
 ## Thêm một phân hệ phụ
 
@@ -25,7 +25,7 @@ Trên Odoo.sh, trong chế độ xem nhánh của dự án, hãy chọn nhánh m
 
 Ở góc trên bên phải, nhấp vào nút *Phân hệ phụ*, sau đó nhấp vào *Chạy*.
 
-![image](submodules/advanced-submodules-button.png)
+![image](../../../.gitbook/assets/advanced-submodules-button.png)
 
 Một hộp thoại có biểu mẫu sẽ hiển thị. Điền các thông tin đầu vào như sau:
 
@@ -33,11 +33,11 @@ Một hộp thoại có biểu mẫu sẽ hiển thị. Điền các thông tin 
 * Nhánh: Nhánh bạn muốn sử dụng.
 * Đường dẫn: Thư mục mà bạn muốn thêm phân hệ phụ này vào nhánh của mình.
 
-![image](submodules/advanced-submodules-dialog.png)
+![image](../../../.gitbook/assets/advanced-submodules-dialog.png)
 
 Trên Github, bạn có thể lấy URL kho lưu trữ bằng nút *Sao chép hoặc tải xuống* của kho lưu trữ. Hãy nhớ *sử dụng SSH*.
 
-![image](submodules/advanced-submodules-github-sshurl.png)
+![image](../../../.gitbook/assets/advanced-submodules-github-sshurl.png)
 
 <a id="odoosh-advanced-submodules-withgit"></a>
 

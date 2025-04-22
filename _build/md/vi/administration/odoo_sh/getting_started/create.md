@@ -6,19 +6,19 @@
 
 Đi đến [Odoo.sh](https://www.odoo.sh/) và bấm nút *Triển khai nền tảng của bạn*.
 
-![image](create/deploy.png)
+![image](../../../.gitbook/assets/deploy.png)
 
 ## Đăng nhập bằng Github
 
 Đăng nhập bằng tài khoản Github của bạn. Nếu bạn chưa có tài khoản, hãy nhấp vào liên kết *Tạo tài khoản*.
 
-![image](create/github-signin.png)
+![image](../../../.gitbook/assets/github-signin.png)
 
 ## Uỷ quyền cho Odoo.sh
 
 Cấp cho Odoo.sh quyền truy cập cần thiết vào tài khoản của bạn bằng cách nhấp vào nút  *Ủy quyền*.
 
-![image](create/github-authorize.png)
+![image](../../../.gitbook/assets/github-authorize.png)
 
 Về cơ bản, Odoo.sh cần:
 
@@ -51,19 +51,19 @@ Khi gửi biểu mẫu, nếu bạn được thông báo rằng gói đăng ký 
 
 Nếu chưa chắc chắn về gói đăng ký của bạn, vui lòng liên hệ với [bộ phận hỗ trợ Odoo](https://www.odoo.com/help).
 
-![image](create/deploy-form.png)
+![image](../../../.gitbook/assets/deploy-form.png)
 
 ## Xong!
 
 Bạn có thể bắt đầu sử dụng Odoo.sh và bản dựng đầu tiên của bạn sắp được tạo. Bạn sẽ sớm có thể kết nối với cơ sở dữ liệu đầu tiên của mình.
 
-![image](create/deploy-done.png)
+![image](../../../.gitbook/assets/deploy-done.png)
 
 <a id="odoo-sh-import-your-database"></a>
 
 ## Nhập cơ sở dữ liệu
 
-Bạn có thể nhập cơ sở dữ liệu của mình vào dự án Odoo.sh nếu nó là [phiên bản được hỗ trợ](../../supported_versions.md) của Odoo.
+Bạn có thể nhập cơ sở dữ liệu của mình vào dự án Odoo.sh nếu nó là [phiên bản được hỗ trợ](administration/supported_versions.md) của Odoo.
 
 ### Đưa các phân hệ vào hoạt động thực tế
 
@@ -71,9 +71,9 @@ Nếu bạn sử dụng các phân hệ cộng đồng hoặc tùy chỉnh, hãy
 
 Bạn có thể cơ cấu các phân hệ của mình theo ý muốn, Odoo.sh sẽ tự động phát hiện các thư mục chứa add-on của Odoo. Ví dụ: bạn có thể đặt tất cả thư mục phân hệ vào thư mục gốc của kho lưu trữ hoặc nhóm các phân hệ vào thư mục theo danh mục mà bạn xác định (kế toán, dự án,...).
 
-Đối với các phân hệ Community có sẵn trong kho Git công khai, bạn cũng có thể cân nhắc thêm chúng bằng cách sử dụng [Phân hệ phụ](../advanced/submodules.md#odoosh-advanced-submodules).
+Đối với các phân hệ Community có sẵn trong kho Git công khai, bạn cũng có thể cân nhắc thêm chúng bằng cách sử dụng [Phân hệ phụ](administration/odoo_sh/advanced/submodules.md#odoosh-advanced-submodules).
 
-Sau đó, [đặt nhánh này thành nhánh production](branches.md#odoosh-gettingstarted-branches-stages) hoặc [hợp nhất nó vào nhánh production của bạn](branches.md#odoosh-gettingstarted-branches-mergingbranches).
+Sau đó, [đặt nhánh này thành nhánh production](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-stages) hoặc [hợp nhất nó vào nhánh production của bạn](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-mergingbranches).
 
 ### Tải xuống bản sao lưu
 
@@ -82,21 +82,21 @@ Sau đó, [đặt nhánh này thành nhánh production](branches.md#odoosh-getti
 Truy cập URL `/web/database/manager` của cơ sở dữ liệu on-premise của bạn và tải xuống bản sao lưu.
 
 #### WARNING
-Nếu bạn không thể truy cập trình quản lý cơ sở dữ liệu thì có thể quản trị viên hệ thống đã vô hiệu hóa nó. Tham khảo [tài liệu bảo mật trình quản lý cơ sở dữ liệu](../../on_premise/deploy.md#db-manager-security).
+Nếu bạn không thể truy cập trình quản lý cơ sở dữ liệu thì có thể quản trị viên hệ thống đã vô hiệu hóa nó. Tham khảo [tài liệu bảo mật trình quản lý cơ sở dữ liệu](administration/on_premise/deploy.md#db-manager-security).
 
 Bạn sẽ cần mật khẩu chính của máy chủ cơ sở dữ liệu. Nếu không có, hãy liên hệ với quản trị viên hệ thống của bạn.
 
-![image](create/create-import-onpremise-backup.png)
+![image](../../../.gitbook/assets/create-import-onpremise-backup.png)
 
 Chọn zip bao gồm filestore làm định dạng sao lưu.
 
-![image](create/create-import-onpremise-backup-dialog.png)
+![image](../../../.gitbook/assets/create-import-onpremise-backup-dialog.png)
 
 #### Cơ sở dữ liệu Odoo Online
 
 [Truy cập trình quản lý cơ sở dữ liệu của bạn](https://accounts.odoo.com/my/databases/manage) và tải xuống bản sao lưu cơ sở dữ liệu.
 
-![image](create/create-import-online-backup.png)
+![image](../../../.gitbook/assets/create-import-online-backup.png)
 
 #### WARNING
 Các phiên bản online (VD: *saas-\**) không được hỗ trợ trên Odoo.sh.
@@ -105,15 +105,15 @@ Các phiên bản online (VD: *saas-\**) không được hỗ trợ trên Odoo.s
 
 Sau đó, trong dự án Odoo.sh của bạn, hãy nhập bản sao lưu bạn vừa tải xuống vào tab sao lưu của nhánh production.
 
-![image](create/create-import-production.png)
+![image](../../../.gitbook/assets/create-import-production.png)
 
 Sau khi nhập bản sao lưu, bạn có thể truy cập cơ sở dữ liệu bằng nút *Kết nối* trong tab lịch sử của nhánh.
 
-![image](create/create-import-production-done.png)
+![image](../../../.gitbook/assets/create-import-production-done.png)
 
 ### Kiểm tra máy chủ thư đi của bạn
 
-Một máy chủ thư mặc định được cung cấp kèm Odoo.sh. Để sử dụng nó, không được bật máy chủ thư đi nào trong cơ sở dữ liệu của bạn tại Cài đặt ‣Kỹ thuật ‣ Máy chủ thư đi ([Chế độ lập trình viên](../../../applications/general/developer_mode.md#developer-mode) phải được kích hoạt).
+Một máy chủ thư mặc định được cung cấp kèm Odoo.sh. Để sử dụng nó, không được bật máy chủ thư đi nào trong cơ sở dữ liệu của bạn tại Cài đặt ‣Kỹ thuật ‣ Máy chủ thư đi ([Chế độ lập trình viên](applications/general/developer_mode.md#developer-mode) phải được kích hoạt).
 
 Sau khi nhập cơ sở dữ liệu của bạn, tất cả máy chủ thư đi đều bị tắt nên bạn sử dụng máy chủ thư Odoo.sh được cung cấp theo mặc định.
 
@@ -134,4 +134,4 @@ Gói đăng ký của bạn bị hủy liên kết sau khi nhập.
 
 Theo mặc định, cơ sở dữ liệu đã nhập được coi là một bản sao và do đó gói đăng ký Enterprise sẽ bị xóa, vì mỗi gói đăng ký chỉ có thể được liên kết với một cơ sở dữ liệu.
 
-Nếu bạn định dùng cơ sở dữ liệu mới được nhập trong production, hãy hủy liên kết cơ sở dữ liệu cũ khỏi gói đăng ký và đăng ký cơ sở dữ liệu mới. Đọc [tài liệu đăng ký cơ sở dữ liệu](../../on_premise.md) để xem hướng dẫn.
+Nếu bạn định dùng cơ sở dữ liệu mới được nhập trong production, hãy hủy liên kết cơ sở dữ liệu cũ khỏi gói đăng ký và đăng ký cơ sở dữ liệu mới. Đọc [tài liệu đăng ký cơ sở dữ liệu](administration/on_premise.md) để xem hướng dẫn.

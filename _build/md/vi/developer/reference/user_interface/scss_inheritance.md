@@ -64,4 +64,4 @@ variables are defined.
 
 #### IMPORTANT
 This diagram is incomplete and does not match the current bundles' organization. Read more on
-[asset bundles](../frontend/assets.md#reference-assets-bundle).
+[asset bundles](developer/reference/frontend/assets.md#reference-assets-bundle).

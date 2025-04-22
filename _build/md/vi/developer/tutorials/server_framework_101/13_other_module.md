@@ -1,6 +1,6 @@
 # Chapter 13: Interact With Other Modules
 
-In the [previous chapter](12_inheritance.md), we used inheritance to
+In the [previous chapter](developer/tutorials/server_framework_101/12_inheritance.md), we used inheritance to
 modify the behavior of a module. In our real estate scenario, we would like to go a step further
 and be able to generate invoices for our customers. Odoo provides an Invoicing module, so it
 would be neat to create an invoice directly from our real estate module, i.e. once a property
@@ -14,7 +14,7 @@ is set to 'Sold', an invoice is created in the Invoicing application.
 - A new module `estate_account` should be created
 - When a property is sold, an invoice should be issued for the buyer
 
-![Invoice creation](13_other_module/create_inv.gif)
+![Invoice creation](../../../.gitbook/assets/create_inv.gif)
 
 Any time we interact with another module, we need to keep in mind the modularity. If we intend
 to sell our application to real estate agencies, some may want the invoicing feature but
@@ -38,12 +38,12 @@ If you uninstall the Invoicing application, your module will be uninstalled as w
 It's now time to generate the invoice. We want to add functionality to the
 `estate.property` model, i.e. we want to add some extra logic for when a property is sold.
 Does that sound familiar? If not, it's a good idea to go back to the
-[previous chapter](12_inheritance.md) since you might have missed
+[previous chapter](developer/tutorials/server_framework_101/12_inheritance.md) since you might have missed
 something ;-)
 
 As a first step, we need to extend the action called when pressing the
-['Sold' button](09_actions.md) on a property. To do so, we need to
-create a [model inheritance](12_inheritance.md) in the `estate_account`
+['Sold' button](developer/tutorials/server_framework_101/09_actions.md) on a property. To do so, we need to
+create a [model inheritance](developer/tutorials/server_framework_101/12_inheritance.md) in the `estate_account`
 module for the `estate.property` model. For now, the overridden action will simply return the
 `super` call. Maybe an example will make things clearer:
 
@@ -120,4 +120,4 @@ def inherited_action(self):
 ```
 
 This chapter might be one of the most difficult that has been covered so far, but it is the closest
-to what Odoo development will be in practice. In the [next chapter](14_qwebintro.md), we will introduce the templating mechanism used in Odoo.
+to what Odoo development will be in practice. In the [next chapter](developer/tutorials/server_framework_101/14_qwebintro.md), we will introduce the templating mechanism used in Odoo.

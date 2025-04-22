@@ -24,16 +24,16 @@ the HTTPS certificate if the IoT system and database meet the eligibility criter
 - The database must be a **production** instance. The database instance should not be a copy, a
   duplicate, a staging, or a development environment.
 - The Odoo subscription must be ongoing (In Progress status) and have an [IoT
-  box subscription](../../iot.md#iot-iot-iot-subscription) line.
+  box subscription](applications/general/iot.md#iot-iot-iot-subscription) line.
 
 When the certificate has been received:
 
 - The IoT system's homepage address is updated to a new HTTPS URL ending with `.odoo-iot.com`. Click
   the URL to establish a secure HTTPS connection.
-  ![Odoo IoT app IoT box with .odoo-iot.com domain.](https_certificate_iot/iot-new-domain.png)
+  ![Odoo IoT app IoT box with .odoo-iot.com domain.](../../../../.gitbook/assets/iot-new-domain.png)
 - The HTTPS certificate banner displays the certificate's validity period. To view this
   information, click the <i class="fa fa-cogs"></i> (cogs) button on the IoT system's homepage.
-  ![IoT box homepage with HTTPS certificate validity date.](https_certificate_iot/https-valid.png)
+  ![IoT box homepage with HTTPS certificate validity date.](../../../../.gitbook/assets/https-valid.png)
 
 ## HTTPS certificate generation issues and errors
 
@@ -41,9 +41,9 @@ When the certificate has been received:
 
 Potential causes include the following:
 
-- No [IoT box subscription](../../iot.md#iot-iot-iot-subscription) is linked to your account.
-- The [IoT box subscription](../../iot.md#iot-iot-iot-subscription) was added *after* connecting the IoT
-  system to the database. In this case, refresh the IoT system's homepage or reboot/[restart](../windows_iot.md#iot-windows-iot-restart) the IoT system to regenerate the HTTPS certificate.
+- No [IoT box subscription](applications/general/iot.md#iot-iot-iot-subscription) is linked to your account.
+- The [IoT box subscription](applications/general/iot.md#iot-iot-iot-subscription) was added *after* connecting the IoT
+  system to the database. In this case, refresh the IoT system's homepage or reboot/[restart](applications/general/iot/windows_iot.md#iot-windows-iot-restart) the IoT system to regenerate the HTTPS certificate.
 - The firewall is preventing the HTTPS certificate from generating correctly. In this case,
   deactivate the firewall until the certificate is successfully generated.
 
@@ -75,7 +75,7 @@ generation or reception of the HTTPS certificate.
 
 #### `ERR_IOT_HTTPS_CHECK_NO_SERVER`
 
-The server configuration is missing, i.e., the Odoo instance is not [connected](../connect.md) to
+The server configuration is missing, i.e., the Odoo instance is not [connected](applications/general/iot/connect.md) to
 the IoT system.
 
 #### `ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION`
@@ -87,7 +87,7 @@ Verify that the HTTPS certificate file is readable.
 
 The contract and/or database  is missing form the IoT.
 
-Verify that both values are correctly configured. To update them, [access the IoT box's](../iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's homepage](../windows_iot.md#iot-windows-iot-homepage),
+Verify that both values are correctly configured. To update them, [access the IoT box's](applications/general/iot/iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's homepage](applications/general/iot/windows_iot.md#iot-windows-iot-homepage),
 click the <i class="fa fa-cogs"></i> (cogs) button, then click Credential.
 
 #### `ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION`
@@ -100,7 +100,7 @@ likely due to network-related issues, such as:
   [https://www.odoo.com](https://www.odoo.com).
 
 #### NOTE
-- Để xem đầy đủ chi tiết lỗi yêu cầu cùng thông tin liên quan đến lỗi, [kích hoạt chế độ lập trình viên](../../developer_mode.md#developer-mode), nhấp vào thẻ hệ thống IoT trong ứng dụng IoT, và chọn Tải nhật ký trên [biểu mẫu hệ thống IoT](../connect.md#iot-connect-iot-form). Để xác định mức độ nhật ký được ghi trong tệp nhật ký hệ thống IoT, [truy cập trang chủ hộp IoT](../windows_iot.md#iot-windows-iot-homepage) hoặc [IoT ảo Windows](../iot_box.md#iot-iot-box-homepage), nhấp vào nút <i class="fa fa-cogs"></i> (bánh răng), sau đó chọn Mức độ nhật ký ở cuối trang.
+- Để xem đầy đủ chi tiết lỗi yêu cầu cùng thông tin liên quan đến lỗi, [kích hoạt chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), nhấp vào thẻ hệ thống IoT trong ứng dụng IoT, và chọn Tải nhật ký trên [biểu mẫu hệ thống IoT](applications/general/iot/connect.md#iot-connect-iot-form). Để xác định mức độ nhật ký được ghi trong tệp nhật ký hệ thống IoT, [truy cập trang chủ hộp IoT](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) hoặc [IoT ảo Windows](applications/general/iot/iot_box.md#iot-iot-box-homepage), nhấp vào nút <i class="fa fa-cogs"></i> (bánh răng), sau đó chọn Mức độ nhật ký ở cuối trang.
 - To address network-related issues, contact your system or network administrator; these issues
   are beyond the scope of Odoo support services.
 

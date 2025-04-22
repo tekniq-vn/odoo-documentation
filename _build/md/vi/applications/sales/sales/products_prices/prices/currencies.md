@@ -13,7 +13,7 @@ Once the *Accounting* app has been installed, foreign currencies can be added to
 Navigate to Accounting app ‣ Configuration ‣ Settings, scroll to the
 Currencies section, and locate the Main Currency setting.
 
-![How the main currency feature appears on settings page in Odoo Accounting.](currencies/main-currency-setting-page.png)
+![How the main currency feature appears on settings page in Odoo Accounting.](../../../../../.gitbook/assets/main-currency-setting-page.png)
 
 Odoo automatically sets the main currency as the currency of the country the company is based in.
 
@@ -33,7 +33,7 @@ Currency field on the Accounting app ‣ Settings page.
 
 When the Currencies link is clicked, a separate Currencies page is revealed.
 
-![How the main currencies page appears in Odoo Accounting.](currencies/main-currencies-page.png)
+![How the main currencies page appears in Odoo Accounting.](../../../../../.gitbook/assets/main-currencies-page.png)
 
 On this page, Odoo provides a master list of 167 global currencies. Each row shows the corresponding
 Currency, Symbol, Name, date of the Last Update, and
@@ -59,7 +59,7 @@ the color of the switch is green. When *off*, the color of the switch is grey.
 To edit any currency on the Currencies page, click the desired currency to reveal the
 detail form for that specific currency, and proceed to make any necessary changes.
 
-![How a currency detail form looks in Odoo Accounting.](currencies/currency-detail-form.png)
+![How a currency detail form looks in Odoo Accounting.](../../../../../.gitbook/assets/currency-detail-form.png)
 
 On the currency detail form, the relevant currency code appears in the Currency field.
 Beneath that, the name for the currency is in the Name field.
@@ -90,7 +90,7 @@ the necessary information in the aforementioned columns.
 If the selected currency is the main currency of the company, a blue banner appears at the top of
 the currency detail form with the message: This is your company's currency..
 
-![How a main currency detail form looks in Odoo Accounting.](currencies/main-currency-detail-form.png)
+![How a main currency detail form looks in Odoo Accounting.](../../../../../.gitbook/assets/main-currency-detail-form.png)
 
 All the fields are the same as a typical currency detail form, but there will **not** be a
 Rates tab because all other currency rates are based off the main currency of the
@@ -101,7 +101,7 @@ company.
 If a desired currency isn't on the Currencies page, click the New button to
 open a blank currency template form.
 
-![How a blank currency detail form looks in Odoo Accounting.](currencies/blank-currency-detail-form.png)
+![How a blank currency detail form looks in Odoo Accounting.](../../../../../.gitbook/assets/blank-currency-detail-form.png)
 
 On the blank currency detail form, proceed to enter the desired currency code in the
 Currency field. Beneath that, enter the name for the currency in the Name
@@ -137,7 +137,7 @@ On the pricelist detail form, for either a new or existing pricelist, adjust the
 Currency field as desired.
 
 #### SEE ALSO
-[Pricelists, discounts, and formulas](pricing.md) to learn more about pricelist configuration.
+[Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md) to learn more about pricelist configuration.
 
 ## Auto-conversion from public price
 
@@ -161,7 +161,7 @@ Then, on the product detail form, click the Extra Prices smart button, located i
 upper-left corner. Doing so reveals a separate Price Rules page, specific to that
 particular product.
 
-![How to set product prices based on foreign currency pricelists in Odoo Sales.](currencies/price-rules-currencies.png)
+![How to set product prices based on foreign currency pricelists in Odoo Sales.](../../../../../.gitbook/assets/price-rules-currencies.png)
 
 Click New, and select the desired pricelist from the drop-down menu in the
 Pricelist column.
@@ -185,4 +185,4 @@ designated pricelists are applied to a customer trying to purchase this specific
 pre-determined set prices appear.
 
 #### SEE ALSO
-[Pricelists, discounts, and formulas](pricing.md)
+[Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)

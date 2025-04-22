@@ -1,7 +1,7 @@
 # Báo cáo
 
 Odoo includes **generic** and **dynamic** reports available for all countries, regardless of the
-[localization package](../fiscal_localizations.md) installed:
+[localization package](applications/finance/fiscal_localizations.md) installed:
 
 - [Bảng cân đối kế toán](#accounting-reporting-balance-sheet)
 - [Lãi và lỗ](#accounting-reporting-profit-and-loss)
@@ -17,7 +17,7 @@ To expand the lines of a report and view its details, click the <i class="fa fa-
 to the right of the account, journal entry, payment, invoice, etc. to Annotate and view
 the details.
 
-![Annotate reports.](reporting/reporting-annotate.png)
+![Annotate reports.](../../../.gitbook/assets/reporting-annotate.png)
 
 To export reports in PDF or XLSX format, click PDF at the top or click the
 <i class="fa fa-caret-down"></i> (down arrow) icon next to the PDF button and
@@ -26,7 +26,7 @@ select XLSX.
 To compare values across periods, click the Comparison menu and select the periods you
 want to compare.
 
-![Comparison menu to compare time periods.](reporting/reporting-comparison.png)
+![Comparison menu to compare time periods.](../../../.gitbook/assets/reporting-comparison.png)
 
 <a id="accounting-reporting-balance-sheet"></a>
 
@@ -113,12 +113,12 @@ activities.
 The Tax Report shows the NET and TAX amounts for all the
 taxes grouped by type (Sales/Purchases).
 
-* [Tax return (VAT declaration)](reporting/tax_returns.md)
-* [Tax carryover](reporting/tax_carryover.md)
-* [Analytic accounting](reporting/analytic_accounting.md)
-* [Analytic budgets](reporting/budget.md)
-* [Intrastat](reporting/intrastat.md)
-* [Data inalterability check report](reporting/data_inalterability.md)
-* [Tích hợp Silverfin](reporting/silverfin.md)
-* [Custom reports](reporting/customize.md)
-* [Year-end closing](reporting/year_end.md)
+* [Tax return (VAT declaration)](applications/finance/accounting/reporting/tax_returns.md)
+* [Tax carryover](applications/finance/accounting/reporting/tax_carryover.md)
+* [Analytic accounting](applications/finance/accounting/reporting/analytic_accounting.md)
+* [Analytic budgets](applications/finance/accounting/reporting/budget.md)
+* [Intrastat](applications/finance/accounting/reporting/intrastat.md)
+* [Data inalterability check report](applications/finance/accounting/reporting/data_inalterability.md)
+* [Tích hợp Silverfin](applications/finance/accounting/reporting/silverfin.md)
+* [Custom reports](applications/finance/accounting/reporting/customize.md)
+* [Year-end closing](applications/finance/accounting/reporting/year_end.md)

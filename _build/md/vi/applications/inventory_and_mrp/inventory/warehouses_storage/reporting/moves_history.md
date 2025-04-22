@@ -6,11 +6,11 @@ generated for any time frame, making this report essential for analyzing stock l
 inventory turnover, and identifying any discrepancies in inventory.
 
 #### NOTE
-The reporting feature is only accessible to users with [admin access](../../../../general/users/access_rights.md).
+The reporting feature is only accessible to users with [admin access](applications/general/users/access_rights.md).
 
 To access the stock report, go to Inventory app ‣ Reporting ‣ Moves History.
 
-![Display Moves History report.](moves_history/moves-history.png)
+![Display Moves History report.](../../../../../.gitbook/assets/moves-history.png)
 
 <a id="inventory-warehouses-storage-moves-history-report"></a>
 
@@ -50,7 +50,7 @@ find specific stock records.
   returns.
 - Internal: displays move records from one internal location to another.
 - Manufacturing: shows records where products were produced from the virtual,
-  production [location](../inventory_management/use_locations.md).
+  production [location](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md).
 - Date: select this drop-down menu to access various date filter options and view
   stock moves from a specific month, quarter, or year.
 - Last 30 Days: show records that occurred in the last thirty days.
@@ -72,7 +72,7 @@ search.
   report).
 - Category: group records by product category. To configure these, go to
   Inventory app ‣ Configuration ‣ Products: Product Categories.
-- Batch Transfer: group records by [batch](../../shipping_receiving/picking_methods/batch.md).
+- Batch Transfer: group records by [batch](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.md).
 
 Yêu thích
 
@@ -86,4 +86,4 @@ checkbox to make the search option available to other users.
 Lastly, click the Save button.
 
 #### SEE ALSO
-[Tìm kiếm, lọc, và nhóm bản ghi](../../../../essentials/search.md)
+[Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)

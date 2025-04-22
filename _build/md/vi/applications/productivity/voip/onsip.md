@@ -33,7 +33,7 @@ filter from the Search... bar, and search for `OnSIP`.
 
 Next, activate the VOIP OnSIP module.
 
-![View of OnSIP app in the app search results.](onsip/install-onsip.png)
+![View of OnSIP app in the app search results.](../../../.gitbook/assets/install-onsip.png)
 
 ### Odoo VoIP setting
 
@@ -45,7 +45,7 @@ proceed to fill in those three fields with the following information:
 - WebSocket: `wss://edge.sip.onsip.com`
 - VoIP Environment: Production
 
-![VoIP configuration settings in Odoo Settings app.](onsip/asterisk-setting.png)
+![VoIP configuration settings in Odoo Settings app.](../../../.gitbook/assets/asterisk-setting.png)
 
 ### Odoo user setting
 
@@ -80,10 +80,10 @@ pop-up windows appear, click the green 📞 (phone) icon to answer the call.
 
 To ignore the call, click the red 📞 (phone) icon.
 
-![Incoming call shown in the Odoo VoIP widget.](onsip/incoming-call.png)
+![Incoming call shown in the Odoo VoIP widget.](../../../.gitbook/assets/incoming-call.png)
 
 #### SEE ALSO
-[VoIP widget](voip_widget.md)
+[VoIP widget](applications/productivity/voip/voip_widget.md)
 
 ### Khắc phục sự cố
 
@@ -92,7 +92,7 @@ To ignore the call, click the red 📞 (phone) icon.
 If a *Missing Parameters* message appears in the Odoo widget, make sure to refresh the Odoo browser
 window (or tab), and try again.
 
-![Missing parameter message in the Odoo VoIP widget.](onsip/onsip04.png)
+![Missing parameter message in the Odoo VoIP widget.](../../../.gitbook/assets/onsip04.png)
 
 #### Số không chính xác
 
@@ -105,7 +105,7 @@ specific country code.
 
 For example, `16505555555` (where `1` is the international prefix for the United States).
 
-![Incorrect number message populated in the Odoo VoIP widget.](onsip/onsip05.png)
+![Incorrect number message populated in the Odoo VoIP widget.](../../../.gitbook/assets/onsip05.png)
 
 #### SEE ALSO
 For a list of comprehensive country codes, visit: [https://countrycode.org](https://countrycode.org).
@@ -119,5 +119,5 @@ This is useful for convenient, on-the-go calls, and to make sure incoming calls 
 softphone will work.
 
 #### SEE ALSO
-- [Devices and integrations](devices_integrations.md)
+- [Devices and integrations](applications/productivity/voip/devices_integrations.md)
 - [OnSIP App Download](https://www.onsip.com/app/download)

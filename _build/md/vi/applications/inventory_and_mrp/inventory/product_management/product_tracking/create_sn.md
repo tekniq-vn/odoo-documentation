@@ -1,12 +1,12 @@
 # Chỉ định số sê-ri
 
 Assigning serial numbers to individual products allows the for tracking of properties,
-[expiration dates](expiration_dates.md), and location throughout the supply chain, which
+[expiration dates](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md), and location throughout the supply chain, which
 particularly benefits manufacturers providing after-sales services.
 
 #### SEE ALSO
 - [Odoo Tutorials: Serial Numbers](https://www.youtube.com/watch?v=ZP-gMz2X5AY)
-- [Sử dụng số sê-ri để theo dõi sản phẩm](serial_numbers.md)
+- [Sử dụng số sê-ri để theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
 
 In Odoo, serial numbers are assigned to products:
 
@@ -16,12 +16,12 @@ In Odoo, serial numbers are assigned to products:
   receipt
 - in the [Open: Stock move window](#inventory-product-management-stock-move-section) on a
   receipt
-- [during a manufacturing order](../../../manufacturing/basic_setup/configure_manufacturing_product.md) for a product tracked by
+- [during a manufacturing order](applications/inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.md) for a product tracked by
   lot/serial numbers
 - when making an inventory adjustment
 
 <a id="inventory-product-management-detailed-operations-popup"></a>
-![Display the Detailed Operations smart button and bulleted list icon on a receipt.](create_sn/assign-serial-numbers.png)
+![Display the Detailed Operations smart button and bulleted list icon on a receipt.](../../../../../.gitbook/assets/assign-serial-numbers.png)
 
 ## Cấu hình
 
@@ -32,8 +32,8 @@ Then, in the Inventory tab of an item's product form, set the Tracking field
 to By Unique Serial Number.
 
 #### SEE ALSO
-- [Enable serial numbers](serial_numbers.md#inventory-product-management-enable-lots)
-- [Track products by serial numbers](serial_numbers.md#inventory-product-management-configure-lots)
+- [Enable serial numbers](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md#inventory-product-management-enable-lots)
+- [Track products by serial numbers](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md#inventory-product-management-configure-lots)
 
 <a id="inventory-product-management-configure-new-serials"></a>
 
@@ -45,7 +45,7 @@ Receipts, Delivery Orders, or Manufacturing), and select the
 Create New option in the Lots/Serial Numbers section of the operation type's
 configuration page.
 
-![Show "Create New" option is selected on the Receipts operation type.](create_sn/create-new.png)
+![Show "Create New" option is selected on the Receipts operation type.](../../../../../.gitbook/assets/create-new.png)
 
 <a id="inventory-product-management-detailed-operations"></a>
 
@@ -59,7 +59,7 @@ Inventory app ‣ Operations ‣ Receipts.
 Serial numbers can **not** be assigned to products on a request for quotation (RfQ) or purchase
 order (PO) — **only** on a receipt.
 
-![Show the purchase order and the Receipt smart button](create_sn/purchase-order-or-receipt.png)
+![Show the purchase order and the Receipt smart button](../../../../../.gitbook/assets/purchase-order-or-receipt.png)
 
 To record an item's serial number before receiving the item, follow the steps in the next
 sections to assign serial numbers, but do **not** click the receipt's Validate
@@ -71,7 +71,7 @@ button on a receipt.
 In the Lot/Serial Number Name column, manually type in the serial number for a single
 product.
 
-![Add a line on the Detailed Operations page to assign serial numbers.](create_sn/add-a-line.png)
+![Add a line on the Detailed Operations page to assign serial numbers.](../../../../../.gitbook/assets/add-a-line.png)
 
 When finished, click the receipt's breadcrumbs, and the assigned serial numbers are automatically
 saved.
@@ -83,7 +83,7 @@ saved.
 To generate new serial numbers in a sequence, click the + (plus) icon in the
 [product line](#inventory-product-management-detailed-operations-popup).
 
-![Show the plus icon in the product line.](create_sn/plus-icon.png)
+![Show the plus icon in the product line.](../../../../../.gitbook/assets/plus-icon.png)
 
 #### IMPORTANT
 If the icon is not visible, ensure the Create New option is selected in the
@@ -94,7 +94,7 @@ field is auto-filled based on the product quantity requiring serial numbers. Man
 first serial number in the First SN field, and click Assign Serial Numbers
 to generate a sequence of serial numbers based on the first serial number entered.
 
-![Show Assign Serial numbers pop-up.](create_sn/assign-numbers-in-sequence.png)
+![Show Assign Serial numbers pop-up.](../../../../../.gitbook/assets/assign-numbers-in-sequence.png)
 
 <a id="inventory-product-management-stock-move-section"></a>
 
@@ -109,14 +109,14 @@ receipt.
 In the Open: Stock move pop-up window that appears, manually input the serial numbers in
 the Lot/Serial Number column.
 
-![Add a line on the Stock move pop-up.](create_sn/add-a-line-stock-move.png)
+![Add a line on the Stock move pop-up.](../../../../../.gitbook/assets/add-a-line-stock-move.png)
 
 ### Tạo số sê-ri
 
 Assign multiple serial numbers at once by clicking the Generate Serials/Lots button in
 the Open: Stock move pop-up window.
 
-![Show generate serials button.](create_sn/generate-serials.png)
+![Show generate serials button.](../../../../../.gitbook/assets/generate-serials.png)
 
 Doing so opens the Generate Serial numbers pop-up window, where the first serial number
 is entered in the First SN field to generate a sequence of serial numbers, based on the

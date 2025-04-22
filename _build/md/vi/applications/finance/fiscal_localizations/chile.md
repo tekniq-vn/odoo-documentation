@@ -8,7 +8,7 @@
 
 ## Mô đun
 
-[Install](../../general/apps_modules.md#general-install) the following modules to utilize all the features of the Chilean
+[Install](applications/general/apps_modules.md#general-install) the following modules to utilize all the features of the Chilean
 localization.
 
 | Tên                                   | Tên kỹ thuật          | Mô tả                                                                                                                                         |
@@ -89,7 +89,7 @@ Then, enter the Legal Electronic Invoicing Data:
 - SII Resolution N°
 - SII Resolution Date
 
-![Required information for electronic invoice.](chile/electronic-invoice-data.png)
+![Required information for electronic invoice.](../../../.gitbook/assets/electronic-invoice-data.png)
 
 <a id="chile-dte-email"></a>
 
@@ -103,7 +103,7 @@ you want to use *Email Box Electronic Invoicing* as the  incoming email server.
 #### IMPORTANT
 In order to receive your SII documents, it's necessary to set up your own email server. More
 information on how to do this can be found in this documentation:
-[Communication in Odoo by email](../../general/email_communication.md)
+[Communication in Odoo by email](applications/general/email_communication.md)
 
 Begin by clicking Configure DTE Incoming Email, then click New to add a
 server and fill in the following fields:
@@ -127,7 +127,7 @@ In the Server & Login tab (for IMAP and POP servers):
 - Username: enter the server login username.
 - Password: enter the server login password.
 
-![Incoming email server configuration for Chilean DTE.](chile/dte-incoming-email.png)
+![Incoming email server configuration for Chilean DTE.](../../../.gitbook/assets/dte-incoming-email.png)
 
 <a id="chile-certificate"></a>
 
@@ -144,7 +144,7 @@ Certificates section. Then, click New to configure the certificate:
 - Certificate Owner: select one if you need to restrict the certificate for a specific
   user. Leave the field empty to share it with all billing users.
 
-![Digital certificate configuration.](chile/new-certificate.png)
+![Digital certificate configuration.](../../../.gitbook/assets/new-certificate.png)
 
 ## Nhiều loại tiền tệ
 
@@ -176,7 +176,7 @@ In the Electronic Invoicing tab:
 The DTE Email is the email used for sending electronic documents and must be set in
 the contact that will be part of an electronic document.
 
-![Chilean electronic invoice data for partners.](chile/dte-email-electronic-invoice.png)
+![Chilean electronic invoice data for partners.](../../../.gitbook/assets/dte-email-electronic-invoice.png)
 
 ## Document types
 
@@ -186,7 +186,7 @@ document types.
 Document types are created automatically upon installation of the localization module, and can be
 managed by navigating to Accounting ‣ Configuration ‣ Document Types.
 
-![Chilean fiscal document types list.](chile/chilean-document-types.png)
+![Chilean fiscal document types list.](../../../.gitbook/assets/chilean-document-types.png)
 
 #### NOTE
 Several document types are inactive by default but can be activated by toggling the
@@ -271,7 +271,7 @@ module. The accounts are mapped automatically in:
 - Tỷ giá hối đoái
 
 #### SEE ALSO
-[Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md)
+[Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
 
 ## Thuế
 
@@ -285,7 +285,7 @@ Chile has several tax types, the most common ones are:
 - **ILA**: the tax for alcoholic drinks.
 
 #### SEE ALSO
-[Thuế](../accounting/taxes.md)
+[Thuế](applications/finance/accounting/taxes.md)
 
 ## Usage and testing
 
@@ -294,7 +294,7 @@ Chile has several tax types, the most common ones are:
 In the Chilean localization, the electronic invoice workflow includes customer invoice issuance and
 vendor bill reception. The following diagram explains how information is shared to the , customers, and vendors.
 
-![Diagram with Electronic invoice transactions.](chile/electronic-invoice-workflow.png)
+![Diagram with Electronic invoice transactions.](../../../.gitbook/assets/electronic-invoice-workflow.png)
 
 ### Customer invoice emission
 
@@ -303,7 +303,7 @@ way. For Chile, one of the differences is the document type that is automaticall
 the taxpayer. The document type can be changed manually if needed on the invoice by navigating to
 Accounting ‣ Customers ‣ Invoices.
 
-![Customer invoice document type selection.](chile/customer-invoice-document-type.png)
+![Customer invoice document type selection.](../../../.gitbook/assets/customer-invoice-document-type.png)
 
 #### IMPORTANT
 Documents type 33 electronic invoice must have at least one item with tax, otherwise
@@ -320,25 +320,25 @@ order, validate the invoice. After the invoice is posted:
   in the chatter.
 - The  
   status is set as Pending to be sent.
-  ![DTE XML File displayed in chatter.](chile/xml-creation.png)
+  ![DTE XML File displayed in chatter.](../../../.gitbook/assets/xml-creation.png)
 
 The  status is updated automatically by Odoo with a
 scheduled action that runs every day at night, if the response from the  is needed immediately, you can do it manually as well by following the
  status workflow:
 
-![Transition of DTE status flow.](chile/dte-status-flow.png)
+![Transition of DTE status flow.](../../../.gitbook/assets/dte-status-flow.png)
 1. Bước đầu tiên là gửi  đến . Việc này có thể được thực hiện thủ công bằng cách nhấp vào nút Enviar Ahora. Hành động này sẽ tạo một SII Tack number cho hóa đơn, được sử dụng để kiểm tra thông tin chi tiết do  gửi qua email. Sau đó, trạng thái DTE sẽ được cập nhật thành Yêu cầu trạng thái.
 2. Once the  response is received, Odoo updates the
    DTE status. To do it manually, click on the button Verify on SII. The
    result can either be Accepted, Accepted With Objection or
    Rejected.
-   ![Identification transaction for invoice and Status update.](chile/dte-status-steps.png)
+   ![Identification transaction for invoice and Status update.](../../../.gitbook/assets/dte-status-steps.png)
 
    #### IMPORTANT
    There are intermediate statuses in the  before
    acceptance or rejection. It's recommended to **NOT** continuously click Verify in
    SII for smooth processing.
-   ![Electronic invoice data statuses.](chile/chatter-internal-statuses.png)
+   ![Electronic invoice data statuses.](../../../.gitbook/assets/chatter-internal-statuses.png)
 3. The final response from the  can take on one of these
    values:
    - Accepted: indicates the invoice information is correct, our document is now
@@ -356,13 +356,13 @@ scheduled action that runs every day at night, if the response from the  is need
      2. Make the required corrections based on the message received from the  in the chatter.
      3. Post the invoice again.
 
-     ![Message when an invoice is rejected.](chile/rejected-invoice.png)
+     ![Message when an invoice is rejected.](../../../.gitbook/assets/rejected-invoice.png)
 
 #### Crossed references
 
 Khi hóa đơn được tạo từ một tài liệu tài chính khác, thông tin liên quan đến tài liệu gốc phải được ghi nhận trong tab Tham chiếu chéo. Tab này thường được sử dụng cho giấy báo có hoặc nợ, nhưng trong một số trường hợp, nó cũng có thể được sử dụng cho hóa đơn bán hàng. Đối với giấy báo có và nợ, Odoo sẽ tự động thiết lập thông tin này.
 
-![Crossed referenced document(s).](chile/cross-reference-tab-registration.png)
+![Crossed referenced document(s).](../../../.gitbook/assets/cross-reference-tab-registration.png)
 
 <a id="chile-electronic-invoice-pdf-report"></a>
 
@@ -372,7 +372,7 @@ Once the invoice is accepted and validated by the  and
 the PDF is printed, it includes the fiscal elements that indicate that the document is fiscally
 valid.
 
-![Fiscal elements and barcode printed in accepted invoices.](chile/accepted-invoice-fiscal-information.png)
+![Fiscal elements and barcode printed in accepted invoices.](../../../.gitbook/assets/accepted-invoice-fiscal-information.png)
 
 #### IMPORTANT
 If you are hosted in Odoo SH or On-Premise, you should manually install the [pdf417gen](https://pypi.org/project/pdf417gen/) library. Use the following command to install it:
@@ -388,7 +388,7 @@ Once the invoice has been sent to the customer:
    sent; otherwise, a claim is sent.
 4. The field DTE Acceptance Status is updated automatically.
 
-![Message with the commercial acceptance from the customer.](chile/partner-dte-status.png)
+![Message with the commercial acceptance from the customer.](../../../.gitbook/assets/partner-dte-status.png)
 
 #### Processed for claimed invoices
 
@@ -397,7 +397,7 @@ be cancelled in Odoo**. In case you get a claim for your customer, the correct w
 with a credit note to either cancel the invoice or correct it. Please refer to the
 [Giấy báo có](#chile-credit-notes) section for more details.
 
-![Invoice Commercial status updated to claimed.](chile/accepted-invoice.png)
+![Invoice Commercial status updated to claimed.](../../../.gitbook/assets/accepted-invoice.png)
 
 #### Common errors
 
@@ -452,7 +452,7 @@ but these are some of the common errors you might have and how to solve them:
 
 Khi cần hủy bỏ hoặc điều chỉnh một hóa đơn đã được xác nhận, bắt buộc phải tạo một giấy báo có. Lưu ý quan trọng rằng tệp  là bắt buộc đối với giấy báo có, được xác định là Loại tài liệu 61 trong hệ thống . Vui lòng tham khảo mục [Hướng dẫn CAF](#chile-caf-documentation) để biết thêm thông tin về quy trình tải  cho từng loại tài liệu.
 
-![Creation of CAF for Credit notes.](chile/credit-note-document-type.png)
+![Creation of CAF for Credit notes.](../../../.gitbook/assets/credit-note-document-type.png)
 
 #### Trường hợp vận dụng
 
@@ -462,7 +462,7 @@ In case you need to cancel or invalidate an invoice, navigate to Accounting ‣
 Customers ‣ Invoices and select the desired invoice. Then, use the button Add Credit
 Note and select Full Refund, in this case the  reference code is automatically set to Anula Documento de referencia.
 
-![Credit note canceling the referenced document.](chile/credit-note-cancel-ref-doc.png)
+![Credit note canceling the referenced document.](../../../.gitbook/assets/credit-note-cancel-ref-doc.png)
 
 ##### Correct referenced document
 
@@ -471,11 +471,11 @@ invoice is wrong, then use the button Add Credit Note, select Partial Refund
 and select the option Only Text Correction. In this case the SII Reference
 Code field is automatically set to Corrects Referenced Document Text.
 
-![Credit note correcting referenced document text.](chile/credit-note-correct-text.png)
+![Credit note correcting referenced document text.](../../../.gitbook/assets/credit-note-correct-text.png)
 
 Odoo creates a credit note with the corrected text in an invoice and Price `0.00`.
 
-![Credit note with the corrected value on the invoice lines.](chile/text-correction-label.png)
+![Credit note with the corrected value on the invoice lines.](../../../.gitbook/assets/text-correction-label.png)
 
 #### IMPORTANT
 Make sure to define the Default Credit Account in the sales journal specifically for
@@ -487,7 +487,7 @@ When a correction on the amounts is required, use the button Add Credit note and
 Partial Refund. In this case the SII Reference Code is automatically set to
 Corrige el monto del Documento de Referencia.
 
-![Credit note for partial refund to correct amounts, using the SII reference code 3.](chile/credit-note-correct-amount.png)
+![Credit note for partial refund to correct amounts, using the SII reference code 3.](../../../.gitbook/assets/credit-note-correct-amount.png)
 
 ### Giấy báo nợ
 
@@ -504,12 +504,12 @@ The primary use case for debit notes is to increase the value of an existing inv
 select option 3. Corrige el monto del Documento de Referencia for the
 Reference Code SII field.
 
-![Debit note correcting referenced document amount.](chile/debit-note-correct-amount.png)
+![Debit note correcting referenced document amount.](../../../.gitbook/assets/debit-note-correct-amount.png)
 
 In this case Odoo automatically includes the Source Invoice in the Cross
 Reference tab.
 
-![Automatic reference to invoice in a debit note.](chile/auto-ref-debit-note.png)
+![Automatic reference to invoice in a debit note.](../../../.gitbook/assets/auto-ref-debit-note.png)
 
 ##### Huỷ giấy báo có
 
@@ -517,7 +517,7 @@ In Chile, debits notes are used to cancel a valid credit note. To do this, click
 Debit Note button and select the 1: Anula Documentos de referencia option for the
 Reference Code SII field.
 
-![Debit note to cancel the referenced document (credit note).](chile/debit-note-cancel-ref-doc.png)
+![Debit note to cancel the referenced document (credit note).](../../../.gitbook/assets/debit-note-cancel-ref-doc.png)
 
 ### Vendor bills
 
@@ -544,7 +544,7 @@ If all the commercial information is correct on your vendor bill, then you can a
 using the Aceptar Documento button. Once this is done, the DTE Acceptation
 Status changes to Accepted and an email of acceptance is sent to the vendor.
 
-![Button for accepting vendor bills.](chile/accept-vendor-bill-btn.png)
+![Button for accepting vendor bills.](../../../.gitbook/assets/accept-vendor-bill-btn.png)
 
 #### Nhận
 
@@ -554,7 +554,7 @@ DTE Acceptation Status changes to Claim and a rejection email is sent to the
 vendor.
 
 ![Claim button in vendor bills to inform the vendor all the document is commercially
-rejected.](chile/claim-vendor-bill-btn.png)
+rejected.](../../../.gitbook/assets/claim-vendor-bill-btn.png)
 
 If you claim a vendor bill, the status changes from Draft to Cancel
 automatically. Considering this as best practice, all the claimed documents should be canceled as
@@ -644,7 +644,7 @@ A delivery guide should **not** be longer than one page or contain more than 60 
 When a sales order is created and confirmed, a delivery order is generated. After validating the
 delivery order, the option to create a delivery guide is activated.
 
-![Create Delivery Guide button on a sales process.](chile/delivery-guide-creation-btn.png)
+![Create Delivery Guide button on a sales process.](../../../.gitbook/assets/delivery-guide-creation-btn.png)
 
 #### WARNING
 When clicking on Create Delivery Guide for the first time, a warning message pops up,
@@ -653,7 +653,7 @@ stating the following:
 `No se encontró una secuencia para la guía de despacho. Por favor, establezca el primer número
 dentro del campo número para la guía de despacho`
 
-![First Delivery Guide number warning message.](chile/delivery-guide-number-warning.png)
+![First Delivery Guide number warning message.](../../../.gitbook/assets/delivery-guide-number-warning.png)
 
 Thông báo này yêu cầu người dùng chỉ định số thứ tự tiếp theo mà Odoo sẽ dùng để tạo hướng dẫn giao hàng (VD: số  khả dụng tiếp theo), và chỉ xuất hiện khi tạo hướng dẫn giao hàng lần đầu trong Odoo. Sau khi tài liệu đầu tiên được tạo thành công, Odoo sẽ tự động lấy số tiếp theo khả dụng trong file  để tạo các hướng dẫn giao hàng sau.
 
@@ -663,7 +663,7 @@ After the delivery guide is created:
   automatically created and added to the chatter.
 - The DTE SII Status is set as Pending to be sent.
 
-![Chatter notes of Delivery Guide creation.](chile/chatter-delivery-guide.png)
+![Chatter notes of Delivery Guide creation.](../../../.gitbook/assets/chatter-delivery-guide.png)
 
 The DTE Status is automatically updated by Odoo with a scheduled action that runs every
 night. To get a response from the  immediately, press
@@ -672,7 +672,7 @@ the Send now to SII button.
 Once the delivery guide is sent, it may then be printed by clicking on the Print Delivery
 Guide button.
 
-![Printing Delivery Guide PDF.](chile/print-delivery-guide-btn.png)
+![Printing Delivery Guide PDF.](../../../.gitbook/assets/print-delivery-guide-btn.png)
 
 Delivery guide will have fiscal elements that indicate that the document is fiscally valid when
 printed (if hosted in *Odoo SH* or on *On-premise* remember to manually add the
@@ -695,11 +695,11 @@ need their own . Please refer to the [CAF documentation](#chile-caf-documentatio
 
 Biên lai điện tử hữu ích khi khách hàng không cần hóa đơn điện tử. Theo mặc định, có một đối tác trong cơ sở dữ liệu tên Người tiêu dùng cuối cùng ẩn danh với  chung `66666666-6` và loại người nộp thuế là Người tiêu dùng cuối cùng. Đối tác này có thể được sử dụng cho biên lai điện tử hoặc có thể tạo bản ghi mới cho cùng mục đích.
 
-![Electronic Receipt module.](chile/electronic-receipt-customer.png)
+![Electronic Receipt module.](../../../.gitbook/assets/electronic-receipt-customer.png)
 
 Mặc dù biên lai điện tử thường được sử dụng cho người tiêu dùng cuối cùng với  chung, nhưng cũng có thể áp dụng cho các đối tác cụ thể. Sau khi tạo và cấu hình đối tác cùng sổ nhật ký, biên lai điện tử được tạo theo cách tiêu chuẩn như hóa đơn điện tử, nhưng cần chọn loại tài liệu (39) Biên lai điện tử trong biểu mẫu hóa đơn:
 
-![Document type 39 for Electronic Receipts.](chile/document-type-39.png)
+![Document type 39 for Electronic Receipts.](../../../.gitbook/assets/document-type-39.png)
 
 #### Validation and DTE status
 
@@ -714,7 +714,7 @@ After the receipt is posted:
   automatically and added to the chatter.
 - The DTE SII Status is set as Pending to be sent.
 
-![Electronic Receipts STE creation status.](chile/electronic-receipt-ste-status.png)
+![Electronic Receipts STE creation status.](../../../.gitbook/assets/electronic-receipt-ste-status.png)
 
 The DTE Status is automatically updated by Odoo with a scheduled action that runs every
 day at night. To get a response from the  immediately,
@@ -744,14 +744,14 @@ information required by it.
 
 #### Contact configurations
 
-![Taxpayer Type needed for the Electronic Exports of Goods module.](chile/taxpayer-type-export-goods.png)
+![Taxpayer Type needed for the Electronic Exports of Goods module.](../../../.gitbook/assets/taxpayer-type-export-goods.png)
 
 #### Chilean customs
 
 When creating an electronic exports of goods invoice, these new fields in the Other Info
 tab are required to comply with Chilean regulations.
 
-![Chilean customs fields.](chile/chilean-custom-fields.png)
+![Chilean customs fields.](../../../.gitbook/assets/chilean-custom-fields.png)
 
 #### Báo cáo PDF
 
@@ -759,14 +759,14 @@ Once the invoice is accepted and validated by the  and
 the PDF is printed, it includes the fiscal elements that indicate that the document is fiscally
 valid and a new section needed for customs.
 
-![PDF report section for the Electronic Exports of Goods PDF Report.](chile/pdf-report-section.png)
+![PDF report section for the Electronic Exports of Goods PDF Report.](../../../.gitbook/assets/pdf-report-section.png)
 
 ### eCommerce electronic invoicing
 
 To install the Chilean eCommerce module, go to Apps, search for the
 module by its technical name \`l10n_cl_edi_website_sale, and click the Activate button.
 
-![phân hệ l10n_cl Thương mại điện tử.](chile/ecommerce-module-chile.png)
+![phân hệ l10n_cl Thương mại điện tử.](../../../.gitbook/assets/ecommerce-module-chile.png)
 
 This module enables the features and configurations to:
 
@@ -783,13 +783,13 @@ Website ‣ Configuration ‣ Settings ‣ Invoicing and activate the
 Automatic Invoice feature. Activating this feature allows electronic documents to be
 automatically generated when an online payment is confirmed.
 
-![Invoice Policy and Automatic Invoice configurations.](chile/website-configurations-ecommerce-chile.png)
+![Invoice Policy and Automatic Invoice configurations.](../../../.gitbook/assets/website-configurations-ecommerce-chile.png)
 
 Since an online payment needs to be confirmed for the *automatic invoice* feature to generate the
 document, a payment provider must be configured for the related website.
 
 #### NOTE
-Review the [Thanh toán online](../payment_providers.md) documentation for information on which payment providers
+Review the [Thanh toán online](applications/finance/payment_providers.md) documentation for information on which payment providers
 are supported in Odoo, and how to configure them.
 
 It is also recommended to configure your products so they are able to be invoiced when an online
@@ -797,20 +797,20 @@ payment is confirmed. To do so, go to Website ‣ eCommerce ‣ Products and sel
 the product template of the desired product. Then, set the Invoicing Policy to
 Ordered quantities.
 
-![Invoice Policy configuration in Products.](chile/ordered-quantities-product.png)
+![Invoice Policy configuration in Products.](../../../.gitbook/assets/ordered-quantities-product.png)
 
 #### Chu trình lập hóa đơn
 
 Clients from Chile will be able to select if they need an **invoice** or a **ballot** for their
 purchase with an extra step added during the checkout process.
 
-![Option for EDI Documents for clients.](chile/select-edi-docs-ecommerce.png)
+![Option for EDI Documents for clients.](../../../.gitbook/assets/select-edi-docs-ecommerce.png)
 
 If the customer selects the Electronic Invoice option, fiscal fields are required to be
 filled out, including the Activity Description, the Identification Number
 and their DTE Email.
 
-![Fiscal fields required for an Invoice to be requested.](chile/fiscal-fields-invoice-ecommerce.png)
+![Fiscal fields required for an Invoice to be requested.](../../../.gitbook/assets/fiscal-fields-invoice-ecommerce.png)
 
 If the client selects the Electronic Receipts option, they will be directed to the next
 step, and the electronic document will be generated for the *Consumidor Final Anónimo* contact.
@@ -829,7 +829,7 @@ To install the Chilean Module for Point of Sale, go to the Apps
 application on the main Odoo dashboard, search for the module by its technical name
 `l10n_cl_edi_pos`, and click the Activate button.
 
-![phân hệ l10n_cl POS EDI.](chile/pos-edi-module-chile.png)
+![phân hệ l10n_cl POS EDI.](../../../.gitbook/assets/pos-edi-module-chile.png)
 
 This module enables the following features and configurations to:
 
@@ -851,14 +851,14 @@ fields:
 - Email DTE
 - RUT
 
-![Contact with fiscal information created from POS.](chile/fiscal-required-pos-session.png)
+![Contact with fiscal information created from POS.](../../../.gitbook/assets/fiscal-required-pos-session.png)
 
 To configure the products, navigate to Point of Sale ‣ Products ‣ Products and
 select a product record. In the Sales tab of the product form, it is necessary to mark
 the product as Available for POS, this makes the product available for sale in the
 *Point of Sale* app.
 
-![Product with fiscal information created from POS.](chile/available-in-pos-product.png)
+![Product with fiscal information created from POS.](../../../.gitbook/assets/available-in-pos-product.png)
 
 Optionally, the following features are available for configuration in the Point of
 Sale ‣ Configuration ‣ Settings ‣ Bills & Receipts section:
@@ -868,7 +868,7 @@ Sale ‣ Configuration ‣ Settings ‣ Bills & Receipts section:
 - Generate a code on ticket: this feature enables a 5-digit code to be generated on the
   receipt, allowing the user to request an invoice through the customer portal
 
-![Configuration to generate QR or 5 digit codes on tickets.](chile/qr-code-ticket.png)
+![Configuration to generate QR or 5 digit codes on tickets.](../../../.gitbook/assets/qr-code-ticket.png)
 
 #### Chu trình lập hóa đơn
 
@@ -880,11 +880,11 @@ When making a purchase as an anonymous user that does not request an electronic 
 automatically selects Consumidor Final Anónimo as the contact for the order and
 generates the electronic receipt.
 
-![Automatic contact selection of an anonymous end consumer.](chile/invoice-receipt-selection.png)
+![Automatic contact selection of an anonymous end consumer.](../../../.gitbook/assets/invoice-receipt-selection.png)
 
 #### NOTE
 If the client requests a credit note due to a return of their purchase, the credit note should be
-made using the *Accounting* app. See the [credit notes and refunds](../accounting/customer_invoices/credit_notes.md) documentation for detailed instructions.
+made using the *Accounting* app. See the [credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md) documentation for detailed instructions.
 
 ##### Electronic receipts: specific customer
 
@@ -892,7 +892,7 @@ When specific user makes a purchase that does not request an electronic invoice,
 selects the contact for the order as the Consumidor Final Anónimo, and allows you to
 select or create the required customer contact with their fiscal information for the receipt.
 
-![Selection of contact for the receipt.](chile/contact-for-electronic-invoice.png)
+![Selection of contact for the receipt.](../../../.gitbook/assets/contact-for-electronic-invoice.png)
 
 #### NOTE
 If the client requests a credit note because of a return of this type of purchase, the credit
@@ -904,7 +904,7 @@ When clients request an electronic invoice, it is possible to select or create t
 with their fiscal information. When the payment is being made, select the option Invoice
 to generate the document.
 
-![Selection of invoice option at payment.](chile/invoice-option-at-payment.png)
+![Selection of invoice option at payment.](../../../.gitbook/assets/invoice-option-at-payment.png)
 
 #### NOTE
 For both the electronic receipts and invoices, if the product is not affected by taxes, Odoo
@@ -916,12 +916,12 @@ For electronic receipts (not generated for the *Consumidor Final Anónimo*) and 
 it is possible to manage the process to return products sold in a  order
 by selecting the Refund button.
 
-![Refund option in the POS application.](chile/refund-order.png)
+![Refund option in the POS application.](../../../.gitbook/assets/refund-order.png)
 
 Orders can be searched by the order status or by contact, and be selected for the refund to be based
 on the client's original order.
 
-![Selection of order for the refund process.](chile/select-order-refund.png)
+![Selection of order for the refund process.](../../../.gitbook/assets/select-order-refund.png)
 
 When the return payment is validated, Odoo generates the necessary credit note, referencing the
 original receipt or invoice, partially or fully canceling the document.
@@ -941,7 +941,7 @@ You can find this report in Accounting ‣ Reporting ‣ Balance Sheet and
 selecting in the Report field the option Chilean Fiscal Balance (8 Columns)
 (CL).
 
-![Location of the Reporte Balance Tributario de 8 Columnas.](chile/locate-fiscal-balance-report.png)![Chilean Fiscal Balance (8 Columns).](chile/8-col-fiscal-balance-report.png)
+![Location of the Reporte Balance Tributario de 8 Columnas.](../../../.gitbook/assets/locate-fiscal-balance-report.png)![Chilean Fiscal Balance (8 Columns).](../../../.gitbook/assets/8-col-fiscal-balance-report.png)
 
 ### Propuesta F29
 
@@ -960,14 +960,14 @@ This record is supplied by the electronic tax documents (DTE's) that have been r
 You can find this report in Accounting ‣ Reporting ‣ Tax Reports and selecting
 the Report option Propuesta F29 (CL).
 
-![Location of the Propuesta F29 (CL) Report.](chile/locate-propuesta-f29-report.png)
+![Location of the Propuesta F29 (CL) Report.](../../../.gitbook/assets/locate-propuesta-f29-report.png)
 
 It is possible to set the  and the
 Proportional Factor for the fiscal year from the Accounting ‣
 Configuration ‣ Settings.
 
-![Default PPM and Proportional Factor for the Propuesta F29 Report.](chile/f29-report.png)
+![Default PPM and Proportional Factor for the Propuesta F29 Report.](../../../.gitbook/assets/f29-report.png)
 
 Or manually in the reports by clicking on the ✏️ (pencil) icon.
 
-![Manual PPM for the Propuesta F29 Report.](chile/manual-ppm-f29-report.png)
+![Manual PPM for the Propuesta F29 Report.](../../../.gitbook/assets/manual-ppm-f29-report.png)

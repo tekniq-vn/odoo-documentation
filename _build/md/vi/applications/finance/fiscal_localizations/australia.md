@@ -21,7 +21,7 @@ The Australian chart of accounts is included in the **Australia - Accounting** m
 Accounting ‣ Configuration ‣ Chart of Accounts to access it.
 
 #### SEE ALSO
-[Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md)
+[Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
 
 <a id="australia-taxes"></a>
 
@@ -33,7 +33,7 @@ through Accounting ‣ Reporting ‣ BAS Report.
 In Australia, the standard **Goods and Services Tax** (GST) rate is 10%, but different rates and
 exemptions exist for specific categories of goods and services.
 
-![Default GST of Australia](australia/default-gst.png)
+![Default GST of Australia](../../../.gitbook/assets/default-gst.png)
 
 ### Thay thế thuế
 
@@ -49,7 +49,7 @@ different tax grid variations for:
 - TPAR without ABN
 
 #### SEE ALSO
-[Thuế](../accounting/taxes.md)
+[Thuế](applications/finance/accounting/taxes.md)
 
 Taxes including a **TPAR** mention impact not only the **BAS** report but also the **TPAR** report.
 Businesses from certain industries need to report payments made to subcontractors from relevant
@@ -111,20 +111,20 @@ feature, businesses can report on the following:
 - Goods and Services Tax (GST)
 - PAYG tax withheld
 
-![BAS report in Odoo](australia/bas-report.png)
+![BAS report in Odoo](../../../.gitbook/assets/bas-report.png)
 
 The taxes for GST are collected from the **tax grid**, which is pre-configured in the system. The
 **tax grid** can also be manually set up for any additional special GST. Once the tax for each
 account is set up, the system automatically slots journal items into the correct tax category. This
 ensures the **BAS** report is accurate and reflective of the business's financial activities.
 
-![GST grids in Odoo](australia/gst-grids.png)
+![GST grids in Odoo](../../../.gitbook/assets/gst-grids.png)
 
 In addition, the **BAS** report includes the **PAYG** tax withheld components (**W1** to **W5**,
 then **summary, section 4**). This integration ensures that all payroll-related withholding taxes
 are accurately captured and reflected within the report.
 
-![PAYG Tax Withheld and Summary of BAS report in Odoo](australia/payg.png)
+![PAYG Tax Withheld and Summary of BAS report in Odoo](../../../.gitbook/assets/payg.png)
 
 The module incorporates built-in rules that facilitate the automatic calculation of taxes for types
 **W1** to **W5**. For a detailed walkthrough and more information on the calculation process for
@@ -141,7 +141,7 @@ Periodicity. Also, the start date of the tax return period can be defined throug
 button** (marked by a calendar icon 📅).
 
 #### SEE ALSO
-[Year-end closing](../accounting/reporting/year_end.md)
+[Year-end closing](applications/finance/accounting/reporting/year_end.md)
 
 #### NOTE
 Odoo uses the *calendar quarter* rather than the Australian FY quarter, which means **July to
@@ -155,13 +155,13 @@ Once the **GST payable** and **GST receivable** accounts are set up, the **BAS**
 accurate journal closing entry automatically, which balances out the GST balance with the GST
 clearing account.
 
-![GST accounts for the BAS report in Odoo.](australia/bas-report-accounts.png)
+![GST accounts for the BAS report in Odoo.](../../../.gitbook/assets/bas-report-accounts.png)
 
 The balance between **GST receivable** and **payable** is set against the tax clearing account
 defined on the tax group. The amount to be paid to or received from the **ATO** can be reconciled
 against a bank statement.
 
-![BAS tax payment.](australia/bas-taxes.png)
+![BAS tax payment.](../../../.gitbook/assets/bas-taxes.png)
 
 #### IMPORTANT
 The **BAS** report is not directly submitted to the **ATO**. Odoo helps you automatically compute
@@ -184,7 +184,7 @@ Reports (TPAR).
 Under Accounting ‣ Customers or Accounting ‣ Vendors, select a
 your contractor and set a Fiscal Position under the Sales & Purchase tab.
 
-![TPAR fiscal position](australia/tpar.png)
+![TPAR fiscal position](../../../.gitbook/assets/tpar.png)
 
 Upon billing a contact with a fiscal position set to TPAR or
 TPAR without ABN, the report is automatically generated in Accounting
@@ -208,7 +208,7 @@ Customer statements allow customers to see their financial transactions with the
 certain period, and overdue statement details. These statements can be sent out to customers
 by email.
 
-![Customer statement in Odoo.](australia/customer-statement.png)
+![Customer statement in Odoo.](../../../.gitbook/assets/customer-statement.png)
 
 There are **two** ways for customers to download these statements.
 
@@ -221,7 +221,7 @@ There are **two** ways for customers to download these statements.
    Partner Ledger. From here, specify a date range in the **calendar menu (📅)** for the statement,
    hover over a partner, and click the Customer Statements tab.
 
-![Customer statement from partner ledger report in Odoo.](australia/partner-ledger-statements.png)
+![Customer statement from partner ledger report in Odoo.](../../../.gitbook/assets/partner-ledger-statements.png)
 
 <a id="australia-remittance"></a>
 
@@ -231,7 +231,7 @@ A remittance advice is a document used as proof of payment to a business. In Odo
 accessed by going to Accounting ‣ Vendors ‣ Payments, selecting the payment(s), and
 clicking Print ‣ Payment Receipt.
 
-![Remittance advice in Odoo.](australia/remitence.png)
+![Remittance advice in Odoo.](../../../.gitbook/assets/remitence.png)
 
 <a id="australia-peppol"></a>
 
@@ -242,7 +242,7 @@ You can find and set up **electronic invoicing** settings per partner under
 Accounting ‣ Customers or Accounting ‣ Vendors, select a
 partner, and click the Accounting tab.
 
-![Peppol settings from a partner in Odoo.](australia/peppol.png)
+![Peppol settings from a partner in Odoo.](../../../.gitbook/assets/peppol.png)
 
 #### IMPORTANT
 Validating an invoice or credit note for a partner on the PEPPOL network will download a
@@ -281,7 +281,7 @@ following fields:
 - BSB
 - Chủ tài khoản
 
-![Account Number settings for ABA in Odoo.](australia/aba.png)
+![Account Number settings for ABA in Odoo.](../../../.gitbook/assets/aba.png)
 
 #### IMPORTANT
 The Send Money field must be **enabled**.
@@ -338,7 +338,7 @@ the following bank feed iteration. You will need to reconcile it against the **b
 in Odoo.
 
 #### SEE ALSO
-[Batch Payment](../accounting/payments/batch.md)
+[Batch Payment](applications/finance/accounting/payments/batch.md)
 
 <a id="australia-buynow-paylater"></a>
 
@@ -349,8 +349,8 @@ solutions are available via the [Stripe](https://stripe.com/en-au/payments/payme
 [AsiaPay](https://www.asiapay.com.au/payment.html#option) payment providers.
 
 #### SEE ALSO
-- [AsiaPay Payment Provider](../payment_providers/asiapay.md)
-- [Stripe Payment Provider](../payment_providers/stripe.md)
+- [AsiaPay Payment Provider](applications/finance/payment_providers/asiapay.md)
+- [Stripe Payment Provider](applications/finance/payment_providers/stripe.md)
 
 ## POS terminals for Australia
 
@@ -363,8 +363,8 @@ of not using Stripe is that cashiers must manually enter the final payment amoun
 terminal.
 
 #### SEE ALSO
-- [Stripe Odoo Payment Provider](../payment_providers/stripe.md)
-- [Stripe Odoo Payment Terminal](../../sales/point_of_sale/payment_methods/terminals/stripe.md)
+- [Stripe Odoo Payment Provider](applications/finance/payment_providers/stripe.md)
+- [Stripe Odoo Payment Terminal](applications/sales/point_of_sale/payment_methods/terminals/stripe.md)
 - [Stripe Dashboard](https://dashboard.stripe.com/dashboard)
 - [Stripe Terminal](https://stripe.com/docs/terminal)
 
@@ -415,7 +415,7 @@ Contractual information related to Australia can be found in the following **thr
    > - **No TFN**. Choose this structure if the employee hasn’t provided a **TFN** for over **28**
    >   days.
 
-![Employees form in Odoo Payroll.](australia/employee.png)
+![Employees form in Odoo Payroll.](../../../.gitbook/assets/employee.png)
 
 #### IMPORTANT
 The structures **Horticulture/Shearing (Schedule 2)** and **Artists and Performers (Schedule 3)**
@@ -479,7 +479,7 @@ The field Work Entry Source is also significant and defines how **working hours*
 Once all important information has been entered, ensure the transition of the contract's status from
 "New" to "Running" to facilitate its use in pay runs.
 
-!["Australia" payroll tab in Odoo.](australia/employee-au.png)
+!["Australia" payroll tab in Odoo.](../../../.gitbook/assets/employee-au.png)
 
 ### Assign superannuation accounts
 
@@ -534,7 +534,7 @@ generating an individual payslip, make sure to proceed with the following steps:
 4. Unlike payslips generated from a batch, the payroll user must click the Compute Sheet
    button to generate payslip lines
 
-![One-time payments in Odoo Payroll.](australia/worked-days-input.png)
+![One-time payments in Odoo Payroll.](../../../.gitbook/assets/worked-days-input.png)
 
 #### Understand payslip features
 
@@ -549,7 +549,7 @@ There is one line per work entry type, meaning **paid** and **unpaid time-off**,
 custom **hourly penalty rates** (overtime, public holidays, etc.) which are automatically added
 to the table.
 
-![Worked days and hours in Payroll](australia/worked-days-compute.png)
+![Worked days and hours in Payroll](../../../.gitbook/assets/worked-days-compute.png)
 
 In the Other Inputs section, You can add entries such as **allowances** and **extra
 pay** items in the Other Inputs section.
@@ -569,13 +569,13 @@ pay** items in the Other Inputs section.
   Payroll ‣ Configuration ‣ Other Input Types and create a new entry with the
   code **EXTRA**.
 
-![Extra pay item input type](australia/extra-pay-item.png)
+![Extra pay item input type](../../../.gitbook/assets/extra-pay-item.png)
 
 In the Salary Computation tab, the payroll user can verify whether all the pay rules
 have been computed correctly as per employee, contract and salary structure. Here are a few
 guidelines to better understand the data.
 
-![Salary computation in Odoo Payroll.](australia/salary-computation.png)
+![Salary computation in Odoo Payroll.](../../../.gitbook/assets/salary-computation.png)
 1. **Basic salary:** amount from which tax-deductible lines can be subtracted
 2. **Gross salary:** amount subject to the taxes defined by the salary structure
 3. **Withholding:** tax amount to be paid to the **ATO**
@@ -610,7 +610,7 @@ user can choose between **two** different **payment methods**.
   account have been properly [configured](#australia-aba).
 - From the employee's payslip (Payroll ‣ Payslips), once the payslip's journal
   entry has been posted, click Register Payment. The process is the same as
-  [paying vendor bills](../accounting/payments.md): select the desired bank journal and payment
+  [paying vendor bills](applications/finance/accounting/payments.md): select the desired bank journal and payment
   method, then later reconcile the payment with the corresponding bank statement.
 
 #### One-time payments
@@ -626,7 +626,7 @@ Australia: Return to work. Then, add the **gross amount** of that payment in the
 Other Inputs section and compute the payslip. Odoo automatically computes the **PAYG
 withholding**, the **net amount**, and the **super guarantee** corresponding to that payment.
 
-![Return-to-work payment](australia/return-to-work.png)
+![Return-to-work payment](../../../.gitbook/assets/return-to-work.png)
 
 ##### Termination payments
 
@@ -638,19 +638,19 @@ First, create the final salary for that employee this month. To do so, create an
 If the contract end date is set correctly, Odoo will automatically compute the prorated salary up to
 the final payslip date.
 
-![Termination payment worked days computation in Odoo.](australia/attendance.png)
+![Termination payment worked days computation in Odoo.](../../../.gitbook/assets/attendance.png)
 
 Create a second individual payslip and include it in the same batch. Change the salary structure on
 that payslip to Australia: Termination Payments. Before computing the sheet, it is
 important to provide the payslip with termination details .
 
-![Termination payment](australia/termination-payment.png)
+![Termination payment](../../../.gitbook/assets/termination-payment.png)
 - Genuine or Non-Genuine Redundancy. This choice impacts the amounts and
   caps defined per **ETP** type.
 - **ETP types**: see the full list of termination payment types in
   Other Input Types by filtering by `ETP Type is Set`.
 
-![Payslip other inputs](australia/payslip-other-inputs.png)
+![Payslip other inputs](../../../.gitbook/assets/payslip-other-inputs.png)
 
 Add the relevant **ETP type** in the Other Inputs table of the payslip, then compute the
 payslip. Odoo computes the **gross ETP**, the **withholding**, the **unused leaves**, and the **net
@@ -674,21 +674,21 @@ KeyPay was rebranded as **Employment Hero** in March 2023.
 
 ### Cấu hình
 
-1. [Activate](../../general/apps_modules.md#general-install) the Employment Hero Australian Payroll module
+1. [Activate](applications/general/apps_modules.md#general-install) the Employment Hero Australian Payroll module
    (`l10n_au_keypay`).
 2. Configure the **Employment Hero API** by going to Accounting ‣ Configuration
    ‣ Settings. More fields become visible after clicking on Enable Employment Hero
    Integration.
    ![Enabling Employment Hero Integration in Odoo Accounting displays new fields in the
-   settings](australia/employment-hero-integration.png)
+   settings](../../../.gitbook/assets/employment-hero-integration.png)
    - You can find the API Key in the My Account section of the Employment Hero platform.
-     !["Account Details" section on the Employment Hero dashboard](australia/employment-hero-myaccount.png)
+     !["Account Details" section on the Employment Hero dashboard](../../../.gitbook/assets/employment-hero-myaccount.png)
    - The **Payroll URL** is pre-filled with `https://keypay.yourpayroll.com.au`.
 
      #### WARNING
      Do not change the **pre-filled Payroll URL**
    - You can find the **Business ID** in the Employment Hero URL. (i.e., `189241`)
-     ![The Employment Hero "Business ID" number is in the URL](australia/employment-hero-business-id.png)
+     ![The Employment Hero "Business ID" number is in the URL](../../../.gitbook/assets/employment-hero-business-id.png)
    - You can choose any Odoo journal to post the payslip entries.
 3. Configure the tax by going to Accounting ‣ Configuration ‣ Taxes. Create the
    necessary taxes for the Employment Hero payslip entries. Fill in the tax code from
@@ -700,7 +700,7 @@ The API syncs the journal entries from Employment Hero to Odoo and leaves them i
 reference includes the Employment Hero payslip entry ID in brackets for the user to easily retrieve
 the same record in Employment Hero and Odoo.
 
-![Example of a Employment Hero Journal Entry in Odoo Accounting (Australia)](australia/employment-hero-journal-entry.png)
+![Example of a Employment Hero Journal Entry in Odoo Accounting (Australia)](../../../.gitbook/assets/employment-hero-journal-entry.png)
 
 By default, the synchronisation happens once per week. You can fetch the records manually by going
 to Accounting ‣ Configuration ‣ Settings and, in the Enable
@@ -710,7 +710,7 @@ Employment Hero payslip entries also work based on double-entry bookkeeping.
 
 The accounts used by Employment Hero are defined in the section Payroll settings.
 
-![Chart of Accounts menu in Employment Hero](australia/employment-hero-chart-of-accounts.png)
+![Chart of Accounts menu in Employment Hero](../../../.gitbook/assets/employment-hero-chart-of-accounts.png)
 
 For the API to work, you need to create the same accounts as the default accounts of your Employment
 Hero business (**same name and same code**) in Odoo. You also need to choose the correct account

@@ -61,4 +61,4 @@ If the form was completed from the My Time Off list view, the information is
 automatically saved as it is entered. However, the form can be saved manually at any time by
 clicking the <i class="fa fa-cloud-upload"></i> (cloud upload) icon.
 
-![A time off request form filled out for an employee home sick for two days with the flu.](request_time_off/time-off-request.png)
+![A time off request form filled out for an employee home sick for two days with the flu.](../../../.gitbook/assets/time-off-request.png)

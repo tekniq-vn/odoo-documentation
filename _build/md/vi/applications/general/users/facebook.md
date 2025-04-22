@@ -30,7 +30,7 @@ After the new app is created, the Dashboard page appears, with a list of steps t
 completed before the app can be published. From here, click Customize adding a Facebook
 Login button.
 
-![The App Dashboard in the Meta for developers platform.](facebook/app-requirements.png)
+![The App Dashboard in the Meta for developers platform.](../../../.gitbook/assets/app-requirements.png)
 
 On the Customize page, click Settings.
 
@@ -63,7 +63,7 @@ drop-down menu.
 
 Nhấp Lưu thay đổi.
 
-![An exampled of the Basic Settings page in the Meta for developers platform.](facebook/app-id.png)
+![An exampled of the Basic Settings page in the Meta for developers platform.](../../../.gitbook/assets/app-id.png)
 
 <a id="users-app-id"></a>
 
@@ -86,12 +86,12 @@ testing, and use cases, can be found in the [Meta for developers documentation](
 
 ## Thiết lập Odoo
 
-First, activate [Developer mode](../developer_mode.md#developer-mode-activation).
+First, activate [Developer mode](applications/general/developer_mode.md#developer-mode-activation).
 
 Navigate to the Settings app, and scroll down to the Integrations
 section. There, tick the checkbox labeled, OAuth Authentication. Click Save.
 
-![The enable OAuth setting in the Settings app.](facebook/enable-oauth.png)
+![The enable OAuth setting in the Settings app.](../../../.gitbook/assets/enable-oauth.png)
 
 Then, sign in to the database once the login screen loads.
 
@@ -101,4 +101,4 @@ OAuth Providers. Click Facebook Graph.
 In the Client ID field, enter the [App ID](#users-app-id) from the previous
 section, then tick the Allowed checkbox.
 
-![The Facebook Graph record in Odoo.](facebook/facebook-graph.png)
+![The Facebook Graph record in Odoo.](../../../.gitbook/assets/facebook-graph.png)

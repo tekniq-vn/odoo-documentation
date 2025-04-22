@@ -13,9 +13,9 @@ Odoo:
 
 ### Order and payment status
 
-Bước đầu tiên khi khách hàng thêm sản phẩm vào giỏ hàng là tạo báo giá. Đơn hàng có thể được quản lý từ **Trang web** hoặc ứng dụng [Bán hàng](../../sales/sales.md). Đơn hàng thương mại điện tử có thể tự động được chỉ định cho một bộ phận bán hàng cụ thể bằng cách vào Trang web ‣ Cấu hình ‣ Cài đặt. Trong phần **Cửa hàng - Quy trình thanh toán**, chọn Bộ phận sales hoặc Chuyên viên sales để xử lý đơn hàng thương mại điện tử.
+Bước đầu tiên khi khách hàng thêm sản phẩm vào giỏ hàng là tạo báo giá. Đơn hàng có thể được quản lý từ **Trang web** hoặc ứng dụng [Bán hàng](applications/sales/sales.md). Đơn hàng thương mại điện tử có thể tự động được chỉ định cho một bộ phận bán hàng cụ thể bằng cách vào Trang web ‣ Cấu hình ‣ Cài đặt. Trong phần **Cửa hàng - Quy trình thanh toán**, chọn Bộ phận sales hoặc Chuyên viên sales để xử lý đơn hàng thương mại điện tử.
 
-![Assignment of online orders to a sales team or salesperson](order_handling/handling-salesteam.png)
+![Assignment of online orders to a sales team or salesperson](../../../.gitbook/assets/handling-salesteam.png)
 
 Orders can be found under Website ‣ eCommerce ‣ Orders/Unpaid Orders. Each
 order goes through a different status:
@@ -27,7 +27,7 @@ order goes through a different status:
 - **Order**: the customer has gone through the checkout process, confirmed the order, and the
   payment is received.
 
-![Statuses of eCommerce orders](order_handling/handling-status.png)
+![Statuses of eCommerce orders](../../../.gitbook/assets/handling-status.png)
 
 ### Giỏ hàng bỏ dở
 
@@ -52,7 +52,7 @@ resources, those steps can be considered as one or multiple actions in Odoo.
 
 An automatic email can be sent to the customer when the transfer status in Odoo is “done”. To do so,
 enable the feature in the settings of the
-[Inventory](../../inventory_and_mrp/inventory.md) app.
+[Inventory](applications/inventory_and_mrp/inventory.md) app.
 
 #### NOTE
 If customers are allowed to pay when picking up their order in stores or by wire transfer, the
@@ -60,9 +60,9 @@ quotation is **not** be confirmed and the stock is **not** be reserved. Orders m
 manually to reserve products in stock.
 
 #### SEE ALSO
-- [Shipping cost invoicing](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.md)
-- [Print shipping labels](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
-- [Multi-package shipments](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.md)
+- [Shipping cost invoicing](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.md)
+- [Print shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
+- [Multi-package shipments](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.md)
 
 ### Returns and refunds
 
@@ -73,9 +73,9 @@ Full refunds can be directly sent to customers from within the order interface. 
 payment provider needs to be enabled first.
 
 #### SEE ALSO
-- [Returns and refunds](../../sales/sales/products_prices/returns.md)
-- [Dịch vụ hậu mãi](../../services/helpdesk/advanced/after_sales.md)
-- [Thanh toán online](../../finance/payment_providers.md)
+- [Returns and refunds](applications/sales/sales/products_prices/returns.md)
+- [Dịch vụ hậu mãi](applications/services/helpdesk/advanced/after_sales.md)
+- [Thanh toán online](applications/finance/payment_providers.md)
 
 <a id="handling-legal"></a>
 

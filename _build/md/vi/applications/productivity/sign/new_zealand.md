@@ -1,6 +1,6 @@
 # Odoo Sign legality in New Zealand
 
-[Odoo Sign](../sign.md) is your trusted partner for secure, efficient, and legally compliant
+[Odoo Sign](applications/productivity/sign.md) is your trusted partner for secure, efficient, and legally compliant
 electronic signatures in New Zealand.
 
 ## Legal framework for electronic signatures in New Zealand

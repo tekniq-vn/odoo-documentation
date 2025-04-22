@@ -11,8 +11,8 @@ In this chapter, you will learn:
 
 ## Install
 
-There are multiple ways to [install Odoo](../../../administration/on_premise.md), depending on the
-intended use case. This documentation assumes you use the [source install](../../../administration/on_premise/source.md) (running Odoo from the source code), which is best suited
+There are multiple ways to [install Odoo](administration/on_premise.md), depending on the
+intended use case. This documentation assumes you use the [source install](administration/on_premise/source.md) (running Odoo from the source code), which is best suited
 for Odoo designers and developers.
 
 <a id="website-themes-setup-databases"></a>
@@ -33,10 +33,10 @@ with backend and frontend views.
 
 The basis of Odoo is models. Models use fields to record the data. Records are stored in a database:
 they are therefore linked to a model. In Odoo, you can find the different models in the
-backend by enabling the [developer mode](../../../applications/general/developer_mode.md#developer-mode) and then going to
+backend by enabling the [developer mode](applications/general/developer_mode.md#developer-mode) and then going to
 Settings ‣ Technical ‣ Database Structure: Models.
 
-![Models page](setup/models-page.png)
+![Models page](../../../.gitbook/assets/models-page.png)
 
 <a id="website-themes-setup-databases-fields"></a>
 
@@ -45,7 +45,7 @@ Settings ‣ Technical ‣ Database Structure: Models.
 In a model, we will centralize fields (field names we need to target in our code).
 
 #### SEE ALSO
-[Fields and widgets](../../../applications/studio/fields.md)
+[Fields and widgets](applications/studio/fields.md)
 
 <a id="website-themes-setup-databases-fields-classic"></a>
 
@@ -114,7 +114,7 @@ customization of the screens they control.
 ### Import an existing database
 
 #### NOTE
-You can directly go to the [Theming](theming.md) chapter if you do not need to import an existing
+You can directly go to the [Theming](developer/howtos/website_themes/theming.md) chapter if you do not need to import an existing
 database.
 
 <a id="website-themes-setup-databases-import-dump"></a>
@@ -139,10 +139,10 @@ Go to `<database_url>/saas_worker/dump`.
    button.
 6. Click the Download icon. Select Testing under
    Purpose and With filestore under Filestore.
-   ![Download backup](setup/download-backup.png)
+   ![Download backup](../../../.gitbook/assets/download-backup.png)
 7. You will receive a notification when the dump is ready to be downloaded. Open it and click on
    Download to get your dump.
-   ![Database backup](setup/database-backup.png)
+   ![Database backup](../../../.gitbook/assets/database-backup.png)
 
 <a id="website-themes-setup-databases-import-filestore"></a>
 
@@ -199,31 +199,31 @@ update res_users set top_secret='' where id=2;
 Once all dependencies are set up, Odoo can be launched by running `odoo-bin`, the command-line
 interface of the server. It is located at the root of the Odoo Community directory.
 
-- [Running Odoo](../../../administration/on_premise/source.md#install-source-running-odoo)
+- [Running Odoo](administration/on_premise/source.md#install-source-running-odoo)
 - [Docker](https://hub.docker.com/_/odoo/)
 
 To configure the server, you can specify command-line arguments or a configuration file. The first
 method is presented below.
 
-The [CLI](../../reference/cli.md#reference-cmdline) offers several functionalities related to Odoo. You can use it to
-[run the server](../../reference/cli.md#reference-cmdline-server), scaffold an Odoo theme, populate a database, or
+The [CLI](developer/reference/cli.md#reference-cmdline) offers several functionalities related to Odoo. You can use it to
+[run the server](developer/reference/cli.md#reference-cmdline-server), scaffold an Odoo theme, populate a database, or
 count the number of lines of code.
 
 <a id="website-themes-setup-getting-started-shell-script"></a>
 
 ### Shell script
 
-A typical way to [run the server](../../reference/cli.md#reference-cmdline-server) would be to add all command line arguments to a `.sh` script.
+A typical way to [run the server](developer/reference/cli.md#reference-cmdline-server) would be to add all command line arguments to a `.sh` script.
 
-| Folder                                                                                                                   | Description                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [`--addons-path`](../../reference/cli.md#cmdoption-odoo-bin-addons-path)                                                 | Comma-separated list of directories in which modules are stored. These directories are<br/>scanned for modules.            |
-| [`-d`](../../reference/cli.md#cmdoption-odoo-bin-d)<br/><br/>[`--database`](../../reference/cli.md#cmdoption-odoo-bin-d) | database(s) used when installing or updating modules.                                                                      |
-| [`--db-filter`](../../reference/cli.md#cmdoption-odoo-bin-db-filter)                                                     | Hides databases that do not match the filter.                                                                              |
-| [`-i`](../../reference/cli.md#cmdoption-odoo-bin-i)<br/><br/>[`--init`](../../reference/cli.md#cmdoption-odoo-bin-i)     | Comma-separated list of modules to install before running the server. (requires `-d`)                                      |
-| [`-u`](../../reference/cli.md#cmdoption-odoo-bin-u)<br/><br/>[`--update`](../../reference/cli.md#cmdoption-odoo-bin-u)   | Comma-separated list of modules to update before running the server. (requires `-d`)                                       |
-| [`--without-demo`](../../reference/cli.md#cmdoption-odoo-bin-without-demo)                                               | Disables demo data loading for modules installed comma-separated; use `all` for all modules.<br/>(requires `-d` and `-i`)  |
-| [`--dev`](../../reference/cli.md#cmdoption-odoo-bin-dev)                                                                 | Comma-separated list of features. For development purposes only. [More info](../../reference/cli.md#reference-cmdline-dev) |
+| Folder                                                                                                                           | Description                                                                                                                    |
+|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| [`--addons-path`](developer/reference/cli.md#cmdoption-odoo-bin-addons-path)                                                     | Comma-separated list of directories in which modules are stored. These directories are<br/>scanned for modules.                |
+| [`-d`](developer/reference/cli.md#cmdoption-odoo-bin-d)<br/><br/>[`--database`](developer/reference/cli.md#cmdoption-odoo-bin-d) | database(s) used when installing or updating modules.                                                                          |
+| [`--db-filter`](developer/reference/cli.md#cmdoption-odoo-bin-db-filter)                                                         | Hides databases that do not match the filter.                                                                                  |
+| [`-i`](developer/reference/cli.md#cmdoption-odoo-bin-i)<br/><br/>[`--init`](developer/reference/cli.md#cmdoption-odoo-bin-i)     | Comma-separated list of modules to install before running the server. (requires `-d`)                                          |
+| [`-u`](developer/reference/cli.md#cmdoption-odoo-bin-u)<br/><br/>[`--update`](developer/reference/cli.md#cmdoption-odoo-bin-u)   | Comma-separated list of modules to update before running the server. (requires `-d`)                                           |
+| [`--without-demo`](developer/reference/cli.md#cmdoption-odoo-bin-without-demo)                                                   | Disables demo data loading for modules installed comma-separated; use `all` for all modules.<br/>(requires `-d` and `-i`)      |
+| [`--dev`](developer/reference/cli.md#cmdoption-odoo-bin-dev)                                                                     | Comma-separated list of features. For development purposes only. [More info](developer/reference/cli.md#reference-cmdline-dev) |
 
 <a id="website-themes-setup-getting-started-signin"></a>
 
@@ -234,7 +234,7 @@ After the server has started (the INFO log `odoo.modules.loading: Modules loaded
 
 Type **admin** for the email and **admin** for the password.
 
-![Welcome homepage](setup/welcome-homepage.png)
+![Welcome homepage](../../../.gitbook/assets/welcome-homepage.png)
 
 <a id="website-themes-setup-getting-started-developer-mode"></a>
 
@@ -244,4 +244,4 @@ The developer mode, also known as debug mode, is useful for development as it gi
 additional tools. In the next chapters, it is assumed that you have enabled the developer mode.
 
 #### SEE ALSO
-[Chế độ lập trình viên (chế độ gỡ lỗi)](../../../applications/general/developer_mode.md)
+[Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md)

@@ -8,7 +8,7 @@ candidates can apply, a Published banner appears in the top-right corner of the 
 
 View submitted applications by clicking anywhere on a job position card.
 
-![Main dashboard view of Recruitment app showing all job positions.](new_job/jobs.png)
+![Main dashboard view of Recruitment app showing all job positions.](../../../.gitbook/assets/jobs.png)
 
 ## Create a new job position
 
@@ -27,7 +27,7 @@ them automatically.
 When complete, click the Create button to save the entry, or the Discard
 button to delete it.
 
-![Create a new job position.](new_job/job-title.png)
+![Create a new job position.](../../../.gitbook/assets/job-title.png)
 
 Once the job position has been created, it appears as a card in the Kanban view on the main
 *Recruitment* app dashboard.
@@ -40,7 +40,7 @@ After the job position is created, it's time to enter the details for the positi
 ⋮ (three dots) icon in the upper-right corner of the relevant card to reveal several
 options, and then click Configuration to edit the details.
 
-![Edit the job position card.](new_job/edit-job.png)
+![Edit the job position card.](../../../.gitbook/assets/edit-job.png)
 
 All the basic information about the job position is listed under the Recruitment tab.
 
@@ -88,7 +88,7 @@ this tab.
 
 Finally, enter the job description in the Job Summary tab.
 
-![Enter job information details in the recruitment tab.](new_job/recruitment-tab.png)
+![Enter job information details in the recruitment tab.](../../../.gitbook/assets/recruitment-tab.png)
 
 <a id="recruitment-interview"></a>
 
@@ -105,7 +105,7 @@ enabled.
 
 Vì không có biểu mẫu cấu hình sẵn nào trong Odoo, nên tất cả biểu mẫu phỏng vấn phải được tạo. Để tạo biểu mẫu phỏng vấn, hãy bắt đầu từ tab Tuyển dụng của biểu mẫu Chức vụ. Trong trường Biểu mẫu phỏng vấn, nhập tên cho biểu mẫu phỏng vấn mới. Khi nhập tên, một số tùy chọn sẽ xuất hiện dưới mục nhập: Tạo (tên biểu mẫu phỏng vấn), Tìm kiếm thêm... và Tạo và chỉnh sửa.... Nhấp vào Tạo và chỉnh sửa... và hộp thoại Tạo biểu mẫu phỏng vấn sẽ xuất hiện.
 
-![The blank interview form modal.](new_job/blank-interview-form.png)
+![The blank interview form modal.](../../../.gitbook/assets/blank-interview-form.png)
 
 #### NOTE
 The option Search More... only appears if there are any interview forms already
@@ -113,5 +113,5 @@ created. If no interview forms exist, the only options available are Create (int
 form name), and Create and edit....
 
 Proceed to fill out the modal interview form as a typical survey. For specific directions on how to
-create a survey, refer to the [survey essentials](../../marketing/surveys/create.md) document,
+create a survey, refer to the [survey essentials](applications/marketing/surveys/create.md) document,
 which provides step-by-step instructions on how to create and configure a survey.

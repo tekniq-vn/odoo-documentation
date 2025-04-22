@@ -1,6 +1,6 @@
 # Cluster picking
 
-Cluster picking is an advanced order fulfillment approach derived from [batch picking](batch.md#inventory-misc-batch-picking).
+Cluster picking is an advanced order fulfillment approach derived from [batch picking](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.md#inventory-misc-batch-picking).
 
 In this strategy, pickers load a cart with multiple packages, each designated for a specific *sales
 order* (SO). Then, the picker travels to each storage location, and places the products directly in
@@ -22,7 +22,7 @@ To enable cluster picking, begin by navigating to Inventory app ‣ Configuratio
 ‣ Settings. Under the Operations heading, activate the Packages and
 Batch Transfers options.
 
-![Activate *Packages* and *Batch Transfers* features in the settings.](cluster/configs.png)
+![Activate *Packages* and *Batch Transfers* features in the settings.](../../../../../.gitbook/assets/configs.png)
 
 Since batch picking is used to optimize the *pick* operation in Odoo, the Storage
 Locations and Multi-Step Routes options, under the Warehouse heading, must
@@ -33,7 +33,7 @@ also be checked on this settings page.
 
 When finished, click Save.
 
-![Enable *Storage Locations* and *Multi-Step Routes* Inventory > Configuration > Settings.](cluster/locations-routes-checkbox.png)
+![Enable *Storage Locations* and *Multi-Step Routes* Inventory > Configuration > Settings.](../../../../../.gitbook/assets/locations-routes-checkbox1.png)
 
 <a id="inventory-misc-create-package"></a>
 
@@ -49,7 +49,7 @@ form.
 Set the Package Use field to Reusable Box.
 
 #### SEE ALSO
-[Kiện hàng](../../product_management/configure/package.md)
+[Kiện hàng](applications/inventory_and_mrp/inventory/product_management/configure/package.md)
 
 ## Create cluster batch
 
@@ -69,9 +69,9 @@ indicating that all the products in the  are in stock.
 Cluster pick batches can be created for outgoing shipments in one, two, or three steps.
 
 #### SEE ALSO
-- [Delivery in one step](../daily_operations/receipts_delivery_one_step.md)
-- [Delivery in two steps](../daily_operations/receipts_delivery_two_steps.md)
-- [Delivery in three steps](../daily_operations/delivery_three_steps.md)
+- [Delivery in one step](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md)
+- [Delivery in two steps](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md)
+- [Delivery in three steps](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md)
 
 Click the checkbox to the left of the corresponding outgoing operation to add them to the batch.
 With the desired pickings selected, click the ⚙️ Actions (gear) button, and select the
@@ -88,7 +88,7 @@ checkbox.
 
 Conclude the process by clicking Confirm.
 
-![Show *Add to batch* window to create a batch transfer.](cluster/add-to-batch-window.png)
+![Show *Add to batch* window to create a batch transfer.](../../../../../.gitbook/assets/add-to-batch-window1.png)
 
 ## Process batches
 
@@ -129,4 +129,4 @@ package form, and select the Print option.
 Next, select one of the three print options to generate the package barcode from the
 Package Reference field.
 
-![Display where the package barcode can be generated.](cluster/find-package-barcode.png)
+![Display where the package barcode can be generated.](../../../../../.gitbook/assets/find-package-barcode.png)

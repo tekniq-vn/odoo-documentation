@@ -4,7 +4,7 @@ The *First Expired, First Out* (FEFO) removal strategy targets products for remo
 assigned removal dates.
 
 #### SEE ALSO
-[About removal strategies](../removal_strategies.md)
+[About removal strategies](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md)
 
 <a id="inventory-warehouses-storage-removal-date"></a>
 
@@ -32,7 +32,7 @@ The removal date takes this expiration date, and subtracts the number of days sp
 Removal Date field of the product form.
 
 #### SEE ALSO
-[Ngày hết hạn](../../product_management/product_tracking/expiration_dates.md)
+[Ngày hết hạn](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md)
 
 <a id="inventory-warehouses-storage-exp-date"></a>
 
@@ -43,7 +43,7 @@ Next, click the additional options icon, located on the far-right, and select th
 Expiration Date and Removal Date.
 
 ![Show expiration dates from the inventory adjustments model accessed from the *On Hand*
-smart button from the product form.](fefo/removal-date.png)
+smart button from the product form.](../../../../../.gitbook/assets/removal-date.png)
 
 ## Quy trình
 
@@ -57,8 +57,8 @@ The product is tracked By Lots, and the product category's Force Removal
 Strategy is set to First Expired, First Out (FEFO).
 
 #### SEE ALSO
-- [Set up force removal strategy](../removal_strategies.md#inventory-warehouses-storage-removal-config)
-- [Enable lots tracking](../removal_strategies.md#inventory-warehouses-storage-lots-setup)
+- [Set up force removal strategy](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-removal-config)
+- [Enable lots tracking](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-lots-setup)
 - [Odoo Tutorials: Perishable Products](https://www.odoo.com/slides/slide/5324/share)
 
 |                                                        | LOT1      | LOT2      | LOT3      |
@@ -85,4 +85,4 @@ Since the order demanded six Cartons of eggs, using the
 removal strategy, all five Cartons from `LOT1`, with the removal date of February 26th, are picked.
 The remaining Carton is selected from `LOT2`, which has a removal date of March 4th.
 
-![The stock moves window that shows the lots to be removed using FEFO.](fefo/eggs-picking.png)
+![The stock moves window that shows the lots to be removed using FEFO.](../../../../../.gitbook/assets/eggs-picking.png)

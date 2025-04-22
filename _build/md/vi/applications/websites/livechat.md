@@ -16,7 +16,7 @@ The **Live Chat** application can be installed multiple ways:
 - In the Website app, go to Configuration ‣ Settings, scroll to
   the Email & Marketing section, check the box next to Livechat, and click
   Save.
-  ![View of the settings page and the live chat feature for Odoo Live Chat.](livechat/enable-setting.png)
+  ![View of the settings page and the live chat feature for Odoo Live Chat.](../../.gitbook/assets/enable-setting.png)
 
 #### NOTE
 After the **Live Chat** application is installed, a live chat *Channel* is created, by default.
@@ -27,7 +27,7 @@ To create a new live chat *Channel*, go to Main Odoo Dashboard ‣ Live Chat app
 New. This opens a blank channel detail form. Enter the name of the new channel in the
 Channel Name field.
 
-![View of a live chat channel form for Odoo Live Chat.](livechat/open-channel.png)
+![View of a live chat channel form for Odoo Live Chat.](../../.gitbook/assets/open-channel.png)
 
 To configure the remaining tabs on the channel detail form ([Operators](#livechat-operators-tab), [Options](#livechat-options-tab), [Channel Rules](#livechat-channel-rules-tab), and [Widget](#livechat-widget-tab)), follow the steps below.
 
@@ -39,7 +39,7 @@ To configure the remaining tabs on the channel detail form ([Operators](#livecha
 user is added as an operator in a live chat channel, they can receive chats from website visitors
 wherever they are in the database. Chat windows open in the bottom-right corner of the screen.
 
-![View of a live chat pop up window in an Odoo database.](livechat/pop-up.png)
+![View of a live chat pop up window in an Odoo database.](../../.gitbook/assets/pop-up1.png)
 
 On the channel detail form, click the Operators tab. The user who originally created the
 live chat channel has been added as an operator by default.
@@ -72,7 +72,7 @@ settings for the live chat window.
 
 The *Livechat Button* is the icon that appears in the bottom-right corner of the website.
 
-![View of an Odoo website emphasizing the livechat button.](livechat/chat-button.png)
+![View of an Odoo website emphasizing the livechat button.](../../.gitbook/assets/chat-button.png)
 
 Change the text in the Notification text field to update the greeting displayed in the
 text bubble when the live chat button appears on the website.
@@ -94,7 +94,7 @@ type their replies. This message prompts the visitor to initiate the chat.
 The *Channel Header* is the colored bar at the top of the chat window. The Channel Header
 Color can be changed following the same steps as the [Livechat button](#livechat-livechat-button).
 
-![image](livechat/chat-window.png)
+![image](../../.gitbook/assets/chat-window.png)
 
 <a id="livechat-channel-rules-tab"></a>
 
@@ -106,7 +106,7 @@ Rules tab on the live chat channel detail form.
 To create a new channel rule, click Add a line. This opens the Create Rules
 pop-up window.
 
-![View of a channel's rules form for Odoo Live Chat.](livechat/create-rules.png)
+![View of a channel's rules form for Odoo Live Chat.](../../.gitbook/assets/create-rules.png)
 
 #### Create new rules
 
@@ -128,7 +128,7 @@ Select from one of the following display options:
 
 Chatbot
 
-To include a [Chatbot](livechat/chatbots.md) on this channel, select it from the drop-down
+To include a [Chatbot](applications/websites/livechat/chatbots.md) on this channel, select it from the drop-down
 menu. If the chatbot should only be active when no operators are active, check the box labeled
 Enabled only if no operator.
 
@@ -162,7 +162,7 @@ site visitors, regardless of location.
 #### NOTE
 In order to track the geographical location of visitors, *GeoIP* **must** be installed on the
 database. While this feature is installed by default on *Odoo Online* databases, *On-Premise*
-databases require additional [setup steps](../../administration/on_premise/geo_ip.md).
+databases require additional [setup steps](administration/on_premise/geo_ip.md).
 
 <a id="livechat-widget-tab"></a>
 
@@ -178,17 +178,17 @@ Likewise, to send a live chat session to a customer, click the second COPY butto
 Widget tab. This link can be sent directly to a customer. When they click the link, they
 are redirected to a new chat window.
 
-![View of the widget tab for Odoo Live Chat.](livechat/widget-code.png)
+![View of the widget tab for Odoo Live Chat.](../../.gitbook/assets/widget-code.png)
 
 #### SEE ALSO
-- [Thảo luận](../productivity/discuss.md)
-- [Commands and canned responses](livechat/responses.md)
-- [Đánh giá](livechat/ratings.md)
-- [Chatbot](livechat/chatbots.md)
-- [Participate in live chat](livechat/participate.md)
+- [Thảo luận](applications/productivity/discuss.md)
+- [Commands and canned responses](applications/websites/livechat/responses.md)
+- [Đánh giá](applications/websites/livechat/ratings.md)
+- [Chatbot](applications/websites/livechat/chatbots.md)
+- [Participate in live chat](applications/websites/livechat/participate.md)
 
-* [Đánh giá](livechat/ratings.md)
-* [Commands and canned responses](livechat/responses.md)
-* [Chatbot](livechat/chatbots.md)
-* [Báo cáo](livechat/reports.md)
-* [Participate in live chat](livechat/participate.md)
+* [Đánh giá](applications/websites/livechat/ratings.md)
+* [Commands and canned responses](applications/websites/livechat/responses.md)
+* [Chatbot](applications/websites/livechat/chatbots.md)
+* [Báo cáo](applications/websites/livechat/reports.md)
+* [Participate in live chat](applications/websites/livechat/participate.md)

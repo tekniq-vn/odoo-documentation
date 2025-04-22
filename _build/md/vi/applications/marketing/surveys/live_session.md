@@ -14,7 +14,7 @@ Then, the audience of participants submit their answer, either via their compute
 and once the responses have been gathered, the host reveals all the participant's responses, in real
 time, with each answer's results displayed as a bar graph.
 
-![Rendered concept of how a Live Session question and answer result appears in Odoo Surveys.](live_session/live-session-concept-sample.png)
+![Rendered concept of how a Live Session question and answer result appears in Odoo Surveys.](../../../.gitbook/assets/live-session-concept-sample.png)
 
 ## Create Live Session survey
 
@@ -33,7 +33,7 @@ option is selected.
 If the Is a Certification option is enabled in the Options tab, the
 survey **cannot** be used as a *Live Session* survey.
 
-With the desired survey radio button option selected, proceed to [create a survey](create.md) with [questions and sections](questions.md).
+With the desired survey radio button option selected, proceed to [create a survey](applications/marketing/surveys/create.md) with [questions and sections](applications/marketing/surveys/questions.md).
 
 While creating questions for the *Live Session* survey, open the Options tab on the
 Create Sections and Questions pop-up form, in order to reveal the Live
@@ -43,7 +43,7 @@ When the Question Time Limit option is enabled, a new field appears beside it, w
 the user **must** enter the desired amount of time (in seconds) the participant gets to answer the
 question.
 
-![The Live Session question time limit option for questions in the Odoo Surveys application.](live_session/question-time-limit-option.png)
+![The Live Session question time limit option for questions in the Odoo Surveys application.](../../../.gitbook/assets/question-time-limit-option.png)
 
 ### Options tab
 
@@ -177,6 +177,6 @@ Next button to move on to the next portion of the survey.
 Repeat this process until the survey is complete.
 
 #### SEE ALSO
-- [Create surveys](create.md)
-- [Create questions](questions.md)
-- [Scoring surveys](scoring.md)
+- [Create surveys](applications/marketing/surveys/create.md)
+- [Create questions](applications/marketing/surveys/questions.md)
+- [Scoring surveys](applications/marketing/surveys/scoring.md)

@@ -20,7 +20,7 @@ Save to implement the changes.
 In addition to creating blanket orders, the *Purchase Agreements* setting also allows users to
 create alternative requests for quotation (RfQs).
 
-![Purchase Agreements enabled in the Purchase app settings.](blanket_orders/blanket-orders-enabled-setting.png)
+![Purchase Agreements enabled in the Purchase app settings.](../../../../.gitbook/assets/blanket-orders-enabled-setting.png)
 
 To create a blanket order, go to Purchase app ‣ Orders ‣ Blanket Orders, and
 click New. This opens a new blanket order form.
@@ -53,7 +53,7 @@ the recurring long-term agreement:
   multi-company database, this field **cannot** be changed, and defaults to the only company listed
   in the database.
 
-![New blanket order purchase agreement with added products.](blanket_orders/blanket-orders-new-agreement.png)
+![New blanket order purchase agreement with added products.](../../../../.gitbook/assets/blanket-orders-new-agreement.png)
 
 Once all relevant fields have been filled out, click Add a line to add products under
 the Product column. Then, in the Quantity column, change the quantity of
@@ -70,7 +70,7 @@ blanket order form, click the ➡️ (right arrow) icon that becomes visible whe
 over the Agreement Type field, where Blanket Order is listed. This navigates
 to the blanket order settings.
 
-![Internal link arrow next to Agreement Type field on blanket order form.](blanket_orders/blanket-orders-internal-link-arrow.png)
+![Internal link arrow next to Agreement Type field on blanket order form.](../../../../.gitbook/assets/blanket-orders-internal-link-arrow.png)
 
 From here, the settings for blanket orders can be edited. Under the Agreement Type
 section, the name of the Agreement Type can be changed, and the Agreement
@@ -86,7 +86,7 @@ Under the Data For New Quotations section, the Lines and
 Quantities fields can be edited. Doing so sets how new quotations should be populated
 when using this purchase agreement.
 
-![Purchase Agreement type edit screen for blanket orders.](blanket_orders/blanket-orders-edit-agreement-type.png)
+![Purchase Agreement type edit screen for blanket orders.](../../../../.gitbook/assets/blanket-orders-edit-agreement-type.png)
 
 There are two options that can be activated for Lines:
 
@@ -128,22 +128,22 @@ From the new  form, click Send by Email to compose and send an email to the list
 vendor. Click Print RFQ to generate a printable PDF of the quotation; or, once ready,
 click Confirm Order to confirm the .
 
-![New quotation with copied products and rules from blanket order.](blanket_orders/blanket-orders-new-quotation.png)
+![New quotation with copied products and rules from blanket order.](../../../../.gitbook/assets/blanket-orders-new-quotation.png)
 
 Sau khi  đã được xác nhận, nhấp quay trở lại mẫu đơn hàng bao phủ (thông qua thanh breadcrumbs ở đầu trang). Từ biểu mẫu hợp đồng khung, giờ đây sẽ có một  được liệt kê trong nút thông minh RFQ/Đơn hàng ở góc trên bên phải của biểu mẫu. Nhấp vào nút thông minh RFQ/Đơn hàng để xem  vừa được tạo.
 
-![RFQs and Orders smart button from blanket order form.](blanket_orders/blanket-orders-rfq-smart-button.png)
+![RFQs and Orders smart button from blanket order form.](../../../../.gitbook/assets/blanket-orders-rfq-smart-button.png)
 
 ## Bổ sung hàng
 
 Once a blanket order is confirmed, a new vendor line is added under the Purchase tab of
 the products included in the order.
 
-This makes blanket orders useful with [automated replenishment](../products/reordering.md), because information about the Vendor,
+This makes blanket orders useful with [automated replenishment](applications/inventory_and_mrp/purchase/products/reordering.md), because information about the Vendor,
 Price, and the Agreement are referenced on the vendor line. This information
 dictates when, where, and at what price the product should be replenished.
 
-![Product form with replenishment agreement linked to blanket order.](blanket_orders/blanket-orders-product-form.png)
+![Product form with replenishment agreement linked to blanket order.](../../../../.gitbook/assets/blanket-orders-product-form.png)
 
 #### SEE ALSO
-[Call for tenders](calls_for_tenders.md)
+[Call for tenders](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders.md)

@@ -8,7 +8,7 @@ only **one** method to monitor accidents and repair costs.
 
 ## Cấu trúc lương
 
-For this example, to track accidents, two [service types](service.md#fleet-new-type) are created:
+For this example, to track accidents, two [service types](applications/hr/fleet/service.md#fleet-new-type) are created:
 `Accident - Driver's Fault` and `Accident - No Fault`.
 
 This tracks various repairs associated with accidents, organized by who was at fault.
@@ -23,13 +23,13 @@ driver, or cost.
 #### NOTE
 To manage accidents, the creation of service records is **required**.
 
-Refer to the [Dịch vụ](service.md) documentation for detailed instructions on creating service records
+Refer to the [Dịch vụ](applications/hr/fleet/service.md) documentation for detailed instructions on creating service records
 in Odoo's *Fleet* app.
 
 ## Log accidents and repairs
 
 To log an accident, and initiate the repair process, the first step is to [create a service
-record](service.md#fleet-service-form) detailing the specific repairs needed.
+record](applications/hr/fleet/service.md#fleet-service-form) detailing the specific repairs needed.
 
 #### NOTE
 Some accidents require multiple repairs with several different vendors. For these scenarios, a
@@ -58,7 +58,7 @@ Nhập thông tin sau đây trên biểu mẫu:
 - Vendor: select the vendor performing the repairs using the drop-down menu. If the
   vendor has not already been entered in the system, type in the vendor name, and click either
   Create to add them, or Create and edit... to [add and configure the
-  vendor](service.md#fleet-new-vendor).
+  vendor](applications/hr/fleet/service.md#fleet-new-vendor).
 - Vehicle: select the vehicle that was in the accident from the drop-down menu. When the
   vehicle is selected, the Driver field is populated, and the unit of measure for the
   Odometer Value field appears.
@@ -80,7 +80,7 @@ the desired record, and click Open to upload the file.
 > Once a file is added to a service record, a Files section appears in the *chatter*.
 > To attach more records, click <i class="fa fa-plus-square"></i> Attach files to add more
 > documents.
-![Enter the information for an accident repair.](accidents/service-form.png)
+![Enter the information for an accident repair.](../../../.gitbook/assets/service-form.png)
 
 ## Service stages
 
@@ -117,7 +117,7 @@ Open the main *Services* dashboard, by navigating to Fleet app ‣ Fleet ‣
 Services. Next, click on the individual service record to open the detailed service form. Click the
 desired stage in the top-right corner, above the service form, to change the status.
 
-![The stages as seen from the service form.](accidents/running.png)
+![The stages as seen from the service form.](../../../.gitbook/assets/running.png)
 
 <a id="fleet-kanban"></a>
 
@@ -132,7 +132,7 @@ services appear in a Kanban view, organized by their respective Status.
 
 Drag-and-drop the service record to the desired stage.
 
-![The Kanban view of stages, with a card being dragged and dropped to the Running stage.](accidents/drag-n-drop.png)
+![The Kanban view of stages, with a card being dragged and dropped to the Running stage.](../../../.gitbook/assets/drag-n-drop.png)
 
 ## Accident reporting
 
@@ -175,7 +175,7 @@ the right of the search bar, revealing a drop-down menu. Click Vehicle in the
 
 Thông tin này hiển thị chi phí thực tế cho từng xe, bao gồm cả chi phí hợp đồng (chẳng hạn như chi phí thuê xe hàng tháng) và tất cả chi phí dịch vụ, bao gồm cả các tai nạn. Di chuột qua một cột để hiển thị cửa sổ dữ liệu hiện lên, cho thấy tên phương tiện và tổng chi phí. Từ đó, bạn sẽ có được cái nhìn đầy đủ hơn về chi phí của xe.
 
-![The Cost Analysis report, displaying total costs by vehicle.](accidents/total-costs.png)
+![The Cost Analysis report, displaying total costs by vehicle.](../../../.gitbook/assets/total-costs.png)
 
 To view the individual cost details for both contract costs and repairs, click the
 <i class="oi oi-view-pivot"></i> (Pivot) icon in the top-right corner of the Cost
@@ -183,7 +183,7 @@ Analysis dashboard. This displays each vehicle on a separate line, and displays 
 Contract cost and Service cost, as well as the Total cost.
 
 ![The Cost Analysis report, displaying the contract and service costs separately, as well as
-the total.](accidents/fleet-pivot.png)
+the total.](../../../.gitbook/assets/fleet-pivot.png)
 
 #### NOTE
 The <i class="oi oi-view-pivot"></i> (Pivot) view organizes the data by vehicle, by default,
@@ -218,7 +218,7 @@ the other fields as-is.
 
 Click the Add button at the bottom to add the new custom filter.
 
-![The filter settings to be added to only display new and running services.](accidents/custom-filters.png)
+![The filter settings to be added to only display new and running services.](../../../.gitbook/assets/custom-filters.png)
 
 This slight modification only presents services in the New and Running
 stages. This is a helpful report for a company managing a high number of repairs at any given time.

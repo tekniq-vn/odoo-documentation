@@ -40,7 +40,7 @@ error after scanning. This could be due to any of the following reasons:
   For example, if the computer is configured to use an FR-BE keyboard, configure the scanner to send
   FR-BE keystrokes. The same logic applies if using a tablet instead of a computer.
 
-  For more information on configuring keystrokes, refer to the [Barcode scanner setup](hardware.md) documentation.
+  For more information on configuring keystrokes, refer to the [Barcode scanner setup](applications/inventory_and_mrp/barcode/setup/hardware.md) documentation.
 - For mobile computer scanners (such as Zebra devices, for example), the scanner might interpret the
   barcode differently than intended. To rule this out, scan a test barcode to see how the scanner
   interprets the barcode.
@@ -81,7 +81,7 @@ settings.
 Once the profile is selected, scroll down to the Keyboard Output option, and ensure the
 Enable/disable keystroke output option is Enabled.
 
-![Show keystroke option in the Zebra scanner's DataWedge app.](device_troubleshooting/device-troubleshooting-zebra-settings.png)
+![Show keystroke option in the Zebra scanner's DataWedge app.](../../../../.gitbook/assets/device-troubleshooting-zebra-settings.png)
 
 Once that option is enabled, go back to the Profile options page, and go to the
 Keystroke output section. Then, open the Key event options submenu. Under
@@ -101,7 +101,7 @@ When using MUNBYN Android scanners, ensure the following configurations are set 
 From the device's home screen, click AppSettings. On the resulting page, locate the
 Process mode section, and select Keyboard input.
 
-![Process mode section on MUNBYN scanner's AppSettings page.](device_troubleshooting/device-troubleshooting-munbyn-process-mode.png)
+![Process mode section on MUNBYN scanner's AppSettings page.](../../../../.gitbook/assets/device-troubleshooting-munbyn-process-mode.png)
 
 Once the above steps have been taken, perform a test scan to ensure the MUNBYN Android scanner is
 working as intended.
@@ -122,13 +122,13 @@ activated.
 Then, also under the Keyboard wedge section, locate the Keyboard wedge input
 mode option. By default, the input mode is set to Text injection.
 
-![Wedge configuration menu on Datalogic scanner.](device_troubleshooting/device-troubleshooting-wedge-menu.png)
+![Wedge configuration menu on Datalogic scanner.](../../../../.gitbook/assets/device-troubleshooting-wedge-menu.png)
 
 Click Keyboard wedge input mode, and change the setting to Key pressure.
 This ensures that scanned barcodes are translated into keyboard strokes, instead of being injected
 into the text area.
 
-![Keyboard wedge input mode selection on Datalogic scanner.](device_troubleshooting/device-troubleshooting-keyboard-wedge-input.png)
+![Keyboard wedge input mode selection on Datalogic scanner.](../../../../.gitbook/assets/device-troubleshooting-keyboard-wedge-input.png)
 
 Once all those steps have been taken, perform a test scan to ensure the Datalogic Android scanner is
 working as intended.
@@ -150,11 +150,11 @@ do so), refer to Odoo's [Inventory & Barcode compatible hardware](https://www.od
 By default, the NETUM barcode scanner's user manual only shows the French keyboard configuration. To
 use the Belgian keyboard, scan the code below:
 
-![Belgian FR key barcode.](device_troubleshooting/device-troubleshooting-belgium-fr-key.png)
+![Belgian FR key barcode.](../../../../.gitbook/assets/device-troubleshooting-belgium-fr-key.png)
 
 Once that code has been scanned, ensure the NETUM scanner has the correct keyboard configuration,
 and is working as intended.
 
 #### SEE ALSO
-- [Thiết lập máy quét mã vạch](hardware.md)
-- [Activate the Barcodes in Odoo](software.md)
+- [Thiết lập máy quét mã vạch](applications/inventory_and_mrp/barcode/setup/hardware.md)
+- [Activate the Barcodes in Odoo](applications/inventory_and_mrp/barcode/setup/software.md)

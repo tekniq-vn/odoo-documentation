@@ -8,7 +8,7 @@ To make a new department, navigate to Employees app ‣ Departments, then click
 New in the top-left to reveal a blank department form. Fill out the following
 information on the department form:
 
-![The department for with all fields filled out.](departments/department-form.png)
+![The department for with all fields filled out.](../../../.gitbook/assets/department-form.png)
 - Department Name: enter a name for the department.
 - Manager: using the drop-down menu, select the department manager.
 - Parent Department: if the new department is housed within another department (has a
@@ -38,7 +38,7 @@ Department Organization chart is visible upon opening the department card from t
 Departments dashboard.
 
 #### SEE ALSO
-Refer to the [Đánh giá](../appraisals.md) documentation for more information.
+Refer to the [Đánh giá](applications/hr/appraisals.md) documentation for more information.
 
 ## Departments dashboard
 
@@ -46,7 +46,7 @@ To view the currently configured departments, navigate to Employees app ‣
 Departments. All departments appear in a Kanban view, by default, and are listed in alphabetical
 order.
 
-![The departments dashboard view with all the department cards in a Kanban view.](departments/departments.png)
+![The departments dashboard view with all the department cards in a Kanban view.](../../../.gitbook/assets/departments.png)
 
 ### Chế độ xem kanban
 
@@ -58,15 +58,15 @@ Each department has its own Kanban card on the main Departments <i class="oi oi-
 - Employees: the number of employees within the department.
 - Appraisals: the number of appraisals scheduled for employees in the department.
 - Time Off Requests: the number of unapproved time off requests for employees in the
-  department [awaiting approval](../time_off/management.md#time-off-manage-time-off) . This **only** appears if there
+  department [awaiting approval](applications/hr/time_off/management.md#time-off-manage-time-off) . This **only** appears if there
   are requests to approve.
 - Allocation Requests: the number of unapproved allocation requests for employees in the
-  department [awaiting approval](../time_off/management.md#time-off-manage-allocations). This **only** appears if there
+  department [awaiting approval](applications/hr/time_off/management.md#time-off-manage-allocations). This **only** appears if there
   are requests to approve.
-- New Applicants: the number of [new applicants](../recruitment/recruitment-flow.md#recruitment-new) for a position
+- New Applicants: the number of [new applicants](applications/hr/recruitment/recruitment-flow.md#recruitment-new) for a position
   in this department. This **only** appears if there are new applicants.
 - Expense Reports: the number of employees in the department with [open expense
-  reports to approve](../../finance/expenses/approve_expenses.md). This **only** appears if there are
+  reports to approve](applications/finance/expenses/approve_expenses.md). This **only** appears if there are
   any expense reports waiting for approval.
 - Absence: the number of absences for the current day.
 - Color bar: the selected color for the department appears as a vertical bar on the left side of the
@@ -89,7 +89,7 @@ Parent Department, and Color for each department.
 
 The departments are sorted alphabetically by Department Name, by default.
 
-![The departments presented in a list view.](departments/list.png)
+![The departments presented in a list view.](../../../.gitbook/assets/list1.png)
 
 ### Hierarchy view
 

@@ -2,12 +2,12 @@
 
 *Danh pháp mã vạch* xác định cách mã vạch được nhận diện và phân loại. Khi một mã vạch được quét, nó sẽ được liên kết với quy tắc đầu tiên có mẫu phù hợp. Cú pháp mẫu được mô tả trong danh sách danh pháp của Odoo bằng biểu thức chính quy, và một mã vạch được Odoo đọc thành công nếu tiền tố và/hoặc độ dài của nó khớp với quy định trong quy tắc mã vạch.
 
-Ví dụ, tại một trạm [Điểm bán hàng](../../../sales/point_of_sale.md), mã vạch khối lượng sản phẩm theo định dạng European Article Number (EAN), bắt đầu bằng `21` và có năm chữ số chỉ khối lượng, được sử dụng để cân sản phẩm và tạo mã vạch hiện thị khối lượng và giá cả. `21` và năm chữ số khối lượng là mẫu mã vạch được sử dụng để xác định mã vạch và có thể tùy chỉnh để đảm bảo Odoo diễn giải chính xác tất cả mã vạch cho doanh nghiệp.
+Ví dụ, tại một trạm [Điểm bán hàng](applications/sales/point_of_sale.md), mã vạch khối lượng sản phẩm theo định dạng European Article Number (EAN), bắt đầu bằng `21` và có năm chữ số chỉ khối lượng, được sử dụng để cân sản phẩm và tạo mã vạch hiện thị khối lượng và giá cả. `21` và năm chữ số khối lượng là mẫu mã vạch được sử dụng để xác định mã vạch và có thể tùy chỉnh để đảm bảo Odoo diễn giải chính xác tất cả mã vạch cho doanh nghiệp.
 
 #### NOTE
 Barcodes are also commonly used with Odoo's **Inventory** and **Barcode** apps.
 
-Odoo **Barcode** supports , Universal Product Code (UPC), and [GS1](gs1_nomenclature.md)
+Odoo **Barcode** supports , Universal Product Code (UPC), and [GS1](applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.md)
 formats. This document exclusively focuses on [default rules and patterns in Odoo](#barcode-operations-default-nomenclature-list), which use  and  encoding.
 
 #### IMPORTANT
@@ -28,7 +28,7 @@ Doing so installs the **Barcode** app in the database.
 Next, in the Barcode Nomenclature field, ensure Default Nomenclature is
 selected. Then, click Save.
 
-![Enabled barcode setting with Default Nomenclature selected.](barcode_nomenclature/enable-nomenclature.png)
+![Enabled barcode setting with Default Nomenclature selected.](../../../../.gitbook/assets/enable-nomenclature.png)
 
 With the **Barcode** module installed, and the Default Nomenclature selected, the
 barcode actions using  and , detailed in the [default nomenclature list](#barcode-operations-default-nomenclature-list), are available for use. And, by default, Odoo
@@ -39,7 +39,7 @@ automatically handles / conversion.
 ## Example: product weight barcode
 
 To better understand how barcode nomenclature is used to identify products in Odoo, this example
-where product weight barcodes in  format are used to allow a [Point of Sale](../../../sales/point_of_sale.md) business to automatically print barcodes, and calculate the price
+where product weight barcodes in  format are used to allow a [Point of Sale](applications/sales/point_of_sale.md) business to automatically print barcodes, and calculate the price
 using the weight of the item.
 
 To set up barcodes for weighted products, the following rule is used:
@@ -53,20 +53,20 @@ To configure the product barcode for `Pasta Bolognese`, the  barcode for weighte
 going to Inventory app ‣ Products ‣ Products, and selecting the desired
 product). In addition, the Unit of Measure is set to kg.
 
-![Barcode field on the product form.](barcode_nomenclature/barcode.png)
+![Barcode field on the product form.](../../../../.gitbook/assets/barcode.png)
 
 Next, a customer's bowl of pasta is weighed to be `1.5` kilograms. This generates a new barcode for
 the pasta, according to the weight: `211234501500`, which has a check digit of `2`. The new barcode
 is `2112345015002`.
 
-![Generated barcode that includes a weight of 1.5 kg.](barcode_nomenclature/weighted-barcode.png)
+![Generated barcode that includes a weight of 1.5 kg.](../../../../.gitbook/assets/weighted-barcode.png)
 
 Ensure the products scan properly, by navigating to the Barcode app ‣ Operations.
 Next, click any operation type, such as Receipts. Then, click the New button
 to create a draft stock move. Scan the product weight barcode, such as `2112345015002`, and if the
 intended product appears, the barcode setup is correct.
 
-![Show successfully scanned barcode.](barcode_nomenclature/barcode-scan.png)
+![Show successfully scanned barcode.](../../../../.gitbook/assets/barcode-scan.png)
 
 ## Tạo quy tắc
 
@@ -78,7 +78,7 @@ list, since barcodes cannot be read successfully if there are unknown fields.
 > rules. [Custom development](https://www.odoo.com/appointment/132) is required for this
 > functionality.
 
-To create a rule, first enable [developer mode](../../../general/developer_mode.md#developer-mode). Then, navigate to
+To create a rule, first enable [developer mode](applications/general/developer_mode.md#developer-mode). Then, navigate to
 Inventory app ‣ Configuration ‣ Barcode Nomenclatures, and select
 Default Nomenclature.
 
@@ -90,7 +90,7 @@ On this page, configure the following optional fields:
 - Is GS1 Nomenclature: ensure this checkbox is **not** ticked, as the
   Default Nomenclature uses  and  encoding, *not* GS1 encoding.
 
-![Default Nomenclature page setting fields.](barcode_nomenclature/rule-config.png)
+![Default Nomenclature page setting fields.](../../../../.gitbook/assets/rule-config.png)
 
 On the Default Nomenclature page, click Add a line at the bottom of the
 table, which opens a Create Rules pop-up window to create a new rule.
@@ -143,4 +143,4 @@ When the Barcode Pattern contains `.*`, it means it can contain any number or ty
 characters.
 
 #### SEE ALSO
-[GS1 barcode nomenclature](gs1_nomenclature.md)
+[GS1 barcode nomenclature](applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.md)

@@ -13,7 +13,7 @@ the same workflow.
 
 Odoo Project doesn’t provide default stages but instead allows you to create custom stages tailored
 to your specific business needs. You are prompted to do so immediately after [creating a new
-project](../project_management.md#project-management-configuration).
+project](applications/services/project/project_management.md#project-management-configuration).
 
 To create a stage, type its name into the Stage... field, then click Add.
 
@@ -30,7 +30,7 @@ there, click one of the following:
 >   - Folded in Kanban: to hide the task stage and all of the tasks in this stage from
 >     the Kanban view.
 >   - Projects: to share this task stage between several projects.
->   - Automations: to create [custom rules that trigger automatic actions](../../../studio/automated_actions.md) (e.g., creating activities, adding followers, or sending
+>   - Automations: to create [custom rules that trigger automatic actions](applications/studio/automated_actions.md) (e.g., creating activities, adding followers, or sending
 >     webhook notifications). Note that this will activate Studio in your database, which may impact
 >     your pricing plan.
 > - Delete: to delete this stage.

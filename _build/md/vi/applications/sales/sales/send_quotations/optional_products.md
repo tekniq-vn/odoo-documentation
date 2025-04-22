@@ -13,7 +13,7 @@ products enhances the customer experience.
 With the Odoo *Sales* application, it is possible to add or modify optional products directly on
 quotations by navigating to the Optional Products tab on a quotation form.
 
-![How to add optional products to your quotations on Odoo Sales.](optional_products/optional-products-tab.png)
+![How to add optional products to your quotations on Odoo Sales.](../../../../.gitbook/assets/optional-products-tab.png)
 
 To add an optional product(s) to a quotation, click Add a product in the
 Optional Products tab of a quotation. Doing so reveals a blank field in the
@@ -33,7 +33,7 @@ Click the Preview button, located in the upper-left corner of the quotation, to 
 preview of the quotation customers would receive, via email, along with the optional products they
 can potentially add to their order, located in the Options section.
 
-![Preview your quotations on Odoo Sales.](optional_products/optional-products-checkout.png)
+![Preview your quotations on Odoo Sales.](../../../../.gitbook/assets/optional-products-checkout.png)
 
 Customers are able to add different optional products to an order by clicking the 🛒
 (shopping cart) icon, located to the right of the optional product line.
@@ -49,7 +49,7 @@ application.
 ## Optional products on quotation templates
 
 #### NOTE
-Be sure to review the [Mẫu báo giá](quote_template.md) documentation to better understand how quotation
+Be sure to review the [Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md) documentation to better understand how quotation
 templates work before reading the following information.
 
 For quotation templates, just like a typical quotation form, there is also an Optional
@@ -63,7 +63,7 @@ On the quotation template form, click the Optional Products tab. Under the
 Optional Products tab, click Add a line, and select the desired product to
 add as an optional product to the quotation template.
 
-![Preview your quotations on Odoo Sales.](optional_products/optional-products-tab-quotation-template.png)
+![Preview your quotations on Odoo Sales.](../../../../.gitbook/assets/optional-products-tab-quotation-template.png)
 
 The products added in the Optional Products tab are present in the quotation, by
 default, whenever that particular quotation template is used. These products can be removed, and
@@ -73,4 +73,4 @@ additional products can be added, before the quotation is sent to a customer.
 There is no limit to how many optional products can be added to a quotation template.
 
 #### SEE ALSO
-[Mẫu báo giá](quote_template.md)
+[Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)

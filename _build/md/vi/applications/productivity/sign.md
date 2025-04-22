@@ -49,7 +49,7 @@ as:
    Odoo with the use of cryptographic proofs)
 
 #### NOTE
-[Documentation for Germany](sign/germany.md)
+[Documentation for Germany](applications/productivity/sign/germany.md)
 
 ### Hoa Kỳ
 
@@ -73,56 +73,56 @@ Overall, to be recognized as valid, electronic signatures have to meet five crit
 
 ### Quốc gia khác
 
-- [Algeria](sign/algeria.md)
-- [Angola](sign/angola.md)
-- [Argentina](sign/argentina.md)
-- [Úc](sign/australia.md)
-- [Azerbaijan](sign/azerbaijan.md)
-- [Bangladesh](sign/bangladesh.md)
-- [Brazil](sign/brazil.md)
-- [Canada](sign/canada.md)
-- [Chile](sign/chile.md)
-- [Trung Quốc](sign/china.md)
-- [Colombia](sign/colombia.md)
-- [Cộng hoà Dominica](sign/dominican_republic.md)
-- [Ecuador](sign/ecuador.md)
-- [Egypt](sign/egypt.md)
-- [Ethiopia](sign/ethiopia.md)
-- [Guatemala](sign/guatemala.md)
-- [Hồng Kông](sign/hong_kong.md)
-- [Ấn Độ](sign/india.md)
-- [Indonesia](sign/indonesia.md)
-- [Iran](sign/iran.md)
-- [Iraq](sign/iraq.md)
-- [Israel](sign/israel.md)
-- [Nhật Bản](sign/japan.md)
-- [Kazakhstan](sign/kazakhstan.md)
-- [Kenya](sign/kenya.md)
-- [Kuwait](sign/kuwait.md)
-- [Malaysia](sign/malaysia.md)
-- [Mexico](sign/mexico.md)
-- [Morocco](sign/morocco.md)
-- [New Zealand](sign/new_zealand.md)
-- [Nigeria](sign/nigeria.md)
-- [Norway](sign/norway.md)
-- [Oman](sign/oman.md)
-- [Pakistan](sign/pakistan.md)
-- [Peru](sign/peru.md)
-- [Philippines](sign/philippines.md)
-- [Qatar](sign/qatar.md)
-- [Nga](sign/russia.md)
-- [Ả Rập Xê Út](sign/saudi_arabia.md)
-- [Singapore](sign/singapore.md)
-- [Nam Phi](sign/south_africa.md)
-- [Hàn Quốc](sign/south_korea.md)
-- [Thuỵ Sĩ](sign/switzerland.md)
-- [Thái Lan](sign/thailand.md)
-- [Thổ Nhĩ Kỳ](sign/turkey.md)
-- [Ukraine](sign/ukraine.md)
-- [Các Tiểu Vương quốc Ả Rập Thống nhất](sign/united_arab_emirates.md)
-- [Vương quốc Anh](sign/united_kingdom.md)
-- [Uzbekistan](sign/uzbekistan.md)
-- [Việt Nam](sign/vietnam.md)
+- [Algeria](applications/productivity/sign/algeria.md)
+- [Angola](applications/productivity/sign/angola.md)
+- [Argentina](applications/productivity/sign/argentina.md)
+- [Úc](applications/productivity/sign/australia.md)
+- [Azerbaijan](applications/productivity/sign/azerbaijan.md)
+- [Bangladesh](applications/productivity/sign/bangladesh.md)
+- [Brazil](applications/productivity/sign/brazil.md)
+- [Canada](applications/productivity/sign/canada.md)
+- [Chile](applications/productivity/sign/chile.md)
+- [Trung Quốc](applications/productivity/sign/china.md)
+- [Colombia](applications/productivity/sign/colombia.md)
+- [Cộng hoà Dominica](applications/productivity/sign/dominican_republic.md)
+- [Ecuador](applications/productivity/sign/ecuador.md)
+- [Egypt](applications/productivity/sign/egypt.md)
+- [Ethiopia](applications/productivity/sign/ethiopia.md)
+- [Guatemala](applications/productivity/sign/guatemala.md)
+- [Hồng Kông](applications/productivity/sign/hong_kong.md)
+- [Ấn Độ](applications/productivity/sign/india.md)
+- [Indonesia](applications/productivity/sign/indonesia.md)
+- [Iran](applications/productivity/sign/iran.md)
+- [Iraq](applications/productivity/sign/iraq.md)
+- [Israel](applications/productivity/sign/israel.md)
+- [Nhật Bản](applications/productivity/sign/japan.md)
+- [Kazakhstan](applications/productivity/sign/kazakhstan.md)
+- [Kenya](applications/productivity/sign/kenya.md)
+- [Kuwait](applications/productivity/sign/kuwait.md)
+- [Malaysia](applications/productivity/sign/malaysia.md)
+- [Mexico](applications/productivity/sign/mexico.md)
+- [Morocco](applications/productivity/sign/morocco.md)
+- [New Zealand](applications/productivity/sign/new_zealand.md)
+- [Nigeria](applications/productivity/sign/nigeria.md)
+- [Norway](applications/productivity/sign/norway.md)
+- [Oman](applications/productivity/sign/oman.md)
+- [Pakistan](applications/productivity/sign/pakistan.md)
+- [Peru](applications/productivity/sign/peru.md)
+- [Philippines](applications/productivity/sign/philippines.md)
+- [Qatar](applications/productivity/sign/qatar.md)
+- [Nga](applications/productivity/sign/russia.md)
+- [Ả Rập Xê Út](applications/productivity/sign/saudi_arabia.md)
+- [Singapore](applications/productivity/sign/singapore.md)
+- [Nam Phi](applications/productivity/sign/south_africa.md)
+- [Hàn Quốc](applications/productivity/sign/south_korea.md)
+- [Thuỵ Sĩ](applications/productivity/sign/switzerland.md)
+- [Thái Lan](applications/productivity/sign/thailand.md)
+- [Thổ Nhĩ Kỳ](applications/productivity/sign/turkey.md)
+- [Ukraine](applications/productivity/sign/ukraine.md)
+- [Các Tiểu Vương quốc Ả Rập Thống nhất](applications/productivity/sign/united_arab_emirates.md)
+- [Vương quốc Anh](applications/productivity/sign/united_kingdom.md)
+- [Uzbekistan](applications/productivity/sign/uzbekistan.md)
+- [Việt Nam](applications/productivity/sign/vietnam.md)
 
 ## Send a document to sign
 
@@ -137,7 +137,7 @@ When ready, click Send, and fill in the required fields. Once sent, your documen
 remains available. Go to Documents ‣ All Documents to see your document
 and the status of the signatures.
 
-![Trạng thái chữ ký](sign/signature-status.png)
+![Trạng thái chữ ký](../../.gitbook/assets/signature-status.png)
 
 #### Validity dates and reminders
 
@@ -179,12 +179,12 @@ Có thể cập nhật các vai trò hiện có hoặc tạo các vai trò mới
 
 As the owner of a document, you may request an Extra Authentication Step through
 [SMS verification](#sign-sms) or via [Itsme®](#sign-itsme) (available in Belgium and the
-Netherlands). Both authentication options require [credits](../essentials/in_app_purchase.md#iap-buying-credits). If you do not
+Netherlands). Both authentication options require [credits](applications/essentials/in_app_purchase.md#iap-buying-credits). If you do not
 have any credits left, the authentication steps will be skipped.
 
 #### SEE ALSO
-- [In-App Purchase (IAP)](../essentials/in_app_purchase.md)
-- [SMS pricing and FAQ](../marketing/sms_marketing/pricing_and_faq.md)
+- [In-App Purchase (IAP)](applications/essentials/in_app_purchase.md)
+- [SMS pricing and FAQ](applications/marketing/sms_marketing/pricing_and_faq.md)
 
 <a id="sign-sms"></a>
 
@@ -206,7 +206,7 @@ The person signing the document fills in the Signature field, then Sign, and
 clicks Validate & Send Completed Document. A Final Validation page pops up
 where to add their phone number. One-time codes are sent by SMS.
 
-![Add a hash to your document](sign/sms-verification.png)
+![Add a hash to your document](../../.gitbook/assets/sms-verification.png)
 
 #### NOTE
 - This feature is enabled by default.
@@ -228,7 +228,7 @@ Step column for the role, and select Via itsme®.
 Go to the document that needs to be signed and add the Signature field. Switch to any
 role configured to use the feature, and click Validate and Send.
 
-![select customer identified with itsme®](sign/itsme-identification.png)
+![select customer identified with itsme®](../../.gitbook/assets/itsme-identification.png)
 
 Upon signing the document, the signer completes the Signature field and proceeds by
 clicking on Validate & Send Completed Document, triggering a
@@ -245,7 +245,7 @@ A visual security frame displaying the beginning of the hash is added to the sig
 users can hide or show it by turning the Frame option on or off when signing the
 document.
 
-![Adding the visual security frame to a signature.](sign/sign-hash.png)
+![Adding the visual security frame to a signature.](../../.gitbook/assets/sign-hash.png)
 
 <a id="sign-field-types"></a>
 
@@ -275,7 +275,7 @@ Send, toggle the Specify Signing Order switch and search for the signer's
 name or email information to add them. You can decide on the signing order by typing **1** or **2**
 in the first column.
 
-![Toggle the switch to specify the signing order.](sign/specify-signing-order.png)
+![Toggle the switch to specify the signing order.](../../.gitbook/assets/specify-signing-order.png)
 
 Each recipient receives the signature request notification only once the previous recipient has
 completed their action.
@@ -323,4 +323,4 @@ screen during the signing process to help them understand what the step entails 
 or “Fill in your birthdate”). You can also use a Placeholder text to be displayed inside
 the field before it is completed.
 
-![Tip and placeholder example in Odoo Sign](sign/tip-placeholder.png)
+![Tip and placeholder example in Odoo Sign](../../.gitbook/assets/tip-placeholder.png)

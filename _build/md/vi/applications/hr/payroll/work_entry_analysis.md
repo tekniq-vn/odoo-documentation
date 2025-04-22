@@ -5,7 +5,7 @@ the current month. To view this report, navigate to Payroll app â€£ Reporting â€
 Work Entry Analysis.
 
 The work entries appear in a pivot table, with the default filters of Current month:
-(Month)(Year) and Validated. The various types of [Work entries](work_entries.md) populate the
+(Month)(Year) and Validated. The various types of [Work entries](applications/hr/payroll/work_entries.md) populate the
 rows, while the Total values populate the only visible column.
 
 To change the displayed information, click <i class="fa fa-plus-square"></i> Total above the main
@@ -27,10 +27,10 @@ Current Month: Previous Period or Current Month: Previous Year.
 The report updates and displays the data for the current time period, data for the selected previous
 time period, as well as the Variation between the two, in a percentage.
 
-![A pivot table comparing the work entries of the current month and the previous month.](work_entry_analysis/work-entry-comparison.png)
+![A pivot table comparing the work entries of the current month and the previous month.](../../../.gitbook/assets/work-entry-comparison.png)
 
 #### NOTE
-If no work entries for a specific [work entry type](../payroll.md#payroll-work-entries) are logged for
+If no work entries for a specific [work entry type](applications/hr/payroll.md#payroll-work-entries) are logged for
 the time period, it does **not** appear on the report. That does **not** mean the work entry type
 does not exist, or is not configured.
 
@@ -71,4 +71,4 @@ August 2024, whereas Beth Evans worked the most overtime hours in
 September 2024. Additionally, Mitchell Admin had the largest variation
 change, with a -100% change from August 2024 to September 2024.
 
-![A pivot table comparing the overtime from September 2024 with August 2024.](work_entry_analysis/variation.png)
+![A pivot table comparing the overtime from September 2024 with August 2024.](../../../.gitbook/assets/variation.png)

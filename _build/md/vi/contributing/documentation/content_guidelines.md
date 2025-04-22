@@ -4,7 +4,7 @@ While we encourage you to adopt your own writing style, some rules still apply t
 and ensure readers can easily understand the content.
 
 #### IMPORTANT
-We strongly recommend to read the [RST guidelines and cheat sheet](rst_guidelines.md) and the main [Documentation](../documentation.md)
+We strongly recommend to read the [RST guidelines and cheat sheet](contributing/documentation/rst_guidelines.md) and the main [Documentation](contributing/documentation.md)
 pages before contributing.
 
 <a id="contributing-content-organization"></a>
@@ -23,11 +23,11 @@ either create a new page and place it at the same level as other related pages o
 to an existing page. When documenting a complex topic from scratch, organize the content across
 several child pages that are referenced on that directory's parent page (the  page); whenever possible, write content on the parent page and not only on the child
 pages. Make the parent page accessible from the navigation menu by using the
-[show-content](rst_guidelines.md#contributing-rst-document-metadata) metadata directive.
+[show-content](contributing/documentation/rst_guidelines.md#contributing-rst-document-metadata) metadata directive.
 
 #### NOTE
 Avoid duplicating content whenever possible; if a topic is already documented on another page,
-[reference](rst_guidelines.md#contributing-rst-hyperlinks) that existing information instead of repeating it.
+[reference](contributing/documentation/rst_guidelines.md#contributing-rst-hyperlinks) that existing information instead of repeating it.
 
 #### IMPORTANT
 When deleting or moving a `.rst` file, update the corresponding text file in the
@@ -74,8 +74,8 @@ To write good titles and headings:
 - Verbs in headings are fine since they often describe an action.
 
 #### SEE ALSO
-- [RST cheat sheet: headings](rst_guidelines.md#contributing-rst-headings)
-- [RST cheat sheet: markups](rst_guidelines.md#contributing-rst-markups)
+- [RST cheat sheet: headings](contributing/documentation/rst_guidelines.md#contributing-rst-headings)
+- [RST cheat sheet: markups](contributing/documentation/rst_guidelines.md#contributing-rst-markups)
 
 <a id="contributing-content-writing-style"></a>
 
@@ -133,16 +133,16 @@ Use bulleted lists when the sequence of items does not matter, e.g., lists of fe
 options, etc.
 
 #### SEE ALSO
-[RST cheat sheet: lists](rst_guidelines.md#contributing-rst-lists)
+[RST cheat sheet: lists](contributing/documentation/rst_guidelines.md#contributing-rst-lists)
 
 ## Icons
 
-Use [icons](rst_guidelines.md#contributing-rst-icons) in instructions to help readers identify user interface
+Use [icons](contributing/documentation/rst_guidelines.md#contributing-rst-icons) in instructions to help readers identify user interface
 elements and reduce the need for lengthy explanations. Accompany every icon with a descriptor
 in brackets.
 
 #### SEE ALSO
-[RST cheat sheet: icons](rst_guidelines.md#contributing-rst-icons)
+[RST cheat sheet: icons](contributing/documentation/rst_guidelines.md#contributing-rst-icons)
 
 <a id="contributing-content-images"></a>
 
@@ -225,4 +225,4 @@ Good ALT tags are:
 - Easily **understandable** if read aloud.
 
 #### SEE ALSO
-[RST cheat sheet: images](rst_guidelines.md#contributing-rst-images)
+[RST cheat sheet: images](contributing/documentation/rst_guidelines.md#contributing-rst-images)

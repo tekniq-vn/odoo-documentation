@@ -12,9 +12,9 @@ Hướng dẫn thay đổi loại hình lưu trữ cơ sở dữ liệu phụ th
 
 #### IMPORTANT
 - Odoo Online *không* tương thích với **ứng dụng ngoại chuẩn**.
-- Phiên bản hiện tại của cơ sở dữ liệu phải [được hỗ trợ](supported_versions.md).
+- Phiên bản hiện tại của cơ sở dữ liệu phải [được hỗ trợ](administration/supported_versions.md).
 
-1. Tạo một [bản sao của cơ sở dữ liệu](on_premise.md#on-premise-duplicate).
+1. Tạo một [bản sao của cơ sở dữ liệu](administration/on_premise.md#on-premise-duplicate).
 2. Trong bản sao này, gỡ cài đặt tất cả **ứng dụng ngoại chuẩn**.
 3. Sử dụng trình quản lý cơ sở dữ liệu để lấy *bản kết xuất với filestore*.
 4. [Gửi một phiếu hỗ trợ](https://www.odoo.com/help) gồm thông tin sau:
@@ -28,12 +28,12 @@ Nếu bạn gặp khó khăn về thời gian, [hãy gửi phiếu hỗ trợ](h
 
 ### Sang Odoo.sh
 
-Làm theo hướng dẫn trong [phần Nhập cơ sở dữ liệu của bạn](odoo_sh/getting_started/create.md#odoo-sh-import-your-database) của tài liệu Odoo.sh *Tạo dự án của bạn*.
+Làm theo hướng dẫn trong [phần Nhập cơ sở dữ liệu của bạn](administration/odoo_sh/getting_started/create.md#odoo-sh-import-your-database) của tài liệu Odoo.sh *Tạo dự án của bạn*.
 
 ## Chuyển cơ sở dữ liệu Odoo Online
 
 #### IMPORTANT
-[Phiên bản trung gian](supported_versions.md#supported-versions) của Odoo Online không được Odoo.sh hoặc on-premise hỗ trợ. Do đó, nếu cơ sở dữ liệu cần chuyển đang chạy phiên bản trung gian, trước tiên nó phải được nâng cấp lên [phiên bản chính](supported_versions.md#supported-versions) kế tiếp, hoặc chờ phát hành nếu cần.
+[Phiên bản trung gian](administration/supported_versions.md#supported-versions) của Odoo Online không được Odoo.sh hoặc on-premise hỗ trợ. Do đó, nếu cơ sở dữ liệu cần chuyển đang chạy phiên bản trung gian, trước tiên nó phải được nâng cấp lên [phiên bản chính](administration/supported_versions.md#supported-versions) kế tiếp, hoặc chờ phát hành nếu cần.
 
 #### WARNING
 Nếu có gói đăng ký Odoo đang hoạt động liên kết với cơ sở dữ liệu đang được di chuyển, hãy liên hệ với Quản lý dịch vụ khách hàng hoặc [gửi phiếu hỗ trợ](https://www.odoo.com/help) để hoàn tất quá trình chuyển gói đăng ký.
@@ -46,7 +46,7 @@ Nếu có gói đăng ký Odoo đang hoạt động liên kết với cơ sở d
 ### Sang Odoo.sh
 
 1. Đăng nhập vào [trình quản lý cơ sở dữ liệu Odoo Online](https://www.odoo.com/my/databases/) và nhấp vào biểu tượng bánh răng (⚙) bên cạnh tên cơ sở dữ liệu để Tải xuống một bản sao lưu. Nếu quá trình tải xuống không thành công do tệp quá lớn, [hãy liên hệ với bộ phận hỗ trợ của Odoo](https://www.odoo.com/help).
-2. Làm theo hướng dẫn trong [phần Nhập cơ sở dữ liệu của bạn](odoo_sh/getting_started/create.md#odoo-sh-import-your-database) của tài liệu Odoo.sh *Tạo dự án của bạn*.
+2. Làm theo hướng dẫn trong [phần Nhập cơ sở dữ liệu của bạn](administration/odoo_sh/getting_started/create.md#odoo-sh-import-your-database) của tài liệu Odoo.sh *Tạo dự án của bạn*.
 
 ## Chuyển cơ sở dữ liệu Odoo.sh
 
@@ -74,5 +74,5 @@ Odoo Online *không* tương thích với **ứng dụng ngoại chuẩn**.
 
 ### Sang on-premise
 
-1. Tải xuống [bản sao lưu cơ sở dữ liệu production Odoo.sh của bạn](odoo_sh/getting_started/branches.md#odoo-sh-branches-backups).
+1. Tải xuống [bản sao lưu cơ sở dữ liệu production Odoo.sh của bạn](administration/odoo_sh/getting_started/branches.md#odoo-sh-branches-backups).
 2. Khôi phục cơ sở dữ liệu từ trình quản lý cơ sở dữ liệu trên máy chủ cục bộ của bạn bằng bản sao lưu.

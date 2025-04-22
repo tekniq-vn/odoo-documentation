@@ -19,13 +19,13 @@ covering several African countries and payment methods.
 4. Make sure *all* the remaining checkboxes are ticked.
 5. Click on **Save** to finalize the configuration.
 
-![Cài đặt Flutterwave](flutterwave/flutterwave-settings.png)
+![Cài đặt Flutterwave](../../../.gitbook/assets/flutterwave-settings.png)
 
 <a id="payment-providers-flutterwave-configure-odoo"></a>
 
 ## Configuration on Odoo
 
-1. [Navigate to the payment provider Flutterwave](../payment_providers.md#payment-providers-add-new) and change its
+1. [Navigate to the payment provider Flutterwave](applications/finance/payment_providers.md#payment-providers-add-new) and change its
    state to Enabled.
 2. In the Credentials tab, fill the Public Key, Secret Key, and
    Webhook Secret with the values you saved at the step
@@ -38,4 +38,4 @@ covering several African countries and payment methods.
    Flutterwave Dashboard and then to Settings ‣ Account Settings.
 
 #### SEE ALSO
-- [Thanh toán online](../payment_providers.md)
+- [Thanh toán online](applications/finance/payment_providers.md)

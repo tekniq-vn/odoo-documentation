@@ -17,7 +17,7 @@ In that section, check the box beside the Quotation Templates option. Doing so r
 new Default Template field, in which a default quotation template can be chosen from a
 drop-down menu.
 
-![How to enable quotation templates on Odoo Sales.](quote_template/quotations-templates-setting.png)
+![How to enable quotation templates on Odoo Sales.](../../../../.gitbook/assets/quotations-templates-setting.png)
 
 Also, upon activating the Quotation Template feature, an internal ➡️
 Quotation Templates link appears beneath the Default Template field.
@@ -34,12 +34,12 @@ Click the Quotation Templates link on the Settings page, or navigate to
 Sales app ‣ Configuration ‣ Quotation Templates. Both options reveal the
 Quotation Templates page, where quotation templates can be created, viewed, and edited.
 
-![Quotation templates page in the Odoo Sales application.](quote_template/quotation-templates-page.png)
+![Quotation templates page in the Odoo Sales application.](../../../../.gitbook/assets/quotation-templates-page.png)
 
 To create a new quotation template, click the New button, located in the upper-left
 corner. Doing so reveals a blank quotation template form that can be customized in a number of ways.
 
-![Create a new quotation template on Odoo Sales.](quote_template/blank-quotation-form.png)
+![Create a new quotation template on Odoo Sales.](../../../../.gitbook/assets/blank-quotation-form.png)
 
 Start by entering a name for the template in the Quotation Template field.
 
@@ -79,7 +79,7 @@ template should occur.
 
 #### NOTE
 The Recurring Plan field **only** applies to subscription plans. For more
-information, check out the documentation on [Gói cước đăng ký](../../subscriptions/plans.md).
+information, check out the documentation on [Gói cước đăng ký](applications/sales/subscriptions/plans.md).
 
 ### Lines tab
 
@@ -135,7 +135,7 @@ products enhances the customer experience.
 Optional products appear as a section on the bottom of sales orders and eCommerce pages. Customers
 can immediately add them to their online sales orders themselves, if desired.
 
-![Optional products appearing on a typical sales order with Odoo Sales.](quote_template/optional-products-on-sales-order.png)
+![Optional products appearing on a typical sales order with Odoo Sales.](../../../../.gitbook/assets/optional-products-on-sales-order.png)
 
 In the Optional Products tab, Add a line for each cross-selling product
 related to the original items in the Lines tab, if applicable. The products added here
@@ -159,7 +159,7 @@ quotation template. To add terms and conditions, simply type (or copy/paste) the
 conditions in this tab.
 
 #### SEE ALSO
-[Default terms and conditions (T&C)](../../../finance/accounting/customer_invoices/terms_conditions.md)
+[Default terms and conditions (T&C)](applications/finance/accounting/customer_invoices/terms_conditions.md)
 
 #### NOTE
 Terms and conditions are **not** required to create a quotation template.
@@ -174,20 +174,20 @@ To upload customer Header pages and Footer pages, click the ✏️
 an uploaded PDF.
 
 #### SEE ALSO
-[PDF quote builder](pdf_quote_builder.md)
+[PDF quote builder](applications/sales/sales/send_quotations/pdf_quote_builder.md)
 
 ## Use quotation templates
 
 When creating a quotation (Sales app ‣ New), choose a pre-configured template in
 the Quotation Template field.
 
-![Quotation templates field on a standard quotation form in Odoo Sales.](quote_template/quotation-templates-field.png)
+![Quotation templates field on a standard quotation form in Odoo Sales.](../../../../.gitbook/assets/quotation-templates-field.png)
 
 To view what the customer will see, click the Preview button at the top of the page to
 see how the quotation template appears on the front-end of the website through Odoo's customer
 portal.
 
-![Customer preview of a quotation template in Odoo Sales.](quote_template/quotations-templates-preview.png)
+![Customer preview of a quotation template in Odoo Sales.](../../../../.gitbook/assets/quotations-templates-preview.png)
 
 When all blocks and customizations are complete, click the Save button to put those
 configurations into place.
@@ -208,7 +208,7 @@ drop-down menu.
 
 From this drop-down menu, select Cancel quotations.
 
-![The Cancel quotations option on the Actions drop-down menu in the Odoo Sales application.](quote_template/cancel-quotations.png)
+![The Cancel quotations option on the Actions drop-down menu in the Odoo Sales application.](../../../../.gitbook/assets/cancel-quotations.png)
 
 #### NOTE
 This action can be performed for quotations in *any* stage, even if it is confirmed as a sales
@@ -223,5 +223,5 @@ An error pop-up message appears when attempting to cancel an order for an ongoin
 that has an invoice.
 
 #### SEE ALSO
-- [Online signatures for order confirmations](get_signature_to_validate.md)
-- [Online payment order confirmation](get_paid_to_validate.md)
+- [Online signatures for order confirmations](applications/sales/sales/send_quotations/get_signature_to_validate.md)
+- [Online payment order confirmation](applications/sales/sales/send_quotations/get_paid_to_validate.md)

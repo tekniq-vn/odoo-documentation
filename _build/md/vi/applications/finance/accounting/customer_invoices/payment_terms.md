@@ -14,15 +14,15 @@ An **installment plan** allows the customers to pay an invoice in parts, with th
 payment dates defined beforehand by the seller.
 
 #### NOTE
-- Payment terms are not to be confused with [down payment invoices](../../../sales/sales/invoicing/down_payment.md). If, for a specific order, you issue
+- Payment terms are not to be confused with [down payment invoices](applications/sales/sales/invoicing/down_payment.md). If, for a specific order, you issue
   multiple invoices to your customer, that is neither a payment term nor an installment plan but
   an invoicing policy.
-- This page is about the *payment terms* feature, not [terms & conditions](terms_conditions.md), which can be used to declare contractual obligations regarding content
+- This page is about the *payment terms* feature, not [terms & conditions](applications/finance/accounting/customer_invoices/terms_conditions.md), which can be used to declare contractual obligations regarding content
   use, return policies, and other policies surrounding the sale of goods and services.
 
 #### SEE ALSO
 - [Odoo Tutorials: payment terms](https://www.odoo.com/slides/slide/payment-terms-1679)
-- [Cash discounts and tax reduction](cash_discounts.md)
+- [Cash discounts and tax reduction](applications/finance/accounting/customer_invoices/cash_discounts.md)
 
 ## Cấu hình
 
@@ -33,7 +33,7 @@ To create new payment terms, follow these steps:
 2. Enter a name in the Payment Terms field. This field is the name displayed both
    internally and on sales orders.
 3. Tick the Early Discount checkbox and fill out the discount percentage, discount days,
-   and [tax reduction](cash_discounts.md#cash-discounts-tax-reductions) fields to add a [cash discount](cash_discounts.md), if desired.
+   and [tax reduction](applications/finance/accounting/customer_invoices/cash_discounts.md#cash-discounts-tax-reductions) fields to add a [cash discount](applications/finance/accounting/customer_invoices/cash_discounts.md), if desired.
 4. In the Due Terms section, add a set of rules (terms) to define what needs to be paid
    and by which due date(s). Defining terms automatically calculates the payments' due date(s). This
    is particularly helpful for managing **installment plans** ().
@@ -73,7 +73,7 @@ drop-down list on:
 Invoices with specific payment terms generate different *journal entries*, with one *journal item*
 for every computed *due date*.
 
-This makes for easier [follow-ups](../payments/follow_up.md) and
-[reconciliation](../bank/reconciliation.md) since Odoo takes each
+This makes for easier [follow-ups](applications/finance/accounting/payments/follow_up.md) and
+[reconciliation](applications/finance/accounting/bank/reconciliation.md) since Odoo takes each
 due date into account, rather than just the balance due date. It also helps to get an accurate
-[aged receivable report](../customer_invoices.md#accounting-invoices-aging-report).
+[aged receivable report](applications/finance/accounting/customer_invoices.md#accounting-invoices-aging-report).

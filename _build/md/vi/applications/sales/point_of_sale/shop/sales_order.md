@@ -10,7 +10,7 @@ From the **Point of Sale** application, open a new session. Then, click on
 Quotations/Orders to get the complete list of quotations and sales orders created on the
 sales application.
 
-![Quotations and sales order button on the Point of Sale interface](sales_order/pos-interface.png)
+![Quotations and sales order button on the Point of Sale interface](../../../../.gitbook/assets/pos-interface1.png)
 
 #### NOTE
 To ease finding the right sales order, you can filter that list on the **customer** or on the
@@ -21,7 +21,7 @@ Quotations/Orders to reduce the list to one particular customer.
 
 From the list of sales order, select one to make a payment.
 
-![list view of sales orders and quotations](sales_order/list-of-so.png)
+![list view of sales orders and quotations](../../../../.gitbook/assets/list-of-so.png)
 
 Bạn có thể:
 
@@ -36,4 +36,4 @@ Once you settle a sales order, the applied down payment is automatically deducte
 amount.
 
 #### SEE ALSO
-- [Khoản trả trước](../../sales/invoicing/down_payment.md)
+- [Khoản trả trước](applications/sales/sales/invoicing/down_payment.md)

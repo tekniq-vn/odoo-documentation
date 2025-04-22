@@ -1,7 +1,7 @@
 # GS1 barcode usage
 
 GS1 barcodes provide a standardized format that barcode scanners can interpret. They encode
-information in a [specific structure recognized globally](gs1_nomenclature.md#barcode-operations-gs1), allowing
+information in a [specific structure recognized globally](applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.md#barcode-operations-gs1), allowing
 scanners to understand and process supply chain data consistently.
 
 Odoo *Barcode* interprets and prints GS1 barcodes, automating product identification and tracking
@@ -17,7 +17,7 @@ information (also provided by GS1) to create barcodes in Odoo.
 
 #### SEE ALSO
 - [GTIN mua hàng](https://www.gs1.org/standards/get-barcodes)
-- [Phép đặt tên GS1](gs1_nomenclature.md#barcode-operations-gs1)
+- [Phép đặt tên GS1](applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.md#barcode-operations-gs1)
 
 <a id="barcode-operations-gs1-lots"></a>
 
@@ -36,7 +36,7 @@ number, the following barcode patterns and Application Identifiers (A.I.) are us
 
 ### Cấu hình
 
-First, [enable product tracking using lots](../../inventory/product_management/product_tracking/lots.md#inventory-management-track-products-by-lots) by
+First, [enable product tracking using lots](applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.md#inventory-management-track-products-by-lots) by
 navigating to Inventory app ‣ Configuration ‣ Settings, and checking the box
 for Lots & Serial Numbers under the Traceability heading.
 
@@ -53,12 +53,12 @@ After activating tracking by lots and serial numbers from the settings page, spe
 feature is to be applied on each product by navigating to the Inventory tab on the
 product form. Under Tracking, choose the By Lots radio button.
 
-![Enable product tracking by lots in the "Inventory" tab of the product form.](gs1_usage/track-by-lots.png)
+![Enable product tracking by lots in the "Inventory" tab of the product form.](../../../../.gitbook/assets/track-by-lots.png)
 
 ### Scan barcode on receipt
 
 To ensure accurate lot interpretation in Odoo on product barcodes scanned during a receipt
-operation, navigate to the Barcode app to manage the [receipt picking process](receipts_deliveries.md#barcode-operations-scan-received-products).
+operation, navigate to the Barcode app to manage the [receipt picking process](applications/inventory_and_mrp/barcode/operations/receipts_deliveries.md#barcode-operations-scan-received-products).
 
 From the Barcode Scanning dashboard, click the Operations button, then the
 Receipts button to view the list of vendor receipts to process. Receipts generated from
@@ -89,10 +89,10 @@ using the appropriate unit of measure (UoM) for the quantity of products to be
 purchased.
 
 #### SEE ALSO
-[Simplify vendor unit conversions with UoMs](../../inventory/product_management/configure/uom.md#inventory-product-replenishment-unit-conversion)
+[Simplify vendor unit conversions with UoMs](applications/inventory_and_mrp/inventory/product_management/configure/uom.md#inventory-product-replenishment-unit-conversion)
 
 After the order is placed, navigate to the Barcode app to [receive the vendor
-shipment](receipts_deliveries.md#barcode-operations-scan-received-products).
+shipment](applications/inventory_and_mrp/barcode/operations/receipts_deliveries.md#barcode-operations-scan-received-products).
 
 ## Verify product moves
 
@@ -102,4 +102,4 @@ Reporting ‣ Product Moves.
 
 Các mục trên báo cáo Dịch chuyển sản phẩm được nhóm theo sản phẩm theo mặc định. Để xác nhận số lượng đã nhận, nhấp vào một dòng sản phẩm để mở menu thả xuống có thể thu gọn, hiển thị danh sách các *dòng dịch chuyển tồn kho* cho sản phẩm đó. Dòng dịch chuyển tồn kho mới nhất khớp với số tham chiếu nhập kho (VD: `WH/IN/00013`) và số lượng đã xử lý trong quét mã vạch, chứng tỏ rằng các bản ghi đã xử lý trong ứng dụng *Mã vạch* được lưu trữ chính xác trong *Tồn kho*.
 
-![Reception stock move record for 52.1 kg of peaches.](gs1_usage/stock-moves-peach.png)
+![Reception stock move record for 52.1 kg of peaches.](../../../../.gitbook/assets/stock-moves-peach.png)

@@ -3,7 +3,7 @@
 ## Tổng quan
 
 Odoo's eBay connector allows eBay listings to connect with Odoo products. Once connected,
-[updates to the listings](linking_listings.md) can be made in Odoo or in eBay. When an item sells
+[updates to the listings](applications/sales/sales/ebay_connector/linking_listings.md) can be made in Odoo or in eBay. When an item sells
 on eBay, draft *sales orders* are created in Odoo for the user to review and confirm. Once the sales
 order is confirmed, Odoo *Inventory* and *Sales* apps function standard to pull products out of
 inventory, and allow the user to create invoices.
@@ -11,9 +11,9 @@ inventory, and allow the user to create invoices.
 #### SEE ALSO
 To learn more about the eBay connector visit these pages as well:
 
-- [How to list a product?](manage.md)
-- [Linking existing listings](linking_listings.md)
-- [Troubleshooting eBay connector](troubleshooting.md)
+- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
+- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
+- [Troubleshooting eBay connector](applications/sales/sales/ebay_connector/troubleshooting.md)
 
 ### eBay - Odoo linked fields
 
@@ -54,12 +54,12 @@ Odoo.
 sync to Odoo's attributes and values. Variations will appear in drop down menus near the top of the
 page when viewing an eBay listing. These are comparable to product variants in Odoo.
 
-![An example on eBay of the variations that can be added to a product.](setup/ebay-variation.png)
+![An example on eBay of the variations that can be added to a product.](../../../../.gitbook/assets/ebay-variation.png)
 
 *Item specifics*, located at the bottom of the listing, detail product-specific information. These
 specifics don't sync with Odoo fields by default; a development is required to link these fields.
 
-![Item specifics listed on an eBay product.](setup/item-specifics.png)
+![Item specifics listed on an eBay product.](../../../../.gitbook/assets/item-specifics.png)
 
 *Sandbox* and *Production* are terms that are used to categorize the eBay environments as either
 still in development/testing (*Sandbox*) or for use in the real instance of the database with real
@@ -106,10 +106,10 @@ The following items must be configured before eBay is set up:
       base product as a Component of the kit. When this linked eBay product is sold, the
       delivery order created will have the base product listed in lieu of the linked product.
 
-    ![Setting up bill of materials with base product and linked products.](setup/products-odoo.png)
+    ![Setting up bill of materials with base product and linked products.](../../../../.gitbook/assets/products-odoo.png)
 
   > #### SEE ALSO
-  > [Danh mục vật tư](../../../inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md)
+  > [Danh mục vật tư](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md)
 - eBay does not automatically create invoices for eBay orders that get pushed into Odoo. Set
   invoicing policy on eBay products: invoicing policy will dictate when the product can be invoiced.
   Since most eBay users collect payment before the product is shipped, “invoice on ordered” will
@@ -126,7 +126,7 @@ The following items must be configured before eBay is set up:
   invoices created from eBay orders with incoming eBay money.
 
   #### SEE ALSO
-  [Đối chiếu ngân hàng](../../../finance/accounting/bank/reconciliation.md)
+  [Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)
 - Generate a marketplace account deletion/closure notification token. To begin, navigate to
   Sales app ‣ Configuration ‣ Settings. Under the eBay heading,
   change the mode to Production, and input random text values for the
@@ -134,7 +134,7 @@ The following items must be configured before eBay is set up:
   eBay Marketplace Account Deletion/Closure Notifications section. This token will be
   used during the setup on eBay for the deletion/closure notifications configuration.
 
-![Generate a verification token in Odoo.](setup/generate-token.png)
+![Generate a verification token in Odoo.](../../../../.gitbook/assets/generate-token.png)
 
 ## Set up on eBay
 
@@ -158,7 +158,7 @@ The newly created *production keyset* is disabled by default. Activate it by sub
 eBay Marketplace 'account deletion or closure notifications' or by applying to eBay for an
 exemption. Once enabled, the database can make 5000 calls per day using this keyset.
 
-![Disabled keyset present after creating a keyset.](setup/disabled-keyset.png)
+![Disabled keyset present after creating a keyset.](../../../../.gitbook/assets/disabled-keyset.png)
 
 #### Configure account deletion / notification settings (Production)
 
@@ -181,7 +181,7 @@ for the eBay production environment. In Odoo, Copy the newly created token and n
 to eBay to fill in the Verification token field. Click Save to enable the
 Event Notification Delivery Method.
 
-![Configuring account deletion / notification settings in eBay.](setup/account-closure.png)
+![Configuring account deletion / notification settings in eBay.](../../../../.gitbook/assets/account-closure.png)
 
 After completing the above fields, click Send Test Notification to test the new
 notifications. Proceed to the next step when the green check mark appears. Revisit the above
@@ -211,7 +211,7 @@ Application Keys populates in a new screen and an email is also sent to the deve
 account. An App ID (Client ID), Dev ID, and Cert ID (Client
 Secret) all populate.
 
-![Application keys are populated after creating the app in eBay.](setup/application-keys.png)
+![Application keys are populated after creating the app in eBay.](../../../../.gitbook/assets/application-keys.png)
 
 Copy these values down as they will be input into Odoo later in the process.
 
@@ -220,7 +220,7 @@ Copy these values down as they will be input into Odoo later in the process.
 Now, create a *user token* in eBay by navigating to the `Hi [username]` at top right of screen,
 then User Access Tokens.
 
-![Generate user token s on the eBay developer console.](setup/user-tokens.png)
+![Generate user token s on the eBay developer console.](../../../../.gitbook/assets/user-tokens.png)
 
 Select the correct Environment: Sandbox for testing or
 Production for the live database. Maintain the same selection for all environment
@@ -269,7 +269,7 @@ Token will populate on the User Tokens page.
 A User Token will populate on the screen. Make sure to copy this token down as it will
 be used in the next steps along with the Application Keyset.
 
-![Generated user token and API explorer link on the eBay developer console.](setup/user-token.png)
+![Generated user token and API explorer link on the eBay developer console.](../../../../.gitbook/assets/user-token.png)
 
 #### IMPORTANT
 Signing in to the eBay account is necessary to create to the token. The eBay developer can also
@@ -311,10 +311,10 @@ User Tokens from the Application Keys page.
 
 Confirm that the setup is correct by saving the credentials in Odoo. Once the initial setup is
 complete, a new menu tab in products will appear called `eBay` with the option to Sell on
-eBay. See the [How to list a product?](manage.md) documentation on how to list products.
+eBay. See the [How to list a product?](applications/sales/sales/ebay_connector/manage.md) documentation on how to list products.
 
 #### SEE ALSO
 Now that the setup is complete, proceed to either:
 
-- [Create listings](manage.md)
-- [Link existing listings](linking_listings.md)
+- [Create listings](applications/sales/sales/ebay_connector/manage.md)
+- [Link existing listings](applications/sales/sales/ebay_connector/linking_listings.md)

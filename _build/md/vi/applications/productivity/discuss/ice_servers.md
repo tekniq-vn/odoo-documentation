@@ -21,7 +21,7 @@ questions:
 - For How do you want to build with Twilio?, select With no code at all.
 - For What is your goal today?, select 3rd party integrations.
 
-![The Twilio welcome page.](ice_servers/twilio-welcome.png)
+![The Twilio welcome page.](../../../.gitbook/assets/twilio-welcome.png)
 
 If necessary, change the billing country. Finally, click Get Started with Twilio.
 
@@ -32,7 +32,7 @@ Develop on the sidebar. In the Account Info section, locate the
 Account SID and the Auth Token. Both of these are needed to connect Twilio
 to Odoo.
 
-![The Twilio Account SID and Auth Token can be found uner the Account Info section.](ice_servers/twilio-acct-info.png)
+![The Twilio Account SID and Auth Token can be found uner the Account Info section.](../../../.gitbook/assets/twilio-acct-info.png)
 
 ## Connect Twilio to Odoo
 
@@ -41,7 +41,7 @@ the box next to Use Twilio ICE servers and enter the Twilio account's
 Account SID and Auth Token. Finally, click Save to apply these
 changes.
 
-![Enable the "Use Twilio ICE servers" option in Odoo General Settings.](ice_servers/connect-twilio-to-odoo.png)
+![Enable the "Use Twilio ICE servers" option in Odoo General Settings.](../../../.gitbook/assets/connect-twilio-to-odoo.png)
 
 ## Define a list of custom ICE servers
 
@@ -52,12 +52,12 @@ define the list of custom ICE servers.
 In Settings ‣ General Settings ‣ Discuss, click the ICE Servers
 button under Custom ICE server list.
 
-![The "ICE Servers" button in Odoo General Settings.](ice_servers/custom-ice-servers-list.png)
+![The "ICE Servers" button in Odoo General Settings.](../../../.gitbook/assets/custom-ice-servers-list.png)
 
 Odoo will redirect to the ICE servers page. Here you can define your own list of ICE
 servers.
 
-![The "ICE servers" page in Odoo.](ice_servers/ice-servers-page.png)
+![The "ICE servers" page in Odoo.](../../../.gitbook/assets/ice-servers-page.png)
 
 #### NOTE
 For on-premise instances of Odoo, the package `python3-gevent` is necessary for the Discuss

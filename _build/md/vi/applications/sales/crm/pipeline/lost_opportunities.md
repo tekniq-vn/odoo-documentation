@@ -12,7 +12,7 @@ detail form.
 
 Then, click Lost, located at the top of the opportunity's detail form.
 
-![Buttons from the top of an opportunity record with the lost button emphasized.](lost_opportunities/lost-opps-lost-button.png)
+![Buttons from the top of an opportunity record with the lost button emphasized.](../../../../.gitbook/assets/lost-opps-lost-button.png)
 
 This opens the Mark Lost pop-up window. From the Lost Reason drop-down menu,
 choose an existing lost reason. If no applicable reason is available, create a new one by entering
@@ -24,12 +24,12 @@ Closing Note field.
 When all the desired information has been entered in the Mark Lost pop-up window, click
 Mark as Lost.
 
-![Lost reasons popup with sample reasons.](lost_opportunities/lost-opps-lost-reason.png)
+![Lost reasons popup with sample reasons.](../../../../.gitbook/assets/lost-opps-lost-reason.png)
 
 After clicking Mark as Lost, a red Lost banner is added to the upper-right
 corner of the opportunity.
 
-![A lost opportunity with the lost banner added.](lost_opportunities/lost-banner.png)
+![A lost opportunity with the lost banner added.](../../../../.gitbook/assets/lost-banner.png)
 
 #### NOTE
 To mark an *inactive* (archived) opportunity as lost, set the Probability field to
@@ -60,7 +60,7 @@ To retrieve lost opportunities in Odoo *CRM*, open the CRM app. On the main
 Pipeline dashboard, click into the Search... bar at the top of the page, and
 remove all of the default filters.
 
-![Search bar with lost filter emphasized.](lost_opportunities/lost-opps-lost-filter.png)
+![Search bar with lost filter emphasized.](../../../../.gitbook/assets/lost-opps-lost-filter.png)
 
 Open the Filters drop-down menu, by clicking the 🔻(triangle pointed down)
 icon to the right of the Search... bar to open the drop-down menu containing
@@ -82,7 +82,7 @@ in the Search... bar, or scroll to search through the list to locate it. Then, c
 into the next field, and select = from the drop-down menu. Click into the third field,
 and select a lost reason from the drop-down menu. Finally, click Add.
 
-![Search bar with custom filter added for lost reason.](lost_opportunities/lost-opps-lost-custom-filter.png)
+![Search bar with custom filter added for lost reason.](../../../../.gitbook/assets/lost-opps-lost-custom-filter.png)
 
 ## Restore lost opportunities
 
@@ -102,7 +102,7 @@ From the lost opportunity's detail form, click Restore in the upper-left corner.
 so removes the red Lost banner from the opportunity form, signifying the opportunity has
 been restored.
 
-![Lost opportunity with emphasis on the Restore button.](lost_opportunities/lost-opps-restore.png)
+![Lost opportunity with emphasis on the Restore button.](../../../../.gitbook/assets/lost-opps-restore.png)
 
 ### Restore multiple opportunities at once
 
@@ -121,7 +121,7 @@ Doing so removes those selected opportunities from the Pipeline page because the
 longer fit the Lost filter criteria. Delete the Lost filter from the search
 bar to reveal these newly-restored opportunities.
 
-![Action button from list view with the Unarchive option emphasized.](lost_opportunities/lost-opps-unarchive.png)
+![Action button from list view with the Unarchive option emphasized.](../../../../.gitbook/assets/lost-opps-unarchive.png)
 
 ## Manage lost leads
 
@@ -179,4 +179,4 @@ Lost filter criteria. Delete the Lost filter from the Search...
 bar to reveal these newly-restored leads.
 
 #### SEE ALSO
-[Phân tích chu trình](../performance/win_loss.md)
+[Phân tích chu trình](applications/sales/crm/performance/win_loss.md)

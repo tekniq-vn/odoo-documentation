@@ -4,12 +4,12 @@ The **mail groups** feature allows website visitors to have a public discussion 
 join a group to receive emails from other group members (i.e., website users who have subscribed to
 the group) and send new ones to all group members.
 
-To activate the feature, [install](../../general/apps_modules.md#general-install) the Website Mail Group
+To activate the feature, [install](applications/general/apps_modules.md#general-install) the Website Mail Group
 (`website_mail_group`) module.
 
 #### NOTE
 The **mail groups** feature is not to be confused with the
-[Mailing lists](../../marketing/email_marketing/mailing_lists.md) in the Email Marketing app.
+[Mailing lists](applications/marketing/email_marketing/mailing_lists.md) in the Email Marketing app.
 
 <a id="website-mailing-lists-configure-groups"></a>
 
@@ -45,7 +45,7 @@ To configure mail groups, proceed as follows:
 Based on the [configuration of the mail group](#website-mailing-lists-configure-groups),
 users can subscribe to and unsubscribe from mail groups from the website page (`/groups` by default).
 
-![Mail group web page.](mail_groups/mail-group-page.png)
+![Mail group web page.](../../../.gitbook/assets/mail-group-page.png)
 
 Internal users can also do this from Website ‣ Configuration ‣ Mailing Lists,
 using the Join and Leave buttons.
@@ -70,7 +70,7 @@ mail group, and click the To review smart button. You can moderate messages usin
 buttons at the end of the message line or select a message to view its content and moderate it
 accordingly.
 
-> ![Moderation buttons in the message line.](mail_groups/mail-group-moderation.png)
+> ![Moderation buttons in the message line.](../../../.gitbook/assets/mail-group-moderation.png)
 
 The following actions are available:
 

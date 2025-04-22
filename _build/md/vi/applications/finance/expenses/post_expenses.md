@@ -1,11 +1,11 @@
 # Ghi sổ chi phí
 
-Once an expense report is [approved](approve_expenses.md), the next step is to post
+Once an expense report is [approved](applications/finance/expenses/approve_expenses.md), the next step is to post
 the expense report to the proper accounting journal.
 
 #### IMPORTANT
 To post expense reports to an accounting journal, the user **must** have the following
-[access rights](../../general/users/access_rights.md):
+[access rights](applications/general/users/access_rights.md):
 
 - Accounting: *Accountant* or *Adviser*
 - Expenses: *Manager*
@@ -15,7 +15,7 @@ expense reports, navigate to Expenses app ‣ Expense Reports. Next, to view
 **only** approved expense reports that need to be posted, adjust the filters on the left side, so
 only the Approved checkbox is ticked.
 
-![View reports to post by clicking on expense reports, then reports to post.](post_expenses/post-reports.png)
+![View reports to post by clicking on expense reports, then reports to post.](../../../.gitbook/assets/post-reports.png)
 
 #### NOTE
 The default All Reports dashboard displays all expense reports, except reports with a
@@ -57,4 +57,4 @@ Entries button is **not** visible.
 
 Next, click the Post Entries button.
 
-![Post multiple reports at a time from the Expense Reports view, with the Approved filter.](post_expenses/post-entries.png)
+![Post multiple reports at a time from the Expense Reports view, with the Approved filter.](../../../.gitbook/assets/post-entries.png)

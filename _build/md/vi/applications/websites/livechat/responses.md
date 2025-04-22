@@ -28,8 +28,8 @@ entry types an operator can make is displayed.
 - Type `:shortcut` to insert a [canned response](#live-chat-canned-responses).
 
 #### SEE ALSO
-- [Thảo luận](../../productivity/discuss.md)
-- [Use channels for team communication](../../productivity/discuss/team_communication.md)
+- [Thảo luận](applications/productivity/discuss.md)
+- [Use channels for team communication](applications/productivity/discuss/team_communication.md)
 
 ### Ticket & search tickets
 
@@ -52,7 +52,7 @@ ticket.
 After entering the `/ticket` command, type a title for the ticket into the chat window, then press
 `Enter`.
 
-![View of the results from a helpdesk search in a Live Chat conversation.](responses/helpdesk.png)
+![View of the results from a helpdesk search in a Live Chat conversation.](../../../.gitbook/assets/helpdesk.png)
 
 The newly created ticket will be added to the *Helpdesk* team that has live chat enabled. If more
 than one team has live chat enabled, the ticket will automatically be assigned based on the team's
@@ -74,7 +74,7 @@ After entering the `/search_tickets` command, type a keyword or ticket number, t
 `Enter`. If one or more related tickets are found, a list of links is generated in the
 conversation window.
 
-![View of the results from a helpdesk search in a Live Chat conversation.](responses/helpdesk-search.png)
+![View of the results from a helpdesk search in a Live Chat conversation.](../../../.gitbook/assets/helpdesk-search.png)
 
 #### NOTE
 Results from the search command will only be seen by the operator, not the customer.
@@ -84,13 +84,13 @@ Results from the search command will only be seen by the operator, not the custo
 If an operator types `/history` in the chat window, it generates a list of the most recent pages the
 visitor has viewed on the website (up to 15).
 
-![View of the results from a /history command in a Live Chat conversation.](responses/responses-history.png)
+![View of the results from a /history command in a Live Chat conversation.](../../../.gitbook/assets/responses-history.png)
 
 ### Lead
 
 By typing `/lead` in the chat window, an operator can create a *lead* in the **CRM** application.
 
-![View of the results from a /lead command in a Live Chat conversation.](responses/responses-lead.png)
+![View of the results from a /lead command in a Live Chat conversation.](../../../.gitbook/assets/responses-lead.png)
 
 #### IMPORTANT
 The `/lead` command can only be used if the **CRM** app has been installed.
@@ -115,8 +115,8 @@ command does not cause the customer to be removed from the conversation, nor doe
 end the conversation.
 
 #### SEE ALSO
-- [Acquire leads](../../sales/crm/acquire_leads.md)
-- [Hỗ trợ](../../services/helpdesk.md)
+- [Acquire leads](applications/sales/crm/acquire_leads.md)
+- [Hỗ trợ](applications/services/helpdesk.md)
 
 <a id="live-chat-canned-responses"></a>
 
@@ -139,4 +139,4 @@ field, and type the message that should replace the shortcut.
 To use a canned response during a live chat conversation, type a colon (`:`) into the chat window,
 followed by the shortcut.
 
-![View of a chat window and the use of a canned response in Odoo Live Chat.](responses/canned-responses.png)
+![View of a chat window and the use of a canned response in Odoo Live Chat.](../../../.gitbook/assets/canned-responses.png)

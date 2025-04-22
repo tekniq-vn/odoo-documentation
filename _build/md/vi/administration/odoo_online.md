@@ -15,7 +15,7 @@ Cơ sở dữ liệu Odoo Online được truy cập bằng bất kỳ trình du
 
 Tất cả tùy chọn quản lý cơ sở dữ liệu chính đều có sẵn khi nhấp vào tên cơ sở dữ liệu, ngoại trừ tùy chọn nâng cấp, có thể truy cập được bằng cách nhấp vào biểu tượng **mũi tên trong vòng tròn** cạnh tên cơ sở dữ liệu. Tuỳ chọn này chỉ được hiển thị nếu có bản nâng cấp.
 
-![Truy cập các tùy chọn quản lý cơ sở dữ liệu](odoo_online/database-manager.png)
+![Truy cập các tùy chọn quản lý cơ sở dữ liệu](../.gitbook/assets/database-manager.png)
 - [Nâng cấp](#odoo-online-upgrade)
 - [Nhân bản](#odoo-online-duplicate)
 - [Đổi tên](#odoo-online-rename)
@@ -34,7 +34,7 @@ Tất cả tùy chọn quản lý cơ sở dữ liệu chính đều có sẵn k
 Kích hoạt bản nâng cấp cơ sở dữ liệu.
 
 #### SEE ALSO
-Để tìm hiểu thêm thông tin về quy trình nâng cấp, hãy tham khảo [Tài liệu nâng cấp Odoo Online](upgrade.md#upgrade-request-test).
+Để tìm hiểu thêm thông tin về quy trình nâng cấp, hãy tham khảo [Tài liệu nâng cấp Odoo Online](administration/upgrade.md#upgrade-request-test).
 
 <a id="odoo-online-duplicate"></a>
 
@@ -66,7 +66,7 @@ Cơ sở dữ liệu được sao lưu hàng ngày theo [SLA Lưu trữ trên Od
 
 ## Tên miền
 
-Sử dụng [tên miền](../applications/websites/website/configuration/domain_names.md) tùy chỉnh để truy cập cơ sở dữ liệu thông qua một URL khác.
+Sử dụng [tên miền](applications/websites/website/configuration/domain_names.md) tùy chỉnh để truy cập cơ sở dữ liệu thông qua một URL khác.
 
 <a id="odoo-online-tags"></a>
 
@@ -82,7 +82,7 @@ Xóa cơ sở dữ liệu ngay lập tức.
 
 Đọc kỹ nội dung cảnh báo và chỉ tiếp tục nếu bạn đã hiểu rõ ý nghĩa của việc xóa cơ sở dữ liệu.
 
-![Nội dung cảnh báo hiển thị trước khi xóa cơ sở dữ liệu](odoo_online/delete.png)
+![Nội dung cảnh báo hiển thị trước khi xóa cơ sở dữ liệu](../.gitbook/assets/delete.png)
 
 #### NOTE
 - Chỉ quản trị viên mới có thể xóa cơ sở dữ liệu.
@@ -101,13 +101,13 @@ Truy cập [trang hỗ trợ Odoo.com](https://www.odoo.com/help) với thông t
 
 Để mời người dùng, điền địa chỉ email của người dùng mới và nhấp vào Mời. Để thêm nhiều người dùng, nhấp vào Thêm nhiều người dùng.
 
-![Mời người dùng trên cơ sở dữ liệu](odoo_online/invite-users.png)
+![Mời người dùng trên cơ sở dữ liệu](../.gitbook/assets/invite-users.png)
 
 Để gỡ bỏ người dùng, chọn họ và nhấp vào Gỡ bỏ.
 
 #### SEE ALSO
-- [Người dùng](../applications/general/users.md)
-- [Tài khoản Odoo.com](odoo_accounts.md)
+- [Người dùng](applications/general/users.md)
+- [Tài khoản Odoo.com](administration/odoo_accounts.md)
 
 <a id="odoo-online-web-services"></a>
 
@@ -115,9 +115,9 @@ Truy cập [trang hỗ trợ Odoo.com](https://www.odoo.com/help) với thông t
 
 In order to programmatically retrieve the list of the databases displayed in the
 [database manager](https://www.odoo.com/my/databases), call the method `list` of the model
-`odoo.database` via a [Web Service](../developer/howtos/web_services.md) call.
+`odoo.database` via a [Web Service](developer/howtos/web_services.md) call.
 
-Inspired from the examples provided in the [Web Services](../developer/howtos/web_services.md)
+Inspired from the examples provided in the [Web Services](developer/howtos/web_services.md)
 section, this is how to retrieve this list with the library `xmlrpc.client`:
 
 ```default

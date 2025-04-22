@@ -45,7 +45,7 @@ Each individual company can have a different localization setting configured for
 company, since company locations can vary and be located anywhere in the world, where rules and
 laws differ.
 
-For more information on companies, refer to the [Companies](../general/companies.md)
+For more information on companies, refer to the [Companies](applications/general/companies.md)
 documentation, which covers how to set up companies.
 
 ### Nghỉ phép
@@ -84,7 +84,7 @@ application, the changes are also reflected in the *Recruitment* application.
 
 #### IMPORTANT
 To access contract templates, the *Salary Configurator* (`hr_contract_salary`) module **must** be
-[installed](../general/apps_modules.md#general-install).
+[installed](applications/general/apps_modules.md#general-install).
 
 To view all the current contract templates in the database, navigate to Payroll app
 ‣ Configuration ‣ Contracts: Templates.
@@ -104,7 +104,7 @@ information on the blank contract template form that appears:
 - Work Entry Source: select how the work entries are generated. Choices are either:
   - Working Schedule: work entries are generated based on the selected working schedule.
   - Attendances: work entries are generated based on the employee's attendance, as they
-    are logged in the *Attendances* application. Refer to the [Attendances](attendances/check_in_check_out.md#attendances-check-in) documentation for information on checking in and out.
+    are logged in the *Attendances* application. Refer to the [Attendances](applications/hr/attendances/check_in_check_out.md#attendances-check-in) documentation for information on checking in and out.
   - Planning: work entries are generated based on the employee's planning in the
     *Planning* application.
 - Salary Structure Type: select the [salary structure type](#payroll-structure-types) from the drop-down menu.
@@ -122,7 +122,7 @@ information on the blank contract template form that appears:
 - Contract Update Document Template: select a default document that a current employee
   has to sign to update their contract.
 
-![A new contract template form, with the fields filled in.](payroll/contract-template.png)
+![A new contract template form, with the fields filled in.](../../.gitbook/assets/contract-template.png)
 
 #### Tab Thông tin lương
 
@@ -146,7 +146,7 @@ linked. If any of these fields are updated, the other two fields automatically u
 the change. It is best practice to check these three fields if any modifications have been made,
 to ensure they are accurate.
 
-![The salary information tab, with the fields filled in.](payroll/salary-information.png)
+![The salary information tab, with the fields filled in.](../../.gitbook/assets/salary-information.png)
 
 #### Pre-tax benefits and post-tax deductions
 
@@ -183,7 +183,7 @@ To rearrange the order of the employment types, click the six small gray boxes i
 the left of the employment type Name, and drag the line to the desired position on the
 list.
 
-![The employment types in the database by default, in a list view.](payroll/employment-types.png)
+![The employment types in the database by default, in a list view.](../../.gitbook/assets/employment-types.png)
 
 <a id="payroll-work-entries"></a>
 
@@ -194,7 +194,7 @@ account for all types of work and time off, such as Attendance, Sick Time
 Off, Training, or Public Holiday.
 
 #### SEE ALSO
-[Manage work entries](payroll/work_entries.md)
+[Manage work entries](applications/hr/payroll/work_entries.md)
 
 ### Loại công
 
@@ -209,7 +209,7 @@ To view the current work entry types available, go to Payroll app ‣ Configurat
 Each work entry type has a code to aid in the creation of payslips, and to ensure all taxes and fees
 are correctly entered.
 
-![List of all work entry types currently available for use, with the payroll code and color.](payroll/work-entry-types.png)
+![List of all work entry types currently available for use, with the payroll code and color.](../../.gitbook/assets/work-entry-types.png)
 
 #### New work entry type
 
@@ -275,7 +275,7 @@ information for the following sections on the form.
 - Unforeseen Absence: if the work entry should be visible on the unforeseen absences
   report, check this box.
 
-![New work entry type form with all fields to be filled in.](payroll/new-work-entry-type.png)
+![New work entry type form with all fields to be filled in.](../../.gitbook/assets/new-work-entry-type.png)
 
 <a id="payroll-working-times"></a>
 
@@ -288,7 +288,7 @@ an employee's contracts and work entries are found in this list.
 Working schedules are company-specific. Each company **must** identify each type of working schedule
 they use. If the database is created for only one company, the company column is not available.
 
-![All working schedules available to use currently set up in the database for the company.](payroll/working-schedules.png)
+![All working schedules available to use currently set up in the database for the company.](../../.gitbook/assets/working-schedules.png)
 
 <a id="payroll-new-working-schedule"></a>
 
@@ -314,7 +314,7 @@ If the working time should be in a two-week configuration, click the Switch to 2
 calendar button in the top-left. This creates entries for an Even week and an
 Odd week.
 
-![New working schedule form.](payroll/new-working-schedule.png)
+![New working schedule form.](../../.gitbook/assets/new-working-schedule.png)
 
 ## Tiền lương
 
@@ -335,7 +335,7 @@ Typically, Employee is used for salaried employees, which is why the wage type i
 Monthly Fixed Wage, and Worker is typically used for employees paid by the
 hour, so the wage type is Hourly Wage.
 
-![List of all currently configured structure types available to use.](payroll/structure-type.png)
+![List of all currently configured structure types available to use.](../../.gitbook/assets/structure-type.png)
 
 <a id="payroll-new-structure-type"></a>
 
@@ -377,7 +377,7 @@ modified.
   Depending on the localization settings, this list may contain more options in addition to the
   default options.
 
-![New structure type form to fill out when creating a new structure type.](payroll/new-structure.png)
+![New structure type form to fill out when creating a new structure type.](../../.gitbook/assets/new-structure.png)
 
 <a id="new-default-working-hours"></a>
 
@@ -438,12 +438,12 @@ Configuration ‣ Salary ‣ Structures.
 Each [structure type](#payroll-structure-types) lists the various structures associated with
 it. Each structure contains a set of rules that define it.
 
-![All available salary structures.](payroll/salary-structure.png)
+![All available salary structures.](../../.gitbook/assets/salary-structure.png)
 
 Click on a structure to view its Salary Rules. These rules are what calculate the
 payslip for the employee.
 
-![Salary structure details for Regular Pay, listing all the specific Salary Rules.](payroll/structure-regular-pay-rules.png)
+![Salary structure details for Regular Pay, listing all the specific Salary Rules.](../../.gitbook/assets/structure-regular-pay-rules.png)
 
 ### Quy tắc
 
@@ -477,7 +477,7 @@ in the fields.
 - View on Payroll Reporting: tick the checkbox to have the rule appear on payroll
   reports.
 
-![Enter the information for the new rule on the new rule form.](payroll/new-rule.png)
+![Enter the information for the new rule on the new rule form.](../../.gitbook/assets/new-rule.png)
 
 #### General tab
 
@@ -527,7 +527,7 @@ like expenses, reimbursements, or deductions. These other inputs can be configur
 Payroll app ‣ Configuration ‣ Salary ‣ Other Input Types.
 
 ![A list of other input types for payroll that can be selected when creating a new entry for
-a payslip.](payroll/other-input.png)
+a payslip.](../../.gitbook/assets/other-input.png)
 
 To create a new input type, click the New button. Enter the Description, the
 Code, and which structure it applies to in the Availability in Structure
@@ -538,7 +538,7 @@ The Code is used in the salary rules to compute payslips. If the
 Availability in Structure field is left blank, it indicates that the new input type
 is available for all payslips and is not exclusive to a specific structure.
 
-![A new Input Type form filled in.](payroll/input-type-new.png)
+![A new Input Type form filled in.](../../.gitbook/assets/input-type-new.png)
 
 <a id="payroll-salary-attachment-types"></a>
 
@@ -564,7 +564,7 @@ To view the benefits, go to Payroll app ‣ Configuration ‣ Salary Package
 Configurator: Benefits. Benefits are grouped by Structure type, and the benefit listed
 for a particular structure type is only available for that specific structure.
 
-![A list view of all the benefits available for each structure type.](payroll/benefits.png)
+![A list view of all the benefits available for each structure type.](../../.gitbook/assets/benefits.png)
 
 To make a new benefit, click the New button, and enter the information in the fields on
 the blank benefits form.
@@ -604,7 +604,7 @@ The various fields for creating a benefit are as follows:
 - Unit of Measure: select the metric that the benefit is granted, using the drop-down
   menu. The options are Days, Percent, or Currency.
 
-![A new benefit form filled out for an internet subscription.](payroll/new-benefit.png)
+![A new benefit form filled out for an internet subscription.](../../.gitbook/assets/new-benefit.png)
 
 #### Display section
 
@@ -673,7 +673,7 @@ The Personal Info section lists all of the fields that are available to enter on
 employee's card. To access this section, go to Payroll app ‣ Configuration ‣
 Salary Package Configurator: Personal Info.
 
-![A list of all the personal information that appears on the employee card to enter.](payroll/personal-info.png)
+![A list of all the personal information that appears on the employee card to enter.](../../.gitbook/assets/personal-info.png)
 
 To edit a personal info entry, select an entry from the list on the Personal Info page,
 and modify the personal info on the form that appears.
@@ -700,7 +700,7 @@ Display Type drop-down menu allows for the information to be entered in a variet
 ways, like a Text box, to a customizable Radio button, a
 Checkbox, a Document, and more.
 
-![New personal information entry.](payroll/personal-new.png)
+![New personal information entry.](../../.gitbook/assets/personal-new.png)
 
 ### Resumé
 
@@ -752,7 +752,7 @@ Nhập thông tin sau đây trên biểu mẫu:
   Sum of Benefits Values, and Monthly Total.
 - Code: select the code this rule applies to from the drop-down menu.
 
-![The net wage rule form filled out, with all the information for net pay.](payroll/resume-net.png)
+![The net wage rule form filled out, with all the information for net pay.](../../.gitbook/assets/resume-net.png)
 
 ## Tuyển dụng
 
@@ -773,29 +773,29 @@ Positions.
 A list of all the job positions appear, along with the corresponding department, on the
 Job Position page.
 
-![A list of all the job positions and corresponding departments.](payroll/job-positions.png)
+![A list of all the job positions and corresponding departments.](../../.gitbook/assets/job-positions.png)
 
 To create a new job description, click the New button and a job form appears.
 
 Enter the information on the form for the new position. The information is identical as to the
 information entered when creating a new job position in the *Recruitment* application.
 
-Refer to the [Job positions](recruitment/new_job.md) documentation for more details on how to fill out this
+Refer to the [Job positions](applications/hr/recruitment/new_job.md) documentation for more details on how to fill out this
 form.
 
 #### SEE ALSO
-- [Hợp đồng](payroll/contracts.md)
-- [Work entries](payroll/work_entries.md)
-- [Salary attachments](payroll/salary_attachments.md)
-- [Phiếu lương](payroll/payslips.md)
-- [Báo cáo](payroll/reporting.md)
-- [Work entry analysis](payroll/work_entry_analysis.md)
-- [Salary attachment report](payroll/salary_attachment.md)
+- [Hợp đồng](applications/hr/payroll/contracts.md)
+- [Work entries](applications/hr/payroll/work_entries.md)
+- [Salary attachments](applications/hr/payroll/salary_attachments.md)
+- [Phiếu lương](applications/hr/payroll/payslips.md)
+- [Báo cáo](applications/hr/payroll/reporting.md)
+- [Work entry analysis](applications/hr/payroll/work_entry_analysis.md)
+- [Salary attachment report](applications/hr/payroll/salary_attachment.md)
 
-* [Hợp đồng](payroll/contracts.md)
-* [Work entries](payroll/work_entries.md)
-* [Salary attachments](payroll/salary_attachments.md)
-* [Phiếu lương](payroll/payslips.md)
-* [Báo cáo](payroll/reporting.md)
-* [Work entry analysis](payroll/work_entry_analysis.md)
-* [Salary attachment report](payroll/salary_attachment.md)
+* [Hợp đồng](applications/hr/payroll/contracts.md)
+* [Work entries](applications/hr/payroll/work_entries.md)
+* [Salary attachments](applications/hr/payroll/salary_attachments.md)
+* [Phiếu lương](applications/hr/payroll/payslips.md)
+* [Báo cáo](applications/hr/payroll/reporting.md)
+* [Work entry analysis](applications/hr/payroll/work_entry_analysis.md)
+* [Salary attachment report](applications/hr/payroll/salary_attachment.md)

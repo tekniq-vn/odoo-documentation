@@ -9,7 +9,7 @@ of manufacturing orders, deliveries, and receipts.
 Different lead times for different operations can impact various stages of the order fulfillment
 process. Here's a summary of the types of lead times in Odoo:
 
-![Show graphic of all lead times working together.](lead_times/all-lead-times.png)
+![Show graphic of all lead times working together.](../../../../../.gitbook/assets/all-lead-times.png)
 - [Customer lead time](#inventory-warehouses-storage-customer-lt): default time frame for
   fulfilling customer orders. The customer lead time is the number of days from the date the sales
   order (SO) is confirmed to the date the products are shipped from the warehouse. This is also
@@ -31,7 +31,7 @@ process. Here's a summary of the types of lead times in Odoo:
   components, or manufacture sub-assemblies of the product. Either set one directly on the bill of
   materials (BoM), or click *Compute* to sum up purchase and manufacturing lead times of components
   in the .
-- [Thời gian dự phòng sản xuất](#inventory-warehouses-storage-manuf-security-lt): đẩy ngày đã lên lịch của  lên sớm hơn một số ngày được chỉ định. Khi sử dụng kết hợp với [bổ sung theo đơn đặt hàng](../replenishment.md#inventory-management-products-strategies), thời gian dự phòng giúp hiển thị nhu cầu sớm hơn trên báo cáo bổ sung hàng.
+- [Thời gian dự phòng sản xuất](#inventory-warehouses-storage-manuf-security-lt): đẩy ngày đã lên lịch của  lên sớm hơn một số ngày được chỉ định. Khi sử dụng kết hợp với [bổ sung theo đơn đặt hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment.md#inventory-management-products-strategies), thời gian dự phòng giúp hiển thị nhu cầu sớm hơn trên báo cáo bổ sung hàng.
 
 <a id="inventory-warehouses-storage-customer-lt"></a>
 
@@ -71,7 +71,7 @@ and set the Shipping Policy to:
    Scheduled Date of the  is determined by adding today's
    date to the longest lead time among the products in the order.
 
-![Show *Shipping Policy* field in the *Other Info* tab of a quotation.](lead_times/shipping-policy.png)
+![Show *Shipping Policy* field in the *Other Info* tab of a quotation.](../../../../../.gitbook/assets/shipping-policy.png)
 
 <a id="inventory-warehouses-storage-purchase-lt"></a>
 
@@ -85,10 +85,10 @@ Odoo tính toán *ngày nhận hàng* từ nhà cung cấp và hạn chót  dự
 This deadline is the date by which the order should be confirmed, in order to ensure timely arrival
 by the expected receipt date.
 
-![Visualization of PO deadline and receipt date used with vendor lead times.](lead_times/vendor-lead-times.png)
+![Visualization of PO deadline and receipt date used with vendor lead times.](../../../../../.gitbook/assets/vendor-lead-times.png)
 
 #### SEE ALSO
-[PO scheduling with reordering rules](reordering_rules.md)
+[PO scheduling with reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
 
 ### Vendor lead time
 
@@ -136,7 +136,7 @@ manufactured products with bills of materials (BoMs).
 
 Thời hạn ,  thời hạn bắt đầu quy trình sản xuất để hoàn thành sản phẩm theo ngày giao hàng dự kiến - có thể được xác định bằng cách cấu hình thời gian hoàn thành sản xuất và thời gian dự phòng sản xuất.
 
-![Visualization of the determination of planned MO date manufacturing lead times.](lead_times/manuf-lead-times.png)
+![Visualization of the determination of planned MO date manufacturing lead times.](../../../../../.gitbook/assets/manuf-lead-times.png)
 
 ### Manufacturing lead time
 
@@ -148,7 +148,7 @@ of Materials, and select the desired  to edit.
 On the  form, click the Miscellaneous tab. Change the value (in days) in the
 Manuf. Lead Time field to specify the calendar days needed to manufacture the product.
 
-![Manuf. Lead Time value specified on a product's Bill of Material form.](lead_times/set-manufacturing.png)
+![Manuf. Lead Time value specified on a product's Bill of Material form.](../../../../../.gitbook/assets/set-manufacturing.png)
 
 #### NOTE
 If the selected  is a multi-level , the manufacturing lead times of the components are
@@ -169,8 +169,8 @@ However, it is important to note that lead times are based on calendar days. Lea
 consider weekends, holidays, or *work center capacity* ().
 
 #### SEE ALSO
-- [Lập kế hoạch sản xuất](../../../manufacturing/workflows/use_mps.md)
-- [Schedule MOs with reordering rules](reordering_rules.md)
+- [Lập kế hoạch sản xuất](applications/inventory_and_mrp/manufacturing/workflows/use_mps.md)
+- [Schedule MOs with reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
 
 <a id="inventory-warehouses-storage-prepare-manufacturing-order"></a>
 
@@ -193,7 +193,7 @@ manufacture semi-finished products.
 
 Tiếp theo, nhập số ngày theo lịch mong muốn. Bằng cách cấu hình thời gian dự phòng, một khoảng thời gian đệm được thiết lập để phòng ngừa các sự chậm trễ có thể xảy ra trong quá trình sản xuất. Sau đó, nhấp vào Lưu.
 
-![Xem cấu hình thời gian dự phòng cho sản xuất từ phần cài đặt ứng dụng sản xuất.](lead_times/manuf-security.png)
+![Xem cấu hình thời gian dự phòng cho sản xuất từ phần cài đặt ứng dụng sản xuất.](../../../../../.gitbook/assets/manuf-security.png)
 
 ## Global example
 
@@ -210,7 +210,7 @@ The customer places an order for a manufactured product on September 1st, and th
 date from the warehouse is on September 20th. Odoo uses lead times and automated reordering rules to
 schedule the necessary operations, based on the outgoing shipment delivery date, September 20th:
 
-![Show timeline of how lead times work together to schedule warehouse operations.](lead_times/global-example.png)
+![Show timeline of how lead times work together to schedule warehouse operations.](../../../../../.gitbook/assets/global-example.png)
 - **September 1st**: Sales order created, confirmed by salesperson.
 - **September 9th**: Deadline to order components to ensure they arrive in time when manufacturing
   begins (4-day supplier lead time).

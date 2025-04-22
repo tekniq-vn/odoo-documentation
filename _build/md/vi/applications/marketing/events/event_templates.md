@@ -15,7 +15,7 @@ To begin, navigate to Events app ‣ Configuration ‣ Event Templates. Doing so
 reveals the Event Templates page. Here, find all the existing event templates in the
 database.
 
-![The Event Templates page in the Odoo Events application.](event_templates/event-templates-page.png)
+![The Event Templates page in the Odoo Events application.](../../../.gitbook/assets/event-templates-page.png)
 
 By default, Odoo provides three pre-configured event templates: Exhibition,
 Training, and Sport, which all have their own unique customizations applied
@@ -26,7 +26,7 @@ drag-and-drop them into any desired order, using the <i class="oi oi-draggable">
 icon, located to the left of each event template line on the Event Templates page.
 
 #### SEE ALSO
-To learn more about event forms, refer to the [Create events](create_events.md) documentation.
+To learn more about event forms, refer to the [Create events](applications/marketing/events/create_events.md) documentation.
 
 ## Create event template
 
@@ -53,7 +53,7 @@ The event template would have to be modified, by selecting it on the *Event Temp
 All the fields on a standard Event Template form are *also* on the *Create Template*
 pop-up window, accessible via the *Template* field on an event form.
 
-![A standard event template form in the Odoo Events application.](event_templates/event-template-form.png)
+![A standard event template form in the Odoo Events application.](../../../.gitbook/assets/event-template-form.png)
 
 Start by providing the event template with a name in the Event Template field, located
 at the top of the form.
@@ -99,11 +99,11 @@ should be limited to.
 
 Beneath those general information fields at the top of the event template form, there are five tabs:
 
-- [Vé](create_events.md#events-event-tickets)
-- [Communication](create_events.md#events-event-communication)
+- [Vé](applications/marketing/events/create_events.md#events-event-tickets)
+- [Communication](applications/marketing/events/create_events.md#events-event-communication)
 - [Gian hàng](#event-templates-event-template-booths)
-- [Câu hỏi](create_events.md#events-event-questions)
-- [Ghi chú](create_events.md#events-event-notes)
+- [Câu hỏi](applications/marketing/events/create_events.md#events-event-questions)
+- [Ghi chú](applications/marketing/events/create_events.md#events-event-notes)
 
 <a id="event-templates-event-template-booths"></a>
 
@@ -112,7 +112,7 @@ Beneath those general information fields at the top of the event template form, 
 The Booths tab on an event template form is the only tab that differentiates itself from
 a standard event form, where the other tabs (Tickets, Communication,
 Questions, and Notes) are present and configured using the same process. For
-more information about those tabs, refer to the [Create events](create_events.md) documentation.
+more information about those tabs, refer to the [Create events](applications/marketing/events/create_events.md) documentation.
 
 #### IMPORTANT
 To create a booth or booth category, an event booth product **must** be created in the database
@@ -127,7 +127,7 @@ Events app ‣ Configuration ‣ Booth Categories, and click New.
 To add a booth from the Booths tab of an event template form, click Add a
 line. Doing so reveals a blank Create Booths pop-up window.
 
-![A Create Booths pop-up window in the Odoo Events application.](event_templates/create-booths-popup.png)
+![A Create Booths pop-up window in the Odoo Events application.](../../../.gitbook/assets/create-booths-popup.png)
 
 Start by providing a Name for this booth in the corresponding field at the top of the
 pop-up window.
@@ -173,4 +173,4 @@ Any of these pre-configured settings related to the selected event template chos
 Template field on an event form can be modified, as desired.
 
 #### SEE ALSO
-[Create events](create_events.md)
+[Create events](applications/marketing/events/create_events.md)

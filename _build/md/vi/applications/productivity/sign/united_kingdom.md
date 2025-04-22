@@ -1,6 +1,6 @@
 # Odoo Sign legality in the United Kingdom
 
-[Odoo Sign](../sign.md) is your trusted partner for secure, efficient, and legally compliant
+[Odoo Sign](applications/productivity/sign.md) is your trusted partner for secure, efficient, and legally compliant
 electronic signatures in the United Kingdom.
 
 ## Legal framework for electronic signatures in the United Kingdom

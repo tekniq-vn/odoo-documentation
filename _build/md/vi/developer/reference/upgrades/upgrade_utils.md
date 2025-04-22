@@ -58,7 +58,7 @@ helper functions.
 
 #### NOTE
 The `cr` parameter in util functions always refers to the database cursor. Pass the one
-received as a parameter in [`migrate()`](upgrade_scripts.md#migrate). Not all functions need this parameter.
+received as a parameter in [`migrate()`](developer/reference/upgrades/upgrade_scripts.md#migrate). Not all functions need this parameter.
 
 ### Modules
 

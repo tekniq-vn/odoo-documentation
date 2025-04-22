@@ -6,7 +6,7 @@ locations for company products. Use this report to see where stock is stored, id
 locations on specific dates.
 
 #### NOTE
-The *Reporting* menu in *Inventory* is only accessible to users with [admin access](../../../../general/users/access_rights.md).
+The *Reporting* menu in *Inventory* is only accessible to users with [admin access](applications/general/users/access_rights.md).
 
 To access the locations report, the *Storage Locations* feature must be enabled. To do that, go to
 Inventory app ‣ Configuration ‣ Settings. In the Warehouse section,
@@ -25,7 +25,7 @@ Product column), along with the following information:
 - Package: the package that the product is stored in, if any.
 - Lot/Serial Number: if the product has a lot or serial number, it is specified here.
 - On Hand Quantity: current quantity of products. Click the <i class="fa fa-pencil"></i>
-  (pencil) icon to [modify the on-hand quantity](../inventory_management/count_products.md).
+  (pencil) icon to [modify the on-hand quantity](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md).
 - Reserved Quantity: on-hand quantity reserved for operations, such as pickings,
   delivery orders, or manufacturings.
 - Unit: the unit of measure of the product.
@@ -35,10 +35,10 @@ Click the buttons to the right of each row item to access additional information
 - <i class="fa fa-history"></i> History: access the stock move history of the product, displaying
   information about the quantity and description of why the product was moved from one location to
   another.
-- <i class="fa fa-refresh"></i> Replenishment: access the [reordering rules](../replenishment/reordering_rules.md) page to replenish products at the specific location.
+- <i class="fa fa-refresh"></i> Replenishment: access the [reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md) page to replenish products at the specific location.
 
 In the upper-left corner of the page, click the the New button to make an
-[inventory adjustment](../inventory_management/count_products.md) to record quantities of a
+[inventory adjustment](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md) to record quantities of a
 certain product at a specific Location.
 
 To view products, quantities, and their locations for a specified date, click the
@@ -66,10 +66,10 @@ To get list of expired items, also referred to as *dead stock*, follow these ste
 The report now displays a list of expired products.
 
 #### NOTE
-This report can also be generated from the [Lot and Serials Numbers](../../product_management/product_tracking/expiration_dates.md#inventory-product-management-expiration-alerts) page, accessed by going to
+This report can also be generated from the [Lot and Serials Numbers](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md#inventory-product-management-expiration-alerts) page, accessed by going to
 Inventory app ‣ Products ‣ Lots/Serial Numbers.
 
-![Show a list of products whose expiration dates have exceeded today.](locations/dead-stock.png)
+![Show a list of products whose expiration dates have exceeded today.](../../../../../.gitbook/assets/dead-stock.png)
 
 <a id="inventory-warehouse-storage-stranded"></a>
 
@@ -87,13 +87,13 @@ To get a list of items that might be sitting idly in storage, follow these steps
    intended to be moved to, such as `WH/Input`,  or `WH/Packing`.
 3. Select the Search Location for: [location name] option from the resulting drop-down
    menu that appears beneath the Search... bar.
-   ![Show search result for the location.](locations/search-input-location.png)
+   ![Show search result for the location.](../../../../../.gitbook/assets/search-input-location.png)
 
 The report now displays a list of products at the transit location.
 
 ### Inventory discrepancy report
 
-To generate a report of items that have been moved since the last [inventory audit](../inventory_management/cycle_counts.md), follow these steps:
+To generate a report of items that have been moved since the last [inventory audit](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.md), follow these steps:
 
 1. Go to Inventory app ‣ Reporting ‣ Locations.
 2. Then, click the <i class="fa fa-caret-down"></i> (caret down) icon to the right of the Search... bar to reveal a drop-down
@@ -101,7 +101,7 @@ To generate a report of items that have been moved since the last [inventory aud
 3. Enable the Internal Locations and Conflicts option from the
    Filters section.
 4. The report now displays items whose quantities have changed since the last cycle count.
-   ![Show items from the *Conflicts* filter in the report.](locations/discrepancy.png)
+   ![Show items from the *Conflicts* filter in the report.](../../../../../.gitbook/assets/discrepancy.png)
 5. Click the <i class="fa fa-history"></i> History button to view inventory transfers, including
    receipts and deliveries, that have occurred since the inventory adjustment.
-   ![Show *Moves History*, showing a delivery that occurred after an inventory adjustment.](locations/history.png)
+   ![Show *Moves History*, showing a delivery that occurred after an inventory adjustment.](../../../../../.gitbook/assets/history1.png)

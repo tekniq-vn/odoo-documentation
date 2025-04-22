@@ -17,7 +17,7 @@ Membership products require a start and end date, as they are used to determine 
 status](#sales-membership-status). Membership products can be sold *before* their active start
 date.
 
-![A new membership product in the members app.](members/membership-product.png)
+![A new membership product in the members app.](../../.gitbook/assets/membership-product.png)
 
 Membership products can be added to a sales order, and invoiced as regular products or
 subscriptions.
@@ -56,10 +56,10 @@ contact record:
 ## Publish members directory
 
 To publish a list of active members on the website, the *Online Members Directory* application must
-first be [installed](../general/apps_modules.md#general-install). After installing the module, add the `/members` page to
-the website's menu by [editing the website menu](../websites/website/pages/menus.md).
+first be [installed](applications/general/apps_modules.md#general-install). After installing the module, add the `/members` page to
+the website's menu by [editing the website menu](applications/websites/website/pages/menus.md).
 
-![The Online Members directory module in Odoo.](members/membership-directory-app.png)
+![The Online Members directory module in Odoo.](../../.gitbook/assets/membership-directory-app.png)
 
 ### Publish individual members
 
@@ -73,4 +73,4 @@ Unpublished toggle to the active, Published position.
 
 Repeat these steps for all desired members.
 
-* [Members analysis](members/members_analysis.md)
+* [Members analysis](applications/sales/members/members_analysis.md)

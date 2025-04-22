@@ -1,6 +1,6 @@
 # Chapter 6: Basic Views
 
-We have seen in the [previous chapter](05_firstui.md) that Odoo is able
+We have seen in the [previous chapter](developer/tutorials/server_framework_101/05_firstui.md) that Odoo is able
 to generate default views for a given model. In practice, the default view is **never** acceptable
 for a business application. Instead, we should at least organize the various fields in a logical
 manner.
@@ -18,12 +18,12 @@ In our real estate module, we need to organize the fields in a logical way:
 ## List
 
 **Reference**: the documentation related to this topic can be found in
-[List](../../reference/user_interface/view_architectures.md#reference-view-architectures-list).
+[List](developer/reference/user_interface/view_architectures.md#reference-view-architectures-list).
 
 #### NOTE
 **Goal**: at the end of this section, the list view should look like this:
 
-![List view](06_basicviews/list.png)
+![List view](../../../.gitbook/assets/list2.png)
 
 List views, also called tree views, display records in a tabular form.
 
@@ -50,12 +50,12 @@ remains unique for each view!
 ## Form
 
 **Reference**: the documentation related to this topic can be found in
-[Form](../../reference/user_interface/view_architectures.md#reference-view-architectures-form).
+[Form](developer/reference/user_interface/view_architectures.md#reference-view-architectures-form).
 
 #### NOTE
 **Goal**: at the end of this section, the form view should look like this:
 
-![Form view](06_basicviews/form.png)
+![Form view](../../../.gitbook/assets/form.png)
 
 Forms are used to create and edit single records.
 
@@ -103,17 +103,17 @@ This parameter allows you to just refresh the page to view your view modificatio
 ## Search
 
 **Reference**: the documentation related to this topic can be found in
-[Search](../../reference/user_interface/view_architectures.md#reference-view-architectures-search).
+[Search](developer/reference/user_interface/view_architectures.md#reference-view-architectures-search).
 
 #### NOTE
 **Goal**: at the end of this section, the search view should look like this:
 
-![Search fields](06_basicviews/search_01.png)![Filter](06_basicviews/search_02.png)![Group By](06_basicviews/search_03.png)
+![Search fields](../../../.gitbook/assets/search_01.png)![Filter](../../../.gitbook/assets/search_02.png)![Group By](../../../.gitbook/assets/search_03.png)
 
 Search views are slightly different from the list and form views since they don't display
 *content*. Although they apply to a specific model, they are used to filter
 other views' content (generally aggregated views such as
-[List](../../reference/user_interface/view_architectures.md#reference-view-architectures-list)). Beyond the difference in use case, they are
+[List](developer/reference/user_interface/view_architectures.md#reference-view-architectures-list)). Beyond the difference in use case, they are
 defined the same way.
 
 Their root element is `<search>`. The most basic version of this view simply
@@ -146,7 +146,7 @@ Before going further in the exercise, it is necessary to introduce the 'domain' 
 ### Domains
 
 **Reference**: the documentation related to this topic can be found in
-[Search domains](../../reference/backend/orm.md#reference-orm-domains).
+[Search domains](developer/reference/backend/orm.md#reference-orm-domains).
 
 In Odoo, a domain encodes conditions on
 records: a domain is a list of criteria used to select a subset of a model's
@@ -183,4 +183,4 @@ elements. To avoid parsing errors, entity references should be used:
 
 Looking good? At this point we are already able to create models and design a user interface which
 makes sense business-wise. However, a key component is still missing: the
-[link between models](07_relations.md).
+[link between models](developer/tutorials/server_framework_101/07_relations.md).

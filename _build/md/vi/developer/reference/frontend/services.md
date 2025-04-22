@@ -166,7 +166,7 @@ Effects are graphical elements that can be temporarily displayed on top of the p
 
 A good example would be the rainbow man:
 
-![The rainbow man effect](services/rainbow_man.png)
+![The rainbow man effect](../../../.gitbook/assets/rainbow_man.png)
 
 Here's how this can be displayed:
 
@@ -285,7 +285,7 @@ const effectService = useService("effect");
 effectService.add({ type: "sepia" });
 ```
 
-![Odoo in sepia](services/odoo_sepia.png)
+![Odoo in sepia](../../../.gitbook/assets/odoo_sepia.png)
 
 <a id="frontend-services-http"></a>
 
@@ -404,7 +404,7 @@ this.notificationService.add("You closed a deal!", {
 });
 ```
 
-![Example of notification](services/notification_service.png)
+![Example of notification](../../../.gitbook/assets/notification_service.png)
 
 A notification that closes after a second:
 
@@ -469,7 +469,7 @@ If true, the `replace` argument tells the router that the url hash should be
 completely replaced (so values not present in the `hash` object will be removed).
 
 This method call does not reload the page. It also does not trigger a
-`hashchange` event, nor a `ROUTE_CHANGE` in the [main bus](framework_overview.md#frontend-framework-bus).
+`hashchange` event, nor a `ROUTE_CHANGE` in the [main bus](developer/reference/frontend/framework_overview.md#frontend-framework-bus).
 This is because this method is intended to only updates the url. The code calling
 this method has the responsibility to make sure that the screen is updated as
 well.
@@ -498,7 +498,7 @@ server will be unavailable for a short duration, typically just after an addon
 update or install operation.
 
 #### NOTE
-The router service emits a `ROUTE_CHANGE` event on the [main bus](framework_overview.md#frontend-framework-bus)
+The router service emits a `ROUTE_CHANGE` event on the [main bus](developer/reference/frontend/framework_overview.md#frontend-framework-bus)
 whenever the current route has changed.
 
 <a id="frontend-services-rpc"></a>
@@ -619,7 +619,7 @@ The following values are contained in the `anchor-link-clicked` custom event exp
 | `originalEv` | `Event`              | The original click event                |
 
 #### NOTE
-The scroller service emits a `SCROLLER:ANCHOR_LINK_CLICKED` event on the [main bus](framework_overview.md#frontend-framework-bus).
+The scroller service emits a `SCROLLER:ANCHOR_LINK_CLICKED` event on the [main bus](developer/reference/frontend/framework_overview.md#frontend-framework-bus).
 To avoid the default scroll behavior of the scroller service, you must use `preventDefault()` on the event given
 to the listener so that you can implement your own behavior correctly from the listener.
 
@@ -708,26 +708,26 @@ the connected user.
 
 #### API
 
-| Name             | Type               | Description                                                                |
-|------------------|--------------------|----------------------------------------------------------------------------|
-| `context`        | `Object`           | The [user context](framework_overview.md#frontend-framework-user-context)  |
-| `db`             | `Object`           | Info about the database                                                    |
-| `home_action_id` | `(number | false)` | Id of the action used as home for the user                                 |
-| `isAdmin`        | `boolean`          | Whether the user is an admin (group `base.group_erp_manager` or superuser) |
-| `isSystem`       | `boolean`          | Whether the user is part of the system group (`base.group_system`)         |
-| `lang`           | `string`           | language used                                                              |
-| `name`           | `string`           | Name of the user                                                           |
-| `partnerId`      | `number`           | Id of the partner instance of the user                                     |
-| `tz`             | `string`           | The timezone of the user                                                   |
-| `userId`         | `number`           | Id of the user                                                             |
-| `userName`       | `string`           | Alternative nick name of the user                                          |
+| Name             | Type               | Description                                                                                            |
+|------------------|--------------------|--------------------------------------------------------------------------------------------------------|
+| `context`        | `Object`           | The [user context](developer/reference/frontend/framework_overview.md#frontend-framework-user-context) |
+| `db`             | `Object`           | Info about the database                                                                                |
+| `home_action_id` | `(number | false)` | Id of the action used as home for the user                                                             |
+| `isAdmin`        | `boolean`          | Whether the user is an admin (group `base.group_erp_manager` or superuser)                             |
+| `isSystem`       | `boolean`          | Whether the user is part of the system group (`base.group_system`)                                     |
+| `lang`           | `string`           | language used                                                                                          |
+| `name`           | `string`           | Name of the user                                                                                       |
+| `partnerId`      | `number`           | Id of the partner instance of the user                                                                 |
+| `tz`             | `string`           | The timezone of the user                                                                               |
+| `userId`         | `number`           | Id of the user                                                                                         |
+| `userName`       | `string`           | Alternative nick name of the user                                                                      |
 
 ### updateContext(update)
 
 * **Đối số:**
   * **update** (`object()`) -- the object to update the context with
 
-update the [user context](framework_overview.md#frontend-framework-user-context) with the given object.
+update the [user context](developer/reference/frontend/framework_overview.md#frontend-framework-user-context) with the given object.
 
 ```javascript
 userService.updateContext({ isFriend: true })
@@ -738,7 +738,7 @@ userService.updateContext({ isFriend: true })
 * **Đối số:**
   * **key** (`string()`) -- the key of the targeted attribute
 
-remove the value with the given key from the [user context](framework_overview.md#frontend-framework-user-context)
+remove the value with the given key from the [user context](developer/reference/frontend/framework_overview.md#frontend-framework-user-context)
 
 ```javascript
 userService.removeFromContext("isFriend")

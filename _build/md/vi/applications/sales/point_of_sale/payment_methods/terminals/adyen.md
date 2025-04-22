@@ -4,7 +4,7 @@ Connecting an **Adyen payment terminal** allows you to offer a fluid payment flo
 and ease the work of your cashiers.
 
 #### IMPORTANT
-- Adyen payment terminals do not require an [IoT Box](../../../../general/iot.md).
+- Adyen payment terminals do not require an [IoT Box](applications/general/iot.md).
 - Adyen terminals can be used in many countries, but not worldwide. Check the [List of countries
   supported by Adyen](https://docs.adyen.com/point-of-sale/what-we-support/supported-languages/).
 - Adyen works only with businesses processing more than **$10 million annually** or invoicing a
@@ -59,15 +59,15 @@ For Odoo to know when a payment is made, you must configure the terminal **Event
 
 ### Configure the payment method
 
-Enable the payment terminal [in the application settings](../../configuration.md#configuration-settings) and
-[create the related payment method](../../payment_methods.md). Set the journal type as
+Enable the payment terminal [in the application settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and
+[create the related payment method](applications/sales/point_of_sale/payment_methods.md). Set the journal type as
 Bank and select Adyen in the Use a Payment Terminal field.
 
 Finally, fill in the mandatory fields with your [Adyen API key](#adyen-api), [Adyen
 Terminal Identifier](#adyen-identifier), and Adyen Merchant Account.
 
-![image](adyen/payment-method.png)
+![image](../../../../../.gitbook/assets/payment-method1.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
-[POS' settings](../../configuration.md#configuration-settings), click Edit, and add the payment method
+[POS' settings](applications/sales/point_of_sale/configuration.md#configuration-settings), click Edit, and add the payment method
 under the Payments section.

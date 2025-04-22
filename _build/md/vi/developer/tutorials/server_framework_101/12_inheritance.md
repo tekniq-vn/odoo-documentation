@@ -15,11 +15,11 @@ behavior of the standard CRUD (Create, Retrieve, Update or Delete) methods.
 
 - It should not be possible to delete a property which is not new or canceled.
 
-![Unlink](12_inheritance/unlink.gif)
+![Unlink](../../../.gitbook/assets/unlink.gif)
 - When an offer is created, the property state should change to 'Offer Received'
 - It should not be possible to create an offer with a lower price than an existing offer
 
-![Create](12_inheritance/create.gif)
+![Create](../../../.gitbook/assets/create.gif)
 
 In our real estate module, we never had to develop anything specific to be able to do the
 standard CRUD actions. The Odoo framework provides the necessary
@@ -76,7 +76,7 @@ when you need to call the parent method with a modified recordset.
 ## Model Inheritance
 
 **Reference**: the documentation related to this topic can be found in
-[Inheritance and extension](../../reference/backend/orm.md#reference-orm-inheritance).
+[Inheritance and extension](developer/reference/backend/orm.md#reference-orm-inheritance).
 
 In our real estate module, we would like to display the list of properties linked to a salesperson
 directly in the Settings / Users & Companies / Users form view. To do this, we need to add a field to
@@ -97,7 +97,7 @@ The second inheritance mechanism (delegation) allows every record of a model to 
 to a parent model's record and provides transparent access to the
 fields of this parent record.
 
-![Inheritance Methods](12_inheritance/inheritance_methods.png)
+![Inheritance Methods](../../../.gitbook/assets/inheritance_methods1.png)
 
 In Odoo, the first mechanism is by far the most used. In our case, we want to add a field to an
 existing model, which means we will use the first mechanism. For example:
@@ -123,13 +123,13 @@ In the next section let's add the field to the view and check that everything is
 ## View Inheritance
 
 **Reference**: the documentation related to this topic can be found in
-[Inheritance](../../reference/user_interface/view_records.md#reference-view-records-inheritance).
+[Inheritance](developer/reference/user_interface/view_records.md#reference-view-records-inheritance).
 
 #### NOTE
 **Goal**: at the end of this section, the list of available properties linked
 to a salesperson should be displayed in their user form view
 
-![Users](12_inheritance/users.png)
+![Users](../../../.gitbook/assets/users.png)
 
 Instead of modifying existing views in place (by overwriting them), Odoo
 provides view inheritance where children 'extension' views are applied on top of
@@ -197,5 +197,5 @@ An example of a view inheritance extension can be found
 Inheritance is extensively used in Odoo due to its modular concept. Do not hesitate to read
 the corresponding documentation for more info!
 
-In the [next chapter](13_other_module.md), we will learn how to
+In the [next chapter](developer/tutorials/server_framework_101/13_other_module.md), we will learn how to
 interact with other modules.

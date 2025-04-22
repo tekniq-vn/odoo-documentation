@@ -11,18 +11,18 @@ To view or modify *Helpdesk* teams, go to Helpdesk app ‣ Configuration ‣
 Helpdesk Teams. To create a new team, click the New button in the top-left of the
 dashboard.
 
-![View of the Helpdesk teams page in Odoo Helpdesk.](helpdesk/helpdesk-teams-list.png)
+![View of the Helpdesk teams page in Odoo Helpdesk.](../../.gitbook/assets/helpdesk-teams-list.png)
 
 On the blank Helpdesk team form, enter a Name for the new team. Then, enter a
 description of the team in the field below the team name, if desired. To change the company this
 team is assigned to, select it from the Company drop-down menu.
 
 #### IMPORTANT
-The team description is published on the public facing [website form](helpdesk/overview/receiving_tickets.md), where customers and portal users submit tickets. The
+The team description is published on the public facing [website form](applications/services/helpdesk/overview/receiving_tickets.md), where customers and portal users submit tickets. The
 description included in this field should **not** include any information that is for internal
 use only.
 
-![View of a Helpdesk team's website form displaying the team description.](helpdesk/team-description-webform.png)
+![View of a Helpdesk team's website form displaying the team description.](../../.gitbook/assets/team-description-webform.png)
 
 ### Visibility & Assignment
 
@@ -68,7 +68,7 @@ manually on each ticket individually, or through Automatic Assignment. Check the
 Automatic Assignment checkbox to enable this feature for the team.
 
 ![View of a Helpdesk team settings page emphasizing the automatic assignment features in Odoo
-Helpdesk.](helpdesk/helpdesk-visibility-assignment.png)
+Helpdesk.](../../.gitbook/assets/helpdesk-visibility-assignment.png)
 
 As soon as Automatic Assignment has been enabled, additional fields appear.
 
@@ -99,8 +99,8 @@ tickets during that time. If no employees are available, the system looks ahead 
 match.
 
 #### SEE ALSO
-- [Manage users](../general/users.md#users-add-individual)
-- [Access rights](../general/users/access_rights.md)
+- [Manage users](applications/general/users.md#users-add-individual)
+- [Access rights](applications/general/users/access_rights.md)
 
 ## Create or modify stages
 
@@ -108,7 +108,7 @@ match.
 customizable, and can be renamed to fit the needs of each team.
 
 #### IMPORTANT
-[Developer mode](../general/developer_mode.md#developer-mode) **must** be activated to access the stages menu. To
+[Developer mode](applications/general/developer_mode.md#developer-mode) **must** be activated to access the stages menu. To
 activate developer mode, go to Settings app ‣ General Settings ‣ Developer
 Tools, and click Activate the developer mode.
 
@@ -122,7 +122,7 @@ To change the order of the stages, click the <i class="oi oi-draggable"></i> (dr
 left of the stage name, and drag it to the desired place on the list.
 
 ![View of the stage list page emphasizing the buttons used to change the order the stages
-appear in the list.](helpdesk/stages-list-buttons.png)
+appear in the list.](../../.gitbook/assets/stages-list-buttons.png)
 
 To create a new stage, click the New button at the top-left of the stage list. Doing so
 reveals a blank stage form.
@@ -130,7 +130,7 @@ reveals a blank stage form.
 Choose a Name for the new stage, and add a description, if desired. Then, proceed to
 fill out the remaining fields following the steps below.
 
-![View of a stage's settings page in Odoo Helpdesk.](helpdesk/new-stage-details.png)
+![View of a stage's settings page in Odoo Helpdesk.](../../.gitbook/assets/new-stage-details.png)
 
 ### Add email and SMS templates to stages
 
@@ -139,7 +139,7 @@ customer when a ticket reaches that specific stage in the pipeline. Likewise, ad
 SMS Template triggers an SMS text message to send to the customer.
 
 #### IMPORTANT
-SMS Text Messaging is an [In-App Purchase (IAP)](../essentials/in_app_purchase.md)
+SMS Text Messaging is an [In-App Purchase (IAP)](applications/essentials/in_app_purchase.md)
 service that requires prepaid credits to work. Refer to [SMS Pricing FAQ](https://iap-services.odoo.com/iap/sms/pricing) for additional information.
 
 To select an existing email template, select it from the Email Template field. Click on
@@ -151,10 +151,10 @@ Create and edit from the drop-down menu that appears, and complete the form deta
 
 Follow the same steps to select, edit, or create an SMS Template.
 
-![View of an SMS template setup page in Odoo Helpdesk](helpdesk/sms-template.png)
+![View of an SMS template setup page in Odoo Helpdesk](../../.gitbook/assets/sms-template1.png)
 
 #### SEE ALSO
-[Mẫu Email](../general/companies/email_template.md)
+[Mẫu Email](applications/general/companies/email_template.md)
 
 ### Assign stages to a team
 
@@ -191,7 +191,7 @@ team's Kanban card.
 Select a stage to fold temporarily, then click the <i class="fa fa-gear"></i> (gear) icon, and
 select Fold from the drop-down menu.
 
-![Kanban view of a Helpdesk stage, with the temporary fold option emphasized.](helpdesk/fold-stage-kanban.png)
+![Kanban view of a Helpdesk stage, with the temporary fold option emphasized.](../../.gitbook/assets/fold-stage-kanban.png)
 
 #### IMPORTANT
 Manually folding a stage from the Kanban view is temporary and does **not** close the tickets in
@@ -203,20 +203,20 @@ If duplicate tickets are found in *Helpdesk*, they can be combined into a single
 *merge* feature.
 
 #### IMPORTANT
-The *merge* feature is **only** accessible if the [Data Cleaning](../productivity/data_cleaning.md) application is installed on the database.
+The *merge* feature is **only** accessible if the [Data Cleaning](applications/productivity/data_cleaning.md) application is installed on the database.
 
-Để gộp hai hoặc nhiều phiếu hỗ trợ, đi đến Ứng dụng Hỗ trợ ‣ Phiếu hỗ trợ ‣ Tất cả phiếu hỗ trợ. Xác định các phiếu hỗ trợ cần gộp và đánh dấu vào hộp kiểm ở góc bên trái của mỗi phiếu hỗ trợ để chọn chúng. Sau đó, nhấp vào biểu tượng <i class="fa fa-cog"></i> Tác vụ và chọn Gộp từ menu thả xuống. Thao tác này sẽ mở một trang mới, trong đó các phiếu hỗ trợ đã chọn được liệt kê với xếp hạng Tính tương đồng của chúng. Từ đây, nhấp vào [Gộp](../productivity/data_cleaning.md#data-cleaning-merge-records) để gộp các phiếu hỗ trợ hoặc HUỶ BỎ.
+Để gộp hai hoặc nhiều phiếu hỗ trợ, đi đến Ứng dụng Hỗ trợ ‣ Phiếu hỗ trợ ‣ Tất cả phiếu hỗ trợ. Xác định các phiếu hỗ trợ cần gộp và đánh dấu vào hộp kiểm ở góc bên trái của mỗi phiếu hỗ trợ để chọn chúng. Sau đó, nhấp vào biểu tượng <i class="fa fa-cog"></i> Tác vụ và chọn Gộp từ menu thả xuống. Thao tác này sẽ mở một trang mới, trong đó các phiếu hỗ trợ đã chọn được liệt kê với xếp hạng Tính tương đồng của chúng. Từ đây, nhấp vào [Gộp](applications/productivity/data_cleaning.md#data-cleaning-merge-records) để gộp các phiếu hỗ trợ hoặc HUỶ BỎ.
 
 #### SEE ALSO
 - [Odoo Tutorials: Helpdesk](https://www.odoo.com/slides/helpdesk-51)
 
-* [Tổng quan](helpdesk/overview.md)
-  * [Receiving tickets](helpdesk/overview/receiving_tickets.md)
-  * [Trung tâm hỗ trợ](helpdesk/overview/help_center.md)
-  * [Service level agreements (SLA)](helpdesk/overview/sla.md)
-  * [Báo cáo](helpdesk/overview/reports.md)
-  * [Đánh giá của khách hàng](helpdesk/overview/ratings.md)
-* [Nâng cao](helpdesk/advanced.md)
-  * [Dịch vụ hậu mãi](helpdesk/advanced/after_sales.md)
-  * [Close tickets](helpdesk/advanced/close_tickets.md)
-  * [Track and bill time](helpdesk/advanced/track_and_bill.md)
+* [Tổng quan](applications/services/helpdesk/overview.md)
+  * [Receiving tickets](applications/services/helpdesk/overview/receiving_tickets.md)
+  * [Trung tâm hỗ trợ](applications/services/helpdesk/overview/help_center.md)
+  * [Service level agreements (SLA)](applications/services/helpdesk/overview/sla.md)
+  * [Báo cáo](applications/services/helpdesk/overview/reports.md)
+  * [Đánh giá của khách hàng](applications/services/helpdesk/overview/ratings.md)
+* [Nâng cao](applications/services/helpdesk/advanced.md)
+  * [Dịch vụ hậu mãi](applications/services/helpdesk/advanced/after_sales.md)
+  * [Close tickets](applications/services/helpdesk/advanced/close_tickets.md)
+  * [Track and bill time](applications/services/helpdesk/advanced/track_and_bill.md)

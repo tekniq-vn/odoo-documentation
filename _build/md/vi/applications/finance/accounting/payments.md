@@ -10,8 +10,8 @@ for use at a later date:
   reduce/settle unpaid invoices/bills.
 
 #### SEE ALSO
-- [Internal transfers](payments/internal_transfers.md)
-- [Đối chiếu ngân hàng](bank/reconciliation.md)
+- [Internal transfers](applications/finance/accounting/payments/internal_transfers.md)
+- [Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)
 - [Odoo Tutorials: Bank Configuration](https://www.odoo.com/slides/slide/bank-configuration-6832)
 
 <a id="accounting-payments-from-invoice-bill"></a>
@@ -20,7 +20,7 @@ for use at a later date:
 
 Clicking Register payment in a customer invoice or vendor bill generates a new journal
 entry and sets the amount due according to the payment amount. The counterpart is reflected in an
-[outstanding](bank.md#bank-outstanding-accounts) **receipts** or **payments** account. At this point,
+[outstanding](applications/finance/accounting/bank.md#bank-outstanding-accounts) **receipts** or **payments** account. At this point,
 the customer invoice or vendor bill is marked as In payment or [Partially paid](#accounting-payments-partial-payment). Then, when the outstanding account is reconciled with a bank
 transaction, the invoice or vendor bill changes to the Paid status.
 
@@ -29,7 +29,7 @@ click the <i class="fa fa-info-circle"></i> (information) icon in the footer of 
 Invoice Lines tab. To access additional information, such as the related journal entry,
 click View.
 
-![See detailed information of a payment.](payments/information-icon.png)
+![See detailed information of a payment.](../../../.gitbook/assets/information-icon.png)
 
 #### NOTE
 - The customer invoice or vendor bill must be in the Posted status to register the
@@ -48,7 +48,7 @@ click View.
 When a new payment is registered via Customers / Vendors ‣ Payments, it is not
 directly linked to an invoice or bill. Instead, the account receivable or the account payable is
 matched with the **outstanding account** until it is manually matched with its related invoice or
-bill. Then, [reconciling](bank/reconciliation.md) the payment with the bank transaction completes
+bill. Then, [reconciling](applications/finance/accounting/bank/reconciliation.md) the payment with the bank transaction completes
 the payment workflow.
 
 <a id="accounting-payments-payments-matching"></a>
@@ -56,7 +56,7 @@ the payment workflow.
 ### Payments matching
 
 #### NOTE
-During the [bank reconciliation](bank/reconciliation.md) process, a remaining balance is
+During the [bank reconciliation](applications/finance/accounting/bank/reconciliation.md) process, a remaining balance is
 identified if the total debits and credits do not match when records are compared with bank
 transactions. This balance must either be reconciled later or written off immediately.
 
@@ -68,9 +68,9 @@ A blue banner appears when validating a new invoice/bill and an **outstanding pa
 this specific customer or vendor. To match it with the invoice or bill, click Add
 under Outstanding Credits or Outstanding Debits.
 
-![Shows the Add option to reconcile an invoice or a bill with a payment.](payments/add-option.png)
+![Shows the Add option to reconcile an invoice or a bill with a payment.](../../../.gitbook/assets/add-option.png)
 
-The invoice or bill is then marked as In payment until the payment is [reconciled](bank/reconciliation.md) with its corresponding [bank transaction(s)](bank/transactions.md).
+The invoice or bill is then marked as In payment until the payment is [reconciled](applications/finance/accounting/bank/reconciliation.md) with its corresponding [bank transaction(s)](applications/finance/accounting/bank/transactions.md).
 
 <a id="accounting-payments-auto-reconcile-tool"></a>
 
@@ -101,8 +101,8 @@ To use the Auto-Reconcile feature, follow these steps:
 3. Click Launch.
 
 Invoices and bills are automatically matched to their corresponding payments and marked as
-In payment until they are [reconciled](bank/reconciliation.md) with their
-corresponding [bank transactions](bank/transactions.md).
+In payment until they are [reconciled](applications/finance/accounting/bank/reconciliation.md) with their
+corresponding [bank transactions](applications/finance/accounting/bank/transactions.md).
 
 <a id="accounting-payments-group-payments"></a>
 
@@ -121,17 +121,17 @@ To register payments on multiple invoices/bills, follow these steps:
 6. Click Create payment.
 
 The invoices or bills are then marked as In payment until the bank transactions are
-[reconciled](bank/reconciliation.md) with the payments.
+[reconciled](applications/finance/accounting/bank/reconciliation.md) with the payments.
 
 <a id="accounting-payments-batch-payments"></a>
 
 ## Registering a single payment for multiple customers or vendors (batch payments)
 
-Thanh toán theo lô cho phép nhóm các khoản thanh toán từ nhiều liên hệ để đơn giản hóa việc [đối chiếu](bank/reconciliation.md). Tính năng này cũng hữu ích khi nộp [séc](payments/checks.md) vào ngân hàng hoặc tạo tệp thanh toán ngân hàng như [SEPA](payments/pay_sepa.md) hoặc [NACHA](../fiscal_localizations/united_states.md#l10n-us-nacha). Để sử dụng, hãy truy cập Kế toán ‣ Khách hàng ‣ Thanh toán hoặc Kế toán ‣ Nhà cung cấp ‣ Thanh toán. Trong chế độ xem danh sách thanh toán, chọn các khoản cần nhóm vào lô, nhấp <i class="fa fa-cog"></i> Hành động, rồi chọn Tạo thanh toán theo lô.
+Thanh toán theo lô cho phép nhóm các khoản thanh toán từ nhiều liên hệ để đơn giản hóa việc [đối chiếu](applications/finance/accounting/bank/reconciliation.md). Tính năng này cũng hữu ích khi nộp [séc](applications/finance/accounting/payments/checks.md) vào ngân hàng hoặc tạo tệp thanh toán ngân hàng như [SEPA](applications/finance/accounting/payments/pay_sepa.md) hoặc [NACHA](applications/finance/fiscal_localizations/united_states.md#l10n-us-nacha). Để sử dụng, hãy truy cập Kế toán ‣ Khách hàng ‣ Thanh toán hoặc Kế toán ‣ Nhà cung cấp ‣ Thanh toán. Trong chế độ xem danh sách thanh toán, chọn các khoản cần nhóm vào lô, nhấp <i class="fa fa-cog"></i> Hành động, rồi chọn Tạo thanh toán theo lô.
 
 #### SEE ALSO
-- [Batch payments by bank deposit](payments/batch.md)
-- [Batch payments: SEPA Direct Debit (SDD)](payments/batch_sdd.md)
+- [Batch payments by bank deposit](applications/finance/accounting/payments/batch.md)
+- [Batch payments: SEPA Direct Debit (SDD)](applications/finance/accounting/payments/batch_sdd.md)
 
 <a id="accounting-payments-partial-payment"></a>
 
@@ -148,25 +148,25 @@ outstanding balance. There are two options:
   change the Label if needed. A journal entry will be created to balance the accounts
   payable or receivable with the selected account.
 
-![register a partial payment](payments/partial-payment.png)
+![register a partial payment](../../../.gitbook/assets/partial-payment.png)
 
 <a id="accounting-payments-reconciling-payments"></a>
 
 ## Reconciling payments with bank transactions
 
 Once a payment has been registered, the status of the invoice or bill is In payment. The
-next step is [reconciling](bank/reconciliation.md) the payment with the related [bank
-transaction](bank/transactions.md) line to finalize the payment workflow and mark the invoice or bill
+next step is [reconciling](applications/finance/accounting/bank/reconciliation.md) the payment with the related [bank
+transaction](applications/finance/accounting/bank/transactions.md) line to finalize the payment workflow and mark the invoice or bill
 as Paid.
 
-* [Thanh toán online](payments/online.md)
-  * [Install the patch to disable online invoice payment](payments/online/install_portal_patch.md)
-* [Séc](payments/checks.md)
-* [Batch payments by bank deposit](payments/batch.md)
-* [Batch payments: SEPA Direct Debit (SDD)](payments/batch_sdd.md)
-* [Follow up hoá đơn](payments/follow_up.md)
-* [Internal transfers](payments/internal_transfers.md)
-* [Thanh toán bằng SEPA](payments/pay_sepa.md)
-* [Pay by checks](payments/pay_checks.md)
-* [Forecast future bills to pay](payments/forecast.md)
-* [Trusted accounts (send money)](payments/trusted_accounts.md)
+* [Thanh toán online](applications/finance/accounting/payments/online.md)
+  * [Install the patch to disable online invoice payment](applications/finance/accounting/payments/online/install_portal_patch.md)
+* [Séc](applications/finance/accounting/payments/checks.md)
+* [Batch payments by bank deposit](applications/finance/accounting/payments/batch.md)
+* [Batch payments: SEPA Direct Debit (SDD)](applications/finance/accounting/payments/batch_sdd.md)
+* [Follow up hoá đơn](applications/finance/accounting/payments/follow_up.md)
+* [Internal transfers](applications/finance/accounting/payments/internal_transfers.md)
+* [Thanh toán bằng SEPA](applications/finance/accounting/payments/pay_sepa.md)
+* [Pay by checks](applications/finance/accounting/payments/pay_checks.md)
+* [Forecast future bills to pay](applications/finance/accounting/payments/forecast.md)
+* [Trusted accounts (send money)](applications/finance/accounting/payments/trusted_accounts.md)

@@ -14,7 +14,7 @@ Tùy vào báo cáo, Odoo có thể hiển thị dữ liệu theo nhiều cách 
 
 [Chế độ xem biểu đồ](#reporting-using-graph) được sử dụng để trực quan hóa dữ liệu bản ghi của bạn, giúp bạn xác định các xu hướng. Chế độ xem này thường nằm trong menu Báo cáo của ứng dụng nhưng cũng có thể nằm ở nơi khác. Nhấp vào **nút chế độ xem biểu đồ** nằm ở phía trên cùng bên phải để truy cập.
 
-![Chọn chế độ xem biểu đồ](reporting/graph-button.png)
+![Chọn chế độ xem biểu đồ](../../.gitbook/assets/graph-button.png)
 
 <a id="reporting-views-pivot"></a>
 
@@ -22,7 +22,7 @@ Tùy vào báo cáo, Odoo có thể hiển thị dữ liệu theo nhiều cách 
 
 [Chế độ xem pivot](#reporting-using-pivot) được sử dụng để tổng hợp dữ liệu trên các bản ghi của bạn và chia nhỏ chúng để phân tích. Chế độ xem này thường nằm trong menu Báo cáo của ứng dụng nhưng cũng có thể nằm ở nơi khác. Nhấp vào **nút chế độ xem pivot** nằm ở phía trên cùng bên phải để truy cập.
 
-![Chọn chế độ xem pivot](reporting/pivot-button.png)
+![Chọn chế độ xem pivot](../../.gitbook/assets/pivot-button.png)
 
 <a id="reporting-choosing-measures"></a>
 
@@ -32,11 +32,11 @@ Sau khi chọn chế độ xem, bạn nên đảm bảo chỉ có các bản ghi
 
 #### NOTE
 When you select a measure, Odoo aggregates the values recorded on that field for the filtered
-records. Only numerical fields ([integer](../studio/fields.md#studio-fields-simple-fields-integer),
-[decimal](../studio/fields.md#studio-fields-simple-fields-decimal), [monetary](../studio/fields.md#studio-fields-simple-fields-monetary)) can be measured. In addition, the Count
+records. Only numerical fields ([integer](applications/studio/fields.md#studio-fields-simple-fields-integer),
+[decimal](applications/studio/fields.md#studio-fields-simple-fields-decimal), [monetary](applications/studio/fields.md#studio-fields-simple-fields-monetary)) can be measured. In addition, the Count
 option is used to count the total number of filtered records.
 
-Sau khi chọn những gì bạn muốn đo lường, bạn có thể xác định cách dữ liệu sẽ được [nhóm](search.md#search-group) tùy thuộc vào hướng mà bạn muốn phân tích. Theo mặc định, dữ liệu thường được nhóm theo *Ngày > Tháng*, được sử dụng để phân tích sự tiến triển của một thước đo theo tháng.
+Sau khi chọn những gì bạn muốn đo lường, bạn có thể xác định cách dữ liệu sẽ được [nhóm](applications/essentials/search.md#search-group) tùy thuộc vào hướng mà bạn muốn phân tích. Theo mặc định, dữ liệu thường được nhóm theo *Ngày > Tháng*, được sử dụng để phân tích sự tiến triển của một thước đo theo tháng.
 
 <a id="reporting-using-pivot"></a>
 
@@ -60,12 +60,12 @@ Có ba loại biểu đồ: biểu đồ cột, đường, và tròn.
 
 Biểu đồ cột
 
-![Báo cáo Phân tích doanh số dưới dạng biểu đồ cột](reporting/bar.png)
+![Báo cáo Phân tích doanh số dưới dạng biểu đồ cột](../../.gitbook/assets/bar.png)
 
 Biểu đồ đường
 
-![Báo cáo Phân tích doanh số dưới dạng biểu đồ đường](reporting/line.png)
+![Báo cáo Phân tích doanh số dưới dạng biểu đồ đường](../../.gitbook/assets/line.png)
 
 Biểu đồ tròn
 
-![Báo cáo Phân tích doanh số dưới dạng biểu đồ tròn](reporting/pie.png)
+![Báo cáo Phân tích doanh số dưới dạng biểu đồ tròn](../../.gitbook/assets/pie.png)

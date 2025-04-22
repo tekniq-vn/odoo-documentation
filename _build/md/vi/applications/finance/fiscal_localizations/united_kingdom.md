@@ -4,7 +4,7 @@
 
 ## Cấu hình
 
-[Install](../../general/apps_modules.md#general-install) the UK - Accounting and the UK - Accounting
+[Install](applications/general/apps_modules.md#general-install) the UK - Accounting and the UK - Accounting
 Reports modules to get all the features of the UK localization.
 
 | Tên                     | Tên kỹ thuật      | Mô tả                                                                                                |
@@ -43,7 +43,7 @@ To edit existing taxes or to Create a new tax, go to Accounting ‣
 Configuration ‣ Accounting: Taxes.
 
 #### SEE ALSO
-- [thuế](../accounting/taxes.md)
+- [thuế](applications/finance/accounting/taxes.md)
 - Tutorial: [Tax report and return](https://www.odoo.com/slides/slide/tax-report-and-return-1719?fullscreen=1).
 
 ### Making Tax Digital (MTD)
@@ -119,7 +119,7 @@ module is installed, then:
 ### Bill payments
 
 To generate Bacs files for bill payments, set the Payment Method to
-BACS Direct Debit when [registering vendor payments](../accounting/payments/batch.md#batch-payments-register-payments).
+BACS Direct Debit when [registering vendor payments](applications/finance/accounting/payments/batch.md#batch-payments-register-payments).
 
 Then, create a vendor batch payment:
 
@@ -135,7 +135,7 @@ Then, create a vendor batch payment:
 Once validated, the Bacs file is available in the chatter. You can also Re-generate
 Export File if you need a new Bacs file for that batch payment.
 
-![Vendor Batch Payment view with generated BACS file.](united_kingdom/bacs-files.png)
+![Vendor Batch Payment view with generated BACS file.](../../../.gitbook/assets/bacs-files.png)
 
 ### Invoice payments
 
@@ -145,7 +145,7 @@ and click New. Select a Customer, their IBAN, and the
 Journal you wish to use.
 
 To generate Bacs files for invoice payments, set the Payment Method to
-BACS Direct Debit when [registering invoice payments](../accounting/payments/batch.md#batch-payments-register-payments).
+BACS Direct Debit when [registering invoice payments](applications/finance/accounting/payments/batch.md#batch-payments-register-payments).
 
 Then, create a customer batch payment:
 

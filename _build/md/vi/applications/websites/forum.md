@@ -48,7 +48,7 @@ having moderator rights. They are also used to set user [ranks](#forum-ranks).
 
 #### IMPORTANT
 - A user's karma points are shared across all forums, courses, etc., of a single Odoo website.
-- eLearning users can earn karma points through different [course interactions](elearning.md#elearning-karma) and by [completing quizzes](elearning.md#elearning-quiz).
+- eLearning users can earn karma points through different [course interactions](applications/websites/elearning.md#elearning-karma) and by [completing quizzes](applications/websites/elearning.md#elearning-quiz).
 
 <a id="forum-karma-gains"></a>
 
@@ -140,7 +140,7 @@ Add the Rank Name, the Required Karma points to reach it, its
 Description, a Motivational message to encourage users to reach it, and an
 image.
 
-![Default forum ranks](forum/ranks.png)
+![Default forum ranks](../../.gitbook/assets/ranks.png)
 
 <a id="forum-badges"></a>
 
@@ -173,7 +173,7 @@ Next, determine how the badge should be granted by clicking Add under the
 Rewards for challenges section. Select a challenge to add it or create one by clicking
 New.
 
-![Default forum badges](forum/badges.png)
+![Default forum badges](../../.gitbook/assets/badges1.png)
 
 <a id="forum-tags"></a>
 
@@ -229,8 +229,8 @@ Click the ellipsis button (...) to:
 >   questions afterward.
 > - Flag a question or answer as offensive.
 > - Convert a comment into an answer.
-> - View the related [Helpdesk ticket](../services/helpdesk/overview/help_center.md#helpdesk-forum), if any.
-![Posts actions](forum/post-actions.png)
+> - View the related [Helpdesk ticket](applications/services/helpdesk/overview/help_center.md#helpdesk-forum), if any.
+![Posts actions](../../.gitbook/assets/post-actions.png)
 
 #### NOTE
 By default, 150 karma points are required to view another user's profile. This value can be
@@ -243,12 +243,12 @@ configured when creating a new website.
 On the forum's front end, the sidebar's Moderation tools section gathers the essential
 moderator functionalities.
 
-![Forum sidebar moderation tools](forum/moderation-tools.png)
+![Forum sidebar moderation tools](../../.gitbook/assets/moderation-tools.png)
 
 To Validate: access all questions and answers waiting for validation before being
 displayed to non-moderator users.
 
-![Question to validate](forum/to-validate.png)
+![Question to validate](../../.gitbook/assets/to-validate.png)
 
 #### NOTE
 A question is pending if a user does not have the required karma. The user is not able to post
@@ -260,7 +260,7 @@ Accept to remove the offensive flag or Offensive to confirm it, then select
 a reason and click Mark as offensive. The post is then hidden from users without
 moderation rights, and 100 karma points are deducted from the offending user's tally.
 
-![Offensive reason selection](forum/offensive-reason.png)
+![Offensive reason selection](../../.gitbook/assets/offensive-reason.png)
 
 Closed: access all questions that have been closed. It is possible to Delete
 or Reopen them. To close a question, open it, click the ellipsis button

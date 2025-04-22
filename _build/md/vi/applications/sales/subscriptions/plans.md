@@ -1,6 +1,6 @@
 # Gói cước đăng ký
 
-*Subscription plans* are [quotation templates](../sales/send_quotations/quote_template.md) used to preconfigure quotations with
+*Subscription plans* are [quotation templates](applications/sales/sales/send_quotations/quote_template.md) used to preconfigure quotations with
 subscription products. Use subscription plans to quickly create subscription orders.
 
 ## Configure subscription plans
@@ -11,7 +11,7 @@ Then, click New to create a new plan, or select an existing plan to edit it.
 Since the Odoo *Subscriptions* app is integrated closely with the *Sales* app, subscription plans
 use the same form as quotation templates.
 
-![Subscription plan (quotation template) configuration form.](plans/subplan-quotation-template.png)
+![Subscription plan (quotation template) configuration form.](../../../.gitbook/assets/subplan-quotation-template.png)
 
 The subscription plan form contains the following options:
 
@@ -23,7 +23,7 @@ The subscription plan form contains the following options:
   Payment to enable the customer to confirm their subscription order by signing or
   paying for the quotation. Enable both to leave the choice to the customer. Enable neither to only
   confirm the quotation in the backend.
-- Confirmation Mail: Select an [email template](../../general/companies/email_template.md) for the confirmation email that is
+- Confirmation Mail: Select an [email template](applications/general/companies/email_template.md) for the confirmation email that is
   automatically sent to the customer after the quotation is confirmed. Leave this field blank to
   send nothing.
   - To create a new email template, enter a name for the template, then click Create and
@@ -44,14 +44,14 @@ the following additional options:
   - If the duration is Fixed, then enter an End After date, which determines
     the amount of time after which the subscription will automatically end.
 - Self Closable: Check this box to enable the customer to terminate their subscription
-  from the [customer portal](../../websites/ecommerce/customer_accounts.md).
+  from the [customer portal](applications/websites/ecommerce/customer_accounts.md).
 - Automatic Closing: Enter the number of days after which *unpaid* subscriptions *past*
   the due date are automatically closed.
 - Invoicing Journal: Select the accounting journal in which invoices for this
   subscription plan are recorded. Leave this field blank to use the sales journal with the lowest
   sequence.
 
-![Subscription plan with Recurrence selected.](plans/subplan-recurrence.png)
+![Subscription plan with Recurrence selected.](../../../.gitbook/assets/subplan-recurrence.png)
 
 In the Lines tab, create the order lines for the quotation. Click Add a
 product, select a product to include in the plan, and then enter the Quantity and
@@ -60,11 +60,11 @@ Unit of Measure. Add as many products as desired to the order lines.
 In the Optional Products tab, enter any optional products that the customer can add to
 their quotation before confirming the order.
 
-If the subscription plan has unique [terms and conditions](../../finance/accounting/customer_invoices/terms_conditions.md), add them in the
+If the subscription plan has unique [terms and conditions](applications/finance/accounting/customer_invoices/terms_conditions.md), add them in the
 Terms & Conditions tab. If terms conditions are specified on a plan, these will be used
 instead of the default terms and conditions set up in the *Sales* app settings.
 
-![Subscription plan Terms & Conditions tab.](plans/subplan-terms-conditions.png)
+![Subscription plan Terms & Conditions tab.](../../../.gitbook/assets/subplan-terms-conditions.png)
 
 ## Use subscription plans on quotations
 

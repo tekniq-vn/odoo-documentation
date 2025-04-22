@@ -4,13 +4,13 @@
 
 ## Cài đặt
 
-[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Egyptian
+[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Egyptian
 localization:
 
-| Tên                                 | Tên kỹ thuật      | Mô tả                                                                                           |
-|-------------------------------------|-------------------|-------------------------------------------------------------------------------------------------|
-| Ai Cập - Kế toán                    | `l10n_eg`         | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
-| Tích hợp hóa đơn điện tử của Ai Cập | `l10n_eg_edi_eta` | [Egyptian Tax Authority (ETA) e-invoicing integration](#egypt-e-invoicing)                      |
+| Tên                                 | Tên kỹ thuật      | Mô tả                                                                                                             |
+|-------------------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------|
+| Ai Cập - Kế toán                    | `l10n_eg`         | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) |
+| Tích hợp hóa đơn điện tử của Ai Cập | `l10n_eg_edi_eta` | [Egyptian Tax Authority (ETA) e-invoicing integration](#egypt-e-invoicing)                                        |
 
 <a id="egypt-e-invoicing"></a>
 
@@ -19,11 +19,11 @@ localization:
 Odoo is compliant with the **Egyptian Tax Authority (ETA) e-invoicing** requirements.
 
 #### IMPORTANT
-Egyptian e-invoicing is available from Odoo 15.0. If needed, [upgrade](../../../administration/upgrade.md) your database.
+Egyptian e-invoicing is available from Odoo 15.0. If needed, [upgrade](administration/upgrade.md) your database.
 
 #### SEE ALSO
 - [Video: Egypt E-invoicing](https://www.youtube.com/watch?v=NXuBPLR4pVw)
-- [Nâng cấp](../../../administration/upgrade.md)
+- [Nâng cấp](administration/upgrade.md)
 
 <a id="egypt-e-invoicing-eta-portal"></a>
 
@@ -34,12 +34,12 @@ these codes to [configure your Odoo Accounting app](#egypt-e-invoicing-configura
 
 Access your company profile on the ETA portal by clicking on View Taxpayer Profile.
 
-![Clicking on "View Taxpayer Profile" on an ETA invoicing portal](egypt/taxpayer-profile.png)
+![Clicking on "View Taxpayer Profile" on an ETA invoicing portal](../../../.gitbook/assets/taxpayer-profile.png)
 
 Next, go to the Representatives section and then click on Register ERP.
 Fill out the ERP Name (e.g., `Odoo`) and leave the other fields empty.
 
-![Filling out of the form to register an ERP system on the ETA portal.](egypt/add-erp-system.png)
+![Filling out of the form to register an ERP system on the ETA portal.](../../../.gitbook/assets/add-erp-system.png)
 
 Once successfully registered, the website displays your API credentials:
 
@@ -60,7 +60,7 @@ To connect your Odoo database to your ETA portal account, go to Accounting ‣
 Configuration ‣ Settings ‣ ETA E-Invoicing Settings, and set the ETA Client ID and
 ETA Secret that you retrieved when you [registered Odoo on your ETA portal](#egypt-e-invoicing-eta-portal). Set an invoicing threshold if needed.
 
-![Configuration of the ETA E-Invoicing credentials in Odoo Accounting](egypt/eta-api-integration.png)
+![Configuration of the ETA E-Invoicing credentials in Odoo Accounting](../../../.gitbook/assets/eta-api-integration.png)
 
 #### IMPORTANT
 - **Test on your preproduction portal** before starting to issue real invoices on the production
@@ -98,7 +98,7 @@ Most of these codes are handled automatically by Odoo, provided that your [branc
 
 #### SEE ALSO
 - [Egyptian eInvoicing & eReceipt SDK - Code Tables](https://sdk.preprod.invoicing.eta.gov.eg/codes/)
-- [Thuế](../accounting/taxes.md)
+- [Thuế](applications/finance/accounting/taxes.md)
 
 <a id="egypt-e-invoicing-branches"></a>
 
@@ -117,7 +117,7 @@ Egyptian ETA settings section:
 - Set the ETA Activity Code.
 - Set the ETA Branch ID (use `0` if you have one branch only).
 
-![Sales journal configuration of an Egyptian company's branch](egypt/branch-journal.png)
+![Sales journal configuration of an Egyptian company's branch](../../../.gitbook/assets/branch-journal.png)
 
 #### IMPORTANT
 The contact selected in the Branch field must be set as a Company
@@ -146,7 +146,7 @@ Make sure your products are correctly configured so your e-invoices are valid:
 
 - Product Type: storable products, consumables, or services.
 - Unit of Measure: if you also use Odoo Inventory and have enabled [Units of
-  Measure](../../inventory_and_mrp/inventory/product_management/configure/uom.md).
+  Measure](applications/inventory_and_mrp/inventory/product_management/configure/uom.md).
 - Barcode: **GS1** or **EGS** barcode
 - ETA Item code (under the Accounting tab): if the barcode doesn't
   match your ETA item code.
@@ -175,7 +175,7 @@ installation on your computer.
 
 Select Odoo IoT as the type of install.
 
-![Selection of "Odoo IoT" during the installation of Odoo Community.](egypt/install-odoo-local-proxy.png)
+![Selection of "Odoo IoT" during the installation of Odoo Community.](../../../.gitbook/assets/install-odoo-local-proxy.png)
 
 #### NOTE
 This installation of Odoo only works as a server and does not install any Odoo apps on your
@@ -186,7 +186,7 @@ Proxy. Copy the token and save it in a safe place for later use.
 
 #### SEE ALSO
 - [Odoo: Download Odoo](https://www.odoo.com/page/download)
-- [On-premise](../../../administration/on_premise.md)
+- [On-premise](administration/on_premise.md)
 
 <a id="egypt-e-invoicing-usb-configuration"></a>
 
@@ -201,4 +201,4 @@ Once the local proxy server is installed on your computer, you can link it with 
    installation](#egypt-e-invoicing-local-proxy), then click on Save.
 3. Click on Get certificate.
 
-![Creating a new thumb drive for the e-invoicing of an egyptian company.](egypt/thumb-drive.png)
+![Creating a new thumb drive for the e-invoicing of an egyptian company.](../../../.gitbook/assets/thumb-drive.png)

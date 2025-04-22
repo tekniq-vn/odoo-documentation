@@ -5,12 +5,12 @@ various features that allow performing all the required tasks in such businesses
 
 Once the POS is set to be used in a restaurant or a bar, you can:
 
-- [organize your floors and tables to reflect your interior](restaurant/floors_tables.md);
+- [organize your floors and tables to reflect your interior](applications/sales/point_of_sale/restaurant/floors_tables.md);
 - [take orders](#restaurant-orders);
-- [communicate with the kitchen or the bar through the POS](restaurant/kitchen_printing.md);
-- [print bills in advance and split them](restaurant/bill_printing.md);
-- [collect tips](restaurant/tips.md); and
-- [set different taxes for takeaway food](pricing/fiscal_position.md).
+- [communicate with the kitchen or the bar through the POS](applications/sales/point_of_sale/restaurant/kitchen_printing.md);
+- [print bills in advance and split them](applications/sales/point_of_sale/restaurant/bill_printing.md);
+- [collect tips](applications/sales/point_of_sale/restaurant/tips.md); and
+- [set different taxes for takeaway food](applications/sales/point_of_sale/pricing/fiscal_position.md).
 
 <a id="restaurant-configuration"></a>
 
@@ -21,7 +21,7 @@ Configuration ‣ Settings, select the POS, and activate Is a Bar/Restaurant.
 
 These features are displayed in the Restaurant & Bar section.
 
-![restaurant and bar-specific features](restaurant/restaurant-bar-section.png)
+![restaurant and bar-specific features](../../../.gitbook/assets/restaurant-bar-section.png)
 
 <a id="restaurant-orders"></a>
 
@@ -36,9 +36,9 @@ Once you have taken an order, click Change table to return to the floor plan vie
 #### NOTE
 As soon as you click a table, the number of guests is automatically set to one. If you
 mistakenly select a table, click Release table to free it or [transfer the
-customer](restaurant/floors_tables.md#floors-tables-transfer) to another table.
+customer](applications/sales/point_of_sale/restaurant/floors_tables.md#floors-tables-transfer) to another table.
 
-* [Floors and tables](restaurant/floors_tables.md)
-* [Orders printing](restaurant/kitchen_printing.md)
-* [Hoá đơn](restaurant/bill_printing.md)
-* [Tiền tip](restaurant/tips.md)
+* [Floors and tables](applications/sales/point_of_sale/restaurant/floors_tables.md)
+* [Orders printing](applications/sales/point_of_sale/restaurant/kitchen_printing.md)
+* [Hoá đơn](applications/sales/point_of_sale/restaurant/bill_printing.md)
+* [Tiền tip](applications/sales/point_of_sale/restaurant/tips.md)

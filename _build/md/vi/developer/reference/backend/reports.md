@@ -5,10 +5,10 @@
 # QWeb Reports
 
 Reports are written in HTML/QWeb, like website views in Odoo. You can use
-the usual [QWeb control flow tools](../frontend/qweb.md#reference-qweb). The PDF rendering
+the usual [QWeb control flow tools](developer/reference/frontend/qweb.md#reference-qweb). The PDF rendering
 itself is performed by [wkhtmltopdf](https://wkhtmltopdf.org).
 
-Reports are declared using a [report action](actions.md#reference-actions-report),
+Reports are declared using a [report action](developer/reference/backend/actions.md#reference-actions-report),
 and a [Report template](#reference-reports-templates) for the action to use.
 
 If useful or necessary, it is possible to specify a
@@ -141,7 +141,7 @@ language, you could call the report's external layout this way:
 ### Barcodes
 
 Barcodes are images returned by a controller and can easily be embedded in
-reports thanks to the QWeb syntax (e.g. see [attributes](../frontend/qweb.md#reference-qweb-attributes)):
+reports thanks to the QWeb syntax (e.g. see [attributes](developer/reference/frontend/qweb.md#reference-qweb-attributes)):
 
 ```html
 <img t-att-src="'/report/barcode/QR/%s' % 'My text in qr code'"/>
@@ -173,7 +173,7 @@ More parameters can be passed as a query string
   </template>
   ```
 * If it appears that your PDF report is missing the styles, please check
-  [these instructions](../../tutorials/backend.md#reference-backend-reporting-printed-reports-pdf-without-styles).
+  [these instructions](developer/tutorials/backend.md#reference-backend-reporting-printed-reports-pdf-without-styles).
 
 <a id="reference-reports-paper-formats"></a>
 

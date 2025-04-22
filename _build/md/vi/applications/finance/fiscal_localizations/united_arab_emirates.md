@@ -4,16 +4,16 @@
 
 ## Cài đặt
 
-[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the **United Arab
+[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the **United Arab
 Emirates** localization:
 
-| Tên                                            | Tên kỹ thuật                 | Mô tả                                                                                                             |
-|------------------------------------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Các Tiểu Vương quốc Ả Rập Thống nhất - Kế toán | `l10n_ae`                    | Default [fiscal localization package](../fiscal_localizations.md).<br/>Includes all accounts, taxes, and reports. |
-| U.A.E. - Bảng lương                            | `l10n_ae_hr_payroll`         | Includes all rules, calculations, and salary structures.                                                          |
-| U.A.E. - Bảng lương với Kế toán                | `l10n_ae_hr_payroll_account` | Includes all accounts related to the payroll module.                                                              |
-| United Arab Emirates - Point of Sale           | `l10n_ae_pos`                | Includes the UAE-compliant POS receipt.                                                                           |
-![Select the modules to install.](united_arab_emirates/l10n-ae-modules.png)
+| Tên                                            | Tên kỹ thuật                 | Mô tả                                                                                                                               |
+|------------------------------------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Các Tiểu Vương quốc Ả Rập Thống nhất - Kế toán | `l10n_ae`                    | Default [fiscal localization package](applications/finance/fiscal_localizations.md).<br/>Includes all accounts, taxes, and reports. |
+| U.A.E. - Bảng lương                            | `l10n_ae_hr_payroll`         | Includes all rules, calculations, and salary structures.                                                                            |
+| U.A.E. - Bảng lương với Kế toán                | `l10n_ae_hr_payroll_account` | Includes all accounts related to the payroll module.                                                                                |
+| United Arab Emirates - Point of Sale           | `l10n_ae_pos`                | Includes the UAE-compliant POS receipt.                                                                                             |
+![Select the modules to install.](../../../.gitbook/assets/l10n-ae-modules.png)
 
 ## Hệ thống tài khoản
 
@@ -52,12 +52,12 @@ to your needs.
 
 ## Thuế
 
-Để truy cập vào các loại thuế của bạn, hãy vào Kế toán ‣ Cấu hình ‣ Thuế. Kích hoạt/hủy kích hoạt hoặc [cấu hình](../accounting/taxes.md) các loại thuế có liên quan đến doanh nghiệp của bạn bằng cách nhấp vào chúng. Hãy nhớ chỉ thiết lập các tài khoản thuế cho nhóm thuế **5%**, vì các nhóm khác không cần phải khoá sổ. Để thực hiện, hãy bật [chế độ lập trình viên](../../general/developer_mode.md) và vào Cấu hình ‣ Nhóm thuế. Sau đó, thiết lập Tài khoản thuế hiện tại (phải trả), Tài khoản thuế hiện tại (phải thu) và Tài khoản thanh toán thuế tạm ứng cho nhóm **5%**.
+Để truy cập vào các loại thuế của bạn, hãy vào Kế toán ‣ Cấu hình ‣ Thuế. Kích hoạt/hủy kích hoạt hoặc [cấu hình](applications/finance/accounting/taxes.md) các loại thuế có liên quan đến doanh nghiệp của bạn bằng cách nhấp vào chúng. Hãy nhớ chỉ thiết lập các tài khoản thuế cho nhóm thuế **5%**, vì các nhóm khác không cần phải khoá sổ. Để thực hiện, hãy bật [chế độ lập trình viên](applications/general/developer_mode.md) và vào Cấu hình ‣ Nhóm thuế. Sau đó, thiết lập Tài khoản thuế hiện tại (phải trả), Tài khoản thuế hiện tại (phải thu) và Tài khoản thanh toán thuế tạm ứng cho nhóm **5%**.
 
 #### NOTE
 The  is supported by Odoo.
 
-![Preview of the UAE localization package's taxes.](united_arab_emirates/uae-localization-taxes.png)
+![Preview of the UAE localization package's taxes.](../../../.gitbook/assets/uae-localization-taxes.png)
 
 ## Tỷ giá hối đoái
 
@@ -80,7 +80,7 @@ The UAE - Payroll module creates the necessary **salary rules** in the Payroll a
 compliance with the UAE rules and regulations. The salary rules are linked to the corresponding
 accounts in the **chart of accounts**.
 
-![The UAE Employee Payroll Structure.](united_arab_emirates/uae-localization-salary-rules.png)
+![The UAE Employee Payroll Structure.](../../../.gitbook/assets/uae-localization-salary-rules.png)
 
 ### Salary rules
 
@@ -88,7 +88,7 @@ To apply these rules to an employee's contract, go to Payroll ‣ Contracts ‣
 Contracts and select the employee's contract. In the Salary Structure Type field,
 select UAE Employee.
 
-![Select the Salary Structure Type to apply to the contract.](united_arab_emirates/uae-localization-salary-structure.png)
+![Select the Salary Structure Type to apply to the contract.](../../../.gitbook/assets/uae-localization-salary-structure.png)
 
 Under the Salary Information tab, you can find details such as the:
 

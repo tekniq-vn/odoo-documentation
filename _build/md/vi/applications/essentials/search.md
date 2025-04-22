@@ -34,7 +34,7 @@ Nếu [bộ lọc cấu hình sẵn](#search-preconfigured-filters) không đủ
 
 Cửa sổ pop-up Thêm bộ lọc tùy chỉnh hiển thị tùy chọn phù hợp, quy tắc lọc và nút bật/tắt Bao gồm dữ liệu đã lưu trữ để hiển thị cả các bản ghi đã lưu trữ.
 
-![Cửa sổ bật lên Thêm bộ lọc tùy chỉnh.](search/custom-filter.png)
+![Cửa sổ bật lên Thêm bộ lọc tùy chỉnh.](../../.gitbook/assets/custom-filter.png)
 
 Cấu hình so khớp mặc định là Khớp bất kỳ quy tắc sau, cho biết rằng mỗi quy tắc lọc được áp dụng độc lập. Để thay đổi cấu hình so khớp thành Khớp tất cả quy tắc sau, thì ít nhất hai quy tắc lọc phải được thêm vào bộ lọc tùy chỉnh.
 
@@ -44,7 +44,7 @@ Cấu hình so khớp mặc định là Khớp bất kỳ quy tắc sau, cho bi�
 Theo mặc định, một quy tắc lọc duy nhất được thêm vào bộ lọc tùy chỉnh. Thông tin sau mô tả cấu trúc của một quy tắc lọc:
 
 1. Trường nội tuyến đầu tiên là *tên trường* để lọc theo. Một số trường có các tham số tinh chỉnh được lồng vào trong một trường khác. Các trường này có biểu tượng > (mũi tên) bên cạnh, có thể được chọn để hiển thị các trường lồng nhau.
-2. Trường nội tuyến thứ hai là *toán tử* có điều kiện được sử dụng để so sánh tên trường với giá trị. [Các toán tử có điều kiện khả dụng](../../developer/reference/backend/orm.md#reference-orm-domains) được áp dụng riêng theo kiểu dữ liệu của trường.
+2. Trường nội tuyến thứ hai là *toán tử* có điều kiện được sử dụng để so sánh tên trường với giá trị. [Các toán tử có điều kiện khả dụng](developer/reference/backend/orm.md#reference-orm-domains) được áp dụng riêng theo kiểu dữ liệu của trường.
 3. Trường nội tuyến thứ ba là biến *giá trị* của tên trường. Giá trị đầu vào có thể xuất hiện dưới dạng menu thả xuống, đầu vào dạng văn bản, đầu vào dạng số, đầu vào dạng ngày/giờ, bộ chọn boolean hoặc có thể được để trống, tùy thuộc vào toán tử được sử dụng và kiểu dữ liệu của trường.
 
 Ba nút nội tuyến cũng có ở bên phải tiêu chí lọc của quy tắc:
@@ -72,7 +72,7 @@ Bạn có thể sử dụng nhiều nhóm cùng lúc. Nhóm đầu tiên đượ
 
 ## So sánh
 
-Một số trang chủ báo cáo có chứa phần So sánh trong menu thả xuống của thanh Tìm kiếm.... Trong số đó có báo cáo [Hiệu suất thiết bị tổng thể](../inventory_and_mrp/manufacturing/reporting/oee.md) cho ứng dụng *Sản xuất* và báo cáo [Mua hàng](../inventory_and_mrp/purchase/advanced/analyze.md) cho ứng dụng *Mua hàng*, cũng như các báo cáo khác.
+Một số trang chủ báo cáo có chứa phần So sánh trong menu thả xuống của thanh Tìm kiếm.... Trong số đó có báo cáo [Hiệu suất thiết bị tổng thể](applications/inventory_and_mrp/manufacturing/reporting/oee.md) cho ứng dụng *Sản xuất* và báo cáo [Mua hàng](applications/inventory_and_mrp/purchase/advanced/analyze.md) cho ứng dụng *Mua hàng*, cũng như các báo cáo khác.
 
 Các tùy chọn trong phần <i class="fa fa-adjust"></i> So sánh được sử dụng để so sánh dữ liệu từ hai khoảng thời gian khác nhau. Có hai tùy chọn so sánh để lựa chọn: (Bộ lọc thời gian): Giai đoạn trước và (Bộ lọc thời gian): Năm trước.
 
@@ -81,7 +81,7 @@ Các tùy chọn trong phần <i class="fa fa-adjust"></i> So sánh được s�
 
 Ngoài ra, một số báo cáo chỉ cho phép sử dụng tính năng So sánh khi chọn loại biểu đồ <i class="fa fa-pie-chart"></i> (biểu đồ tròn) hoặc chế độ xem <i class="oi oi-view-pivot"></i> (pivot). Dù bạn có thể chọn tùy chọn So sánh ngay cả khi chế độ xem khác được bật, nhưng việc này **không** thay đổi cách hiển thị dữ liệu trên báo cáo.
 
-![Thanh Tìm kiếm... để xem báo cáo phân tích sản xuất.](search/comparison-section.png)
+![Thanh Tìm kiếm... để xem báo cáo phân tích sản xuất.](../../.gitbook/assets/comparison-section.png)
 
 Để xem dữ liệu bằng một trong hai phép so sánh, hãy bắt đầu bằng cách chọn một giai đoạn trong cột Bộ lọc trên menu thả xuống của thanh Tìm kiếm.... Sau đó, chọn (Bộ lọc thời gian): Giai đoạn trước hoặc (Bộ lọc thời gian): Năm trước trong phần So sánh.
 
@@ -106,6 +106,6 @@ Mục Yêu thích là cách lưu một tìm kiếm cụ thể để sử dụng 
 
 Sau khi thiết lập xong các tùy chọn, hãy nhấp vào Lưu để lưu tìm kiếm yêu thích.
 
-![Lưu tìm kiếm yêu thích trên báo cáo Phân tích doanh số](search/favorites.png)
+![Lưu tìm kiếm yêu thích trên báo cáo Phân tích doanh số](../../.gitbook/assets/favorites.png)
 
 Bạn có thể truy cập danh sách yêu thích đã lưu bằng cách nhấp vào biểu tượng 🔽 (mũi tên hướng xuống) trên thanh tìm kiếm, sau đó chọn bộ lọc đã lưu trong menu thả xuống Danh sách yêu thích. Để xóa mục yêu thích đã lưu, hãy nhấp vào biểu tượng 🗑️ (thùng rác) bên cạnh tìm kiếm đã đánh dấu là mục yêu thích.

@@ -1,9 +1,9 @@
 # Chapter 11: Add The Sprinkles
 
 Our real estate module now makes sense from a business perspective. We created
-[specific views](06_basicviews.md), added several
-[action buttons](09_actions.md) and
-[constraints](10_constraints.md). However our user interface is still a bit
+[specific views](developer/tutorials/server_framework_101/06_basicviews.md), added several
+[action buttons](developer/tutorials/server_framework_101/09_actions.md) and
+[constraints](developer/tutorials/server_framework_101/10_constraints.md). However our user interface is still a bit
 rough. We would like to add some colors to the list views and make some fields and buttons conditionally
 disappear. For example, the 'Sold' and 'Cancel' buttons should disappear when the property
 is sold or canceled since it is no longer allowed to change the state at this point.
@@ -12,8 +12,8 @@ This chapter covers a very small subset of what can be done in the views. Do not
 read the reference documentation for a more complete overview.
 
 **Reference**: the documentation related to this chapter can be found in
-[View records](../../reference/user_interface/view_records.md) and
-[View architectures](../../reference/user_interface/view_architectures.md).
+[View records](developer/reference/user_interface/view_records.md) and
+[View architectures](developer/reference/user_interface/view_architectures.md).
 
 ## Inline Views
 
@@ -21,7 +21,7 @@ read the reference documentation for a more complete overview.
 **Goal**: at the end of this section, a specific list of properties should be added to the property
 type view:
 
-![Inline list view](11_sprinkles/inline_view.png)
+![Inline list view](../../../.gitbook/assets/inline_view.png)
 
 In the real estate module we added a list of offers for a property. We simply added the field
 `offer_ids` with:
@@ -80,13 +80,13 @@ An example can be found
 ## Widgets
 
 **Reference**: the documentation related to this section can be found in
-[Fields](../../reference/frontend/javascript_reference.md#reference-js-widgets).
+[Fields](developer/reference/frontend/javascript_reference.md#reference-js-widgets).
 
 #### NOTE
 **Goal**: at the end of this section, the state of the property should be displayed using a
 specific widget:
 
-![Statusbar widget](11_sprinkles/widget.png)
+![Statusbar widget](../../../.gitbook/assets/widget.png)
 
 Four states are displayed: New, Offer Received, Offer Accepted and Sold.
 
@@ -101,7 +101,7 @@ the `widget` attribute. We already used it for the `tag_ids` field when we used 
 list.
 
 Each field type has a set of widgets which can be used to fine tune its display. Some widgets also
-take extra options. An exhaustive list can be found in [Fields](../../reference/frontend/javascript_reference.md#reference-js-widgets).
+take extra options. An exhaustive list can be found in [Fields](developer/reference/frontend/javascript_reference.md#reference-js-widgets).
 
 #### WARNING
 Same field multiple times in a view
@@ -112,7 +112,7 @@ not supported.
 ## List Order
 
 **Reference**: the documentation related to this section can be found in
-[Models](../../reference/backend/orm.md#reference-orm-models).
+[Models](developer/reference/backend/orm.md#reference-orm-models).
 
 #### NOTE
 **Goal**: at the end of this section, all lists should display by default in a deterministic
@@ -178,14 +178,14 @@ view. Therefore, we'll stick to the most common ones.
 - Conditional display of buttons and fields
 - Tag colors
 
-![Form view with sprinkles](11_sprinkles/form.gif)
+![Form view with sprinkles](../../../.gitbook/assets/form.gif)
 
 In our real estate module, we want to modify the behavior of some fields. For example, we don't
 want to be able to create or edit a property type from the form view. Instead we expect the
 types to be handled in their appropriate menu. We also want to give tags a color. In order to add these
 behavior customizations, we can add the `options` attribute to several field widgets.
 
-In [Chapter 5: Finally, Some UI To Play With](05_firstui.md), we saw that reserved fields were used for
+In [Chapter 5: Finally, Some UI To Play With](developer/tutorials/server_framework_101/05_firstui.md), we saw that reserved fields were used for
 specific behaviors. For example, the `active` field is used to automatically filter out
 inactive records. We added the `state` as a reserved field as well. It's now time to use it!
 A `state` field can be used in combination with an `invisible` attribute in the view to display
@@ -221,7 +221,7 @@ server-side, therefore it's always possible to write on the field through a RPC 
 Additionally, offers and tags will be editable directly in the list, and the availability date will be
 hidden by default.
 
-![List view with decorations and optional field](11_sprinkles/decoration.png)![Editable list](11_sprinkles/editable_list.gif)
+![List view with decorations and optional field](../../../.gitbook/assets/decoration.png)![Editable list](../../../.gitbook/assets/editable_list.gif)
 
 When the model only has a few fields, it can be useful to edit records directly through the list
 view and not have to open the form view. In the real estate example, there is no need to open a form view
@@ -233,7 +233,7 @@ hidden. This can be achieved thanks to the `optional` attribute.
 
 Finally, color codes are useful to visually emphasize records. For example, in the real estate
 module we would like to display refused offers in red and accepted offers in green. This can be achieved
-thanks to the `decoration-{$name}` attribute (see [Fields](../../reference/frontend/javascript_reference.md#reference-js-widgets) for a
+thanks to the `decoration-{$name}` attribute (see [Fields](developer/reference/frontend/javascript_reference.md#reference-js-widgets) for a
 complete list):
 
 ```xml
@@ -248,14 +248,14 @@ The records where `is_partner` is `True` will be displayed in green.
 ### Search
 
 **Reference**: the documentation related to this section can be found in
-[Search](../../reference/user_interface/view_architectures.md#reference-view-architectures-search) and [Search defaults](../../reference/user_interface/view_architectures.md#reference-view-architectures-search-defaults).
+[Search](developer/reference/user_interface/view_architectures.md#reference-view-architectures-search) and [Search defaults](developer/reference/user_interface/view_architectures.md#reference-view-architectures-search-defaults).
 
 #### NOTE
 **Goal**: at the end of this section, the available properties will be filtered by default,
 and searching on the living area returns results where the area is larger than the given
 number.
 
-![Default filters and domains](11_sprinkles/search.gif)
+![Default filters and domains](../../../.gitbook/assets/search.gif)
 
 Last but not least, there are some tweaks we would like to apply when searching. First of all, we
 want to have our 'Available' filter applied by default when we access the properties. To make this happen, we
@@ -290,7 +290,7 @@ used to search on both `name` and `description` fields.
 **Goal**: at the end of this section, there will be a stat button on the property type form view
 which shows the list of all offers related to properties of the given type when it is clicked on.
 
-![Stat button](11_sprinkles/stat_button.gif)
+![Stat button](../../../.gitbook/assets/stat_button.gif)
 
 If you've already used some functional modules in Odoo, you've probably already encountered a 'stat
 button'. These buttons are displayed on the top right of a form view and give a quick access to
@@ -306,7 +306,7 @@ The following exercise might be a bit more difficult than the previous ones sinc
 are able to search for examples in the source code on your own. If you are stuck there is probably
 someone nearby who can help you ;-)
 
-The exercise introduces the concept of [Related fields](../../reference/backend/orm.md#reference-fields-related). The easiest way to
+The exercise introduces the concept of [Related fields](developer/reference/backend/orm.md#reference-fields-related). The easiest way to
 understand it is to consider it as a specific case of a computed field. The following definition
 of the `description` field:
 
@@ -333,4 +333,4 @@ def _compute_description(self):
 
 Every time the partner name is changed, the description is modified.
 
-Looking good? If not, don't worry, the [next chapter](12_inheritance.md) doesn't require stat buttons ;-)
+Looking good? If not, don't worry, the [next chapter](developer/tutorials/server_framework_101/12_inheritance.md) doesn't require stat buttons ;-)

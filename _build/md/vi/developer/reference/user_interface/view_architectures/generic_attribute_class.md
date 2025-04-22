@@ -2,7 +2,7 @@
 
 The [HTML class](https://en.wikipedia.org/wiki/HTML_attribute) to set on the generated element.
 
-The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](../icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
+The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
 
 - `oe_inline`: prevents the usual line break following fields, and limits their span;
 - `oe_left`, `oe_right`: [floats](https://developer.mozilla.org/en-US/docs/Web/CSS/float) the

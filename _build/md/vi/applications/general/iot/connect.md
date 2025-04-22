@@ -4,17 +4,17 @@
 
 To connect the IoT system to an Odoo database, the following prerequisites must be met:
 
-- The Internet of Things (IoT) app must be [installed](../apps_modules.md#general-install).
+- The Internet of Things (IoT) app must be [installed](applications/general/apps_modules.md#general-install).
 - The IoT system must be connected to the network.
 - The computer connecting to Odoo must be on the same network as the IoT system.
 
 #### NOTE
 It is recommended to connect the IoT system to a **production** instance, as other types of
-environments may cause issues (e.g., with [HTTPS certificate generation](iot_advanced/https_certificate_iot.md#iot-https-certificate-iot-iot-eligibility)).
+environments may cause issues (e.g., with [HTTPS certificate generation](applications/general/iot/iot_advanced/https_certificate_iot.md#iot-https-certificate-iot-iot-eligibility)).
 
 #### SEE ALSO
-- [Hộp IoT](iot_box.md)
-- [Windows virtual IoT](windows_iot.md)
+- [Hộp IoT](applications/general/iot/iot_box.md)
+- [Windows virtual IoT](applications/general/iot/windows_iot.md)
 
 ## Kết nối
 
@@ -26,7 +26,7 @@ The IoT system can be connected to the Odoo database using a [pairing code](#iot
 
 #### NOTE
 - The pairing code is displayed for up to 5 minutes after the IoT system starts. If the code is
-  no longer visible, reboot the IoT box or [restart the Windows virtual IoT service](windows_iot.md#iot-windows-iot-restart) to display the pairing code again. Alternatively, connect the IoT
+  no longer visible, reboot the IoT box or [restart the Windows virtual IoT service](applications/general/iot/windows_iot.md#iot-windows-iot-restart) to display the pairing code again. Alternatively, connect the IoT
   system to the database using a [connection token](#iot-connect-token).
 - The pairing code is not displayed if the IoT system is already connected to a database (e.g.,
   a test database).
@@ -56,7 +56,7 @@ The IoT system can be connected to the Odoo database using a [pairing code](#iot
 
 1. In Odoo, open the IoT app and click Connect.
 2. In the Connect an IoT Box popup that opens, copy the Token.
-3. Access the [IoT box's](iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](windows_iot.md#iot-windows-iot-homepage) homepage.
+3. Access the [IoT box's](applications/general/iot/iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) homepage.
 4. In the Odoo database connected section, click Configure.
 5. Paste the token into the Server Token field and click Connect.
 
@@ -65,12 +65,12 @@ The IoT system can be connected to the Odoo database using a [pairing code](#iot
 ## IoT system form
 
 Once the IoT system is connected to the Odoo database, it is displayed as a card in the IoT app.
-Click the IP address on the card to access the [IoT box's](windows_iot.md#iot-windows-iot-homepage) or
-[Windows virtual IoT's](iot_box.md#iot-iot-box-homepage) homepage. Click the card to access the
-list of [devices](devices.md) connected to the IoT system.
+Click the IP address on the card to access the [IoT box's](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) or
+[Windows virtual IoT's](applications/general/iot/iot_box.md#iot-iot-box-homepage) homepage. Click the card to access the
+list of [devices](applications/general/iot/devices.md) connected to the IoT system.
 
 #### NOTE
-By default, drivers are automatically [updated](iot_advanced/updating_iot.md#iot-updating-iot-handlers) every time the
+By default, drivers are automatically [updated](applications/general/iot/iot_advanced/updating_iot.md#iot-updating-iot-handlers) every time the
 IoT system is restarted. To disable automatic updates, uncheck the Automatic drivers
 update option.
 
@@ -86,9 +86,9 @@ following circumstances:
 - The IoT system is not connected to the Internet.
 - The IoT system is already connected to an Odoo database.
 - The [pairing code](#iot-connect-pairing-code) display time has expired. Reboot the IoT box
-  or [restart the Windows virtual IoT service](windows_iot.md#iot-windows-iot-restart) to display the pairing
+  or [restart the Windows virtual IoT service](applications/general/iot/windows_iot.md#iot-windows-iot-restart) to display the pairing
   code again.
-- The IoT system's image version is too old and needs to be [updated](iot_advanced/updating_iot.md#iot-updating-iot-image-code).
+- The IoT system's image version is too old and needs to be [updated](applications/general/iot/iot_advanced/updating_iot.md#iot-updating-iot-image-code).
 
 ### The IoT system is connected but does not appear in the database
 
@@ -97,7 +97,7 @@ not appear after a few minutes:
 
 - Verify that the IoT system can reach the database and the server does not use a multi-database
   environment.
-- Reboot the IoT box or [restart the Windows virtual IoT service](windows_iot.md#iot-windows-iot-restart).
+- Reboot the IoT box or [restart the Windows virtual IoT service](applications/general/iot/windows_iot.md#iot-windows-iot-restart).
 
 ### The IoT box is connected to the Odoo database but cannot be reached
 
@@ -106,11 +106,11 @@ network.
 
 ### The Windows virtual IoT's homepage cannot be accessed from another device
 
-Check the [Windows Firewall configuration](windows_iot.md#iot-windows-iot-firewall).
+Check the [Windows Firewall configuration](applications/general/iot/windows_iot.md#iot-windows-iot-firewall).
 
 ### The IoT system is disconnected from the database after an Odoo upgrade
 
-[Update the IoT system's image](iot_advanced/updating_iot.md#iot-updating-iot-image-code) by flashing the IoT box's card or
-[uninstalling the Windows virtual IoT program](windows_iot.md#iot-windows-iot-uninstall) and
-[reinstalling](windows_iot.md#iot-windows-iot-installation) the latest package for Windows **matching your
+[Update the IoT system's image](applications/general/iot/iot_advanced/updating_iot.md#iot-updating-iot-image-code) by flashing the IoT box's card or
+[uninstalling the Windows virtual IoT program](applications/general/iot/windows_iot.md#iot-windows-iot-uninstall) and
+[reinstalling](applications/general/iot/windows_iot.md#iot-windows-iot-installation) the latest package for Windows **matching your
 database's version**.

@@ -32,7 +32,7 @@ tools.
 - Select a Widget Mode:
   - The Managed mode is **recommended**, as visitors can be prompted to check a box
     confirming they are human if deemed necessary by Turnstile.
-    ![Cloudflare Turnstile human verification widget](spam_protection/turnstile-human.png)
+    ![Cloudflare Turnstile human verification widget](../../../../.gitbook/assets/turnstile-human.png)
   - For the Non-interactive and Invisible modes, visitors are never
     prompted to interact. In Non-interactive mode, a loading widget can be displayed to
     warn visitors that Turnstile protects the form; however, the widget is not supported by Odoo.
@@ -40,10 +40,10 @@ tools.
     #### NOTE
     If the Turnstile check fails, visitors are not able to submit the form, and the following
     error message is displayed:
-    ![Cloudflare Turnstile verification error message](spam_protection/turnstile-error.png)
+    ![Cloudflare Turnstile verification error message](../../../../.gitbook/assets/turnstile-error.png)
 - Nhấp Tạo.
 
-![Adding a website to Cloudflare Turnstile](spam_protection/turnstile-configuration.png)
+![Adding a website to Cloudflare Turnstile](../../../../.gitbook/assets/turnstile-configuration.png)
 
 The generated keys are then displayed. Leave the page open for convenience, as copying the keys in
 Odoo is required next.
@@ -82,7 +82,7 @@ On the website registration page:
 - Agree to the terms of service.
 - Nhấp Gửi.
 
-![reCAPTCHA website registration example](spam_protection/recaptcha-google-configuration.png)
+![reCAPTCHA website registration example](../../../../.gitbook/assets/recaptcha-google-configuration.png)
 
 A new page with the generated keys is then displayed. Leave it open for convenience, as copying the
 keys to Odoo is required next.
@@ -113,9 +113,9 @@ navigate to the form. Then, click somewhere on the form, and on the right sideba
 Customize tab, toggle Show reCAPTCHA Policy found under the Form
 section.
 
-![reCAPTCHA policy message displayed on a form](spam_protection/recaptcha-policy.png)
+![reCAPTCHA policy message displayed on a form](../../../../.gitbook/assets/recaptcha-policy.png)
 
 #### NOTE
 If the reCAPTCHA check fails, the following error message is displayed:
 
-![Google reCAPTCHA verification error message](spam_protection/recaptcha-error.png)
+![Google reCAPTCHA verification error message](../../../../.gitbook/assets/recaptcha-error.png)

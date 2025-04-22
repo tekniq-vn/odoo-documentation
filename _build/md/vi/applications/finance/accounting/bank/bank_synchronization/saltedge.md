@@ -8,8 +8,8 @@ Odoo can synchronize directly with your bank to get all bank statements imported
 automatically into your database.
 
 #### SEE ALSO
-- [Đồng bộ hoá ngân hàng](../bank_synchronization.md)
-- [Giao dịch](../transactions.md)
+- [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
+- [Giao dịch](applications/finance/accounting/bank/transactions.md)
 
 ## Cấu hình
 
@@ -23,18 +23,18 @@ automatically into your database.
    address is used to create your Salt Edge account. Please make sure you enter a
    valid email address, as otherwise, you will not be able to access your Salt Edge
    account.
-   ![Email address to provide to Salt Edge for the creation of your account.](saltedge/saltedge-contact-email.png)
+   ![Email address to provide to Salt Edge for the creation of your account.](../../../../../.gitbook/assets/saltedge-contact-email.png)
 4. After entering your email address, you are redirected to Salt Edge to continue
    the synchronization process.
-   ![Salt Edge Login page.](saltedge/saltedge-login-page.png)
+   ![Salt Edge Login page.](../../../../../.gitbook/assets/saltedge-login-page.png)
 5. Make sure you give your consent by checking the consent checkbox.
-   ![Salt Edge give consent page.](saltedge/saltedge-give-consent.png)
+   ![Salt Edge give consent page.](../../../../../.gitbook/assets/saltedge-give-consent.png)
 6. Complete the synchronization by following the steps.
 
 ### Update your credentials
 
 To update your Salt Edge credentials or modify the synchronization settings, activate the
-[developer mode](../../../../general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣
+[developer mode](applications/general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣
 Online Synchronization, and select the institution you want to update credentials. Click
 Update Credentials to start the flow and follow the steps.
 
@@ -43,7 +43,7 @@ your information.
 
 ### Fetch new accounts
 
-To add new online accounts to your connection, activate the [developer mode](../../../../general/developer_mode.md#developer-mode),
+To add new online accounts to your connection, activate the [developer mode](applications/general/developer_mode.md#developer-mode),
 go to Accounting ‣ Configuration ‣ Online Synchronization, and select the
 institution to fetch the new accounts. Click Fetch Accounts to start the flow and
 follow the steps.
@@ -70,5 +70,5 @@ Odoo database.
 
 If you already have a connection with the same credentials present on your Salt Edge dashboard
 and this synchronization was created with Odoo, activate the [developer
-mode](../../../../general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣ Online
+mode](applications/general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣ Online
 Synchronization, and click Update Credentials to reactivate the connection.

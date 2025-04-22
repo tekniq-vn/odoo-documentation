@@ -8,6 +8,6 @@ Unlike `invisible`, it affects the entire column, and is evaluated without the s
 * **Requirement:**
   Optional
 * **Type:**
-  [Python expression](../view_architectures.md#reference-view-architectures-python-expression)
+  [Python expression](developer/reference/user_interface/view_architectures.md#reference-view-architectures-python-expression)
 * **Default:**
   `False`

@@ -81,7 +81,7 @@ Test methods must start with `test_`
 ### Running tests
 
 Tests are automatically run when installing or updating modules if
-[`--test-enable`](../cli.md#cmdoption-odoo-bin-test-enable) was enabled when starting the
+[`--test-enable`](developer/reference/cli.md#cmdoption-odoo-bin-test-enable) was enabled when starting the
 Odoo server.
 
 <a id="developer-reference-testing-selection"></a>
@@ -98,14 +98,14 @@ Subclasses of `odoo.tests.BaseCase` (usually through
 
 #### Invocation
 
-[`--test-tags`](../cli.md#cmdoption-odoo-bin-test-tags) can be used to select/filter tests
-to run on the command-line. It implies [`--test-enable`](../cli.md#cmdoption-odoo-bin-test-enable),
-so it's not necessary to specify [`--test-enable`](../cli.md#cmdoption-odoo-bin-test-enable)
-when using [`--test-tags`](../cli.md#cmdoption-odoo-bin-test-tags).
+[`--test-tags`](developer/reference/cli.md#cmdoption-odoo-bin-test-tags) can be used to select/filter tests
+to run on the command-line. It implies [`--test-enable`](developer/reference/cli.md#cmdoption-odoo-bin-test-enable),
+so it's not necessary to specify [`--test-enable`](developer/reference/cli.md#cmdoption-odoo-bin-test-enable)
+when using [`--test-tags`](developer/reference/cli.md#cmdoption-odoo-bin-test-tags).
 
 This option defaults to `+standard` meaning tests tagged `standard`
 (explicitly or implicitly) will be run by default when starting Odoo
-with [`--test-enable`](../cli.md#cmdoption-odoo-bin-test-enable).
+with [`--test-enable`](developer/reference/cli.md#cmdoption-odoo-bin-test-enable).
 
 When writing tests, the `tagged()` decorator can be
 used on **test classes** to add or remove tags.
@@ -133,7 +133,7 @@ $ odoo-bin --test-tags nice
 
 Note that only the tests tagged `nice` are going to be executed. To run
 *both* `nice` and `standard` tests, provide multiple values to
-[`--test-tags`](../cli.md#cmdoption-odoo-bin-test-tags): on the command-line, values
+[`--test-tags`](developer/reference/cli.md#cmdoption-odoo-bin-test-tags): on the command-line, values
 are *additive* (you're selecting all tests with *any* of the specified tags)
 
 ```console
@@ -167,7 +167,7 @@ class SmallTest(unittest.TestCase):
 ```
 
 Besides tags you can also specify specific modules, classes or functions to
-test. The full syntax of the format accepted by [`--test-tags`](../cli.md#cmdoption-odoo-bin-test-tags)
+test. The full syntax of the format accepted by [`--test-tags`](developer/reference/cli.md#cmdoption-odoo-bin-test-tags)
 is:
 
 ```text
@@ -202,7 +202,7 @@ can be specified at once separated by a `,` like with regular tags.
 
 - `standard`: All Odoo tests that inherit from
   `BaseCase` are implicitly tagged standard.
-  [`--test-tags`](../cli.md#cmdoption-odoo-bin-test-tags) also defaults to `standard`.
+  [`--test-tags`](developer/reference/cli.md#cmdoption-odoo-bin-test-tags) also defaults to `standard`.
 
   That means untagged test will be executed by default when tests are enabled.
 - `at_install`: Means that the test will be executed right after the module
@@ -220,9 +220,9 @@ can be specified at once separated by a `,` like with regular tags.
 #### IMPORTANT
 Tests will be executed only in installed modules. If you're starting from
 a clean database, you'll need to install the modules with the
-[`-i`](../cli.md#cmdoption-odoo-bin-i) switch at least once. After that it's no longer
+[`-i`](developer/reference/cli.md#cmdoption-odoo-bin-i) switch at least once. After that it's no longer
 needed, unless you need to upgrade the module, in which case
-[`-u`](../cli.md#cmdoption-odoo-bin-u) can be used. For simplicity, those switches are
+[`-u`](developer/reference/cli.md#cmdoption-odoo-bin-u) can be used. For simplicity, those switches are
 not specified in the examples below.
 
 Run only the tests from the sale module:
@@ -281,7 +281,7 @@ The main way to run the test suite is to have a running Odoo server, then
 navigate a web browser to `/web/tests`.  The test suite will then be executed
 by the web browser Javascript engine.
 
-![image](testing/tests.png)
+![image](../../../.gitbook/assets/tests.png)
 
 The web UI has many useful features: it can run only some submodules, or
 filter tests that match a string. It can show every assertions, failed or passed,
@@ -512,7 +512,7 @@ You can then:
 - update `__init__.py` in the folder `tests` to import `test_calling_the_tour`.
 
 #### SEE ALSO
-- [Assets Bundle](../frontend/assets.md#reference-assets-bundle)
+- [Assets Bundle](developer/reference/frontend/assets.md#reference-assets-bundle)
 - [Testing Python code](#testing-python)
 
 #### Javascript
@@ -659,11 +659,11 @@ Tours can also be launched via the browser UI, either by calling
 odoo.startTour(tour_name);
 ```
 
-in the javascript console, or by enabling [tests mode](../frontend/framework_overview.md#frontend-framework-tests-debug-mode) by setting `?debug=tests` in
+in the javascript console, or by enabling [tests mode](developer/reference/frontend/framework_overview.md#frontend-framework-tests-debug-mode) by setting `?debug=tests` in
 the URL, then selecting **Start Tour** in the debug menu and picking a
 tour:
 
-![image](testing/tours.png)
+![image](../../../.gitbook/assets/tours.png)
 
 **Advantages**
 : - easier to run
@@ -685,7 +685,7 @@ taken at the moment of the failure and written in
 ```
 
 Two new command line arguments were added since Odoo 13.0 to control this behavior:
-[`--screenshots`](../cli.md#cmdoption-odoo-bin-screenshots) and [`--screencasts`](../cli.md#cmdoption-odoo-bin-screencasts)
+[`--screenshots`](developer/reference/cli.md#cmdoption-odoo-bin-screenshots) and [`--screencasts`](developer/reference/cli.md#cmdoption-odoo-bin-screencasts)
 
 #### Introspecting / debugging steps
 

@@ -12,7 +12,7 @@ predetermined interval.
 
 This documentation only details the configuration options that are unique to *Take a Picture*
 quality checks and . For a full overview of all the configuration options available when
-creating a single check or a , see the documentation on [quality checks](../quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](../quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+creating a single check or a , see the documentation on [quality checks](applications/inventory_and_mrp/quality/quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
 
 ### Quality check
 
@@ -26,7 +26,7 @@ follows:
 - In the Instructions text field of the Notes tab, enter instructions for
   how the picture should be taken.
 
-![A quality check form configured for a Take a Picture quality check.](picture_check/picture-check-form.png)
+![A quality check form configured for a Take a Picture quality check.](../../../../.gitbook/assets/picture-check-form.png)
 
 ### Quality control point
 
@@ -38,13 +38,13 @@ the new  form as follows:
 - If the *Maintenance* app is installed, a Device field appears after selecting the
   *Take a Picture* check type. Use this field to specify a device that should be used to take
   quality check pictures. For information about managing devices in the *Maintenance* app, see the
-  documentation on [adding new equipment](../../maintenance/add_new_equipment.md#maintenance-equipment-management-add-new-equipment).
+  documentation on [adding new equipment](applications/inventory_and_mrp/maintenance/add_new_equipment.md#maintenance-equipment-management-add-new-equipment).
 - In the Team drop-down field, select the quality team responsible for managing the
   checks created by the .
 - In the Instructions text field, enter instructions for how the picture should be
   taken.
 
-![A Quality Control Point (QCP) form configured to create a Take a Picture quality check.](picture_check/picture-qcp-form.png)
+![A Quality Control Point (QCP) form configured to create a Take a Picture quality check.](../../../../.gitbook/assets/picture-qcp-form.png)
 
 ## Process a Take a Picture quality check
 
@@ -63,7 +63,7 @@ check (computer, tablet, etc.). Then, click the ✏️ (pencil) button in the
 Picture section to open the device's file manager. In the file manager, navigate to the
 picture, select it, and click Open to attach it.
 
-![The edit button (pencil) on a Take a Picture quality check.](picture_check/picture-edit-button.png)
+![The edit button (pencil) on a Take a Picture quality check.](../../../../.gitbook/assets/picture-edit-button.png)
 
 ### On an order
 
@@ -82,9 +82,9 @@ device's file manager. In the file manager, navigate to the picture, select it, 
 Open to attach it. Finally, click Validate on the Quality Check
 pop-up window to complete the quality check.
 
-![A Take a Picture quality check pop-up window on a manufacturing or inventory order.](picture_check/picture-check-pop-up.png)
+![A Take a Picture quality check pop-up window on a manufacturing or inventory order.](../../../../.gitbook/assets/picture-check-pop-up.png)
 
-Nếu cần tạo cảnh báo chất lượng, hãy nhấp vào nút Cảnh báo chất lượng xuất hiện ở đầu lệnh sản xuất hoặc phiếu kho sau khi kiểm tra được xác nhận. Việc nhấp vào Cảnh báo chất lượng sẽ mở biểu mẫu cảnh báo chất lượng trên trang mới. Để xem hướng dẫn đầy đủ về cách điền biểu mẫu cảnh báo chất lượng, tham khảo tài liệu về [cảnh báo chất lượng](../quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
+Nếu cần tạo cảnh báo chất lượng, hãy nhấp vào nút Cảnh báo chất lượng xuất hiện ở đầu lệnh sản xuất hoặc phiếu kho sau khi kiểm tra được xác nhận. Việc nhấp vào Cảnh báo chất lượng sẽ mở biểu mẫu cảnh báo chất lượng trên trang mới. Để xem hướng dẫn đầy đủ về cách điền biểu mẫu cảnh báo chất lượng, tham khảo tài liệu về [cảnh báo chất lượng](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
 
 ### On a work order
 
@@ -119,7 +119,7 @@ attach it.
 Finally, click Validate at the bottom of the pop-up window to complete the quality
 check. The pop-up window then moves on to the next step of the work order.
 
-![A Take a Picture check in the Shop Floor module.](picture_check/picture-check-shop-floor.png)
+![A Take a Picture check in the Shop Floor module.](../../../../.gitbook/assets/picture-check-shop-floor.png)
 
 If a quality alert must be created, exit the pop-up window by clicking the X (close)
 button in the top-right corner.
@@ -133,7 +133,7 @@ window.
 
 #### SEE ALSO
 For a complete guide on how to fill out quality alert forms, view the documentation on
-[quality alerts](../quality_management/quality_alerts.md).
+[quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md).
 
 ## Review picture attached to quality check
 
@@ -145,4 +145,4 @@ The attached picture appears in the Picture section of the quality check form. A
 reviewing the picture, click the Pass button if the check passes, or the
 Fail button if the check fails.
 
-![A Take a Picture check with a picture attached.](picture_check/review-picture-check.png)
+![A Take a Picture check with a picture attached.](../../../../.gitbook/assets/review-picture-check.png)

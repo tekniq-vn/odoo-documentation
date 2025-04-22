@@ -17,7 +17,7 @@ If a record was created, or edited, via an imported file, or was otherwise updat
 intervention by the system, the chatter thread creates a log note, and credits the change to
 OdooBot.
 
-![A close up of a chatter thread of an OdooBot created contact record.](chatter/odoo-bot-created.png)
+![A close up of a chatter thread of an OdooBot created contact record.](../../../.gitbook/assets/odoo-bot-created.png)
 
 <a id="discuss-add-followers"></a>
 
@@ -66,7 +66,7 @@ available for the followers of a *CRM* opportunity.
 Tick the checkbox for any updates the follower should receive, and clear the checkbox for any
 updates they should **not** receive. Click Apply when finished.
 
-![The Edit Subscription window on a Helpdesk ticket.](chatter/chatter-edit-subscription.png)
+![The Edit Subscription window on a Helpdesk ticket.](../../../.gitbook/assets/chatter-edit-subscription.png)
 
 <a id="discuss-log-notes"></a>
 
@@ -113,7 +113,7 @@ automatically. If a follower should **not** receive a message, they must be remo
 before the message is sent, or a note is logged.
 
 ![A chatter composer preparing to send a message to the followers of a CRM opportunity and
-the customer listed on the opportunity record.](chatter/send-message-followers.png)
+the customer listed on the opportunity record.](../../../.gitbook/assets/send-message-followers.png)
 
 ### Expand full composer
 
@@ -123,13 +123,13 @@ customizations.
 To open the full composer, click the <i class="fa fa-expand"></i> (expand) icon in the bottom-right
 corner of the composer window.
 
-![A chatter composer with emphasis on the expand icon.](chatter/chatter-expand-icon.png)
+![A chatter composer with emphasis on the expand icon.](../../../.gitbook/assets/chatter-expand-icon.png)
 
 Doing this opens a Compose Email pop-up window. Confirm or edit the intended
 Recipients of the message, or add additional recipients. The Subject field
 auto-populates based on the title of the record, though it can be edited, if desired.
 
-To use an [email template](../../general/companies/email_template.md) for the message, select it
+To use an [email template](applications/general/companies/email_template.md) for the message, select it
 from the drop-down menu in the Load template field.
 
 #### NOTE
@@ -138,7 +138,7 @@ The number and type of templates available vary, based on the record the message
 Click <i class="fa fa-paperclip"></i> (paperclip) icon to add any files to the message, then click
 Send.
 
-![The expanded full chatter composer in the CRM application.](chatter/chatter-full-composer.png)
+![The expanded full chatter composer in the CRM application.](../../../.gitbook/assets/chatter-full-composer.png)
 
 ### Edit sent messages
 
@@ -152,7 +152,7 @@ recipient.
 To edit a sent message, click the <i class="fa fa-ellipsis-h"></i> (ellipsis) icon menu to the
 right of the message. Then, select Edit. Make any necessary adjustments to the message.
 
-![The edit message option in a chatter thread.](chatter/chatter-edit.png)
+![The edit message option in a chatter thread.](../../../.gitbook/assets/chatter-edit.png)
 
 To save the changes, press **Ctrl + Enter**. To discard the changes, press **Escape**.
 
@@ -182,7 +182,7 @@ To be taken directly to a particular message in the chatter thread, hover over t
 corner of the result to reveal a Jump button. Click this button to be directed to that
 message's location in the thread.
 
-![Search results in a chatter thread emphasising the search icon and the jump button.](chatter/chatter-search.png)
+![Search results in a chatter thread emphasising the search icon and the jump button.](../../../.gitbook/assets/chatter-search.png)
 
 <a id="discuss-schedule-activities"></a>
 
@@ -220,7 +220,7 @@ and are color-coded based on their due date.
 - **Yellow** icons indicate an activity with a due date scheduled for the current date.
 - **Green** icons indicate an activity with a due date scheduled in the future.
 
-![A chatter thread with planned activities with varying due dates.](chatter/chatter-activity-icons.png)
+![A chatter thread with planned activities with varying due dates.](../../../.gitbook/assets/chatter-activity-icons.png)
 
 After completing an activity, click Mark Done under the activity entry in the chatter.
 This opens a Mark Done pop-up window, where additional notes about the activity can be
@@ -230,7 +230,7 @@ Done, or Discard.
 After the activity is marked complete, an entry with the activity type, title, and any other details
 that were included in the pop-up window are listed in the chatter.
 
-![A chatter thread with a completed activity, included additional details.](chatter/chatter-completed-activity.png)
+![A chatter thread with a completed activity, included additional details.](../../../.gitbook/assets/chatter-completed-activity.png)
 
 <a id="discuss-attach-files"></a>
 
@@ -264,7 +264,7 @@ After the Files section heading appears in the thread, clicking the <i class="fa
 longer opens a file explorer pop-up window. Instead, clicking the <i class="fa fa-paperclip"></i> (paperclip) icon toggles the
 Files section from visible to invisible in the chatter thread.
 
-![A chatter thread with a file attached and the Attach files button added.](chatter/chatter-attach-files.png)
+![A chatter thread with a file attached and the Attach files button added.](../../../.gitbook/assets/chatter-attach-files.png)
 
 <a id="discuss-integrations"></a>
 
@@ -278,8 +278,8 @@ Before the *WhatsApp* and *Google Translate* integrations can be used with the c
 **must** be configured. Step-by-step instructions on how to set-up each of these features can be
 found in the documentation below:
 
-- [WhatsApp](../whatsapp.md)
-- [Google Dịch](../../general/integrations/google_translate.md)
+- [WhatsApp](applications/productivity/whatsapp.md)
+- [Google Dịch](applications/general/integrations/google_translate.md)
 
 ### WhatsApp
 
@@ -296,15 +296,15 @@ templates are found for that model, clicking this button opens a Send WhatsApp M
 pop-up window.
 
 #### IMPORTANT
-*WhatsApp* templates **must** be approved before they can be used. See [WhatsApp templates](../whatsapp.md#productivity-whatsapp-templates) for more information.
+*WhatsApp* templates **must** be approved before they can be used. See [WhatsApp templates](applications/productivity/whatsapp.md#productivity-whatsapp-templates) for more information.
 
-![A send WhatsApp message pop-up window.](chatter/whats-app-message.png)
+![A send WhatsApp message pop-up window.](../../../.gitbook/assets/whats-app-message.png)
 
 ### Google Dịch
 
 *Google Translate* can be used to translate user-generated text in the Odoo chatter.
 
-To enable *Google Translate* on a database, an *API key* must first [be created](../../general/integrations/google_translate.md) through the [Google API Console](https://console.developers.google.com/).
+To enable *Google Translate* on a database, an *API key* must first [be created](applications/general/integrations/google_translate.md) through the [Google API Console](https://console.developers.google.com/).
 
 After creating the API key, navigate to the Settings app ‣ Discuss section and
 paste the key in the Message Translation field. Click Save to save the
@@ -314,15 +314,15 @@ changes.
 
 To translate a user's text from another language, click the <i class="fa fa-ellipsis-h"></i>
 (ellipsis) menu to the right of the chatter. Then, select Translate. The
-content translates to the language set in the [user's preferences](../../general/users/language.md).
+content translates to the language set in the [user's preferences](applications/general/users/language.md).
 
-![alt text](chatter/chatter-translate-message.png)
+![alt text](../../../.gitbook/assets/chatter-translate-message.png)
 
 #### IMPORTANT
 Using the *Google Translate* API **requires** a current billing account with [Google](https://myaccount.google.com/).
 
 #### SEE ALSO
-- [Thảo luận](../discuss.md)
-- [Kênh thảo luận](team_communication.md)
-- [Hoạt động](../../essentials/activities.md)
-- [WhatsApp](../whatsapp.md)
+- [Thảo luận](applications/productivity/discuss.md)
+- [Kênh thảo luận](applications/productivity/discuss/team_communication.md)
+- [Hoạt động](applications/essentials/activities.md)
+- [WhatsApp](applications/productivity/whatsapp.md)

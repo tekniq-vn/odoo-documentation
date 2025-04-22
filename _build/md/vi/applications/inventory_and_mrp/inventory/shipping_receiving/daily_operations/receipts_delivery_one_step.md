@@ -13,7 +13,7 @@ Under the Warehouse Configuration tab, set Incoming Shipments to
 Receive goods directly (1 step), and set Outgoing Shipments to
 Deliver goods directly (1 step).
 
-![Incoming and outgoing shipments set to one-step on warehouse form.](receipts_delivery_one_step/receipts-delivery-one-step-warehouse-settings.png)
+![Incoming and outgoing shipments set to one-step on warehouse form.](../../../../../.gitbook/assets/receipts-delivery-one-step-warehouse-settings.png)
 
 #### NOTE
 Since one-step receipt and delivery is the default for incoming and outgoing shipments in Odoo,
@@ -42,7 +42,7 @@ opens a blank Request for Quotation (RfQ) form.
 Add a vendor in the Supplier field. Then, fill out the various fields on the , as
 necessary.
 
-![Filled out new request for quotation form.](receipts_delivery_one_step/receipts-delivery-one-step-new-rfq.png)
+![Filled out new request for quotation form.](../../../../../.gitbook/assets/receipts-delivery-one-step-new-rfq.png)
 
 Under the Products tab, click Add a product, and select a product to add to
 the .
@@ -53,7 +53,7 @@ stage.
 Once the  is confirmed, a Receipt smart button appears at the top of the form.
 Clicking the smart button opens the warehouse receipt (WH/IN) form.
 
-![Receipt smart button on confirmed purchase order form.](receipts_delivery_one_step/receipts-delivery-one-step-receipt-smart-button.png)
+![Receipt smart button on confirmed purchase order form.](../../../../../.gitbook/assets/receipts-delivery-one-step-receipt-smart-button.png)
 
 ### Process receipt
 
@@ -61,7 +61,7 @@ From the warehouse receipt form, the products ordered can be received into the w
 the products, click Validate. Once validated, the receipt moves to the Done
 stage.
 
-![Validated warehouse receipt in Done stage.](receipts_delivery_one_step/receipts-delivery-one-step-done-receipt.png)
+![Validated warehouse receipt in Done stage.](../../../../../.gitbook/assets/receipts-delivery-one-step-done-receipt.png)
 
 Click back to the  (via the breadcrumbs, at the top of the form) to view the  form. On the
 product line, the quantity in the Received column now matches the ordered
@@ -82,7 +82,7 @@ opens a blank sales quotation form.
 Add a customer in the Customer field. Then, fill out the various fields on the sales
 quotation form, as necessary.
 
-![Filled out new sales quotation form.](receipts_delivery_one_step/receipts-delivery-one-step-new-sales-order.png)
+![Filled out new sales quotation form.](../../../../../.gitbook/assets/receipts-delivery-one-step-new-sales-order.png)
 
 Under the Product tab, click Add a product, and select a product to add to
 the sales order quotation.
@@ -93,7 +93,7 @@ stage.
 Once the  is confirmed, a Delivery smart button appears at the top of the form.
 Clicking the smart button opens the warehouse delivery (WH/OUT) form.
 
-![Delivery smart button on confirmed sales order form.](receipts_delivery_one_step/receipts-delivery-one-step-delivery-button.png)
+![Delivery smart button on confirmed sales order form.](../../../../../.gitbook/assets/receipts-delivery-one-step-delivery-button.png)
 
 ### Process delivery
 
@@ -104,11 +104,11 @@ ordered quantity in the Demand field.
 Once ready, click Validate. Once validated, the delivery order moves to the
 Done stage.
 
-![Validated delivery order in Done stage.](receipts_delivery_one_step/receipts-delivery-one-step-done-delivery.png)
+![Validated delivery order in Done stage.](../../../../../.gitbook/assets/receipts-delivery-one-step-done-delivery.png)
 
 Click back to the  (via the breadcrumbs, at the top of the form) to view the  form. On the
 product line, the quantity in the Delivered column now matches the ordered
 Quantity.
 
 #### SEE ALSO
-[Inbound and outbound flows](../daily_operations.md)
+[Inbound and outbound flows](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.md)

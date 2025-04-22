@@ -4,7 +4,7 @@ The *Least Packages* removal strategy fulfills an order by opening the fewest nu
 which is ideal for maintaining organized stock without needing to open multiple boxes.
 
 #### SEE ALSO
-- [About removal strategies](../removal_strategies.md)
+- [About removal strategies](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md)
 - [Odoo Tutorials: Least Packages](https://www.odoo.com/slides/slide/5477/share)
 
 To understand how the removal strategy works, consider the following example, featuring a warehouse
@@ -20,7 +20,7 @@ strategy is used to pick from a single, opened package.
 Using the least package removal strategy, the fewest number of packages is used to fulfill an order.
 
 #### IMPORTANT
-The [Packages feature](../removal_strategies.md#inventory-warehouses-storage-pack-setup) **must** be enabled to use
+The [Packages feature](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-pack-setup) **must** be enabled to use
 this strategy.
 
 Consider the following example, featuring the product, `Flour`. The product's Units of
@@ -29,9 +29,9 @@ Measure field, located on the product form, is set to `kg`. The product is store
 Removal Strategy is set to Least Packages.
 
 #### SEE ALSO
-- [Set removal strategy on product category](../removal_strategies.md#inventory-warehouses-storage-removal-config)
+- [Set removal strategy on product category](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-removal-config)
 
-Create a [delivery order](../daily_operations/receipts_delivery_one_step.md#inventory-delivery-one-step) for eighty kilograms of flour by going
+Create a [delivery order](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md#inventory-delivery-one-step) for eighty kilograms of flour by going
 to the Sales app and creating a new quotation. After clicking Confirm,
 the delivery order is created.
 
@@ -47,4 +47,4 @@ the quantities to fulfill the Demand are picked. Since the order demanded eighty
 kilograms, which exceeds the quantity in the opened package of `54 kg`, an unopened package of `100
 kg` is selected.
 
-![Show which package was picked in the *Pick From* field.](least_packages/least-package.png)
+![Show which package was picked in the *Pick From* field.](../../../../../.gitbook/assets/least-package.png)

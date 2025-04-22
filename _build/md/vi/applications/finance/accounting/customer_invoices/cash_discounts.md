@@ -6,8 +6,8 @@ A [tax reduction](#cash-discounts-tax-reductions) can also be applied depending 
 or region.
 
 #### SEE ALSO
-- [Payment terms and installment plans](payment_terms.md)
-- [Thanh toán](../payments.md)
+- [Payment terms and installment plans](applications/finance/accounting/customer_invoices/payment_terms.md)
+- [Thanh toán](applications/finance/accounting/payments.md)
 
 <a id="cash-discounts-configuration"></a>
 
@@ -32,13 +32,13 @@ Cash Discount Gain account and Cash Discount Loss account.
 
 ### Điều khoản thanh toán
 
-Cash discounts are defined on [payment terms](payment_terms.md). Configure them to your liking by
+Cash discounts are defined on [payment terms](applications/finance/accounting/customer_invoices/payment_terms.md). Configure them to your liking by
 going to Accounting ‣ Configuration ‣ Payment Terms, and make sure to fill out
 the discount percentage, discount days, and [tax reduction](#cash-discounts-tax-reductions)
 fields.
 
 ![Configuration of payment terms named "2/7 Net 30". The field "Description on Invoices"
-reads: "Payment terms: 30 Days, 2% Early Payment Discount under 7 days".](cash_discounts/payment-terms.png)
+reads: "Payment terms: 30 Days, 2% Early Payment Discount under 7 days".](../../../../.gitbook/assets/payment-terms.png)
 
 <a id="cash-discounts-tax-reductions"></a>
 
@@ -63,11 +63,11 @@ Discount checkbox enabled, and select one of the three following options:
     customer benefits from the discount or not.
 
 #### NOTE
-- [Tax grids](../reporting/tax_returns.md#tax-returns-tax-grids), which are used for the tax report, are correctly
+- [Tax grids](applications/finance/accounting/reporting/tax_returns.md#tax-returns-tax-grids), which are used for the tax report, are correctly
   computed according to the [type of tax reduction](#cash-discounts-tax-reductions) you
   configured.
 - The **type of cash discount tax reduction** may be correctly pre-configured, depending on your
-  [fiscal localization package](../../fiscal_localizations.md#fiscal-localizations-packages).
+  [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages).
 
 <a id="cash-discounts-customer-invoice"></a>
 
@@ -80,17 +80,17 @@ Under the Journal Items tab, you can display the discount details by clicking on
 "toggle" button and adding the Discount Date and Discount Amount columns.
 
 ![An invoice of €100.00 with "2/7 Net 30" selected as payment terms. The "Journal Items" tab
-is open, and the "Discount Date" and "Discount Amount" columns are displayed.](cash_discounts/invoice-journal-entry.png)
+is open, and the "Discount Date" and "Discount Amount" columns are displayed.](../../../../.gitbook/assets/invoice-journal-entry.png)
 
 The discount amount and due date are also displayed on the generated invoice report sent to the
 customer if the Show installment dates option is checked on the payment terms.
 
 ![An invoice of €100.00 with the following text added to the terms and conditions: "30
-Days, 2% Early Payment Discount under 7 days. 118.58 € due if paid before 01/08/2023."](cash_discounts/invoice-print.png)
+Days, 2% Early Payment Discount under 7 days. 118.58 € due if paid before 01/08/2023."](../../../../.gitbook/assets/invoice-print.png)
 
 ### Đối chiếu thanh toán
 
-When you record a [payment](../payments.md) or [reconcile your bank transactions](../bank/reconciliation.md), Odoo takes the customer payment's date into account to determine if the
+When you record a [payment](applications/finance/accounting/payments.md) or [reconcile your bank transactions](applications/finance/accounting/bank/reconciliation.md), Odoo takes the customer payment's date into account to determine if the
 customer can benefit from the cash discount or not.
 
 #### NOTE

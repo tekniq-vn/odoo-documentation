@@ -13,7 +13,7 @@ Once the initial configuration is done, [planning shifts](#planning-shifts) can 
 manually or automated by using the [Auto Plan](#planning-open-shifts) feature.
 
 An integration between the Planning and Sales apps allows the linking of sold services to roles and
-shifts in Planning. Additionally, integration with [Project](project.md) allows dedicating
+shifts in Planning. Additionally, integration with [Project](applications/services/project.md) allows dedicating
 shifts, and thus time and resources, to specific projects.
 
 #### SEE ALSO
@@ -47,9 +47,9 @@ Planning includes the possibility of adding property fields linked to roles to s
 To create a property field, switch to the list view from any schedule. From there, click
 View on the shift that you wish to edit. If the Role field is empty, fill it
 in with the desired role, then click the cog icon and select Add Properties.
-[Configure](../productivity/knowledge/properties.md) the new field according to your needs.
+[Configure](applications/productivity/knowledge/properties.md) the new field according to your needs.
 
-![Creating a new property field in Planning.](planning/add-properties.png)
+![Creating a new property field in Planning.](../../.gitbook/assets/add-properties1.png)
 
 The property field is linked to the role and is included in the shift form of all shifts performed
 by this role.
@@ -64,7 +64,7 @@ To adapt the employee's planning settings, go to Planning ‣ Configuration ‣
 Employees, and choose the employee for whom you want to edit the settings. Then, go to the
 Work Information tab.
 
-![Employee profile and the work information tab.](planning/employee-tab.png)
+![Employee profile and the work information tab.](../../.gitbook/assets/employee-tab.png)
 
 Two sections of the employee's Work Information tab have an impact on Planning:
 Schedule (namely, the Working Hours field) and Planning.
@@ -85,7 +85,7 @@ The Working Hours and the Allocated Time in Planning can impact
 **Payroll**, if the employee's contract is configured to generate work entries based on shifts.
 
 #### SEE ALSO
-[Payroll documentation on working schedules](../hr/payroll.md#payroll-working-times)
+[Payroll documentation on working schedules](applications/hr/payroll.md#payroll-working-times)
 
 #### Planning roles
 
@@ -127,7 +127,7 @@ To create a shift template, click New on any schedule, then fill in the
 [details of the shift](#planning-create-shift). In order for the shift to be saved as a
 template, tick Save as Template.
 
-![Shift form with the option `save template` ticked.](planning/save-template.png)
+![Shift form with the option `save template` ticked.](../../.gitbook/assets/save-template.png)
 
 Alternatively, you can go to Planning ‣ Configuration ‣ Shift Templates, then
 click New. Fill in the Start Hour and Shift Duration. The
@@ -151,7 +151,7 @@ as well as reporting and configuration menus.
 The schedule is displayed in the Gantt view, which allows you to edit (with a drag and drop),
 resize, split, and duplicate shifts without having to open them.
 
-![A schedule displaying various visual elements.](planning/schedule.png)
+![A schedule displaying various visual elements.](../../.gitbook/assets/schedule.png)
 
 The following visual elements are used on the shifts in the schedules:
 
@@ -190,7 +190,7 @@ fill in the following details:
     Repeat Every field.
   - Recurrences are planned but not published.
   - By default, planned shifts are created six months in advance, after which they are created
-    gradually. To change the time frame, [activate the Developer mode](../general/developer_mode.md#developer-mode), then
+    gradually. To change the time frame, [activate the Developer mode](applications/general/developer_mode.md#developer-mode), then
     go to Planning ‣ Configuration ‣ Settings and edit the
     Recurring Shifts.
 - Save as Template: When this option is ticked, a shift template is created with the

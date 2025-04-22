@@ -52,7 +52,7 @@ The fields on the form are:
   comes from the vehicle form.
 - Notes: enter any notes for the repair at the bottom of the service form.
 
-![Enter the information for a new service. The required fields are Service Type and Vehicle.](service/new-service.png)
+![Enter the information for a new service. The required fields are Service Type and Vehicle.](../../../.gitbook/assets/new-service.png)
 
 <a id="fleet-new-type"></a>
 
@@ -147,7 +147,7 @@ Fill out the following information in the top-half of the form:
   ✏️ (pencil) icon, and click it. A file explorer window appears. Navigate to the
   desired file, then click Open to select it.
 
-![The top portion of the create vendor form.](service/create-vendor.png)
+![The top portion of the create vendor form.](../../../.gitbook/assets/create-vendor.png)
 
 ##### Tab Liên hệ & Địa chỉ
 
@@ -173,7 +173,7 @@ pop-up window. Those options are as follows:
   about overdue invoices.
 - Other Address: select this option to add any other necessary addresses for the vendor.
 
-![The create contact form with all parts filled in.](service/vendor-contact.png)
+![The create contact form with all parts filled in.](../../../.gitbook/assets/vendor-contact.png)
 
 #### NOTE
 If an option *other than* Contact is selected for the contact type, an
@@ -242,7 +242,7 @@ Each service listed displays the following information:
 
 At the bottom of the Cost column, the total cost of all services and repairs are listed.
 
-![The full list of services in the Odoo database.](service/services.png)
+![The full list of services in the Odoo database.](../../../.gitbook/assets/services.png)
 
 ### View services
 
@@ -251,7 +251,7 @@ the information presented. In the top-right corner of the list, there are severa
 clicked, sort the data in different ways.
 
 ![The icons in the top right corner than can be clicked to present the information in
-different ways.](service/views.png)
+different ways.](../../../.gitbook/assets/views.png)
 
 #### Xem danh sách
 
@@ -299,11 +299,11 @@ The length of the color bar is proportionate to the number of corresponding acti
 specific status in that particular stage. Hover over a color section to reveal the number of service
 records in that specific grouping.
 
-![The service records presented in a Kanban view.](service/kanban.png)
+![The service records presented in a Kanban view.](../../../.gitbook/assets/kanban.png)
 
 Để **chỉ** xem các bản ghi có trạng thái cụ thể, hãy nhấp vào phần thanh màu tương ứng. Màu nền của cột sẽ chuyển sang sắc nhạt của cùng màu đó (xanh lục, vàng, đỏ hoặc xám), và thanh màu sẽ hiển thị dạng sọc thay vì dạng đặc. **Chỉ** các yêu cầu sửa chữa và dịch vụ có trạng thái đã chọn mới xuất hiện trong cột.
 
-![The oil change service records showing only repairs with past-due activities.](service/kanban-status.png)
+![The oil change service records showing only repairs with past-due activities.](../../../.gitbook/assets/kanban-status.png)
 
 <a id="fleet-schedule-activity"></a>
 
@@ -335,7 +335,7 @@ activity, or click Done & Schedule Next to schedule the current activity and sch
 another activity for the same repair.
 
 #### SEE ALSO
-For more detailed information regarding activities, refer to the main [activities](../../essentials/activities.md) document.
+For more detailed information regarding activities, refer to the main [activities](applications/essentials/activities.md) document.
 
 ##### Add a service
 
@@ -365,7 +365,7 @@ corresponding button above the graph. Additionally, the graph can display the da
 Stacked, Descending, or Ascending order, by clicking the
 corresponding buttons.
 
-![A bar chart view of the services and repairs, with the various option buttons highlighted.](service/bar-chart.png)
+![A bar chart view of the services and repairs, with the various option buttons highlighted.](../../../.gitbook/assets/bar-chart.png)
 
 #### Chế độ xem pivot
 
@@ -377,7 +377,7 @@ rows represent the various types of service, with a different service type in it
 vertical columns represent the total costs for each specific type of service, further divided by the
 type of service.
 
-![The default pivot table view of the services.](service/pivot.png)
+![The default pivot table view of the services.](../../../.gitbook/assets/pivot.png)
 
 The table can either be inserted in a spreadsheet or downloaded, if desired.
 
@@ -406,7 +406,7 @@ To download the table in an *xlsx* format, click the download xlsx icon, represe
 ⬇️ (down arrow above a line) icon.
 
 #### SEE ALSO
-For more detailed information regarding reporting, refer to the main [reporting](../../essentials/reporting.md) document.
+For more detailed information regarding reporting, refer to the main [reporting](applications/essentials/reporting.md) document.
 
 #### Xem hoạt động
 
@@ -431,7 +431,7 @@ that column.
 The number of activities for each activity type is written on the right side of the color-coded bar
 beneath the column name.
 
-![The activity view, with the columns called out, and an activity box highlighted.](service/activity-view.png)
+![The activity view, with the columns called out, and an activity box highlighted.](../../../.gitbook/assets/activity-view1.png)
 
 ##### Lên lịch một hoạt động
 

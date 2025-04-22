@@ -1,6 +1,6 @@
 # Odoo Sign legality in Australia
 
-[Odoo Sign](../sign.md) is your trusted partner for secure, efficient, and legally compliant
+[Odoo Sign](applications/productivity/sign.md) is your trusted partner for secure, efficient, and legally compliant
 electronic signatures in Australia.
 
 ## Legal framework for electronic signatures in Australia

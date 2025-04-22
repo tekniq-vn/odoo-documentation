@@ -1,3 +1,3 @@
 # Quản lý dự án
 
-* [Phê duyệt](management/approvals.md)
+* [Phê duyệt](applications/inventory_and_mrp/plm/management/approvals.md)

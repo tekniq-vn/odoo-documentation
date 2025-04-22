@@ -30,7 +30,7 @@ created in the database, click on the Create button, enter the details of the co
 and then click Save. Otherwise, choose an existing contact, and then click on the
 Action drop-down menu located at the top-center of the interface.
 
-![Use the Contacts application to give portal access to users.](portal/grant-portal-access.png)
+![Use the Contacts application to give portal access to users.](../../../.gitbook/assets/grant-portal-access.png)
 
 Then select Grant portal access. A pop-up window appears, listing three fields:
 
@@ -43,7 +43,7 @@ portal. Then, check the box under the In Portal column. Optionally, add text to 
 invitation message the contact will receive. Then click Apply to finish.
 
 ![An email address and corresponding checkbox for the contact need to be filled in before
-sending a portal invitation.](portal/add-contact-to-portal.png)
+sending a portal invitation.](../../../.gitbook/assets/add-contact-to-portal.png)
 
 An email will be sent to the specified email address, indicating that the contact is now a portal
 user for that Odoo database.
@@ -62,7 +62,7 @@ in the database with administrator access rights. The following process outlines
 to change the portal user login.
 
 #### SEE ALSO
-[See the documentation on setting access rights](access_rights.md).
+[See the documentation on setting access rights](applications/general/users/access_rights.md).
 
 First, navigate to Settings app ‣ Users. Then, under Filters, select
 Portal Users, or select Add Custom Filter and set the following

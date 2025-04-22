@@ -26,13 +26,13 @@ If an application does not have an alias, a generic fallback alias is used: the 
 sent from a chatter has a reply address set to this catchall alias. A reply sent to the catchall is
 posted to the right chatter thanks to the *message-id* header.
 
-By default, the local-part *catchall* will be used. Enable [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) and go to
+By default, the local-part *catchall* will be used. Enable [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) and go to
 Settings ‣ Technical ‣ Emails: Alias Domains to access the configuration.
 
 An email to the catchall always needs to be a reply to a previous email sent from the database. If
 an email is sent directly to the catchall, the sender will receive the following message:
 
-![Bounce email from "MAILER-DEAMON" explaining how to contact the database.](email_servers_inbound/direct-mail-to-catchall.png)
+![Bounce email from "MAILER-DEAMON" explaining how to contact the database.](../../../.gitbook/assets/direct-mail-to-catchall.png)
 
 #### NOTE
 Địa chỉ email `info@company-name.com` hiển thị trong ảnh chụp màn hình trên là địa chỉ email được thiết lập cho công ty. Khi bật chế độ nhà phát triển trên hồ sơ công ty, các tùy chọn cấu hình bổ sung (chẳng hạn như nhận tất cả và trả về) sẽ hiển thị. Có thể chỉnh sửa bằng cách nhấp vào liên kết nội bộ của Miền email. Thông thường, không nên thay đổi các tùy chọn này trừ khi có nhu cầu cụ thể, vì điều đó sẽ ảnh hưởng đến tất cả các phản hồi đối với email đã gửi trước đó.
@@ -50,7 +50,7 @@ In the same way the catchall alias is used to build the reply address, the bounc
 build the *return-path* of the email. The *return-path* is used when emails cannot be delivered to
 the recipient and an error is returned to the sender.
 
-By default the name *bounce* will be used. Enable [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) and go to
+By default the name *bounce* will be used. Enable [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) and go to
 Settings ‣ Technical ‣ Emails: Alias Domains to access the configuration.
 
 #### NOTE
@@ -63,7 +63,7 @@ could not be handled by Odoo.
 
 A notification will also be displayed in the Discuss icon on the navigation bar.
 
-![An email sent to a contact had an issue and the error is reported on the navbar.](email_servers_inbound/mail-error-notif-navbar.png)
+![An email sent to a contact had an issue and the error is reported on the navbar.](../../../.gitbook/assets/mail-error-notif-navbar.png)
 
 <a id="email-inbound-default"></a>
 
@@ -84,26 +84,26 @@ On **Odoo.sh**, it is possible to use several Odoo subdomains. In the settings o
 additional Odoo subdomains can be added as long as they are not used yet in another branch. These
 domains must then be added to the alias domains to be used by a company.
 
-![Setting up an Odoo subdomain on a branch.](email_servers_inbound/custom-subdomain-sh.png)
+![Setting up an Odoo subdomain on a branch.](../../../.gitbook/assets/custom-subdomain-sh.png)
 
 <a id="email-inbound-custom-domain"></a>
 
 ## Use a custom domain for inbound messages
 
-The [alias domain](email_servers_outbound.md#email-outbound-alias-domain) must be selected in the general
+The [alias domain](applications/general/email_communication/email_servers_outbound.md#email-outbound-alias-domain) must be selected in the general
 settings. If you have multiple companies, each one must be configured.
 
-![The alias domain in the general settings.](email_servers_inbound/alias-domain-settings.png)
+![The alias domain in the general settings.](../../../.gitbook/assets/alias-domain-settings.png)
 
 All the aliases will use this custom domain. Replies on models for which an alias is configured
 are done to `[alias]@my-custom-domain.com`. Replies to other models are sent to the catchall through
 `catchall@my-custom-domain.com`.
 
-![Technical schema of mailing route when using a custom domain in Odoo.](email_servers_inbound/diagram-mail-custom-domain.png)
+![Technical schema of mailing route when using a custom domain in Odoo.](../../../.gitbook/assets/diagram-mail-custom-domain.png)
 
 #### IMPORTANT
 If emails are sent using Odoo's email servers while using a custom domain, follow the
-["Using a custom domain with Odoo’s email server" instructions](email_servers_outbound.md#email-outbound-custom-domain-odoo-server).
+["Using a custom domain with Odoo’s email server" instructions](applications/general/email_communication/email_servers_outbound.md#email-outbound-custom-domain-odoo-server).
 
 Vì đang sử dụng miền tùy chỉnh này, nên tất cả email sử dụng bí danh( bao gồm email phản hồi, trả lại, và gửi trực tiếp) đều được gửi đến một địa chỉ thuộc miền đó. Do đó, các email này sẽ được chuyển đến máy chủ email được liên kết với miền (bản ghi MX). Để các email này hiển thị trong cửa sổ trò chuyện hoặc được dùng để tạo bản ghi mới, cần phải truy xuất các email đến trong cơ sở dữ liệu Odoo.
 
@@ -115,7 +115,7 @@ Vì đang sử dụng miền tùy chỉnh này, nên tất cả email sử dụn
 
 #### IMPORTANT
 For **on-premise databases**, the redirection and the MX record methods also require configuring
-the [mail gateway script](../../../administration/on_premise/email_gateway.md). Going
+the [mail gateway script](administration/on_premise/email_gateway.md). Going
 through this script requires **advanced technical and infrastructure knowledge**.
 
 #### IMPORTANT
@@ -136,7 +136,7 @@ Every other alias used must be redirected as well.
 Some providers ask to validate the redirection by sending a link to the target email address.
 This procedure is an issue for catchall and bounce since they are not used to create records.
 
-1. Modify the catchall value on the mail alias domain. [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) must be enabled to
+1. Modify the catchall value on the mail alias domain. [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) must be enabled to
    access this menu. For example, it can be changed from `catchall` to `temp-catchall`. This will
    allow to use `catchall` as the local-part of another alias.
 2. Open an app that uses an alias. For example, CRM contains aliases for each sales team. Set
@@ -182,13 +182,13 @@ Below are presented some specifications depending on the hosting type:
 
 Odoo Online
 
-The custom subdomain must be added to your [Odoo Portal](../../websites/website/configuration/domain_names.md).
+The custom subdomain must be added to your [Odoo Portal](applications/websites/website/configuration/domain_names.md).
 
 Odoo.sh
 
-The custom subdomain must be added to the [settings of the project](../../../administration/odoo_sh/getting_started/settings.md):
+The custom subdomain must be added to the [settings of the project](administration/odoo_sh/getting_started/settings.md):
 
-![Adding a custom subdomain for mail to Odoo.sh project settings.](email_servers_inbound/custom-subdomain-sh.png)
+![Adding a custom subdomain for mail to Odoo.sh project settings.](../../../.gitbook/assets/custom-subdomain-sh.png)
 
 <a id="email-inbound-loops"></a>
 
@@ -201,9 +201,9 @@ a specific time span.
 By default, an email address can send up to 20 emails in 120 minutes. If more emails are sent, they
 are blocked and the sender receives the following message:
 
-![Bounce email received after attempting contact too many times an alias.](email_servers_inbound/bounce-mail-loop.png)
+![Bounce email received after attempting contact too many times an alias.](../../../.gitbook/assets/bounce-mail-loop.png)
 
-To change the default behavior, enable [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode), then go to Settings
+To change the default behavior, enable [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode), then go to Settings
 ‣ Technical ‣ Parameters: System Parameters to add two parameters.
 
 - For the first parameter, enter `mail.gateway.loop.minutes` as the Key and choose a
@@ -218,7 +218,7 @@ replies** from being added to the chatter.
 ## Allow alias domain system parameter
 
 Incoming aliases are set in the Odoo database to create records by receiving incoming emails. To
-view aliases set in the Odoo database, first activate the [developer mode](../developer_mode.md#developer-mode).
+view aliases set in the Odoo database, first activate the [developer mode](applications/general/developer_mode.md#developer-mode).
 Then, go to Settings app ‣ Technical ‣ Aliases.
 
 The following system parameter, `mail.catchall.domain.allowed`, set with allowed alias domain
@@ -230,13 +230,13 @@ In some instances, matches have been made in the Odoo database when an email is 
 same alias prefix and a different domain on the incoming email address. This is true in the sender,
 recipient, and  email addresses of an incoming email.
 
-To add the `mail.catchall.domain.allowed` system parameter, first, activate the [developer mode](../developer_mode.md#developer-mode). Then, go to Settings app ‣ Technical ‣ System Parameters.
+To add the `mail.catchall.domain.allowed` system parameter, first, activate the [developer mode](applications/general/developer_mode.md#developer-mode). Then, go to Settings app ‣ Technical ‣ System Parameters.
 Click New. Then, type in `mail.catchall.domain.allowed` for the Key field.
 
 Next, for the Value field, add the domains separated by commas. Manually
 <i class="fa fa-cloud-upload"></i> (Save), and the system parameter takes immediate effect.
 
-![mail.catchall.domain.allowed system parameter set.](email_servers_inbound/allowed-domain.png)
+![mail.catchall.domain.allowed system parameter set.](../../../.gitbook/assets/allowed-domain.png)
 
 ## Phát hiện gửi đến dựa trên phần cục bộ
 

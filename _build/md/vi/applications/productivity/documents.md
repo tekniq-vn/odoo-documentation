@@ -13,13 +13,13 @@ You can upload any file (max 64MB per file on Odoo Online) and organize them in 
 
 Bằng cách vào Tài liệu ‣ Cấu hình ‣ Cài đặt, bạn có thể kích hoạt tính năng tập trung hóa các tệp đính kèm vào một khu vực cụ thể trong hoạt động của mình. Ví dụ: bằng cách đánh dấu vào Nhân sự, các tài liệu nhân sự của bạn sẽ tự động khả dụng trong không gian làm việc Nhân sự, trong khi các tài liệu liên quan đến Bảng lương tự động khả dụng trong không gian làm việc phụ Bảng lương. Bạn có thể thay đổi không gian làm việc mặc định bằng menu thả xuống và chỉnh sửa thuộc tính của nó bằng cách nhấp vào biểu tượng <i class="fa fa-arrow-right"></i> (Liên kết nội bộ).
 
-![Enable the centralization of files attached to a specific area of your activity.](documents/files-centralization.png)
+![Enable the centralization of files attached to a specific area of your activity.](../../.gitbook/assets/files-centralization.png)
 
 #### NOTE
 - If you enable the centralization of your accounting files and documents, it is necessary to
   click on Journals and define each journal independently to allow automatic
   synchronization.
-  ![Enable the centralization of files attached to your accounting.](documents/accounting-files-centralization.png)
+  ![Enable the centralization of files attached to your accounting.](../../.gitbook/assets/accounting-files-centralization.png)
 - If you select a new workspace, existing documents are not moved. Only newly created documents
   will be found under the new workspace.
 
@@ -122,7 +122,7 @@ new view displays all the pages of the document.
 By default, all pages are split when you click Split. To remove a split between two
 pages, click the <i class="fa fa-scissors"></i> (scissors) icon.
 
-![split your documents](documents/split-pdf.png)
+![split your documents](../../.gitbook/assets/split-pdf.png)
 
 ### Tính năng bổ sung
 
@@ -198,7 +198,7 @@ Upload](#documents-upload) files to it.
 
 Select the Download and Upload option to enable users to upload their files to your
 workspace using an Email Alias. To create the email alias, enter its name in the
-Email Alias field. The [domain name](../general/email_communication.md) should be set
+Email Alias field. The [domain name](applications/general/email_communication.md) should be set
 by default, but you can modify it by clicking it.
 
 The documents sent to this email alias are uploaded to the workspace using the chosen
@@ -215,8 +215,8 @@ The documents sent to this email alias are uploaded to the workspace using the c
 
 #### Bảng tính mới
 
-To create a new [spreadsheet](spreadsheet.md), click New Spreadsheet. You can select
-a Blank spreadsheet or an [existing template](spreadsheet/templates.md).
+To create a new [spreadsheet](applications/productivity/spreadsheet.md), click New Spreadsheet. You can select
+a Blank spreadsheet or an [existing template](applications/productivity/spreadsheet/templates.md).
 
 <a id="documents-workflow-actions"></a>
 
@@ -248,7 +248,7 @@ There are three basic types of conditions you can set:
 2. Contact: the files must be associated with the contact set here;
 3. Owner: the files must be associated with the owner set here.
 
-![Example of a workflow action's basic condition in Odoo Documents](documents/basic-condition-example.png)
+![Example of a workflow action's basic condition in Odoo Documents](../../.gitbook/assets/basic-condition-example.png)
 
 #### Advanced condition type: domain
 
@@ -256,7 +256,7 @@ There are three basic types of conditions you can set:
 It is recommended to have some knowledge of Odoo development to configure *Domain* filters
 properly.
 
-The [developer mode](../general/developer_mode.md#developer-mode) needs to be activated to access the Domain
+The [developer mode](applications/general/developer_mode.md#developer-mode) needs to be activated to access the Domain
 condition from the Actions tab. Once done, select the Domain condition type
 and click New Rule.
 
@@ -265,7 +265,7 @@ value. For example, if you want to add a workflow action to all the PDF files in
 workspace, set the field to *Mime Type*, the operator to *contains*, and the
 pdf value.
 
-![Example of a workflow action's domain condition in Odoo Documents](documents/domain-condition-example.png)
+![Example of a workflow action's domain condition in Odoo Documents](../../.gitbook/assets/domain-condition-example.png)
 
 Click the <i class="fa fa-plus"></i> (Add New Rule) icon and the <i class="fa fa-sitemap"></i>
 (Add branch) icon to add conditions and sub-conditions. You can then specify if your
@@ -302,7 +302,7 @@ Select the Actions tab to set up your action. You can simultaneously:
 - **Activities - Schedule Activity**: create a new activity linked to the file as configured in
   the action. You can choose to set the activity on the document owner.
 
-![Example of a workflow action Odoo Documents](documents/workflow-action-example.png)
+![Example of a workflow action Odoo Documents](../../.gitbook/assets/workflow-action-example.png)
 
 ## Digitize documents with AI and optical character recognition (OCR)
 
@@ -311,4 +311,4 @@ click Create Bill, Create Customer Invoice, or
 Create credit note, and then click Send for Digitization.
 
 #### SEE ALSO
-[AI-powered document digitization](../finance/accounting/vendor_bills/invoice_digitization.md)
+[AI-powered document digitization](applications/finance/accounting/vendor_bills/invoice_digitization.md)

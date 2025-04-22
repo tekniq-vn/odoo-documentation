@@ -1,10 +1,10 @@
 # Referral points
 
 The *Referrals* application allows employees to earn points that are then exchanged for
-[rewards](rewards.md).
+[rewards](applications/hr/referrals/rewards.md).
 
 Current referral points can be viewed on the main *Referrals* app dashboard, which appears when the
-application is opened, after the [onboarding](../referrals.md#referrals-onboarding) slides have been viewed or
+application is opened, after the [onboarding](applications/hr/referrals.md#referrals-onboarding) slides have been viewed or
 skipped.
 
 At the top, a summary of the user's current points is displayed. The left side of the summary
@@ -36,7 +36,7 @@ for filling the role (i.e. the recruiter), and the points earned.
 
 For referrals that have been hired, the selected avatar also appears on the card.
 
-![Two referral cards, one hired and one in-progress.](points/referrals.png)
+![Two referral cards, one hired and one in-progress.](../../../.gitbook/assets/referrals.png)
 
 ### Điểm
 
@@ -63,4 +63,4 @@ The preconfigured point structure for referrals is as follows:
 
 The default total points earned for a referral that is hired is 85 points. Modifications of the
 points earned for each stage are made in the *Recruitment* application. Refer to the
-[Recruitment](../recruitment.md#recruitment-modify-stages) documentation to modify the points for each stage.
+[Recruitment](applications/hr/recruitment.md#recruitment-modify-stages) documentation to modify the points for each stage.

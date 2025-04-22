@@ -8,7 +8,7 @@ product form, or [imported in bulk](#purchase-products-import-pricelist), via an
 file.
 
 #### IMPORTANT
-Please review this [import guide](../../../essentials/export_import_data.md) before uploading
+Please review this [import guide](applications/essentials/export_import_data.md) before uploading
 vendor pricelists.
 
 <a id="purchase-products-pricelist"></a>
@@ -26,9 +26,9 @@ In the Purchase tab of the product form, input the vendor and their price, to ha
 information auto-populate on a request for quotation each time the product is listed.
 
 #### SEE ALSO
-[Vendor pricelist on product form](../manage_deals/rfq.md#purchase-manage-deals-vendor-pricelist)
+[Vendor pricelist on product form](applications/inventory_and_mrp/purchase/manage_deals/rfq.md#purchase-manage-deals-vendor-pricelist)
 
-![Vendor pricelist on product form.](pricelist/product-form-pricelist.png)
+![Vendor pricelist on product form.](../../../../.gitbook/assets/product-form-pricelist.png)
 
 <a id="purchase-products-import-pricelist"></a>
 
@@ -51,7 +51,7 @@ On the page, tick the checkbox(es) for the desired vendor pricelists.
 Then, click the <i class="fa fa-cog"></i> Actions button that appears, and choose <i class="fa fa-upload"></i>
 Export from the drop-down menu.
 
-![Show selected exported fields, with the Export button visible.](pricelist/export.png)
+![Show selected exported fields, with the Export button visible.](../../../../.gitbook/assets/export1.png)
 
 In the resulting pop-up window, fields listed under the Fields to export section are
 included in the exported file. To add more fields, find the desired field in the
@@ -74,7 +74,7 @@ clicking the Template field.
 Finally, click Export.
 
 #### NOTE
-With [developer mode](../../../general/developer_mode.md#developer-mode) turned on, the column names of the exported file
+With [developer mode](applications/general/developer_mode.md#developer-mode) turned on, the column names of the exported file
 display the *field name* with the *technical name* in parenthesis.
 
 <a id="purchase-products-external-id"></a>
@@ -101,16 +101,16 @@ Below is a list of commonly-used fields when importing vendor pricelists:
 
 #### Field name definitions
 
-| Field name                                     | Used for                                                                                                                                                                                                  | Field in Odoo database                                                                                                                                                          | Technical name of field   |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| Nhà cung cấp                                   | The only required field for creating a vendor pricelist record. This field specifies the<br/>vendor associated with the product.                                                                          | Vendor field in the [vendor pricelist of the product form](#purchase-products-pricelist).                                                                                       | `partner_id`              |
-| Mẫu sản phẩm                                   | The Odoo product the vendor pricelist entry is related to.                                                                                                                                                | Product field in the vendor pricelist.                                                                                                                                          | `product_tmpl_id`         |
-| Số lượng                                       | The minimum quantity required to receive the product at the specified price.                                                                                                                              | Quantity field in the vendor pricelist. (If not visible, enable it by clicking<br/>the <i class="oi oi-settings-adjust"></i> (adjust) icon, and tick the Quantity<br/>checkbox) | `min_qty`                 |
-| Đơn giá                                        | The purchase price for the product from the vendor.                                                                                                                                                       | Price field in the vendor pricelist.                                                                                                                                            | `price`                   |
-| Thời gian giao hàng                            | [Number of days](../../inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-purchase-lt) before receiving the product<br/>after confirming a purchase order.             | Delivery Lead Time field on the vendor pricelist.                                                                                                                               | `delay`                   |
-| Trình tự                                       | Defines the order of vendors in the pricelist when multiple vendors are available. For<br/>example, if `Azure Interior` is listed first and Wood Corner second, their sequences would be<br/>`1` and `2`. | N/A                                                                                                                                                                             | `sequence`                |
-| Công ty                                        | Name of company the product belongs to.                                                                                                                                                                   | Company field in the vendor pricelist.                                                                                                                                          | `company_id`              |
-| [ID bên ngoài](#purchase-products-external-id) | Unique ID of a record used to update existing vendor pricelists.                                                                                                                                          | N/A                                                                                                                                                                             | `id`                      |
+| Field name                                     | Used for                                                                                                                                                                                                               | Field in Odoo database                                                                                                                                                          | Technical name of field   |
+|------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| Nhà cung cấp                                   | The only required field for creating a vendor pricelist record. This field specifies the<br/>vendor associated with the product.                                                                                       | Vendor field in the [vendor pricelist of the product form](#purchase-products-pricelist).                                                                                       | `partner_id`              |
+| Mẫu sản phẩm                                   | The Odoo product the vendor pricelist entry is related to.                                                                                                                                                             | Product field in the vendor pricelist.                                                                                                                                          | `product_tmpl_id`         |
+| Số lượng                                       | The minimum quantity required to receive the product at the specified price.                                                                                                                                           | Quantity field in the vendor pricelist. (If not visible, enable it by clicking<br/>the <i class="oi oi-settings-adjust"></i> (adjust) icon, and tick the Quantity<br/>checkbox) | `min_qty`                 |
+| Đơn giá                                        | The purchase price for the product from the vendor.                                                                                                                                                                    | Price field in the vendor pricelist.                                                                                                                                            | `price`                   |
+| Thời gian giao hàng                            | [Number of days](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-purchase-lt) before receiving the product<br/>after confirming a purchase order. | Delivery Lead Time field on the vendor pricelist.                                                                                                                               | `delay`                   |
+| Trình tự                                       | Defines the order of vendors in the pricelist when multiple vendors are available. For<br/>example, if `Azure Interior` is listed first and Wood Corner second, their sequences would be<br/>`1` and `2`.              | N/A                                                                                                                                                                             | `sequence`                |
+| Công ty                                        | Name of company the product belongs to.                                                                                                                                                                                | Company field in the vendor pricelist.                                                                                                                                          | `company_id`              |
+| [ID bên ngoài](#purchase-products-external-id) | Unique ID of a record used to update existing vendor pricelists.                                                                                                                                                       | N/A                                                                                                                                                                             | `id`                      |
 
 ### Nhập bản ghi
 
@@ -125,10 +125,10 @@ Then, click Upload File in the upper-left corner, and after selecting the XLSX o
 file, confirm the correct fields, and click Import.
 
 #### SEE ALSO
-- [Xuất và nhập dữ liệu](../../../essentials/export_import_data.md)
+- [Xuất và nhập dữ liệu](applications/essentials/export_import_data.md)
 - [Common fields](#purchase-products-common-fields)
 
-![Upload file screen.](pricelist/supplier-pricelist-example.png)
+![Upload file screen.](../../../../.gitbook/assets/supplier-pricelist-example.png)
 
 #### Formatting import file
 

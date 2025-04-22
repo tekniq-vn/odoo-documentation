@@ -3,11 +3,11 @@
 When activated in Odoo, the *Delivery Methods* setting adds the option of calculating the cost of
 shipping on sales orders and e-commerce shopping carts.
 
-When integrated with a [third-party carrier](setup_configuration/third_party_shipper.md#inventory-shipping-third-party), shipping prices
+When integrated with a [third-party carrier](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md#inventory-shipping-third-party), shipping prices
 are calculated based on the carrier's pricing and packaging information.
 
 #### SEE ALSO
-- [Third-party shipping carrier setup](setup_configuration/third_party_shipper.md#inventory-shipping-third-party)
+- [Third-party shipping carrier setup](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md#inventory-shipping-third-party)
 - [Odoo Tutorials: Delivery Prices](https://www.odoo.com/slides/slide/delivery-prices-613?fullscreen=1)
 
 ## Cấu hình
@@ -18,7 +18,7 @@ To do so, navigate to the Apps application from the main Odoo dashboard.
 Then, remove the Apps filter, and type in `Delivery Costs` in the Search...
 bar. After finding the Delivery Costs module, click Activate to install it.
 
-![Install the Delivery Costs module.](setup_configuration/install-module.png)
+![Install the Delivery Costs module.](../../../../.gitbook/assets/install-module.png)
 
 ## Thêm phương thức vận chuyển
 
@@ -33,7 +33,7 @@ drop-down menu, verify whether the feature is enabled by following these steps:
 2. Scroll to the Shipping section and enable the Delivery Methods feature
    by checking the corresponding checkbox.
 
-![Enable the *Delivery Methods* feature by checking the box in Configuration > Settings.](setup_configuration/enable-delivery.png)
+![Enable the *Delivery Methods* feature by checking the box in Configuration > Settings.](../../../../.gitbook/assets/enable-delivery.png)
 
 On the Shipping Methods page, add a method by clicking New. Doing so opens
 a form to provide details about the shipping provider, including:
@@ -41,7 +41,7 @@ a form to provide details about the shipping provider, including:
 - Shipping Method (*Required field*): the name of the delivery method (e.g. `flat-rate
   shipping`, `same day delivery`, etc.).
 - Provider (*Required field*): choose the delivery service, like Fedex, if using a
-  [third-party carrier](setup_configuration/third_party_shipper.md#inventory-shipping-third-party). Ensure the integration with the
+  [third-party carrier](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md#inventory-shipping-third-party). Ensure the integration with the
   shipping carrier is properly installed and select the provider from the drop-down menu.
 
   For more details on configuring custom shipping methods, such as [fixed price](#inventory-shipping-fixed), [based on rules](#inventory-shipping-rules), or [pickup in
@@ -120,14 +120,14 @@ Policy field to decide whether the added shipping charge on the sales order is t
 from the shipping carrier.
 
 #### SEE ALSO
-[Invoice cost of shipping](setup_configuration/invoicing.md)
+[Invoice cost of shipping](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.md)
 
 <a id="inventory-shipping-receiving-shipping-route"></a>
 
 ### Route on shipping method
 
 Optionally, set different warehouse delivery processes for a shipping method by configuring
-different [routes](daily_operations/use_routes.md) for it.
+different [routes](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md) for it.
 
 To set up routes, go to Inventory app ‣ Configuration ‣ Routes. Click
 New, or select the desired route.
@@ -135,7 +135,7 @@ New, or select the desired route.
 On the route form, in the Applicable On section, tick the Shipping Methods
 checkbox.
 
-![Routes form with the Shipping Methods checkbox selected.](setup_configuration/shipping-route.png)
+![Routes form with the Shipping Methods checkbox selected.](../../../../.gitbook/assets/shipping-route.png)
 
 Then, go to Inventory app ‣ Configuration ‣ Shipping Methods, and select the
 desired shipping method.
@@ -147,7 +147,7 @@ routes from the drop-down menu.
 If the desired route is not selectable, check that the *Shipping Methods* option is enabled in
 the route's *Applicable On* section.
 
-![Show set routes on shipping method form.](setup_configuration/set-routes.png)
+![Show set routes on shipping method form.](../../../../.gitbook/assets/set-routes.png)
 
 <a id="inventory-shipping-sales-order"></a>
 
@@ -177,19 +177,19 @@ The shipping method added to the sales order is linked to the shipping carrier d
 delivery order. To add or change the delivery method on the delivery itself, go to the
 Additional Info tab and modify the Carrier field.
 
-![Shipping carrier information on the delivery form.](setup_configuration/delivery-order.png)
+![Shipping carrier information on the delivery form.](../../../../.gitbook/assets/delivery-order1.png)
 
-* [Third-party shipping carriers](setup_configuration/third_party_shipper.md)
-* [Print shipping labels](setup_configuration/labels.md)
-* [Tích hợp Bpost](setup_configuration/bpost.md)
-* [Tích hợp DHL](setup_configuration/dhl_credentials.md)
-* [Tích hợp FedEx](setup_configuration/fedex.md)
-* [Sendcloud integration](setup_configuration/sendcloud_shipping.md)
-* [Vận chuyển Starshipit](setup_configuration/starshipit_shipping.md)
-* [Tích hợp UPS](setup_configuration/ups_credentials.md)
-* [Zebra label configuration](setup_configuration/zebra.md)
-* [How to cancel a shipping request to a shipper?](setup_configuration/cancel.md)
-* [Shipping cost invoicing](setup_configuration/invoicing.md)
-* [Change shipping label size](setup_configuration/label_type.md)
-* [Multi-package shipments](setup_configuration/multipack.md)
-* [Printable delivery PDFs](setup_configuration/print_on_validation.md)
+* [Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
+* [Print shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
+* [Tích hợp Bpost](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost.md)
+* [Tích hợp DHL](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.md)
+* [Tích hợp FedEx](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex.md)
+* [Sendcloud integration](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.md)
+* [Vận chuyển Starshipit](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/starshipit_shipping.md)
+* [Tích hợp UPS](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.md)
+* [Zebra label configuration](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/zebra.md)
+* [How to cancel a shipping request to a shipper?](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel.md)
+* [Shipping cost invoicing](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.md)
+* [Change shipping label size](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/label_type.md)
+* [Multi-package shipments](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.md)
+* [Printable delivery PDFs](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.md)

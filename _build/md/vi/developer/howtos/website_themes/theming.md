@@ -102,17 +102,17 @@ always required. It usually contains much more information.
 }
 ```
 
-| Field       | Description                                                                                                                                           |
-|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| name        | Human-readable name of the module (required)                                                                                                          |
-| description | Extended description of the module, in [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText)                                             |
-| category    | Classification category within Odoo                                                                                                                   |
-| version     | Odoo version this module is addressing                                                                                                                |
-| author      | Name of the module author                                                                                                                             |
-| license     | By default, we use the `LGPL-3` license. More information in the [module manifest](../../reference/backend/module.md#reference-module-manifest) page. |
-| depends     | Odoo modules must be loaded before this one, either because this module uses features<br/>they create or because it alters resources they define      |
-| data        | List of XML files                                                                                                                                     |
-| assets      | List of SCSS and JS files                                                                                                                             |
+| Field       | Description                                                                                                                                               |
+|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| name        | Human-readable name of the module (required)                                                                                                              |
+| description | Extended description of the module, in [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText)                                                 |
+| category    | Classification category within Odoo                                                                                                                       |
+| version     | Odoo version this module is addressing                                                                                                                    |
+| author      | Name of the module author                                                                                                                                 |
+| license     | By default, we use the `LGPL-3` license. More information in the [module manifest](developer/reference/backend/module.md#reference-module-manifest) page. |
+| depends     | Odoo modules must be loaded before this one, either because this module uses features<br/>they create or because it alters resources they define          |
+| data        | List of XML files                                                                                                                                         |
+| assets      | List of SCSS and JS files                                                                                                                                 |
 
 #### NOTE
 > - The file structure above is just a suggestion.  We could add as many other folders as needed in
@@ -123,7 +123,7 @@ always required. It usually contains much more information.
 > - Odoo version and major number are mandatory. However, patch number is optional. If you want
 >   to specify the required version of Odoo to run your module, you should use a five arguments
 >   structure, using the first two arguments to indicate your current Odoo version (`* = 17.0`).
-![Module versioning](theming/versioning.png)
+![Module versioning](../../../.gitbook/assets/versioning.png)
 
 Example:
 `17.0.1.0.0`
@@ -148,7 +148,7 @@ First, try to construct your theme by using Odoo's default options. This ensures
    features may rely on it.
 
 #### SEE ALSO
-[Odoo coding guidelines](../../../contributing/development/coding_guidelines.md)
+[Odoo coding guidelines](contributing/development/coding_guidelines.md)
 
 <a id="theming-module-variables"></a>
 
@@ -309,7 +309,7 @@ ensures it stays consistent.
 | o-color-3 | Extra (Light) |
 | o-color-4 | Whitish       |
 | o-color-5 | Blackish      |
-![Theme colors](theming/theme-colors.png)
+![Theme colors](../../../.gitbook/assets/theme-colors.png)
 
 **Declaration**
 
@@ -343,7 +343,7 @@ $o-website-values-palettes: (
 );
 ```
 
-![Theme colors Airproof](theming/theme-colors-airproof.png)
+![Theme colors Airproof](../../../.gitbook/assets/theme-colors-airproof.png)
 
 **Color combinations**
 
@@ -351,7 +351,7 @@ Based on the previously defined five color palettes, the Website Builder automat
 five color combinations, each defining a color for the background, text, headings, links, primary
 buttons, and secondary buttons. These colors can be customized later by the user.
 
-![Theme colors](theming/theme-colors-big.png)
+![Theme colors](../../../.gitbook/assets/theme-colors-big.png)
 
 The colors used in a color combination are accessible and can be overridden through
 `$o-color-palettes` using a specific prefix (`o-cc` for `color combination`).
@@ -479,7 +479,7 @@ Odoo's Website Builder allows to select a style for your text. Some are just tag
 `Header` with no extra CSS class. Other combine tag and style directly applied on them like the
 `Header 1 Display`.
 
-![Header styles](theming/header.png)
+![Header styles](../../../.gitbook/assets/header.png)
 ```xml
 <!-- h1 with display heading sizes -->
 <h1 class="display-1">Heading 1 with Display Heading 1 size</h1>
@@ -501,7 +501,7 @@ Odoo's Website Builder allows to select a style for your text. Some are just tag
 The sizing classes are added on a freshly created `span` tag inside the targeted element (See
 examples below).
 
-![Sizing classes](theming/sizing.png)
+![Sizing classes](../../../.gitbook/assets/sizing.png)
 
 <a id="theming-module-bootstrap-fonts-sizing-headings-and-body"></a>
 
@@ -675,15 +675,15 @@ Feel free to reuse the variables from your Bootstrap file and the ones used by O
 
 Odoo supports three different kinds of JavaScript files:
 
-- [plain JavaScript files](../../reference/frontend/javascript_modules.md#frontend-modules-plain-js) (no module system),
-- [native JavaScript module](../../reference/frontend/javascript_modules.md#frontend-modules-native-js), and
-- [Odoo modules](../../reference/frontend/javascript_modules.md#frontend-modules-odoo-module) (using a custom module system).
+- [plain JavaScript files](developer/reference/frontend/javascript_modules.md#frontend-modules-plain-js) (no module system),
+- [native JavaScript module](developer/reference/frontend/javascript_modules.md#frontend-modules-native-js), and
+- [Odoo modules](developer/reference/frontend/javascript_modules.md#frontend-modules-odoo-module) (using a custom module system).
 
 Most new Odoo JavaScript codes should use the native JavaScript module system. It's simpler and
 brings the benefit of a better developer experience with better integration with the IDE.
 
 #### IMPORTANT
-Odoo needs to know which files should be translated into [Odoo modules](../../reference/frontend/javascript_modules.md#frontend-js-modules) and which files should not. It's an opt-in system: Odoo looks at the first
+Odoo needs to know which files should be translated into [Odoo modules](developer/reference/frontend/javascript_modules.md#frontend-js-modules) and which files should not. It's an opt-in system: Odoo looks at the first
 line of a JavaScript file and checks if it contains the string `@odoo-module`. If so,
 it will automatically be converted to an Odoo module.
 
@@ -707,5 +707,5 @@ folder of your module.
 
 #### SEE ALSO
 - [Odoo JavaScript coding guidelines](https://github.com/odoo/odoo/wiki/Javascript-coding-guidelines)
-- [Overview of the Odoo JavaScript framework](../../reference/frontend/javascript_reference.md)
+- [Overview of the Odoo JavaScript framework](developer/reference/frontend/javascript_reference.md)
 - [Odoo Experience Talk: 10 Tips to take your website design to the next level!](https://www.youtube.com/watch?v=vAgE_fPVXUQ&ab_channel=Odoo)

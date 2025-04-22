@@ -20,16 +20,16 @@ To register a one-year free domain name for your Odoo Online database, sign in t
 go to the [database manager](https://www.odoo.com/my/databases). Click the gear icon
 (⚙️) next to the database name and select Domain Names.
 
-![Accessing a database's domain names configuration](domain_names/domain-names.png)
+![Accessing a database's domain names configuration](../../../../.gitbook/assets/domain-names.png)
 
 Search for the desired domain name and check its availability.
 
-![Searching for an available domain name](domain_names/domain-search.png)
+![Searching for an available domain name](../../../../.gitbook/assets/domain-search.png)
 
 Select the desired domain name, fill in the Domain Owner form, and click
 Register. The chosen domain name is directly linked to the database.
 
-![Filling in the domain owner information](domain_names/domain-owner.png)
+![Filling in the domain owner information](../../../../.gitbook/assets/domain-owner.png)
 
 Next, you should [map your domain name to your Odoo website](#domain-name-website-map).
 
@@ -160,7 +160,7 @@ DNS hosting services do not offer an easy way to do so.
    - Target: e.g., `www.yourdomain.com`
    - Proxy status: Proxied
 
-   ![Adding a CNAME DNS record to Cloudflare to redirect a naked domain to a www subdomain](domain_names/cloudflare-cname-www.png)
+   ![Adding a CNAME DNS record to Cloudflare to redirect a naked domain to a www subdomain](../../../../.gitbook/assets/cloudflare-cname-www.png)
 6. Add another second CNAME record to redirect the `www` subdomain (e.g., `www.yourdomain.com`) to
    your database address (e.g., `mycompany.odoo.com`) using the following configuration:
    - Type: CNAME
@@ -168,7 +168,7 @@ DNS hosting services do not offer an easy way to do so.
    - Target: e.g., `mycompany.odoo.com`
    - Proxy status: DNS only
 
-   ![Adding a CNAME DNS record to Cloudflare to redirect a www subdomain to an Odoo database](domain_names/cloudflare-cname-db.png)
+   ![Adding a CNAME DNS record to Cloudflare to redirect a www subdomain to an Odoo database](../../../../.gitbook/assets/cloudflare-cname-db.png)
 7. Define a redirect rule to permanently redirect (301) your naked domain (e.g., `yourdomain.com`)
    to both `http://` and `https://` by going to Rules ‣ Create rule ‣ Products,
    and clicking Create a Rule under Redirect Rules:
@@ -184,9 +184,9 @@ DNS hosting services do not offer an easy way to do so.
      - Status code: 301
      - Preserve query string: enabled
 
-   ![Defining a Cloudflare redirect rule to create a permanent redirect (301)](domain_names/cloudflare-redirect-rule.png)
+   ![Defining a Cloudflare redirect rule to create a permanent redirect (301)](../../../../.gitbook/assets/cloudflare-redirect-rule.png)
 8. Go to SSL/TLS and set the encryption mode to Full.
-   ![Setting the encryption mode to full on Cloudflare](domain_names/cloudflare-encryption.png)
+   ![Setting the encryption mode to full on Cloudflare](../../../../.gitbook/assets/cloudflare-encryption.png)
 
 <a id="domain-name-db-map"></a>
 
@@ -210,17 +210,17 @@ Open the [database manager](https://www.odoo.com/my/databases), click the gear i
 own domain. Then, enter the domain name (e.g., `www.yourdomain.com`), click
 Verify and I confirm, it's done.
 
-![Mapping a domain name to an Odoo Online database](domain_names/map-database-online.png)
+![Mapping a domain name to an Odoo Online database](../../../../.gitbook/assets/map-database-online.png)
 
 Odoo.sh
 
 On Odoo.sh, go to Branches ‣ select your branch ‣ Settings ‣ Custom
 domains, type the domain name to add, then click Add domain.
 
-![Mapping a domain name to an Odoo.sh branch](domain_names/map-database-sh.png)
+![Mapping a domain name to an Odoo.sh branch](../../../../.gitbook/assets/map-database-sh.png)
 
 #### SEE ALSO
-[Odoo.sh branches: settings tab](../../../../administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings)
+[Odoo.sh branches: settings tab](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings)
 
 <a id="domain-name-ssl"></a>
 
@@ -256,10 +256,10 @@ To make your custom domain name the *web base URL* of your database, access your
 custom domain name and log in as an administrator .
 
 #### IMPORTANT
-Nếu bạn truy cập cơ sở dữ liệu bằng địa chỉ Odoo gốc (VD: `mycompany.odoo.com`), *URL web cơ sở* của cơ sở dữ liệu sẽ được cập nhật tương ứng. Để ngăn chặn việc tự động cập nhật *URL web cơ sở* khi quản trị viên đăng nhập vào cơ sở dữ liệu, hãy kích hoạt [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống ‣ Mới, sau đó nhập `web.base.url.freeze` làm Khóa và `Đúng` làm Giá trị.
+Nếu bạn truy cập cơ sở dữ liệu bằng địa chỉ Odoo gốc (VD: `mycompany.odoo.com`), *URL web cơ sở* của cơ sở dữ liệu sẽ được cập nhật tương ứng. Để ngăn chặn việc tự động cập nhật *URL web cơ sở* khi quản trị viên đăng nhập vào cơ sở dữ liệu, hãy kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống ‣ Mới, sau đó nhập `web.base.url.freeze` làm Khóa và `Đúng` làm Giá trị.
 
 #### NOTE
-Bạn cũng có thể thiết lập URL web cơ sở thủ công. Để thực hiện, hãy kích hoạt [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống, tìm khóa `web.base.url` (tạo mới nếu cần) và nhập địa chỉ đầy đủ của trang web làm giá trị (VD: `https://www.yourdomain.com`). URL phải bao gồm giao thức `https://` (hoặc `http://`) và *không* kết thúc bằng dấu gạch chéo (`/`).
+Bạn cũng có thể thiết lập URL web cơ sở thủ công. Để thực hiện, hãy kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống, tìm khóa `web.base.url` (tạo mới nếu cần) và nhập địa chỉ đầy đủ của trang web làm giá trị (VD: `https://www.yourdomain.com`). URL phải bao gồm giao thức `https://` (hoặc `http://`) và *không* kết thúc bằng dấu gạch chéo (`/`).
 
 <a id="domain-name-website-map"></a>
 

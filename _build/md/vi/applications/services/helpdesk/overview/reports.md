@@ -18,7 +18,7 @@ This report is useful for identifying where teams are spending the most time, an
 there is an uneven workload distribution among the support staff. The default report counts the
 number of tickets per team and groups them by stage.
 
-![View of Ticket Analysis report default view.](reports/tickets-default.png)
+![View of Ticket Analysis report default view.](../../../../.gitbook/assets/tickets-default.png)
 
 Alternative measures can be selected to track where the most time is spent at different points in
 the workflow. To change the measures used for the report that is currently displayed, or to add
@@ -56,13 +56,13 @@ Employees ‣ Company Working Hours.
 ### Phân tích trạng thái SLA
 
 The *SLA Status Analysis* report (Helpdesk app ‣ Reporting ‣ SLA Status
-Analysis) [analyzes the performance](sla.md#helpdesk-analyze-sla-performance) of individual SLA
+Analysis) [analyzes the performance](applications/services/helpdesk/overview/sla.md#helpdesk-analyze-sla-performance) of individual SLA
 (Service Level Agreement) policies.
 
 By default, this report is filtered to show the number of  failed, in progress, and the number
 that have been successful. The results are grouped by teams.
 
-![View of Group by options of Ticket Analysis report.](reports/sla-status.png)
+![View of Group by options of Ticket Analysis report.](../../../../.gitbook/assets/sla-status.png)
 
 To change the measures used for the report that is currently displayed, or to add more, click the
 Measures button, and select one or more options from the drop-down menu:
@@ -80,7 +80,7 @@ Measures button, and select one or more options from the drop-down menu:
 - Count: number of tickets in total.
 
 #### SEE ALSO
-[Service Level Agreements (SLA)](sla.md)
+[Service Level Agreements (SLA)](applications/services/helpdesk/overview/sla.md)
 
 ### Đánh giá của khách hàng
 
@@ -88,18 +88,18 @@ The *Customer Ratings* report (Helpdesk app‣ Reporting ‣ Customer Ratings)
 displays an overview of the ratings received on individual support tickets, as well as any
 additional comments submitted with the rating.
 
-![View of the Kanban display in the Customer Ratings report.](reports/customer-ratings.png)
+![View of the Kanban display in the Customer Ratings report.](../../../../.gitbook/assets/customer-ratings.png)
 
 Click on an individual rating to see additional details about the rating submitted by the customer,
 including a link to the original ticket.
 
-![View of the details of an individual customer rating.](reports/ratings-details.png)
+![View of the details of an individual customer rating.](../../../../.gitbook/assets/ratings-details.png)
 
 The *Customer Ratings* report is displayed in a Kanban view by default, but can also be displayed
 in graph, list, or pivot view.
 
 #### SEE ALSO
-[Ratings](ratings.md)
+[Ratings](applications/services/helpdesk/overview/ratings.md)
 
 ## View and filter options
 
@@ -119,7 +119,7 @@ in pivot view.
 The pivot view can be accessed on any report by selecting the <i class="oi oi-view-pivot"></i>
 (pivot) icon at the top-right of the screen.
 
-![View of the SLA status analysis report in Odoo Helpdesk.](reports/pivot-view.png)
+![View of the SLA status analysis report in Odoo Helpdesk.](../../../../.gitbook/assets/pivot-view4.png)
 
 To add a group to a row or column to the pivot view, click the <i class="fa fa-plus-square"></i>
 (plus) icon next to Total, and then select one of the groups. To remove one,
@@ -135,15 +135,15 @@ top-left of the chart, while in graph view.
 
 Biểu đồ cột
 
-![View of the SLA status analysis report in bar view.](reports/bar-chart.png)
+![View of the SLA status analysis report in bar view.](../../../../.gitbook/assets/bar-chart4.png)
 
 Biểu đồ đường
 
-![View of the Customer Ratings report in line view.](reports/line-chart.png)
+![View of the Customer Ratings report in line view.](../../../../.gitbook/assets/line-chart2.png)
 
 Biểu đồ tròn
 
-![View of the Ticket analysis report in pie chart view.](reports/pie-chart.png)
+![View of the Ticket analysis report in pie chart view.](../../../../.gitbook/assets/pie-chart1.png)
 
 ### Save and share a favorite search
 
@@ -165,8 +165,8 @@ To create and save a new *Favorites* configuration on a report, follow the steps
    it.
 7. Click Save to preserve the configuration for future use.
 
-![View of the save favorites option in Odoo Helpdesk.](reports/save-filters.png)
+![View of the save favorites option in Odoo Helpdesk.](../../../../.gitbook/assets/save-filters.png)
 
 #### SEE ALSO
-- [Start receiving tickets](receiving_tickets.md)
-- [Odoo reporting](../../../essentials/reporting.md)
+- [Start receiving tickets](applications/services/helpdesk/overview/receiving_tickets.md)
+- [Odoo reporting](applications/essentials/reporting.md)

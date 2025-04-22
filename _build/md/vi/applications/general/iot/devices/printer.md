@@ -16,7 +16,7 @@ IoT systems support printers connected through USB, network connection, or Bluet
 [Supported printers](https://www.odoo.com/page/iot-hardware) are detected automatically, and
 appear in the Devices list of the IoT app.
 
-![The printer as it would appear in the IoT app devices list.](printer/printer-detected.png)
+![The printer as it would appear in the IoT app devices list.](../../../../.gitbook/assets/printer-detected.png)
 
 #### NOTE
 Printers can take up to two minutes to appear in the IoT app Devices list.
@@ -28,7 +28,7 @@ Printers can take up to two minutes to appear in the IoT app Devices list.
 Work orders can be linked to printers, via a quality control point, to print labels for
 manufactured products.
 
-In the [Quality app](../../../inventory_and_mrp/quality.md), a device can be set up on a
+In the [Quality app](applications/inventory_and_mrp/quality.md), a device can be set up on a
 quality control point. To do so, go to the Quality ‣ Quality Control ‣ Control
 Points, and open the desired control point.
 
@@ -46,12 +46,12 @@ is reached during the manufacturing process, the database presents the option to
 specific product.
 
 #### NOTE
-On a [quality check form](../../../inventory_and_mrp/quality/quality_management/quality_checks.md), the
+On a [quality check form](applications/inventory_and_mrp/quality/quality_management/quality_checks.md), the
 Type of check can also be set to Print Label.
 
 #### SEE ALSO
-- [Quality control points](../../../inventory_and_mrp/quality/quality_management/quality_control_points.md)
-- [Quality alerts](../../../inventory_and_mrp/quality/quality_management/quality_alerts.md)
+- [Quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md)
+- [Quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md)
 
 <a id="iot-link-printer"></a>
 
@@ -64,7 +64,7 @@ It is possible to link report types to a specific printer. To do so:
 3. In the pop-up that opens, select the types of reports to be linked to the printer and click
    Select.
 
-![The list of reports assigned to a printer in the IoT app.](printer/printer-reports.png)
+![The list of reports assigned to a printer in the IoT app.](../../../../.gitbook/assets/printer-reports.png)
 
 The first time a linked report is selected to print, a Select Printers pop-up window
 appears. Tick the checkbox next to the correct printer for the report, and click Print.
@@ -83,17 +83,17 @@ This step **only** prevents the report from automatically printing to the listed
 the current browser. The report is still [linked](#iot-link-printer) on the device, under
 the Printer Reports tab.
 
-![A list of reports currently linked to a printer in the IoT app.](printer/clear-reports.png)
+![A list of reports currently linked to a printer in the IoT app.](../../../../.gitbook/assets/clear-reports.png)
 
 #### SEE ALSO
-[POS Order Printing](../../../sales/point_of_sale/restaurant/kitchen_printing.md)
+[POS Order Printing](applications/sales/point_of_sale/restaurant/kitchen_printing.md)
 
 ## Potential issues
 
 ### The printer is not detected
 
-If a printer does not appear in the devices list, go to the [IoT box's](../iot_box.md#iot-iot-box-homepage)
-or [Windows virtual IoT's](../windows_iot.md#iot-windows-iot-homepage) homepage, click Show in
+If a printer does not appear in the devices list, go to the [IoT box's](applications/general/iot/iot_box.md#iot-iot-box-homepage)
+or [Windows virtual IoT's](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) homepage, click Show in
 the Devices section, and make sure the printer is listed.
 
 If the printer does not appear on the IoT system's homepage, click Printer Server, then
@@ -111,7 +111,7 @@ Printer Server, then Printers, and select the printer in the list.
 In the Administration dropdown menu, click Modify Printer. Follow the steps
 and select the printer's *make* and *model*.
 
-![Edit the printer connected to the IoT system.](printer/modify-printer.png)
+![Edit the printer connected to the IoT system.](../../../../.gitbook/assets/modify-printer.png)
 
 #### NOTE
 Epson receipt printers and Zebra label printers do not need a driver to work. Make sure that no
@@ -141,7 +141,7 @@ First, review Epson's website for compatibility for both the [GS v 0](https://do
 If the printer is incompatible with `GS v 0` but supports `ESC *`, configure the IoT system to use
 the `ESC *` command as follows:
 
-1. Access the [IoT box's](../iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](../windows_iot.md#iot-windows-iot-homepage) homepage.
+1. Access the [IoT box's](applications/general/iot/iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) homepage.
 2. Click the Printer server button, then click Administration on the CUPS
    page.
 3. Click Add Printer in the Printers section, select the printer, and click
@@ -170,7 +170,7 @@ the `ESC *` command as follows:
 7. Click Add Printer. If everything was done correctly, the page should redirect to the
    Banners page.
 8. Wait a few minutes for the IoT system to detect the printer and sync to Odoo's server.
-9. [Access the POS settings](../../../sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the
+9. [Access the POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the
    vertical ellipsis button (⋮) on a POS card and click Edit. Scroll down
    to the Connected Devices section, enable IoT Box, and select the printer
    in the Receipt Printer field. Click Save.
@@ -206,7 +206,7 @@ If the DYMO LabelWriter fails to print, install a new driver:
 3. Select Maintenance in the first dropdown menu.
 4. Select Modify Printer in the second dropdown menu.
    ![Modify the make and model of the DYMO LabelWriter. Maintenance and Modify dropdown
-   menus highlighted.](printer/main-modify.png)
+   menus highlighted.](../../../../.gitbook/assets/main-modify.png)
 5. Select the specific network connection/printer on which the modification should be made and
    click Continue.
 6. On the next page, click Continue, then select DYMO from the
@@ -234,25 +234,25 @@ To resolve the delay issue after modifying the driver, reinstall the printer:
    LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO Label) (or whichever DYMO printer model is
    being used) pre-installed printer. Click Continue.
    ![Add a printer screen on OpenPrinting CUPS with DYMO LabelWriter 450 DUO Label
-   highlighted.](printer/local-printer.png)
+   highlighted.](../../../../.gitbook/assets/local-printer.png)
 4. On the following screen, update the Name to something easily identifiable, as the
    original printer will remain in the list. Then, click Continue.
-   ![Rename printer page in the 'Add a Printer' flow, with the name field highlighted.](printer/rename-printer.png)
+   ![Rename printer page in the 'Add a Printer' flow, with the name field highlighted.](../../../../.gitbook/assets/rename-printer.png)
 5. Set the Model field to DYMO LabelWriter 450 DUO Label (en) (or
    whichever DYMO printer model is being used), then click Add Printer to complete
    the installation.
    ![Choose model screen on the OpenPrinting CUPS console with model and add a printer
-   highlighted.](printer/choose-printer.png)
+   highlighted.](../../../../.gitbook/assets/choose-printer.png)
 6. Click Printers in the top menu and click the newly installed printer
    DYMO LabelWriter 450 DUO Label (or whichever DYMO printer model is being used) from
    in the list.
-   ![Printer page with newly installed printer highlighted.](printer/printer-page.png)
+   ![Printer page with newly installed printer highlighted.](../../../../.gitbook/assets/printer-page.png)
 7. Click the Maintenance dropdown list and select Print Test Page to print
    a test label. The test label should print out immediately, or after one or two seconds.
 
 ### The Zebra printer does not print anything
 
-Máy in Zebra khá nhạy cảm với định dạng mã Ngôn ngữ lập trình Zebra (ZPL). Nếu không in được gì hoặc in ra nhãn trống, hãy thử thay đổi định dạng báo cáo gửi đến máy in. Để thực hiện, kích hoạt [chế độ lập trình viên](../../developer_mode.md#developer-mode), truy cập Cài đặt ‣ Kỹ thuật ‣ Giao diện người dùng ‣ Chế độ xem, và tìm kiếm mẫu tương ứng.
+Máy in Zebra khá nhạy cảm với định dạng mã Ngôn ngữ lập trình Zebra (ZPL). Nếu không in được gì hoặc in ra nhãn trống, hãy thử thay đổi định dạng báo cáo gửi đến máy in. Để thực hiện, kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), truy cập Cài đặt ‣ Kỹ thuật ‣ Giao diện người dùng ‣ Chế độ xem, và tìm kiếm mẫu tương ứng.
 
 #### SEE ALSO
 [Zebra's instructions on printing ZPL files](https://supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-Printer)
@@ -272,7 +272,7 @@ the device and the language of the database (e.g., English (UK), English
 
 ### Nothing happens when a barcode is scanned
 
-Make sure the correct device is selected in the [Point of Sale settings](../../../sales/point_of_sale/configuration/pos_iot.md) (when applicable) and the barcode is
+Make sure the correct device is selected in the [Point of Sale settings](applications/sales/point_of_sale/configuration/pos_iot.md) (when applicable) and the barcode is
 configured to send an `ENTER` character (keycode 28) at the end of every barcode.
 
 ### The barcode scanner is detected as a keyboard

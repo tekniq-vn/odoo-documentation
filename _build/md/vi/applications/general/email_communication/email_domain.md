@@ -11,7 +11,7 @@ SPF, DKIM, and DMARC protocols.
 If choosing to use a **custom domain** instead, **configuring SPF and DKIM records correctly is
 essential** to prevent emails from being quarantined as spam or not being delivered to recipients.
 
-If using [the default Odoo email server to send emails from a custom domain](email_servers_outbound.md#email-outbound-custom-domain-odoo-server), the SPF and DKIM records must be configured as
+If using [the default Odoo email server to send emails from a custom domain](applications/general/email_communication/email_servers_outbound.md#email-outbound-custom-domain-odoo-server), the SPF and DKIM records must be configured as
 presented below. If using an outgoing email server, it is required to use the SPF and DKIM records
 specific to that email service and a custom domain.
 

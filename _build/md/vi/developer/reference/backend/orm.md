@@ -2,7 +2,7 @@
 
 # ORM API
 
-* [Changelog](orm/changelog.md)
+* [Changelog](developer/reference/backend/orm/changelog.md)
 
 <a id="reference-orm-models"></a>
 
@@ -804,7 +804,7 @@ Odoo provides three different mechanisms to extend models in a modular way:
   version
 * delegating some of the model's fields to records it contains
 
-![image](orm/inheritance_methods.png)
+![image](../../../.gitbook/assets/inheritance_methods.png)
 
 ### Classical inheritance
 

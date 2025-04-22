@@ -141,7 +141,7 @@ Trong các lệnh trên, đối số:
 * `--without-demo=all` ngăn dữ liệu demo được tải cho tất cả phân hệ
 * `--stop-after-init` sẽ ngay lập tức tắt máy chủ sau khi các thao tác bạn yêu cầu hoàn tất.
 
-Nhiều tùy chọn khác có sẵn và được trình bày chi tiết trong [Tài liệu CLI](../../../developer/reference/cli.md).
+Nhiều tùy chọn khác có sẵn và được trình bày chi tiết trong [Tài liệu CLI](developer/reference/cli.md).
 
 Bạn có thể tìm thấy đường dẫn addon được Odoo.sh sử dụng để chạy máy chủ của bạn trong nhật ký ( *~/logs/odoo.log*). Tìm "*odoo: addons paths*":
 
@@ -195,4 +195,4 @@ $ odoo-bin shell
 
 Cuối cùng, *thông qua* Odoo Shell, bạn có thể kích hoạt đoạn mã/hàm/phương thức mà bạn muốn gỡ lỗi.
 
-![Ảnh chụp màn hình bảng điều khiển hiển thị ``pdb`` đang chạy trong shell Odoo.sh.](containers/pdb_sh.png)
+![Ảnh chụp màn hình bảng điều khiển hiển thị ``pdb`` đang chạy trong shell Odoo.sh.](../../../.gitbook/assets/pdb_sh.png)

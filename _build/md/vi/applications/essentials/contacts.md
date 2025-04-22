@@ -40,7 +40,7 @@ Thông tin bổ sung được bao gồm trong biểu mẫu ban đầu. Gồm có
 
 Có thể thêm nhiều địa chỉ vào cả liên hệ Cá nhân và Công ty. Để thực hiện, nhấp vào Thêm trong tab Liên hệ & Địa chỉ. Sau đó, một biểu mẫu pop-up Tạo liên hệ sẽ hiển thị và bạn có thể cấu hình thêm các địa chỉ trong đó.
 
-![Thêm liên hệ/địa chỉ vào biểu mẫu liên hệ.](contacts/contact-form-add-address.png)
+![Thêm liên hệ/địa chỉ vào biểu mẫu liên hệ.](../../.gitbook/assets/contact-form-add-address.png)
 
 Trên biểu mẫu pop-up Tạo liên hệ, bắt đầu bằng cách nhấp vào trường mặc định Địa chỉ khác ở trên cùng để hiển thị menu thả xuống gồm các tùy chọn liên quan đến địa chỉ.
 
@@ -52,7 +52,7 @@ Chọn bất kỳ tùy chọn nào sau đây:
 - Địa chỉ khác: thêm địa chỉ thay thế vào biểu mẫu liên hệ hiện có.
 - Địa chỉ riêng tư: thêm địa chỉ riêng tư vào biểu mẫu liên hệ hiện có.
 
-![Tạo một liên hệ/địa chỉ mới trên biểu mẫu liên hệ.](contacts/create-contact-window.png)
+![Tạo một liên hệ/địa chỉ mới trên biểu mẫu liên hệ.](../../.gitbook/assets/create-contact-window.png)
 
 Sau khi chọn một tùy chọn, hãy nhập thông tin liên hệ tương ứng cần sử dụng cho loại địa chỉ đã chỉ định.
 
@@ -105,7 +105,7 @@ Kế tiếp tab Kế toán là tab Ghi chú nội bộ, nơi bạn có thể ghi
 Tiếp theo là tab Phân công đối tác. Theo mặc định, tab này bao gồm phần Vị trí địa lý và các tùy chọn đối tác khác, bao gồm Kích hoạt đối tác và Đánh giá đối tác. Những tùy chọn này **chỉ** có khi phân hệ  *Đối tác* được cài đặt.
 
 #### SEE ALSO
-Tìm hiểu [Tài liệu về đối tác](../sales/crm/track_leads/resellers.md) để biết thêm thông tin về việc đăng đối tác lên trang web.
+Tìm hiểu [Tài liệu về đối tác](applications/sales/crm/track_leads/resellers.md) để biết thêm thông tin về việc đăng đối tác lên trang web.
 
 ### Tab chương trình thành viên
 
@@ -118,7 +118,7 @@ Cuối cùng, có tab Tư cách thành viên trên biểu mẫu liên hệ, có 
 Ngoài ra, để cung cấp tư cách thành viên miễn phí, hãy đánh dấu vào ô Thành viên miễn phí trong tab Thành viên của biểu mẫu liên hệ.
 
 #### SEE ALSO
-Tham khảo [Tài liệu về thành viên](../sales/members.md) để biết thêm thông tin về việc đăng thành viên trên trang web.
+Tham khảo [Tài liệu về thành viên](applications/sales/members.md) để biết thêm thông tin về việc đăng thành viên trên trang web.
 
 ## Nút thông minh
 
@@ -141,7 +141,7 @@ Sau đó, nhấp vào OK từ cửa sổ bật lên Xác nhận.
 Sau khi lưu trữ thành công liên hệ, nhận biết qua banner thông báo trên đầu màn hình, thì liên hệ này sẽ không hiển thị trên trang liên hệ chính, nhưng vẫn có thể tìm kiếm bằng bộ lọc Đã lưu trữ.
 
 #### SEE ALSO
-- [Thêm các địa chỉ khác trong CRM](../sales/sales/send_quotations/different_addresses.md)
+- [Thêm các địa chỉ khác trong CRM](applications/sales/sales/send_quotations/different_addresses.md)
 - [Hướng dẫn tự học về Odoo Liên hệ](https://www.odoo.com/slides/slide/contacts-2527?fullscreen=1)
 
-* [Gộp liên hệ](contacts/merge.md)
+* [Gộp liên hệ](applications/essentials/contacts/merge.md)

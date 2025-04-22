@@ -11,10 +11,10 @@ activated.
 To do that, navigate to Events app ‣ Configuration ‣ Settings, and tick the
 Booth Management checkbox. Then, click Save.
 
-![The Booth Management setting in the Odoo Events application.](event_booths/booth-management-setting.png)
+![The Booth Management setting in the Odoo Events application.](../../../.gitbook/assets/booth-management-setting.png)
 
 #### IMPORTANT
-When the Booth Management setting is activated, a new [Product Type](../../inventory_and_mrp/inventory/product_management/configure/type.md) becomes available on all
+When the Booth Management setting is activated, a new [Product Type](applications/inventory_and_mrp/inventory/product_management/configure/type.md) becomes available on all
 product forms: *Event Booth*.
 
 This is important because every created booth **must** be assigned a *Booth Category* on their
@@ -29,7 +29,7 @@ appears in the Configuration menu.
 To access the Booth Category dashboard, go to Events app ‣
 Configuration ‣ Booth Categories, which reveals a list of all created booth categories.
 
-![The Booth Category page in the Odoo Events application.](event_booths/booth-category-page.png)
+![The Booth Category page in the Odoo Events application.](../../../.gitbook/assets/booth-category-page.png)
 
 On the Booth Category page, the following information for each booth category is listed:
 
@@ -52,7 +52,7 @@ modifications from the event category form.
 To create a booth category from the Booth Category page, click the New
 button in the upper-left corner to reveal a blank booth category form.
 
-![A typical booth category form in the Odoo Events application.](event_booths/booth-category-form.png)
+![A typical booth category form in the Odoo Events application.](../../../.gitbook/assets/booth-category-form.png)
 
 Start by entering a name for the booth category in the top Booth Category field. This is
 a **requried** field.
@@ -87,7 +87,7 @@ Create Sponsor Level pop-up window.
 
 Doing so reveals a Create Sponsor Level pop-up window.
 
-![The Create Sponsor Level pop-up window that appears in the Odoo Events application.](event_booths/create-sponsor-level-popup.png)
+![The Create Sponsor Level pop-up window that appears in the Odoo Events application.](../../../.gitbook/assets/create-sponsor-level-popup.png)
 
 From this pop-up window, confirm the newly-created Sponsor Level, and decide what kind
 of Ribbon Style should be applied, if any. The Ribbon Style options
@@ -133,7 +133,7 @@ New button in the upper-left corner to reveal a blank booth form.
 The booth form in Odoo *Events* lets users customize and configure event booths in a number of
 different ways.
 
-![Typical booth form in the Odoo Events application.](event_booths/booth-form.png)
+![Typical booth form in the Odoo Events application.](../../../.gitbook/assets/booth-form.png)
 
 Start by typing in a Name for the booth. This is a **required** field.
 
@@ -176,7 +176,7 @@ design tools.
 In the Customize tab, click the toggle switch for Sub-Menu (Specific), and
 click Save. Doing so reveals the event subheader menu with various options.
 
-Alternatively, enter [Debug mode](../../general/developer_mode.md), and open the specific event
+Alternatively, enter [Debug mode](applications/general/developer_mode.md), and open the specific event
 form in the the *Events* application.
 
 On the event form, with *Debug mode* on, an array of subheader menu options appears. Tick the
@@ -190,7 +190,7 @@ From there, click the Get A Booth event subheader menu option. Doing so reveals 
 Get A Booth page, showcasing all the configured event booths that were created on the
 event form.
 
-![Typical Get A Booth page on the event website via the Odoo Events app.](event_booths/get-a-booth-page.png)
+![Typical Get A Booth page on the event website via the Odoo Events app.](../../../.gitbook/assets/get-a-booth-page.png)
 
 From here, the visitor can select their desired booth option, then Location. Next, they
 would click the Book my Booth(s) button, located at the bottom of the Get A
@@ -222,5 +222,5 @@ of the form.
 Click the *Sponsors* smart button to modify any information about the sponsor, if necessary.
 
 #### SEE ALSO
-- [Create events](create_events.md)
-- [Sell event tickets](sell_tickets.md)
+- [Create events](applications/marketing/events/create_events.md)
+- [Sell event tickets](applications/marketing/events/sell_tickets.md)

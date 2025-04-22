@@ -32,11 +32,11 @@ local payment methods.
 
 ## Configuration on Odoo
 
-1. [Navigate to the payment provider Xendit](../payment_providers.md#payment-providers-add-new) and change its state
+1. [Navigate to the payment provider Xendit](applications/finance/payment_providers.md#payment-providers-add-new) and change its state
    to Enabled.
 2. Fill in the Secret Key and Webhook Token fields with the
    information saved at the step [Configuration on the Xendit Dashboard](#payment-providers-xendit-configure-dashboard).
 3. Configure the rest of the options to your liking.
 
 #### SEE ALSO
-[Thanh toán online](../payment_providers.md)
+[Thanh toán online](applications/finance/payment_providers.md)

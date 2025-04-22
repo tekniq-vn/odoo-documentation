@@ -83,7 +83,7 @@ Alternatively, replace the default content of these pages using XPath.
 ```
 
 #### SEE ALSO
-- [Odoo Documentation on SEO](../../../applications/websites/website/pages/seo.md)
+- [Odoo Documentation on SEO](applications/websites/website/pages/seo.md)
 
 <a id="website-themes-pages-theme-pages"></a>
 
@@ -197,7 +197,7 @@ Make the header background transparent and stand on top of the page content.
 <field name="header_overlay" eval="True"/>
 ```
 
-![Header overlay](pages/header-overlay.png)
+![Header overlay](../../../.gitbook/assets/header-overlay.png)
 
 #### NOTE
 To create the content of a static page, use the Odoo way of doing things in order to remain
@@ -304,7 +304,7 @@ Feel free to add custom groups to the list:
 </template>
 ```
 
-![List of existing static page templates](pages/new-page-template.png)
+![List of existing static page templates](../../../.gitbook/assets/new-page-template.png)
 
 #### SEE ALSO
 [Go further by altering the building blocks of a custom template](https://github.com/odoo/odoo/blob/339d929e7a01e077fed8a21507cac4c2ff260b42/addons/website/views/new_page_template_templates.xml#L38)

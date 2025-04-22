@@ -17,7 +17,7 @@ results for that mailing. Click on one of the mailings in the list to open the r
 
 At the top of the record, detailed metrics are displayed as smart buttons.
 
-![The smart buttons on a mass mailing, displaying the results of the message.](analyze_metrics/metric-smart-buttons.png)
+![The smart buttons on a mass mailing, displaying the results of the message.](../../../.gitbook/assets/metric-smart-buttons.png)
 
 ### Tỷ lệ mở
 
@@ -36,7 +36,7 @@ could also indicate the email ended up in a spam or junk folder.
 #### NOTE
 Emails that consistently land in recipient spam folders could be due to having a poor sender
 reputation (i.e. high unsubscribe rate, high percentage of past emails marked as spam, etc.),
-or failing to [configure the proper DNS records](../../general/email_communication/email_domain.md).
+or failing to [configure the proper DNS records](applications/general/email_communication/email_domain.md).
 
 ### Tỷ lệ trả lời
 
@@ -109,7 +109,7 @@ This can be verified by looking at the direction, and order, of the selections i
 that appears in the search bar after the selections are made.
 
 #### SEE ALSO
-View [Tìm kiếm, lọc, và nhóm bản ghi](../../essentials/search.md) for more information about making custom groups and
+View [Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md) for more information about making custom groups and
 filters.
 
 <a id="email-marketing-deliverability-issues"></a>
@@ -132,9 +132,9 @@ The following define possible reasons for a high bounce rate or low received rat
 - Using a mailing list that contains outdated contact information, or malformed email addresses are
   likely to result in a high bounce rate and/or a low received rate.
 - Mailings sent using a *From* email address that differs from the sender's domain are likely to
-  bounce with certain email providers due to failing [DMARC authentication](../../general/email_communication/email_domain.md#email-domain-dmarc).
-- Failing to [configure the proper DNS records](../../general/email_communication/email_domain.md) can also result in a high bounce rate.
+  bounce with certain email providers due to failing [DMARC authentication](applications/general/email_communication/email_domain.md#email-domain-dmarc).
+- Failing to [configure the proper DNS records](applications/general/email_communication/email_domain.md) can also result in a high bounce rate.
 
 #### SEE ALSO
-- [Mailing campaigns](../email_marketing.md#email-marketing-mailing-campaigns)
-- [Manage unsubscriptions](unsubscriptions.md)
+- [Mailing campaigns](applications/marketing/email_marketing.md#email-marketing-mailing-campaigns)
+- [Manage unsubscriptions](applications/marketing/email_marketing/unsubscriptions.md)

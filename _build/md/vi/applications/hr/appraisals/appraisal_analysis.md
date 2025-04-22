@@ -19,7 +19,7 @@ database. Each entry is highlighted in a different color to represent their stat
 
 #### NOTE
 Appraisals are scheduled automatically (appear in gray), according to their respective
-[Appraisals plans](../appraisals.md#appraisals-appraisal-plan).
+[Appraisals plans](applications/hr/appraisals.md#appraisals-appraisal-plan).
 
 The report displays the current year, in a default Gantt view, grouped by department, with the
 current month highlighted.
@@ -36,10 +36,10 @@ To view the details of any appraisal, click on any appraisal. A pop-over window 
 the due date for the appraisal. To view more details, click the View button, and further
 details appear in a pop-up window.
 
-The report can have other [filters](../../essentials/search.md#search-filters) and [groupings](../../essentials/search.md#search-group) set in
+The report can have other [filters](applications/essentials/search.md#search-filters) and [groupings](applications/essentials/search.md#search-group) set in
 the search bar at the top.
 
-![A report showing all the appraisals for the Appraisal Analysis report.](appraisal_analysis/analysis.png)
+![A report showing all the appraisals for the Appraisal Analysis report.](../../../.gitbook/assets/analysis.png)
 
 <a id="appraisals-group-status"></a>
 
@@ -60,7 +60,7 @@ Done, To Start, and Appraisal Sent.
 This view makes it easy to see which appraisals need to be completed, and when, as well as which
 appraisals still need to be confirmed.
 
-![A report showing all the appraisals, grouped by status.](appraisal_analysis/by-status.png)
+![A report showing all the appraisals, grouped by status.](../../../.gitbook/assets/by-status.png)
 
 ## Use case: view only the user's appraisals
 
@@ -80,15 +80,15 @@ column, and a Add Custom Filter pop-up window appears.
 
 Nhấp vào trường đầu tiên, một cửa sổ bật lên sẽ xuất hiện với nhiều tùy chọn. Nhấp vào biểu tượng <i class="fa fa-chevron-right"></i> (mũi tên phải) sau từ Nhân viên, sau đó cuộn xuống và chọn Quản lý. Tiếp theo, đặt trường giữa thành = (bằng). Cuối cùng, nhấp vào trường thứ ba và chọn người dùng mong muốn từ danh sách. Khi tất cả các trường đã được thiết lập, nhấp vào Thêm.
 
-![A customized filter to show only the user's employees.](appraisal_analysis/custom.png)
+![A customized filter to show only the user's employees.](../../../.gitbook/assets/custom.png)
 
 Now, the only appraisals that appear are the appraisals that the selected user is responsible for,
 instead of viewing *all* the appraisals.
 
 This report can also be [grouped by status](#appraisals-group-status).
 
-![A report showing only the appraisals the user is responsible for, by status.](appraisal_analysis/users-appraisals.png)
+![A report showing only the appraisals the user is responsible for, by status.](../../../.gitbook/assets/users-appraisals.png)
 
 #### SEE ALSO
-- [Odoo essentials reporting](../../essentials/reporting.md)
-- [Tìm kiếm, lọc, và nhóm bản ghi](../../essentials/search.md)
+- [Odoo essentials reporting](applications/essentials/reporting.md)
+- [Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)

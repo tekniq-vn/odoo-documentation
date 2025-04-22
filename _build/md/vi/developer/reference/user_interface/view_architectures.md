@@ -12,7 +12,7 @@ reasons.
 The current context and user access rights may impact the view abilities.
 
 #### SEE ALSO
-[View records](view_records.md)
+[View records](developer/reference/user_interface/view_records.md)
 
 <a id="reference-view-architectures-python-expression"></a>
 
@@ -26,7 +26,7 @@ expression** that will be executed in an environment that has access to the foll
   relational fields are given as a list of IDs;
 - The ID of the current record;
 - `parent`: the record that refers to the container; only inside sub-views of [relational
-  fields](../../../applications/studio/fields.md#studio-fields-relational-fields);
+  fields](applications/studio/fields.md#studio-fields-relational-fields);
 - `context (dict)`: the current view's context;
 - `uid (int)`: the id of the current user;
 - `today (str)`: the current local date in the `YYYY-MM-DD` format;
@@ -135,7 +135,7 @@ Disable automatic focusing on the first field in the view.
 
 The route to fetch HTML from and prepend it to the view.
 
-If this attribute is set, the URL of the [controller route](../backend/http.md#reference-controllers) is
+If this attribute is set, the URL of the [controller route](developer/reference/backend/http.md#reference-controllers) is
 fetched and the returned content is displayed above the view. The JSON response from the
 controller must contain an `html` key.
 
@@ -230,7 +230,7 @@ The tooltip displayed when hovering the field or its label.
 
 The rendering method and context to use in place of the default one assigned to the field's type
 (e.g., `Char`, `Many2one`). See
-[Fields](../frontend/javascript_reference.md#reference-js-widgets).
+[Fields](developer/reference/frontend/javascript_reference.md#reference-js-widgets).
 
 * **Requirement:**
   Optional
@@ -314,7 +314,7 @@ negative `!` operator to exclude them.
 ### domain
 
 The filters to apply when displaying existing records for selection, as a Python expression that
-evaluates to a [domain](../backend/orm.md#reference-orm-domains).
+evaluates to a [domain](developer/reference/backend/orm.md#reference-orm-domains).
 
 * **Requirement:**
   Optional
@@ -383,7 +383,7 @@ Allowed modes are: `tree`, `form`, `kanban`, and `graph`.
 
 The [HTML class](https://en.wikipedia.org/wiki/HTML_attribute) to set on the generated element.
 
-The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
+The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
 
 - `oe_inline`: prevents the usual line break following fields, and limits their span;
 - `oe_left`, `oe_right`: [floats](https://developer.mozilla.org/en-US/docs/Web/CSS/float) the
@@ -428,7 +428,7 @@ Whether the field stores a password and thus its data should not be displayed.
 
 ### kanban_view_ref
 
-The XMLID of the specific Kanban [view record](view_records.md) that should be used when
+The XMLID of the specific Kanban [view record](developer/reference/user_interface/view_records.md) that should be used when
 selecting records in a mobile environment.
 
 * **Requirement:**
@@ -452,7 +452,7 @@ Whether the field is focused when the view opens. It can be applied to only one 
   `False`
 
 #### NOTE
-[Relational fields](../../../applications/studio/fields.md#studio-fields-relational-fields) nodes can contain specific subviews.
+[Relational fields](applications/studio/fields.md#studio-fields-relational-fields) nodes can contain specific subviews.
 
 <a id="reference-view-architectures-form-label"></a>
 
@@ -505,7 +505,7 @@ The label to display.
 
 The [HTML class](https://en.wikipedia.org/wiki/HTML_attribute) to set on the generated element.
 
-The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
+The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
 
 - `oe_inline`: prevents the usual line break following fields, and limits their span;
 - `oe_left`, `oe_right`: [floats](https://developer.mozilla.org/en-US/docs/Web/CSS/float) the
@@ -577,7 +577,7 @@ the current record (as `active_id`).
 
 ### name
 
-The method to call if the `type` is `object`. The [XMLID](../../glossary.md#term-external-identifier) of the
+The method to call if the `type` is `object`. The [XMLID](developer/glossary.md#term-external-identifier) of the
 action to load if the `type` is `action`, either in raw format or in `%(XMLID)d` format.
 
 * **Requirement:**
@@ -600,7 +600,7 @@ The button's text if there is no `icon`, the `alt` text for the icon otherwise.
 
 ### icon
 
-The icon to use to display the button. See [icons](icons.md#reference-user-interface-ui-icons) for
+The icon to use to display the button. See [icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons) for
 the reference list.
 
 * **Requirement:**
@@ -670,7 +670,7 @@ There are two uses for the `invisible` attribute:
 
 The [HTML class](https://en.wikipedia.org/wiki/HTML_attribute) to set on the generated element.
 
-The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
+The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
 
 - `oe_inline`: prevents the usual line break following fields, and limits their span;
 - `oe_left`, `oe_right`: [floats](https://developer.mozilla.org/en-US/docs/Web/CSS/float) the
@@ -735,7 +735,7 @@ enabled when the `alt` key is pressed together with the selected character, or t
 
 #### Chatter widget
 
-The [chatter widget](../backend/mixins.md#reference-mixins-mail-chatter) is the communication and log tool allowing
+The [chatter widget](developer/reference/backend/mixins.md#reference-mixins-mail-chatter) is the communication and log tool allowing
 to email colleagues and customers directly from a record (task, order, invoice, event, note...).
 
 It is added with a `div` element with the class `oe_chatter` when the model inherits the
@@ -1571,7 +1571,7 @@ is performed (record created, column added, etc.).
 
 The route to fetch HTML from and prepend it to the view.
 
-If this attribute is set, the URL of the [controller route](../backend/http.md#reference-controllers) is
+If this attribute is set, the URL of the [controller route](developer/reference/backend/http.md#reference-controllers) is
 fetched and the returned content is displayed above the view. The JSON response from the
 controller must contain an `html` key.
 
@@ -1742,7 +1742,7 @@ evaluates to a bool.
 
 The rendering method and context to use in place of the default one assigned to the field's type
 (e.g., `Char`, `Many2one`). See
-[Fields](../frontend/javascript_reference.md#reference-js-widgets).
+[Fields](developer/reference/frontend/javascript_reference.md#reference-js-widgets).
 
 * **Requirement:**
   Optional
@@ -1834,7 +1834,7 @@ the current record (as `active_id`).
 
 ### name
 
-The method to call if the `type` is `object`. The [XMLID](../../glossary.md#term-external-identifier) of the
+The method to call if the `type` is `object`. The [XMLID](developer/glossary.md#term-external-identifier) of the
 action to load if the `type` is `action`, either in raw format or in `%(XMLID)d` format.
 
 * **Requirement:**
@@ -1857,7 +1857,7 @@ The button's text if there is no `icon`, the `alt` text for the icon otherwise.
 
 ### icon
 
-The icon to use to display the button. See [icons](icons.md#reference-user-interface-ui-icons) for
+The icon to use to display the button. See [icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons) for
 the reference list.
 
 * **Requirement:**
@@ -1941,7 +1941,7 @@ Unlike `invisible`, it affects the entire column, and is evaluated without the s
 
 The [HTML class](https://en.wikipedia.org/wiki/HTML_attribute) to set on the generated element.
 
-The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
+The styling uses the [Bootstrap](https://getbootstrap.com) framework and [UI icons](developer/reference/user_interface/icons.md#reference-user-interface-ui-icons). Common Odoo classes include:
 
 - `oe_inline`: prevents the usual line break following fields, and limits their span;
 - `oe_left`, `oe_right`: [floats](https://developer.mozilla.org/en-US/docs/Web/CSS/float) the
@@ -2153,7 +2153,7 @@ type (e.g., `=` for float fields, but `ilike` for char fields and `child_of` for
 ### filter_domain
 
 The domain to use as the field's search domain, as a Python expression that evaluates to a
-[domain](../backend/orm.md#reference-orm-domains).
+[domain](developer/reference/backend/orm.md#reference-orm-domains).
 
 It  can use the `self` variable to inject the provided value in the custom domain. It can be used
 to generate significantly more flexible domains than with the `operator` attribute alone (e.g.,
@@ -2245,7 +2245,7 @@ The `filter` element can have the following attributes:
 
 ### name
 
-The technical name of the filter. It can be used to [enable it by default](#reference-view-architectures-search-defaults) or as an [inheritance hook](view_records.md#reference-view-records-inheritance).
+The technical name of the filter. It can be used to [enable it by default](#reference-view-architectures-search-defaults) or as an [inheritance hook](developer/reference/user_interface/view_records.md#reference-view-records-inheritance).
 
 * **Requirement:**
   Mandatory
@@ -2838,7 +2838,7 @@ is performed (record created, column added, etc.).
 
 The route to fetch HTML from and prepend it to the view.
 
-If this attribute is set, the URL of the [controller route](../backend/http.md#reference-controllers) is
+If this attribute is set, the URL of the [controller route](developer/reference/backend/http.md#reference-controllers) is
 fetched and the returned content is displayed above the view. The JSON response from the
 controller must contain an `html` key.
 
@@ -2982,7 +2982,7 @@ number of records is displayed instead.
 
 #### `templates`: define cards structure
 
-The `templates` elements is used to define the [QWeb templates](../frontend/qweb.md#reference-qweb) that structure
+The `templates` elements is used to define the [QWeb templates](developer/reference/frontend/qweb.md#reference-qweb) that structure
 the kanban cards.
 
 Cards structure definition can be split into multiple templates for clarity, but at least one root
@@ -2993,7 +2993,7 @@ Two additional templates can be defined: `kanban-menu` and `kanban-tooltip`. If 
 (⋮) on the top right of the card. The `kanban-tooltip` template is rendered inside a
 tooltip when hovering kanban cards.
 
-The templates are written in [JavaScript QWeb](../frontend/qweb.md#reference-qweb-javascript)
+The templates are written in [JavaScript QWeb](developer/reference/frontend/qweb.md#reference-qweb-javascript)
 
 ```xml
 <kanban>
@@ -3049,7 +3049,7 @@ environment.
 * **Type:**
   [bool](https://docs.python.org/3/library/functions.html#bool)
 
-While most of the kanban templates are standard [QWeb templates](../frontend/qweb.md#reference-qweb), the kanban
+While most of the kanban templates are standard [QWeb templates](developer/reference/frontend/qweb.md#reference-qweb), the kanban
 view processes `field`, `button` and `a` elements is a special way:
 
 - By default, fields are replaced by their formatted value, unless the `widget` attribute is
@@ -3081,7 +3081,7 @@ view processes `field`, `button` and `a` elements is a special way:
 
 ## QWeb
 
-QWeb views are standard [QWeb Templates](../frontend/qweb.md#reference-qweb) templates inside a view's
+QWeb views are standard [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb) templates inside a view's
 `arch`. They don't have a specific root element. Because QWeb views don't
 have a specific root element, their type must be specified explicitly (it can
 not be inferred from the root element of the `arch` field).
@@ -3089,7 +3089,7 @@ not be inferred from the root element of the `arch` field).
 QWeb views have two use cases:
 
 * they can be used as frontend templates, in which case
-  [template](../backend/data.md#reference-data-template) should be used as a shortcut.
+  [template](developer/reference/backend/data.md#reference-data-template) should be used as a shortcut.
 * they can be used as actual qweb views (opened inside an action), in which
   case they should be defined as regular view with an explicit `type` (it
   can not be inferred) and a model.
@@ -3460,12 +3460,12 @@ Possible children of the view element are:
   : the name of the field to fetch
 
 `templates`
-: defines the [QWeb Templates](../frontend/qweb.md#reference-qweb) templates. Cards definition may be
+: defines the [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb) templates. Cards definition may be
   split into multiple templates for clarity, but activity views *must* define at
   least one root template `activity-box`, which will be rendered once for each
   record.
   <br/>
-  The activity view uses mostly-standard [javascript qweb](../frontend/qweb.md#reference-qweb-javascript) and provides the following context variables
+  The activity view uses mostly-standard [javascript qweb](developer/reference/frontend/qweb.md#reference-qweb-javascript) and provides the following context variables
   (see [Kanban](#reference-view-architectures-kanban) for more details):
   <br/>
   `widget`
@@ -4019,10 +4019,10 @@ take the following attributes:
   are allowed. For possible scale values to use in this list, see `default_scale`.
 
 `templates`
-: defines the [QWeb Templates](../frontend/qweb.md#reference-qweb) template `gantt-popover` which is used
+: defines the [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb) template `gantt-popover` which is used
   when the user hovers over one of the records in the gantt view.
   <br/>
-  The gantt view uses mostly-standard [javascript qweb](../frontend/qweb.md#reference-qweb-javascript) and provides the following context variables:
+  The gantt view uses mostly-standard [javascript qweb](developer/reference/frontend/qweb.md#reference-qweb-javascript) and provides the following context variables:
   <br/>
   `widget`
   : the current `GanttRow()`, can be used to fetch some

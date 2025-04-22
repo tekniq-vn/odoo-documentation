@@ -45,7 +45,7 @@ tangible product or warehouse and inventory tracking is essential.
   in journals, then setting the kit's type to *storable* is recommended.
 * **Component Purchase Constraints**: Only the kit's minimum required components can be added to an
   **eCommerce** cart unless the option to [continue
-  selling](../../../websites/ecommerce/products.md) is disabled.
+  selling](applications/websites/ecommerce/products.md) is disabled.
 * **No Kit Serial Numbers**: Serial number tracking does not track the kit, only its shipped
   components.
 * **Reordering Rule Recommendation**: Reordering rules should be set at the component-level.
@@ -75,7 +75,7 @@ specify their quantities under the Quantity column.
 
 Once ready, click Save to save the newly created .
 
-![Chọn kit trên danh mục vật tư.](kit_shipping/bom-kit-selection.png)
+![Chọn kit trên danh mục vật tư.](../../../../.gitbook/assets/bom-kit-selection.png)
 
 Nếu kit chỉ được sử dụng như một sản phẩm có thể bán được thì chỉ cần thêm các thành phần vào tab Thành phần và không cần cấu hình hoạt động sản xuất.
 
@@ -92,4 +92,4 @@ Sublevel BoMs (subassemblies or semi-finished products) streamline these workflo
 traceability efforts.
 
 #### SEE ALSO
-[Quản lý bán thành phẩm](sub_assemblies.md)
+[Quản lý bán thành phẩm](applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.md)

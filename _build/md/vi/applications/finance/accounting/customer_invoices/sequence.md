@@ -17,13 +17,13 @@ Changes made to reference numbers are logged in the chatter.
 To customize the default sequence, open the last confirmed invoice, click Reset to
 Draft, and edit the invoice's reference number.
 
-![Editing the reference number of an invoice.](sequence/reference-number.png)
+![Editing the reference number of an invoice.](../../../../.gitbook/assets/reference-number.png)
 
 Odoo then explains how the detected format will be applied to all future invoices. For example, if
 the current invoice's month is added, the sequence's periodicity will change to every month instead
 of every year.
 
-![Editing the reference number of an invoice.](sequence/sequence-dialog.png)
+![Editing the reference number of an invoice.](../../../../.gitbook/assets/sequence-dialog.png)
 
 <a id="accounting-invoice-mass-resequencing"></a>
 
@@ -38,7 +38,7 @@ This feature is only available to users with administrator or advisor access.
 
 Follow these steps to resequence invoice numbers:
 
-1. Activate the [developer mode](../../../general/developer_mode.md#developer-mode).
+1. Activate the [developer mode](applications/general/developer_mode.md#developer-mode).
 2. From the Accounting Dashboard, open the Customer Invoices journal.
 3. Select the invoices that need a new sequence.
 4. Click the <i class="fa fa-cog"></i> Actions menu and select Resequence.
@@ -50,4 +50,4 @@ Follow these steps to resequence invoice numbers:
 
 The first invoice using the new sequence appears in red in the Customer Invoices list.
 
-![Resequence options window](sequence/invoice-sequencing.png)
+![Resequence options window](../../../../.gitbook/assets/invoice-sequencing.png)

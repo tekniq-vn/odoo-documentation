@@ -42,7 +42,7 @@ There are 2 ways to populate a SQL view's table:
 Regardless of which way is used, a SQL query will be executed to populate the model.
 Therefore, any SQL commands can be used to collect and/or calculate the data needed
 and you are expected to keep in mind that you are bypassing the ORM (i.e. it is a
-good idea to read through [Security in Odoo](../reference/backend/security.md#reference-security) if you haven't already). The columns
+good idea to read through [Security in Odoo](developer/reference/backend/security.md#reference-security) if you haven't already). The columns
 returned from the `SELECT` will populate the model's fields, so ensure that your column
 names match your field names, or use alias names that match.
 

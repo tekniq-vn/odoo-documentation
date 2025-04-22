@@ -9,7 +9,7 @@ view.
 
 ## Survey form
 
-![How a blank survey form looks in the Odoo Surveys application.](create/blank-survey-form.png)
+![How a blank survey form looks in the Odoo Surveys application.](../../../.gitbook/assets/blank-survey-form.png)
 
 At the top of the survey form are four radio buttons, each representing a survey style. The radio
 button options are:
@@ -57,14 +57,14 @@ Indicate whether questions require a mandatory answer by clicking the (optional 
 icon to the far-right of the column titles. Then, select Mandatory Answer from the
 drop-down menu to reveal the Mandatory Answer column in the Questions tab.
 
-![The slider drop-down menu with the Mandatory Answer option selected in Odoo Surveys.](create/mandatory-answer-dropdown.png)
+![The slider drop-down menu with the Mandatory Answer option selected in Odoo Surveys.](../../../.gitbook/assets/mandatory-answer-dropdown.png)
 
 #### Add a question
 
 To add a question to a survey, click Add a question in the Questions tab,
 and proceed to fill out the Create Sections and Questions pop-up window that appears.
 
-To learn how to create and customize questions, refer to the [create questions](questions.md)
+To learn how to create and customize questions, refer to the [create questions](applications/marketing/surveys/questions.md)
 documentation.
 
 #### IMPORTANT
@@ -110,7 +110,7 @@ likely because the selected survey type does not offer it.
 
 #### Questions section
 
-![The Questions section of the Options tab on a survey form in Odoo Surveys.](create/questions-section-options-tab.png)
+![The Questions section of the Options tab on a survey form in Odoo Surveys.](../../../.gitbook/assets/questions-section-options-tab.png)
 
 The first field in the Questions section revolves around the Pagination,
 or overall layout, of the survey.
@@ -141,7 +141,7 @@ navigate back to previous pages in the survey.
 
 #### Time & Scoring section
 
-![The Time and Scoring section of the Options tab on a survey form in Odoo Surveys.](create/time-scoring-section-options-tab.png)
+![The Time and Scoring section of the Options tab on a survey form in Odoo Surveys.](../../../.gitbook/assets/time-scoring-section-options-tab.png)
 
 The first option in the Time & Scoring section is the Survey Time Limit
 option. If enabled, proceed to enter in an amount of time (in minutes) to be set as the
@@ -179,7 +179,7 @@ the contact page for that certified survey participant.
 
 #### Participants section
 
-![The Participants section of the Options tab on a survey form in Odoo Surveys.](create/participants-section-options-tab.png)
+![The Participants section of the Options tab on a survey form in Odoo Surveys.](../../../.gitbook/assets/participants-section-options-tab.png)
 
 The first available option in the Participants section is the Access Mode
 field. This is where users can determine who has access to the survey. Users can select either:
@@ -193,7 +193,7 @@ beside it, in which users can determine how many times users can attempt this su
 
 #### Live Session section
 
-![The Live Session section of the Options tab on a survey form in Odoo Surveys.](create/live-session-section-options-tab.png)
+![The Live Session section of the Options tab on a survey form in Odoo Surveys.](../../../.gitbook/assets/live-session-section-options-tab.png)
 
 #### NOTE
 The Live Session section in the Options tab of the survey form **only**
@@ -226,7 +226,7 @@ answers. If that option is enabled, participants who submit their answer quickly
 points.
 
 #### SEE ALSO
-[Live Session surveys](live_session.md)
+[Live Session surveys](applications/marketing/surveys/live_session.md)
 
 ### Tab mô tả
 
@@ -244,27 +244,27 @@ survey.
 Once the survey has been configured properly, and questions have been added, the user can utilize
 any of the available buttons in the upper-left corner of the survey form.
 
-![The various buttons on a survey form in Odoo Surveys.](create/survey-form-buttons.png)
+![The various buttons on a survey form in Odoo Surveys.](../../../.gitbook/assets/survey-form-buttons.png)
 
 Those buttons are the following:
 
 - Share: click to reveal a Share a Survey pop-up form that can be used to
   invite potential participants to the survey — complete with a Survey Link that can be
   copied and sent to potential participants, and a Send by Email toggle switch.
-  ![The 'Share a Survey' pop-up window that appears in the Odoo Surveys application.](create/share-survey-popup.png)
+  ![The 'Share a Survey' pop-up window that appears in the Odoo Surveys application.](../../../.gitbook/assets/share-survey-popup.png)
 
   When the Send by Email toggle is in the 'on' position, indicated by a green switch,
   additional fields appear, in which Recipients and a Subject can be added
   to the email. Below that, a dynamic email template, complete with a Start
   Certification button appears, which can also be modified.
-  ![The 'Share a Survey' pop-up window in Odoo Surveys with the Send by Email toggled on.](create/share-survey-popup-email-toggle.png)
+  ![The 'Share a Survey' pop-up window in Odoo Surveys with the Send by Email toggled on.](../../../.gitbook/assets/share-survey-popup-email-toggle1.png)
 
   Once modifications are complete, click Send to send that email invite to all the email
   addresses/contacts listed in the Recipients field.
 - See results: this button **only** appears if there has been at least one participant
   who has completed the survey. Clicking See results reveals a separate tab containing
   a visual analysis of the survey questions and responses. For more information, check out the
-  [scoring surveys](scoring.md) documentation.
+  [scoring surveys](applications/marketing/surveys/scoring.md) documentation.
 - Create Live Session: clicking this button opens the *Session Manager* in a separate
   tab. It also allows participants to access the live session, but the actual survey does **not**
   begin until the user hosting the live session survey clicks the Start button on the
@@ -290,5 +290,5 @@ Those buttons are the following:
   survey form.
 
 #### SEE ALSO
-- [Create questions](questions.md)
-- [Scoring surveys](scoring.md)
+- [Create questions](applications/marketing/surveys/questions.md)
+- [Scoring surveys](applications/marketing/surveys/scoring.md)

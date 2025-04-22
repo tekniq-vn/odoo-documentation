@@ -10,7 +10,7 @@ process invokes during the update of a module.
   * **version** ([*str*](https://docs.python.org/3/library/stdtypes.html#str)) -- installed version of the module
 
 Typically, this function executes one or multiple SQL queries and can also access Odoo's ORM, as
-well as the [Upgrade utils](upgrade_utils.md).
+well as the [Upgrade utils](developer/reference/upgrades/upgrade_utils.md).
 
 ## Writing upgrade scripts
 

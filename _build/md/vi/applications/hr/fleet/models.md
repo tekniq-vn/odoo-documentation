@@ -127,7 +127,7 @@ be added to this list.
 
 Nếu nhà cung cấp chưa có trong cơ sở dữ liệu, thêm nhà cung cấp bằng cách nhấp Mới ở góc dưới bên trái cửa sổ bật lên Thêm: Nhà cung cấp. Trong biểu mẫu Tạo nhà cung cấp hiện ra, nhập thông tin cần thiết, sau đó nhấp Lưu & đóng để thêm nhà cung cấp hoặc nhấp Lưu & mới để thêm nhà cung cấp hiện tại và tạo một nhà cung cấp mới khác.
 
-![Vendor form to fill out when adding a new vendor.](models/vendor.png)
+![Vendor form to fill out when adding a new vendor.](../../../.gitbook/assets/vendor.png)
 
 <a id="fleet-categories"></a>
 
@@ -156,4 +156,4 @@ The order of the list does not affect the database in any way. However, it may b
 the vehicle categories in a specific order, for example, by size, or the numbers of passengers the
 vehicle can carry.
 
-![List view of the models in the fleet.](models/categories.png)
+![List view of the models in the fleet.](../../../.gitbook/assets/categories1.png)

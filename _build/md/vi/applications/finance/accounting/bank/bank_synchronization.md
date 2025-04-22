@@ -12,12 +12,12 @@ To connect to the banks, Odoo uses multiple web-services:
 
 - **Plaid**: United States of America and Canada
 - **Yodlee**: Toàn cầu
-- [Salt Edge](bank_synchronization/saltedge.md): Worldwide
-- [Ponto](bank_synchronization/ponto.md): Europe
-- [Enable Banking](bank_synchronization/enablebanking.md): Scandinavian countries
+- [Salt Edge](applications/finance/accounting/bank/bank_synchronization/saltedge.md): Worldwide
+- [Ponto](applications/finance/accounting/bank/bank_synchronization/ponto.md): Europe
+- [Enable Banking](applications/finance/accounting/bank/bank_synchronization/enablebanking.md): Scandinavian countries
 
 #### SEE ALSO
-[Giao dịch](transactions.md)
+[Giao dịch](applications/finance/accounting/bank/transactions.md)
 
 ## Cấu hình
 
@@ -50,7 +50,7 @@ By default, transactions fetched from an online source are grouped inside the sa
 one bank statement is created per month. You can change the bank statement creation periodicity
 in your journal settings.
 
-To view all your synchronizations, activate the [developer mode](../../../general/developer_mode.md#developer-mode) and go to
+To view all your synchronizations, activate the [developer mode](applications/general/developer_mode.md#developer-mode) and go to
 Accounting ‣ Configuration ‣ Online Synchronization.
 
 ### Đồng bộ thủ công
@@ -59,7 +59,7 @@ After your first synchronization, the created journals are synchronized by defau
 If you wish, you can synchronize them manually by clicking on the Synchronize Now button
 on the dashboard.
 
-Alternatively, activate the [developer mode](../../../general/developer_mode.md#developer-mode), go to
+Alternatively, activate the [developer mode](applications/general/developer_mode.md#developer-mode), go to
 Accounting ‣ Configuration ‣ Online Synchronization, select your institution,
 and then click the Fetch transactions button.
 
@@ -74,7 +74,7 @@ synchronizations. In this case, make sure to perform manual synchronizations.
 ### Synchronization in error
 
 To report a connection error to the [Odoo support](https://www.odoo.com/help), activate the
-[developer mode](../../../general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣
+[developer mode](applications/general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣
 Online Synchronization, select the connection that failed, and copy the error description and the
 reference.
 
@@ -104,7 +104,7 @@ Finally, make sure all your users refresh their Odoo page by pressing CTRL+F5.
 
 #### NOTE
 - All previous synchronizations are disconnected during the installation and will not work
-  anymore. To view them, activate the [developer mode](../../../general/developer_mode.md#developer-mode) and go to
+  anymore. To view them, activate the [developer mode](applications/general/developer_mode.md#developer-mode) and go to
   Accounting ‣ Configuration ‣ Online Synchronization). It is not possible
   to resynchronize these connections; you have to make new ones.
 - Do not uninstall the `account_online_sync` module, which is the previous module for online
@@ -116,7 +116,7 @@ Finally, make sure all your users refresh their Odoo page by pressing CTRL+F5.
 
 ### The synchronization is not working in real-time. Is that normal?
 
-Quy trình này không hoạt động theo thời gian thực vì các nhà cung cấp bên thứ ba đồng bộ hóa tài khoản của bạn theo những khoảng thời gian khác nhau. Để bắt buộc đồng bộ và lấy báo cáo, hãy vào Trang chủ Kế toán của bạn và nhấp vào nút Đồng bộ ngay. Đồng bộ và lấy giao dịch bằng cách kích hoạt [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode) và vào Kế toán ‣ Cấu hình ‣ Đồng bộ online. Một số nhà cung cấp chỉ cho phép làm mới một lần mỗi ngày; do đó, có thể việc nhấp vào Đồng bộ ngay sẽ không nhận được các giao dịch mới nhất của bạn nếu trước đó bạn đã thực hiện hành động này trong ngày.
+Quy trình này không hoạt động theo thời gian thực vì các nhà cung cấp bên thứ ba đồng bộ hóa tài khoản của bạn theo những khoảng thời gian khác nhau. Để bắt buộc đồng bộ và lấy báo cáo, hãy vào Trang chủ Kế toán của bạn và nhấp vào nút Đồng bộ ngay. Đồng bộ và lấy giao dịch bằng cách kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode) và vào Kế toán ‣ Cấu hình ‣ Đồng bộ online. Một số nhà cung cấp chỉ cho phép làm mới một lần mỗi ngày; do đó, có thể việc nhấp vào Đồng bộ ngay sẽ không nhận được các giao dịch mới nhất của bạn nếu trước đó bạn đã thực hiện hành động này trong ngày.
 
 A transaction can be visible on your bank account but not be fetched if it has the status
 Pending. Only transactions with the Posted status will be retrieved. If the
@@ -145,7 +145,7 @@ For some institutions, transactions can only be fetched up to 3 months in the pa
 ### Why don't I see any transactions?
 
 During your first synchronization, you selected the bank accounts you decided to synchronize with
-Odoo. If you didn't synchronize any of your accounts, activate the [developer mode](../../../general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣ Online Synchronization,
+Odoo. If you didn't synchronize any of your accounts, activate the [developer mode](applications/general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣ Online Synchronization,
 and click the Fetch Account button on the connection.
 
 There may also be no new transactions.
@@ -155,10 +155,10 @@ database, please [submit a support ticket](https://www.odoo.com/help).
 
 ### How can I update my bank credentials?
 
-To update your credentials, activate the [developer mode](../../../general/developer_mode.md#developer-mode) and go to
+To update your credentials, activate the [developer mode](applications/general/developer_mode.md#developer-mode) and go to
 Accounting ‣ Configuration ‣ Online Synchronization. Open the connection you
 want to update your credentials and click the Update Credentials button.
 
-* [Salt Edge](bank_synchronization/saltedge.md)
-* [Ponto](bank_synchronization/ponto.md)
-* [Enable Banking](bank_synchronization/enablebanking.md)
+* [Salt Edge](applications/finance/accounting/bank/bank_synchronization/saltedge.md)
+* [Ponto](applications/finance/accounting/bank/bank_synchronization/ponto.md)
+* [Enable Banking](applications/finance/accounting/bank/bank_synchronization/enablebanking.md)

@@ -4,7 +4,7 @@
 
 #### WARNING
 This tutorial requires good knowledge of Odoo.
-Please refer to the [Server framework 101](../tutorials/server_framework_101.md) tutorial first if needed.
+Please refer to the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial first if needed.
 
 As of version 13.0, a user can be logged in to multiple companies at once. This allows the user to
 access information from multiple companies, but also to create/edit records in a multi-company

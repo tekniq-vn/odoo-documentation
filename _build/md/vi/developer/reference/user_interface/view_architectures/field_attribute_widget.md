@@ -2,7 +2,7 @@
 
 The rendering method and context to use in place of the default one assigned to the field's type
 (e.g., `Char`, `Many2one`). See
-[Fields](../../frontend/javascript_reference.md#reference-js-widgets).
+[Fields](developer/reference/frontend/javascript_reference.md#reference-js-widgets).
 
 * **Requirement:**
   Optional

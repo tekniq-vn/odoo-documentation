@@ -24,12 +24,12 @@ the top-left corner of the page.
   additional fields may appear on the form.
 
   If the model is not listed, type in the model name, and click either Create "model",
-  or Create and edit... to [create a new model and edit the model details](models.md#fleet-add-model).
+  or Create and edit... to [create a new model and edit the model details](applications/hr/fleet/models.md#fleet-add-model).
 - License Plate: enter the vehicle's license plate number in this field.
 - Tags: select any tags from the drop-down menu, or type in a new tag. There is no limit
   on the amount of tags that can be selected.
 
-![The new vehicle form, showing the model section.](new_vehicle/model.png)
+![The new vehicle form, showing the model section.](../../../.gitbook/assets/model.png)
 
 #### NOTE
 The Model is the only required field on the new vehicle form. When a model is
@@ -56,7 +56,7 @@ any plans for a change in the driver in the future, and when.
   *Contacts* application.
 - Mobility Card: if the selected driver has a mobility card listed on their employee
   card in the *Employees* application, the mobility card number appears in this field. If there is
-  no mobility card listed, and one should be added, [edit the employee record](../employees/new_employee.md#employees-hr-settings) in the *Employees* application.
+  no mobility card listed, and one should be added, [edit the employee record](applications/hr/employees/new_employee.md#employees-hr-settings) in the *Employees* application.
 - Future Driver: if the next driver for the vehicle is known, select the next driver
   from the drop-down menu. Or, type in the next driver and click either Create "future
   driver" or Create and edit... to [create a new future driver, and edit the
@@ -132,7 +132,7 @@ Fill out the following information on the top-half of the form:
 
   There is no limit to the number of tags that can be selected.
 
-![The top portion of the create driver form.](new_vehicle/create-driver.png)
+![The top portion of the create driver form.](../../../.gitbook/assets/create-driver.png)
 
 ##### Tab Liên hệ & Địa chỉ
 
@@ -159,7 +159,7 @@ series radio button options located at the top of the form. Those options are:
 - Other Address: select this option to add any other necessary addresses for the company
   or driver.
 
-![The create contact form with all parts filled in.](new_vehicle/create-contact.png)
+![The create contact form with all parts filled in.](../../../.gitbook/assets/create-contact.png)
 
 Depending on the Contact Type, some optional fields may not be visible. The available
 fields are identical to the fields in the [general information](#fleet-new-vehicle-general-info) section of the new driver form.
@@ -229,7 +229,7 @@ Fill in the following fields on the form:
   field. The entry should clearly explain where the vehicle can be found, such as `Main Garage` or
   `Building 2 Parking Lot`.
 
-![The new vehicle form, showing the vehicle tax section.](new_vehicle/new-vehicle-type.png)
+![The new vehicle form, showing the vehicle tax section.](../../../.gitbook/assets/new-vehicle-type.png)
 
 ### Tab Thông tin thuế
 
@@ -258,19 +258,19 @@ applications or localization settings.
 The values listed above affect the accounting department. It is recommended to check with the
 accounting department for more information and/or assistance with these values.
 
-![The new vehicle form, showing the vehicle tax section.](new_vehicle/new-vehicle-tax.png)
+![The new vehicle form, showing the vehicle tax section.](../../../.gitbook/assets/new-vehicle-tax.png)
 
 ### Model tab
 
 If the model for the new vehicle is already configured in the database, the Model tab
 will be populated with the corresponding information. If the model is not already in the database
-and the Model tab needs to be configured, [configure the new vehicle model](models.md#fleet-add-model).
+and the Model tab needs to be configured, [configure the new vehicle model](applications/hr/fleet/models.md#fleet-add-model).
 
 Check the information in the Model tab to ensure it is accurate. For example, the color
 of the vehicle, or if a trailer hitch is installed, are examples of common information that may need
 updating.
 
-![The new vehicle form, showing the vehicle tax section.](new_vehicle/model-tab.png)
+![The new vehicle form, showing the vehicle tax section.](../../../.gitbook/assets/model-tab.png)
 
 ### Note tab
 

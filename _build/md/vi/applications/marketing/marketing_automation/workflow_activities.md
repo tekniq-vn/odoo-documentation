@@ -4,7 +4,7 @@ A *workflow* is the overall *activity* structure of a marketing automation campa
 be a single workflow in each campaign. However, a workflow can be made up of any number of
 [activities](#marketing-automation-activities) to meet the needs of the campaign.
 
-![A workflow in an Odoo Marketing Automation campaign.](workflow_activities/workflow-activities.png)
+![A workflow in an Odoo Marketing Automation campaign.](../../../.gitbook/assets/workflow-activities.png)
 
 <a id="marketing-automation-activities"></a>
 
@@ -14,7 +14,7 @@ Activities are the methods of communication or server actions, organized in a wo
 executed within a campaign; they are the building blocks of the campaign's workflow.
 
 A new activity can be added to the workflow on a campaign form by selecting an existing campaign or
-[creating a new campaign](../marketing_automation.md#marketing-automation-campaigns) from the Marketing
+[creating a new campaign](applications/marketing/marketing_automation.md#marketing-automation-campaigns) from the Marketing
 Automation app ‣ Campaigns dashboard, then clicking the Add new activity button in
 the Workflow section. Doing so opens the Create Activities pop-up window.
 
@@ -30,7 +30,7 @@ workflow, or click Save & New to add the activity to the workflow and open a new
 Create Activities pop-up window to add another activity. Clicking Discard
 closes the pop-up window without saving the activity.
 
-![The create activities pop-up window.](workflow_activities/create-activities.png)
+![The create activities pop-up window.](../../../.gitbook/assets/create-activities.png)
 
 <a id="marketing-automation-activity-types"></a>
 
@@ -56,7 +56,7 @@ To create a new template directly from the Mail Template field, start typing the
 of the new template, then select Create and edit... to reveal a Create
 Marketing Template pop-up window. Proceed to create and configure the new email template.
 
-![The create and edit email drop-down option on create activities pop-up window.](workflow_activities/email-activity-type.png)
+![The create and edit email drop-down option on create activities pop-up window.](../../../.gitbook/assets/email-activity-type.png)
 
 Once the email template is configured, click Save & Close to save the activity, and
 return to the Create Activities pop-up window, in order to continue to configure the
@@ -67,7 +67,7 @@ The title used for the Mail Template **must** be unique from any other mail temp
 titles in the campaign, and it also serves as the subject of the email.
 
 #### SEE ALSO
-[Creating and configuring email templates](../email_marketing.md)
+[Creating and configuring email templates](applications/marketing/email_marketing.md)
 
 <a id="marketing-automation-sa-activity-type"></a>
 
@@ -78,7 +78,7 @@ Pick a Server Action in the Server Action field is available. This field is
 a drop-down menu containing all the pre-configured server actions for the campaign's
 Target model. Optionally, [create a new server action](#marketing-automation-create-sa).
 
-![The Server Action drop-down menu on create activities pop-up window.](workflow_activities/sa-activity-type.png)
+![The Server Action drop-down menu on create activities pop-up window.](../../../.gitbook/assets/sa-activity-type.png)
 
 After selecting a pre-configured server action, no other activity type configuration is needed.
 Click Save & Close to save the activity, and return to the Create Activities
@@ -93,7 +93,7 @@ Action field a title for the new action, then click Create and edit.... Doing so
 reveals a blank Create Server Action pop-up window, wherein a custom server action can
 be created and configured.
 
-![The Create Server Action pop-up window.](workflow_activities/create-sa.png)
+![The Create Server Action pop-up window.](../../../.gitbook/assets/create-sa.png)
 
 On the Create Server Action pop-up window, select the Type of server action.
 The configuration fields change, depending on the selected Type:
@@ -124,13 +124,13 @@ To create a new template directly from the SMS Template field, start typing the 
 the new template, and select Create and edit... to reveal a Create Marketing
 Template pop-up window. Proceed to create and configure the new SMS template.
 
-![The create and edit email drop-down option on create activities pop-up window.](workflow_activities/sms-activity-type.png)
+![The create and edit email drop-down option on create activities pop-up window.](../../../.gitbook/assets/sms-activity-type.png)
 
 Once the SMS template is configured, click Save & Close to save the activity, and return
 to the Create Activities pop-up window, in order to configure the [trigger](#marketing-automation-trigger).
 
 #### SEE ALSO
-[Creating and configuring SMS templates](../sms_marketing.md)
+[Creating and configuring SMS templates](applications/marketing/sms_marketing.md)
 
 <a id="marketing-automation-trigger"></a>
 
@@ -140,7 +140,7 @@ Once an [activity type](#marketing-automation-activity-types) is configured, the
 the Create Activities pop-up window is to define when the activity should be executed.
 This is done in the Trigger field group.
 
-![The trigger field group on Create Activities pop-up window.](workflow_activities/trigger.png)
+![The trigger field group on Create Activities pop-up window.](../../../.gitbook/assets/trigger.png)
 
 To set an execution delay for the activity from when the [trigger type](#marketing-automation-trigger-type) occurs, type a whole number in the *interval number* input
 (e.g. `2` is valid, `0` is also valid, and `1.5` is not).
@@ -195,7 +195,7 @@ The DOMAIN section of the Create Activities pop-up window contains fields to
 further filter the target audience of the activity.
 
 The Activity Filter field focuses this activity, **and** its [child activities](#marketing-automation-child-activities), even further on a specific group of the campaign's filter.
-The process is the same as [defining filters](target_audience.md#marketing-automation-defining-filters) for the
+The process is the same as [defining filters](applications/marketing/marketing_automation/target_audience.md#marketing-automation-defining-filters) for the
 campaign, and the fields that are available to filter are also specific to the Target
 of the campaign.
 
@@ -203,7 +203,7 @@ The # record(s) beside the Activity Filter field indicates how many records
 are currently being targeted by this Activity Filter.
 
 The Applied Filter displays the combined filters from the Activity Filter
-and the inherited campaign [Filter](target_audience.md). This field is read-only.
+and the inherited campaign [Filter](applications/marketing/marketing_automation/target_audience.md). This field is read-only.
 
 The # record(s) beside the Applied Filter field indicates how many records,
 in total, are currently being targeted by the activity.
@@ -226,7 +226,7 @@ Action*), and are as follows:
 
 Email
 
-![The trigger types for child activities of an email activity.](workflow_activities/email-trigger-types.png)
+![The trigger types for child activities of an email activity.](../../../.gitbook/assets/email-trigger-types.png)
 
 Each trigger the child activity on the following conditions of the parent activity:
 
@@ -241,7 +241,7 @@ Each trigger the child activity on the following conditions of the parent activi
 
 Tác vụ phía máy chủ
 
-![The trigger types for child activities of a server action activity.](workflow_activities/sa-trigger-types.png)
+![The trigger types for child activities of a server action activity.](../../../.gitbook/assets/sa-trigger-types.png)
 
 Triggers the child activity on the following condition of the parent activity:
 
@@ -249,7 +249,7 @@ Triggers the child activity on the following condition of the parent activity:
 
 SMS
 
-![The trigger types for child activities of an SMS activity.](workflow_activities/sms-trigger-types.png)
+![The trigger types for child activities of an SMS activity.](../../../.gitbook/assets/sms-trigger-types.png)
 
 Each trigger the child activity on the following conditions of the parent activity:
 
@@ -264,6 +264,6 @@ pre-filled with the selected trigger type, and the Activity field has the parent
 activity selected.
 
 #### SEE ALSO
-- [Testing/running campaigns](testing_running.md)
-- [Campaign metrics](understanding_metrics.md)
-- [Audience targeting](target_audience.md)
+- [Testing/running campaigns](applications/marketing/marketing_automation/testing_running.md)
+- [Campaign metrics](applications/marketing/marketing_automation/understanding_metrics.md)
+- [Audience targeting](applications/marketing/marketing_automation/target_audience.md)

@@ -26,8 +26,8 @@ selections. This is especially helpful in cases where employees change positions
 they leave the company.
 
 #### SEE ALSO
-- [Dial plan basics](dial_plan_basics.md)
-- [Advanced dial plans](dial_plan_advanced.md)
+- [Dial plan basics](applications/productivity/voip/axivox/dial_plan_basics.md)
+- [Advanced dial plans](applications/productivity/voip/axivox/dial_plan_advanced.md)
 
 To access the default number, go to the [Axivox management console](https://manage.axivox.com),
 and log in. Then, click into Settings in the left menu, and navigate to

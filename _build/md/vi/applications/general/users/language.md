@@ -3,7 +3,7 @@
 You select the language of your database upon its creation. However, you can
 [add](#language-add) and [install](#language-install) additional languages to allow users
 to manage the database in another language or to
-[translate](../../websites/website/configuration/translate.md) your website.
+[translate](applications/websites/website/configuration/translate.md) your website.
 
 <a id="language-add"></a>
 
@@ -19,7 +19,7 @@ To download additional languages:
 You can then select the languages you want from the dropdown menu and click Add.
 
 #### SEE ALSO
-[Bản dịch](../../websites/website/configuration/translate.md)
+[Bản dịch](applications/websites/website/configuration/translate.md)
 
 <a id="language-install"></a>
 

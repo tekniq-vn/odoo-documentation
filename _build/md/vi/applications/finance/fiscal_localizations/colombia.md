@@ -16,15 +16,15 @@ specific use cases as well.
 
 ### Modules installation
 
-[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Colombian
+[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Colombian
 localization:
 
-| Tên                                             | Tên kỹ thuật      | Mô tả                                                                                                                                                                                                                                                            |
-|-------------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Colombia - Kế toán                              | `l10n_co`         | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). This module adds<br/>the base accounting features for the Colombian localization: chart of accounts, taxes,<br/>withholdings, and identification document type. |
-| Colombian - Accounting Reports                  | `l10n_co_reports` | Includes accounting reports for sending certifications to suppliers for withholdings applied.                                                                                                                                                                    |
-| Electronic invoicing for Colombia with Carvajal | `l10n_co_edi`     | This module includes the features required for integration with Carvajal, and<br/>generates the electronic invoices and support documents related to the vendor bills, based on<br/> regulations.                                                                |
-| Colombian - Point of Sale                       | `l10n_co_pos`     | Includes Point of Sale receipts for Colombian localization.                                                                                                                                                                                                      |
+| Tên                                             | Tên kỹ thuật      | Mô tả                                                                                                                                                                                                                                                                              |
+|-------------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Colombia - Kế toán                              | `l10n_co`         | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages). This module adds<br/>the base accounting features for the Colombian localization: chart of accounts, taxes,<br/>withholdings, and identification document type. |
+| Colombian - Accounting Reports                  | `l10n_co_reports` | Includes accounting reports for sending certifications to suppliers for withholdings applied.                                                                                                                                                                                      |
+| Electronic invoicing for Colombia with Carvajal | `l10n_co_edi`     | This module includes the features required for integration with Carvajal, and<br/>generates the electronic invoices and support documents related to the vendor bills, based on<br/> regulations.                                                                                  |
+| Colombian - Point of Sale                       | `l10n_co_pos`     | Includes Point of Sale receipts for Colombian localization.                                                                                                                                                                                                                        |
 
 #### NOTE
 When `Colombia` is selected for a company's Fiscal Localization, Odoo automatically
@@ -35,7 +35,7 @@ installs certain modules.
 To configure your company information, go to the Contacts app, and search for your
 company.
 
-Alternatively, activate [developer mode](../../general/developer_mode.md#developer-mode) and navigate to
+Alternatively, activate [developer mode](applications/general/developer_mode.md#developer-mode) and navigate to
 General Setting ‣ Company ‣ Update Info ‣ Contact. Then, edit the contact
 form and configure the following information:
 
@@ -77,7 +77,7 @@ Enable the Test mode checkbox to connect with the Carvajal testing environment.
 Once Odoo and Carvajal are fully configured and ready for production, deactivate the Test
 mode checkbox to use the production database.
 
-![Configure credentials for Carvajal web service in Odoo.](colombia/carvajal-configuration.png)
+![Configure credentials for Carvajal web service in Odoo.](../../../.gitbook/assets/carvajal-configuration.png)
 
 #### IMPORTANT
 Test mode must **only** be used on duplicated databases, **not** the production
@@ -159,7 +159,7 @@ Advanced Options tab needs to be configured per tax. Retention tax types
 (ICA, IVA, Fuente) are also included. This configuration is used
 to display taxes correctly in the invoice PDF.
 
-![The ICA, IVA and Fuente fields in the Advanced Options tab in Odoo.](colombia/retention-tax-types.png)
+![The ICA, IVA and Fuente fields in the Advanced Options tab in Odoo.](../../../.gitbook/assets/retention-tax-types.png)
 
 <a id="co-journals"></a>
 
@@ -200,7 +200,7 @@ Odoo. The process is similar to the configuration of the [sales journals](#co-jo
 
 ##### Hệ thống tài khoản
 
-The [chart of accounts](../accounting/get_started/chart_of_accounts.md) is
+The [chart of accounts](applications/finance/accounting/get_started/chart_of_accounts.md) is
 installed by default as part of the localization module, the accounts are mapped automatically in
 taxes, default account payable, and default account receivable. The chart of accounts for Colombia
 is based on the PUC (Plan Unico de Cuentas).
@@ -226,7 +226,7 @@ localization:
 9. Acquirer sends a receipt of acknowledgement, and accepts or rejects the invoice.
 10. Sender downloads a `.zip` file with the PDF and XML.
 
-![Electronic invoice workflow for Colombian localization.](colombia/workflow-electronic-invoice.png)
+![Electronic invoice workflow for Colombian localization.](../../../.gitbook/assets/workflow-electronic-invoice.png)
 
 <a id="colombia-invoice-creation"></a>
 
@@ -257,7 +257,7 @@ After the invoice confirmation, an XML file is created and sent automatically to
 invoice is then processed asynchronously by the E-invoicing service UBL 2.1 (Colombia). The file is
 also displayed in the chatter.
 
-![Carvajal XML invoice file in Odoo chatter.](colombia/invoice-sent.png)
+![Carvajal XML invoice file in Odoo chatter.](../../../.gitbook/assets/invoice-sent.png)
 
 The Electronic Invoice Name field is now displayed in the EDI Documents tab,
 with the name of the XML file. Additionally, the Electronic Invoice Status field is
@@ -279,7 +279,7 @@ Sent.
 A `.zip` containing the legal electronic invoice (in XML format) and the invoice in (PDF
 format) is downloaded and displayed in the invoice chatter:
 
-![ZIP file displayed in the invoice chatter in Odoo.](colombia/invoice-zip.png)
+![ZIP file displayed in the invoice chatter in Odoo.](../../../.gitbook/assets/invoice-zip.png)
 
 The electronic invoice status changes to Accepted.
 
@@ -346,7 +346,7 @@ updating the electronic invoice status.
 After the master data is corrected, it's possible to reprocess the XML with the new data and send
 the updated version, using the Retry button.
 
-![XML validation errors shown in the invoice chatter in Odoo.](colombia/xml-validation-error.png)
+![XML validation errors shown in the invoice chatter in Odoo.](../../../.gitbook/assets/xml-validation-error.png)
 
 <a id="colombia-reports"></a>
 
@@ -358,7 +358,7 @@ This report is a certification to vendors for withholdings made for the Colombia
 Commerce (ICA) tax. The report can be found under Accounting ‣ Reporting ‣
 Colombian Statements ‣ Certificado de Retención en ICA.
 
-![Certificado de Retención en ICA report in Odoo Accounting.](colombia/ica-report.png)
+![Certificado de Retención en ICA report in Odoo Accounting.](../../../.gitbook/assets/ica-report.png)
 
 ### Certificado de Retención en IVA
 
@@ -366,7 +366,7 @@ This report issues a certificate on the amount withheld from vendors for VAT wit
 can be found under Accounting ‣ Reporting ‣ Colombian Statements ‣ Certificado
 de Retención en IVA.
 
-![Certificado de Retención en IVA report in Odoo Accounting.](colombia/iva-report.png)
+![Certificado de Retención en IVA report in Odoo Accounting.](../../../.gitbook/assets/iva-report.png)
 
 ### Certificado de Retención en la Fuente
 
@@ -374,4 +374,4 @@ This certificate is issued to partners for the withholding tax that they have ma
 be found under Accounting ‣ Reporting ‣ Colombian Statements ‣ Certificado de
 Retención en Fuente.
 
-![Certificado de Retención en Fuente report in Odoo Accounting.](colombia/fuente-report.png)
+![Certificado de Retención en Fuente report in Odoo Accounting.](../../../.gitbook/assets/fuente-report.png)

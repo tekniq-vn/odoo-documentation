@@ -1,7 +1,7 @@
 # Reuse code with mixins
 
 If you need to interface with common Odoo features such as the chatter, you can rely on
-[mixins](../reference/backend/mixins.md).
+[mixins](developer/reference/backend/mixins.md).
 They are Odoo models exposing useful methods through inheritance.
 
 To learn and play with mixins, visit [this repository](https://github.com/tivisse/odoodays-2018/).

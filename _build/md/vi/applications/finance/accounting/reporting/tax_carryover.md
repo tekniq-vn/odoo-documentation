@@ -12,7 +12,7 @@ Italy. There is no specific configuration required.
 Let’s take an example of a Belgian company that created a credit note of 100 for one of their
 customers. The due tax is 21%.
 
-![Illustration with a credit note](tax_carryover/belgian-example.png)
+![Illustration with a credit note](../../../../.gitbook/assets/belgian-example.png)
 
 In this case, as per local regulation, grid 81 of the tax report may contain a negative amount. But
 it must be declared to the government as zero, and the negative amount should be carried over to the
@@ -21,10 +21,10 @@ next period.
 If we go to Accounting app ‣ Reporting ‣ Tax Report, a pop-up on line 81
 explains that the amount will be carried over in the next period.
 
-![pop-up message stating the amount will be carried over to the next period](tax_carryover/pop-up.png)
+![pop-up message stating the amount will be carried over to the next period](../../../../.gitbook/assets/pop-up.png)
 
 At the time of the tax closing period, the tax report shows that the amount was carried over from
 the previous period. It also indicates the amount that will be carried over to this line in the next
 period based on the existing transactions and the carryover from the previous period.
 
-![Illustration of the tax return](tax_carryover/tax-return.png)
+![Illustration of the tax return](../../../../.gitbook/assets/tax-return.png)

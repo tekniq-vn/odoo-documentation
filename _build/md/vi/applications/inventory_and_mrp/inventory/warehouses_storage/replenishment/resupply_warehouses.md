@@ -12,7 +12,7 @@ This guide explains how to conduct inter-warehouse transfers using two replenish
 2. [Reordering rule](#inventory-warehouses-storage-reordering-rule)
 
 #### SEE ALSO
-[Difference between MTO and reordering rules](../replenishment.md)
+[Difference between MTO and reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment.md)
 
 ## Cấu hình
 
@@ -20,7 +20,7 @@ The initial configuration for both replenishment strategies is the same. First g
 Inventory app ‣ Configuration ‣ Settings. In the Warehouse section,
 activate Storage Locations. Then, click Save to apply the setting.
 
-![Enable Storage Locations in Inventory settings.](resupply_warehouses/storage-locations.png)
+![Enable Storage Locations in Inventory settings.](../../../../../.gitbook/assets/storage-locations.png)
 
 ### Kho hàng
 
@@ -41,9 +41,9 @@ warehouse, make sure to check those warehouses' boxes too. Now, Odoo knows which
 resupply this warehouse.
 
 #### SEE ALSO
-[Kho hàng](../inventory_management/warehouses.md)
+[Kho hàng](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md)
 
-![Supply one warehouse with another in the Warehouse Configuration tab.](resupply_warehouses/warehouse.png)
+![Supply one warehouse with another in the Warehouse Configuration tab.](../../../../../.gitbook/assets/warehouse.png)
 
 ### Set route on a product
 
@@ -64,7 +64,7 @@ Proceed to the dedicated sections below to continue the process.
 #### MTO
 
 To replenish products using the make-to-order method, go to the product form and ensure the
-[MTO route is unarchived](mto.md#inventory-warehouses-storage-unarchive-mto), so it appears in the
+[MTO route is unarchived](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md#inventory-warehouses-storage-unarchive-mto), so it appears in the
 Routes section of the Inventory tab.
 
 With the resupply and  routes ticked, jump to the section titled: [Replenish from another
@@ -88,7 +88,7 @@ Click New, and set:
   inventory falls below the set threshold.
 
 #### SEE ALSO
-[Quy tắc tái đặt hàng](reordering_rules.md)
+[Quy tắc tái đặt hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
 
 <a id="inventory-warehouses-storage-resupply-workflow"></a>
 
@@ -100,11 +100,11 @@ After completing the setup, trigger replenishment using one of several methods, 
 
   Click the Replenish button on the top-left of the product page. In the pop-up window,
   set the warehouse to the retail shop, (e.g. `Store`), and click Confirm.
-  ![Replenish pop-up window on the product form.](resupply_warehouses/replenish.png)
+  ![Replenish pop-up window on the product form.](../../../../../.gitbook/assets/replenish1.png)
 - Create a quotation, and in the Other Info tab, set the Warehouse to the
   retail shop (e.g. `Store`), when selling the product makes the on-hand quantity of the product go
   below the minimum set on the reordering rule.
-  ![Create a quote at the store.](resupply_warehouses/warehouse-field.png)
+  ![Create a quote at the store.](../../../../../.gitbook/assets/warehouse-field.png)
 
 Once triggered, Odoo creates two transfers: One is a *delivery order* from the central, supplying
 warehouse, which contains all the necessary products to the store, and the second is a *receipt* at

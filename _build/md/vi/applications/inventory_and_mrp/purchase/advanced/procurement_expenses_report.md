@@ -46,7 +46,7 @@ While multiple time-based filters can be added at once, only one comparison can 
 time.
 
 ![The drop-down menu of filters, group by and comparison options for the procurement expenses
-report.](procurement_expenses_report/filters-groups.png)
+report.](../../../../.gitbook/assets/filters-groups.png)
 
 ### Add measures
 
@@ -75,7 +75,7 @@ After selecting all necessary measures, click out of the drop-down menu.
 
 After all of the filters and measures have been selected, the report generates in the selected view.
 
-![A sample version of the procurement expenses report.](procurement_expenses_report/sample-per-report.png)
+![A sample version of the procurement expenses report.](../../../../.gitbook/assets/sample-per-report.png)
 
 Click Insert in Spreadsheet to add the pivot view into an editable spreadsheet format
 within the *Documents* app.
@@ -91,4 +91,4 @@ switch to a <i class="fa fa-bar-chart"></i> (bar chart), <i class="fa fa-line-ch
 chart), or <i class="fa fa-pie-chart"></i> (pie chart).
 
 #### SEE ALSO
-To save this report as a *favorite*, see [Yêu thích](../../../essentials/search.md#search-favorites).
+To save this report as a *favorite*, see [Yêu thích](applications/essentials/search.md#search-favorites).

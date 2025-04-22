@@ -10,12 +10,12 @@ The selected view option appears as a Day, Week, Month, or
 Year drop-down menu. Under the view options drop-down menu, users can also enable or
 disable Show weekends.
 
-![Overview of Calendar app.](calendar/calendar-overview.png)
+![Overview of Calendar app.](../../.gitbook/assets/calendar-overview.png)
 
 ## Sync third-party calendars
 
-Users can sync Odoo with existing [Outlook](calendar/outlook.md) and/or
-[Google](calendar/google.md) calendars, by heading to
+Users can sync Odoo with existing [Outlook](applications/productivity/calendar/outlook.md) and/or
+[Google](applications/productivity/calendar/google.md) calendars, by heading to
 Calendar app ‣ Configuration ‣ Settings. From here, enter
 Client ID and Client Secret. There is also an option to pause
 synchronization by ticking the checkbox, or automating synchronization by keeping it blank.
@@ -25,8 +25,8 @@ Once the desired configurations are complete, be sure to click Save before movin
 Events created in synced calendars automatically appear across the integrated platforms.
 
 #### SEE ALSO
-- [Synchronize Outlook calendar with Odoo](calendar/outlook.md)
-- [Synchronize Google calendar with Odoo](calendar/google.md)
+- [Synchronize Outlook calendar with Odoo](applications/productivity/calendar/outlook.md)
+- [Synchronize Google calendar with Odoo](applications/productivity/calendar/google.md)
 
 ## Create activities from chatter
 
@@ -40,14 +40,14 @@ depending on the activity.
 Các hoạt động liên quan đến lịch trình khác như Họp hoặc Gọi demo, sẽ liên kết với ứng dụng **Lịch**. Chọn một trong các hoạt động này để liên kết với ứng dụng **Lịch**, sau đó nhấn Mở lịch để quay lại ứng dụng. Ngoài ra, bạn cũng có thể chọn Lên lịch & đánh dấu hoàn tất để kết thúc hoạt động, hoặc chọn Hoàn tất & lên lịch tiếp theo để giữ cửa sổ Lên lịch hoạt động mở nhằm tạo hoạt động mới.
 
 #### SEE ALSO
-[Schedule activities in Odoo](../essentials/activities.md)
+[Schedule activities in Odoo](applications/essentials/activities.md)
 
 ## Plan an event
 
 To put an event on the calendar, open the Calendar app, and click into the target
 date. On the New Event pop-up window that appears, start by adding the event title.
 
-![Schedule an event window on Calendar app.](calendar/calendar-schedule-event.png)
+![Schedule an event window on Calendar app.](../../.gitbook/assets/calendar-schedule-event.png)
 
 The target date auto-populates in the Start field. This can be changed by clicking
 into the date section, and selecting a date from the calendar. For multi-day events, select the end
@@ -69,7 +69,7 @@ link.
 Next, either create the event by clicking Save & Close, or select More
 Options to further configure the event.
 
-![The full event form for a new calendar event.](calendar/calendar-new-meeting.png)
+![The full event form for a new calendar event.](../../.gitbook/assets/calendar-new-meeting.png)
 
 The Description field allows users to add additional information and details about the
 meeting.
@@ -104,7 +104,7 @@ When scheduling an event for multiple users, on the **Calendar** app dashboard, 
 next to Attendees to view team members' availability. Tick (or untick) the checkbox next
 to listed users to show (or hide) individual calendars.
 
-![View of Attendees section on Calendar app.](calendar/calendar-attendees.png)
+![View of Attendees section on Calendar app.](../../.gitbook/assets/calendar-attendees.png)
 
 <a id="calendar-share-availabilities"></a>
 
@@ -121,7 +121,7 @@ Within the Share Availabilities feature, selecting times is only possible on the
 Once availability has been selected, click the <i class="fa fa-external-link"></i> Open button to
 navigate to the associated appointment.
 
-![Share availability window on Calendar app.](calendar/calendar-meeting-share-availability.png)
+![Share availability window on Calendar app.](../../.gitbook/assets/calendar-meeting-share-availability.png)
 
 Several configuration options are available on the appointment form:
 
@@ -201,7 +201,7 @@ The Options tab provides additional configurations:
   Payment Providers, which enables online payments.
 - Limit to Work Hours: If Users has been selected in the
   Availability On field, tick the checkbox to limit meeting time slots to the selected
-  [users' working hours](../hr/employees/new_employee.md).
+  [users' working hours](applications/hr/employees/new_employee.md).
 - Create Opportunities: When this is selected, each scheduled appointment creates
   a new **CRM** opportunity.
 - Reminders: Add or delete notification reminders in this field. Select the blank space
@@ -226,7 +226,7 @@ Question Type, optionally add a Placeholder answer, and choose whether it is
 a Required Answer.
 
 To learn how to create more comprehensive questionnaires, head to the **Survey** app
-documentation on [creating and configuring data-capturing questions](../marketing/surveys/questions.md).
+documentation on [creating and configuring data-capturing questions](applications/marketing/surveys/questions.md).
 
 <a id="calendar-appointment-messages"></a>
 
@@ -238,5 +238,5 @@ meeting information that appears on the invitation.
 Information added to the Extra Message on Confirmation field appears once the meeting is
 confirmed.
 
-* [Outlook Calendar synchronization](calendar/outlook.md)
-* [Google Calendar synchronization](calendar/google.md)
+* [Outlook Calendar synchronization](applications/productivity/calendar/outlook.md)
+* [Google Calendar synchronization](applications/productivity/calendar/google.md)

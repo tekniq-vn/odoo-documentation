@@ -16,7 +16,7 @@ The main differences are the following:
 
 - Theo mặc định, sau khi một thông báo hoặc email giao dịch (báo giá, hóa đơn, tin nhắn trực tiếp đến một liên hệ) được gửi thành công, đối tượng email sẽ bị xóa. Nội dung email sẽ được lưu trữ trong phần thảo luận của bản ghi liên quan. Điều này giúp tránh làm lộn xộn cơ sở dữ liệu với nhiều bản sao của cùng một nội dung email (khi gửi đến nhiều người nhận) nếu nội dung đó đã có sẵn trong cửa sổ trò chuyện.
 - There is no concept of (blind) carbon copy ([B]CC). Odoo uses the concept of *followers* added to
-  a chatter to automatically decide when and how [a contact is notified](email_servers_outbound.md#email-outbound-notifications) or receives a copy of an email.
+  a chatter to automatically decide when and how [a contact is notified](applications/general/email_communication/email_servers_outbound.md#email-outbound-notifications) or receives a copy of an email.
 - Các email đến sẽ được xử lý bằng cách kiểm tra xem địa chỉ email  *ĐẾN* có phải là địa chỉ hợp lệ trong cơ sở dữ liệu Odoo hay không, hoặc trong trường hợp là email trả lời, kiểm tra xem có tham chiếu trong tiêu đề email khớp với tin nhắn được gửi từ cơ sở dữ liệu Odoo hay không. Tất cả các email khác sẽ bị từ chối và **không** được tạm thời lưu trong thư mục spam hoặc kiểm dịch. Nói cách khác, mọi email không liên quan đến cơ sở dữ liệu Odoo sẽ bị mất.
 
 <a id="email-issues-outgoing"></a>
@@ -43,12 +43,12 @@ Preferences tab. Either use any other email address or use your Odoo subdomain (
 When a message is sent, an <i class="fa fa-envelope-o"></i> (envelope) icon is displayed in the
 chatter. The icon turns red when delivery has failed for at least one recipient.
 
-![Red envelope icon displayed in the chatter.](faq/red-envelope.png)
+![Red envelope icon displayed in the chatter.](../../../.gitbook/assets/red-envelope.png)
 
 Left-click the envelope to display information about the delivery, and, if possible, the relevant
 [error messages](#email-issues-outgoing-delivery-failure-messages).
 
-![Example of a sending failure.](faq/sending-failures.png)
+![Example of a sending failure.](../../../.gitbook/assets/sending-failures.png)
 
 Click See Error Details to get extra information for the fail reason, **if** Odoo was
 able to process the original error or bounce email.
@@ -60,9 +60,9 @@ Click Send & close to retry sending the email to all **toggled-on**
 Click Ignore all to ignore all currently failing emails and turn the envelope icon from
 red to white.
 
-Unsent emails also appear in the Odoo email queue. To access it, activate the [developer mode](../developer_mode.md#developer-mode) and go to Settings ‣ Technical ‣ Email: Emails.
+Unsent emails also appear in the Odoo email queue. To access it, activate the [developer mode](applications/general/developer_mode.md#developer-mode) and go to Settings ‣ Technical ‣ Email: Emails.
 
-![Example of the technical email queue view.](faq/technical-menu-email-delivery-failed.png)
+![Example of the technical email queue view.](../../../.gitbook/assets/technical-menu-email-delivery-failed.png)
 
 Failed emails display the Delivery Failed status. Click Retry to put a
 failed email in the email queue again. It will then appear with the Outgoing status. The
@@ -83,7 +83,7 @@ scheduled action that cleans redundant data on your Odoo database.
 
 ##### Daily limit reached
 
-![Email limit reached warning.](faq/email-limit.png)
+![Email limit reached warning.](../../../.gitbook/assets/email-limit.png)
 
 Odoo giới hạn số lượng email có thể được gửi từ một cơ sở dữ liệu Odoo Online. Hầu hết các nhà cung cấp dịch vụ email (VD: Google, Yahoo,...) sẽ đưa địa chỉ IP máy chủ của Odoo vào danh sách hạn chế nếu máy chủ email của Odoo gửi quá nhiều email đến các địa chỉ không tồn tại hoặc không còn hợp lệ. Điều này cũng áp dụng cho các email rác không được yêu cầu mà được gửi qua cơ sở dữ liệu Odoo.
 
@@ -102,17 +102,17 @@ If the daily limit is reached, you can:
   2. Apps installed
   3. Bounce rate (the percentage of email addresses that did not receive emails because they were
      returned by an email server on their way to the final recipient).
-  4. Whether your [email aliases are correctly set up and use the appropriate custom domains](email_servers_outbound.md#email-outbound-alias-domain).
-- [Use an external outgoing email server](../email_communication.md) to be independent of Odoo's
+  4. Whether your [email aliases are correctly set up and use the appropriate custom domains](applications/general/email_communication/email_servers_outbound.md#email-outbound-alias-domain).
+- [Use an external outgoing email server](applications/general/email_communication.md) to be independent of Odoo's
   email limit.
-- Wait until the next day, and retry sending the email. To do so, activate the [developer mode](../developer_mode.md#developer-mode), go to Settings ‣ Technical ‣ Email: Emails, and click
+- Wait until the next day, and retry sending the email. To do so, activate the [developer mode](applications/general/developer_mode.md#developer-mode), go to Settings ‣ Technical ‣ Email: Emails, and click
   Retry next to the unsent email.
 
 #### IMPORTANT
 The daily email limit counts every email leaving your Odoo database, triggered either manually
 or automatically. By default, any internal message, notification, logged note, etc., counts as an
 email if it notifies someone via email. This can be mitigated by receiving [notifications in
-Odoo](../../productivity/discuss.md#discuss-app-notification-preferences) instead of by email.
+Odoo](applications/productivity/discuss.md#discuss-app-notification-preferences) instead of by email.
 
 <a id="email-issues-outgoing-delivery-failure-messages-smtp"></a>
 
@@ -121,7 +121,7 @@ Odoo](../../productivity/discuss.md#discuss-app-notification-preferences) instea
 [Simple Mail Transport Protocol (SMTP)](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) is a standard used to transmit
 emails between email servers and/or email clients.
 
-If you use [an external STMP server to send emails](email_servers_outbound.md#email-outbound-custom-domain-smtp-server),
+If you use [an external STMP server to send emails](applications/general/email_communication/email_servers_outbound.md#email-outbound-custom-domain-smtp-server),
 a standard set of [SMTP error codes exists](https://en.wikipedia.org/wiki/List_of_SMTP_server_return_codes#Common_status_codes). While the
 code numbers are not specific to Odoo, the exact content of the error message might vary from email
 server to email server.
@@ -144,9 +144,9 @@ Support](#email-issues-support).
 
 #### NOTE
 One of the most common reasons for an email failing to be sent with no error message is related
-to the [SPF](email_domain.md#email-domain-spf) or [DKIM](email_domain.md#email-domain-dkim) configuration. Also,
+to the [SPF](applications/general/email_communication/email_domain.md#email-domain-spf) or [DKIM](applications/general/email_communication/email_domain.md#email-domain-dkim) configuration. Also,
 verify that the implemented email notification setup is adapted to your business needs. See the
-[Communication in Odoo by email documentation](../email_communication.md) for more
+[Communication in Odoo by email documentation](applications/general/email_communication.md) for more
 information.
 
 <a id="email-issues-outgoing-execution-time"></a>
@@ -161,7 +161,7 @@ Emails that are considered urgent (from one person to another, such as sales ord
 purchase orders, etc.) are sent immediately. They do not show up under Settings ‣
 Technical ‣ Email: Emails, unless their delivery fails.
 
-![Example of sending information header when a mailing campaign is queued.](faq/email-marketing-asap-notice.png)
+![Example of sending information header when a mailing campaign is queued.](../../../.gitbook/assets/email-marketing-asap-notice.png)
 
 Email campaigns are sent as soon as possible (after clicking the Send button) or at a
 scheduled time (after clicking the Schedule button).
@@ -170,7 +170,7 @@ scheduled time (after clicking the Schedule button).
 
 #### SEE ALSO
 For more information about crons when using Odoo.sh, check out [Odoo.sh frequent technical
-questions](../../../administration/odoo_sh/advanced/frequent_technical_questions.md).
+questions](administration/odoo_sh/advanced/frequent_technical_questions.md).
 
 <a id="email-issues-outgoing-execution-time-campaigns"></a>
 
@@ -205,10 +205,10 @@ Odoo.sh dashboard). Log files are created everyday at 5:00 AM (UTC).
 
 #### SEE ALSO
 For more information on logs and how to access them via the Odoo.sh dashboard, refer to the
-[Odoo.sh logs documentation](../../../administration/odoo_sh/getting_started/branches.md#odoosh-logs).
+[Odoo.sh logs documentation](administration/odoo_sh/getting_started/branches.md#odoosh-logs).
 
 For more information on accessing logs via the command line, refer to the [developer
-logging documentation](../../../developer/reference/cli.md#reference-cmdline-server-logging).
+logging documentation](developer/reference/cli.md#reference-cmdline-server-logging).
 
 <a id="email-issues-support"></a>
 

@@ -1,7 +1,7 @@
 # Tổng quan
 
-* [Receiving tickets](overview/receiving_tickets.md)
-* [Trung tâm hỗ trợ](overview/help_center.md)
-* [Service level agreements (SLA)](overview/sla.md)
-* [Báo cáo](overview/reports.md)
-* [Đánh giá của khách hàng](overview/ratings.md)
+* [Receiving tickets](applications/services/helpdesk/overview/receiving_tickets.md)
+* [Trung tâm hỗ trợ](applications/services/helpdesk/overview/help_center.md)
+* [Service level agreements (SLA)](applications/services/helpdesk/overview/sla.md)
+* [Báo cáo](applications/services/helpdesk/overview/reports.md)
+* [Đánh giá của khách hàng](applications/services/helpdesk/overview/ratings.md)

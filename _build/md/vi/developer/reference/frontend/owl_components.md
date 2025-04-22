@@ -4,7 +4,7 @@
 
 The Odoo Javascript framework uses a custom component framework called Owl. It
 is a declarative component system, loosely inspired by Vue and React. Components
-are defined using [QWeb templates](qweb.md), enriched with some Owl
+are defined using [QWeb templates](developer/reference/frontend/qweb.md), enriched with some Owl
 specific directives. The official
 [Owl documentation](https://github.com/odoo/owl/blob/master/doc/readme.md)
 contains a complete reference and a tutorial.
@@ -169,7 +169,7 @@ element might be swipable, its animation and the minimum portion to swipe to per
 
 You can use the component to interact easily with records, messages, items in lists and much more.
 
-![Example of ActionSwiper usage](owl_components/actionswiper.png)
+![Example of ActionSwiper usage](../../../.gitbook/assets/actionswiper.png)
 
 The following example creates a basic ActionSwiper component.
 Here, the swipe is enabled in both directions.
@@ -374,7 +374,7 @@ being present in the DOM or not.
 | `manualOnly`   | boolean                   | if true, only toggle the dropdown when the button is clicked on (defaults to `false`)                                                                                                                                               |
 | `disabled`     | boolean                   | disable (if true) the dropdown button (defaults to `false`)                                                                                                                                                                         |
 | `title`        | string                    | title attribute content for the `<button class="dropdown-toggle"/>` (default: none)                                                                                                                                                 |
-| `position`     | string                    | defines the desired menu opening position. RTL direction is automatically applied. Should be a valid [usePosition](hooks.md#frontend-hooks-useposition) hook position. (default: `bottom-start`)                                    |
+| `position`     | string                    | defines the desired menu opening position. RTL direction is automatically applied. Should be a valid [usePosition](developer/reference/frontend/hooks.md#frontend-hooks-useposition) hook position. (default: `bottom-start`)       |
 | `toggler`      | `"parent"` or `undefined` | when set to `"parent"` the `<button class="dropdown-toggle"/>` is not<br/>rendered (thus `toggler` slot is ignored) and the toggling feature is handled by the parent node (e.g. use<br/>case: pivot cells). (default: `undefined`) |
 
 A `<DropdownItem/>` is simply a span (`<span class="dropdown-item"/>`).
@@ -578,7 +578,7 @@ the corresponding tab is greyed out and set as inactive as well.
 The Pager is a small component to handle pagination. A page is defined by an `offset` and a `limit` (the size of the page). It displays the current page and the `total` number of elements, for instance, "9-12 / 20". In the previous example, `offset` is 8, `limit` is 4 and `total` is 20. It has two buttons ("Previous" and "Next") to navigate between pages.
 
 #### NOTE
-The pager can be used anywhere but its main use is in the control panel. See the [usePager](hooks.md#frontend-hooks-usepager) hook in order to manipulate the pager of the control panel.
+The pager can be used anywhere but its main use is in the control panel. See the [usePager](developer/reference/frontend/hooks.md#frontend-hooks-usepager) hook in order to manipulate the pager of the control panel.
 
 ```xml
 <Pager offset="0" limit="80" total="50" onUpdate="doSomething" />

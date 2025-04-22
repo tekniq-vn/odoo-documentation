@@ -1,7 +1,7 @@
 # AvaTax use
 
 AvaTax is a tax calculation software that can be integrated with Odoo in the United States and
-Canada. Once the [integration setup](../avatax.md) is complete, the calculated tax is simple and
+Canada. Once the [integration setup](applications/finance/accounting/taxes/avatax.md) is complete, the calculated tax is simple and
 automatic.
 
 ## Tax calculation
@@ -10,7 +10,7 @@ Automatically calculate taxes on Odoo quotations and invoices with AvaTax by con
 documents during the sales flow. Alternatively, calculate the taxes manually by clicking the
 Compute Taxes button, while these documents are in draft stage.
 
-![Sales quotation with the confirm and compute taxes button highlighted.](avatax_use/calculate-avatax.png)
+![Sales quotation with the confirm and compute taxes button highlighted.](../../../../../.gitbook/assets/calculate-avatax.png)
 
 The tax calculation is triggered during the following [automatic trigger](#avatax-automatic-triggers) and [manual trigger](#avatax-manual-triggers) circumstances.
 
@@ -41,7 +41,7 @@ The Automatic Tax Mapping (AvaTax) fiscal position is also applied on those Odoo
 documents, like subscriptions.
 
 #### SEE ALSO
-- [Fiscal positions (tax and account mapping)](../fiscal_positions.md)
+- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
 
 ## AvaTax synchronization
 
@@ -59,7 +59,7 @@ Then click Create and view invoice. The recorded taxes can be seen in the
 Journal Items tab of the invoice. There will be different taxes depending on the
 location of the Delivery Address.
 
-![Journal items highlighted on a invoice in Odoo.](avatax_use/journal-items.png)
+![Journal items highlighted on a invoice in Odoo.](../../../../../.gitbook/assets/journal-items.png)
 
 Finally, press the Confirm button to complete the invoice and synchronize with the
 AvaTax portal.
@@ -67,7 +67,7 @@ AvaTax portal.
 #### WARNING
 An invoice cannot be Reset to draft because this causes de-synchronization with the
 AvaTax Portal. Instead, click Add credit note and state: `Sync with AvaTax Portal`.
-See this documentation: [Credit notes and refunds](../../customer_invoices/credit_notes.md).
+See this documentation: [Credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md).
 
 ## Fixed price discounts
 
@@ -103,7 +103,7 @@ following columns:
 - Line: indicates the line the calculation is made on.
 - Function: indicates the calculation taken on the line.
 
-![Avalara logging page with top row of list highlighted.](avatax_use/logging.png)
+![Avalara logging page with top row of list highlighted.](../../../../../.gitbook/assets/logging.png)
 
 Click into the log line to reveal another field, called Message.
 
@@ -119,10 +119,10 @@ creation (or adjustment) of the transaction.
 #### IMPORTANT
 Odoo *Studio* requires a *custom* pricing plan. Consult the database's customer success manager
 for more information on switching plans. Or to see if Odoo *Studio* is included in the database's
-current pricing plan. See this documentation: [Studio](../../../../studio.md).
+current pricing plan. See this documentation: [Studio](applications/studio.md).
 
 #### SEE ALSO
-- [AvaTax integration](../avatax.md)
-- [Cổng thông tin Avalara (Avatax)](avalara_portal.md)
+- [AvaTax integration](applications/finance/accounting/taxes/avatax.md)
+- [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)
 - [US Tax Compliance: Avatax elearning video](https://www.odoo.com/slides/slide/us-tax-compliance-avatax-2858?fullscreen=1)
-- [Fiscal positions (tax and account mapping)](../fiscal_positions.md)
+- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)

@@ -1,7 +1,7 @@
 # Lead distribution report
 
 A *lead distribution report* can be used to see if active leads are being assigned equitably
-across sales members. It can also be used to view the distribution of good or [quality leads](quality_leads_report.md), and see how frequently each salesperson is receiving (and keeping) leads.
+across sales members. It can also be used to view the distribution of good or [quality leads](applications/sales/crm/track_leads/quality_leads_report.md), and see how frequently each salesperson is receiving (and keeping) leads.
 
 Lead distribution reports can be run each week to help keep salespeople on track, while
 providing them with ample good leads. These reports can also be used to see whether sales members
@@ -16,12 +16,12 @@ Pipeline, which reveals the Pipeline Analysis dashboard.
 Remove all the default filters in the search bar at the top of the page. Doing so
 displays data related to *all* leads.
 
-[Custom filters](../../../essentials/search.md#search-custom-filters) can now be added by clicking the <i class="fa fa-caret-down"></i>
+[Custom filters](applications/essentials/search.md#search-custom-filters) can now be added by clicking the <i class="fa fa-caret-down"></i>
 (down caret) icon, to the right of the search bar, to reveal a drop-down menu of search
 and filter options.
 
-Three columns are displayed: [Filters](../../../essentials/search.md#search-filters), [Group By](../../../essentials/search.md#search-group), and
-[Favorites](../../../essentials/search.md#search-favorites). To begin, navigate to the bottom of the Filters
+Three columns are displayed: [Filters](applications/essentials/search.md#search-filters), [Group By](applications/essentials/search.md#search-group), and
+[Favorites](applications/essentials/search.md#search-favorites). To begin, navigate to the bottom of the Filters
 column, and click Add Custom Filter. This opens an Add Custom Filter pop-up
 window, where the essential filters can be added one at a time.
 
@@ -48,7 +48,7 @@ leads are selected from.
 For example, setting `01/01/2024 00:00:00` only includes leads created from, and including, the
 first day of 2024.
 
-![Add a Created On rule for the start of the year onward.](lead_distribution_report/created-on.png)
+![Add a Created On rule for the start of the year onward.](../../../../.gitbook/assets/created-on2.png)
 
 <a id="crm-track-leads-sales-team"></a>
 
@@ -63,7 +63,7 @@ In this third field, enter the name of the desired sales team(s) that are to be 
 report. It is important for all contains argument values to be specific enough and
 spelled correctly as they exist in Odoo, otherwise this risks returning multiple (or zero) values.
 
-![Use Sales Team to filter the location the lead is associated with.](lead_distribution_report/sales-team-location.png)
+![Use Sales Team to filter the location the lead is associated with.](../../../../.gitbook/assets/sales-team-location.png)
 
 #### IMPORTANT
 By adding more than one rule to the form, a new option emerges at the top of the pop-up window
@@ -113,7 +113,7 @@ to create a new line of fields beneath it.
 
 Set the first field to Active. Then, select is not set in the next field.
 
-![Use Active to include active status in the report.](lead_distribution_report/active-set.png)
+![Use Active to include active status in the report.](../../../../.gitbook/assets/active-set.png)
 
 This rule adds the activity status of the lead to the report.
 
@@ -157,5 +157,5 @@ These conditions can be added, removed, or modified to best fit the desired info
 report.
 
 #### SEE ALSO
-- [Add rules for quality leads](quality_leads_report.md#quality-leads-report-add-quality-rules)
-- [Tìm kiếm, lọc, và nhóm bản ghi](../../../essentials/search.md)
+- [Add rules for quality leads](applications/sales/crm/track_leads/quality_leads_report.md#quality-leads-report-add-quality-rules)
+- [Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)

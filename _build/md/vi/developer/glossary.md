@@ -20,7 +20,7 @@ external identifiers
   `*module*.` prefix can be left out.
   <br/>
   Sometimes referred to as "xml id" or `xml_id` as XML-based
-  [Data Files](reference/backend/data.md#reference-data) make extensive use of them.
+  [Data Files](developer/reference/backend/data.md#reference-data) make extensive use of them.
 
 <a id="term-format-string"></a>
 

@@ -4,12 +4,12 @@
 Group.
 
 #### WARNING
-The provider Alipay is deprecated. It is recommended to use [AsiaPay](asiapay.md) instead.
+The provider Alipay is deprecated. It is recommended to use [AsiaPay](applications/finance/payment_providers/asiapay.md) instead.
 
 ## Cấu hình
 
 #### SEE ALSO
-- [Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
+- [Enabling a payment provider](applications/finance/payment_providers.md#payment-providers-add-new)
 
 ### Credentials tab
 
@@ -32,4 +32,4 @@ If you are trying Alipay as a test, in the *sandbox*, change the **State** to *T
 recommend doing this on a test Odoo database, rather than on your main database.
 
 #### SEE ALSO
-- [Thanh toán online](../payment_providers.md)
+- [Thanh toán online](applications/finance/payment_providers.md)

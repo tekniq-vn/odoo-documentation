@@ -13,14 +13,14 @@ Find the list of supported devices here: [Supported devices](https://www.odoo.co
 To add a device connected by , plug the  cable into the  box, and the device appears in the Odoo
 database.
 
-![Measurement tool recognized on the IoT box.](measurement_tool/device-dropdown.png)
+![Measurement tool recognized on the IoT box.](../../../../.gitbook/assets/device-dropdown.png)
 
 ## Connect with bluetooth
 
 Activate the Bluetooth functionality on the device (see the device manual for further explanation),
 and the  box automatically connects to the device.
 
-![Bluetooth indicator on measurement tool.](measurement_tool/measurement-tool.png)
+![Bluetooth indicator on measurement tool.](../../../../.gitbook/assets/measurement-tool.png)
 
 ## Link a measurement tool to a quality control point in the manufacturing process
 
@@ -38,7 +38,7 @@ changes, if required.
 At this point, the measurement tool is linked to the chosen quality control point. The value, which
 usually needs to be changed manually, is automatically updated while the tool is being used.
 
-![Measurement tool input in the Odoo database.](measurement_tool/measurement-control-point.png)
+![Measurement tool input in the Odoo database.](../../../../.gitbook/assets/measurement-control-point.png)
 
 #### NOTE
 On a quality check detail form, the Type of check can also be specified to
@@ -46,8 +46,8 @@ Measure. Access a new quality check detail page, by navigating to
 Quality app ‣ Quality Control ‣ Quality Checks ‣ New.
 
 #### SEE ALSO
-- [Quality control points](../../../inventory_and_mrp/quality/quality_management/quality_control_points.md)
-- [Quality alerts](../../../inventory_and_mrp/quality/quality_management/quality_alerts.md)
+- [Quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md)
+- [Quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md)
 
 ## Link a measurement tool to a work center in the Manufacturing app
 
@@ -69,4 +69,4 @@ On the Work Order screen, a status graphic indicates whether the database is
 correctly connected to the measurement tool.
 
 #### SEE ALSO
-[Tích hợp với thiết bị IoT](../../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)
+[Tích hợp với thiết bị IoT](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)

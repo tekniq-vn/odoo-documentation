@@ -10,14 +10,14 @@ Accounting ‣ Configuration ‣ Settings.
 #### NOTE
 Odoo Accounting automatically installs the appropriate **Fiscal Localization Package** for your
 company, according to the country selected at the creation of the database. This way, the right
-accounts, reports, and taxes are ready-to-go. [Click here](../fiscal_localizations.md#fiscal-localizations-packages)
+accounts, reports, and taxes are ready-to-go. [Click here](applications/finance/fiscal_localizations.md#fiscal-localizations-packages)
 for more information about Fiscal Localization Packages.
 
 ## Accounting onboarding banner
 
 The step-by-step Accounting onboarding banner is composed of four steps:
 
-![Step-by-step onboarding banner in Odoo Accounting](get_started/accounting-onboarding-banner.png)
+![Step-by-step onboarding banner in Odoo Accounting](../../../.gitbook/assets/accounting-onboarding-banner.png)
 1. [Kỳ kế toán](#accounting-setup-periods)
 2. [Tài khoản ngân hàng](#accounting-setup-bank)
 3. [Thuế](#accounting-setup-taxes)
@@ -46,7 +46,7 @@ Connect your bank account to your database and have your bank statements synced 
 so, find your bank in the list, click Connect, and follow the instructions on-screen.
 
 #### NOTE
-[Click here](bank/bank_synchronization.md) for more information about this feature.
+[Click here](applications/finance/accounting/bank/bank_synchronization.md) for more information about this feature.
 
 If your Bank Institution can’t be synchronized automatically, or if you prefer not to sync it with
 your database, you can also configure your bank account manually by typing its name, clicking
@@ -66,18 +66,18 @@ Create your Bank Account, and filling out the form.
 #### NOTE
 - You can add as many bank accounts as needed with this tool by going to
   Accounting ‣ Configuration ‣ Add a Bank Account.
-- [Click here](bank.md) for more information about Bank Accounts.
+- [Click here](applications/finance/accounting/bank.md) for more information about Bank Accounts.
 
 <a id="accounting-setup-taxes"></a>
 
 ### Thuế
 
 This menu allows you to create new taxes, (de)activate, or modify existing taxes. Depending on the
-[localization package](../fiscal_localizations.md) installed on your database, taxes required for
+[localization package](applications/finance/fiscal_localizations.md) installed on your database, taxes required for
 your country are already configured.
 
 #### NOTE
-[Click here](taxes.md) for more information about taxes.
+[Click here](applications/finance/accounting/taxes.md) for more information about taxes.
 
 <a id="accounting-setup-chart"></a>
 
@@ -89,10 +89,10 @@ opening balances.
 Basic settings are displayed on this page to help you review your Chart of Accounts. To access all
 the settings of an account, click on the Setup button at the end of the line.
 
-![Setup of the Chart of Accounts and their opening balances in Odoo Accounting](get_started/setup_chart_of_accounts.png)
+![Setup of the Chart of Accounts and their opening balances in Odoo Accounting](../../../.gitbook/assets/setup_chart_of_accounts.png)
 
 #### NOTE
-[Click here](get_started/chart_of_accounts.md) for more information on how to configure your
+[Click here](applications/finance/accounting/get_started/chart_of_accounts.md) for more information on how to configure your
 Chart of Accounts.
 
 ## Invoicing onboarding banner
@@ -106,7 +106,7 @@ Accounting ‣ Customers ‣ Invoices.
 
 The Invoicing onboarding banner consists of four main steps:
 
-![Step-by-step onboarding banner in Odoo Invoicing](get_started/invoicing-onboarding-banner.png)
+![Step-by-step onboarding banner in Odoo Invoicing](../../../.gitbook/assets/invoicing-onboarding-banner.png)
 1. [Dữ liệu công ty](#invoicing-setup-company)
 2. [Bố cục chứng từ](#invoicing-setup-layout)
 3. [Tạo hoá đơn](#invoicing-setup-invoice)
@@ -127,7 +127,7 @@ Settings, scrolling down to the Companies section, and Update Info.
 
 ### Bố cục chứng từ
 
-Customize the [default invoice layout](../../studio/pdf_reports.md#studio-pdf-reports-default-layout).
+Customize the [default invoice layout](applications/studio/pdf_reports.md#studio-pdf-reports-default-layout).
 
 #### NOTE
 You can also change the invoice layout by going to Settings ‣ General
@@ -147,14 +147,14 @@ Tạo hóa đơn đầu tiên của bạn.
 Get started with Stripe and enable secure integrated credit and debit card payments within Odoo.
 
 #### SEE ALSO
-* [Bank and cash accounts](bank.md)
-* [Hệ thống tài khoản](get_started/chart_of_accounts.md)
-* [Đồng bộ hoá ngân hàng](bank/bank_synchronization.md)
-* [Fiscal localizations](../fiscal_localizations.md)
+* [Bank and cash accounts](applications/finance/accounting/bank.md)
+* [Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+* [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
+* [Fiscal localizations](applications/finance/fiscal_localizations.md)
 * [Odoo Tutorials: Accounting and Invoicing - Getting started [video]](https://www.odoo.com/slides/slide/getting-started-1692)
 
-* [Accounting cheat sheet](get_started/cheat_sheet.md)
-* [Hệ thống tài khoản](get_started/chart_of_accounts.md)
-* [Hệ thống đa tiền tệ](get_started/multi_currency.md)
-* [Average price on returned goods](get_started/avg_price_valuation.md)
-* [Tax units](get_started/tax_units.md)
+* [Accounting cheat sheet](applications/finance/accounting/get_started/cheat_sheet.md)
+* [Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+* [Hệ thống đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md)
+* [Average price on returned goods](applications/finance/accounting/get_started/avg_price_valuation.md)
+* [Tax units](applications/finance/accounting/get_started/tax_units.md)

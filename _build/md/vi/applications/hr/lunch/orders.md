@@ -11,7 +11,7 @@ information, and the current day's orders, along with their statuses.
 On the main Order Your Lunch dashboard, all the necessary information needed to place an
 order is visible. The default filter for the products is Available Today, which is
 present in the Search... bar. This filter shows only products that can be purchased that
-day, based on the [vendor's availability](vendors.md#lunch-availability).
+day, based on the [vendor's availability](applications/hr/lunch/vendors.md#lunch-availability).
 
 The left-side of the dashboard displays the various Categories of products available,
 along with the Vendors supplying the products. To the right of each line is a number,
@@ -32,7 +32,7 @@ The main section, beneath the user's information, displays all the products in a
 view. Each product card displays the name, cost, vendor, photo, and description of the product. If
 the product is configured as new, it also displays a New tag.
 
-![The *Lunch* app dashboard with all areas highlighted.](orders/dashboard.png)
+![The *Lunch* app dashboard with all areas highlighted.](../../../.gitbook/assets/dashboard1.png)
 
 #### NOTE
 Anywhere a vendor's name is listed in the *Lunch* app, such as on Kanban product cards, their
@@ -52,7 +52,7 @@ From the Order Your Lunch dashboard, click on a desired product to add to an ord
 the product appears in a Configure Your Order pop-up window.
 
 At the top of the pop-up window is the product image, name, and price. Beneath that, there is a
-potential Extras field, showcasing any [extra items or options](vendors.md#lunch-extras).
+potential Extras field, showcasing any [extra items or options](applications/hr/lunch/vendors.md#lunch-extras).
 Tick the checkbox next to any desired extras present in the Extras field to add them to
 the order.
 
@@ -67,11 +67,11 @@ is then sent to the vendor regarding the order, such as any special requests or 
 When all selections for the product have been made, click the Add To Cart button in the
 lower-left of the pop-up window. To cancel the order, click the Discard button.
 
-![The pop-up window for a personal pizza, with all the extras highlighted and selected.](orders/pizza.png)
+![The pop-up window for a personal pizza, with all the extras highlighted and selected.](../../../.gitbook/assets/pizza.png)
 
 #### Lỗi
 
-Depending on how the various [extras](vendors.md#lunch-configure-extras) are configured for a vendor, it
+Depending on how the various [extras](applications/hr/lunch/vendors.md#lunch-configure-extras) are configured for a vendor, it
 is possible to receive an error when attempting to add products to the cart.
 
 An error can occur when a configured product **requires** the user to select an option in the
@@ -106,7 +106,7 @@ for the currently selected quantity of the product.
 
 Phần bên phải của tóm tắt Đơn hàng của bạn hiển thị thông tin mua hàng. Tổng số tiền cho toàn bộ đơn hàng bữa trưa trong ngày được hiển thị. Trường Đã thanh toán cho biết số tiền đã thanh toán trong ngày so với số tiền Tổng. Trường Cần thanh toán hiển thị số tiền còn lại trong Tổng số tiền cần phải thanh toán để đặt đơn hàng hiện đang được cấu hình.
 
-![The Your Orders section of the dashboard, with the purchasing information highlighted.](orders/your-order.png)
+![The Your Orders section of the dashboard, with the purchasing information highlighted.](../../../.gitbook/assets/your-order.png)
 
 ### Submit an order
 
@@ -153,7 +153,7 @@ appears. Click Re-order to instantly reorder that same product, with the same ex
 applicable. The new order appears in the list, under the current date, and the product is paid for,
 with money deducted from the user's account.
 
-![The list view that appears when navigating to the My Orders dashboard.](orders/my-orders.png)
+![The list view that appears when navigating to the My Orders dashboard.](../../../.gitbook/assets/my-orders.png)
 
 ## Tài khoản của Tôi
 
@@ -171,4 +171,4 @@ Entries with a positive balance either represent funds added to the user's lunch
 canceled orders that were eventually refunded to the user. These appear in a `$XX.XX` format.
 
 ![The My Account dashboard with the entry for adding funds to the user's lunch account
-highlighted.](orders/my-account.png)
+highlighted.](../../../.gitbook/assets/my-account.png)

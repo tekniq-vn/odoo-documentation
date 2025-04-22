@@ -6,10 +6,10 @@ movement based on specific conditions.
 
 #### SEE ALSO
 - [Odoo Tutorials: Routes](https://www.youtube.com/watch?v=qkhDUezyZuc)
-- [Standard routes in Odoo](../daily_operations.md)
+- [Standard routes in Odoo](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.md)
 
 #### NOTE
-Routes are applicable on products, product categories, shipping methods, [packagings](../../product_management/configure/packaging.md#inventory-product-management-route-on-packaging), and on the sales order line.
+Routes are applicable on products, product categories, shipping methods, [packagings](applications/inventory_and_mrp/inventory/product_management/configure/packaging.md#inventory-product-management-route-on-packaging), and on the sales order line.
 
 ## About routes and terminology
 
@@ -18,15 +18,15 @@ picking and packing areas, and shipping docks. All products go through all these
 products move through the locations, each location triggers the products' specified route and
 rules.
 
-![View of a generic warehouse with stock and quality control area.](use_routes/stock-example.png)
+![View of a generic warehouse with stock and quality control area.](../../../../../.gitbook/assets/stock-example.png)
 
 Trong ví dụ này, xe tải của nhà cung cấp sẽ dỡ pallet chứa các sản phẩm đã đặt tại khu vực nhận hàng. Sau đó, nhân viên vận hành sẽ quét mã các sản phẩm tại khu vực này. Tùy theo tuyến và quy tắc áp dụng cho từng sản phẩm, một số sản phẩm sẽ được chuyển đến khu vực kiểm tra chất lượng (VD: các sản phẩm là thành phần dùng trong quy trình sản xuất), trong khi các sản phẩm khác sẽ được lưu trữ trực tiếp tại các vị trí tương ứng trong kho.
 
-![View of a generic push to rule when receiving products.](use_routes/push-to-rule-example.png)
+![View of a generic push to rule when receiving products.](../../../../../.gitbook/assets/push-to-rule-example.png)
 
 Dưới đây là một ví dụ về tuyến xử lý đơn hàng. Vào buổi sáng, các mặt hàng được lấy ra cho tất cả đơn hàng cần chuẩn bị trong ngày. Những mặt hàng này được lấy từ các kho lưu trữ và di chuyển đến khu vực xuất hàng, gần nơi đóng gói đơn hàng. Sau đó, các đơn hàng được đóng gói vào các thùng tương ứng, và băng chuyền đưa chúng đến điểm vận chuyển, sẵn sàng để giao cho khách hàng.
 
-![View of a generic pull from rule when preparing deliveries.](use_routes/pull-from-rule-example.png)
+![View of a generic pull from rule when preparing deliveries.](../../../../../.gitbook/assets/pull-from-rule-example.png)
 
 ### Push rules
 
@@ -37,22 +37,22 @@ specific receiving location.
 Push rules can only be triggered if there are no pull rules that have already generated the
 product transfers.
 
-In a [one-step receipt route](receipts_delivery_one_step.md), which uses one push rule, when a
+In a [one-step receipt route](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md), which uses one push rule, when a
 product arrives in the warehouse, a push rule can automatically transfer it to the *Storage
 Location*. Different push rules can be applied to different products, allowing for customized
 storage locations.
 
-![Rule for a Receive in one step route.](use_routes/push-rule.png)
+![Rule for a Receive in one step route.](../../../../../.gitbook/assets/push-rule.png)
 
 For more information about configuring rules, skip to the [Configure rules section](#inventory-shipping-receiving-configure-rules).
 
 ### Pull rules
 
-Pull rules trigger product moves on demand, such as a sales order or a [need to restock](../../warehouses_storage/replenishment/reordering_rules.md).
+Pull rules trigger product moves on demand, such as a sales order or a [need to restock](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md).
 
-Các quy tắc kéo hoạt động ngược từ vị trí có nhu cầu. Ví dụ: trong tuyến [giao hàng hai bước](receipts_delivery_two_steps.md#inventory-shipping-receiving-two-step-delivery), khi hàng hóa di chuyển từ *Kho* đến *Khu vực xuất* trước khi giao tới *Vị trí khách hàng*, quy tắc kéo trước tiên sẽ tạo lệnh chuyển hàng từ *Khu vực xuất* tới khách hàng. Nếu sản phẩm không có tại *Khu vực xuất*, một quy tắc kéo khác sẽ tạo lệnh chuyển hàng từ *Kho* đến *Khu vực xuất*. Nhân viên kho sau đó xử lý các lệnh này theo thứ tự ngược lại: xuất hàng trước, rồi mới vận chuyển.
+Các quy tắc kéo hoạt động ngược từ vị trí có nhu cầu. Ví dụ: trong tuyến [giao hàng hai bước](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md#inventory-shipping-receiving-two-step-delivery), khi hàng hóa di chuyển từ *Kho* đến *Khu vực xuất* trước khi giao tới *Vị trí khách hàng*, quy tắc kéo trước tiên sẽ tạo lệnh chuyển hàng từ *Khu vực xuất* tới khách hàng. Nếu sản phẩm không có tại *Khu vực xuất*, một quy tắc kéo khác sẽ tạo lệnh chuyển hàng từ *Kho* đến *Khu vực xuất*. Nhân viên kho sau đó xử lý các lệnh này theo thứ tự ngược lại: xuất hàng trước, rồi mới vận chuyển.
 
-![Example pull rule.](use_routes/pull-rule.png)
+![Example pull rule.](../../../../../.gitbook/assets/pull-rule.png)
 
 For more information about configuring rules, skip to the [Configure rules section](#inventory-shipping-receiving-configure-rules).
 
@@ -73,7 +73,7 @@ To configure a route for a product, first, open the Inventory application and go
 Configuration ‣ Settings. Then, in the Warehouse section, enable the
 Multi-Step Routes feature and click Save.
 
-![Activate the Multi-Step Routes feature in Odoo Inventory.](use_routes/multi-steps-routes-feature.png)
+![Activate the Multi-Step Routes feature in Odoo Inventory.](../../../../../.gitbook/assets/multi-steps-routes-feature.png)
 
 #### NOTE
 The Storage Locations feature is automatically activated with the
@@ -89,27 +89,27 @@ Warehouses. Then, open a warehouse form. In the Warehouse Configuration tab, the
 can view the warehouse's pre-configured routes for Incoming Shipments and
 Outgoing Shipments.
 
-![A pre-configured warehouse in Odoo Inventory.](use_routes/example-preconfigured-warehouse.png)
+![A pre-configured warehouse in Odoo Inventory.](../../../../../.gitbook/assets/example-preconfigured-warehouse.png)
 
 Some more advanced routes, such as pick-pack-ship, are also available. The user can select the
 route that best fits their business needs. Once the Incoming Shipments and
 Outgoing Shipments routes are set, head to Inventory ‣ Configuration
 ‣ Routes to see the specific routes that Odoo generated.
 
-![View of all the preconfigured routes Odoo offers.](use_routes/preconfigured-routes.png)
+![View of all the preconfigured routes Odoo offers.](../../../../../.gitbook/assets/preconfigured-routes.png)
 
 Trên trang Tuyến cung ứng, nhấp vào một tuyến để mở biểu mẫu tuyến cung ứng. Trong biểu mẫu này, người dùng có thể xem các địa điểm mà tuyến Áp dụng cho. Người dùng cũng có thể đặt tuyến chỉ áp dụng cho một Công ty cụ thể. Tính năng này hữu ích cho môi trường đa công ty; ví dụ: người dùng có thể có một công ty và kho hàng tại Quốc gia A và một công ty và kho hàng thứ hai tại Quốc gia B.
 
 #### SEE ALSO
-[Applicable on packagings](../../product_management/configure/packaging.md#inventory-product-management-packaging-route)
+[Applicable on packagings](applications/inventory_and_mrp/inventory/product_management/configure/packaging.md#inventory-product-management-packaging-route)
 
-![View of a route example applicable on product categories and warehouses.](use_routes/routes-example.png)
+![View of a route example applicable on product categories and warehouses.](../../../../../.gitbook/assets/routes-example.png)
 
 At the bottom of the route form, the user can view the specific Rules for the route.
 Each Rule has an Action, a Source Location, and a
 Destination Location.
 
-![An example of rules with push & pull actions in Odoo Inventory.](use_routes/rules-example.png)
+![An example of rules with push & pull actions in Odoo Inventory.](../../../../../.gitbook/assets/rules-example.png)
 
 ### Custom Routes
 
@@ -117,7 +117,7 @@ To create a custom route, go to Inventory ‣ Configuration ‣ Routes, and clic
 on Create. Next, choose the places where this route can be selected. A route can be
 applicable on a combination of places.
 
-![View of a pick-pack-ship route.](use_routes/advanced-custom-route.png)
+![View of a pick-pack-ship route.](../../../../../.gitbook/assets/advanced-custom-route.png)
 
 Each place has a different behavior, so it is important to tick only the useful ones and adapt each
 route accordingly. Then, configure the Rules of the route.
@@ -131,13 +131,13 @@ When applying the route on a product category, all the rules configured in the r
 **every** product in the category. This can be helpful if the business uses the dropshipping
 process for all the products from the same category.
 
-![View of a route applied to the "all" product category.](use_routes/routes-logistic-section.png)
+![View of a route applied to the "all" product category.](../../../../../.gitbook/assets/routes-logistic-section.png)
 
 The same behavior applies to the warehouses. If the route can apply to Warehouses, all
 the transfers occurring inside the chosen warehouse that meet the conditions of the route's rules
 will then follow that route.
 
-![View of the warehouse drop-down menu when selecting applicable on warehouse.](use_routes/applicable-on-warehouse.png)
+![View of the warehouse drop-down menu when selecting applicable on warehouse.](../../../../../.gitbook/assets/applicable-on-warehouse.png)
 
 If the route is applicable on Sales Order Lines, it is more or less the opposite. The
 route must be manually chosen when creating a quotation. This is useful if some products go through
@@ -146,7 +146,7 @@ different routes.
 Remember to toggle the visibility of the Route column on the quotation/sales order.
 Then, the route can be chosen on each line of the quotation/sales order.
 
-![View of the menu allowing to add new lines to sales orders.](use_routes/add-routes-to-sales-lines.png)
+![View of the menu allowing to add new lines to sales orders.](../../../../../.gitbook/assets/add-routes-to-sales-lines.png)
 
 Finally, there are routes that can be applied to products. Those work more or less like the product
 categories: once selected, the route must be manually set on the product form.
@@ -155,7 +155,7 @@ To set a route on a product, go to Inventory ‣ Products ‣ Products and selec
 the desired product. Then, go to the Inventory tab and under the Operations
 section, select the Routes.
 
-![View of a product form, where the route must be selected.](use_routes/on-product-route.png)
+![View of a product form, where the route must be selected.](../../../../../.gitbook/assets/on-product-route.png)
 
 #### IMPORTANT
 Rules must be set on the route in order for the route to work.
@@ -168,7 +168,7 @@ The rules are defined on the route form. First, go to Inventory ‣ Configuratio
 ‣ Routes and open the desired route form. Next, click Edit and in the
 Rules section, click on Add a line.
 
-![View of the rules menu, where it is possible to add new rules.](use_routes/add-new-rules.png)
+![View of the rules menu, where it is possible to add new rules.](../../../../../.gitbook/assets/add-new-rules.png)
 
 The available rules trigger various actions. If Odoo offers *Push* and *Pull* rules, others are
 also available. Each rule has an Action:
@@ -187,7 +187,7 @@ also available. Each rule has an Action:
   is created to fulfill the need.
 
 ![Overview of a "Pull From" rule that creates a transfer between the stock and the packing
-zone.](use_routes/pull-from-rule-stock-to-packing.png)
+zone.](../../../../../.gitbook/assets/pull-from-rule-stock-to-packing.png)
 
 The Operation Type must also be defined on the rule. This defines which kind of picking
 is created from the rule.
@@ -222,33 +222,33 @@ Pull From rules. The Supply Methods for each rule are the following:
   Locations/Customers, *delivery orders* are created from WH/Output to fulfill the
   need.
 
-![Overview of all the transfers created by the pick - pack - ship route.](use_routes/transfers-overview.png)
+![Overview of all the transfers created by the pick - pack - ship route.](../../../../../.gitbook/assets/transfers-overview.png)
 
 This means that, when a customer orders products that have a *pick - pack - ship* route set on it,
 a delivery order is created to fulfill the order.
 
-![View of the operations created by a pull from transfer.](use_routes/operations-on-transfers.png)
+![View of the operations created by a pull from transfer.](../../../../../.gitbook/assets/operations-on-transfers.png)
 
 #### NOTE
 If the source document for multiple tranfers is the same sales order, the status is not the same.
 The status will be Waiting Another Operation if the previous transfer in the list is
 not done yet.
 
-![View of the transfers' various statuses at the beginning of the process.](use_routes/waiting-status.png)
+![View of the transfers' various statuses at the beginning of the process.](../../../../../.gitbook/assets/waiting-status.png)
 
 To prepare the delivery order, packed products are needed at the output area, so an internal
 transfer is requested from the packing zone.
 
-![View of the detailed operations for a transfer between the packing and output zones.](use_routes/detailed-operations-2.png)
+![View of the detailed operations for a transfer between the packing and output zones.](../../../../../.gitbook/assets/detailed-operations-2.png)
 
 Obviously, the packing zone needs products ready to be packed. So, an internal transfer is
 requested to the stock and employees can gather the required products from the warehouse.
 
-![View of the detailed operations for a transfer between the stock and packing zones.](use_routes/detailed-operations-transfer.png)
+![View of the detailed operations for a transfer between the stock and packing zones.](../../../../../.gitbook/assets/detailed-operations-transfer.png)
 
 Như đã giải thích trong phần giới thiệu của tài liệu, bước cuối cùng trong quy trình (đối với tuyến này, lệnh giao hàng) là bước đầu tiên được kích hoạt, sau đó sẽ kích hoạt các quy tắc khác cho đến khi đạt đến bước đầu tiên trong quy trình (điều chuyển hàng nội bộ từ kho hàng đến khu vực đóng gói). Khi đó, tất cả đã sẵn sàng để xử lý, giúp khách hàng nhận được các mặt hàng đã đặt.
 
 In this example, the product is delivered to the customer when all the rules have been triggered and
 the transfers are done.
 
-![View of the transfers' statuses when the route is completed.](use_routes/transfers-status.png)
+![View of the transfers' statuses when the route is completed.](../../../../../.gitbook/assets/transfers-status.png)

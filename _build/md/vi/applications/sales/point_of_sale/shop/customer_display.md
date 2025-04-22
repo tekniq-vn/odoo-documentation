@@ -3,7 +3,7 @@
 The **customer display** feature provides customers with real-time checkout updates on a secondary
 display.
 
-![màn hình khách hàng](customer_display/display.png)
+![màn hình khách hàng](../../../../.gitbook/assets/display.png)
 
 ## Cấu hình
 
@@ -12,13 +12,13 @@ Depending on your POS setup, the feature can be displayed [locally on a secondar
 To activate the feature, go to the POS settings, scroll down to the Connected Devices
 section, and tick the Customer Display checkbox.
 
-![customer display setting checkbox](customer_display/feature-setting.png)
+![customer display setting checkbox](../../../../.gitbook/assets/feature-setting.png)
 
 <a id="customer-display-local"></a>
 
 ### Local
 
-Connect a second screen to your POS and [open a POS session](../../point_of_sale.md#pos-session-start). Then, click
+Connect a second screen to your POS and [open a POS session](applications/sales/point_of_sale.md#pos-session-start). Then, click
 Customer Screen to open a new window to drag and drop onto the second screen.
 
 <a id="customer-display-iot"></a>
@@ -30,10 +30,10 @@ Point of Sale ‣ Configuration ‣ Settings, scroll down to the
 Connected Devices section, tick the IoT Box checkbox, and select the second
 monitor in the Customer Display field.
 
-![iot setting to connect a customer display](customer_display/iot-setting.png)
+![iot setting to connect a customer display](../../../../.gitbook/assets/iot-setting.png)
 
 #### NOTE
 Both devices need to be connected to the same local network.
 
 #### SEE ALSO
-[IoT system connection](../configuration/pos_iot.md)
+[IoT system connection](applications/sales/point_of_sale/configuration/pos_iot.md)

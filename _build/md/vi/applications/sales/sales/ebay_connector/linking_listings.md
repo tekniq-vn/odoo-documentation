@@ -11,20 +11,20 @@ The process will be as follows:
 #### SEE ALSO
 To learn more about the eBay connector visit these pages as well:
 
-- [eBay connector setup](setup.md)
-- [How to list a product?](manage.md)
-- [Troubleshooting eBay connector](troubleshooting.md)
+- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)
+- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
+- [Troubleshooting eBay connector](applications/sales/sales/ebay_connector/troubleshooting.md)
 
 ## Turn off eBay scheduled actions
 
 To start linking existing listings in eBay, first turn off the eBay notifications in the scheduled
 actions in Odoo. The reason for this is so that no orders or eBay data syncs during this process.
 The Scheduled Actions can be accessed by first activating
-[developer mode](../../../general/developer_mode.md#developer-mode). After doing so, go to Settings ‣ Technical
+[developer mode](applications/general/developer_mode.md#developer-mode). After doing so, go to Settings ‣ Technical
 ‣ Automation ‣ Scheduled Actions.
 
 #### WARNING
-[Chế độ lập trình viên (chế độ gỡ lỗi)](../../../general/developer_mode.md) must be activated to ensure the technical menu appears for
+[Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md) must be activated to ensure the technical menu appears for
 the user.
 
 Disabling scheduled actions enables users to sync and validate eBay data before receiving orders.
@@ -80,7 +80,7 @@ from eBay in the pop up (the listing ID is in the eBay product URL).
 
 The next step is to turn on the eBay notifications in the scheduled actions in Odoo so that orders
 and data are exchanged. The Scheduled Actions can be accessed by first activating
-[developer mode](../../../general/developer_mode.md#developer-mode) and go to Settings ‣ Technical ‣
+[developer mode](applications/general/developer_mode.md#developer-mode) and go to Settings ‣ Technical ‣
 Automation ‣ Scheduled Actions.
 
 Turning on the following scheduled actions allows users to sync and validate eBay data
@@ -101,6 +101,6 @@ a consumable product.product in its place. These consumables should be altered o
 the listing as they come in.
 
 #### SEE ALSO
-- [How to list a product?](manage.md)
-- [Troubleshooting eBay connector](troubleshooting.md)
-- [eBay connector setup](setup.md)
+- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
+- [Troubleshooting eBay connector](applications/sales/sales/ebay_connector/troubleshooting.md)
+- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)

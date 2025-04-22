@@ -12,8 +12,8 @@ To add more recurrence periods to the eCommerce product page, create a *product 
 recurrence period.
 
 #### SEE ALSO
-- [Configure subscription products](../subscriptions.md)
-- [Product variants](../sales/products_prices/products/variants.md)
+- [Configure subscription products](applications/sales/subscriptions.md)
+- [Product variants](applications/sales/sales/products_prices/products/variants.md)
 
 ## Create recurrence periods as product variants
 
@@ -35,15 +35,15 @@ Create from the mini drop-down menu that appears.
 These value names appear as selectable options on the product page of the eCommerce shop.
 
 ![Recurrence periods configured as product variants in the "Attributes & Variants" tab of
-the product form.](ecommerce/recurrence-period-attributes-variants.png)
+the product form.](../../../.gitbook/assets/recurrence-period-attributes-variants.png)
 
 With those configurations in place and saved, a Product Variants column appears in the
 Recurring Prices tab. Proceed to assign the different Product Variants to
 their corresponding recurrence Period and Price.
 
-![Product variants on the "Time-based pricing" tab of the product form.](ecommerce/product-variants-time-based-pricing.png)
+![Product variants on the "Time-based pricing" tab of the product form.](../../../.gitbook/assets/product-variants-time-based-pricing.png)
 
 After following those aforementioned steps, the product variants are available for selection on the
 eCommerce product page.
 
-![Recurrence periods configured as product variants on the eCommerce product page.](ecommerce/recurrence-period-ecommerce.png)
+![Recurrence periods configured as product variants on the eCommerce product page.](../../../.gitbook/assets/recurrence-period-ecommerce.png)

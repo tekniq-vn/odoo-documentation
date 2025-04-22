@@ -23,7 +23,7 @@ steps aren’t necessary.
   processing is needed before products are stored or shipped.
 
 #### SEE ALSO
-[One-step receipt and delivery](daily_operations/receipts_delivery_one_step.md)
+[One-step receipt and delivery](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md)
 
 ## Quy trình hai bước
 
@@ -37,12 +37,12 @@ reduce order fulfillment errors.
   - Until transferred, received products are not automatically reserved for manufacturing, shipping,
     or other operations.
 - **Shipping**: Products move to an *output* before shipping to allow for [sorting or
-  consolidation](picking_methods.md).
+  consolidation](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods.md).
 - **Best for**: Large warehouses, high stock levels, bulky items, and workflows that separate
   receiving from storage to improve organization and efficiency.
 
 #### SEE ALSO
-[Two-step receipt and delivery](daily_operations/receipts_delivery_two_steps.md)
+[Two-step receipt and delivery](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md)
 
 ## Quy trình ba bước
 
@@ -53,8 +53,8 @@ enforcing stricter processes and improving oversight.
 While this setup enhances process control, separating picking and packing requires validation at
 each step. If the same person handles both, it may cause redundancy and slow operations.
 
-Quality checks and packing do not require a three-step flow. Enable [quality control points](../../quality/quality_management/quality_control_points.md) separately or activate the
-[Packages feature](../product_management/configure/package.md#inventory-warehouses-storage-enable-package) in Odoo to incorporate
+Quality checks and packing do not require a three-step flow. Enable [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md) separately or activate the
+[Packages feature](applications/inventory_and_mrp/inventory/product_management/configure/package.md#inventory-warehouses-storage-enable-package) in Odoo to incorporate
 these processes without adding extra transfer steps.
 
 - **Receiving**: Products follow a structured process: *input area* → *quality control* → *stock*.
@@ -65,8 +65,8 @@ these processes without adding extra transfer steps.
   when multiple teams manage different steps before products are stocked or shipped.
 
 #### SEE ALSO
-- [Three-step receipt](daily_operations/receipts_three_steps.md)
-- [Three-step delivery](daily_operations/delivery_three_steps.md)
+- [Three-step receipt](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.md)
+- [Three-step delivery](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md)
 
 ## Add-ons
 
@@ -88,14 +88,14 @@ and confirms that items reach customers efficiently.
 Odoo's flexible framework enables businesses to tailor workflows to match specific operational
 needs.
 
-* [Routes and push/pull rules](daily_operations/use_routes.md)
-* [One-step receipt and delivery](daily_operations/receipts_delivery_one_step.md)
-* [Two-step receipt and delivery](daily_operations/receipts_delivery_two_steps.md)
-* [Three-step receipt](daily_operations/receipts_three_steps.md)
-* [Three-step delivery](daily_operations/delivery_three_steps.md)
-* [Quy tắc lưu kho](daily_operations/putaway.md)
-* [Storage categories](daily_operations/storage_category.md)
-* [Organize a cross-dock in a warehouse](daily_operations/cross_dock.md)
-* [Sell stock from multiple warehouses using virtual locations](daily_operations/stock_warehouses.md)
-* [Consignment: buy and sell stock without owning it](daily_operations/owned_stock.md)
-* [Dropship](daily_operations/dropshipping.md)
+* [Routes and push/pull rules](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md)
+* [One-step receipt and delivery](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md)
+* [Two-step receipt and delivery](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md)
+* [Three-step receipt](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.md)
+* [Three-step delivery](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md)
+* [Quy tắc lưu kho](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.md)
+* [Storage categories](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.md)
+* [Organize a cross-dock in a warehouse](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/cross_dock.md)
+* [Sell stock from multiple warehouses using virtual locations](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses.md)
+* [Consignment: buy and sell stock without owning it](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock.md)
+* [Dropship](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/dropshipping.md)

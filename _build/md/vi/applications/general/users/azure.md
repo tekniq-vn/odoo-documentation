@@ -13,8 +13,8 @@ user, the database will no longer be able to be duplicated, renamed, or otherwis
 the Odoo.com portal.
 
 #### SEE ALSO
-- [Outlook Calendar synchronization](../../productivity/calendar/outlook.md)
-- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](../email_communication/azure_oauth.md)
+- [Outlook Calendar synchronization](applications/productivity/calendar/outlook.md)
+- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](applications/general/email_communication/azure_oauth.md)
 
 ## Cấu hình
 
@@ -22,7 +22,7 @@ Integrating the Microsoft sign-in function requires configuration on Microsoft a
 
 ### Tham số hệ thống Odoo
 
-First activate the [developer mode](../developer_mode.md#developer-mode), and then go to Settings
+First activate the [developer mode](applications/general/developer_mode.md#developer-mode), and then go to Settings
 ‣ Technical ‣ System Parameters.
 
 Click Create and on the new/blank form that appears, add the following system parameter
@@ -67,7 +67,7 @@ left menu after being redirected to the application's settings from the previous
 
 Tiếp theo, loại *token* cần thiết cho xác thực OAuth sẽ được chọn. Đây không phải là token tiền tệ mà là token xác thực được truyền giữa Microsoft và Odoo. Do đó, không mất phí cho các token này; chúng chỉ được sử dụng cho mục đích xác thực giữa hai . Chọn các token sẽ được cấp bởi endpoint ủy quyền bằng cách cuộn xuống màn hình và đánh dấu vào các ô có nhãn: Token truy cập (được sử dụng cho các chu trình ngầm) và Token ID (được sử dụng cho các chu trình ngầm và hybrid).
 
-![Authentication settings and endpoint tokens.](azure/authentication-tokens.png)
+![Authentication settings and endpoint tokens.](../../../.gitbook/assets/authentication-tokens.png)
 
 Click Save to ensure these settings are saved.
 
@@ -79,7 +79,7 @@ After finishing this step, click on Endpoints on the top menu and click the *cop
 next to OAuth 2.0 authorization endpoint (v2) field. Paste this value in the clipboard /
 notepad.
 
-![Application ID and OAuth 2.0 authorization endpoint (v2) credentials.](azure/overview-azure-app.png)
+![Application ID and OAuth 2.0 authorization endpoint (v2) credentials.](../../../.gitbook/assets/overview-azure-app.png)
 
 ### Thiết lập Odoo
 
@@ -107,7 +107,7 @@ Check the box next to the Allowed field to enable the OAuth provider. Finally, a
 `Microsoft Azure` to the Login button label field. This text will appear next to the
 Windows logo on the login page.
 
-![Odoo provider setup in the Settings application.](azure/odoo-provider-settings.png)
+![Odoo provider setup in the Settings application.](../../../.gitbook/assets/odoo-provider-settings.png)
 
 Save the changes to complete the OAuth authentication setup in Odoo.
 
@@ -118,7 +118,7 @@ password reset page. This is the only way that Odoo is able to link the Microsof
 allow the user to log in.
 
 #### NOTE
-Existing users must [reset their password](../users.md#users-reset-password) to access the
+Existing users must [reset their password](applications/general/users.md#users-reset-password) to access the
 Odoo password reset page. New Odoo users must click the new user invitation link
 that was sent via email, then click on Microsoft Azure. Users should not set a new
 password.
@@ -128,16 +128,16 @@ Odoo password reset page (using the new user invitation link). A password reset
 page should appear. Then, click on the option labeled Microsoft Azure. The page will
 redirect to the Microsoft login page.
 
-![Microsoft Outlook login page.](azure/odoo-login.png)
+![Microsoft Outlook login page.](../../../.gitbook/assets/odoo-login.png)
 
 Enter the Microsoft Email Address and click Next. Follow the process to sign
 in to the account. Should  be turned on, then an extra step
 may be required.
 
-![Enter Microsoft login credentials.](azure/login-next.png)
+![Enter Microsoft login credentials.](../../../.gitbook/assets/login-next.png)
 
 Finally, after logging in to the account, the page will redirect to a permissions page where the
 user will be prompted to Accept the conditions that the Odoo application will access
 their Microsoft information.
 
-![Accept Microsoft conditions for permission access to your account information.](azure/accept-access.png)
+![Accept Microsoft conditions for permission access to your account information.](../../../.gitbook/assets/accept-access.png)

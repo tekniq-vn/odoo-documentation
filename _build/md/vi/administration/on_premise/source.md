@@ -4,7 +4,7 @@
 
 Việc sử dụng nguồn Odoo có thể thuận tiện hơn cho các lập trình viên phân hệ vì nó dễ truy cập hơn so với việc sử dụng trình cài đặt trọn gói.
 
-Việc khởi động và dừng Odoo trở nên linh hoạt và rõ ràng hơn so với các dịch vụ được thiết lập bởi trình cài đặt trọn gói. Ngoài ra, nó cho phép ghi đè cài đặt bằng cách sử dụng [tham số dòng lệnh](../../developer/reference/cli.md#reference-cmdline) mà không cần chỉnh sửa tệp cấu hình.
+Việc khởi động và dừng Odoo trở nên linh hoạt và rõ ràng hơn so với các dịch vụ được thiết lập bởi trình cài đặt trọn gói. Ngoài ra, nó cho phép ghi đè cài đặt bằng cách sử dụng [tham số dòng lệnh](developer/reference/cli.md#reference-cmdline) mà không cần chỉnh sửa tệp cấu hình.
 
 Cuối cùng là nó nâng cao khả năng kiểm soát đối với thiết lập hệ thống và cho phép dễ dàng duy trì (và chạy) nhiều phiên bản Odoo song song.
 
@@ -32,7 +32,7 @@ Phiên bản Enterprise:
 #### NOTE
 Bạn cần phải cài đặt [Git](https://git-scm.com/) và nên có kiến ​​thức cơ bản về các lệnh Git để có thể tiếp tục.
 
-Để sao chép kho lưu trữ Git, hãy chọn một trong hai cách sao chép bằng HTTPS hoặc SSH. Trong hầu hết trường hợp, tùy chọn tốt nhất là HTTPS. Tuy nhiên, hãy chọn SSH nếu bạn muốn đóng góp vào mã nguồn Odoo hoặc khi làm theo [Hướng dẫn bắt ​​đầu dành cho lập trình viên](../../developer/tutorials/server_framework_101.md).
+Để sao chép kho lưu trữ Git, hãy chọn một trong hai cách sao chép bằng HTTPS hoặc SSH. Trong hầu hết trường hợp, tùy chọn tốt nhất là HTTPS. Tuy nhiên, hãy chọn SSH nếu bạn muốn đóng góp vào mã nguồn Odoo hoặc khi làm theo [Hướng dẫn bắt ​​đầu dành cho lập trình viên](developer/tutorials/server_framework_101.md).
 
 Linux
 
@@ -320,7 +320,7 @@ Mac OS
 
 Sau khi tất cả phụ thuộc được thiết lập, bạn có thể khởi chạy Odoo bằng cách chạy `odoo-bin`, giao diện dòng lệnh của máy chủ. Giao diện này nằm ở gốc của thư mục Odoo Community.
 
-Để cấu hình máy chủ, hãy chỉ định [đối số dòng lệnh](../../developer/reference/cli.md#reference-cmdline-server) hoặc [tệp cấu hình](../../developer/reference/cli.md#reference-cmdline-config).
+Để cấu hình máy chủ, hãy chỉ định [đối số dòng lệnh](developer/reference/cli.md#reference-cmdline-server) hoặc [tệp cấu hình](developer/reference/cli.md#reference-cmdline-config).
 
 Cấu hình cần thiết phổ biến là:
 
@@ -359,4 +359,4 @@ Trong đó `CommunityPath` là đường dẫn cài đặt Odoo Community và `m
 Sau khi máy chủ khởi động (nhật ký INFO `odoo.modules.loading: Modules loaded.` được in), hãy mở [http://localhost:8069](http://localhost:8069) trong trình duyệt web và đăng nhập vào cơ sở dữ liệu Odoo bằng tài khoản quản trị viên cơ sở: sử dụng `admin` làm email và `admin` làm mật khẩu.
 
 #### SEE ALSO
-[Danh sách các đối số CLI cho odoo-bin](../../developer/reference/cli.md)
+[Danh sách các đối số CLI cho odoo-bin](developer/reference/cli.md)

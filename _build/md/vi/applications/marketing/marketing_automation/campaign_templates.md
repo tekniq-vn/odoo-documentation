@@ -1,3 +1,3 @@
 # Campaign templates
 
-* [Double Opt-in](campaign_templates/double_optin.md)
+* [Double Opt-in](applications/marketing/marketing_automation/campaign_templates/double_optin.md)

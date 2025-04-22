@@ -10,7 +10,7 @@ confirmed, it officially turns into a *sales order*, which can then be invoiced 
 To access these setting options, navigate to Sales app ‣ Configuration ‣
 Settings, and scroll to the Quotations & Orders section.
 
-![The Quotations and Orders section on the Odoo Sales app Settings page.](create_quotations/quotations-orders-section.png)
+![The Quotations and Orders section on the Odoo Sales app Settings page.](../../../../.gitbook/assets/quotations-orders-section.png)
 - Quotation Templates: Enable this option to create quotation templates featuring
   standard product offers, which are then selectable on quotation forms. When this checkbox is
   ticked, an additional field, Default Template, appears, along with a link to the
@@ -42,7 +42,7 @@ By default, the Quotations dashboard displays all quotations in the database rel
 the current user, as indicated by the default My Quotations filter present in the search
 bar.
 
-![The Quotations dashboard present in the Odoo Sales application.](create_quotations/quotations-dashboard.png)
+![The Quotations dashboard present in the Odoo Sales application.](../../../../.gitbook/assets/quotations-dashboard.png)
 
 #### NOTE
 To view *all* quotations in the database, remove the My Quotations filter from the
@@ -69,7 +69,7 @@ or Kanban view.
 Clicking the New button reveals a blank quotation form, with various fields and tabs to
 configure.
 
-![A typical quotation form in the Odoo Sales application.](create_quotations/quotation-form.png)
+![A typical quotation form in the Odoo Sales application.](../../../../.gitbook/assets/quotation-form.png)
 
 Begin by entering the customer's name in the Customer field at the top of the form. This
 is a **required** field.
@@ -120,7 +120,7 @@ Or, click Catalog to reveal a separate page, showcasing every item (and every po
 product variant) in an organized catalog display, with items organizable by Product
 Category and Attributes.
 
-![A product catalog accessible via a quotation in the Odoo Sales application.](create_quotations/product-catalog.png)
+![A product catalog accessible via a quotation in the Odoo Sales application.](../../../../.gitbook/assets/product-catalog1.png)
 
 From here, simply locate the desired items, click the <i class="fa fa-shopping-cart"></i> Add
 button on the product card, and adjust the quantity, if needed. When complete, click the
@@ -140,9 +140,9 @@ Coupon Code, Promotions, Discount, and/or Add
 shipping.
 
 #### SEE ALSO
-- [Use eWallets and gift cards](../products_prices/ewallets_giftcards.md)
-- [Discount and loyalty programs](../products_prices/loyalty_discount.md)
-- [Pricelists, discounts, and formulas](../products_prices/prices/pricing.md)
+- [Use eWallets and gift cards](applications/sales/sales/products_prices/ewallets_giftcards.md)
+- [Discount and loyalty programs](applications/sales/sales/products_prices/loyalty_discount.md)
+- [Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)
 
 ### Optional Products tab
 
@@ -153,7 +153,7 @@ For example, if the customer wants to buy a car, an optional product that could 
 *Trailer Hitch*.
 
 #### SEE ALSO
-[Sản phẩm gốc](optional_products.md)
+[Sản phẩm gốc](applications/sales/sales/send_quotations/optional_products.md)
 
 ### Other Info tab
 
@@ -169,7 +169,7 @@ Some fields **only** appear if specific settings and options have been configure
 In the Sales section of the Other Info tab, there are sales specific fields
 that can be configured.
 
-![The Sales section of the Other Info tab of a quotation form in Odoo Sales.](create_quotations/other-info-sales.png)
+![The Sales section of the Other Info tab of a quotation form in Odoo Sales.](../../../../.gitbook/assets/other-info-sales.png)
 - Salesperson: Assign a salesperson from the drop-down menu to be associated with this
   quotation. The user who originally created the quotation is selected in this field, by default.
 - Sales Team: Assign a specific sales team to this quotation. If the selected
@@ -192,7 +192,7 @@ that can be configured.
 In the Delivery section of the Other Info tab, there are delivery-specific
 fields that can be configured.
 
-![The Delivery section of the Other Info tab of a quotation form in Odoo Sales.](create_quotations/other-info-delivery.png)
+![The Delivery section of the Other Info tab of a quotation form in Odoo Sales.](../../../../.gitbook/assets/other-info-delivery.png)
 - Shipping Weight: Displays the weight of the items being shipped. This field is not
   modifiable. Product weight is configured on individual product forms.
 - Incoterm: Select an Incoterm (International Commerical Term) to use as predefined
@@ -212,7 +212,7 @@ fields that can be configured.
 In the Invoicing section of the Other Info tab, there are invoicing specific
 fields that can be configured.
 
-![The Invoicing section of the Other Info tab of a quotation form in Odoo Sales.](create_quotations/other-info-invoicing.png)
+![The Invoicing section of the Other Info tab of a quotation form in Odoo Sales.](../../../../.gitbook/assets/other-info-invoicing.png)
 - Vị trí tài chính: Chọn một vị trí tài chính để điều chỉnh thuế và tài khoản cho khách hàng cụ thể hoặc đơn bán hàng/hóa đơn. Giá trị mặc định được lấy từ thông tin khách hàng. Nếu chọn giá trị trong trường này, một liên kết <i class="fa fa-refresh"></i> Cập nhật thuế có thể nhấp sẽ xuất hiện. Khi nhấp, thuế cho khách hàng và báo giá cụ thể này sẽ được cập nhật. Một cửa sổ xác nhận cũng sẽ hiển thị.
 - Analytic Account: Select an analytic account to apply to this customer/quotation.
 
@@ -221,7 +221,7 @@ fields that can be configured.
 In the Tracking section of the Other Info tab, there are tracking specific
 fields that can be configured.
 
-![The Tracking section of the Other Info tab of a quotation form in Odoo Sales.](create_quotations/other-info-tracking.png)
+![The Tracking section of the Other Info tab of a quotation form in Odoo Sales.](../../../../.gitbook/assets/other-info-tracking.png)
 - Source Document: Enter the reference of the document that generated the
   quotation/sales order, if applicable.
 - Opportunity: Select the specific opportunity (from the **CRM** app) related to this
@@ -233,7 +233,7 @@ fields that can be configured.
   *Facebook*), if applicable.
 
 #### SEE ALSO
-[Trình theo dõi liên kết](../../../websites/website/reporting/link_tracker.md)
+[Trình theo dõi liên kết](applications/websites/website/reporting/link_tracker.md)
 
 ### Tab Ghi chú
 
@@ -273,12 +273,12 @@ At this point, the quotation has been confirmed, turned into a sales order, and 
 invoiced and paid for.
 
 For more information about invoicing, refer to the [Invoice based on delivered or ordered
-quantities](../invoicing/invoicing_policy.md)
+quantities](applications/sales/sales/invoicing/invoicing_policy.md)
 
 #### SEE ALSO
-- [Mẫu báo giá](quote_template.md)
-- [Hạn báo giá](deadline.md)
-- [Online signatures for order confirmations](get_signature_to_validate.md)
-- [Online payment order confirmation](get_paid_to_validate.md)
-- [PDF quote builder](pdf_quote_builder.md)
-- [Hóa đơn chiếu lệ](../invoicing/proforma.md)
+- [Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)
+- [Hạn báo giá](applications/sales/sales/send_quotations/deadline.md)
+- [Online signatures for order confirmations](applications/sales/sales/send_quotations/get_signature_to_validate.md)
+- [Online payment order confirmation](applications/sales/sales/send_quotations/get_paid_to_validate.md)
+- [PDF quote builder](applications/sales/sales/send_quotations/pdf_quote_builder.md)
+- [Hóa đơn chiếu lệ](applications/sales/sales/invoicing/proforma.md)

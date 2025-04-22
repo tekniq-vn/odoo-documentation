@@ -1,7 +1,7 @@
 # Safeguard your code with unit tests
 
 #### IMPORTANT
-This tutorial is an extension of the [Server framework 101](server_framework_101.md) tutorial. Make sure you have
+This tutorial is an extension of the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial. Make sure you have
 completed it and use the `estate` module you have built as a base for the exercises in this
 tutorial.
 
@@ -162,7 +162,7 @@ the module that adds the functionality you are adding in, and tests cannot depen
 coming from modules your module doesn't depend on.
 
 **Reference**: the documentation related to this topic can be found in
-[Special Tags](../reference/backend/testing.md#reference-testing-tags).
+[Special Tags](developer/reference/backend/testing.md#reference-testing-tags).
 
 ```python
 from odoo.tests.common import TransactionCase
@@ -189,7 +189,7 @@ the CI and ensure it is not changed if it shouldn't.
 
 **Reference**: the documentation related to this topic can be found in
 [Python unittest](https://docs.python.org/3/library/unittest.html)
-and [Testing Odoo](../reference/backend/testing.md#reference-testing).
+and [Testing Odoo](developer/reference/backend/testing.md#reference-testing).
 
 Here are a few things to take into consideration before writing a test
 

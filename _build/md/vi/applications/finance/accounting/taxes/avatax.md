@@ -98,7 +98,7 @@ To set the Fiscal Country, navigate to Accounting app ‣ Configuration
 ‣ Settings.
 
 #### SEE ALSO
-[Fiscal localizations](../../fiscal_localizations.md)
+[Fiscal localizations](applications/finance/fiscal_localizations.md)
 
 Under the Taxes section, set the Fiscal Country feature to United
 States, Canada, or Brazil. Then, click Save.
@@ -121,8 +121,8 @@ the companies.
 This ensures accurate tax calculations and smooth end-of-year accounting operations.
 
 #### SEE ALSO
-- [Công ty](../../../general/companies.md)
-- [Bắt đầu](../get_started.md)
+- [Công ty](applications/general/companies.md)
+- [Bắt đầu](applications/finance/accounting/get_started.md)
 
 ### Cài đặt phân hệ
 
@@ -154,10 +154,10 @@ modules individually by clicking on Install on Avatax for geo localization
 and Amazon/Avatax Bridge, respectively.
 
 #### SEE ALSO
-For localization specific *AvaTax* instructions, view the following [fiscal localization](../../fiscal_localizations.md) documentation:
+For localization specific *AvaTax* instructions, view the following [fiscal localization](applications/finance/fiscal_localizations.md) documentation:
 
-- [Brazil](../../fiscal_localizations/brazil.md)
-- [Hợp chủng quốc Hoa Kỳ](../../fiscal_localizations/united_states.md)
+- [Brazil](applications/finance/fiscal_localizations/brazil.md)
+- [Hợp chủng quốc Hoa Kỳ](applications/finance/fiscal_localizations/united_states.md)
 
 <a id="avatax-credentials"></a>
 
@@ -172,7 +172,7 @@ First, tick the checkbox to the left of the AvaTax settings, to activate *AvaTax
 database. This is a quick, convenient way to activate and deactivate *AvaTax* tax calculation on the
 Odoo database.
 
-![Cấu hình cài đặt AvaTax](avatax/avatax-configuration-settings.png)
+![Cấu hình cài đặt AvaTax](../../../../.gitbook/assets/avatax-configuration-settings.png)
 
 #### Khoá học tiên quyết
 
@@ -205,7 +205,7 @@ First, log into the *AvaTax* portal ([sandbox](https://sandbox.admin.avalara.com
 The Company Code value is located in the row of the Company in the
 Company Code column.
 
-![AvaTax company code highlighted on the company details page.](avatax/company-code.png)
+![AvaTax company code highlighted on the company details page.](../../../../.gitbook/assets/company-code.png)
 
 #### Transaction options
 
@@ -285,7 +285,7 @@ Fiscal Position. Set the Fiscal Position field to the fiscal position
 for the customer.
 
 #### SEE ALSO
-[Fiscal positions (tax and account mapping)](fiscal_positions.md)
+[Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
 
 #### AvaTax accounts
 
@@ -311,7 +311,7 @@ product category to add the AvaTax Category to. In the AvaTax Category
 field, select a category from the drop-down menu, or Search More... to open the complete
 list of options.
 
-![Specify AvaTax Category on products.](avatax/avatax-category.png)
+![Specify AvaTax Category on products.](../../../../.gitbook/assets/avatax-category.png)
 
 #### Product mapping
 
@@ -321,17 +321,17 @@ Danh mục *AvaTax* cũng có thể được thiết lập cho từng sản ph�
 If both the product, and its category, have an AvaTax Category set, the product's
 AvaTax Category takes precedence.
 
-![Override product categories as needed.](avatax/override-avatax-product-category.png)
+![Override product categories as needed.](../../../../.gitbook/assets/override-avatax-product-category.png)
 
 #### IMPORTANT
 Mapping an AvaTax Category on either the *Product* or *Product Category* should be
 completed for every *Product* or *Product Category*, depending on the route that is chosen.
 
 #### SEE ALSO
-- [Fiscal positions (tax and account mapping)](fiscal_positions.md)
-- [AvaTax use](avatax/avatax_use.md)
-- [Cổng thông tin Avalara (Avatax)](avatax/avalara_portal.md)
+- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
+- [AvaTax use](applications/finance/accounting/taxes/avatax/avatax_use.md)
+- [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)
 - [US Tax Compliance: Avatax elearning video](https://www.odoo.com/slides/slide/us-tax-compliance-avatax-2858?fullscreen=1)
 
-* [AvaTax use](avatax/avatax_use.md)
-* [Cổng thông tin Avalara (Avatax)](avatax/avalara_portal.md)
+* [AvaTax use](applications/finance/accounting/taxes/avatax/avatax_use.md)
+* [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)

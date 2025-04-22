@@ -29,40 +29,40 @@ all caps.
 
 ## View types
 
-[Form](view_architectures.md#reference-view-architectures-form)
+[Form](developer/reference/user_interface/view_architectures.md#reference-view-architectures-form)
 : Display and edit the data from a single record.
 
-[List](view_architectures.md#reference-view-architectures-list)
+[List](developer/reference/user_interface/view_architectures.md#reference-view-architectures-list)
 : View and edit multiple records.
 
-[Search](view_architectures.md#reference-view-architectures-search)
+[Search](developer/reference/user_interface/view_architectures.md#reference-view-architectures-search)
 : Apply filters and perform searches. The results are displayed in the current list, kanban... view.
 
-[Kanban](view_architectures.md#reference-view-architectures-kanban)
+[Kanban](developer/reference/user_interface/view_architectures.md#reference-view-architectures-kanban)
 : Display records as "cards", configurable as a small template.
 
-[Qweb](view_architectures.md#reference-view-architectures-qweb)
+[Qweb](developer/reference/user_interface/view_architectures.md#reference-view-architectures-qweb)
 : Templating of reporting, website...
 
-[Graph](view_architectures.md#reference-view-architectures-graph)
+[Graph](developer/reference/user_interface/view_architectures.md#reference-view-architectures-graph)
 : Visualize aggregations over a number of records or record groups.
 
-[Pivot](view_architectures.md#reference-view-architectures-pivot)
+[Pivot](developer/reference/user_interface/view_architectures.md#reference-view-architectures-pivot)
 : Display aggregations as a [pivot table](https://en.wikipedia.org/wiki/Pivot_table).
 
-[Calendar](view_architectures.md#reference-view-architectures-calendar)
+[Calendar](developer/reference/user_interface/view_architectures.md#reference-view-architectures-calendar)
 : Display records as events in a daily, weekly, monthly, or yearly calendar.
 
-[Cohort](view_architectures.md#reference-view-architectures-cohort) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
+[Cohort](developer/reference/user_interface/view_architectures.md#reference-view-architectures-cohort) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
 : Display and understand the way some data changes over a period of time.
 
-[Gantt](view_architectures.md#reference-view-architectures-gantt) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
+[Gantt](developer/reference/user_interface/view_architectures.md#reference-view-architectures-gantt) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
 : Display records as a Gantt chart.
 
-[Grid](view_architectures.md#reference-view-architectures-grid) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
+[Grid](developer/reference/user_interface/view_architectures.md#reference-view-architectures-grid) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
 : Display computed information in numerical cells; are hardly configurable.
 
-[Map](view_architectures.md#reference-view-architectures-map) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
+[Map](developer/reference/user_interface/view_architectures.md#reference-view-architectures-map) <span class="badge" style="background-color:#714B67">Enterprise feature</span>
 : Display records on a map, and the routes between them.
 
 <a id="reference-view-records-fields"></a>

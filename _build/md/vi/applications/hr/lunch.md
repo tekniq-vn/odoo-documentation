@@ -35,7 +35,7 @@ address field.
 
 Repeat this for all locations that need to be added.
 
-![A list view of the locations with the new button highlighted.](lunch/locations.png)
+![A list view of the locations with the new button highlighted.](../../.gitbook/assets/locations.png)
 
 ## Cảnh báo
 
@@ -71,17 +71,17 @@ lunch alert form loads. Enter the following information on the form:
   the Time field.
 
 ![An alert form with all of the information filled out for a chat alert sent at 10:30 AM,
-asking employees to submit orders by 11:30 AM.](lunch/alert.png)
+asking employees to submit orders by 11:30 AM.](../../.gitbook/assets/alert.png)
 
 #### SEE ALSO
-- [Nhà cung cấp](lunch/vendors.md)
-- [Sản phẩm](lunch/products.md)
-- [Đơn hàng](lunch/orders.md)
-- [Manage user accounts](lunch/user-accounts.md)
-- [Lunch management](lunch/management.md)
+- [Nhà cung cấp](applications/hr/lunch/vendors.md)
+- [Sản phẩm](applications/hr/lunch/products.md)
+- [Đơn hàng](applications/hr/lunch/orders.md)
+- [Manage user accounts](applications/hr/lunch/user-accounts.md)
+- [Lunch management](applications/hr/lunch/management.md)
 
-* [Nhà cung cấp](lunch/vendors.md)
-* [Sản phẩm](lunch/products.md)
-* [Đơn hàng](lunch/orders.md)
-* [Manage user accounts](lunch/user-accounts.md)
-* [Lunch management](lunch/management.md)
+* [Nhà cung cấp](applications/hr/lunch/vendors.md)
+* [Sản phẩm](applications/hr/lunch/products.md)
+* [Đơn hàng](applications/hr/lunch/orders.md)
+* [Manage user accounts](applications/hr/lunch/user-accounts.md)
+* [Lunch management](applications/hr/lunch/management.md)

@@ -35,7 +35,7 @@ Fill out the following fields on the form:
   - Appraisals: cancels all appraisals scheduled after the contract end date.
   - Contract: applies an end date for the current contract.
   - Company Car: removes the employee as the driver for their current company car, and
-    [assigns the next driver](../fleet/new_vehicle.md#fleet-new-vehicle-new-driver), if applicable.
+    [assigns the next driver](applications/hr/fleet/new_vehicle.md#fleet-new-vehicle-new-driver), if applicable.
   - Time Off: cancels any time off requests after the contract end date.
   - Allocations: removes the employee from any accrual plans they are on.
 - HR Info: Tick the checkbox next to Send Access Link to send a download
@@ -45,7 +45,7 @@ Fill out the following fields on the form:
 
 Khi hoàn thành biểu mẫu, nhấp Áp dụng. Hồ sơ nhân viên sẽ được lưu trữ, một email chứa liên kết tải tài liệu cá nhân sẽ được gửi đến địa chỉ email riêng của nhân viên (nếu được chọn), và biểu ngữ màu đỏ Đã lưu trữ sẽ xuất hiện ở góc trên bên phải biểu mẫu nhân viên. Cửa sổ trò chuyện sẽ ghi lại Ngày nghỉ việc và Lý do nghỉ việc, cùng với việc liên kết truy cập đã được gửi email hay chưa.
 
-![The employee termination form with all fields filled out.](offboarding/termination.png)
+![The employee termination form with all fields filled out.](../../../.gitbook/assets/termination.png)
 
 #### NOTE
 While attempting to send the HR documents access link, an Invalid Operation pop-up

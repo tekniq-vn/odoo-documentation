@@ -24,7 +24,7 @@ modified.
 - Advanced price rules (discounts, formulas): provides the option to create detailed
   price rules and apply discounts, margins, and roundings.
 
-![How the pricelist feature setting looks in Odoo Sales.](pricing/pricelist-feature-setting.png)
+![How the pricelist feature setting looks in Odoo Sales.](../../../../../.gitbook/assets/pricelist-feature-setting.png)
 
 After clicking the checkbox beside the Pricelists feature, select one of those two
 options, then click Save to save all changes.
@@ -41,7 +41,7 @@ Sales app ‣ Products ‣ Pricelists.
 Either option reveals the Pricelists page, in which pricelists can be created and/or
 modified at any time.
 
-![How the pricelists page looks in Odoo Sales.](pricing/pricelists-page.png)
+![How the pricelists page looks in Odoo Sales.](../../../../../.gitbook/assets/pricelists-page.png)
 
 #### IMPORTANT
 The order of the pricelists on the Pricelists page has an impact on how they are
@@ -67,7 +67,7 @@ From the Pricelists page, either select the desired pricelist to edit, or click
 New to create a new pricelist, which reveals a blank pricelist form that can be
 configured in a number of different ways.
 
-![How the pricelist detail form looks in Odoo Sales.](pricing/pricelist-detail-form.png)
+![How the pricelist detail form looks in Odoo Sales.](../../../../../.gitbook/assets/pricelist-detail-form.png)
 
 When creating a new pricelist, start by adding a name for the pricelist at the top of the form, in
 the blank field. Next, select which Currency should be used.
@@ -123,7 +123,7 @@ for detailed steps on how to add advanced price rules to a pricelist.
 ### Recurring Prices tab
 
 Time-based rules are used specifically with subscription products. Be sure to check out the Odoo
-[Subscriptions](../../../subscriptions.md) documentation for more information.
+[Subscriptions](applications/sales/subscriptions.md) documentation for more information.
 
 Under the Recurring Prices tab, the same functionality of the Price Rules
 tab is present. The only difference being that a recurring time period can be applied in the
@@ -142,13 +142,13 @@ From this pop-up form, the new recurrence period can be configured, with specifi
 Details, Self-Service, and Pricing options. When the
 configurations are complete, click the Save & Close button.
 
-![Custom time period pop-up form in Odoo Sales.](pricing/time-period-popup.png)
+![Custom time period pop-up form in Odoo Sales.](../../../../../.gitbook/assets/time-period-popup.png)
 
 Lastly, add the desired price for this recurring price rule in the Recurring Price
 column.
 
 #### SEE ALSO
-[Đăng ký](../../../subscriptions.md)
+[Đăng ký](applications/sales/subscriptions.md)
 
 ### Rental rules tab
 
@@ -168,7 +168,7 @@ Lastly, configure a Price for the rental rule in the respective column.
 Under the Configuration tab, there are a few options that can further customize the
 pricelist.
 
-![Configuration tab on pricelist detail form in Odoo Sales.](pricing/configuration-tab.png)
+![Configuration tab on pricelist detail form in Odoo Sales.](../../../../../.gitbook/assets/configuration-tab.png)
 
 From here, under the Availability section, in the Country Groups field,
 certain country groups can be added to the pricelist. There is no limit to how many country groups
@@ -211,13 +211,13 @@ To do that, open the desired customer's contact form, either by navigating to Sa
 app ‣ Orders ‣ Customers and selecting the customer from the main Customers page,
 or by clicking on the customer's name on a sales order.
 
-![Sample customer detail form in Odoo Sales.](pricing/customer-detail-form.png)
+![Sample customer detail form in Odoo Sales.](../../../../../.gitbook/assets/customer-detail-form.png)
 
 On the desired customer's contact form, under the Sales & Purchase tab, in the
 Sales section, designate what pricelist should be applied to this specific customer from
 the drop-down menu in the Pricelist field.
 
-![The pricelist field in a customer detail form in Odoo Sales.](pricing/customer-form-pricelist-field.png)
+![The pricelist field in a customer detail form in Odoo Sales.](../../../../../.gitbook/assets/customer-form-pricelist-field.png)
 
 #### NOTE
 When a customer is added to the database, the default pricelist is automatically applied to them.
@@ -245,12 +245,12 @@ specific product's product form on a separate page.
 On the product form, click the Extra Prices smart button, located at the top of the
 form.
 
-![How the extra prices smart button appears in Odoo Sales.](pricing/extra-prices-smartbutton.png)
+![How the extra prices smart button appears in Odoo Sales.](../../../../../.gitbook/assets/extra-prices-smartbutton.png)
 
 Doing so reveals a separate page displaying the Price Rules that are specific to that
 particular product. Here, price rules can be edited or created at any time.
 
-![How the extra price rules per product page appears in Odoo Sales.](pricing/price-rules-product-page.png)
+![How the extra price rules per product page appears in Odoo Sales.](../../../../../.gitbook/assets/price-rules-product-page.png)
 
 To create a new price rule for a product from this specific Price Rules page, click
 New to add a new, customizable row that has the desired product already populated in the
@@ -300,7 +300,7 @@ To access discounts, navigate to the *Sales* app setting page (Sales app ‣
 Configuration ‣ Settings), and click the Discounts checkbox, then click
 Save.
 
-![Click the checkbox labeled Discounts to activate Discounts.](pricing/discounts-option.png)
+![Click the checkbox labeled Discounts to activate Discounts.](../../../../../.gitbook/assets/discounts-option.png)
 
 After the setting has been activated, navigate to the desired quotation by going to
 Sales app ‣ Orders ‣ Quotations at the top of the page. Once there, click on
@@ -311,7 +311,7 @@ Disc.%. This column is used to set discounts on individual line items. Enter the
 discount for each product line and the new price will automatically be calculated in the quote
 Total at the bottom of the page.
 
-![The Dis.% heading will now appear in Order Lines.](pricing/discount-on-sales-order.png)
+![The Dis.% heading will now appear in Order Lines.](../../../../../.gitbook/assets/discount-on-sales-order.png)
 
 <a id="sales-pricing-discount-button"></a>
 
@@ -320,7 +320,7 @@ Total at the bottom of the page.
 In Odoo 17, with the [Discounts setting](#sales-discounts) enabled, a Discount
 button appears at the bottom of sales orders.
 
-![The discount button located at the bottom of a sales order form in the Odoo Sales app.](pricing/discount-button-sales-order.png)
+![The discount button located at the bottom of a sales order form in the Odoo Sales app.](../../../../../.gitbook/assets/discount-button-sales-order.png)
 
 When the Discount button on a sales order is clicked, a Discount pop-up
 window appears.
@@ -374,7 +374,7 @@ On the pricelist form, under the Price Rules tab, click Add a line to add an
 advanced price rule. Doing so reveals a Create Pricelist Rules pop-up form, in which the
 advanced rule is configured.
 
-![How the Create Pricelist Rules pop-up form looks in Odoo Sales.](pricing/create-pricelist-rules-popup.png)
+![How the Create Pricelist Rules pop-up form looks in Odoo Sales.](../../../../../.gitbook/assets/create-pricelist-rules-popup.png)
 
 ### Price computation
 
@@ -393,7 +393,7 @@ Discount field that appears.
 
 If Formula is selected, a number of configurable options appear.
 
-![The various formula computation options present in Odoo Sales.](pricing/formula-computation-options.png)
+![The various formula computation options present in Odoo Sales.](../../../../../.gitbook/assets/formula-computation-options.png)
 
 To configure the Formula computation option, start by selecting an option from the
 Based on field: Sales Price, Cost, or Other
@@ -445,5 +445,5 @@ If a price rule is set for a particular product, and another one for its product
 takes the rule of the product itself.
 
 #### SEE ALSO
-- [Ngoại tệ](currencies.md)
-- [Quản lý giá](../../../../websites/ecommerce/products/price_management.md)
+- [Ngoại tệ](applications/sales/sales/products_prices/prices/currencies.md)
+- [Quản lý giá](applications/websites/ecommerce/products/price_management.md)

@@ -7,7 +7,7 @@ and complete payment using their mobile device or a self-ordering kiosk.
 
 ### Feature activation
 
-To enable this feature and select a self-ordering type, access the [POS settings](configuration.md#configuration-settings), scroll down to the Mobile self-order & Kiosk section, and
+To enable this feature and select a self-ordering type, access the [POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings), scroll down to the Mobile self-order & Kiosk section, and
 select a Self Ordering type under the QR menu & Kiosk activation section.
 
 You can choose from:
@@ -18,7 +18,7 @@ Select QR menu or QR menu + Ordering to give customers access to your
 menu or product catalog by scanning a QR code on their personal device. The latter also
 allows them to place an order and make a payment.
 
-![QR menu and kiosk setting activation](self_order/qr-activation.png)
+![QR menu and kiosk setting activation](../../../.gitbook/assets/qr-activation.png)
 - Click <i class="fa fa-arrow-right"></i> Print QR Codes to download a .pdf document with the
   generated QR codes.
 - Click <i class="fa fa-arrow-right"></i> Download QR Codes to download a compressed file
@@ -33,7 +33,7 @@ Ki-ốt
 When Kiosk is selected, customers can access the menu or product catalog, place
 orders, and pay from a self-ordering kiosk.
 
-![QR menu and kiosk setting activation](self_order/kiosk-activation.png)
+![QR menu and kiosk setting activation](../../../.gitbook/assets/kiosk-activation.png)
 
 Once a self-ordering type is selected, the [additional settings](#pos-self-order-add-settings)
 update to fit the selected type's needs.
@@ -77,18 +77,18 @@ Service location and payment options
       - When served at their table, they can pay after each meal or each order.
       - When served at the pickup zone, they can only pay after each order.
     - **Shops**: Customers can only be served at the pickup zone and pay after each order.
-    - Regardless of the type of POS, customers can pay [online](../../finance/payment_providers.md) or using any configured [payment
-      method](payment_methods.md).
+    - Regardless of the type of POS, customers can pay [online](applications/finance/payment_providers.md) or using any configured [payment
+      method](applications/sales/point_of_sale/payment_methods.md).
   - **Ki-ốt**:
     - Regardless of the type of POS, customers can either be served at their table or in the
       pickup zone, but they must pay after each order.
-    - The kiosk self-ordering only works with [Adyen](payment_methods/terminals/adyen.md)
-      and [Stripe](payment_methods/terminals/stripe.md) terminals.
+    - The kiosk self-ordering only works with [Adyen](applications/sales/point_of_sale/payment_methods/terminals/adyen.md)
+      and [Stripe](applications/sales/point_of_sale/payment_methods/terminals/stripe.md) terminals.
     - The Online Payment feature is not supported.
 
 #### SEE ALSO
-- [Thanh toán online](../../finance/payment_providers.md)
-- [Phương thức thanh toán](payment_methods.md)
+- [Thanh toán online](applications/finance/payment_providers.md)
+- [Phương thức thanh toán](applications/sales/point_of_sale/payment_methods.md)
 
 Ngôn ngữ
 
@@ -102,7 +102,7 @@ languages:
 4. Add those languages to the Available field.
 
 #### SEE ALSO
-[Thay đổi ngôn ngữ](../../general/users/language.md)
+[Thay đổi ngôn ngữ](applications/general/users/language.md)
 
 Màn hình chờ
 
@@ -119,7 +119,7 @@ You can add multiple splash screen images at once.
 
 Eat in/ Take out
 
-Activate this setting to [adjust the tax rate](pricing/fiscal_position.md) based on whether
+Activate this setting to [adjust the tax rate](applications/sales/point_of_sale/pricing/fiscal_position.md) based on whether
 customers dine in or take their order to go. Then,
 
 - Fill in the field with an existing Alternative Fiscal Position;
@@ -129,7 +129,7 @@ customers dine in or take their order to go. Then,
   Positions.
 
 #### SEE ALSO
-[Flexible taxes (fiscal positions)](pricing/fiscal_position.md)
+[Flexible taxes (fiscal positions)](applications/sales/point_of_sale/pricing/fiscal_position.md)
 
 ### Xem trước
 
@@ -176,8 +176,8 @@ On the customers' end,
 2. Select the items and click Order to place an order.
 3. Follow the instructions on-screen to assign a table and pay for the order.
 
-![kiosk end-screen for customers](self_order/kiosk-endscreen.png)
+![kiosk end-screen for customers](../../../.gitbook/assets/kiosk-endscreen.png)
 
 #### IMPORTANT
 - A POS session must be open for customers to place an order.
-- Once an order is placed, it is automatically sent to [the preparation screen](preparation.md) and added to the list of POS orders.
+- Once an order is placed, it is automatically sent to [the preparation screen](applications/sales/point_of_sale/preparation.md) and added to the list of POS orders.

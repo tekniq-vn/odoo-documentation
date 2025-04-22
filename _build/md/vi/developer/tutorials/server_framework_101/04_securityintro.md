@@ -1,11 +1,11 @@
 # Chapter 4: Security - A Brief Introduction
 
-In the [previous chapter](03_basicmodel.md), we created our first table
+In the [previous chapter](developer/tutorials/server_framework_101/03_basicmodel.md), we created our first table
 intended to store business data. In a business application such as Odoo, one of the first questions
 to consider is who<sup>[1](#who)</sup> can access the data. Odoo provides a security mechanism to allow access
 to the data for specific groups of users.
 
-The topic of security is covered in more detail in [Restrict access to data](../restrict_data_access.md). This chapter aims
+The topic of security is covered in more detail in [Restrict access to data](developer/tutorials/restrict_data_access.md). This chapter aims
 to cover the minimum required for our new module.
 
 ## Data Files (CSV)
@@ -24,9 +24,9 @@ state_au_4,au,"Queensland","QLD"
 ...
 ```
 
-- `id` is an [external identifier](../../glossary.md#term-external-identifier). It can be used to refer to the record
+- `id` is an [external identifier](developer/glossary.md#term-external-identifier). It can be used to refer to the record
   (without knowing its in-database identifier).
-- `country_id:id` refers to the country by using its [external identifier](../../glossary.md#term-external-identifier).
+- `country_id:id` refers to the country by using its [external identifier](developer/glossary.md#term-external-identifier).
 - `name` is the name of the state.
 - `code` is the code of the state.
 
@@ -61,7 +61,7 @@ data files, as we'll see in the next section.
 ## Access Rights
 
 **Reference**: the documentation related to this topic can be found in
-[Access Rights](../../reference/backend/security.md#reference-security-acl).
+[Access Rights](developer/reference/backend/security.md#reference-security-acl).
 
 #### NOTE
 **Goal**: at the end of this section, the following warning should not appear anymore:
@@ -91,7 +91,7 @@ id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
 access_test_model,access_test_model,model_test_model,base.group_user,1,0,0,0
 ```
 
-- `id` is an [external identifier](../../glossary.md#term-external-identifier).
+- `id` is an [external identifier](developer/glossary.md#term-external-identifier).
 - `name` is the name of the `ir.model.access`.
 - `model_id/id` refers to the model which the access right applies to. The standard way to refer
   to the model is `model_<model_name>`, where `<model_name>` is the `_name` of the model
@@ -101,7 +101,7 @@ access_test_model,access_test_model,model_test_model,base.group_user,1,0,0,0
 
 Restart the server and the warning message should have disappeared!
 
-It's now time to finally [interact with the UI](05_firstui.md)!
+It's now time to finally [interact with the UI](developer/tutorials/server_framework_101/05_firstui.md)!
 
 * <a id='who'>**[1]**</a> meaning which Odoo user (or group of users)
 * <a id='unlink'>**[2]**</a> 'unlink' is the equivalent of 'delete'

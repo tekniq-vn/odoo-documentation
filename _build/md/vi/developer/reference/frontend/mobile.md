@@ -22,7 +22,7 @@ These features work with **Odoo Enterprise 10.0+** only
 
 Internal workings of the mobile application:
 
-![image](mobile/mobile_working.jpg)
+![image](../../../.gitbook/assets/mobile_working.jpg)
 
 Of course, it is a web page that loads on a Mobile Native Web container. But it
 is integrated in such a way that you can access native resources from your web
@@ -45,7 +45,7 @@ from the Native resources. For example the Camera or GPS Location.
 Just like the Odoo Web Framework, the Mobile API can be used anywhere by getting the object from
 **web_mobile.rpc**
 
-![image](mobile/odoo_mobile_api.png)
+![image](../../../.gitbook/assets/odoo_mobile_api.png)
 
 The mobile RPC object provides a list of methods that are available (this only works with the mobile
 app).
@@ -73,7 +73,7 @@ remains visible and interactive.
 mobile.methods.showToast({'message': 'Message sent'});
 ```
 
-![image](mobile/toast.png)
+![image](../../../.gitbook/assets/toast.png)
 
 #### Vibrating device
 
@@ -113,7 +113,7 @@ mobile.methods.showSnackBar({'message': 'Message is deleted', 'btn_text': 'Undo'
 });
 ```
 
-![image](mobile/snackbar.png)
+![image](../../../.gitbook/assets/snackbar.png)
 
 #### Showing notification
 
@@ -133,7 +133,7 @@ view at any time.
 mobile.showNotification({'title': 'Simple Notification', 'message': 'This is a test for a simple notification'})
 ```
 
-![image](mobile/mobile_notification.png)
+![image](../../../.gitbook/assets/mobile_notification.png)
 
 #### Create contact in device
 
@@ -166,7 +166,7 @@ var contact = {
 mobile.methods.addContact(contact);
 ```
 
-![image](mobile/mobile_contact_create.png)
+![image](../../../.gitbook/assets/mobile_contact_create.png)
 
 #### Scanning barcodes
 
@@ -200,4 +200,4 @@ Use switchAccount to switch from one account to another on the device.
 mobile.methods.switchAccount();
 ```
 
-![image](mobile/mobile_switch_account.png)
+![image](../../../.gitbook/assets/mobile_switch_account.png)

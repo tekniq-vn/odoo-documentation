@@ -6,8 +6,8 @@ automatically get rates from specific couriers (such as Australia Post, NZ Post,
 based on predefined conditions.
 
 #### SEE ALSO
-- [Automatically calculate shipping](../setup_configuration.md)
-- [Integrate other third-party couriers](third_party_shipper.md)
+- [Automatically calculate shipping](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
+- [Integrate other third-party couriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
 
 ## Setup in Starshipit
 
@@ -22,21 +22,21 @@ needed.
 Once logged into the Starshipit account, navigate to Settings ‣ Pickup address,
 and fill in the Pickup address. Ensure this field matches the warehouse address.
 
-![Adding addresses in the Starshipit settings.](starshipit_shipping/starshipit-settings-address.png)
+![Adding addresses in the Starshipit settings.](../../../../../.gitbook/assets/starshipit-settings-address.png)
 
 ### Couriers configuration
 
 To integrate with third-party couriers, navigate to Settings ‣ Couriers, and
 select Couriers.
 
-![Adding addresses in the Starshipit settings.](starshipit_shipping/starshipit-settings-couriers.png)
+![Adding addresses in the Starshipit settings.](../../../../../.gitbook/assets/starshipit-settings-couriers.png)
 
 ### Checkout rates
 
 To configure shipping rate calculations, navigate to Settings ‣ Checkout rates.
 The selected delivery costs are automatically applied in Odoo when calculating shipping costs.
 
-![Checkout rates in the Starshipit settings.](starshipit_shipping/starshipit-checkout-rate.png)
+![Checkout rates in the Starshipit settings.](../../../../../.gitbook/assets/starshipit-checkout-rate.png)
 
 ### Starshipit API key
 
@@ -51,7 +51,7 @@ While there are multiple ways to configure rules, it is recommended to set:
 2. Value to the product code
 3. Action to Set Courier & Product Code
 
-![Shipping rules in the Starshipit settings.](starshipit_shipping/starshipit-rules.png)
+![Shipping rules in the Starshipit settings.](../../../../../.gitbook/assets/starshipit-rules.png)
 
 <a id="inventory-shipping-receiving-star-api"></a>
 
@@ -61,7 +61,7 @@ In the Starshipit account, navigate to Settings ‣ API in the side menu.
 This page contains the  keys needed to connect to
 Odoo.
 
-![Finding the Starshipit API keys.](starshipit_shipping/starshipit-settings-api.png)
+![Finding the Starshipit API keys.](../../../../../.gitbook/assets/starshipit-settings-api.png)
 
 ## Thiết lập trong Odoo
 
@@ -71,7 +71,7 @@ After the Starshipit account is set up, integrate it with the Odoo database. To 
 Odoo's Apps module, search for the Starshipit Shipping module, and click
 Activate to install it.
 
-![Starshipit Shipping module in the Odoo Apps module.](starshipit_shipping/starshipit-app.png)
+![Starshipit Shipping module in the Odoo Apps module.](../../../../../.gitbook/assets/starshipit-app.png)
 
 ### Cấu hình
 
@@ -93,7 +93,7 @@ follows:
 
   #### NOTE
   The fields discussed in this section are specific to configuring Starshipit. For more information
-  about the other fields, refer to [Delivery methods](../setup_configuration.md).
+  about the other fields, refer to [Delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md).
 
 In the Starshipit Configuration tab, fill out these fields:
 
@@ -122,7 +122,7 @@ from the drop-down menu. Finally, click Confirm.
 
 The chosen delivery service will populate in the Service Name field.
 
-![Example of shipping products configured in Odoo.](starshipit_shipping/starshipit-configuration.png)
+![Example of shipping products configured in Odoo.](../../../../../.gitbook/assets/starshipit-configuration.png)
 
 <a id="inventory-shipping-receiving-star-label"></a>
 
@@ -149,7 +149,7 @@ chatter, which includes the following:
 2. Tracking number(s) if the selected courier supports it.
 3. Return label(s) if the Starshipit connector is configured for returns.
 
-![Example of a shipped order in Odoo.](starshipit_shipping/starshipit-shipping.png)
+![Example of a shipped order in Odoo.](../../../../../.gitbook/assets/starshipit-shipping.png)
 
 #### IMPORTANT
 Package weight in Odoo is calculated by adding the weights of the products plus the empty package

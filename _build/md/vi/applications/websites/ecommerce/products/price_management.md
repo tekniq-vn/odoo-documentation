@@ -9,12 +9,12 @@ condition-specific prices based on set criteria.
 
 To add a tax on a product, you can either set a tax in the Customer Taxes field of the
 **product template** or use
-[fiscal positions](../../../finance/accounting/taxes/fiscal_positions.md).
+[fiscal positions](applications/finance/accounting/taxes/fiscal_positions.md).
 
 #### SEE ALSO
-- [Thuế](../../../finance/accounting/taxes.md)
-- [AvaTax integration](../../../finance/accounting/taxes/avatax.md)
-- [Fiscal positions (tax and account mapping)](../../../finance/accounting/taxes/fiscal_positions.md)
+- [Thuế](applications/finance/accounting/taxes.md)
+- [AvaTax integration](applications/finance/accounting/taxes/avatax.md)
+- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
 
 <a id="ecommerce-price-management-tax-display"></a>
 
@@ -39,31 +39,31 @@ You can choose to display the type of pricing next to the product price by going
 Website ‣ Site ‣ Homepage ‣ Shop, selecting a product, and then
 Edit ‣ Customize tab and enabling Tax Indication.
 
-![Tax type displayed on the product page](price_management/price-tax-display-type.png)
+![Tax type displayed on the product page](../../../../.gitbook/assets/price-tax-display-type.png)
 
 #### SEE ALSO
-[B2B (tax excluded) and B2C (tax included) pricing](../../../finance/accounting/taxes/B2B_B2C.md)
+[B2B (tax excluded) and B2C (tax included) pricing](applications/finance/accounting/taxes/B2B_B2C.md)
 
 ## Price per unit
 
-It is possible to display a [price per unit](../../../inventory_and_mrp/inventory/product_management/configure/uom.md) on the product page. To do
+It is possible to display a [price per unit](applications/inventory_and_mrp/inventory/product_management/configure/uom.md) on the product page. To do
 that, go to Website ‣ Configuration ‣ Settings and enable Product
 Reference Price under the Shop - Products section. When enabled, ensure an amount is
 set in the Base Unit Count field of the **product template**, and in the
 Sales Price.
 
-![Cost per unit pricing on the product template](price_management/price-cost-per-unit.png)
+![Cost per unit pricing on the product template](../../../../.gitbook/assets/price-cost-per-unit.png)
 
 The price per unit of measure can be found above the Add to Cart button on the product
 page.
 
-![Cost per unit pricing on the product page](price_management/price-cost-per-unit-page.png)
+![Cost per unit pricing on the product page](../../../../.gitbook/assets/price-cost-per-unit-page.png)
 
 #### NOTE
 Pay attention that having the price per unit may be **mandatory** in some countries.
 
 #### SEE ALSO
-[Đơn vị tính](../../../inventory_and_mrp/inventory/product_management/configure/uom.md)
+[Đơn vị tính](applications/inventory_and_mrp/inventory/product_management/configure/uom.md)
 
 <a id="ecommerce-pricelists"></a>
 
@@ -72,7 +72,7 @@ Pay attention that having the price per unit may be **mandatory** in some countr
 Bảng giá là công cụ chính để quản lý giá trên cửa hàng Thương mại điện tử của bạn. Chúng cho phép bạn xác định giá cụ thể cho từng trang web - khác với giá trên mẫu sản phẩm - dựa trên **nhóm quốc gia**, **tiền tệ**, **số lượng tối thiểu**, **thời gian** hoặc **biến thể**. Bạn có thể tạo nhiều bảng giá tùy theo nhu cầu, nhưng bắt buộc phải có ít nhất một bảng giá được cấu hình cho mỗi trang web. Nếu không thêm bảng giá tùy chỉnh nào, Odoo sẽ mặc định sử dụng **Bảng giá công khai** cho tất cả các trang web.
 
 #### SEE ALSO
-[Pricelists, discounts, and formulas](../../../sales/sales/products_prices/prices/pricing.md)
+[Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)
 
 #### Cấu hình
 
@@ -93,11 +93,11 @@ If you are selling in **multiple currencies** and have pricelists in foreign cur
 can select their corresponding pricelist anywhere on the Shop page from the drop-down
 menu next to the **search bar**.
 
-![Pricelists selection](price_management/price-pricelists.png)
+![Pricelists selection](../../../../.gitbook/assets/price-pricelists.png)
 
 #### SEE ALSO
-- [Pricelists, discounts, and formulas](../../../sales/sales/products_prices/prices/pricing.md)
-- [Ngoại tệ](../../../sales/sales/products_prices/prices/currencies.md)
+- [Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)
+- [Ngoại tệ](applications/sales/sales/products_prices/prices/currencies.md)
 
 ### Permanent discount
 
@@ -105,7 +105,7 @@ If you have permanently reduced the price of a product, a popular means to attra
 **strikethrough** strategy. The strategy consists in displaying the previous price crossed out and
 the **new discounted price** next to it.
 
-![Giá gạch ngang](price_management/price-strikethrough.png)
+![Giá gạch ngang](../../../../.gitbook/assets/price-strikethrough.png)
 
 To display a 'striked' price, enable the Comparison Price option under
 Website ‣ Configuration ‣ Settings ‣ Shop - Products category. Then, head to

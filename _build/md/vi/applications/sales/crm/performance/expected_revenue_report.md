@@ -6,7 +6,7 @@ usually the end of the current month.
 An *expected revenue report* compiles all active leads in a sales pipeline that have a set expected
 closing date, and compares how sales teams are performing in a given time frame.
 
-![Close up of the expected closing date on a lead in the CRM app.](expected_revenue_report/expected-revenue-closing.png)
+![Close up of the expected closing date on a lead in the CRM app.](../../../../.gitbook/assets/expected-revenue-closing.png)
 
 By pulling a monthly expected revenue report, sales managers can see which team members are reaching
 their goals, and who may need additional assistance to close valuable deals.
@@ -91,7 +91,7 @@ the popover menu, or type the first few characters of the specific sales team's 
 find and select it as a parameter.
 
 ![Add Custom Filters pop-up window with custom filters configured for expected revenue
-report.](expected_revenue_report/custom-filters.png)
+report.](../../../../.gitbook/assets/custom-filters1.png)
 
 <a id="expected-revenue-report-view-results"></a>
 
@@ -102,7 +102,7 @@ all of the rules. In order to properly run the report, only records that match *
 of the following filters should be included. Before adding the filters, make sure all is
 selected in this field.
 
-![Emphasis on the match all filters option on the Add Custom Filter pop-up window.](expected_revenue_report/match-all-filters.png)
+![Emphasis on the match all filters option on the Add Custom Filter pop-up window.](../../../../.gitbook/assets/match-all-filters.png)
 
 At the bottom of the Add Custom Filter form, click Add.
 
@@ -130,7 +130,7 @@ The default view for the expected revenue report is the bar chart, stacked. To c
 different graph view, click one of the icons at the top-left of the report. While both the
 line chart and bar chart are available in stacked view, the pie chart is not.
 
-![Close up view of the graph icons on the Pipeline analysis report in the CRM app.](expected_revenue_report/graph-view-icons.png)
+![Close up view of the graph icons on the Pipeline analysis report in the CRM app.](../../../../.gitbook/assets/graph-view-icons.png)
 
 Xem danh sách
 
@@ -141,12 +141,12 @@ insights can be gleaned from the basic view.
 To switch to the list view, click the ≣ (list) icon at the top-right of the
 report.
 
-![Close up of the list view icon in the CRM app.](expected_revenue_report/list-icon.png)
+![Close up of the list view icon in the CRM app.](../../../../.gitbook/assets/list-icon1.png)
 
 To add additional metrics to the report, click the *additional options menu* indicated by the
 toggle icon at the top-right of the list.
 
-![Close up of the toggle icon in the CRM app.](expected_revenue_report/toggle-icon.png)
+![Close up of the toggle icon in the CRM app.](../../../../.gitbook/assets/toggle-icon.png)
 
 Select any additional metrics from the drop-down menu to add them to the list view. Some
 options that may be useful are Expected Closing and Probability.
@@ -158,7 +158,7 @@ dynamic table.
 
 To switch to the pivot view, click the Pivot icon at the top-right of the report.
 
-![Close up of the pivot view icon in the CRM app.](expected_revenue_report/pivot-view-icon.png)
+![Close up of the pivot view icon in the CRM app.](../../../../.gitbook/assets/pivot-view-icon.png)
 
 When the pivot view is selected for this report, the X-axis lists the stages in
 the pipeline, while the Y-axis defaults to group the results by their creation date. To switch

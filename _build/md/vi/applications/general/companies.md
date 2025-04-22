@@ -30,7 +30,7 @@ Go to Settings app ‣ Companies section ‣ Manage Companies. Then, either clic
 New, and fill in the form with the company's information, or select a pre-existing
 company to edit it.
 
-![Overview of a new company's form in Odoo.](companies/company-info.png)
+![Overview of a new company's form in Odoo.](../../.gitbook/assets/company-info.png)
 
 ### Chuyển đổi giữa các công ty
 
@@ -44,7 +44,7 @@ company only. To do so, on their forms, choose between:
 - *A blank field*: the record is shared within all companies.
 - *Adding a company*: the record is visible to users logged in to that specific company.
 
-![View of a product's form emphasizing the company field in Odoo Sales.](companies/product-form-company.png)
+![View of a product's form emphasizing the company field in Odoo Sales.](../../.gitbook/assets/product-form-company.png)
 
 When an environment is selected from the top menu, along with an additional company, records are
 shared between the two companies.
@@ -53,13 +53,13 @@ shared between the two companies.
 
 Các chi nhánh có thể được thêm vào công ty bằng cách đi đến Ứng dụng Cài đặt ‣ Phần Công ty ‣ Quản lý công ty. Sau đó, chọn công ty mong muốn từ danh sách. Từ biểu mẫu chi tiết công ty, mở tab Chi nhánh. Để thêm chi nhánh, nhấp Thêm một dòng và điền vào biểu mẫu bật lên Tạo chi nhánh xuất hiện.
 
-![Add a branch to a company with branches and add a line highlighted.](companies/add-branch.png)
+![Add a branch to a company with branches and add a line highlighted.](../../.gitbook/assets/add-branch.png)
 
 <a id="general-employee-access"></a>
 
 ## Quyền truy cập của nhân viên
 
-Once companies are created, manage the employees' [Access Rights](users/access_rights.md) for
+Once companies are created, manage the employees' [Access Rights](applications/general/users/access_rights.md) for
 *Multi Companies*.
 
 To access the *Access Rights*, navigate to Settings app ‣ Users section ‣ Manage
@@ -72,7 +72,7 @@ Multiple companies can be set for Allowed Companies, and *only one* can be set a
 Default Company.
 
 ![View of an user form emphasizing the multi companies field under the access rights tabs
-in Odoo.](companies/access-rights-multi-companies.png)
+in Odoo.](../../.gitbook/assets/access-rights-multi-companies.png)
 
 If an administrator has multiple companies activated on the database, and is editing a record, the
 editing occurs on the record's related company.
@@ -96,7 +96,7 @@ To set document formats according to each company, *activate* and *select* the r
 and, under the Settings app ‣ Companies section, click on Configure
 Document Layout and edit the information as needed.
 
-![View of the settings page emphasizing the document layout field in Odoo.](companies/document-layout.png)
+![View of the settings page emphasizing the document layout field in Odoo.](../../.gitbook/assets/document-layout.png)
 
 Company Details can be edited on the document layout. By default, this field is
 populated from the company information listed, when navigating here: Settings app
@@ -106,15 +106,15 @@ populated from the company information listed, when navigating here: Settings ap
 
 ## Giao dịch liên công ty
 
-First, activate the [developer mode](developer_mode.md#developer-mode). Then, make sure each one of the
+First, activate the [developer mode](applications/general/developer_mode.md#developer-mode). Then, make sure each one of the
 companies is properly set in relation to:
 
-- [Chart of Accounts](../finance/accounting/get_started/chart_of_accounts.md)
-- [Thuế](../finance/accounting/taxes.md)
-- [Vị trí tài chính](../finance/accounting/taxes/fiscal_positions.md)
-- [Sổ nhật ký](../finance/accounting/bank.md)
-- [Bản địa hoá tài chính](../finance/fiscal_localizations.md)
-- [Bảng giá](../sales/sales/products_prices/prices/pricing.md)
+- [Chart of Accounts](applications/finance/accounting/get_started/chart_of_accounts.md)
+- [Thuế](applications/finance/accounting/taxes.md)
+- [Vị trí tài chính](applications/finance/accounting/taxes/fiscal_positions.md)
+- [Sổ nhật ký](applications/finance/accounting/bank.md)
+- [Bản địa hoá tài chính](applications/finance/fiscal_localizations.md)
+- [Bảng giá](applications/sales/sales/products_prices/prices/pricing.md)
 
 Next, navigate to Settings app ‣ Companies section ‣ Manage Companies. Then,
 select the desired company from the list. On the company form, select the Inter-Company
@@ -140,15 +140,15 @@ options:
   \* The given option needs to be selected, so Automatic Validation appears in the
   configuration.
 
-![View of the settings page emphasizing the inter company transaction field in Odoo.](companies/inter-company-transactions.png)
+![View of the settings page emphasizing the inter company transaction field in Odoo.](../../.gitbook/assets/inter-company-transactions.png)
 
 #### NOTE
 Products **must** be configured as Can be sold and shared between the companies. See
-[Loại sản phẩm](../inventory_and_mrp/inventory/product_management/configure/type.md).
+[Loại sản phẩm](applications/inventory_and_mrp/inventory/product_management/configure/type.md).
 
 #### SEE ALSO
-- [Hướng dẫn về đa công ty](../../developer/howtos/company.md)
-- [Hệ thống đa tiền tệ](../finance/accounting/get_started/multi_currency.md)
+- [Hướng dẫn về đa công ty](developer/howtos/company.md)
+- [Hệ thống đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md)
 
-* [Digest emails](companies/digest_emails.md)
-* [Mẫu Email](companies/email_template.md)
+* [Digest emails](applications/general/companies/digest_emails.md)
+* [Mẫu Email](applications/general/companies/email_template.md)

@@ -45,7 +45,7 @@ Edit, and a detailed applicant form loads. Refer to the [New applicant form](#re
 When doing a quick add, clicking away from an empty card, or clicking the <i class="fa fa-trash-o"></i>
 (trash) icon, discards the applicant.
 
-![All the fields for a new applicant form entered when using the Quick Add option.](add-new-applicants/quick-add.png)
+![All the fields for a new applicant form entered when using the Quick Add option.](../../../.gitbook/assets/quick-add.png)
 
 <a id="recruitment-create-new-applicant"></a>
 
@@ -61,7 +61,7 @@ Complete the fields in the following sections on the new applicant form.
 #### NOTE
 Depending on installed applications and configurations, some fields may **not** be displayed.
 
-![All the fields for a new applicant form entered.](add-new-applicants/new-applicant.png)
+![All the fields for a new applicant form entered.](../../../.gitbook/assets/new-applicant.png)
 
 <a id="recruitment-applicant-details"></a>
 
@@ -82,7 +82,7 @@ Depending on installed applications and configurations, some fields may **not** 
   diploma, depending on the country.
 - Interviewers: using the drop-down menu, select the people to conduct the interviews.
   The selected people **must** have either *recruiter* or *officer* rights configured for the
-  *Recruitment* application to appear in the drop-down list. Refer to the [Access rights](../../general/users/access_rights.md) documentation for more information.
+  *Recruitment* application to appear in the drop-down list. Refer to the [Access rights](applications/general/users/access_rights.md) documentation for more information.
 - Recruiter: select the user responsible for the entire recruitment process for the job
   position.
 - Evaluation: represents a rating for the applicant: one star (<i class="fa fa-star"></i>
@@ -141,4 +141,4 @@ field.
 ### Tab kỹ năng
 
 Skills can be added to the applicant's card. For details on adding skills, refer to the
-[Create new employees](../employees/new_employee.md#employees-skills) document.
+[Create new employees](applications/hr/employees/new_employee.md#employees-skills) document.

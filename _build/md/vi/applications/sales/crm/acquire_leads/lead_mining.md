@@ -9,7 +9,7 @@ criteria, such as the country, the company size, and the industry.
 To get started, go to CRM app ‣ Configuration ‣ Settings, and tick the
 Lead Mining checkbox to activate the feature. Then, click Save.
 
-![Activate lead mining in Odoo CRM settings.](lead_mining/activate-lead-mining.png)
+![Activate lead mining in Odoo CRM settings.](../../../../.gitbook/assets/activate-lead-mining.png)
 
 ## Tạo lead
 
@@ -21,12 +21,12 @@ Lead mining requests are also available through CRM app ‣ Configuration ‣ Le
 Mining Requests, or through CRM app ‣ Leads ‣ Leads, where the
 Generate Leads button is also available.
 
-![The Generate Leads button to use the lead mining feature.](lead_mining/generate-leads-button.png)
+![The Generate Leads button to use the lead mining feature.](../../../../.gitbook/assets/generate-leads-button.png)
 
 Click the Generate Leads button, and a pop-up window appears, offering a variety of
 criteria by which to generate leads.
 
-![The pop-up window with the selection criteria in order to generate leads in Odoo.](lead_mining/generate-leads-popup.png)
+![The pop-up window with the selection criteria in order to generate leads in Odoo.](../../../../.gitbook/assets/generate-leads-popup.png)
 
 Choose to generate leads for Companies to get company information only, or choose
 Companies and their Contacts to get company information and individual employee contact information.
@@ -60,7 +60,7 @@ additional information regarding the lead, select one from the list, and click t
 In the chatter thread for the lead, additional information is provided. This can include the number
 of employees, the technology used by the company, the timezone, and direct contact information.
 
-![The chatter thread of a newly generated lead.](lead_mining/generated-lead.png)
+![The chatter thread of a newly generated lead.](../../../../.gitbook/assets/generated-lead.png)
 
 #### NOTE
 If Leads are **not** enabled for the database, then leads are generated as
@@ -71,7 +71,7 @@ To enable the Leads feature, navigate to CRM app ‣ Configuration
 
 ## Định giá
 
-Lead mining is an *In-App Purchase* feature, and each generated lead costs one [credit](../../../essentials/in_app_purchase.md#in-app-purchase-credits).
+Lead mining is an *In-App Purchase* feature, and each generated lead costs one [credit](applications/essentials/in_app_purchase.md#in-app-purchase-credits).
 
 #### IMPORTANT
 Generating Companies and their Contacts costs one additional credit for each contact generated. See here for complete
@@ -85,7 +85,7 @@ Credits may also be purchased by navigating to the Settings app. In the
 Contacts section, under the Odoo IAP feature, click View My
 Services.
 
-![Buy credits in the Odoo IAP settings.](lead_mining/view-my-services-setting.png)
+![Buy credits in the Odoo IAP settings.](../../../../.gitbook/assets/view-my-services-setting.png)
 
 #### NOTE
 Enterprise Odoo users with a valid subscription get free credits to test  features before
@@ -93,4 +93,4 @@ purchasing more credits for the database. This includes demo/training databases,
 databases, and one-app-free databases.
 
 #### SEE ALSO
-[Mua hàng trong ứng dụng (IAP)](../../../essentials/in_app_purchase.md)
+[Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)

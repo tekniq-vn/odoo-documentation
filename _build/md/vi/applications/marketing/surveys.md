@@ -16,7 +16,7 @@ shifting market trends.
 Upon opening the *Surveys* application, Odoo presents the main dashboard of the *Surveys*
 application, otherwise known as the Surveys page.
 
-![The Odoo Surveys application dashboard in the default Kanban view.](surveys/surveys-dashboard.png)
+![The Odoo Surveys application dashboard in the default Kanban view.](../../.gitbook/assets/surveys-dashboard.png)
 
 In the upper-left corner, there is a New button. When clicked, Odoo presents a blank
 survey form that can be used to create a survey.
@@ -71,7 +71,7 @@ Those buttons are as follows:
 
   Once modifications are complete, click Send to send that email invite to all the email
   addresses/contacts listed in the Recipients field.
-  ![The 'Share a Survey' pop-up window in Odoo Surveys with the Send by Email toggled on.](surveys/share-survey-popup-email-toggle.png)
+  ![The 'Share a Survey' pop-up window in Odoo Surveys with the Send by Email toggled on.](../../.gitbook/assets/share-survey-popup-email-toggle.png)
 
   #### NOTE
   The Send by Email toggle switch is **not** present when the survey line has zero
@@ -109,13 +109,13 @@ The options are:
 - Color: users can opt to choose a color to add to the survey line on the dashboard for
   added organizational purposes, if needed.
 
-![The three-dot drop-down menu of options that appears on the Odoo Surveys dashboard.](surveys/three-dot-dropdown.png)
+![The three-dot drop-down menu of options that appears on the Odoo Surveys dashboard.](../../.gitbook/assets/three-dot-dropdown1.png)
 
 Beneath the buttons that are located to the far-right of the survey lines, there is an *Activities*
 button, represented by a 🕘 (clock) icon. When clicked, a mini pop-up window appears,
 from which activities related to that particular survey can be scheduled and customized.
 
-![The Schedule Activities drop-down menu that appears on the Odoo Surveys dashboard.](surveys/schedule-activities-dropdown.png)
+![The Schedule Activities drop-down menu that appears on the Odoo Surveys dashboard.](../../.gitbook/assets/schedule-activities-dropdown.png)
 
 ### Xem danh sách
 
@@ -124,7 +124,7 @@ option available in the upper-right corner, represented by a ≣ (bars) icon.
 
 When the ≣ (bars) icon is clicked, the survey related data is displayed in a list view.
 
-![The list view option located on the Odoo Surveys application dashboard.](surveys/list-view.png)
+![The list view option located on the Odoo Surveys application dashboard.](../../.gitbook/assets/list-view2.png)
 
 The columns shown on the *Surveys* app dashboard, while in list view, are as follows:
 
@@ -141,7 +141,7 @@ To have the *Surveys* application dashboard display nothing but the activities a
 surveys in the database, click the 🕘 (clock) icon to the far-right of the other view
 options, located in the upper-right corner.
 
-![The activities view option located on the Odoo Surveys dashboard.](surveys/activities-view.png)
+![The activities view option located on the Odoo Surveys dashboard.](../../.gitbook/assets/activities-view.png)
 
 Doing so reveals a table with rows and columns. The rows show the different surveys in the database,
 and the columns depict the various activity types.
@@ -156,7 +156,7 @@ Learn about all the different options and configurations that can be utilized wh
 in Odoo.
 
 #### SEE ALSO
-[Create surveys](surveys/create.md)
+[Create surveys](applications/marketing/surveys/create.md)
 
 ## Scoring surveys
 
@@ -164,7 +164,7 @@ Discover how to measure a survey participant's performance, or overall satisfact
 detailed (and fully customizable) survey scoring options.
 
 #### SEE ALSO
-[Scoring surveys](surveys/scoring.md)
+[Scoring surveys](applications/marketing/surveys/scoring.md)
 
 ## Create questions
 
@@ -172,7 +172,7 @@ With Odoo *Surveys*, there are many question types and options to choose from, p
 to create any kind of unique survey, questionnarire, and/or certification.
 
 #### SEE ALSO
-[Create questions](surveys/questions.md)
+[Create questions](applications/marketing/surveys/questions.md)
 
 ## Live Session surveys
 
@@ -181,7 +181,7 @@ presentations, where participants' real-time responses can be used to dictate wh
 goes next.
 
 #### SEE ALSO
-[Live Session surveys](surveys/live_session.md)
+[Live Session surveys](applications/marketing/surveys/live_session.md)
 
 ## Survey analysis
 
@@ -190,10 +190,10 @@ Fortuantely, the in-depth reporting pages and options available in Odoo *Surveys
 ways to examine everything related to surveys, and their submitted responses.
 
 #### SEE ALSO
-[Survey analysis](surveys/analysis.md)
+[Survey analysis](applications/marketing/surveys/analysis.md)
 
-* [Create surveys](surveys/create.md)
-* [Scoring surveys](surveys/scoring.md)
-* [Create questions](surveys/questions.md)
-* [Live Session surveys](surveys/live_session.md)
-* [Survey analysis](surveys/analysis.md)
+* [Create surveys](applications/marketing/surveys/create.md)
+* [Scoring surveys](applications/marketing/surveys/scoring.md)
+* [Create questions](applications/marketing/surveys/questions.md)
+* [Live Session surveys](applications/marketing/surveys/live_session.md)
+* [Survey analysis](applications/marketing/surveys/analysis.md)

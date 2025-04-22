@@ -25,7 +25,7 @@ on Validation section to download the PDF of those selected documents automatica
 validating the Operation Type. For details on what each of the checkbox options do, jump
 to the related section.
 
-![Show the *Print on Validation* option in the "Pick" *Operation Type*.](print_on_validation/print-on-validation.png)
+![Show the *Print on Validation* option in the "Pick" *Operation Type*.](../../../../../.gitbook/assets/print-on-validation.png)
 
 <a id="inventory-shipping-receiving-delivery-slip"></a>
 
@@ -35,8 +35,8 @@ A *delivery slip* contains recipient and package details, usually placed inside 
 package.
 
 #### SEE ALSO
-- [Bảng kê hàng hoá](../picking_methods/batch.md#inventory-warehouses-storage-barcode-picking)
-- [Nhãn theo dõi](labels.md)
+- [Bảng kê hàng hoá](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.md#inventory-warehouses-storage-barcode-picking)
+- [Nhãn theo dõi](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
 
 After [enabling the Delivery Slip setting](#inventory-shipping-receiving-print-setup) in the
 Hardware tab configuration options, clicking Validate on the desired
@@ -45,7 +45,7 @@ operation type downloads a PDF of the delivery slip.
 The delivery slip shows products, quantities, the delivery order reference number, and the total
 order weight.
 
-![Example delivery slip.](print_on_validation/delivery-slip.png)
+![Example delivery slip.](../../../../../.gitbook/assets/delivery-slip.png)
 
 <a id="inventory-shipping-receiving-return-slip"></a>
 
@@ -62,7 +62,7 @@ operation type downloads a PDF of the return slip.
 The return slip displays the company's return address, along with barcodes for both the order and
 the return operation.
 
-![Example return slip.](print_on_validation/return-slip.png)
+![Example return slip.](../../../../../.gitbook/assets/return-slip.png)
 
 <a id="inventory-shipping-receiving-product-labels"></a>
 
@@ -124,7 +124,7 @@ To automatically print a *carrier label* with the recipient address, tracking nu
 details for specific third-party shipping carriers, complete the following setup:
 
 1. Tick the Carrier Labels checkbox in the [operation type settings](#inventory-shipping-receiving-print-setup).
-2. [Connect a printer](../../../../general/iot/devices/printer.md) to Odoo's *IoT* app.
+2. [Connect a printer](applications/general/iot/devices/printer.md) to Odoo's *IoT* app.
 3. [Assign the carrier label to the printer](#inventory-shipping-receiving-assign-printer).
 4. Configure the shipping method's [label type](#inventory-shipping-receiving-label-type).
 
@@ -132,12 +132,12 @@ details for specific third-party shipping carriers, complete the following setup
 
 ### Assign printer
 
-Refer to the [Connect a printer](../../../../general/iot/devices/printer.md) documentation for
+Refer to the [Connect a printer](applications/general/iot/devices/printer.md) documentation for
 details on connecting a printer to Odoo's *IoT* app. Upon completion, assign the carrier label to
 the printer, by navigating to IoT app ‣ Devices, and selecting the desired
 printer.
 
-![Show a list of IoT devices.](print_on_validation/select-printer.png)
+![Show a list of IoT devices.](../../../../../.gitbook/assets/select-printer.png)
 
 In the printer configuration form, go to the Printer Reports tab to configure the types
 of documents the printer automatically prints. Click Add a line to open the
@@ -147,7 +147,7 @@ select Shipping Labels.
 #### NOTE
 The Shipping Documents report is for [export documents](#inventory-shipping-receiving-export-doc).
 
-![Show carrier label report added to the *Printer Reports*.](print_on_validation/printer-report.png)
+![Show carrier label report added to the *Printer Reports*.](../../../../../.gitbook/assets/printer-report.png)
 
 After adding the Shipping Labels report in the Printer Reports tab, ensure
 the Report Type matches the IoT-connected printer's type.
@@ -159,7 +159,7 @@ the Report Type matches the IoT-connected printer's type.
 
 ### Shipping carrier label type
 
-Next, complete the setup for the [third-party shipping connector](third_party_shipper.md). After that, go to Inventory app ‣
+Next, complete the setup for the [third-party shipping connector](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md). After that, go to Inventory app ‣
 Configuration ‣ Shipping Methods, and select the desired shipping method.
 
 On the shipping method configuration form, in the [carrier name] Configuration tab,
@@ -168,7 +168,7 @@ ensure the Label Format matches the [report type assigned earlier](#inventory-sh
 - For laser printers, set the Label Format to PDF.
 - For Zebra printers, set the Label Format to ZPL2.
 
-![Show the *Label Type* field on FedEx's shipping method configuration page.](print_on_validation/label-type.png)
+![Show the *Label Type* field on FedEx's shipping method configuration page.](../../../../../.gitbook/assets/label-type.png)
 
 ### Example carrier label
 
@@ -176,7 +176,7 @@ After validating the operation, the carrier label is generated in the chatter, a
 IoT-connected printer.
 
 #### SEE ALSO
-[Print carrier labels](labels.md)
+[Print carrier labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
 
 <a id="inventory-shipping-receiving-export-doc"></a>
 
@@ -186,7 +186,7 @@ An *export document*, required by customs to ship packages from one country to a
 automatically printed in Odoo by following these steps:
 
 1. Tick the Export Documents checkbox in the [operation type settings](#inventory-shipping-receiving-print-setup).
-2. [Connect a printer](../../../../general/iot/devices/printer.md) to Odoo's *IoT* app.
+2. [Connect a printer](applications/general/iot/devices/printer.md) to Odoo's *IoT* app.
 3. Assign the export document to the printer.
 
 ### Assign printer
@@ -210,7 +210,7 @@ Operation Types, and select the desired operation type. Then, go to the Hardware
 and tick the Package Contents checkbox.
 
 #### IMPORTANT
-If the option is not available, enable the [Packages](../../product_management/configure/package.md) feature, by going to Inventory app
+If the option is not available, enable the [Packages](applications/inventory_and_mrp/inventory/product_management/configure/package.md) feature, by going to Inventory app
 ‣ Configuration ‣ Settings, ticking the Packages checkbox, and clicking
 Save.
 
@@ -225,7 +225,7 @@ A *package label* that shows the package's barcode and pack date can be configur
 clicking the *Put in Pack* button.
 
 #### IMPORTANT
-The Put in Pack button is available **only** when the [Packages](../../product_management/configure/package.md) feature is enabled in
+The Put in Pack button is available **only** when the [Packages](applications/inventory_and_mrp/inventory/product_management/configure/package.md) feature is enabled in
 Inventory app ‣ Configuration ‣ Settings.
 
 After it is enabled, the Put in Pack button is available on all inventory operations

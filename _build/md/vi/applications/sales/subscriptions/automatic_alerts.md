@@ -26,12 +26,12 @@ behaviors. Create a new action instead.*
 
 To create a new automation rule, click New.
 
-![The Automation Rules page in the Odoo Subscriptions application.](automatic_alerts/automation-rules-page.png)
+![The Automation Rules page in the Odoo Subscriptions application.](../../../.gitbook/assets/automation-rules-page.png)
 
 Clicking New reveals a blank Automation Rules form with numerous fields to
 configure.
 
-![A sample Automation Rules form in the Odoo Subscriptions application.](automatic_alerts/automation-rules-form.png)
+![A sample Automation Rules form in the Odoo Subscriptions application.](../../../.gitbook/assets/automation-rules-form.png)
 
 ### Automation rule form fields
 
@@ -113,9 +113,9 @@ subscriptions, regardless of possible timed conditions.
 
 #### NOTE
 Sending a SMS text message in Odoo requires In-App Purchase (IAP) credit or tokens. For more
-information on , visit [Mua hàng trong ứng dụng (IAP)](../../essentials/in_app_purchase.md).
+information on , visit [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md).
 For more information on sending SMS messages, visit
-[SMS Marketing](../../marketing/sms_marketing.md).
+[SMS Marketing](applications/marketing/sms_marketing.md).
 
 If Timed Condition is selected in the Trigger On field, the following fields
 appear:
@@ -145,6 +145,6 @@ Specific Users field appears beneath it, where a specific employee(s) can be cho
 as the assignee(s) for the configured activity.
 
 #### SEE ALSO
-- [Đăng ký](../subscriptions.md)
-- [Gói cước đăng ký](plans.md)
-- [Mua hàng trong ứng dụng (IAP)](../../essentials/in_app_purchase.md)
+- [Đăng ký](applications/sales/subscriptions.md)
+- [Gói cước đăng ký](applications/sales/subscriptions/plans.md)
+- [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)

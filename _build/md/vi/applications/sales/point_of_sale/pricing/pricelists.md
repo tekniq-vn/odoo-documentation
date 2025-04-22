@@ -8,17 +8,17 @@ customers, or offer discounts when set quantities are ordered.
 
 ## Cấu hình
 
-Navigate to the [general POS app settings](../configuration.md#configuration-settings) and ensure
+Navigate to the [general POS app settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and ensure
 Flexible Pricelists are enabled under the Pricing section.
 
 [Multiple prices per product](#pricelists-simple) is the default pricelist option for setting
 simple fixed price rules per product. Select [Advanced price rules (discounts, formulas)](#pricelists-advanced) to apply price rules to multiple products at once and to compute prices
 dynamically using percentage discounts or more complex formulas in addition to setting fixed prices.
 
-![Enabling pricelists in the general P0S settings](pricelists/settings.png)
+![Enabling pricelists in the general P0S settings](../../../../.gitbook/assets/settings2.png)
 
 #### NOTE
-The selected pricelist type applies to the entire database, including the [Sales](../../sales/products_prices/prices/pricing.md) and [eCommerce](../../../websites/ecommerce/products/price_management.md#ecommerce-pricelists)
+The selected pricelist type applies to the entire database, including the [Sales](applications/sales/sales/products_prices/prices/pricing.md) and [eCommerce](applications/websites/ecommerce/products/price_management.md#ecommerce-pricelists)
 apps.
 
 <a id="pricelists-create"></a>
@@ -44,7 +44,7 @@ necessary, on one or several conditions. To add a new price rule to a pricelist:
      and End Date columns.
 3. Add the Price to be applied when the conditions are met (if any).
 
-![Setup form of a multiple prices pricelist](pricelists/multiple-prices.png)
+![Setup form of a multiple prices pricelist](../../../../.gitbook/assets/multiple-prices.png)
 
 <a id="pricelists-advanced"></a>
 
@@ -64,7 +64,7 @@ prices. To add a new price rule to a pricelist, click Add a line. In the pop-up 
      Pricelist). You can then:
      - Apply a percentage Discount or mark-up.
      - Add an Extra Fee (e.g., $ `5.00`) or subtract a fixed amount (e.g., $ `-5.00`).
-     - Define a [Rounding Method](cash_rounding.md) by forcing the price after
+     - Define a [Rounding Method](applications/sales/point_of_sale/pricing/cash_rounding.md) by forcing the price after
        Discount to be a multiple of the value set. The Extra Fee is applied
        afterward.
      - Specify the minimum (e.g., $ `20.00` ) and maximum (e.g., $ `50.00` ) profit
@@ -78,18 +78,18 @@ prices. To add a new price rule to a pricelist, click Add a line. In the pop-up 
    Min. Quantity field or a specific period during which the pricelist should be
    applied by using the Validity fields.
 
-![Setup form to configure an advanced pricelist](pricelists/price-rules.png)
+![Setup form to configure an advanced pricelist](../../../../.gitbook/assets/price-rules.png)
 
 ### Chọn bảng giá
 
-Go to the [specific POS settings](../configuration.md#configuration-settings) and add all the available
+Go to the [specific POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and add all the available
 pricelists in the Available field. Then, set its **default pricelist** in the
 Default field.
 
-When you [open a POS session](../../point_of_sale.md#pos-session-start), click the **pricelists** button, and select
+When you [open a POS session](applications/sales/point_of_sale.md#pos-session-start), click the **pricelists** button, and select
 the desired pricelist from the list.
 
-![Button to select a pricelist on the POS frontend](pricelists/pricelist-button.png)
+![Button to select a pricelist on the POS frontend](../../../../.gitbook/assets/pricelist-button.png)
 
 #### NOTE
 - Multiple pricelists must be selected for the **pricelist button** to be displayed.
@@ -97,5 +97,5 @@ the desired pricelist from the list.
   **not** be adjusted.
 
 #### SEE ALSO
-- [Pricelists, discounts, and formulas](../../sales/products_prices/prices/pricing.md)
-- [How to use pricelists in an ecommerce environment](../../../websites/ecommerce/products/price_management.md#ecommerce-pricelists)
+- [Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)
+- [How to use pricelists in an ecommerce environment](applications/websites/ecommerce/products/price_management.md#ecommerce-pricelists)

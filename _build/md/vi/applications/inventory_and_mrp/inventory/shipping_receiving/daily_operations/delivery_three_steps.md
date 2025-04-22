@@ -8,19 +8,19 @@ Trong quy trình giao hàng 3 bước mặc định, các sản phẩm thuộc l
 
 ## Cấu hình
 
-To change delivery settings from [one step](receipts_delivery_one_step.md) to three steps, make
+To change delivery settings from [one step](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md) to three steps, make
 sure the *Multi-Step Routes* option is enabled in Inventory app ‣ Configuration
 ‣ Settings ‣ Warehouse. Note that activating Multi-Step Routes will also activate
 *Storage Locations*.
 
-![Activate multi-step routes and storage locations in inventory settings.](delivery_three_steps/delivery-three-steps-multi-step-routes.png)
+![Activate multi-step routes and storage locations in inventory settings.](../../../../../.gitbook/assets/delivery-three-steps-multi-step-routes.png)
 
 Next, the warehouse needs to be configured for three step deliveries. To do this, go to
 Inventory app ‣ Configuration ‣ Warehouses, and click on the
 warehouse to edit. Then, select Pack goods, send goods in output and then
 deliver (3 steps) for Outgoing Shipments.
 
-![Set outgoing shipment option to deliver in three steps.](delivery_three_steps/delivery-three-steps-outgoing-shipments.png)
+![Set outgoing shipment option to deliver in three steps.](../../../../../.gitbook/assets/delivery-three-steps-outgoing-shipments.png)
 
 Activating three-step receipts and deliveries creates two new internal locations: a *Packing Zone*
 (WH/Packing Zone), and *Output* (WH/Output). To rename these locations, go to
@@ -39,7 +39,7 @@ A Delivery smart button appears in the top right of the quotation form. Clicking
 opens the picking order to move the ordered product from `WH/Stock` to `WH/Packing Zone`.
 
 ![After confirming the sales order, the Delivery smart button appears showing three items
-associated with it.](delivery_three_steps/delivery-three-steps-smart-button.png)
+associated with it.](../../../../../.gitbook/assets/delivery-three-steps-smart-button.png)
 
 ### Process a picking
 
@@ -54,7 +54,7 @@ Click on the picking to process. If the product is in stock, Odoo will automatic
 product. Click Validate to mark the picking as done, and complete the transfer to the
 Packing Zone.
 
-![Picking order operation showing source location and destination location.](delivery_three_steps/delivery-three-steps-picking-order.png)
+![Picking order operation showing source location and destination location.](../../../../../.gitbook/assets/delivery-three-steps-picking-order.png)
 
 ### Process a packing
 
@@ -67,7 +67,7 @@ packing order generated from the previously confirmed sales order.
 Click on the packing order associated with the sales order, then click on Validate to
 complete the packing.
 
-![Packing order operation showing source location and destination location.](delivery_three_steps/delivery-three-steps-packing-order.png)
+![Packing order operation showing source location and destination location.](../../../../../.gitbook/assets/delivery-three-steps-packing-order.png)
 
 Once the packing order is validated, the product leaves the WH/Packing Zone location and
 moves to the WH/Output location. Then, the status of the document will change to
@@ -86,7 +86,7 @@ the packing, and the delivery.
 Click the delivery (WH/OUT) transfer to open the delivery order. Then, click Validate.
 
 ![Click Validate on the delivery order to transfer the product from the output location to
-the customer location.](delivery_three_steps/delivery-three-steps-delivery-order.png)
+the customer location.](../../../../../.gitbook/assets/delivery-three-steps-delivery-order.png)
 
 Once the delivery order is validated, the product leaves the WH/Output location and
 moves to the Partners/Customers location. Then, the status of the document will change

@@ -21,7 +21,7 @@ Another way to quickly add all expenses that are not on a expense report, is to 
 Create Report button, *without* selecting any expenses, and Odoo automatically selects
 all expenses with a status of To Submit that are not already on a report.
 
-![Select the expenses to submit, then create the report.](expense_reports/create-report.png)
+![Select the expenses to submit, then create the report.](../../../.gitbook/assets/create-report.png)
 
 #### NOTE
 Any expense can be selected from the My Expenses list, except for expenses with a
@@ -51,7 +51,7 @@ information listed on the individual expenses.
 Next, select a Manager from the drop-down menu to assign a manager to review the report.
 If needed, update the Journal field, using the drop-down menu.
 
-![Enter a short description and select a manager for the report.](expense_reports/expense-report-summary.png)
+![Enter a short description and select a manager for the report.](../../../.gitbook/assets/expense-report-summary.png)
 
 If some expenses are missing from the report, they can still be added from this report form. To do
 so, click Add a line at the bottom of the Expense tab.
@@ -60,13 +60,13 @@ An Add: Expense Lines pop-up window appears, displaying all the available expens
 a To Submit status) that can be added to the report.
 
 If a new expense needs to be added that does **not** appear on the list, click New to
-[create a new expense](log_expenses.md) and add it to the report.
+[create a new expense](applications/finance/expenses/log_expenses.md) and add it to the report.
 
 Tick the checkbox next to each expense being added, then click Select.
 
 Doing so removes the pop-up window, and the items now appear on the report.
 
-![Add more expenses to the report before submitting.](expense_reports/add-an-expense-line.png)
+![Add more expenses to the report before submitting.](../../../.gitbook/assets/add-an-expense-line.png)
 
 #### NOTE
 Expense reports can be created in one of three places:
@@ -96,7 +96,7 @@ Submitted status do not.
 The To Submit expenses are identifiable by the To Submit status, and by the
 blue text, while all other expense text appears in black.
 
-![Submit the report to the manager.](expense_reports/expense-status.png)
+![Submit the report to the manager.](../../../.gitbook/assets/expense-status.png)
 
 #### NOTE
 The status of each report is shown in the Status column. If the Status
@@ -108,5 +108,5 @@ Click on a report to open it, then click Submit To Manager. After submitting a r
 the next step is to wait for the manager to approve it.
 
 #### IMPORTANT
-[Approving](approve_expenses.md) expenses, [posting](post_expenses.md) expenses, and [reimbursing](reimburse.md) expenses
-are **only** for users with the appropriate [access rights documentation](../../general/users.md).
+[Approving](applications/finance/expenses/approve_expenses.md) expenses, [posting](applications/finance/expenses/post_expenses.md) expenses, and [reimbursing](applications/finance/expenses/reimburse.md) expenses
+are **only** for users with the appropriate [access rights documentation](applications/general/users.md).

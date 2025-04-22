@@ -1,0 +1,15 @@
+*.pyc
+*.mo
+.*
+!.gitattributes
+!.gitbook
+!.gitignore
+
+# Sphinx build files
+# _build/
+
+# Dependencies
+odoo-docs
+
+# Virtualenv
+venv

@@ -1,47 +1,44 @@
 # Payment terminals
 
-Connecting and integrating a payment terminal with your POS system allows you to accept multiple
+Connecting and integrating a payment terminal with your POS system allows you to accept multiple\
 payment options, including credit and debit cards, making the payment process more efficient.
-
-<a id="terminals-configuration"></a>
 
 ## Cấu hình
 
-Go to the [application settings](applications/sales/point_of_sale/configuration.md#configuration-settings), scroll down to the
+Go to the [application settings](applications/sales/point_of_sale/configuration.md#configuration-settings), scroll down to the\
 Payment Terminals section, and tick your terminal's checkbox.
 
 ![checkbox in the settings to enable a payment terminal](../../../../.gitbook/assets/settings-pt.png)
 
 Then, follow the corresponding documentation to configure your device:
 
-- [Adyen configuration](applications/sales/point_of_sale/payment_methods/terminals/adyen.md)
-- [Ingenico configuration](applications/sales/point_of_sale/payment_methods/terminals/ingenico.md)
-- [Mercado Pago configuration](applications/sales/point_of_sale/payment_methods/terminals/mercado_pago.md)
-- [Razorpay configuration](applications/sales/point_of_sale/payment_methods/terminals/razorpay.md)
-- [SIX configuration](applications/sales/point_of_sale/payment_methods/terminals/six.md)
-- [Stripe configuration](applications/sales/point_of_sale/payment_methods/terminals/stripe.md)
-- [Vantiv configuration](applications/sales/point_of_sale/payment_methods/terminals/vantiv.md)
-- [Viva Wallet configuration](applications/sales/point_of_sale/payment_methods/terminals/viva_wallet.md)
-- [Worldline configuration](applications/sales/point_of_sale/payment_methods/terminals/worldline.md)
+* [Adyen configuration](applications/sales/point_of_sale/payment_methods/terminals/adyen.md)
+* [Ingenico configuration](applications/sales/point_of_sale/payment_methods/terminals/ingenico.md)
+* [Mercado Pago configuration](applications/sales/point_of_sale/payment_methods/terminals/mercado_pago.md)
+* [Razorpay configuration](applications/sales/point_of_sale/payment_methods/terminals/razorpay.md)
+* [SIX configuration](applications/sales/point_of_sale/payment_methods/terminals/six.md)
+* [Stripe configuration](applications/sales/point_of_sale/payment_methods/terminals/stripe.md)
+* [Vantiv configuration](applications/sales/point_of_sale/payment_methods/terminals/vantiv.md)
+* [Viva Wallet configuration](applications/sales/point_of_sale/payment_methods/terminals/viva_wallet.md)
+* [Worldline configuration](applications/sales/point_of_sale/payment_methods/terminals/worldline.md)
 
-Once the terminal is configured, you can [create the corresponding payment method and add it to
+Once the terminal is configured, you can [create the corresponding payment method and add it to\
 the POS](applications/sales/point_of_sale/payment_methods.md).
 
 ## Pay with a payment terminal
 
-When processing a payment, select the terminal's payment method. Check the amount and
-click on Send. Once the payment is successful, the status changes to Payment
+When processing a payment, select the terminal's payment method. Check the amount and\
+click on Send. Once the payment is successful, the status changes to Payment\
 Successful.
 
 #### NOTE
-- In case of connection issues between Odoo and the payment terminal, force the payment by
-  clicking on Force Done, which allows you to validate the order.
-  <br/>
-  This option is only available after receiving an error message informing you that the
-  connection failed.
-  <br/>
-- To cancel the payment request, click on Cancel.
 
+* In case of connection issues between Odoo and the payment terminal, force the payment by\
+  clicking on Force Done, which allows you to validate the order.\
+  This option is only available after receiving an error message informing you that the\
+  connection failed.\
+
+* To cancel the payment request, click on Cancel.
 * [Adyen](applications/sales/point_of_sale/payment_methods/terminals/adyen.md)
 * [Ingenico](applications/sales/point_of_sale/payment_methods/terminals/ingenico.md)
 * [Mercado Pago](applications/sales/point_of_sale/payment_methods/terminals/mercado_pago.md)

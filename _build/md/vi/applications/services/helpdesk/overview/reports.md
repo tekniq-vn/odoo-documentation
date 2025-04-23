@@ -56,7 +56,7 @@ Employees ‣ Company Working Hours.
 ### Phân tích trạng thái SLA
 
 The *SLA Status Analysis* report (Helpdesk app ‣ Reporting ‣ SLA Status
-Analysis) [analyzes the performance](applications/services/helpdesk/overview/sla.md#helpdesk-analyze-sla-performance) of individual SLA
+Analysis) [analyzes the performance](sla.md#helpdesk-analyze-sla-performance) of individual SLA
 (Service Level Agreement) policies.
 
 By default, this report is filtered to show the number of  failed, in progress, and the number
@@ -80,7 +80,7 @@ Measures button, and select one or more options from the drop-down menu:
 - Count: number of tickets in total.
 
 #### SEE ALSO
-[Service Level Agreements (SLA)](applications/services/helpdesk/overview/sla.md)
+[Service Level Agreements (SLA)](sla.md)
 
 ### Đánh giá của khách hàng
 
@@ -99,7 +99,7 @@ The *Customer Ratings* report is displayed in a Kanban view by default, but can 
 in graph, list, or pivot view.
 
 #### SEE ALSO
-[Ratings](applications/services/helpdesk/overview/ratings.md)
+[Ratings](ratings.md)
 
 ## View and filter options
 
@@ -168,5 +168,5 @@ To create and save a new *Favorites* configuration on a report, follow the steps
 ![View of the save favorites option in Odoo Helpdesk.](../../../../.gitbook/assets/save-filters.png)
 
 #### SEE ALSO
-- [Start receiving tickets](applications/services/helpdesk/overview/receiving_tickets.md)
-- [Odoo reporting](applications/essentials/reporting.md)
+- [Start receiving tickets](receiving_tickets.md)
+- [Odoo reporting](../../../essentials/reporting.md)

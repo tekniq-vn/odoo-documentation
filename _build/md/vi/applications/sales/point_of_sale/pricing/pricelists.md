@@ -8,7 +8,7 @@ customers, or offer discounts when set quantities are ordered.
 
 ## Cấu hình
 
-Navigate to the [general POS app settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and ensure
+Navigate to the [general POS app settings](../configuration.md#configuration-settings) and ensure
 Flexible Pricelists are enabled under the Pricing section.
 
 [Multiple prices per product](#pricelists-simple) is the default pricelist option for setting
@@ -18,7 +18,7 @@ dynamically using percentage discounts or more complex formulas in addition to s
 ![Enabling pricelists in the general P0S settings](../../../../.gitbook/assets/settings2.png)
 
 #### NOTE
-The selected pricelist type applies to the entire database, including the [Sales](applications/sales/sales/products_prices/prices/pricing.md) and [eCommerce](applications/websites/ecommerce/products/price_management.md#ecommerce-pricelists)
+The selected pricelist type applies to the entire database, including the [Sales](../../sales/products_prices/prices/pricing.md) and [eCommerce](../../../websites/ecommerce/products/price_management.md#ecommerce-pricelists)
 apps.
 
 <a id="pricelists-create"></a>
@@ -64,7 +64,7 @@ prices. To add a new price rule to a pricelist, click Add a line. In the pop-up 
      Pricelist). You can then:
      - Apply a percentage Discount or mark-up.
      - Add an Extra Fee (e.g., $ `5.00`) or subtract a fixed amount (e.g., $ `-5.00`).
-     - Define a [Rounding Method](applications/sales/point_of_sale/pricing/cash_rounding.md) by forcing the price after
+     - Define a [Rounding Method](cash_rounding.md) by forcing the price after
        Discount to be a multiple of the value set. The Extra Fee is applied
        afterward.
      - Specify the minimum (e.g., $ `20.00` ) and maximum (e.g., $ `50.00` ) profit
@@ -82,11 +82,11 @@ prices. To add a new price rule to a pricelist, click Add a line. In the pop-up 
 
 ### Chọn bảng giá
 
-Go to the [specific POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and add all the available
+Go to the [specific POS settings](../configuration.md#configuration-settings) and add all the available
 pricelists in the Available field. Then, set its **default pricelist** in the
 Default field.
 
-When you [open a POS session](applications/sales/point_of_sale.md#pos-session-start), click the **pricelists** button, and select
+When you [open a POS session](../../point_of_sale.md#pos-session-start), click the **pricelists** button, and select
 the desired pricelist from the list.
 
 ![Button to select a pricelist on the POS frontend](../../../../.gitbook/assets/pricelist-button.png)
@@ -97,5 +97,5 @@ the desired pricelist from the list.
   **not** be adjusted.
 
 #### SEE ALSO
-- [Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)
-- [How to use pricelists in an ecommerce environment](applications/websites/ecommerce/products/price_management.md#ecommerce-pricelists)
+- [Pricelists, discounts, and formulas](../../sales/products_prices/prices/pricing.md)
+- [How to use pricelists in an ecommerce environment](../../../websites/ecommerce/products/price_management.md#ecommerce-pricelists)

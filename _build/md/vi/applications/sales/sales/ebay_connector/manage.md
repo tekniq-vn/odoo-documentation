@@ -23,9 +23,9 @@ listing as they come in.
 #### SEE ALSO
 To learn more about the eBay connector visit these pages as well:
 
-- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)
-- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
-- [Troubleshooting eBay connector](applications/sales/sales/ebay_connector/troubleshooting.md)
+- [eBay connector setup](setup.md)
+- [Linking existing listings](linking_listings.md)
+- [Troubleshooting eBay connector](troubleshooting.md)
 
 ## Listing without variation
 
@@ -60,7 +60,7 @@ template.
 
 #### SEE ALSO
 For more information on template configuration in Odoo visit:
-[Mẫu Email](applications/general/companies/email_template.md).
+[Mẫu Email](../../../general/companies/email_template.md).
 
 ## Listing with variations
 
@@ -141,6 +141,6 @@ To verify the payment, navigate to Customers ‣ Invoices and select the desired
 customer invoice. The *Paid* label should appear under the Payment Status column.
 
 #### SEE ALSO
-- [Troubleshooting eBay connector](applications/sales/sales/ebay_connector/troubleshooting.md)
-- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
-- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)
+- [Troubleshooting eBay connector](troubleshooting.md)
+- [Linking existing listings](linking_listings.md)
+- [eBay connector setup](setup.md)

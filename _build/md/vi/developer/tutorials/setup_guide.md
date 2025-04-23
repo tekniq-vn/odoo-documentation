@@ -5,7 +5,7 @@ Odoo community and Odoo employees alike, the preferred way is to perform a sourc
 ().
 
 #### IMPORTANT
-Follow the [Environment setup](contributing/development.md#contributing-development-setup) section of the contributing guide to prepare
+Follow the [Environment setup](../../contributing/development.md#contributing-development-setup) section of the contributing guide to prepare
 your environment for pushing local changes to the Odoo repositories.
 
 ## Adapt the environment for the tutorials
@@ -52,7 +52,7 @@ created a repository to serve as an addons directory. This will allow you to pus
 #### IMPORTANT
 **For Odoo employees only:**
 
-1. Make sure to read very carefully [Make your first contribution](contributing/development.md#contributing-development-first-contribution). In particular,
+1. Make sure to read very carefully [Make your first contribution](../../contributing/development.md#contributing-development-first-contribution). In particular,
    your branch name must follow our conventions.
 2. Once you have pushed your first change to the shared fork on **odoo-dev**, create a
    . Please put your quadrigram in the PR title (e.g., "abcd - Technical
@@ -84,7 +84,7 @@ $ cd $HOME/src/odoo/
 $ ./odoo-bin --addons-path="addons/,../enterprise/,../tutorials" -d rd-demo
 ```
 
-There are multiple [command-line arguments](developer/reference/cli.md#reference-cmdline-server) that you can use to run
+There are multiple [command-line arguments](../reference/cli.md#reference-cmdline-server) that you can use to run
 the server. In this training you will only need some of them.
 
 ### -d <database>
@@ -117,7 +117,7 @@ To log in as the administrator user, use the following credentials:
 ## Enable the developer mode
 
 The developer or debug mode is useful for training as it gives access to additional (advanced)
-tools. [Enable the developer mode](applications/general/developer_mode.md#developer-mode) now. Choose the method that you prefer;
+tools. [Enable the developer mode](../../applications/general/developer_mode.md#developer-mode) now. Choose the method that you prefer;
 they are all equivalent.
 
 ## Extra tools

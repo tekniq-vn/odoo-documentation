@@ -6,8 +6,8 @@ A [tax reduction](#cash-discounts-tax-reductions) can also be applied depending 
 or region.
 
 #### SEE ALSO
-- [Payment terms and installment plans](applications/finance/accounting/customer_invoices/payment_terms.md)
-- [Thanh toán](applications/finance/accounting/payments.md)
+- [Payment terms and installment plans](payment_terms.md)
+- [Thanh toán](../payments.md)
 
 <a id="cash-discounts-configuration"></a>
 
@@ -32,7 +32,7 @@ Cash Discount Gain account and Cash Discount Loss account.
 
 ### Điều khoản thanh toán
 
-Cash discounts are defined on [payment terms](applications/finance/accounting/customer_invoices/payment_terms.md). Configure them to your liking by
+Cash discounts are defined on [payment terms](payment_terms.md). Configure them to your liking by
 going to Accounting ‣ Configuration ‣ Payment Terms, and make sure to fill out
 the discount percentage, discount days, and [tax reduction](#cash-discounts-tax-reductions)
 fields.
@@ -63,11 +63,11 @@ Discount checkbox enabled, and select one of the three following options:
     customer benefits from the discount or not.
 
 #### NOTE
-- [Tax grids](applications/finance/accounting/reporting/tax_returns.md#tax-returns-tax-grids), which are used for the tax report, are correctly
+- [Tax grids](../reporting/tax_returns.md#tax-returns-tax-grids), which are used for the tax report, are correctly
   computed according to the [type of tax reduction](#cash-discounts-tax-reductions) you
   configured.
 - The **type of cash discount tax reduction** may be correctly pre-configured, depending on your
-  [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages).
+  [fiscal localization package](../../fiscal_localizations.md#fiscal-localizations-packages).
 
 <a id="cash-discounts-customer-invoice"></a>
 
@@ -90,7 +90,7 @@ Days, 2% Early Payment Discount under 7 days. 118.58 € due if paid before 01/0
 
 ### Đối chiếu thanh toán
 
-When you record a [payment](applications/finance/accounting/payments.md) or [reconcile your bank transactions](applications/finance/accounting/bank/reconciliation.md), Odoo takes the customer payment's date into account to determine if the
+When you record a [payment](../payments.md) or [reconcile your bank transactions](../bank/reconciliation.md), Odoo takes the customer payment's date into account to determine if the
 customer can benefit from the cash discount or not.
 
 #### NOTE

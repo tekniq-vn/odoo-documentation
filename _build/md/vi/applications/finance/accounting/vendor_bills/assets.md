@@ -193,4 +193,4 @@ You have three choices for the **Automate Assets** field:
 ![Automate Assets on an account in Odoo Accounting](../../../../.gitbook/assets/assets11.png)
 
 #### SEE ALSO
-* [Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+* [Hệ thống tài khoản](../get_started/chart_of_accounts.md)

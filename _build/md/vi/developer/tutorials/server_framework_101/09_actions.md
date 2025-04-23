@@ -1,7 +1,7 @@
 # Chapter 9: Ready For Some Action?
 
 So far we have mostly built our module by declaring fields and views. We just introduced business
-logic in the [previous chapter](developer/tutorials/server_framework_101/08_compute_onchange.md) thanks to
+logic in the [previous chapter](08_compute_onchange.md) thanks to
 computed fields and onchanges. In any real business scenario, we would want to link some business
 logic to action buttons. In our real estate example, we would like to be able to:
 
@@ -15,7 +15,7 @@ accepted we want to set the selling price and the buyer for the property.
 ## Object Type
 
 **Reference**: the documentation related to this topic can be found in
-[Actions](developer/reference/backend/actions.md) and [Error management](developer/reference/backend/orm.md#reference-exceptions).
+[Actions](../../reference/backend/actions.md) and [Error management](../../reference/backend/orm.md#reference-exceptions).
 
 #### NOTE
 **Goal**: at the end of this section:
@@ -88,7 +88,7 @@ and its
 
 ## Action Type
 
-In [Chapter 5: Finally, Some UI To Play With](developer/tutorials/server_framework_101/05_firstui.md), we created an action that was linked to a menu. You
+In [Chapter 5: Finally, Some UI To Play With](05_firstui.md), we created an action that was linked to a menu. You
 may be wondering if it is possible to link an action to a button. Good news, it is! One way to do it
 is:
 
@@ -96,7 +96,7 @@ is:
 <button type="action" name="%(test.test_model_action)d" string="My Action"/>
 ```
 
-We use `type="action"` and we refer to the [external identifier](developer/glossary.md#term-external-identifier) in the `name`.
+We use `type="action"` and we refer to the [external identifier](../../glossary.md#term-external-identifier) in the `name`.
 
-In the [next chapter](developer/tutorials/server_framework_101/10_constraints.md) we'll see how we can prevent
+In the [next chapter](10_constraints.md) we'll see how we can prevent
 encoding incorrect data in Odoo.

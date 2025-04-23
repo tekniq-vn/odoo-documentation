@@ -1,6 +1,6 @@
 # Chapter 7: Relations Between Models
 
-The [previous chapter](developer/tutorials/server_framework_101/06_basicviews.md) covered the creation of custom
+The [previous chapter](06_basicviews.md) covered the creation of custom
 views for a model containing basic fields. However, in any real business scenario we need more than
 one model. Moreover, links between models are necessary. One can easily imagine one model containing
 the customers and another one containing the list of users. You might need to refer to a customer
@@ -177,4 +177,4 @@ for convenience.
 
 Still alive? This chapter is definitely not the easiest one. It introduced a couple of new concepts
 while relying on everything that was introduced before. The
-[next chapter](developer/tutorials/server_framework_101/08_compute_onchange.md) will be lighter, don't worry ;-)
+[next chapter](08_compute_onchange.md) will be lighter, don't worry ;-)

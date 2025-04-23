@@ -38,7 +38,7 @@ option, and choose which method should be used for this type of operation.
 
 ## Required applications
 
-The two required applications that **must** be [installed](applications/general/apps_modules.md#general-install) to use reservation
+The two required applications that **must** be [installed](../../../general/apps_modules.md#general-install) to use reservation
 methods are the *Sales* and *Inventory* apps.
 
 #### NOTE
@@ -70,10 +70,10 @@ Operations Type form, reservation methods are **not** available.
 ![Operations Types highlighted from the Configurations submenu in the Inventory app.](../../../../.gitbook/assets/reservation-methods-operations-type-menu.png)
 
 #### SEE ALSO
-- [At confirmation reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.md)
-- [Manual reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.md)
-- [Before scheduled date reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.md)
+- [At confirmation reservation](reservation_methods/at_confirmation.md)
+- [Manual reservation](reservation_methods/manually.md)
+- [Before scheduled date reservation](reservation_methods/before_scheduled_date.md)
 
-* [At confirmation reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.md)
-* [Manual reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.md)
-* [Before scheduled date reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.md)
+* [At confirmation reservation](reservation_methods/at_confirmation.md)
+* [Manual reservation](reservation_methods/manually.md)
+* [Before scheduled date reservation](reservation_methods/before_scheduled_date.md)

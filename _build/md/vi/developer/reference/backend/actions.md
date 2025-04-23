@@ -23,7 +23,7 @@ A client can get actions in 4 forms:
     a client action's tag, otherwise treat as a number
 * A number
   : read the corresponding action record from the database, may be a database
-    identifier or an [external id](developer/glossary.md#term-external-id)
+    identifier or an [external id](../../glossary.md#term-external-id)
 * A dictionary
   : treat as a client action descriptor and execute
 
@@ -62,7 +62,7 @@ attributes used to present an action in an arbitrary model's contextual menu:
 ## Window Actions (`ir.actions.act_window`)
 
 The most common action type, used to present visualisations of a model through
-[views](developer/reference/user_interface/view_records.md): a window action defines a set of view types
+[views](../user_interface/view_records.md): a window action defines a set of view types
 (and possibly specific views) for a model (and possibly specific record of the
 model).
 
@@ -162,7 +162,7 @@ by clients, mostly to use in composing the `views` list:
   `view_mode` list and not already filled by one of the views in
   `view_ids`
 
-These are mostly used when defining actions from [Data Files](developer/reference/backend/data.md#reference-data):
+These are mostly used when defining actions from [Data Files](data.md#reference-data):
 
 ```xml
 <record model="ir.actions.act_window" id="test_action">
@@ -355,7 +355,7 @@ not necessary to set `binding_type` to `report`, since
 : either `qweb-pdf` for PDF reports or `qweb-html` for HTML
 
 `report_name` (mandatory)
-: the name ([external id](developer/glossary.md#term-external-id)) of the qweb template used to render the report
+: the name ([external id](../../glossary.md#term-external-id)) of the qweb template used to render the report
 
 `print_report_name`
 : python expression defining the name of the report.
@@ -414,7 +414,7 @@ tells the client to start the Point of Sale interface, the server has no idea
 how the POS interface works.
 
 #### SEE ALSO
-- [Tutorial: Client Actions](developer/tutorials/web.md#howtos-web-client-actions)
+- [Tutorial: Client Actions](../../tutorials/web.md#howtos-web-client-actions)
 
 <a id="reference-actions-cron"></a>
 

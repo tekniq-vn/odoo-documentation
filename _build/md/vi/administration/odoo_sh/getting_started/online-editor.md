@@ -8,7 +8,7 @@ Trình soạn thảo online cho phép bạn chỉnh sửa mã nguồn của bả
 
 ![image](../../../.gitbook/assets/interface-editor.png)
 
-Bạn có thể truy cập trình soạn thảo của bản dựng thông qua [các tab nhánh](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs), [menu thả xuống của bản dựng](administration/odoo_sh/getting_started/builds.md#odoosh-gettingstarted-builds-dropdown-menu) hoặc bằng cách thêm  */odoo-sh/editor* vào tên miền bản dựng của bạn (VD: *https://odoo-addons-master-1.dev.odoo.com/odoo-sh/editor*).
+Bạn có thể truy cập trình soạn thảo của bản dựng thông qua [các tab nhánh](branches.md#odoosh-gettingstarted-branches-tabs), [menu thả xuống của bản dựng](builds.md#odoosh-gettingstarted-builds-dropdown-menu) hoặc bằng cách thêm  */odoo-sh/editor* vào tên miền bản dựng của bạn (VD: *https://odoo-addons-master-1.dev.odoo.com/odoo-sh/editor*).
 
 ## Chỉnh sửa mã nguồn
 
@@ -95,7 +95,7 @@ SSH Github từ xa không được sử dụng vì mã khóa riêng tư SSH củ
 #### NOTE
 Thư mục nguồn Git  *~/src/user* không được checkout trên một nhánh mà trong một bản sửa đổi tách biệt: Điều này là do các bản dựng hoạt động trong những bản sửa đổi cụ thể mà không phải các nhánh. Nói cách khác, điều này có nghĩa là bạn có thể có nhiều bản dựng trên cùng một nhánh, nhưng nằm trong các bản sửa đổi khác nhau.
 
-Sau khi các thay đổi được push, theo [hành vi push nhánh](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings) của bạn, một bản dựng mới có thể được tạo. Bạn có thể tiếp tục làm việc trong trình soạn thảo mà bạn đã push, vì nó sẽ có cùng bản sửa đổi với bản dựng mới được tạo, nhưng hãy luôn đảm bảo rằng bạn làm việc trong trình soạn thảo của bản dựng sử dụng bản sửa đổi mới nhất của nhánh.
+Sau khi các thay đổi được push, theo [hành vi push nhánh](branches.md#odoosh-gettingstarted-branches-tabs-settings) của bạn, một bản dựng mới có thể được tạo. Bạn có thể tiếp tục làm việc trong trình soạn thảo mà bạn đã push, vì nó sẽ có cùng bản sửa đổi với bản dựng mới được tạo, nhưng hãy luôn đảm bảo rằng bạn làm việc trong trình soạn thảo của bản dựng sử dụng bản sửa đổi mới nhất của nhánh.
 
 ## Bảng điều khiển
 

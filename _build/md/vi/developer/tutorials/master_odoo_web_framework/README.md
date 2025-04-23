@@ -1,10 +1,10 @@
 # Master the web framework
 
-* [Chapter 1: Build a Clicker game](developer/tutorials/master_odoo_web_framework/01_build_clicker_game.md)
-* [Chapter 2: Create a Gallery View](developer/tutorials/master_odoo_web_framework/02_create_gallery_view.md)
-* [Chapter 3: Customize a kanban view](developer/tutorials/master_odoo_web_framework/03_customize_kanban_view.md)
+* [Chapter 1: Build a Clicker game](master_odoo_web_framework/01_build_clicker_game.md)
+* [Chapter 2: Create a Gallery View](master_odoo_web_framework/02_create_gallery_view.md)
+* [Chapter 3: Customize a kanban view](master_odoo_web_framework/03_customize_kanban_view.md)
 
-This tutorial is designed for those who have completed the [Discover the web framework](developer/tutorials/discover_js_framework.md) tutorial and
+This tutorial is designed for those who have completed the [Discover the web framework](discover_js_framework.md) tutorial and
 are looking to deepen their knowledge of the web framework. It is organized in four independent
 projects, each focusing on different features of Odoo.
 
@@ -38,12 +38,12 @@ that arises while working on Odoo.
 
 1. Clone the [official Odoo tutorials repository](https://github.com/odoo/tutorials) and switch to
    the branch `17.0`.
-2. Add the cloned repository to your [`--addons-path`](developer/reference/cli.md#cmdoption-odoo-bin-addons-path).
+2. Add the cloned repository to your [`--addons-path`](../reference/cli.md#cmdoption-odoo-bin-addons-path).
 3. Start a new Odoo database and install the modules for each chapter that you want to work on:
    `awesome_clicker` (for chapter 1), `awesome_fields` (for chapter 2), `awesome_gallery` (for chapter 3) or `awesome_kanban` (for chapter 4).
 
 ## Content
 
-- [Chapter 1: Build a Clicker game](developer/tutorials/master_odoo_web_framework/01_build_clicker_game.md)
-- [Chapter 2: Create a Gallery View](developer/tutorials/master_odoo_web_framework/02_create_gallery_view.md)
-- [Chapter 3: Customize a kanban view](developer/tutorials/master_odoo_web_framework/03_customize_kanban_view.md)
+- [Chapter 1: Build a Clicker game](master_odoo_web_framework/01_build_clicker_game.md)
+- [Chapter 2: Create a Gallery View](master_odoo_web_framework/02_create_gallery_view.md)
+- [Chapter 3: Customize a kanban view](master_odoo_web_framework/03_customize_kanban_view.md)

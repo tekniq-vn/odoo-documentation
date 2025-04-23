@@ -2,7 +2,7 @@
 
 [Cross-selling](#ecommerce-cross-selling) and
 [upselling](#ecommerce-cross-upselling-alternative) are sales techniques designed to encourage
-customers to purchase additional or higher-priced products and services from your [Danh mục](applications/websites/ecommerce/products/catalog.md).
+customers to purchase additional or higher-priced products and services from your [Danh mục](catalog.md).
 
 <a id="ecommerce-cross-selling"></a>
 
@@ -56,6 +56,6 @@ Click Go to Website to view the alternative products displayed at the bottom of 
 product page.
 
 To adjust the settings, click Edit and select the related
-[building block](applications/websites/website/web_design/building_blocks.md). In the Customize
+[building block](../../website/web_design/building_blocks.md). In the Customize
 tab, scroll to the Alternative Products section and modify the settings as needed to
 tailor the display to your preferences.

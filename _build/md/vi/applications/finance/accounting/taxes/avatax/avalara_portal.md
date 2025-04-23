@@ -7,7 +7,7 @@ the transactions sent from Odoo to *AvaTax*, details on how the taxes are calcul
 tax exemption management, and tax return resources.
 
 To access the console, first, navigate to either Avalara's [sandbox](https://sandbox.admin.avalara.com/) or [production](https://admin.avalara.com/) environment.
-This will depend on which type of account was set in the [integration](applications/finance/accounting/taxes/avatax.md). Log in to
+This will depend on which type of account was set in the [integration](../avatax.md). Log in to
 the management console.
 
 ![Avalara dashboard after logging into management portal.](../../../../../.gitbook/assets/avalara-portal.png)
@@ -151,7 +151,7 @@ the device.
 
 Additional jurisdictions (tax locations) can be added in the Avalara management console. Navigate to
 either Avalara's [sandbox](https://sandbox.admin.avalara.com/) or [production](https://admin.avalara.com/) environment. This will depend on which type of account was set in the
-[integration](applications/finance/accounting/taxes/avatax.md).
+[integration](../avatax.md).
 
 Tiếp theo, đi đến Cài đặt ‣ Nơi bạn thu thuế. Chọn một trong ba tab khác nhau tùy theo nhu cầu kinh doanh. Tab đầu tiên là Thuế bán hàng và sử dụng, nơi có thể thu thuế cho Hoa Kỳ. Nhấp vào <i class="fa fa-plus"></i> Thêm vào nơi bạn thu thuế bán hàng và sử dụng để thêm một địa điểm khác mà công ty thu thuế bán hàng và sử dụng.
 
@@ -191,6 +191,6 @@ Click Get started to begin the tax return process. For more information, refer t
 Avalara documentation: [About Managed Returns](https://community.avalara.com/support/s/document-item?language=en_US&bundleId=hps1656397152776_hps1656397152776&topicId=Learn_about_Managed_Returns.html&_LANG=enus).
 
 #### SEE ALSO
-- [AvaTax integration](applications/finance/accounting/taxes/avatax.md)
-- [AvaTax use](applications/finance/accounting/taxes/avatax/avatax_use.md)
+- [AvaTax integration](../avatax.md)
+- [AvaTax use](avatax_use.md)
 - [US Tax Compliance: Avatax elearning video](https://www.odoo.com/slides/slide/us-tax-compliance-avatax-2858?fullscreen=1)

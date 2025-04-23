@@ -1,6 +1,6 @@
 # Odoo Sign legality in Switzerland
 
-[Odoo Sign](applications/productivity/sign.md) is your trusted partner for secure, efficient, and legally compliant
+[Odoo Sign](../sign.md) is your trusted partner for secure, efficient, and legally compliant
 electronic signatures in Switzerland.
 
 ## Legal framework for electronic signatures in Switzerland

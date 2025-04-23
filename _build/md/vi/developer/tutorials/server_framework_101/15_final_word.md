@@ -6,7 +6,7 @@ We will start refactoring the code to match to the Odoo coding guidelines. The g
 to improve the quality of the Odoo Apps code.
 
 **Reference**: you will find the Odoo coding guidelines in
-[Coding guidelines](contributing/development/coding_guidelines.md).
+[Coding guidelines](../../../contributing/development/coding_guidelines.md).
 
 ## Test on the runbot
 

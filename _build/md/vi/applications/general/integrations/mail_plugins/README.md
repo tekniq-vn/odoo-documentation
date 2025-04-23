@@ -1,7 +1,7 @@
 # Plugin email
 
-* [Plugin Outlook](applications/general/integrations/mail_plugins/outlook.md)
-* [Plugin Gmail](applications/general/integrations/mail_plugins/gmail.md)
+* [Plugin Outlook](mail_plugins/outlook.md)
+* [Plugin Gmail](mail_plugins/gmail.md)
 
 Mail Plugins are connectors that bridge your mailbox with your Odoo database. With them, you can
 interact with your Odoo database directly from your mailbox by:
@@ -11,7 +11,7 @@ interact with your Odoo database directly from your mailbox by:
 - Creating tickets in the Helpdesk app.
 - Searching and storing insights on your contacts.
 
-Mail Plugins are available for [Outlook](applications/general/integrations/mail_plugins/outlook.md) and [Gmail](applications/general/integrations/mail_plugins/gmail.md).
+Mail Plugins are available for [Outlook](mail_plugins/outlook.md) and [Gmail](mail_plugins/gmail.md).
 
 <a id="mail-plugins-pricing"></a>
 
@@ -23,7 +23,7 @@ However, they can provide **Lead Enrichment**, which is part of a paid service k
 Generation**.
 
 Mail plugins allow you to test Lead Enrichment for free, whether you connect the plugins to a
-database or not. After a while, the plugins ask you to buy [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)
+database or not. After a while, the plugins ask you to buy [Mua hàng trong ứng dụng (IAP)](../../essentials/in_app_purchase.md)
 credits if you would like to keep using this service.
 
 <a id="mail-plugins-lead-generation"></a>
@@ -42,5 +42,5 @@ select a package.
 - Check out the [Lead Generation IAP service Privacy Policy](https://iap.odoo.com/privacy#header_3).
 
 #### SEE ALSO
-- [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)
+- [Mua hàng trong ứng dụng (IAP)](../../essentials/in_app_purchase.md)
 - [Odoo Tutorials: Lead Enrichment](https://www.odoo.com/r/p73)

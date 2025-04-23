@@ -14,7 +14,7 @@ This document covers the process required to configure call queues (with advance
 as how to log into a call queue from the Odoo database.
 
 #### SEE ALSO
-[Music on-hold](applications/productivity/voip/axivox/vm_audio_messages.md#voip-axivox-music-on-hold)
+[Music on-hold](vm_audio_messages.md#voip-axivox-music-on-hold)
 
 ## Add a queue
 
@@ -62,8 +62,8 @@ dial plan. Enter a time in seconds.
 #### SEE ALSO
 For more information on dial plans, visit:
 
-- [Dial plan basics](applications/productivity/voip/axivox/dial_plan_basics.md)
-- [Advanced dial plans](applications/productivity/voip/axivox/dial_plan_advanced.md)
+- [Dial plan basics](dial_plan_basics.md)
+- [Advanced dial plans](dial_plan_advanced.md)
 
 ### Adding agents
 
@@ -189,13 +189,13 @@ Dynamic agents can connect manually to the Axivox call queue from the Odoo *VoIP
 *VoIP* app is configured for the individual user in Odoo.
 
 #### SEE ALSO
-[VoIP services in Odoo with Axivox](applications/productivity/voip/axivox/axivox_config.md)
+[VoIP services in Odoo with Axivox](axivox_config.md)
 
 To access the Odoo *VoIP* widget, click the ☎️ (phone) icon in the upper-right corner of
 the screen, from any window within Odoo.
 
 #### SEE ALSO
-For more information on the Odoo *VoIP* widget, see this documentation: [VoIP widget](applications/productivity/voip/voip_widget.md)
+For more information on the Odoo *VoIP* widget, see this documentation: [VoIP widget](../voip_widget.md)
 
 For an agent to connect to the call queue, simply dial the Agent connection number, and
 press the green call button 📞 (phone) icon in the *VoIP* widget. Then, the agent hears

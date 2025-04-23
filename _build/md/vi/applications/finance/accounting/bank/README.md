@@ -1,7 +1,7 @@
 # Bank and cash accounts
 
 You can manage as many bank or cash accounts as needed on your database. Configuring them well
-allows you to have all your banking data up-to-date and ready for [reconciliation](applications/finance/accounting/bank/reconciliation.md) with your journal entries.
+allows you to have all your banking data up-to-date and ready for [reconciliation](bank/reconciliation.md) with your journal entries.
 
 In Odoo Accounting, each bank account has a dedicated journal set to post all entries in a dedicated
 account. Both the journal and the account are automatically created and configured whenever you add
@@ -26,7 +26,7 @@ To connect your bank account to your database, go to Accounting ‣ Configuratio
 follow the instructions.
 
 #### SEE ALSO
-[Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
+[Đồng bộ hoá ngân hàng](bank/bank_synchronization.md)
 
 <a id="bank-accounts-create"></a>
 
@@ -71,8 +71,8 @@ You can edit the accounting information and bank account number according to you
 ![Manually configure your bank information](../../../.gitbook/assets/bank-journal-config.png)
 
 #### SEE ALSO
-- [Hệ thống đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md)
-- [Giao dịch](applications/finance/accounting/bank/transactions.md)
+- [Hệ thống đa tiền tệ](get_started/multi_currency.md)
+- [Giao dịch](bank/transactions.md)
 
 <a id="bank-accounts-suspense"></a>
 
@@ -92,7 +92,7 @@ register a loss when the ending balance of a cash register differs from what the
 You can edit the currency used to enter the statements.
 
 #### SEE ALSO
-[Hệ thống đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md)
+[Hệ thống đa tiền tệ](get_started/multi_currency.md)
 
 <a id="accounting-bank-account-number"></a>
 
@@ -117,8 +117,8 @@ Bank Feeds defines how the bank statements are registered. Three options are ava
   with your database.
 
 #### SEE ALSO
-- [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
-- [Giao dịch](applications/finance/accounting/bank/transactions.md)
+- [Đồng bộ hoá ngân hàng](bank/bank_synchronization.md)
+- [Giao dịch](bank/transactions.md)
 
 <a id="bank-outstanding-accounts"></a>
 
@@ -132,7 +132,7 @@ before being recorded in your bank account.
 - An **outstanding receipts account** is where incoming payments are posted until they are linked
   with a deposit from your bank statement.
 
-These accounts should be of [type](applications/finance/accounting/get_started/chart_of_accounts.md#chart-of-account-type) Current Assets.
+These accounts should be of [type](get_started/chart_of_accounts.md#chart-of-account-type) Current Assets.
 
 #### NOTE
 The movement from an outstanding account to a bank account is done automatically when you
@@ -146,7 +146,7 @@ Outstanding Receipts Account and Outstanding Payments Account.
 
 ### Bank and cash journals configuration
 
-You can also set specific outstanding accounts for any journal with the [type](applications/finance/accounting/get_started/chart_of_accounts.md#chart-of-account-type) Bank or Cash.
+You can also set specific outstanding accounts for any journal with the [type](get_started/chart_of_accounts.md#chart-of-account-type) Bank or Cash.
 
 From your Accounting Dashboard, click on the menu selection ⋮ of the journal you want to
 configure, and click on Configuration, then open the Incoming/Outgoing
@@ -162,11 +162,11 @@ Outstanding Receipts/Payments accounts, then update the account.
   account, when a payment is registered, the invoice or bill's status is directly set to
   Paid.
 
-* [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
-  * [Salt Edge](applications/finance/accounting/bank/bank_synchronization/saltedge.md)
-  * [Ponto](applications/finance/accounting/bank/bank_synchronization/ponto.md)
-  * [Enable Banking](applications/finance/accounting/bank/bank_synchronization/enablebanking.md)
-* [Giao dịch](applications/finance/accounting/bank/transactions.md)
-* [Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)
-* [Reconciliation models](applications/finance/accounting/bank/reconciliation_models.md)
-* [Manage a bank account in a foreign currency](applications/finance/accounting/bank/foreign_currency.md)
+* [Đồng bộ hoá ngân hàng](bank/bank_synchronization.md)
+  * [Salt Edge](bank/bank_synchronization/saltedge.md)
+  * [Ponto](bank/bank_synchronization/ponto.md)
+  * [Enable Banking](bank/bank_synchronization/enablebanking.md)
+* [Giao dịch](bank/transactions.md)
+* [Đối chiếu ngân hàng](bank/reconciliation.md)
+* [Reconciliation models](bank/reconciliation_models.md)
+* [Manage a bank account in a foreign currency](bank/foreign_currency.md)

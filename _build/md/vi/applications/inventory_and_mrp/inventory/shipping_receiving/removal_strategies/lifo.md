@@ -8,7 +8,7 @@ transfer is created for the lot/serial number that has most recently entered the
 lot/serial number that entered the warehouse's inventory).
 
 #### SEE ALSO
-[About removal strategies](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md)
+[About removal strategies](../removal_strategies.md)
 
 #### WARNING
 In many countries, the  removal strategy is banned, since it can
@@ -19,18 +19,18 @@ Lots in the Inventory tab of the product form. The Force Removal Strategy
 for the cinder block's product category is set to Last In, First Out (LIFO).
 
 #### SEE ALSO
-- [Set up force removal strategy](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-removal-config)
-- [Enable lots tracking](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-lots-setup)
-- [Check arrival date](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.md#inventory-warehouses-storage-arrival-date)
+- [Set up force removal strategy](../removal_strategies.md#inventory-warehouses-storage-removal-config)
+- [Enable lots tracking](../removal_strategies.md#inventory-warehouses-storage-lots-setup)
+- [Check arrival date](fifo.md#inventory-warehouses-storage-arrival-date)
 
 The following table represents the cinder blocks in stock, and their various lot number details.
 
-|                                                                                                                                                  | LOT1     | LOT2     | LOT3     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------|----------|
-| On-hand stock                                                                                                                                    | 10       | 10       | 10       |
-| [Được tạo vào](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.md#inventory-warehouses-storage-arrival-date) | Ngày 1/6 | Ngày 3/6 | Ngày 6/6 |
+|                                                                   | LOT1     | LOT2     | LOT3     |
+|-------------------------------------------------------------------|----------|----------|----------|
+| On-hand stock                                                     | 10       | 10       | 10       |
+| [Được tạo vào](fifo.md#inventory-warehouses-storage-arrival-date) | Ngày 1/6 | Ngày 3/6 | Ngày 6/6 |
 
-To see the removal strategy in action, create a [delivery order](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md#inventory-delivery-one-step)
+To see the removal strategy in action, create a [delivery order](../daily_operations/receipts_delivery_one_step.md#inventory-delivery-one-step)
 for seven cinder blocks by navigating to the Sales app and creating a new
 quotation.
 

@@ -45,7 +45,7 @@ Each individual company can have a different localization setting configured for
 company, since company locations can vary and be located anywhere in the world, where rules and
 laws differ.
 
-For more information on companies, refer to the [Companies](applications/general/companies.md)
+For more information on companies, refer to the [Companies](../general/companies.md)
 documentation, which covers how to set up companies.
 
 ### Nghỉ phép
@@ -84,7 +84,7 @@ application, the changes are also reflected in the *Recruitment* application.
 
 #### IMPORTANT
 To access contract templates, the *Salary Configurator* (`hr_contract_salary`) module **must** be
-[installed](applications/general/apps_modules.md#general-install).
+[installed](../general/apps_modules.md#general-install).
 
 To view all the current contract templates in the database, navigate to Payroll app
 ‣ Configuration ‣ Contracts: Templates.
@@ -104,7 +104,7 @@ information on the blank contract template form that appears:
 - Work Entry Source: select how the work entries are generated. Choices are either:
   - Working Schedule: work entries are generated based on the selected working schedule.
   - Attendances: work entries are generated based on the employee's attendance, as they
-    are logged in the *Attendances* application. Refer to the [Attendances](applications/hr/attendances/check_in_check_out.md#attendances-check-in) documentation for information on checking in and out.
+    are logged in the *Attendances* application. Refer to the [Attendances](attendances/check_in_check_out.md#attendances-check-in) documentation for information on checking in and out.
   - Planning: work entries are generated based on the employee's planning in the
     *Planning* application.
 - Salary Structure Type: select the [salary structure type](#payroll-structure-types) from the drop-down menu.
@@ -194,7 +194,7 @@ account for all types of work and time off, such as Attendance, Sick Time
 Off, Training, or Public Holiday.
 
 #### SEE ALSO
-[Manage work entries](applications/hr/payroll/work_entries.md)
+[Manage work entries](payroll/work_entries.md)
 
 ### Loại công
 
@@ -780,22 +780,22 @@ To create a new job description, click the New button and a job form appears.
 Enter the information on the form for the new position. The information is identical as to the
 information entered when creating a new job position in the *Recruitment* application.
 
-Refer to the [Job positions](applications/hr/recruitment/new_job.md) documentation for more details on how to fill out this
+Refer to the [Job positions](recruitment/new_job.md) documentation for more details on how to fill out this
 form.
 
 #### SEE ALSO
-- [Hợp đồng](applications/hr/payroll/contracts.md)
-- [Work entries](applications/hr/payroll/work_entries.md)
-- [Salary attachments](applications/hr/payroll/salary_attachments.md)
-- [Phiếu lương](applications/hr/payroll/payslips.md)
-- [Báo cáo](applications/hr/payroll/reporting.md)
-- [Work entry analysis](applications/hr/payroll/work_entry_analysis.md)
-- [Salary attachment report](applications/hr/payroll/salary_attachment.md)
+- [Hợp đồng](payroll/contracts.md)
+- [Work entries](payroll/work_entries.md)
+- [Salary attachments](payroll/salary_attachments.md)
+- [Phiếu lương](payroll/payslips.md)
+- [Báo cáo](payroll/reporting.md)
+- [Work entry analysis](payroll/work_entry_analysis.md)
+- [Salary attachment report](payroll/salary_attachment.md)
 
-* [Hợp đồng](applications/hr/payroll/contracts.md)
-* [Work entries](applications/hr/payroll/work_entries.md)
-* [Salary attachments](applications/hr/payroll/salary_attachments.md)
-* [Phiếu lương](applications/hr/payroll/payslips.md)
-* [Báo cáo](applications/hr/payroll/reporting.md)
-* [Work entry analysis](applications/hr/payroll/work_entry_analysis.md)
-* [Salary attachment report](applications/hr/payroll/salary_attachment.md)
+* [Hợp đồng](payroll/contracts.md)
+* [Work entries](payroll/work_entries.md)
+* [Salary attachments](payroll/salary_attachments.md)
+* [Phiếu lương](payroll/payslips.md)
+* [Báo cáo](payroll/reporting.md)
+* [Work entry analysis](payroll/work_entry_analysis.md)
+* [Salary attachment report](payroll/salary_attachment.md)

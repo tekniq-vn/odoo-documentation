@@ -5,7 +5,7 @@ the current month. To view this report, navigate to Payroll app â€£ Reporting â€
 Work Entry Analysis.
 
 The work entries appear in a pivot table, with the default filters of Current month:
-(Month)(Year) and Validated. The various types of [Work entries](applications/hr/payroll/work_entries.md) populate the
+(Month)(Year) and Validated. The various types of [Work entries](work_entries.md) populate the
 rows, while the Total values populate the only visible column.
 
 To change the displayed information, click <i class="fa fa-plus-square"></i> Total above the main
@@ -30,7 +30,7 @@ time period, as well as the Variation between the two, in a percentage.
 ![A pivot table comparing the work entries of the current month and the previous month.](../../../.gitbook/assets/work-entry-comparison.png)
 
 #### NOTE
-If no work entries for a specific [work entry type](applications/hr/payroll.md#payroll-work-entries) are logged for
+If no work entries for a specific [work entry type](../payroll.md#payroll-work-entries) are logged for
 the time period, it does **not** appear on the report. That does **not** mean the work entry type
 does not exist, or is not configured.
 

@@ -1,8 +1,8 @@
 # IoT box SSH connection
 
 #### NOTE
-SSH connections are only available for [IoT boxes](applications/general/iot/iot_box.md), not the [Windows
-virtual IoT](applications/general/iot/windows_iot.md).
+SSH connections are only available for [IoT boxes](../iot_box.md), not the [Windows
+virtual IoT](../windows_iot.md).
 
 #### WARNING
 - This feature should **only** be used with trusted parties, as it provides administrative
@@ -26,5 +26,5 @@ password:
 5. Click Enable Remote Debugging.
 
 #### SEE ALSO
-- [Hộp IoT](applications/general/iot/iot_box.md)
-- [IoT system connection to Odoo](applications/general/iot/connect.md)
+- [Hộp IoT](../iot_box.md)
+- [IoT system connection to Odoo](../connect.md)

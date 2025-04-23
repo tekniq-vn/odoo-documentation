@@ -26,7 +26,7 @@ Khi bạn triển khai một commit mới trong nhánh này, máy chủ producti
 
 Nếu các thay đổi của bạn yêu cầu cập nhật phân hệ, chẳng hạn như thay đổi trong chế độ xem biểu mẫu và bạn muốn nó được thực hiện tự động, hãy tăng số phiên bản của phân hệ trong tệp kê khai của nó ( *\_\_manifest_\_.py*). Sau đó, nền tảng sẽ đảm nhiệm việc thực hiện cập nhật, trong thời gian đó phiên bản sẽ tạm thời không khả dụng vì lý do bảo trì.
 
-Phương pháp này giống với việc nâng cấp phân hệ qua menu Ứng dụng hoặc qua `-u` chuyển đổi [dòng lệnh](developer/reference/cli.md).
+Phương pháp này giống với việc nâng cấp phân hệ qua menu Ứng dụng hoặc qua `-u` chuyển đổi [dòng lệnh](../../../developer/reference/cli.md).
 
 Trong trường hợp những thay đổi trong commit ngăn máy chủ khởi động lại hoặc nếu cập nhật phân hệ không thành công, máy chủ sẽ tự động được hoàn nguyên về bản sửa đổi mã thành công trước đó và cơ sở dữ liệu sẽ được khôi phục như trước khi cập nhật. Bạn vẫn có quyền truy cập vào nhật ký của bản cập nhật không thành công để có thể khắc phục sự cố.
 
@@ -51,7 +51,7 @@ Các bản kiểm thử đơn vị không được thực hiện vì hiện tạ
 
 ### Phát triển
 
-Nhánh phát triển tạo cơ sở dữ liệu mới bằng cách sử dụng dữ liệu demo để chạy các bản kiểm thử đơn vị. Các phân hệ được cài đặt là những phân hệ có trong các nhánh của bạn. Bạn có thể thay đổi danh sách các phân hệ cần cài đặt này trong [Cài đặt dự án](administration/odoo_sh/getting_started/settings.md#odoosh-gettingstarted-settings-modules-installation).
+Nhánh phát triển tạo cơ sở dữ liệu mới bằng cách sử dụng dữ liệu demo để chạy các bản kiểm thử đơn vị. Các phân hệ được cài đặt là những phân hệ có trong các nhánh của bạn. Bạn có thể thay đổi danh sách các phân hệ cần cài đặt này trong [Cài đặt dự án](settings.md#odoosh-gettingstarted-settings-modules-installation).
 
 Khi bạn triển khai một commit mới vào một trong các nhánh này, máy chủ mới sẽ được khởi động, với cơ sở dữ liệu được tạo từ đầu và bản sửa đổi mới của nhánh. Dữ liệu demo được tải và các bản kiểm thử đơn vị được thực hiện theo mặc định. Điều này xác minh những thay đổi của bạn không gây sự cố cho bất kỳ tính năng nào được chúng kiểm tra. Nếu muốn, bạn có thể tắt kiểm thử hoặc cho phép chạy các bản kiểm thử cụ thể với các thẻ tùy chỉnh trong [cài đặt nhánh](#odoosh-gettingstarted-branches-tabs-settings).
 
@@ -188,7 +188,7 @@ Tính năng *nhập cơ sở dữ liệu* chấp nhận các kho lưu trữ cơ 
 * trình quản lý cơ sở dữ liệu Odoo tiêu chuẩn, (có sẵn cho các máy chủ Odoo on-premise trong `/web/database/manager`)
 * trình quản lý cơ sở dữ liệu Odoo online,
 * nút tải xuống bản sao lưu Odoo.sh của tab *Sao lưu* này,
-* nút tải xuống kết xuất Odoo.sh trong [chế độ xem Bản dựng](administration/odoo_sh/getting_started/builds.md#odoosh-gettingstarted-builds).
+* nút tải xuống kết xuất Odoo.sh trong [chế độ xem Bản dựng](builds.md#odoosh-gettingstarted-builds).
 
 <a id="odoo-sh-upgrade"></a>
 
@@ -197,7 +197,7 @@ Tính năng *nhập cơ sở dữ liệu* chấp nhận các kho lưu trữ cơ 
 Khả dụng cho các nhánh production và staging trong các dự án hợp lệ.
 
 #### SEE ALSO
-[Tài liệu nâng cấp](administration/upgrade.md)
+[Tài liệu nâng cấp](../../upgrade.md)
 
 <a id="odoosh-gettingstarted-branches-tabs-settings"></a>
 
@@ -216,7 +216,7 @@ Tại đây bạn có thể tìm thấy một số cài đặt chỉ áp dụng 
 Chọn các phân hệ cần cài đặt tự động cho các bản dựng phát triển của bạn.
 
 ![image](../../../.gitbook/assets/interface-settings-modulesinstallation.png)
-* *Chỉ cài đặt các phân hệ của tôi* sẽ chỉ cài đặt các phân hệ của nhánh. Đây là tùy chọn mặc định. Không bao gồm [các phân hệ phụ](administration/odoo_sh/advanced/submodules.md#odoosh-advanced-submodules).
+* *Chỉ cài đặt các phân hệ của tôi* sẽ chỉ cài đặt các phân hệ của nhánh. Đây là tùy chọn mặc định. Không bao gồm [các phân hệ phụ](../advanced/submodules.md#odoosh-advanced-submodules).
 * *Cài đặt toàn bộ (tất cả phân hệ)* sẽ cài đặt các phân hệ của nhánh, những phân hệ có trong phân hệ phụ và tất cả phân hệ tiêu chuẩn của Odoo. Khi chạy cài đặt toàn bộ, bộ kiểm thử sẽ bị tắt.
 * *Cài đặt danh sách các phân hệ* sẽ cài đặt các phân hệ được chỉ định trong phần nhập liệu ngay bên dưới tùy chọn này. Tên là tên kỹ thuật của các phân hệ và chúng phải được phân tách bằng dấu phẩy.
 
@@ -224,7 +224,7 @@ Nếu kiểm thử được kích hoạt, bộ phân hệ Odoo tiêu chuẩn có
 
 **Bộ kiểm thử**
 
-Đối với các nhánh phát triển, bạn có thể chọn bật hoặc tắt bộ kiểm thử. Bộ kiểm thử được bật theo mặc định. Khi bộ kiểm thử được bật, bạn có thể hạn chế chúng bằng cách chỉ định các thẻ kiểm thử [thẻ kiểm thử](developer/reference/backend/testing.md#developer-reference-testing-selection).
+Đối với các nhánh phát triển, bạn có thể chọn bật hoặc tắt bộ kiểm thử. Bộ kiểm thử được bật theo mặc định. Khi bộ kiểm thử được bật, bạn có thể hạn chế chúng bằng cách chỉ định các thẻ kiểm thử [thẻ kiểm thử](../../../developer/reference/backend/testing.md#developer-reference-testing-selection).
 
 **Phiên bản Odoo**
 
@@ -266,7 +266,7 @@ Mặc dù hiện tại không thể cấu hình chứng chỉ SSL của riêng b
 
 **Tuân thủ SPF và DKIM**
 
-Trong trường hợp miền của địa chỉ email người dùng của bạn sử dụng SPF (Khung chính sách người gửi) hoặc DKIM (Phương thức xác thực email), đừng quên ủy quyền cho Odoo làm máy chủ gửi trong cài đặt tên miền để tăng khả năng gửi thư đi của bạn. Các bước cấu hình được trình bày trong tài liệu về [SPF](applications/general/email_communication/email_domain.md#email-domain-spf) và [DKIM](applications/general/email_communication/email_domain.md#email-domain-dkim).
+Trong trường hợp miền của địa chỉ email người dùng của bạn sử dụng SPF (Khung chính sách người gửi) hoặc DKIM (Phương thức xác thực email), đừng quên ủy quyền cho Odoo làm máy chủ gửi trong cài đặt tên miền để tăng khả năng gửi thư đi của bạn. Các bước cấu hình được trình bày trong tài liệu về [SPF](../../../applications/general/email_communication/email_domain.md#email-domain-spf) và [DKIM](../../../applications/general/email_communication/email_domain.md#email-domain-dkim).
 
 #### WARNING
 Việc quên cấu hình SPF hoặc DKIM để ủy quyền cho Odoo làm máy chủ gửi có thể dẫn đến việc gửi email dưới dạng thư rác trong hộp thư đến của các liên hệ của bạn.
@@ -351,7 +351,7 @@ Bạn sẽ tìm thấy lối tắt cho lệnh này trong tab SSH ở góc trên 
 
 ![image](../../../.gitbook/assets/SSH-panel.png)
 
-Miễn là bạn có [đúng quyền truy cập](administration/odoo_sh/getting_started/settings.md#odoosh-gettingstarted-settings-collaborators) trên dự án, bạn sẽ được cấp quyền truy cập ssh vào bản dựng.
+Miễn là bạn có [đúng quyền truy cập](settings.md#odoosh-gettingstarted-settings-collaborators) trên dự án, bạn sẽ được cấp quyền truy cập ssh vào bản dựng.
 
 #### NOTE
 Kết nối ssh chạy trong thời gian dài không được đảm bảo. Các kết nối không được sử dụng sẽ bị ngắt kết nối để giải phóng tài nguyên.
@@ -362,7 +362,7 @@ Thêm một nhánh từ một kho lưu trữ khác trong nhánh hiện tại c�
 
 *Phân hệ phụ* cho phép bạn sử dụng các phân hệ từ những kho lưu trữ khác trong dự án của mình.
 
-Tính năng phân hệ phụ được trình bày chi tiết trong chương [Phân hệ phụ](administration/odoo_sh/advanced/submodules.md#odoosh-advanced-submodules) của tài liệu này.
+Tính năng phân hệ phụ được trình bày chi tiết trong chương [Phân hệ phụ](../advanced/submodules.md#odoosh-advanced-submodules) của tài liệu này.
 
 ```bash
 $ git submodule add -b master <URL> <PATH>

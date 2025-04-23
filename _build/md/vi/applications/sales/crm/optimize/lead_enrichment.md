@@ -76,7 +76,7 @@ My Services.
 ![Buy credits in the Odoo IAP settings.](../../../../.gitbook/assets/view-my-services-setting1.png)
 
 #### SEE ALSO
-[Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)
+[Mua hàng trong ứng dụng (IAP)](../../../essentials/in_app_purchase.md)
 
 #### IMPORTANT
 When collecting a company's contact information, make sure to be aware of the latest EU

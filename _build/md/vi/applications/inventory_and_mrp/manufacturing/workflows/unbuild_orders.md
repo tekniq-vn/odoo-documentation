@@ -68,4 +68,4 @@ products unbuilt, and the quantity of components reclaimed.
 
 In some cases, components may be unusable after the unbuilding process is completed. To ensure that
 inventory counts accurately reflect the quantity of usable components on-hand, any component that
-can no longer be used should be removed from inventory using a [scrap order](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.md).
+can no longer be used should be removed from inventory using a [scrap order](../../inventory/warehouses_storage/inventory_management/scrap_inventory.md).

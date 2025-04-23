@@ -17,7 +17,7 @@ should not be viewed as guarantees.
 
 ## Cấu hình
 
-When using the [basic subcontracting](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.md) workflow to manufacture a product,
+When using the [basic subcontracting](subcontracting_basic.md) workflow to manufacture a product,
 a company is not responsible for supplying the subcontractor with the necessary components. This
 means that the only factors affecting the delivery date of a product are the amount of time it takes
 the subcontractor to manufacture and deliver it.

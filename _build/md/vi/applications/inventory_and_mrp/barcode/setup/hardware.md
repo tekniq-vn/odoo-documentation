@@ -136,4 +136,4 @@ After completing the steps, conduct a test scan to verify the Cipherlab scanner 
 intended.
 
 #### SEE ALSO
-[Activate the Barcodes in Odoo](applications/inventory_and_mrp/barcode/setup/software.md)
+[Activate the Barcodes in Odoo](software.md)

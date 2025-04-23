@@ -2,7 +2,7 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the 🇵🇭 Philippines [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) to get all the default accounting features of the Philippine
+[Install](../../general/apps_modules.md#general-install) the 🇵🇭 Philippines [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) to get all the default accounting features of the Philippine
 localization, such as a chart of accounts, taxes, and the BIR 2307 report. These provide a base
 template to get started with using Philippine accounting.
 
@@ -67,8 +67,8 @@ A pop-up appears to review the selection, then click on Generate.
 This generates the `Form_2307.xls` file that lists all the vendor bill lines with the applicable
 withholding tax.
 
-The process above can also be used for a *single* vendor [payment](applications/finance/accounting/payments.md) if
-it is linked to one or more [vendor bills](applications/finance/accounting/payments.md) with applied withholding
+The process above can also be used for a *single* vendor [payment](../accounting/payments.md) if
+it is linked to one or more [vendor bills](../accounting/payments.md) with applied withholding
 taxes.
 
 #### NOTE

@@ -12,10 +12,10 @@ have the charges applied directly to a Bpost business account, and automatically
 tracking labels through Odoo.
 
 #### SEE ALSO
-- [Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
-- [Delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
-- [Tích hợp DHL](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.md)
-- [Tích hợp UPS](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.md)
+- [Third-party shipping carriers](third_party_shipper.md)
+- [Delivery methods](../setup_configuration.md)
+- [Tích hợp DHL](dhl_credentials.md)
+- [Tích hợp UPS](ups_credentials.md)
 
 ## Account setup
 
@@ -54,10 +54,10 @@ reveals the Bpost Configuration tab at the bottom of the form, where the Bpost
 credentials can be entered.
 
 For details on configuring the other fields on the shipping method, such as Delivery
-Product, refer to the [Configure third-party carrier](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md) documentation.
+Product, refer to the [Configure third-party carrier](third_party_shipper.md) documentation.
 
 #### NOTE
-To generate Bpost [shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md) through Odoo, ensure the Integration
+To generate Bpost [shipping labels](labels.md) through Odoo, ensure the Integration
 Level option is set to Get Rate and Create Shipment.
 
 In the Bpost Configuration tab, complete the following fields:

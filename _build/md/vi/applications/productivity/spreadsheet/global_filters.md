@@ -1,6 +1,6 @@
 # Bộ lọc chung
 
-Create dynamic views of [inserted data](applications/productivity/spreadsheet/insert.md), by mapping data source fields to *global
+Create dynamic views of [inserted data](insert.md), by mapping data source fields to *global
 filters* in the Odoo **Spreadsheets** app.
 
 #### NOTE

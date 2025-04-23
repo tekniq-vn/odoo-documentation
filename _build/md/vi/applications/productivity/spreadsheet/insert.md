@@ -7,7 +7,7 @@ You can insert and link several elements from your database in your spreadsheets
 - lists, and
 - links to menus (i.e., a clickable link to a view of a specific model).
 
-Before inserting [pivots](applications/essentials/reporting.md#reporting-views-pivot), [graphs](applications/essentials/reporting.md#reporting-views-graph), or
+Before inserting [pivots](../../essentials/reporting.md#reporting-views-pivot), [graphs](../../essentials/reporting.md#reporting-views-graph), or
 lists, ensure they are tailored to your needs, as some elements are more quickly - or only -
 configurable in their respective view.
 
@@ -46,5 +46,5 @@ cells only to preview first the missing data.
 
 > ![Displaying missing cells in a pivot](../../../.gitbook/assets/missing-cells.png)
 
-To change which records are [used by the pivot](applications/essentials/search.md#search-preconfigured-filters), right-click on
+To change which records are [used by the pivot](../../essentials/search.md#search-preconfigured-filters), right-click on
 a pivot cell, select See pivot properties, and click Edit domain.

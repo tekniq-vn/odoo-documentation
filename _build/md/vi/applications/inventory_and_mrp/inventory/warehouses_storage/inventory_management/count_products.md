@@ -65,8 +65,8 @@ The fields below are optional and can be made visible by clicking the <i class="
   company is listed in the top-right corner of the database, next to the user currently logged in.
 
 #### SEE ALSO
-- [Product type](applications/inventory_and_mrp/inventory/product_management/configure/type.md)
-- [Tracking with lots, serial numbers, and expiration dates](applications/inventory_and_mrp/inventory/product_management/product_tracking.md)
+- [Product type](../../product_management/configure/type.md)
+- [Tracking with lots, serial numbers, and expiration dates](../../product_management/product_tracking.md)
 
 ### Create an inventory adjustment
 
@@ -120,7 +120,7 @@ being made on, but can be changed to reflect whatever reference or reason is des
 Once ready, click Apply to apply the inventory adjustment.
 
 #### NOTE
-Applying an inventory adjustment simultaneously creates a [stock move line (SML)](applications/inventory_and_mrp/inventory/warehouses_storage/reporting/moves_history.md) in the *Moves History* report for traceability.
+Applying an inventory adjustment simultaneously creates a [stock move line (SML)](../reporting/moves_history.md) in the *Moves History* report for traceability.
 
 ## Đếm sản phẩm
 
@@ -199,4 +199,4 @@ In the Odoo **Barcode** app, users can only view inventory counts that are assig
 and are scheduled for **today** or **earlier**.
 
 #### SEE ALSO
-[Đếm theo chu kỳ](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.md)
+[Đếm theo chu kỳ](cycle_counts.md)

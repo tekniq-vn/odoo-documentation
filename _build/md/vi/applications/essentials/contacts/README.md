@@ -105,7 +105,7 @@ Kế tiếp tab Kế toán là tab Ghi chú nội bộ, nơi bạn có thể ghi
 Tiếp theo là tab Phân công đối tác. Theo mặc định, tab này bao gồm phần Vị trí địa lý và các tùy chọn đối tác khác, bao gồm Kích hoạt đối tác và Đánh giá đối tác. Những tùy chọn này **chỉ** có khi phân hệ  *Đối tác* được cài đặt.
 
 #### SEE ALSO
-Tìm hiểu [Tài liệu về đối tác](applications/sales/crm/track_leads/resellers.md) để biết thêm thông tin về việc đăng đối tác lên trang web.
+Tìm hiểu [Tài liệu về đối tác](../sales/crm/track_leads/resellers.md) để biết thêm thông tin về việc đăng đối tác lên trang web.
 
 ### Tab chương trình thành viên
 
@@ -118,7 +118,7 @@ Cuối cùng, có tab Tư cách thành viên trên biểu mẫu liên hệ, có 
 Ngoài ra, để cung cấp tư cách thành viên miễn phí, hãy đánh dấu vào ô Thành viên miễn phí trong tab Thành viên của biểu mẫu liên hệ.
 
 #### SEE ALSO
-Tham khảo [Tài liệu về thành viên](applications/sales/members.md) để biết thêm thông tin về việc đăng thành viên trên trang web.
+Tham khảo [Tài liệu về thành viên](../sales/members.md) để biết thêm thông tin về việc đăng thành viên trên trang web.
 
 ## Nút thông minh
 
@@ -141,7 +141,7 @@ Sau đó, nhấp vào OK từ cửa sổ bật lên Xác nhận.
 Sau khi lưu trữ thành công liên hệ, nhận biết qua banner thông báo trên đầu màn hình, thì liên hệ này sẽ không hiển thị trên trang liên hệ chính, nhưng vẫn có thể tìm kiếm bằng bộ lọc Đã lưu trữ.
 
 #### SEE ALSO
-- [Thêm các địa chỉ khác trong CRM](applications/sales/sales/send_quotations/different_addresses.md)
+- [Thêm các địa chỉ khác trong CRM](../sales/sales/send_quotations/different_addresses.md)
 - [Hướng dẫn tự học về Odoo Liên hệ](https://www.odoo.com/slides/slide/contacts-2527?fullscreen=1)
 
-* [Gộp liên hệ](applications/essentials/contacts/merge.md)
+* [Gộp liên hệ](contacts/merge.md)

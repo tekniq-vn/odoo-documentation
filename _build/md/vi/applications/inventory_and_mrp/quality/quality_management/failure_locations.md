@@ -8,7 +8,7 @@ one of the specified locations.
 #### IMPORTANT
 The *Failure Location* feature was added in version 17.0 of Odoo, and does **not** appear in any
 previous version. To upgrade an Odoo database to a more recent version, see the documentation on
-[database upgrades](administration/upgrade.md).
+[database upgrades](../../../../administration/upgrade.md).
 
 ## Cấu hình
 
@@ -45,7 +45,7 @@ New.
 #### NOTE
 The following instructions only detail the configuration settings necessary for adding a failure
 location to a . For a full overview of  and all of the options available when
-configuring them, see the documentation on [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md).
+configuring them, see the documentation on [quality control points](quality_control_points.md).
 
 In the Control Per field on the  form, select the Quantity option.
 Doing so causes a Failure Locations field to appear on the form. This field is only

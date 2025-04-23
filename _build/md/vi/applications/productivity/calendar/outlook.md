@@ -4,8 +4,8 @@ Synchronizing a user's *Outlook Calendar* with Odoo is useful for keeping track 
 appointments across all related applications.
 
 #### SEE ALSO
-- [Microsoft Azure sign-in authentication](applications/general/users/azure.md)
-- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](applications/general/email_communication/azure_oauth.md)
+- [Microsoft Azure sign-in authentication](../../general/users/azure.md)
+- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](../../general/email_communication/azure_oauth.md)
 
 ## Microsoft Azure setup
 
@@ -154,8 +154,8 @@ Microsoft *Entra ID* tenants' client IDs and client secrets are unique, and help
 a specific instance of Microsoft cloud services for internal and external users.
 
 #### SEE ALSO
-- [Plugin Outlook](applications/general/integrations/mail_plugins/outlook.md)
-- [Google Calendar synchronization](applications/productivity/calendar/google.md)
+- [Plugin Outlook](../../general/integrations/mail_plugins/outlook.md)
+- [Google Calendar synchronization](google.md)
 
 ## Troubleshoot sync
 

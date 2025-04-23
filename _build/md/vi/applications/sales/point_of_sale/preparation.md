@@ -11,7 +11,7 @@ Concretely,
 
 To enable the preparation display feature,
 
-1. Go to the [POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings).
+1. Go to the [POS settings](configuration.md#configuration-settings).
 2. Scroll down to the Connected Devices section.
 3. Check the Preparation Display option.
 

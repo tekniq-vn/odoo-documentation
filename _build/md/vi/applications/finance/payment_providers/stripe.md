@@ -13,7 +13,7 @@ The method to acquire your credentials depends on your hosting type:
 
 Odoo Online
 
-1. [Navigate to the payment provider Stripe](applications/finance/payment_providers.md#payment-providers-supported-providers) and
+1. [Navigate to the payment provider Stripe](../payment_providers.md#payment-providers-supported-providers) and
    click Connect Stripe.
 2. Go through the setup process and confirm your email address when Stripe sends you a
    confirmation email.
@@ -22,7 +22,7 @@ Odoo Online
 
 Odoo.sh hoặc On-premise
 
-1. [Navigate to the payment provider Stripe](applications/finance/payment_providers.md#payment-providers-supported-providers) and
+1. [Navigate to the payment provider Stripe](../payment_providers.md#payment-providers-supported-providers) and
    click Connect Stripe.
 2. Go through the setup process and confirm your email address when Stripe sends you a
    confirmation email.
@@ -42,7 +42,7 @@ If your **API credentials** are required to connect with your Stripe account, pr
    your Stripe dashboard and go to Developers ‣ API Keys.
 2. In the Standard keys section, copy the Publishable key and the
    Secret key and save them for later.
-3. In Odoo, [navigate to the payment provider Stripe](applications/finance/payment_providers.md#payment-providers-supported-providers).
+3. In Odoo, [navigate to the payment provider Stripe](../payment_providers.md#payment-providers-supported-providers).
 4. In the Credentials tab, fill in the Publishable Key and
    Secret Key fields with the values you previously saved.
 
@@ -77,7 +77,7 @@ Create the webhook manually
 4. Nhấp Thêm sự kiện.
 5. Click Add endpoint, then click Reveal and save your
    Signing secret for later.
-6. In Odoo, [navigate to the payment provider Stripe](applications/finance/payment_providers.md#payment-providers-supported-providers).
+6. In Odoo, [navigate to the payment provider Stripe](../payment_providers.md#payment-providers-supported-providers).
 7. In the Credentials tab, fill the Webhook Signing Secret field with
    the value you previously saved.
 
@@ -91,6 +91,6 @@ Configuration tab, enable Allow Express Checkout, and click
 Enable Apple Pay.
 
 #### SEE ALSO
-- [Express checkout and Google Pay](applications/finance/payment_providers.md#payment-providers-express-checkout)
-- [Thanh toán online](applications/finance/payment_providers.md)
-- [Use Stripe as a payment terminal in Point of Sale](applications/sales/point_of_sale/payment_methods/terminals/stripe.md)
+- [Express checkout and Google Pay](../payment_providers.md#payment-providers-express-checkout)
+- [Thanh toán online](../payment_providers.md)
+- [Use Stripe as a payment terminal in Point of Sale](../../sales/point_of_sale/payment_methods/terminals/stripe.md)

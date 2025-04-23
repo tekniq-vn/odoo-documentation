@@ -16,7 +16,7 @@ customer portal.
 ![The Closable option on a recurring plan form in Odoo Subscriptions.](../../../.gitbook/assets/recurring-plans-closable-option.png)
 
 #### SEE ALSO
-[Configure recurring plans](applications/sales/subscriptions/plans.md)
+[Configure recurring plans](plans.md)
 
 ## Close a subscription
 
@@ -82,5 +82,5 @@ In addition, the specified Close Reason appears on the subscription order in the
 *Subscriptions* app in the backend (Administrator's view).
 
 #### SEE ALSO
-- [Đăng ký](applications/sales/subscriptions.md)
-- [Gói cước đăng ký](applications/sales/subscriptions/plans.md)
+- [Đăng ký](../subscriptions.md)
+- [Gói cước đăng ký](plans.md)

@@ -8,7 +8,7 @@ This helps identify products in stock that are at risk of passing their expirati
 dates, or instances of rot/decay for fast-expiring items.
 
 #### NOTE
-The *Reporting* menu in *Inventory* is only accessible to users with [admin access](applications/general/users/access_rights.md).
+The *Reporting* menu in *Inventory* is only accessible to users with [admin access](../../../../general/users/access_rights.md).
 
 To access the inventory aging report, go to Inventory app ‣ Reporting ‣
 Inventory Aging.

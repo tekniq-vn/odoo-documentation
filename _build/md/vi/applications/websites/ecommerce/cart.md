@@ -9,7 +9,7 @@ The Add to Cart button can be customized in multiple ways. You can:
 - Add an 'Order Again' button to the customer portal.
 
 #### SEE ALSO
-[Thanh toán](applications/websites/ecommerce/checkout.md)
+[Thanh toán](checkout.md)
 
 ## 'Add to Cart' action customization
 
@@ -22,11 +22,11 @@ the Shop - Checkout Process section, look for Add to Cart and select one of
 the options.
 
 #### NOTE
-If a product has [optional products](applications/websites/ecommerce/products/cross_upselling.md), the **dialog
+If a product has [optional products](products/cross_upselling.md), the **dialog
 box** will always appear.
 
 #### SEE ALSO
-[Danh mục](applications/websites/ecommerce/products/catalog.md)
+[Danh mục](products/catalog.md)
 
 <a id="cart-prevent-sale"></a>
 
@@ -37,10 +37,10 @@ of your choice.
 
 #### NOTE
 Hiding the Add to Cart button is often used by B2B eCommerces that need to restrict
-purchases only to [customers with an account](applications/websites/ecommerce/checkout.md#checkout-sign), but still want to
+purchases only to [customers with an account](checkout.md#checkout-sign), but still want to
 display an online product catalog for those without.
 
-Để thực hiện, truy cập Trang web ‣ Cấu hình ‣ Cài đặt ‣ Cửa hàng - Sản phẩm và tích vào Không cho phép bán sản phẩm có giá bằng 0. Thao tác này tạo trường URL nút mới để nhập **URL chuyển hướng**. Sau đó, đặt giá sản phẩm thành `0.00` từ **mẫu sản phẩm** hoặc từ [bảng giá](applications/sales/sales/products_prices/prices/pricing.md).
+Để thực hiện, truy cập Trang web ‣ Cấu hình ‣ Cài đặt ‣ Cửa hàng - Sản phẩm và tích vào Không cho phép bán sản phẩm có giá bằng 0. Thao tác này tạo trường URL nút mới để nhập **URL chuyển hướng**. Sau đó, đặt giá sản phẩm thành `0.00` từ **mẫu sản phẩm** hoặc từ [bảng giá](../../sales/sales/products_prices/prices/pricing.md).
 
 ![Contact us button on product page](../../../.gitbook/assets/cart-contactus.png)
 

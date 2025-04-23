@@ -4,17 +4,17 @@
 
 ## Cài đặt
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Indian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Indian
 localization:
 
-| Tên                         | Tên kỹ thuật             | Mô tả                                                                                                             |
-|-----------------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Ấn Độ - Kế toán             | `l10n_in`                | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) |
-| Indian E-invoicing          | `l10n_in_edi`            | [Indian e-invoicing integration](#india-e-invoicing)                                                              |
-| Indian E-waybill            | `l10n_in_edi_ewaybill`   | [Indian E-way bill integration](#india-e-waybill)                                                                 |
-| Indian E-waybill Stock      | `l10n_in_ewaybill_stock` | [E-waybill creation from the Inventory app](#india-e-waybill-stock)                                               |
-| Indian - GSTR India eFiling | `l10n_in_reports_gstr`   | [Indian GST Return filing](#india-gstr)                                                                           |
-| Indian - Accounting Reports | `l10n_in_reports`        | [Indian tax reports](#india-gstr-reports)                                                                         |
+| Tên                         | Tên kỹ thuật             | Mô tả                                                                                           |
+|-----------------------------|--------------------------|-------------------------------------------------------------------------------------------------|
+| Ấn Độ - Kế toán             | `l10n_in`                | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
+| Indian E-invoicing          | `l10n_in_edi`            | [Indian e-invoicing integration](#india-e-invoicing)                                            |
+| Indian E-waybill            | `l10n_in_edi_ewaybill`   | [Indian E-way bill integration](#india-e-waybill)                                               |
+| Indian E-waybill Stock      | `l10n_in_ewaybill_stock` | [E-waybill creation from the Inventory app](#india-e-waybill-stock)                             |
+| Indian - GSTR India eFiling | `l10n_in_reports_gstr`   | [Indian GST Return filing](#india-gstr)                                                         |
+| Indian - Accounting Reports | `l10n_in_reports`        | [Indian tax reports](#india-gstr-reports)                                                       |
 ![Indian localization modules](../../../.gitbook/assets/india-modules.png)
 
 <a id="india-e-invoicing"></a>
@@ -234,10 +234,10 @@ Doing so cancels both the [e-Invoice](#india-e-invoicing) (if applicable) and th
 ### E-waybill creation from receipts and delivery orders
 
 #### NOTE
-Make sure the **E-Way bill Stock** module is [installed](applications/general/apps_modules.md#general-install) and
+Make sure the **E-Way bill Stock** module is [installed](../../general/apps_modules.md#general-install) and
 the [E-Way bill setup](#india-e-waybill-setup) is complete.
 
-To create E-Way bills from [receipts and deliveries](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.md) in the Inventory
+To create E-Way bills from [receipts and deliveries](../../inventory_and_mrp/inventory/shipping_receiving/daily_operations.md) in the Inventory
 app, follow these steps:
 
 1. Go to Inventory ‣ Operations ‣ Deliveries or Inventory ‣
@@ -301,7 +301,7 @@ Return Period** if it does not exist. GST Return file-in is done in **three step
 
 #### NOTE
 **Tax Return Periodicity** can be
-[configured](applications/finance/accounting/reporting/tax_returns.md) according to the user's
+[configured](../accounting/reporting/tax_returns.md) according to the user's
 needs.
 
 <a id="india-gstr-1"></a>

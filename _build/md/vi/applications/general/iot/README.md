@@ -5,9 +5,9 @@ printers, payment terminals, measurement tools, etc. to an Odoo database using a
 
 The following IoT systems are supported:
 
-- [IoT box](applications/general/iot/iot_box.md): micro-computer, plug-and-play device (i.e., the Odoo IoT program is
+- [IoT box](iot/iot_box.md): micro-computer, plug-and-play device (i.e., the Odoo IoT program is
   pre-installed);
-- [Windows virtual IoT](applications/general/iot/windows_iot.md): Odoo IoT program for Windows that can be installed
+- [Windows virtual IoT](iot/windows_iot.md): Odoo IoT program for Windows that can be installed
   on a Windows computer.
 
 #### NOTE
@@ -29,17 +29,17 @@ to your subscription, contact the database's account manager or Odoo partner for
 - [Odoo Tutorials: Internet of Things (IoT) Tutorials](https://www.odoo.com/slides/internet-of-things-iot-175)
 - [IoT system FAQ](https://www.odoo.com/app/iot-faq)
 
-* [Hộp IoT](applications/general/iot/iot_box.md)
-* [Windows virtual IoT](applications/general/iot/windows_iot.md)
-* [IoT system connection to Odoo](applications/general/iot/connect.md)
-* [Nâng cao](applications/general/iot/iot_advanced.md)
-  * [Chứng chỉ HTTPS (IoT)](applications/general/iot/iot_advanced/https_certificate_iot.md)
-  * [IoT system updates](applications/general/iot/iot_advanced/updating_iot.md)
-  * [IoT box SSH connection](applications/general/iot/iot_advanced/ssh_connect.md)
-* [Thiết bị](applications/general/iot/devices.md)
-  * [Connect a screen](applications/general/iot/devices/screen.md)
-  * [Connect a measurement tool](applications/general/iot/devices/measurement_tool.md)
-  * [Connect a camera](applications/general/iot/devices/camera.md)
-  * [Connect a footswitch](applications/general/iot/devices/footswitch.md)
-  * [Connect a printer](applications/general/iot/devices/printer.md)
-  * [Connect a scale](applications/general/iot/devices/scale.md)
+* [Hộp IoT](iot/iot_box.md)
+* [Windows virtual IoT](iot/windows_iot.md)
+* [IoT system connection to Odoo](iot/connect.md)
+* [Nâng cao](iot/iot_advanced.md)
+  * [Chứng chỉ HTTPS (IoT)](iot/iot_advanced/https_certificate_iot.md)
+  * [IoT system updates](iot/iot_advanced/updating_iot.md)
+  * [IoT box SSH connection](iot/iot_advanced/ssh_connect.md)
+* [Thiết bị](iot/devices.md)
+  * [Connect a screen](iot/devices/screen.md)
+  * [Connect a measurement tool](iot/devices/measurement_tool.md)
+  * [Connect a camera](iot/devices/camera.md)
+  * [Connect a footswitch](iot/devices/footswitch.md)
+  * [Connect a printer](iot/devices/printer.md)
+  * [Connect a scale](iot/devices/scale.md)

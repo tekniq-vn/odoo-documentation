@@ -34,18 +34,18 @@ The following terms are used throughout the Uruguayan localization:
 
 ### Modules installation
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Uruguayan
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Uruguayan
 localization:
 
-| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|---------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uruguay - Kế toán   | `l10n_uy`      | The default [fiscal localization package](applications/finance/fiscal_localizations.md). It adds accounting<br/>characteristics for the Uruguayan localization, which represent the minimum configuration<br/>required for a company to operate in Uruguay according to the guidelines set by the .<br/>The module's installation automatically loads: chart of accounts, taxes, documents types, and<br/>tax supported types. |
-| Uruguay EDI Kế toán | `l10n_uy_edi`  | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](applications/finance/accounting/customer_invoices/electronic_invoicing.md), based on<br/>the technical documentation published by the . The authorized documents are [listed<br/>above](#uruguay-intro).                                                                                                           |
+| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Uruguay - Kế toán   | `l10n_uy`      | The default [fiscal localization package](../fiscal_localizations.md). It adds accounting<br/>characteristics for the Uruguayan localization, which represent the minimum configuration<br/>required for a company to operate in Uruguay according to the guidelines set by the .<br/>The module's installation automatically loads: chart of accounts, taxes, documents types, and<br/>tax supported types. |
+| Uruguay EDI Kế toán | `l10n_uy_edi`  | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](../accounting/customer_invoices/electronic_invoicing.md), based on<br/>the technical documentation published by the . The authorized documents are [listed<br/>above](#uruguay-intro).                                                                                                           |
 
 #### NOTE
 Odoo automatically installs the base module **Uruguay - Accounting** when a database is installed
 with `Uruguay` selected as the country. However, to enable electronic invoicing, the **Uruguay
-Accounting EDI** (`l10n_uy_edi`) module needs to be manually [installed](applications/general/apps_modules.md#general-install).
+Accounting EDI** (`l10n_uy_edi`) module needs to be manually [installed](../../general/apps_modules.md#general-install).
 
 ### Công ty
 
@@ -164,14 +164,14 @@ To get the Terminal Code, go to Configuration ‣ Issuing Points.
 
 #### Hệ thống tài khoản
 
-The [chart of accounts](applications/finance/accounting/get_started/chart_of_accounts.md) is installed by default
+The [chart of accounts](../accounting/get_started/chart_of_accounts.md) is installed by default
 as part of the set of data included in the localization module, the accounts are mapped
 automatically in taxes, default accounts payable, and default accounts receivable.
 
 Accounts can be added or deleted according to the company's needs.
 
 #### SEE ALSO
-[Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+[Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md)
 
 #### Liên hệ
 
@@ -235,7 +235,7 @@ Once you have configured your database, you can create your documents.
 
 #### Hóa đơn bán hàng
 
-[Customer invoices](applications/finance/accounting/customer_invoices.md) are electronic documents that, when
+[Customer invoices](../accounting/customer_invoices.md) are electronic documents that, when
 validated, are sent to  via Uruware. These documents can be created from your sales order or
 manually. They must contain the following data:
 
@@ -252,7 +252,7 @@ Every document type has a specific credit note and debit note (e.g., the documen
 
 #### Giấy báo có khách hàng
 
-The [Customer credit note](applications/finance/accounting/customer_invoices/credit_notes.md) is an electronic
+The [Customer credit note](../accounting/customer_invoices/credit_notes.md) is an electronic
 document that, when validated, is sent to  via Uruware. It is necessary to have a validated
 (posted) invoice to register a credit note. On the invoice, click the Credit note button
 to access the Create credit note form, then complete the following information:
@@ -265,7 +265,7 @@ to access the Create credit note form, then complete the following information:
 
 #### Giấy báo nợ khách hàng
 
-[Giấy báo nợ khách hàng](applications/finance/accounting/customer_invoices/credit_notes.md) là một tài liệu điện tử được gửi đến  thông qua Uruware sau khi xác nhận. Bạn cần có hóa đơn đã xác thực (đã ghi sổ) để ghi nhận giấy báo nợ. Trên hóa đơn, nhấp vào biểu tượng <i class="fa fa-cog"></i> (menu tác vụ), chọn tùy chọn Giấy báo nợ để truy cập biểu mẫu Tạo giấy báo có, sau đó hoàn thành các thông tin sau:
+[Giấy báo nợ khách hàng](../accounting/customer_invoices/credit_notes.md) là một tài liệu điện tử được gửi đến  thông qua Uruware sau khi xác nhận. Bạn cần có hóa đơn đã xác thực (đã ghi sổ) để ghi nhận giấy báo nợ. Trên hóa đơn, nhấp vào biểu tượng <i class="fa fa-cog"></i> (menu tác vụ), chọn tùy chọn Giấy báo nợ để truy cập biểu mẫu Tạo giấy báo có, sau đó hoàn thành các thông tin sau:
 
 - Reason: Type the reason for the debit note.
 - Journal: Select the journal that has to be electronic and has the Use

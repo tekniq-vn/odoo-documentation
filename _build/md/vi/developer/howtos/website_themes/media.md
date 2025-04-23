@@ -79,7 +79,7 @@ use `<t t-call="website.placeholder_header_brand">`.
 ```
 
 #### NOTE
-[Here](developer/howtos/website_themes/theming.md#theming-module-website) you can find more information about the company logo setup
+[Here](theming.md#theming-module-website) you can find more information about the company logo setup
 and global website settings presets.
 
 <a id="website-themes-media-videos"></a>

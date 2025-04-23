@@ -4,7 +4,7 @@
 
 Chương này giúp bạn tạo phân hệ Odoo đầu tiên và triển khai phân hệ đó trong dự án Odoo.sh của bạn.
 
-Hướng dẫn này yêu cầu [bạn tạo một dự án trên Odoo.sh](administration/odoo_sh/getting_started/create.md#odoosh-gettingstarted-create) và biết URL kho lưu trữ Github của mình.
+Hướng dẫn này yêu cầu [bạn tạo một dự án trên Odoo.sh](create.md#odoosh-gettingstarted-create) và biết URL kho lưu trữ Github của mình.
 
 Giải thích cách sử dụng cơ bản của Git và Github.
 
@@ -64,7 +64,7 @@ Từ trình soạn thảo Odoo.sh, trong terminal:
 $ odoo-bin scaffold my_module ~/src/user/
 ```
 
-Hoặc từ máy tính của bạn, nếu bạn có một [bản cài đặt Odoo](administration/on_premise/source.md):
+Hoặc từ máy tính của bạn, nếu bạn có một [bản cài đặt Odoo](../../on_premise/source.md):
 
 ```bash
 $ ./odoo-bin scaffold my_module ~/src/odoo-addons/
@@ -110,7 +110,7 @@ Bỏ chú thích nội dung của các tệp:
 
 ### Thủ công
 
-Nếu muốn tự tạo cấu trúc phân hệ, bạn có thể làm theo hướng dẫn [Server framework 101](developer/tutorials/server_framework_101.md) để hiểu cấu trúc của phân hệ và nội dung của từng tệp.
+Nếu muốn tự tạo cấu trúc phân hệ, bạn có thể làm theo hướng dẫn [Server framework 101](../../../developer/tutorials/server_framework_101.md) để hiểu cấu trúc của phân hệ và nội dung của từng tệp.
 
 ## Push nhánh phát triển
 
@@ -134,7 +134,7 @@ Từ terminal soạn thảo Odoo.sh:
 $ git push https HEAD:feature-1
 ```
 
-Lệnh trên được giải thích trong phần [Commit & push thay đổi của bạn](administration/odoo_sh/getting_started/online-editor.md#odoosh-gettingstarted-online-editor-push) trong chương [Trình soạn thảo online](administration/odoo_sh/getting_started/online-editor.md#odoosh-gettingstarted-online-editor). Phần này bao gồm giải thích về việc bạn sẽ được nhắc nhập tên người dùng và mật khẩu, và những việc cần làm nếu bạn sử dụng xác thực hai yếu tố.
+Lệnh trên được giải thích trong phần [Commit & push thay đổi của bạn](online-editor.md#odoosh-gettingstarted-online-editor-push) trong chương [Trình soạn thảo online](online-editor.md#odoosh-gettingstarted-online-editor). Phần này bao gồm giải thích về việc bạn sẽ được nhắc nhập tên người dùng và mật khẩu, và những việc cần làm nếu bạn sử dụng xác thực hai yếu tố.
 
 Hoặc, từ terminal máy tính của bạn:
 
@@ -195,7 +195,7 @@ Phân hệ của bạn sẽ không được cài đặt tự động, mà bạn 
 
 Phân hệ có thể không xuất hiện trực tiếp trong ứng dụng để bạn cài đặt, mà trước tiên bạn cần cập nhật danh sách ứng dụng:
 
-* Kích hoạt chế độ [lập trình viên](applications/general/developer_mode.md#developer-mode)
+* Kích hoạt chế độ [lập trình viên](../../../applications/general/developer_mode.md#developer-mode)
 * trong menu ứng dụng, nhấp vào nút *Cập nhật danh sách ứng dụng*,
 * trong hộp thoại xuất hiện, nhấp vào nút *Cập nhật*.
   ![image](../../../.gitbook/assets/firstmodule-test-updateappslist.png)

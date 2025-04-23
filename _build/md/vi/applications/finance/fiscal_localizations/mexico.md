@@ -37,19 +37,19 @@ modules in Odoo:
 
 ### Installing modules
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Mexican
-localization. The [Accounting](applications/finance/accounting.md) and *Contacts* modules are required to be
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Mexican
+localization. The [Accounting](../accounting.md) and *Contacts* modules are required to be
 installed for this configuration:
 
-| Tên                                        | Tên kỹ thuật              | Mô tả                                                                                                                                                                                                                                                                                                                                                           |
-|--------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mexico - Kế toán                           | `l10n_mx`                 | The default [fiscal localization package](applications/finance/fiscal_localizations.md), adds accounting<br/>characteristics for the Mexican localization, such as: the most common taxes and the chart of<br/>accounts – based on [the SAT account grouping code](https://www.gob.mx/cms/uploads/attachment/file/151586/codigo_agrupador.pdf).                 |
-| EDI dành cho Mexico                        | `l10n_mx_edi`             | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](applications/finance/accounting/customer_invoices/electronic_invoicing.md) — based<br/>on the technical documentation published by the . This allows you to send invoices (with<br/>or without addedums) and payment complements to the government. |
-| EDI v4.0 for Mexico                        | `l10n_mx_edi_40`          | Necessary to create XML documents with the correct specifications of the CFDI 4.0.                                                                                                                                                                                                                                                                              |
-| Odoo Mexican Localization Reports          | `l10n_mx_reports`         | Adapts reports for Mexico's Electronic Accounting: Chart of Accounts, Trial Balance, and<br/>.                                                                                                                                                                                                                                                                  |
-| Mexico - Localization Reports for Closing  | `l10n_mx_reports_closing` | Necessary to create the Closing Entry (Also known as the *month 13th move*).                                                                                                                                                                                                                                                                                    |
-| Odoo Mexican XML Polizas Export            | `l10n_mx_xml_polizas`     | Allows the export of XML files of Journal Entries for a compulsory audit.                                                                                                                                                                                                                                                                                       |
-| Odoo Mexican XML Polizas Export Edi bridge | `l10n_mx_xml_polizas_edi` | Complements the module `l10n_mx_xml_polizas`.                                                                                                                                                                                                                                                                                                                   |
+| Tên                                        | Tên kỹ thuật              | Mô tả                                                                                                                                                                                                                                                                                                                                         |
+|--------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mexico - Kế toán                           | `l10n_mx`                 | The default [fiscal localization package](../fiscal_localizations.md), adds accounting<br/>characteristics for the Mexican localization, such as: the most common taxes and the chart of<br/>accounts – based on [the SAT account grouping code](https://www.gob.mx/cms/uploads/attachment/file/151586/codigo_agrupador.pdf).                 |
+| EDI dành cho Mexico                        | `l10n_mx_edi`             | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](../accounting/customer_invoices/electronic_invoicing.md) — based<br/>on the technical documentation published by the . This allows you to send invoices (with<br/>or without addedums) and payment complements to the government. |
+| EDI v4.0 for Mexico                        | `l10n_mx_edi_40`          | Necessary to create XML documents with the correct specifications of the CFDI 4.0.                                                                                                                                                                                                                                                            |
+| Odoo Mexican Localization Reports          | `l10n_mx_reports`         | Adapts reports for Mexico's Electronic Accounting: Chart of Accounts, Trial Balance, and<br/>.                                                                                                                                                                                                                                                |
+| Mexico - Localization Reports for Closing  | `l10n_mx_reports_closing` | Necessary to create the Closing Entry (Also known as the *month 13th move*).                                                                                                                                                                                                                                                                  |
+| Odoo Mexican XML Polizas Export            | `l10n_mx_xml_polizas`     | Allows the export of XML files of Journal Entries for a compulsory audit.                                                                                                                                                                                                                                                                     |
+| Odoo Mexican XML Polizas Export Edi bridge | `l10n_mx_xml_polizas_edi` | Complements the module `l10n_mx_xml_polizas`.                                                                                                                                                                                                                                                                                                 |
 
 #### NOTE
 When installing a database from scratch and selecting Mexico as the country, Odoo
@@ -84,7 +84,7 @@ coincide with your business name registered in the , without the legal entity ab
 #### IMPORTANT
 From a legal point of view, a Mexican company **must** use the local currency (MXN). Therefore,
 Odoo does not provide features to manage an alternative configuration. If you want to manage
-another currency, let MXN be the default currency and use a [pricelist](applications/sales/sales/products_prices/prices/pricing.md), instead.
+another currency, let MXN be the default currency and use a [pricelist](../../sales/sales/products_prices/prices/pricing.md), instead.
 
 Next, go to Settings ‣ Accounting ‣ Electronic Invoicing (MX) ‣ Fiscal
 Regime, then select the regime that applies to your company from the drop-down list, and click
@@ -154,7 +154,7 @@ three groups of taxes.
 To configure products, go to Accounting ‣ Customers ‣ Products, then select a
 product to configure, or Create a new one. In the Accounting tab, and in the
 UNSPSC Product Category field, select the category that represents the product. The
-process can be done manually, or through [a bulk import](applications/essentials/export_import_data.md).
+process can be done manually, or through [a bulk import](../../essentials/export_import_data.md).
 
 #### NOTE
 All products need to have an  code associated with them in order to prevent validation
@@ -189,7 +189,7 @@ invoicing of the .
 #### Hóa đơn bán hàng
 
 To start invoicing from Odoo, a customer invoice must be created using the [standard invoicing
-flow](applications/finance/accounting/customer_invoices.md).
+flow](../accounting/customer_invoices.md).
 
 While the document is in draft mode, changes can be made to it (the correct Payment Way
 or Usage that the customer might require can be added, for example.)
@@ -210,7 +210,7 @@ option.
 
 While an invoice is a document type "I" (Ingreso), a credit note is a document type "E" (Egreso).
 
-The only addition to the [standard flow for credit notes](applications/finance/accounting/customer_invoices/credit_notes.md) is that, as a requirement of the , there has
+The only addition to the [standard flow for credit notes](../accounting/customer_invoices/credit_notes.md) is that, as a requirement of the , there has
 to be a relation between a credit note and an invoice through the fiscal folio.
 
 Because of this requirement, the field CFDI Origin adds this relation with a `01|`,
@@ -228,7 +228,7 @@ the SAT documentation, there are two types of payments:
 - `PUE` (Pago en una Sola Exhibición/Payment in a Single Exhibition)
 - `PPD` (Pago en Parcialidades o Diferido/Payment in Installements or Deferred)
   > #### SEE ALSO
-  > [Landed costs](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md)
+  > [Landed costs](../../inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md)
 
 The difference lies in the *Due Date* or *Payment Terms* of the invoice.
 
@@ -252,17 +252,17 @@ define).
 
 ##### Payment flow
 
-In both cases, the payment process in Odoo [is the same](applications/finance/accounting/customer_invoices.md), the
+In both cases, the payment process in Odoo [is the same](../accounting/customer_invoices.md), the
 main difference being payments related to  invoices trigger the creation of a document type "P"
 (Pago).
 
 Nếu một khoản thanh toán liên quan đến hóa đơn , nó có thể được ghi nhận bằng công cụ và liên kết với hóa đơn tương ứng. Để thực hiện, hãy đi đến Kế toán ‣ Khách hàng ‣ Hóa đơn, và chọn một hóa đơn. Sau đó, nhấp vào nút Ghi nhận thanh toán. Trạng thái hóa đơn sẽ thay đổi thành Đang thanh toán, vì khoản thanh toán sẽ được xác thực khi đối chiếu ngân hàng.
 
 #### SEE ALSO
-[Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)
+[Đối chiếu ngân hàng](../accounting/bank/reconciliation.md)
 
 While this process is the same for PPD invoices, the addition of the creating an [electronic
-document](applications/finance/accounting/customer_invoices/electronic_invoicing.md) means some additional requirements
+document](../accounting/customer_invoices/electronic_invoicing.md) means some additional requirements
 are needed to correctly send the document to the .
 
 From an invoice, you need to confirm the specific Payment Way where you received the
@@ -379,12 +379,12 @@ set as: `Sin obligaciones fiscales`.
 
 ##### Nhiều loại tiền tệ
 
-Đồng tiền chính ở Mexico là MXN. Mặc dù đây là đơn vị tiền tệ bắt buộc đối với tất cả công ty Mexico, nhưng vẫn có thể gửi và nhận hóa đơn (cũng như thanh toán) bằng các loại tiền tệ khác nhau. Để kích hoạt tính năng sử dụng [đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md), hãy đi đến Kế toán ‣ Cài đặt ‣ Tiền tệ, và đặt Ngân hàng Mexico làm Dịch vụ trong phần Tỷ giá tự động. Sau đó, đặt trường Khoảng thời gian theo tần suất bạn muốn cập nhật tỷ giá hối đoái.
+Đồng tiền chính ở Mexico là MXN. Mặc dù đây là đơn vị tiền tệ bắt buộc đối với tất cả công ty Mexico, nhưng vẫn có thể gửi và nhận hóa đơn (cũng như thanh toán) bằng các loại tiền tệ khác nhau. Để kích hoạt tính năng sử dụng [đa tiền tệ](../accounting/get_started/multi_currency.md), hãy đi đến Kế toán ‣ Cài đặt ‣ Tiền tệ, và đặt Ngân hàng Mexico làm Dịch vụ trong phần Tỷ giá tự động. Sau đó, đặt trường Khoảng thời gian theo tần suất bạn muốn cập nhật tỷ giá hối đoái.
 
 This way, the XML file of the document will have the correct exchange rate, and the total amount,
 in both the foreign currency and in MXN.
 
-It is highly recommended to use [a bank account for each currency](applications/finance/accounting/bank/foreign_currency.md).
+It is highly recommended to use [a bank account for each currency](../accounting/bank/foreign_currency.md).
 
 #### NOTE
 The only currencies that automatically update their exchange rate daily are: USD, EUR, GBP, and
@@ -394,7 +394,7 @@ JPY.
 
 ##### Khoản trả trước
 
-Trong một số trường hợp, bạn có thể nhận thanh toán trước từ khách hàng cần được áp dụng vào hóa đơn sau. Để thực hiện điều này trong Odoo, cần liên kết chính xác các hóa đơn với nhau bằng trường Nguồn CFDI. Để làm được điều này, cần phải cài đặt ứng dụng [Bán hàng](applications/sales.md).
+Trong một số trường hợp, bạn có thể nhận thanh toán trước từ khách hàng cần được áp dụng vào hóa đơn sau. Để thực hiện điều này trong Odoo, cần liên kết chính xác các hóa đơn với nhau bằng trường Nguồn CFDI. Để làm được điều này, cần phải cài đặt ứng dụng [Bán hàng](../../sales.md).
 
 #### SEE ALSO
 [The official documentation for registration of down payments in Mexico](http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/Caso_uso_Anticipo.pdf).
@@ -505,7 +505,7 @@ to external trade.
 #### Invoicing flow
 
 Before creating an invoice, it is important to take into account that external trade invoices
-require to convert the amounts of your product into USD. Therefore, [multicurrency](applications/finance/accounting/get_started/multi_currency.md) **must** be enabled and *USD* **must** be activated in
+require to convert the amounts of your product into USD. Therefore, [multicurrency](../accounting/get_started/multi_currency.md) **must** be enabled and *USD* **must** be activated in
 the Currencies section. The correct Service to run is Mexican
 Bank.
 
@@ -534,7 +534,7 @@ In order to use this feature, the modules l10n_mx_edi_extended,
 l10n_mx_edi_extended_40, l10n_mx_edi_stock and
 l10n_mx_edi_stock_40 have to be installed.
 
-In addition to this, it is necessary to have the [Inventory](applications/inventory_and_mrp/inventory.md) and [Sales](applications/sales/sales.md) apps installed, as well.
+In addition to this, it is necessary to have the [Inventory](../../inventory_and_mrp/inventory.md) and [Sales](../../sales/sales.md) apps installed, as well.
 
 #### IMPORTANT
 Odoo does not support Carta Porte type document type "I" (Ingreso), air, or marine transport.
@@ -645,7 +645,7 @@ CFDI 4.0, in documents where the invoiced goods come from a first-hand import op
 Customs Number, needs to be added to all lines of products involved with the operation.
 
 To do so, the module l10n_mx_edi_landing must be installed, in addition to the
-[Inventory](applications/inventory_and_mrp/inventory.md), [Purchase](applications/inventory_and_mrp/purchase.md) and [Sales](applications/sales/sales.md) apps.
+[Inventory](../../inventory_and_mrp/inventory.md), [Purchase](../../inventory_and_mrp/purchase.md) and [Sales](../../sales/sales.md) apps.
 
 #### IMPORTANT
 Do not confuse this feature with external trade. The customs numbers are directly related to
@@ -654,7 +654,7 @@ accountant first if this feature is needed before doing any modifications.
 
 #### Cấu hình
 
-In order to track the correct customs number for a specific invoice, Odoo uses [landed costs](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md). Go to
+In order to track the correct customs number for a specific invoice, Odoo uses [landed costs](../../inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md). Go to
 Inventory ‣ Configuration ‣ Settings ‣ Valuation. Make sure that
 Landed Costs is activated.
 
@@ -675,7 +675,7 @@ products, and make sure the Product Category has the following configuration.
 
 #### Purchase and sales flow
 
-After you configure your product, follow the standard [purchase flow](applications/inventory_and_mrp/purchase.md).
+After you configure your product, follow the standard [purchase flow](../../inventory_and_mrp/purchase.md).
 
 Create a purchase order from Purchase ‣ Orders ‣ Purchase Order. Then, confirm
 the order to display a Receipt smart button. Click on the Receipt smart
@@ -723,7 +723,7 @@ exported in a `.txt` file.
 
 In order to use these reports, the modules l10n_mx_reports,
 l10n_mx_reports_closing, l10n_mx_xml_polizas and
-l10n_mx_xml_polizas_edi have to be installed, as well as the [Accounting](applications/finance/accounting/get_started.md).
+l10n_mx_xml_polizas_edi have to be installed, as well as the [Accounting](../accounting/get_started.md).
 
 #### IMPORTANT
 The specific characteristics and obligations of the reports that you send might change according
@@ -734,7 +734,7 @@ government.
 
 #### Hệ thống tài khoản
 
-The [chart of accounts](applications/finance/accounting/get_started/chart_of_accounts.md) in México follows a
+The [chart of accounts](../accounting/get_started/chart_of_accounts.md) in México follows a
 specific pattern based on 's' [Código agrupador de cuentas](http://omawww.sat.gob.mx/fichas_tematicas/buzon_tributario/Documents/codigo_agrupador.pdf).
 
 You can create any account, as long as it respects 's encoding group: the pattern is

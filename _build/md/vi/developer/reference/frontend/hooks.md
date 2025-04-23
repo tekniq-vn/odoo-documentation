@@ -31,7 +31,7 @@ documents the list of hooks provided by the Odoo web framework.
 
 ### Description
 
-See the section on [lazy loading assets](developer/reference/frontend/assets.md#frontend-assets-lazy-loading) for
+See the section on [lazy loading assets](assets.md#frontend-assets-lazy-loading) for
 more details.
 
 <a id="frontend-hooks-useautofocus"></a>
@@ -115,7 +115,7 @@ class MyComponent {
 
 ### Description
 
-Display the [Pager](developer/reference/frontend/owl_components.md#frontend-pager) of the control panel of a view. This hooks correctly sets `env.config` to provide the props to the pager.
+Display the [Pager](owl_components.md#frontend-pager) of the control panel of a view. This hooks correctly sets `env.config` to provide the props to the pager.
 
 ```javascript
 import { usePager } from "@web/search/pager_hook";

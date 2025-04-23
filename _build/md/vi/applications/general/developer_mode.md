@@ -10,8 +10,8 @@ may have associated risks. Only use them if you understand the implications and 
 your actions.
 
 #### NOTE
-The developer mode is also available with [assets](developer/reference/frontend/framework_overview.md#frontend-framework-assets-debug-mode),
-which are used to debug JavaScript code, and with [tests assets](developer/reference/frontend/framework_overview.md#frontend-framework-tests-debug-mode), which are used to run test tours.
+The developer mode is also available with [assets](../../developer/reference/frontend/framework_overview.md#frontend-framework-assets-debug-mode),
+which are used to debug JavaScript code, and with [tests assets](../../developer/reference/frontend/framework_overview.md#frontend-framework-tests-debug-mode), which are used to run test tours.
 
 <a id="developer-mode-activation"></a>
 

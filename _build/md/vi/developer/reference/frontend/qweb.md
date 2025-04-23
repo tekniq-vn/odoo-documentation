@@ -238,7 +238,7 @@ exists in 3 different forms:
   ```
 
 `t-attf- *$name*`
-: same as previous, but the parameter is a [format string](developer/glossary.md#term-format-string)
+: same as previous, but the parameter is a [format string](../../glossary.md#term-format-string)
   instead of just an expression, often useful to mix literal and non-literal
   string (e.g. classes):
   <br/>
@@ -714,7 +714,7 @@ The value `cached_value` is cached with the cached template part of
 
 Most Python-side uses of QWeb are in controllers (and during HTTP requests),
 in which case templates stored in the database (as
-[views](developer/reference/user_interface/view_architectures.md#reference-view-architectures-qweb)) can be trivially rendered by calling
+[views](../user_interface/view_architectures.md#reference-view-architectures-qweb)) can be trivially rendered by calling
 `odoo.http.HttpRequest.render()`:
 
 ```python
@@ -734,7 +734,7 @@ At a deeper level than the previous helper is the `_render` method on
 
 ### \_render(id)
 
-Renders a QWeb view/template by database id or [external id](developer/glossary.md#term-external-id).
+Renders a QWeb view/template by database id or [external id](../../glossary.md#term-external-id).
 Templates are automatically loaded from `ir.qweb` records.
 
 `_prepare_environment` method sets up a number of default values in

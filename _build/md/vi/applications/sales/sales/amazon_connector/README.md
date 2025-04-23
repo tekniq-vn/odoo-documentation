@@ -1,5 +1,5 @@
 # Liên kết Amazon
 
-* [Amazon Connector features](applications/sales/sales/amazon_connector/features.md)
-* [Amazon Connector configuration](applications/sales/sales/amazon_connector/setup.md)
-* [Amazon order management](applications/sales/sales/amazon_connector/manage.md)
+* [Amazon Connector features](amazon_connector/features.md)
+* [Amazon Connector configuration](amazon_connector/setup.md)
+* [Amazon order management](amazon_connector/manage.md)

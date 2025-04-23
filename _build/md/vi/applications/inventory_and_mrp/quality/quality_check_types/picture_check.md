@@ -12,7 +12,7 @@ predetermined interval.
 
 This documentation only details the configuration options that are unique to *Take a Picture*
 quality checks and . For a full overview of all the configuration options available when
-creating a single check or a , see the documentation on [quality checks](applications/inventory_and_mrp/quality/quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+creating a single check or a , see the documentation on [quality checks](../quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](../quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
 
 ### Quality check
 
@@ -38,7 +38,7 @@ the new  form as follows:
 - If the *Maintenance* app is installed, a Device field appears after selecting the
   *Take a Picture* check type. Use this field to specify a device that should be used to take
   quality check pictures. For information about managing devices in the *Maintenance* app, see the
-  documentation on [adding new equipment](applications/inventory_and_mrp/maintenance/add_new_equipment.md#maintenance-equipment-management-add-new-equipment).
+  documentation on [adding new equipment](../../maintenance/add_new_equipment.md#maintenance-equipment-management-add-new-equipment).
 - In the Team drop-down field, select the quality team responsible for managing the
   checks created by the .
 - In the Instructions text field, enter instructions for how the picture should be
@@ -84,7 +84,7 @@ pop-up window to complete the quality check.
 
 ![A Take a Picture quality check pop-up window on a manufacturing or inventory order.](../../../../.gitbook/assets/picture-check-pop-up.png)
 
-Nếu cần tạo cảnh báo chất lượng, hãy nhấp vào nút Cảnh báo chất lượng xuất hiện ở đầu lệnh sản xuất hoặc phiếu kho sau khi kiểm tra được xác nhận. Việc nhấp vào Cảnh báo chất lượng sẽ mở biểu mẫu cảnh báo chất lượng trên trang mới. Để xem hướng dẫn đầy đủ về cách điền biểu mẫu cảnh báo chất lượng, tham khảo tài liệu về [cảnh báo chất lượng](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
+Nếu cần tạo cảnh báo chất lượng, hãy nhấp vào nút Cảnh báo chất lượng xuất hiện ở đầu lệnh sản xuất hoặc phiếu kho sau khi kiểm tra được xác nhận. Việc nhấp vào Cảnh báo chất lượng sẽ mở biểu mẫu cảnh báo chất lượng trên trang mới. Để xem hướng dẫn đầy đủ về cách điền biểu mẫu cảnh báo chất lượng, tham khảo tài liệu về [cảnh báo chất lượng](../quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
 
 ### On a work order
 
@@ -133,7 +133,7 @@ window.
 
 #### SEE ALSO
 For a complete guide on how to fill out quality alert forms, view the documentation on
-[quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md).
+[quality alerts](../quality_management/quality_alerts.md).
 
 ## Review picture attached to quality check
 

@@ -31,7 +31,7 @@ process. Here's a summary of the types of lead times in Odoo:
   components, or manufacture sub-assemblies of the product. Either set one directly on the bill of
   materials (BoM), or click *Compute* to sum up purchase and manufacturing lead times of components
   in the .
-- [Thời gian dự phòng sản xuất](#inventory-warehouses-storage-manuf-security-lt): đẩy ngày đã lên lịch của  lên sớm hơn một số ngày được chỉ định. Khi sử dụng kết hợp với [bổ sung theo đơn đặt hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment.md#inventory-management-products-strategies), thời gian dự phòng giúp hiển thị nhu cầu sớm hơn trên báo cáo bổ sung hàng.
+- [Thời gian dự phòng sản xuất](#inventory-warehouses-storage-manuf-security-lt): đẩy ngày đã lên lịch của  lên sớm hơn một số ngày được chỉ định. Khi sử dụng kết hợp với [bổ sung theo đơn đặt hàng](../replenishment.md#inventory-management-products-strategies), thời gian dự phòng giúp hiển thị nhu cầu sớm hơn trên báo cáo bổ sung hàng.
 
 <a id="inventory-warehouses-storage-customer-lt"></a>
 
@@ -88,7 +88,7 @@ by the expected receipt date.
 ![Visualization of PO deadline and receipt date used with vendor lead times.](../../../../../.gitbook/assets/vendor-lead-times.png)
 
 #### SEE ALSO
-[PO scheduling with reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
+[PO scheduling with reordering rules](reordering_rules.md)
 
 ### Vendor lead time
 
@@ -169,8 +169,8 @@ However, it is important to note that lead times are based on calendar days. Lea
 consider weekends, holidays, or *work center capacity* ().
 
 #### SEE ALSO
-- [Lập kế hoạch sản xuất](applications/inventory_and_mrp/manufacturing/workflows/use_mps.md)
-- [Schedule MOs with reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
+- [Lập kế hoạch sản xuất](../../../manufacturing/workflows/use_mps.md)
+- [Schedule MOs with reordering rules](reordering_rules.md)
 
 <a id="inventory-warehouses-storage-prepare-manufacturing-order"></a>
 

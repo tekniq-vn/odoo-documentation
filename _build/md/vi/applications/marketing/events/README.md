@@ -121,7 +121,7 @@ promotion and registration of the event for attendees, the **Sales** app for the
 of paid tickets, and the **CRM** application through customizable lead generation rules.
 
 #### SEE ALSO
-[Create events](applications/marketing/events/create_events.md)
+[Create events](events/create_events.md)
 
 ## Sell event tickets
 
@@ -132,7 +132,7 @@ Odoo simplifies the ticket-purchasing process by providing plenty of payment met
 well.
 
 #### SEE ALSO
-[Sell event tickets](applications/marketing/events/sell_tickets.md)
+[Sell event tickets](events/sell_tickets.md)
 
 ## Track and manage talks
 
@@ -140,7 +140,7 @@ Discover how to access various event tracks (talks, presentations, etc.), view e
 learn how attendees can propose talks for the event.
 
 #### SEE ALSO
-[Talks, proposals, and agenda](applications/marketing/events/track_manage_talks.md)
+[Talks, proposals, and agenda](events/track_manage_talks.md)
 
 ## Event templates
 
@@ -148,7 +148,7 @@ Learn the process to customize and configure event templates, which can be used 
 event-creation process.
 
 #### SEE ALSO
-[Event templates](applications/marketing/events/event_templates.md)
+[Event templates](events/event_templates.md)
 
 ## Event booths
 
@@ -156,7 +156,7 @@ Explore the various ways to create, manage, and sell event booths with the Odoo 
 application.
 
 #### SEE ALSO
-[Event booths](applications/marketing/events/event_booths.md)
+[Event booths](events/event_booths.md)
 
 ## Event tracks
 
@@ -164,7 +164,7 @@ Find out how to create, manage, and schedule different experiences (aka *Tracks*
 Odoo.
 
 #### SEE ALSO
-[Event tracks](applications/marketing/events/event_tracks.md)
+[Event tracks](events/event_tracks.md)
 
 ## Registration desk
 
@@ -172,67 +172,67 @@ Grant access to event attendees quickly and easily with the Odoo **Events** *Reg
 feature.
 
 #### SEE ALSO
-[Bàn đăng ký](applications/marketing/events/registration_desk.md)
+[Bàn đăng ký](events/registration_desk.md)
 
 ## Revenues report
 
 Gain invaluable insight into event-related revenues with customizable reports and metrics.
 
 #### SEE ALSO
-[Revenues report](applications/marketing/events/revenues_report.md)
+[Revenues report](events/revenues_report.md)
 
-* [Create events](applications/marketing/events/create_events.md)
-  * [New event](applications/marketing/events/create_events.md#new-event)
-  * [Event form](applications/marketing/events/create_events.md#event-form)
-    * [Tickets tab](applications/marketing/events/create_events.md#tickets-tab)
-    * [Communication tab](applications/marketing/events/create_events.md#communication-tab)
-      * [Mail](applications/marketing/events/create_events.md#mail)
-    * [Questions tab](applications/marketing/events/create_events.md#questions-tab)
-    * [Tab Ghi chú](applications/marketing/events/create_events.md#notes-tab)
-  * [Publish events](applications/marketing/events/create_events.md#publish-events)
-  * [Send event invites](applications/marketing/events/create_events.md#send-event-invites)
-* [Sell event tickets](applications/marketing/events/sell_tickets.md)
-  * [Cấu hình](applications/marketing/events/sell_tickets.md#configuration)
-  * [Sell event tickets with the Sales app](applications/marketing/events/sell_tickets.md#sell-event-tickets-with-the-sales-app)
-  * [Sell event tickets through the Website app](applications/marketing/events/sell_tickets.md#sell-event-tickets-through-the-website-app)
-* [Talks, proposals, and agenda](applications/marketing/events/track_manage_talks.md)
-  * [Event website](applications/marketing/events/track_manage_talks.md#event-website)
-    * [Talks page](applications/marketing/events/track_manage_talks.md#talks-page)
-    * [Talk Proposals page](applications/marketing/events/track_manage_talks.md#talk-proposals-page)
-    * [Agenda page](applications/marketing/events/track_manage_talks.md#agenda-page)
-* [Event templates](applications/marketing/events/event_templates.md)
-  * [Event templates page](applications/marketing/events/event_templates.md#event-templates-page)
-  * [Create event template](applications/marketing/events/event_templates.md#create-event-template)
-    * [Event template form](applications/marketing/events/event_templates.md#event-template-form)
-      * [Tab gian hàng](applications/marketing/events/event_templates.md#booths-tab)
-  * [Use event templates](applications/marketing/events/event_templates.md#use-event-templates)
-* [Event booths](applications/marketing/events/event_booths.md)
-  * [Cấu hình](applications/marketing/events/event_booths.md#configuration)
-  * [Booth categories](applications/marketing/events/event_booths.md#booth-categories)
-    * [Create booth category](applications/marketing/events/event_booths.md#create-booth-category)
-  * [Add booth to an event](applications/marketing/events/event_booths.md#add-booth-to-an-event)
-    * [Booth form](applications/marketing/events/event_booths.md#booth-form)
-  * [Sell event booths](applications/marketing/events/event_booths.md#sell-event-booths)
-* [Event tracks](applications/marketing/events/event_tracks.md)
-  * [Cấu hình](applications/marketing/events/event_tracks.md#configuration)
-  * [Event Tracks page](applications/marketing/events/event_tracks.md#event-tracks-page)
-    * [Create event track](applications/marketing/events/event_tracks.md#create-event-track)
-      * [Tab diễn giả](applications/marketing/events/event_tracks.md#speaker-tab)
-        * [Contact Details section](applications/marketing/events/event_tracks.md#contact-details-section)
-        * [Speaker Bio section](applications/marketing/events/event_tracks.md#speaker-bio-section)
-      * [Tab mô tả](applications/marketing/events/event_tracks.md#description-tab)
-      * [Interactivity tab](applications/marketing/events/event_tracks.md#interactivity-tab)
-      * [Add Quiz button](applications/marketing/events/event_tracks.md#add-quiz-button)
-  * [Publish event track](applications/marketing/events/event_tracks.md#publish-event-track)
-* [Bàn đăng ký](applications/marketing/events/registration_desk.md)
-  * [Registration Desk page](applications/marketing/events/registration_desk.md#registration-desk-page)
-  * [Quét huy hiệu](applications/marketing/events/registration_desk.md#scan-a-badge)
-  * [Select attendee](applications/marketing/events/registration_desk.md#select-attendee)
-* [Revenues report](applications/marketing/events/revenues_report.md)
-  * [Revenues reporting page](applications/marketing/events/revenues_report.md#revenues-reporting-page)
-    * [Đơn vị tính](applications/marketing/events/revenues_report.md#measures)
-    * [Filters and grouping options](applications/marketing/events/revenues_report.md#filters-and-grouping-options)
-      * [Filter options](applications/marketing/events/revenues_report.md#filter-options)
-      * [Group By options](applications/marketing/events/revenues_report.md#group-by-options)
-  * [Sample report: event ticket analysis (graph)](applications/marketing/events/revenues_report.md#sample-report-event-ticket-analysis-graph)
-  * [Sample report: event type analysis (pivot table)](applications/marketing/events/revenues_report.md#sample-report-event-type-analysis-pivot-table)
+* [Create events](events/create_events.md)
+  * [New event](events/create_events.md#new-event)
+  * [Event form](events/create_events.md#event-form)
+    * [Tickets tab](events/create_events.md#tickets-tab)
+    * [Communication tab](events/create_events.md#communication-tab)
+      * [Mail](events/create_events.md#mail)
+    * [Questions tab](events/create_events.md#questions-tab)
+    * [Tab Ghi chú](events/create_events.md#notes-tab)
+  * [Publish events](events/create_events.md#publish-events)
+  * [Send event invites](events/create_events.md#send-event-invites)
+* [Sell event tickets](events/sell_tickets.md)
+  * [Cấu hình](events/sell_tickets.md#configuration)
+  * [Sell event tickets with the Sales app](events/sell_tickets.md#sell-event-tickets-with-the-sales-app)
+  * [Sell event tickets through the Website app](events/sell_tickets.md#sell-event-tickets-through-the-website-app)
+* [Talks, proposals, and agenda](events/track_manage_talks.md)
+  * [Event website](events/track_manage_talks.md#event-website)
+    * [Talks page](events/track_manage_talks.md#talks-page)
+    * [Talk Proposals page](events/track_manage_talks.md#talk-proposals-page)
+    * [Agenda page](events/track_manage_talks.md#agenda-page)
+* [Event templates](events/event_templates.md)
+  * [Event templates page](events/event_templates.md#event-templates-page)
+  * [Create event template](events/event_templates.md#create-event-template)
+    * [Event template form](events/event_templates.md#event-template-form)
+      * [Tab gian hàng](events/event_templates.md#booths-tab)
+  * [Use event templates](events/event_templates.md#use-event-templates)
+* [Event booths](events/event_booths.md)
+  * [Cấu hình](events/event_booths.md#configuration)
+  * [Booth categories](events/event_booths.md#booth-categories)
+    * [Create booth category](events/event_booths.md#create-booth-category)
+  * [Add booth to an event](events/event_booths.md#add-booth-to-an-event)
+    * [Booth form](events/event_booths.md#booth-form)
+  * [Sell event booths](events/event_booths.md#sell-event-booths)
+* [Event tracks](events/event_tracks.md)
+  * [Cấu hình](events/event_tracks.md#configuration)
+  * [Event Tracks page](events/event_tracks.md#event-tracks-page)
+    * [Create event track](events/event_tracks.md#create-event-track)
+      * [Tab diễn giả](events/event_tracks.md#speaker-tab)
+        * [Contact Details section](events/event_tracks.md#contact-details-section)
+        * [Speaker Bio section](events/event_tracks.md#speaker-bio-section)
+      * [Tab mô tả](events/event_tracks.md#description-tab)
+      * [Interactivity tab](events/event_tracks.md#interactivity-tab)
+      * [Add Quiz button](events/event_tracks.md#add-quiz-button)
+  * [Publish event track](events/event_tracks.md#publish-event-track)
+* [Bàn đăng ký](events/registration_desk.md)
+  * [Registration Desk page](events/registration_desk.md#registration-desk-page)
+  * [Quét huy hiệu](events/registration_desk.md#scan-a-badge)
+  * [Select attendee](events/registration_desk.md#select-attendee)
+* [Revenues report](events/revenues_report.md)
+  * [Revenues reporting page](events/revenues_report.md#revenues-reporting-page)
+    * [Đơn vị tính](events/revenues_report.md#measures)
+    * [Filters and grouping options](events/revenues_report.md#filters-and-grouping-options)
+      * [Filter options](events/revenues_report.md#filter-options)
+      * [Group By options](events/revenues_report.md#group-by-options)
+  * [Sample report: event ticket analysis (graph)](events/revenues_report.md#sample-report-event-ticket-analysis-graph)
+  * [Sample report: event type analysis (pivot table)](events/revenues_report.md#sample-report-event-type-analysis-pivot-table)

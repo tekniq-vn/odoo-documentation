@@ -7,7 +7,7 @@ Dit is een Nederlandse vertaling van de "Odoo Enterprise Subscription Agreement"
 Deze vertaling wordt verstrekt in de hoop dat deze het begrip zal vergemakkelijken,
 maar heeft geen juridische waarde.
 De enige officiële referentie van de algemene voorwaarden van de "Odoo Enterprise Subscription Agreement"
-is [de originele Engelse versie](legal/terms/enterprise.md#enterprise-agreement)
+is [de originele Engelse versie](../enterprise.md#enterprise-agreement)
 
 <!-- v6: add "App" definition + update pricing per-App -->
 <!-- v7: remove possibility of price change at renewal after prior notice -->

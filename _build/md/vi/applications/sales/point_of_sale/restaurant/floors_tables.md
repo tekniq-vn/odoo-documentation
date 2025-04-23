@@ -19,7 +19,7 @@ map of your restaurant or bar reflecting your actual floor plan.
 
 ### From the POS frontend
 
-To create floors and tables from the frontend, [open a POS session](applications/sales/point_of_sale.md#pos-session-start), click
+To create floors and tables from the frontend, [open a POS session](../../point_of_sale.md#pos-session-start), click
 the hamburger menu icon ≡ in the upper right corner, then Edit Plan to enter
 the **edit mode**.
 

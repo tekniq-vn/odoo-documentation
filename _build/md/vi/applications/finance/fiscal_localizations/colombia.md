@@ -16,15 +16,15 @@ specific use cases as well.
 
 ### Modules installation
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Colombian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Colombian
 localization:
 
-| Tên                                             | Tên kỹ thuật      | Mô tả                                                                                                                                                                                                                                                                              |
-|-------------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Colombia - Kế toán                              | `l10n_co`         | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages). This module adds<br/>the base accounting features for the Colombian localization: chart of accounts, taxes,<br/>withholdings, and identification document type. |
-| Colombian - Accounting Reports                  | `l10n_co_reports` | Includes accounting reports for sending certifications to suppliers for withholdings applied.                                                                                                                                                                                      |
-| Electronic invoicing for Colombia with Carvajal | `l10n_co_edi`     | This module includes the features required for integration with Carvajal, and<br/>generates the electronic invoices and support documents related to the vendor bills, based on<br/> regulations.                                                                                  |
-| Colombian - Point of Sale                       | `l10n_co_pos`     | Includes Point of Sale receipts for Colombian localization.                                                                                                                                                                                                                        |
+| Tên                                             | Tên kỹ thuật      | Mô tả                                                                                                                                                                                                                                                            |
+|-------------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Colombia - Kế toán                              | `l10n_co`         | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). This module adds<br/>the base accounting features for the Colombian localization: chart of accounts, taxes,<br/>withholdings, and identification document type. |
+| Colombian - Accounting Reports                  | `l10n_co_reports` | Includes accounting reports for sending certifications to suppliers for withholdings applied.                                                                                                                                                                    |
+| Electronic invoicing for Colombia with Carvajal | `l10n_co_edi`     | This module includes the features required for integration with Carvajal, and<br/>generates the electronic invoices and support documents related to the vendor bills, based on<br/> regulations.                                                                |
+| Colombian - Point of Sale                       | `l10n_co_pos`     | Includes Point of Sale receipts for Colombian localization.                                                                                                                                                                                                      |
 
 #### NOTE
 When `Colombia` is selected for a company's Fiscal Localization, Odoo automatically
@@ -35,7 +35,7 @@ installs certain modules.
 To configure your company information, go to the Contacts app, and search for your
 company.
 
-Alternatively, activate [developer mode](applications/general/developer_mode.md#developer-mode) and navigate to
+Alternatively, activate [developer mode](../../general/developer_mode.md#developer-mode) and navigate to
 General Setting ‣ Company ‣ Update Info ‣ Contact. Then, edit the contact
 form and configure the following information:
 
@@ -200,7 +200,7 @@ Odoo. The process is similar to the configuration of the [sales journals](#co-jo
 
 ##### Hệ thống tài khoản
 
-The [chart of accounts](applications/finance/accounting/get_started/chart_of_accounts.md) is
+The [chart of accounts](../accounting/get_started/chart_of_accounts.md) is
 installed by default as part of the localization module, the accounts are mapped automatically in
 taxes, default account payable, and default account receivable. The chart of accounts for Colombia
 is based on the PUC (Plan Unico de Cuentas).

@@ -7,7 +7,7 @@ per Session** feature. When activated, [you can select which users can log into 
 
 ## Cấu hình
 
-[Access the POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the vertical
+[Access the POS settings](configuration.md#configuration-settings) and select your POS, or click the vertical
 ellipsis button (⋮) on a POS card and click Edit. Then, enable
 Multi Employees per Session, and add the allowed employees in the Allowed
 Employees field.
@@ -19,11 +19,11 @@ Employees field.
 ## Practical application
 
 Once the feature is activated, cashiers can log in [by scanning their badge](#employee-login-badge) or selecting their name from the list of allowed employees to [open the
-session](applications/sales/point_of_sale.md#pos-session-start).
+session](../point_of_sale.md#pos-session-start).
 
 ![window to open a session when the multiple cashiers feature is enabled](../../../.gitbook/assets/open-session.png)
 
-To switch to another user [from an open session](applications/sales/point_of_sale.md#pos-session-start), click the employee name
+To switch to another user [from an open session](../point_of_sale.md#pos-session-start), click the employee name
 at the top-right of the screen and select the employee to swap with from the list.
 
 ![button to switch from one cashier to another.](../../../.gitbook/assets/switch-user.png)

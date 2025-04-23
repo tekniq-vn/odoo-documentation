@@ -1,6 +1,6 @@
 # Nhà cung cấp
 
-Before [products can be added](applications/hr/lunch/products.md) to the *Lunch* app, the restaurants that provide the
+Before [products can be added](products.md) to the *Lunch* app, the restaurants that provide the
 food **must** be configured.
 
 To add a new vendor, first navigate to Lunch app ‣ Configuration ‣ Vendors.

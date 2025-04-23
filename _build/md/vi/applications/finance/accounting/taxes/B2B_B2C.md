@@ -75,7 +75,7 @@ If you only use B2C or B2B prices on your website, simply select the appropriate
 
 If you have both B2B and B2C prices on a single website, please follow these instructions:
 
-1. Activate the [developer mode](applications/general/developer_mode.md#developer-mode) and go to General Settings
+1. Activate the [developer mode](../../../general/developer_mode.md#developer-mode) and go to General Settings
    ‣ Users & Companies ‣ Groups.
 2. Open either `Technical / Tax display B2B` or `Technical / Tax display B2C`.
 3. Under the Users tab, add the users requiring access to the price type. Add B2C users

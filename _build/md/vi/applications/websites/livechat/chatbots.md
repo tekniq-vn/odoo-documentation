@@ -133,7 +133,7 @@ This step is **only** available if the *CRM* application is installed on the dat
 
 ##### Tạo phiếu hỗ trợ
 
-This step creates a [ticket](applications/services/helpdesk/overview/receiving_tickets.md) in
+This step creates a [ticket](../../services/helpdesk/overview/receiving_tickets.md) in
 the *Helpdesk* application. Select an option from the Helpdesk Team drop-down field that
 appears to assign the created ticket to a specific team.
 
@@ -188,7 +188,7 @@ drop-down menu. Click Configure Channel to open the channel detail form.
 
 #### NOTE
 To create a new live chat channel, open the Live Chat app and click
-New. See [Live Chat](applications/websites/livechat.md) for more information.
+New. See [Live Chat](../livechat.md) for more information.
 
 Click on the Channel Rules tab. Then, open an existing rule, or create a new one by
 clicking Add a line.
@@ -202,4 +202,4 @@ box labeled Enabled only if no operator.
 ![View of the channel rules emphasizing the chatbot field.](../../../.gitbook/assets/chatbot-add-to-channel.png)
 
 #### SEE ALSO
-[Live chat channel rules](applications/websites/livechat.md)
+[Live chat channel rules](../livechat.md)

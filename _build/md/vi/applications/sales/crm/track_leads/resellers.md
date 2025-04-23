@@ -95,7 +95,7 @@ partner. From that partner's contact form, click the Go to Website smart button 
 top of the page to open that partner's webpage.
 
 Next, click Edit at the top-right of the partner's webpage, and use the [building
-blocks](applications/websites/website/web_design/building_blocks.md) to add any additional design
+blocks](../../../websites/website/web_design/building_blocks.md) to add any additional design
 elements, or information about the partner.
 
 After making any necessary changes to the page, click Save. At the top of the page,

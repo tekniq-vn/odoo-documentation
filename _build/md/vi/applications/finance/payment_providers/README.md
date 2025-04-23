@@ -1,22 +1,22 @@
 # Thanh toán online
 
-* [Chuyển khoản ngân hàng](applications/finance/payment_providers/wire_transfer.md)
-* [Adyen](applications/finance/payment_providers/adyen.md)
-* [Alipay](applications/finance/payment_providers/alipay.md)
-* [Dịch vụ thanh toán Amazon](applications/finance/payment_providers/amazon_payment_services.md)
-* [AsiaPay](applications/finance/payment_providers/asiapay.md)
-* [Authorize.Net](applications/finance/payment_providers/authorize.md)
-* [Buckaroo](applications/finance/payment_providers/buckaroo.md)
-* [Demo](applications/finance/payment_providers/demo.md)
-* [Flutterwave](applications/finance/payment_providers/flutterwave.md)
-* [Mercado Pago](applications/finance/payment_providers/mercado_pago.md)
-* [Mollie](applications/finance/payment_providers/mollie.md)
-* [Ogone](applications/finance/payment_providers/ogone.md)
-* [PayPal](applications/finance/payment_providers/paypal.md)
-* [Razorpay](applications/finance/payment_providers/razorpay.md)
-* [SIPS](applications/finance/payment_providers/sips.md)
-* [Stripe](applications/finance/payment_providers/stripe.md)
-* [Xendit](applications/finance/payment_providers/xendit.md)
+* [Chuyển khoản ngân hàng](payment_providers/wire_transfer.md)
+* [Adyen](payment_providers/adyen.md)
+* [Alipay](payment_providers/alipay.md)
+* [Dịch vụ thanh toán Amazon](payment_providers/amazon_payment_services.md)
+* [AsiaPay](payment_providers/asiapay.md)
+* [Authorize.Net](payment_providers/authorize.md)
+* [Buckaroo](payment_providers/buckaroo.md)
+* [Demo](payment_providers/demo.md)
+* [Flutterwave](payment_providers/flutterwave.md)
+* [Mercado Pago](payment_providers/mercado_pago.md)
+* [Mollie](payment_providers/mollie.md)
+* [Ogone](payment_providers/ogone.md)
+* [PayPal](payment_providers/paypal.md)
+* [Razorpay](payment_providers/razorpay.md)
+* [SIPS](payment_providers/sips.md)
+* [Stripe](payment_providers/stripe.md)
+* [Xendit](payment_providers/xendit.md)
 
 Odoo embeds several **payment providers** that allow your customers to pay online, on their
 *customer portals*, or on your *eCommerce website*. They can pay sales orders, invoices, or
@@ -42,39 +42,39 @@ Sales ‣ Configuration ‣ Payment Providers.
 
 ### Online payment providers
 
-|                                                                                              | Payment flow from          | [Token hoá](#payment-providers-tokenization)   | [Thu hồi thủ công](#payment-providers-manual-capture)   | [Hoàn tiền](#payment-providers-refunds)   | [Thanh toán nhanh](#payment-providers-express-checkout)   |
-|----------------------------------------------------------------------------------------------|----------------------------|------------------------------------------------|---------------------------------------------------------|-------------------------------------------|-----------------------------------------------------------|
-| [Adyen](applications/finance/payment_providers/adyen.md)                                     | Odoo                       | ✔                                              | Toàn bộ và một phần                                     | Toàn bộ và một phần                       |                                                           |
-| [Amazon Payment Services](applications/finance/payment_providers/amazon_payment_services.md) | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
-| [AsiaPay](applications/finance/payment_providers/asiapay.md)                                 | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
-| [Authorize.Net](applications/finance/payment_providers/authorize.md)                         | Odoo                       | ✔                                              | Full only                                               | Full only                                 |                                                           |
-| [Buckaroo](applications/finance/payment_providers/buckaroo.md)                               | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
-| [Flutterwave](applications/finance/payment_providers/flutterwave.md)                         | Trang web của nhà cung cấp | ✔                                              |                                                         |                                           |                                                           |
-| [Mercado Pago](applications/finance/payment_providers/mercado_pago.md)                       | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
-| [Mollie](applications/finance/payment_providers/mollie.md)                                   | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
-| [PayPal](applications/finance/payment_providers/paypal.md)                                   | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
-| [Razorpay](applications/finance/payment_providers/razorpay.md)                               | Odoo                       | ✔                                              | Full only                                               | Toàn bộ và một phần                       |                                                           |
-| [SIPS](applications/finance/payment_providers/sips.md)                                       | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
-| [Stripe](applications/finance/payment_providers/stripe.md)                                   | Odoo                       | ✔                                              | Full only                                               | Toàn bộ và một phần                       | ✔                                                         |
-| [Xendit](applications/finance/payment_providers/xendit.md)                                   | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+|                                                                         | Payment flow from          | [Token hoá](#payment-providers-tokenization)   | [Thu hồi thủ công](#payment-providers-manual-capture)   | [Hoàn tiền](#payment-providers-refunds)   | [Thanh toán nhanh](#payment-providers-express-checkout)   |
+|-------------------------------------------------------------------------|----------------------------|------------------------------------------------|---------------------------------------------------------|-------------------------------------------|-----------------------------------------------------------|
+| [Adyen](payment_providers/adyen.md)                                     | Odoo                       | ✔                                              | Toàn bộ và một phần                                     | Toàn bộ và một phần                       |                                                           |
+| [Amazon Payment Services](payment_providers/amazon_payment_services.md) | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+| [AsiaPay](payment_providers/asiapay.md)                                 | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+| [Authorize.Net](payment_providers/authorize.md)                         | Odoo                       | ✔                                              | Full only                                               | Full only                                 |                                                           |
+| [Buckaroo](payment_providers/buckaroo.md)                               | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+| [Flutterwave](payment_providers/flutterwave.md)                         | Trang web của nhà cung cấp | ✔                                              |                                                         |                                           |                                                           |
+| [Mercado Pago](payment_providers/mercado_pago.md)                       | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+| [Mollie](payment_providers/mollie.md)                                   | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+| [PayPal](payment_providers/paypal.md)                                   | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+| [Razorpay](payment_providers/razorpay.md)                               | Odoo                       | ✔                                              | Full only                                               | Toàn bộ và một phần                       |                                                           |
+| [SIPS](payment_providers/sips.md)                                       | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
+| [Stripe](payment_providers/stripe.md)                                   | Odoo                       | ✔                                              | Full only                                               | Toàn bộ và một phần                       | ✔                                                         |
+| [Xendit](payment_providers/xendit.md)                                   | Trang web của nhà cung cấp |                                                |                                                         |                                           |                                                           |
 
 #### NOTE
 - Each provider has its own specific configuration flow, depending on which feature is
   available.
-- Some of these online payment providers can also be added as [bank accounts](applications/finance/accounting/bank.md), but this is **not** the same process as adding them as payment
+- Some of these online payment providers can also be added as [bank accounts](accounting/bank.md), but this is **not** the same process as adding them as payment
   providers. Payment providers allow customers to pay online, and bank accounts are added and
-  configured in the Accounting app to do a [bank reconciliation](applications/finance/accounting/bank/reconciliation.md).
+  configured in the Accounting app to do a [bank reconciliation](accounting/bank/reconciliation.md).
 
 <a id="payment-providers-bank-payments"></a>
 
 ### Bank payments
 
-- [Chuyển khoản ngân hàng](applications/finance/payment_providers/wire_transfer.md)
+- [Chuyển khoản ngân hàng](payment_providers/wire_transfer.md)
   <br/>
   When selected, Odoo displays your payment information with a payment reference. You have to
   approve the payment manually once you have received it in your bank account.
   <br/>
-- [SEPA Direct Debit](applications/finance/accounting/payments/batch_sdd.md)
+- [SEPA Direct Debit](accounting/payments/batch_sdd.md)
   <br/>
   Your customers can make a bank transfer to register a SEPA Direct Debit mandate and get their
   bank account charged directly.
@@ -145,7 +145,7 @@ the pencil icon (✎).
 To configure payment methods further, go to Accounting ‣ Configuration ‣ Payment
 Methods, Website ‣ Configuration ‣ Payment Methods or Sales
 ‣ Configuration ‣ Payment Methods. Click on the payment method, then activate the
-[developer mode](applications/general/developer_mode.md#developer-mode). Click the Configuration tab to adapt the
+[developer mode](../general/developer_mode.md#developer-mode). Click the Configuration tab to adapt the
 features.
 
 <a id="payment-providers-tokenization"></a>
@@ -249,13 +249,13 @@ the field to `0.00` to make the payment provider available regardless of the pay
 
 #### IMPORTANT
 This feature is not intended to work on pages that allow the customer to update the payment
-amount, e.g., the **Donation** snippet and the **Checkout** page when paid [shipping methods](applications/websites/ecommerce/shipping.md) are enabled.
+amount, e.g., the **Donation** snippet and the **Checkout** page when paid [shipping methods](../websites/ecommerce/shipping.md) are enabled.
 
 <a id="payment-providers-journal"></a>
 
 ## Payment journal
 
-A [payment journal](applications/finance/accounting/bank.md) must be defined for the payment provider to record the
+A [payment journal](accounting/bank.md) must be defined for the payment provider to record the
 payments on an **outstanding account**. By default, the Bank journal is added as the
 payment journal for all payment providers. To modify it, go to the Configuration tab of
 the selected payment provider and select another Payment journal.
@@ -263,32 +263,32 @@ the selected payment provider and select another Payment journal.
 #### NOTE
 - The payment journal must be a Bank journal.
 - The same journal can be used for several payment providers.
-- Payment journals must only be configured if the [Invoicing or Accounting app](applications/finance/accounting.md)
+- Payment journals must only be configured if the [Invoicing or Accounting app](accounting.md)
   is installed.
 
 ### Accounting perspective
 
-Từ góc độ kế toán, có hai loại quy trình thanh toán online: các khoản thanh toán được chuyển trực tiếp vào tài khoản ngân hàng của bạn và tuân theo quy trình [đối chiếu](applications/finance/accounting/bank/reconciliation.md) thông thường, và các khoản thanh toán từ [nhà cung cấp dịch vụ thanh toán online bên thứ ba](#payment-providers-online-providers) yêu cầu bạn tuân theo một quy trình kế toán khác. Đối với các khoản thanh toán này, bạn cần xem xét cách ghi nhận bút toán sổ nhật ký. Chúng tôi khuyên bạn nên tham khảo ý kiến kế toán viên.
+Từ góc độ kế toán, có hai loại quy trình thanh toán online: các khoản thanh toán được chuyển trực tiếp vào tài khoản ngân hàng của bạn và tuân theo quy trình [đối chiếu](accounting/bank/reconciliation.md) thông thường, và các khoản thanh toán từ [nhà cung cấp dịch vụ thanh toán online bên thứ ba](#payment-providers-online-providers) yêu cầu bạn tuân theo một quy trình kế toán khác. Đối với các khoản thanh toán này, bạn cần xem xét cách ghi nhận bút toán sổ nhật ký. Chúng tôi khuyên bạn nên tham khảo ý kiến kế toán viên.
 
-By default, the Bank Account defined for the [payment journal](#payment-providers-journal) is used, but you can also specify an [outstanding account](applications/finance/accounting/bank.md#bank-outstanding-accounts) for each payment provider to separate the provider's payments from
+By default, the Bank Account defined for the [payment journal](#payment-providers-journal) is used, but you can also specify an [outstanding account](accounting/bank.md#bank-outstanding-accounts) for each payment provider to separate the provider's payments from
 other payments.
 
 ![Define an outstanding account for a payment provider.](../../.gitbook/assets/bank_journal.png)
 
 #### SEE ALSO
-- [Chuyển khoản ngân hàng](applications/finance/payment_providers/wire_transfer.md)
-- [Adyen](applications/finance/payment_providers/adyen.md)
-- [Alipay](applications/finance/payment_providers/alipay.md)
-- [Authorize.Net](applications/finance/payment_providers/authorize.md)
-- [AsiaPay](applications/finance/payment_providers/asiapay.md)
-- [Buckaroo](applications/finance/payment_providers/buckaroo.md)
-- [Demo](applications/finance/payment_providers/demo.md)
-- [Mercado Pago](applications/finance/payment_providers/mercado_pago.md)
-- [Mollie](applications/finance/payment_providers/mollie.md)
-- [Ogone](applications/finance/payment_providers/ogone.md)
-- [PayPal](applications/finance/payment_providers/paypal.md)
-- [Razorpay](applications/finance/payment_providers/razorpay.md)
-- [SIPS](applications/finance/payment_providers/sips.md)
-- [Stripe](applications/finance/payment_providers/stripe.md)
-- [Xendit](applications/finance/payment_providers/xendit.md)
-- [Bank and cash accounts](applications/finance/accounting/bank.md)
+- [Chuyển khoản ngân hàng](payment_providers/wire_transfer.md)
+- [Adyen](payment_providers/adyen.md)
+- [Alipay](payment_providers/alipay.md)
+- [Authorize.Net](payment_providers/authorize.md)
+- [AsiaPay](payment_providers/asiapay.md)
+- [Buckaroo](payment_providers/buckaroo.md)
+- [Demo](payment_providers/demo.md)
+- [Mercado Pago](payment_providers/mercado_pago.md)
+- [Mollie](payment_providers/mollie.md)
+- [Ogone](payment_providers/ogone.md)
+- [PayPal](payment_providers/paypal.md)
+- [Razorpay](payment_providers/razorpay.md)
+- [SIPS](payment_providers/sips.md)
+- [Stripe](payment_providers/stripe.md)
+- [Xendit](payment_providers/xendit.md)
+- [Bank and cash accounts](accounting/bank.md)

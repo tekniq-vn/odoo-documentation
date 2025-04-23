@@ -12,7 +12,7 @@ To manage the *Lunch* app, users need the appropriate Administrator rights. Thes
 set by navigating to the Settings app and selecting Manage Users. Then,
 click on the desired user to view their access rights.
 
-For more information on access rights, refer to the [Access rights](applications/general/users/access_rights.md) documentation.
+For more information on access rights, refer to the [Access rights](../../general/users/access_rights.md) documentation.
 
 #### NOTE
 Only users with administration rights are able to view the Manager and
@@ -155,6 +155,6 @@ The difference between the [Today's Orders](#lunch-todays-orders) dashboard and 
 displays **all** orders made in the *Lunch* app.
 
 #### SEE ALSO
-- [Bữa ăn](applications/hr/lunch.md)
-- [Đơn hàng](applications/hr/lunch/orders.md)
-- [Manage user accounts](applications/hr/lunch/user-accounts.md)
+- [Bữa ăn](../lunch.md)
+- [Đơn hàng](orders.md)
+- [Manage user accounts](user-accounts.md)

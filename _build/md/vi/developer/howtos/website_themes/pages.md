@@ -83,7 +83,7 @@ Alternatively, replace the default content of these pages using XPath.
 ```
 
 #### SEE ALSO
-- [Odoo Documentation on SEO](applications/websites/website/pages/seo.md)
+- [Odoo Documentation on SEO](../../../applications/websites/website/pages/seo.md)
 
 <a id="website-themes-pages-theme-pages"></a>
 

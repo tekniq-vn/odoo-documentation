@@ -109,6 +109,6 @@ labeled Visible Internally Only.
 ![View of an individual rating's detail page with the visible internally setting checked.](../../../.gitbook/assets/live-chat-ratings-visible-internally.png)
 
 #### SEE ALSO
-- [Trò chuyện Trực tiếp](applications/websites/livechat.md)
-- [Commands and canned responses](applications/websites/livechat/responses.md)
-- [Trang web](applications/websites/website.md)
+- [Trò chuyện Trực tiếp](../livechat.md)
+- [Commands and canned responses](responses.md)
+- [Trang web](../website.md)

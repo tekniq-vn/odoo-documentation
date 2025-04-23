@@ -36,7 +36,7 @@ Copy this Zone URL to a text editor for later, as it will be used in the next st
 In the Odoo Website app, go to the Settings and then activate the
 Content Delivery Network (CDN) setting and copy/paste the Zone URL value
 from the earlier step into the CDN Base URL field. This field is only visible and
-configurable when the [developer mode](applications/general/developer_mode.md#developer-mode) is activated.
+configurable when the [developer mode](../../../general/developer_mode.md#developer-mode) is activated.
 
 #### NOTE
 Ensure that there are two *forward slashes* (`//`) before the CDN Base URL and one

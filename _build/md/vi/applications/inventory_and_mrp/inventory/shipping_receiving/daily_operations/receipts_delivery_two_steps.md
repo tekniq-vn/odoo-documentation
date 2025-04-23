@@ -176,4 +176,4 @@ Once ready, click Validate. Once validated, the delivery order moves to the
 Done stage.
 
 #### SEE ALSO
-[Inbound and outbound flows](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.md)
+[Inbound and outbound flows](../daily_operations.md)

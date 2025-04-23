@@ -16,7 +16,7 @@ To create (or edit) a mailing list, go to Mailing Lists ‣ Mailing List. There,
 Odoo displays all previously created mailing lists, along with various types of data related to
 that specific list (e.g. number of contacts, mailings, recipients, etc.).
 
-To learn more about mailing lists and contacts, check out [Mailing lists and blacklists](applications/marketing/sms_marketing/mailing_lists_blacklists.md).
+To learn more about mailing lists and contacts, check out [Mailing lists and blacklists](mailing_lists_blacklists.md).
 
 ![View of the mailing list page in the SMS marketing application.](../../../.gitbook/assets/sms-mailing-list.png)
 

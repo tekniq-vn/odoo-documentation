@@ -6,9 +6,9 @@ post-launch support stages.
 
 With approvals, key stakeholders can review changes before implementation.
 
-* [Change management](applications/inventory_and_mrp/plm/manage_changes.md)
-  * [Engineering change orders](applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.md)
-  * [Loại ECO](applications/inventory_and_mrp/plm/manage_changes/eco_type.md)
-  * [Kiểm soát phiên bản](applications/inventory_and_mrp/plm/manage_changes/version_control.md)
-* [Quản lý dự án](applications/inventory_and_mrp/plm/management.md)
-  * [Phê duyệt](applications/inventory_and_mrp/plm/management/approvals.md)
+* [Change management](plm/manage_changes.md)
+  * [Engineering change orders](plm/manage_changes/engineering_change_orders.md)
+  * [Loại ECO](plm/manage_changes/eco_type.md)
+  * [Kiểm soát phiên bản](plm/manage_changes/version_control.md)
+* [Quản lý dự án](plm/management.md)
+  * [Phê duyệt](plm/management/approvals.md)

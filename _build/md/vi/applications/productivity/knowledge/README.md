@@ -10,6 +10,6 @@ from other models, templates, etc.
 #### SEE ALSO
 - [Knowledge product page](https://www.odoo.com/app/knowledge)
 
-* [Chỉnh sửa bài viết](applications/productivity/knowledge/articles_editing.md)
-* [Quản lý bài viết](applications/productivity/knowledge/management.md)
-* [Thuộc tính](applications/productivity/knowledge/properties.md)
+* [Chỉnh sửa bài viết](knowledge/articles_editing.md)
+* [Quản lý bài viết](knowledge/management.md)
+* [Thuộc tính](knowledge/properties.md)

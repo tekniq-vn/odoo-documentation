@@ -24,8 +24,8 @@ insert in spreadsheet, etc.
 
 ## Phân tích
 
-It is possible to link your Odoo website with [Plausible.io](applications/websites/website/reporting/analytics.md#analytics-plausible) and
-[Google Analytics](applications/websites/website/reporting/analytics.md#analytics-google-analytics).
+It is possible to link your Odoo website with [Plausible.io](../website/reporting/analytics.md#analytics-plausible) and
+[Google Analytics](../website/reporting/analytics.md#analytics-google-analytics).
 
 <a id="ecommerce-performance-email-queue"></a>
 
@@ -41,7 +41,7 @@ which sends queued emails as soon as possible.
 
 To enable asynchronous email sending:
 
-1. Enable the [developer mode](applications/general/developer_mode.md).
+1. Enable the [developer mode](../../general/developer_mode.md).
 2. Go to Apps, remove the Apps filter, and install the Sales
    - Async Emails module.
 3. Go to Settings ‣ Technical ‣ System Parameters and set the

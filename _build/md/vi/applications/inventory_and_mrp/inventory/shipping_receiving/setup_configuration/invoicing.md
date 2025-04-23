@@ -29,7 +29,7 @@ to provide details about the shipping provider, including:
   select the provider from the drop-down menu.
 
   #### SEE ALSO
-  [Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
+  [Third-party shipping carriers](third_party_shipper.md)
 - Company: if the shipping method should apply to a specific company, select it from the
   drop-down menu. Leave the field blank to apply the method to all companies.
 - Website: configure shipping methods for an e-commerce page. Select the applicable
@@ -91,5 +91,5 @@ Finally, invoice the customer the adjusted shipping cost by clicking Confirm.
 ![Show delivery product on the invoice line.](../../../../../.gitbook/assets/invoice-cost.png)
 
 #### SEE ALSO
-- [Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
-- [Print shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
+- [Third-party shipping carriers](third_party_shipper.md)
+- [Print shipping labels](labels.md)

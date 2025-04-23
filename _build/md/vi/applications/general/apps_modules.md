@@ -36,14 +36,14 @@ Go to Apps, and click on the *Install* button of the app you want to install.
 #### NOTE
 If the module you are looking for is not listed, you can **update the app list**.
 
-To do so, activate the [developer mode](applications/general/developer_mode.md#developer-mode), then go to Apps
+To do so, activate the [developer mode](developer_mode.md#developer-mode), then go to Apps
 ‣ Update Apps List and click on *Update*.
 
 <a id="general-upgrade"></a>
 
 ## Upgrade apps and modules
 
-On some occasions, new improvements or app features are added to [supported versions of Odoo](administration/supported_versions.md). To be able to use them, you must **upgrade** your app.
+On some occasions, new improvements or app features are added to [supported versions of Odoo](../../administration/supported_versions.md). To be able to use them, you must **upgrade** your app.
 
 Go to Apps, click on the *dropdown menu* of the app you want to upgrade, then on
 *Upgrade*.

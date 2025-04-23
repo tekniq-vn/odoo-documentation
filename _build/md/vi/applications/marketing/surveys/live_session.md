@@ -33,7 +33,7 @@ option is selected.
 If the Is a Certification option is enabled in the Options tab, the
 survey **cannot** be used as a *Live Session* survey.
 
-With the desired survey radio button option selected, proceed to [create a survey](applications/marketing/surveys/create.md) with [questions and sections](applications/marketing/surveys/questions.md).
+With the desired survey radio button option selected, proceed to [create a survey](create.md) with [questions and sections](questions.md).
 
 While creating questions for the *Live Session* survey, open the Options tab on the
 Create Sections and Questions pop-up form, in order to reveal the Live
@@ -177,6 +177,6 @@ Next button to move on to the next portion of the survey.
 Repeat this process until the survey is complete.
 
 #### SEE ALSO
-- [Create surveys](applications/marketing/surveys/create.md)
-- [Create questions](applications/marketing/surveys/questions.md)
-- [Scoring surveys](applications/marketing/surveys/scoring.md)
+- [Create surveys](create.md)
+- [Create questions](questions.md)
+- [Scoring surveys](scoring.md)

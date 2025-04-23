@@ -82,7 +82,7 @@ wrapping code, then a default database product, *Amazon Sale*, is used. The same
 default product *Amazon Shipping* if no database product is found for a given Amazon shipping code.
 
 #### NOTE
-To modify default products, activate the [developer mode](applications/general/developer_mode.md#developer-mode), and navigate to
+To modify default products, activate the [developer mode](../../../general/developer_mode.md#developer-mode), and navigate to
 Sales app ‣ Configuration ‣ Settings ‣ Connectors ‣ Amazon Sync ‣
 Default Products.
 
@@ -106,7 +106,7 @@ differences can be resolved with a write-off when reconciling the payments in Od
 All marketplaces are supported by the Amazon Connector. To add a new marketplace, proceed as
 follows:
 
-1. Activate the [developer mode](applications/general/developer_mode.md#developer-mode).
+1. Activate the [developer mode](../../../general/developer_mode.md#developer-mode).
 2. Go to Sales app ‣ Configuration ‣ Settings ‣ Connectors ‣ Amazon Sync ‣
    Amazon Marketplaces.
 3. Click New to create a new marketplace record.
@@ -124,5 +124,5 @@ follows:
 7. Chọn tài khoản mà bạn muốn sử dụng trên marketplace mới, đi tới tab Marketplace, và nhấn vào Cập nhật marketplace hiện có. Một hoạt ảnh sẽ xác nhận sự thành công của thao tác. Các marketplace mới thêm sẽ tự động được thêm vào danh sách các marketplace đã được đồng bộ hóa. Nếu marketplace mới không được thêm vào danh sách, điều đó có nghĩa là marketplace đó không tương thích hoặc không khả dụng cho tài khoản người bán.
 
 #### SEE ALSO
-- [Amazon Connector features](applications/sales/sales/amazon_connector/features.md)
-- [Amazon order management](applications/sales/sales/amazon_connector/manage.md)
+- [Amazon Connector features](features.md)
+- [Amazon order management](manage.md)

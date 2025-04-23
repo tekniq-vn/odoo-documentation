@@ -22,7 +22,7 @@ enabled on each *Helpdesk* team individually.
 
 To view and enable the *Track & Bill Time* features on a *Helpdesk* team, first navigate to
 Helpdesk app ‣ Configuration ‣ Helpdesk Teams. Then, select a team from the
-list, or create a [new one](applications/services/helpdesk.md). This reveals a team's settings page.
+list, or create a [new one](../../helpdesk.md). This reveals a team's settings page.
 
 On the team's settings page, scroll to the Track & Bill Time section. Check the boxes
 labeled Timesheets and Time Billing.
@@ -98,7 +98,7 @@ Once the  has been confirmed, click the Create Invoice button.
 This opens a Create invoices pop-up window.
 
 If no down payment is collected, the Create Invoice type can remain as
-Regular Invoice. If a [down payment](applications/sales/sales/invoicing/down_payment.md)
+Regular Invoice. If a [down payment](../../../sales/sales/invoicing/down_payment.md)
 is collected, choose between either Down payment (percentage) or Down payment
 (fixed amount).
 
@@ -215,5 +215,5 @@ When the necessary information has been entered, click Create Draft. The invoice
 then be reviewed, edited, and sent to the customer for payment.
 
 #### SEE ALSO
-- [Đơn vị tính](applications/inventory_and_mrp/inventory/product_management/configure/uom.md)
-- [Khoản trả trước](applications/sales/sales/invoicing/down_payment.md)
+- [Đơn vị tính](../../../inventory_and_mrp/inventory/product_management/configure/uom.md)
+- [Khoản trả trước](../../../sales/sales/invoicing/down_payment.md)

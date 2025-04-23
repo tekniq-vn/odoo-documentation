@@ -166,7 +166,7 @@ Rental app ‣ Configuration ‣ Settings, activate Digital
 Documents, and click Save.
 
 #### NOTE
-This feature also requires the [Sign](applications/productivity/sign.md) app. If necessary, Odoo
+This feature also requires the [Sign](../productivity/sign.md) app. If necessary, Odoo
 automatically installs it after activating the Digital Documents setting.
 
 To request a customer signature on a rental agreement, select a confirmed rental order, and click

@@ -4,11 +4,11 @@
 company that provides the technology involved in secure electronic transactions.
 
 #### SEE ALSO
-- [Enabling a payment provider](applications/finance/payment_providers.md#payment-providers-add-new)
+- [Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
 - [Ogone's documentation](https://epayments-support.ingenico.com/get-started/).
 
 #### WARNING
-The provider Ogone is deprecated. It is recommended to use [Stripe](applications/finance/payment_providers/stripe.md) instead.
+The provider Ogone is deprecated. It is recommended to use [Stripe](stripe.md) instead.
 
 ## Settings in Ogone
 

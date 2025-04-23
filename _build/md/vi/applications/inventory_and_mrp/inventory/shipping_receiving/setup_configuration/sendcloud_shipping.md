@@ -116,11 +116,11 @@ accurately and completely in Odoo:
    shipping address in the Contact field, along with their Mobile number and
    Email address.
 2. **Product weight**: ensure all products in an order have a specified Weight in the
-   Inventory tab of their product form. Refer to the [Product weight section](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md#inventory-shipping-receiving-configure-weight) of this article for detailed instructions.
+   Inventory tab of their product form. Refer to the [Product weight section](third_party_shipper.md#inventory-shipping-receiving-configure-weight) of this article for detailed instructions.
 3. **Warehouse address**: ensure the warehouse name and address in Odoo match the [previously
    defined warehouse](#inventory-shipping-receiving-sendcloud-warehouse-config) in the Sendcloud
    setup. For details on warehouse configuration in Odoo, refer to the [warehouse configuration
-   section](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md#inventory-shipping-receiving-configure-source-address) of the third-party shipping
+   section](third_party_shipper.md#inventory-shipping-receiving-configure-source-address) of the third-party shipping
    documentation.
 
 ## Generate labels with Sendcloud
@@ -146,8 +146,8 @@ product needs. For example, a shipping rule can be created for customers shippin
 items to purchase insurance.
 
 #### NOTE
-Shipping rules do **not** affect [shipping rate calculations](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md#inventory-shipping-receiving-third-party-rate), and are only used to improve the process of
-[generating shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md).
+Shipping rules do **not** affect [shipping rate calculations](third_party_shipper.md#inventory-shipping-receiving-third-party-rate), and are only used to improve the process of
+[generating shipping labels](labels.md).
 
 To use shipping rules, navigate to Inventory app ‣ Configuration ‣ Delivery:
 Shipping Methods, and select the intended `Sendcloud` shipping method.

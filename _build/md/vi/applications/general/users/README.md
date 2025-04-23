@@ -5,10 +5,10 @@ users as the company needs and, in order to restrict the type of information eac
 rules can be applied to each user. Users and access rights can be added and changed at any point.
 
 #### SEE ALSO
-- [Thay đổi ngôn ngữ](applications/general/users/language.md)
-- [Quyền truy cập](applications/general/users/access_rights.md)
-- [Superuser mode](applications/general/users/access_rights.md#access-rights-superuser)
-- [Create and modify groups](applications/general/users/access_rights.md#access-rights-groups)
+- [Thay đổi ngôn ngữ](users/language.md)
+- [Quyền truy cập](users/access_rights.md)
+- [Superuser mode](users/access_rights.md#access-rights-superuser)
+- [Create and modify groups](users/access_rights.md#access-rights-groups)
 
 <a id="users-add-individual"></a>
 
@@ -19,7 +19,7 @@ click on New.
 
 ![View of the settings page emphasizing the manage users field in Odoo.](../../.gitbook/assets/manage-users.png)
 
-Fill in the form with all the required information. Under the [Access Rights](applications/general/users/access_rights.md) tab, choose the group within each application the user can have access to.
+Fill in the form with all the required information. Under the [Access Rights](users/access_rights.md) tab, choose the group within each application the user can have access to.
 
 The list of applications shown is based on the applications installed on the database.
 
@@ -170,18 +170,18 @@ company.
 If multi-company access is not configured correctly, it could lead to inconsistent multi-company
 behaviors. Because of this, only experienced Odoo users should make access rights changes to
 users for databases with a multi-company configuration. For technical explanations, refer to the
-developer documentation on [Multi-company Guidelines](developer/howtos/company.md).
+developer documentation on [Multi-company Guidelines](../../developer/howtos/company.md).
 
 ![View of a user's form emphasizing the multi companies field in Odoo.](../../.gitbook/assets/multi-companies.png)
 
 #### SEE ALSO
 công ty
 
-* [Thay đổi ngôn ngữ](applications/general/users/language.md)
-* [Xác thực hai yếu tố](applications/general/users/2fa.md)
-* [Quyền truy cập](applications/general/users/access_rights.md)
-* [Quyền truy cập cổng thông tin](applications/general/users/portal.md)
-* [Facebook sign-in authentication](applications/general/users/facebook.md)
-* [Google Sign-In Authentication](applications/general/users/google.md)
-* [Microsoft Azure sign-in authentication](applications/general/users/azure.md)
-* [LDAP authentication](applications/general/users/ldap.md)
+* [Thay đổi ngôn ngữ](users/language.md)
+* [Xác thực hai yếu tố](users/2fa.md)
+* [Quyền truy cập](users/access_rights.md)
+* [Quyền truy cập cổng thông tin](users/portal.md)
+* [Facebook sign-in authentication](users/facebook.md)
+* [Google Sign-In Authentication](users/google.md)
+* [Microsoft Azure sign-in authentication](users/azure.md)
+* [LDAP authentication](users/ldap.md)

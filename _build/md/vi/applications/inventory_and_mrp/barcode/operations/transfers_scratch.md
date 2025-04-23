@@ -29,7 +29,7 @@ Print buttons for printing barcode commands and a barcode demo sheet.
 ![Enabled Barcode feature in Inventory app settings.](../../../../.gitbook/assets/transfers-scratch-enabled-barcode-setting.png)
 
 For more on setting up and configuring the Barcode app, refer to the [Set up your
-barcode scanner](applications/inventory_and_mrp/barcode/setup/hardware.md) and [Activate the Barcodes in Odoo](applications/inventory_and_mrp/barcode/setup/software.md)
+barcode scanner](../setup/hardware.md) and [Activate the Barcodes in Odoo](../setup/software.md)
 documentation pages.
 
 ## Scan barcodes for internal transfers

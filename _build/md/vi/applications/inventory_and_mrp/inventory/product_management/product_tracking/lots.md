@@ -7,10 +7,10 @@ Manufacturers assign lot numbers to groups of products sharing common properties
 end-to-end traceability through their lifecycles.
 
 Lots are useful for managing large quantities of manufactured or received products, aiding in
-tracing items back to their group, particularly for product recalls or [expiration dates](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md).
+tracing items back to their group, particularly for product recalls or [expiration dates](expiration_dates.md).
 
 #### SEE ALSO
-[Sử dụng số sê-ri để theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
+[Sử dụng số sê-ri để theo dõi sản phẩm](serial_numbers.md)
 
 ## Bật số lô & sê-ri
 
@@ -20,8 +20,8 @@ Traceability section, and tick the checkbox next to Lots & Serial Numbers.
 Then, click Save.
 
 #### SEE ALSO
-- [Tracking expiration dates](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md)
-- [Print GS1 barcodes for lots and serial numbers](applications/inventory_and_mrp/barcode/operations/gs1_usage.md#barcode-operations-gs1-lots)
+- [Tracking expiration dates](expiration_dates.md)
+- [Print GS1 barcodes for lots and serial numbers](../../../barcode/operations/gs1_usage.md#barcode-operations-gs1-lots)
 
 ![Enabled lots and serial numbers feature in inventory settings.](../../../../../.gitbook/assets/enabled-lots-setting.png)
 
@@ -38,11 +38,11 @@ select the By Lots option in the Tracking field. Now, new or existing lot
 numbers can be assigned to newly-received or manufactured batches of this product.
 
 #### SEE ALSO
-[Ngày hết hạn](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md)
+[Ngày hết hạn](expiration_dates.md)
 
 #### IMPORTANT
 If a product has stock on-hand prior to activating tracking by lots or serial numbers, a warning
-message appears. Use an [inventory adjustment](applications/inventory_and_mrp/inventory/product_management/product_tracking/reassign.md) to assign lot numbers to existing
+message appears. Use an [inventory adjustment](reassign.md) to assign lot numbers to existing
 products in stock.
 
 ![Enabled tracking by lots feature on product form.](../../../../../.gitbook/assets/tracking-product-form.png)
@@ -148,7 +148,7 @@ strategy (, , or ). It also depends on the ordered quantity, and whether the lot
 on-hand quantity is enough to fulfill the order.
 
 #### SEE ALSO
-[Removal strategies](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md)
+[Removal strategies](../../shipping_receiving/removal_strategies.md)
 
 Repeat the above steps to select enough lots to fulfill the Demand, and click
 Save to close the pop-up window. Lastly, click the Validate button on the
@@ -192,7 +192,7 @@ modified, as the lot numbers are linked with existing stock moves.
 ![Show the lot number form.](../../../../../.gitbook/assets/lot-number.png)
 
 #### SEE ALSO
-[Set expiration dates for lots](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md)
+[Set expiration dates for lots](expiration_dates.md)
 
 #### Add property
 
@@ -203,11 +203,11 @@ on a lot number form:
    <i class="fa fa-cogs"></i> Add Properties from the drop-down menu.
 2. Click the <i class="fa fa-plus"></i> Add a Property button, located below the existing fields.
 
-Name and [configure the new field](applications/productivity/knowledge/properties.md). Once
+Name and [configure the new field](../../../../productivity/knowledge/properties.md). Once
 finished, enter the property value in the new field.
 
 #### SEE ALSO
-[Configuring custom properties](applications/productivity/knowledge/properties.md)
+[Configuring custom properties](../../../../productivity/knowledge/properties.md)
 
 <a id="inventory-product-management-create-new-lot"></a>
 
@@ -279,4 +279,4 @@ smart button.
 ![Show the Traceability Report for a lot, that displays the stock moves.](../../../../../.gitbook/assets/traceability-report.png)
 
 #### SEE ALSO
-[Theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking.md)
+[Theo dõi sản phẩm](../product_tracking.md)

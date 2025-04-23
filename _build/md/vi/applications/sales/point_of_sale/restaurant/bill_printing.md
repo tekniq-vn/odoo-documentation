@@ -31,4 +31,4 @@ selected, click Payment and proceed to checkout for these items. Repeat for each
 - The feature is available as soon as at least two items are ordered.
 
 #### SEE ALSO
-- [Floors and tables](applications/sales/point_of_sale/restaurant/floors_tables.md)
+- [Floors and tables](floors_tables.md)

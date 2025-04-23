@@ -84,5 +84,5 @@ the Kanban card to open a drop-down menu. Then, to view or edit the team's setti
 Configuration.
 
 #### SEE ALSO
-- [Utilize activities for sales teams](applications/sales/crm/optimize/utilize_activities.md)
-- [Assign leads with predictive lead scoring](applications/sales/crm/track_leads/lead_scoring.md)
+- [Utilize activities for sales teams](../optimize/utilize_activities.md)
+- [Assign leads with predictive lead scoring](../track_leads/lead_scoring.md)

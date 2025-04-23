@@ -10,7 +10,7 @@ For a list of Odoo-compatible barcode mobile scanners, and other hardware for th
 *Barcode* apps, refer to the [Odoo Inventory • Hardware page](https://www.odoo.com/app/inventory-hardware).
 
 #### SEE ALSO
-[Điều chỉnh tồn kho](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md)
+[Điều chỉnh tồn kho](../../inventory/warehouses_storage/inventory_management/count_products.md)
 
 ## Enable Barcode app
 
@@ -35,7 +35,7 @@ Print buttons for printing barcode commands and a barcode demo sheet.
 
 #### SEE ALSO
 For more information on setting up and configuring the Barcode app, refer to the
-[Set up your barcode scanner](applications/inventory_and_mrp/barcode/setup/hardware.md) and [Activate the Barcodes in Odoo](applications/inventory_and_mrp/barcode/setup/software.md) docs.
+[Set up your barcode scanner](../setup/hardware.md) and [Activate the Barcodes in Odoo](../setup/software.md) docs.
 
 ## Perform an inventory adjustment
 

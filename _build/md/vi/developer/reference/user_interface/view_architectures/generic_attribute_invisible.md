@@ -14,6 +14,6 @@ There are two uses for the `invisible` attribute:
 * **Requirement:**
   Optional
 * **Type:**
-  [Python expression](developer/reference/user_interface/view_architectures.md#reference-view-architectures-python-expression)
+  [Python expression](../view_architectures.md#reference-view-architectures-python-expression)
 * **Default:**
   `False`

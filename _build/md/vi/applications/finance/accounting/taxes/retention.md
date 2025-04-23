@@ -26,4 +26,4 @@ Several taxes can be applied on a single customer invoice line.
 ![invoice lines with taxes](../../../../.gitbook/assets/invoice-tax.png)
 
 #### SEE ALSO
-[Thuế](applications/finance/accounting/taxes.md)
+[Thuế](../taxes.md)

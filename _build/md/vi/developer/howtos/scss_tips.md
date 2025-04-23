@@ -103,4 +103,4 @@ To overcome the issue you may combine different approaches:
 - order classes using the convention `[odoo component] [bootstrap component] [css declaration order]`.
 
 #### SEE ALSO
-[Odoo CSS properties order](contributing/development/coding_guidelines.md#contributing-coding-guidelines-scss-properties-order)
+[Odoo CSS properties order](../../contributing/development/coding_guidelines.md#contributing-coding-guidelines-scss-properties-order)

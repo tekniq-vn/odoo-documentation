@@ -25,9 +25,9 @@ We highly recommend checking that the proposed mapping is suitable for the produ
 you sell before using it.
 
 #### SEE ALSO
-- [Thuế](applications/finance/accounting/taxes.md)
-- [Fiscal localizations](applications/finance/fiscal_localizations.md)
-- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
+- [Thuế](../taxes.md)
+- [Fiscal localizations](../../fiscal_localizations.md)
+- [Fiscal positions (tax and account mapping)](fiscal_positions.md)
 
 ## One-Stop Shop (OSS)
 

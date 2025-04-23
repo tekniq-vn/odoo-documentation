@@ -33,9 +33,9 @@ Dịch vụ  được tích hợp tự động với Odoo và **không** yêu c�
 #### SEE ALSO
 Để biết thêm thông tin về cách sử dụng nhiều dịch vụ  khác nhau và hướng dẫn chi tiết hơn liên quan đến chức năng SMS trong Odoo, hãy xem tài liệu dưới đây:
 
-- [Khai thác lead](applications/sales/crm/acquire_leads/lead_mining.md)
-- [Làm giàu kho liên hệ của bạn với Tự động điền thông tin đối tác](applications/sales/crm/optimize/partner_autocomplete.md)
-- [Marketing qua SMS](applications/marketing/sms_marketing.md)
+- [Khai thác lead](../sales/crm/acquire_leads/lead_mining.md)
+- [Làm giàu kho liên hệ của bạn với Tự động điền thông tin đối tác](../sales/crm/optimize/partner_autocomplete.md)
+- [Marketing qua SMS](../marketing/sms_marketing.md)
 
 <a id="in-app-purchase-credits"></a>
 

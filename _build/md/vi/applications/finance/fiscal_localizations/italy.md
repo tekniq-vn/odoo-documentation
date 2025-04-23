@@ -4,16 +4,16 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Italian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Italian
 localization:
 
-| Tên                            | Tên kỹ thuật              | Mô tả                                                                                                             |
-|--------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Italy - Kế toán                | `l10n_it`                 | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) |
-| Ý - Hóa đơn Điện tử            | `l10n_it_edi`             | E-invoice implementation                                                                                          |
-| Ý - Hóa đơn điện tử (Khấu trừ) | `l10n_it_edi_withholding` | E-invoice withholding                                                                                             |
-| Ý - Báo cáo Kế toán            | `l10n_it_reports`         | Country-specific reports                                                                                          |
-| Ý - Tồn kho DDT                | `l10n_it_stock_ddt`       | Transport documents - Documento di Trasporto (DDT)                                                                |
+| Tên                            | Tên kỹ thuật              | Mô tả                                                                                           |
+|--------------------------------|---------------------------|-------------------------------------------------------------------------------------------------|
+| Italy - Kế toán                | `l10n_it`                 | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
+| Ý - Hóa đơn Điện tử            | `l10n_it_edi`             | E-invoice implementation                                                                        |
+| Ý - Hóa đơn điện tử (Khấu trừ) | `l10n_it_edi_withholding` | E-invoice withholding                                                                           |
+| Ý - Báo cáo Kế toán            | `l10n_it_reports`         | Country-specific reports                                                                        |
+| Ý - Tồn kho DDT                | `l10n_it_stock_ddt`       | Transport documents - Documento di Trasporto (DDT)                                              |
 
 ### Thông tin công ty
 
@@ -98,7 +98,7 @@ Khi tạo hóa đơn mua hàng, thuế **đảo ngược** có thể được th
 
 ### Tax grids
 
-The Italian localization has a specific [tax grid](applications/finance/accounting/reporting/tax_returns.md#tax-returns-tax-grids) section for
+The Italian localization has a specific [tax grid](../accounting/reporting/tax_returns.md#tax-returns-tax-grids) section for
 **reverse charge** taxes. These tax grids are identifiable by the [VJ](#italy-grids) tag, and
 can be found by going to Accounting ‣ Reporting ‣ Audit Reports: Tax Report.
 
@@ -108,7 +108,7 @@ can be found by going to Accounting ‣ Reporting ‣ Audit Reports: Tax Report.
 
 ## Hoá đơn điện tử
 
-The  is the [electronic invoicing](applications/finance/accounting/customer_invoices/electronic_invoicing.md) system used in Italy. It enables the sending
+The  is the [electronic invoicing](../accounting/customer_invoices/electronic_invoicing.md) system used in Italy. It enables the sending
 and receiving of electronic invoices to and from customers. The documents must be in an XML
  format called **FatturaPA** and formally validated by the
 system before being delivered.
@@ -519,7 +519,7 @@ portal.
 
 ### Cấu hình
 
-1. Check that the `l10n_it_riba` module is [installed](applications/general/apps_modules.md#general-install).
+1. Check that the `l10n_it_riba` module is [installed](../../general/apps_modules.md#general-install).
 2. Go to Settings ‣ Users & Companies ‣ Companies and select the company that
    will use Ri.Ba.
 3. Fill out the required SIA Code.
@@ -532,7 +532,7 @@ portal.
 4. Ensure the Company's bank account has an Italian IBAN.
 
    #### SEE ALSO
-   How to configure [Bank Accounts](applications/finance/accounting/bank.md)
+   How to configure [Bank Accounts](../accounting/bank.md)
 
 ### Accept Ri.Ba. for your invoices
 
@@ -545,8 +545,8 @@ Make sure that your invoice involves a Partner that has a bank account with an I
 Then, all Payments must be grouped in a **Batch Payment**.
 
 #### SEE ALSO
-- [Batch Payments](applications/finance/accounting/payments.md)
-- [Create a Batch Payment](applications/finance/accounting/payments/batch.md)
+- [Batch Payments](../accounting/payments.md)
+- [Create a Batch Payment](../accounting/payments/batch.md)
 
 Once you press the Validate button for the Batch Payment, the  file is generated and attached to the Batch Payment, so you can download it and upload it
 through your bank's web portal.

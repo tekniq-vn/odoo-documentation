@@ -3,7 +3,7 @@
 ## Tổng quan
 
 Odoo's eBay connector allows eBay listings to connect with Odoo products. Once connected,
-[updates to the listings](applications/sales/sales/ebay_connector/linking_listings.md) can be made in Odoo or in eBay. When an item sells
+[updates to the listings](linking_listings.md) can be made in Odoo or in eBay. When an item sells
 on eBay, draft *sales orders* are created in Odoo for the user to review and confirm. Once the sales
 order is confirmed, Odoo *Inventory* and *Sales* apps function standard to pull products out of
 inventory, and allow the user to create invoices.
@@ -11,9 +11,9 @@ inventory, and allow the user to create invoices.
 #### SEE ALSO
 To learn more about the eBay connector visit these pages as well:
 
-- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
-- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
-- [Troubleshooting eBay connector](applications/sales/sales/ebay_connector/troubleshooting.md)
+- [How to list a product?](manage.md)
+- [Linking existing listings](linking_listings.md)
+- [Troubleshooting eBay connector](troubleshooting.md)
 
 ### eBay - Odoo linked fields
 
@@ -109,7 +109,7 @@ The following items must be configured before eBay is set up:
     ![Setting up bill of materials with base product and linked products.](../../../../.gitbook/assets/products-odoo.png)
 
   > #### SEE ALSO
-  > [Danh mục vật tư](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md)
+  > [Danh mục vật tư](../../../inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md)
 - eBay does not automatically create invoices for eBay orders that get pushed into Odoo. Set
   invoicing policy on eBay products: invoicing policy will dictate when the product can be invoiced.
   Since most eBay users collect payment before the product is shipped, “invoice on ordered” will
@@ -126,7 +126,7 @@ The following items must be configured before eBay is set up:
   invoices created from eBay orders with incoming eBay money.
 
   #### SEE ALSO
-  [Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)
+  [Đối chiếu ngân hàng](../../../finance/accounting/bank/reconciliation.md)
 - Generate a marketplace account deletion/closure notification token. To begin, navigate to
   Sales app ‣ Configuration ‣ Settings. Under the eBay heading,
   change the mode to Production, and input random text values for the
@@ -311,10 +311,10 @@ User Tokens from the Application Keys page.
 
 Confirm that the setup is correct by saving the credentials in Odoo. Once the initial setup is
 complete, a new menu tab in products will appear called `eBay` with the option to Sell on
-eBay. See the [How to list a product?](applications/sales/sales/ebay_connector/manage.md) documentation on how to list products.
+eBay. See the [How to list a product?](manage.md) documentation on how to list products.
 
 #### SEE ALSO
 Now that the setup is complete, proceed to either:
 
-- [Create listings](applications/sales/sales/ebay_connector/manage.md)
-- [Link existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
+- [Create listings](manage.md)
+- [Link existing listings](linking_listings.md)

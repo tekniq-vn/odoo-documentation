@@ -16,7 +16,7 @@ designated locations in a database that provide tracking of items that shouldn't
 physical inventory.
 
 For more information about virtual locations, see the documentation about the different types of
-[location types](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management.md#inventory-warehouses-storage-location-type).
+[location types](../inventory_management.md#inventory-warehouses-storage-location-type).
 
 ## Scrap from stock
 

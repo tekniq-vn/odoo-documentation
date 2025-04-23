@@ -21,7 +21,7 @@ The Australian chart of accounts is included in the **Australia - Accounting** m
 Accounting ‣ Configuration ‣ Chart of Accounts to access it.
 
 #### SEE ALSO
-[Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+[Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md)
 
 <a id="australia-taxes"></a>
 
@@ -49,7 +49,7 @@ different tax grid variations for:
 - TPAR without ABN
 
 #### SEE ALSO
-[Thuế](applications/finance/accounting/taxes.md)
+[Thuế](../accounting/taxes.md)
 
 Taxes including a **TPAR** mention impact not only the **BAS** report but also the **TPAR** report.
 Businesses from certain industries need to report payments made to subcontractors from relevant
@@ -141,7 +141,7 @@ Periodicity. Also, the start date of the tax return period can be defined throug
 button** (marked by a calendar icon 📅).
 
 #### SEE ALSO
-[Year-end closing](applications/finance/accounting/reporting/year_end.md)
+[Year-end closing](../accounting/reporting/year_end.md)
 
 #### NOTE
 Odoo uses the *calendar quarter* rather than the Australian FY quarter, which means **July to
@@ -338,7 +338,7 @@ the following bank feed iteration. You will need to reconcile it against the **b
 in Odoo.
 
 #### SEE ALSO
-[Batch Payment](applications/finance/accounting/payments/batch.md)
+[Batch Payment](../accounting/payments/batch.md)
 
 <a id="australia-buynow-paylater"></a>
 
@@ -349,8 +349,8 @@ solutions are available via the [Stripe](https://stripe.com/en-au/payments/payme
 [AsiaPay](https://www.asiapay.com.au/payment.html#option) payment providers.
 
 #### SEE ALSO
-- [AsiaPay Payment Provider](applications/finance/payment_providers/asiapay.md)
-- [Stripe Payment Provider](applications/finance/payment_providers/stripe.md)
+- [AsiaPay Payment Provider](../payment_providers/asiapay.md)
+- [Stripe Payment Provider](../payment_providers/stripe.md)
 
 ## POS terminals for Australia
 
@@ -363,8 +363,8 @@ of not using Stripe is that cashiers must manually enter the final payment amoun
 terminal.
 
 #### SEE ALSO
-- [Stripe Odoo Payment Provider](applications/finance/payment_providers/stripe.md)
-- [Stripe Odoo Payment Terminal](applications/sales/point_of_sale/payment_methods/terminals/stripe.md)
+- [Stripe Odoo Payment Provider](../payment_providers/stripe.md)
+- [Stripe Odoo Payment Terminal](../../sales/point_of_sale/payment_methods/terminals/stripe.md)
 - [Stripe Dashboard](https://dashboard.stripe.com/dashboard)
 - [Stripe Terminal](https://stripe.com/docs/terminal)
 
@@ -610,7 +610,7 @@ user can choose between **two** different **payment methods**.
   account have been properly [configured](#australia-aba).
 - From the employee's payslip (Payroll ‣ Payslips), once the payslip's journal
   entry has been posted, click Register Payment. The process is the same as
-  [paying vendor bills](applications/finance/accounting/payments.md): select the desired bank journal and payment
+  [paying vendor bills](../accounting/payments.md): select the desired bank journal and payment
   method, then later reconcile the payment with the corresponding bank statement.
 
 #### One-time payments
@@ -674,7 +674,7 @@ KeyPay was rebranded as **Employment Hero** in March 2023.
 
 ### Cấu hình
 
-1. [Activate](applications/general/apps_modules.md#general-install) the Employment Hero Australian Payroll module
+1. [Activate](../../general/apps_modules.md#general-install) the Employment Hero Australian Payroll module
    (`l10n_au_keypay`).
 2. Configure the **Employment Hero API** by going to Accounting ‣ Configuration
    ‣ Settings. More fields become visible after clicking on Enable Employment Hero

@@ -21,7 +21,7 @@ Sau đó, sao chép cài đặt cấu hình  vào một tệp ghi chú. Các cà
 [Mailjet: How can I configure my SMTP parameters?](https://documentation.mailjet.com/hc/articles/360043229473)
 
 #### IMPORTANT
-Odoo [blocks port 25](applications/general/email_communication/email_servers_outbound.md#email-outbound-port-restriction) on Odoo Online and Odoo.sh
+Odoo [blocks port 25](email_servers_outbound.md#email-outbound-port-restriction) on Odoo Online and Odoo.sh
 databases.
 
 ![SMTP configuration from Mailjet.](../../../.gitbook/assets/smtp-config.png)
@@ -126,7 +126,7 @@ After successfully setting up the domain, there is an option to Authenticate thi
 ## Set up in Odoo
 
 To complete the setup, navigate to the Odoo database and go to the Settings. With
-[Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) turned on, go to the Technical Menu ‣ Email ‣ Outgoing
+[Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) turned on, go to the Technical Menu ‣ Email ‣ Outgoing
 Mail Servers. Then, create a new outgoing server configuration by clicking on the
 Create button.
 

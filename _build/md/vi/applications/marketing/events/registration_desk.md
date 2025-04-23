@@ -56,4 +56,4 @@ Click the <i class="fa fa-undo"></i> (counter-clockwise arrow) button on an atte
 the previous action.
 
 #### SEE ALSO
-[Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)
+[Tìm kiếm, lọc, và nhóm bản ghi](../../essentials/search.md)

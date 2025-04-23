@@ -28,7 +28,7 @@ the other uses monthly intervals (Budget Report (Monthly)).
 
 The cells under the Actuals column are automatically filled in with the amount of money
 made and spent over the corresponding period (month or quarter). The data is taken from posted
-journal items under [income and expense accounts](applications/finance/accounting/get_started/chart_of_accounts.md#chart-of-account-type).
+journal items under [income and expense accounts](../../finance/accounting/get_started/chart_of_accounts.md#chart-of-account-type).
 
 #### WARNING
 Journal items under the Other Income account type are not considered when collecting
@@ -110,7 +110,7 @@ Templates are available to all users on the database.
 ## Manage and edit templates
 
 Manage templates by going to Documents ‣ Configuration ‣ Spreadsheet Templates.
-Remove the My Templates [filter](applications/essentials/search.md#search-preconfigured-filters) to view all
+Remove the My Templates [filter](../../essentials/search.md#search-preconfigured-filters) to view all
 templates in the database.
 
 To edit an existing template, click `✎ Edit` next to the desired template. Modifications are

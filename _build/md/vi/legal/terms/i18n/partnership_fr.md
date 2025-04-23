@@ -7,7 +7,7 @@ Ceci est une traduction en français du contrat “Odoo Partnership Agreement”
 Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle
 n'a aucune valeur légale.
 La seule référence officielle des termes du contrat “Odoo Partnership Agreement”
-est la [version originale en anglais](legal/terms/partnership.md#partnership-agreement).
+est la [version originale en anglais](../partnership.md#partnership-agreement).
 
 <!-- v8: simplified parts, clarified others, added trademark use restrictions, updated benefits -->
 <!-- v8a: minor clarifications and simplifications -->
@@ -328,7 +328,7 @@ Ceci est une traduction en français de la licence “Odoo Enterprise Edition Li
 Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle
 n'a aucune valeur légale.
 La seule référence officielle des termes de la licence “Odoo Enterprise Edition License”
-est la [version originale](legal/licenses.md#odoo-enterprise-license).
+est la [version originale](../../licenses.md#odoo-enterprise-license).
 
 <tt>{\\tt
 

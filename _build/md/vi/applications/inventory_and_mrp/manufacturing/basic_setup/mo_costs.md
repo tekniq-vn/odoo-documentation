@@ -76,7 +76,7 @@ Chi phí vận hành khu vực sản xuất theo giờ và thời lượng hoạ
 Cuối cùng, nhấp vào Lưu & đóng để thêm hoạt động vào , và đóng cửa sổ bật lên Tạo hoạt động. Hoặc, nhấp vào Lưu & mới để thêm hoạt động vào , và mở cửa sổ bật lên Tạo hoạt động trống để thêm hoạt động khác.
 
 #### SEE ALSO
-Để có cái nhìn tổng quan đầy đủ về cấu hình , hãy tham khảo tài liệu về [danh mục vật tư](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md).
+Để có cái nhìn tổng quan đầy đủ về cấu hình , hãy tham khảo tài liệu về [danh mục vật tư](bill_configuration.md).
 
 ## Tổng quan
 

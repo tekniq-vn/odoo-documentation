@@ -2,14 +2,14 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Austrian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Austrian
 localization.
 
-| Tên                          | Tên kỹ thuật      | Mô tả                                                                                                              |
-|------------------------------|-------------------|--------------------------------------------------------------------------------------------------------------------|
-| Áo - Kế toán                 | `l10n_at`         | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages). |
-| Austria - Accounting Reports | `l10n_at_reports` | Adds localized versions of financial reports                                                                       |
-| Xuất SAF-T của Áo            | `l10n_at_saft`    | Adds the SAF-T export.                                                                                             |
+| Tên                          | Tên kỹ thuật      | Mô tả                                                                                            |
+|------------------------------|-------------------|--------------------------------------------------------------------------------------------------|
+| Áo - Kế toán                 | `l10n_at`         | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). |
+| Austria - Accounting Reports | `l10n_at_reports` | Adds localized versions of financial reports                                                     |
+| Xuất SAF-T của Áo            | `l10n_at_saft`    | Adds the SAF-T export.                                                                           |
 
 ## Báo cáo tài chính
 
@@ -19,7 +19,7 @@ The following localized reports are available:
 > - Profit and loss according to [§ 231 UGB](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001702&Artikel=&Paragraf=231&Anlage=&Uebergangsrecht=) (Gesamtkostenverfahren)
 
 #### SEE ALSO
-[Accounting reporting documentation](applications/finance/accounting/reporting.md)
+[Accounting reporting documentation](../accounting/reporting.md)
 
 ## SAF-T (Standard Audit File for Tax)
 
@@ -90,7 +90,7 @@ multiple SAF-T accounts). A warning will be displayed if there is any issue with
 or the mapping. Clicking View Problematic Accounts lets you view them.
 
 #### SEE ALSO
-[Chart of accounts documentation](applications/finance/accounting/get_started/chart_of_accounts.md)
+[Chart of accounts documentation](../accounting/get_started/chart_of_accounts.md)
 
 ### Exporting the SAF-T report
 

@@ -147,5 +147,5 @@ top-right corner, next to the other view options.
 ![View of the SLA status analysis report in cohort view.](../../../../.gitbook/assets/sla-report-cohort.png)
 
 #### SEE ALSO
-- [Reporting views](applications/essentials/reporting.md#reporting-views)
-- [Allow customers to close their tickets](applications/services/helpdesk/advanced/close_tickets.md)
+- [Reporting views](../../../essentials/reporting.md#reporting-views)
+- [Allow customers to close their tickets](../advanced/close_tickets.md)

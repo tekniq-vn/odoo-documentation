@@ -12,7 +12,7 @@ Ngoài ra, bạn có thể chọn nhánh kho lưu trữ được thêm vào dư�
 
 Trong Odoo.sh, các phân hệ phụ cung cấp cho bạn khả năng sử dụng và phụ thuộc vào những phân hệ có sẵn trong các kho lưu trữ khác. Nền tảng sẽ phát hiện việc bạn thêm phân hệ thông qua phân hệ phụ  trong nhánh và tự động thêm chúng vào đường dẫn addon của bạn để bạn có thể cài đặt chúng trong cơ sở dữ liệu của mình.
 
-Nếu bạn thêm kho lưu trữ riêng tư dưới dạng phân hệ phụ trong các nhánh, bạn cần cấu hình mã khóa triển khai trong cài đặt dự án Odoo.sh và trong cài đặt kho lưu trữ của mình. Nếu không, Odoo.sh sẽ không được phép tải chúng xuống. Quy trình này được trình bày chi tiết trong chương [Cài đặt > Phân hệ phụ](administration/odoo_sh/getting_started/settings.md#odoosh-gettingstarted-settings-submodules).
+Nếu bạn thêm kho lưu trữ riêng tư dưới dạng phân hệ phụ trong các nhánh, bạn cần cấu hình mã khóa triển khai trong cài đặt dự án Odoo.sh và trong cài đặt kho lưu trữ của mình. Nếu không, Odoo.sh sẽ không được phép tải chúng xuống. Quy trình này được trình bày chi tiết trong chương [Cài đặt > Phân hệ phụ](../getting_started/settings.md#odoosh-gettingstarted-settings-submodules).
 
 ## Thêm một phân hệ phụ
 

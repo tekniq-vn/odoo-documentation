@@ -179,4 +179,4 @@ Lost filter criteria. Delete the Lost filter from the Search...
 bar to reveal these newly-restored leads.
 
 #### SEE ALSO
-[Phân tích chu trình](applications/sales/crm/performance/win_loss.md)
+[Phân tích chu trình](../performance/win_loss.md)

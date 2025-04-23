@@ -12,8 +12,8 @@ especially helpful for companies (such as food manufacturers) that consistently,
 and sell perishable products.
 
 #### SEE ALSO
-- [Số lô](applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.md)
-- [Sử dụng số sê-ri để theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
+- [Số lô](lots.md)
+- [Sử dụng số sê-ri để theo dõi sản phẩm](serial_numbers.md)
 
 ## Bật ngày hết hạn
 
@@ -180,7 +180,7 @@ alerts will be created.
 Để bán các sản phẩm dễ hỏng có ngày hết hạn, Chiến lược xuất kho cho Vị trí nơi sản phẩm được lưu trữ phải được đặt thành . Nếu không có đủ hàng tồn kho của sản phẩm dễ hỏng trong một lô, Odoo sẽ tự động lấy lượng còn thiếu từ một lô thứ hai có ngày hết hạn gần nhất. Bạn cũng có thể thiết lập các chiến lược xuất kho trên Danh mục sản phẩm.
 
 #### SEE ALSO
-[Removal strategies](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md)
+[Removal strategies](../../shipping_receiving/removal_strategies.md)
 
 ## View expiration dates for lots & serial numbers
 

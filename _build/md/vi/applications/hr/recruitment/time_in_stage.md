@@ -2,7 +2,7 @@
 
 The *Time In Stage Analysis* report provides information on how long applicants stay in each stage
 of the recruitment process. This is important, as every job position has specific [process
-details](applications/hr/recruitment/new_job.md#recruitment-new-job-position-edit) that state the length of time applicants should expect
+details](new_job.md#recruitment-new-job-position-edit) that state the length of time applicants should expect
 to wait between specific stages.
 
 Knowing how long applicants remain in each stage can help highlight possible bottlenecks. Analyzing
@@ -66,4 +66,4 @@ While this report does not display the reasons applicants stayed in the various 
 lengths of time, it can be helpful to know when delays occur.
 
 #### SEE ALSO
-[Essentials reporting documentation](applications/essentials/reporting.md)
+[Essentials reporting documentation](../../essentials/reporting.md)

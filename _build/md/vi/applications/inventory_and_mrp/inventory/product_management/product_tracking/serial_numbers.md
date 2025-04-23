@@ -7,7 +7,7 @@ Số sê-ri có thể bao gồm nhiều loại ký tự khác nhau: chúng có t
 Mục tiêu của việc gán số sê-ri cho sản phẩm là để đảm bảo có thể nhận dạng được lịch sử của từng mặt hàng trong chuỗi cung ứng. Điều này có thể đặc biệt hữu ích đối với các nhà sản xuất cung cấp dịch vụ sau hậu mãi cho các sản phẩm mà họ bán và giao.
 
 #### SEE ALSO
-[Số lô](applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.md)
+[Số lô](lots.md)
 
 <a id="inventory-product-management-enable-lots"></a>
 
@@ -56,10 +56,10 @@ Số sê-ri có thể được gán cho cả hàng **sắp nhập** và **sắp 
 
 ### Gán số sê-ri cho các sản phẩm mới nhận
 
-Có thể gán số sê-ri cho hàng **sắp nhập** trên phiếu nhập kho bằng cách nhấp vào nút thông minh [Hoạt động chi tiết](applications/inventory_and_mrp/inventory/product_management/product_tracking/create_sn.md#inventory-product-management-detailed-operations) hoặc bằng cách nhấp vào biểu tượng ⦙≣ (danh sách có dấu đầu dòng) trên dòng sản phẩm.
+Có thể gán số sê-ri cho hàng **sắp nhập** trên phiếu nhập kho bằng cách nhấp vào nút thông minh [Hoạt động chi tiết](create_sn.md#inventory-product-management-detailed-operations) hoặc bằng cách nhấp vào biểu tượng ⦙≣ (danh sách có dấu đầu dòng) trên dòng sản phẩm.
 
 #### SEE ALSO
-[Chỉ định số sê-ri](applications/inventory_and_mrp/inventory/product_management/product_tracking/create_sn.md)
+[Chỉ định số sê-ri](create_sn.md)
 
 ![Mành hình chứa biểu tượng danh sách có dấu đầu dòng và các nút thông minh Hoạt động chi tiết.](../../../../../.gitbook/assets/assign-serial-numbers1.png)
 
@@ -149,4 +149,4 @@ Thao tác này sẽ hiển thị tất cả số sê-ri và lô hiện có và c
 ![Trang báo cáo số sê-ri với danh sách thả xuống.](../../../../../.gitbook/assets/serial-numbers-reporting-page.png)
 
 #### SEE ALSO
-[Theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking.md)
+[Theo dõi sản phẩm](../product_tracking.md)

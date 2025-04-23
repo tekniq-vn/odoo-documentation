@@ -5,7 +5,7 @@ act as the maximum number of days **before** a scheduled delivery date, when pro
 sales order (SO) should be reserved.
 
 #### SEE ALSO
-[About reservation methods](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods.md)
+[About reservation methods](../reservation_methods.md)
 
 ## Cấu hình
 
@@ -109,5 +109,5 @@ The Quantity column lists `0` because the products aren't reserved until two day
 arrives, at which point the Demand and Quantity columns will match.
 
 #### SEE ALSO
-- [Manual reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.md)
-- [At confirmation reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.md)
+- [Manual reservation](manually.md)
+- [At confirmation reservation](at_confirmation.md)

@@ -31,7 +31,7 @@ lines, invoice a fixed advance.
 This process is good for both services and physical products.
 
 #### SEE ALSO
-- [Hóa đơn chiếu lệ](applications/sales/sales/invoicing/proforma.md)
+- [Hóa đơn chiếu lệ](../../../sales/sales/invoicing/proforma.md)
 
 ### Sales Order ‣ Delivery Order ‣ Invoice
 
@@ -46,7 +46,7 @@ later), the customer will receive two invoices, one for each delivery
 order.
 
 #### SEE ALSO
-- [Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)
+- [Invoice based on delivered or ordered quantities](../../../sales/sales/invoicing/invoicing_policy.md)
 
 ### eCommerce Order ‣ Invoice
 
@@ -76,9 +76,9 @@ mostly based on time and material. For services companies that invoice
 on fix price, they use a regular sales order.
 
 #### SEE ALSO
-- [Invoicing based on time and materials](applications/sales/sales/invoicing/time_materials.md)
-- [Reinvoice expenses to customers](applications/sales/sales/invoicing/expense.md)
-- [Invoice project milestones](applications/sales/sales/invoicing/milestone.md)
+- [Invoicing based on time and materials](../../../sales/sales/invoicing/time_materials.md)
+- [Reinvoice expenses to customers](../../../sales/sales/invoicing/expense.md)
+- [Invoice project milestones](../../../sales/sales/invoicing/milestone.md)
 
 ### Recurring Contracts ‣ Invoices
 
@@ -87,7 +87,7 @@ The frequency of the invoicing and the services/products invoiced are
 defined on the contract.
 
 #### SEE ALSO
-- [Đăng ký](applications/sales/subscriptions.md)
+- [Đăng ký](../../../sales/subscriptions.md)
 
 ## Khác
 
@@ -134,4 +134,4 @@ Vendor bills and customer invoices forms are automatically created and populated
 invoices.
 
 #### SEE ALSO
-- [AI-powered document digitization](applications/finance/accounting/vendor_bills/invoice_digitization.md)
+- [AI-powered document digitization](../vendor_bills/invoice_digitization.md)

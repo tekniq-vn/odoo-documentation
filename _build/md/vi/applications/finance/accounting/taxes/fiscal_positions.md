@@ -11,7 +11,7 @@ They can be applied [automatically](#fiscal-positions-automatic), [manually](#fi
 
 #### NOTE
 Several default fiscal positions are available as part of your [fiscal localization
-package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages).
+package](../../fiscal_localizations.md#fiscal-localizations-packages).
 
 ## Cấu hình
 
@@ -56,7 +56,7 @@ From there, several conditions can be activated:
 ![Example of a fiscal position automatic application settings](../../../../.gitbook/assets/fiscal-positions-automatic.png)
 
 #### NOTE
-- If the [Verify VAT Numbers](applications/finance/accounting/taxes/vat_verification.md) feature is enabled, any fiscal positions
+- If the [Verify VAT Numbers](vat_verification.md) feature is enabled, any fiscal positions
   with VAT required enabled will require Intra-Community valid VAT numbers to apply
   automatically.
 - Taxes on **eCommerce orders** are automatically updated once the customer has logged in or
@@ -91,5 +91,5 @@ Sales & Purchase tab, and select the Fiscal Position.
 ![Selection of a fiscal position on a customer](../../../../.gitbook/assets/fiscal-positions-customer.png)
 
 #### SEE ALSO
-* [Thuế](applications/finance/accounting/taxes.md)
-* [B2B (tax excluded) and B2C (tax included) pricing](applications/finance/accounting/taxes/B2B_B2C.md)
+* [Thuế](../taxes.md)
+* [B2B (tax excluded) and B2C (tax included) pricing](B2B_B2C.md)

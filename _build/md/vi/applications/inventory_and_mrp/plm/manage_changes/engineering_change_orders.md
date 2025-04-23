@@ -3,13 +3,13 @@
 <a id="plm-eco"></a>
 
 Utilize *engineering change orders* (*ECOs*) to track, implement, and revert change versions made to
-products, and [bills of materials](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md).
+products, and [bills of materials](../../manufacturing/basic_setup/bill_configuration.md).
 
 Engineering change orders can be created:
 
 1. [directly in the ECO type](#plm-eco-create-eco).
 2. by an operator in the [tablet view](#plm-eco-tablet-view) of an operation.
-3. automatically from feedback submitted to the [ECO type's email alias](applications/inventory_and_mrp/plm/manage_changes/eco_type.md#plm-eco-eco-type).
+3. automatically from feedback submitted to the [ECO type's email alias](eco_type.md#plm-eco-eco-type).
 
 <a id="plm-eco-create-eco"></a>
 
@@ -20,7 +20,7 @@ will be used to track the progress of the change. On the Engineering Change Orde
 click the New button in the top-left corner.
 
 #### NOTE
-Learn how to create new [ECO types](applications/inventory_and_mrp/plm/manage_changes/eco_type.md#plm-eco-eco-type) to categorize and organize change
+Learn how to create new [ECO types](eco_type.md#plm-eco-eco-type) to categorize and organize change
 orders. Doing so ensures employees only view the  related to their responsibilities,
 whether it involves new product introductions, targeted product line updates, or regulatory
 compliance fulfillment.
@@ -152,7 +152,7 @@ Instructions smart button displayed at the top.
 
 ## Áp dụng thay đổi
 
-After verifying the changes, move the  to a [verification stage](applications/inventory_and_mrp/plm/manage_changes/eco_type.md#plm-eco-stage-config),
+After verifying the changes, move the  to a [verification stage](eco_type.md#plm-eco-stage-config),
 which are stages that require approval before the revised changes can be applied to the production
 .
 
@@ -234,7 +234,7 @@ line item to view the suggested changes.
 
 !["Show Instructions" icon in the *Operations* tab of a BoM.](../../../../.gitbook/assets/show-instructions.png)
 
-On the [quality control point](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points) form, ensure
+On the [quality control point](../../quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points) form, ensure
 the following form fields are accurately filled out to give detailed instructions for operators:
 
 - Title: rename to give a concise description of the new instruction.
@@ -244,10 +244,10 @@ the following form fields are accurately filled out to give detailed instruction
 - Type: categorizes the control point type. From the drop-down menu, select
   Instructions to detail an instruction for the worker. To receive input from the
   workers, select the Take a Picture, Register Consumed Materials,
-  Print Label, or other [quality check options](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+  Print Label, or other [quality check options](../../quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
 
 #### SEE ALSO
-[Configure quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points)
+[Configure quality control points](../../quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points)
 
 Once the quality control point is configured, return to the Steps list using the
 breadcrumbs. Finally, drag the last quality control line item to its intended order of instructions.

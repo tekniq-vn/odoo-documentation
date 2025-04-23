@@ -26,13 +26,13 @@ then click Design Template to open **Studio** and customize your worksheet templ
 
 In Studio, drag and drop the desired fields from the left column into your worksheet on the right.
 To rearrange the fields on the worksheet, drag and drop them in the desired order. Click a field to
-customize its [properties](applications/studio/fields.md#studio-fields-properties).
+customize its [properties](../../studio/fields.md#studio-fields-properties).
 
 When your worksheet template is complete, click Close in the top right corner of the
 page to leave **Studio**.
 
 #### SEE ALSO
-[Fields and widgets in Studio](applications/studio/fields.md)
+[Fields and widgets in Studio](../../studio/fields.md)
 
 ## Add a worksheet template to a field service task
 

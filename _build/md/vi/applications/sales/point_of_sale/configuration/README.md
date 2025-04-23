@@ -11,20 +11,20 @@ configure.
 ![Dropdown menu to select the POS in the app settings](../../../.gitbook/assets/select-pos-dropdown.png)
 
 #### NOTE
-These settings are available to users with the [access rights](applications/general/users.md)
+These settings are available to users with the [access rights](../../general/users.md)
 Administration set as Settings.
 
 You can also configure some settings from the dashboard by clicking the vertical ellipsis button
 (⋮) on a POS card. Doing so opens a popup window, from which you can:
 
-- [Enable multiple employees to log in.](applications/sales/point_of_sale/employee_login.md)
-- [Connect and set up an IoT sytem.](applications/sales/point_of_sale/configuration/pos_iot.md)
-- [Connect and set up an ePOS printer.](applications/sales/point_of_sale/configuration/epos_ssc.md)
+- [Enable multiple employees to log in.](employee_login.md)
+- [Connect and set up an IoT sytem.](configuration/pos_iot.md)
+- [Connect and set up an ePOS printer.](configuration/epos_ssc.md)
 
 ![popup window to access quick settings in POS](../../../.gitbook/assets/toggle-settings.png)
 
 #### NOTE
-These settings are available to users with the [access rights](applications/general/users.md)
+These settings are available to users with the [access rights](../../general/users.md)
 Point of Sale set as Administrator.
 
 ## Make products available
@@ -61,7 +61,7 @@ Sale section.
 
 #### Start category
 
-You can select one product category to display when [opening a POS session](applications/sales/point_of_sale.md#pos-session-start). To configure it, go to your [POS settings](#configuration-settings) and
+You can select one product category to display when [opening a POS session](../point_of_sale.md#pos-session-start). To configure it, go to your [POS settings](#configuration-settings) and
 select a PoS category from the dropdown menu of the Start Category field within the
 PoS Interface section.
 
@@ -75,7 +75,7 @@ Restrict Categories field within the PoS Interface section.
 
 ![Setting to set up the restrict category feature](../../../.gitbook/assets/restrict-category.png)
 
-* [IoT system connection](applications/sales/point_of_sale/configuration/pos_iot.md)
-* [Máy in ePOS](applications/sales/point_of_sale/configuration/epos_printers.md)
-* [Secure connection (HTTPS)](applications/sales/point_of_sale/configuration/https.md)
-* [Self-signed certificate for ePOS printers](applications/sales/point_of_sale/configuration/epos_ssc.md)
+* [IoT system connection](configuration/pos_iot.md)
+* [Máy in ePOS](configuration/epos_printers.md)
+* [Secure connection (HTTPS)](configuration/https.md)
+* [Self-signed certificate for ePOS printers](configuration/epos_ssc.md)

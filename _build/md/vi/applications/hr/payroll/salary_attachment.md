@@ -24,7 +24,7 @@ employee.
 
 ![The Attachment of Salary report that shows all salary garnishments in a condensed view.](../../../.gitbook/assets/salary-attachment.png)
 
-The report can be downloaded as an XLSX file, or [inserted into a spreadsheet](applications/productivity/spreadsheet/insert.md) using the corresponding buttons at the top.
+The report can be downloaded as an XLSX file, or [inserted into a spreadsheet](../../productivity/spreadsheet/insert.md) using the corresponding buttons at the top.
 
 Click the Measures button to reveal the options of what data is displayed.
 Assignment of salary, Attachment of salary, and Child support

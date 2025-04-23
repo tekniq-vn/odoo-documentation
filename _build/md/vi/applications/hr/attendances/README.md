@@ -70,7 +70,7 @@ time is not logged.
 #### NOTE
 Employees are still able to log overtime hours even if the Count of Extra Hours
 option is not activated. The difference is that when Count of Extra Hours is
-activated, the extra hours can be [deducted from an approved time off request](applications/hr/time_off.md#time-off-deduct-extra-hours).
+activated, the extra hours can be [deducted from an approved time off request](time_off.md#time-off-deduct-extra-hours).
 
 ## Tổng quan
 
@@ -169,8 +169,8 @@ sections.
 
 - Mode: the method with which the attendance information was gathered.
   Systray is displayed if the employee logged in and out [directly from the
-  database](applications/hr/attendances/check_in_check_out.md#attendances-check-in), Manual is displayed if the employee logged in and
-  out [using an attendance kiosk](applications/hr/attendances/kiosks.md#attendances-kiosk-mode-entry).
+  database](attendances/check_in_check_out.md#attendances-check-in), Manual is displayed if the employee logged in and
+  out [using an attendance kiosk](attendances/kiosks.md#attendances-kiosk-mode-entry).
 - IP Address: the IP address for the computer the employee used to log in or out.
 - Browser: the web browser the employee used to log in or out.
 - Localization: the city and country associated with the computer's IP address.
@@ -226,10 +226,10 @@ button and a pop-up appears. Select the desired spreadsheet, and click Confirm.
 ![The default report view, with all the optional view buttons highlighted.](../../.gitbook/assets/reporting.png)
 
 #### SEE ALSO
-- [Check in and out](applications/hr/attendances/check_in_check_out.md)
-- [Ki-ốt](applications/hr/attendances/kiosks.md)
-- [Phần cứng](applications/hr/attendances/hardware.md)
+- [Check in and out](attendances/check_in_check_out.md)
+- [Ki-ốt](attendances/kiosks.md)
+- [Phần cứng](attendances/hardware.md)
 
-* [Check in and out](applications/hr/attendances/check_in_check_out.md)
-* [Ki-ốt](applications/hr/attendances/kiosks.md)
-* [Phần cứng](applications/hr/attendances/hardware.md)
+* [Check in and out](attendances/check_in_check_out.md)
+* [Ki-ốt](attendances/kiosks.md)
+* [Phần cứng](attendances/hardware.md)

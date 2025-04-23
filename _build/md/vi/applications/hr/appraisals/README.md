@@ -77,7 +77,7 @@ To view the 360 Feedback survey, click the → Internal link icon at the end
 of the Default Template field. The 360 Feedback survey loads, and any
 desired changes to the survey can be made.
 
-For more information on how to edit a survey, refer to the [Create surveys](applications/marketing/surveys/create.md)
+For more information on how to edit a survey, refer to the [Create surveys](../marketing/surveys/create.md)
 document.
 
 #### IMPORTANT
@@ -146,19 +146,19 @@ In addition to viewing the responses from past appraisals and surveys, new surve
 created from the 360 Feedback page. Simply click the New button in the
 top-left of the page to create a new survey.
 
-For more information on how to create a survey, refer to the [Create surveys](applications/marketing/surveys/create.md)
+For more information on how to create a survey, refer to the [Create surveys](../marketing/surveys/create.md)
 document.
 
 #### NOTE
 In previous versions of Odoo, this section was referred to as Surveys.
 
 #### SEE ALSO
-- [New appraisals](applications/hr/appraisals/new_appraisals.md)
-- [Mục tiêu](applications/hr/appraisals/goals.md)
-- [Appraisal analysis](applications/hr/appraisals/appraisal_analysis.md)
-- [Tiến triển kỹ năng](applications/hr/appraisals/skills_evolution.md)
+- [New appraisals](appraisals/new_appraisals.md)
+- [Mục tiêu](appraisals/goals.md)
+- [Appraisal analysis](appraisals/appraisal_analysis.md)
+- [Tiến triển kỹ năng](appraisals/skills_evolution.md)
 
-* [New appraisals](applications/hr/appraisals/new_appraisals.md)
-* [Mục tiêu](applications/hr/appraisals/goals.md)
-* [Appraisal analysis](applications/hr/appraisals/appraisal_analysis.md)
-* [Tiến triển kỹ năng](applications/hr/appraisals/skills_evolution.md)
+* [New appraisals](appraisals/new_appraisals.md)
+* [Mục tiêu](appraisals/goals.md)
+* [Appraisal analysis](appraisals/appraisal_analysis.md)
+* [Tiến triển kỹ năng](appraisals/skills_evolution.md)

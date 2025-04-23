@@ -32,11 +32,11 @@ Sau khi chọn chế độ xem, bạn nên đảm bảo chỉ có các bản ghi
 
 #### NOTE
 When you select a measure, Odoo aggregates the values recorded on that field for the filtered
-records. Only numerical fields ([integer](applications/studio/fields.md#studio-fields-simple-fields-integer),
-[decimal](applications/studio/fields.md#studio-fields-simple-fields-decimal), [monetary](applications/studio/fields.md#studio-fields-simple-fields-monetary)) can be measured. In addition, the Count
+records. Only numerical fields ([integer](../studio/fields.md#studio-fields-simple-fields-integer),
+[decimal](../studio/fields.md#studio-fields-simple-fields-decimal), [monetary](../studio/fields.md#studio-fields-simple-fields-monetary)) can be measured. In addition, the Count
 option is used to count the total number of filtered records.
 
-Sau khi chọn những gì bạn muốn đo lường, bạn có thể xác định cách dữ liệu sẽ được [nhóm](applications/essentials/search.md#search-group) tùy thuộc vào hướng mà bạn muốn phân tích. Theo mặc định, dữ liệu thường được nhóm theo *Ngày > Tháng*, được sử dụng để phân tích sự tiến triển của một thước đo theo tháng.
+Sau khi chọn những gì bạn muốn đo lường, bạn có thể xác định cách dữ liệu sẽ được [nhóm](search.md#search-group) tùy thuộc vào hướng mà bạn muốn phân tích. Theo mặc định, dữ liệu thường được nhóm theo *Ngày > Tháng*, được sử dụng để phân tích sự tiến triển của một thước đo theo tháng.
 
 <a id="reporting-using-pivot"></a>
 

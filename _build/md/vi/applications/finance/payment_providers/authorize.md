@@ -6,7 +6,7 @@ provider, allowing businesses to accept **credit cards**.
 ## Cấu hình
 
 #### SEE ALSO
-- [Enabling a payment provider](applications/finance/payment_providers.md#payment-providers-add-new)
+- [Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
 
 ### Credentials tab
 
@@ -34,14 +34,14 @@ If you use the Test Mode with a regular account, it results in the following err
 
 #### Place a hold on a card
 
-With Authorize.Net, you can enable the [manual capture](applications/finance/payment_providers.md#payment-providers-manual-capture). If enabled, the funds are reserved for 30 days on the
+With Authorize.Net, you can enable the [manual capture](../payment_providers.md#payment-providers-manual-capture). If enabled, the funds are reserved for 30 days on the
 customer's card, but not charged yet.
 
 #### WARNING
 After **30 days**, the transaction is **voided automatically** by Authorize.Net.
 
 #### SEE ALSO
-- [Thanh toán online](applications/finance/payment_providers.md)
+- [Thanh toán online](../payment_providers.md)
 
 <a id="authorize-ach-payments"></a>
 

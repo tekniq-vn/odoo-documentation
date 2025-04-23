@@ -284,7 +284,7 @@ chosen from the adjacent Select mailing lists field drop-down menu.
 Odoo then sends the email to contacts on that specific mailing list(s).
 
 #### SEE ALSO
-[Mailing lists](applications/marketing/email_marketing/mailing_lists.md)
+[Mailing lists](email_marketing/mailing_lists.md)
 
 When the Recipients field is clicked, a drop-down menu of other options is revealed.
 Each option provides different ways Odoo can create a target audience for the email.
@@ -664,12 +664,12 @@ When all modifications are ready to be finalized, click Save & Close. To delete 
 entire campaign, click Discard.
 
 #### SEE ALSO
-- [Mailing lists](applications/marketing/email_marketing/mailing_lists.md)
-- [Manage unsubscriptions (blacklist)](applications/marketing/email_marketing/unsubscriptions.md)
-- [Lost leads reactivation email](applications/marketing/email_marketing/lost_leads_email.md)
-- [Phân tích số liệu](applications/marketing/email_marketing/analyze_metrics.md)
+- [Mailing lists](email_marketing/mailing_lists.md)
+- [Manage unsubscriptions (blacklist)](email_marketing/unsubscriptions.md)
+- [Lost leads reactivation email](email_marketing/lost_leads_email.md)
+- [Phân tích số liệu](email_marketing/analyze_metrics.md)
 
-* [Mailing lists](applications/marketing/email_marketing/mailing_lists.md)
-* [Manage unsubscriptions (blacklist)](applications/marketing/email_marketing/unsubscriptions.md)
-* [Lost leads reactivation email](applications/marketing/email_marketing/lost_leads_email.md)
-* [Phân tích số liệu](applications/marketing/email_marketing/analyze_metrics.md)
+* [Mailing lists](email_marketing/mailing_lists.md)
+* [Manage unsubscriptions (blacklist)](email_marketing/unsubscriptions.md)
+* [Lost leads reactivation email](email_marketing/lost_leads_email.md)
+* [Phân tích số liệu](email_marketing/analyze_metrics.md)

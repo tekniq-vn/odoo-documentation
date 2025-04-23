@@ -3,7 +3,7 @@
 Importing transactions from your bank statements allows keeping track of bank account transactions
 and reconciling them with the ones recorded in your accounting.
 
-[Bank synchronization](applications/finance/accounting/bank/bank_synchronization.md) automates the process. However, if you do not
+[Bank synchronization](bank_synchronization.md) automates the process. However, if you do not
 want to use it or if your bank is not yet supported, other options exist:
 
 - [Import bank transactions](#transactions-import) delivered by your bank;
@@ -33,7 +33,7 @@ After setting the necessary formatting options and mapping the file columns with
 fields, you can run a Test and Import your bank transactions.
 
 #### SEE ALSO
-[Xuất và nhập dữ liệu](applications/essentials/export_import_data.md)
+[Xuất và nhập dữ liệu](../../../essentials/export_import_data.md)
 
 <a id="transactions-register"></a>
 

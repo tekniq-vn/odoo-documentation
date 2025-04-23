@@ -1,7 +1,7 @@
 # Restrict access to data
 
 #### IMPORTANT
-This tutorial is an extension of the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial. Make sure you have
+This tutorial is an extension of the [Server framework 101](server_framework_101.md) tutorial. Make sure you have
 completed it and use the `estate` module you have built as a base for the exercises in this
 tutorial.
 
@@ -13,7 +13,7 @@ currently,
   update or delete properties, property types, or property tags.
 * If `estate_account` is installed then only agents allowed to interact
   with invoicing can confirm sales as that's necessary to [create an
-  invoice](developer/tutorials/server_framework_101/13_other_module.md#tutorials-server-framework-101-13-other-module-create).
+  invoice](server_framework_101/13_other_module.md#tutorials-server-framework-101-13-other-module-create).
 
 However:
 
@@ -40,9 +40,9 @@ and limit access: users can relax that access if necessary or convenient.
 
 #### SEE ALSO
 The documentation related to this topic can be found in [the security
-reference](developer/reference/backend/security.md#reference-security).
+reference](../reference/backend/security.md#reference-security).
 
-[Coding guidelines](contributing/development/coding_guidelines.md) document the format and
+[Coding guidelines](../../contributing/development/coding_guidelines.md) document the format and
 location of master data items.
 
 It would not be practical to attach individual security rules to employees any
@@ -62,7 +62,7 @@ This baseline seems sufficient for us:
   which are not specifically under the care of any agent.
 
 In keeping with Odoo's data-driven nature, a group is no more than a record of
-the `res.groups` model. They are normally part of a module's [master data](developer/tutorials/define_module_data.md), defined in one of the module's data files.
+the `res.groups` model. They are normally part of a module's [master data](define_module_data.md), defined in one of the module's data files.
 
 As simple example [can be found here](https://github.com/odoo/odoo/blob/532c083cbbe0ee6e7a940e2bdc9c677bd56b62fa/addons/hr/security/hr_security.xml#L9-L14).
 
@@ -70,9 +70,9 @@ As simple example [can be found here](https://github.com/odoo/odoo/blob/532c083c
 
 #### SEE ALSO
 The documentation related to this topic can be found at
-[Access Rights](developer/reference/backend/security.md#reference-security-acl).
+[Access Rights](../reference/backend/security.md#reference-security-acl).
 
-Access rights were first introduced in [Chapter 4: Security - A Brief Introduction](developer/tutorials/server_framework_101/04_securityintro.md).
+Access rights were first introduced in [Chapter 4: Security - A Brief Introduction](server_framework_101/04_securityintro.md).
 
 Access rights are a way to give users access to models *via* groups: associate
 an access right to a group, then all users with that group will have the access.
@@ -110,7 +110,7 @@ to check for this (the "demo" user has the password "demo").
 
 #### SEE ALSO
 The documentation related to this topic can be found at
-[Record Rules](developer/reference/backend/security.md#reference-security-rules).
+[Record Rules](../reference/backend/security.md#reference-security-rules).
 
 Access rights can grant access to an entire model but often we need to be
 more specific: while an agent can interact with properties in general we may not
@@ -132,7 +132,7 @@ individual records:
 </record>
 ```
 
-The [Search domains](developer/reference/backend/orm.md#reference-orm-domains) is how access is managed: if the record passes
+The [Search domains](../reference/backend/orm.md#reference-orm-domains) is how access is managed: if the record passes
 then access is granted, otherwise access is rejected.
 
 The rule above:
@@ -140,7 +140,7 @@ The rule above:
 * Only applies to the "create", "update" (write) and "delete" (unlink)
   operations: here we want every employee to be able to see other users' records
   but only the author / assignee can update a record.
-* Is [non-global](developer/reference/backend/security.md#reference-security-rules-global) so we can provide an
+* Is [non-global](../reference/backend/security.md#reference-security-rules-global) so we can provide an
   additional rule for e.g. managers.
 * Allows the operation if the current user (`user.id`) is set (e.g. created,
   or is assigned) on the record, or if the record has no associated user at all.
@@ -232,12 +232,12 @@ also check access rights beforehand.
 ## Multi-company security
 
 #### SEE ALSO
-[Multi-company Guidelines](developer/howtos/company.md#reference-howtos-company) for an overview of multi-company facilities
-in general, and [multi-company security rules](developer/howtos/company.md#howto-company-security)
+[Multi-company Guidelines](../howtos/company.md#reference-howtos-company) for an overview of multi-company facilities
+in general, and [multi-company security rules](../howtos/company.md#howto-company-security)
 in particular.
 
 Documentation on rules in general can, again, be found at
-[Record Rules](developer/reference/backend/security.md#reference-security-rules).
+[Record Rules](../reference/backend/security.md#reference-security-rules).
 
 For one reason or another we might need to manage our real-estate business
 as multiple companies e.g. we might have largely autonomous agencies, a
@@ -291,7 +291,7 @@ or a *visibility* feature before using it:
 
 * *Visibility* features mean a user can still access the model or record
   otherwise, either through another part of the interface or by [performing
-  operations remotely using RPC](developer/reference/external_api.md), things might just not be
+  operations remotely using RPC](../reference/external_api.md), things might just not be
   visible in the web interface in some contexts.
 * *Security* features mean a user can not access records, fields or operations.
 

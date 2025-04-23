@@ -484,7 +484,7 @@ on the alias, the following are of particular interest:
   - *partners*: only authenticated partners
   - *followers*: only followers of the related document or members of following channels
 
-Note that aliases make use of [delegation inheritance](developer/reference/backend/orm.md#reference-orm-inheritance),
+Note that aliases make use of [delegation inheritance](orm.md#reference-orm-inheritance),
 which means that while the alias is stored in another table, you have
 access to all these fields directly from your parent object. This allows
 you to make your alias easily configurable from the record's form view.

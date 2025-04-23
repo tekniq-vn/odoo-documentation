@@ -104,4 +104,4 @@ record. From the Salary Attachment record, click the Cancel button to cancel
 the salary attachment, and stop having the designated money taken out of future paychecks.
 
 #### SEE ALSO
-[Salary attachment report](applications/hr/payroll/salary_attachment.md)
+[Salary attachment report](salary_attachment.md)

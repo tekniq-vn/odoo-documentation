@@ -71,7 +71,7 @@ Once the credit note has been posted, a Credit Notes smart button is added to th
 ![View of smart buttons on a ticket focusing on the credit note button.](../../../../.gitbook/assets/after-sales-credit-note-smart-button.png)
 
 #### SEE ALSO
-[Credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md)
+[Credit notes and refunds](../../../finance/accounting/customer_invoices/credit_notes.md)
 
 <a id="helpdesk-coupons"></a>
 
@@ -97,7 +97,7 @@ Generate a Coupon pop-up window that appears.
 > generates single-use coupon codes that grant immediate access to rewards and discounts.
 
 Coupon programs can also be created in the *Point of Sale* application or *Website* application.
-Refer to [discount and loyalty programs](applications/sales/sales/products_prices/loyalty_discount.md) for more information.
+Refer to [discount and loyalty programs](../../../sales/sales/products_prices/loyalty_discount.md) for more information.
 
 Click on the Valid Until field, and use the pop-up calendar to select an expiration date
 for this coupon code. If this field is left blank, the code does **not** expire.
@@ -125,7 +125,7 @@ additional information.
 
 #### SEE ALSO
 - [Phiếu giảm giá](https://www.youtube.com/watch?v=KW5cZHg10jQ)
-- [Discount and loyalty programs](applications/sales/sales/products_prices/loyalty_discount.md)
+- [Discount and loyalty programs](../../../sales/sales/products_prices/loyalty_discount.md)
 
 <a id="helpdesk-returns"></a>
 
@@ -162,7 +162,7 @@ be accessed at the top of the ticket.
 ![View of the return smart button on a helpdesk ticket.](../../../../.gitbook/assets/after-sales-return-smart-button.png)
 
 #### SEE ALSO
-[Returns and refunds](applications/sales/sales/products_prices/returns.md)
+[Returns and refunds](../../../sales/sales/products_prices/returns.md)
 
 <a id="helpdesk-repairs"></a>
 
@@ -209,7 +209,7 @@ A Repairs smart button is then added to the ticket, linking to the repair order.
 ## Create field service task from a ticket
 
 On-site interventions can be planned from a ticket and managed through the *Field Service*
-application. Customers with [portal access](applications/general/users/portal.md) are able to track
+application. Customers with [portal access](../../../general/users/portal.md) are able to track
 the progress of a *Field Service* task just as they would a *Helpdesk* ticket.
 
 To create a new *Field Service* task, navigate to a Helpdesk ticket. Click

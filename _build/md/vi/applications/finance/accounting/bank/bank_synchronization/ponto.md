@@ -11,8 +11,8 @@ Ponto is a paid third-party provider that can handle the synchronization between
 and Odoo.
 
 #### SEE ALSO
-- [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
-- [Giao dịch](applications/finance/accounting/bank/transactions.md)
+- [Đồng bộ hoá ngân hàng](../bank_synchronization.md)
+- [Giao dịch](../transactions.md)
 
 ## Cấu hình
 
@@ -47,7 +47,7 @@ accounts based on the institution you selected in the second step.
 ### Update your synchronization credentials
 
 To update your Ponto credentials or modify the synchronization settings, activate the
-[developer mode](applications/general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣
+[developer mode](../../../../general/developer_mode.md#developer-mode), go to Accounting ‣ Configuration ‣
 Online Synchronization, and select the institution from which you want to fetch the other
 accounts. Click Fetch Accounts to start the flow.
 
@@ -57,7 +57,7 @@ other banking institutions.
 
 ### Fetch new accounts
 
-To add new online accounts to your connection, activate the [developer mode](applications/general/developer_mode.md#developer-mode),
+To add new online accounts to your connection, activate the [developer mode](../../../../general/developer_mode.md#developer-mode),
 go to Accounting ‣ Configuration ‣ Online Synchronization, and select the
 institution from which you want to fetch the other accounts. Click Fetch Accounts to
 start the flow.

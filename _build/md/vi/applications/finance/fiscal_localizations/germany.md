@@ -29,7 +29,7 @@ Then you can go in Accounting ‣ Reporting ‣ General Ledger then click on the
 ## Point of Sale in Germany: Technical Security System
 
 The **Kassensicherungsverordnung** (The Act on Protection against Manipulation of Digital Records)
-requires that electronic record-keeping systems - including the [point of sale](applications/sales/point_of_sale.md) systems - must be equipped with a **Technical Security System**
+requires that electronic record-keeping systems - including the [point of sale](../../sales/point_of_sale.md) systems - must be equipped with a **Technical Security System**
 (also called **TSS** or **TSE**).
 
 Odoo offers a service that is compliant with the help of [fiskaly](https://fiskaly.com), a
@@ -46,9 +46,9 @@ The only VAT rates allowed are given by fiskaly. You can check these rates by co
 
 #### Modules installation
 
-1. If your database was created before June 2021, [upgrade](applications/general/apps_modules.md#general-upgrade) your **Point of
+1. If your database was created before June 2021, [upgrade](../../general/apps_modules.md#general-upgrade) your **Point of
    Sale** app (`point_of_sale`) and the **Restaurant** module (`pos_restaurant`).
-2. [Install](applications/general/apps_modules.md#general-install) the **Germany - Certification for Point of Sale**
+2. [Install](../../general/apps_modules.md#general-install) the **Germany - Certification for Point of Sale**
    (`l10n_de_pos_cert`) and **Germany - Certification for Point of Sale of type restaurant**
    (`l10n_de_pos_res_cert`) modules.
 

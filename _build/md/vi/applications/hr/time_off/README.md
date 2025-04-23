@@ -3,9 +3,9 @@
 Odoo's **Time Off** application serves as a centralized hub for all time-off-related information.
 This application manages requests, balances, allocations, approvals, and reports.
 
-Users can [request time off](applications/hr/time_off/request_time_off.md), and see an overview of their
-requests and time off balances. Managers can [allocate time off](applications/hr/time_off/allocations.md) to
-individuals, teams, or the whole company, and [approve time off requests](applications/hr/time_off/management.md#time-off-manage-time-off).
+Users can [request time off](time_off/request_time_off.md), and see an overview of their
+requests and time off balances. Managers can [allocate time off](time_off/allocations.md) to
+individuals, teams, or the whole company, and [approve time off requests](time_off/management.md#time-off-manage-time-off).
 
 Detailed [reports](#time-off-reporting) can be run to see how much time off (and what kinds of
 time off) are being used, [accrual plans](#time-off-accrual-plans) can be created, and
@@ -18,7 +18,7 @@ All users can access the *My Time Off* and *Overview* sections of the **Time Off
 sections require specific access rights.
 
 To better understand how access rights affect the **Time Off** app, refer to the
-[Nhân viên mới](applications/hr/employees/new_employee.md) document, specifically the section about configuring the work
+[Nhân viên mới](employees/new_employee.md) document, specifically the section about configuring the work
 information tab.
 
 ## Cấu hình
@@ -61,10 +61,10 @@ configured.
   - By Time Off Officer: Only the specified [Time Off Officer](#time-off-time-off-officer), set on this form in the Notified Time Off Officer
     field, is required to approve the time off request. This option is selected, by default.
   - By Employee's Approver: Only the employee's specified approver for time off, which
-    is set on the *Work Information* tab on the [employee's form](applications/hr/employees/new_employee.md#employees-work-info-tab), is
+    is set on the *Work Information* tab on the [employee's form](employees/new_employee.md#employees-work-info-tab), is
     required to approve the time off request.
   - By Employee's Approver and Time Off Officer: Both the employee's [specified
-    time off approver](applications/hr/employees/new_employee.md#employees-work-info-tab) and the [Time Off Officer](#time-off-time-off-officer) are required to approve the time off request.
+    time off approver](employees/new_employee.md#employees-work-info-tab) and the [Time Off Officer](#time-off-time-off-officer) are required to approve the time off request.
 
 ##### Allocation Requests section
 
@@ -125,14 +125,14 @@ off.](../../.gitbook/assets/time-off-type-form-top.png)
 
 ##### Payroll section
 
-If the time off type should create [Work entries](applications/hr/payroll/work_entries.md) in the **Payroll** app, select
+If the time off type should create [Work entries](payroll/work_entries.md) in the **Payroll** app, select
 the Work Entry Type from the drop-down list.
 
 ##### Timesheets section
 
 #### NOTE
 The Timesheets section only appears if the user is in developer mode. Refer to the
-[Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) document for details on how to access the developer mode.
+[Chế độ lập trình viên (chế độ gỡ lỗi)](../general/developer_mode.md#developer-mode) document for details on how to access the developer mode.
 
 When an employee takes time off, and is also using timesheets, Odoo creates entries in the
 **Timesheets** app for the time off. This section defines how they are entered.
@@ -296,13 +296,13 @@ Enter the following information on that new line:
   <i class="oi oi-settings-adjust"></i> (additional options) icon in the top-right corner of the
   list, to the far-right of the column titles, and activate the Company selection
   from the drop-down menu that appears.
-- Ngày bắt đầu: Sử dụng bộ chọn ngày và giờ, chọn ngày và giờ bắt đầu kỳ nghỉ, sau đó nhấp <i class="fa fa-check"></i> Áp dụng. Theo mặc định, trường này được cấu hình cho ngày hiện tại. Thời gian bắt đầu được đặt theo giờ làm việc của công ty (theo [lịch làm việc](applications/hr/payroll.md#payroll-working-times)). Nếu máy tính của người dùng được đặt ở múi giờ khác, thời gian bắt đầu sẽ được điều chỉnh tương ứng so với múi giờ của công ty.
-- Ngày kết thúc: Sử dụng bộ chọn ngày và giờ, chọn ngày và giờ kết thúc kỳ nghỉ, sau đó nhấp <i class="fa fa-check"></i> Áp dụng. Theo mặc định, trường này được cấu hình cho ngày hiện tại và thời gian được đặt theo giờ kết thúc của công ty (theo [lịch làm việc](applications/hr/payroll.md#payroll-working-times)). Nếu máy tính của người dùng được đặt ở múi giờ khác, thời gian bắt đầu sẽ được điều chỉnh tương ứng so với múi giờ của công ty.
+- Ngày bắt đầu: Sử dụng bộ chọn ngày và giờ, chọn ngày và giờ bắt đầu kỳ nghỉ, sau đó nhấp <i class="fa fa-check"></i> Áp dụng. Theo mặc định, trường này được cấu hình cho ngày hiện tại. Thời gian bắt đầu được đặt theo giờ làm việc của công ty (theo [lịch làm việc](payroll.md#payroll-working-times)). Nếu máy tính của người dùng được đặt ở múi giờ khác, thời gian bắt đầu sẽ được điều chỉnh tương ứng so với múi giờ của công ty.
+- Ngày kết thúc: Sử dụng bộ chọn ngày và giờ, chọn ngày và giờ kết thúc kỳ nghỉ, sau đó nhấp <i class="fa fa-check"></i> Áp dụng. Theo mặc định, trường này được cấu hình cho ngày hiện tại và thời gian được đặt theo giờ kết thúc của công ty (theo [lịch làm việc](payroll.md#payroll-working-times)). Nếu máy tính của người dùng được đặt ở múi giờ khác, thời gian bắt đầu sẽ được điều chỉnh tương ứng so với múi giờ của công ty.
 - Working Hours: If the holiday should only apply to employees who have a specific set
   of working hours, select the working hours from the drop-down menu. If left blank, the holiday
   applies to all employees.
 - Work Entry Type: If using the **Payroll** app, this field defines how the [work
-  entries](applications/hr/payroll.md#payroll-work-entries) for the holiday appear. Select the work entry type from the
+  entries](payroll.md#payroll-work-entries) for the holiday appear. Select the work entry type from the
   drop-down menu.
 
 ![The list of public holidays in the configuration menu.](../../.gitbook/assets/holidays.png)
@@ -427,7 +427,7 @@ top-right corner of the page to view the data in that specific way. The various 
 <i class="oi oi-view-pivot"></i> (Pivot) table, or <i class="fa fa-calendar"></i> (Calendar) view.
 
 When a selection has been made, additional options appear for that particular selection. For more
-detailed information on the reports and their various options, refer to the [reporting](applications/essentials/reporting.md) documentation.
+detailed information on the reports and their various options, refer to the [reporting](../essentials/reporting.md) documentation.
 
 ### By type
 
@@ -451,15 +451,15 @@ top-right corner of the page to view the data in that way. The various options a
 (List), or <i class="oi oi-view-pivot"></i> (Pivot) table.
 
 When a selection has been made, additional options appear for that particular selection. For more
-detailed information on the reports, and their various options, refer to the [reporting](applications/essentials/reporting.md) documentation.
+detailed information on the reports, and their various options, refer to the [reporting](../essentials/reporting.md) documentation.
 
 #### SEE ALSO
-- [Phân bổ](applications/hr/time_off/allocations.md)
-- [Request time off](applications/hr/time_off/request_time_off.md)
-- [My time](applications/hr/time_off/my_time.md)
-- [Quản lý](applications/hr/time_off/management.md)
+- [Phân bổ](time_off/allocations.md)
+- [Request time off](time_off/request_time_off.md)
+- [My time](time_off/my_time.md)
+- [Quản lý](time_off/management.md)
 
-* [Phân bổ](applications/hr/time_off/allocations.md)
-* [Request time off](applications/hr/time_off/request_time_off.md)
-* [My time](applications/hr/time_off/my_time.md)
-* [Quản lý](applications/hr/time_off/management.md)
+* [Phân bổ](time_off/allocations.md)
+* [Request time off](time_off/request_time_off.md)
+* [My time](time_off/my_time.md)
+* [Quản lý](time_off/management.md)

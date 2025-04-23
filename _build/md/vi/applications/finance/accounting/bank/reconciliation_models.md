@@ -1,14 +1,14 @@
 # Reconciliation models
 
-Reconciliation models are used to automate the [bank reconciliation](applications/finance/accounting/bank/reconciliation.md) process,
+Reconciliation models are used to automate the [bank reconciliation](reconciliation.md) process,
 which is especially handy when dealing with recurring entries like bank fees. Reconciliation models
-can also be helpful in handling [cash discounts](applications/finance/accounting/customer_invoices/cash_discounts.md).
+can also be helpful in handling [cash discounts](../customer_invoices/cash_discounts.md).
 
 Each model is created based on a [model type](#models-type) and bank transaction
 conditions.
 
 #### SEE ALSO
-- [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
+- [Đồng bộ hoá ngân hàng](bank_synchronization.md)
 - [Odoo Tutorials: Reconciliation models](https://www.odoo.com/slides/slide/reconciliation-models-1841?fullscreen=1)
 
 <a id="models-type"></a>
@@ -64,7 +64,7 @@ The Payment tolerance is only applicable to lower payments. It is disregarded wh
 overpayment is received.
 
 #### SEE ALSO
-[Cash discounts and tax reduction](applications/finance/accounting/customer_invoices/cash_discounts.md)
+[Cash discounts and tax reduction](../customer_invoices/cash_discounts.md)
 
 ### Line with bank fees
 

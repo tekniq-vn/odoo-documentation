@@ -5,9 +5,9 @@
 Odoo hỗ trợ và sửa lỗi **cho 3 phiên bản chính mới nhất** của Odoo.
 
 #### NOTE
-Odoo phát hành các phiên bản trung gian được gọi là **Phiên bản online** trên hệ thống lưu trữ [Odoo Online](administration/odoo_online.md) hai tháng một lần. Sau đó, người dùng Odoo Online có thể tận dụng lợi ích từ các tính năng mới nhất của Odoo.
+Odoo phát hành các phiên bản trung gian được gọi là **Phiên bản online** trên hệ thống lưu trữ [Odoo Online](odoo_online.md) hai tháng một lần. Sau đó, người dùng Odoo Online có thể tận dụng lợi ích từ các tính năng mới nhất của Odoo.
 
-- Quản trị viên cơ sở dữ liệu Odoo Online được mời [nâng cấp](administration/upgrade.md) chúng thường xuyên.
+- Quản trị viên cơ sở dữ liệu Odoo Online được mời [nâng cấp](upgrade.md) chúng thường xuyên.
 - Phiên bản online *không* được phát hành cho các dự án cài đặt Odoo.sh và On-Premise.
 - Các phiên bản online được liệt kê dưới đây dưới tên *SaaS*.
 

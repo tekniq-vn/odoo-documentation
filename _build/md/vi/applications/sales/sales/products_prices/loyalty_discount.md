@@ -2,7 +2,7 @@
 
 The Odoo *Sales*, *eCommerce*, and *Point of Sale* applications allow users to create discount and
 loyalty programs that customers can use for online and in-store shopping. These programs offer more
-varied, public, and time-sensitive pricing options than [pricelists](applications/sales/sales/products_prices/prices/pricing.md).
+varied, public, and time-sensitive pricing options than [pricelists](prices/pricing.md).
 
 ## Configure the settings
 

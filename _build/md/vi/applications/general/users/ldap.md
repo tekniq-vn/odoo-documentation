@@ -30,7 +30,7 @@ When using Microsoft Active Directory (AD) for LDAP authentication, if users exp
 issues despite using valid credentials, create a new system parameter to disable referral chasing
 in the LDAP client:
 
-> 1. [Activate the developer mode.](applications/general/developer_mode.md#developer-mode)
+> 1. [Activate the developer mode.](../developer_mode.md#developer-mode)
 > 2. Go to Settings ‣ Technical ‣ System Parameters and click
 >    New.
 > 3. Fill in the fields:

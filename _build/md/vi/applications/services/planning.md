@@ -13,7 +13,7 @@ Once the initial configuration is done, [planning shifts](#planning-shifts) can 
 manually or automated by using the [Auto Plan](#planning-open-shifts) feature.
 
 An integration between the Planning and Sales apps allows the linking of sold services to roles and
-shifts in Planning. Additionally, integration with [Project](applications/services/project.md) allows dedicating
+shifts in Planning. Additionally, integration with [Project](project.md) allows dedicating
 shifts, and thus time and resources, to specific projects.
 
 #### SEE ALSO
@@ -47,7 +47,7 @@ Planning includes the possibility of adding property fields linked to roles to s
 To create a property field, switch to the list view from any schedule. From there, click
 View on the shift that you wish to edit. If the Role field is empty, fill it
 in with the desired role, then click the cog icon and select Add Properties.
-[Configure](applications/productivity/knowledge/properties.md) the new field according to your needs.
+[Configure](../productivity/knowledge/properties.md) the new field according to your needs.
 
 ![Creating a new property field in Planning.](../../.gitbook/assets/add-properties1.png)
 
@@ -85,7 +85,7 @@ The Working Hours and the Allocated Time in Planning can impact
 **Payroll**, if the employee's contract is configured to generate work entries based on shifts.
 
 #### SEE ALSO
-[Payroll documentation on working schedules](applications/hr/payroll.md#payroll-working-times)
+[Payroll documentation on working schedules](../hr/payroll.md#payroll-working-times)
 
 #### Planning roles
 
@@ -190,7 +190,7 @@ fill in the following details:
     Repeat Every field.
   - Recurrences are planned but not published.
   - By default, planned shifts are created six months in advance, after which they are created
-    gradually. To change the time frame, [activate the Developer mode](applications/general/developer_mode.md#developer-mode), then
+    gradually. To change the time frame, [activate the Developer mode](../general/developer_mode.md#developer-mode), then
     go to Planning ‣ Configuration ‣ Settings and edit the
     Recurring Shifts.
 - Save as Template: When this option is ticked, a shift template is created with the

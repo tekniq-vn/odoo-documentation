@@ -7,7 +7,7 @@
 Để thiết lập  nhiều cấp, bạn phải cấu hình sản phẩm cấp cao nhất và sản phẩm bán thành phẩm. Do đó, bước đầu tiên là tạo các sản phẩm bán thành phẩm và  của chúng.
 
 #### SEE ALSO
-[Danh mục vật tư](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md)
+[Danh mục vật tư](../basic_setup/bill_configuration.md)
 
 ![Danh mục vật tư cho bán thành phẩm.](../../../../.gitbook/assets/semifinished-product-bom.png)
 
@@ -24,14 +24,14 @@ Sau khi cấu hình xong sản phẩm cấp cao nhất, hãy nhấp vào nút th
 Có một số phương pháp để quản lý tự động hóa lệnh sản xuất cho các sản phẩm có `BoM (Danh mục vật tư)` nhiều cấp.
 
 #### NOTE
-Các sản phẩm bán thành phẩm được sử dụng khi quản lý những sản phẩm sản xuất có BoM nhiều cấp. Nếu BoM được tạo ra chỉ để tổ chức thành phần hoặc gộp sản phẩm có thể bán được, thì sử dụng [Kit](applications/inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.md) sẽ hợp lý hơn.
+Các sản phẩm bán thành phẩm được sử dụng khi quản lý những sản phẩm sản xuất có BoM nhiều cấp. Nếu BoM được tạo ra chỉ để tổ chức thành phần hoặc gộp sản phẩm có thể bán được, thì sử dụng [Kit](kit_shipping.md) sẽ hợp lý hơn.
 
 Để tự động kích hoạt lệnh sản xuất cho các sản phẩm bán thành phẩm sau khi xác nhận lệnh sản xuất cho sản phẩm chính, có hai tùy chọn:
 
 - **Tùy chọn 1 (được đề xuất):** Tạo *Quy tắc tái đặt hàng* cho các sản phẩm bán thành phẩm và đặt cả số lượng tồn kho tối thiểu và tối đa mong muốn thành `0`.
 
 #### SEE ALSO
-[Configure reordering rules](applications/inventory_and_mrp/purchase/products/reordering.md)
+[Configure reordering rules](../../purchase/products/reordering.md)
 
 - **Tùy chọn 2:** Kích hoạt các tuyến Bổ sung theo đơn đặt hàng (MTO) và Sản xuất trong tab Tồn kho của biểu mẫu sản phẩm bán thành phẩm.
 

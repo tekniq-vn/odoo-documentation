@@ -1,6 +1,6 @@
 # Chapter 10: Constraints
 
-The [previous chapter](developer/tutorials/server_framework_101/09_actions.md) introduced the ability to add
+The [previous chapter](09_actions.md) introduced the ability to add
 some business logic to our model. We can now link buttons to business code, but how can we prevent
 users from entering incorrect data? For example, in our real estate module nothing prevents
 users from setting a negative expected price.
@@ -12,7 +12,7 @@ Odoo provides two ways to set up automatically verified invariants:
 ## SQL
 
 **Reference**: the documentation related to this topic can be found in
-[Models](developer/reference/backend/orm.md#reference-orm-models) and in the [PostgreSQL's documentation](https://www.postgresql.org/docs/12/ddl-constraints.html).
+[Models](../../reference/backend/orm.md#reference-orm-models) and in the [PostgreSQL's documentation](https://www.postgresql.org/docs/12/ddl-constraints.html).
 
 #### NOTE
 **Goal**: at the end of this section:
@@ -84,6 +84,6 @@ prefer SQL over Python constraints.
 
 Our real estate module is starting to look good. We added some business logic, and now we make sure
 the data is consistent. However, the user interface is still a bit rough. Let's see how we can
-improve it in the [next chapter](developer/tutorials/server_framework_101/11_sprinkles.md).
+improve it in the [next chapter](11_sprinkles.md).
 
 <a id="postgresql-s-documentation"></a>

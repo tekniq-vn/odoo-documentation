@@ -1,6 +1,6 @@
 # Replenishment report
 
-The *replenishment report* is an interactive dashboard that uses [manual reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md), lead times, and upcoming demands to forecast quantities of products that need
+The *replenishment report* is an interactive dashboard that uses [manual reordering rules](reordering_rules.md), lead times, and upcoming demands to forecast quantities of products that need
 restocking.
 
 Reordering rules used on this dashboard are normal reordering rules, but the user benefits from a
@@ -13,7 +13,7 @@ To access the replenishment report, go to Inventory app ‣ Operations ‣
 Replenishment.
 
 The fields and features unique to the replenishment dashboard are displayed below. For definitions
-of the other fields, go to the [Create reordering rules section](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md#inventory-warehouses-storage-rr-fields).
+of the other fields, go to the [Create reordering rules section](reordering_rules.md#inventory-warehouses-storage-rr-fields).
 
 By default, the quantity in the To Order field is the quantity required to reach the set
 Max Quantity. However, the To Order quantity can be adjusted by clicking on
@@ -35,4 +35,4 @@ icon opens the Replenishment Information pop-up window, which displays the *lead
 and *forecasted date*.
 
 For detailed information on how to use this feature for replenishment, go to the [Just in time
-logic](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md#inventory-warehouses-storage-just-in-time) section.
+logic](reordering_rules.md#inventory-warehouses-storage-just-in-time) section.

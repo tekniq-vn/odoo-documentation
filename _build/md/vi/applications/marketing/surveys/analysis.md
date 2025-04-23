@@ -22,7 +22,7 @@ There are also elements showing the percentage of how many participants Passed (
 
 #### NOTE
 To learn more about the different analytical elements found on the Surveys dashboard,
-check out the [Survey Essentials](applications/marketing/surveys/create.md) documentation.
+check out the [Survey Essentials](create.md) documentation.
 
 On the Surveys dashboard, to the far-right of each survey line displayed in the default
 list view, there is a See results button.
@@ -209,5 +209,5 @@ The Participations page can also be viewed in a Kanban layout, as well.
 ![The Participations page in the Kanban view in the Odoo Surveys application.](../../../.gitbook/assets/participations-page-kanban-view.png)
 
 #### SEE ALSO
-- [Create surveys](applications/marketing/surveys/create.md)
-- [Scoring surveys](applications/marketing/surveys/scoring.md)
+- [Create surveys](create.md)
+- [Scoring surveys](scoring.md)

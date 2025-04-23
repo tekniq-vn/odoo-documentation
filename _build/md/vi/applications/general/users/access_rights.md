@@ -9,7 +9,7 @@ should not have access to.
 
 ## Người dùng
 
-The access rights for [individual users](applications/general/users.md#users-add-individual) are set when the user is added
+The access rights for [individual users](../users.md#users-add-individual) are set when the user is added
 to the database, but they can be adjusted at any point in the user's profile.
 
 To make changes to a user's rights, click on the desired user to edit their profile.
@@ -36,7 +36,7 @@ Settings or Access Rights.
 large amount of users. Administrators can modify the existing groups in Odoo, or create new ones to
 define rules for models within an application.
 
-To access groups, first activate Odoo's [developer mode](applications/general/developer_mode.md#developer-mode), then go to
+To access groups, first activate Odoo's [developer mode](../developer_mode.md#developer-mode), then go to
 Settings app ‣ Users & Companies ‣ Groups.
 
 ![Groups menu in the Users & Companies section of the Settings app of Odoo.](../../../.gitbook/assets/click-users-and-companies.png)
@@ -103,7 +103,7 @@ icon to remove a row.
 ## Superuser mode
 
 *Superuser mode* allows the user to bypass record rules and access rights. To activate *Superuser
-mode*, first, activate [developer mode](applications/general/developer_mode.md#developer-mode). Then, navigate to the *debug* menu,
+mode*, first, activate [developer mode](../developer_mode.md#developer-mode). Then, navigate to the *debug* menu,
 represented by a 🪲 (bug) icon, located in the top banner.
 
 Finally, towards the bottom of the menu, click Become Superuser.

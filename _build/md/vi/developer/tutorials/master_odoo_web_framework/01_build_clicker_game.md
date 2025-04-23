@@ -7,7 +7,7 @@ For example, we will hide bonuses in some random parts of the web client.
 
 To get started, you need a running Odoo server and a development environment. Before getting
 into the exercises, make sure you have followed all the steps described in this
-[tutorial introduction](developer/tutorials/master_odoo_web_framework.md#tutorials-master-odoo-web-framework-setup).
+[tutorial introduction](../master_odoo_web_framework.md#tutorials-master-odoo-web-framework-setup).
 
 ## 1. Create a systray item
 
@@ -23,7 +23,7 @@ To get started, we want to display a counter in the systray.
 And voila, we have a completely working clicker game!
 
 #### SEE ALSO
-- [Documentation on the systray registry](developer/reference/frontend/registries.md#frontend-registries-systray)
+- [Documentation on the systray registry](../../reference/frontend/registries.md#frontend-registries-systray)
 - [Example: adding a systray item to the registry](https://github.com/odoo/odoo/blob/c4fb9c92d7826ddbc183d38b867ca4446b2fb709/addons/web/static/src/webclient/user_menu/user_menu.js#L41-L42)
 
 ## 2. Count external clicks
@@ -59,7 +59,7 @@ is a main action, managed by the web client, that displays a component.
 ![image](../../../.gitbook/assets/client_action.png)
 
 #### SEE ALSO
-- [How to create a client action](developer/howtos/javascript_client_action.md#howtos-javascript-client-action)
+- [How to create a client action](../../howtos/javascript_client_action.md#howtos-javascript-client-action)
 
 ## 4. Move the state to a service
 
@@ -86,7 +86,7 @@ location of our state to make it available for all our components. This is a per
 ![image](../../../.gitbook/assets/increment_button.png)
 
 #### SEE ALSO
-- [Short explanation on services](developer/tutorials/discover_js_framework/02_build_a_dashboard.md#tutorials-discover-js-framework-services)
+- [Short explanation on services](../discover_js_framework/02_build_a_dashboard.md#tutorials-discover-js-framework-services)
 
 ## 5. Use a custom hook
 
@@ -178,7 +178,7 @@ for communication: event buses.
 
 #### SEE ALSO
 - [Owl documentation on event bus](https://github.com/odoo/owl/blob/master/doc/reference/utils.md#eventbus)
-- [Documentation on effect service](developer/reference/frontend/services.md#frontend-services-effect)
+- [Documentation on effect service](../../reference/frontend/services.md#frontend-services-effect)
 
 ## 11. Add BigBots
 
@@ -259,7 +259,7 @@ We want the user to obtain sometimes bonuses, to reward using Odoo.
 ![image](../../../.gitbook/assets/reward.png)
 
 #### SEE ALSO
-- [Documentation on patching a class](developer/reference/frontend/patching_code.md#frontend-patching-class)
+- [Documentation on patching a class](../../reference/frontend/patching_code.md#frontend-patching-class)
 - [Definition of patch function](https://github.com/odoo/odoo/blob/c638913df191dfcc5547f90b8b899e7738c386f1/addons/web/static/src/core/utils/patch.js#L71)
 - [Example of patching a class](https://github.com/odoo/odoo/blob/c638913df191dfcc5547f90b8b899e7738c386f1/addons/pos_mercury/static/src/app/screens/receipt_screen/receipt_screen.js#L6)
 
@@ -313,7 +313,7 @@ and features in various tabs, with the `Notebook` component:
 ![image](../../../.gitbook/assets/notebook1.png)
 
 #### SEE ALSO
-- [Odoo: Documentation on Notebook component](developer/reference/frontend/owl_components.md#frontend-owl-notebook)
+- [Odoo: Documentation on Notebook component](../../reference/frontend/owl_components.md#frontend-owl-notebook)
 - [Owl: Documentation on slots](https://github.com/odoo/owl/blob/master/doc/reference/slots.md)
 - [Tests of Notebook component](https://github.com/odoo/odoo/blob/c638913df191dfcc5547f90b8b899e7738c386f1/addons/web/static/tests/core/notebook_tests.js#L27)
 

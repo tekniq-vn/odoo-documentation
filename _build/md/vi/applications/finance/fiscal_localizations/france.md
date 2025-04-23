@@ -1,7 +1,7 @@
 # Pháp
 
 #### IMPORTANT
-You must [install](applications/general/apps_modules.md) the **France - Adding Mandatory Invoice
+You must [install](../../general/apps_modules.md) the **France - Adding Mandatory Invoice
 Mentions (Decree no. 2022-1299)** (`l10n_fr_invoice_addr`) module to comply with the [local
 legislation](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046383394).
 
@@ -19,7 +19,7 @@ request by the tax authorities for audit purposes.
 ### Import FEC
 
 To make the onboarding of new users easier, Odoo Enterprise's French [fiscal localization
-package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) includes the **FEC Import** feature (module name:
+package](../fiscal_localizations.md#fiscal-localizations-packages) includes the **FEC Import** feature (module name:
 `l10n_fr_fec_import`), which enables the import of existing FEC files from older software.
 
 To enable this feature, go to Accounting ‣ Configuration ‣ Settings ‣
@@ -219,7 +219,7 @@ itself if the targeted Journal is of type *payable* or *receivable*.
 
 ### Xuất
 
-If you have installed the French [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages),
+If you have installed the French [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages),
 you should be able to download the FEC. To do so, go to Accounting ‣ Reporting ‣
 France ‣ FEC.
 
@@ -263,13 +263,13 @@ Your company is requested by the tax administration to deliver a certificate
 of conformity testifying that your software complies with the anti-fraud
 legislation. This certificate is granted by Odoo SA to Odoo Enterprise users
 [here](https://www.odoo.com/my/contract/french-certification/).
-If you use Odoo Community, you should [upgrade to Odoo Enterprise](administration/on_premise/community_to_enterprise.md) or contact your Odoo service provider.
+If you use Odoo Community, you should [upgrade to Odoo Enterprise](../../../administration/on_premise/community_to_enterprise.md) or contact your Odoo service provider.
 
 In case of non-conformity, your company risks a fine of €7,500.
 
 To get the certification, just follow the following steps:
 
-- If you use **Odoo Point of Sale**, [install](applications/general/apps_modules.md#general-install) the **France - VAT Anti-Fraud
+- If you use **Odoo Point of Sale**, [install](../../general/apps_modules.md#general-install) the **France - VAT Anti-Fraud
   Certification for Point of Sale (CGI 286 I-3 bis)** module by going to Apps,
   removing the *Apps* filter, then searching for *l10n_fr_pos_cert*, and installing the module.
 - Make sure a country is set on your company, otherwise your entries won’t be
@@ -281,7 +281,7 @@ To get the certification, just follow the following steps:
 #### NOTE
 - To install the module in any system created before
   December 18th 2017, you should update the modules list.
-  To do so, activate the [developer mode](applications/general/developer_mode.md#developer-mode).
+  To do so, activate the [developer mode](../../general/developer_mode.md#developer-mode).
   Then go to the *Apps* menu and press *Update Modules List* in the top-menu.
 - In case you run Odoo on-premise, you need to update your installation
   and restart your server beforehand.

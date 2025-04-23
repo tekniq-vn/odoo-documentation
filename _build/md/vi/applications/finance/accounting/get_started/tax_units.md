@@ -15,7 +15,7 @@ Tax ID of the **constituent** company of that tax unit.
 ### Vị trí tài chính
 
 As transactions between constituents of the same **tax unit** are not subject to VAT, it is possible
-to create a [tax mapping (fiscal position)](applications/finance/accounting/taxes/fiscal_positions.md) to avoid the
+to create a [tax mapping (fiscal position)](../taxes/fiscal_positions.md) to avoid the
 application of VAT on inter-constituent transactions.
 
 Be sure a constituent company has been selected before, then go to Accounting ‣
@@ -33,7 +33,7 @@ Fiscal Position field, input the **fiscal position** created for the **tax unit*
 Repeat the process for each **constituent** company card form, on each company database.
 
 #### SEE ALSO
-[Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md).
+[Fiscal positions (tax and account mapping)](../taxes/fiscal_positions.md).
 
 ## Báo cáo thuế
 

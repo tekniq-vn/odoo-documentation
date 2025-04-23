@@ -2,7 +2,7 @@
 
 #### WARNING
 * This guide assumes [basic knowledge of Python](http://docs.python.org/2/tutorial/)
-* This guide assumes [an installed Odoo](administration/on_premise.md)
+* This guide assumes [an installed Odoo](../../administration/on_premise.md)
 
 ## Creating a basic module
 
@@ -12,7 +12,7 @@ Modules customize the behavior of an Odoo installation, either by adding new
 behaviors or by altering existing ones (including behaviors added by other
 modules).
 
-[Odoo's scaffolding](developer/reference/cli.md#reference-cmdline-scaffold) can setup a basic
+[Odoo's scaffolding](../reference/cli.md#reference-cmdline-scaffold) can setup a basic
 module. To quickly get started simply invoke:
 
 ```console
@@ -42,7 +42,7 @@ Although it does absolutely nothing we can install it:
 
 ## To the browser
 
-[Controllers](developer/reference/backend/http.md#reference-controllers) interpret browser requests and
+[Controllers](../reference/backend/http.md#reference-controllers) interpret browser requests and
 send data back.
 
 Add a simple controller and ensure it is imported by `__init__.py` (so
@@ -76,7 +76,7 @@ Generating HTML in Python isn't very pleasant.
 
 The usual solution is [templates](https://en.wikipedia.org/wiki/Web_template), pseudo-documents with placeholders and
 display logic. Odoo allows any Python templating system, but provides its
-own [QWeb](developer/reference/frontend/qweb.md#reference-qweb) templating system which integrates with other
+own [QWeb](../reference/frontend/qweb.md#reference-qweb) templating system which integrates with other
 features.
 
 Create a template and ensure the template file is registered in the
@@ -118,7 +118,7 @@ Going to [http://localhost:8069/academy/academy/](http://localhost:8069/academy/
 
 ## Storing data in Odoo
 
-[Odoo models](developer/reference/backend/orm.md#reference-orm-model) map to database tables.
+[Odoo models](../reference/backend/orm.md#reference-orm-model) map to database tables.
 
 In the previous section we just displayed a list of string entered statically
 in the Python code. This doesn't allow modifications or persistent storage
@@ -138,7 +138,7 @@ class Teachers(models.Model):
     name = fields.Char()
 ```
 
-Then setup [basic access control](developer/reference/backend/security.md#reference-security-acl) for the model
+Then setup [basic access control](../reference/backend/security.md#reference-security-acl) for the model
 and add them to the manifest:
 
 ```python
@@ -158,7 +158,7 @@ this simply gives read access (`perm_read`) to all users (`group_id:id`
 left empty).
 
 #### NOTE
-[Data files](developer/reference/backend/data.md#reference-data) (XML or CSV) must be added to the
+[Data files](../reference/backend/data.md#reference-data) (XML or CSV) must be added to the
 module manifest, Python files (models or controllers) don't but have to
 be imported from `__init__.py` (directly or indirectly)
 
@@ -170,7 +170,7 @@ models even if not given access
 
 The second step is to add some demonstration data to the system so it's
 possible to test it easily. This is done by adding a `demo`
-[data file](developer/reference/backend/data.md#reference-data), which must be linked from the manifest:
+[data file](../reference/backend/data.md#reference-data), which must be linked from the manifest:
 
 ```xml
 <odoo>
@@ -237,7 +237,7 @@ integration and a few other services (e.g. default styling, theming) via the
 
 1. first, add `website` as a dependency to `academy`
 2. then add the `website=True` flag on the controller, this sets up a few
-   new variables on [the request object](developer/reference/backend/http.md#reference-http-request) and
+   new variables on [the request object](../reference/backend/http.md#reference-http-request) and
    allows using the website layout in our template
 3. use the website layout in the template
 
@@ -545,7 +545,7 @@ Create new teacher records, and to switch to the "form" by-record
 view.
 
 If there is no definition of how to present records (a
-[view](developer/reference/user_interface/view_records.md)) Odoo will automatically create a basic one
+[view](../reference/user_interface/view_records.md)) Odoo will automatically create a basic one
 on-the-fly. In our case it works for the "list" view for now (only displays
 the teacher's name) but in the "form" view the HTML `biography` field is
 displayed side-by-side with the `name` field and not given enough space.
@@ -570,8 +570,8 @@ a better experience:
 ### Relations between models
 
 We have seen a pair of "basic" fields stored directly in the record. There are
-[a number of basic fields](developer/reference/backend/orm.md#reference-fields-basic). The second
-broad categories of fields are [relational](developer/reference/backend/orm.md#reference-fields-relational) and used to link records to one another
+[a number of basic fields](../reference/backend/orm.md#reference-fields-basic). The second
+broad categories of fields are [relational](../reference/backend/orm.md#reference-fields-relational) and used to link records to one another
 (within a model or across models).
 
 For demonstration, let's create a *courses* model. Each course should have a

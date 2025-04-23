@@ -5,7 +5,7 @@ permissions) can. This means that a user **must** have at least *Team Approver* 
 *Expenses* app. Employees with the necessary rights can review expense reports, approve or reject
 them, and provide feedback thanks to the integrated communication tool.
 
-Please refer to the [access rights documentation](applications/general/users.md) to learn more
+Please refer to the [access rights documentation](../../general/users.md) to learn more
 about managing users and their access rights.
 
 ## Xem báo cáo chi phí

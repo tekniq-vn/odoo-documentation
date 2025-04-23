@@ -105,7 +105,7 @@ message should be sent. Then, under Action, select Send SMS.
 
 ## Set up SMS templates for future use
 
-In order to set up SMS Templates for future use, activate [developer mode](applications/general/developer_mode.md#developer-mode), by navigating to the main Odoo dashboard that is full of apps, and select the
+In order to set up SMS Templates for future use, activate [developer mode](../../general/developer_mode.md#developer-mode), by navigating to the main Odoo dashboard that is full of apps, and select the
 Settings app. Then, scroll down to the Developer Tools section, and
 click Activate the Developer Mode.
 

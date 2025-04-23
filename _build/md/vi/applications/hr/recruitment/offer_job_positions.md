@@ -4,7 +4,7 @@ Once an applicant has successfully passed the various interview stages, the recr
 ready to send an offer for employment. The next step is to send the applicant a contract.
 
 #### SEE ALSO
-Refer to the [recruitment](applications/hr/recruitment.md) documentation for details on the various stages
+Refer to the [recruitment](../recruitment.md) documentation for details on the various stages
 of the recruitment process.
 
 ## Contract proposal
@@ -131,6 +131,6 @@ Create Employee button in the top-left corner of the hired applicant's form.
 An employee form appears, with information from the applicant's card, and the employee contract.
 
 Fill out the rest of the employee form. For detailed information on the fields, refer to the
-[Nhân viên mới](applications/hr/employees/new_employee.md) documentation.
+[Nhân viên mới](../employees/new_employee.md) documentation.
 
 Once completed, the employee record is saved in the *Employees* app.

@@ -190,4 +190,4 @@ separate page. The journal entries on this list are all tied to their correspond
 ![Batch billing register payment pop-up window.](../../../../.gitbook/assets/manage-batch-billing.png)
 
 #### SEE ALSO
-[Bill control policies](applications/inventory_and_mrp/purchase/manage_deals/control_bills.md)
+[Bill control policies](control_bills.md)

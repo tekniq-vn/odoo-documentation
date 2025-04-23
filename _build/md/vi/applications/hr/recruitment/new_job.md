@@ -113,5 +113,5 @@ created. If no interview forms exist, the only options available are Create (int
 form name), and Create and edit....
 
 Proceed to fill out the modal interview form as a typical survey. For specific directions on how to
-create a survey, refer to the [survey essentials](applications/marketing/surveys/create.md) document,
+create a survey, refer to the [survey essentials](../../marketing/surveys/create.md) document,
 which provides step-by-step instructions on how to create and configure a survey.

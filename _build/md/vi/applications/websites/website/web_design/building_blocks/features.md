@@ -1,6 +1,6 @@
 # Tính năng
 
-The Features [building blocks](applications/websites/website/web_design/building_blocks.md) allow you to list multiple
+The Features [building blocks](../building_blocks.md) allow you to list multiple
 items next to each other.
 
 The [Table of Content](#features-table-of-content) and the [Call to Action](#features-call-to-action) blocks are presented below.

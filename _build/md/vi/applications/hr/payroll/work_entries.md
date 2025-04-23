@@ -1,7 +1,7 @@
 # Work entries
 
 Work entries are created automatically in the *Payroll* app, based on the employee's [salary
-structure type](applications/hr/payroll.md#payroll-structure-types), and from the *Planning*, *Attendances*, and *Time Off*
+structure type](../payroll.md#payroll-structure-types), and from the *Planning*, *Attendances*, and *Time Off*
 applications.
 
 The *Work Entries* dashboard of the *Payroll* application provides a visual overview of the
@@ -54,7 +54,7 @@ Nhập thông tin sau đây trên biểu mẫu:
   this field is left blank, it automatically populates once an employee is selected. The default
   entry is `Attendance: (Employee)`.
 - Employee: select the employee the work entry is for, using the drop-down menu.
-- Work Entry Type: select the [work entry type](applications/hr/payroll.md#payroll-work-entries) using the
+- Work Entry Type: select the [work entry type](../payroll.md#payroll-work-entries) using the
   drop-down menu.
 - From and To: enter the start (From) and end (To)
   dates and times for the work entry.
@@ -280,4 +280,4 @@ breadcrumb menu.
 ![The time off details for an individual request that needs to be deferred.](../../../.gitbook/assets/single-defer.png)
 
 #### SEE ALSO
-[Configure work entries](applications/hr/payroll.md#payroll-work-entries-config)
+[Configure work entries](../payroll.md#payroll-work-entries-config)

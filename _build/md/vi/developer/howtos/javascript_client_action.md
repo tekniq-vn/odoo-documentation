@@ -7,7 +7,7 @@ One of the benefits of using a client action is the ability to create highly cus
 with ease. A client action is typically defined by an OWL component; we can also use the web
 framework and use services, core components, hooks,...
 
-1. Create the [client action](developer/reference/backend/actions.md#reference-actions-client), don't forget to
+1. Create the [client action](../reference/backend/actions.md#reference-actions-client), don't forget to
    make it accessible.
    ```xml
    <record model="ir.actions.client" id="my_client_action">

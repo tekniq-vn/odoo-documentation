@@ -27,21 +27,21 @@ You can create Odoo external API keys either [for a single database](#silverfin-
 - If you need it again, create a new API key (and delete the old one).
 
 #### SEE ALSO
-[External API](developer/reference/external_api.md)
+[External API](../../../../developer/reference/external_api.md)
 
 <a id="silverfin-api-singledb"></a>
 
 #### Per database
 
 To add an API key to a **single** database, connect to the database, enable the [developer
-mode](applications/general/developer_mode.md#developer-mode), click on the user menu, and then My Profile /
+mode](../../../general/developer_mode.md#developer-mode), click on the user menu, and then My Profile /
 Preferences. Under the Account Security tab, click on New API
 Key, confirm your password, give a descriptive name to your new key, and copy the API key.
 
 ![creation of an Odoo external API key for a database](../../../../.gitbook/assets/api-key-db.png)
 
 #### SEE ALSO
-[API Keys](developer/reference/external_api.md#api-external-api-keys)
+[API Keys](../../../../developer/reference/external_api.md#api-external-api-keys)
 
 <a id="silverfin-api-multipledb"></a>
 

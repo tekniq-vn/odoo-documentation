@@ -1,7 +1,7 @@
 # Documentation
 
-* [Content guidelines](contributing/documentation/content_guidelines.md)
-* [RST guidelines and cheat sheet](contributing/documentation/rst_guidelines.md)
+* [Content guidelines](documentation/content_guidelines.md)
+* [RST guidelines and cheat sheet](documentation/rst_guidelines.md)
 
 This introductory guide will help you acquire the tools and knowledge needed to contribute to the
 documentation.
@@ -19,7 +19,7 @@ documentation:
   [Environment setup](#contributing-documentation-setup) section first to prepare your environment.
 
 #### SEE ALSO
-[Discover other ways to contribute to Odoo](contributing.md)
+[Discover other ways to contribute to Odoo](../contributing.md)
 
 <a id="contributing-documentation-rst-intro"></a>
 
@@ -29,8 +29,8 @@ The documentation is written in **reStructuredText** (RST), a [lightweight marku
 with markup, which allows including headings, images, notes, and so on.  is easy to use, even if you are not familiar with it.
 
 #### IMPORTANT
-Be mindful of our [content](contributing/documentation/content_guidelines.md) and
-[RST](contributing/documentation/rst_guidelines.md) guidelines as you write documentation. This ensures
+Be mindful of our [content](documentation/content_guidelines.md) and
+[RST](documentation/rst_guidelines.md) guidelines as you write documentation. This ensures
 that the documentation stays consistent and facilitates the approval of changes by the Odoo team.
 
 <a id="contributing-documentation-setup"></a>
@@ -146,7 +146,7 @@ Contribute from the GitHub interface
 4. Click on the Fork this repository button to create a fork () of the repository on your account. This creates a copy of the codebase to which you
    can make changes without affecting the main codebase. Skip this step if you work at Odoo.
    ![image](../.gitbook/assets/fork-repository.png)
-5. Make the desired changes while taking care of following the [content](contributing/documentation/content_guidelines.md) and [RST](contributing/documentation/rst_guidelines.md)
+5. Make the desired changes while taking care of following the [content](documentation/content_guidelines.md) and [RST](documentation/rst_guidelines.md)
    guidelines.
 6. Scroll to the bottom of the page and fill out the small form to propose your changes. In
    the first text box, write a very short summary of your changes. For instance, "Fix a typo"
@@ -175,13 +175,13 @@ Now that your environment is set up, you can start contributing to the documenta
 terminal, navigate to the directory where you cloned the sources and follow the guide below.
 
 1. Choose the version of the documentation to which you want to make changes. Keep in mind
-   that contributions targeting an [unsupported version of Odoo](administration/supported_versions.md) are not accepted. This guide assumes that the changes
+   that contributions targeting an [unsupported version of Odoo](../administration/supported_versions.md) are not accepted. This guide assumes that the changes
    target the documentation of Odoo 17, which corresponds to branch
    `17.0`.
 2. Create a new branch starting from branch 17.0. Prefix the branch name with the
    base branch: `17.0-...`. If you work at Odoo, suffix the branch name with your
    Odoo handle: `17.0-...-xyz`.
-3. Make the desired changes while taking care of following the [content](contributing/documentation/content_guidelines.md) and [RST](contributing/documentation/rst_guidelines.md)
+3. Make the desired changes while taking care of following the [content](documentation/content_guidelines.md) and [RST](documentation/rst_guidelines.md)
    guidelines.
 4. Compress all PNG images that were added or modified.
    ```console
@@ -192,7 +192,7 @@ terminal, navigate to the directory where you cloned the sources and follow the 
    file that were renamed.
 6. Build the documentation with **make**. Then, open `_build/index.html` in a web
    browser to browse the documentation with your changes.
-7. Commit your changes. Write a clear commit message as instructed in the [Git guidelines](contributing/development/git_guidelines.md).
+7. Commit your changes. Write a clear commit message as instructed in the [Git guidelines](development/git_guidelines.md).
    ```console
    $ git add .
    $ git commit

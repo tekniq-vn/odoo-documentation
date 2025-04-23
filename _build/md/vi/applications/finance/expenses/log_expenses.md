@@ -90,7 +90,7 @@ View My Services link to view a list of all current services, and their remainin
 balances.
 
 For more information on document digitization and , refer to the
-[In-app purchase (IAP)](applications/essentials/in_app_purchase.md) documentation.
+[In-app purchase (IAP)](../../essentials/in_app_purchase.md) documentation.
 
 #### NOTE
 When the Expense Digitization (OCR) option is enabled, a necessary module is
@@ -138,7 +138,7 @@ field.
 
 ![Create the domain alias by clicking the link.](../../../.gitbook/assets/email-alias.png)
 
-Refer to the [Tên miền](applications/websites/website/configuration/domain_names.md) documentation for
+Refer to the [Tên miền](../../websites/website/configuration/domain_names.md) documentation for
 setup instructions and more information.
 
 Once the domain alias is configured, the email address field is visible beneath the

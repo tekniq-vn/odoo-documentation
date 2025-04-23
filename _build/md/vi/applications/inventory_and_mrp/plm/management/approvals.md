@@ -3,12 +3,12 @@
 <a id="plm-approvals"></a>
 
 Notify stakeholders and managers automatically by assigning approvers to stages of [engineering
-change orders](applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.md#plm-eco) (ECOs) under review. Changes can only be applied after the assigned
+change orders](../manage_changes/engineering_change_orders.md#plm-eco) (ECOs) under review. Changes can only be applied after the assigned
 approver accepts them. Approvals ensure reviews by team members, which prevents mistakes and
 premature actions.
 
 #### SEE ALSO
-[Stage configuration](applications/inventory_and_mrp/plm/manage_changes/eco_type.md#plm-eco-stage-config)
+[Stage configuration](../manage_changes/eco_type.md#plm-eco-stage-config)
 
 ## Add approver
 
@@ -23,7 +23,7 @@ Approvers can be added to any stage, but it's strongly recommended to assign the
 *verification* stage, which comes before the *closing* stage, where  are applied, and the
  version is updated.
 
-See the documentation about [stage types](applications/inventory_and_mrp/plm/manage_changes/eco_type.md#plm-eco-stage-config) for more information.
+See the documentation about [stage types](../manage_changes/eco_type.md#plm-eco-stage-config) for more information.
 
 <a id="plm-approvals-approval-type"></a>
 

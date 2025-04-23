@@ -60,5 +60,5 @@ Then, when the quotation is paid and confirmed, a delivery order is automaticall
 Odoo *Inventory* app is installed).
 
 #### SEE ALSO
-- [Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)
-- [Online payment order confirmation](applications/sales/sales/send_quotations/get_paid_to_validate.md)
+- [Mẫu báo giá](quote_template.md)
+- [Online payment order confirmation](get_paid_to_validate.md)

@@ -8,7 +8,7 @@
   Odoo database. Alternatively, you can acquire a *non-integrated* certified scale that prints
   certified labels, which can then be scanned into your Odoo database.
 
-Để kết nối cân với hệ thống IoT, sử dụng cáp USB. Trong một số trường hợp, có thể cần bộ chuyển đổi từ cổng nối tiếp sang USB để hoàn tất kết nối. Nếu cân tương thích với hệ thống IoT <[https://www.odoo.com/page/iot-hardware](https://www.odoo.com/page/iot-hardware)>_, không cần thiết lập bổ sung; cân sẽ tự động được nhận diện ngay khi kết nối. Nếu cân không được nhận diện, hãy khởi động lại hộp IoT hoặc [khởi động lại dịch vụ IoT ảo trên Windows](applications/general/iot/windows_iot.md#iot-windows-iot-restart) và [cập nhật driver của cân](applications/general/iot/iot_advanced/updating_iot.md#iot-updating-iot-handlers).
+Để kết nối cân với hệ thống IoT, sử dụng cáp USB. Trong một số trường hợp, có thể cần bộ chuyển đổi từ cổng nối tiếp sang USB để hoàn tất kết nối. Nếu cân tương thích với hệ thống IoT <[https://www.odoo.com/page/iot-hardware](https://www.odoo.com/page/iot-hardware)>_, không cần thiết lập bổ sung; cân sẽ tự động được nhận diện ngay khi kết nối. Nếu cân không được nhận diện, hãy khởi động lại hộp IoT hoặc [khởi động lại dịch vụ IoT ảo trên Windows](../windows_iot.md#iot-windows-iot-restart) và [cập nhật driver của cân](../iot_advanced/updating_iot.md#iot-updating-iot-handlers).
 
 #### NOTE
 If the scale still does not function after updating the drivers, it might not be [compatible with
@@ -18,16 +18,16 @@ must be used.
 Once the scale is connected to the IoT system, follow these steps to configure it in the POS
 settings:
 
-1. [Access the POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the
+1. [Access the POS settings](../../../sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the
    vertical ellipsis button (⋮) on a POS card and click Edit.
 2. Scroll down to the Connected Devices section and enable IoT Box.
 3. Select the scale in the Electronic Scale field.
 4. Nhấp Lưu.
 
 #### SEE ALSO
-[Connect an IoT system to a POS](applications/sales/point_of_sale/configuration/pos_iot.md)
+[Connect an IoT system to a POS](../../../sales/point_of_sale/configuration/pos_iot.md)
 
-The scale is then available in all the [POS's sessions](applications/sales/point_of_sale.md).
+The scale is then available in all the [POS's sessions](../../../sales/point_of_sale.md).
 If a product is configured with a price per weight, selecting it on the PoS screen opens
 the scale popup. The cashier can then weigh the product to automatically add the correct price to
 the cart.
@@ -61,6 +61,6 @@ Guide for Ariva S series scales](https://www.mt.com/dam/RET_DOCS/Ariv.pdf) and f
    Do **not** make any other changes unless otherwise needed.
 8. Press **>0<**.
 9. Press **>0<** again to SAVE; the scale restarts.
-10. Reboot the IoT box or [restart the Windows virtual IoT service](applications/general/iot/windows_iot.md#iot-windows-iot-restart).
+10. Reboot the IoT box or [restart the Windows virtual IoT service](../windows_iot.md#iot-windows-iot-restart).
     The scale should then appear as `Toledo 8217`, as opposed to the previous display, where it
     appeared as `Adam Equipment Serial`.

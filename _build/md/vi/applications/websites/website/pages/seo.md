@@ -7,8 +7,8 @@ speed.
 
 #### NOTE
 - Odoo provides several modules to help you build your website content, such as
-  [eCommerce](applications/websites/ecommerce.md), [Blog](applications/websites/blog.md), [eLearning](applications/websites/elearning.md), and [Forum](applications/websites/forum.md).
-- All Odoo [themes](applications/websites/website/web_design/themes.md) rely on the CSS Framework [Bootstrap](https://getbootstrap.com/) to render efficiently according to the device: desktop, tablet,
+  [eCommerce](../../ecommerce.md), [Blog](../../blog.md), [eLearning](../../elearning.md), and [Forum](../../forum.md).
+- All Odoo [themes](../web_design/themes.md) rely on the CSS Framework [Bootstrap](https://getbootstrap.com/) to render efficiently according to the device: desktop, tablet,
   or mobile, which positively impacts ranking in search engines.
 
 ## Content optimization
@@ -56,14 +56,14 @@ image by clicking the upward arrow.
   shared.
 - If you change the title of a blog post or the name of a product, the changes apply
   automatically everywhere on your website. The old link still functions when external websites
-  use a [301 redirect](applications/websites/website/pages.md#website-url-redirection), maintaining the SEO link juice.
+  use a [301 redirect](../pages.md#website-url-redirection), maintaining the SEO link juice.
 
 ## Hình ảnh
 
 The size of images has a significant impact on page speed, which is an essential criterion for
 search engines to optimize SEO ranking.
 
-Odoo tự động nén các hình ảnh được tải lên và chuyển đổi chúng sang định dạng `Webp`. Với định dạng tệp này, ảnh có kích thước nhỏ hơn, giúp tăng tốc độ tải trang và do đó cải thiện thứ hạng SEO. Tất cả hình ảnh được sử dụng trong [giao diện](applications/websites/website/web_design/themes.md) chính thức của Odoo cũng được nén theo mặc định. Nếu bạn đang sử dụng một giao diện từ bên thứ ba, có thể giao diện đó cung cấp hình ảnh không được nén hiệu quả.
+Odoo tự động nén các hình ảnh được tải lên và chuyển đổi chúng sang định dạng `Webp`. Với định dạng tệp này, ảnh có kích thước nhỏ hơn, giúp tăng tốc độ tải trang và do đó cải thiện thứ hạng SEO. Tất cả hình ảnh được sử dụng trong [giao diện](../web_design/themes.md) chính thức của Odoo cũng được nén theo mặc định. Nếu bạn đang sử dụng một giao diện từ bên thứ ba, có thể giao diện đó cung cấp hình ảnh không được nén hiệu quả.
 
 **To modify an image** from your website, select the image, click Edit, then go to the
 Customize tab, and adapt the Format in the Image section.
@@ -128,4 +128,4 @@ multilingual pages. These HTML attributes are crucial in informing search engine
 page's language and geographical targeting.
 
 #### SEE ALSO
-[Dịch thuật](applications/websites/website/configuration/translate.md)
+[Dịch thuật](../configuration/translate.md)

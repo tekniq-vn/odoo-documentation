@@ -25,14 +25,14 @@ If you use Odoo on Odoo.com or Odoo.sh platform, your code is already up-to-date
 to the next step.
 
 If you use Odoo with an on-premise setup or through a partner, you must update your installation as
-detailed in [this documentation page](administration/on_premise/update.md), or by contacting
+detailed in [this documentation page](../../../../../administration/on_premise/update.md), or by contacting
 your integrating partner.
 
 ## Update the list of available modules
 
 New modules must be *discovered* by your Odoo instance to be available in the **Apps** menu.
 
-To do so, activate the [developer mode](applications/general/developer_mode.md#developer-mode), and go to Apps ‣
+To do so, activate the [developer mode](../../../../general/developer_mode.md#developer-mode), and go to Apps ‣
 Update Apps List. A wizard will ask for confirmation.
 
 ## Install the module Invoice Online Payment Patch

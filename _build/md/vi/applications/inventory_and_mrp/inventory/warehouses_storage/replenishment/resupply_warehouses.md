@@ -12,7 +12,7 @@ This guide explains how to conduct inter-warehouse transfers using two replenish
 2. [Reordering rule](#inventory-warehouses-storage-reordering-rule)
 
 #### SEE ALSO
-[Difference between MTO and reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment.md)
+[Difference between MTO and reordering rules](../replenishment.md)
 
 ## Cấu hình
 
@@ -41,7 +41,7 @@ warehouse, make sure to check those warehouses' boxes too. Now, Odoo knows which
 resupply this warehouse.
 
 #### SEE ALSO
-[Kho hàng](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md)
+[Kho hàng](../inventory_management/warehouses.md)
 
 ![Supply one warehouse with another in the Warehouse Configuration tab.](../../../../../.gitbook/assets/warehouse.png)
 
@@ -64,7 +64,7 @@ Proceed to the dedicated sections below to continue the process.
 #### MTO
 
 To replenish products using the make-to-order method, go to the product form and ensure the
-[MTO route is unarchived](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md#inventory-warehouses-storage-unarchive-mto), so it appears in the
+[MTO route is unarchived](mto.md#inventory-warehouses-storage-unarchive-mto), so it appears in the
 Routes section of the Inventory tab.
 
 With the resupply and  routes ticked, jump to the section titled: [Replenish from another
@@ -88,7 +88,7 @@ Click New, and set:
   inventory falls below the set threshold.
 
 #### SEE ALSO
-[Quy tắc tái đặt hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
+[Quy tắc tái đặt hàng](reordering_rules.md)
 
 <a id="inventory-warehouses-storage-resupply-workflow"></a>
 

@@ -5,7 +5,7 @@ when creating a new quality check or quality control point (QCP). *Instructions*
 text entry field that allows the creator to provide instructions for how to complete the check.
 
 For a full overview of how to configure a quality check or a , see the documentation on
-[quality checks](applications/inventory_and_mrp/quality/quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+[quality checks](../quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](../quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
 
 ## Process an Instructions quality check
 
@@ -41,7 +41,7 @@ notify a quality team. To do so, click the Quality Alert button that appears at 
 of the manufacturing or inventory order after the check is validated.
 
 Clicking Quality Alert opens a quality alert form on a new page. For a complete guide on
-how to fill out quality alert forms, view the documentation on [quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
+how to fill out quality alert forms, view the documentation on [quality alerts](../quality_management/quality_alerts.md#quality-quality-management-quality-alerts).
 
 ### Process work order quality check
 
@@ -74,4 +74,4 @@ appears on the right side of the step's line on the work order card. When using 
 quality check automatically passes, without a pop-up window appearing.
 
 #### NOTE
-For a full guide to the *Shop Floor* module, see the [Shop Floor overview](applications/inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.md#manufacturing-shop-floor-shop-floor-overview) documentation.
+For a full guide to the *Shop Floor* module, see the [Shop Floor overview](../../manufacturing/shop_floor/shop_floor_overview.md#manufacturing-shop-floor-shop-floor-overview) documentation.

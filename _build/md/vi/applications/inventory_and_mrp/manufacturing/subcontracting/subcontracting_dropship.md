@@ -66,7 +66,7 @@ Alternatively, navigate to Manufacturing app ‣ Products ‣ Bills of Materials
 and select the  for the subcontracted product.
 
 #### SEE ALSO
-For a full overview of  configuration, see the [Bill of materials](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md) documentation.
+For a full overview of  configuration, see the [Bill of materials](../basic_setup/bill_configuration.md) documentation.
 
 In the BoM Type field, select the Subcontracting option. Then, add one or
 more subcontractors in the Subcontractors field that appears below.

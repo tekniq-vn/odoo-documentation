@@ -30,7 +30,7 @@ should not be viewed as guarantees.
 
 ## Cấu hình
 
-When using the [Dropship Subcontractor on Order](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.md) route, a company is
+When using the [Dropship Subcontractor on Order](subcontracting_dropship.md) route, a company is
 responsible for purchasing the necessary components from a vendor, and having them dropshipped
 directly to the subcontractor.
 

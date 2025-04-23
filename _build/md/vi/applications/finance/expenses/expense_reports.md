@@ -60,7 +60,7 @@ An Add: Expense Lines pop-up window appears, displaying all the available expens
 a To Submit status) that can be added to the report.
 
 If a new expense needs to be added that does **not** appear on the list, click New to
-[create a new expense](applications/finance/expenses/log_expenses.md) and add it to the report.
+[create a new expense](log_expenses.md) and add it to the report.
 
 Tick the checkbox next to each expense being added, then click Select.
 
@@ -108,5 +108,5 @@ Click on a report to open it, then click Submit To Manager. After submitting a r
 the next step is to wait for the manager to approve it.
 
 #### IMPORTANT
-[Approving](applications/finance/expenses/approve_expenses.md) expenses, [posting](applications/finance/expenses/post_expenses.md) expenses, and [reimbursing](applications/finance/expenses/reimburse.md) expenses
-are **only** for users with the appropriate [access rights documentation](applications/general/users.md).
+[Approving](approve_expenses.md) expenses, [posting](post_expenses.md) expenses, and [reimbursing](reimburse.md) expenses
+are **only** for users with the appropriate [access rights documentation](../../general/users.md).

@@ -1,6 +1,6 @@
 # Nội dung bên trong
 
-The Inner content [building blocks](applications/websites/website/web_design/building_blocks.md) allow you to add elements
+The Inner content [building blocks](../building_blocks.md) allow you to add elements
 such as videos, images, and [social media buttons](#inner-content-social-media), into
 pre-existing blocks.
 

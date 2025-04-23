@@ -1,19 +1,19 @@
 # Build PDF Reports
 
 #### IMPORTANT
-This tutorial is an extension of the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial. Make sure you have
+This tutorial is an extension of the [Server framework 101](server_framework_101.md) tutorial. Make sure you have
 completed it and use the `estate` module you have built as a base for the exercises in this
 tutorial.
 
-We were previously [introduced to QWeb](developer/tutorials/server_framework_101/14_qwebintro.md)
+We were previously [introduced to QWeb](server_framework_101/14_qwebintro.md)
 where it was used to build a kanban view. Now we will expand on one of QWeb's
 other main uses: creating PDF reports. A common business requirement is the ability to create documents
 to send to customers and to use internally. These reports can be used to summarize and display
 information in an organized template to support the business in different ways. Odoo
 can additionally add our company's header and footer to our reports with minimal extra effort.
 
-The documentation related to this topic can be found in [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb),
-[QWeb Reports](developer/reference/backend/reports.md#reference-reports-report), and the [Report Actions (ir.actions.report)](developer/reference/backend/actions.md#reference-actions-report)
+The documentation related to this topic can be found in [QWeb Templates](../reference/frontend/qweb.md#reference-qweb),
+[QWeb Reports](../reference/backend/reports.md#reference-reports-report), and the [Report Actions (ir.actions.report)](../reference/backend/actions.md#reference-actions-report)
 section of the Actions reference.
 
 ## File Structure
@@ -72,7 +72,7 @@ or all of your expected use cases. A good representation set for our simple repo
 
 If you don't have a set of data like this already, you can either:
 
-* Complete the [Define module data](developer/tutorials/define_module_data.md) tutorial (if you haven't done so already) and add the extra
+* Complete the [Define module data](define_module_data.md) tutorial (if you haven't done so already) and add the extra
   cases to your demo data (you may need to create a new database to load in the demo data).
 * Manually create the data in your database.
 * Copy this [data file](https://github.com/odoo/technical-training-solutions/blob/17.0-J_reports/estate/data/estate_demo.xml)
@@ -87,7 +87,7 @@ debugging your code more difficult in the long run for complicated reports.
 ### Minimal Template
 
 A minimal viable template is viewable under the "Minimal viable template" section of the
-[Report template](developer/reference/backend/reports.md#reference-reports-templates) documentation. We can modify this example to build
+[Report template](../reference/backend/reports.md#reference-reports-templates) documentation. We can modify this example to build
 our minimal property offers template file:
 
 ```xml
@@ -137,7 +137,7 @@ Some additional features in our template are:
 * The use of `t-set`, `t-value`, `t-foreach`, and `t-as` so that we can loop over all the `offer_ids`.
 
 If you are already familiar with website templating engines, then the QWeb directives (i.e. the `t-` commands)
-probably don't need much explanation and you can just look at its [documentation](developer/reference/frontend/qweb.md#reference-qweb) and
+probably don't need much explanation and you can just look at its [documentation](../reference/frontend/qweb.md#reference-qweb) and
 skip ahead to the next subsection.
 
 Otherwise you are encouraged to read more about them (
@@ -161,12 +161,12 @@ A practical example of `ir.actions.report` is
 [here](https://github.com/odoo/odoo/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/event/report/event_event_reports.xml#L20-L30)
 corresponding to
 [this template](https://github.com/odoo/odoo/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/event/report/event_event_templates.xml#L5).
-Its contents are all explained in [the documentation](developer/reference/backend/actions.md#reference-actions-report).
+Its contents are all explained in [the documentation](../reference/backend/actions.md#reference-actions-report).
 
 An `ir.actions.report` is primarily used via the Print menu of a model's view. In the practical
 example, the `binding_model_id` specifies which model's views the report should show, and Odoo
 will auto-magically add it for you. Another common use case of the report action is to link it to
-a button as we learned in [Chapter 9: Ready For Some Action?](developer/tutorials/server_framework_101/09_actions.md). This is handy for reports
+a button as we learned in [Chapter 9: Ready For Some Action?](server_framework_101/09_actions.md). This is handy for reports
 that only make sense under specific conditions. For example, if we wanted to make a "Final Sale"
 report, then we can link it to a "Print Sale Info" button that appears in the form view only when
 the property is "Sold".
@@ -194,7 +194,7 @@ report is useful, but listing property offers information can be useful for more
 One example is a report that lists all of a salesman's properties' offers.
 
 See if you can understand how to call a sub-template by reading the
-[documentation](developer/reference/frontend/qweb.md#reference-qweb-sub-templates) on it and/or by looking at an
+[documentation](../reference/frontend/qweb.md#reference-qweb-sub-templates) on it and/or by looking at an
 [example](https://github.com/odoo/odoo/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/portal/static/src/xml/portal_chatter.xml#L147-L160)
 (remember QWeb uses the same control flows regardless if it is for a report or a view in Odoo.)
 
@@ -206,7 +206,7 @@ module.
 
 ![An inherited report](../../.gitbook/assets/inherited_report.png)
 
-Inheritance in QWeb uses the same `xpath` elements as [views inheritance](developer/reference/user_interface/view_records.md#reference-view-records-inheritance).
+Inheritance in QWeb uses the same `xpath` elements as [views inheritance](../reference/user_interface/view_records.md#reference-view-records-inheritance).
 A QWeb template refers to its parent template in a different way though. It is even easier to do by just adding
 the `inherit_id` attribute to the `template` element and setting it equal to the *module.parent_template_id*.
 
@@ -216,7 +216,7 @@ created for them, so we can add this information to our report.
 
 ## Additional Features
 
-All the following extra features are described further in the [QWeb Reports](developer/reference/backend/reports.md#reference-reports-report)
+All the following extra features are described further in the [QWeb Reports](../reference/backend/reports.md#reference-reports-report)
 documentation, including how to implement each of them.
 
 ### Translations

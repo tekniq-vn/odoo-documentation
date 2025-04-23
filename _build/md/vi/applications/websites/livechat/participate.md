@@ -34,7 +34,7 @@ right side of the Preferences tab, click into the Online Chat Language
 field, and select one or more languages from the drop-down menu.
 
 #### IMPORTANT
-Only [languages](applications/general/users/language.md) that are enabled on the database can be
+Only [languages](../../general/users/language.md) that are enabled on the database can be
 selected in the Online Chat Language field.
 
 ## Join or leave a channel
@@ -66,6 +66,6 @@ Click on a conversation in the left panel to select it. This opens the conversat
 view, an operator can participate in the chat the same as they would in the normal chat window.
 
 #### SEE ALSO
-- [Thảo luận](applications/productivity/discuss.md)
-- [Trò chuyện Trực tiếp](applications/websites/livechat.md)
-- [Commands and canned responses](applications/websites/livechat/responses.md)
+- [Thảo luận](../../productivity/discuss.md)
+- [Trò chuyện Trực tiếp](../livechat.md)
+- [Commands and canned responses](responses.md)

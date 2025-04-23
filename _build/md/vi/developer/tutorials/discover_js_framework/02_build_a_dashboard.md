@@ -15,7 +15,7 @@ about the Odoo JavaScript framework in its entirety, as used by the web client.
 
 To get started, you need a running Odoo server and a development environment setup. Before getting
 into the exercises, make sure you have followed all the steps described in this
-[tutorial introduction](developer/tutorials/discover_js_framework.md#tutorials-discover-js-framework-setup). For this chapter, we will start
+[tutorial introduction](../discover_js_framework.md#tutorials-discover-js-framework-setup). For this chapter, we will start
 from the empty dashboard provided by the `awesome_dashboard` addon. We will progressively add
 features to it, using the Odoo JavaScript framework.
 
@@ -54,7 +54,7 @@ For example, all Discuss messages should not be reloaded every time we display a
 Also, it may happen that we need to write some code that is not a component. Maybe something that
 process all barcodes, or that manages the user configuration (context, etc.).
 
-The Odoo framework defines the idea of a [service](developer/reference/frontend/services.md#frontend-services), which is a persistent
+The Odoo framework defines the idea of a [service](../../reference/frontend/services.md#frontend-services), which is a persistent
 piece of code that exports state and/or functions. Each service can depend on other services, and
 components can import a service.
 
@@ -163,7 +163,7 @@ Let's improve the dashboard by adding a few dashboard items to display *real* bu
 The `awesome_dashboard` addon provides a `/awesome_dashboard/statistics` route that is meant
 to return some interesting information.
 
-To call a specific controller, we need to use the [rpc service](developer/reference/frontend/services.md#frontend-services-rpc).
+To call a specific controller, we need to use the [rpc service](../../reference/frontend/services.md#frontend-services-rpc).
 It only exports a single function that perform the request: `rpc(route, params, settings)`.
 A basic request could look like this:
 
@@ -373,7 +373,7 @@ The dashboard configuration will be saved as a list of removed item ids.
 
 Here is a list of some small improvements you could try to do if you have the time:
 
-1. Make sure your application can be [translated](developer/howtos/translations.md#reference-translations) (with
+1. Make sure your application can be [translated](../../howtos/translations.md#reference-translations) (with
    `env._t`).
 2. Clicking on a section of the pie chart should open a list view of all orders that have the
    corresponding size.

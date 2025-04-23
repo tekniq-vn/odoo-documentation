@@ -28,16 +28,16 @@ videos:
 
 ### Modules installation
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Brazilian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Brazilian
 localization:
 
-| Tên                                                              | Tên kỹ thuật                                 | Mô tả                                                                                                                                                                                                                                                        |
-|------------------------------------------------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Brazil - Kế toán                                                 | `l10n_br`                                    | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages), which represents<br/>having the Generic Brazilian chart of accounts and Taxes, together with document types and<br/>identification types. |
-| Brazil - Accounting Reports                                      | `l10n_br_reports`                            | Accounting reports for Brazil.                                                                                                                                                                                                                               |
-| AvaTax Brazil & AvaTax Brazil for Services                       | `l10n_br_avatax` & `l10n_br_avatax_services` | Goods and Services tax computation through Avalara.                                                                                                                                                                                                          |
-| Brazilian Accounting EDI & Brazilian Accounting EDI for services | `l10n_br_edi` & `l10n_br_edi_services`       | Provides electronic invoicing for goods and services for Brazil through AvaTax.                                                                                                                                                                              |
-| Brazil Pix QR codes                                              | `l10n_br_pix`                                | Implements Pix QR codes for Brazil.                                                                                                                                                                                                                          |
+| Tên                                                              | Tên kỹ thuật                                 | Mô tả                                                                                                                                                                                                                                      |
+|------------------------------------------------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Brazil - Kế toán                                                 | `l10n_br`                                    | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages), which represents<br/>having the Generic Brazilian chart of accounts and Taxes, together with document types and<br/>identification types. |
+| Brazil - Accounting Reports                                      | `l10n_br_reports`                            | Accounting reports for Brazil.                                                                                                                                                                                                             |
+| AvaTax Brazil & AvaTax Brazil for Services                       | `l10n_br_avatax` & `l10n_br_avatax_services` | Goods and Services tax computation through Avalara.                                                                                                                                                                                        |
+| Brazilian Accounting EDI & Brazilian Accounting EDI for services | `l10n_br_edi` & `l10n_br_edi_services`       | Provides electronic invoicing for goods and services for Brazil through AvaTax.                                                                                                                                                            |
+| Brazil Pix QR codes                                              | `l10n_br_pix`                                | Implements Pix QR codes for Brazil.                                                                                                                                                                                                        |
 
 <a id="brazil-company"></a>
 
@@ -95,7 +95,7 @@ to automatically compute taxes by taking into account the company, contact (cust
 transaction information to retrieve the correct tax to be used and process the e-invoice afterward
 with the government.
 
-Using this integration requires [In-App-Purchases (IAPs)](applications/essentials/in_app_purchase.md) to
+Using this integration requires [In-App-Purchases (IAPs)](../../essentials/in_app_purchase.md) to
 compute the taxes and to send the electronic invoices. Whenever you compute taxes, send an
 electronic document (NF-e, NFS-e, etc), or perform any electronic flow (NF-e Cancellation,
 Correction letter, Invalidate invoice number range), an API call is made using credits from your
@@ -164,7 +164,7 @@ to the user, that means this process needs to be done in the city portal.
 
 #### Hệ thống tài khoản
 
-The [chart of accounts](applications/finance/accounting/get_started/chart_of_accounts.md) is installed by default
+The [chart of accounts](../accounting/get_started/chart_of_accounts.md) is installed by default
 as part of the data set included in the localization module. The accounts are mapped automatically
 in their corresponding taxes, and the default account payable and account receivable fields.
 
@@ -207,7 +207,7 @@ electronically send an NFS-e, you need to compute taxes using Avalara.
 Không xóa các loại thuế vì chúng được sử dụng để tính toán thuế AvaTax. Nếu bị xóa, Odoo sẽ tạo lại chúng khi được sử dụng trong  hoặc hóa đơn và tính thuế bằng AvaTax, nhưng tài khoản dùng để ghi nhận thuế cần được cấu hình lại trong tab Định nghĩa của thuế, dưới các phần Phân bổ cho hóa đơn và Phân bổ cho đơn hoàn tiền.
 
 #### SEE ALSO
-[Taxes functional documentation](applications/finance/accounting/taxes.md)
+[Taxes functional documentation](../accounting/taxes.md)
 
 <a id="brazil-products"></a>
 
@@ -347,7 +347,7 @@ The Fiscal Position must be set to `Automatic Tax Mapping (Avalara Brazil)` for 
 of these actions to compute taxes automatically.
 
 #### SEE ALSO
-[Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
+[Fiscal positions (tax and account mapping)](../accounting/taxes/fiscal_positions.md)
 
 <a id="brazil-electronic-documents"></a>
 
@@ -390,7 +390,7 @@ the government for validation.
 Credit notes are only available for electronic invoices for goods (NF-e).
 
 #### SEE ALSO
-[Issue a credit note](applications/finance/accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-credit-note)
+[Issue a credit note](../accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-credit-note)
 
 #### Giấy báo Nợ
 
@@ -403,7 +403,7 @@ Debit notes are only available for electronic invoices for goods (NF-e).
 Chỉ những sản phẩm đã có trong hóa đơn gốc mới được phép đưa vào giấy báo nợ. Mặc dù bạn có thể thay đổi đơn giá hoặc số lượng sản phẩm, nhưng **không** được phép thêm sản phẩm vào giấy báo có. Mục đích của chứng từ này là để khai báo phần giá trị bạn muốn cộng thêm vào hóa đơn gốc cho cùng sản phẩm hoặc ít hơn.
 
 #### SEE ALSO
-[Issue a debit note](applications/finance/accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-debit-note)
+[Issue a debit note](../accounting/customer_invoices/credit_notes.md#accounting-credit-notes-issue-debit-note)
 
 #### Huỷ hoá đơn
 

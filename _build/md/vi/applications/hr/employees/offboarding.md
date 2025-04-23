@@ -35,7 +35,7 @@ Fill out the following fields on the form:
   - Appraisals: cancels all appraisals scheduled after the contract end date.
   - Contract: applies an end date for the current contract.
   - Company Car: removes the employee as the driver for their current company car, and
-    [assigns the next driver](applications/hr/fleet/new_vehicle.md#fleet-new-vehicle-new-driver), if applicable.
+    [assigns the next driver](../fleet/new_vehicle.md#fleet-new-vehicle-new-driver), if applicable.
   - Time Off: cancels any time off requests after the contract end date.
   - Allocations: removes the employee from any accrual plans they are on.
 - HR Info: Tick the checkbox next to Send Access Link to send a download

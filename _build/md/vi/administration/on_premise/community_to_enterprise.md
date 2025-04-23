@@ -36,7 +36,7 @@ Có nhiều cách để khởi chạy máy chủ khi sử dụng nguồn và có
 
 * Tắt máy chủ của bạn
 * Sao lưu cơ sở dữ liệu community
-* Cập nhật tham số `--addons-path` của lệnh khởi chạy của bạn (tham khảo [Cài đặt nguồn](administration/on_premise/source.md))
+* Cập nhật tham số `--addons-path` của lệnh khởi chạy của bạn (tham khảo [Cài đặt nguồn](source.md))
 * Cài đặt phân hệ web_enterprise bằng cách sử dụng
   ```console
   $ -d <database_name> -i web_enterprise --stop-after-init

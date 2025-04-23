@@ -71,7 +71,7 @@ To enable the Leads feature, navigate to CRM app ‣ Configuration
 
 ## Định giá
 
-Lead mining is an *In-App Purchase* feature, and each generated lead costs one [credit](applications/essentials/in_app_purchase.md#in-app-purchase-credits).
+Lead mining is an *In-App Purchase* feature, and each generated lead costs one [credit](../../../essentials/in_app_purchase.md#in-app-purchase-credits).
 
 #### IMPORTANT
 Generating Companies and their Contacts costs one additional credit for each contact generated. See here for complete
@@ -93,4 +93,4 @@ purchasing more credits for the database. This includes demo/training databases,
 databases, and one-app-free databases.
 
 #### SEE ALSO
-[Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)
+[Mua hàng trong ứng dụng (IAP)](../../../essentials/in_app_purchase.md)

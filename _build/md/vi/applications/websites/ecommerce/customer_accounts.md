@@ -9,11 +9,11 @@ invoices, etc.
 ![Customer account log-in](../../../.gitbook/assets/account-log.png)
 
 #### NOTE
-Customers can only have an account if the [sign in/up at checkout](applications/websites/ecommerce/checkout.md#checkout-sign) option
+Customers can only have an account if the [sign in/up at checkout](checkout.md#checkout-sign) option
 allows for accounts creation.
 
 #### SEE ALSO
-[Quyền truy cập cổng thông tin](applications/general/users/portal.md)
+[Quyền truy cập cổng thông tin](../../general/users/portal.md)
 
 ## Hạn chế quyền truy cập
 

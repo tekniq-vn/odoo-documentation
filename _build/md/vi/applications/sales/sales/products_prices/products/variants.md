@@ -8,7 +8,7 @@ the Product Variants or Attributes page. All of these options are located
 within the Odoo *Sales* application.
 
 #### SEE ALSO
-[Biến thể sản phẩm](applications/websites/ecommerce/products.md#ecommerce-products-product-variants)
+[Biến thể sản phẩm](../../../../websites/ecommerce/products.md#ecommerce-products-product-variants)
 
 ## Cấu hình
 
@@ -209,4 +209,4 @@ impacts that can be taken advantage of throughout the Odoo database.
 Changes to the product template automatically apply to every variant of that product.
 
 #### SEE ALSO
-[Nhập sản phẩm](applications/sales/sales/products_prices/products/import.md)
+[Nhập sản phẩm](import.md)

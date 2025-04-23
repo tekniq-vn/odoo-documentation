@@ -56,7 +56,7 @@ potential scenarios are listed below.
 
 ### Lost leads
 
-If a lead/opportunity has been marked as [lost](applications/sales/crm/pipeline/lost_opportunities.md), it can still be merged
+If a lead/opportunity has been marked as [lost](lost_opportunities.md), it can still be merged
 with an active lead or opportunity. The resulting lead/opportunity is marked active, and added to
 the pipeline.
 

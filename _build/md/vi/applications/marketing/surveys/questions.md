@@ -1,7 +1,7 @@
 # Create questions
 
 In Odoo *Surveys*, crafting and tailoring survey questions is crucial for [creating and
-customizing surveys](applications/marketing/surveys/create.md).
+customizing surveys](create.md).
 
 Fortunately, Odoo provides numerous ways to configure tailored questions for any kind of survey.
 
@@ -295,4 +295,4 @@ When the Question Time Limit option is enabled, designate how much time (in
 seconds) participants have to answer the question during a *Live Session* survey.
 
 #### NOTE
-Survey text colors are directly linked to the colors used for the [website theme](applications/websites/website/web_design/themes.md).
+Survey text colors are directly linked to the colors used for the [website theme](../../websites/website/web_design/themes.md).

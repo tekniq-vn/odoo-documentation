@@ -10,7 +10,7 @@ quality area and into stock.
 
 ## Cấu hình
 
-Odoo is configured by default to [receive and deliver goods in one step](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md), so the settings need to be changed in order to utilize three-step
+Odoo is configured by default to [receive and deliver goods in one step](receipts_delivery_one_step.md), so the settings need to be changed in order to utilize three-step
 receipts. First, make sure the *Multi-Step Routes* option is enabled in Inventory
 ‣ Configuration ‣ Settings ‣ Warehouse. Note that activating Multi-Step Routes
 will also activate *Storage Locations*.

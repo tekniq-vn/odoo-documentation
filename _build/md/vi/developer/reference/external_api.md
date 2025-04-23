@@ -2,7 +2,7 @@
 
 Odoo is usually extended internally via modules, but many of its features and
 all of its data are also available from the outside for external analysis or
-integration with various tools. Part of the [Models](developer/reference/backend/orm.md#reference-orm-model) API is
+integration with various tools. Part of the [Models](backend/orm.md#reference-orm-model) API is
 easily available over [XML-RPC](https://en.wikipedia.org/wiki/XML-RPC) and accessible from a variety of languages.
 
 #### IMPORTANT
@@ -17,7 +17,7 @@ visit the [Odoo pricing page](https://www.odoo.com/pricing-plan) or reach out to
 Success Manager.
 
 #### SEE ALSO
-- [Tutorial on web services](developer/howtos/web_services.md)
+- [Tutorial on web services](../howtos/web_services.md)
 
 ## Connection
 
@@ -339,7 +339,7 @@ Each call to `execute_kw` takes the following parameters:
 Records can be listed and filtered via `search()`.
 
 `search()` takes a mandatory
-[domain](developer/reference/backend/orm.md#reference-orm-domains) filter (possibly empty), and returns the
+[domain](backend/orm.md#reference-orm-domains) filter (possibly empty), and returns the
 database identifiers of all records matching the filter.
 
 #### Pagination
@@ -353,7 +353,7 @@ available to only retrieve a subset of all matched records.
 Rather than retrieve a possibly gigantic list of records and count them,
 `search_count()` can be used to retrieve
 only the number of records matching the query. It takes the same
-[domain](developer/reference/backend/orm.md#reference-orm-domains) filter as
+[domain](backend/orm.md#reference-orm-domains) filter as
 `search()` and no other parameter.
 
 #### NOTE
@@ -460,12 +460,12 @@ Provides information about Odoo models via its various fields.
   [ir.model.fields](#reference-webservice-inspection-fields)
 
 `view_ids`
-: `One2many` to the [View architectures](developer/reference/user_interface/view_architectures.md)
+: `One2many` to the [View architectures](user_interface/view_architectures.md)
   defined for the model
 
 `access_ids`
 : `One2many` relation to the
-  [Access Rights](developer/reference/backend/security.md#reference-security-acl) set on the model
+  [Access Rights](backend/security.md#reference-security-acl) set on the model
 
 `ir.model` can be used to
 
@@ -499,7 +499,7 @@ custom fields without using Python code.
 : the field's user-readable label (e.g. `string` in `fields_get`)
 
 `ttype`
-: the [type](developer/reference/backend/orm.md#reference-orm-fields) of field to create
+: the [type](backend/orm.md#reference-orm-fields) of field to create
 
 `state`
 : whether the field was created via Python code (`base`) or via
@@ -509,12 +509,12 @@ custom fields without using Python code.
 : enables the corresponding flag on the field
 
 `groups`
-: [field-level access control](developer/reference/backend/security.md#reference-security-fields), a
+: [field-level access control](backend/security.md#reference-security-fields), a
   `Many2many` to `res.groups`
 
 `selection`, `size`, `on_delete`, `relation`, `relation_field`, `domain`
 : type-specific properties and customizations, see [the fields
-  documentation](developer/reference/backend/orm.md#reference-orm-fields) for details
+  documentation](backend/orm.md#reference-orm-fields) for details
 
 #### IMPORTANT
 - Like custom models, only new fields created with `state="manual"` are activated as actual

@@ -1,7 +1,7 @@
 # AvaTax use
 
 AvaTax is a tax calculation software that can be integrated with Odoo in the United States and
-Canada. Once the [integration setup](applications/finance/accounting/taxes/avatax.md) is complete, the calculated tax is simple and
+Canada. Once the [integration setup](../avatax.md) is complete, the calculated tax is simple and
 automatic.
 
 ## Tax calculation
@@ -41,7 +41,7 @@ The Automatic Tax Mapping (AvaTax) fiscal position is also applied on those Odoo
 documents, like subscriptions.
 
 #### SEE ALSO
-- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
+- [Fiscal positions (tax and account mapping)](../fiscal_positions.md)
 
 ## AvaTax synchronization
 
@@ -67,7 +67,7 @@ AvaTax portal.
 #### WARNING
 An invoice cannot be Reset to draft because this causes de-synchronization with the
 AvaTax Portal. Instead, click Add credit note and state: `Sync with AvaTax Portal`.
-See this documentation: [Credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md).
+See this documentation: [Credit notes and refunds](../../customer_invoices/credit_notes.md).
 
 ## Fixed price discounts
 
@@ -119,10 +119,10 @@ creation (or adjustment) of the transaction.
 #### IMPORTANT
 Odoo *Studio* requires a *custom* pricing plan. Consult the database's customer success manager
 for more information on switching plans. Or to see if Odoo *Studio* is included in the database's
-current pricing plan. See this documentation: [Studio](applications/studio.md).
+current pricing plan. See this documentation: [Studio](../../../../studio.md).
 
 #### SEE ALSO
-- [AvaTax integration](applications/finance/accounting/taxes/avatax.md)
-- [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)
+- [AvaTax integration](../avatax.md)
+- [Cổng thông tin Avalara (Avatax)](avalara_portal.md)
 - [US Tax Compliance: Avatax elearning video](https://www.odoo.com/slides/slide/us-tax-compliance-avatax-2858?fullscreen=1)
-- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
+- [Fiscal positions (tax and account mapping)](../fiscal_positions.md)

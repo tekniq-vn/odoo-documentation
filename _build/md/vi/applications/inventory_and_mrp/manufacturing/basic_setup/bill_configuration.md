@@ -16,8 +16,8 @@ Sau đó, chỉ định [thành phần bắt buộc](#manufacturing-basic-setup-
 ![Hiển thị BoM cho sản phẩm có liệt kê các thành phần.](../../../../.gitbook/assets/bom-example.png)
 
 #### SEE ALSO
-- [Bộ kit](applications/inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.md)
-- [Basic subcontracting](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.md)
+- [Bộ kit](../advanced_configuration/kit_shipping.md)
+- [Basic subcontracting](../subcontracting/subcontracting_basic.md)
 
 <a id="manufacturing-basic-setup-setup-components"></a>
 
@@ -29,7 +29,7 @@ Trong tab Thành phần của , hãy chỉ định các thành phần được s
 
 Tùy chọn, truy cập các trường bổ sung bằng cách nhấp vào biểu tượng <i class="oi oi-settings-adjust"></i> (điều chỉnh cài đặt) ở phía bên phải của tab Thành phần. Đánh dấu vào hộp kiểm cho các tính năng sau để bật những cột này:
 
-- Áp dụng cho các biến thể: chỉ rõ [biến thể sản phẩm](applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants.md) mà mỗi thành phần được sử dụng. Khi trường này để trống, thành phần sẽ được sử dụng trong tất cả các biến thể sản phẩm.
+- Áp dụng cho các biến thể: chỉ rõ [biến thể sản phẩm](../advanced_configuration/product_variants.md) mà mỗi thành phần được sử dụng. Khi trường này để trống, thành phần sẽ được sử dụng trong tất cả các biến thể sản phẩm.
 
 <a id="manufacturing-basic-setup-consumed-in-operation"></a>
 - Đã sử dụng trong Hoạt động: chỉ định hoạt động sử dụng thành phần. Hữu ích để xác định [sẵn sàng sản xuất](#manufacturing-basic-setup-manufacturing-readiness).
@@ -46,7 +46,7 @@ Tùy chọn, truy cập các trường bổ sung bằng cách nhấp vào biểu
 Thêm một *hoạt động* vào  để chỉ định hướng dẫn sản xuất và ghi lại thời gian dành cho hoạt động. Để sử dụng tính năng này, trước tiên hãy bật tính năng *Công đoạn* bằng cách vào Ứng dụng Sản xuất ‣ Cấu hình ‣ Cài đặt. Trong phần Hoạt động, hãy đánh dấu vào hộp kiểm Công đoạn để bật tính năng này.
 
 #### SEE ALSO
-[Hạng mục phụ thuộc của công đoạn](applications/inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.md)
+[Hạng mục phụ thuộc của công đoạn](../advanced_configuration/work_order_dependencies.md)
 
 ![Tính năng "Công đoạn" trong trang Cài đặt.](../../../../.gitbook/assets/enable-work-orders.png)
 
@@ -59,7 +59,7 @@ Khi thực hiện thao tác này, cửa sổ bật lên Tạo hoạt động s�
 - Áp dụng cho các biến thể: chỉ rõ liệu có phải hoạt động này chỉ khả dụng cho một số biến thể sản phẩm nhất định hay không. Nếu hoạt động áp dụng cho tất cả biến thể sản phẩm, hãy để trống trường này.
 
   #### SEE ALSO
-  [Cấu hình BoM cho các biến thể sản phẩm](applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants.md)
+  [Cấu hình BoM cho các biến thể sản phẩm](../advanced_configuration/product_variants.md)
 - Tính toán thời lượng: chọn cách theo dõi thời gian dành cho hoạt động. Chọn Tính theo thời gian đã theo dõi để sử dụng trình theo dõi thời gian của hoạt động hoặc Đặt thời lượng theo cách thủ công nếu người vận hành có thể tự ghi lại và sửa đổi thời gian.
 
   Việc chọn tùy chọn Tính theo thời gian đã theo dõi sẽ kích hoạt tùy chọn Dựa trên \_\_ công đoạn trước đó, tùy chọn này sẽ tự động ước tính thời gian hoàn thành hoạt động hiện tại dựa vào vài hoạt động trước đó. Mặt khác, khi chọn Đặt thời lượng theo cách thủ công sẽ kích hoạt trường Thời lượng mặc định.
@@ -87,7 +87,7 @@ Thêm hướng dẫn cụ thể vào một hoạt động hiện có bằng các
 Trên trang chủ Bước, nhấp vào Mới để mở biểu mẫu điểm kiểm soát chất lượng trống mà bạn có thể tạo bước sản xuất mới từ đó. Tại đây, hãy đặt Tiêu đề cho hướng dẫn cụ thể và đặt Loại thành Hướng dẫn. Trong tab Hướng dẫn của biểu mẫu, hãy viết chỉ dẫn cho từng bước trong hoạt động sản xuất.
 
 #### NOTE
-Tại đây, bạn có thể tùy chỉnh thêm trên biểu mẫu này, ngoài các hướng dẫn thông thường, để bao gồm cả các loại điểm kiểm soát chất lượng cụ thể với những điều kiện cụ thể (hoặc phức tạp). Để biết thêm chi tiết về điểm kiểm soát chất lượng, hãy tham khảo tài liệu [Kiểm tra theo hướng dẫn](applications/inventory_and_mrp/quality/quality_check_types/instructions_check.md).
+Tại đây, bạn có thể tùy chỉnh thêm trên biểu mẫu này, ngoài các hướng dẫn thông thường, để bao gồm cả các loại điểm kiểm soát chất lượng cụ thể với những điều kiện cụ thể (hoặc phức tạp). Để biết thêm chi tiết về điểm kiểm soát chất lượng, hãy tham khảo tài liệu [Kiểm tra theo hướng dẫn](../../quality/quality_check_types/instructions_check.md).
 
 ![Hiển thị trang để thêm kiểm tra chất lượng.](../../../../.gitbook/assets/steps.png)
 
@@ -101,13 +101,13 @@ Tab Thông tin khác chứa nhiều cấu hình  hơn để tùy chỉnh hoạt 
 - Phiên bản: hiển thị phiên bản  hiện tại, có thể nhìn thấy khi cài đặt ứng dụng Odoo *PLM* để quản lý các thay đổi .
 - Lượng sử dụng linh hoạt: xác định xem các thành phần được sử dụng có thể chênh lệch với số lượng đã xác định trên  hay không. Chọn Đã bị chặn nếu người vận hành **phải** tuân thủ nghiêm ngặt số lượng trên . Nếu không, hãy chọn Được phép hoặc Được phép kèm cảnh báo.
 - Tuyến: chọn loại hoạt động sản xuất của kho hàng ưa thích cho các sản phẩm được sản xuất tại nhiều kho hàng. Nếu để trống, loại hoạt động `Sản xuất` của kho hàng này sẽ được sử dụng theo mặc định.
-- Phân phối phân tích: chọn [mô hình phân phối phân tích](applications/finance/accounting/reporting/analytic_accounting.md) tạo sẵn từ danh sách để tự động ghi lại chi phí sản xuất sản phẩm trong sổ nhật ký đã chọn.
+- Phân phối phân tích: chọn [mô hình phân phối phân tích](../../../finance/accounting/reporting/analytic_accounting.md) tạo sẵn từ danh sách để tự động ghi lại chi phí sản xuất sản phẩm trong sổ nhật ký đã chọn.
 - Thời gian sản xuất: xác định số ngày cần thiết để hoàn thành  kể từ ngày xác nhận.
 - Ngày để chuẩn bị Lệnh sản xuất: số ngày cần thiết để bổ sung thành phần hoặc sản xuất các cụm lắp ráp của sản phẩm.
 
 #### SEE ALSO
-- [Phân phối phân tích](applications/finance/accounting/reporting/analytic_accounting.md)
-- [Thời gian hoàn thành](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md)
+- [Phân phối phân tích](../../../finance/accounting/reporting/analytic_accounting.md)
+- [Thời gian hoàn thành](../../inventory/warehouses_storage/replenishment/lead_times.md)
 
 ![Hiển thị tab *Thông tin khác* của BoM.](../../../../.gitbook/assets/misc-tab.png)
 

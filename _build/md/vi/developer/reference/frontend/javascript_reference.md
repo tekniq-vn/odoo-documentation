@@ -122,7 +122,7 @@ files are ES modules with a special annotation at the top. These modules will be
 bundled together and transpiled to be usable by our module loader. While you can
 write code that doesn't use this module system, it is generally not recommended.
 
-(see [Native Javascript Modules](developer/reference/frontend/javascript_modules.md#frontend-modules-native-js))
+(see [Native Javascript Modules](javascript_modules.md#frontend-modules-native-js))
 
 ### Patching classes
 
@@ -381,7 +381,7 @@ to be translated. The way it currently works is the following:
   is found.
 
 Note that translations are explained in more details, from the server point of
-view, in the document [Translating Modules](developer/howtos/translations.md).
+view, in the document [Translating Modules](../../howtos/translations.md).
 
 ```javascript
 import { _t } from "@web/core/l10n/translation";

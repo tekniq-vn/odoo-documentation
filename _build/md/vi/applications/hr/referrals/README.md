@@ -3,15 +3,15 @@
 Ứng dụng *Giới thiệu* của Odoo là nơi tập trung lưu trữ mọi thông tin liên quan đến giới thiệu - từ điểm kiếm được, đồng nghiệp được tuyển dụng và phần thưởng đã chọn. Người dùng có thể giới thiệu những người họ biết cho các vị trí công việc, sau đó kiếm điểm giới thiệu khi những người đó tiến triển trong chu trình tuyển dụng. Khi kiếm đủ điểm giới thiệu, chúng có thể được đổi lấy giải thưởng. Ứng dụng *Giới thiệu* tích hợp với các ứng dụng *Nhân viên*, *Tuyển dụng* và *Trang web*, tất cả đều phải được cài đặt để ứng dụng *Giới thiệu* hoạt động.
 
 The only configurations needed for the *Referrals* application *after* it has been installed, are
-related to the [rewards](applications/hr/referrals/rewards.md); everything else is pre-configured when Odoo
+related to the [rewards](referrals/rewards.md); everything else is pre-configured when Odoo
 *Referrals* is installed.
 
 Users with either Referral User, Officer, or Administrator
 access rights for the *Recruitment* application have access to the *Referrals* application. Only
 users with Administrator access rights for the *Recruitment* application have access to
-the [reporting](applications/hr/referrals/reporting.md) and configurations menus. For more information on users
-and access rights, refer to these documents: [Người dùng](applications/general/users.md) and
-[Quyền truy cập](applications/general/users/access_rights.md).
+the [reporting](referrals/reporting.md) and configurations menus. For more information on users
+and access rights, refer to these documents: [Người dùng](../general/users.md) and
+[Quyền truy cập](../general/users/access_rights.md).
 
 <a id="referrals-onboarding"></a>
 
@@ -183,30 +183,30 @@ can be redeemed for rewards, but they are no longer able to level up. The ring a
 remains solid cyan.
 
 #### SEE ALSO
-- [Share job positions](applications/hr/referrals/share_jobs.md)
-- [Referral points](applications/hr/referrals/points.md)
-- [Phần thưởng](applications/hr/referrals/rewards.md)
-- [Cảnh báo](applications/hr/referrals/alerts.md)
-- [Báo cáo](applications/hr/referrals/reporting.md)
+- [Share job positions](referrals/share_jobs.md)
+- [Referral points](referrals/points.md)
+- [Phần thưởng](referrals/rewards.md)
+- [Cảnh báo](referrals/alerts.md)
+- [Báo cáo](referrals/reporting.md)
 
-* [Share job positions](applications/hr/referrals/share_jobs.md)
-  * [Xem công việc](applications/hr/referrals/share_jobs.md#view-jobs)
-  * [Refer friends](applications/hr/referrals/share_jobs.md#refer-friends)
-  * [Share a job](applications/hr/referrals/share_jobs.md#share-a-job)
-    * [Liên kết](applications/hr/referrals/share_jobs.md#link)
-    * [Facebook](applications/hr/referrals/share_jobs.md#facebook)
-    * [X (trước đây là Twitter)](applications/hr/referrals/share_jobs.md#x-formerly-twitter)
-    * [LinkedIn](applications/hr/referrals/share_jobs.md#linkedin)
-    * [Gửi email cho một người bạn](applications/hr/referrals/share_jobs.md#email-a-friend)
-* [Referral points](applications/hr/referrals/points.md)
-  * [My referrals](applications/hr/referrals/points.md#my-referrals)
-    * [Điểm](applications/hr/referrals/points.md#points)
-* [Phần thưởng](applications/hr/referrals/rewards.md)
-  * [Create rewards](applications/hr/referrals/rewards.md#create-rewards)
-  * [Redeem rewards](applications/hr/referrals/rewards.md#redeem-rewards)
-* [Cảnh báo](applications/hr/referrals/alerts.md)
-  * [Create an alert](applications/hr/referrals/alerts.md#create-an-alert)
-  * [Dismiss an alert](applications/hr/referrals/alerts.md#dismiss-an-alert)
-* [Báo cáo](applications/hr/referrals/reporting.md)
-  * [Employees referral analysis report](applications/hr/referrals/reporting.md#employees-referral-analysis-report)
-    * [Use case: hired referrals](applications/hr/referrals/reporting.md#use-case-hired-referrals)
+* [Share job positions](referrals/share_jobs.md)
+  * [Xem công việc](referrals/share_jobs.md#view-jobs)
+  * [Refer friends](referrals/share_jobs.md#refer-friends)
+  * [Share a job](referrals/share_jobs.md#share-a-job)
+    * [Liên kết](referrals/share_jobs.md#link)
+    * [Facebook](referrals/share_jobs.md#facebook)
+    * [X (trước đây là Twitter)](referrals/share_jobs.md#x-formerly-twitter)
+    * [LinkedIn](referrals/share_jobs.md#linkedin)
+    * [Gửi email cho một người bạn](referrals/share_jobs.md#email-a-friend)
+* [Referral points](referrals/points.md)
+  * [My referrals](referrals/points.md#my-referrals)
+    * [Điểm](referrals/points.md#points)
+* [Phần thưởng](referrals/rewards.md)
+  * [Create rewards](referrals/rewards.md#create-rewards)
+  * [Redeem rewards](referrals/rewards.md#redeem-rewards)
+* [Cảnh báo](referrals/alerts.md)
+  * [Create an alert](referrals/alerts.md#create-an-alert)
+  * [Dismiss an alert](referrals/alerts.md#dismiss-an-alert)
+* [Báo cáo](referrals/reporting.md)
+  * [Employees referral analysis report](referrals/reporting.md#employees-referral-analysis-report)
+    * [Use case: hired referrals](referrals/reporting.md#use-case-hired-referrals)

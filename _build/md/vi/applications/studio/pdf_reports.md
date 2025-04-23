@@ -117,7 +117,7 @@ Once you've selected or created a report, you can use the options in the left pa
   time it is generated and reload the original version of the report any subsequent time. This is
   legally required for invoices and is mainly used in this case.
 - Limit visibility to groups: to limit the availability of the PDF report to specific
-  [user groups](applications/general/users/access_rights.md).
+  [user groups](../general/users/access_rights.md).
 - Edit sources: to modify the report directly in the [XML file](#studio-pdf-reports-xml-editing).
 - Reset report: to discard all changes made to the report and reset it to its standard
   version.
@@ -154,7 +154,7 @@ There are two types of text content in reports:
   the report is generated, e.g., the SO number or the quotation date.
 
 You can add content (e.g., fields, lists, tables, images, banners, etc.) to the report using
-commands. Type `/` to open the [powerbox](applications/productivity/knowledge/articles_editing.md#knowledge-powerbox), then type the command's
+commands. Type `/` to open the [powerbox](../productivity/knowledge/articles_editing.md#knowledge-powerbox), then type the command's
 name or select it from the list.
 
 To add static text to the report, type the text where you want it.
@@ -173,7 +173,7 @@ fields if needed. Then, specify the default value and press `Enter`.
 
 ##### Add a data table
 
-Data tables are used to display [relational fields](applications/studio/fields.md#studio-fields-relational-fields). To add
+Data tables are used to display [relational fields](fields.md#studio-fields-relational-fields). To add
 a data table, type `/`, select the Dynamic Table command, and select the relation to be
 displayed in the table.
 
@@ -199,7 +199,7 @@ for the field (e.g., the *Tag* model) and the list of available fields.
 ##### Định dạng
 
 To format text in the report, select it, then format it using the options in the
-[Trình soạn thảo văn bản](applications/productivity/knowledge/articles_editing.md#knowledge-text-editor).
+[Trình soạn thảo văn bản](../productivity/knowledge/articles_editing.md#knowledge-text-editor).
 
 > ![Format text using the text editor.](../../.gitbook/assets/text-editor.png)
 
@@ -208,7 +208,7 @@ To format text in the report, select it, then format it using the options in the
 ### Editing the report's XML
 
 #### WARNING
-Modifying the XML directly may result in report issues during [upgrades](administration/upgrade.md). If this happens, simply copy your changes from the old
+Modifying the XML directly may result in report issues during [upgrades](../../administration/upgrade.md). If this happens, simply copy your changes from the old
 database into your upgraded database.
 
 To edit the report's XML, click Edit sources in the left pane.

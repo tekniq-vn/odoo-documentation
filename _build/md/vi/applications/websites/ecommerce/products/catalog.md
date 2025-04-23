@@ -24,7 +24,7 @@ Khi các danh mục sản phẩm đã được cấu hình, hãy truy cập **tr
 ![Categories options for your eCommerce website](../../../../.gitbook/assets/catalog-panel-categories.png)
 
 #### SEE ALSO
-[Sản phẩm](applications/websites/ecommerce/products.md)
+[Sản phẩm](../products.md)
 
 <a id="ecommerce-browsing"></a>
 
@@ -42,7 +42,7 @@ found under Website ‣ eCommerce ‣ Products, select your product, and
 Attributes & Variants tab.
 
 #### SEE ALSO
-- [Biến thể sản phẩm](applications/sales/sales/products_prices/products/variants.md)
+- [Biến thể sản phẩm](../../../sales/sales/products_prices/products/variants.md)
 
 ![Attributes and variants of your product](../../../../.gitbook/assets/catalog-attributes.png)
 
@@ -95,12 +95,12 @@ Bạn có thể làm nổi bật sản phẩm để chúng dễ nhìn hơn trên
 - Out of stock;
 - Mới.
 
-Alternatively, you can activate the [developer mode](applications/general/developer_mode.md) on the
+Alternatively, you can activate the [developer mode](../../../general/developer_mode.md) on the
 **product's template**, and under the Sales tab, change or create the ribbon from the
 Ribbon field.
 
 #### NOTE
-The [developer mode](applications/general/developer_mode.md) is only intended for experienced
+The [developer mode](../../../general/developer_mode.md) is only intended for experienced
 users who wish to have access to advanced tools. Using the **developer mode** is *not*
 recommended for regular users.
 
@@ -114,7 +114,7 @@ Products Page category, click on the feature buttons you wish to use. All three 
 appear when hovering the mouse over a product's image.
 
 - Add to Cart: adds a button to
-  [add the product to the cart](applications/websites/ecommerce/cart.md);
+  [add the product to the cart](../cart.md);
 - Comparison List: adds a button to **compare** products based on their price, variant,
   etc.;
 - Wishlist Button: adds a button to **wishlist** the product.

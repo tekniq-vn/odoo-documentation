@@ -8,7 +8,7 @@ to the ePOS printer.
 
 To use an ePos printer in Point of Sale:
 
-1. [Access the POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings).
+1. [Access the POS settings](../configuration.md#configuration-settings).
 2. Activate the ePos Printer feature.
 3. Fill in the field with your ePos IP address.
 
@@ -19,7 +19,7 @@ When the printer connects to a network, it automatically prints a ticket with it
 
 ## Directly supported ePOS printers
 
-The following ePOS printers are directly compatible with Odoo without needing an [IoT system](applications/general/iot/devices/printer.md).
+The following ePOS printers are directly compatible with Odoo without needing an [IoT system](../../../general/iot/devices/printer.md).
 
 - Epson TM-m30 i/ii/iii (Wi-Fi/Ethernet models only; Recommended)
 - Epson TM-H6000IV-DT (Chỉ máy in biên lai)
@@ -38,7 +38,7 @@ The following ePOS printers are directly compatible with Odoo without needing an
 
 ## ePOS printers with IoT system integration
 
-The following printers require an [IoT system](applications/general/iot/devices/printer.md) to
+The following printers require an [IoT system](../../../general/iot/devices/printer.md) to
 be compatible with Odoo:
 
 - Epson TM-T20 family (incompatible ePOS software)
@@ -47,11 +47,11 @@ be compatible with Odoo:
 
 #### IMPORTANT
 - Epson printers using Wi-Fi/Ethernet connections and following the [EPOS SDK Javascript protocol](https://download4.epson.biz/sec_pubs/pos/reference_en/technology/epson_epos_sdk.html) are
-  compatible with Odoo **without** needing an [IoT system](applications/general/iot/devices/printer.md).
-- Thermal printers using ESC/POS are compatible **with** an [IoT system](applications/general/iot/devices/printer.md).
-- Epson printers using only USB connections are compatible **with** an [IoT system](applications/general/iot/devices/printer.md).
+  compatible with Odoo **without** needing an [IoT system](../../../general/iot/devices/printer.md).
+- Thermal printers using ESC/POS are compatible **with** an [IoT system](../../../general/iot/devices/printer.md).
+- Epson printers using only USB connections are compatible **with** an [IoT system](../../../general/iot/devices/printer.md).
 - Epson printers that connect via Bluetooth are **not compatible**.
 
 #### SEE ALSO
-- [Secure connection (HTTPS)](applications/sales/point_of_sale/configuration/https.md)
-- [Self-signed certificate for ePOS printers](applications/sales/point_of_sale/configuration/epos_ssc.md)
+- [Secure connection (HTTPS)](https.md)
+- [Self-signed certificate for ePOS printers](epos_ssc.md)

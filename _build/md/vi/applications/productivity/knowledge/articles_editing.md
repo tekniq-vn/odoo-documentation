@@ -59,7 +59,7 @@ To remove the cover, hover over it to make the buttons appear and click Remove C
 
 #### NOTE
 - To associate Unsplash with your database, please refer to
-  [Unsplash](applications/general/integrations/unsplash.md).
+  [Unsplash](../../general/integrations/unsplash.md).
 - The articles are responsive, and so are the cover pictures. As a result, the images cannot
   be repositioned manually to fit a particular screen, as they automatically resize
   depending on the device.

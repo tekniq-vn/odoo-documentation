@@ -139,11 +139,11 @@ Sau khi  đã được xác nhận, nhấp quay trở lại mẫu đơn hàng ba
 Once a blanket order is confirmed, a new vendor line is added under the Purchase tab of
 the products included in the order.
 
-This makes blanket orders useful with [automated replenishment](applications/inventory_and_mrp/purchase/products/reordering.md), because information about the Vendor,
+This makes blanket orders useful with [automated replenishment](../products/reordering.md), because information about the Vendor,
 Price, and the Agreement are referenced on the vendor line. This information
 dictates when, where, and at what price the product should be replenished.
 
 ![Product form with replenishment agreement linked to blanket order.](../../../../.gitbook/assets/blanket-orders-product-form.png)
 
 #### SEE ALSO
-[Call for tenders](applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders.md)
+[Call for tenders](calls_for_tenders.md)

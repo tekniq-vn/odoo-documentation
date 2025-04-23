@@ -8,15 +8,15 @@
 
 ### Modules installation
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Malaysian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Malaysian
 localization:
 
-| Tên                           | Tên kỹ thuật       | Mô tả                                                                                                                                           |
-|-------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Malaysia - Kế toán            | `l10n_my`          | This module includes the default<br/>[fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages). |
-| Malaysia - Accounting Reports | `l10n_my_reports`  | This module includes the accounting reports for Malaysia.                                                                                       |
-| Malaysia - UBL PINT           | `l10n_my_ubl_pint` | This module includes the features required to export invoices in PINT format.                                                                   |
-| Malaysia - E-invoicing        | `l10n_my_edi`      | This module includes the features required for integration with MyInvois under IRBM.                                                            |
+| Tên                           | Tên kỹ thuật       | Mô tả                                                                                                                         |
+|-------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Malaysia - Kế toán            | `l10n_my`          | This module includes the default<br/>[fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). |
+| Malaysia - Accounting Reports | `l10n_my_reports`  | This module includes the accounting reports for Malaysia.                                                                     |
+| Malaysia - UBL PINT           | `l10n_my_ubl_pint` | This module includes the features required to export invoices in PINT format.                                                 |
+| Malaysia - E-invoicing        | `l10n_my_edi`      | This module includes the features required for integration with MyInvois under IRBM.                                          |
 
 <a id="malaysia-configuration-company"></a>
 
@@ -149,7 +149,7 @@ Malaysian classification code field.
 #### Send invoices to MyInvois
 
 Invoices can be sent to MyInvois once they have been confirmed. To do so, follow the
-[invoice sending](applications/finance/accounting/customer_invoices.md#accounting-invoice-sending) steps, and in the Send window,
+[invoice sending](../accounting/customer_invoices.md#accounting-invoice-sending) steps, and in the Send window,
 enable the Send to MyInvois option and click Send & Print.
 
 <a id="malaysia-myinvois-workflow-sending-status"></a>

@@ -2,13 +2,13 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the 🇹🇭 Thailand localization package to get all the
+[Install](../../general/apps_modules.md#general-install) the 🇹🇭 Thailand localization package to get all the
 features of the Thai localization:
 
-| Tên                           | Tên kỹ thuật      | Mô tả                                                                                                             |
-|-------------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------|
-| Thái Lan - Kế toán            | `l10n_th`         | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) |
-| Thailand - Accounting Reports | `l10n_th_reports` | Country-specific accounting reports                                                                               |
+| Tên                           | Tên kỹ thuật      | Mô tả                                                                                           |
+|-------------------------------|-------------------|-------------------------------------------------------------------------------------------------|
+| Thái Lan - Kế toán            | `l10n_th`         | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
+| Thailand - Accounting Reports | `l10n_th_reports` | Country-specific accounting reports                                                             |
 ![Thailand localization modules](../../../.gitbook/assets/modules1.png)
 
 ## Chart of accounts and taxes
@@ -107,7 +107,7 @@ Proxy Value field depending on the chosen type.
 ![PromptPay bank account configuration](../../../.gitbook/assets/qr-promptpay-bank.png)
 
 #### SEE ALSO
-[Bank and cash accounts](applications/finance/accounting/bank.md)
+[Bank and cash accounts](../accounting/bank.md)
 
 ### Cấu hình sổ nhật ký ngân hàng
 

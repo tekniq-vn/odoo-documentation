@@ -1,6 +1,6 @@
 # Nâng cấp
 
-Nâng cấp bao gồm việc di chuyển cơ sở dữ liệu từ phiên bản cũ hơn sang phiên bản được hỗ trợ mới hơn (VD: từ Odoo 16.0 lên Odoo 18.0). Việc nâng cấp thường xuyên là rất quan trọng vì mỗi phiên bản đều cung cấp các tính năng mới, bản sửa lỗi và bản vá bảo mật. Khuyến khích sử dụng [phiên bản được hỗ trợ](administration/supported_versions.md). Mỗi phiên bản chính được hỗ trợ trong ba năm.
+Nâng cấp bao gồm việc di chuyển cơ sở dữ liệu từ phiên bản cũ hơn sang phiên bản được hỗ trợ mới hơn (VD: từ Odoo 16.0 lên Odoo 18.0). Việc nâng cấp thường xuyên là rất quan trọng vì mỗi phiên bản đều cung cấp các tính năng mới, bản sửa lỗi và bản vá bảo mật. Khuyến khích sử dụng [phiên bản được hỗ trợ](supported_versions.md). Mỗi phiên bản chính được hỗ trợ trong ba năm.
 
 Tùy vào loại lưu trữ và phiên bản Odoo được sử dụng, việc nâng cấp cơ sở dữ liệu có thể là **bắt buộc**.
 
@@ -22,19 +22,19 @@ Bạn có thể sử dụng cùng một phiên bản vĩnh viễn, ngay cả khi
 Một bản nâng cấp không bao gồm:
 
 > - Hạ cấp xuống phiên bản Odoo trước đó
-> - [Chuyển phiên bản](administration/on_premise/community_to_enterprise.md) (VD: từ Community thành Enterprise)
-> - [Thay đổi loại hình lưu trữ](administration/hosting.md#hosting-change-solution) (VD: từ on-premise thành Odoo Online)
+> - [Chuyển phiên bản](on_premise/community_to_enterprise.md) (VD: từ Community thành Enterprise)
+> - [Thay đổi loại hình lưu trữ](hosting.md#hosting-change-solution) (VD: từ on-premise thành Odoo Online)
 > - Di chuyển từ ERP khác sang Odoo
 
 #### WARNING
-Nếu cơ sở dữ liệu của bạn chứa các phân hệ tùy chỉnh, bạn không thể nâng cấp cho đến khi có phiên bản phân hệ tùy chỉnh cho phiên bản Odoo mục tiêu. Đối với khách hàng duy trì các phân hệ tùy chỉnh của riêng họ, Odoo khuyến khích song song hóa quy trình bằng cách [yêu cầu cơ sở dữ liệu đã nâng cấp](#upgrade-request-test) đồng thời [nâng cấp mã nguồn của các phân hệ tùy chỉnh](developer/howtos/upgrade_custom_db.md).
+Nếu cơ sở dữ liệu của bạn chứa các phân hệ tùy chỉnh, bạn không thể nâng cấp cho đến khi có phiên bản phân hệ tùy chỉnh cho phiên bản Odoo mục tiêu. Đối với khách hàng duy trì các phân hệ tùy chỉnh của riêng họ, Odoo khuyến khích song song hóa quy trình bằng cách [yêu cầu cơ sở dữ liệu đã nâng cấp](#upgrade-request-test) đồng thời [nâng cấp mã nguồn của các phân hệ tùy chỉnh](../developer/howtos/upgrade_custom_db.md).
 
 <a id="upgrade-nutshell"></a>
 
 ## Tóm lược về nâng cấp
 
 1. Yêu cầu một cơ sở dữ liệu kiểm thử đã nâng cấp (xem [nhận cơ sở dữ liệu kiểm thử đã nâng cấp](#upgrade-request-test)).
-2. Nếu có thể, hãy nâng cấp mã nguồn của phân hệ tùy chỉnh cho tương thích với phiên bản Odoo mới (tham khảo [Upgrade a customized database](developer/howtos/upgrade_custom_db.md)).
+2. Nếu có thể, hãy nâng cấp mã nguồn của phân hệ tùy chỉnh cho tương thích với phiên bản Odoo mới (tham khảo [Upgrade a customized database](../developer/howtos/upgrade_custom_db.md)).
 3. Kiểm thử kỹ lưỡng cơ sở dữ liệu đã nâng cấp (tham khảo [kiểm thử phiên bản mới của cơ sở dữ liệu](#upgrade-testing)).
 4. Báo cáo bất kỳ vấn đề nào gặp phải trong quá trình kiểm thử cho Odoo bằng cách vào [Trang hỗ trợ và chọn "Sự cố liên quan đến bản nâng cấp trong tương lai của tôi (Tôi đang kiểm thử bản nâng cấp)"](https://www.odoo.com/help?stage=migration).
 5. Khi mọi vấn đề đã được xử lý và bạn tự tin rằng cơ sở dữ liệu đã nâng cấp có thể được sử dụng làm cơ sở dữ liệu chính mà không gặp sự cố nào, hãy lên kế hoạch nâng cấp cơ sở dữ liệu production.
@@ -89,7 +89,7 @@ Sau khi nền tảng nâng cấp hoàn tất việc nâng cấp bản sao lưu v
 #### IMPORTANT
 Trong những cơ sở dữ liệu có cài đặt các phân hệ tùy chỉnh, mã nguồn của chúng phải được cập nhật tương ứng với phiên bản Odoo mục tiêu trước khi có thể tiến hành nâng cấp. Nếu không có, chế độ "cập nhật khi commit" sẽ bị bỏ qua, cơ sở dữ liệu đã nâng cấp sẽ được xây dựng ngay khi được chuyển từ nền tảng nâng cấp, và sẽ thoát chế độ nâng cấp.
 
-Tham khảo trang [Upgrade a customized database](developer/howtos/upgrade_custom_db.md) để tìm hiểu thêm thông tin.
+Tham khảo trang [Upgrade a customized database](../developer/howtos/upgrade_custom_db.md) để tìm hiểu thêm thông tin.
 
 On-premise
 
@@ -115,7 +115,7 @@ $ python <(curl -s https://upgrade.odoo.com/upgrade) --help
 Bạn cũng có thể yêu cầu cơ sở dữ liệu kiểm thử đã nâng cấp qua [Trang nâng cấp](https://upgrade.odoo.com).
 
 #### IMPORTANT
-Trong những cơ sở dữ liệu có cài đặt các phân hệ tùy chỉnh, mã nguồn của chúng phải được cập nhật tương ứng với phiên bản Odoo mục tiêu trước khi có thể tiến hành nâng cấp. Tham khảo trang [Upgrade a customized database](developer/howtos/upgrade_custom_db.md) để tìm hiểu thêm thông tin.
+Trong những cơ sở dữ liệu có cài đặt các phân hệ tùy chỉnh, mã nguồn của chúng phải được cập nhật tương ứng với phiên bản Odoo mục tiêu trước khi có thể tiến hành nâng cấp. Tham khảo trang [Upgrade a customized database](../developer/howtos/upgrade_custom_db.md) để tìm hiểu thêm thông tin.
 
 #### NOTE
 - Vì lý do bảo mật, chỉ người gửi yêu cầu nâng cấp mới có thể tải xuống.
@@ -188,7 +188,7 @@ Quá trình này được **kích hoạt ngay khi có commit mới** trên nhán
 #### IMPORTANT
 Cơ sở dữ liệu không khả dụng trong suốt quá trình này. Nếu có bất kỳ sự cố nào xảy ra, nền tảng sẽ tự động hoàn nguyên bản nâng cấp, giống như đối với bản cập nhật thường xuyên. Trong trường hợp thành công, bản sao lưu cơ sở dữ liệu sẽ được tạo trước khi nâng cấp.
 
-Bạn phải cập nhật thành công các phân hệ tùy chỉnh để hoàn tất toàn bộ quá trình nâng cấp. Đảm bảo trạng thái nâng cấp staging của bạn là thành công trước khi thử trong production. Bạn có thể tìm hiểu thêm thông tin về cách nâng cấp các phân hệ tùy chỉnh tại [Upgrade a customized database](developer/howtos/upgrade_custom_db.md).
+Bạn phải cập nhật thành công các phân hệ tùy chỉnh để hoàn tất toàn bộ quá trình nâng cấp. Đảm bảo trạng thái nâng cấp staging của bạn là thành công trước khi thử trong production. Bạn có thể tìm hiểu thêm thông tin về cách nâng cấp các phân hệ tùy chỉnh tại [Upgrade a customized database](../developer/howtos/upgrade_custom_db.md).
 
 On-premise
 
@@ -214,7 +214,7 @@ to the [Support page and selecting "An issue related to my upgrade (production)"
 
 Với Odoo Enterprise, việc nâng cấp cơ sở dữ liệu lên phiên bản Odoo mới nhất được thực hiện **miễn phí**, bao gồm mọi hỗ trợ cần thiết để khắc phục những sự cố tiềm ẩn trong cơ sở dữ liệu đã nâng cấp.
 
-Thông tin về các dịch vụ nâng cấp có trong Giấy phép Enterprise trong [Hợp đồng Đăng ký Odoo Enterprise](legal/terms/enterprise.md#upgrade). Dù vậy, phần này làm rõ các dịch vụ nâng cấp mà bạn có thể mong đợi.
+Thông tin về các dịch vụ nâng cấp có trong Giấy phép Enterprise trong [Hợp đồng Đăng ký Odoo Enterprise](../legal/terms/enterprise.md#upgrade). Dù vậy, phần này làm rõ các dịch vụ nâng cấp mà bạn có thể mong đợi.
 
 <a id="upgrade-sla-covered"></a>
 
@@ -239,5 +239,5 @@ Các dịch vụ nâng cấp sau đây **không** được bao gồm:
 - **đào tạo** về cách sử dụng các tính năng và quy trình hoạt động của phiên bản đã nâng cấp.
 
 #### SEE ALSO
-- [Tài liệu Odoo.sh](administration/odoo_sh.md)
-- [Phiên bản Odoo được hỗ trợ](administration/supported_versions.md)
+- [Tài liệu Odoo.sh](odoo_sh.md)
+- [Phiên bản Odoo được hỗ trợ](supported_versions.md)

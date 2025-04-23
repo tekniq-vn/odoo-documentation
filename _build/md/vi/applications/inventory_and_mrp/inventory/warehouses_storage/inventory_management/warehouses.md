@@ -4,7 +4,7 @@ In the Odoo *Inventory* app, a *warehouse* is a physical space with an address f
 such as a storage facility, distribution center, or physical store.
 
 Each database has a pre-configured warehouse with the company's address. Users can set up multiple
-warehouses, and [create stock moves](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md)
+warehouses, and [create stock moves](../../shipping_receiving/daily_operations/use_routes.md)
 between them.
 
 ## Cấu hình
@@ -27,7 +27,7 @@ the warehouse form, which contains the following fields:
   <i class="fa fa-arrow-right"></i> (right arrow).
 - Company (*required field*): the company that owns the warehouse; this can be set as
   the company that owns the Odoo database, or the company of a customer or vendor.
-- Intrastat region: [region name](applications/finance/accounting/reporting/intrastat.md) required for companies in the European
+- Intrastat region: [region name](../../../../finance/accounting/reporting/intrastat.md) required for companies in the European
   Union.
 
 #### IMPORTANT
@@ -35,9 +35,9 @@ The options below are available **only** when the *Multi-Step Routes* feature is
 Inventory app ‣ Configuration ‣ Settings.
 
 - Incoming Shipments: select the option to receive products from the warehouse in
-  [one](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md), [two](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md), or [three](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.md) steps.
+  [one](../../shipping_receiving/daily_operations/receipts_delivery_one_step.md), [two](../../shipping_receiving/daily_operations/receipts_delivery_two_steps.md), or [three](../../shipping_receiving/daily_operations/receipts_three_steps.md) steps.
 - Outgoing Shipments: select the option to deliver products from the warehouse in
-  [one](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md), [two](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md), or [three](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md) steps.
+  [one](../../shipping_receiving/daily_operations/receipts_delivery_one_step.md), [two](../../shipping_receiving/daily_operations/receipts_delivery_two_steps.md), or [three](../../shipping_receiving/daily_operations/delivery_three_steps.md) steps.
 - Dropship Subcontractors: available with the *Subcontracting* feature enabled in
   Manufacturing app ‣ Configuration ‣ Settings. Tick this checkbox to purchase
   components from vendors, and dropship them to subcontractors.
@@ -45,13 +45,13 @@ Inventory app ‣ Configuration ‣ Settings.
   checkbox to supply subcontractors with raw materials stored in *this* specific warehouse.
 - Manufacture to Resupply: tick this checkbox to allow for items to be manufactured in
   this warehouse.
-- Manufacture: choose whether to manufacture products in [one](applications/inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.md), [two](applications/inventory_and_mrp/manufacturing/basic_setup/two_step_manufacturing.md), or [three steps](applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing.md).
+- Manufacture: choose whether to manufacture products in [one](../../../manufacturing/basic_setup/one_step_manufacturing.md), [two](../../../manufacturing/basic_setup/two_step_manufacturing.md), or [three steps](../../../manufacturing/basic_setup/three_step_manufacturing.md).
 - Buy to Resupply: tick this checkbox to allow for purchased products to be delivered to
   the warehouse.
 - Resupply From: available with multiple warehouses in the database, select warehouses
   to pull stock *from* to fulfill orders.
 
 #### SEE ALSO
-[Use inventory adjustments to add stock to new warehouses](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md)
+[Use inventory adjustments to add stock to new warehouses](count_products.md)
 
 ![Example warehouse form.](../../../../../.gitbook/assets/warehouse-form.png)

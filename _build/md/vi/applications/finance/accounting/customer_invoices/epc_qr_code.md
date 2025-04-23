@@ -12,7 +12,7 @@ This feature is only available for companies in several European countries such 
 Belgium, Finland, Germany, and the Netherlands.
 
 #### SEE ALSO
-- [Bank and cash accounts](applications/finance/accounting/bank.md)
+- [Bank and cash accounts](../bank.md)
 - [Odoo Academy: QR Code on Invoices for European Customers](https://www.odoo.com/r/VuU)
 
 ## Cấu hình

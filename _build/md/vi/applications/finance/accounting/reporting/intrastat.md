@@ -158,7 +158,7 @@ Each report line refers to a single invoice line and contains the following info
 - [Quốc gia xuất xứ](#intrastat-origin-country);
 - [Thuế GTGT của đối tác](#intrastat-partner);
 - [Mã vận chuyển](#intrastat-transport-code);
-- [Mã Incoterm](applications/finance/accounting/customer_invoices/incoterms.md);
+- [Mã Incoterm](../customer_invoices/incoterms.md);
 - [Khối lượng](#intrastat-quantity);
 - [Supplementary Units](#intrastat-quantity); and
 - [Value](#intrastat-value), which is always expressed in euros even if the original invoice or

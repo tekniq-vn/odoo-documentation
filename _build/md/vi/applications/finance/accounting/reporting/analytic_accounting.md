@@ -26,7 +26,7 @@ and fill in the required information:
   analytic account will be used;
 - Currency: select the currency of the analytic account;
 
-Then, fill in your [budget](applications/finance/accounting/reporting/budget.md) information.
+Then, fill in your [budget](budget.md) information.
 
 <a id="analytic-accounting-analytic-plans"></a>
 

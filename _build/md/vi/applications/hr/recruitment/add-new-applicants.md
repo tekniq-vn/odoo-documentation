@@ -82,7 +82,7 @@ Depending on installed applications and configurations, some fields may **not** 
   diploma, depending on the country.
 - Interviewers: using the drop-down menu, select the people to conduct the interviews.
   The selected people **must** have either *recruiter* or *officer* rights configured for the
-  *Recruitment* application to appear in the drop-down list. Refer to the [Access rights](applications/general/users/access_rights.md) documentation for more information.
+  *Recruitment* application to appear in the drop-down list. Refer to the [Access rights](../../general/users/access_rights.md) documentation for more information.
 - Recruiter: select the user responsible for the entire recruitment process for the job
   position.
 - Evaluation: represents a rating for the applicant: one star (<i class="fa fa-star"></i>
@@ -141,4 +141,4 @@ field.
 ### Tab kỹ năng
 
 Skills can be added to the applicant's card. For details on adding skills, refer to the
-[Create new employees](applications/hr/employees/new_employee.md#employees-skills) document.
+[Create new employees](../employees/new_employee.md#employees-skills) document.

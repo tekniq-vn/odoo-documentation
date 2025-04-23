@@ -12,17 +12,17 @@ Finally, once the expense report is posted to a journal, the expenses appears on
 thus charging the customer for the expenses.
 
 #### IMPORTANT
-Approving expenses, posting expenses to accounting, and reinvoicing expenses on  is **only** possible for users with the appropriate [access rights](applications/general/users/access_rights.md).
+Approving expenses, posting expenses to accounting, and reinvoicing expenses on  is **only** possible for users with the appropriate [access rights](../../general/users/access_rights.md).
 
 #### SEE ALSO
 This document provides lower-level instructions for the creation, submission, approval, and
 posting of expenses. For fully-detailed instructions for any of these steps, refer to the
 following documentation:
 
-- [Ghi nhận chi phí](applications/finance/expenses/log_expenses.md)
-- [Báo cáo chi phí](applications/finance/expenses/expense_reports.md)
-- [Approving expenses](applications/finance/expenses/approve_expenses.md)
-- [Posting expenses in accounting](applications/finance/expenses/post_expenses.md)
+- [Ghi nhận chi phí](log_expenses.md)
+- [Báo cáo chi phí](expense_reports.md)
+- [Approving expenses](approve_expenses.md)
+- [Posting expenses in accounting](post_expenses.md)
 
 ## Thiết lập
 
@@ -40,7 +40,7 @@ selection for Re-Invoice Expenses:
 
 ## Tạo một chi phí
 
-First, when [creating a new expense](applications/finance/expenses/log_expenses.md), the correct information needs
+First, when [creating a new expense](log_expenses.md), the correct information needs
 to be entered to re-invoice the expense to a customer. Using the drop-down menu, select the
  to add the expense to in the Customer to Reinvoice field.
 
@@ -53,8 +53,8 @@ be selected, if desired.
 
 ## Create an expense report
 
-After the expenses are created, the expense report must be [created](applications/finance/expenses/expense_reports.md#expenses-create-report)
-and [submitted](applications/finance/expenses/expense_reports.md#expenses-submit), in the same manner as all other expenses.
+After the expenses are created, the expense report must be [created](expense_reports.md#expenses-create-report)
+and [submitted](expense_reports.md#expenses-submit), in the same manner as all other expenses.
 
 Once the expense report is submitted, a <i class="fa fa-money"></i> Sales Orders smart button
 appears at the top-center of both the expense report, and each individual expense record being
@@ -75,7 +75,7 @@ no longer able to be modified.
 
 ## Approve and post expenses
 
-Before [approving an expense report](applications/finance/expenses/approve_expenses.md), ensure the
+Before [approving an expense report](approve_expenses.md), ensure the
 Analytic Distribution section is populated for every expense line.
 
 If an Analytic Distribution entry is missing, assign the correct accounts from the
@@ -84,9 +84,9 @@ drop-down menu, then click Approve.
 ![The expense report with all the Analytic Distribution lines populated.](../../../.gitbook/assets/analytic-dist.png)
 
 #### NOTE
-The Approve button **only** appears after an expense report has been [submitted](applications/finance/expenses/expense_reports.md#expenses-submit).
+The Approve button **only** appears after an expense report has been [submitted](expense_reports.md#expenses-submit).
 
-The accounting department is typically responsible for [posting journal entries](applications/finance/expenses/post_expenses.md). To post expenses to an accounting journal, click Post
+The accounting department is typically responsible for [posting journal entries](post_expenses.md). To post expenses to an accounting journal, click Post
 Journal Entries. Once an expense report is approved, it can then be posted.
 
 The  is **only** updated *after* the journal entries are posted. Once the

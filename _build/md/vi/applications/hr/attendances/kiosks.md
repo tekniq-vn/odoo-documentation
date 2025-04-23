@@ -3,7 +3,7 @@
 Odoo's *Attendances* app allows employees to check in and out of work directly from the database, or
 from a kiosk.
 
-A kiosk is a [dedicated device](applications/hr/attendances/hardware.md) (a PC, tablet, or mobile phone) for employees to use
+A kiosk is a [dedicated device](hardware.md) (a PC, tablet, or mobile phone) for employees to use
 when they check in and out.
 
 Kiosks are needed for employees who do **not** have access to the database.
@@ -13,7 +13,7 @@ are referred to as *users*.
 
 #### IMPORTANT
 If employees [check in and out](#attendances-kiosk-mode-entry) using a badge or an RFID,
-then an [accessible device](applications/hr/attendances/hardware.md) in [Kiosk Mode](#attendances-kiosk-mode)
+then an [accessible device](hardware.md) in [Kiosk Mode](#attendances-kiosk-mode)
 **must** be available in order to use these two methods.
 
 ## Cấu hình
@@ -52,7 +52,7 @@ out with kiosks.
   (Front Camera or Back Camera).
 - Employee PIN Identification: tick this checkbox if employees should use a unique PIN
   to check in. PINs are configured on each individual employee record. Refer to the [new
-  employee documentation](applications/hr/employees/new_employee.md#employees-hr-settings) documentation for more information on setting up
+  employee documentation](../employees/new_employee.md#employees-hr-settings) documentation for more information on setting up
   PINs.
 - Display Time: determine how many seconds a check-in/check-out confirmation message
   remains on the kiosk screen before returning to the main check in screen.
@@ -65,7 +65,7 @@ out with kiosks.
 
 ## Kiosk mode
 
-Entering *Kiosk Mode* is **only** available for users with specific [access rights](applications/hr/attendances.md#attendances-access-rights).
+Entering *Kiosk Mode* is **only** available for users with specific [access rights](../attendances.md#attendances-access-rights).
 
 *Kiosk Mode* can be activated in two different ways:
 

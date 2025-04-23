@@ -75,4 +75,4 @@ the report to switch to a <i class="fa fa-bar-chart"></i> (bar chart), <i class=
 (line chart), or <i class="fa fa-pie-chart"></i> (pie chart).
 
 #### SEE ALSO
-To save this report as a *favorite*, see [Yêu thích](applications/essentials/search.md#search-favorites).
+To save this report as a *favorite*, see [Yêu thích](../../../essentials/search.md#search-favorites).

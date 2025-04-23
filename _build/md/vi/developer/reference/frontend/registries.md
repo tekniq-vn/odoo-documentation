@@ -120,7 +120,7 @@ exist yet, the sub registry is created on the fly.
 ### Effect registry
 
 The `effects` registry contains the implementations of all available effects.
-See the section on the [effect service](developer/reference/frontend/services.md#frontend-services-effect-registry)
+See the section on the [effect service](services.md#frontend-services-effect-registry)
 for more details.
 
 <a id="frontend-registries-formatters"></a>
@@ -195,7 +195,7 @@ value, parsers can fail and throw errors.
 ### Service registry
 
 The service registry (category: `services`) contains all
-[services](developer/reference/frontend/services.md#frontend-services) that should be activated by the Odoo
+[services](services.md#frontend-services) that should be activated by the Odoo
 framework.
 
 ```javascript
@@ -225,7 +225,7 @@ with the following three keys:
 - `Component`: the component class that represents the item. Its root element
   should be a `<li>` tag, otherwise it might not be styled properly.
 - `props (optional)`: props that should be given to the component
-- `isDisplayed (optional)`: a function that takes the [env](developer/reference/frontend/framework_overview.md#frontend-framework-environment)
+- `isDisplayed (optional)`: a function that takes the [env](framework_overview.md#frontend-framework-environment)
   and returns a boolean. If true, the systray item is displayed. Otherwise it is
   removed.
 
@@ -264,7 +264,7 @@ The user menu registry (category: `user_menuitems`) contains all menu items that
 are shown when opening the user menu (the navbar element with the user name, on
 the top right).
 
-User menu items are defined by a function taking the [env](developer/reference/frontend/framework_overview.md#frontend-framework-environment)
+User menu items are defined by a function taking the [env](framework_overview.md#frontend-framework-environment)
 and returning a plain object, containing the following information:
 
 * `description` : the menu item text,

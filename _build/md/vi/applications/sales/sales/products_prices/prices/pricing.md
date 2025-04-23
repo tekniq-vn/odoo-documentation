@@ -123,7 +123,7 @@ for detailed steps on how to add advanced price rules to a pricelist.
 ### Recurring Prices tab
 
 Time-based rules are used specifically with subscription products. Be sure to check out the Odoo
-[Subscriptions](applications/sales/subscriptions.md) documentation for more information.
+[Subscriptions](../../../subscriptions.md) documentation for more information.
 
 Under the Recurring Prices tab, the same functionality of the Price Rules
 tab is present. The only difference being that a recurring time period can be applied in the
@@ -148,7 +148,7 @@ Lastly, add the desired price for this recurring price rule in the Recurring Pri
 column.
 
 #### SEE ALSO
-[Đăng ký](applications/sales/subscriptions.md)
+[Đăng ký](../../../subscriptions.md)
 
 ### Rental rules tab
 
@@ -445,5 +445,5 @@ If a price rule is set for a particular product, and another one for its product
 takes the rule of the product itself.
 
 #### SEE ALSO
-- [Ngoại tệ](applications/sales/sales/products_prices/prices/currencies.md)
-- [Quản lý giá](applications/websites/ecommerce/products/price_management.md)
+- [Ngoại tệ](currencies.md)
+- [Quản lý giá](../../../../websites/ecommerce/products/price_management.md)

@@ -59,7 +59,7 @@ When creating new vendor bills, this product can be added as an invoice line as 
 #### IMPORTANT
 To apply a landed cost on a vendor bill, products in the original  **must** belong to a
 *Product Category* with a *Costing Method* of either  or , and the valuation method
-can be [manual](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md) or [automatic](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md).
+can be [manual](using_inventory_valuation.md) or [automatic](inventory_valuation_config.md).
 
 ## Tạo đơn mua hàng
 

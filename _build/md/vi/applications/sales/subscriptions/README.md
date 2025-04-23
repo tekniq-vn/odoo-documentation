@@ -51,7 +51,7 @@ configuration fields:
   corresponding drop-down menu, in Weeks, Months, or Years.
 - Automatic Closing: a numerical value, in days, where the subscription is set to close
   automatically if payment is not made.
-- Company: optional assignment, if the database has [Multi-company](applications/general/multi_company.md) functionality enabled. Assigning this value will make the recurring
+- Company: optional assignment, if the database has [Multi-company](../general/multi_company.md) functionality enabled. Assigning this value will make the recurring
   plan available for that company's location, specifically.
 - Invoice Email Template: assigns a specific email template to be used in subscriptions
   invoicing communications. The default assignment here is `Invoice: Sending` which contains various
@@ -70,9 +70,9 @@ increase customer lifetime value (LTV).
   offload tedious tasks for sales and support teams, and reduces the likelihood of negative reviews.
 - Add Products: allows customers to add new products or edit existing product quantities
   to their recurring sales orders, thereby enabling customer-driven upselling. When enabled,
-  [Upsell quotations](applications/sales/subscriptions/upselling.md) are generated in Odoo whenever a customer
+  [Upsell quotations](subscriptions/upselling.md) are generated in Odoo whenever a customer
   performs a quantitative adjustment on their sales order product lines.
-- Renew: enabling this allows customers to manually create a [Renewal quotation](applications/sales/subscriptions/renewals.md) for their subscription.
+- Renew: enabling this allows customers to manually create a [Renewal quotation](subscriptions/renewals.md) for their subscription.
 - Optional Plans: adding values here from the drop-down field menu enables customers to
   switch their subscription plans, in which case a new subscription quotation or renewal quote is
   created to accommodate the change request.
@@ -108,14 +108,14 @@ subscription product will function correctly:
 - Product type: this value is typically set to a Service, however other
   product types may be used depending on the purpose of the subscription (e.g., physical product box
   subscriptions, eLearning course, etc.).
-- [Invoicing policy](applications/sales/sales/invoicing/invoicing_policy.md): set this value to when the customer
+- [Invoicing policy](sales/invoicing/invoicing_policy.md): set this value to when the customer
   should be charged for their subscription.
 - Unit of Measure: how the product should be counted in Odoo, for stock purposes. For
   most subscriptions, the  will be Units.
 - Sales Price: enter the recurring cost of the subscription that the customer will pay
   per recurrence period.
 
-Optionally set up information on the [Attributes & Variants](applications/sales/sales/products_prices/products/variants.md) tab if the subscription contains multiple choices for
+Optionally set up information on the [Attributes & Variants](sales/products_prices/products/variants.md) tab if the subscription contains multiple choices for
 customers (i.e. food delivery, tailored fashion boxes, etc.).
 
 In the Recurring Prices tab, clarify the pricing options for the subscription. For each
@@ -145,10 +145,10 @@ Recurring Plan, as well as the Order Lines tab.
 
 Optionally, specify a:
 
-- [Quotation Template](applications/sales/sales/send_quotations/quote_template.md), if one is readily available to
+- [Quotation Template](sales/send_quotations/quote_template.md), if one is readily available to
   help populate the form fields.
 - Expiration date, to indicate when the subscription offer is no longer valid.
-- [Pricelist](applications/sales/sales/products_prices/prices/pricing.md#sales-product-prices-pricelist), if one is available and appropriate to use
+- [Pricelist](sales/products_prices/prices/pricing.md#sales-product-prices-pricelist), if one is available and appropriate to use
   (i.e., summer sale discount, VIP customer, etc.).
 - Payment Terms, to set a specified time window for when the subscription must be paid.
   This is not to be confused for when the quotation is *confirmed* and becomes a sales order, to
@@ -168,14 +168,14 @@ If an Online signature or Online payment is required to confirm the
 quotation, set the checkboxes next to either (or both) of these labels in the Other Info
 tab, under the :SALES section.
 
-* [Subscriptions in the eCommerce shop](applications/sales/subscriptions/ecommerce.md)
-* [Gói cước đăng ký](applications/sales/subscriptions/plans.md)
-* [Đăng ký bán thêm](applications/sales/subscriptions/upselling.md)
-* [Gia hạn đăng ký](applications/sales/subscriptions/renewals.md)
-* [Đóng đăng ký](applications/sales/subscriptions/closing.md)
-* [Quy tắc tự động hoá](applications/sales/subscriptions/automatic_alerts.md)
-* [Tác vụ đã lên lịch](applications/sales/subscriptions/scheduled_actions.md)
-* [Báo cáo đăng ký](applications/sales/subscriptions/reports.md)
-* [Nhà cung cấp dịch vụ thanh toán](applications/sales/subscriptions/payment_providers.md)
-  * [Chuyển khoản ngân hàng](applications/sales/subscriptions/payment_providers/wire_transfer.md)
-  * [Ghi nợ trực tiếp SEPA](applications/sales/subscriptions/payment_providers/sdd.md)
+* [Subscriptions in the eCommerce shop](subscriptions/ecommerce.md)
+* [Gói cước đăng ký](subscriptions/plans.md)
+* [Đăng ký bán thêm](subscriptions/upselling.md)
+* [Gia hạn đăng ký](subscriptions/renewals.md)
+* [Đóng đăng ký](subscriptions/closing.md)
+* [Quy tắc tự động hoá](subscriptions/automatic_alerts.md)
+* [Tác vụ đã lên lịch](subscriptions/scheduled_actions.md)
+* [Báo cáo đăng ký](subscriptions/reports.md)
+* [Nhà cung cấp dịch vụ thanh toán](subscriptions/payment_providers.md)
+  * [Chuyển khoản ngân hàng](subscriptions/payment_providers/wire_transfer.md)
+  * [Ghi nợ trực tiếp SEPA](subscriptions/payment_providers/sdd.md)

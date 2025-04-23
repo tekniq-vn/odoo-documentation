@@ -45,9 +45,9 @@ steps below to finish configuring the virtual parent warehouse.
 ![New warehouse form.](../../../../../.gitbook/assets/stock-warehouses-create-warehouse.png)
 
 #### SEE ALSO
-- [Cấu hình kho hàng](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md)
-- [Incoming and outgoing shipments](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md#inventory-receipts-delivery-one-step-wh)
-- [Inter-warehouse replenishment](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.md)
+- [Cấu hình kho hàng](../../warehouses_storage/inventory_management/warehouses.md)
+- [Incoming and outgoing shipments](receipts_delivery_one_step.md#inventory-receipts-delivery-one-step-wh)
+- [Inter-warehouse replenishment](../../warehouses_storage/replenishment/resupply_warehouses.md)
 
 <a id="inventory-routes-child-wh"></a>
 
@@ -140,7 +140,7 @@ that are tied to the virtual parent location.
 > order to be pulled from different warehouses.
 - If the virtual warehouse is not in the Source Location field on the warehouse
   delivery form, retry product reservation by:
-  - Running the scheduler: turn on [developer mode](applications/general/developer_mode.md#developer-mode), and then go to
+  - Running the scheduler: turn on [developer mode](../../../../general/developer_mode.md#developer-mode), and then go to
     Inventory app ‣ Operations ‣ Run Scheduler.
   - Clicking Check Availability on the delivery order.
 - If the virtual warehouse is **not** assigned to the Warehouse field on the sales

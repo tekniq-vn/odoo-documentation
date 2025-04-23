@@ -38,8 +38,8 @@ Quotation*.
 #### SEE ALSO
 For more information on the above process of confirming quotations and invoicing payments,
 see:
-- [Tạo báo giá](applications/sales/sales/send_quotations/create_quotations.md)
-- [Online payment order confirmation](applications/sales/sales/send_quotations/get_paid_to_validate.md)
+- [Tạo báo giá](../sales/send_quotations/create_quotations.md)
+- [Online payment order confirmation](../sales/send_quotations/get_paid_to_validate.md)
 
 Once the payment from the subscription quotation is confirmed, the quotation turns into a sales
 order. An In Progress tag is applied to the sales order form, and a series of buttons
@@ -90,11 +90,11 @@ check if the payment has been made, before the payment can be used again.
 To do this, navigate to Subscriptions app ‣ Subscriptions ‣ Quotations.
 Click into the desired subscription, then check the *Chatter* to see if the payment was made.
 
-If the payment was **not** made, first enter [debug mode](applications/general/developer_mode.md).
+If the payment was **not** made, first enter [debug mode](../../general/developer_mode.md).
 Then, click the Other Info tab, and untick the checkbox next to Contract
 in exception. Reload the sales order, and the Payment Failure tag is gone.
 
-Nếu thanh toán **đã** được thực hiện, cần phải tạo và ghi nhận hóa đơn mới theo cách thủ công. Thao tác này sẽ tự động cập nhật ngày phát hành hóa đơn tiếp theo của gói đăng ký. Sau khi tạo xong, hãy truy cập [chế độ gỡ lỗi](applications/general/developer_mode.md) và đi tới đơn bán hàng mới. Chọn tab Thông tin khác và bỏ chọn ô Hợp đồng ngoại lệ. Khi tải lại đơn hàng, nhãn Lỗi thanh toán sẽ không còn hiển thị.
+Nếu thanh toán **đã** được thực hiện, cần phải tạo và ghi nhận hóa đơn mới theo cách thủ công. Thao tác này sẽ tự động cập nhật ngày phát hành hóa đơn tiếp theo của gói đăng ký. Sau khi tạo xong, hãy truy cập [chế độ gỡ lỗi](../../general/developer_mode.md) và đi tới đơn bán hàng mới. Chọn tab Thông tin khác và bỏ chọn ô Hợp đồng ngoại lệ. Khi tải lại đơn hàng, nhãn Lỗi thanh toán sẽ không còn hiển thị.
 
 ![The "contract in exception" option selected with the "payment failure" tag shown.](../../../.gitbook/assets/contract-in-exception.png)
 
@@ -103,5 +103,5 @@ handles renewals automatically again. If the subscription remains in *payment fa
 skipped by Odoo until the sales order is closed.
 
 #### SEE ALSO
-- [Đăng ký](applications/sales/subscriptions.md)
-- [Gói cước đăng ký](applications/sales/subscriptions/plans.md)
+- [Đăng ký](../subscriptions.md)
+- [Gói cước đăng ký](plans.md)

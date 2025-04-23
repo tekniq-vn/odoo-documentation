@@ -10,7 +10,7 @@ supports all kinds of uses and computations.
 
 **Default taxes** define which taxes are automatically selected when creating a new product. They
 are also used to prefill the Taxes field when adding a new line on an invoice in
-[Accounting Firms](applications/finance/accounting.md#fiduciaries) mode.
+[Accounting Firms](../accounting.md#fiduciaries) mode.
 
 ![Odoo fills out the Tax field automatically according to the Default Taxes](../../../.gitbook/assets/default-configuration.png)
 
@@ -22,13 +22,13 @@ tax, and click on Save.
 
 #### NOTE
 **Default taxes** are automatically set up according to the country selected at the creation of
-your database, or when you set up a [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) for your company.
+your database, or when you set up a [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) for your company.
 
 <a id="taxes-list-activation"></a>
 
 ## Activate sales taxes from the list view
 
-As part of your [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages), most of your
+As part of your [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages), most of your
 country's sales taxes are already preconfigured on your database. However, only a few taxes are
 activated by default. To activate taxes relevant to your business, go to Accounting
 ‣ Configuration ‣ Taxes and enable the toggle button under the Active column.
@@ -51,7 +51,7 @@ a tax or click on New.
 #### Tax name
 
 The **tax name** is displayed for backend users in the Taxes field in
-[sales orders](applications/sales/sales.md), [invoices](applications/finance/accounting/customer_invoices.md), product forms, etc.
+[sales orders](../../sales/sales.md), [invoices](customer_invoices.md), product forms, etc.
 
 <a id="taxes-computation"></a>
 
@@ -124,7 +124,7 @@ multiple accounts and tax grids.
   - Base: the price on the invoice line
   - % of tax: a percentage of the computed tax.
 - **Account**: if defined, an additional journal item is recorded.
-- **Tax Grids**:  used to generate [tax reports](applications/finance/accounting/reporting/tax_returns.md)
+- **Tax Grids**:  used to generate [tax reports](reporting/tax_returns.md)
   automatically, according to your country's regulations.
 
 <a id="taxes-advanced-tab"></a>
@@ -148,7 +148,7 @@ Select which **tax group** the tax belongs to. The tax group name is the display
 **total** line on exported invoices and in customer portals.
 
 Tax groups include different iterations of the same tax. This can be useful when you must record
-the same tax differently according to [fiscal positions](applications/finance/accounting/taxes/fiscal_positions.md).
+the same tax differently according to [fiscal positions](taxes/fiscal_positions.md).
 
 #### IMPORTANT
 Taxes have three different labels, each one having a specific use. Refer to the following table
@@ -175,7 +175,7 @@ With this option activated, the total (including the tax) equals the **sales pri
 
 #### NOTE
 If you need to define prices accurately, both tax-included and tax-excluded, please refer to the
-following documentation: [B2B (tax excluded) and B2C (tax included) pricing](applications/finance/accounting/taxes/B2B_B2C.md).
+following documentation: [B2B (tax excluded) and B2C (tax included) pricing](taxes/B2B_B2C.md).
 
 #### NOTE
 By default, only the Tax excluded column is displayed on invoices. To display the
@@ -222,18 +222,18 @@ Advanced Options tab, check Affect Base of Subsequent Taxes. Then, drag and
 drop the taxes in the [order they should be computed](#taxes-base-subsequent).
 
 #### SEE ALSO
-- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
-- [B2B (tax excluded) and B2C (tax included) pricing](applications/finance/accounting/taxes/B2B_B2C.md)
-- [TaxCloud integration](applications/finance/accounting/taxes/taxcloud.md)
-- [Tax return (VAT declaration)](applications/finance/accounting/reporting/tax_returns.md)
+- [Fiscal positions (tax and account mapping)](taxes/fiscal_positions.md)
+- [B2B (tax excluded) and B2C (tax included) pricing](taxes/B2B_B2C.md)
+- [TaxCloud integration](taxes/taxcloud.md)
+- [Tax return (VAT declaration)](reporting/tax_returns.md)
 
-* [Cash basis taxes](applications/finance/accounting/taxes/cash_basis.md)
-* [Withholding taxes](applications/finance/accounting/taxes/retention.md)
-* [VAT numbers verification (VIES)](applications/finance/accounting/taxes/vat_verification.md)
-* [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
-* [AvaTax integration](applications/finance/accounting/taxes/avatax.md)
-  * [AvaTax use](applications/finance/accounting/taxes/avatax/avatax_use.md)
-  * [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)
-* [TaxCloud integration](applications/finance/accounting/taxes/taxcloud.md)
-* [EU intra-community distance selling](applications/finance/accounting/taxes/eu_distance_selling.md)
-* [B2B (tax excluded) and B2C (tax included) pricing](applications/finance/accounting/taxes/B2B_B2C.md)
+* [Cash basis taxes](taxes/cash_basis.md)
+* [Withholding taxes](taxes/retention.md)
+* [VAT numbers verification (VIES)](taxes/vat_verification.md)
+* [Fiscal positions (tax and account mapping)](taxes/fiscal_positions.md)
+* [AvaTax integration](taxes/avatax.md)
+  * [AvaTax use](taxes/avatax/avatax_use.md)
+  * [Cổng thông tin Avalara (Avatax)](taxes/avatax/avalara_portal.md)
+* [TaxCloud integration](taxes/taxcloud.md)
+* [EU intra-community distance selling](taxes/eu_distance_selling.md)
+* [B2B (tax excluded) and B2C (tax included) pricing](taxes/B2B_B2C.md)

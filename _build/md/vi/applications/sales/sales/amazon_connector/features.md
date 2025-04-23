@@ -55,7 +55,7 @@ Kể từ ngày 19 tháng 2 năm 2024, tại các thị trường Bắc Mỹ, c�
 ## Marketplace được hỗ trợ
 
 If a marketplace is not listed in your Amazon marketplaces, it's possible to [add a new
-marketplace](applications/sales/sales/amazon_connector/setup.md#amazon-add-new-marketplace).
+marketplace](setup.md#amazon-add-new-marketplace).
 
 |        | **North America region**   |
 |--------|----------------------------|
@@ -73,5 +73,5 @@ marketplace](applications/sales/sales/amazon_connector/setup.md#amazon-add-new-m
 | Hà Lan         | Amazon.nl             |
 
 #### SEE ALSO
-- [Amazon Connector configuration](applications/sales/sales/amazon_connector/setup.md)
-- [Amazon order management](applications/sales/sales/amazon_connector/manage.md)
+- [Amazon Connector configuration](setup.md)
+- [Amazon order management](manage.md)

@@ -28,8 +28,8 @@ entry types an operator can make is displayed.
 - Type `:shortcut` to insert a [canned response](#live-chat-canned-responses).
 
 #### SEE ALSO
-- [Thảo luận](applications/productivity/discuss.md)
-- [Use channels for team communication](applications/productivity/discuss/team_communication.md)
+- [Thảo luận](../../productivity/discuss.md)
+- [Use channels for team communication](../../productivity/discuss/team_communication.md)
 
 ### Ticket & search tickets
 
@@ -115,8 +115,8 @@ command does not cause the customer to be removed from the conversation, nor doe
 end the conversation.
 
 #### SEE ALSO
-- [Acquire leads](applications/sales/crm/acquire_leads.md)
-- [Hỗ trợ](applications/services/helpdesk.md)
+- [Acquire leads](../../sales/crm/acquire_leads.md)
+- [Hỗ trợ](../../services/helpdesk.md)
 
 <a id="live-chat-canned-responses"></a>
 

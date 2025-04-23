@@ -36,8 +36,8 @@ Devices. From here, select the device. There is a Quality Control Points tab, wh
 they can be added with the device.
 
 #### SEE ALSO
-- [Quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md)
-- [Quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md)
+- [Quality control points](../../../inventory_and_mrp/quality/quality_management/quality_control_points.md)
+- [Quality alerts](../../../inventory_and_mrp/quality/quality_management/quality_alerts.md)
 
 ## Link camera to a work center in the Manufacturing app
 
@@ -55,4 +55,4 @@ On the Work Order screen, a status graphic indicates whether the database is
 correctly connected to the camera.
 
 #### SEE ALSO
-[Tích hợp với thiết bị IoT](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)
+[Tích hợp với thiết bị IoT](../../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)

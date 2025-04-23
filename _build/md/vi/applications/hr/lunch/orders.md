@@ -11,7 +11,7 @@ information, and the current day's orders, along with their statuses.
 On the main Order Your Lunch dashboard, all the necessary information needed to place an
 order is visible. The default filter for the products is Available Today, which is
 present in the Search... bar. This filter shows only products that can be purchased that
-day, based on the [vendor's availability](applications/hr/lunch/vendors.md#lunch-availability).
+day, based on the [vendor's availability](vendors.md#lunch-availability).
 
 The left-side of the dashboard displays the various Categories of products available,
 along with the Vendors supplying the products. To the right of each line is a number,
@@ -52,7 +52,7 @@ From the Order Your Lunch dashboard, click on a desired product to add to an ord
 the product appears in a Configure Your Order pop-up window.
 
 At the top of the pop-up window is the product image, name, and price. Beneath that, there is a
-potential Extras field, showcasing any [extra items or options](applications/hr/lunch/vendors.md#lunch-extras).
+potential Extras field, showcasing any [extra items or options](vendors.md#lunch-extras).
 Tick the checkbox next to any desired extras present in the Extras field to add them to
 the order.
 
@@ -71,7 +71,7 @@ lower-left of the pop-up window. To cancel the order, click the Discard button.
 
 #### Lỗi
 
-Depending on how the various [extras](applications/hr/lunch/vendors.md#lunch-configure-extras) are configured for a vendor, it
+Depending on how the various [extras](vendors.md#lunch-configure-extras) are configured for a vendor, it
 is possible to receive an error when attempting to add products to the cart.
 
 An error can occur when a configured product **requires** the user to select an option in the

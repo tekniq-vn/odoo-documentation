@@ -4,12 +4,12 @@ The **mail groups** feature allows website visitors to have a public discussion 
 join a group to receive emails from other group members (i.e., website users who have subscribed to
 the group) and send new ones to all group members.
 
-To activate the feature, [install](applications/general/apps_modules.md#general-install) the Website Mail Group
+To activate the feature, [install](../../general/apps_modules.md#general-install) the Website Mail Group
 (`website_mail_group`) module.
 
 #### NOTE
 The **mail groups** feature is not to be confused with the
-[Mailing lists](applications/marketing/email_marketing/mailing_lists.md) in the Email Marketing app.
+[Mailing lists](../../marketing/email_marketing/mailing_lists.md) in the Email Marketing app.
 
 <a id="website-mailing-lists-configure-groups"></a>
 

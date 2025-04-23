@@ -13,8 +13,8 @@ user, the database will no longer be able to be duplicated, renamed, or otherwis
 the Odoo.com portal.
 
 #### SEE ALSO
-- [Outlook Calendar synchronization](applications/productivity/calendar/outlook.md)
-- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](applications/general/email_communication/azure_oauth.md)
+- [Outlook Calendar synchronization](../../productivity/calendar/outlook.md)
+- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](../email_communication/azure_oauth.md)
 
 ## Cấu hình
 
@@ -22,7 +22,7 @@ Integrating the Microsoft sign-in function requires configuration on Microsoft a
 
 ### Tham số hệ thống Odoo
 
-First activate the [developer mode](applications/general/developer_mode.md#developer-mode), and then go to Settings
+First activate the [developer mode](../developer_mode.md#developer-mode), and then go to Settings
 ‣ Technical ‣ System Parameters.
 
 Click Create and on the new/blank form that appears, add the following system parameter
@@ -118,7 +118,7 @@ password reset page. This is the only way that Odoo is able to link the Microsof
 allow the user to log in.
 
 #### NOTE
-Existing users must [reset their password](applications/general/users.md#users-reset-password) to access the
+Existing users must [reset their password](../users.md#users-reset-password) to access the
 Odoo password reset page. New Odoo users must click the new user invitation link
 that was sent via email, then click on Microsoft Azure. Users should not set a new
 password.

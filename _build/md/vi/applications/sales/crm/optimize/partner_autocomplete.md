@@ -63,4 +63,4 @@ Enterprise Odoo users with a valid subscription get free credits to test  featur
 demo/training databases, educational databases, and one-app-free databases.
 
 #### SEE ALSO
-[Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)
+[Mua hàng trong ứng dụng (IAP)](../../../essentials/in_app_purchase.md)

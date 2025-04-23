@@ -14,7 +14,7 @@ Trên trang sản phẩm, chọn tab Tồn kho, sau đó bật hộp kiểm Sả
 
 ### Theo dõi số lô/sê-ri
 
-Việc chỉ định lô hoặc số sê-ri cho các sản phẩm mới sản xuất là tùy chọn. Để tùy chọn [chỉ định lô hoặc số sê-ri](applications/inventory_and_mrp/inventory/product_management/product_tracking/create_sn.md) cho các sản phẩm mới sản xuất, đi đến phần Truy xuất nguồn gốc trong tab Tồn kho. Trong trường Theo dõi, hãy chọn Theo số sê-ri duy nhất hoặc Theo lô.
+Việc chỉ định lô hoặc số sê-ri cho các sản phẩm mới sản xuất là tùy chọn. Để tùy chọn [chỉ định lô hoặc số sê-ri](../../inventory/product_management/product_tracking/create_sn.md) cho các sản phẩm mới sản xuất, đi đến phần Truy xuất nguồn gốc trong tab Tồn kho. Trong trường Theo dõi, hãy chọn Theo số sê-ri duy nhất hoặc Theo lô.
 
 Thao tác này sẽ kích hoạt trường *Số lô/sê-ri* trên lệnh sản xuất hoặc hướng dẫn *Ghi nhận sản xuất* trên thẻ công đoạn trong ứng dụng *Xưởng*.
 

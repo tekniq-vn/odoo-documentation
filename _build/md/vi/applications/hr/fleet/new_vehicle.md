@@ -24,7 +24,7 @@ the top-left corner of the page.
   additional fields may appear on the form.
 
   If the model is not listed, type in the model name, and click either Create "model",
-  or Create and edit... to [create a new model and edit the model details](applications/hr/fleet/models.md#fleet-add-model).
+  or Create and edit... to [create a new model and edit the model details](models.md#fleet-add-model).
 - License Plate: enter the vehicle's license plate number in this field.
 - Tags: select any tags from the drop-down menu, or type in a new tag. There is no limit
   on the amount of tags that can be selected.
@@ -56,7 +56,7 @@ any plans for a change in the driver in the future, and when.
   *Contacts* application.
 - Mobility Card: if the selected driver has a mobility card listed on their employee
   card in the *Employees* application, the mobility card number appears in this field. If there is
-  no mobility card listed, and one should be added, [edit the employee record](applications/hr/employees/new_employee.md#employees-hr-settings) in the *Employees* application.
+  no mobility card listed, and one should be added, [edit the employee record](../employees/new_employee.md#employees-hr-settings) in the *Employees* application.
 - Future Driver: if the next driver for the vehicle is known, select the next driver
   from the drop-down menu. Or, type in the next driver and click either Create "future
   driver" or Create and edit... to [create a new future driver, and edit the
@@ -264,7 +264,7 @@ accounting department for more information and/or assistance with these values.
 
 If the model for the new vehicle is already configured in the database, the Model tab
 will be populated with the corresponding information. If the model is not already in the database
-and the Model tab needs to be configured, [configure the new vehicle model](applications/hr/fleet/models.md#fleet-add-model).
+and the Model tab needs to be configured, [configure the new vehicle model](models.md#fleet-add-model).
 
 Check the information in the Model tab to ensure it is accurate. For example, the color
 of the vehicle, or if a trailer hitch is installed, are examples of common information that may need

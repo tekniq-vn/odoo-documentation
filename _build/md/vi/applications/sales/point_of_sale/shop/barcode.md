@@ -13,8 +13,8 @@ Barcode Scanner and save.
 ![barcode setting in the Inventory application](../../../../.gitbook/assets/barcode-inventory.png)
 
 #### SEE ALSO
-- [Set up a barcode scanner](applications/inventory_and_mrp/barcode/setup/hardware.md)
-- [Activate barcode scanners](applications/inventory_and_mrp/barcode/setup/software.md)
+- [Set up a barcode scanner](../../../inventory_and_mrp/barcode/setup/hardware.md)
+- [Activate barcode scanners](../../../inventory_and_mrp/barcode/setup/software.md)
 
 Once enabled in **Inventory**, you can use the barcode feature in **Point of Sale** with products
 that have a barcode number assigned.
@@ -46,4 +46,4 @@ click it to add it to the cart.
 
 ### Log employees
 
-You can also use a barcode scanner to log your employees. To do so, [restrict access](applications/sales/point_of_sale/employee_login.md#employee-login-configuration) to the POS and [use barcodes to log your employees in](applications/sales/point_of_sale/employee_login.md#employee-login-badge) your POS.
+You can also use a barcode scanner to log your employees. To do so, [restrict access](../employee_login.md#employee-login-configuration) to the POS and [use barcodes to log your employees in](../employee_login.md#employee-login-badge) your POS.

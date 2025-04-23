@@ -39,7 +39,7 @@ were hired, and two were refused.
 
 #### Use case: applicants with referrals
 
-To get a better understanding of how effective the company's [referral program](applications/hr/referrals.md)
+To get a better understanding of how effective the company's [referral program](../referrals.md)
 is, the Recruitment Analysis report can be modified to show how many applicants were
 referred by current employees.
 

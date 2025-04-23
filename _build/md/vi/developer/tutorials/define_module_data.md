@@ -1,7 +1,7 @@
 # Define module data
 
 #### IMPORTANT
-This tutorial is an extension of the [Server framework 101](developer/tutorials/server_framework_101.md) tutorial. Make sure you have
+This tutorial is an extension of the [Server framework 101](server_framework_101.md) tutorial. Make sure you have
 completed it and use the `estate` module you have built as a base for the exercises in this
 tutorial.
 
@@ -13,7 +13,7 @@ Master data is usually part of the technical or business requirements for the mo
 words, such data is often necessary for the module to work properly. This data will always be
 installed when installing the module.
 
-We already met technical data previously since we have defined [views](developer/reference/user_interface/view_records.md) and [actions](developer/reference/backend/actions.md). Those
+We already met technical data previously since we have defined [views](../reference/user_interface/view_records.md) and [actions](../reference/backend/actions.md). Those
 are one kind of master data.
 
 On top of technical data, business data can be defined, e.g. countries, currencies, units of measure,
@@ -58,7 +58,7 @@ $ ./odoo-bin --addons-path=... -d db -i account --without-demo=all
 ### Manifest
 
 **Reference**: the documentation related to this topic can be found in
-[Module Manifests](developer/reference/backend/module.md#reference-module-manifest).
+[Module Manifests](../reference/backend/module.md#reference-module-manifest).
 
 Data is declared either in CSV or in XML.
 Each file containing data must be added in the manifest for them to be loaded.
@@ -115,7 +115,7 @@ Your manifest should look like this:
 ### CSV
 
 **Reference**: the documentation related to this topic can be found in
-[CSV data files](developer/reference/backend/data.md#reference-data-csvdatafiles).
+[CSV data files](../reference/backend/data.md#reference-data-csvdatafiles).
 
 The easiest way to declare simple data is by using the CSV format. This is however limited in terms
 of features: use it for long lists of simple models, but prefer XML otherwise.
@@ -129,7 +129,7 @@ id2,valueA2,valueB2,module.relatedid
 ### XML
 
 **Reference**: the documentation related to this topic can be found in
-[Data Files](developer/reference/backend/data.md#reference-data).
+[Data Files](../reference/backend/data.md#reference-data).
 
 When the data to create is more complex it can be useful, or even necessary, to do it in XML.
 
@@ -149,7 +149,7 @@ When the data to create is more complex it can be useful, or even necessary, to 
 
 #### Data Extension
 
-During the Core Training, we saw in the [Chapter 12: Inheritance](developer/tutorials/server_framework_101/12_inheritance.md) chapter we
+During the Core Training, we saw in the [Chapter 12: Inheritance](server_framework_101/12_inheritance.md) chapter we
 could inherit (extend) an existing view. This was a special case of data extension: any data can be
 extended in a module.
 
@@ -329,7 +329,7 @@ bypasses all the features of the ORM, computed fields (including metadata) and p
 #### NOTE
 Generally using raw SQL also bypasses ACLs and increases the risks of injections.
 
-**Reference**: [Security in Odoo](developer/reference/backend/security.md#reference-security)
+**Reference**: [Security in Odoo](../reference/backend/security.md#reference-security)
 
 * It can help to speed the import time by a lot
   [with huge files](https://github.com/odoo/enterprise/blob/d46cceef8c594b9056d0115edb7169e207a5986f/product_unspsc/hooks.py#L19).

@@ -6,7 +6,7 @@ Odoo cho phép sử dụng một danh mục vật tư (BoM) cho nhiều biến t
 
 Để kích hoạt tính năng biến thể sản phẩm, hãy đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt, và cuộn xuống phần Sản phẩm. Sau đó, nhấp vào hộp kiểm để bật tùy chọn Biến thể. Tiếp theo, nhấp vào Lưu để áp dụng cài đặt.
 
-Để biết thêm thông tin về cách cấu hình các biến thể sản phẩm, hãy tham khảo tài liệu [biến thể sản phẩm](applications/sales/sales/products_prices/products/variants.md).
+Để biết thêm thông tin về cách cấu hình các biến thể sản phẩm, hãy tham khảo tài liệu [biến thể sản phẩm](../../../sales/sales/products_prices/products/variants.md).
 
 ![Chọn "Biến thể" từ phần cài đặt ứng dụng Tồn kho.](../../../../.gitbook/assets/product-variants-variants-settings.png)
 

@@ -35,7 +35,7 @@ This tab allows you to manage your course content. Click on Add Section to divid
 course into different sections. Click on Add Content to create
 [content](#elearning-create-content). Click on Add Certification to assess the
 level of understanding of your attendees, certify their skills, and motivate them. **Certification**
-is part of the [Surveys](applications/marketing/surveys/create.md) app.
+is part of the [Surveys](../marketing/surveys/create.md) app.
 
 <a id="elearning-description"></a>
 

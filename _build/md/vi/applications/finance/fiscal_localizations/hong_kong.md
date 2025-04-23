@@ -2,7 +2,7 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get the latest features of the Hong Kong
+[Install](../../general/apps_modules.md#general-install) the following modules to get the latest features of the Hong Kong
 localization:
 
 | Tên                                | Tên kỹ thuật                   | Mô tả                                                                                                                                                                                                 |
@@ -42,7 +42,7 @@ checkbox.
   Reference checkbox.
 
 #### SEE ALSO
-[Bank and cash accounts](applications/finance/accounting/bank.md)
+[Bank and cash accounts](../accounting/bank.md)
 
 ### Cấu hình sổ nhật ký ngân hàng
 
@@ -266,11 +266,11 @@ choose between **two** different *payment methods*:
 
 - From the employee's payslip (Payroll app ‣ Payslips ‣ All Payslips), once the
   payslip's journal entry has been posted, click Register Payment. The process is the
-  same as [paying vendor bills](applications/finance/accounting/payments.md). Select the desired bank journal and
+  same as [paying vendor bills](../accounting/payments.md). Select the desired bank journal and
   payment method, then later reconcile the payment with the corresponding bank statement.
 - For batch payments (Payroll app ‣ Payslips ‣ Batches), once all draft journal
   entries from the batch are confirmed, click Mark as Paid to post the payment journal
-  entry. Then [create a payment](applications/finance/accounting/payments.md) in the *Accounting* app, and
+  entry. Then [create a payment](../accounting/payments.md) in the *Accounting* app, and
   reconcile accordingly.
 
 ### Attendances and hourly wage
@@ -307,7 +307,7 @@ There are two checkboxes to be considered when setting up the work entry type:
 ![Hong Kong Work Entry Type.](../../../.gitbook/assets/hk-work-entry-type.png)
 
 #### SEE ALSO
-[Creating and configuring work entry types](applications/hr/payroll.md#payroll-work-entries)
+[Creating and configuring work entry types](../../hr/payroll.md#payroll-work-entries)
 
 ### Understanding 713 Ordinance
 

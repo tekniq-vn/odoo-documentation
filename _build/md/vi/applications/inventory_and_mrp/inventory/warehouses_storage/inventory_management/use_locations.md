@@ -9,7 +9,7 @@ Inventory app ‣ Configuration ‣ Settings. In the Warehouses
 section, tick the Storage Locations checkbox. Then, click Save.
 
 #### NOTE
-Typically, the Storage Locations feature is used with [Multi-Step Routes](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md), which controls how products move between
+Typically, the Storage Locations feature is used with [Multi-Step Routes](../../shipping_receiving/daily_operations/use_routes.md), which controls how products move between
 locations.
 
 ![Show Storage Locations feature.](../../../../../.gitbook/assets/enable-location1.png)
@@ -36,16 +36,16 @@ location serves its intended purpose in the database:
 - Location Type: from the drop-down menu, choose Vendor Location,
   View, Internal Location, Customer Location,
   Inventory Loss, Production, or Transit Location to categorize
-  the location. For details on each location type, refer to the [Location Types section](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management.md#inventory-warehouses-storage-location-type).
-- Storage Category: only available with the [Storage Categories](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.md) feature enabled in
+  the location. For details on each location type, refer to the [Location Types section](../inventory_management.md#inventory-warehouses-storage-location-type).
+- Storage Category: only available with the [Storage Categories](../../shipping_receiving/daily_operations/storage_category.md) feature enabled in
   Inventory app ‣ Configuration ‣ Settings.
 - Company: the company the location belongs to.
 - Is a Scrap Location?: tick this checkbox to allow for scrapped/damaged goods to be
   stored in this location.
 - Is a Return Location?: tick this checkbox to allow products to be returned to this
   location.
-- Barcode: used with the *Barcode* app, enter the barcode to [identify actions](applications/inventory_and_mrp/barcode/setup/software.md#barcode-setup-location) at this location when scanned.
-- Replenish Location: used for [configuring routes](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md), tick this checkbox to set the location as
+- Barcode: used with the *Barcode* app, enter the barcode to [identify actions](../../../barcode/setup/software.md#barcode-setup-location) at this location when scanned.
+- Replenish Location: used for [configuring routes](../../shipping_receiving/daily_operations/use_routes.md), tick this checkbox to set the location as
   a destination for receiving products from *Buy*, *Manufacture*, or other procurement routes,
   ensuring products are correctly supplied to the warehouse.
 
@@ -72,7 +72,7 @@ When different than `0`, the inventory count dates for products stored at this l
 automatically set at the defined frequency.
 
 In the Logistics section, in the Removal Strategy field, click the drop-down
-menu and select the [removal strategy](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md) for how
+menu and select the [removal strategy](../../shipping_receiving/removal_strategies.md) for how
 items should be removed from this location.
 
 <a id="inventory-location-hierarchy"></a>
@@ -83,7 +83,7 @@ To schedule regular inventory counts at this location, set the Inventory Frequen
 (Days) field to the desired interval. By default, it is set to `0` (no scheduled counts).
 
 For example, setting this field to `30`, schedules a count every thirty days. For more specifics on
-setting up and using this feature, refer to the [Cycle Counts documentation](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.md).
+setting up and using this feature, refer to the [Cycle Counts documentation](cycle_counts.md).
 
 The Last Effective Inventory field displays the date the last inventory count at this
 location occurred. When scheduled inventory counts are enabled, the Next Expected
@@ -97,7 +97,7 @@ are: First In First Out (FIFO), Last In First Out (LIFO), Closest
 Location, and First Expiry First Out (FEFO).
 
 #### SEE ALSO
-[Removal strategies](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md)
+[Removal strategies](../../shipping_receiving/removal_strategies.md)
 
 ## Current stock at location
 

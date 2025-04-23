@@ -1,13 +1,13 @@
 # Tích hợp FedEx
 
 Integrating a FedEx account with Odoo's **Inventory** app makes it possible to [calculate
-shipping rates](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md), and [generate shipping labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md) within Odoo.
+shipping rates](../setup_configuration.md), and [generate shipping labels](labels.md) within Odoo.
 This is accomplished by enabling the FedEx *shipping connector*, then configuring at least one
 *shipping method*.
 
 #### NOTE
 This documentation contains configuration details specific to FedEx integration. See the
-documentation on [third-party shippers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md) for general shipper
+documentation on [third-party shippers](third_party_shipper.md) for general shipper
 integration instructions.
 
 ## Enable shipping connector
@@ -55,7 +55,7 @@ in Odoo. In the Provider field, select FedEx from the drop-down menu, if it
 is not already selected.
 
 The rest of the fields in this section are general to all shipping providers. For details on how to
-fill them out, see the documentation on [third-party shippers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md).
+fill them out, see the documentation on [third-party shippers](third_party_shipper.md).
 
 ### Fedex Configuration tab
 

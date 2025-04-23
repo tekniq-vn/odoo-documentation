@@ -63,7 +63,7 @@ Bạn có thể bắt đầu sử dụng Odoo.sh và bản dựng đầu tiên c
 
 ## Nhập cơ sở dữ liệu
 
-Bạn có thể nhập cơ sở dữ liệu của mình vào dự án Odoo.sh nếu nó là [phiên bản được hỗ trợ](administration/supported_versions.md) của Odoo.
+Bạn có thể nhập cơ sở dữ liệu của mình vào dự án Odoo.sh nếu nó là [phiên bản được hỗ trợ](../../supported_versions.md) của Odoo.
 
 ### Đưa các phân hệ vào hoạt động thực tế
 
@@ -71,9 +71,9 @@ Nếu bạn sử dụng các phân hệ cộng đồng hoặc tùy chỉnh, hãy
 
 Bạn có thể cơ cấu các phân hệ của mình theo ý muốn, Odoo.sh sẽ tự động phát hiện các thư mục chứa add-on của Odoo. Ví dụ: bạn có thể đặt tất cả thư mục phân hệ vào thư mục gốc của kho lưu trữ hoặc nhóm các phân hệ vào thư mục theo danh mục mà bạn xác định (kế toán, dự án,...).
 
-Đối với các phân hệ Community có sẵn trong kho Git công khai, bạn cũng có thể cân nhắc thêm chúng bằng cách sử dụng [Phân hệ phụ](administration/odoo_sh/advanced/submodules.md#odoosh-advanced-submodules).
+Đối với các phân hệ Community có sẵn trong kho Git công khai, bạn cũng có thể cân nhắc thêm chúng bằng cách sử dụng [Phân hệ phụ](../advanced/submodules.md#odoosh-advanced-submodules).
 
-Sau đó, [đặt nhánh này thành nhánh production](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-stages) hoặc [hợp nhất nó vào nhánh production của bạn](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-mergingbranches).
+Sau đó, [đặt nhánh này thành nhánh production](branches.md#odoosh-gettingstarted-branches-stages) hoặc [hợp nhất nó vào nhánh production của bạn](branches.md#odoosh-gettingstarted-branches-mergingbranches).
 
 ### Tải xuống bản sao lưu
 
@@ -82,7 +82,7 @@ Sau đó, [đặt nhánh này thành nhánh production](administration/odoo_sh/g
 Truy cập URL `/web/database/manager` của cơ sở dữ liệu on-premise của bạn và tải xuống bản sao lưu.
 
 #### WARNING
-Nếu bạn không thể truy cập trình quản lý cơ sở dữ liệu thì có thể quản trị viên hệ thống đã vô hiệu hóa nó. Tham khảo [tài liệu bảo mật trình quản lý cơ sở dữ liệu](administration/on_premise/deploy.md#db-manager-security).
+Nếu bạn không thể truy cập trình quản lý cơ sở dữ liệu thì có thể quản trị viên hệ thống đã vô hiệu hóa nó. Tham khảo [tài liệu bảo mật trình quản lý cơ sở dữ liệu](../../on_premise/deploy.md#db-manager-security).
 
 Bạn sẽ cần mật khẩu chính của máy chủ cơ sở dữ liệu. Nếu không có, hãy liên hệ với quản trị viên hệ thống của bạn.
 
@@ -113,7 +113,7 @@ Sau khi nhập bản sao lưu, bạn có thể truy cập cơ sở dữ liệu b
 
 ### Kiểm tra máy chủ thư đi của bạn
 
-Một máy chủ thư mặc định được cung cấp kèm Odoo.sh. Để sử dụng nó, không được bật máy chủ thư đi nào trong cơ sở dữ liệu của bạn tại Cài đặt ‣Kỹ thuật ‣ Máy chủ thư đi ([Chế độ lập trình viên](applications/general/developer_mode.md#developer-mode) phải được kích hoạt).
+Một máy chủ thư mặc định được cung cấp kèm Odoo.sh. Để sử dụng nó, không được bật máy chủ thư đi nào trong cơ sở dữ liệu của bạn tại Cài đặt ‣Kỹ thuật ‣ Máy chủ thư đi ([Chế độ lập trình viên](../../../applications/general/developer_mode.md#developer-mode) phải được kích hoạt).
 
 Sau khi nhập cơ sở dữ liệu của bạn, tất cả máy chủ thư đi đều bị tắt nên bạn sử dụng máy chủ thư Odoo.sh được cung cấp theo mặc định.
 
@@ -134,4 +134,4 @@ Gói đăng ký của bạn bị hủy liên kết sau khi nhập.
 
 Theo mặc định, cơ sở dữ liệu đã nhập được coi là một bản sao và do đó gói đăng ký Enterprise sẽ bị xóa, vì mỗi gói đăng ký chỉ có thể được liên kết với một cơ sở dữ liệu.
 
-Nếu bạn định dùng cơ sở dữ liệu mới được nhập trong production, hãy hủy liên kết cơ sở dữ liệu cũ khỏi gói đăng ký và đăng ký cơ sở dữ liệu mới. Đọc [tài liệu đăng ký cơ sở dữ liệu](administration/on_premise.md) để xem hướng dẫn.
+Nếu bạn định dùng cơ sở dữ liệu mới được nhập trong production, hãy hủy liên kết cơ sở dữ liệu cũ khỏi gói đăng ký và đăng ký cơ sở dữ liệu mới. Đọc [tài liệu đăng ký cơ sở dữ liệu](../../on_premise.md) để xem hướng dẫn.

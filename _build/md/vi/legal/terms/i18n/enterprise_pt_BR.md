@@ -6,7 +6,7 @@
 Esta é uma tradução em português do Contrato “Odoo Enterprise Subscription Agreement”.
 A tradução é fornecida com o intuito de facilitar a sua compreensão, mas não tem
 valor legal. A única referência oficial aos termos do Contrato “Odoo Enterprise Subscription Agreement”
-é a [versão original em inglês](legal/terms/enterprise.md#enterprise-agreement).
+é a [versão original em inglês](../enterprise.md#enterprise-agreement).
 
 #### NOTE
 Versão 10a - 2022-10-27
@@ -562,7 +562,7 @@ definida da seguinte forma:
 Esta é uma tradução em português da "Licença Odoo Enterprise Edition v1.0".
 A tradução é fornecida com o intuito de facilitar a sua compreensão, mas não tem valor legal.
 A única referência oficial aos termos da "Licença Odoo Enterprise Edition"
-é a [versão original em inglês](legal/licenses.md#odoo-enterprise-license)
+é a [versão original em inglês](../../licenses.md#odoo-enterprise-license)
 
 <tt>{\\tt
 

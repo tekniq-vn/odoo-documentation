@@ -8,7 +8,7 @@ support team to manage multi-channel support tickets from one central location.
 ## Enable channel options to submit tickets
 
 Go to Helpdesk app ‣ Configuration ‣ Helpdesk Teams, and choose an existing
-team, or click New to [create a new team](applications/services/helpdesk.md).
+team, or click New to [create a new team](../../helpdesk.md).
 
 On the team's settings page, scroll down to the Channels and Help Center
 sections. Enable one or more channels by checking the respective boxes.
@@ -57,14 +57,14 @@ chatter.
 
 The *Live Chat* feature lets website visitors connect directly with a support agent or chatbot.
 *Helpdesk* tickets can be instantly created during these conversations using the [response
-command](applications/websites/livechat/responses.md) `/ticket`.
+command](../../../websites/livechat/responses.md) `/ticket`.
 
 To enable *Live Chat*, navigate to the Helpdesk app ‣ Configuration ‣ Helpdesk
 Teams list view, select a team, and on the team's settings page, click the checkbox next to
 Live Chat, under the Channels section.
 
 #### NOTE
-If this is the first time [Live Chat](applications/websites/livechat.md) has been enabled on
+If this is the first time [Live Chat](../../../websites/livechat.md) has been enabled on
 the database, the page may need to be saved manually and refreshed before any further steps can
 be taken.
 
@@ -143,7 +143,7 @@ should only be active when no operators are available, check the box labeled Ena
 if no operator.
 
 #### NOTE
-If a [chatbot](applications/websites/livechat/chatbots.md) is added to a live chat channel, a
+If a [chatbot](../../../websites/livechat/chatbots.md) is added to a live chat channel, a
 new Chatbots smart button appears on the channel settings form. Click here to create
 and update the chatbot *script*.
 
@@ -185,7 +185,7 @@ second listed code, and send the URL via email.
 Operators who have joined a live chat channel are able to communicate with site visitors in
 real-time.
 
-During the conversation, an operator can use the shortcut [command](applications/websites/livechat/responses.md) `/ticket` to create a ticket without leaving the chat
+During the conversation, an operator can use the shortcut [command](../../../websites/livechat/responses.md) `/ticket` to create a ticket without leaving the chat
 window. The transcript from the conversation is added to the new ticket, under the
 Description tab.
 
@@ -274,10 +274,10 @@ Tickets are set to low priority (0 stars) by default. To change the priority lev
 appropriate number of stars on the Kanban card, or on the ticket.
 
 #### WARNING
-As priority levels can be used as criteria for assigning [SLAs](applications/services/helpdesk/overview/sla.md), changing the priority
+As priority levels can be used as criteria for assigning [SLAs](sla.md), changing the priority
 level of a ticket can alter the  deadline.
 
 #### SEE ALSO
-- [Close tickets](applications/services/helpdesk/advanced/close_tickets.md)
-- [Communication in Odoo by email](applications/general/email_communication.md)
-- [Trò chuyện Trực tiếp](applications/websites/livechat.md)
+- [Close tickets](../advanced/close_tickets.md)
+- [Communication in Odoo by email](../../../general/email_communication.md)
+- [Trò chuyện Trực tiếp](../../../websites/livechat.md)

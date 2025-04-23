@@ -43,7 +43,7 @@ app ‣ Configuration ‣ Manufacturers.
 
 The manufacturers appear in an alphabetical list. Each manufacturer's card lists how many specific
 models are configured for each particular manufacturer. Odoo comes with forty-six preconfigured
-[models](applications/hr/fleet/models.md) from four major auto manufacturers, and one major bicycle manufacturer:
+[models](fleet/models.md) from four major auto manufacturers, and one major bicycle manufacturer:
 Audi, BMW, Mercedes, Opel (cars), and Eddy Merckx (bicycle).
 
 ![Manufacturer card with the amount of models listed.](../../.gitbook/assets/manufacturer.png)
@@ -56,12 +56,12 @@ Type the name of the manufacturer in the name field, and select an image to uplo
 When the information is entered, click Save.
 
 #### SEE ALSO
-- [Vehicle models](applications/hr/fleet/models.md)
-- [New vehicles](applications/hr/fleet/new_vehicle.md)
-- [Dịch vụ](applications/hr/fleet/service.md)
-- [Accidents](applications/hr/fleet/accidents.md)
+- [Vehicle models](fleet/models.md)
+- [New vehicles](fleet/new_vehicle.md)
+- [Dịch vụ](fleet/service.md)
+- [Accidents](fleet/accidents.md)
 
-* [Vehicle models](applications/hr/fleet/models.md)
-* [New vehicles](applications/hr/fleet/new_vehicle.md)
-* [Dịch vụ](applications/hr/fleet/service.md)
-* [Accidents](applications/hr/fleet/accidents.md)
+* [Vehicle models](fleet/models.md)
+* [New vehicles](fleet/new_vehicle.md)
+* [Dịch vụ](fleet/service.md)
+* [Accidents](fleet/accidents.md)

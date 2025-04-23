@@ -25,17 +25,17 @@ including tests.
 
 Enable from the user interface
 
-1. [Enable the developer mode](applications/general/developer_mode.md#developer-mode).
+1. [Enable the developer mode](../../../applications/general/developer_mode.md#developer-mode).
 2. Before starting a profiling session, the profiler must be enabled globally on the database.
    This can be done in two ways:
-   - Open the [developer mode tools](applications/general/developer_mode.md#developer-mode-tools), then toggle the
+   - Open the [developer mode tools](../../../applications/general/developer_mode.md#developer-mode-tools), then toggle the
      Enable profiling button. A wizard suggests a set of expiry times for the
      profiling. Click on ENABLE PROFILING to enable the profiler globally.
      ![image](../../../.gitbook/assets/enable_profiling_wizard.png)
    - Go to Settings --> General Settings --> Performance and set the desired time to
      the field Enable profiling until.
 3. After the profiler is enabled on the database, users can enable it on their session. To do
-   so, toggle the Enable profiling button in the [developer mode tools](applications/general/developer_mode.md#developer-mode-tools) again. By default, the recommended options Record
+   so, toggle the Enable profiling button in the [developer mode tools](../../../applications/general/developer_mode.md#developer-mode-tools) again. By default, the recommended options Record
    sql and Record traces are enabled. To learn more about the different options,
    head over to [Collectors](#performance-profiling-collectors).
    ![image](../../../.gitbook/assets/profiling_debug_menu.png)
@@ -66,7 +66,7 @@ especially useful when using the `@warmup` and `@users` decorators.
 ### Analyse the results
 
 To browse the profiling results, make sure that the [profiler is enabled globally on the
-database](#performance-profiling-enable), then open the [developer mode tools](applications/general/developer_mode.md#developer-mode-tools) and click on the button in the top-right corner of the profiling
+database](#performance-profiling-enable), then open the [developer mode tools](../../../applications/general/developer_mode.md#developer-mode-tools) and click on the button in the top-right corner of the profiling
 section. A list view of the `ir.profile` records grouped by profiling session opens.
 
 ![image](../../../.gitbook/assets/profiling_web.png)
@@ -104,7 +104,7 @@ Whereas the profiler is about the *when* of profiling, the collectors take care 
 
 Each collector specializes in collecting profiling data in its own format and manner. They can be
 individually enabled from the user interface through their dedicated toggle button in the
-[developer mode tools](applications/general/developer_mode.md#developer-mode-tools), or from Python code through their key or
+[developer mode tools](../../../applications/general/developer_mode.md#developer-mode-tools), or from Python code through their key or
 class.
 
 There are currently four collectors available in Odoo:
@@ -190,7 +190,7 @@ is however not recommended for performance analysis because the overhead is high
 
 ## Database population
 
-Odoo CLI offers a [database population](developer/reference/cli.md#reference-cmdline-populate) feature through the CLI
+Odoo CLI offers a [database population](../cli.md#reference-cmdline-populate) feature through the CLI
 command **odoo-bin populate**.
 
 Instead of the tedious manual, or programmatic, specification of test data, one can use this feature

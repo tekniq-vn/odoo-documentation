@@ -112,7 +112,7 @@ stated in each section are not successful, the caller is routed to the voicemail
 particular user.
 
 #### SEE ALSO
-For more information on forwarding and transfers, visit [Forwardings tab](applications/productivity/voip/axivox/manage_users.md#voip-axivox-forwardings-tab).
+For more information on forwarding and transfers, visit [Forwardings tab](manage_users.md#voip-axivox-forwardings-tab).
 
 When all the desired configurations are complete, click Save, then click
 Apply changes in the upper-right corner of the screen to implement the change.
@@ -154,7 +154,7 @@ Then, click OK to begin the call.
 
 #### NOTE
 The user **must** be active in the production database with  configured. To configure  for a user, see
-this documentation: [VoIP services in Odoo with Axivox](applications/productivity/voip/axivox/axivox_config.md).
+this documentation: [VoIP services in Odoo with Axivox](axivox_config.md).
 
 Upon connecting to the Axivox audio recorder management line, a recorded French-speaking operator
 provides the following options:

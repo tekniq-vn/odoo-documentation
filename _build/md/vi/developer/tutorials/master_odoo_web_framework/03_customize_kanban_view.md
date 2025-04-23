@@ -42,7 +42,7 @@ We will need to display a list of customers, so we might as well create the comp
 ![image](../../../.gitbook/assets/customer_list_component.png)
 
 #### SEE ALSO
-[Template inheritance](developer/reference/frontend/qweb.md#reference-qweb-template-inheritance)
+[Template inheritance](../../reference/frontend/qweb.md#reference-qweb-template-inheritance)
 
 ## 3. Load and display data
 
@@ -105,7 +105,7 @@ us see how we could do it in a more declarative way, with the [t-model](https://
 
 ## 8. Paginate customers!
 
-1. Add a [pager](developer/reference/frontend/owl_components.md#frontend-pager) in the `CustomerList`, and only load/render the first 20
+1. Add a [pager](../../reference/frontend/owl_components.md#frontend-pager) in the `CustomerList`, and only load/render the first 20
    customers.
 2. Whenever the pager is changed, the customer list should update accordingly.
 

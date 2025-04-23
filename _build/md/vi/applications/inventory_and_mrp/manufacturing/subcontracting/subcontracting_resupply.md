@@ -26,7 +26,7 @@ directly to the subcontractor.
 The choice of which route to use depends upon the specific requirements of the subcontracting
 company and their subcontractors.
 
-See the [Dropship to subcontractor](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.md) documentation for a full overview of the *Dropship
+See the [Dropship to subcontractor](subcontracting_dropship.md) documentation for a full overview of the *Dropship
 Subcontractor on Order* route.
 
 ## Cấu hình
@@ -79,7 +79,7 @@ Alternatively, navigate to Manufacturing app ‣ Products ‣ Bills of Materials
 and select the  for the subcontracted product.
 
 #### SEE ALSO
-For a full overview of  configuration, see the [Bill of materials](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md) documentation.
+For a full overview of  configuration, see the [Bill of materials](../basic_setup/bill_configuration.md) documentation.
 
 In the BoM Type field, select the Subcontracting option. Then, add one or
 more subcontractors in the Subcontractors field that appears below.

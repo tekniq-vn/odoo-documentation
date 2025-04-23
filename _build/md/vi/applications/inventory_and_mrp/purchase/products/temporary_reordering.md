@@ -22,8 +22,8 @@ In Odoo, a "temporary" reordering rule is created in the replenishment dashboard
 This rule is deleted upon confirmation of the purchase order (PO) generated for the product.
 
 #### SEE ALSO
-- [Quy tắc tái đặt hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
-- [Configure reordering rules](applications/inventory_and_mrp/purchase/products/reordering.md)
+- [Quy tắc tái đặt hàng](../../inventory/warehouses_storage/replenishment/reordering_rules.md)
+- [Configure reordering rules](reordering.md)
 
 ## Cấu hình
 

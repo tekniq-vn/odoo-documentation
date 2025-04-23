@@ -23,7 +23,7 @@ to a Web Page option and click Save. Click Update Terms, edit the
 content, and click Save. The link to that page is then added as a note in your document.
 
 #### NOTE
-You can edit the layout and content of the page using the [Website](applications/websites/website.md) app. If the Website app is activated, the Edit in
+You can edit the layout and content of the page using the [Website](../../../websites/website.md) app. If the Website app is activated, the Edit in
 Website Builder option then replaces Update Terms.
 
 ![Example of terms and conditions as a web page](../../../../.gitbook/assets/terms-webpage.png)

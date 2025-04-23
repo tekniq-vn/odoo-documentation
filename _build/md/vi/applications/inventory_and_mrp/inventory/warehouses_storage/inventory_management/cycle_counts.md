@@ -84,5 +84,5 @@ desired month.
 Once all necessary changes have been made, click Save.
 
 #### SEE ALSO
-- [Điều chỉnh tồn kho](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md)
-- [Vị trí](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md)
+- [Điều chỉnh tồn kho](count_products.md)
+- [Vị trí](use_locations.md)

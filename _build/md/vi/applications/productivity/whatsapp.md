@@ -10,7 +10,7 @@ sign up for Odoo Enterprise edition, click here: [Odoo Free Trial](https://www.o
 
 #### SEE ALSO
 For more information on migrating from Odoo Community version to Odoo Enterprise version see this
-documentation: [Chuyển từ Community sang Enterprise](administration/on_premise/community_to_enterprise.md).
+documentation: [Chuyển từ Community sang Enterprise](../../administration/on_premise/community_to_enterprise.md).
 
 With the **Odoo WhatsApp** app, a company can connect a WhatsApp Business Account (WABA) to an Odoo
 database, which allows for the following:
@@ -420,7 +420,7 @@ Language.
 
 #### IMPORTANT
 In order to complete this next task, administrator access rights are needed to edit the
-Applies to field. See this [access rights documentation](applications/general/users/access_rights.md) for more information.
+Applies to field. See this [access rights documentation](../general/users/access_rights.md) for more information.
 
 In the Account drop-down menu, select the *WhatsApp business account* in Odoo that this
 template should link to. Next, under the Applies to field select the *model* the server

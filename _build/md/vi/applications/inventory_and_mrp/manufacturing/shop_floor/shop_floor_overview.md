@@ -17,7 +17,7 @@ To check the version number of an Odoo database, navigate to Settings and scroll
 down to the About section at the bottom of the page. The version number is displayed
 there.
 
-To switch to a newer version of Odoo, see the documentation on [upgrading a database](administration/upgrade.md).
+To switch to a newer version of Odoo, see the documentation on [upgrading a database](../../../../administration/upgrade.md).
 
 ## Điều hướng
 

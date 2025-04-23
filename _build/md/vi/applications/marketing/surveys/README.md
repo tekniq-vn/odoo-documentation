@@ -156,7 +156,7 @@ Learn about all the different options and configurations that can be utilized wh
 in Odoo.
 
 #### SEE ALSO
-[Create surveys](applications/marketing/surveys/create.md)
+[Create surveys](surveys/create.md)
 
 ## Scoring surveys
 
@@ -164,7 +164,7 @@ Discover how to measure a survey participant's performance, or overall satisfact
 detailed (and fully customizable) survey scoring options.
 
 #### SEE ALSO
-[Scoring surveys](applications/marketing/surveys/scoring.md)
+[Scoring surveys](surveys/scoring.md)
 
 ## Create questions
 
@@ -172,7 +172,7 @@ With Odoo *Surveys*, there are many question types and options to choose from, p
 to create any kind of unique survey, questionnarire, and/or certification.
 
 #### SEE ALSO
-[Create questions](applications/marketing/surveys/questions.md)
+[Create questions](surveys/questions.md)
 
 ## Live Session surveys
 
@@ -181,7 +181,7 @@ presentations, where participants' real-time responses can be used to dictate wh
 goes next.
 
 #### SEE ALSO
-[Live Session surveys](applications/marketing/surveys/live_session.md)
+[Live Session surveys](surveys/live_session.md)
 
 ## Survey analysis
 
@@ -190,10 +190,10 @@ Fortuantely, the in-depth reporting pages and options available in Odoo *Surveys
 ways to examine everything related to surveys, and their submitted responses.
 
 #### SEE ALSO
-[Survey analysis](applications/marketing/surveys/analysis.md)
+[Survey analysis](surveys/analysis.md)
 
-* [Create surveys](applications/marketing/surveys/create.md)
-* [Scoring surveys](applications/marketing/surveys/scoring.md)
-* [Create questions](applications/marketing/surveys/questions.md)
-* [Live Session surveys](applications/marketing/surveys/live_session.md)
-* [Survey analysis](applications/marketing/surveys/analysis.md)
+* [Create surveys](surveys/create.md)
+* [Scoring surveys](surveys/scoring.md)
+* [Create questions](surveys/questions.md)
+* [Live Session surveys](surveys/live_session.md)
+* [Survey analysis](surveys/analysis.md)

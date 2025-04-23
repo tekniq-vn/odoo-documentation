@@ -76,7 +76,7 @@ when you need to call the parent method with a modified recordset.
 ## Model Inheritance
 
 **Reference**: the documentation related to this topic can be found in
-[Inheritance and extension](developer/reference/backend/orm.md#reference-orm-inheritance).
+[Inheritance and extension](../../reference/backend/orm.md#reference-orm-inheritance).
 
 In our real estate module, we would like to display the list of properties linked to a salesperson
 directly in the Settings / Users & Companies / Users form view. To do this, we need to add a field to
@@ -123,7 +123,7 @@ In the next section let's add the field to the view and check that everything is
 ## View Inheritance
 
 **Reference**: the documentation related to this topic can be found in
-[Inheritance](developer/reference/user_interface/view_records.md#reference-view-records-inheritance).
+[Inheritance](../../reference/user_interface/view_records.md#reference-view-records-inheritance).
 
 #### NOTE
 **Goal**: at the end of this section, the list of available properties linked
@@ -197,5 +197,5 @@ An example of a view inheritance extension can be found
 Inheritance is extensively used in Odoo due to its modular concept. Do not hesitate to read
 the corresponding documentation for more info!
 
-In the [next chapter](developer/tutorials/server_framework_101/13_other_module.md), we will learn how to
+In the [next chapter](13_other_module.md), we will learn how to
 interact with other modules.

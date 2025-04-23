@@ -2,13 +2,13 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Romanian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Romanian
 localization.
 
-| Tên                    | Tên kỹ thuật   | Mô tả                                                                                                              |
-|------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|
-| Romania - Kế toán      | `l10n_ro`      | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages). |
-| Xuất SAF-T của Romania | `l10n_ro_saft` | Module to generate the **D.406 declaration** in the SAF-T format.                                                  |
+| Tên                    | Tên kỹ thuật   | Mô tả                                                                                            |
+|------------------------|----------------|--------------------------------------------------------------------------------------------------|
+| Romania - Kế toán      | `l10n_ro`      | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). |
+| Xuất SAF-T của Romania | `l10n_ro_saft` | Module to generate the **D.406 declaration** in the SAF-T format.                                |
 ![Modules for the Romanian localization](../../../.gitbook/assets/romania-modules.png)
 
 ## D.406 declaration
@@ -57,7 +57,7 @@ Tax Accounting Basis to reflect the accounting regulations and Chart of Accounts
 by the company.
 
 #### SEE ALSO
-[Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+[Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md)
 
 #### Khách hàng và nhà cung cấp
 
@@ -78,7 +78,7 @@ declaration**. These can be found in the Excel spreadsheet published as guidance
 the declaration, which you can find on the [website of the Romanian Tax Agency](https://www.anaf.ro/anaf/internet/ANAF/despre_anaf/strategii_anaf/proiecte_digitalizare/saf_t/).
 
 #### SEE ALSO
-[Thuế](applications/finance/accounting/taxes.md)
+[Thuế](../accounting/taxes.md)
 
 #### Sản phẩm
 
@@ -98,7 +98,7 @@ Accounting ‣ Customers ‣ Products, select a product, and in the
 Accounting tab, set a Commodity Code.
 
 #### SEE ALSO
-[Intrastat](applications/finance/accounting/reporting/intrastat.md)
+[Intrastat](../accounting/reporting/intrastat.md)
 
 #### Hóa đơn mua hàng
 

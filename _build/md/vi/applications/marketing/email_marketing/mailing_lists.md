@@ -29,10 +29,10 @@ and Send SMS.
 The Send SMS button **only** appears if the *SMS Marketing* application is installed.
 
 Clicking Send Mailing reveals a separate page with a blank email template form, which
-can be filled out by following steps explained in the [Email Marketing doc](applications/marketing/email_marketing.md).
+can be filled out by following steps explained in the [Email Marketing doc](../email_marketing.md).
 
 Clicking Send SMS reveals a separate page with a blank SMS template form, which can be
-filled out by following steps explained in the [SMS Marketing doc](applications/marketing/sms_marketing.md).
+filled out by following steps explained in the [SMS Marketing doc](../sms_marketing.md).
 
 At the top of the mailing list form is a series of smart buttons that display a variety of metrics
 related to the specific mailing list. When any of the smart buttons are clicked, a separate page is
@@ -182,5 +182,5 @@ instantly subscribed to that pre-configured mailing list. They are also added as
 mailing list in Odoo *Email Marketing*.
 
 #### SEE ALSO
-- [Email Marketing](applications/marketing/email_marketing.md)
-- [Manage unsubscriptions (blacklist)](applications/marketing/email_marketing/unsubscriptions.md)
+- [Email Marketing](../email_marketing.md)
+- [Manage unsubscriptions (blacklist)](unsubscriptions.md)

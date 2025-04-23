@@ -10,7 +10,7 @@ predetermined interval.
 
 This documentation only details the configuration options that are unique to *Measure* quality
 checks and . For a full overview of all the configuration options available when creating a
-single check or a , see the documentation on [quality checks](applications/inventory_and_mrp/quality/quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+single check or a , see the documentation on [quality checks](../quality_management/quality_checks.md#quality-quality-management-quality-checks) and [quality control points](../quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
 
 ### Quality check
 
@@ -104,7 +104,7 @@ Alert opens a quality alert form on a new page.
 
 #### SEE ALSO
 For a complete guide on how to fill out the quality alert form, view the documentation on
-[quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md).
+[quality alerts](../quality_management/quality_alerts.md).
 
 ### On a work order
 
@@ -164,4 +164,4 @@ window.
 
 #### SEE ALSO
 For a complete guide on how to fill out quality alert forms, view the documentation on
-[quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md).
+[quality alerts](../quality_management/quality_alerts.md).

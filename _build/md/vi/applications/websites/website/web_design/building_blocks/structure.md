@@ -1,6 +1,6 @@
 # Cấu trúc lương
 
-The website configurator provides a range of Structure [building blocks](applications/websites/website/web_design/building_blocks.md) to design your website's layout, including headings, images, and text.
+The website configurator provides a range of Structure [building blocks](../building_blocks.md) to design your website's layout, including headings, images, and text.
 
 Below are presented two types of structure blocks: [Banner](#structure-banner) and
 [Masonry](#structure-masonry).

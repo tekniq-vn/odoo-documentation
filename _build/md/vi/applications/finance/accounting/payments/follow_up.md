@@ -16,8 +16,8 @@ available by default under the Notification tab, and the **name** as well as the
 **number of days** can be changed. The follow-up Actions available are:
 
 - Gửi email;
-- [Send a Letter](applications/finance/accounting/customer_invoices/snailmail.md#customer-invoices-snailmail);
-- [Send an SMS message](applications/marketing/sms_marketing/pricing_and_faq.md#pricing-pricing-and-faq).
+- [Send a Letter](../customer_invoices/snailmail.md#customer-invoices-snailmail);
+- [Send an SMS message](../../../marketing/sms_marketing/pricing_and_faq.md#pricing-pricing-and-faq).
 
 You can use a pre-filled template for your messages by selecting a Content Template. To
 change the template used, hover over the field and click the -->. If enabled, SMS
@@ -76,6 +76,6 @@ select all the reports you would like to process, click on the Action gear icon,
 select Process follow-ups.
 
 #### SEE ALSO
-- [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)
-- [SMS Pricing and FAQ](applications/marketing/sms_marketing/pricing_and_faq.md)
-- [Snailmail](applications/finance/accounting/customer_invoices/snailmail.md)
+- [Mua hàng trong ứng dụng (IAP)](../../../essentials/in_app_purchase.md)
+- [SMS Pricing and FAQ](../../../marketing/sms_marketing/pricing_and_faq.md)
+- [Snailmail](../customer_invoices/snailmail.md)

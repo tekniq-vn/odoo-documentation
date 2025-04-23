@@ -46,10 +46,10 @@ of the form, and update any missing or incorrect fields:
   the drop-down menu in this field.
 - Invoice Address: physical address where the invoice should be sent.
 - Delivery Address: physical address where any products should be delivered.
-- Quotation Template: if applicable, select a pre-configured [quotation template](applications/sales/sales/send_quotations/quote_template.md) from this field.
+- Quotation Template: if applicable, select a pre-configured [quotation template](../../sales/send_quotations/quote_template.md) from this field.
 - Expiration: date when this quotation is no longer valid.
 - Quotation Date: creation date of draft/sent orders, confirmation date of confirmed
-  orders. Note that this field is only visible if [Developer mode (debug mode)](applications/general/developer_mode.md) is active.
+  orders. Note that this field is only visible if [Developer mode (debug mode)](../../../general/developer_mode.md) is active.
 - Recurring Plan: if this quotation is for a recurring product or subscription, select
   the recurring plan configuration to be used.
 - Pricelist: select a pricelist to be applied to this order.

@@ -23,7 +23,7 @@ Each appraisal card displays the following information:
 - **Department**: the department the employee is associated with.
 - **Company**: the company the employee works for. This only appears in a multi-company database.
 - **Date**: the date the appraisal was requested, or is scheduled for in the future.
-- **Activities**: any [activities](applications/essentials/activities.md) that are scheduled for the
+- **Activities**: any [activities](../../essentials/activities.md) that are scheduled for the
   appraisal, such as *Meetings* or *Phone Calls*.
 - **Manager**: the employee's manager, indicated by the profile icon in the bottom-right corner of
   an appraisal card.
@@ -142,7 +142,7 @@ Visible to Employee.
 
 Part of an appraisal is evaluating an employee's skills, and tracking their progress over time. The
 Skills tab of the appraisal form auto-populates with the skills from the [employee
-form](applications/hr/employees/new_employee.md#employees-skills), once an appraisal is confirmed.
+form](../employees/new_employee.md#employees-skills), once an appraisal is confirmed.
 
 Each skill is grouped with like skills, and the Skill Level, Progress, and
 Justification are displayed for each skill.
@@ -154,7 +154,7 @@ Justification field, such as `took a fluency language test` or `received Javascr
 certification`.
 
 #### SEE ALSO
-Refer to the [Create a new employee](applications/hr/employees/new_employee.md#employees-skills) document for detailed instructions
+Refer to the [Create a new employee](../employees/new_employee.md#employees-skills) document for detailed instructions
 on adding or updating a skill.
 
 After an appraisal is completed, and the skills have been updated, the next time an appraisal is
@@ -226,7 +226,7 @@ the Appraisal app dashboard, then click on an appraisal card.
 Next, click on the <i class="fa fa-calendar"></i> Meeting smart button, and the calendar loads.
 Follow the same directions above to create the meeting.
 
-For more detailed information on how to schedule activities, refer to the [activities](applications/essentials/activities.md) documentation.
+For more detailed information on how to schedule activities, refer to the [activities](../../essentials/activities.md) documentation.
 
 #### NOTE
 If no meetings are scheduled, the Meeting smart button reads No Meeting.
@@ -241,6 +241,6 @@ Once the appraisal is marked as *Done*, the Mark as Done button disappears, and 
 Reopen button appears.
 
 #### SEE ALSO
-- [Mục tiêu](applications/hr/appraisals/goals.md)
-- [Appraisal analysis](applications/hr/appraisals/appraisal_analysis.md)
-- [Tiến triển kỹ năng](applications/hr/appraisals/skills_evolution.md)
+- [Mục tiêu](goals.md)
+- [Appraisal analysis](appraisal_analysis.md)
+- [Tiến triển kỹ năng](skills_evolution.md)

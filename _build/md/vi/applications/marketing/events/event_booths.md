@@ -14,7 +14,7 @@ Booth Management checkbox. Then, click Save.
 ![The Booth Management setting in the Odoo Events application.](../../../.gitbook/assets/booth-management-setting.png)
 
 #### IMPORTANT
-When the Booth Management setting is activated, a new [Product Type](applications/inventory_and_mrp/inventory/product_management/configure/type.md) becomes available on all
+When the Booth Management setting is activated, a new [Product Type](../../inventory_and_mrp/inventory/product_management/configure/type.md) becomes available on all
 product forms: *Event Booth*.
 
 This is important because every created booth **must** be assigned a *Booth Category* on their
@@ -176,7 +176,7 @@ design tools.
 In the Customize tab, click the toggle switch for Sub-Menu (Specific), and
 click Save. Doing so reveals the event subheader menu with various options.
 
-Alternatively, enter [Debug mode](applications/general/developer_mode.md), and open the specific event
+Alternatively, enter [Debug mode](../../general/developer_mode.md), and open the specific event
 form in the the *Events* application.
 
 On the event form, with *Debug mode* on, an array of subheader menu options appears. Tick the
@@ -222,5 +222,5 @@ of the form.
 Click the *Sponsors* smart button to modify any information about the sponsor, if necessary.
 
 #### SEE ALSO
-- [Create events](applications/marketing/events/create_events.md)
-- [Sell event tickets](applications/marketing/events/sell_tickets.md)
+- [Create events](create_events.md)
+- [Sell event tickets](sell_tickets.md)

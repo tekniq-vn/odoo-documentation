@@ -4,7 +4,7 @@ Quality checks are manual inspections conducted by employees, and are used to en
 products. In Odoo, a quality check can be conducted for a single product, or multiple products
 within the same inventory operation or manufacturing order.
 
-Khi sử dụng Điểm kiểm soát chất lượng (QCP), bạn có thể tạo các kiểm tra chất lượng tự động theo các khoảng thời gian định kỳ. Khi các kiểm tra chất lượng được tạo bởi một , chúng sẽ xuất hiện trên lệnh sản xuất hoặc phiếu kho, nơi nhân viên xử lý đơn hàng sẽ được yêu cầu hoàn thành chúng. Để tìm hiểu chi tiết về cách tạo và cấu hình một , hãy tham khảo tài liệu về [điểm kiểm soát chất lượng](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points).
+Khi sử dụng Điểm kiểm soát chất lượng (QCP), bạn có thể tạo các kiểm tra chất lượng tự động theo các khoảng thời gian định kỳ. Khi các kiểm tra chất lượng được tạo bởi một , chúng sẽ xuất hiện trên lệnh sản xuất hoặc phiếu kho, nơi nhân viên xử lý đơn hàng sẽ được yêu cầu hoàn thành chúng. Để tìm hiểu chi tiết về cách tạo và cấu hình một , hãy tham khảo tài liệu về [điểm kiểm soát chất lượng](quality_control_points.md#quality-quality-management-quality-control-points).
 
 While quality checks are most commonly created automatically by a , it is also possible to
 manually create a single quality check. Creating a check manually is useful when an employee wants
@@ -63,7 +63,7 @@ inventory order for which a check is required. Alternatively, if a quality check
 specific work order operation, the check is processed in the *Shop Floor* module.
 
 #### NOTE
-Không thể tạo thủ công một kiểm tra chất lượng đơn lẻ được gán cho một công đoạn sản xuất cụ thể. Các kiểm tra chất lượng cho công đoạn chỉ có thể được tạo tự động thông qua . Tham khảo tài liệu về [Điểm kiểm soát chất lượng](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points) để biết cách cấu hình  nhằm tạo kiểm tra chất lượng cho từng công đoạn cụ thể.
+Không thể tạo thủ công một kiểm tra chất lượng đơn lẻ được gán cho một công đoạn sản xuất cụ thể. Các kiểm tra chất lượng cho công đoạn chỉ có thể được tạo tự động thông qua . Tham khảo tài liệu về [Điểm kiểm soát chất lượng](quality_control_points.md#quality-quality-management-quality-control-points) để biết cách cấu hình  nhằm tạo kiểm tra chất lượng cho từng công đoạn cụ thể.
 
 ### Quality check page
 
@@ -102,7 +102,7 @@ Work Orders pop-up window, click the Open Shop Floor button to open the
 *Shop Floor* module.
 
 #### SEE ALSO
-For a full guide to the Shop Floor module, see the [Shop Floor overview](applications/inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.md) documentation.
+For a full guide to the Shop Floor module, see the [Shop Floor overview](../../manufacturing/shop_floor/shop_floor_overview.md) documentation.
 
 When accessed from a specific work order, the *Shop Floor* module opens to the page for the work
 center where the order is configured to be processed, and isolates the work order's card so that no
@@ -120,7 +120,7 @@ step. Doing so automatically marks the check as *Passed*.
 The specific steps for processing a quality check depend upon the type of check being conducted.
 For information about processing each type of quality check, see the associated documentation:
 
-- [Instructions quality check](applications/inventory_and_mrp/quality/quality_check_types/instructions_check.md)
-- [Pass - Fail quality check](applications/inventory_and_mrp/quality/quality_check_types/pass_fail_check.md)
-- [Measure quality check](applications/inventory_and_mrp/quality/quality_check_types/measure_check.md)
-- [Take a Picture quality check](applications/inventory_and_mrp/quality/quality_check_types/picture_check.md)
+- [Instructions quality check](../quality_check_types/instructions_check.md)
+- [Pass - Fail quality check](../quality_check_types/pass_fail_check.md)
+- [Measure quality check](../quality_check_types/measure_check.md)
+- [Take a Picture quality check](../quality_check_types/picture_check.md)

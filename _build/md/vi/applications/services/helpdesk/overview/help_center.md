@@ -10,7 +10,7 @@ share detailed information about products and services.
 
 To activate any *Help Center* features (*Forums*, *eLearning*, or *Knowledge*) on a *Helpdesk* team,
 go to Helpdesk app ‣ Configuration ‣ Helpdesk Teams and select a team, or
-create a [new one](applications/services/helpdesk.md). Verify the Visibility of the team is set to
+create a [new one](../../helpdesk.md). Verify the Visibility of the team is set to
 Invited portal users and all internal users (public) in the Visibility &
 Assignment section.
 
@@ -19,7 +19,7 @@ activate any of the *Help Center* features. When one or more of the *Help Center
 enabled, the Website Form is automatically enabled, as well.
 
 #### SEE ALSO
-[Helpdesk Overview](applications/services/helpdesk.md)
+[Helpdesk Overview](../../helpdesk.md)
 
 ## Kiến thức
 
@@ -32,7 +32,7 @@ Knowledge (bookmark) icon.
 ### Enable Knowledge on a Helpdesk team
 
 To enable the *Knowledge* feature on a *Helpdesk* team, go to Helpdesk app ‣
-Configuration ‣ Helpdesk Teams and select a team, or create a [new one](applications/services/helpdesk.md).
+Configuration ‣ Helpdesk Teams and select a team, or create a [new one](../../helpdesk.md).
 
 When a team has been selected or created, Odoo displays that team's detail form.
 
@@ -48,7 +48,7 @@ Once an article has been created and assigned to a *Helpdesk* team, content can 
 organized through the *Knowledge* app.
 
 #### SEE ALSO
-[Editing Knowledge articles](applications/productivity/knowledge/articles_editing.md)
+[Editing Knowledge articles](../../../productivity/knowledge/articles_editing.md)
 
 ### Search articles from a Helpdesk ticket
 
@@ -97,7 +97,7 @@ answering customer tickets, and minimize the amount of time spent on responding 
 To create a clipboard box, go to Knowledge app ‣ Help. Click on an existing
 nested article or create a new one by clicking the ➕ (plus sign) icon next to *Help*.
 
-Type `/` to open the *powerbox*, and view a drop-down list of [commands](applications/productivity/knowledge/articles_editing.md). Select or type `clipboard`. A gray block is
+Type `/` to open the *powerbox*, and view a drop-down list of [commands](../../../productivity/knowledge/articles_editing.md). Select or type `clipboard`. A gray block is
 then added to the page. Add any necessary content to this block.
 
 ![View of a clipboard in knowledge with focus on send and copy options.](../../../../.gitbook/assets/help-center-knowledge-clipboard-options.png)
@@ -137,7 +137,7 @@ converted to posts and shared.
 
 To enable Community Forums on a *Helpdesk* team, start by navigating to
 Helpdesk app ‣ Configuration ‣ Helpdesk Teams and select a team, or create a
-[new one](applications/services/helpdesk.md).
+[new one](../../helpdesk.md).
 
 Selecting or creating a team reveals that team's detail form. Scroll down to the Help
 Center section of features, and enable Community Forum, by checking the box beside it.
@@ -153,7 +153,7 @@ To create a new forum, type a name into the blank Forums field, then click the
 Create and Edit option. Multiple forums can be selected in this field.
 
 #### SEE ALSO
-[Forum documentation](applications/websites/forum.md)
+[Forum documentation](../../../websites/forum.md)
 
 ### Create a forum post from a Helpdesk ticket
 
@@ -184,7 +184,7 @@ services and products they are using.
 ### Enable eLearning courses on a Helpdesk team
 
 To enable *eLearning* courses on a *Helpdesk* team, go to Helpdesk app ‣
-Configuration ‣ Helpdesk Teams and select a team, or create a [new one](applications/services/helpdesk.md).
+Configuration ‣ Helpdesk Teams and select a team, or create a [new one](../../helpdesk.md).
 
 On the team's settings page, scroll to the Help Center section, and check the box next
 to eLearning. A new field appears below, labeled Courses.

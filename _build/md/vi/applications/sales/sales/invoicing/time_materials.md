@@ -134,7 +134,7 @@ in the Invoice Lines tab.
 Click Confirm to confirm the invoice and continue with the invoicing process.
 
 #### SEE ALSO
-[Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)
+[Invoice based on delivered or ordered quantities](invoicing_policy.md)
 
 ## Cấu hình chi phí
 

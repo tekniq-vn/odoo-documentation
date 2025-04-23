@@ -6,7 +6,7 @@ requirements.
 #### SEE ALSO
 - [Odoo Tutorials: Managing Equipment Maintenance](https://www.odoo.com/slides/slide/managing-equipment-maintenance-709)
 
-* [Add new equipment](applications/inventory_and_mrp/maintenance/add_new_equipment.md)
-* [Maintenance calendar](applications/inventory_and_mrp/maintenance/maintenance_calendar.md)
-* [Maintenance requests](applications/inventory_and_mrp/maintenance/maintenance_requests.md)
-* [Maintenance setup](applications/inventory_and_mrp/maintenance/maintenance_setup.md)
+* [Add new equipment](maintenance/add_new_equipment.md)
+* [Maintenance calendar](maintenance/maintenance_calendar.md)
+* [Maintenance requests](maintenance/maintenance_requests.md)
+* [Maintenance setup](maintenance/maintenance_setup.md)

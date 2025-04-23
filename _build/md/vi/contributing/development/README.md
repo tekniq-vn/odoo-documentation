@@ -1,13 +1,13 @@
 # Development
 
-* [Coding guidelines](contributing/development/coding_guidelines.md)
-* [Git guidelines](contributing/development/git_guidelines.md)
+* [Coding guidelines](development/coding_guidelines.md)
+* [Git guidelines](development/git_guidelines.md)
 
 If you are reading this, chances are that you are interested in learning how to contribute to the
 codebase of Odoo. Whether that's the case or you landed here by accident, we've got you covered!
 
 #### SEE ALSO
-[Discover other ways to contribute to Odoo](contributing.md)
+[Discover other ways to contribute to Odoo](../contributing.md)
 
 When you feel ready, jump to the [Environment setup](#contributing-development-setup) section to begin your journey
 in contributing to the development of Odoo.
@@ -51,7 +51,7 @@ and then push them to GitHub. Skip this section and go to
    $ git config --global user.name "Your Name"
    $ git config --global user.email "youremail@example.com"
    ```
-6. [Install Odoo from the sources](administration/on_premise/source.md). Make sure to fetch
+6. [Install Odoo from the sources](../administration/on_premise/source.md). Make sure to fetch
    the sources through Git with SSH.
 7. Configure Git to push changes to your fork(s) rather than to the main codebase. If you work at
    Odoo, configure Git to push changes to the shared forks created on the account **odoo-dev**.
@@ -90,14 +90,14 @@ and then push them to GitHub. Skip this section and go to
 #### IMPORTANT
 - Odoo development can be challenging for beginners. We recommend you to be knowledgeable enough
   to code a small module before contributing. If that is not the case, take some time to go
-  through the [developer tutorials](developer/tutorials.md) to fill in the gaps.
+  through the [developer tutorials](../developer/tutorials.md) to fill in the gaps.
 - Some steps of this guide require to be comfortable with Git. Here are some [tutorials](https://www.atlassian.com/git/tutorials) and an [interactive training](https://learngitbranching.js.org/) if you are stuck at some point.
 
 Now that your environment is set up, you can start contributing to the codebase. In a terminal,
 navigate to the directory where you installed Odoo from sources and follow the guide below.
 
 1. Choose the version of Odoo to which you want to make changes. Keep in mind that contributions
-   targeting an [unsupported version of Odoo](administration/supported_versions.md) are not
+   targeting an [unsupported version of Odoo](../administration/supported_versions.md) are not
    accepted. This guide assumes that the changes target Odoo 17, which corresponds to
    branch `17.0`.
 2. Create a new branch starting from branch 17.0. Prefix the branch name with the base
@@ -110,11 +110,11 @@ navigate to the directory where you installed Odoo from sources and follow the g
      at a time rather than tackle multiple unrelated changes simultaneously.
    - Respect the [stable policy](https://github.com/odoo/odoo/wiki/Contributing#what-does-stable-mean) when working in
      another branch than `master`.
-   - Follow the [coding guidelines](contributing/development/coding_guidelines.md).
-   - Test your changes thoroughly and [write tests](developer/reference/backend/testing.md) to
+   - Follow the [coding guidelines](development/coding_guidelines.md).
+   - Test your changes thoroughly and [write tests](../developer/reference/backend/testing.md) to
      ensure that everything is working as expected and that there are no regressions or unintended
      consequences.
-5. Commit your changes. Write a clear commit message as instructed in the [Git guidelines](contributing/development/git_guidelines.md).
+5. Commit your changes. Write a clear commit message as instructed in the [Git guidelines](development/git_guidelines.md).
    ```console
    $ git add .
    $ git commit

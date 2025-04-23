@@ -37,7 +37,7 @@ upper-left corner of the Settings page.
 ## Event Tracks page
 
 To access, modify, and/or create tracks for an event, first navigate to a preconfigured event, or
-[create a new one](applications/marketing/events/create_events.md) from the *Events* application.
+[create a new one](create_events.md) from the *Events* application.
 
 To do that, navigate to Events app, and either select a pre-existing event from the
 Events dashboard, or create a new one by clicking New.
@@ -256,5 +256,5 @@ Một phần nội dung của sự kiện *cũng* có thể được công bố 
 ![The track-related event submenu options on an event website built with Odoo Events.](../../../.gitbook/assets/published-toggle.png)
 
 #### SEE ALSO
-- [Create events](applications/marketing/events/create_events.md)
-- [Talks, proposals, and agenda](applications/marketing/events/track_manage_talks.md)
+- [Create events](create_events.md)
+- [Talks, proposals, and agenda](track_manage_talks.md)

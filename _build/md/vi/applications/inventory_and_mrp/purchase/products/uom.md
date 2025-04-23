@@ -70,7 +70,7 @@ of measure, you can enter 1.
 ![Create a new reference unit of measure in Odoo Purchase](../../../../.gitbook/assets/uom-new-reference-unit.png)
 
 #### NOTE
-Nếu bạn sử dụng  *Độ chính xác làm tròn* nhỏ hơn 0,01, một cảnh báo có thể xuất hiện để thông báo rằng nó cao hơn  *Độ chính xác thập phân* và có thể gây ra sự không nhất quán. Nếu bạn muốn sử dụng  *Độ chính xác làm tròn* nhỏ hơn 0,01, trước tiên hãy kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), sau đó đi tới Cài đặt ‣ Kỹ thuật ‣ Cấu trúc cơ sở dữ liệu ‣ Độ chính xác thập phân, chọn  *Đơn vị tính sản phẩm* và chỉnh sửa *Số chữ số* cho phù hợp. Ví dụ, nếu bạn muốn sử dụng độ chính xác làm tròn là 0,00001, hãy đặt *Số chữ số* thành 5.
+Nếu bạn sử dụng  *Độ chính xác làm tròn* nhỏ hơn 0,01, một cảnh báo có thể xuất hiện để thông báo rằng nó cao hơn  *Độ chính xác thập phân* và có thể gây ra sự không nhất quán. Nếu bạn muốn sử dụng  *Độ chính xác làm tròn* nhỏ hơn 0,01, trước tiên hãy kích hoạt [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode), sau đó đi tới Cài đặt ‣ Kỹ thuật ‣ Cấu trúc cơ sở dữ liệu ‣ Độ chính xác thập phân, chọn  *Đơn vị tính sản phẩm* và chỉnh sửa *Số chữ số* cho phù hợp. Ví dụ, nếu bạn muốn sử dụng độ chính xác làm tròn là 0,00001, hãy đặt *Số chữ số* thành 5.
 
 Next, create a second unit of measure, name it, and select the same units of measure category as
 your reference unit. As *Type*, select *Smaller* or *Bigger than the reference Unit of Measure*,

@@ -178,7 +178,7 @@ after the first user does not pick up the call.
 #### IMPORTANT
 The Odoo mobile app, or another  mobile client, allows
 for simultaneous ringing of the user's extension or incoming number. For more information, visit
-the [VoIP Mobile Integrations](applications/productivity/voip/devices_integrations.md) documentation.
+the [VoIP Mobile Integrations](../devices_integrations.md) documentation.
 
 Once all desired configurations are complete, click Save, then click Apply
 changes in the upper-right corner.
@@ -225,8 +225,8 @@ form, contains credentials needed to configure Axivox users in Odoo and/or a dif
 #### SEE ALSO
 See the documentation on configuring Axivox, using the SIP identifiers:
 
-- [Use VoIP services in Odoo with Axivox](applications/productivity/voip/axivox/axivox_config.md)
-- [Axivox Mobile Integrations](applications/productivity/voip/devices_integrations.md)
+- [Use VoIP services in Odoo with Axivox](axivox_config.md)
+- [Axivox Mobile Integrations](../devices_integrations.md)
 
 Under the SIP Identifiers tab, the SIP username field represents the user's
 information that was entered in the Extension field, under the General tab.

@@ -124,11 +124,11 @@ upper-right corner of the database header.
 ![Use Discuss across other applications by clicking the speech bubbles.](../../.gitbook/assets/discuss-in-other-apps.png)
 
 #### SEE ALSO
-- [Use channels for team communication](applications/productivity/discuss/team_communication.md)
-- [Hoạt động](applications/essentials/activities.md)
-- [Configure ICE servers with Twilio](applications/productivity/discuss/ice_servers.md)
-- [Chatter](applications/productivity/discuss/chatter.md)
+- [Use channels for team communication](discuss/team_communication.md)
+- [Hoạt động](../essentials/activities.md)
+- [Configure ICE servers with Twilio](discuss/ice_servers.md)
+- [Chatter](discuss/chatter.md)
 
-* [Use channels for team communication](applications/productivity/discuss/team_communication.md)
-* [Configure ICE servers with Twilio](applications/productivity/discuss/ice_servers.md)
-* [Chatter](applications/productivity/discuss/chatter.md)
+* [Use channels for team communication](discuss/team_communication.md)
+* [Configure ICE servers with Twilio](discuss/ice_servers.md)
+* [Chatter](discuss/chatter.md)

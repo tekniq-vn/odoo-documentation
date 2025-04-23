@@ -24,7 +24,7 @@ IoT Box model 3
 Connect the screen with an HDMI cable on the side of the  box.
 
 #### SEE ALSO
-[See the Raspberry Pi Schema](applications/sales/point_of_sale/configuration/pos_iot.md#pos-pos-iot-connect-schema).
+[See the Raspberry Pi Schema](../../../sales/point_of_sale/configuration/pos_iot.md#pos-pos-iot-connect-schema).
 
 #### IMPORTANT
 Screen(s) should be connected before the  box is switched on. If

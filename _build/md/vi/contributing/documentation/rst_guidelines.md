@@ -1,7 +1,7 @@
 # RST guidelines and cheat sheet
 
 #### IMPORTANT
-We strongly recommend reading the [Content guidelines](contributing/documentation/content_guidelines.md) and main [Documentation](contributing/documentation.md)
+We strongly recommend reading the [Content guidelines](content_guidelines.md) and main [Documentation](../documentation.md)
 pages before contributing.
 
 Follow the RST guidelines below when contributing to the documentation to help maintain consistency
@@ -220,7 +220,7 @@ Use the `command` markup to highlight a command.
 ### Icons
 
 Use the `icon` markup to add the class name of an icon. There are two icon sets used in Odoo:
-[FontAwesome4](https://fontawesome.com/v4/icons/) and [Odoo UI](developer/reference/user_interface/icons.md). Follow the icon with its name as a
+[FontAwesome4](https://fontawesome.com/v4/icons/) and [Odoo UI](../../developer/reference/user_interface/icons.md). Follow the icon with its name as a
 [GUI element](#contributing-rst-guilabel) in brackets as a descriptor.
 
 | The graph view is represented by the <i class="fa fa-area-chart"></i> (area chart) icon. The<br/>pivot view is represented by the <i class="oi oi-view-pivot"></i> icon.           |
@@ -335,7 +335,7 @@ relative file path. There are two ways to use the markup, both using the `doc` m
 2. `:doc:`label <path_to_doc_page>`` creates a hyperlink to the documentation page with the given
    label.
 
-| Please refer to the [Accounting documentation](applications/finance/accounting.md) to learn more about<br/>[Hóa đơn bán hàng](applications/finance/accounting/customer_invoices.md).                          |
+| Please refer to the [Accounting documentation](../../applications/finance/accounting.md) to learn more about<br/>[Hóa đơn bán hàng](../../applications/finance/accounting/customer_invoices.md).              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```text<br/>Please refer to the :doc:`Accounting documentation <../../../applications/finance/accounting>`<br/>to learn more about :doc:`../../../applications/finance/accounting/customer_invoices`.<br/>``` |
 
@@ -353,7 +353,7 @@ The `download` markup allows referencing files (that are not necessarily  docume
 | ```text<br/>Download this :download:`module structure template <rst_guidelines/my_module.zip>` to start building your module.<br/>``` |
 
 #### NOTE
-Store the file alongside other [media files](contributing/documentation/content_guidelines.md#contributing-content-media-files) and
+Store the file alongside other [media files](content_guidelines.md#contributing-content-media-files) and
 reference it using a [relative link](#contributing-rst-relative-links).
 
 <a id="contributing-rst-images"></a>
@@ -367,7 +367,7 @@ The `image` markup allows inserting images in a document.
 | ```text<br/>.. image:: rst_guidelines/create-invoice.png<br/>   :alt: Create an invoice.<br/>``` |
 
 #### SEE ALSO
-[Content guidelines for images](contributing/documentation/content_guidelines.md#contributing-content-images)
+[Content guidelines for images](content_guidelines.md#contributing-content-images)
 
 <a id="contributing-rst-alert-blocks"></a>
 
@@ -377,7 +377,7 @@ The `image` markup allows inserting images in a document.
 
 ### See also
 
-| #### SEE ALSO<br/>- [Accounting documentation](applications/finance/accounting.md)<br/>- [Hóa đơn chiếu lệ](applications/sales/sales/invoicing/proforma.md)<br/>- [Google documentation on setting up Analytics for a website](https://support.google.com/analytics/answer/1008015?hl=en/)                           |
+| #### SEE ALSO<br/>- [Accounting documentation](../../applications/finance/accounting.md)<br/>- [Hóa đơn chiếu lệ](../../applications/sales/sales/invoicing/proforma.md)<br/>- [Google documentation on setting up Analytics for a website](https://support.google.com/analytics/answer/1008015?hl=en/)               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```text<br/>.. seealso::<br/>- :doc:`Accounting documentation <../../../applications/finance/accounting>`<br/>- :doc:`../../../applications/sales/sales/invoicing/proforma`<br/>- `Google documentation on setting up Analytics for a website <https://support.google.com/analytics/answer/1008015?hl=en/>`_<br/>``` |
 
@@ -557,17 +557,17 @@ syntax rules. If a label is set, it is used for grouping tabs instead of the lan
 metadata markups that specify a behavior for the entire page. They must be placed between colons
 (`:`) at the top of the source file.
 
-| **Metadata**    | **Purpose**                                                                                                                                                                                                                           |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `show-content`  | Make a toctree page accessible from the navigation menu.                                                                                                                                                                              |
-| `show-toc`      | Show the table of content on a page that has the `show-content` metadata<br/>markup.                                                                                                                                                  |
-| `hide-page-toc` | Hide the "On this page" sidebar and use full page width for the content.                                                                                                                                                              |
-| `nosearch`      | Exclude the document from search results.                                                                                                                                                                                             |
-| `orphan`        | Suppress the need to include the document in a toctree.                                                                                                                                                                               |
-| `code-column`   | Show a dynamic side column that can be used to display interactive<br/>tutorials or code excerpts.<br/><br/><br/>For example, see<br/>[Accounting cheat sheet](applications/finance/accounting/get_started/cheat_sheet.md).<br/><br/> |
-| `custom-css`    | Link CSS files (comma-separated) to the file.                                                                                                                                                                                         |
-| `custom-js`     | Link JS files (comma-separated) to the document.                                                                                                                                                                                      |
-| `classes`       | Assign the specified classes to the `<main/>` element of the file.                                                                                                                                                                    |
+| **Metadata**    | **Purpose**                                                                                                                                                                                                                                 |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `show-content`  | Make a toctree page accessible from the navigation menu.                                                                                                                                                                                    |
+| `show-toc`      | Show the table of content on a page that has the `show-content` metadata<br/>markup.                                                                                                                                                        |
+| `hide-page-toc` | Hide the "On this page" sidebar and use full page width for the content.                                                                                                                                                                    |
+| `nosearch`      | Exclude the document from search results.                                                                                                                                                                                                   |
+| `orphan`        | Suppress the need to include the document in a toctree.                                                                                                                                                                                     |
+| `code-column`   | Show a dynamic side column that can be used to display interactive<br/>tutorials or code excerpts.<br/><br/><br/>For example, see<br/>[Accounting cheat sheet](../../applications/finance/accounting/get_started/cheat_sheet.md).<br/><br/> |
+| `custom-css`    | Link CSS files (comma-separated) to the file.                                                                                                                                                                                               |
+| `custom-js`     | Link JS files (comma-separated) to the document.                                                                                                                                                                                            |
+| `classes`       | Assign the specified classes to the `<main/>` element of the file.                                                                                                                                                                          |
 
 <a id="contributing-rst-formatting-tips"></a>
 

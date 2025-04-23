@@ -33,7 +33,7 @@ Hopefully, this video will be recorded soon :-)
 ## Prepare the addon directory
 
 **Reference**: the documentation related to this topic can be found in
-[manifest](developer/reference/backend/module.md#reference-module-manifest).
+[manifest](../../reference/backend/module.md#reference-module-manifest).
 
 #### NOTE
 **Goal**: the goal of this section is to have Odoo recognize our new module, which will
@@ -62,9 +62,9 @@ Restart the Odoo server and go to Apps. Click on Update Apps List, search for `e
 tadaaa, your module appears! Did it not appear? Maybe try removing the default 'Apps' filter ;-)
 
 #### WARNING
-Remember to enable the [developer mode](applications/general/developer_mode.md#developer-mode) as explained in the previous
+Remember to enable the [developer mode](../../../applications/general/developer_mode.md#developer-mode) as explained in the previous
 chapter. You won't see the Update Apps List button otherwise.
 
 You can even install the module! But obviously it's an empty shell, so no menu will appear.
 
-All good? If yes, then let's [create our first model](developer/tutorials/server_framework_101/03_basicmodel.md)!
+All good? If yes, then let's [create our first model](03_basicmodel.md)!

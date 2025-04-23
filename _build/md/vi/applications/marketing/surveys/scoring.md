@@ -42,4 +42,4 @@ badges.
 ![Example of how a badge looks on the eLearning portion of the website.](../../../.gitbook/assets/frontend-badges.png)
 
 #### SEE ALSO
-[Create questions](applications/marketing/surveys/questions.md)
+[Create questions](questions.md)

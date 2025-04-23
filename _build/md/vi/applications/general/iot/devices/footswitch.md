@@ -34,4 +34,4 @@ On the Work Order screen, a status graphic indicates whether the database is
 correctly connected to the footswitch.
 
 #### SEE ALSO
-[Tích hợp với thiết bị IoT](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)
+[Tích hợp với thiết bị IoT](../../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)

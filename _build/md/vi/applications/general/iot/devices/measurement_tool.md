@@ -46,8 +46,8 @@ Measure. Access a new quality check detail page, by navigating to
 Quality app ‣ Quality Control ‣ Quality Checks ‣ New.
 
 #### SEE ALSO
-- [Quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md)
-- [Quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md)
+- [Quality control points](../../../inventory_and_mrp/quality/quality_management/quality_control_points.md)
+- [Quality alerts](../../../inventory_and_mrp/quality/quality_management/quality_alerts.md)
 
 ## Link a measurement tool to a work center in the Manufacturing app
 
@@ -69,4 +69,4 @@ On the Work Order screen, a status graphic indicates whether the database is
 correctly connected to the measurement tool.
 
 #### SEE ALSO
-[Tích hợp với thiết bị IoT](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)
+[Tích hợp với thiết bị IoT](../../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md#workcenter-iot)

@@ -28,7 +28,7 @@ Printers can take up to two minutes to appear in the IoT app Devices list.
 Work orders can be linked to printers, via a quality control point, to print labels for
 manufactured products.
 
-In the [Quality app](applications/inventory_and_mrp/quality.md), a device can be set up on a
+In the [Quality app](../../../inventory_and_mrp/quality.md), a device can be set up on a
 quality control point. To do so, go to the Quality ‣ Quality Control ‣ Control
 Points, and open the desired control point.
 
@@ -46,12 +46,12 @@ is reached during the manufacturing process, the database presents the option to
 specific product.
 
 #### NOTE
-On a [quality check form](applications/inventory_and_mrp/quality/quality_management/quality_checks.md), the
+On a [quality check form](../../../inventory_and_mrp/quality/quality_management/quality_checks.md), the
 Type of check can also be set to Print Label.
 
 #### SEE ALSO
-- [Quality control points](applications/inventory_and_mrp/quality/quality_management/quality_control_points.md)
-- [Quality alerts](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md)
+- [Quality control points](../../../inventory_and_mrp/quality/quality_management/quality_control_points.md)
+- [Quality alerts](../../../inventory_and_mrp/quality/quality_management/quality_alerts.md)
 
 <a id="iot-link-printer"></a>
 
@@ -86,14 +86,14 @@ the Printer Reports tab.
 ![A list of reports currently linked to a printer in the IoT app.](../../../../.gitbook/assets/clear-reports.png)
 
 #### SEE ALSO
-[POS Order Printing](applications/sales/point_of_sale/restaurant/kitchen_printing.md)
+[POS Order Printing](../../../sales/point_of_sale/restaurant/kitchen_printing.md)
 
 ## Potential issues
 
 ### The printer is not detected
 
-If a printer does not appear in the devices list, go to the [IoT box's](applications/general/iot/iot_box.md#iot-iot-box-homepage)
-or [Windows virtual IoT's](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) homepage, click Show in
+If a printer does not appear in the devices list, go to the [IoT box's](../iot_box.md#iot-iot-box-homepage)
+or [Windows virtual IoT's](../windows_iot.md#iot-windows-iot-homepage) homepage, click Show in
 the Devices section, and make sure the printer is listed.
 
 If the printer does not appear on the IoT system's homepage, click Printer Server, then
@@ -141,7 +141,7 @@ First, review Epson's website for compatibility for both the [GS v 0](https://do
 If the printer is incompatible with `GS v 0` but supports `ESC *`, configure the IoT system to use
 the `ESC *` command as follows:
 
-1. Access the [IoT box's](applications/general/iot/iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](applications/general/iot/windows_iot.md#iot-windows-iot-homepage) homepage.
+1. Access the [IoT box's](../iot_box.md#iot-iot-box-homepage) or [Windows virtual IoT's](../windows_iot.md#iot-windows-iot-homepage) homepage.
 2. Click the Printer server button, then click Administration on the CUPS
    page.
 3. Click Add Printer in the Printers section, select the printer, and click
@@ -170,7 +170,7 @@ the `ESC *` command as follows:
 7. Click Add Printer. If everything was done correctly, the page should redirect to the
    Banners page.
 8. Wait a few minutes for the IoT system to detect the printer and sync to Odoo's server.
-9. [Access the POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the
+9. [Access the POS settings](../../../sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the
    vertical ellipsis button (⋮) on a POS card and click Edit. Scroll down
    to the Connected Devices section, enable IoT Box, and select the printer
    in the Receipt Printer field. Click Save.
@@ -252,7 +252,7 @@ To resolve the delay issue after modifying the driver, reinstall the printer:
 
 ### The Zebra printer does not print anything
 
-Máy in Zebra khá nhạy cảm với định dạng mã Ngôn ngữ lập trình Zebra (ZPL). Nếu không in được gì hoặc in ra nhãn trống, hãy thử thay đổi định dạng báo cáo gửi đến máy in. Để thực hiện, kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), truy cập Cài đặt ‣ Kỹ thuật ‣ Giao diện người dùng ‣ Chế độ xem, và tìm kiếm mẫu tương ứng.
+Máy in Zebra khá nhạy cảm với định dạng mã Ngôn ngữ lập trình Zebra (ZPL). Nếu không in được gì hoặc in ra nhãn trống, hãy thử thay đổi định dạng báo cáo gửi đến máy in. Để thực hiện, kích hoạt [chế độ lập trình viên](../../developer_mode.md#developer-mode), truy cập Cài đặt ‣ Kỹ thuật ‣ Giao diện người dùng ‣ Chế độ xem, và tìm kiếm mẫu tương ứng.
 
 #### SEE ALSO
 [Zebra's instructions on printing ZPL files](https://supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-Printer)
@@ -272,7 +272,7 @@ the device and the language of the database (e.g., English (UK), English
 
 ### Nothing happens when a barcode is scanned
 
-Make sure the correct device is selected in the [Point of Sale settings](applications/sales/point_of_sale/configuration/pos_iot.md) (when applicable) and the barcode is
+Make sure the correct device is selected in the [Point of Sale settings](../../../sales/point_of_sale/configuration/pos_iot.md) (when applicable) and the barcode is
 configured to send an `ENTER` character (keycode 28) at the end of every barcode.
 
 ### The barcode scanner is detected as a keyboard

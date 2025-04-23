@@ -2,7 +2,7 @@
 
 # ORM API
 
-* [Changelog](developer/reference/backend/orm/changelog.md)
+* [Changelog](orm/changelog.md)
 
 <a id="reference-orm-models"></a>
 

@@ -10,7 +10,7 @@ standard terms and provides a tool for manual content translation.
 
 ## Cài đặt ngôn ngữ
 
-Để cho phép dịch trang web của bạn, trước tiên bạn phải [cài đặt](applications/general/users/language.md) các ngôn ngữ cần thiết và thêm chúng vào trang web. Để thực hiện, hãy truy cập Trang web ‣ Cấu hình ‣ Cài đặt và nhấp <i class="fa fa-arrow-right"></i> Cài đặt ngôn ngữ trong phần Thông tin trang web. Trong hộp thoại mở ra, chọn Ngôn ngữ bạn muốn từ menu thả xuống, tích vào Trang web cần dịch và nhấp Thêm.
+Để cho phép dịch trang web của bạn, trước tiên bạn phải [cài đặt](../../../general/users/language.md) các ngôn ngữ cần thiết và thêm chúng vào trang web. Để thực hiện, hãy truy cập Trang web ‣ Cấu hình ‣ Cài đặt và nhấp <i class="fa fa-arrow-right"></i> Cài đặt ngôn ngữ trong phần Thông tin trang web. Trong hộp thoại mở ra, chọn Ngôn ngữ bạn muốn từ menu thả xuống, tích vào Trang web cần dịch và nhấp Thêm.
 
 To edit your website's languages, go to Website -–> Configuration -–> Settings and
 add/remove the required languages in/from the Languages field in the

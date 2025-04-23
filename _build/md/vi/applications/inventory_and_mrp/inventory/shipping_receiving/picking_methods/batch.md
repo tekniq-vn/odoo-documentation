@@ -38,8 +38,8 @@ Outgoing Shipments, select either the Send goods in output and then deliver
 (2 steps) or Pack goods, send goods in output and then deliver (3 steps).
 
 #### SEE ALSO
-- [Delivery in two steps](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md)
-- [Three-step delivery](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md)
+- [Delivery in two steps](../daily_operations/receipts_delivery_two_steps.md)
+- [Three-step delivery](../daily_operations/delivery_three_steps.md)
 
 ![Set up 2-step or 3-step outgoing shipments.](../../../../../.gitbook/assets/set-2-or-3-step-shipment.png)
 

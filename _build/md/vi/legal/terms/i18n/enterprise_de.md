@@ -6,10 +6,10 @@
 Dies ist eine deutsche Übersetzung des "Odoo Enterprise Subscription Agreement". Diese
 Übersetzung soll das Verständnis erleichtern, hat aber keinen rechtlichen Wert. Der einzige
 offizielle Verweis auf die Geschäftsbedingungen des "Odoo Enterprise Subscription Agreement" ist
-[die englische Original version](legal/terms/enterprise.md#enterprise-agreement).
+[die englische Original version](../enterprise.md#enterprise-agreement).
 
 #### WARNING
-DIESE VERSION IST NICHT AKTUELL, FÜR DIE AKTUELLE VERSION SIEHE [original english version](legal/terms/enterprise.md#enterprise-agreement).
+DIESE VERSION IST NICHT AKTUELL, FÜR DIE AKTUELLE VERSION SIEHE [original english version](../enterprise.md#enterprise-agreement).
 
 <!-- v6: add "App" definition + update pricing per-App -->
 <!-- v7: remove possibility of price change at renewal after prior notice -->

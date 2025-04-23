@@ -14,7 +14,7 @@ Activities are the methods of communication or server actions, organized in a wo
 executed within a campaign; they are the building blocks of the campaign's workflow.
 
 A new activity can be added to the workflow on a campaign form by selecting an existing campaign or
-[creating a new campaign](applications/marketing/marketing_automation.md#marketing-automation-campaigns) from the Marketing
+[creating a new campaign](../marketing_automation.md#marketing-automation-campaigns) from the Marketing
 Automation app ‣ Campaigns dashboard, then clicking the Add new activity button in
 the Workflow section. Doing so opens the Create Activities pop-up window.
 
@@ -67,7 +67,7 @@ The title used for the Mail Template **must** be unique from any other mail temp
 titles in the campaign, and it also serves as the subject of the email.
 
 #### SEE ALSO
-[Creating and configuring email templates](applications/marketing/email_marketing.md)
+[Creating and configuring email templates](../email_marketing.md)
 
 <a id="marketing-automation-sa-activity-type"></a>
 
@@ -130,7 +130,7 @@ Once the SMS template is configured, click Save & Close to save the activity, an
 to the Create Activities pop-up window, in order to configure the [trigger](#marketing-automation-trigger).
 
 #### SEE ALSO
-[Creating and configuring SMS templates](applications/marketing/sms_marketing.md)
+[Creating and configuring SMS templates](../sms_marketing.md)
 
 <a id="marketing-automation-trigger"></a>
 
@@ -195,7 +195,7 @@ The DOMAIN section of the Create Activities pop-up window contains fields to
 further filter the target audience of the activity.
 
 The Activity Filter field focuses this activity, **and** its [child activities](#marketing-automation-child-activities), even further on a specific group of the campaign's filter.
-The process is the same as [defining filters](applications/marketing/marketing_automation/target_audience.md#marketing-automation-defining-filters) for the
+The process is the same as [defining filters](target_audience.md#marketing-automation-defining-filters) for the
 campaign, and the fields that are available to filter are also specific to the Target
 of the campaign.
 
@@ -203,7 +203,7 @@ The # record(s) beside the Activity Filter field indicates how many records
 are currently being targeted by this Activity Filter.
 
 The Applied Filter displays the combined filters from the Activity Filter
-and the inherited campaign [Filter](applications/marketing/marketing_automation/target_audience.md). This field is read-only.
+and the inherited campaign [Filter](target_audience.md). This field is read-only.
 
 The # record(s) beside the Applied Filter field indicates how many records,
 in total, are currently being targeted by the activity.
@@ -264,6 +264,6 @@ pre-filled with the selected trigger type, and the Activity field has the parent
 activity selected.
 
 #### SEE ALSO
-- [Testing/running campaigns](applications/marketing/marketing_automation/testing_running.md)
-- [Campaign metrics](applications/marketing/marketing_automation/understanding_metrics.md)
-- [Audience targeting](applications/marketing/marketing_automation/target_audience.md)
+- [Testing/running campaigns](testing_running.md)
+- [Campaign metrics](understanding_metrics.md)
+- [Audience targeting](target_audience.md)

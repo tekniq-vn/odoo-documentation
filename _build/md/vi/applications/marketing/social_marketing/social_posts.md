@@ -327,4 +327,4 @@ The size of the specified target audience of recipients is represented by the nu
 Records displayed beneath the rules.
 
 #### SEE ALSO
-[Social marketing campaigns](applications/marketing/social_marketing/social_campaigns.md)
+[Social marketing campaigns](social_campaigns.md)

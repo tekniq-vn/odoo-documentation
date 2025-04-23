@@ -18,7 +18,7 @@ section, and tick the Customer Display checkbox.
 
 ### Local
 
-Connect a second screen to your POS and [open a POS session](applications/sales/point_of_sale.md#pos-session-start). Then, click
+Connect a second screen to your POS and [open a POS session](../../point_of_sale.md#pos-session-start). Then, click
 Customer Screen to open a new window to drag and drop onto the second screen.
 
 <a id="customer-display-iot"></a>
@@ -36,4 +36,4 @@ monitor in the Customer Display field.
 Both devices need to be connected to the same local network.
 
 #### SEE ALSO
-[IoT system connection](applications/sales/point_of_sale/configuration/pos_iot.md)
+[IoT system connection](../configuration/pos_iot.md)

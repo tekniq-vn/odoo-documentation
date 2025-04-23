@@ -8,7 +8,7 @@ only **one** method to monitor accidents and repair costs.
 
 ## Cấu trúc lương
 
-For this example, to track accidents, two [service types](applications/hr/fleet/service.md#fleet-new-type) are created:
+For this example, to track accidents, two [service types](service.md#fleet-new-type) are created:
 `Accident - Driver's Fault` and `Accident - No Fault`.
 
 This tracks various repairs associated with accidents, organized by who was at fault.
@@ -23,13 +23,13 @@ driver, or cost.
 #### NOTE
 To manage accidents, the creation of service records is **required**.
 
-Refer to the [Dịch vụ](applications/hr/fleet/service.md) documentation for detailed instructions on creating service records
+Refer to the [Dịch vụ](service.md) documentation for detailed instructions on creating service records
 in Odoo's *Fleet* app.
 
 ## Log accidents and repairs
 
 To log an accident, and initiate the repair process, the first step is to [create a service
-record](applications/hr/fleet/service.md#fleet-service-form) detailing the specific repairs needed.
+record](service.md#fleet-service-form) detailing the specific repairs needed.
 
 #### NOTE
 Some accidents require multiple repairs with several different vendors. For these scenarios, a
@@ -58,7 +58,7 @@ Nhập thông tin sau đây trên biểu mẫu:
 - Vendor: select the vendor performing the repairs using the drop-down menu. If the
   vendor has not already been entered in the system, type in the vendor name, and click either
   Create to add them, or Create and edit... to [add and configure the
-  vendor](applications/hr/fleet/service.md#fleet-new-vendor).
+  vendor](service.md#fleet-new-vendor).
 - Vehicle: select the vehicle that was in the accident from the drop-down menu. When the
   vehicle is selected, the Driver field is populated, and the unit of measure for the
   Odometer Value field appears.

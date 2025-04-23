@@ -213,4 +213,4 @@ To view and modify the attributes and variants on any products, select the desir
 Products page, and click the Attributes & Variants tab.
 
 #### SEE ALSO
-[Biến thể sản phẩm](applications/sales/sales/products_prices/products/variants.md)
+[Biến thể sản phẩm](variants.md)

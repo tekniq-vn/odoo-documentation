@@ -4,7 +4,7 @@ Use the stock report in Odoo *Inventory* for a detailed list of all stored produ
 reserved, purchased and in transit, as well as those delivered to customers.
 
 #### NOTE
-The reporting feature is only accessible to users with [admin access](applications/general/users/access_rights.md).
+The reporting feature is only accessible to users with [admin access](../../../../general/users/access_rights.md).
 
 To access the stock report, go to Inventory app ‣ Reporting ‣ Stock.
 
@@ -18,7 +18,7 @@ and Category, which shows products within a selected product category.
 
 #### NOTE
 The Warehouse grouping is only available when there are multiple warehouses in the
-database. Refer to the [Kho hàng](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md) documentation for more details.
+database. Refer to the [Kho hàng](../inventory_management/warehouses.md) documentation for more details.
 
 In the report itself, the columns represent:
 
@@ -29,10 +29,10 @@ In the report itself, the columns represent:
   cost by on-hand quantity.
 
   #### SEE ALSO
-  - [Compute average cost inventory valuation per unit](applications/finance/accounting/get_started/avg_price_valuation.md#inventory-avg-cost-formula)
-  - [Inventory valuation methods](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+  - [Compute average cost inventory valuation per unit](../../../../finance/accounting/get_started/avg_price_valuation.md#inventory-avg-cost-formula)
+  - [Inventory valuation methods](../../product_management/inventory_valuation/inventory_valuation_config.md)
 - On Hand: current quantity of products. Click the <i class="fa fa-pencil"></i>
-  (pencil) icon to [modify the on-hand quantity](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md).
+  (pencil) icon to [modify the on-hand quantity](../inventory_management/count_products.md).
 - Free to Use: on-hand quantity that are **not** reserved for delivery or manufacturing
   orders, and are available to sell or use.
 - Incoming: items expected to arrive at the warehouse. Number of products is based on
@@ -44,7 +44,7 @@ Click the buttons to the right of each row item to access additional information
 
 - History: access the stock move history of the product, displaying information about
   the quantity and description of why the product was moved from one location to another.
-- Replenishment: access the [reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md) page for the product to create or manage methods of procuring
+- Replenishment: access the [reordering rules](../replenishment/reordering_rules.md) page for the product to create or manage methods of procuring
   the product.
 - Locations: break down of on-hand quantity at multiple storage locations. Only
   available when the product is stored in multiple locations.
@@ -84,23 +84,23 @@ find specific stock records.
   Appears in the search because the Can be Rented checkbox was ticked on the
   product form. Only available with the *Rental* app installed.
 - Can be Subcontracted: display products that can be produced by a
-  [third-party manufacturer](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.md). Available only with the
+  [third-party manufacturer](../../../manufacturing/subcontracting/subcontracting_basic.md). Available only with the
   *Manufacturing* app installed.
 - Can be Expensed: show items that can be expensed. Only available with the
   *Expenses* app installed.
 
 #### SEE ALSO
-[Loại sản phẩm](applications/inventory_and_mrp/inventory/product_management/configure/type.md)
+[Loại sản phẩm](../../product_management/configure/type.md)
 
 Nhóm theo
 
 The Group By section allows users to add pre-made and custom groupings to the
 search results.
 
-- Product Type: group items by [product type](applications/inventory_and_mrp/inventory/product_management/configure/type.md).
+- Product Type: group items by [product type](../../product_management/configure/type.md).
 - Product Category: group items by product category. To configure these, go to
   Inventory app ‣ Configuration ‣ Products: Product Categories.
-- POS Product Category: group items by [point of sale product categories](applications/sales/point_of_sale/configuration.md).
+- POS Product Category: group items by [point of sale product categories](../../../../sales/point_of_sale/configuration.md).
 
 Yêu thích
 
@@ -114,4 +114,4 @@ search option available to other users.
 Lastly, click the Save button.
 
 #### SEE ALSO
-[Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)
+[Tìm kiếm, lọc, và nhóm bản ghi](../../../../essentials/search.md)

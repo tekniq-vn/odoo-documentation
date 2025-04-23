@@ -94,4 +94,4 @@ When complete, a blue banner reading: You have outstanding credits for this cust
 can allocate them to mark this invoice as paid. appears at the top of the page.
 
 #### SEE ALSO
-[Credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md)
+[Credit notes and refunds](../../../finance/accounting/customer_invoices/credit_notes.md)

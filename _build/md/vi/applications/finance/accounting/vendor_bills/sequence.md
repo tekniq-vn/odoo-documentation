@@ -38,7 +38,7 @@ This feature is only available to users with administrator or advisor access.
 
 Follow these steps to resequence vendor bill numbers:
 
-1. Activate the [developer mode](applications/general/developer_mode.md#developer-mode).
+1. Activate the [developer mode](../../../general/developer_mode.md#developer-mode).
 2. In the vendor bills list view, select the vendor bills that need a new sequence.
 3. Click the <i class="fa fa-cog"></i> Actions menu and select Resequence.
 4. In the Ordering field, choose to

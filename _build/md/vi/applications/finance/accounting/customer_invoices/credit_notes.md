@@ -16,7 +16,7 @@ vendors because of modifications to confirmed customer invoices or vendor bills.
 Issuing a credit/debit note is the only legal method for canceling, refunding, or modifying a
 validated invoice. Make sure to **register the payment** afterward if money is being refunded to
 the customer and/or validate the
-[return](applications/sales/sales/products_prices/returns.md) if a storable product is being
+[return](../../../sales/sales/products_prices/returns.md) if a storable product is being
 returned.
 
 <a id="accounting-credit-notes-issue-credit-note"></a>
@@ -40,7 +40,7 @@ There are two options:
 
 To create a credit note from scratch, go to Accounting ‣ Customers ‣ Credit
 Notes, and click New. Filling out a credit note follows the same process as completing
-an [invoice](applications/finance/accounting/customer_invoices.md#accounting-invoice-creation).
+an [invoice](../customer_invoices.md#accounting-invoice-creation).
 
 #### NOTE
 A credit note sequence starts with `R` and is followed by the related document number (e.g.,

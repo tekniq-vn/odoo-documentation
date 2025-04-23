@@ -52,24 +52,24 @@ form the `addons_path`.
 
 An Odoo module **can** contain a number of elements:
 
-[Business objects](developer/reference/backend/orm.md#reference-orm)
+[Business objects](../../reference/backend/orm.md#reference-orm)
 : A business object (e.g. an invoice) is declared as a Python class. The fields defined in
   these classes are automatically mapped to database columns thanks to the
    layer.
 
-[Object views](developer/reference/user_interface/view_architectures.md)
+[Object views](../../reference/user_interface/view_architectures.md)
 : Define UI display
 
-[Data files](developer/reference/backend/data.md#reference-data)
+[Data files](../../reference/backend/data.md#reference-data)
 : XML or CSV files declaring the model data:
   <br/>
-  * [views](developer/reference/user_interface/view_architectures.md) or
-    [reports](developer/reference/backend/reports.md#reference-reports),
-  * configuration data (modules parametrization, [security rules](developer/reference/backend/security.md#reference-security)),
+  * [views](../../reference/user_interface/view_architectures.md) or
+    [reports](../../reference/backend/reports.md#reference-reports),
+  * configuration data (modules parametrization, [security rules](../../reference/backend/security.md#reference-security)),
   * demonstration data
   * and more
 
-[Web controllers](developer/reference/backend/http.md#reference-controllers)
+[Web controllers](../../reference/backend/http.md#reference-controllers)
 : Handle requests from web browsers
 
 Static web data
@@ -82,10 +82,10 @@ create business objects, object views and data files.
 ### Module structure
 
 Each module is a directory within a *module directory*. Module directories
-are specified by using the [`--addons-path`](developer/reference/cli.md#cmdoption-odoo-bin-addons-path)
+are specified by using the [`--addons-path`](../../reference/cli.md#cmdoption-odoo-bin-addons-path)
 option.
 
-An Odoo module is declared by its [manifest](developer/reference/backend/module.md#reference-module-manifest).
+An Odoo module is declared by its [manifest](../../reference/backend/module.md#reference-module-manifest).
 
 When an Odoo module includes business objects (i.e. Python files), they are organized as a
 [Python package](https://docs.python.org/3/tutorial/modules.html#packages)
@@ -112,4 +112,4 @@ Odoo is available in [two versions](https://www.odoo.com/page/editions): Odoo En
 functionalities to Odoo. From a technical point-of-view, these functionalities are simply
 new modules installed on top of the modules provided by the Community version.
 
-Ready to start? It is now time to [write your own application](developer/tutorials/server_framework_101/02_newapp.md)!
+Ready to start? It is now time to [write your own application](02_newapp.md)!

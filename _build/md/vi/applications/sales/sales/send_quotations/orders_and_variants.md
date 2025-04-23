@@ -1,7 +1,7 @@
 # Product variants on quotations and sales orders
 
 Before getting into detail about how to use product variants on quotations and sales orders, it's
-recommended to learn about [Biến thể sản phẩm](applications/sales/sales/products_prices/products/variants.md) in Odoo.
+recommended to learn about [Biến thể sản phẩm](../products_prices/products/variants.md) in Odoo.
 
 Once familiarized with the basics surrounding product variants, the following covers how product
 variants can be added to quotations and sales orders using the *product configurator* or *order grid
@@ -97,4 +97,4 @@ Order Lines tab.
 ![Populated order lines tab after order grid entry has been chosen to select products.](../../../../.gitbook/assets/order-grid-entry-order-lines-tab.png)
 
 #### SEE ALSO
-[Biến thể sản phẩm](applications/sales/sales/products_prices/products/variants.md)
+[Biến thể sản phẩm](../products_prices/products/variants.md)

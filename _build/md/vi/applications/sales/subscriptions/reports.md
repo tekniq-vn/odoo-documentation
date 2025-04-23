@@ -340,5 +340,5 @@ Analysis reporting page are:
 The MRR Change measure option is selected by default.
 
 #### SEE ALSO
-- [Đăng ký](applications/sales/subscriptions.md)
-- [Gói cước đăng ký](applications/sales/subscriptions/plans.md)
+- [Đăng ký](../subscriptions.md)
+- [Gói cước đăng ký](plans.md)

@@ -22,7 +22,7 @@ should **not** be viewed as guarantees.
 
 ## Cấu hình
 
-When using the [Resupply Subcontractor on Order](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.md) route, a company is
+When using the [Resupply Subcontractor on Order](subcontracting_resupply.md) route, a company is
 responsible for supplying the subcontractor with the necessary components. As a result, the
 subcontractor cannot begin manufacturing until the components have been received.
 

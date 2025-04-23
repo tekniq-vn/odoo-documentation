@@ -1,7 +1,7 @@
 # Tiền tip
 
-Tipping is customary in multiple countries. Point of Sale allows tipping in [shops](applications/sales/point_of_sale.md#pos-sell),
-[bars](applications/sales/point_of_sale/restaurant.md), or [restaurants](applications/sales/point_of_sale/restaurant.md).
+Tipping is customary in multiple countries. Point of Sale allows tipping in [shops](../../point_of_sale.md#pos-sell),
+[bars](../restaurant.md), or [restaurants](../restaurant.md).
 
 <a id="configuration"></a>
 
@@ -31,7 +31,7 @@ checkbox, and click Save & Close.
 
 ### Tip using an Adyen terminal
 
-If you use an [Adyen](applications/sales/point_of_sale/payment_methods/terminals/adyen.md) payment terminal and wish to enable
+If you use an [Adyen](../payment_methods/terminals/adyen.md) payment terminal and wish to enable
 **tips** using the terminal, check Add tip through payment terminal (Adyen) below the
 [tip settings](#configuration).
 
@@ -46,7 +46,7 @@ To use this feature, the selected payment method must have a bank journal attrib
 
 ## Add tips
 
-To add tips to an order, [access the payment screen](applications/sales/point_of_sale.md#pos-sell) and click ♥ Tip.
+To add tips to an order, [access the payment screen](../../point_of_sale.md#pos-sell) and click ♥ Tip.
 Then, enter the tipping amount, click Confirm to validate, and process the payment.
 
 ![tip popup window](../../../../.gitbook/assets/add-tip.png)

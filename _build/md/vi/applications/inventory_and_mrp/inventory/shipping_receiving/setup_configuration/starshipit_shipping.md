@@ -6,8 +6,8 @@ automatically get rates from specific couriers (such as Australia Post, NZ Post,
 based on predefined conditions.
 
 #### SEE ALSO
-- [Automatically calculate shipping](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
-- [Integrate other third-party couriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
+- [Automatically calculate shipping](../setup_configuration.md)
+- [Integrate other third-party couriers](third_party_shipper.md)
 
 ## Setup in Starshipit
 
@@ -93,7 +93,7 @@ follows:
 
   #### NOTE
   The fields discussed in this section are specific to configuring Starshipit. For more information
-  about the other fields, refer to [Delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md).
+  about the other fields, refer to [Delivery methods](../setup_configuration.md).
 
 In the Starshipit Configuration tab, fill out these fields:
 

@@ -6,11 +6,11 @@ setting up a kiosk.
 
 ## Kiosk devices
 
-A kiosk is a self-service station, where employees can [check in and out of work](applications/hr/attendances/kiosks.md#attendances-kiosk-mode-entry) with either a [badge](#attendances-hardware-badges) or an
+A kiosk is a self-service station, where employees can [check in and out of work](kiosks.md#attendances-kiosk-mode-entry) with either a [badge](#attendances-hardware-badges) or an
 [RFID key fob](#attendances-hardware-rfid). Typically, these devices are dedicated as kiosks
 only, but any device with an internet browser is able to be set up as a kiosk.
 
-A kiosk is used by navigating to the webpage specified in the [configuration](applications/hr/attendances/kiosks.md#attendances-kiosk-settings) section of the *Attendances* app.
+A kiosk is used by navigating to the webpage specified in the [configuration](kiosks.md#attendances-kiosk-settings) section of the *Attendances* app.
 
 Kiosks are set up using one of the following types of devices:
 

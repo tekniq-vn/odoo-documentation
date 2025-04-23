@@ -11,7 +11,7 @@ Every  version is stored in an *engineering change order* (ECO) for organized te
 improvements without disrupting normal manufacturing operations.
 
 #### SEE ALSO
-[Engineering change order](applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.md#plm-eco)
+[Engineering change order](engineering_change_orders.md#plm-eco)
 
 ## Current BoM version
 
@@ -85,7 +85,7 @@ Documents smart button.
 Hover over each attachment to reveal the ︙ (three vertical dots) icon. From there,
 choose whether to Edit, Remove, or Download the file. Any
 changes made to these files are contained within the , and will only apply to the production
- once the [changes are applied](applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.md#plm-eco-apply-changes).
+ once the [changes are applied](engineering_change_orders.md#plm-eco-apply-changes).
 
 #### NOTE
 Archived files are **not** permanently deleted — they can still be accessed in the previous

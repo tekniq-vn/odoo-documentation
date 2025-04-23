@@ -60,7 +60,7 @@ Found message, and presents options to create a survey from several pre-configur
 templates.
 
 #### SEE ALSO
-For more detailed information about surveys, refer to the [survey essentials](applications/marketing/surveys/create.md) documentation.
+For more detailed information about surveys, refer to the [survey essentials](../marketing/surveys/create.md) documentation.
 
 #### NOTE
 Enabling the Send Interview Survey option will install the *Surveys* application once
@@ -74,7 +74,7 @@ by clicking the <i class="fa fa-arrow-right"></i> Buy credits internal link that
 feature is enabled.
 
 #### SEE ALSO
-For more information, refer to the [SMS pricing and FAQs](applications/marketing/sms_marketing/pricing_and_faq.md) documentation.
+For more information, refer to the [SMS pricing and FAQs](../marketing/sms_marketing/pricing_and_faq.md) documentation.
 
 <a id="recruitment-cv-display"></a>
 
@@ -121,7 +121,7 @@ View My Services to view a list of all current services, and their remaining cre
 balances.
 
 For more information on document digitization and , refer to the
-[In-app purchase (IAP)](applications/essentials/in_app_purchase.md) documentation.
+[In-app purchase (IAP)](../essentials/in_app_purchase.md) documentation.
 
 #### NOTE
 The Do not digitize option for CV digitization (OCR) at first may seem
@@ -152,12 +152,12 @@ Inside the job application, the Kanban stages appear, with all the applicants po
 respective columns, indicating what stage they are currently in. There are six default stages in
 Odoo:
 
-- [Mới](applications/hr/recruitment/recruitment-flow.md#recruitment-new)
-- [Đánh giá sơ bộ](applications/hr/recruitment/recruitment-flow.md#recruitment-initial-qualification)
-- [Phỏng vấn lần đầu](applications/hr/recruitment/recruitment-flow.md#recruitment-first-interview)
-- [Phỏng vấn lần hai](applications/hr/recruitment/recruitment-flow.md#recruitment-second-interview)
-- [Đề xuất hợp đồng](applications/hr/recruitment/offer_job_positions.md)
-- [Hợp đồng được ký](applications/hr/recruitment/offer_job_positions.md#recruitment-offer-job-positions-contract-signed)
+- [Mới](recruitment/recruitment-flow.md#recruitment-new)
+- [Đánh giá sơ bộ](recruitment/recruitment-flow.md#recruitment-initial-qualification)
+- [Phỏng vấn lần đầu](recruitment/recruitment-flow.md#recruitment-first-interview)
+- [Phỏng vấn lần hai](recruitment/recruitment-flow.md#recruitment-second-interview)
+- [Đề xuất hợp đồng](recruitment/offer_job_positions.md)
+- [Hợp đồng được ký](recruitment/offer_job_positions.md#recruitment-offer-job-positions-contract-signed)
 
 The last column, Contract Signed, is folded by default. Folded columns appear gray, and
 the applicants in it are hidden from view. To expand the folded stage and view the applicant cards
@@ -264,7 +264,7 @@ The pre-configured email templates and when to use them are as follows:
 
 #### NOTE
 Email templates can be created, modified, and deleted to suit the needs of a business. For more
-information on email templates, refer to the [Mẫu Email](applications/general/companies/email_template.md) document.
+information on email templates, refer to the [Mẫu Email](../general/companies/email_template.md) document.
 
 To manually send an email, click Send message in the chatter. A text box appears, as
 well as the applicant's email address.
@@ -300,23 +300,23 @@ Nếu cần thay đổi nội dung email, hãy chỉnh sửa phần thân email.
 pre-configured template.](../../.gitbook/assets/send-survey.png)
 
 #### SEE ALSO
-- [Job positions](applications/hr/recruitment/new_job.md)
-- [Add new applicants](applications/hr/recruitment/add-new-applicants.md)
-- [Schedule interviews](applications/hr/recruitment/schedule_interviews.md)
-- [Offer job positions](applications/hr/recruitment/offer_job_positions.md)
-- [Refuse applicants](applications/hr/recruitment/refuse_applicant.md)
-- [Source analysis reporting](applications/hr/recruitment/source_analysis.md)
-- [Recruitment analysis](applications/hr/recruitment/recruitment_analysis.md)
-- [Time in stage analysis](applications/hr/recruitment/time_in_stage.md)
-- [Team performance reporting](applications/hr/recruitment/team_performance.md)
+- [Job positions](recruitment/new_job.md)
+- [Add new applicants](recruitment/add-new-applicants.md)
+- [Schedule interviews](recruitment/schedule_interviews.md)
+- [Offer job positions](recruitment/offer_job_positions.md)
+- [Refuse applicants](recruitment/refuse_applicant.md)
+- [Source analysis reporting](recruitment/source_analysis.md)
+- [Recruitment analysis](recruitment/recruitment_analysis.md)
+- [Time in stage analysis](recruitment/time_in_stage.md)
+- [Team performance reporting](recruitment/team_performance.md)
 
-* [Job positions](applications/hr/recruitment/new_job.md)
-* [Recruitment flow](applications/hr/recruitment/recruitment-flow.md)
-* [Add new applicants](applications/hr/recruitment/add-new-applicants.md)
-* [Schedule interviews](applications/hr/recruitment/schedule_interviews.md)
-* [Offer job positions](applications/hr/recruitment/offer_job_positions.md)
-* [Refuse applicants](applications/hr/recruitment/refuse_applicant.md)
-* [Source analysis reporting](applications/hr/recruitment/source_analysis.md)
-* [Recruitment analysis](applications/hr/recruitment/recruitment_analysis.md)
-* [Time in stage analysis](applications/hr/recruitment/time_in_stage.md)
-* [Team performance reporting](applications/hr/recruitment/team_performance.md)
+* [Job positions](recruitment/new_job.md)
+* [Recruitment flow](recruitment/recruitment-flow.md)
+* [Add new applicants](recruitment/add-new-applicants.md)
+* [Schedule interviews](recruitment/schedule_interviews.md)
+* [Offer job positions](recruitment/offer_job_positions.md)
+* [Refuse applicants](recruitment/refuse_applicant.md)
+* [Source analysis reporting](recruitment/source_analysis.md)
+* [Recruitment analysis](recruitment/recruitment_analysis.md)
+* [Time in stage analysis](recruitment/time_in_stage.md)
+* [Team performance reporting](recruitment/team_performance.md)

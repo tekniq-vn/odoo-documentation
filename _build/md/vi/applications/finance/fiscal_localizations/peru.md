@@ -2,7 +2,7 @@
 
 ## Mô đun
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to utilize all the current features of the
+[Install](../../general/apps_modules.md#general-install) the following modules to utilize all the current features of the
 Peruvian localization.
 
 | Tên                                  | Tên kỹ thuật            | Mô tả                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -188,7 +188,7 @@ its services and get the currency rate either automatically or manually.
 ![SUNAT displayed in Multicurrency Service option.](../../../.gitbook/assets/l10n-pe-banksync-sunat.png)
 
 Please refer to the next section in our documentation for more information about
-[multicurrencies](applications/finance/accounting/get_started/multi_currency.md).
+[multicurrencies](../accounting/get_started/multi_currency.md).
 
 <a id="peru-master-data"></a>
 
@@ -282,7 +282,7 @@ Code on the product is a required value to be configured.
 
 Once you have configured your master data, the invoices can be created from your sales order or
 manually. Additional to the basic invoice information described on [our page about the
-invoicing process](applications/finance/accounting/customer_invoices/overview.md), there are a couple of
+invoicing process](../accounting/customer_invoices/overview.md), there are a couple of
 fields required as part of the Peru EDI:
 
 - **Document type**: The default value is “Factura Electronica” but  you can manually change the
@@ -434,7 +434,7 @@ By default the Credit Note is set in the document type:
 
 ![Credit Note document type.](../../../.gitbook/assets/peru-credit-note-document.png)
 
-To finish the workflow please follow the instructions on [our page about Credit Notes](applications/finance/accounting/customer_invoices/credit_notes.md).
+To finish the workflow please follow the instructions on [our page about Credit Notes](../accounting/customer_invoices/credit_notes.md).
 
 #### NOTE
 The EDI workflow for the Credit notes works in the same way as the invoices.
@@ -541,7 +541,7 @@ If, by mistake, the waybill was created in this environment, it is necessary to 
 - A second user **must** be added for the creation of electronic documents.
 
 After following the steps to configure the [electronic invoicing](#peru-accounting-settings)
-and the [master data](#peru-master-data), [install](applications/general/apps_modules.md#general-install) the
+and the [master data](#peru-master-data), [install](../../general/apps_modules.md#general-install) the
 Peruvian - Electronic Delivery Note 2.0 module (`l10n_pe_edi_stock_20`).
 
 Next, you need to retrieve the *client ID* and *client secret* from . To do so, follow the
@@ -702,7 +702,7 @@ code validated by .
 
 ### eCommerce electronic invoicing
 
-First, [install](applications/general/apps_modules.md#general-install) the **Peruvian eCommerce** (`l10n_pe_website_sale`) module.
+First, [install](../../general/apps_modules.md#general-install) the **Peruvian eCommerce** (`l10n_pe_website_sale`) module.
 
 The **Peruvian eCommerce** module enables the features and configurations to:
 
@@ -722,12 +722,12 @@ The **Peruvian eCommerce** module is dependent on the previous installation of t
 After configuring the Peruvian [electronic invoicing](#peru-accounting-settings) flow, complete
 the following configurations for the **eCommerce** flow:
 
-- [Client account registration](applications/websites/ecommerce/checkout.md#checkout-sign);
-- [Hoá đơn tự động](applications/websites/ecommerce/order_handling.md#handling-legal);
-- [Sản phẩm](applications/websites/ecommerce/products.md): Set the Invoicing Policy to
+- [Client account registration](../../websites/ecommerce/checkout.md#checkout-sign);
+- [Hoá đơn tự động](../../websites/ecommerce/order_handling.md#handling-legal);
+- [Sản phẩm](../../websites/ecommerce/products.md): Set the Invoicing Policy to
   Ordered quantities and define the desired Customer taxes.
-- [Thanh toán online](applications/finance/payment_providers.md);
-- [Vận chuyển](applications/websites/ecommerce/shipping.md): For each shipping method, set
+- [Thanh toán online](../payment_providers.md);
+- [Vận chuyển](../../websites/ecommerce/shipping.md): For each shipping method, set
   the Provider field to Fixed Price. Then, set a Fixed Price
   amount greater than `0.00` (not zero), as the shipping method price is added to the invoice line.
 
@@ -740,7 +740,7 @@ the following configurations for the **eCommerce** flow:
   `$0.01` (one cent) for the invoice to be validated with SUNAT.
 
 #### SEE ALSO
-[Set up the Mercado Pago payment provider.](applications/finance/payment_providers/mercado_pago.md)
+[Set up the Mercado Pago payment provider.](../payment_providers/mercado_pago.md)
 
 #### Invoicing flow for eCommerce
 
@@ -790,10 +790,10 @@ Several configurations related to the product or product category are necessary 
   Accounting tab and select the Type of Existence according to 's
   table 5 for inventory reporting.
 - **Automatic inventory valuation**: For storable goods (),
-  use [automatic inventory valuation](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md).
+  use [automatic inventory valuation](../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md).
   Once automatic inventory valuation is enabled, this valuation method can be enabled for
-  a product's [product category](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-valuation-on-product-category).
-- **Costing method:** Storable goods must use a [costing method](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+  a product's [product category](../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-valuation-on-product-category).
+- **Costing method:** Storable goods must use a [costing method](../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
   **other** than Standard Price, as the journal entries generated from stock moves are
   used to populate the  reports.
 
@@ -801,7 +801,7 @@ Several configurations related to the product or product category are necessary 
 
 ##### Kho hàng
 
-When [setting up a warehouse](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md), the
+When [setting up a warehouse](../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md), the
 Annex Establishment Code field must be filled. This code acts as a unique ID for each
 warehouse and should only be a numeric combination, containing between 4 to 7 digits.
 
@@ -810,7 +810,7 @@ warehouse and should only be a numeric combination, containing between 4 to 7 di
 ##### Inventory transfers
 
 Transferring inventory is a key process captured in the  12.1 and  13.1 reports.
-[Inventory transfers](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.md)
+[Inventory transfers](../../inventory_and_mrp/inventory/shipping_receiving/daily_operations.md)
 include both incoming and outgoing shipments.
 
 When validating an inventory transfer (either on a warehouse receipt or delivery order), select the
@@ -822,7 +822,7 @@ reporting.
  12.1 and 13.1 come as two separate books. The books need to be downloaded in `.txt` file
 format from Odoo, and then they should be submitted to the   software.
 
-On the [Inventory Valuation Report](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md#inventory-management-reporting-valuation-report), click
+On the [Inventory Valuation Report](../../inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md#inventory-management-reporting-valuation-report), click
 the PLE Reports button. Then, select the Period and choose a report to
 export: either the PLE 12.1 or PLE 13.1. Odoo generates a `.txt` file
 for the chosen report.

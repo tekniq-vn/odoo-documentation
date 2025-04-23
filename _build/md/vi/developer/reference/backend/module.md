@@ -131,7 +131,7 @@ But you still need to specify it as dependency to make sure your module is updat
 
 `assets` (`dict`)
 : A definition of how all static files are loaded in various assets bundles.
-  See the [assets](developer/reference/frontend/assets.md#reference-assets) page for more details on how to
+  See the [assets](../frontend/assets.md#reference-assets) page for more details on how to
   describe bundles.
 
 `installable` (`bool` default: `True`)

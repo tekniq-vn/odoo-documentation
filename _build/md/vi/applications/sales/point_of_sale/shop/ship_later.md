@@ -6,7 +6,7 @@ or if, for any reason, the customer needs their order to be shipped later, etc.
 
 ## Cấu hình
 
-[Go to the POS settings](applications/sales/point_of_sale/configuration.md#configuration-settings), scroll down to the Inventory
+[Go to the POS settings](../configuration.md#configuration-settings), scroll down to the Inventory
 section, and enable Allow Ship Later.
 
 ![settings to enable and configure the ship later feature](../../../../.gitbook/assets/settings4.png)
@@ -20,12 +20,12 @@ Once activated, you can:
   once.
 
 #### SEE ALSO
-- [Delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
-- [Kho hàng](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md)
+- [Delivery methods](../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
+- [Kho hàng](../../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md)
 
 ## Practical application
 
-1. [Open a session](applications/sales/point_of_sale.md#pos-session-start) and make a sale.
+1. [Open a session](../../point_of_sale.md#pos-session-start) and make a sale.
 2. On the payment screen, set a customer and select Ship Later.
 3. On the popup window, set a shipping date and click Confirm to proceed to payment.
 

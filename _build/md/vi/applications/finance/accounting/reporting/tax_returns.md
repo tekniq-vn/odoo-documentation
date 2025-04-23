@@ -28,7 +28,7 @@ Tax Return Periodicity, you can set:
 ![Configure how often tax returns have to be made in Odoo Accounting](../../../../.gitbook/assets/tax_return_periodicity.png)
 
 #### NOTE
-This is usually configured during the [app's initial set up](applications/finance/accounting/get_started.md).
+This is usually configured during the [app's initial set up](../get_started.md).
 
 <a id="tax-returns-tax-grids"></a>
 
@@ -48,7 +48,7 @@ grids that are used to record invoices or credit notes.
 ![Configure taxes and their tax grids in Odoo Accounting](../../../../.gitbook/assets/tax_return_taxes.png)
 
 #### NOTE
-Taxes and reports are usually already pre-configured in Odoo: a [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) is installed according to the country you select at the creation
+Taxes and reports are usually already pre-configured in Odoo: a [fiscal localization package](../../fiscal_localizations.md#fiscal-localizations-packages) is installed according to the country you select at the creation
 of your database.
 
 <a id="tax-returns-close"></a>
@@ -97,6 +97,6 @@ entry. This safety mechanism can prevent some fiscal errors, but it is advised t
 date manually before, as described above.
 
 #### SEE ALSO
-* [Thuế](applications/finance/accounting/taxes.md)
-* [Bắt đầu](applications/finance/accounting/get_started.md)
-* [Fiscal localizations](applications/finance/fiscal_localizations.md)
+* [Thuế](../taxes.md)
+* [Bắt đầu](../get_started.md)
+* [Fiscal localizations](../../fiscal_localizations.md)

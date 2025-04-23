@@ -2,10 +2,10 @@
 
 UPS is a shipping carrier service that integrates with Odoo to coordinate shipping to all regions.
 Once integrated, users can create shipping methods that estimate shipping costs and [generate
-labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md).
+labels](labels.md).
 
 #### SEE ALSO
-[Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
+[Third-party shipping carriers](third_party_shipper.md)
 
 To set up the UPS shipping connector in Odoo, complete these steps:
 
@@ -136,7 +136,7 @@ it and create a new shipping method using UPS.
 
 In the Provider field, select UPS. Doing so reveals the UPS
 Configuration tab, where various fields must be entered. For details instructions on configuring
-the other fields on the shipping method, refer to the [Configure third-party carrier](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md) documentation.
+the other fields on the shipping method, refer to the [Configure third-party carrier](third_party_shipper.md) documentation.
 
 In the UPS Configuration tab, complete the following fields:
 
@@ -144,7 +144,7 @@ In the UPS Configuration tab, complete the following fields:
 - UPS Client ID: (*required*) Get the [Client ID](#inventory-shipping-receiving-ups-client-id) from the UPS developer website.
 - UPS Client Secret: (*required*) Get the [Client Secret](#inventory-shipping-receiving-ups-client-id) key from the UPS developer website.
 - UPS Service Type: Select from the drop-down menu the type of shipping service.
-- UPS Package Type: (*required*) Select from the drop-down menu the [package type](applications/inventory_and_mrp/inventory/product_management/configure/package.md) that is supported for the shipping service.
+- UPS Package Type: (*required*) Select from the drop-down menu the [package type](../../product_management/configure/package.md) that is supported for the shipping service.
 - Package Weight Unit: The unit of measure for the package weight.
 - Package Size Unit: The unit of measure for the package dimensions.
 - Label Format: Choose the label format shipping labels: PDF,

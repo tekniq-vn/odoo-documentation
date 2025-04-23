@@ -5,7 +5,7 @@ the main currency configured for your company. You can also set up bank accounts
 and run reports on your foreign currency activities.
 
 #### SEE ALSO
-- [Manage a bank account in a foreign currency](applications/finance/accounting/bank/foreign_currency.md)
+- [Manage a bank account in a foreign currency](../bank/foreign_currency.md)
 
 <a id="multi-currency-config"></a>
 

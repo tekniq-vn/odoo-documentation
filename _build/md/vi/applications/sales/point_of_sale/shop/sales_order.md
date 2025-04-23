@@ -36,4 +36,4 @@ Once you settle a sales order, the applied down payment is automatically deducte
 amount.
 
 #### SEE ALSO
-- [Khoản trả trước](applications/sales/sales/invoicing/down_payment.md)
+- [Khoản trả trước](../../sales/invoicing/down_payment.md)

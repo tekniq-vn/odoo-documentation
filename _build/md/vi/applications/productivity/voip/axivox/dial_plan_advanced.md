@@ -16,7 +16,7 @@ There is even the option to route callers, depending on where they are calling f
 thus maximizing efficiency.
 
 #### IMPORTANT
-For more information on basic dial plans, and how to add elements, visit [Dial plan basics](applications/productivity/voip/axivox/dial_plan_basics.md).
+For more information on basic dial plans, and how to add elements, visit [Dial plan basics](dial_plan_basics.md).
 
 #### WARNING
 Using a browser add-on for spelling may hinder the use of the visual editor in dial plans. Do
@@ -24,7 +24,7 @@ Using a browser add-on for spelling may hinder the use of the visual editor in d
 
 ## Advanced elements
 
-In Axivox dial plans (as described in [Dial plan basics](applications/productivity/voip/axivox/dial_plan_basics.md)), there are two advanced elements that
+In Axivox dial plans (as described in [Dial plan basics](dial_plan_basics.md)), there are two advanced elements that
 can be used.
 
 - Record: recording feature is enabled (requires plan change, enabled in Axivox
@@ -40,7 +40,7 @@ Add.
 
 ![Visual editor for a dial plan in Axivox, with Add and the dispatcher element highlighted.](../../../../.gitbook/assets/visual-editor.png)
 
-For more information, visit [Dial plans](applications/productivity/voip/axivox/dial_plan_basics.md#voip-axivox-dial-plans).
+For more information, visit [Dial plans](dial_plan_basics.md#voip-axivox-dial-plans).
 
 #### IMPORTANT
 The Record element records calls that are routed through this element, and requires
@@ -77,7 +77,7 @@ be pre-configured numerically with actions. Instead, it acts as a virtual recept
 
 Để thêm một trong các phần tử này, hãy đi đến trang Kế hoạch quay số, nằm trong menu bên trái của `bảng điều khiển quản lý Axivox <https://manage.axivox.com>_`. Tiếp theo, nhấp vào nút Trình chỉnh sửa trực quan bên phải kế hoạch quay số để chỉnh sửa kế hoạch đó. Sau đó, mở menu thả xuống Phần tử mới, chọn phần tử cần thêm và nhấp Thêm.
 
-For more information, visit [Dial plans](applications/productivity/voip/axivox/dial_plan_basics.md#voip-axivox-dial-plans).
+For more information, visit [Dial plans](dial_plan_basics.md#voip-axivox-dial-plans).
 
 ### Digital receptionist scenario
 
@@ -105,7 +105,7 @@ of the Axivox console to them.
 For example, an Audio message needs to be made, and then selected in a
 Play a file or Menu element.
 
-For more information, see this documentation [Tin nhắn thoại](applications/productivity/voip/axivox/vm_audio_messages.md#voip-axivox-audio-messages).
+For more information, see this documentation [Tin nhắn thoại](vm_audio_messages.md#voip-axivox-audio-messages).
 
 ## Advanced routing elements
 
@@ -122,7 +122,7 @@ The following are advanced routing elements:
 - Time Condition: create time conditions to route incoming traffic around holidays, or
   other sensitive time-frames.
 
-Để thêm một trong các phần tử này, hãy đi đến trang Kế hoạch quay số, nằm trong menu bên trái của `bảng điều khiển quản lý Axivox <https://manage.axivox.com>_`. Tiếp theo, nhấp vào nút Trình chỉnh sửa trực quan bên phải kế hoạch quay số để chỉnh sửa kế hoạch đó. Sau đó, mở menu thả xuống Phần tử mới, chọn phần tử cần thêm và nhấp Thêm. Để biết thêm thông tin, hãy truy cập [Dial plans](applications/productivity/voip/axivox/dial_plan_basics.md#voip-axivox-dial-plans).
+Để thêm một trong các phần tử này, hãy đi đến trang Kế hoạch quay số, nằm trong menu bên trái của `bảng điều khiển quản lý Axivox <https://manage.axivox.com>_`. Tiếp theo, nhấp vào nút Trình chỉnh sửa trực quan bên phải kế hoạch quay số để chỉnh sửa kế hoạch đó. Sau đó, mở menu thả xuống Phần tử mới, chọn phần tử cần thêm và nhấp Thêm. Để biết thêm thông tin, hãy truy cập [Dial plans](dial_plan_basics.md#voip-axivox-dial-plans).
 
 ### Dispatcher scenario
 

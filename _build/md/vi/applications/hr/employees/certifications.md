@@ -34,7 +34,7 @@ expired certifications appear in red, and certifications that are going to expir
 **Only** certification records with the *Display Type* set to *Certification* on their
 [certification form](#employees-certifications-form) appear on the Employee
 Certifications report. All other certifications appear in the resume section of the
-[employee form](applications/hr/employees/new_employee.md).
+[employee form](new_employee.md).
 
 ### View certifications by expiration status
 
@@ -73,13 +73,13 @@ information on the form:
 
   The default options are:
   - Experience: Select this option to have the certification appear in the *Experience*
-    section of the *Resume* tab on the [employee form](applications/hr/employees/new_employee.md).
+    section of the *Resume* tab on the [employee form](new_employee.md).
   - Education: Select this option to have the certification appear in the *Education*
-    section of the *Resume* tab on the [employee form](applications/hr/employees/new_employee.md).
+    section of the *Resume* tab on the [employee form](new_employee.md).
   - Internal Certification: Select this option to have the certification appear in the
-    *Internal Certification* section of the *Resume* tab on the [employee form](applications/hr/employees/new_employee.md).
+    *Internal Certification* section of the *Resume* tab on the [employee form](new_employee.md).
   - Completed Internal Training: Select this option to have the certification appear in
-    *Completed Internal Training* section of the *Resume* tab on the [employee form](applications/hr/employees/new_employee.md).
+    *Completed Internal Training* section of the *Resume* tab on the [employee form](new_employee.md).
 - Display Type: Select the visibility of the certification in this field. The default
   options are:
   - Classic: Select this option to have the certification appear in the *Resume* section

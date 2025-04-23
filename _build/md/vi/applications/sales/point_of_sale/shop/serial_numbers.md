@@ -23,7 +23,7 @@ the list-view button next to the products.
 ![Pop-up window for serial number import](../../../../.gitbook/assets/pos-sn-imported.png)
 
 #### SEE ALSO
-- [Đơn bán hàng](applications/sales/point_of_sale/shop/sales_order.md)
+- [Đơn bán hàng](sales_order.md)
 
 ## Serial numbers and lots creation
 
@@ -41,5 +41,5 @@ tracked products, click on **enter** to validate and start a new line.
   sale.
 
 #### SEE ALSO
-- [Sử dụng số sê-ri để theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
-- [Số lô](applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.md)
+- [Sử dụng số sê-ri để theo dõi sản phẩm](../../../inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
+- [Số lô](../../../inventory_and_mrp/inventory/product_management/product_tracking/lots.md)

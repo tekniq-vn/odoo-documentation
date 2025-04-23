@@ -21,7 +21,7 @@ It ensures that all transactions are recorded accurately and consistently and th
 always balance.
 
 #### SEE ALSO
-[Accounting Cheat Sheet](applications/finance/accounting/get_started/cheat_sheet.md)
+[Accounting Cheat Sheet](accounting/get_started/cheat_sheet.md)
 
 ## Accrual and cash basis
 
@@ -30,23 +30,23 @@ expense either when the transaction occurs (accrual basis) or when the payment i
 (cash basis).
 
 #### SEE ALSO
-[Cash basis](applications/finance/accounting/taxes/cash_basis.md)
+[Cash basis](accounting/taxes/cash_basis.md)
 
 <a id="accounting-multi-company"></a>
 
 ## Đa công ty
 
 Several companies can be managed within the same database. Each company has its [chart of
-accounts](applications/finance/accounting/get_started/chart_of_accounts.md), which is also useful to generate consolidation
+accounts](accounting/get_started/chart_of_accounts.md), which is also useful to generate consolidation
 reports. Users can access several companies but can only work on a single company's accounting at a
 time.
 
 ## Môi trường đa tiền tệ
 
-Odoo có một môi trường [đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md) với tỷ giá hối đoái tự động để dễ dàng thực hiện giao dịch quốc tế. Mỗi giao dịch được ghi nhận bằng đồng tiền mặc định của công ty; đối với các giao dịch được thực hiện bằng đồng tiền khác, Odoo lưu trữ cả giá trị bằng đồng tiền của công ty và giá trị của giao dịch bằng đồng tiền của giao dịch đó. Odoo tạo ra các khoản lãi và lỗ tỷ giá sau khi đối chiếu các hạng mục bút toán.
+Odoo có một môi trường [đa tiền tệ](accounting/get_started/multi_currency.md) với tỷ giá hối đoái tự động để dễ dàng thực hiện giao dịch quốc tế. Mỗi giao dịch được ghi nhận bằng đồng tiền mặc định của công ty; đối với các giao dịch được thực hiện bằng đồng tiền khác, Odoo lưu trữ cả giá trị bằng đồng tiền của công ty và giá trị của giao dịch bằng đồng tiền của giao dịch đó. Odoo tạo ra các khoản lãi và lỗ tỷ giá sau khi đối chiếu các hạng mục bút toán.
 
 #### SEE ALSO
-[Manage a bank in a foreign currency](applications/finance/accounting/bank/foreign_currency.md)
+[Manage a bank in a foreign currency](accounting/bank/foreign_currency.md)
 
 ## Branch management
 
@@ -61,7 +61,7 @@ Fiscal positions exist to address regional specificities like the chart of accou
 other requirements.
 
 #### SEE ALSO
-[Fiscal localization packages](applications/finance/fiscal_localizations.md)
+[Fiscal localization packages](fiscal_localizations.md)
 
 ## Accounts receivable and payable
 
@@ -74,7 +74,7 @@ by going to Accounting ‣ Reporting ‣ Partner Ledger.
 
 ## Báo cáo
 
-The following financial [reports](applications/finance/accounting/reporting.md) are available and updated in
+The following financial [reports](accounting/reporting.md) are available and updated in
 real-time:
 
 |                                  | Báo cáo tài chính    |
@@ -121,7 +121,7 @@ import all transactions into your database. It gives an overview of your cash fl
 into an online banking system or waiting for paper bank statements.
 
 #### SEE ALSO
-[Đồng bộ ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
+[Đồng bộ ngân hàng](accounting/bank/bank_synchronization.md)
 
 ## Định giá tồn kho
 
@@ -129,7 +129,7 @@ Both periodic (manual) and perpetual (automated) inventory valuations are suppor
 available methods are standard price, average price,  and
 
 #### SEE ALSO
-[Định giá tồn kho tự động](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+[Định giá tồn kho tự động](../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
 
 ## Lợi nhuận giữ lại
 
@@ -138,7 +138,7 @@ earnings in real-time, so no year-end journal or rollover is required. The profi
 and loss balance is automatically reported on the balance sheet report.
 
 #### SEE ALSO
-[Accounting Cheat Sheet](applications/finance/accounting/get_started/cheat_sheet.md)
+[Accounting Cheat Sheet](accounting/get_started/cheat_sheet.md)
 
 <a id="fiduciaries"></a>
 
@@ -153,70 +153,70 @@ Configuration ‣ Settings ‣ Accounting Firms mode. When enabled:
 - Invoice Date and Bill Date are pre-filled when encoding a transaction.
 - A Quick encoding option is available for customer invoices and vendor bills.
 
-* [Bắt đầu](applications/finance/accounting/get_started.md)
-  * [Accounting cheat sheet](applications/finance/accounting/get_started/cheat_sheet.md)
-  * [Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
-  * [Hệ thống đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md)
-  * [Average price on returned goods](applications/finance/accounting/get_started/avg_price_valuation.md)
-  * [Tax units](applications/finance/accounting/get_started/tax_units.md)
-* [Thuế](applications/finance/accounting/taxes.md)
-  * [Cash basis taxes](applications/finance/accounting/taxes/cash_basis.md)
-  * [Withholding taxes](applications/finance/accounting/taxes/retention.md)
-  * [VAT numbers verification (VIES)](applications/finance/accounting/taxes/vat_verification.md)
-  * [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
-  * [AvaTax integration](applications/finance/accounting/taxes/avatax.md)
-    * [AvaTax use](applications/finance/accounting/taxes/avatax/avatax_use.md)
-    * [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)
-  * [TaxCloud integration](applications/finance/accounting/taxes/taxcloud.md)
-  * [EU intra-community distance selling](applications/finance/accounting/taxes/eu_distance_selling.md)
-  * [B2B (tax excluded) and B2C (tax included) pricing](applications/finance/accounting/taxes/B2B_B2C.md)
-* [Hóa đơn bán hàng](applications/finance/accounting/customer_invoices.md)
-  * [Invoicing processes](applications/finance/accounting/customer_invoices/overview.md)
-  * [Delivery and invoice addresses](applications/finance/accounting/customer_invoices/customer_addresses.md)
-  * [Payment terms and installment plans](applications/finance/accounting/customer_invoices/payment_terms.md)
-  * [Default terms and conditions (T&C)](applications/finance/accounting/customer_invoices/terms_conditions.md)
-  * [Cash discounts and tax reduction](applications/finance/accounting/customer_invoices/cash_discounts.md)
-  * [Credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md)
-  * [Làm tròn tiền](applications/finance/accounting/customer_invoices/cash_rounding.md)
-  * [Doanh thu chưa thực hiện](applications/finance/accounting/customer_invoices/deferred_revenues.md)
-  * [Electronic invoicing ()](applications/finance/accounting/customer_invoices/electronic_invoicing.md)
-  * [Invoice sequence](applications/finance/accounting/customer_invoices/sequence.md)
-  * [Snailmail](applications/finance/accounting/customer_invoices/snailmail.md)
-  * [EPC QR codes](applications/finance/accounting/customer_invoices/epc_qr_code.md)
-  * [Incoterm](applications/finance/accounting/customer_invoices/incoterms.md)
-* [Vendor bills](applications/finance/accounting/vendor_bills.md)
-  * [AI-powered document digitization](applications/finance/accounting/vendor_bills/invoice_digitization.md)
-  * [Non-current assets and fixed assets](applications/finance/accounting/vendor_bills/assets.md)
-  * [Deferred expenses](applications/finance/accounting/vendor_bills/deferred_expenses.md)
-  * [Vendor bill sequence](applications/finance/accounting/vendor_bills/sequence.md)
-* [Thanh toán](applications/finance/accounting/payments.md)
-  * [Thanh toán online](applications/finance/accounting/payments/online.md)
-    * [Install the patch to disable online invoice payment](applications/finance/accounting/payments/online/install_portal_patch.md)
-  * [Séc](applications/finance/accounting/payments/checks.md)
-  * [Batch payments by bank deposit](applications/finance/accounting/payments/batch.md)
-  * [Batch payments: SEPA Direct Debit (SDD)](applications/finance/accounting/payments/batch_sdd.md)
-  * [Follow up hoá đơn](applications/finance/accounting/payments/follow_up.md)
-  * [Internal transfers](applications/finance/accounting/payments/internal_transfers.md)
-  * [Thanh toán bằng SEPA](applications/finance/accounting/payments/pay_sepa.md)
-  * [Pay by checks](applications/finance/accounting/payments/pay_checks.md)
-  * [Forecast future bills to pay](applications/finance/accounting/payments/forecast.md)
-  * [Trusted accounts (send money)](applications/finance/accounting/payments/trusted_accounts.md)
-* [Bank and cash accounts](applications/finance/accounting/bank.md)
-  * [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
-    * [Salt Edge](applications/finance/accounting/bank/bank_synchronization/saltedge.md)
-    * [Ponto](applications/finance/accounting/bank/bank_synchronization/ponto.md)
-    * [Enable Banking](applications/finance/accounting/bank/bank_synchronization/enablebanking.md)
-  * [Giao dịch](applications/finance/accounting/bank/transactions.md)
-  * [Đối chiếu ngân hàng](applications/finance/accounting/bank/reconciliation.md)
-  * [Reconciliation models](applications/finance/accounting/bank/reconciliation_models.md)
-  * [Manage a bank account in a foreign currency](applications/finance/accounting/bank/foreign_currency.md)
-* [Báo cáo](applications/finance/accounting/reporting.md)
-  * [Tax return (VAT declaration)](applications/finance/accounting/reporting/tax_returns.md)
-  * [Tax carryover](applications/finance/accounting/reporting/tax_carryover.md)
-  * [Analytic accounting](applications/finance/accounting/reporting/analytic_accounting.md)
-  * [Analytic budgets](applications/finance/accounting/reporting/budget.md)
-  * [Intrastat](applications/finance/accounting/reporting/intrastat.md)
-  * [Data inalterability check report](applications/finance/accounting/reporting/data_inalterability.md)
-  * [Tích hợp Silverfin](applications/finance/accounting/reporting/silverfin.md)
-  * [Custom reports](applications/finance/accounting/reporting/customize.md)
-  * [Year-end closing](applications/finance/accounting/reporting/year_end.md)
+* [Bắt đầu](accounting/get_started.md)
+  * [Accounting cheat sheet](accounting/get_started/cheat_sheet.md)
+  * [Hệ thống tài khoản](accounting/get_started/chart_of_accounts.md)
+  * [Hệ thống đa tiền tệ](accounting/get_started/multi_currency.md)
+  * [Average price on returned goods](accounting/get_started/avg_price_valuation.md)
+  * [Tax units](accounting/get_started/tax_units.md)
+* [Thuế](accounting/taxes.md)
+  * [Cash basis taxes](accounting/taxes/cash_basis.md)
+  * [Withholding taxes](accounting/taxes/retention.md)
+  * [VAT numbers verification (VIES)](accounting/taxes/vat_verification.md)
+  * [Fiscal positions (tax and account mapping)](accounting/taxes/fiscal_positions.md)
+  * [AvaTax integration](accounting/taxes/avatax.md)
+    * [AvaTax use](accounting/taxes/avatax/avatax_use.md)
+    * [Cổng thông tin Avalara (Avatax)](accounting/taxes/avatax/avalara_portal.md)
+  * [TaxCloud integration](accounting/taxes/taxcloud.md)
+  * [EU intra-community distance selling](accounting/taxes/eu_distance_selling.md)
+  * [B2B (tax excluded) and B2C (tax included) pricing](accounting/taxes/B2B_B2C.md)
+* [Hóa đơn bán hàng](accounting/customer_invoices.md)
+  * [Invoicing processes](accounting/customer_invoices/overview.md)
+  * [Delivery and invoice addresses](accounting/customer_invoices/customer_addresses.md)
+  * [Payment terms and installment plans](accounting/customer_invoices/payment_terms.md)
+  * [Default terms and conditions (T&C)](accounting/customer_invoices/terms_conditions.md)
+  * [Cash discounts and tax reduction](accounting/customer_invoices/cash_discounts.md)
+  * [Credit notes and refunds](accounting/customer_invoices/credit_notes.md)
+  * [Làm tròn tiền](accounting/customer_invoices/cash_rounding.md)
+  * [Doanh thu chưa thực hiện](accounting/customer_invoices/deferred_revenues.md)
+  * [Electronic invoicing ()](accounting/customer_invoices/electronic_invoicing.md)
+  * [Invoice sequence](accounting/customer_invoices/sequence.md)
+  * [Snailmail](accounting/customer_invoices/snailmail.md)
+  * [EPC QR codes](accounting/customer_invoices/epc_qr_code.md)
+  * [Incoterm](accounting/customer_invoices/incoterms.md)
+* [Vendor bills](accounting/vendor_bills.md)
+  * [AI-powered document digitization](accounting/vendor_bills/invoice_digitization.md)
+  * [Non-current assets and fixed assets](accounting/vendor_bills/assets.md)
+  * [Deferred expenses](accounting/vendor_bills/deferred_expenses.md)
+  * [Vendor bill sequence](accounting/vendor_bills/sequence.md)
+* [Thanh toán](accounting/payments.md)
+  * [Thanh toán online](accounting/payments/online.md)
+    * [Install the patch to disable online invoice payment](accounting/payments/online/install_portal_patch.md)
+  * [Séc](accounting/payments/checks.md)
+  * [Batch payments by bank deposit](accounting/payments/batch.md)
+  * [Batch payments: SEPA Direct Debit (SDD)](accounting/payments/batch_sdd.md)
+  * [Follow up hoá đơn](accounting/payments/follow_up.md)
+  * [Internal transfers](accounting/payments/internal_transfers.md)
+  * [Thanh toán bằng SEPA](accounting/payments/pay_sepa.md)
+  * [Pay by checks](accounting/payments/pay_checks.md)
+  * [Forecast future bills to pay](accounting/payments/forecast.md)
+  * [Trusted accounts (send money)](accounting/payments/trusted_accounts.md)
+* [Bank and cash accounts](accounting/bank.md)
+  * [Đồng bộ hoá ngân hàng](accounting/bank/bank_synchronization.md)
+    * [Salt Edge](accounting/bank/bank_synchronization/saltedge.md)
+    * [Ponto](accounting/bank/bank_synchronization/ponto.md)
+    * [Enable Banking](accounting/bank/bank_synchronization/enablebanking.md)
+  * [Giao dịch](accounting/bank/transactions.md)
+  * [Đối chiếu ngân hàng](accounting/bank/reconciliation.md)
+  * [Reconciliation models](accounting/bank/reconciliation_models.md)
+  * [Manage a bank account in a foreign currency](accounting/bank/foreign_currency.md)
+* [Báo cáo](accounting/reporting.md)
+  * [Tax return (VAT declaration)](accounting/reporting/tax_returns.md)
+  * [Tax carryover](accounting/reporting/tax_carryover.md)
+  * [Analytic accounting](accounting/reporting/analytic_accounting.md)
+  * [Analytic budgets](accounting/reporting/budget.md)
+  * [Intrastat](accounting/reporting/intrastat.md)
+  * [Data inalterability check report](accounting/reporting/data_inalterability.md)
+  * [Tích hợp Silverfin](accounting/reporting/silverfin.md)
+  * [Custom reports](accounting/reporting/customize.md)
+  * [Year-end closing](accounting/reporting/year_end.md)

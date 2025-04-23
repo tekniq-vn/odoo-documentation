@@ -10,7 +10,7 @@ further and be able to design new views. Moreover, other features such as PDF re
 website pages need another tool to be created with more flexibility: a [templating](https://en.wikipedia.org/wiki/Template_processor) engine.
 
 You might already be familiar with existing engines such as Jinja (Python), ERB (Ruby) or
-Twig (PHP). Odoo comes with its own built-in engine: [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb).
+Twig (PHP). Odoo comes with its own built-in engine: [QWeb Templates](../../reference/frontend/qweb.md#reference-qweb).
 QWeb is the primary templating engine used by Odoo. It is an XML templating engine and used
 mostly to generate HTML fragments and pages.
 
@@ -20,7 +20,7 @@ displayed in a card-like structure. We will build such a view for our real estat
 ## Concrete Example: A Kanban View
 
 **Reference**: the documentation related to this topic can be found in
-[Kanban](developer/reference/user_interface/view_architectures.md#reference-view-architectures-kanban).
+[Kanban](../../reference/user_interface/view_architectures.md#reference-view-architectures-kanban).
 
 #### NOTE
 **Goal**: at the end of this section a Kanban view of the properties should be created:
@@ -48,7 +48,7 @@ looks like:
 
 Let's break down this example:
 
-- `<templates>`: defines a list of [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb) templates. Kanban views *must* define at
+- `<templates>`: defines a list of [QWeb Templates](../../reference/frontend/qweb.md#reference-qweb) templates. Kanban views *must* define at
   least one root template `kanban-box`, which will be rendered once for each record.
 - `<t t-name="kanban-box">`: `<t>` is a placeholder element for QWeb directives. In this case,
   it is used to set the `name` of the template to `kanban-box`
@@ -57,7 +57,7 @@ Let's break down this example:
 - `<field name="name"/>`: this will add the `name` field to the view.
 
 Once the Kanban view is working, we can start improving it. If we want to display an element
-conditionally, we can use the `t-if` directive (see [Conditionals](developer/reference/frontend/qweb.md#reference-qweb-conditionals)).
+conditionally, we can use the `t-if` directive (see [Conditionals](../../reference/frontend/qweb.md#reference-qweb-conditionals)).
 
 ```xml
 <kanban>
@@ -88,7 +88,7 @@ it is possible to add it outside of the `<templates>` element.
 
 Let's give the final touch to our view: the properties must be grouped by type by default. You
 might want to have a look at the various options described in
-[Kanban](developer/reference/user_interface/view_architectures.md#reference-view-architectures-kanban).
+[Kanban](../../reference/user_interface/view_architectures.md#reference-view-architectures-kanban).
 
 Kanban views are a typical example of how it is always a good idea to start from an existing
 view and fine tune it instead of starting from scratch. There are many options and classes

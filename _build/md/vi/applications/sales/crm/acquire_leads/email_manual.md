@@ -2,7 +2,7 @@
 
 Leads can be added to the *CRM* app from custom email aliases, and by manually creating new
 records. This is in addition to the leads and opportunities created in the app through the
-[website contact form](applications/sales/crm/acquire_leads/opportunities_form.md).
+[website contact form](opportunities_form.md).
 
 First, ensure the *Leads* feature is enabled in the database by navigating to CRM
 app ‣ Configuration ‣ Settings. Tick the Leads checkbox, then click
@@ -49,7 +49,7 @@ If the *leads* feature is **not** enabled on the database, messages to the email
 to the database as opportunities.
 
 #### SEE ALSO
-[Communication in Odoo by email](applications/general/email_communication.md)
+[Communication in Odoo by email](../../../general/email_communication.md)
 
 ## Manually create leads
 
@@ -62,7 +62,7 @@ In the first field of the new form, enter a title for the new lead. Next, enter 
 Name, and a Company Name.
 
 #### NOTE
-If a lead is [converted to an opportunity](applications/sales/crm/acquire_leads/convert.md), the Company Name field is
+If a lead is [converted to an opportunity](convert.md), the Company Name field is
 used to either link this opportunity to an existing customer, or to create a new customer.
 
 ### Manually create opportunities
@@ -83,7 +83,7 @@ In the Expected Revenue field, enter an estimated value for the opportunity.
 #### NOTE
 The information in the Expected Revenue and priority fields can be used to track
 performance for individual salespeople, and on a team basis. See
-[Expected revenue report](applications/sales/crm/performance/expected_revenue_report.md) and [Assign leads with predictive lead scoring](applications/sales/crm/track_leads/lead_scoring.md) for more
+[Expected revenue report](../performance/expected_revenue_report.md) and [Assign leads with predictive lead scoring](../track_leads/lead_scoring.md) for more
 information.
 
 Then, use the <i class="fa fa-star-o"></i> (star) icons to assign a priority.

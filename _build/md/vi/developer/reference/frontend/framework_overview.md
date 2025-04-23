@@ -90,14 +90,14 @@ As an Owl application, the Odoo web client defines its own environment (componen
 can access it using `this.env`). Here is a description of what Odoo adds to
 the shared `env` object:
 
-| Key        | Value                                                                                                                                           |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| `qweb`     | required by Owl (contains all templates)                                                                                                        |
-| `bus`      | [main bus](#frontend-framework-bus), used to coordinate some generic events                                                                     |
-| `services` | all deployed [services](developer/reference/frontend/services.md#frontend-services) (should usually be accessed<br/>with the `useService` hook) |
-| `debug`    | string. If non empty, the web client is in [debug mode](#frontend-framework-debug-mode)                                                         |
-| `_t`       | translation function                                                                                                                            |
-| `isSmall`  | boolean. If true, the web client is currently in mobile mode (screen width <= 767px)                                                            |
+| Key        | Value                                                                                                              |
+|------------|--------------------------------------------------------------------------------------------------------------------|
+| `qweb`     | required by Owl (contains all templates)                                                                           |
+| `bus`      | [main bus](#frontend-framework-bus), used to coordinate some generic events                                        |
+| `services` | all deployed [services](services.md#frontend-services) (should usually be accessed<br/>with the `useService` hook) |
+| `debug`    | string. If non empty, the web client is in [debug mode](#frontend-framework-debug-mode)                            |
+| `_t`       | translation function                                                                                               |
+| `isSmall`  | boolean. If true, the web client is currently in mobile mode (screen width <= 767px)                               |
 
 So, for example, to translate a string in a component (note: templates are
 automatically translated, so no specific action is required in that case), one
@@ -120,7 +120,7 @@ services, components and hooks.
 
 ### Registries
 
-[Registries](developer/reference/frontend/registries.md#frontend-registries) are basically a simple key/value mapping
+[Registries](registries.md#frontend-registries) are basically a simple key/value mapping
 that stores some specific kind of objects. They are an important part of the
 extensibility of the UI: once some object is registered, the rest of the web
 client can use it. For example, the field registry contains all field components
@@ -141,7 +141,7 @@ sub registry `fields`.
 
 ### Services
 
-[Services](developer/reference/frontend/services.md#frontend-services) are long lived pieces of code that provide a
+[Services](services.md#frontend-services) are long lived pieces of code that provide a
 feature. They may be imported by components (with `useService`) or by other
 services. Also, they can declare a set of dependencies. In that sense, services
 are basically a DI (dependency injection) system. For example, the `notification`
@@ -171,7 +171,7 @@ serviceRegistry.add("myService", myService);
 
 ### Components and Hooks
 
-[Components](developer/reference/frontend/owl_components.md#frontend-components) and [hooks](developer/reference/frontend/hooks.md#frontend-hooks) are ideas coming from the
+[Components](owl_components.md#frontend-components) and [hooks](hooks.md#frontend-hooks) are ideas coming from the
 [Owl component system](https://github.com/odoo/owl/blob/master/doc/readme.md).
 Odoo components are simply owl components that are part of the web client.
 
@@ -242,8 +242,8 @@ The first element of the `allowed_company_ids` is the main company of the user.
 
 ### Action Context
 
-The [ir.actions.act_window](developer/reference/backend/actions.md#reference-actions-window) and
-[ir.actions.client](developer/reference/backend/actions.md#reference-actions-client) support an optional `context` field.
+The [ir.actions.act_window](../backend/actions.md#reference-actions-window) and
+[ir.actions.client](../backend/actions.md#reference-actions-client) support an optional `context` field.
 This field is a `char` that represents an object. Whenever the corresponding
 action is loaded in the web client, this context field will be evaluated as an
 object and given to the component that corresponds to the action.
@@ -544,14 +544,14 @@ The `debug` mode current value can be read in the [environment](#frontend-framew
 `env.debug`.
 
 #### SEE ALSO
-- [Activate the debug mode](applications/general/developer_mode.md#developer-mode)
+- [Activate the debug mode](../../../applications/general/developer_mode.md#developer-mode)
 
 <a id="frontend-framework-assets-debug-mode"></a>
 
 ### Assets mode
 
 The `debug=assets` sub mode is useful to debug javascript code: once activated,
-the [assets](developer/reference/frontend/assets.md#reference-assets) bundles are no longer minified, and source-maps
+the [assets](assets.md#reference-assets) bundles are no longer minified, and source-maps
 are generated as well. This makes it useful to debug all kind of javascript code.
 
 <a id="frontend-framework-tests-debug-mode"></a>

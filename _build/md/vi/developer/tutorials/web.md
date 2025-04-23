@@ -2,8 +2,8 @@
 
 This guide is about creating modules for Odoo's web client.
 
-To create websites with Odoo, see [Building a Website](developer/tutorials/website.md); to add business capabilities
-or extend existing business systems of Odoo, see [Building a Module](developer/tutorials/backend.md).
+To create websites with Odoo, see [Building a Website](website.md); to add business capabilities
+or extend existing business systems of Odoo, see [Building a Module](backend.md).
 
 #### WARNING
 This guide assumes knowledge of:
@@ -12,7 +12,7 @@ This guide assumes knowledge of:
 * [jQuery](http://jquery.org)
 * [Underscore.js](http://underscorejs.org)
 
-It also requires [an installed Odoo](administration/on_premise.md), and [Git](http://git-scm.com).
+It also requires [an installed Odoo](../../administration/on_premise.md), and [Git](http://git-scm.com).
 
 ## A Simple Module
 
@@ -28,7 +28,7 @@ $ git clone http://github.com/odoo/petstore
 
 This will create a `petstore` folder wherever you executed the command.
 You then need to add that folder to Odoo's
-[`addons path`](developer/reference/cli.md#cmdoption-odoo-bin-addons-path), create a new database and
+[`addons path`](../reference/cli.md#cmdoption-odoo-bin-addons-path), create a new database and
 install the `oepetstore` module.
 
 If you browse the `petstore` folder, you should see the following content:
@@ -70,7 +70,7 @@ sub-folders are conventional and not strictly necessary.
 : Currently empty, will hold the [CSS](http://www.w3.org/Style/CSS/Overview.en.html) for pet store content
 
 `oepetstore/static/xml/petstore.xml`
-: Mostly empty, will hold [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb) templates
+: Mostly empty, will hold [QWeb Templates](../reference/frontend/qweb.md#reference-qweb) templates
 
 `oepetstore/static/js/petstore.js`
 : The most important (and interesting) part, contains the logic of the
@@ -101,7 +101,7 @@ loaded correctly. Everything in `src/xml` is defined in `__manifest__.py` while 
 `src/css` and `src/js` are defined in `petstore.xml`, or a similar file.
 
 #### WARNING
-All JavaScript files are concatenated and [minified](developer/glossary.md#term-minified) to improve
+All JavaScript files are concatenated and [minified](../glossary.md#term-minified) to improve
 application load time.
 
 One of the drawback is debugging becomes more difficult as
@@ -526,7 +526,7 @@ when generating significant amounts of DOM (lots of duplication, quoting
 issues, ...)
 
 As many other environments, Odoo's solution is to use a [template engine](http://en.wikipedia.org/wiki/Web_template_system).
-Odoo's template engine is called [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb).
+Odoo's template engine is called [QWeb Templates](../reference/frontend/qweb.md#reference-qweb).
 
 QWeb is an XML-based templating language, similar to [Genshi](http://en.wikipedia.org/wiki/Genshi_(templating_language)), [Thymeleaf](http://en.wikipedia.org/wiki/Thymeleaf) or [Facelets](http://en.wikipedia.org/wiki/Facelets). It has the following
 characteristics:
@@ -540,7 +540,7 @@ characteristics:
 #### NOTE
 The rationale behind using QWeb instead of existing javascript template
 engines is the extensibility of pre-existing (third-party) templates, much
-like Odoo [views](developer/reference/user_interface/view_records.md).
+like Odoo [views](../reference/user_interface/view_records.md).
 
 Most javascript template engines are text-based which precludes easy
 structural extensibility where an XML-based templating engine can be
@@ -820,7 +820,7 @@ Sub-templates inherit the rendering context of their caller.
 
 #### To Learn More About QWeb
 
-For a QWeb reference, see [QWeb Templates](developer/reference/frontend/qweb.md#reference-qweb).
+For a QWeb reference, see [QWeb Templates](../reference/frontend/qweb.md#reference-qweb).
 
 #### Exercise
 
@@ -1288,7 +1288,7 @@ dictionary is a requested record, with each requested field a dictionary key.
 
 ### The Action Manager
 
-In Odoo, many operations start from an [action](developer/reference/backend/actions.md):
+In Odoo, many operations start from an [action](../reference/backend/actions.md):
 opening a menu item (to a view), printing a report, ...
 
 Actions are pieces of data describing how a client should react to the
@@ -1302,7 +1302,7 @@ actions is the *Action Manager*.
 #### Using the Action Manager
 
 The action manager can be invoked explicitly from javascript code by creating
-a dictionary describing [an action](developer/reference/backend/actions.md) of the right
+a dictionary describing [an action](../reference/backend/actions.md) of the right
 type, and calling an action manager instance with it.
 
 `do_action()` is a shortcut of `Widget()`
@@ -1413,7 +1413,7 @@ multiple views depending on the original action's requirements:
 
 #### The Views
 
-Most [Odoo views](developer/reference/user_interface/view_records.md) are implemented through a subclass
+Most [Odoo views](../reference/user_interface/view_records.md) are implemented through a subclass
 of `odoo.web.View()` which provides a bit of generic basic structure
 for handling events and displaying model information.
 
@@ -1441,7 +1441,7 @@ displaying fields.
 
 All built-in fields have a default display implementation, a new
 form widget may be necessary to correctly interact with a new field type
-(e.g. a [GIS](developer/glossary.md#term-GIS) field) or to provide new representations and ways to
+(e.g. a [GIS](../glossary.md#term-GIS) field) or to provide new representations and ways to
 interact with existing field types (e.g. validate
 `Char` fields which should contain email addresses
 and display them as email links).

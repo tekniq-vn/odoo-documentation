@@ -62,7 +62,7 @@ in the database with administrator access rights. The following process outlines
 to change the portal user login.
 
 #### SEE ALSO
-[See the documentation on setting access rights](applications/general/users/access_rights.md).
+[See the documentation on setting access rights](access_rights.md).
 
 First, navigate to Settings app ‣ Users. Then, under Filters, select
 Portal Users, or select Add Custom Filter and set the following

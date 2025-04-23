@@ -1,11 +1,11 @@
 # Ghi sổ chi phí
 
-Once an expense report is [approved](applications/finance/expenses/approve_expenses.md), the next step is to post
+Once an expense report is [approved](approve_expenses.md), the next step is to post
 the expense report to the proper accounting journal.
 
 #### IMPORTANT
 To post expense reports to an accounting journal, the user **must** have the following
-[access rights](applications/general/users/access_rights.md):
+[access rights](../../general/users/access_rights.md):
 
 - Accounting: *Accountant* or *Adviser*
 - Expenses: *Manager*

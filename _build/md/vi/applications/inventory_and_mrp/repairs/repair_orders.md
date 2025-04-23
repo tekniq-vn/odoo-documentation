@@ -221,4 +221,4 @@ When the delivery has been processed and the product has been returned to the cu
 Validate to validate the delivery.
 
 #### SEE ALSO
-[Returns and refunds](applications/sales/sales/products_prices/returns.md)
+[Returns and refunds](../../sales/sales/products_prices/returns.md)

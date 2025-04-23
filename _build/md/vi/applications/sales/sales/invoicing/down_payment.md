@@ -81,7 +81,7 @@ Doors) with Ordered quantities as the Invoicing Policy.
 ![Cabinet with doors product form showcasing various details and fields.](../../../../.gitbook/assets/cabinet-product-details.png)
 
 #### SEE ALSO
-[Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)
+[Invoice based on delivered or ordered quantities](invoicing_policy.md)
 
 First, navigate to Sales app ‣ New, and add a Customer to the
 quotation.
@@ -276,4 +276,4 @@ Account field, located in the Receivables section.
 ![How to modify the income account link to down payments.](../../../../.gitbook/assets/income-account.png)
 
 #### SEE ALSO
-[Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)
+[Invoice based on delivered or ordered quantities](invoicing_policy.md)

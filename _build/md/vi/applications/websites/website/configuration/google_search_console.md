@@ -73,4 +73,4 @@ have to put in your Odoo's Website Settings. Google verifies ownership by checki
    verification should be done immediately.
 
 #### SEE ALSO
-[Tên miền](applications/websites/website/configuration/domain_names.md)
+[Tên miền](domain_names.md)

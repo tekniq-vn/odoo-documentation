@@ -25,7 +25,7 @@ Value field depending on the type you chose.
 ![PayNow bank account configuration](../../../.gitbook/assets/sg-paynow-bank-setting.png)
 
 #### SEE ALSO
-[Bank and cash accounts](applications/finance/accounting/bank.md)
+[Bank and cash accounts](../accounting/bank.md)
 
 ### Cấu hình sổ nhật ký ngân hàng
 

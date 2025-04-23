@@ -49,7 +49,7 @@ application.
 ## Optional products on quotation templates
 
 #### NOTE
-Be sure to review the [Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md) documentation to better understand how quotation
+Be sure to review the [Mẫu báo giá](quote_template.md) documentation to better understand how quotation
 templates work before reading the following information.
 
 For quotation templates, just like a typical quotation form, there is also an Optional
@@ -73,4 +73,4 @@ additional products can be added, before the quotation is sent to a customer.
 There is no limit to how many optional products can be added to a quotation template.
 
 #### SEE ALSO
-[Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)
+[Mẫu báo giá](quote_template.md)

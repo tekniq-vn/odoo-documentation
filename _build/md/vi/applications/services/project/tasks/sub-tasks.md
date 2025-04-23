@@ -32,4 +32,4 @@ Once the new sub-task is created, the following changes occur in the parent task
   sub-tasks.
 
 Click View to open the sub-task you created. The sub-task form is identical to the
-[task form](applications/services/project/tasks/task_creation.md#task-creation-task-configuration).
+[task form](task_creation.md#task-creation-task-configuration).

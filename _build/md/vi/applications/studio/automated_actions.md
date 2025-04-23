@@ -6,7 +6,7 @@ a record 7 days after its last update), or external events.
 
 To create an automation rule with Studio, proceed as follows:
 
-1. [Open Studio](applications/studio.md#studio-access) and click Automations, then New.
+1. [Open Studio](../studio.md#studio-access) and click Automations, then New.
 2. Select the [Kích hoạt](#studio-automated-actions-trigger) and, if necessary, fill in the fields that
    appear on the screen based on the chosen trigger.
 3. Click Add an action, then select the Type of
@@ -19,7 +19,7 @@ To create an automation rule with Studio, proceed as follows:
 ## Kích hoạt
 
 The Trigger is used to define when the automation rule should be applied. The available
-triggers depend on the [model](applications/studio/models_modules_apps.md). Five trigger categories are available
+triggers depend on the [model](models_modules_apps.md). Five trigger categories are available
 overall:
 
 - [Giá trị đã được cập nhật](#studio-automated-actions-trigger-values-updated)
@@ -77,7 +77,7 @@ Trigger automated actions:
 
 - On save: When the record is saved;
 - On deletion: When a record is deleted;
-- On UI change: When a field's value is changed on the [Form view](applications/studio/views.md#studio-views-general-form), even before saving the record.
+- On UI change: When a field's value is changed on the [Form view](views.md#studio-views-general-form), even before saving the record.
 
 For the On save and On UI change triggers, you **must** then select the
 field(s) to be used to trigger the automation rule in the When updating field.
@@ -144,7 +144,7 @@ This action allows to update one of the record's (related) fields. Click the Upd
 field and, in the list that opens, select or search for the field to be updated; click the right
 arrow next to the field name to access the list of related fields if needed.
 
-If you selected a [many2many field](applications/studio/fields.md#studio-fields-relational-fields-many2many), choose whether
+If you selected a [many2many field](fields.md#studio-fields-relational-fields-many2many), choose whether
 the field must be updated by Adding, Removing, or Setting it to
 the selected value or by Clearing it.
 
@@ -193,8 +193,8 @@ another model, select a field in the Link Field field to link the record that
 triggered the creation of the new record.
 
 #### NOTE
-The dropdown list related to the Link Field field only contains [one2many fields](applications/studio/fields.md#studio-fields-relational-fields-one2many) existing on the current model that are linked to a
-[many2one field](applications/studio/fields.md#studio-fields-relational-fields-many2one) on the target model.
+The dropdown list related to the Link Field field only contains [one2many fields](fields.md#studio-fields-relational-fields-one2many) existing on the current model that are linked to a
+[many2one field](fields.md#studio-fields-relational-fields-many2one) on the target model.
 
 <a id="studio-automated-actions-action-python-code"></a>
 

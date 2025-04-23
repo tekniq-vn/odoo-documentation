@@ -6,7 +6,7 @@ Trong trường hợp đó, cần phải làm cho khu vực sản xuất này kh
 
 ## Cấu hình
 
-Trước khi một khu vực sản xuất có thể được đánh dấu là không khả dụng, nền tảng Odoo phải được cấu hình chính xác. Trước tiên, cần phải bật [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode). Khi bật chế độ này, nút thông minh *Ngày nghỉ* sẽ xuất hiện trên trang *Giờ làm việc* của mỗi khu vực sản xuất.
+Trước khi một khu vực sản xuất có thể được đánh dấu là không khả dụng, nền tảng Odoo phải được cấu hình chính xác. Trước tiên, cần phải bật [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode). Khi bật chế độ này, nút thông minh *Ngày nghỉ* sẽ xuất hiện trên trang *Giờ làm việc* của mỗi khu vực sản xuất.
 
 Tiếp theo, hãy cài đặt ứng dụng **Ngày nghỉ**. Đây là ứng dụng được sử dụng để quản lý thời gian nghỉ của tất cả tài nguyên trong Odoo, bao gồm cả nhân viên và khu vực sản xuất.
 
@@ -17,7 +17,7 @@ Bước cuối cùng là cấu hình các khu vực sản xuất một cách ch�
 Để tạo một khu vực sản xuất, hãy đi đến Ứng dụng Sản xuất ‣ Cấu hình ‣ Khu vực sản xuất ‣ Mới.
 
 #### SEE ALSO
-Để biết hướng dẫn chi tiết về cách tạo khu vực sản xuất, hãy tham khảo tài liệu về [khu vực sản xuất](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md).
+Để biết hướng dẫn chi tiết về cách tạo khu vực sản xuất, hãy tham khảo tài liệu về [khu vực sản xuất](../advanced_configuration/using_work_centers.md).
 
 Đảm bảo cả hai khu vực sản xuất đều có cùng thiết bị được liệt kê trong tab Thiết bị. Như vậy, các hoạt động được xử lý tại khu vực này cũng có thể được thực hiện tại khu vực kia.
 

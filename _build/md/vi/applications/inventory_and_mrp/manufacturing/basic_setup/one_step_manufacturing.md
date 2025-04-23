@@ -3,7 +3,7 @@
 Odoo *Sản xuất* cho phép người dùng sản xuất sản phẩm trong một, hai hoặc ba bước. Khi sử dụng sản xuất một bước, Odoo tạo lệnh sản xuất (MO), nhưng không tạo lệnh chuyển hàng để chuyển thành phần ra khỏi kho hoặc thành phẩm vào kho. Số lượng hàng tồn kho vẫn được cập nhật dựa trên số lượng thành phần đã sử dụng và sản phẩm đã sản xuất, song việc chuyển chúng vào và ra khỏi kho không được theo dõi.
 
 #### IMPORTANT
-Sản phẩm phải được cấu hình chính xác trước khi có thể được sản xuất trong Odoo. Để biết chi tiết về cách thực hiện, hãy tham khảo tài liệu về cách [cấu hình sản phẩm để sản xuất](applications/inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.md#manufacturing-management-configure-manufacturing-product).
+Sản phẩm phải được cấu hình chính xác trước khi có thể được sản xuất trong Odoo. Để biết chi tiết về cách thực hiện, hãy tham khảo tài liệu về cách [cấu hình sản phẩm để sản xuất](configure_manufacturing_product.md#manufacturing-management-configure-manufacturing-product).
 
 ## Tạo lệnh sản xuất
 

@@ -189,4 +189,4 @@ The details of the plan are added to the chatter, in addition to each of the act
 ![The chatter thread of a CRM opportunity with a launched activity plan.](../../../../.gitbook/assets/activity-plan-chatter.png)
 
 #### SEE ALSO
-- [Hoạt động](applications/essentials/activities.md)
+- [Hoạt động](../../../essentials/activities.md)

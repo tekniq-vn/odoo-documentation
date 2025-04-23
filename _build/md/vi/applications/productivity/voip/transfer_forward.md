@@ -91,7 +91,7 @@ can **only** occur after speaking to the caller first. Without picking up the ca
 console/portal.
 
 #### SEE ALSO
-For more information on transfers, visit [Forwardings tab](applications/productivity/voip/axivox/manage_users.md#voip-axivox-forwardings-tab).
+For more information on transfers, visit [Forwardings tab](axivox/manage_users.md#voip-axivox-forwardings-tab).
 
 To transfer a call within the Odoo *VoIP* phone widget, first, answer the call using the green
 📞 (phone) icon.
@@ -112,4 +112,4 @@ Then, enter the full phone number of the user the call should be forwarded to. F
 Transfer to route the call to that phone number.
 
 #### SEE ALSO
-For more information on forwarding, visit [Forwardings tab](applications/productivity/voip/axivox/manage_users.md#voip-axivox-forwardings-tab).
+For more information on forwarding, visit [Forwardings tab](axivox/manage_users.md#voip-axivox-forwardings-tab).

@@ -17,12 +17,12 @@ By default, the Revenues reporting page appears as a graph (a <i class="fa fa-li
 Non-free tickets and Event Start Date: (current year), are present in the
 search bar.
 
-The Revenues reporting page can also be viewed as a [pivot table](applications/essentials/reporting.md#reporting-views-pivot), by clicking the <i class="oi oi-view-pivot"></i> (Pivot) icon in the
+The Revenues reporting page can also be viewed as a [pivot table](../../essentials/reporting.md#reporting-views-pivot), by clicking the <i class="oi oi-view-pivot"></i> (Pivot) icon in the
 upper-right corner.
 
 ### Đơn vị tính
 
-Choosing specific [Measures](applications/essentials/reporting.md#reporting-choosing-measures) is a quick way to customize
+Choosing specific [Measures](../../essentials/reporting.md#reporting-choosing-measures) is a quick way to customize
 reporting pages.
 
 Regardless of the chosen view, the measures on the Revenues reporting page are as
@@ -45,7 +45,7 @@ When the pivot option is selected, all Measures options are selected, by default
 To reveal a drop-down menu of filter and grouping options to create custom reports, click the
 <i class="fa fa-caret-down"></i> (down arrow) to the right of the search bar.
 
-Doing so opens a drop-down mega menu of options organized into columns: [Filters](applications/essentials/search.md#search-preconfigured-filters), [Group By](applications/essentials/search.md#search-group), and [Favorites](applications/essentials/search.md#search-favorites).
+Doing so opens a drop-down mega menu of options organized into columns: [Filters](../../essentials/search.md#search-preconfigured-filters), [Group By](../../essentials/search.md#search-group), and [Favorites](../../essentials/search.md#search-favorites).
 
 #### NOTE
 If a time-related option has been selected from the Filters column (e.g. the default
@@ -55,7 +55,7 @@ comparison options for the corresponding time-related filter option selected.
 Only **one** selection can be made from the Comparison column at a time.
 
 #### SEE ALSO
-[Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)
+[Tìm kiếm, lọc, và nhóm bản ghi](../../essentials/search.md)
 
 #### Filter options
 
@@ -87,7 +87,7 @@ The Filters column has the following options:
 - Published Events: Select this option to show revenue-related data for published
   events.
 - Add Custom Filter: Create a custom filter to analyze event-related revenue data. To
-  learn more, refer to the documentation on [custom filters](applications/essentials/search.md#search-custom-filters).
+  learn more, refer to the documentation on [custom filters](../../essentials/search.md#search-custom-filters).
 
 #### Group By options
 

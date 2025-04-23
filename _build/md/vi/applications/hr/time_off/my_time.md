@@ -44,7 +44,7 @@ point. On the right side of the time off summary blocks, there is a Balance at t
 
 #### NOTE
 The Balance at the (date) field **only** appears if the user is accruing time off
-through an [accrual plan](applications/hr/time_off.md#time-off-accrual-plans).
+through an [accrual plan](../time_off.md#time-off-accrual-plans).
 
 The current date is the default date selected. Navigate to the desired date, and Odoo displays the
 time off balances the user should have on that date. This takes into account all time off currently
@@ -63,10 +63,10 @@ The color for each request corresponds to the specified color set with the vario
 listed in the section above the Legend.
 
 New time off requests can be made from the Dashboard. Click the New button
-in the upper-left corner, and a [New Time Off](applications/hr/time_off/request_time_off.md) pop-up window appears.
+in the upper-left corner, and a [New Time Off](request_time_off.md) pop-up window appears.
 
 New allocation requests can also be made from the Dashboard. Click the New
-Allocation Request button to request more time off, and a [New Allocation](applications/hr/time_off/allocations.md#time-off-request-allocation) pop-up window appears.
+Allocation Request button to request more time off, and a [New Allocation](allocations.md#time-off-request-allocation) pop-up window appears.
 
 ![Time off dashboard view with the legend, time off summaries, and view buttons highlighted.](../../../.gitbook/assets/dashboard2.png)
 
@@ -82,7 +82,7 @@ Description, Start Date, End Date, Duration, and
 Status.
 
 A new time off request can be made from this view. Click the New button to
-[Request time off](applications/hr/time_off/request_time_off.md).
+[Request time off](request_time_off.md).
 
 <a id="time-off-my-allocations"></a>
 
@@ -96,4 +96,4 @@ Type, Description, Amount, Allocation Type, and
 Status.
 
 A new allocation request can be made from this view, as well. Click the New button to
-[request an allocation](applications/hr/time_off/allocations.md#time-off-request-allocation).
+[request an allocation](allocations.md#time-off-request-allocation).

@@ -21,7 +21,7 @@ while in the Odoo database, and the widget appears.
 
 #### SEE ALSO
 To see how to use the  widget on a desktop/laptop
-computer, check out this documentation: [VoIP widget](applications/productivity/voip/voip_widget.md).
+computer, check out this documentation: [VoIP widget](voip_widget.md).
 
 ## Odoo VoIP (tablet/mobile device)
 

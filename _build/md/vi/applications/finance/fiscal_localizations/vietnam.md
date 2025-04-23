@@ -6,21 +6,21 @@
 
 The following modules are installed automatically with the Vietnamese localization:
 
-| Tên                   | Tên kỹ thuật          | Mô tả                                                                                                                                           |
-|-----------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vietnam - Accounting  | `l10n_vn`             | This module includes the default<br/>[fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages). |
-| Vietnam - E-invoicing | `l10n_vn_edi_viettel` | This module includes the features required for integration with [SInvoice](#localizations-vietnam-sinvoice).                                    |
+| Tên                   | Tên kỹ thuật          | Mô tả                                                                                                                         |
+|-----------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Vietnam - Accounting  | `l10n_vn`             | This module includes the default<br/>[fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). |
+| Vietnam - E-invoicing | `l10n_vn_edi_viettel` | This module includes the features required for integration with [SInvoice](#localizations-vietnam-sinvoice).                  |
 
 #### NOTE
 In some cases, such as when upgrading to a version with additional modules, it is possible that
-modules may not be installed automatically. Any missing modules can be manually [installed](applications/general/apps_modules.md#general-install).
+modules may not be installed automatically. Any missing modules can be manually [installed](../../general/apps_modules.md#general-install).
 
 <a id="localizations-vietnam-company"></a>
 
 ## Công ty
 
 To use all the features of this fiscal localization, the following fields are required on the
-[company record](applications/general/companies.md):
+[company record](../../general/companies.md):
 
 - Tên
 - Address, including the City, State, Zip Code,
@@ -147,7 +147,7 @@ To add Invoice Symbols, click Add a new line.
 ### Sending invoices to SInvoice
 
 Invoices can be sent to SInvoice once they have been confirmed. To do so, follow the
-[invoice sending](applications/finance/accounting/customer_invoices.md#accounting-invoice-sending) steps. In the Send popup, enable
+[invoice sending](../accounting/customer_invoices.md#accounting-invoice-sending) steps. In the Send popup, enable
 Send to SInvoice and click Send & Print.
 
 Once the invoice has been successfully submitted to SInvoice, the SInvoice Status field
@@ -209,11 +209,11 @@ Enable Include Reference to include the invoice number in the QR code.
 #### IMPORTANT
 - The account holder's country must be set to `Vietnam`, and their city must be specified on the
   contact form.
-- The [account number](applications/finance/accounting/bank.md#accounting-bank-account-number) and bank must be set on the
+- The [account number](../accounting/bank.md#accounting-bank-account-number) and bank must be set on the
   Bank journal.
 
 #### SEE ALSO
-[Bank and cash accounts](applications/finance/accounting/bank.md)
+[Bank and cash accounts](../accounting/bank.md)
 
 ### Generating QR codes on invoices
 

@@ -22,12 +22,12 @@ valuation](#inventory-avg-price-leaving-inventory).
 
 #### NOTE
 This document addresses a specific use case for theoretical purposes. For instructions on how to
-set up and use , refer to the [inventory valuation configuration](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+set up and use , refer to the [inventory valuation configuration](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
 doc.
 
 #### SEE ALSO
-- [Using inventory valuation](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md)
-- [Other inventory valuation methods](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-costing-methods)
+- [Using inventory valuation](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md)
+- [Other inventory valuation methods](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-costing-methods)
 
 ## Cấu hình
 
@@ -37,7 +37,7 @@ product category page, set Costing Method to `Average Cost (AVCO)` and
 Inventory Valuation to `Automated`.
 
 #### SEE ALSO
-[Inventory valuation configuration](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+[Inventory valuation configuration](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
 
 ## Using average cost valuation
 
@@ -62,7 +62,7 @@ $$
 - **Incoming Qty**: count of products arriving in the new shipment;
 - **Purchase Price**: estimated price of products at the reception of products (since vendor bills
   may arrive later). The amount includes not only the price for the products, but also added costs,
-  such as shipping, taxes, and [landed costs](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md). At
+  such as shipping, taxes, and [landed costs](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md). At
   reception of the vendor bill, this price is adjusted;
 - **Final Qty**: quantity of on-hand stock after the stock move.
 
@@ -141,7 +141,7 @@ are `0` tables left in stock.
 Bên cạnh việc sử dụng , các công ty áp dụng **kế toán Anglo-Saxon** còn duy trì tài khoản tạm giữ để theo dõi số tiền phải trả nhà cung cấp. Khi nhà cung cấp giao hàng, **giá trị tồn kho** tăng theo giá nhập hàng của sản phẩm đã nhập kho. Tài khoản tạm giữ (gọi là **nhập kho**) được ghi có và chỉ đối chiếu khi nhận được hóa đơn mua hàng.
 
 #### SEE ALSO
-- [Anglo-Saxon vs. Continental](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-accounting-types)
+- [Anglo-Saxon vs. Continental](../../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md#inventory-warehouses-storage-accounting-types)
 
 Bảng dưới đây phản ánh các bút toán và tài khoản kế toán. Tài khoản *nhập kho* lưu trữ số tiền dự kiến sẽ thanh toán cho nhà cung cấp khi hóa đơn mua hàng vẫn chưa được nhận. Để cân đối tài khoản khi trả lại sản phẩm có sự chênh lệch giữa giá trị **định giá** của sản phẩm và giá mua thực tế, một tài khoản *chênh lệch giá* sẽ được tạo ra.
 
@@ -162,7 +162,7 @@ Bảng dưới đây phản ánh các bút toán và tài khoản kế toán. T�
 
 #### Tóm tắt
 
-Tại thời điểm nhận hàng, Odoo đảm bảo rằng các công ty có thể thanh toán cho hàng hóa đã mua bằng cách chuyển trước một khoản tiền tương ứng với giá trị của hàng hóa nhận được vào [tài khoản nợ phải trả](applications/finance/accounting/get_started/cheat_sheet.md), **Nhập kho**. Sau đó, khi nhận hóa đơn, số tiền trong tài khoản tạm giữ này sẽ được chuyển sang *Tài khoản phải trả*. Việc chuyển tiền vào tài khoản này có nghĩa là hóa đơn đã được thanh toán. **Nhập kho** sẽ được đối chiếu khi nhận được hóa đơn mua hàng.
+Tại thời điểm nhận hàng, Odoo đảm bảo rằng các công ty có thể thanh toán cho hàng hóa đã mua bằng cách chuyển trước một khoản tiền tương ứng với giá trị của hàng hóa nhận được vào [tài khoản nợ phải trả](cheat_sheet.md), **Nhập kho**. Sau đó, khi nhận hóa đơn, số tiền trong tài khoản tạm giữ này sẽ được chuyển sang *Tài khoản phải trả*. Việc chuyển tiền vào tài khoản này có nghĩa là hóa đơn đã được thanh toán. **Nhập kho** sẽ được đối chiếu khi nhận được hóa đơn mua hàng.
 
 Inventory valuation is a method of calculating how much each in-stock product is worth internally.
 Since there is a difference between the price the product is **valuated at** and the price the

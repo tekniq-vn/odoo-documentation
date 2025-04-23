@@ -13,7 +13,7 @@ salesperson, then by the month the membership begins.
 
 ![A sample of the members analysis report.](../../../.gitbook/assets/example-report1.png)
 
-Additional [Group By](applications/essentials/search.md#search-group) options include the following:
+Additional [Group By](../../essentials/search.md#search-group) options include the following:
 
 - Salesperson: the internal user in charge of the contact. This information is managed
   in the *Salesperson* field on the *Sales & Purchase* tab on the contact's record.
@@ -36,5 +36,5 @@ chart).
 Click the <i class="oi oi-view-pivot"></i> (pivot) icon to change to the pivot view.
 
 #### SEE ALSO
-- [Bộ lọc tuỳ chỉnh](applications/essentials/search.md#search-custom-filters)
-- [Yêu thích](applications/essentials/search.md#search-favorites)
+- [Bộ lọc tuỳ chỉnh](../../essentials/search.md#search-custom-filters)
+- [Yêu thích](../../essentials/search.md#search-favorites)

@@ -10,7 +10,7 @@ storing data.
 import them into your database.
 
 #### SEE ALSO
-- [Đồng bộ hoá ngân hàng](applications/finance/accounting/bank/bank_synchronization.md)
+- [Đồng bộ hoá ngân hàng](../bank_synchronization.md)
 - [Enable Banking website](https://enablebanking.com/)
 
 ## Cấu hình

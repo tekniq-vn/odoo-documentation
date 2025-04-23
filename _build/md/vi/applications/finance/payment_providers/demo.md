@@ -6,7 +6,7 @@ without requiring real banking credentials.
 ## Cấu hình
 
 #### SEE ALSO
-[Enabling a payment provider](applications/finance/payment_providers.md#payment-providers-add-new)
+[Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
 
 #### IMPORTANT
 Switch the state to Test Mode.
@@ -23,7 +23,7 @@ desired outcome.
 
 If you selected Pending as **payment outcome**, you can change the state of the
 transaction straight from its form view. To access a transaction's form view, activate the
-[developer mode](applications/general/developer_mode.md#developer-mode), and go to Accounting / Website ‣
+[developer mode](../../general/developer_mode.md#developer-mode), and go to Accounting / Website ‣
 Configuration ‣ Payment Transactions. Then, change the status of a transaction by clicking on the
 state bar (Draft, Pending, Authorized, Confirmed, Canceled, Error).
 

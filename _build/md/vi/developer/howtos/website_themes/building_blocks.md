@@ -244,7 +244,7 @@ Add parallax effect.
 ```
 
 #### NOTE
-A video background can be set on a section. Refer to the "[Media](developer/howtos/website_themes/media.md)" chapter of this documentation.
+A video background can be set on a section. Refer to the "[Media](media.md)" chapter of this documentation.
 
 <a id="website-themes-building-blocks-layout-text-highlights"></a>
 

@@ -166,6 +166,6 @@ Drinks report shows how many total requests were made for each drink.
 As with all reports in Odoo, the filters and groups can be modified to show other metrics, as well.
 
 #### SEE ALSO
-- [Khách](applications/hr/frontdesk/visitors.md)
+- [Khách](frontdesk/visitors.md)
 
-* [Khách](applications/hr/frontdesk/visitors.md)
+* [Khách](frontdesk/visitors.md)

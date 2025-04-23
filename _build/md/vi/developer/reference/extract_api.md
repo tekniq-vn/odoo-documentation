@@ -10,7 +10,7 @@ total, due date, or invoice lines for *invoices*, the initial and final balances
 
 This service is a paid service. Each document processing will cost you one credit from your
 document digitization  account. More information about  accounts can be found
-[here](applications/essentials/in_app_purchase.md).
+[here](../../applications/essentials/in_app_purchase.md).
 
 You can either use this service directly in the Accounting, Expense, or Recruitment App or through
 the API. The Extract API, which is detailed in the next section, allows you to integrate our
@@ -80,7 +80,7 @@ to fetch the result of your request.
 
 `params`
 : `account_token` (required)
-  : The token of the [IAP](applications/essentials/in_app_purchase.md) account from which
+  : The token of the [IAP](../../applications/essentials/in_app_purchase.md) account from which
     credits will be charged. Each successful call costs one credit.
   <br/>
   `version` (required)

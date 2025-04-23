@@ -3,8 +3,8 @@
 Odoo tương thích với OAuth của Google dành cho Gmail. Để có thể gửi email một cách bảo mật từ miền tùy chỉnh, bạn chỉ cần cấu hình một vài thiết lập trên nền tảng *Google Workspace* cũng như trong back end của cơ sở dữ liệu Odoo. Cấu hình này có thể hoạt động với cả địa chỉ email cá nhân hoặc địa chỉ email được tạo từ một miền riêng.
 
 #### SEE ALSO
-- [Google Sign-In Authentication](applications/general/users/google.md)
-- [Google Calendar synchronization](applications/productivity/calendar/google.md)
+- [Google Sign-In Authentication](../users/google.md)
+- [Google Calendar synchronization](../../productivity/calendar/google.md)
 
 ## Setup in Google
 

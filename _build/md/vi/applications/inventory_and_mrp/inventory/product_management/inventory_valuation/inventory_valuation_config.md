@@ -14,7 +14,7 @@ Alternatively, perpetual (automatic) inventory valuation creates real-time *jour
 This document is focused on the proper setup of automatic inventory valuation, which is an
 integrated valuation method that ensures journal entries in the *Accounting* app match stock
 valuation updates in the *Inventory* app. For an introduction of inventory valuation in Odoo, refer
-to the [Using inventory valuation](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md) documentation.
+to the [Using inventory valuation](using_inventory_valuation.md) documentation.
 
 #### WARNING
 Switching from manual to automatic inventory valuation may cause discrepancies between stock
@@ -22,7 +22,7 @@ valuation and accounting journals.
 
 One [successful strategy](https://www.odoo.com/r/Kvfg) for switching to automated valuation:
 
-1. Clear existing stock (possibly with an [inventory adjustment](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md))
+1. Clear existing stock (possibly with an [inventory adjustment](../../warehouses_storage/inventory_management/count_products.md))
 2. Change the inventory valuation method to *Automatic*
 3. Return the existing stock, with the original monetary value (using an inventory adjustment)
 
@@ -170,7 +170,7 @@ Changing the costing method greatly impacts inventory valuation. It is highly re
 consult an accountant first before making any adjustments here.
 
 #### SEE ALSO
-[Using inventory valuation](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md)
+[Using inventory valuation](using_inventory_valuation.md)
 
 Khi thay đổi Phương pháp tính chi phí, các sản phẩm đã có trong kho sử dụng phương pháp Tiêu chuẩn **sẽ không** thay đổi giá trị; thay vào đó, các đơn vị hiện có giữ nguyên giá trị và mọi điều chuyển sản phẩm từ thời điểm đó sẽ ảnh hưởng đến chi phí trung bình, khiến giá thành sản phẩm thay đổi. Nếu giá trị trong trường Chi phí trên biểu mẫu sản phẩm được thay đổi thủ công, Odoo sẽ tạo bản ghi tương ứng trong báo cáo  *Định giá tồn kho*.
 
@@ -297,7 +297,7 @@ Stock Valuation, Stock Interim (Received), and Stock Interim
 
 #### SEE ALSO
 - [Stock accounts and what they do](#inventory-warehouses-storage-stock-account)
-- [Accounting cheat sheet](applications/finance/accounting/get_started/cheat_sheet.md)
+- [Accounting cheat sheet](../../../../finance/accounting/get_started/cheat_sheet.md)
 
 ![See the full inventory valuation breakdown in Odoo Accounting app.](../../../../../.gitbook/assets/stock-balance-sheet.png)
 

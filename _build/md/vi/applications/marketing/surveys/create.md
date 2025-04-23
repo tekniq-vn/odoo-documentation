@@ -64,7 +64,7 @@ drop-down menu to reveal the Mandatory Answer column in the Questions tab.
 To add a question to a survey, click Add a question in the Questions tab,
 and proceed to fill out the Create Sections and Questions pop-up window that appears.
 
-To learn how to create and customize questions, refer to the [create questions](applications/marketing/surveys/questions.md)
+To learn how to create and customize questions, refer to the [create questions](questions.md)
 documentation.
 
 #### IMPORTANT
@@ -226,7 +226,7 @@ answers. If that option is enabled, participants who submit their answer quickly
 points.
 
 #### SEE ALSO
-[Live Session surveys](applications/marketing/surveys/live_session.md)
+[Live Session surveys](live_session.md)
 
 ### Tab mô tả
 
@@ -264,7 +264,7 @@ Those buttons are the following:
 - See results: this button **only** appears if there has been at least one participant
   who has completed the survey. Clicking See results reveals a separate tab containing
   a visual analysis of the survey questions and responses. For more information, check out the
-  [scoring surveys](applications/marketing/surveys/scoring.md) documentation.
+  [scoring surveys](scoring.md) documentation.
 - Create Live Session: clicking this button opens the *Session Manager* in a separate
   tab. It also allows participants to access the live session, but the actual survey does **not**
   begin until the user hosting the live session survey clicks the Start button on the
@@ -290,5 +290,5 @@ Those buttons are the following:
   survey form.
 
 #### SEE ALSO
-- [Create questions](applications/marketing/surveys/questions.md)
-- [Scoring surveys](applications/marketing/surveys/scoring.md)
+- [Create questions](questions.md)
+- [Scoring surveys](scoring.md)

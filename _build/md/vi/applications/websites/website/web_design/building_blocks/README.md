@@ -2,9 +2,9 @@
 
 Building blocks let you design your website quickly by dragging and dropping them onto your web
 pages. Four types of building blocks are available depending on their use:
-[Structure](applications/websites/website/web_design/building_blocks/structure.md), [Features](applications/websites/website/web_design/building_blocks/features.md),
-[Dynamic Content](applications/websites/website/web_design/building_blocks/dynamic_content.md), and
-[Inner Content](applications/websites/website/web_design/building_blocks/inner_content.md).
+[Structure](building_blocks/structure.md), [Features](building_blocks/features.md),
+[Dynamic Content](building_blocks/dynamic_content.md), and
+[Inner Content](building_blocks/inner_content.md).
 
 #### SEE ALSO
 [Odoo Tutorial: Design your first webpage](https://www.odoo.com/slides/slide/design-your-website-images-and-motion-6931?fullscreen=1)
@@ -29,7 +29,7 @@ When you modify a color preset, all elements using it are automatically updated 
 configuration.
 
 #### SEE ALSO
-[Website themes](applications/websites/website/web_design/themes.md)
+[Website themes](themes.md)
 
 ## Layout: grid and columns
 
@@ -109,7 +109,7 @@ instead. Then, configure the condition(s) to apply by selecting Visible for or
 Hidden for and which Records will be impacted.
 
 #### SEE ALSO
-[Link Tracker](applications/websites/website/reporting/link_tracker.md)
+[Link Tracker](../reporting/link_tracker.md)
 
 ### Invisible elements
 
@@ -128,7 +128,7 @@ and select the building block element. Then, you can:
 - edit the [Cols](#building-blocks-cols) and [Visibility](#building-blocks-visibility)
   features in the Customize tab of the website editor.
 
-* [Cấu trúc lương](applications/websites/website/web_design/building_blocks/structure.md)
-* [Tính năng](applications/websites/website/web_design/building_blocks/features.md)
-* [Dynamic content](applications/websites/website/web_design/building_blocks/dynamic_content.md)
-* [Nội dung bên trong](applications/websites/website/web_design/building_blocks/inner_content.md)
+* [Cấu trúc lương](building_blocks/structure.md)
+* [Tính năng](building_blocks/features.md)
+* [Dynamic content](building_blocks/dynamic_content.md)
+* [Nội dung bên trong](building_blocks/inner_content.md)

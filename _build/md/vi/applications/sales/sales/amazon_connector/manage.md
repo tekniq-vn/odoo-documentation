@@ -20,7 +20,7 @@ sales order is automatically canceled in Odoo.
 ## Force synchronization
 
 In order to force the synchronization of an order, whose status has **not** changed since the
-previous synchronization, start by activating the [developer mode](applications/general/developer_mode.md#developer-mode). This
+previous synchronization, start by activating the [developer mode](../../../general/developer_mode.md#developer-mode). This
 includes changes on either end (Amazon or Odoo).
 
 Then, navigate to the Amazon account in Odoo (Sales app ‣ Configuration ‣
@@ -47,7 +47,7 @@ If the carrier doesn't automatically provide a tracking reference, one must be s
 rule applies to all Amazon marketplaces.
 
 #### SEE ALSO
-[Third-party shipping carriers](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
+[Third-party shipping carriers](../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
 
 <a id="manage-manage-delivery-errors"></a>
 
@@ -104,7 +104,7 @@ Additionally, for B2B clients, it is currently required to manually retrieve VAT
 Amazon back-end **before** creating an invoice in Odoo.
 
 #### NOTE
-For [TaxCloud](applications/finance/accounting/taxes/taxcloud.md) users: invoices created from
+For [TaxCloud](../../../finance/accounting/taxes/taxcloud.md) users: invoices created from
 Amazon sales orders are **not** synchronized with TaxCloud, since Amazon already includes them in
 its own tax report to TaxCloud.
 
@@ -137,5 +137,5 @@ If desired, the sales team on the account can be changed for another, in order t
 reporting for the sales of this account.
 
 #### SEE ALSO
-- [Amazon Connector features](applications/sales/sales/amazon_connector/features.md)
-- [Amazon Connector configuration](applications/sales/sales/amazon_connector/setup.md)
+- [Amazon Connector features](features.md)
+- [Amazon Connector configuration](setup.md)

@@ -90,7 +90,7 @@ Trạng thái commit được push lên GitHub có thể có các bối cảnh s
 
 ## Miền tuỳ chỉnh
 
-Để cấu hình các miền bổ sung, vui lòng tham khảo [phần cài đặt](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings) của nhánh.
+Để cấu hình các miền bổ sung, vui lòng tham khảo [phần cài đặt](branches.md#odoosh-gettingstarted-branches-tabs-settings) của nhánh.
 
 <a id="odoosh-gettingstarted-settings-submodules"></a>
 

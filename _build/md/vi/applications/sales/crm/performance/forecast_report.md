@@ -43,7 +43,7 @@ to reflect the change.
 
 #### SEE ALSO
 For more information on how probability is assigned to opportunities, see
-[Assign leads with predictive lead scoring](applications/sales/crm/track_leads/lead_scoring.md)
+[Assign leads with predictive lead scoring](../track_leads/lead_scoring.md)
 
 ## Xem kết quả
 
@@ -57,4 +57,4 @@ chart).
 Click the <i class="oi oi-view-pivot"></i> (pivot) icon to change to the pivot view, or the <i class="oi oi-view-list"></i> (list) icon to change to the list view.
 
 #### SEE ALSO
-To save this report as a *favorite*, see [Yêu thích](applications/essentials/search.md#search-favorites).
+To save this report as a *favorite*, see [Yêu thích](../../../essentials/search.md#search-favorites).

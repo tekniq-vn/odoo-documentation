@@ -3,9 +3,9 @@
 #### SEE ALSO
 To learn more about the eBay connector visit these pages as well:
 
-- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)
-- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
-- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
+- [eBay connector setup](setup.md)
+- [How to list a product?](manage.md)
+- [Linking existing listings](linking_listings.md)
 
 ## Accept account deletion notifications
 
@@ -36,14 +36,14 @@ administrator must make sure that the Odoo source code is up-to-date.
 - If the company uses Odoo on Odoo.com or Odoo.sh platform, the code is already up-to-date, so
   proceed to the next step.
 - If the company uses Odoo with an on-premise setup or through a partner, then the administrator
-  must update the installation as detailed in [this documentation page](administration/on_premise/update.md) or by contacting an integrating partner.
+  must update the installation as detailed in [this documentation page](../../../../administration/on_premise/update.md) or by contacting an integrating partner.
 
 #### Update the list of available modules
 
 New modules must be *discovered* by the Odoo instance to be available in the Apps
 menu.
 
-To do so, activate the [developer mode](applications/general/developer_mode.md#developer-mode), and go to Apps ->
+To do so, activate the [developer mode](../../../general/developer_mode.md#developer-mode), and go to Apps ->
 Update Apps List. A wizard will ask for confirmation.
 
 #### Install the eBay Connector - Account Deletion update
@@ -100,6 +100,6 @@ with the Send Test Notification button.
 ![Button to send test notification](../../../../.gitbook/assets/test-notification.png)
 
 #### SEE ALSO
-- [How to list a product?](applications/sales/sales/ebay_connector/manage.md)
-- [Linking existing listings](applications/sales/sales/ebay_connector/linking_listings.md)
-- [eBay connector setup](applications/sales/sales/ebay_connector/setup.md)
+- [How to list a product?](manage.md)
+- [Linking existing listings](linking_listings.md)
+- [eBay connector setup](setup.md)

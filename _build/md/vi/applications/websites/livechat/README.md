@@ -128,7 +128,7 @@ Select from one of the following display options:
 
 Chatbot
 
-To include a [Chatbot](applications/websites/livechat/chatbots.md) on this channel, select it from the drop-down
+To include a [Chatbot](livechat/chatbots.md) on this channel, select it from the drop-down
 menu. If the chatbot should only be active when no operators are active, check the box labeled
 Enabled only if no operator.
 
@@ -162,7 +162,7 @@ site visitors, regardless of location.
 #### NOTE
 In order to track the geographical location of visitors, *GeoIP* **must** be installed on the
 database. While this feature is installed by default on *Odoo Online* databases, *On-Premise*
-databases require additional [setup steps](administration/on_premise/geo_ip.md).
+databases require additional [setup steps](../../administration/on_premise/geo_ip.md).
 
 <a id="livechat-widget-tab"></a>
 
@@ -181,14 +181,14 @@ are redirected to a new chat window.
 ![View of the widget tab for Odoo Live Chat.](../../.gitbook/assets/widget-code.png)
 
 #### SEE ALSO
-- [Thảo luận](applications/productivity/discuss.md)
-- [Commands and canned responses](applications/websites/livechat/responses.md)
-- [Đánh giá](applications/websites/livechat/ratings.md)
-- [Chatbot](applications/websites/livechat/chatbots.md)
-- [Participate in live chat](applications/websites/livechat/participate.md)
+- [Thảo luận](../productivity/discuss.md)
+- [Commands and canned responses](livechat/responses.md)
+- [Đánh giá](livechat/ratings.md)
+- [Chatbot](livechat/chatbots.md)
+- [Participate in live chat](livechat/participate.md)
 
-* [Đánh giá](applications/websites/livechat/ratings.md)
-* [Commands and canned responses](applications/websites/livechat/responses.md)
-* [Chatbot](applications/websites/livechat/chatbots.md)
-* [Báo cáo](applications/websites/livechat/reports.md)
-* [Participate in live chat](applications/websites/livechat/participate.md)
+* [Đánh giá](livechat/ratings.md)
+* [Commands and canned responses](livechat/responses.md)
+* [Chatbot](livechat/chatbots.md)
+* [Báo cáo](livechat/reports.md)
+* [Participate in live chat](livechat/participate.md)

@@ -2,19 +2,19 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Luxembourgish
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Luxembourgish
 localization:
 
-| Tên                             | Tên kỹ thuật                 | Mô tả                                                                                                             |
-|---------------------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Luxembourg - Kế toán            | `l10n_lu`                    | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) |
-| Luxembourg - Accounting Reports | `l10n_lu_reports`            | Country-specific reports                                                                                          |
-| Luxembourg - Annual VAT Report  | `l10n_lu_reports_annual_vat` | Country-specific reports                                                                                          |
+| Tên                             | Tên kỹ thuật                 | Mô tả                                                                                           |
+|---------------------------------|------------------------------|-------------------------------------------------------------------------------------------------|
+| Luxembourg - Kế toán            | `l10n_lu`                    | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
+| Luxembourg - Accounting Reports | `l10n_lu_reports`            | Country-specific reports                                                                        |
+| Luxembourg - Annual VAT Report  | `l10n_lu_reports_annual_vat` | Country-specific reports                                                                        |
 ![The three modules for the Luxembourgish Fiscal Localization Package on Odoo](../../../.gitbook/assets/modules.png)
 
 ## Standard Chart of Accounts - PCN 2020
 
-Odoo's [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) for Luxembourg includes
+Odoo's [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) for Luxembourg includes
 the current **Standard Chart of Accounts (PCN 2020)**, effective since January 2020.
 
 ## Tờ khai thuế eCDF
@@ -25,7 +25,7 @@ To download it, go to Accounting ‣ Report ‣ Audit Reports ‣ Tax Report, an
 click on Export eCDF declaration.
 
 #### SEE ALSO
-- [Tax return (VAT declaration)](applications/finance/accounting/reporting/tax_returns.md)
+- [Tax return (VAT declaration)](../accounting/reporting/tax_returns.md)
 - [Platform for electronic gathering of financial data (eCDF)](http://www.ecdf.lu)
 
 ## Báo cáo thuế hàng năm

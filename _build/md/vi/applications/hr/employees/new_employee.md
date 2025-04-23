@@ -49,7 +49,7 @@ an upwards arrow) icon.
 - Job Position: select the employee's job position from the drop-down menu. Once a
   selection is made, the Job Position field beneath the Employee's Name
   field automatically updates to reflect the currently selected job position. These positions are
-  from the [Recruitment](applications/hr/recruitment/new_job.md) application, and reflect the
+  from the [Recruitment](../recruitment/new_job.md) application, and reflect the
   currently configured job positions.
 - Manager: select the employee's manager from the drop-down menu.
 - Coach: select the employee's coach from the drop-down menu.
@@ -257,7 +257,7 @@ information for the new employee:
   Working Schedules.
 
   For more information on how to create or modify Working Schedules in the *Payroll*
-  application, refer to the [Bảng lương](applications/hr/payroll.md) documentation.
+  application, refer to the [Bảng lương](../payroll.md) documentation.
 - Planning: select a role from the drop-down menu for both the Roles and
   the Default Role fields. If the Default Role is selected as a role, it is
   automatically added to the list of Roles.
@@ -293,7 +293,7 @@ To add or modify a working time, go to the Payroll app ‣ Configuration ‣
 Working Schedules. Then, either add a new working time by clicking New, or edit an
 existing one by selecting a Working Time from the list to modify it.
 
-Refer to the [Working schedules](applications/hr/payroll.md#payroll-working-times) section of the payroll
+Refer to the [Working schedules](../payroll.md#payroll-working-times) section of the payroll
 documentation for specific details on creating and editing working schedules.
 
 After the new working time is created, or an existing one is modified, the Working
@@ -401,7 +401,7 @@ regardless.
   field.
 
   Users can also be created manually. For more information on how to manually add a user, refer
-  to the [Người dùng](applications/general/users.md) document.
+  to the [Người dùng](../../general/users.md) document.
 - Attendance/Point of Sale/Manufacturing: the employee's PIN Code and
   Badge ID can be entered here, if the employee needs/has one. Click
   Generate next to the Badge ID to create a badge ID.
@@ -414,7 +414,7 @@ regardless.
   Tùy theo thiết lập bản địa hoá, các mục khác xuất hiện trong trường này sẽ thay đổi theo từng quốc gia hoặc khu vực. Ngoài ra, các phần khác cũng có thể xuất hiện trong thẻ này tuỳ vào vị trí địa lý. Do đó, bạn nên kiểm tra với phòng kế toán và/hoặc lương để đảm bảo phần này, cũng như bất kỳ phần nào khác liên quan đến bảng lương, được điền chính xác.
 - Application Settings: enter the employee's Billing Time Target for the
   billing rate leader board in the *Timesheets* application. Next, enter the Hourly Cost
-  in a XX.XX format. This is factored in when the employee is working at a [work center](applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md).
+  in a XX.XX format. This is factored in when the employee is working at a [work center](../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md).
 
   If applicable, enter the Fleet Mobility Card number.
 
@@ -433,7 +433,7 @@ All employee-related documents are stored in the *Documents* app. The number of 
 is displayed in the Documents smart button above the employee record. Click on the smart
 button to access all documents.
 
-Refer to [documentation](applications/productivity/documents.md) on the *Documents* app for more
+Refer to [documentation](../../productivity/documents.md) on the *Documents* app for more
 information.
 
 ![All uploaded documents associated with the employee appear in the documents smart-button.](../../../.gitbook/assets/documents.png)

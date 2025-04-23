@@ -8,10 +8,10 @@ The following columns in the table below list the removal strategies available i
 how pickings are determined along with the picking order. Leverage these removal strategies to have
 Odoo automatically select how products are selected for orders:
 
-|                 | [FIFO](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.md)                                                    | [LIFO](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.md)                                                    | [FEFO](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.md)                                                   | [Vị trí gần nhất](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.md)                                                          | [Ít kiện hàng nhất](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.md)                                     |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dựa trên        | [Incoming date](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.md#inventory-warehouses-storage-arrival-date) | [Incoming date](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.md#inventory-warehouses-storage-arrival-date) | [Removal date](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.md#inventory-warehouses-storage-removal-date) | [Location sequence](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.md#inventory-warehouses-storage-sequence)                  | [Package quantity](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.md#inventory-warehouses-storage-pkg-qty) |
-| Selection order | First in                                                                                                                                          | Last in                                                                                                                                           | [First to expire](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.md#inventory-warehouses-storage-exp-date)  | [Alphanumeric name of location](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.md#inventory-warehouses-storage-location-name) | Quantity closest to fulfilling demand                                                                                                                     |
+|                 | [FIFO](removal_strategies/fifo.md)                                                    | [LIFO](removal_strategies/lifo.md)                                                    | [FEFO](removal_strategies/fefo.md)                                                   | [Vị trí gần nhất](removal_strategies/closest_location.md)                                                          | [Ít kiện hàng nhất](removal_strategies/least_packages.md)                                     |
+|-----------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Dựa trên        | [Incoming date](removal_strategies/fifo.md#inventory-warehouses-storage-arrival-date) | [Incoming date](removal_strategies/fifo.md#inventory-warehouses-storage-arrival-date) | [Removal date](removal_strategies/fefo.md#inventory-warehouses-storage-removal-date) | [Location sequence](removal_strategies/closest_location.md#inventory-warehouses-storage-sequence)                  | [Package quantity](removal_strategies/least_packages.md#inventory-warehouses-storage-pkg-qty) |
+| Selection order | First in                                                                              | Last in                                                                               | [First to expire](removal_strategies/fefo.md#inventory-warehouses-storage-exp-date)  | [Alphanumeric name of location](removal_strategies/closest_location.md#inventory-warehouses-storage-location-name) | Quantity closest to fulfilling demand                                                         |
 
 For comprehensive examples for how to use each removal strategy, refer to each individual
 documentation page.
@@ -76,8 +76,8 @@ Tracking field, select either the By Unique Serial Number or By
 Lots options.
 
 After enabling the features, assign lot or serial numbers to products using an [inventory
-adjustment](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md) or during [product
-reception](applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.md#inventory-product-management-assign-lots).
+adjustment](../warehouses_storage/inventory_management/count_products.md) or during [product
+reception](../product_management/product_tracking/lots.md#inventory-product-management-assign-lots).
 
 ### Locations and routes
 
@@ -117,12 +117,12 @@ the Packages feature.
 ![Enable the packages feature.](../../../../.gitbook/assets/enable-pack1.png)
 
 #### SEE ALSO
-- [Kiện hàng](applications/inventory_and_mrp/inventory/product_management/configure/package.md)
-- [giao hàng 2 bước](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md)
-- [giao hàng 3 bước](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md)
+- [Kiện hàng](../product_management/configure/package.md)
+- [giao hàng 2 bước](daily_operations/receipts_delivery_two_steps.md)
+- [giao hàng 3 bước](daily_operations/delivery_three_steps.md)
 
-* [FIFO removal](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.md)
-* [LIFO removal](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.md)
-* [FEFO removal](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.md)
-* [Closest location removal](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.md)
-* [Least packages removal](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.md)
+* [FIFO removal](removal_strategies/fifo.md)
+* [LIFO removal](removal_strategies/lifo.md)
+* [FEFO removal](removal_strategies/fefo.md)
+* [Closest location removal](removal_strategies/closest_location.md)
+* [Least packages removal](removal_strategies/least_packages.md)

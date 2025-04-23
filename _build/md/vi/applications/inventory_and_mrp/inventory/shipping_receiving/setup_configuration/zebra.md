@@ -20,7 +20,7 @@ label customizations.
 
 ## Navigate to ZPL label view
 
-To begin customizing a Zebra label in Odoo, turn on [developer mode](applications/general/developer_mode.md#developer-mode), and on
+To begin customizing a Zebra label in Odoo, turn on [developer mode](../../../../general/developer_mode.md#developer-mode), and on
 the main Odoo dashboard, type `Reports`. From the search results that appear in the resulting pop-up
 window, choose Settings / Technical / Reporting / Reports to open the
 Reports page.
@@ -38,15 +38,15 @@ label from the list to modify it on a separate page.
 #### NOTE
 Printable ZPL labels in Odoo:
 
-- [số lô/sê-ri](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.md#inventory-shipping-receiving-lot-sn-labels)
+- [số lô/sê-ri](print_on_validation.md#inventory-shipping-receiving-lot-sn-labels)
 - loại hoạt động
 - package barcode
-- [nhãn sản phẩm](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.md#inventory-shipping-receiving-product-labels)
+- [nhãn sản phẩm](print_on_validation.md#inventory-shipping-receiving-product-labels)
 - product packaging
 - finished product (Odoo *Manufacturing* app required)
 
 Next, click the <i class="fa fa-code"></i> Qweb Views smart button, and choose the desired label
-[view](developer/reference/user_interface/view_records.md).
+[view](../../../../../developer/reference/user_interface/view_records.md).
 
 ![Show Qweb smart button on the Lot and Serial Number (ZPL) report.](../../../../../.gitbook/assets/qweb-views.png)
 

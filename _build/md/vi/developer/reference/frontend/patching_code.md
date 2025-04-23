@@ -149,7 +149,7 @@ It is impossible to patch directly the `constructor` of a class!
 
 Components are defined by javascript classes, so all the information above still
 holds.  For these reasons, Owl components should use the `setup` method, so they
-can easily be patched as well (see the section on [best practices](developer/reference/frontend/owl_components.md#frontend-owl-best-practices)).
+can easily be patched as well (see the section on [best practices](owl_components.md#frontend-owl-best-practices)).
 
 ```javascript
 patch(MyComponent.prototype, {

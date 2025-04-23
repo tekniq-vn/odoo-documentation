@@ -33,9 +33,9 @@ to your installation:
   printer and enter the printer's IP address in the Epson Printer IP Address field.
 
 #### SEE ALSO
-- [IoT system connection to Odoo](applications/general/iot/connect.md)
-- [Connect a printer](applications/general/iot/devices/printer.md)
-- [Self-signed certificate for ePOS printers](applications/sales/point_of_sale/configuration/epos_ssc.md)
+- [IoT system connection to Odoo](../../../general/iot/connect.md)
+- [Connect a printer](../../../general/iot/devices/printer.md)
+- [Self-signed certificate for ePOS printers](../configuration/epos_ssc.md)
 
 Set your printer to print specific products based on their POS category. To do so, click
 Add a line in the Printed Product Categories field. If you leave this field

@@ -6,8 +6,8 @@ Odoo tương thích với Azure OAuth của Microsoft dành cho Microsoft 365. �
 [Microsoft Learn: Register an application with the Microsoft identity platform](https://learn.microsoft.com/azure/active-directory/develop/quickstart-register-app)
 
 #### SEE ALSO
-- [Microsoft Azure sign-in authentication](applications/general/users/azure.md)
-- [Outlook Calendar synchronization](applications/productivity/calendar/outlook.md)
+- [Microsoft Azure sign-in authentication](../users/azure.md)
+- [Outlook Calendar synchronization](../../productivity/calendar/outlook.md)
 
 ## Setup in Microsoft Azure Portal
 
@@ -26,7 +26,7 @@ Under the Redirect URL section, select Web as the platform, and then input
 is subject to change depending on the URL used to log in to the database.
 
 #### NOTE
-The documentation about the [web.base.url](applications/websites/website/configuration/domain_names.md#domain-name-web-base-url) explains how to freeze
+The documentation about the [web.base.url](../../websites/website/configuration/domain_names.md#domain-name-web-base-url) explains how to freeze
 a unique URL. It is also possible to add different redirect URLs on the Microsoft app.
 
 After the URL has been added to the field, Register the application, so it is created.
@@ -128,7 +128,7 @@ click the Outgoing Email Servers link to configure the Microsoft account.
 Then, create a new email server and check the box for Outlook. Next, fill in the
 Name (it can be anything) and the Microsoft Outlook email Username.
 
-If the From Filter field is empty, enter either a [domain or email address](applications/general/email_communication/email_servers_outbound.md#email-outbound-unique-address).
+If the From Filter field is empty, enter either a [domain or email address](email_servers_outbound.md#email-outbound-unique-address).
 
 Then, click on Connect your Outlook account.
 
@@ -161,11 +161,11 @@ This address must also match the `{mail.default.from}@{mail.catchall.domain}` ke
 system parameters.
 
 #### SEE ALSO
-Visit the [From Filtering documentation](applications/general/email_communication/email_servers_outbound.md#email-outbound-different-servers-personalized-from-filtering) for more
+Visit the [From Filtering documentation](email_servers_outbound.md#email-outbound-different-servers-personalized-from-filtering) for more
 information.
 
 #### NOTE
-The System Parameters can be accessed by activating [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) in the
+The System Parameters can be accessed by activating [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) in the
 Settings ‣ Technical ‣ Parameters ‣ System Parameters menu.
 
 When using this configuration, every email that is sent from the database will use the address of
@@ -191,7 +191,7 @@ so that only the user's email is sent from that server. In other words, only a u
 address that matches the set FROM Filtering is able to use this server.
 
 #### SEE ALSO
-Visit the [From Filtering documentation](applications/general/email_communication/email_servers_outbound.md#email-outbound-different-servers-personalized-from-filtering) for more
+Visit the [From Filtering documentation](email_servers_outbound.md#email-outbound-different-servers-personalized-from-filtering) for more
 information.
 
 A [fallback server](#azure-oauth-notifications) must be setup to allow for the sending of
@@ -199,7 +199,7 @@ notifications. The FROM Filtering for this server should have the value of
 the `{mail.default.from}@{mail.catchall.domain}`.
 
 #### NOTE
-The System Parameters can be accessed by activating [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) in the
+The System Parameters can be accessed by activating [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) in the
 Settings ‣ Technical ‣ Parameters ‣ System Parameters menu.
 
 #### IMPORTANT
@@ -209,7 +209,7 @@ but it's require to be added in the settings of the *Email Marketing* applicatio
 
 #### SEE ALSO
 For more information on setting the mass-mailing email server visit
-[Sending emails with an external SMTP server](applications/general/email_communication/email_servers_outbound.md#email-outbound-custom-domain-smtp-server).
+[Sending emails with an external SMTP server](email_servers_outbound.md#email-outbound-custom-domain-smtp-server).
 
 ### Configure incoming email server
 

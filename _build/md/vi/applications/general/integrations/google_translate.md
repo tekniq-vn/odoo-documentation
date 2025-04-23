@@ -91,4 +91,4 @@ the right of the chatter. Then, select Translate. The content translates to the
 ![Google Translate present in an Odoo database's chatter.](../../../.gitbook/assets/google-translate.png)
 
 #### SEE ALSO
-[Thay đổi ngôn ngữ](applications/general/users/language.md#language-install)
+[Thay đổi ngôn ngữ](../users/language.md#language-install)

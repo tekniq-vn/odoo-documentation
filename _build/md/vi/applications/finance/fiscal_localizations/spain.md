@@ -2,7 +2,7 @@
 
 ## Cấu hình
 
-Install the 🇪🇸 **Spanish** [fiscal localization package](applications/finance/fiscal_localizations.md) to get all
+Install the 🇪🇸 **Spanish** [fiscal localization package](../fiscal_localizations.md) to get all
 the default accounting features of the Spanish localization.
 
 Three **Spanish** localizations exist, each with its own pre-configured **PGCE** charts of accounts:
@@ -57,7 +57,7 @@ selecting its Spain-specific version: (ES).
 If you wish to change the percentage computation of the box [04] under the I
 section and/or of the box [09] under the II section:
 
-1. Activate the [developer mode](applications/general/developer_mode.md#developer-mode), go to Accounting ‣
+1. Activate the [developer mode](../../general/developer_mode.md#developer-mode), go to Accounting ‣
    Reporting ‣ Tax Report, and select the report Tax report (Modelo 130).
 2. Click the <i class="fa fa-cogs"></i> (cogs) icon to the right of Report: Tax Report
    (Mod 130) (ES).
@@ -90,7 +90,7 @@ Odoo supports the **TicketBAI (TBAI)** electronic invoicing format for all three
 Tax ID under Settings ‣ General Settings in the Companies
 section.
 
-Then, [install](applications/general/apps_modules.md#general-install) the module Spain -TicketBAI (l10n_es_edi_TBAI),
+Then, [install](../../general/apps_modules.md#general-install) the module Spain -TicketBAI (l10n_es_edi_TBAI),
 go to Accounting ‣ Configuration ‣ Settings, and select a **region** in the
 Spain Localization section's Tax Agency for TBAI field.
 
@@ -104,7 +104,7 @@ the **Settings** app.
 
 ### Trường hợp vận dụng
 
-Once an invoice has been [created](applications/finance/accounting/customer_invoices.md) and confirmed,
+Once an invoice has been [created](../accounting/customer_invoices.md) and confirmed,
 a TicketBAI **banner** appears at the top.
 
 ![TicketBAI banner at the top of the invoice once sent.](../../../.gitbook/assets/ticketbai-invoice.png)
@@ -125,7 +125,7 @@ The TBAI **QR code** is displayed on the invoice PDF.
 Spain to send electronic invoices.
 
 Before configuring the  system,
-[install](applications/general/apps_modules.md#general-install) the Spain - Facturae EDI (l10n_es_edi_facturae) module
+[install](../../general/apps_modules.md#general-install) the Spain - Facturae EDI (l10n_es_edi_facturae) module
 and other **Facturae EDI**-related modules.
 
 To enable FACe, go to Settings ‣ General Settings, click
@@ -136,7 +136,7 @@ certificate provided by the tax agency, and entering the provided password.
 
 ### Trường hợp vận dụng
 
-Once you have [created](applications/finance/accounting/customer_invoices.md) an invoice and confirmed
+Once you have [created](../accounting/customer_invoices.md) an invoice and confirmed
 it, click Send & Print. Make sure Generate Facturae edi file is enabled, and
 click Send & Print again. Once the invoice is sent, the generated XML file is available
 in the **chatter**.
@@ -151,7 +151,7 @@ data about the centers.
 
 #### NOTE
 Make sure to have the Spain - Facturae EDI - Administrative Centers Patch
-(l10n_es_edi_facturae_adm_centers) module [installed](applications/general/apps_modules.md#general-install).
+(l10n_es_edi_facturae_adm_centers) module [installed](../../general/apps_modules.md#general-install).
 
 To add **administrative centers**, create a new **contact** to add to the **partner** company.
 Select FACe Center as the **type**, assign one or more **role(s)** to that contact, and

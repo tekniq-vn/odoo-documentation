@@ -6,7 +6,7 @@ panel.
 
 ## Cấu hình
 
-The Outlook [Mail Plugin](applications/general/integrations/mail_plugins.md) needs to be configured both on Odoo and Outlook.
+The Outlook [Mail Plugin](../mail_plugins.md) needs to be configured both on Odoo and Outlook.
 
 <a id="mail-plugin-outlook-enable-mail-plugin"></a>
 
@@ -58,7 +58,7 @@ Login.
 
 #### NOTE
 Only a limited amount of **Company Insights** (*Lead Enrichment*) requests are available as a
-trial database. This feature requires [prepaid credits](applications/general/integrations/mail_plugins.md#mail-plugins-pricing).
+trial database. This feature requires [prepaid credits](../mail_plugins.md#mail-plugins-pricing).
 
 Now, enter the Odoo database URL and click on Login.
 

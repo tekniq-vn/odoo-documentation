@@ -18,7 +18,7 @@ description of the team in the field below the team name, if desired. To change 
 team is assigned to, select it from the Company drop-down menu.
 
 #### IMPORTANT
-The team description is published on the public facing [website form](applications/services/helpdesk/overview/receiving_tickets.md), where customers and portal users submit tickets. The
+The team description is published on the public facing [website form](helpdesk/overview/receiving_tickets.md), where customers and portal users submit tickets. The
 description included in this field should **not** include any information that is for internal
 use only.
 
@@ -99,8 +99,8 @@ tickets during that time. If no employees are available, the system looks ahead 
 match.
 
 #### SEE ALSO
-- [Manage users](applications/general/users.md#users-add-individual)
-- [Access rights](applications/general/users/access_rights.md)
+- [Manage users](../general/users.md#users-add-individual)
+- [Access rights](../general/users/access_rights.md)
 
 ## Create or modify stages
 
@@ -108,7 +108,7 @@ match.
 customizable, and can be renamed to fit the needs of each team.
 
 #### IMPORTANT
-[Developer mode](applications/general/developer_mode.md#developer-mode) **must** be activated to access the stages menu. To
+[Developer mode](../general/developer_mode.md#developer-mode) **must** be activated to access the stages menu. To
 activate developer mode, go to Settings app ‣ General Settings ‣ Developer
 Tools, and click Activate the developer mode.
 
@@ -139,7 +139,7 @@ customer when a ticket reaches that specific stage in the pipeline. Likewise, ad
 SMS Template triggers an SMS text message to send to the customer.
 
 #### IMPORTANT
-SMS Text Messaging is an [In-App Purchase (IAP)](applications/essentials/in_app_purchase.md)
+SMS Text Messaging is an [In-App Purchase (IAP)](../essentials/in_app_purchase.md)
 service that requires prepaid credits to work. Refer to [SMS Pricing FAQ](https://iap-services.odoo.com/iap/sms/pricing) for additional information.
 
 To select an existing email template, select it from the Email Template field. Click on
@@ -154,7 +154,7 @@ Follow the same steps to select, edit, or create an SMS Template.
 ![View of an SMS template setup page in Odoo Helpdesk](../../.gitbook/assets/sms-template1.png)
 
 #### SEE ALSO
-[Mẫu Email](applications/general/companies/email_template.md)
+[Mẫu Email](../general/companies/email_template.md)
 
 ### Assign stages to a team
 
@@ -203,20 +203,20 @@ If duplicate tickets are found in *Helpdesk*, they can be combined into a single
 *merge* feature.
 
 #### IMPORTANT
-The *merge* feature is **only** accessible if the [Data Cleaning](applications/productivity/data_cleaning.md) application is installed on the database.
+The *merge* feature is **only** accessible if the [Data Cleaning](../productivity/data_cleaning.md) application is installed on the database.
 
-Để gộp hai hoặc nhiều phiếu hỗ trợ, đi đến Ứng dụng Hỗ trợ ‣ Phiếu hỗ trợ ‣ Tất cả phiếu hỗ trợ. Xác định các phiếu hỗ trợ cần gộp và đánh dấu vào hộp kiểm ở góc bên trái của mỗi phiếu hỗ trợ để chọn chúng. Sau đó, nhấp vào biểu tượng <i class="fa fa-cog"></i> Tác vụ và chọn Gộp từ menu thả xuống. Thao tác này sẽ mở một trang mới, trong đó các phiếu hỗ trợ đã chọn được liệt kê với xếp hạng Tính tương đồng của chúng. Từ đây, nhấp vào [Gộp](applications/productivity/data_cleaning.md#data-cleaning-merge-records) để gộp các phiếu hỗ trợ hoặc HUỶ BỎ.
+Để gộp hai hoặc nhiều phiếu hỗ trợ, đi đến Ứng dụng Hỗ trợ ‣ Phiếu hỗ trợ ‣ Tất cả phiếu hỗ trợ. Xác định các phiếu hỗ trợ cần gộp và đánh dấu vào hộp kiểm ở góc bên trái của mỗi phiếu hỗ trợ để chọn chúng. Sau đó, nhấp vào biểu tượng <i class="fa fa-cog"></i> Tác vụ và chọn Gộp từ menu thả xuống. Thao tác này sẽ mở một trang mới, trong đó các phiếu hỗ trợ đã chọn được liệt kê với xếp hạng Tính tương đồng của chúng. Từ đây, nhấp vào [Gộp](../productivity/data_cleaning.md#data-cleaning-merge-records) để gộp các phiếu hỗ trợ hoặc HUỶ BỎ.
 
 #### SEE ALSO
 - [Odoo Tutorials: Helpdesk](https://www.odoo.com/slides/helpdesk-51)
 
-* [Tổng quan](applications/services/helpdesk/overview.md)
-  * [Receiving tickets](applications/services/helpdesk/overview/receiving_tickets.md)
-  * [Trung tâm hỗ trợ](applications/services/helpdesk/overview/help_center.md)
-  * [Service level agreements (SLA)](applications/services/helpdesk/overview/sla.md)
-  * [Báo cáo](applications/services/helpdesk/overview/reports.md)
-  * [Đánh giá của khách hàng](applications/services/helpdesk/overview/ratings.md)
-* [Nâng cao](applications/services/helpdesk/advanced.md)
-  * [Dịch vụ hậu mãi](applications/services/helpdesk/advanced/after_sales.md)
-  * [Close tickets](applications/services/helpdesk/advanced/close_tickets.md)
-  * [Track and bill time](applications/services/helpdesk/advanced/track_and_bill.md)
+* [Tổng quan](helpdesk/overview.md)
+  * [Receiving tickets](helpdesk/overview/receiving_tickets.md)
+  * [Trung tâm hỗ trợ](helpdesk/overview/help_center.md)
+  * [Service level agreements (SLA)](helpdesk/overview/sla.md)
+  * [Báo cáo](helpdesk/overview/reports.md)
+  * [Đánh giá của khách hàng](helpdesk/overview/ratings.md)
+* [Nâng cao](helpdesk/advanced.md)
+  * [Dịch vụ hậu mãi](helpdesk/advanced/after_sales.md)
+  * [Close tickets](helpdesk/advanced/close_tickets.md)
+  * [Track and bill time](helpdesk/advanced/track_and_bill.md)

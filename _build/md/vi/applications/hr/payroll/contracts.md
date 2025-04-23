@@ -7,8 +7,8 @@ their position.
 #### IMPORTANT
 Contract documents (PDFs) are uploaded and organized using the *Documents* application, and are
 signed using the *Sign* application. Ensure these applications are installed to send and sign
-contracts. Please refer to the [Tài liệu](applications/productivity/documents.md) and
-[Ký tên](applications/productivity/sign.md) documentation.
+contracts. Please refer to the [Tài liệu](../../productivity/documents.md) and
+[Ký tên](../../productivity/sign.md) documentation.
 
 To view the employee contracts, go to the Payroll app ‣ Contracts ‣ Contracts
 from the top menu. All employee contracts, and their current contract status, are displayed in a
@@ -44,7 +44,7 @@ where the information can be entered. Required fields are underlined in bold.
   desired date.
 - Working Schedule: select one of the working schedules from the drop-down menu. This
   field is **required**.
-- Work Entry Source: select how the [work entries](applications/hr/payroll/work_entries.md) are generated.
+- Work Entry Source: select how the [work entries](work_entries.md) are generated.
   This field is **required**. Click the radio button next to the desired selection. The options are:
   - Working Schedule: work entries are generated based on the selected
     Working Schedule.
@@ -54,7 +54,7 @@ where the information can be entered. Required fields are underlined in bold.
     from the *Planning* application. (This requires the *Planning* application).
 - Salary Structure Type: select one of the salary structure types from the drop-down
   menu. The default salary structure types are Employee or Worker. A
-  [new salary structure type](applications/hr/payroll.md#payroll-new-structure-type) can be created, if needed.
+  [new salary structure type](../payroll.md#payroll-new-structure-type) can be created, if needed.
 - Department: select the department the contract applies to from the drop-down menu.
 - Job Position: select the specific job position the contract applies to from the
   drop-down menu.
@@ -116,7 +116,7 @@ in order to create a new contract.
 
 #### IMPORTANT
 To access the various contract template fields in the Contract Details tab, the
-*Salary Configurator* (`hr_contract_salary`) module **must** be [installed](applications/general/apps_modules.md#general-install).
+*Salary Configurator* (`hr_contract_salary`) module **must** be [installed](../../general/apps_modules.md#general-install).
 
 When the *Salary Configurator* module is installed, the *Salary Configurator - Holidays* and
 *Salary Configurator - Payroll* modules install, as well.
@@ -140,7 +140,7 @@ Once the modules are installed, the database reverts to the main dashboard.
 #### IMPORTANT
 The HR Responsible, New Contract Document Template, and
 Contract Update Document Template fields are only visible if the *Sign* application
-is installed, along with the `hr_contract_salary` and `hr_contract_salary_payroll` [modules](applications/general/apps_modules.md). The *Sign* application is where the contract templates are stored.
+is installed, along with the `hr_contract_salary` and `hr_contract_salary_payroll` [modules](../../general/apps_modules.md). The *Sign* application is where the contract templates are stored.
 This application is required for an employee to sign any contract.
 
 ### Accounting section

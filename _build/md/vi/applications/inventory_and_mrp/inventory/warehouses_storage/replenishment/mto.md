@@ -71,7 +71,7 @@ so, click the Bill of Materials smart button at the top of the screen, then clic
 New on the Bill of Materials page to configure a new  for the product.
 
 #### SEE ALSO
-For a full overview of  creation, see the documentation on [bills of materials](applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md).
+For a full overview of  creation, see the documentation on [bills of materials](../../../manufacturing/basic_setup/bill_configuration.md).
 
 ## Replenish using MTO
 
@@ -113,6 +113,6 @@ the delivery.
 #### SEE ALSO
 For information on workflows that include the  route, see the following documentation:
 
-- [Inter-warehouse replenishment](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.md)
-- [Basic subcontracting](applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.md)
-- [Quản lý bán thành phẩm](applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.md)
+- [Inter-warehouse replenishment](resupply_warehouses.md)
+- [Basic subcontracting](../../../manufacturing/subcontracting/subcontracting_basic.md)
+- [Quản lý bán thành phẩm](../../../manufacturing/advanced_configuration/sub_assemblies.md)

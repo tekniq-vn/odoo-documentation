@@ -40,7 +40,7 @@ With that feature activated, the ability to grant discounts on sales order lines
 
 ### Đăng ký bán thêm
 
-Before upselling a subscription, check out our documentation on how to [Create a quotation](applications/sales/subscriptions.md) using subscription products.
+Before upselling a subscription, check out our documentation on how to [Create a quotation](../subscriptions.md) using subscription products.
 
 When a quotation with a subscription is confirmed, it officially becomes a sales order, and a new
 subscription is created in the Odoo *Subscriptions* application.
@@ -94,5 +94,5 @@ Status.
 ![The related sales order viewable from the Sales History smart button in Odoo Subscriptions.](../../../.gitbook/assets/sales-history-smartbutton.png)
 
 #### SEE ALSO
-- [Đăng ký](applications/sales/subscriptions.md)
-- [Gói cước đăng ký](applications/sales/subscriptions/plans.md)
+- [Đăng ký](../subscriptions.md)
+- [Gói cước đăng ký](plans.md)

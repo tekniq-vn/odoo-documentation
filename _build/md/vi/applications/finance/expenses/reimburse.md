@@ -1,6 +1,6 @@
 # Reimburse employees
 
-After an expense report is [posted to an accounting journal](applications/finance/expenses/post_expenses.md), the
+After an expense report is [posted to an accounting journal](post_expenses.md), the
 next step is to reimburse the employee. Just like approving and posting expenses, employees can be
 reimbursed in two ways: with cash, check, or direct deposit ([individually](#expenses-reimburse-single) or [in bulk](#expenses-reimburse-bulk)), or [reimbursed in a
 payslip](#expenses-reimburse-payslip).
@@ -43,13 +43,13 @@ window:
   Manual. If Bank is selected for the Journal, the default
   options are Manual or Checks.
 - Recipient Bank Account: Select the employee's bank account the payment is being sent
-  to. If the employee has a bank account on file in the [Private Information tab](applications/hr/employees/new_employee.md#employees-private-info) of their employee form in the **Employees** app, that bank account
+  to. If the employee has a bank account on file in the [Private Information tab](../../hr/employees/new_employee.md#employees-private-info) of their employee form in the **Employees** app, that bank account
   populates this field, by default.
 - Amount: The total amount being reimbursed populates this field, by default. The
   currency, located to the right of the field, can be modified using the drop-down menu.
 - Payment Date: Enter the date the payments are issued in this field. The current date
   populates this field, by default.
-- Memo: The text entered in the [Expense Report Summary](applications/finance/expenses/expense_reports.md) field of the expense report populates this field, by default.
+- Memo: The text entered in the [Expense Report Summary](expense_reports.md) field of the expense report populates this field, by default.
 
 ![The Register Payment pop-up window filled out for an individual expense report
 reimbursement.](../../../.gitbook/assets/payment.png)
@@ -112,5 +112,5 @@ The status for the expense report remains Approved. The status only changes to
 Posted (and then Done), when the paycheck is processed.
 
 #### SEE ALSO
-Refer to the [Payslips](applications/hr/payroll/payslips.md) documentation for more information about
+Refer to the [Payslips](../../hr/payroll/payslips.md) documentation for more information about
 processing paychecks.

@@ -9,7 +9,7 @@ small JavaScript class subclassing the `Component` class.
 
 To get started, you need a running Odoo server and a development environment setup. Before getting
 into the exercises, make sure you have followed all the steps described in this
-[tutorial introduction](developer/tutorials/discover_js_framework.md#tutorials-discover-js-framework-setup).
+[tutorial introduction](../discover_js_framework.md#tutorials-discover-js-framework-setup).
 
 In this chapter, we use the `awesome_owl` addon, which provides a simplified environment that
 only contains Owl and a few other files. The goal is to learn Owl itself, without relying on Odoo
@@ -70,7 +70,7 @@ As a first exercise, let us modify the `Playground` component located in
 
 #### IMPORTANT
 Don't forget `/** @odoo-module **/` in your JavaScript files. More information on this can
-be found [here](developer/reference/frontend/javascript_modules.md#frontend-modules-native-js).
+be found [here](../../reference/frontend/javascript_modules.md#frontend-modules-native-js).
 
 This exercise showcases an important feature of Owl: the [reactivity system](https://github.com/odoo/owl/blob/master/doc/reference/reactivity.md).
 The `useState` function wraps a value in a proxy so Owl can keep track of which component

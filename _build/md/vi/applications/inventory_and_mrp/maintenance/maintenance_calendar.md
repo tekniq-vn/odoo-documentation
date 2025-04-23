@@ -313,5 +313,5 @@ opens an Odoo pop-up window, wherein the activity can be scheduled.
 ![Odoo pop-up schedule activity window.](../../../.gitbook/assets/maintenance-calendar-odoo-activity-popup.png)
 
 #### SEE ALSO
-- [Maintenance requests](applications/inventory_and_mrp/maintenance/maintenance_requests.md)
-- [Add new equipment](applications/inventory_and_mrp/maintenance/add_new_equipment.md)
+- [Maintenance requests](maintenance_requests.md)
+- [Add new equipment](add_new_equipment.md)

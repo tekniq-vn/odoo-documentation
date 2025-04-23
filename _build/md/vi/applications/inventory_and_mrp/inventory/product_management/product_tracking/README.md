@@ -12,8 +12,8 @@ A *serial number* is a unique identifier assigned incrementally (or sequentially
 product, used to distinguish it from other items or products.
 
 #### SEE ALSO
-- [Số lô](applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.md)
-- [Sử dụng số sê-ri để theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
+- [Số lô](product_tracking/lots.md)
+- [Sử dụng số sê-ri để theo dõi sản phẩm](product_tracking/serial_numbers.md)
 
 ## Bật số lô & sê-ri
 
@@ -70,8 +70,8 @@ quantities with that assigned number. For unique serial numbers that are *not* r
 
 ![Reporting page with drop-down lists of lots and serial numbers.](../../../../.gitbook/assets/differences-tracking.png)
 
-* [Sử dụng số sê-ri để theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
-* [Chỉ định số sê-ri](applications/inventory_and_mrp/inventory/product_management/product_tracking/create_sn.md)
-* [Số lô](applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.md)
-* [Reassign lot/serial numbers](applications/inventory_and_mrp/inventory/product_management/product_tracking/reassign.md)
-* [Ngày hết hạn](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md)
+* [Sử dụng số sê-ri để theo dõi sản phẩm](product_tracking/serial_numbers.md)
+* [Chỉ định số sê-ri](product_tracking/create_sn.md)
+* [Số lô](product_tracking/lots.md)
+* [Reassign lot/serial numbers](product_tracking/reassign.md)
+* [Ngày hết hạn](product_tracking/expiration_dates.md)

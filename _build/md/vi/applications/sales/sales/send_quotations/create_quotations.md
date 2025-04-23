@@ -140,9 +140,9 @@ Coupon Code, Promotions, Discount, and/or Add
 shipping.
 
 #### SEE ALSO
-- [Use eWallets and gift cards](applications/sales/sales/products_prices/ewallets_giftcards.md)
-- [Discount and loyalty programs](applications/sales/sales/products_prices/loyalty_discount.md)
-- [Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)
+- [Use eWallets and gift cards](../products_prices/ewallets_giftcards.md)
+- [Discount and loyalty programs](../products_prices/loyalty_discount.md)
+- [Pricelists, discounts, and formulas](../products_prices/prices/pricing.md)
 
 ### Optional Products tab
 
@@ -153,7 +153,7 @@ For example, if the customer wants to buy a car, an optional product that could 
 *Trailer Hitch*.
 
 #### SEE ALSO
-[Sản phẩm gốc](applications/sales/sales/send_quotations/optional_products.md)
+[Sản phẩm gốc](optional_products.md)
 
 ### Other Info tab
 
@@ -233,7 +233,7 @@ fields that can be configured.
   *Facebook*), if applicable.
 
 #### SEE ALSO
-[Trình theo dõi liên kết](applications/websites/website/reporting/link_tracker.md)
+[Trình theo dõi liên kết](../../../websites/website/reporting/link_tracker.md)
 
 ### Tab Ghi chú
 
@@ -273,12 +273,12 @@ At this point, the quotation has been confirmed, turned into a sales order, and 
 invoiced and paid for.
 
 For more information about invoicing, refer to the [Invoice based on delivered or ordered
-quantities](applications/sales/sales/invoicing/invoicing_policy.md)
+quantities](../invoicing/invoicing_policy.md)
 
 #### SEE ALSO
-- [Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)
-- [Hạn báo giá](applications/sales/sales/send_quotations/deadline.md)
-- [Online signatures for order confirmations](applications/sales/sales/send_quotations/get_signature_to_validate.md)
-- [Online payment order confirmation](applications/sales/sales/send_quotations/get_paid_to_validate.md)
-- [PDF quote builder](applications/sales/sales/send_quotations/pdf_quote_builder.md)
-- [Hóa đơn chiếu lệ](applications/sales/sales/invoicing/proforma.md)
+- [Mẫu báo giá](quote_template.md)
+- [Hạn báo giá](deadline.md)
+- [Online signatures for order confirmations](get_signature_to_validate.md)
+- [Online payment order confirmation](get_paid_to_validate.md)
+- [PDF quote builder](pdf_quote_builder.md)
+- [Hóa đơn chiếu lệ](../invoicing/proforma.md)

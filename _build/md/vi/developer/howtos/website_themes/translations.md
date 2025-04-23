@@ -119,7 +119,7 @@ the name of the page you want to translate, and click the Edit Translations butt
 ## Export
 
 Once you are done translating, you need to export the translations to integrate them into your
-module. To export everything at once, open your database, activate [developer mode](applications/general/developer_mode.md#developer-mode), and go to Settings ‣ Translations ‣ Export Translation.
+module. To export everything at once, open your database, activate [developer mode](../../../applications/general/developer_mode.md#developer-mode), and go to Settings ‣ Translations ‣ Export Translation.
 Select the Language you translated, *PO File* under File Format, and
 *website_airproof* as the Apps To Export.
 
@@ -131,7 +131,7 @@ Download the file and move it to the `i18n` folder. If needed, you can manually 
 ## PO file
 
 You can translate directly by editing a `.po` file or creating the file yourself. Check out
-the [translating modules documentation](developer/howtos/translations.md) to write your translations.
+the [translating modules documentation](../translations.md) to write your translations.
 
 ```po
 #. module: website_airproof

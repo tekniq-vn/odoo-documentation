@@ -6,10 +6,10 @@ movement based on specific conditions.
 
 #### SEE ALSO
 - [Odoo Tutorials: Routes](https://www.youtube.com/watch?v=qkhDUezyZuc)
-- [Standard routes in Odoo](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.md)
+- [Standard routes in Odoo](../daily_operations.md)
 
 #### NOTE
-Routes are applicable on products, product categories, shipping methods, [packagings](applications/inventory_and_mrp/inventory/product_management/configure/packaging.md#inventory-product-management-route-on-packaging), and on the sales order line.
+Routes are applicable on products, product categories, shipping methods, [packagings](../../product_management/configure/packaging.md#inventory-product-management-route-on-packaging), and on the sales order line.
 
 ## About routes and terminology
 
@@ -37,7 +37,7 @@ specific receiving location.
 Push rules can only be triggered if there are no pull rules that have already generated the
 product transfers.
 
-In a [one-step receipt route](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md), which uses one push rule, when a
+In a [one-step receipt route](receipts_delivery_one_step.md), which uses one push rule, when a
 product arrives in the warehouse, a push rule can automatically transfer it to the *Storage
 Location*. Different push rules can be applied to different products, allowing for customized
 storage locations.
@@ -48,9 +48,9 @@ For more information about configuring rules, skip to the [Configure rules secti
 
 ### Pull rules
 
-Pull rules trigger product moves on demand, such as a sales order or a [need to restock](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md).
+Pull rules trigger product moves on demand, such as a sales order or a [need to restock](../../warehouses_storage/replenishment/reordering_rules.md).
 
-Các quy tắc kéo hoạt động ngược từ vị trí có nhu cầu. Ví dụ: trong tuyến [giao hàng hai bước](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md#inventory-shipping-receiving-two-step-delivery), khi hàng hóa di chuyển từ *Kho* đến *Khu vực xuất* trước khi giao tới *Vị trí khách hàng*, quy tắc kéo trước tiên sẽ tạo lệnh chuyển hàng từ *Khu vực xuất* tới khách hàng. Nếu sản phẩm không có tại *Khu vực xuất*, một quy tắc kéo khác sẽ tạo lệnh chuyển hàng từ *Kho* đến *Khu vực xuất*. Nhân viên kho sau đó xử lý các lệnh này theo thứ tự ngược lại: xuất hàng trước, rồi mới vận chuyển.
+Các quy tắc kéo hoạt động ngược từ vị trí có nhu cầu. Ví dụ: trong tuyến [giao hàng hai bước](receipts_delivery_two_steps.md#inventory-shipping-receiving-two-step-delivery), khi hàng hóa di chuyển từ *Kho* đến *Khu vực xuất* trước khi giao tới *Vị trí khách hàng*, quy tắc kéo trước tiên sẽ tạo lệnh chuyển hàng từ *Khu vực xuất* tới khách hàng. Nếu sản phẩm không có tại *Khu vực xuất*, một quy tắc kéo khác sẽ tạo lệnh chuyển hàng từ *Kho* đến *Khu vực xuất*. Nhân viên kho sau đó xử lý các lệnh này theo thứ tự ngược lại: xuất hàng trước, rồi mới vận chuyển.
 
 ![Example pull rule.](../../../../../.gitbook/assets/pull-rule.png)
 
@@ -101,7 +101,7 @@ Outgoing Shipments routes are set, head to Inventory ‣ Configuration
 Trên trang Tuyến cung ứng, nhấp vào một tuyến để mở biểu mẫu tuyến cung ứng. Trong biểu mẫu này, người dùng có thể xem các địa điểm mà tuyến Áp dụng cho. Người dùng cũng có thể đặt tuyến chỉ áp dụng cho một Công ty cụ thể. Tính năng này hữu ích cho môi trường đa công ty; ví dụ: người dùng có thể có một công ty và kho hàng tại Quốc gia A và một công ty và kho hàng thứ hai tại Quốc gia B.
 
 #### SEE ALSO
-[Applicable on packagings](applications/inventory_and_mrp/inventory/product_management/configure/packaging.md#inventory-product-management-packaging-route)
+[Applicable on packagings](../../product_management/configure/packaging.md#inventory-product-management-packaging-route)
 
 ![View of a route example applicable on product categories and warehouses.](../../../../../.gitbook/assets/routes-example.png)
 

@@ -43,12 +43,12 @@ Mỗi mã vạch bắt đầu bằng một [mã ứng dụng](https://www.gs1.or
 
 Refer to the [GS1 nomenclature list](#barcode-operations-default-gs1-nomenclature-list) to see
 a comprehensive list of all barcode patterns and rules to follow. Otherwise, refer to [this
-GS1 usage doc](applications/inventory_and_mrp/barcode/operations/gs1_usage.md#barcode-operations-gs1-usage) for specific examples of combining  to product
+GS1 usage doc](gs1_usage.md#barcode-operations-gs1-usage) for specific examples of combining  to product
 information and configuring the workflow.
 
 #### SEE ALSO
-- [Lots workflow](applications/inventory_and_mrp/barcode/operations/gs1_usage.md#barcode-operations-gs1-lots)
-- [Non-unit quantities workflow](applications/inventory_and_mrp/barcode/operations/gs1_usage.md#barcode-operations-quantity-ex)
+- [Lots workflow](gs1_usage.md#barcode-operations-gs1-lots)
+- [Non-unit quantities workflow](gs1_usage.md#barcode-operations-quantity-ex)
 
 <a id="barcode-operations-create-new-rules"></a>
 
@@ -61,7 +61,7 @@ database.
 Adding GS1 barcode rules in Odoo ensures accurate interpretation of unique, non-standard GS1
 formats.
 
-To do so, begin by turning on [developer mode](applications/general/developer_mode.md#developer-mode) and navigating to the
+To do so, begin by turning on [developer mode](../../../general/developer_mode.md#developer-mode) and navigating to the
 Barcode Nomenclatures list in Inventory app ‣ Configuration ‣
 Barcode Nomenclatures. Then, select the Default GS1 Nomenclature list item.
 
@@ -81,7 +81,7 @@ not working as expected:
    Nomenclature. Jump to the [nomenclature setup section](#barcode-operations-set-up-barcode-nomenclature) for more details.
 2. Ensure that the fields scanned in the barcode are enabled in Odoo. For example, to scan a barcode
    containing lots and serial numbers, make sure the Lots & Serial Numbers feature is
-   enabled in [Odoo's settings](applications/inventory_and_mrp/barcode/operations/gs1_usage.md#barcode-operations-lot-setup) and [on the product](applications/inventory_and_mrp/barcode/operations/gs1_usage.md#barcode-operations-lot-setup-on-product).
+   enabled in [Odoo's settings](gs1_usage.md#barcode-operations-lot-setup) and [on the product](gs1_usage.md#barcode-operations-lot-setup-on-product).
 3. Omit punctuation such as parentheses `()` or brackets `[]` between the  and the barcode sequence. These are typically used in examples for ease of reading
    and should **not** be included in the final barcode. For more details on building GS1 barcodes,
    go to [this section](#barcode-operations-create-gs1-barcode).

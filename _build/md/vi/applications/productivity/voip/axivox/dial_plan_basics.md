@@ -8,7 +8,7 @@ the right information, in a quick, efficient manner.
 This document covers the basic configuration of dial plans in Axivox.
 
 #### SEE ALSO
-For more information on advanced dial plans, visit [Advanced dial plans](applications/productivity/voip/axivox/dial_plan_advanced.md).
+For more information on advanced dial plans, visit [Advanced dial plans](dial_plan_advanced.md).
 
 #### IMPORTANT
 Using a browser add-on for spelling may hinder the use of the visual editor in dial plans. Do not
@@ -177,4 +177,4 @@ Start ‣ Play a file ‣ Menu ‣ (Hang-up, Calls, Queues, Conferences) ‣
 
 #### SEE ALSO
 This setup does **not** include any basic or advanced call routing. For more information on call
-routing, reference this documentation: [Advanced dial plans](applications/productivity/voip/axivox/dial_plan_advanced.md).
+routing, reference this documentation: [Advanced dial plans](dial_plan_advanced.md).

@@ -69,4 +69,4 @@ Down payment (percentage) or Down payment (fixed amount).
 
 #### SEE ALSO
 Be sure to check out the documentation explaining down payment options to learn more:
-[Khoản trả trước](applications/sales/sales/invoicing/down_payment.md)
+[Khoản trả trước](down_payment.md)

@@ -125,7 +125,7 @@ QWeb is the primary templating engine used by Odoo. It is an XML templating engi
 generate HTML fragments and pages.
 
 #### SEE ALSO
-[QWeb templates documentation](developer/reference/frontend/qweb.md).
+[QWeb templates documentation](../../reference/frontend/qweb.md).
 
 <a id="website-themes-layout-custom-fields"></a>
 
@@ -353,7 +353,7 @@ In your custom header, you can call several sub-templates using the `t-call` dir
 ```
 
 #### IMPORTANT
-Don't forget to [create a record of the website logo](developer/howtos/website_themes/media.md#website-themes-media-images-use-logo)
+Don't forget to [create a record of the website logo](media.md#website-themes-media-images-use-logo)
 logo in the database.
 
 <a id="website-themes-layout-headers-components-menu"></a>
@@ -426,7 +426,7 @@ logo in the database.
 ```
 
 #### SEE ALSO
-You can add a [header overlay](developer/howtos/website_themes/pages.md#website-themes-pages-theme-pages-header-overlay) to position your header over the content of
+You can add a [header overlay](pages.md#website-themes-pages-theme-pages-header-overlay) to position your header over the content of
 your page. It has to be done on each page individually.
 
 <a id="website-themes-layout-footer"></a>

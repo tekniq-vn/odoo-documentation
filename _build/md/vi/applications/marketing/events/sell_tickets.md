@@ -115,4 +115,4 @@ Then, once the purchase is complete on the front-end of the website, the subsequ
 instantly accessible in the back-end of the database.
 
 #### SEE ALSO
-[Create events](applications/marketing/events/create_events.md)
+[Create events](create_events.md)

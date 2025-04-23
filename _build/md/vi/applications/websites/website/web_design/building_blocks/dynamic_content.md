@@ -1,9 +1,9 @@
 # Dynamic content
 
-The Dynamic Content [building blocks](applications/websites/website/web_design/building_blocks.md), such as
+The Dynamic Content [building blocks](../building_blocks.md), such as
 [Form](#website-dynamic-content-form), [Products](#website-dynamic-content-products),
-[Embed Code](#website-dynamic-content-embed-code), or [Blog Posts](applications/websites/blog.md), help
-you create interactive and visually appealing layouts for your web [pages](applications/websites/website/pages.md).
+[Embed Code](#website-dynamic-content-embed-code), or [Blog Posts](../../../blog.md), help
+you create interactive and visually appealing layouts for your web [pages](../../pages.md).
 
 #### NOTE
 To add a building block, click Edit, select the desired building block under the

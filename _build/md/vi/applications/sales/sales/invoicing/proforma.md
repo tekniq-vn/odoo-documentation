@@ -49,4 +49,4 @@ invoice, to the customer.
 ![The email pop-up window that appears with pro-forma invoice attached in Odoo Sales.](../../../../.gitbook/assets/pro-forma-email-message-pop-up.png)
 
 #### SEE ALSO
-[Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)
+[Invoice based on delivered or ordered quantities](invoicing_policy.md)

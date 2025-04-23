@@ -4,8 +4,8 @@
 possibilities.
 
 #### SEE ALSO
-- [Enabling a payment provider](applications/finance/payment_providers.md#payment-providers-add-new)
-- [Thanh toán online](applications/finance/payment_providers.md)
+- [Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
+- [Thanh toán online](../payment_providers.md)
 
 #### NOTE
 Adyen works only with customers processing **more** than **10 million annually** or invoicing a
@@ -14,7 +14,7 @@ Adyen works only with customers processing **more** than **10 million annually**
 ## Cấu hình
 
 #### SEE ALSO
-[Enabling a payment provider](applications/finance/payment_providers.md#payment-providers-add-new)
+[Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
 
 First, reach Adyen support to enable multiple partial capture for you.
 
@@ -89,7 +89,7 @@ URLs, proceed as follows:
 2. Copy the Prefix for your live Customer area (i.e., **data center**) and save it for
    later.
    ![Copy the prefix for the Adyen APIs](../../../.gitbook/assets/adyen-api-urls.png)
-3. In Odoo, [navigate to the payment provider Adyen](applications/finance/payment_providers.md#payment-providers-add-new).
+3. In Odoo, [navigate to the payment provider Adyen](../payment_providers.md#payment-providers-add-new).
 4. In the Checkout API URL field, enter the following URL and replace `yourprefix` with
    the prefix you previously saved:
    `https://yourprefix-checkout-live.adyenpayments.com/checkout`
@@ -120,7 +120,7 @@ where payments will be made (the URLs of the servers hosting your Odoo instances
 Adyen allows you to capture an amount manually instead of having an immediate capture.
 
 To set it up, enable the **Capture Amount Manually** option on Odoo, as explained in the
-[payment providers documentation](applications/finance/payment_providers.md#payment-providers-manual-capture).
+[payment providers documentation](../payment_providers.md#payment-providers-manual-capture).
 
 Then, open your Adyen Merchant Account, go to Account ‣ Settings, and set the
 **Capture Delay** to **manual**.
@@ -132,4 +132,4 @@ Then, open your Adyen Merchant Account, go to Account ‣ Settings, and set the
   **revoke** it.
 
 #### SEE ALSO
-[Thanh toán online](applications/finance/payment_providers.md)
+[Thanh toán online](../payment_providers.md)

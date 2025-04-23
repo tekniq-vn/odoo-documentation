@@ -17,7 +17,7 @@ To create [direct debit mandates](#subscriptions-sepa-sdd-payment), the **Accoun
 
 #### IMPORTANT
 Before using , the database must be configured to allow the use of Euros on sales orders. To
-do so, a [pricelist](applications/sales/point_of_sale/pricing/pricelists.md) must be created for Euros.
+do so, a [pricelist](../../point_of_sale/pricing/pricelists.md) must be created for Euros.
 
 This can be done using the **Sales** or **Point of Sales** apps. From either app, navigate to
 Configuration ‣ Settings.
@@ -176,5 +176,5 @@ required by the SEPA customer-to-bank [implementation guidelines](https://www.eu
 which ensures compatibility with the banks.
 
 #### SEE ALSO
-- [Batch payments: SEPA Direct Debit (SDD)](applications/finance/accounting/payments/batch_sdd.md)
-- [Thanh toán online](applications/finance/accounting/payments/online.md)
+- [Batch payments: SEPA Direct Debit (SDD)](../../../finance/accounting/payments/batch_sdd.md)
+- [Thanh toán online](../../../finance/accounting/payments/online.md)

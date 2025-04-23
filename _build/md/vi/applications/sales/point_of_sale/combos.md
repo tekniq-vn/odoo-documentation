@@ -44,7 +44,7 @@ store or restaurant.
 
 ## Practical application
 
-[Open a POS session](applications/sales/point_of_sale.md#pos-session-start) and select the combo product. Choose the options and
+[Open a POS session](../point_of_sale.md#pos-session-start) and select the combo product. Choose the options and
 click Add to order. As a reminder, the extra price appears under the related choices.
 
 ![image](../../../.gitbook/assets/combo-select.png)

@@ -8,7 +8,7 @@
 
 ## Mô đun
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to utilize all the features of the Chilean
+[Install](../../general/apps_modules.md#general-install) the following modules to utilize all the features of the Chilean
 localization.
 
 | Tên                                   | Tên kỹ thuật          | Mô tả                                                                                                                                         |
@@ -103,7 +103,7 @@ you want to use *Email Box Electronic Invoicing* as the  incoming email server.
 #### IMPORTANT
 In order to receive your SII documents, it's necessary to set up your own email server. More
 information on how to do this can be found in this documentation:
-[Communication in Odoo by email](applications/general/email_communication.md)
+[Communication in Odoo by email](../../general/email_communication.md)
 
 Begin by clicking Configure DTE Incoming Email, then click New to add a
 server and fill in the following fields:
@@ -271,7 +271,7 @@ module. The accounts are mapped automatically in:
 - Tỷ giá hối đoái
 
 #### SEE ALSO
-[Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+[Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md)
 
 ## Thuế
 
@@ -285,7 +285,7 @@ Chile has several tax types, the most common ones are:
 - **ILA**: the tax for alcoholic drinks.
 
 #### SEE ALSO
-[Thuế](applications/finance/accounting/taxes.md)
+[Thuế](../accounting/taxes.md)
 
 ## Usage and testing
 
@@ -789,7 +789,7 @@ Since an online payment needs to be confirmed for the *automatic invoice* featur
 document, a payment provider must be configured for the related website.
 
 #### NOTE
-Review the [Thanh toán online](applications/finance/payment_providers.md) documentation for information on which payment providers
+Review the [Thanh toán online](../payment_providers.md) documentation for information on which payment providers
 are supported in Odoo, and how to configure them.
 
 It is also recommended to configure your products so they are able to be invoiced when an online
@@ -884,7 +884,7 @@ generates the electronic receipt.
 
 #### NOTE
 If the client requests a credit note due to a return of their purchase, the credit note should be
-made using the *Accounting* app. See the [credit notes and refunds](applications/finance/accounting/customer_invoices/credit_notes.md) documentation for detailed instructions.
+made using the *Accounting* app. See the [credit notes and refunds](../accounting/customer_invoices/credit_notes.md) documentation for detailed instructions.
 
 ##### Electronic receipts: specific customer
 

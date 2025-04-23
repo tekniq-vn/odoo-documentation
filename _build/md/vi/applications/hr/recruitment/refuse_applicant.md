@@ -76,7 +76,7 @@ For example, if the applicant's name is a used in a dynamic placeholder, the app
 appears anytime that dynamic placeholder appears on the email template.
 
 For more detailed information on email templates, refer to the
-[Mẫu Email](applications/general/companies/email_template.md) documentation.
+[Mẫu Email](../../general/companies/email_template.md) documentation.
 
 <a id="recruitment-send-refusal-email"></a>
 

@@ -48,18 +48,18 @@ will affect reports.
 
 Set a tax on each product in the Vendor Taxes and Customer Taxes fields, if
 applicable. It is considered good practice to use a tax that is configured with [Tax Included
-in Price](applications/finance/accounting/taxes.md#taxes-included-in-price). Taxes will be automatically configured if this is set.
+in Price](accounting/taxes.md#taxes-included-in-price). Taxes will be automatically configured if this is set.
 
 #### SEE ALSO
-- [Log expenses](applications/finance/expenses/log_expenses.md)
-- [Expense reports](applications/finance/expenses/expense_reports.md)
-- [Ghi sổ chi phí](applications/finance/expenses/post_expenses.md)
-- [Reimburse employees](applications/finance/expenses/reimburse.md)
-- [Re-invoice expenses](applications/finance/expenses/reinvoice_expenses.md)
+- [Log expenses](expenses/log_expenses.md)
+- [Expense reports](expenses/expense_reports.md)
+- [Ghi sổ chi phí](expenses/post_expenses.md)
+- [Reimburse employees](expenses/reimburse.md)
+- [Re-invoice expenses](expenses/reinvoice_expenses.md)
 
-* [Approve expenses](applications/finance/expenses/approve_expenses.md)
-* [Log expenses](applications/finance/expenses/log_expenses.md)
-* [Expense reports](applications/finance/expenses/expense_reports.md)
-* [Ghi sổ chi phí](applications/finance/expenses/post_expenses.md)
-* [Reimburse employees](applications/finance/expenses/reimburse.md)
-* [Re-invoice expenses](applications/finance/expenses/reinvoice_expenses.md)
+* [Approve expenses](expenses/approve_expenses.md)
+* [Log expenses](expenses/log_expenses.md)
+* [Expense reports](expenses/expense_reports.md)
+* [Ghi sổ chi phí](expenses/post_expenses.md)
+* [Reimburse employees](expenses/reimburse.md)
+* [Re-invoice expenses](expenses/reinvoice_expenses.md)

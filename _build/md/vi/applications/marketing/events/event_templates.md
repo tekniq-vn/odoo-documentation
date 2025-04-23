@@ -26,7 +26,7 @@ drag-and-drop them into any desired order, using the <i class="oi oi-draggable">
 icon, located to the left of each event template line on the Event Templates page.
 
 #### SEE ALSO
-To learn more about event forms, refer to the [Create events](applications/marketing/events/create_events.md) documentation.
+To learn more about event forms, refer to the [Create events](create_events.md) documentation.
 
 ## Create event template
 
@@ -99,11 +99,11 @@ should be limited to.
 
 Beneath those general information fields at the top of the event template form, there are five tabs:
 
-- [Vé](applications/marketing/events/create_events.md#events-event-tickets)
-- [Communication](applications/marketing/events/create_events.md#events-event-communication)
+- [Vé](create_events.md#events-event-tickets)
+- [Communication](create_events.md#events-event-communication)
 - [Gian hàng](#event-templates-event-template-booths)
-- [Câu hỏi](applications/marketing/events/create_events.md#events-event-questions)
-- [Ghi chú](applications/marketing/events/create_events.md#events-event-notes)
+- [Câu hỏi](create_events.md#events-event-questions)
+- [Ghi chú](create_events.md#events-event-notes)
 
 <a id="event-templates-event-template-booths"></a>
 
@@ -112,7 +112,7 @@ Beneath those general information fields at the top of the event template form, 
 The Booths tab on an event template form is the only tab that differentiates itself from
 a standard event form, where the other tabs (Tickets, Communication,
 Questions, and Notes) are present and configured using the same process. For
-more information about those tabs, refer to the [Create events](applications/marketing/events/create_events.md) documentation.
+more information about those tabs, refer to the [Create events](create_events.md) documentation.
 
 #### IMPORTANT
 To create a booth or booth category, an event booth product **must** be created in the database
@@ -173,4 +173,4 @@ Any of these pre-configured settings related to the selected event template chos
 Template field on an event form can be modified, as desired.
 
 #### SEE ALSO
-[Create events](applications/marketing/events/create_events.md)
+[Create events](create_events.md)

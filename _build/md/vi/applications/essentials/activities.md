@@ -181,7 +181,7 @@ Nhập thông tin sau đây trên biểu mẫu:
 - Tên tài liệu: nhập tên cho tài liệu được yêu cầu.
 - Yêu cầu từ: chọn người dùng mà tài liệu được yêu cầu từ họ bằng cách sử dụng menu thả xuống.
 - Ngày đến hạn vào: nhập giá trị số cho biết thời điểm tài liệu đến hạn. Bên cạnh trường này, trường Ngày sẽ hiển thị. Nhấp vào tùy chọn mặc định Ngày để hiển thị menu thả xuống. Chọn tùy chọn khung thời gian mong muốn từ danh sách. Các tùy chọn là Ngày, Tuần hoặc Tháng.
-- Không gian làm việc: sử dụng menu thả xuống, chọn [Không gian làm việc](applications/productivity/documents.md#documents-workspaces) cụ thể mà tài liệu đang được tải lên.
+- Không gian làm việc: sử dụng menu thả xuống, chọn [Không gian làm việc](../productivity/documents.md#documents-workspaces) cụ thể mà tài liệu đang được tải lên.
 - Thẻ: chọn bất kỳ thẻ mong muốn nào từ menu thả xuống. Các thẻ khả dụng được hiển thị dựa trên thẻ được cấu hình cho Không gian làm việc đã chọn.
 - Nội dung: nhập một lời nhắn để giải thích về yêu cầu tài liệu trong trường này.
 
@@ -222,7 +222,7 @@ Nhập Tên cho loại hoạt động ở đầu biểu mẫu, sau đó nhập t
 
   #### NOTE
   Các loại hoạt động khả dụng khác nhau tùy theo ứng dụng được cài đặt trong cơ sở dữ liệu.
-- Thư mục: chọn một thư mục [không gian làm việc](applications/productivity/documents.md#documents-workspaces) cụ thể để lưu tài liệu. Trường này **chỉ** xuất hiện nếu Tải lên tài liệu được chọn cho Tác vụ.
+- Thư mục: chọn một thư mục [không gian làm việc](../productivity/documents.md#documents-workspaces) cụ thể để lưu tài liệu. Trường này **chỉ** xuất hiện nếu Tải lên tài liệu được chọn cho Tác vụ.
 
   Sử dụng menu thả xuống, chọn Thư mục mà tài liệu được lưu vào.
 - Người dùng mặc định: chọn một người dùng từ menu thả xuống để tự động phân công hoạt động này cho người dùng đã chọn khi loại hoạt động này được lên lịch. Nếu trường này trống, hoạt động sẽ được phân công cho người dùng tạo hoạt động.
@@ -253,6 +253,6 @@ Bạn có thể kích hoạt hoặc đề xuất một hoạt động khác. Đ�
 ![Một biểu mẫu Hoạt động mới được điền đầy đủ thông tin](../../.gitbook/assets/new-activity.png)
 
 #### SEE ALSO
-- [Thảo luận](applications/productivity/discuss.md)
-- [Use channels for team communication](applications/productivity/discuss/team_communication.md)
-- [Utilize activities for sales teams](applications/sales/crm/optimize/utilize_activities.md)
+- [Thảo luận](../productivity/discuss.md)
+- [Use channels for team communication](../productivity/discuss/team_communication.md)
+- [Utilize activities for sales teams](../sales/crm/optimize/utilize_activities.md)

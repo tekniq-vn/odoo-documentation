@@ -8,7 +8,7 @@ Trong quy trình giao hàng 3 bước mặc định, các sản phẩm thuộc l
 
 ## Cấu hình
 
-To change delivery settings from [one step](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md) to three steps, make
+To change delivery settings from [one step](receipts_delivery_one_step.md) to three steps, make
 sure the *Multi-Step Routes* option is enabled in Inventory app ‣ Configuration
 ‣ Settings ‣ Warehouse. Note that activating Multi-Step Routes will also activate
 *Storage Locations*.

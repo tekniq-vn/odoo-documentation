@@ -4,7 +4,7 @@ The *at confirmation* reservation method reserves products **only** when a sales
 confirmed, **and** if enough stock of the products included in the  is already available.
 
 #### SEE ALSO
-[About reservation methods](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods.md)
+[About reservation methods](../reservation_methods.md)
 
 ## Cấu hình
 
@@ -51,5 +51,5 @@ Quantity columns match (in this case, both should read `100.00`).
 Once ready, click Validate.
 
 #### SEE ALSO
-- [Manual reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.md)
-- [Before scheduled date reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.md)
+- [Manual reservation](manually.md)
+- [Before scheduled date reservation](before_scheduled_date.md)

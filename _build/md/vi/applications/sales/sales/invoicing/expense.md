@@ -210,6 +210,6 @@ full. Thus, completing the workflow.
 ![A register payment pop-up window on a customer invoice in Odoo Sales.](../../../../.gitbook/assets/expense-invoice-in-payment-banner.png)
 
 #### SEE ALSO
-- [Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)
-- [Invoicing based on time and materials](applications/sales/sales/invoicing/time_materials.md)
-- [Invoice project milestones](applications/sales/sales/invoicing/milestone.md)
+- [Invoice based on delivered or ordered quantities](invoicing_policy.md)
+- [Invoicing based on time and materials](time_materials.md)
+- [Invoice project milestones](milestone.md)

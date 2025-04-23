@@ -83,7 +83,7 @@ To ignore the call, click the red 📞 (phone) icon.
 ![Incoming call shown in the Odoo VoIP widget.](../../../.gitbook/assets/incoming-call.png)
 
 #### SEE ALSO
-[VoIP widget](applications/productivity/voip/voip_widget.md)
+[VoIP widget](voip_widget.md)
 
 ### Khắc phục sự cố
 
@@ -119,5 +119,5 @@ This is useful for convenient, on-the-go calls, and to make sure incoming calls 
 softphone will work.
 
 #### SEE ALSO
-- [Devices and integrations](applications/productivity/voip/devices_integrations.md)
+- [Devices and integrations](devices_integrations.md)
 - [OnSIP App Download](https://www.onsip.com/app/download)

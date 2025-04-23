@@ -38,7 +38,7 @@ upload the signed file and click on Validate to start running the mandate.
 
 #### IMPORTANT
 Make sure that the **IBAN bank accounts details** are correctly recorded on the debtor’s contact
-form, under the Accounting tab, and in your own [Bank Account](applications/finance/accounting/bank.md) settings.
+form, under the Accounting tab, and in your own [Bank Account](../bank.md) settings.
 
 ### SEPA Direct Debit as a payment method
 
@@ -98,7 +98,7 @@ you click on Validate, the `.xml` file is directly available for download.
 Finally, upload this file to your online banking interface to process the payments.
 
 #### SEE ALSO
-* [Batch payments by bank deposit](applications/finance/accounting/payments/batch.md)
-* [Bank and cash accounts](applications/finance/accounting/bank.md)
+* [Batch payments by bank deposit](batch.md)
+* [Bank and cash accounts](../bank.md)
 * [List of all SEPA countries](https://www.europeanpaymentscouncil.eu/document-library/other/epc-list-sepa-scheme-countries)
 * [Hướng dẫn Sepa](https://www.europeanpaymentscouncil.eu/document-library/implementation-guidelines/sepa-credit-transfer-inter-psp-implementation-guidelines)

@@ -31,7 +31,7 @@ Trong tab Tồn kho, cuộn xuống phần Gói hàng và nhấp vào Thêm mộ
 #### NOTE
 Truy cập các trường bổ sung trong bảng Gói hàng dưới đây bằng cách nhấp vào biểu tượng <i class="oi oi-settings-adjust"></i> (additional options) ở phía bên phải của tiêu đề cột trong phần Gói hàng và chọn tùy chọn mong muốn từ menu thả xuống.
 
-- Mã vạch: mã số dùng để theo dõi gói hàng trong quá trình dịch chuyển tồn kho hoặc lấy hàng, sử dụng [Ứng dụng Mã vạch](applications/inventory_and_mrp/barcode/operations/receipts_deliveries.md#barcode-operations-intro). Để trống nếu không sử dụng.
+- Mã vạch: mã số dùng để theo dõi gói hàng trong quá trình dịch chuyển tồn kho hoặc lấy hàng, sử dụng [Ứng dụng Mã vạch](../../../barcode/operations/receipts_deliveries.md#barcode-operations-intro). Để trống nếu không sử dụng.
 - Công ty: cho biết gói hàng chỉ có tại công ty đã chọn. Để trống để gói hàng khả dụng cho tất cả công ty.
 
 ### Từ trang Gói hàng
@@ -59,13 +59,13 @@ Khi tạo đơn bán hàng trong ứng dụng Bán hàng, xác định các gói
 
 ## Tuyến cung ứng dành cho gói hàng
 
-Khi nhận các gói hàng, theo mặc định, chúng sẽ tuân theo [tuyến nhập kho đã cấu hình](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.md) của kho hàng. Để **tùy chọn** thiết lập một tuyến cung ứng riêng theo gói hàng, đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Tuyến cung ứng.
+Khi nhận các gói hàng, theo mặc định, chúng sẽ tuân theo [tuyến nhập kho đã cấu hình](../../shipping_receiving/daily_operations.md) của kho hàng. Để **tùy chọn** thiết lập một tuyến cung ứng riêng theo gói hàng, đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Tuyến cung ứng.
 
 #### IMPORTANT
 Các tính năng *Gói hàng*, *Vị trí lưu kho* và *Tuyến cung ứng nhiều bước* (truy cập bằng cách vào Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt) **phải** được kích hoạt và lưu lại.
 
 #### SEE ALSO
-[Routes and push/pull rules](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md)
+[Routes and push/pull rules](../../shipping_receiving/daily_operations/use_routes.md)
 
 ### Tạo tuyến cung ứng
 

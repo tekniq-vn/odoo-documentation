@@ -19,7 +19,7 @@ database. Each entry is highlighted in a different color to represent their stat
 
 #### NOTE
 Appraisals are scheduled automatically (appear in gray), according to their respective
-[Appraisals plans](applications/hr/appraisals.md#appraisals-appraisal-plan).
+[Appraisals plans](../appraisals.md#appraisals-appraisal-plan).
 
 The report displays the current year, in a default Gantt view, grouped by department, with the
 current month highlighted.
@@ -36,7 +36,7 @@ To view the details of any appraisal, click on any appraisal. A pop-over window 
 the due date for the appraisal. To view more details, click the View button, and further
 details appear in a pop-up window.
 
-The report can have other [filters](applications/essentials/search.md#search-filters) and [groupings](applications/essentials/search.md#search-group) set in
+The report can have other [filters](../../essentials/search.md#search-filters) and [groupings](../../essentials/search.md#search-group) set in
 the search bar at the top.
 
 ![A report showing all the appraisals for the Appraisal Analysis report.](../../../.gitbook/assets/analysis.png)
@@ -90,5 +90,5 @@ This report can also be [grouped by status](#appraisals-group-status).
 ![A report showing only the appraisals the user is responsible for, by status.](../../../.gitbook/assets/users-appraisals.png)
 
 #### SEE ALSO
-- [Odoo essentials reporting](applications/essentials/reporting.md)
-- [Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)
+- [Odoo essentials reporting](../../essentials/reporting.md)
+- [Tìm kiếm, lọc, và nhóm bản ghi](../../essentials/search.md)

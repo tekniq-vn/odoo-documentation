@@ -2,7 +2,7 @@
 
 # Self-signed certificate for ePOS printers
 
-Để làm việc với Odoo, một số mẫu máy in có thể hoạt động mà không cần [hệ thống IoT](applications/general/iot.md), nhưng có thể yêu cầu [giao thức HTTPS](applications/sales/point_of_sale/configuration/https.md) để thiết lập kết nối an toàn giữa trình duyệt và máy in. Tuy nhiên, khi truy cập địa chỉ IP của máy in qua HTTPS, hầu hết các trình duyệt sẽ hiển thị trang cảnh báo. Trong trường hợp này, bạn có thể tạm thời [bắt buộc kết nối](#epos-ssc-instructions), cho phép truy cập trang qua HTTPS và sử dụng máy in ePOS trong Odoo miễn là cửa sổ trình duyệt vẫn mở.
+Để làm việc với Odoo, một số mẫu máy in có thể hoạt động mà không cần [hệ thống IoT](../../../general/iot.md), nhưng có thể yêu cầu [giao thức HTTPS](https.md) để thiết lập kết nối an toàn giữa trình duyệt và máy in. Tuy nhiên, khi truy cập địa chỉ IP của máy in qua HTTPS, hầu hết các trình duyệt sẽ hiển thị trang cảnh báo. Trong trường hợp này, bạn có thể tạm thời [bắt buộc kết nối](#epos-ssc-instructions), cho phép truy cập trang qua HTTPS và sử dụng máy in ePOS trong Odoo miễn là cửa sổ trình duyệt vẫn mở.
 
 #### WARNING
 The connection is lost after closing the browser window. Therefore, this method should only be

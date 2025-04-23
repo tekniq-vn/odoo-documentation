@@ -48,7 +48,7 @@ having moderator rights. They are also used to set user [ranks](#forum-ranks).
 
 #### IMPORTANT
 - A user's karma points are shared across all forums, courses, etc., of a single Odoo website.
-- eLearning users can earn karma points through different [course interactions](applications/websites/elearning.md#elearning-karma) and by [completing quizzes](applications/websites/elearning.md#elearning-quiz).
+- eLearning users can earn karma points through different [course interactions](elearning.md#elearning-karma) and by [completing quizzes](elearning.md#elearning-quiz).
 
 <a id="forum-karma-gains"></a>
 
@@ -229,7 +229,7 @@ Click the ellipsis button (...) to:
 >   questions afterward.
 > - Flag a question or answer as offensive.
 > - Convert a comment into an answer.
-> - View the related [Helpdesk ticket](applications/services/helpdesk/overview/help_center.md#helpdesk-forum), if any.
+> - View the related [Helpdesk ticket](../services/helpdesk/overview/help_center.md#helpdesk-forum), if any.
 ![Posts actions](../../.gitbook/assets/post-actions.png)
 
 #### NOTE

@@ -4,7 +4,7 @@ Connecting a payment terminal allows you to offer a fluid payment flow to your c
 the work of your cashiers.
 
 #### IMPORTANT
-- Ingenico payment terminals require an [IoT system](applications/general/iot.md).
+- Ingenico payment terminals require an [IoT system](../../../../general/iot.md).
 - Ingenico is currently only available in Belgium, the Netherlands and Luxembourg.
 - Odoo works with the Ingenico Lane/, Desk/, and Move/ payment terminals as they support the TLV
   communication protocol through TCP/IP.
@@ -15,7 +15,7 @@ the work of your cashiers.
 
 Connecting an Ingenico payment terminal to Odoo is a feature that requires an IoT system. For more
 information on how to connect an IoT system to your database, please refer to the [IoT
-documentation](applications/general/iot.md).
+documentation](../../../../general/iot.md).
 
 ### Configure the Lane/Desk/Move 5000 terminals for Ingenico BENELUX
 
@@ -33,13 +33,13 @@ At this point, the terminal restarts and should be displayed on the IoT system's
 
 ### Configure the payment method
 
-Enable the payment terminal [in the application settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and
-[create the related payment method](applications/sales/point_of_sale/payment_methods.md). Set the journal type as
+Enable the payment terminal [in the application settings](../../configuration.md#configuration-settings) and
+[create the related payment method](../../payment_methods.md). Set the journal type as
 Bank and select Ingenico in the Use a Payment Terminal field.
 Then, select your terminal device in the Payment Terminal Device field.
 
 ![image](../../../../../.gitbook/assets/payment-method2.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
-[POS' settings](applications/sales/point_of_sale/configuration.md#configuration-settings), click Edit, and add the payment method
+[POS' settings](../../configuration.md#configuration-settings), click Edit, and add the payment method
 under the Payments section.

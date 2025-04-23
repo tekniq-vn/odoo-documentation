@@ -335,7 +335,7 @@ activity, or click Done & Schedule Next to schedule the current activity and sch
 another activity for the same repair.
 
 #### SEE ALSO
-For more detailed information regarding activities, refer to the main [activities](applications/essentials/activities.md) document.
+For more detailed information regarding activities, refer to the main [activities](../../essentials/activities.md) document.
 
 ##### Add a service
 
@@ -406,7 +406,7 @@ To download the table in an *xlsx* format, click the download xlsx icon, represe
 ⬇️ (down arrow above a line) icon.
 
 #### SEE ALSO
-For more detailed information regarding reporting, refer to the main [reporting](applications/essentials/reporting.md) document.
+For more detailed information regarding reporting, refer to the main [reporting](../../essentials/reporting.md) document.
 
 #### Xem hoạt động
 

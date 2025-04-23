@@ -18,7 +18,7 @@ in the *CRM* pipeline, on individual lead and opportunity cards.
 It is **not** possible to compile a complete report if the sales people are not using the
 *Activities* feature in the *chatter*
 
-For more information, refer to [Activities](applications/essentials/activities.md)
+For more information, refer to [Activities](../../../essentials/activities.md)
 
 ## Create an unattended leads report
 
@@ -130,4 +130,4 @@ To change to a *list* view, click the ≣ (list) icon in the top-right corner of
 screen.
 
 #### SEE ALSO
-[Hoạt động](applications/essentials/activities.md)
+[Hoạt động](../../../essentials/activities.md)

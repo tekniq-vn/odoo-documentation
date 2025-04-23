@@ -12,7 +12,7 @@ different groups for A/B testing, or saved as a template for later.
 ## Minimum requirements
 
 In order to create and deliver a lost leads reactivation email campaign, the *CRM* and *Email
-Marketing* applications **must** be [installed](applications/general/apps_modules.md#general-install) and configured.
+Marketing* applications **must** be [installed](../../general/apps_modules.md#general-install) and configured.
 
 Here are the minimum necessary filters that pertain to a lost leads reactivation mailing campaign:
 
@@ -97,7 +97,7 @@ statements.
 ### Lý do mất
 
 Next, add one or more Lost Reason rules to exclude leads that should **not** be targeted
-for specific [lost reasons](applications/sales/crm/pipeline/lost_opportunities.md).
+for specific [lost reasons](../../sales/crm/pipeline/lost_opportunities.md).
 
 Để làm điều đó, hãy tạo một Quy tắc mới khác, một lần nữa. Sau đó, trong trường đầu tiên của quy tắc, chọn Lý do mất từ menu thả xuống. Đối với toán tử, chọn không trong hoặc không chứa từ menu thả xuống. Với bất kỳ lựa chọn nào, hãy sử dụng trường thứ ba để nhập một lý do mất (hoặc nhiều lý do, tùy theo lựa chọn toán tử) để đưa vào quy tắc.
 
@@ -135,7 +135,7 @@ second field. The rule should then read: Active *is not* `set`.
 Now, with the domain section of the email campaign complete, create the body content of the email
 using any of the premade stylized templates, or choose between the Plain Text or
 Start From Scratch options for more granular control. For more information, refer to the
-*Email Marketing* [documentation on how to create an email](applications/marketing/email_marketing.md#email-marketing-create-email).
+*Email Marketing* [documentation on how to create an email](../email_marketing.md#email-marketing-create-email).
 
 ## Send or schedule
 
@@ -159,7 +159,7 @@ ones, which means the lost reasons in a database can vary from organization to o
 from pipeline to pipeline.
 
 For more information on *Lost Reasons*, including the creation of them, refer to
-[Manage lost opportunities](applications/sales/crm/pipeline/lost_opportunities.md).
+[Manage lost opportunities](../../sales/crm/pipeline/lost_opportunities.md).
 
 By default, Odoo includes a few common *Lost Reasons*, such as:
 
@@ -222,6 +222,6 @@ As a campaign progresses, a marketing team may send different follow-up emails d
 lead responded the previous week.
 
 #### SEE ALSO
-- [Email Marketing](applications/marketing/email_marketing.md)
-- [Manage unsubscriptions (blacklist)](applications/marketing/email_marketing/unsubscriptions.md)
-- [Tự động hóa marketing](applications/marketing/marketing_automation.md)
+- [Email Marketing](../email_marketing.md)
+- [Manage unsubscriptions (blacklist)](unsubscriptions.md)
+- [Tự động hóa marketing](../marketing_automation.md)

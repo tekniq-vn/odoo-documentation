@@ -1,7 +1,7 @@
 # Chapter 5: Finally, Some UI To Play With
 
-Now that we've created our new [model](developer/tutorials/server_framework_101/03_basicmodel.md) and its
-corresponding [access rights](developer/tutorials/server_framework_101/04_securityintro.md), it is time to
+Now that we've created our new [model](03_basicmodel.md) and its
+corresponding [access rights](04_securityintro.md), it is time to
 interact with the user interface.
 
 At the end of this chapter, we will have created a couple of menus in order to access a default list
@@ -10,9 +10,9 @@ and form view.
 ## Data Files (XML)
 
 **Reference**: the documentation related to this topic can be found in
-[Data Files](developer/reference/backend/data.md#reference-data).
+[Data Files](../../reference/backend/data.md#reference-data).
 
-In [Chapter 4: Security - A Brief Introduction](developer/tutorials/server_framework_101/04_securityintro.md), we added data through a CSV file. The CSV
+In [Chapter 4: Security - A Brief Introduction](04_securityintro.md), we added data through a CSV file. The CSV
 format is convenient when the data to load has a simple format. When the format is more complex
 (e.g. load the structure of a view or an email template), we use the XML format. For example,
 this
@@ -40,7 +40,7 @@ action which triggers the opening of a list of the records.
 ## Actions
 
 **Reference**: the documentation related to this topic can be found in
-[Actions](developer/reference/backend/actions.md).
+[Actions](../../reference/backend/actions.md).
 
 #### NOTE
 **Goal**: at the end of this section, an action should be loaded in the system. We won't see
@@ -57,7 +57,7 @@ Actions can be triggered in three ways:
 3. as contextual actions on object
 
 We will only cover the first case in this chapter. The second case will be covered in a
-[later chapter](developer/tutorials/server_framework_101/09_actions.md) while the last is the focus of an
+[later chapter](09_actions.md) while the last is the focus of an
 advanced topic. In our Real Estate example, we would like to link a menu to the `estate.property`
 model, so we are able to create a new record. The action can be viewed as the link between the menu
 and the model.
@@ -72,13 +72,13 @@ A basic action for our `test_model` is:
 </record>
 ```
 
-- `id` is an [external identifier](developer/glossary.md#term-external-identifier). It can be used to refer to the record
+- `id` is an [external identifier](../../glossary.md#term-external-identifier). It can be used to refer to the record
   (without knowing its in-database identifier).
-- `model` has a fixed value of `ir.actions.act_window` ([Window Actions (ir.actions.act_window)](developer/reference/backend/actions.md#reference-actions-window)).
+- `model` has a fixed value of `ir.actions.act_window` ([Window Actions (ir.actions.act_window)](../../reference/backend/actions.md#reference-actions-window)).
 - `name` is the name of the action.
 - `res_model` is the model which the action applies to.
 - `view_mode` are the views that will be available; in this case they are the list (tree) and form views.
-  We'll see [later](developer/tutorials/server_framework_101/14_qwebintro.md) that there can be other view modes.
+  We'll see [later](14_qwebintro.md) that there can be other view modes.
 
 Examples can be found everywhere in Odoo, but
 [this](https://github.com/odoo/odoo/blob/09c59012bf80d2ccbafe21c39e604d6cfda72924/addons/crm/views/crm_lost_reason_views.xml#L57-L70)
@@ -90,7 +90,7 @@ Restart the server and you should see the file loaded in the log.
 ## Menus
 
 **Reference**: the documentation related to this topic can be found in
-[Shortcuts](developer/reference/backend/data.md#reference-data-shortcuts).
+[Shortcuts](../../reference/backend/data.md#reference-data-shortcuts).
 
 #### NOTE
 **Goal**: at the end of this section, three menus should be created and the default view is
@@ -189,7 +189,7 @@ Check that the default values are set as expected.
 ### Reserved Fields
 
 **Reference**: the documentation related to this topic can be found in
-[Reserved Field names](developer/reference/backend/orm.md#reference-orm-fields-reserved).
+[Reserved Field names](../../reference/backend/orm.md#reference-orm-fields-reserved).
 
 A few field names are reserved for pre-defined behaviors. They should be defined on a
 model when the related behavior is desired.
@@ -206,6 +206,6 @@ Note that the default `active=False` value was assigned to all existing records.
 The `state` will be used later on for several UI enhancements.
 
 Now that we are able to interact with the UI thanks to the default views, the next step is
-obvious: we want to define [our own views](developer/tutorials/server_framework_101/06_basicviews.md).
+obvious: we want to define [our own views](06_basicviews.md).
 
 * <a id='refresh'>**[1]**</a> A refresh is needed since the web client keeps a cache of the various menus and views for performance reasons.

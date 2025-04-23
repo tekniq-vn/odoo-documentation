@@ -14,15 +14,15 @@ Below you can find videos with a general description of the localization, and ho
 
 ### Modules installation
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Argentinean
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Argentinean
 localization:
 
-| Tên                                                                           | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                                            |
-|-------------------------------------------------------------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Argentina - Kế toán                                                           | `l10n_ar`              | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages), which represents<br/>the minimal configuration to operate in Argentina under the  regulations and guidelines. |
-| Báo cáo kế toán của Argentina                                                 | `l10n_ar_reports`      | VAT Book report and VAT summary report.                                                                                                                                                                                          |
-| Hóa đơn điện tử của Argentina                                                 | `l10n_ar_edi`          | Includes all technical and functional requirements to generate electronic invoices via web<br/>service, based on the AFIP regulations.                                                                                           |
-| [Thương mại điện tử của Argentina](#argentina-ecommerce-electronic-invoicing) | `l10n_ar_website_sale` | (optional) Allows the user to see Identification Type and AFIP Responsibility in the<br/>eCommerce checkout form in order to create electronic invoices.                                                                         |
+| Tên                                                                           | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                          |
+|-------------------------------------------------------------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Argentina - Kế toán                                                           | `l10n_ar`              | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages), which represents<br/>the minimal configuration to operate in Argentina under the  regulations and guidelines. |
+| Báo cáo kế toán của Argentina                                                 | `l10n_ar_reports`      | VAT Book report and VAT summary report.                                                                                                                                                                        |
+| Hóa đơn điện tử của Argentina                                                 | `l10n_ar_edi`          | Includes all technical and functional requirements to generate electronic invoices via web<br/>service, based on the AFIP regulations.                                                                         |
+| [Thương mại điện tử của Argentina](#argentina-ecommerce-electronic-invoicing) | `l10n_ar_website_sale` | (optional) Allows the user to see Identification Type and AFIP Responsibility in the<br/>eCommerce checkout form in order to create electronic invoices.                                                       |
 
 <a id="argentina-configure-your-company"></a>
 
@@ -423,7 +423,7 @@ is also displayed as it is a legal requirement.
 
 For auditing and troubleshooting purposes, it is possible to obtain detailed information of an
 invoice number that has been previously sent to the AFIP. To retrieve this information, activate the
-[developer mode](applications/general/developer_mode.md#developer-mode), then go to the Accounting menu and click on
+[developer mode](../../general/developer_mode.md#developer-mode), then go to the Accounting menu and click on
 the button Consult Invoice button in AFIP.
 
 ![Consult invoice in AFIP.](../../../.gitbook/assets/consult-invoice-in-afip.png)![Details of invoice consulted in AFIP.](../../../.gitbook/assets/consult-invoice-in-afip-details.png)
@@ -667,7 +667,7 @@ The menu also displays critical information related to these operations, such as
 
 ### Ecommerce electronic invoicing
 
-[Install](applications/general/apps_modules.md#general-install) the *Argentinian eCommerce* (`l10n_ar_website_sale`) module to
+[Install](../../general/apps_modules.md#general-install) the *Argentinian eCommerce* (`l10n_ar_website_sale`) module to
 enable the following features and configurations:
 
 - Clients being able to create online accounts for eCommerce purposes.
@@ -682,7 +682,7 @@ integrate the eCommerce flow.
 
 ##### Client account registration
 
-To configure your website for client accounts, follow the instructions in the [checkout](applications/websites/ecommerce/checkout.md) documentation.
+To configure your website for client accounts, follow the instructions in the [checkout](../../websites/ecommerce/checkout.md) documentation.
 
 ##### Automatic invoice
 
@@ -694,7 +694,7 @@ electronic documents when the online payment is confirmed.
 ![Feature activated to invoice automatically.](../../../.gitbook/assets/l10nar-automatic-invoicing-ecommerce.png)
 
 Since an online payment needs to be confirmed for the Automatic Invoice feature to
-generate the document, a [payment provider](applications/finance/payment_providers.md) **must** be configured for
+generate the document, a [payment provider](../payment_providers.md) **must** be configured for
 the related website.
 
 ##### Sản phẩm
@@ -719,7 +719,7 @@ When the client makes a successful purchase and payment, the necessary invoice i
 the corresponding layout and fiscal stamps stated in the [Invoice printed report](#argentina-invoice-printed-report).
 
 #### SEE ALSO
-[Client account creation](applications/websites/ecommerce/checkout.md)
+[Client account creation](../../websites/ecommerce/checkout.md)
 
 ### Liquidity product direct sales
 
@@ -728,7 +728,7 @@ sales, the seller and the proprietary company of the goods can each register the
 sales and purchases.
 
 #### NOTE
-[Install](applications/general/apps_modules.md#general-install) the *Argentinian Electronic Invoicing* module (`l10n_ar_edi`) to
+[Install](../../general/apps_modules.md#general-install) the *Argentinian Electronic Invoicing* module (`l10n_ar_edi`) to
 use this feature.
 
 #### Cấu hình

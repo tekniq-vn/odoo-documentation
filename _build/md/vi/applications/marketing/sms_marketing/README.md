@@ -38,8 +38,8 @@ Lastly, the <i class="fa fa-area-chart"></i> Graph view visualizes that same SMS
 series of graphs and charts. Odoo also provides various ways to sort and group the data for more
 detailed analysis.
 
-* [Create SMS messages](applications/marketing/sms_marketing/create_sms.md)
-* [SMS analysis](applications/marketing/sms_marketing/sms_analysis.md)
-* [SMS campaign settings](applications/marketing/sms_marketing/marketing_campaigns.md)
-* [Mailing lists and blacklists](applications/marketing/sms_marketing/mailing_lists_blacklists.md)
-* [SMS Pricing and FAQ](applications/marketing/sms_marketing/pricing_and_faq.md)
+* [Create SMS messages](sms_marketing/create_sms.md)
+* [SMS analysis](sms_marketing/sms_analysis.md)
+* [SMS campaign settings](sms_marketing/marketing_campaigns.md)
+* [Mailing lists and blacklists](sms_marketing/mailing_lists_blacklists.md)
+* [SMS Pricing and FAQ](sms_marketing/pricing_and_faq.md)

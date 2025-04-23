@@ -40,25 +40,25 @@ ensure good deliverability.
 Most of the configuration will be done on the domain provider’s side, and it might require some
 configuration on the mail server itself. **Some technical knowledge is required.**
 
-The first step is to configure the [SPF](applications/general/email_communication/email_domain.md#email-domain-spf) and [DKIM](applications/general/email_communication/email_domain.md#email-domain-dkim)
+The first step is to configure the [SPF](email_domain.md#email-domain-spf) and [DKIM](email_domain.md#email-domain-dkim)
 to be compliant with Odoo’s mail server.
 
 Next, the custom domain must be set as the alias domain of a company. Select the company, open the
 Settings, and add the custom domain under the Alias Domain field.
 
 After adding the alias domain, click the <i class="oi oi-arrow-right"></i> (internal link) icon to
-assign more companies to the custom domain if needed. Enable the [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) mode to
+assign more companies to the custom domain if needed. Enable the [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) mode to
 modify the default aliases if desired:
 
 - Bounce Alias: the mailbox used to catch delivery errors and populate the [red
-  envelope](applications/general/email_communication/faq.md#email-issues-outgoing-delivery-failure) on the corresponding message.
+  envelope](faq.md#email-issues-outgoing-delivery-failure) on the corresponding message.
 - Catchall Alias: the default mailbox used to centralize all replies.
 - Default From Alias: the default sender address.
 
 #### NOTE
 At the creation of the first alias domain, all companies will use it. If you create a new
 company, the alias domain automatically set is the one with the lowest priority (ad displayed on
-the alias domain list in [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode)).
+the alias domain list in [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode)).
 
 All email aliases (e.g., related to CRM or Helpdesk teams) must have their corresponding mailbox in
 the custom domain mail server.
@@ -68,9 +68,9 @@ the custom domain mail server.
 To receive emails in the Odoo database within the corresponding chatter (CRM, invoices, sales
 orders, etc.), one of these three methods must be used:
 
-- [Redirections/forwarding](applications/general/email_communication/email_servers_inbound.md#email-inbound-custom-domain-redirections),
-- [Incoming mail servers](applications/general/email_communication/email_servers_inbound.md#email-inbound-custom-domain-incoming-server),
-- [MX record](applications/general/email_communication/email_servers_inbound.md#email-inbound-custom-domain-mx) (requires advanced technical knowledge)
+- [Redirections/forwarding](email_servers_inbound.md#email-inbound-custom-domain-redirections),
+- [Incoming mail servers](email_servers_inbound.md#email-inbound-custom-domain-incoming-server),
+- [MX record](email_servers_inbound.md#email-inbound-custom-domain-mx) (requires advanced technical knowledge)
 
 Using a custom domain implies that specific [local-parts](#email-outbound-custom-domain-smtp-server-local-part) might be used by Odoo to send emails.
 
@@ -108,8 +108,8 @@ might be required to whitelist them in your mail server:
 - The specific FROM that can be defined in an email template.
 
 #### SEE ALSO
-- [Connect Gmail to Odoo using Google OAuth](applications/general/email_communication/google_oauth.md)
-- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](applications/general/email_communication/azure_oauth.md)
+- [Connect Gmail to Odoo using Google OAuth](google_oauth.md)
+- [Connect Microsoft Outlook 365 to Odoo using Azure OAuth](azure_oauth.md)
 
 <a id="email-outbound-different-servers"></a>
 
@@ -190,7 +190,7 @@ configuration file.
 
 #### WARNING
 Odoo’s mail server is meant for transactional emails and small-scale marketing campaigns. The
-[daily limit](applications/general/email_communication/faq.md#email-issues-outgoing-delivery-failure-messages-limit) depends on the
+[daily limit](faq.md#email-issues-outgoing-delivery-failure-messages-limit) depends on the
 database type and the applications used.
 
 <a id="email-outbound-custom-domain-external-server"></a>
@@ -200,10 +200,10 @@ database type and the applications used.
 Similar to the [previous chapter](#email-outbound-different-servers-external-odoo), proper
 configuration might be needed to ensure that the external email server is allowed to send emails
 using your custom domain. Refer to your provider’s documentation to properly set up the relevant
-records (SPF, DKIM, and DMARC). A list of the [most common providers is available](applications/general/email_communication/email_domain.md#email-domain-providers-documentation).
+records (SPF, DKIM, and DMARC). A list of the [most common providers is available](email_domain.md#email-domain-providers-documentation).
 
 #### NOTE
-Cấu hình DNS là bắt buộc khi bạn sử dụng miền riêng. Nếu sử dụng máy chủ thư đi bên ngoài, việc cấu hình các bản ghi như mô tả trong [tài liệu cấu hình DNS của Odoo cho máy chủ thư](applications/general/email_communication/email_domain.md) **sẽ không có hiệu lực như mong muốn**, vì nó hoạt động độc lập với Odoo khi sử dụng máy chủ email tùy chỉnh. Odoo không cho phép cấu hình miền phụ của Odoo.
+Cấu hình DNS là bắt buộc khi bạn sử dụng miền riêng. Nếu sử dụng máy chủ thư đi bên ngoài, việc cấu hình các bản ghi như mô tả trong [tài liệu cấu hình DNS của Odoo cho máy chủ thư](email_domain.md) **sẽ không có hiệu lực như mong muốn**, vì nó hoạt động độc lập với Odoo khi sử dụng máy chủ email tùy chỉnh. Odoo không cho phép cấu hình miền phụ của Odoo.
 
 <a id="email-outbound-port-restriction"></a>
 
@@ -219,7 +219,7 @@ instead.
 The catchall domain is company-specific. By default, all companies share Odoo’s subdomain (e.g.,
 `company-name.odoo.com`), but each company may have its own custom email domain.
 
-When the [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) is activated, the alias domain options are available by going to
+When the [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode) is activated, the alias domain options are available by going to
 Settings ‣ Technical ‣ Email: Alias Domains.
 
 #### WARNING
@@ -247,7 +247,7 @@ to send them a notification by email, or in the Odoo inbox, depending on the use
 
 ## Using a unique email address for all outgoing emails
 
-To force the email address from which emails are sent, activate the [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode), and go to
+To force the email address from which emails are sent, activate the [Chế độ lập trình viên (chế độ gỡ lỗi)](../developer_mode.md#developer-mode), and go to
 Settings ‣ Technical ‣ Email: Alias Domains. On the Default From
 Alias, use the the local-part or a complete email address as the value.
 

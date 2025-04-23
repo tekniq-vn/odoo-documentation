@@ -30,11 +30,11 @@ Products in sales orders created during field interventions are always pulled fr
 warehouse, keeping the inventory accurate.
 
 #### SEE ALSO
-[Tồn kho](applications/inventory_and_mrp/inventory.md)
+[Tồn kho](../../inventory_and_mrp/inventory.md)
 
 ## Cấu hình
 
-To set up a user default warehouse, the [storage locations](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md)
+To set up a user default warehouse, the [storage locations](../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md)
 feature needs to be activated in the **Inventory** app. It is also necessary to have more than one
 warehouse in your database.
 
@@ -42,7 +42,7 @@ You can either set it up [for your profile](#default-warehouse-my-profile), or [
 users](#default-warehouse-all-users).
 
 #### SEE ALSO
-[Vị trí](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md)
+[Vị trí](../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md)
 
 <a id="default-warehouse-my-profile"></a>
 

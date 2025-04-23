@@ -1,17 +1,17 @@
 # Spreadsheet
 
-* [Link Odoo data](applications/productivity/spreadsheet/insert.md)
-* [Hàm](applications/productivity/spreadsheet/functions.md)
-* [Mẫu](applications/productivity/spreadsheet/templates.md)
-* [Bộ lọc chung](applications/productivity/spreadsheet/global_filters.md)
+* [Link Odoo data](spreadsheet/insert.md)
+* [Hàm](spreadsheet/functions.md)
+* [Mẫu](spreadsheet/templates.md)
+* [Bộ lọc chung](spreadsheet/global_filters.md)
 
 Spreadsheet lets you organize, analyze, and visualize your data in tabular form. Among others, you
 can:
 
-- [Insert and link your Odoo data (pivots, graphs, lists, and menus)](applications/productivity/spreadsheet/insert.md).
-- [Use global filters](applications/productivity/spreadsheet/global_filters.md).
-- [Use formulas and functions](applications/productivity/spreadsheet/functions.md).
-- [Use default templates or create new ones](applications/productivity/spreadsheet/templates.md).
+- [Insert and link your Odoo data (pivots, graphs, lists, and menus)](spreadsheet/insert.md).
+- [Use global filters](spreadsheet/global_filters.md).
+- [Use formulas and functions](spreadsheet/functions.md).
+- [Use default templates or create new ones](spreadsheet/templates.md).
 - Format data.
 - Sort and filter data.
 

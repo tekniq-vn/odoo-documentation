@@ -554,6 +554,6 @@ To view a saved report:
 ![To access the saved report, open the Dashboard app and click My Dashboard.](../../../../.gitbook/assets/add-to-dashboard.png)
 
 #### SEE ALSO
-- [Convert leads into opportunities](applications/sales/crm/acquire_leads/convert.md)
-- [Create and send quotations](applications/sales/crm/acquire_leads/send_quotes.md)
-- [Manage lost opportunities](applications/sales/crm/pipeline/lost_opportunities.md)
+- [Convert leads into opportunities](../acquire_leads/convert.md)
+- [Create and send quotations](../acquire_leads/send_quotes.md)
+- [Manage lost opportunities](../pipeline/lost_opportunities.md)

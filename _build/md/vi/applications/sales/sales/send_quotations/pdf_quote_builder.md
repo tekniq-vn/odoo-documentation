@@ -172,4 +172,4 @@ product PDF that was set to be visible inside the quote, can be viewed and print
 Download these [`PDF quote builder examples`](pdf_quote_builder/pdfquotebuilderexamples.zip) for added reference.
 
 #### SEE ALSO
-- [Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)
+- [Mẫu báo giá](quote_template.md)

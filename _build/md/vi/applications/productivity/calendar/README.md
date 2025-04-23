@@ -14,8 +14,8 @@ disable Show weekends.
 
 ## Sync third-party calendars
 
-Users can sync Odoo with existing [Outlook](applications/productivity/calendar/outlook.md) and/or
-[Google](applications/productivity/calendar/google.md) calendars, by heading to
+Users can sync Odoo with existing [Outlook](calendar/outlook.md) and/or
+[Google](calendar/google.md) calendars, by heading to
 Calendar app ‣ Configuration ‣ Settings. From here, enter
 Client ID and Client Secret. There is also an option to pause
 synchronization by ticking the checkbox, or automating synchronization by keeping it blank.
@@ -25,8 +25,8 @@ Once the desired configurations are complete, be sure to click Save before movin
 Events created in synced calendars automatically appear across the integrated platforms.
 
 #### SEE ALSO
-- [Synchronize Outlook calendar with Odoo](applications/productivity/calendar/outlook.md)
-- [Synchronize Google calendar with Odoo](applications/productivity/calendar/google.md)
+- [Synchronize Outlook calendar with Odoo](calendar/outlook.md)
+- [Synchronize Google calendar with Odoo](calendar/google.md)
 
 ## Create activities from chatter
 
@@ -40,7 +40,7 @@ depending on the activity.
 Các hoạt động liên quan đến lịch trình khác như Họp hoặc Gọi demo, sẽ liên kết với ứng dụng **Lịch**. Chọn một trong các hoạt động này để liên kết với ứng dụng **Lịch**, sau đó nhấn Mở lịch để quay lại ứng dụng. Ngoài ra, bạn cũng có thể chọn Lên lịch & đánh dấu hoàn tất để kết thúc hoạt động, hoặc chọn Hoàn tất & lên lịch tiếp theo để giữ cửa sổ Lên lịch hoạt động mở nhằm tạo hoạt động mới.
 
 #### SEE ALSO
-[Schedule activities in Odoo](applications/essentials/activities.md)
+[Schedule activities in Odoo](../essentials/activities.md)
 
 ## Plan an event
 
@@ -201,7 +201,7 @@ The Options tab provides additional configurations:
   Payment Providers, which enables online payments.
 - Limit to Work Hours: If Users has been selected in the
   Availability On field, tick the checkbox to limit meeting time slots to the selected
-  [users' working hours](applications/hr/employees/new_employee.md).
+  [users' working hours](../hr/employees/new_employee.md).
 - Create Opportunities: When this is selected, each scheduled appointment creates
   a new **CRM** opportunity.
 - Reminders: Add or delete notification reminders in this field. Select the blank space
@@ -226,7 +226,7 @@ Question Type, optionally add a Placeholder answer, and choose whether it is
 a Required Answer.
 
 To learn how to create more comprehensive questionnaires, head to the **Survey** app
-documentation on [creating and configuring data-capturing questions](applications/marketing/surveys/questions.md).
+documentation on [creating and configuring data-capturing questions](../marketing/surveys/questions.md).
 
 <a id="calendar-appointment-messages"></a>
 
@@ -238,5 +238,5 @@ meeting information that appears on the invitation.
 Information added to the Extra Message on Confirmation field appears once the meeting is
 confirmed.
 
-* [Outlook Calendar synchronization](applications/productivity/calendar/outlook.md)
-* [Google Calendar synchronization](applications/productivity/calendar/google.md)
+* [Outlook Calendar synchronization](calendar/outlook.md)
+* [Google Calendar synchronization](calendar/google.md)

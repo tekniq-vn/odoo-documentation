@@ -13,7 +13,7 @@ that have been Clicked, and more.
 
 ![An activity block in the workflow section with useful analytical data in Odoo.](../../../.gitbook/assets/activity-analytics-block-sample.png)
 
-To the left of the activity block, the configured [trigger time](applications/marketing/marketing_automation/workflow_activities.md) is
+To the left of the activity block, the configured [trigger time](workflow_activities.md) is
 displayed as a duration (either Hours, Days, Weeks, or
 Months) if it corresponds to period after the workflow begins.
 
@@ -37,7 +37,7 @@ activity, in which that activity can be modified. Click the Delete button to com
 delete that specific activity from the workflow.
 
 #### SEE ALSO
-[Campaign workflow activities](applications/marketing/marketing_automation/workflow_activities.md)
+[Campaign workflow activities](workflow_activities.md)
 
 ### Activity graph tab
 

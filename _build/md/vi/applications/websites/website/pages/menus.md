@@ -2,7 +2,7 @@
 
 Menus are used to organize your website’s content and help visitors navigate through your web pages
 effectively. User-friendly and well-structured website menus also play a crucial role in improving
-[search engine rankings](applications/websites/website/pages/seo.md).
+[search engine rankings](seo.md).
 
 Odoo allows you to customize the content and appearance of your website's menu to your needs.
 
@@ -31,7 +31,7 @@ clicking the Edit Menu icon.
 
 ### Adding regular menu items
 
-By default, pages are added to the menu as regular menu items when [they are created](applications/websites/website/pages.md). You can also add regular menu items from the menu editor by clicking Add
+By default, pages are added to the menu as regular menu items when [they are created](../pages.md). You can also add regular menu items from the menu editor by clicking Add
 Menu Item. Enter the Name and URL of the related page in the pop-up window that appears
 on the screen and click OK.
 

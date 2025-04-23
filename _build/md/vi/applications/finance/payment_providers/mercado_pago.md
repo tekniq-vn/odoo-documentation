@@ -20,12 +20,12 @@ countries, currencies and payment methods in Latin America.
 
 ## Configuration on Odoo
 
-1. [Navigate to the payment provider Mercado Pago](applications/finance/payment_providers.md#payment-providers-add-new) and change its
+1. [Navigate to the payment provider Mercado Pago](../payment_providers.md#payment-providers-add-new) and change its
    state to Enabled.
 2. In the Credentials tab, fill in the Access Token with the value you saved
    at the [Configuration on Mercado Pago Dashboard](#payment-providers-mercado-pago-configure-dashboard) step.
 3. Configure the rest of the options to your liking.
 
 #### SEE ALSO
-- [Thanh toán online](applications/finance/payment_providers.md)
+- [Thanh toán online](../payment_providers.md)
 - [Mercado Pago Odoo webinar](https://www.youtube.com/watch?v=CX8vPHMb1ic)

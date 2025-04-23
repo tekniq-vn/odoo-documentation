@@ -220,7 +220,7 @@ domains, type the domain name to add, then click Add domain.
 ![Mapping a domain name to an Odoo.sh branch](../../../../.gitbook/assets/map-database-sh.png)
 
 #### SEE ALSO
-[Odoo.sh branches: settings tab](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings)
+[Odoo.sh branches: settings tab](../../../../administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings)
 
 <a id="domain-name-ssl"></a>
 
@@ -256,10 +256,10 @@ To make your custom domain name the *web base URL* of your database, access your
 custom domain name and log in as an administrator .
 
 #### IMPORTANT
-Nếu bạn truy cập cơ sở dữ liệu bằng địa chỉ Odoo gốc (VD: `mycompany.odoo.com`), *URL web cơ sở* của cơ sở dữ liệu sẽ được cập nhật tương ứng. Để ngăn chặn việc tự động cập nhật *URL web cơ sở* khi quản trị viên đăng nhập vào cơ sở dữ liệu, hãy kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống ‣ Mới, sau đó nhập `web.base.url.freeze` làm Khóa và `Đúng` làm Giá trị.
+Nếu bạn truy cập cơ sở dữ liệu bằng địa chỉ Odoo gốc (VD: `mycompany.odoo.com`), *URL web cơ sở* của cơ sở dữ liệu sẽ được cập nhật tương ứng. Để ngăn chặn việc tự động cập nhật *URL web cơ sở* khi quản trị viên đăng nhập vào cơ sở dữ liệu, hãy kích hoạt [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống ‣ Mới, sau đó nhập `web.base.url.freeze` làm Khóa và `Đúng` làm Giá trị.
 
 #### NOTE
-Bạn cũng có thể thiết lập URL web cơ sở thủ công. Để thực hiện, hãy kích hoạt [chế độ lập trình viên](applications/general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống, tìm khóa `web.base.url` (tạo mới nếu cần) và nhập địa chỉ đầy đủ của trang web làm giá trị (VD: `https://www.yourdomain.com`). URL phải bao gồm giao thức `https://` (hoặc `http://`) và *không* kết thúc bằng dấu gạch chéo (`/`).
+Bạn cũng có thể thiết lập URL web cơ sở thủ công. Để thực hiện, hãy kích hoạt [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode), đi đến Cài đặt ‣ Kỹ thuật ‣ Tham số hệ thống, tìm khóa `web.base.url` (tạo mới nếu cần) và nhập địa chỉ đầy đủ của trang web làm giá trị (VD: `https://www.yourdomain.com`). URL phải bao gồm giao thức `https://` (hoặc `http://`) và *không* kết thúc bằng dấu gạch chéo (`/`).
 
 <a id="domain-name-website-map"></a>
 

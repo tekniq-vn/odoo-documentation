@@ -13,7 +13,7 @@ The following reports are included in the *Live Chat* app:
 
 #### NOTE
 The *Live Chat Ratings Report* can also be accessed through the Report menu. For more
-information on this report, and on the *Live Chat* rating process, see [Live Chat Ratings](applications/websites/livechat/ratings.md).
+information on this report, and on the *Live Chat* rating process, see [Live Chat Ratings](ratings.md).
 
 To access a drop-down menu of all the available reports, navigate to Live Chat app
 ‣ Report.

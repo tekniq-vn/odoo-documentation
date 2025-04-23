@@ -73,5 +73,5 @@ messages in window and pressing *enter*.
 ![Channel linked in chatter with the channel open on the lower right quadrant.](../../../.gitbook/assets/chatter-channel.png)
 
 #### SEE ALSO
-- [Thảo luận](applications/productivity/discuss.md)
-- [Hoạt động](applications/essentials/activities.md)
+- [Thảo luận](../discuss.md)
+- [Hoạt động](../../essentials/activities.md)

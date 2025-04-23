@@ -40,7 +40,7 @@ The account associated with your Pricer store must have access to send API reque
 
 ### Thiết lập Odoo
 
-As a pre-requisite, [activate](applications/general/apps_modules.md#general-install) the POS Pricer module  *(technical
+As a pre-requisite, [activate](../../../general/apps_modules.md#general-install) the POS Pricer module  *(technical
 name: pos_pricer)* to have all the required features to use Pricer electronic tags.
 
 ![Installing POS Pricer module from Apps](../../../../.gitbook/assets/pricer-module.png)
@@ -104,7 +104,7 @@ modifications to:
 > - Tiền tệ
 > - Associated Pricer store or Pricer tags
 
-To force the update, activate the [developer mode](applications/general/developer_mode.md#developer-mode). Then:
+To force the update, activate the [developer mode](../../../general/developer_mode.md#developer-mode). Then:
 
 1. Go to Point of Sale ‣ Configuration ‣ Pricer Store.
 2. Select the desired store(s).

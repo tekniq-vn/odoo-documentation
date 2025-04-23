@@ -4,13 +4,13 @@
 
 ## Cài đặt
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Egyptian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Egyptian
 localization:
 
-| Tên                                 | Tên kỹ thuật      | Mô tả                                                                                                             |
-|-------------------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------|
-| Ai Cập - Kế toán                    | `l10n_eg`         | Default [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) |
-| Tích hợp hóa đơn điện tử của Ai Cập | `l10n_eg_edi_eta` | [Egyptian Tax Authority (ETA) e-invoicing integration](#egypt-e-invoicing)                                        |
+| Tên                                 | Tên kỹ thuật      | Mô tả                                                                                           |
+|-------------------------------------|-------------------|-------------------------------------------------------------------------------------------------|
+| Ai Cập - Kế toán                    | `l10n_eg`         | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
+| Tích hợp hóa đơn điện tử của Ai Cập | `l10n_eg_edi_eta` | [Egyptian Tax Authority (ETA) e-invoicing integration](#egypt-e-invoicing)                      |
 
 <a id="egypt-e-invoicing"></a>
 
@@ -19,11 +19,11 @@ localization:
 Odoo is compliant with the **Egyptian Tax Authority (ETA) e-invoicing** requirements.
 
 #### IMPORTANT
-Egyptian e-invoicing is available from Odoo 15.0. If needed, [upgrade](administration/upgrade.md) your database.
+Egyptian e-invoicing is available from Odoo 15.0. If needed, [upgrade](../../../administration/upgrade.md) your database.
 
 #### SEE ALSO
 - [Video: Egypt E-invoicing](https://www.youtube.com/watch?v=NXuBPLR4pVw)
-- [Nâng cấp](administration/upgrade.md)
+- [Nâng cấp](../../../administration/upgrade.md)
 
 <a id="egypt-e-invoicing-eta-portal"></a>
 
@@ -98,7 +98,7 @@ Most of these codes are handled automatically by Odoo, provided that your [branc
 
 #### SEE ALSO
 - [Egyptian eInvoicing & eReceipt SDK - Code Tables](https://sdk.preprod.invoicing.eta.gov.eg/codes/)
-- [Thuế](applications/finance/accounting/taxes.md)
+- [Thuế](../accounting/taxes.md)
 
 <a id="egypt-e-invoicing-branches"></a>
 
@@ -146,7 +146,7 @@ Make sure your products are correctly configured so your e-invoices are valid:
 
 - Product Type: storable products, consumables, or services.
 - Unit of Measure: if you also use Odoo Inventory and have enabled [Units of
-  Measure](applications/inventory_and_mrp/inventory/product_management/configure/uom.md).
+  Measure](../../inventory_and_mrp/inventory/product_management/configure/uom.md).
 - Barcode: **GS1** or **EGS** barcode
 - ETA Item code (under the Accounting tab): if the barcode doesn't
   match your ETA item code.
@@ -186,7 +186,7 @@ Proxy. Copy the token and save it in a safe place for later use.
 
 #### SEE ALSO
 - [Odoo: Download Odoo](https://www.odoo.com/page/download)
-- [On-premise](administration/on_premise.md)
+- [On-premise](../../../administration/on_premise.md)
 
 <a id="egypt-e-invoicing-usb-configuration"></a>
 

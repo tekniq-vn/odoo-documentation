@@ -4,7 +4,7 @@
 
 ## Cấu hình
 
-[Install](applications/general/apps_modules.md#general-install) the UK - Accounting and the UK - Accounting
+[Install](../../general/apps_modules.md#general-install) the UK - Accounting and the UK - Accounting
 Reports modules to get all the features of the UK localization.
 
 | Tên                     | Tên kỹ thuật      | Mô tả                                                                                                |
@@ -43,7 +43,7 @@ To edit existing taxes or to Create a new tax, go to Accounting ‣
 Configuration ‣ Accounting: Taxes.
 
 #### SEE ALSO
-- [thuế](applications/finance/accounting/taxes.md)
+- [thuế](../accounting/taxes.md)
 - Tutorial: [Tax report and return](https://www.odoo.com/slides/slide/tax-report-and-return-1719?fullscreen=1).
 
 ### Making Tax Digital (MTD)
@@ -119,7 +119,7 @@ module is installed, then:
 ### Bill payments
 
 To generate Bacs files for bill payments, set the Payment Method to
-BACS Direct Debit when [registering vendor payments](applications/finance/accounting/payments/batch.md#batch-payments-register-payments).
+BACS Direct Debit when [registering vendor payments](../accounting/payments/batch.md#batch-payments-register-payments).
 
 Then, create a vendor batch payment:
 
@@ -145,7 +145,7 @@ and click New. Select a Customer, their IBAN, and the
 Journal you wish to use.
 
 To generate Bacs files for invoice payments, set the Payment Method to
-BACS Direct Debit when [registering invoice payments](applications/finance/accounting/payments/batch.md#batch-payments-register-payments).
+BACS Direct Debit when [registering invoice payments](../accounting/payments/batch.md#batch-payments-register-payments).
 
 Then, create a customer batch payment:
 

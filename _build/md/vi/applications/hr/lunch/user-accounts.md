@@ -10,7 +10,7 @@ set for the *Lunch* application. This is verified by navigating to Settings app
 ‣ → Manage Users. Then, click on a user to view their various settings and access rights.
 
 For more information, refer to the
-[Access rights](applications/general/users/access_rights.md) documentation.
+[Access rights](../../general/users/access_rights.md) documentation.
 
 The *Lunch* application does **not** directly interface in any way with software or products linked
 to any monetary accounts or billing. Money **cannot** be transferred from users' bank accounts, nor

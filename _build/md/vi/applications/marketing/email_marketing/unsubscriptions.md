@@ -107,5 +107,5 @@ After filling in the fields, click Confirm to officially remove that particular 
 from the blacklist.
 
 #### SEE ALSO
-- [Email Marketing](applications/marketing/email_marketing.md)
-- [Mailing lists](applications/marketing/email_marketing/mailing_lists.md)
+- [Email Marketing](../email_marketing.md)
+- [Mailing lists](mailing_lists.md)

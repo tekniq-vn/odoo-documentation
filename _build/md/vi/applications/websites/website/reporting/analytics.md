@@ -21,7 +21,7 @@ start using it by going to Website ‣ Reporting ‣ Analytics.
 #### NOTE
 **If you already have a Plausible.io account** and you want to connect it to your Odoo Online
 database, you must create two `ir.config.parameters` to use Plausible.io's servers. To do so,
-enable the [developer mode](applications/general/developer_mode.md#developer-mode) and go to General Settings ‣
+enable the [developer mode](../../../general/developer_mode.md#developer-mode) and go to General Settings ‣
 Technical -- System Parameters. Click New and fill in the following Key
 and Value fields:
 

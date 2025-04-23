@@ -78,7 +78,7 @@ or are reserved for a different order.
 Equipment failure signifies any period of time when a work center is unusable due to maintenance
 issues with its equipment. This can be due to equipment breaking down, or when a work center is shut
 down for scheduled maintenance. In these cases, a work center can be blocked using a
-[maintenance request](applications/inventory_and_mrp/maintenance/maintenance_requests.md).
+[maintenance request](../../maintenance/maintenance_requests.md).
 
 ## reporting
 

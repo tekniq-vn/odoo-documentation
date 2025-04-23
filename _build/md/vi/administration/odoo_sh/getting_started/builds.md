@@ -72,4 +72,4 @@ Nhánh production sẽ luôn xuất hiện đầu tiên, sau đó các nhánh kh
 
 <a id="odoosh-gettingstarted-builds-dropdown-menu"></a>
 
-Trong menu thả xuống của bản dựng, bạn có thể truy cập các tính năng tương tự như trong [chế độ xem nhánh](administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs): *Nhật ký*, *Web Shell*, *Trình soạn thảo*, *Email đi*. Bạn cũng có thể *Tải xuống bản kết xuất* cơ sở dữ liệu của bản dựng đó.
+Trong menu thả xuống của bản dựng, bạn có thể truy cập các tính năng tương tự như trong [chế độ xem nhánh](branches.md#odoosh-gettingstarted-branches-tabs): *Nhật ký*, *Web Shell*, *Trình soạn thảo*, *Email đi*. Bạn cũng có thể *Tải xuống bản kết xuất* cơ sở dữ liệu của bản dựng đó.

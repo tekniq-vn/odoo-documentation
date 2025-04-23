@@ -28,7 +28,7 @@ In the Purchase tab of the product form, input the vendor and their price, to ha
 information auto-populate on an  each time the product is listed.
 
 #### SEE ALSO
-[Import vendor pricelist](applications/inventory_and_mrp/purchase/products/pricelist.md)
+[Import vendor pricelist](../products/pricelist.md)
 
 Default columns include Quantity, Price, and Delivery Lead Time,
 but other columns like, Product Variant or Discounts, can also be enabled.
@@ -71,7 +71,7 @@ In addition to various view options, the Requests for Quotation dashboard provid
 Filters and Group By options, accessible via the search bar drop-down menu.
 
 #### SEE ALSO
-[Tìm kiếm, lọc, và nhóm bản ghi](applications/essentials/search.md)
+[Tìm kiếm, lọc, và nhóm bản ghi](../../../essentials/search.md)
 
 ### Tạo  mới
 
@@ -101,7 +101,7 @@ Expected Arrival is automatically calculated based on the Order Deadline
 and vendor lead time. Tick the checkbox for Ask confirmation to ask for signage at
 delivery.
 
-With the [Storage Locations feature](applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md) activated,
+With the [Storage Locations feature](../../inventory/warehouses_storage/inventory_management/use_locations.md) activated,
 the Deliver to field appears, with options for the order shipment.
 
 Select the receiving warehouse address here, or select Dropship to indicate that this
@@ -149,7 +149,7 @@ which displays the date and time the user confirmed the order.
 
 Depending on the user's chosen configuration in the **Purchase** app settings, a *vendor bill* is
 created once products have been ordered or received. For more information, refer to the
-documentation on [managing vendor bills](applications/inventory_and_mrp/purchase/manage_deals/manage.md).
+documentation on [managing vendor bills](manage.md).
 
 #### NOTE
 After an order is placed, clicking Receive Products records the reception of new
@@ -160,4 +160,4 @@ With the **Inventory** app installed, confirming a  automatically creates a rece
 with the product information and expected arrival dates automatically populated.
 
 #### SEE ALSO
-[Manage vendor bills](applications/inventory_and_mrp/purchase/manage_deals/manage.md)
+[Manage vendor bills](manage.md)

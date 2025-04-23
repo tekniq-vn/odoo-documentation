@@ -52,5 +52,5 @@ If a specific payment could not be processed by the bank or is missing, remove t
 payment before reconciling.
 
 #### SEE ALSO
-- [Thanh toán](applications/finance/accounting/payments.md)
-- [Batch payments: SEPA Direct Debit (SDD)](applications/finance/accounting/payments/batch_sdd.md)
+- [Thanh toán](../payments.md)
+- [Batch payments: SEPA Direct Debit (SDD)](batch_sdd.md)

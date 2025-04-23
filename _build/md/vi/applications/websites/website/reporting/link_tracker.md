@@ -8,7 +8,7 @@ decisions.
 
 The Link Tracker module is not installed by default. You need to enable the
 Email Marketing option by going to Website ‣ Configuration ‣
-Settings. Alternatively, you can [install](applications/general/apps_modules.md) the Link
+Settings. Alternatively, you can [install](../../../general/apps_modules.md) the Link
 Tracker module itself or one of the marketing apps.
 
 ## Create a traceable URL
@@ -38,7 +38,7 @@ click Conditionally.
 
 ![Use the conditional visibility to display site elements to specific audiences.](../../../../.gitbook/assets/conditional-visibility.png)
 
-For each parameter available in the [Visibility](applications/websites/website/web_design/building_blocks.md#building-blocks-visibility) section, you can
+For each parameter available in the [Visibility](../web_design/building_blocks.md#building-blocks-visibility) section, you can
 choose Visible for or Hidden for and select the record you want from the
 dropdown list.
 

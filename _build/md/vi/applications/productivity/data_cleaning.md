@@ -16,14 +16,14 @@ aligned with company-specific formatting requirements.
 
 ## Install modules
 
-The **Data Cleaning** application consists of several modules. [Install](applications/general/apps_modules.md#general-install) the
+The **Data Cleaning** application consists of several modules. [Install](../general/apps_modules.md#general-install) the
 following to access all available features:
 
-| Tên<br/><br/><br/>`Technical name`<br/><br/>               | Mô tả                                                                                                                                                                              |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Data Recycle<br/><br/><br/>`data_recycle`<br/><br/>        | Base module to enable the recycle feature, available on [Odoo Community edition](administration.md#install-editions).                                                              |
-| Data Cleaning<br/><br/><br/>`data_cleaning`<br/><br/>      | Enables field cleaning feature to format text data across multiple records, available<br/>**only** on [Odoo Enterprise edition](administration.md#install-editions).               |
-| Data Cleaning (merge)<br/><br/><br/>`data_merge`<br/><br/> | Enables the deduplication feature to find similar (or duplicate) records, and merge them,<br/>available **only** on [Odoo Enterprise edition](administration.md#install-editions). |
+| Tên<br/><br/><br/>`Technical name`<br/><br/>               | Mô tả                                                                                                                                                                                    |
+|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Data Recycle<br/><br/><br/>`data_recycle`<br/><br/>        | Base module to enable the recycle feature, available on [Odoo Community edition](../../administration.md#install-editions).                                                              |
+| Data Cleaning<br/><br/><br/>`data_cleaning`<br/><br/>      | Enables field cleaning feature to format text data across multiple records, available<br/>**only** on [Odoo Enterprise edition](../../administration.md#install-editions).               |
+| Data Cleaning (merge)<br/><br/><br/>`data_merge`<br/><br/> | Enables the deduplication feature to find similar (or duplicate) records, and merge them,<br/>available **only** on [Odoo Enterprise edition](../../administration.md#install-editions). |
 
 <a id="data-cleaning-deduplication"></a>
 
@@ -299,7 +299,7 @@ Click on the <i class="fa fa-bars"></i> Records smart button to [manage these re
 The *Merge Action Manager* enables or disables the *Merge* action available in the *Actions* menu
 for models in the database.
 
-Enable [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) and navigate to Data Cleaning app ‣ Configuration ‣
+Enable [Chế độ lập trình viên (chế độ gỡ lỗi)](../general/developer_mode.md#developer-mode) and navigate to Data Cleaning app ‣ Configuration ‣
 Merge Action Manager.
 
 Models are listed with the following columns:
@@ -311,8 +311,8 @@ Models are listed with the following columns:
   long-term in the database.
 - Can Be Merged: enables the *Merge* action for the model.
 
-To view which models are enabled by default, use the [search bar](applications/essentials/search.md#search-filters) to filter
+To view which models are enabled by default, use the [search bar](../essentials/search.md#search-filters) to filter
 models that Can Be Merged.
 
 #### SEE ALSO
-[Gộp liên hệ](applications/essentials/contacts/merge.md)
+[Gộp liên hệ](../essentials/contacts/merge.md)

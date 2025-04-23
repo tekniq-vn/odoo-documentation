@@ -79,7 +79,7 @@ template should occur.
 
 #### NOTE
 The Recurring Plan field **only** applies to subscription plans. For more
-information, check out the documentation on [Gói cước đăng ký](applications/sales/subscriptions/plans.md).
+information, check out the documentation on [Gói cước đăng ký](../../subscriptions/plans.md).
 
 ### Lines tab
 
@@ -159,7 +159,7 @@ quotation template. To add terms and conditions, simply type (or copy/paste) the
 conditions in this tab.
 
 #### SEE ALSO
-[Default terms and conditions (T&C)](applications/finance/accounting/customer_invoices/terms_conditions.md)
+[Default terms and conditions (T&C)](../../../finance/accounting/customer_invoices/terms_conditions.md)
 
 #### NOTE
 Terms and conditions are **not** required to create a quotation template.
@@ -174,7 +174,7 @@ To upload customer Header pages and Footer pages, click the ✏️
 an uploaded PDF.
 
 #### SEE ALSO
-[PDF quote builder](applications/sales/sales/send_quotations/pdf_quote_builder.md)
+[PDF quote builder](pdf_quote_builder.md)
 
 ## Use quotation templates
 
@@ -223,5 +223,5 @@ An error pop-up message appears when attempting to cancel an order for an ongoin
 that has an invoice.
 
 #### SEE ALSO
-- [Online signatures for order confirmations](applications/sales/sales/send_quotations/get_signature_to_validate.md)
-- [Online payment order confirmation](applications/sales/sales/send_quotations/get_paid_to_validate.md)
+- [Online signatures for order confirmations](get_signature_to_validate.md)
+- [Online payment order confirmation](get_paid_to_validate.md)

@@ -18,7 +18,7 @@ Inventory Valuation as Automated and the Costing Method to any
 of the three options.
 
 #### SEE ALSO
-[Set up inventory valuation](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md)
+[Set up inventory valuation](inventory_valuation_config.md)
 
 In order to understand how moving products in and out of stock affects the company's overall value,
 consider the following product and stock moves scenario below.
@@ -37,7 +37,7 @@ smart button is enabled. Clicking on this button displays a report showing how t
 valuation for the table was affected by this purchase.
 
 #### IMPORTANT
-[Developer mode](applications/general/developer_mode.md#developer-mode) **must** be turned on to see the Valuation
+[Developer mode](../../../../general/developer_mode.md#developer-mode) **must** be turned on to see the Valuation
 smart button.
 
 ![See Valuation smart button on a receipt, with Developer mode enabled.](../../../../../.gitbook/assets/valuation-smart-button.png)
@@ -57,13 +57,13 @@ likewise, displays the stock valuation record as it does on a .
 
 ## Inventory valuation report
 
-To view the current value of all products in the warehouse, first turn on [Developer mode](applications/general/developer_mode.md#developer-mode) and navigate to Inventory app ‣ Reporting ‣ Valuation. The
+To view the current value of all products in the warehouse, first turn on [Developer mode](../../../../general/developer_mode.md#developer-mode) and navigate to Inventory app ‣ Reporting ‣ Valuation. The
 Stock Valuation dashboard displays detailed records of products with the
 Date, Quantity, Unit Value, and Total Value of the
 inventory.
 
 #### IMPORTANT
-[Developer mode](applications/general/developer_mode.md#developer-mode) **must** be enabled to see the Valuation
+[Developer mode](../../../../general/developer_mode.md#developer-mode) **must** be enabled to see the Valuation
 option under Reporting.
 
 ![Inventory valuation report showing multiple products.](../../../../../.gitbook/assets/inventory-valuation-products.png)

@@ -12,7 +12,7 @@ Each goal card contains the following information:
 
 - Goal: the name of the goal.
 - Employee: the employee the goal is assigned to.
-- <i class="fa fa-clock-o"></i> (clock) icon: displays the corresponding [activity icon](applications/essentials/activities.md) for the record. If no activities are scheduled, the default icon is
+- <i class="fa fa-clock-o"></i> (clock) icon: displays the corresponding [activity icon](../../essentials/activities.md) for the record. If no activities are scheduled, the default icon is
   the <i class="fa fa-clock-o"></i> (clock). If any activities have been scheduled, the icon
   represents the activity scheduled soonest.
 - Deadline: the due date for the goal.

@@ -34,7 +34,7 @@ before applying for a position.
 
 #### NOTE
 Only published job positions are visible in the *Referrals* app. To check which job positions are
-published or not, refer to the [Job positions](applications/hr/recruitment/new_job.md) documentation.
+published or not, refer to the [Job positions](../recruitment/new_job.md) documentation.
 
 ## Refer friends
 

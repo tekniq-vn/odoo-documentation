@@ -1,6 +1,6 @@
 # Viva Wallet
 
-Connecting a **Viva Wallet** [payment terminal](applications/sales/point_of_sale/payment_methods/terminals.md)  allows you to offer a fluid
+Connecting a **Viva Wallet** [payment terminal](../terminals.md)  allows you to offer a fluid
 payment flow to your customers and ease the work of your cashiers.
 
 #### NOTE
@@ -63,9 +63,9 @@ it into the Terminal ID field [when creating the payment method](#viva-wallet-me
 
 ### Configure the payment method
 
-1. [Activate the POS Viva Wallet module](applications/general/apps_modules.md) to enable the
+1. [Activate the POS Viva Wallet module](../../../../general/apps_modules.md) to enable the
    payment terminal.
-2. [Create the related payment method](applications/sales/point_of_sale/payment_methods.md) by going to
+2. [Create the related payment method](../../payment_methods.md) by going to
    Point of Sale ‣ Configuration ‣ Payment Methods and clicking
    New.
 3. Set the journal type as Bank.
@@ -92,5 +92,5 @@ Wallet account. Set them up for [payment transactions following the Viva documen
 ### Link the payment method to a POS
 
 You can select the payment method in your POS settings once the payment method is created. To do so,
-go to the [POS' settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and add the payment method under the
+go to the [POS' settings](../../configuration.md#configuration-settings) and add the payment method under the
 Payment methods field of the Payment section.

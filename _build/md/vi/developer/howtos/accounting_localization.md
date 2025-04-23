@@ -2,7 +2,7 @@
 
 #### WARNING
 This tutorial requires knowledge about how to build a module in Odoo (see
-[Server framework 101](developer/tutorials/server_framework_101.md)).
+[Server framework 101](../tutorials/server_framework_101.md)).
 
 ## Installation procedure
 
@@ -59,14 +59,14 @@ l10n_xx
 In the first file `models/template_xx.py`, we set the name for the chart of accounts along with some basic fields.
 
 #### SEE ALSO
-[Chart Template References](developer/reference/standard_modules/account.md)
+[Chart Template References](../reference/standard_modules/account.md)
 
 ## Chart of Accounts
 
 ### Account tags
 
 #### SEE ALSO
-[Account Tag References](developer/reference/standard_modules/account/account_account_tag.md#reference-account-account-tag)
+[Account Tag References](../reference/standard_modules/account/account_account_tag.md#reference-account-account-tag)
 
 Tags are a way to sort accounts.
 For example, imagine you want to create a financial report having multiple lines but you have no way to find a rule to dispatch the accounts according to their `code`.
@@ -77,8 +77,8 @@ Put the tags in the `data/account_account_tag_data.xml` file.
 ### Accounts
 
 #### SEE ALSO
-- [Account References](developer/reference/standard_modules/account/account_account.md#reference-account-account)
-- [Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+- [Account References](../reference/standard_modules/account/account_account.md#reference-account-account)
+- [Hệ thống tài khoản](../../applications/finance/accounting/get_started/chart_of_accounts.md)
 
 Obviously, Chart of Accounts cannot exist without Accounts. You need to specify them in `data/account.account.template.csv`.
 
@@ -91,7 +91,7 @@ Obviously, Chart of Accounts cannot exist without Accounts. You need to specify 
 ### Account groups
 
 #### SEE ALSO
-[Account Group References](developer/reference/standard_modules/account/account_group.md#reference-account-group)
+[Account Group References](../reference/standard_modules/account/account_group.md#reference-account-group)
 
 Account groups allow describing the hierarchical structure of the chart of accounts. The filter needs to be activated in the report and then when you decollapse into journal entries it will show the parents of the account.
 
@@ -100,8 +100,8 @@ It works with the prefix *start*/*end*, so every account where the code starts w
 ### Taxes
 
 #### SEE ALSO
-- [Tax References](developer/reference/standard_modules/account/account_tax.md#reference-account-tax)
-- [Thuế](applications/finance/accounting/taxes.md)
+- [Tax References](../reference/standard_modules/account/account_tax.md#reference-account-tax)
+- [Thuế](../../applications/finance/accounting/taxes.md)
 
 To add taxes you first need to specify tax groups. You normally need just one tax group for every tax rate, except for the 0% as you need to often distinguish between exempt, 0%, not subject, ... taxes.
 This model only has two required fields: `name` and `country`. Create the file `data/template/account.tax.group-xx.csv` and list the groups.
@@ -115,8 +115,8 @@ Now you can add the taxes via `data/template/account.tax-xx.csv` file.  The firs
 The tax report is declared in the Invoicing (`account`) app, but the report is only accessible when Accounting (`account_accountant`) is installed.
 
 #### SEE ALSO
-- [Report Line](developer/reference/standard_modules/account/account_report_line.md)
-- [Tax return (VAT declaration)](applications/finance/accounting/reporting/tax_returns.md)
+- [Report Line](../reference/standard_modules/account/account_report_line.md)
+- [Tax return (VAT declaration)](../../applications/finance/accounting/reporting/tax_returns.md)
 
 In the previous section, you noticed the fields `invoice_repartition_line_ids` or `refund_repartition_line_ids` and probably understood nothing about them. Good news: you are not alone on this incomprehension. Bad news: you have to figure it out a bit. The topic is complicated. Indeed:
 
@@ -126,7 +126,7 @@ accounting_localization/tax_report.dot
 ```
 
 The simple version is that, in the tax template, you indicate in the invoice/refund repartition lines whether the base or a percentage of the tax needs to be reported in which report line (through the *minus/plus_report_line_ids* fields).
-It becomes clear also when you check the tax configuration in the Odoo interface (or check the docs [Tax References](developer/reference/standard_modules/account/account_tax.md#reference-account-tax), [Tax Repartition References](developer/reference/standard_modules/account/account_tax_repartition.md#reference-account-tax-repartition)).
+It becomes clear also when you check the tax configuration in the Odoo interface (or check the docs [Tax References](../reference/standard_modules/account/account_tax.md#reference-account-tax), [Tax Repartition References](../reference/standard_modules/account/account_tax_repartition.md#reference-account-tax-repartition)).
 
 So, once you have properly configured taxes, you just need to add the `data/account_tax_report_data.xml` file with a record for your `account.report`. For it to be considered as a tax report, you need to provide it with the right `root_report_id`.
 
@@ -147,8 +147,8 @@ So, once you have properly configured taxes, you just need to add the `data/acco
 ### Fiscal positions
 
 #### SEE ALSO
-- [Fiscal Position References](developer/reference/standard_modules/account/account_fiscal_position.md#reference-account-fiscal-position)
-- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
+- [Fiscal Position References](../reference/standard_modules/account/account_fiscal_position.md#reference-account-fiscal-position)
+- [Fiscal positions (tax and account mapping)](../../applications/finance/accounting/taxes/fiscal_positions.md)
 
 Specify fiscal positions in the `data/template/account.fiscal.position-xx.csv` file.
 
@@ -161,7 +161,7 @@ Finally, you may add a demo company, so the localization can easily be tested in
 <div><span class="badge" style="background-color:#AD5E99">Enterprise feature</span><div>
 
 #### SEE ALSO
-[Báo cáo](applications/finance/accounting/reporting.md)
+[Báo cáo](../../applications/finance/accounting/reporting.md)
 
 Accounting reports should be added via a separate module `l10n_XX_reports` that should go to the [enterprise repository](https://github.com/odoo/enterprise/blob/17.0).
 
@@ -184,7 +184,7 @@ Basic `__manifest__.py` file for such a module looks as following:
 }
 ```
 
-Functional overview of financial reports is here: [Báo cáo](applications/finance/accounting/reporting.md).
+Functional overview of financial reports is here: [Báo cáo](../../applications/finance/accounting/reporting.md).
 
 Some good examples:
 
@@ -193,8 +193,8 @@ Some good examples:
 
 You can check the meaning of the fields here:
 
-* [Report](developer/reference/standard_modules/account/account_report.md)
-* [Report Line](developer/reference/standard_modules/account/account_report_line.md)
+* [Report](../reference/standard_modules/account/account_report.md)
+* [Report Line](../reference/standard_modules/account/account_report_line.md)
 
 If you gave a `root_report_id` to your report, it is now available in its variant selector. If not,
 you still need to add a menu item for it. A default menu item can be created from the form view of

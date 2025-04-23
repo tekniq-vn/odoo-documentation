@@ -94,7 +94,7 @@ field, and the content in the Notes field, which is labeled as Your
 Question, is added to the Internal Notes tab.
 
 #### SEE ALSO
-- [Manage sales teams](applications/sales/crm/pipeline/manage_sales_teams.md)
-- [Convert leads into opportunities](applications/sales/crm/acquire_leads/convert.md)
-- [Assign leads with predictive lead scoring](applications/sales/crm/track_leads/lead_scoring.md)
-- [Website forms](applications/websites/website/web_design/building_blocks/dynamic_content.md#website-dynamic-content-form)
+- [Manage sales teams](../pipeline/manage_sales_teams.md)
+- [Convert leads into opportunities](convert.md)
+- [Assign leads with predictive lead scoring](../track_leads/lead_scoring.md)
+- [Website forms](../../../websites/website/web_design/building_blocks/dynamic_content.md#website-dynamic-content-form)

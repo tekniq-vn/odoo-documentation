@@ -5,7 +5,7 @@ reports, such as **tax reports**, or **balance sheets** and **income statements*
 groupings** and **layouts**.
 
 #### IMPORTANT
-Activate the [developer mode](applications/general/developer_mode.md#developer-mode) to access the accounting report creation
+Activate the [developer mode](../../../general/developer_mode.md#developer-mode) to access the accounting report creation
 interface.
 
 To create a new report, go to Accounting ‣ Configuration ‣ Management:
@@ -62,7 +62,7 @@ Depending on the engine, subformulas may also be required.
 
 ### 'Odoo Domain' engine
 
-With this engine, a formula is interpreted as an [Odoo domain](developer/reference/backend/orm.md#reference-orm-domains)
+With this engine, a formula is interpreted as an [Odoo domain](../../../../developer/reference/backend/orm.md#reference-orm-domains)
 targeting `account.move.line` objects.
 
 The subformula allows you to define how the move lines matching the domain are used to compute the

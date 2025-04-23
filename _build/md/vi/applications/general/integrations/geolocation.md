@@ -24,9 +24,9 @@ supports location-based features like search, navigation, and recommendations.
 #### IMPORTANT
 Using the Google Places API could require [payment to Google](https://mapsplatform.google.com/pricing/).
 
-To use it, select Google Place Map and enter your [API Key](applications/websites/website/configuration/address_autocomplete.md#address-autocomplete-generate-api-key).
+To use it, select Google Place Map and enter your [API Key](../../websites/website/configuration/address_autocomplete.md#address-autocomplete-generate-api-key).
 
 ![Google Places API key](../../../.gitbook/assets/google-places-api-key.png)
 
 #### SEE ALSO
-[Address autocomplete](applications/websites/website/configuration/address_autocomplete.md)
+[Address autocomplete](../../websites/website/configuration/address_autocomplete.md)

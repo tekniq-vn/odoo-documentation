@@ -33,7 +33,7 @@ The Target and Filter configurations of the campaign are as follows:
   - Blacklist is not set
   - Mailing lists contains `Newsletter`
 
-\* The Responsible field is only visible with [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) activated.
+\* The Responsible field is only visible with [Chế độ lập trình viên (chế độ gỡ lỗi)](../../../general/developer_mode.md#developer-mode) activated.
 
 #### IMPORTANT
 The Target model of the campaign should **not** be modified. Changing the
@@ -88,7 +88,7 @@ Activities pop-up window and edit the server action activities configuration.
 It is not recommended to modify the preconfigured Python code in the Add To Confirmed
 List server action, as doing so may trigger a change in the database's pricing plan.
 
-Once the campaign configuration is complete, consider [launching a test](applications/marketing/marketing_automation/testing_running.md)
+Once the campaign configuration is complete, consider [launching a test](../testing_running.md)
 to verify the campaign executes as expected. If the campaign testing is successful,
 Start the campaign to begin sending double opt-in confirmation emails to *Newsletter*
 mailing list contacts, and fill the *Confirmed contacts* mailing list with engaged contacts.
@@ -98,6 +98,6 @@ mailing list contacts, and fill the *Confirmed contacts* mailing list with engag
 ## Double Opt-in use-case
 
 #### SEE ALSO
-- [Campaign metrics](applications/marketing/marketing_automation/understanding_metrics.md)
-- [Mailing lists](applications/marketing/email_marketing/mailing_lists.md)
-- [Email Marketing](applications/marketing/email_marketing.md)
+- [Campaign metrics](../understanding_metrics.md)
+- [Mailing lists](../../email_marketing/mailing_lists.md)
+- [Email Marketing](../../email_marketing.md)

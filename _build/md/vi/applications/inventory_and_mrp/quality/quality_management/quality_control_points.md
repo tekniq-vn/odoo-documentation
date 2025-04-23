@@ -1,6 +1,6 @@
 # Quality control points
 
-In Odoo, *quality control points* (QCPs), are used to automatically create [quality checks](applications/inventory_and_mrp/quality/quality_management/quality_checks.md) at predetermined intervals.  can be configured to create quality checks for
+In Odoo, *quality control points* (QCPs), are used to automatically create [quality checks](quality_checks.md) at predetermined intervals.  can be configured to create quality checks for
 specific operations (manufacturing, delivery, etc.), as well as specific products within those
 operations.
 
@@ -111,7 +111,7 @@ document in the Google Slide Link field.
 
 In the Message If Failure tab, include instructions for what to do if the quality check
 fails. For example, instruct the employee processing the quality check to create a [quality
-alert](applications/inventory_and_mrp/quality/quality_management/quality_alerts.md).
+alert](quality_alerts.md).
 
 The Notes tab is used to provide additional information about the , like the reason
 it was created. The information entered in this tab is **not** shown to employees processing the

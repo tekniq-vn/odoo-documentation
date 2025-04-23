@@ -28,7 +28,7 @@ Then, click Save to apply the change.
 
 ## Tạo một
 
-To create a new , follow the instructions in the [Yêu cầu báo giá](applications/inventory_and_mrp/purchase/manage_deals/rfq.md) documentation.
+To create a new , follow the instructions in the [Yêu cầu báo giá](rfq.md) documentation.
 
 #### SEE ALSO
 [Odoo Tutorial: Purchase Basics and Your First Request for Quotation](https://www.youtube.com/watch?v=o_uI718P1Dc)
@@ -200,4 +200,4 @@ Now that all product quantities have been ordered, the purchase process can be c
 products can be received into the warehouse.
 
 #### SEE ALSO
-[Blanket orders](applications/inventory_and_mrp/purchase/manage_deals/blanket_orders.md)
+[Blanket orders](blanket_orders.md)

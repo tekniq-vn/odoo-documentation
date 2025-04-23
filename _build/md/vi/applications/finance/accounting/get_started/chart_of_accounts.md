@@ -14,7 +14,7 @@ Account Name, or Type, but other options are available in the drop-down menu
 ## Configuration of an account
 
 The country you select during the creation of your database (or additional company in your database)
-determines which [fiscal localization package](applications/finance/fiscal_localizations.md) is installed by
+determines which [fiscal localization package](../../fiscal_localizations.md) is installed by
 default. This package includes a standard chart of accounts already configured according to the
 country's regulations. You can use it directly or set it according to your company's needs.
 
@@ -68,7 +68,7 @@ corresponding type from the following list:
 
 #### Tài sản
 
-Some **account types** can **automate** the creation of [asset](applications/finance/accounting/vendor_bills/assets.md#assets-automation) entries.
+Some **account types** can **automate** the creation of [asset](../vendor_bills/assets.md#assets-automation) entries.
 To **automate** entries, click View on an account line and go to the
 Automation tab.
 
@@ -101,7 +101,7 @@ a new one.
 Regular users should not need to create account groups manually. The following section is only
 intended for rare and advanced use cases.
 
-To create a new account group, activate [developer mode](applications/general/developer_mode.md#developer-mode) and head to
+To create a new account group, activate [developer mode](../../../general/developer_mode.md#developer-mode) and head to
 Accounting ‣ Configuration ‣ Account Groups. Here, create a new group and enter
 the name, code prefix, and company to which that group account should be available. Note
 that you must enter the same code prefix in both From and to fields.
@@ -135,10 +135,10 @@ them unusable by using the **Deprecated** feature: check the Deprecated box in t
 account's settings, and Save.
 
 #### SEE ALSO
-* [Accounting cheat sheet](applications/finance/accounting/get_started/cheat_sheet.md)
-* [Non-current assets and fixed assets](applications/finance/accounting/vendor_bills/assets.md)
-* [Deferred expenses](applications/finance/accounting/vendor_bills/deferred_expenses.md)
-* [Doanh thu chưa thực hiện](applications/finance/accounting/customer_invoices/deferred_revenues.md)
-* [Fiscal localizations](applications/finance/fiscal_localizations.md)
+* [Accounting cheat sheet](cheat_sheet.md)
+* [Non-current assets and fixed assets](../vendor_bills/assets.md)
+* [Deferred expenses](../vendor_bills/deferred_expenses.md)
+* [Doanh thu chưa thực hiện](../customer_invoices/deferred_revenues.md)
+* [Fiscal localizations](../../fiscal_localizations.md)
 * [Odoo Tutorials: Chart of accounts](https://www.odoo.com/slides/slide/chart-of-accounts-1630)
 * [Odoo Tutorials: Update your chart of accounts](https://www.odoo.com/slides/slide/update-your-chart-of-accounts-1658)

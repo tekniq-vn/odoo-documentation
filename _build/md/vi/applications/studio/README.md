@@ -1,24 +1,24 @@
 # Studio
 
-* [Fields and widgets](applications/studio/fields.md)
-* [Lượt xem](applications/studio/views.md)
-* [Models, modules, and apps](applications/studio/models_modules_apps.md)
-* [Quy tắc tự động hoá](applications/studio/automated_actions.md)
-* [Báo cáo PDF](applications/studio/pdf_reports.md)
-* [Quy tắc phê duyệt](applications/studio/approval_rules.md)
+* [Fields and widgets](studio/fields.md)
+* [Lượt xem](studio/views.md)
+* [Models, modules, and apps](studio/models_modules_apps.md)
+* [Quy tắc tự động hoá](studio/automated_actions.md)
+* [Báo cáo PDF](studio/pdf_reports.md)
+* [Quy tắc phê duyệt](studio/approval_rules.md)
 
 Studio is a toolbox that allows you to customize Odoo without coding knowledge. For example, you
 can, in any app, add or modify:
 
-- [Trường](applications/studio/fields.md)
-- [Chế độ xem](applications/studio/views.md)
-- [Mô hình](applications/studio/models_modules_apps.md)
-- [Automation rules](applications/studio/automated_actions.md)
-- [PDF reports](applications/studio/pdf_reports.md)
-- [Approval rules](applications/studio/approval_rules.md)
+- [Trường](studio/fields.md)
+- [Chế độ xem](studio/views.md)
+- [Mô hình](studio/models_modules_apps.md)
+- [Automation rules](studio/automated_actions.md)
+- [PDF reports](studio/pdf_reports.md)
+- [Approval rules](studio/approval_rules.md)
 - Quy tắc bảo mật
 
-You can also [build an app from scratch](applications/studio/models_modules_apps.md).
+You can also [build an app from scratch](studio/models_modules_apps.md).
 
 <a id="studio-access"></a>
 

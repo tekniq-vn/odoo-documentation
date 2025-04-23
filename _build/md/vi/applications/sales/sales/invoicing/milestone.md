@@ -186,6 +186,6 @@ Continue that process until the entire project has been completed, each mileston
 and the entire order has been paid for in full.
 
 #### SEE ALSO
-- [Invoicing based on time and materials](applications/sales/sales/invoicing/time_materials.md)
-- [Hóa đơn chiếu lệ](applications/sales/sales/invoicing/proforma.md)
-- [Invoice based on delivered or ordered quantities](applications/sales/sales/invoicing/invoicing_policy.md)
+- [Invoicing based on time and materials](time_materials.md)
+- [Hóa đơn chiếu lệ](proforma.md)
+- [Invoice based on delivered or ordered quantities](invoicing_policy.md)

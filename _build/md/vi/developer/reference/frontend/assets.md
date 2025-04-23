@@ -15,9 +15,9 @@ There are three different asset types: code (`js` files), style (`css` or `scss`
 files) and templates (`xml` files).
 
 Code
-: Odoo supports [three different kinds of javascript files](developer/reference/frontend/javascript_modules.md#frontend-js-modules).
+: Odoo supports [three different kinds of javascript files](javascript_modules.md#frontend-js-modules).
   All these files are then processed (native JS modules are transformed into odoo
-  modules), then minified (if not in `debug=assets` [mode](developer/reference/frontend/framework_overview.md#frontend-framework-assets-debug-mode))
+  modules), then minified (if not in `debug=assets` [mode](framework_overview.md#frontend-framework-assets-debug-mode))
   and concatenated. The result is then saved as a file attachment. These file
   attachments are usually loaded via a `<script>` tag in the `<head>` part of
   the page (as a static file).
@@ -25,7 +25,7 @@ Code
 Style
 : Styling can be done with either `css` or [scss](https://sass-lang.com/). Like
   the javascript files, these files are processed (`scss` files are converted into
-  `css`), then minified (again, if not in `debug=assets` [mode](developer/reference/frontend/framework_overview.md#frontend-framework-assets-debug-mode))
+  `css`), then minified (again, if not in `debug=assets` [mode](framework_overview.md#frontend-framework-assets-debug-mode))
   and concatenated. The result is then saved as a file attachment. They are
   then usually loaded via a `<link>` tag in the `<head>` part of the page (as
   a static file).
@@ -35,7 +35,7 @@ Template
   read from the file system whenever they are needed, and concatenated.
   <br/>
   Whenever the browser loads odoo, it calls the `/web/webclient/qweb/` controller
-  to fetch the [templates](developer/reference/frontend/qweb.md#reference-qweb).
+  to fetch the [templates](qweb.md#reference-qweb).
 
 It is useful to know that in most cases, a browser only performs a request the
 first time it loads a page. This is because each of these assets are
@@ -49,7 +49,7 @@ headers to a long period.
 
 Odoo assets are grouped by *bundles*. Each bundle (a *list of file paths*
 of specific types: `xml`, `js`, `css` or `scss`) is listed in the
-[module manifest](developer/reference/backend/module.md#reference-module-manifest). Files can be declared using
+[module manifest](../backend/module.md#reference-module-manifest). Files can be declared using
 [glob](https://en.wikipedia.org/wiki/Glob_(programming)) syntax, meaning that
 you can declare several asset files using a single line.
 

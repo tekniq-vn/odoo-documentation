@@ -34,4 +34,4 @@ automatically calculated, based on the number of days designated above. However,
 overwritten before sending the quotation to the customer.
 
 #### SEE ALSO
-[Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)
+[Mẫu báo giá](quote_template.md)

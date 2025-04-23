@@ -13,8 +13,8 @@ user, the database will no longer be able to be duplicated, renamed or otherwise
 the Odoo.com portal.
 
 #### SEE ALSO
-- [Google Calendar synchronization](applications/productivity/calendar/google.md)
-- [Connect Gmail to Odoo using Google OAuth](applications/general/email_communication/google_oauth.md)
+- [Google Calendar synchronization](../../productivity/calendar/google.md)
+- [Connect Gmail to Odoo using Google OAuth](../email_communication/google_oauth.md)
 
 <a id="google-sign-in-configuration"></a>
 
@@ -116,7 +116,7 @@ logging into Odoo.
 
 > ![Reset password screen with "Log in with Google" button.](../../../.gitbook/assets/first-login.png)
 
-Existing users must [reset their password](applications/general/users.md#users-reset-password) to access the
+Existing users must [reset their password](../users.md#users-reset-password) to access the
 Reset Password page, while new users can directly click on Log in with
 Google, instead of choosing a new password.
 

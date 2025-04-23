@@ -4,7 +4,7 @@
 
 ## Cấu hình
 
-Install the 🇧🇪 Belgium [fiscal localization package](applications/finance/fiscal_localizations.md#fiscal-localizations-packages) to get all the default accounting features of the Belgian
+Install the 🇧🇪 Belgium [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) to get all the default accounting features of the Belgian
 localization, following the  rules.
 
 <a id="belgium-coa"></a>
@@ -18,7 +18,7 @@ The Belgian chart of accounts includes pre-configured accounts as described in t
 it in, click Save, and then Setup to configure it further.
 
 #### SEE ALSO
-[Hệ thống tài khoản](applications/finance/accounting/get_started/chart_of_accounts.md)
+[Hệ thống tài khoản](../accounting/get_started/chart_of_accounts.md)
 
 <a id="belgium-taxes"></a>
 
@@ -58,8 +58,8 @@ appropriate tax during the encoding of bills and credit notes. The system automa
 the tax amount and allocates it to the corresponding accounts based on the tax rules configured.
 
 #### SEE ALSO
-- [Thuế](applications/finance/accounting/taxes.md)
-- [Tax return (VAT declaration)](applications/finance/accounting/reporting/tax_returns.md)
+- [Thuế](../accounting/taxes.md)
+- [Tax return (VAT declaration)](../accounting/reporting/tax_returns.md)
 
 <a id="belgium-reports"></a>
 
@@ -80,7 +80,7 @@ report and selecting its Belgian version: **(BE)**.
 ![Belgian version of reports](../../../.gitbook/assets/belgian-reports.png)
 
 #### SEE ALSO
-[Báo cáo](applications/finance/accounting/reporting.md)
+[Báo cáo](../accounting/reporting.md)
 
 <a id="belgium-disallowed-expenses"></a>
 
@@ -167,7 +167,7 @@ your Bank journal on your dashboard.
 ![Nhập tệp CODA](../../../.gitbook/assets/coda-import.png)
 
 #### SEE ALSO
-[Import bank files](applications/finance/accounting/bank/transactions.md#transactions-import)
+[Import bank files](../accounting/bank/transactions.md#transactions-import)
 
 <a id="belgium-soda"></a>
 
@@ -190,7 +190,7 @@ information and statements. Odoo provides a way to import such statements automa
 
 #### Cấu hình
 
-To configure and use Codabox, first [install](applications/general/apps_modules.md#general-install) the CodaBox module.
+To configure and use Codabox, first [install](../../general/apps_modules.md#general-install) the CodaBox module.
 
 <a id="belgium-codabox-configuration-connection"></a>
 
@@ -199,7 +199,7 @@ To configure and use Codabox, first [install](applications/general/apps_modules.
 For companies
 
 #### IMPORTANT
-Make sure the [company settings](applications/general/companies.md) are correctly
+Make sure the [company settings](../../general/companies.md) are correctly
 configured, i.e., the country is set to Belgium and the Tax ID or
 Company ID field is filled.
 
@@ -227,7 +227,7 @@ In the following instructions, we will refer to your client's company as *Compan
 your accounting firm as *Accounting Firm*.
 
 #### IMPORTANT
-Make sure the [company settings](applications/general/companies.md) are correctly
+Make sure the [company settings](../../general/companies.md) are correctly
 configured, i.e., the country is set to Belgium, the Tax ID or
 Company ID and Accounting Firm fields are filled, as well as the
 Tax ID of the Accounting Firm.
@@ -253,7 +253,7 @@ The Status should have now switched to Connected.
 
 Dành cho tệp CODA
 
-1. [Create a new bank journal](applications/finance/accounting/bank.md).
+1. [Create a new bank journal](../accounting/bank.md).
 2. Set the right IBAN in the Account Number field.
 3. Select CodaBox synchronization as the Bank Feed.
 
@@ -331,7 +331,7 @@ customer, go to Accounting ‣ Customers ‣ Customers, open their contact form,
 and under the Accounting tab, select the Peppol BIS Billing 3.0 format.
 
 #### SEE ALSO
-[Electronic invoicing (EDI)](applications/finance/accounting/customer_invoices/electronic_invoicing.md)
+[Electronic invoicing (EDI)](../accounting/customer_invoices/electronic_invoicing.md)
 
 <a id="belgium-cash-discount"></a>
 
@@ -344,7 +344,7 @@ To apply the right tax amount and report it correctly in your VAT return, set th
 Always (upon invoice).
 
 #### SEE ALSO
-[Cash discounts and tax reduction](applications/finance/accounting/customer_invoices/cash_discounts.md)
+[Cash discounts and tax reduction](../accounting/customer_invoices/cash_discounts.md)
 
 <a id="belgium-pos-restaurant-certification"></a>
 
@@ -378,7 +378,7 @@ is certified.
 | Odoo 14.0 | Certified     | Certified | Certified    |
 
 #### SEE ALSO
-[Phiên bản được hỗ trợ](administration/supported_versions.md)
+[Phiên bản được hỗ trợ](../../../administration/supported_versions.md)
 
 A [certified POS system](https://www.systemedecaisseenregistreuse.be/systemes-certifies) must
 adhere to rigorous government regulations, which means it operates differently from a non-certified
@@ -394,7 +394,7 @@ POS.
   - Modify or delete order lines in POS orders.
   - Sell products without a valid VAT number.
   - Use a POS that is not connected to an IoT box.
-- The [cash rounding](applications/sales/point_of_sale/pricing/cash_rounding.md) feature must be
+- The [cash rounding](../../sales/point_of_sale/pricing/cash_rounding.md) feature must be
   activated and set to a Rounding Precision of `0,05` and a Rounding Method
   set as Half-Up.
 - Taxes must be set as included in the price. To set it up, go to Point of Sale ‣
@@ -437,7 +437,7 @@ Before setting up your database to work with an FDM, ensure you have the followi
 
 ##### Black box module
 
-As a pre-requisite, [activate](applications/general/apps_modules.md#general-install) the `Belgian Registered Cash Register` module
+As a pre-requisite, [activate](../../general/apps_modules.md#general-install) the `Belgian Registered Cash Register` module
 (technical name: `pos_blackbox_be`).
 
 ![black box modules for belgian fiscal certification](../../../.gitbook/assets/be-modules.png)
@@ -462,7 +462,7 @@ provide the following information:
 - your company's name, address, and legal structure; and
 - the Mac address of your IoT Box.
 
-Once your IoT box is certified, [connect](applications/general/iot/connect.md) it to your database. To
+Once your IoT box is certified, [connect](../../general/iot/connect.md) it to your database. To
 verify that the IoT Box recognizes the FDM, go to the IoT homepage and scroll down the
 IOT Device section, which should display the FDM.
 

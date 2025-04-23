@@ -80,7 +80,7 @@ The following are fields found on an event form:
   but modifiable, and is **required**.
 - Website: choose to restrict the publishing of this event to a specific website created
   in Odoo. If this field is left blank, the event can be published on *all* websites in the
-  database. To learn more, refer to the [Multiple websites](applications/websites/website/configuration/multi_website.md) documentation.
+  database. To learn more, refer to the [Multiple websites](../../websites/website/configuration/multi_website.md) documentation.
 - Venue: enter event venue details. This field pulls pertinent information from the
   *Contacts* application. Alternatively, Venue information can be manually added in this
   field, as well. At the very least, there **must** be a venue name, address, city, zip code/region,
@@ -171,7 +171,7 @@ The Social Post option **only** appears if the *Social Marketing* application is
 installed. The WhatsApp option **only** appears if the *WhatsApp Integration* module
 is installed.
 
-[WhatsApp](applications/productivity/whatsapp.md) templates **cannot** be edited during active
+[WhatsApp](../../productivity/whatsapp.md) templates **cannot** be edited during active
 configuration. A separate approval from *Meta* is required.
 
 #### Mail
@@ -200,7 +200,7 @@ if necessary, by clicking the <i class="oi oi-arrow-right"></i> (right arrow) ic
 template name. Doing so reveals a separate page where users can edit the Content,
 Email Configuration, and Settings of that particular email template.
 
-To view and manage all email templates, activate [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode) and navigate to
+To view and manage all email templates, activate [Chế độ lập trình viên (chế độ gỡ lỗi)](../../general/developer_mode.md#developer-mode) and navigate to
 Settings ‣ Technical ‣ Email: Email Templates. Modify with caution as email
 templates effect all communications where the template is used.
 
@@ -303,7 +303,7 @@ Go to Website smart button at the top of the event form. Doing so reveals the ev
 web page, which can be customized like any other web page on the site, via the Edit
 button.
 
-To learn more about website design functionality and options, consult the [Building block](applications/websites/website/web_design/building_blocks.md) documentation.
+To learn more about website design functionality and options, consult the [Building block](../../websites/website/web_design/building_blocks.md) documentation.
 
 Once the event website is ready to be shared, click the red Unpublished toggle switch
 in the header menu, changing it to a green Published switch. At this point, the event
@@ -316,7 +316,7 @@ Events app ‣ Events, and click into the desired event. Following this, click t
 Invite button in the upper-left corner of the event form.
 
 Doing so reveals a blank email form to fill out, as desired. To learn more about how to create and
-customize emails like this, refer to the [Create an email](applications/marketing/email_marketing.md#email-marketing-create-email)
+customize emails like this, refer to the [Create an email](../email_marketing.md#email-marketing-create-email)
 documentation.
 
 Proceed to create and customize an email message to send as an invite to potential attendees.
@@ -324,4 +324,4 @@ Remember to include a link to the registration page on the event website, allowi
 recipients to quickly register.
 
 #### SEE ALSO
-[Talks, proposals, and agenda](applications/marketing/events/track_manage_talks.md)
+[Talks, proposals, and agenda](track_manage_talks.md)

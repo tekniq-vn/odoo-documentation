@@ -6,10 +6,10 @@ for example. By using , companies can prevent prolonged stock
 retention of specific styles.
 
 #### SEE ALSO
-[About removal strategies](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md)
+[About removal strategies](../removal_strategies.md)
 
 #### SEE ALSO
-[Lot/serial number setup details](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-lots-setup)
+[Lot/serial number setup details](../removal_strategies.md#inventory-warehouses-storage-lots-setup)
 
 <a id="inventory-warehouses-storage-arrival-date"></a>
 
@@ -34,8 +34,8 @@ The white shirts are tracked By Lots in the Inventory tab of the product
 form.
 
 #### SEE ALSO
-- [Set up force removal strategy](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-removal-config)
-- [Enable lots tracking](applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md#inventory-warehouses-storage-lots-setup)
+- [Set up force removal strategy](../removal_strategies.md#inventory-warehouses-storage-removal-config)
+- [Enable lots tracking](../removal_strategies.md#inventory-warehouses-storage-lots-setup)
 
 The following table represents the on-hand stock and lot number details of white shirts.
 
@@ -44,7 +44,7 @@ The following table represents the on-hand stock and lot number details of white
 | On-hand stock                                              | 5        | 3        | 2        |
 | [Được tạo vào](#inventory-warehouses-storage-arrival-date) | Ngày 1/3 | Ngày 1/4 | Ngày 1/5 |
 
-To see the removal strategy in action, create a [delivery order](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md#inventory-delivery-one-step)
+To see the removal strategy in action, create a [delivery order](../daily_operations/receipts_delivery_one_step.md#inventory-delivery-one-step)
 for six white shirts by navigating to the Sales app and creating a new quotation.
 
 After clicking Confirm on the sales order, a delivery order with the oldest lot numbers

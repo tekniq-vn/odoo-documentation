@@ -51,7 +51,7 @@ Fill out the following information on the payslip form:
   drop-down list in this field. This field is **required**.
 
   #### NOTE
-  **Chỉ** nên tạo phiếu lương cho nhân viên đã có trong hệ thống. Nếu chưa có hồ sơ nhân viên (và do đó không có hợp đồng lao động), cần tạo nhân viên mới trong ứng dụng *Nhân viên* trước khi có thể tạo phiếu lương cho nhân viên đó. Tham khảo tài liệu về [nhân viên mới](applications/hr/employees/new_employee.md) để biết hướng dẫn chi tiết về thêm một nhân viên.
+  **Chỉ** nên tạo phiếu lương cho nhân viên đã có trong hệ thống. Nếu chưa có hồ sơ nhân viên (và do đó không có hợp đồng lao động), cần tạo nhân viên mới trong ứng dụng *Nhân viên* trước khi có thể tạo phiếu lương cho nhân viên đó. Tham khảo tài liệu về [nhân viên mới](../employees/new_employee.md) để biết hướng dẫn chi tiết về thêm một nhân viên.
 - Period: the first day to the last day of the *current* month auto-populates the
   Period fields by default. The dates can be changed, if desired.
 
@@ -168,14 +168,14 @@ Cancel button.
 Tiếp theo, khoản thanh toán phải được gửi đến nhân viên. Để thực hiện, nhấp vào nút Ghi nhận thanh toán. Thao tác này sẽ hiển thị biểu mẫu bật lên, trong đó cần chọn Sổ nhật ký ngân hàng mong muốn để thực hiện thanh toán từ menu thả xuống. Sau đó, nhấp vào nút Xác nhận để xác nhận sổ nhật ký và quay lại phiếu lương.
 
 #### IMPORTANT
-Để một phiếu lương có thể được thanh toán, nhân viên *bắt buộc* phải có thông tin tài khoản ngân hàng trong phần thông tin liên hệ. Nếu không có thông tin ngân hàng, phiếu lương không thể thanh toán được và hệ thống sẽ hiển thị lỗi khi nhấp vào nút Thanh toán. Thông tin ngân hàng có thể được tìm thấy trong tab [Thông tin cá nhân](applications/hr/employees/new_employee.md#employees-private-info) trên thẻ nhân viên trong ứng dụng *Nhân viên*. Chỉnh sửa thẻ nhân viên và thêm thông tin ngân hàng nếu thiếu.
+Để một phiếu lương có thể được thanh toán, nhân viên *bắt buộc* phải có thông tin tài khoản ngân hàng trong phần thông tin liên hệ. Nếu không có thông tin ngân hàng, phiếu lương không thể thanh toán được và hệ thống sẽ hiển thị lỗi khi nhấp vào nút Thanh toán. Thông tin ngân hàng có thể được tìm thấy trong tab [Thông tin cá nhân](../employees/new_employee.md#employees-private-info) trên thẻ nhân viên trong ứng dụng *Nhân viên*. Chỉnh sửa thẻ nhân viên và thêm thông tin ngân hàng nếu thiếu.
 
 ![Banking information can be entered in an employee's card.](../../../.gitbook/assets/banking.png)
 
 Odoo automatically checks bank account information. If there is an error with the employee's listed
 bank account, an error appears in a pop-up window, stating, *The employee bank account is
 untrusted.* If this error appears, update the employee's bank account information on their
-[Employee Form](applications/hr/employees/new_employee.md#employees-private-info).
+[Employee Form](../employees/new_employee.md#employees-private-info).
 
 If a payment needs to be canceled or refunded, click the corresponding Cancel or
 Refund button, located at the top-left of the screen.

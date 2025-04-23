@@ -32,17 +32,17 @@ Here are some terms that are essential on the Ecuadorian localization:
 
 ### Modules installation
 
-[Install](applications/general/apps_modules.md#general-install) the following modules to get all the features of the Ecuadorian
+[Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Ecuadorian
 localization:
 
-| Tên                         | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                                                                                                                                                                                                          |
-|-----------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ecuador - Kế toán           | `l10n_ec`              | [Gói bản địa hóa tài chính](applications/finance/fiscal_localizations.md) mặc định bổ sung đặc điểm kế toán cho bản địa hoá Ecuador, đại diện cho cấu hình tối thiểu cần thiết để doanh nghiệp hoạt động tại Ecuador theo hướng dẫn của . Khi cài đặt, phân hệ sẽ tự động tải: Hệ thống tài khoản, thuế, loại chứng từ, loại hỗ trợ thuế. Đồng thời, hệ thống tự động tạo biểu mẫu 103 và 104. |
-| EDI kế toán của Ecuador     | `l10n_ec_edi`          | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](applications/finance/accounting/customer_invoices/electronic_invoicing.md), based on the Technical<br/>documentation published by the SRI. The authorized documents are: Invoices, Credit Notes,<br/>Debit Notes, Withholdings and Purchase liquidations.                          |
-| Báo cáo kế toán của Ecuador | `l10n_ec_reports`      | Includes all the technical and functional requirements to generate forms 103 and 104.                                                                                                                                                                                                                                                                                                          |
-| Ecuador - ATS Report        | `l10n_ec_reports_ats`  | Includes all the technical and functional requirements to generate the ATS report XML file<br/>ready to be uploaded to the *DIMM Formularios*.                                                                                                                                                                                                                                                 |
-| Trang web tiếng Ecuado      | `l10n_ec_website_sale` | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a Website sale.                                                                                                                                                                                                                                                                      |
-| Ecuadorian Point of Sale    | `l10n_ec_edi_pos`      | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a POS sale.                                                                                                                                                                                                                                                                          |
+| Tên                         | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ecuador - Kế toán           | `l10n_ec`              | [Gói bản địa hóa tài chính](../fiscal_localizations.md) mặc định bổ sung đặc điểm kế toán cho bản địa hoá Ecuador, đại diện cho cấu hình tối thiểu cần thiết để doanh nghiệp hoạt động tại Ecuador theo hướng dẫn của . Khi cài đặt, phân hệ sẽ tự động tải: Hệ thống tài khoản, thuế, loại chứng từ, loại hỗ trợ thuế. Đồng thời, hệ thống tự động tạo biểu mẫu 103 và 104. |
+| EDI kế toán của Ecuador     | `l10n_ec_edi`          | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](../accounting/customer_invoices/electronic_invoicing.md), based on the Technical<br/>documentation published by the SRI. The authorized documents are: Invoices, Credit Notes,<br/>Debit Notes, Withholdings and Purchase liquidations.                          |
+| Báo cáo kế toán của Ecuador | `l10n_ec_reports`      | Includes all the technical and functional requirements to generate forms 103 and 104.                                                                                                                                                                                                                                                                                        |
+| Ecuador - ATS Report        | `l10n_ec_reports_ats`  | Includes all the technical and functional requirements to generate the ATS report XML file<br/>ready to be uploaded to the *DIMM Formularios*.                                                                                                                                                                                                                               |
+| Trang web tiếng Ecuado      | `l10n_ec_website_sale` | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a Website sale.                                                                                                                                                                                                                                                    |
+| Ecuadorian Point of Sale    | `l10n_ec_edi_pos`      | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a POS sale.                                                                                                                                                                                                                                                        |
 
 #### NOTE
 When you install a database from scratch selecting `Ecuador` as the country, Odoo automatically
@@ -53,7 +53,7 @@ installs the base module Ecuadorian - Accounting.
 ### Cấu hình công ty của bạn
 
 To configure your company information, go to the Contacts app and search the name given
-to your company or activate [developer mode](applications/general/developer_mode.md#developer-mode) and go to Company
+to your company or activate [developer mode](../../general/developer_mode.md#developer-mode) and go to Company
 ‣ Contact and then edit the contact to configure the following information:
 
 1. Check the Company option on top
@@ -146,7 +146,7 @@ In the Advanced Settings tab, check the Electronic Invoicing checkbox to
 enable it for Ecuador.
 
 #### SEE ALSO
-[Electronic invoicing (EDI)](applications/finance/accounting/customer_invoices/electronic_invoicing.md)
+[Electronic invoicing (EDI)](../accounting/customer_invoices/electronic_invoicing.md)
 
 ### Withholding
 
@@ -198,7 +198,7 @@ enable the sending of electronic invoicing for the withholding.
 
 #### Hệ thống tài khoản
 
-The [chart of accounts](applications/finance/accounting/get_started/chart_of_accounts.md)
+The [chart of accounts](../accounting/get_started/chart_of_accounts.md)
 is installed by default as part of the set of data included in the localization module, the accounts
 are mapped automatically in Taxes, Default Account Payable, Default Account Receivable.
 
@@ -298,7 +298,7 @@ documents can be created from your sales order or manually. They must contain th
 
 #### Giấy báo có khách hàng
 
-The [Customer credit note](applications/finance/accounting/customer_invoices/credit_notes.md) is an
+The [Customer credit note](../accounting/customer_invoices/credit_notes.md) is an
 electronic document that, when validated, is sent to SRI. It is necessary to have a validated
 (posted) invoice in order to register a credit note. On the invoice there is a button named
 Credit note, click on this button to be directed to the Create credit note
@@ -487,7 +487,7 @@ To activate the payment providers that should be used to capture eCommerce payme
 Website ‣ Configuration ‣ Payment Providers section and then click on the
 View other providers button under the Activate Payments heading. From here,
 each payment provider can be configured by selecting a provider record. Refer to the [payment
-provider](applications/finance/payment_providers.md) documentation for more information.
+provider](../payment_providers.md) documentation for more information.
 
 ###### Phương thức thanh toán
 
@@ -504,7 +504,7 @@ invoice from an eCommerce sale. Select a **payment method** to access its config
 the field.
 
 #### SEE ALSO
-[Nhà cung cấp dịch vụ thanh toán](applications/finance/payment_providers.md)
+[Nhà cung cấp dịch vụ thanh toán](../payment_providers.md)
 
 ![l10n_ec SRI Payment Method.](../../../.gitbook/assets/l10n-ec-sri-payment-method.png)
 
@@ -537,7 +537,7 @@ Make sure the *Ecuadorian module for Point of Sale* (`l10n_ec_edi_pos`) is [inst
 
 #### Cấu hình phương thức thanh toán
 
-To [create a payment method for a point of sale](applications/sales/point_of_sale/payment_methods.md),
+To [create a payment method for a point of sale](../../sales/point_of_sale/payment_methods.md),
 go to Point of Sale ‣ Configuration ‣ Payment Methods. Then, set the
 SRI Payment Method in the payment method form.
 
@@ -545,7 +545,7 @@ SRI Payment Method in the payment method form.
 
 ##### Identification type and number
 
-The POS cashier can [create a new contact for a customer](applications/sales/point_of_sale.md#pos-customers) who requests an
+The POS cashier can [create a new contact for a customer](../../sales/point_of_sale.md#pos-customers) who requests an
 invoice from an open POS session.
 
 The *Ecuadorian Module for Point of Sale* adds two new fields to the contact creation form:
@@ -565,7 +565,7 @@ customer as Consumidor Final and generates an electronic invoice anyway.
 #### NOTE
 If the client requests a credit note due to a return of this type of purchase, the credit note
 should be made using the client's real contact information. Credit notes cannot be created to
-*Consumidor Final* and can be managed [directly from the POS session](applications/sales/point_of_sale.md#pos-refund).
+*Consumidor Final* and can be managed [directly from the POS session](../../sales/point_of_sale.md#pos-refund).
 
 ##### Electronic invoice: specific customer
 
@@ -574,7 +574,7 @@ with their fiscal information. This ensures the invoice is generated with accura
 
 #### NOTE
 If the client requests a credit note due to a return of this type of purchase, the credit note
-and return process can be managed [directly from the POS session](applications/sales/point_of_sale.md#pos-refund).
+and return process can be managed [directly from the POS session](../../sales/point_of_sale.md#pos-refund).
 
 ## Báo cáo tài chính
 
@@ -608,7 +608,7 @@ the tax code within the parenthesis to report it to the SRI.
 
 ### Báo cáo ATS
 
-[Install](applications/general/apps_modules.md#general-install) the *ATS Report* (`l10n_ec_reports_ats`) module to enable
+[Install](../../general/apps_modules.md#general-install) the *ATS Report* (`l10n_ec_reports_ats`) module to enable
 downloading the ATS report in XML format.
 
 #### NOTE

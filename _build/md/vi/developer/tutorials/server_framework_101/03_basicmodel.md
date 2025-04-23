@@ -1,6 +1,6 @@
 # Chapter 3: Models And Basic Fields
 
-At the end of the [previous chapter](developer/tutorials/server_framework_101/02_newapp.md), we were able to
+At the end of the [previous chapter](02_newapp.md), we were able to
 create an Odoo module. However, at this point it is still an empty shell which doesn't allow us to
 store any data. In our real estate module, we want to store the information related to the
 properties (name, description, price, living area...) in a database. The Odoo framework provides
@@ -19,7 +19,7 @@ global variables that would be updated depending on installed modules.
 ## Object-Relational Mapping
 
 **Reference**: the documentation related to this topic can be found in the
-[Models](developer/reference/backend/orm.md#reference-orm-model) API.
+[Models](../../reference/backend/orm.md#reference-orm-model) API.
 
 #### NOTE
 **Goal**: at the end of this section, the table `estate_property` should be created:
@@ -96,7 +96,7 @@ the **Goal**.
 ## Model fields
 
 **Reference**: the documentation related to this topic can be found in the
-[Fields](developer/reference/backend/orm.md#reference-orm-fields) API.
+[Fields](../../reference/backend/orm.md#reference-orm-fields) API.
 
 Fields are used to define what the model can store and where they are stored. Fields are
 defined as attributes in the model class:
@@ -212,7 +212,7 @@ Some attributes are available on all fields, here are the most common ones:
 ### Automatic Fields
 
 **Reference**: the documentation related to this topic can be found in
-[Automatic fields](developer/reference/backend/orm.md#reference-fields-automatic).
+[Automatic fields](../../reference/backend/orm.md#reference-fields-automatic).
 
 You may have noticed your model has a few fields you never defined.
 Odoo creates a few fields in all models<sup>[1](#autofields)</sup>. These fields are
@@ -235,7 +235,7 @@ useful or necessary:
 : User who last modified the record.
 
 Now that we have created our first model, let's
-[add some security](developer/tutorials/server_framework_101/04_securityintro.md)!
+[add some security](04_securityintro.md)!
 
-* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](developer/reference/backend/orm.md#reference-fields-automatic-log-access)
+* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](../../reference/backend/orm.md#reference-fields-automatic-log-access)
 * <a id='rawsql'>**[2]**</a> writing raw SQL queries is possible, but requires caution as this bypasses all Odoo authentication and security mechanisms.

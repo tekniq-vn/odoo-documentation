@@ -7,7 +7,7 @@ the criteria for when an approval is required before an action can be performed 
 
 To add approval rules with Studio, proceed as follows:
 
-1. [Open Studio](applications/studio.md#studio-access) and switch to the required [view](applications/studio/views.md).
+1. [Open Studio](../studio.md#studio-access) and switch to the required [view](views.md).
 2. Select the button for which you want to add approval rules.
 3. In the Properties tab on the left, enable the Set approval rules
    feature.

@@ -21,7 +21,7 @@ This module replaces the **POS Six** module.
 
 ### Connect an IoT system
 
-Connecting a Six payment terminal to Odoo is requires [using an IoT system](applications/general/iot.md).
+Connecting a Six payment terminal to Odoo is requires [using an IoT system](../../../../general/iot.md).
 
 ### Configure the terminal ID
 
@@ -42,8 +42,8 @@ system's homepage under the Payments section to confirm the connection.
 
 ### Configure the payment method
 
-Enable the payment terminal [in the application settings](applications/sales/point_of_sale/configuration.md#configuration-settings) and
-[create the related payment method](applications/sales/point_of_sale/payment_methods.md). Set the journal type as
+Enable the payment terminal [in the application settings](../../configuration.md#configuration-settings) and
+[create the related payment method](../../payment_methods.md). Set the journal type as
 Bank and select SIX IOT in the Use a Payment Terminal field.
 Then, select your terminal device in the Payment Terminal Device field.
 

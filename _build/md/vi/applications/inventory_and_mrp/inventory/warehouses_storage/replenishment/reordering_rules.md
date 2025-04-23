@@ -125,7 +125,7 @@ Another key difference is that replenishment orders created by the *Replenish on
 linked to the original  by a smart button at the top of the order. When using the 0/0/1
 reordering rule, a replenishment order is created, but is not linked to the original .
 
-See the [Replenish on Order (MTO)](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md) documentation for a full overview of the MTO route.
+See the [Replenish on Order (MTO)](mto.md) documentation for a full overview of the MTO route.
 
 To create a 0/0/1 reordering rule, navigate to Inventory app ‣ Products ‣
 Products, and select a product.
@@ -160,7 +160,7 @@ way, the difference between the two types of reordering rules is how the rule is
 - [Auto](#inventory-warehouses-storage-auto-rr): A purchase or manufacturing order is
   automatically created when the forecasted stock falls below the reordering rule's minimum
   quantity. By default, the Auto trigger is selected.
-- [Manual](#inventory-warehouses-storage-manual-rr): The [Replenishment report](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md)
+- [Manual](#inventory-warehouses-storage-manual-rr): The [Replenishment report](report.md)
   lists products needing replenishment, showing current/forecasted stock, lead times, and arrival
   dates. Users can review forecasts before clicking *Order Once*.
 
@@ -197,7 +197,7 @@ tab of the product form.
 ### Thủ công
 
 *Manual reordering rules*, configured by setting the reordering rule's Trigger field to
-Manual, list a product on the [replenishment dashboard](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md) when the
+Manual, list a product on the [replenishment dashboard](report.md) when the
 forecasted quantity falls below a specified minimum. Products on this dashboard are called *needs*,
 because they are needed to fulfill upcoming sales orders, for which the forecasted quantity is not
 enough.
@@ -263,7 +263,7 @@ unlocks advanced configurations of reordering rules. Consider the following:
 
   #### NOTE
   Procurement groups link replenishment methods to demand, enabling smart buttons to appear when
-  using the [MTO route](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md).
+  using the [MTO route](mto.md).
   ![Showing smart button to PO.](../../../../../.gitbook/assets/po-smartbutton.png)
 
   In the context of reordering rules:
@@ -287,11 +287,11 @@ unlocks advanced configurations of reordering rules. Consider the following:
 This is achieved using the [forecasted date](#inventory-warehouses-storage-forecasted-date),
 which determines when replenishment is necessary to avoid overstocking.
 
-Ngày dự kiến: là **ngày sớm nhất có thể** để nhận hàng nếu quá trình bổ sung hàng được bắt đầu ngay lập tức. Ngày này được tính bằng cách cộng dồn thời gian hoàn thành liên quan đến quá trình bổ sung hàng, bao gồm: [thời gian hoàn thành của nhà cung cấp](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-purchase-lt) và [độ trễ mua hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-purchase-security-lt) khi mua hàng, hoặc [thời gian hoàn thành sản xuất](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md#inventory-warehouses-storage-manuf-lt) khi sản xuất. Cả quy tắc đặt hàng tự động và thủ công đều hoạt động theo cách này.
+Ngày dự kiến: là **ngày sớm nhất có thể** để nhận hàng nếu quá trình bổ sung hàng được bắt đầu ngay lập tức. Ngày này được tính bằng cách cộng dồn thời gian hoàn thành liên quan đến quá trình bổ sung hàng, bao gồm: [thời gian hoàn thành của nhà cung cấp](lead_times.md#inventory-warehouses-storage-purchase-lt) và [độ trễ mua hàng](lead_times.md#inventory-warehouses-storage-purchase-security-lt) khi mua hàng, hoặc [thời gian hoàn thành sản xuất](lead_times.md#inventory-warehouses-storage-manuf-lt) khi sản xuất. Cả quy tắc đặt hàng tự động và thủ công đều hoạt động theo cách này.
 
 Important considerations:
 
-- **If this feels risky**, consider adding buffer time or [adjusting lead times](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md)
+- **If this feels risky**, consider adding buffer time or [adjusting lead times](lead_times.md)
   for more flexibility.
 - While lead times and just-in-time logic provide additional control, **reordering rules work
   perfectly fine without them**. Keeping delivery dates on sales orders as their *creation date*
@@ -365,7 +365,7 @@ days if the stock falls below the minimum threshold on the forecasted date.
 ### Example where visibility days is triggered
 
 A product shipped from Asia has a combined vendor lead time of 30 days and a shipping cost of $100
-(including [landed costs](applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md) and
+(including [landed costs](../../product_management/inventory_valuation/landed_costs.md) and
 tariffs).
 
 - November 4: Current date. The forecasted date is December 4 (30 days later).

@@ -198,7 +198,7 @@ Upload](#documents-upload) files to it.
 
 Select the Download and Upload option to enable users to upload their files to your
 workspace using an Email Alias. To create the email alias, enter its name in the
-Email Alias field. The [domain name](applications/general/email_communication.md) should be set
+Email Alias field. The [domain name](../general/email_communication.md) should be set
 by default, but you can modify it by clicking it.
 
 The documents sent to this email alias are uploaded to the workspace using the chosen
@@ -215,8 +215,8 @@ The documents sent to this email alias are uploaded to the workspace using the c
 
 #### Bảng tính mới
 
-To create a new [spreadsheet](applications/productivity/spreadsheet.md), click New Spreadsheet. You can select
-a Blank spreadsheet or an [existing template](applications/productivity/spreadsheet/templates.md).
+To create a new [spreadsheet](spreadsheet.md), click New Spreadsheet. You can select
+a Blank spreadsheet or an [existing template](spreadsheet/templates.md).
 
 <a id="documents-workflow-actions"></a>
 
@@ -256,7 +256,7 @@ There are three basic types of conditions you can set:
 It is recommended to have some knowledge of Odoo development to configure *Domain* filters
 properly.
 
-The [developer mode](applications/general/developer_mode.md#developer-mode) needs to be activated to access the Domain
+The [developer mode](../general/developer_mode.md#developer-mode) needs to be activated to access the Domain
 condition from the Actions tab. Once done, select the Domain condition type
 and click New Rule.
 
@@ -311,4 +311,4 @@ click Create Bill, Create Customer Invoice, or
 Create credit note, and then click Send for Digitization.
 
 #### SEE ALSO
-[AI-powered document digitization](applications/finance/accounting/vendor_bills/invoice_digitization.md)
+[AI-powered document digitization](../finance/accounting/vendor_bills/invoice_digitization.md)

@@ -45,7 +45,7 @@ The email alias is now available in the Advanced Settings tab of the journal. Em
 sent to this address will be converted automatically into new invoices or bills.
 
 #### NOTE
-If you use the [Documents](applications/productivity/documents.md) app, you can automatically
+If you use the [Documents](../../../productivity/documents.md) app, you can automatically
 send your scanned invoices to the Finance workspace (e.g.,
 `inbox-financial@example.odoo.com`).
 
@@ -86,4 +86,4 @@ Người dùng Odoo Enterprise có đăng ký hợp lệ sẽ nhận được t�
 
 #### SEE ALSO
 - [Our Privacy Policy](https://iap.odoo.com/privacy#header_6)
-- [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md)
+- [Mua hàng trong ứng dụng (IAP)](../../../essentials/in_app_purchase.md)

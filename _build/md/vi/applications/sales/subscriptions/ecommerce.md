@@ -12,8 +12,8 @@ To add more recurrence periods to the eCommerce product page, create a *product 
 recurrence period.
 
 #### SEE ALSO
-- [Configure subscription products](applications/sales/subscriptions.md)
-- [Product variants](applications/sales/sales/products_prices/products/variants.md)
+- [Configure subscription products](../subscriptions.md)
+- [Product variants](../sales/products_prices/products/variants.md)
 
 ## Create recurrence periods as product variants
 

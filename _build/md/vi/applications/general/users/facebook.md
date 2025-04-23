@@ -86,7 +86,7 @@ testing, and use cases, can be found in the [Meta for developers documentation](
 
 ## Thiết lập Odoo
 
-First, activate [Developer mode](applications/general/developer_mode.md#developer-mode-activation).
+First, activate [Developer mode](../developer_mode.md#developer-mode-activation).
 
 Navigate to the Settings app, and scroll down to the Integrations
 section. There, tick the checkbox labeled, OAuth Authentication. Click Save.

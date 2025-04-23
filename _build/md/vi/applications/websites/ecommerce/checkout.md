@@ -88,8 +88,8 @@ Process. You can choose between:
 - Mandatory (no guest checkout): customers can only checkout if they have signed-in.
 
 #### SEE ALSO
-- [Tài khoản khách hàng](applications/websites/ecommerce/customer_accounts.md)
-- [Quyền truy cập cổng thông tin](applications/general/users/portal.md)
+- [Tài khoản khách hàng](customer_accounts.md)
+- [Quyền truy cập cổng thông tin](../../general/users/portal.md)
 
 ### B2B access restriction
 

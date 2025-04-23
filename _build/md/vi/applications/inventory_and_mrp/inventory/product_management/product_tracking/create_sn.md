@@ -1,12 +1,12 @@
 # Chỉ định số sê-ri
 
 Assigning serial numbers to individual products allows the for tracking of properties,
-[expiration dates](applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md), and location throughout the supply chain, which
+[expiration dates](expiration_dates.md), and location throughout the supply chain, which
 particularly benefits manufacturers providing after-sales services.
 
 #### SEE ALSO
 - [Odoo Tutorials: Serial Numbers](https://www.youtube.com/watch?v=ZP-gMz2X5AY)
-- [Sử dụng số sê-ri để theo dõi sản phẩm](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md)
+- [Sử dụng số sê-ri để theo dõi sản phẩm](serial_numbers.md)
 
 In Odoo, serial numbers are assigned to products:
 
@@ -16,7 +16,7 @@ In Odoo, serial numbers are assigned to products:
   receipt
 - in the [Open: Stock move window](#inventory-product-management-stock-move-section) on a
   receipt
-- [during a manufacturing order](applications/inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.md) for a product tracked by
+- [during a manufacturing order](../../../manufacturing/basic_setup/configure_manufacturing_product.md) for a product tracked by
   lot/serial numbers
 - when making an inventory adjustment
 
@@ -32,8 +32,8 @@ Then, in the Inventory tab of an item's product form, set the Tracking field
 to By Unique Serial Number.
 
 #### SEE ALSO
-- [Enable serial numbers](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md#inventory-product-management-enable-lots)
-- [Track products by serial numbers](applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md#inventory-product-management-configure-lots)
+- [Enable serial numbers](serial_numbers.md#inventory-product-management-enable-lots)
+- [Track products by serial numbers](serial_numbers.md#inventory-product-management-configure-lots)
 
 <a id="inventory-product-management-configure-new-serials"></a>
 

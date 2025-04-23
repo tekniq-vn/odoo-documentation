@@ -22,7 +22,7 @@ the unique contact records in the database, and imported list, etc.).
 
 #### NOTE
 Each activity in a campaign's workflow can target a subset of the target audience; see the
-[Campaign workflow activities](applications/marketing/marketing_automation/workflow_activities.md) documentation for more information.
+[Campaign workflow activities](workflow_activities.md) documentation for more information.
 
 <a id="marketing-automation-defining-filters"></a>
 
@@ -33,7 +33,7 @@ indicating that the campaign is targeting **all** records of the Target model.
 
 To refine the Filter rules of a campaign, click the ➕ Add condition button
 to reveal a new row with configurable rule parameters. See the [Search, filter, and group
-records](applications/essentials/search.md#search-custom-filters) documentation for more information on how to create filter rules.
+records](../../essentials/search.md#search-custom-filters) documentation for more information on how to create filter rules.
 
 ![A new filter rule row on the campaign form Filters.](../../../.gitbook/assets/domain-filters.png)
 
@@ -42,7 +42,7 @@ number of records targeted by this domain. Select the # record(s) button to open
 Selected records pop-up window, in which the targeted records can be viewed.
 
 #### SEE ALSO
-- [Domain developer documentation](developer/reference/backend/orm.md#reference-orm-domains)
-- [Campaign workflow activities](applications/marketing/marketing_automation/workflow_activities.md)
-- [Testing/running campaigns](applications/marketing/marketing_automation/testing_running.md)
-- [Campaign metrics](applications/marketing/marketing_automation/understanding_metrics.md)
+- [Domain developer documentation](../../../developer/reference/backend/orm.md#reference-orm-domains)
+- [Campaign workflow activities](workflow_activities.md)
+- [Testing/running campaigns](testing_running.md)
+- [Campaign metrics](understanding_metrics.md)

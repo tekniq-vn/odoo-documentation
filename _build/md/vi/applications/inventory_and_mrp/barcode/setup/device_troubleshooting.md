@@ -40,7 +40,7 @@ error after scanning. This could be due to any of the following reasons:
   For example, if the computer is configured to use an FR-BE keyboard, configure the scanner to send
   FR-BE keystrokes. The same logic applies if using a tablet instead of a computer.
 
-  For more information on configuring keystrokes, refer to the [Barcode scanner setup](applications/inventory_and_mrp/barcode/setup/hardware.md) documentation.
+  For more information on configuring keystrokes, refer to the [Barcode scanner setup](hardware.md) documentation.
 - For mobile computer scanners (such as Zebra devices, for example), the scanner might interpret the
   barcode differently than intended. To rule this out, scan a test barcode to see how the scanner
   interprets the barcode.
@@ -156,5 +156,5 @@ Once that code has been scanned, ensure the NETUM scanner has the correct keyboa
 and is working as intended.
 
 #### SEE ALSO
-- [Thiết lập máy quét mã vạch](applications/inventory_and_mrp/barcode/setup/hardware.md)
-- [Activate the Barcodes in Odoo](applications/inventory_and_mrp/barcode/setup/software.md)
+- [Thiết lập máy quét mã vạch](hardware.md)
+- [Activate the Barcodes in Odoo](software.md)

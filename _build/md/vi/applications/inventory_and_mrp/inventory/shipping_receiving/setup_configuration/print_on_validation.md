@@ -35,8 +35,8 @@ A *delivery slip* contains recipient and package details, usually placed inside 
 package.
 
 #### SEE ALSO
-- [Bảng kê hàng hoá](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.md#inventory-warehouses-storage-barcode-picking)
-- [Nhãn theo dõi](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
+- [Bảng kê hàng hoá](../picking_methods/batch.md#inventory-warehouses-storage-barcode-picking)
+- [Nhãn theo dõi](labels.md)
 
 After [enabling the Delivery Slip setting](#inventory-shipping-receiving-print-setup) in the
 Hardware tab configuration options, clicking Validate on the desired
@@ -124,7 +124,7 @@ To automatically print a *carrier label* with the recipient address, tracking nu
 details for specific third-party shipping carriers, complete the following setup:
 
 1. Tick the Carrier Labels checkbox in the [operation type settings](#inventory-shipping-receiving-print-setup).
-2. [Connect a printer](applications/general/iot/devices/printer.md) to Odoo's *IoT* app.
+2. [Connect a printer](../../../../general/iot/devices/printer.md) to Odoo's *IoT* app.
 3. [Assign the carrier label to the printer](#inventory-shipping-receiving-assign-printer).
 4. Configure the shipping method's [label type](#inventory-shipping-receiving-label-type).
 
@@ -132,7 +132,7 @@ details for specific third-party shipping carriers, complete the following setup
 
 ### Assign printer
 
-Refer to the [Connect a printer](applications/general/iot/devices/printer.md) documentation for
+Refer to the [Connect a printer](../../../../general/iot/devices/printer.md) documentation for
 details on connecting a printer to Odoo's *IoT* app. Upon completion, assign the carrier label to
 the printer, by navigating to IoT app ‣ Devices, and selecting the desired
 printer.
@@ -159,7 +159,7 @@ the Report Type matches the IoT-connected printer's type.
 
 ### Shipping carrier label type
 
-Next, complete the setup for the [third-party shipping connector](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md). After that, go to Inventory app ‣
+Next, complete the setup for the [third-party shipping connector](third_party_shipper.md). After that, go to Inventory app ‣
 Configuration ‣ Shipping Methods, and select the desired shipping method.
 
 On the shipping method configuration form, in the [carrier name] Configuration tab,
@@ -176,7 +176,7 @@ After validating the operation, the carrier label is generated in the chatter, a
 IoT-connected printer.
 
 #### SEE ALSO
-[Print carrier labels](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md)
+[Print carrier labels](labels.md)
 
 <a id="inventory-shipping-receiving-export-doc"></a>
 
@@ -186,7 +186,7 @@ An *export document*, required by customs to ship packages from one country to a
 automatically printed in Odoo by following these steps:
 
 1. Tick the Export Documents checkbox in the [operation type settings](#inventory-shipping-receiving-print-setup).
-2. [Connect a printer](applications/general/iot/devices/printer.md) to Odoo's *IoT* app.
+2. [Connect a printer](../../../../general/iot/devices/printer.md) to Odoo's *IoT* app.
 3. Assign the export document to the printer.
 
 ### Assign printer
@@ -210,7 +210,7 @@ Operation Types, and select the desired operation type. Then, go to the Hardware
 and tick the Package Contents checkbox.
 
 #### IMPORTANT
-If the option is not available, enable the [Packages](applications/inventory_and_mrp/inventory/product_management/configure/package.md) feature, by going to Inventory app
+If the option is not available, enable the [Packages](../../product_management/configure/package.md) feature, by going to Inventory app
 ‣ Configuration ‣ Settings, ticking the Packages checkbox, and clicking
 Save.
 
@@ -225,7 +225,7 @@ A *package label* that shows the package's barcode and pack date can be configur
 clicking the *Put in Pack* button.
 
 #### IMPORTANT
-The Put in Pack button is available **only** when the [Packages](applications/inventory_and_mrp/inventory/product_management/configure/package.md) feature is enabled in
+The Put in Pack button is available **only** when the [Packages](../../product_management/configure/package.md) feature is enabled in
 Inventory app ‣ Configuration ‣ Settings.
 
 After it is enabled, the Put in Pack button is available on all inventory operations

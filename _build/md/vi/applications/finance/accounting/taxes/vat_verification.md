@@ -31,6 +31,6 @@ case the automatic VIES check is incorrect (for example, if the company was rece
 its VAT is not yet in the VIES). This change is logged in the chatter for transparency.
 
 #### NOTE
-Odoo can [automatically apply fiscal positions](applications/finance/accounting/taxes/fiscal_positions.md#fiscal-positions-automatic). If the Verify VAT
+Odoo can [automatically apply fiscal positions](fiscal_positions.md#fiscal-positions-automatic). If the Verify VAT
 Numbers feature is enabled, any fiscal positions with VAT required enabled will require
 Intra-Community valid VAT numbers to apply automatically.

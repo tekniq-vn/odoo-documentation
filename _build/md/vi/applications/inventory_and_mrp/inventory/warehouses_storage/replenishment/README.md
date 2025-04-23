@@ -16,22 +16,22 @@ the minimum level, Odoo generates (or suggests) a purchase or manufacturing orde
 to the maximum level.
 
 When using automatic reordering rules, Odoo generates a new order. When using manual, Odoo suggests
-orders on the replenishment report. For detailed guidance, refer to the [replenishment report](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md) and [reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md).
+orders on the replenishment report. For detailed guidance, refer to the [replenishment report](replenishment/report.md) and [reordering rules](replenishment/reordering_rules.md).
 
 Key points include:
 
-- [Automatic reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md#inventory-warehouses-storage-auto-rr): Automatically create
+- [Automatic reordering rules](replenishment/reordering_rules.md#inventory-warehouses-storage-auto-rr): Automatically create
    or  when stock falls below the minimum level. While this is convenient, it is less
   flexible.
-- [Manual reordering rules](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md#inventory-warehouses-storage-manual-rr): Generate suggestions in
+- [Manual reordering rules](replenishment/reordering_rules.md#inventory-warehouses-storage-manual-rr): Generate suggestions in
   the replenishment report for user review, allowing adjustments and batch orders while meeting
   deadlines.
-- [Just-in-time logic](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md#inventory-warehouses-storage-just-in-time): A strategy to replenish
+- [Just-in-time logic](replenishment/reordering_rules.md#inventory-warehouses-storage-just-in-time): A strategy to replenish
   only what is needed to prevent overstocking.
 
 #### SEE ALSO
-- [Quy tắc tái đặt hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
-- [Replenishment report](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md)
+- [Quy tắc tái đặt hàng](replenishment/reordering_rules.md)
+- [Replenishment report](replenishment/report.md)
 
 <a id="inventory-management-products-strategies"></a>
 
@@ -56,7 +56,7 @@ The  route is the best replenishment strategy for products that are customized, 
 products that have no stock kept on-hand.
 
 #### SEE ALSO
-[Replenish on order (MTO)](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md)
+[Replenish on order (MTO)](replenishment/mto.md)
 
 ### Kế hoạch sản xuất tổng thể
 
@@ -68,10 +68,10 @@ This a useful **manual** tool for keeping track of quantities. The  **should abs
 disrupts its manual replenishment method.
 
 #### SEE ALSO
-[Kế hoạch sản xuất tổng thể](applications/inventory_and_mrp/manufacturing/workflows/use_mps.md)
+[Kế hoạch sản xuất tổng thể](../../manufacturing/workflows/use_mps.md)
 
-* [Replenish on order (MTO)](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md)
-* [Quy tắc tái đặt hàng](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md)
-* [Replenishment report](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md)
-* [Lead times](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md)
-* [Inter-warehouse replenishment](applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.md)
+* [Replenish on order (MTO)](replenishment/mto.md)
+* [Quy tắc tái đặt hàng](replenishment/reordering_rules.md)
+* [Replenishment report](replenishment/report.md)
+* [Lead times](replenishment/lead_times.md)
+* [Inter-warehouse replenishment](replenishment/resupply_warehouses.md)

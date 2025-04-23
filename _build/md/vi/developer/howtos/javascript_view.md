@@ -222,7 +222,7 @@ Creating a new view is an advanced topic. This guide highlight only the essentia
 
    registry.category("views").add("beautifulView", beautifulView);
    ```
-6. Declare the [view](developer/reference/user_interface/view_records.md#reference-view-records-structure) in the arch.
+6. Declare the [view](../reference/user_interface/view_records.md#reference-view-records-structure) in the arch.
    ```xml
    ...
    <record id="my_beautiful_view" model="ir.ui.view">

@@ -16,13 +16,13 @@ with a [campaign template](#marketing-automation-campaign-templates).
 
 ## Cấu hình
 
-To begin, make sure the **Marketing Automation** application is [installed](applications/general/apps_modules.md#general-install).
+To begin, make sure the **Marketing Automation** application is [installed](../general/apps_modules.md#general-install).
 
 #### IMPORTANT
-Installing the **Marketing Automation** application also installs the [Email Marketing](applications/marketing/email_marketing.md) app, as most features of Odoo **Marketing Automation** are dependent on that
+Installing the **Marketing Automation** application also installs the [Email Marketing](email_marketing.md) app, as most features of Odoo **Marketing Automation** are dependent on that
 specific application.
 
-Additionally, install the [CRM](applications/sales/crm.md) and [SMS Marketing](applications/marketing/sms_marketing.md)
+Additionally, install the [CRM](../sales/crm.md) and [SMS Marketing](sms_marketing.md)
 applications to access *all* of the features available in **Marketing Automation**.
 
 The following documentation assumes that all three of these dependent applications are installed
@@ -51,7 +51,7 @@ campaigns.
 
 To get started with a template, navigate to the Marketing Automation application,
 from the main Odoo dashboard, to open the Campaigns dashboard, which displays six
-[campaign template](applications/marketing/marketing_automation/campaign_templates.md) cards:
+[campaign template](marketing_automation/campaign_templates.md) cards:
 
 - <i class="fa fa-tag"></i> Tag Hot Contacts
   <br/>
@@ -61,7 +61,7 @@ from the main Odoo dashboard, to open the Campaigns dashboard, which displays si
   <br/>
   Send a welcome email to new subscribers, remove the address that bounced.
   <br/>
-- <i class="fa fa-check-square"></i> [Double Opt-in](applications/marketing/marketing_automation/campaign_templates/double_optin.md)
+- <i class="fa fa-check-square"></i> [Double Opt-in](marketing_automation/campaign_templates/double_optin.md)
   <br/>
   Send an email to new recipients to confirm their consent.
   <br/>
@@ -111,7 +111,7 @@ The number of participants engaged in a running, or stopped, campaign are shown 
 *Participants* smart button at the top of the campaign form.
 
 #### SEE ALSO
-[Audience targeting](applications/marketing/marketing_automation/target_audience.md)
+[Audience targeting](marketing_automation/target_audience.md)
 
 ## Quy trình
 
@@ -127,15 +127,15 @@ are engaged by the activity as *Success* and *Rejected* counts.
 To create one of the following activities, click Add new activity in the
 Workflow section of the campaign form:
 
-- [Email](applications/marketing/marketing_automation/workflow_activities.md#marketing-automation-email-activity-type): an email that is sent to the target
+- [Email](marketing_automation/workflow_activities.md#marketing-automation-email-activity-type): an email that is sent to the target
   audience.
-- [Server action](applications/marketing/marketing_automation/workflow_activities.md#marketing-automation-sa-activity-type): an internal action within the
+- [Server action](marketing_automation/workflow_activities.md#marketing-automation-sa-activity-type): an internal action within the
   database that is executed.
-- [SMS](applications/marketing/marketing_automation/workflow_activities.md#marketing-automation-sms-activity-type): a text message that is sent to the target
+- [SMS](marketing_automation/workflow_activities.md#marketing-automation-sms-activity-type): a text message that is sent to the target
   audience.
 
 #### SEE ALSO
-[Campaign workflow activities](applications/marketing/marketing_automation/workflow_activities.md)
+[Campaign workflow activities](marketing_automation/workflow_activities.md)
 
 ## Testing and running
 
@@ -146,7 +146,7 @@ After testing, the campaign can be launched to start engaging the target audienc
 also be launched *without* testing, if the user is confident in the workflow.
 
 #### SEE ALSO
-[Testing/running campaigns](applications/marketing/marketing_automation/testing_running.md)
+[Testing/running campaigns](marketing_automation/testing_running.md)
 
 ## Báo cáo
 
@@ -160,11 +160,11 @@ Marketing Automation app ‣ Reporting to access the following menu options:
 Additionally, each activity within the workflow of a campaign displays its engagement metrics.
 
 #### SEE ALSO
-[Campaign metrics](applications/marketing/marketing_automation/understanding_metrics.md)
+[Campaign metrics](marketing_automation/understanding_metrics.md)
 
-* [Audience targeting](applications/marketing/marketing_automation/target_audience.md)
-* [Campaign workflow activities](applications/marketing/marketing_automation/workflow_activities.md)
-* [Testing/running campaigns](applications/marketing/marketing_automation/testing_running.md)
-* [Campaign metrics](applications/marketing/marketing_automation/understanding_metrics.md)
-* [Campaign templates](applications/marketing/marketing_automation/campaign_templates.md)
-  * [Double Opt-in](applications/marketing/marketing_automation/campaign_templates/double_optin.md)
+* [Audience targeting](marketing_automation/target_audience.md)
+* [Campaign workflow activities](marketing_automation/workflow_activities.md)
+* [Testing/running campaigns](marketing_automation/testing_running.md)
+* [Campaign metrics](marketing_automation/understanding_metrics.md)
+* [Campaign templates](marketing_automation/campaign_templates.md)
+  * [Double Opt-in](marketing_automation/campaign_templates/double_optin.md)

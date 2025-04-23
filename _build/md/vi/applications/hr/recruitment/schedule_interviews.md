@@ -163,7 +163,7 @@ the message immediately.
 #### NOTE
 Sending text messages is **not** a default capability with Odoo. To send text messages, credits
 are required, which need to be purchased. For more information on IAP credits and plans, refer to
-the [Mua hàng trong ứng dụng (IAP)](applications/essentials/in_app_purchase.md) documentation.
+the [Mua hàng trong ứng dụng (IAP)](../../essentials/in_app_purchase.md) documentation.
 
 <a id="recruitment-schedule-interviews-applicant-scheduled"></a>
 

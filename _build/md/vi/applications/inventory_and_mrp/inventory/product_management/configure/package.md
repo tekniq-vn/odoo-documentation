@@ -12,10 +12,10 @@ Kiện hàng thường được sử dụng cho các mục đích sau:
 
 Theo mặc định, trường *Sử dụng kiện hàng* trên biểu mẫu kiện hàng được đặt thành *Hộp dùng một lần*. Thay đổi trường này thành *Hộp tái sử dụng* **chỉ** khi cấu hình kiện hàng cho [lấy hàng theo cụm](#inventory-warehouses-storage-cluster-pack).
 
-*Loại kiện hàng* là tính năng tùy chọn được sử dụng để [tính toán phí vận chuyển](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md), dựa trên khối lượng vận chuyển thực tế. Tạo loại kiện hàng để tính cả khối lượng của chính kiện hàng đó (ví dụ: hộp, pallet, các loại bao bì vận chuyển khác) trong tính toán phí vận chuyển.
+*Loại kiện hàng* là tính năng tùy chọn được sử dụng để [tính toán phí vận chuyển](../../shipping_receiving/setup_configuration.md), dựa trên khối lượng vận chuyển thực tế. Tạo loại kiện hàng để tính cả khối lượng của chính kiện hàng đó (ví dụ: hộp, pallet, các loại bao bì vận chuyển khác) trong tính toán phí vận chuyển.
 
 #### NOTE
-Mặc dù kiện hàng thường được sử dụng trong [tuyến giao hàng ba bước](applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md), nhưng chúng có thể được sử dụng trong mọi quy trình liên quan đến các sản phẩm lưu kho.
+Mặc dù kiện hàng thường được sử dụng trong [tuyến giao hàng ba bước](../../shipping_receiving/daily_operations/delivery_three_steps.md), nhưng chúng có thể được sử dụng trong mọi quy trình liên quan đến các sản phẩm lưu kho.
 
 <a id="inventory-warehouses-storage-enable-package"></a>
 
@@ -62,7 +62,7 @@ Thao tác này sẽ mở cửa sổ pop-up Hoạt động chi tiết cho Sản p
 Sau đó, chỉ định số lượng mặt hàng sẽ đưa vào kiện hàng trong cột Hoàn tất. Lặp lại các bước trên để đặt Sản phẩm vào các kiện hàng khác nhau. Khi hoàn tất, nhấp vào Xác nhận để đóng cửa sổ.
 
 #### SEE ALSO
-[Giao một đơn hàng bằng nhiều kiện hàng](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.md)
+[Giao một đơn hàng bằng nhiều kiện hàng](../../shipping_receiving/setup_configuration/multipack.md)
 
 <a id="inventory-warehouses-storage-put-in-pack"></a>
 
@@ -82,8 +82,8 @@ Nút Đóng hàng thành kiện xuất hiện trên phiếu nhập kho, lệnh g
 Tạo loại kiện hàng bằng cách đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Loại kiện hàng, để thiết lập kích thước tùy chỉnh và giới hạn khối lượng. Tính năng này chủ yếu được sử dụng để tính khối lượng kiện hàng khi xác định phí vận chuyển.
 
 #### SEE ALSO
-- [Đơn vị vận chuyển](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md)
-- [Delivery methods](applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md)
+- [Đơn vị vận chuyển](../../shipping_receiving/setup_configuration/third_party_shipper.md)
+- [Delivery methods](../../shipping_receiving/setup_configuration.md)
 
 Trên danh sách Loại kiện hàng, khi nhấp vào Mới sẽ mở một biểu mẫu loại kiện hàng trống. Các trường của biểu mẫu như sau:
 
@@ -126,4 +126,4 @@ Thêm các kiện hàng mới bằng cách đi đến Ứng dụng Tồn kho ‣
 ![Hiển thị biểu mẫu kiện hàng để tạo kiện hàng theo cụm.](../../../../../.gitbook/assets/package.png)
 
 #### SEE ALSO
-[Sử dụng kiện hàng theo cụm](applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster.md)
+[Sử dụng kiện hàng theo cụm](../../shipping_receiving/picking_methods/cluster.md)

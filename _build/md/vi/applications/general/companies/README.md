@@ -59,7 +59,7 @@ Các chi nhánh có thể được thêm vào công ty bằng cách đi đến �
 
 ## Quyền truy cập của nhân viên
 
-Once companies are created, manage the employees' [Access Rights](applications/general/users/access_rights.md) for
+Once companies are created, manage the employees' [Access Rights](users/access_rights.md) for
 *Multi Companies*.
 
 To access the *Access Rights*, navigate to Settings app ‣ Users section ‣ Manage
@@ -106,15 +106,15 @@ populated from the company information listed, when navigating here: Settings ap
 
 ## Giao dịch liên công ty
 
-First, activate the [developer mode](applications/general/developer_mode.md#developer-mode). Then, make sure each one of the
+First, activate the [developer mode](developer_mode.md#developer-mode). Then, make sure each one of the
 companies is properly set in relation to:
 
-- [Chart of Accounts](applications/finance/accounting/get_started/chart_of_accounts.md)
-- [Thuế](applications/finance/accounting/taxes.md)
-- [Vị trí tài chính](applications/finance/accounting/taxes/fiscal_positions.md)
-- [Sổ nhật ký](applications/finance/accounting/bank.md)
-- [Bản địa hoá tài chính](applications/finance/fiscal_localizations.md)
-- [Bảng giá](applications/sales/sales/products_prices/prices/pricing.md)
+- [Chart of Accounts](../finance/accounting/get_started/chart_of_accounts.md)
+- [Thuế](../finance/accounting/taxes.md)
+- [Vị trí tài chính](../finance/accounting/taxes/fiscal_positions.md)
+- [Sổ nhật ký](../finance/accounting/bank.md)
+- [Bản địa hoá tài chính](../finance/fiscal_localizations.md)
+- [Bảng giá](../sales/sales/products_prices/prices/pricing.md)
 
 Next, navigate to Settings app ‣ Companies section ‣ Manage Companies. Then,
 select the desired company from the list. On the company form, select the Inter-Company
@@ -144,11 +144,11 @@ options:
 
 #### NOTE
 Products **must** be configured as Can be sold and shared between the companies. See
-[Loại sản phẩm](applications/inventory_and_mrp/inventory/product_management/configure/type.md).
+[Loại sản phẩm](../inventory_and_mrp/inventory/product_management/configure/type.md).
 
 #### SEE ALSO
-- [Hướng dẫn về đa công ty](developer/howtos/company.md)
-- [Hệ thống đa tiền tệ](applications/finance/accounting/get_started/multi_currency.md)
+- [Hướng dẫn về đa công ty](../../developer/howtos/company.md)
+- [Hệ thống đa tiền tệ](../finance/accounting/get_started/multi_currency.md)
 
-* [Digest emails](applications/general/companies/digest_emails.md)
-* [Mẫu Email](applications/general/companies/email_template.md)
+* [Digest emails](companies/digest_emails.md)
+* [Mẫu Email](companies/email_template.md)

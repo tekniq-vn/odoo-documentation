@@ -41,7 +41,7 @@ of payment providers can be enabled, customized, and published.
 ![Payment providers page in Odoo Sales.](../../../../.gitbook/assets/payment-providers-page.png)
 
 #### SEE ALSO
-[Thanh toán online](applications/finance/payment_providers.md)
+[Thanh toán online](../../../finance/payment_providers.md)
 
 ## Ghi nhận thanh toán
 
@@ -67,6 +67,6 @@ upon order confirmation with an online payment.
 ![Sample of notification that appears in the chatter when an online payment is made.](../../../../.gitbook/assets/payment-confirmation-notification-chatter.png)
 
 #### SEE ALSO
-- [Mẫu báo giá](applications/sales/sales/send_quotations/quote_template.md)
-- [Online signatures for order confirmations](applications/sales/sales/send_quotations/get_signature_to_validate.md)
-- [Thanh toán online](applications/finance/payment_providers.md)
+- [Mẫu báo giá](quote_template.md)
+- [Online signatures for order confirmations](get_signature_to_validate.md)
+- [Thanh toán online](../../../finance/payment_providers.md)

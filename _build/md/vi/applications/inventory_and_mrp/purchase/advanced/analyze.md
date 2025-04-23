@@ -14,7 +14,7 @@ suite. This documentation only covers the measures specific to the Purchase Anal
 report, along with a few use case examples.
 
 For a full overview of the basic features available in most Odoo reports, see the documentation
-on [reporting essentials](applications/essentials/reporting.md).
+on [reporting essentials](../../../essentials/reporting.md).
 
 ## Đơn vị tính
 

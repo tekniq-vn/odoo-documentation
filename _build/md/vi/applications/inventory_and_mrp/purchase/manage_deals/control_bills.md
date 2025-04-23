@@ -110,4 +110,4 @@ when they are displayed, depending on the *Bill Control* policy used.
 | Đã thanh toán hết          | All/some products received; draft bill created | Draft bill created     |
 
 #### SEE ALSO
-[Manage vendor bills](applications/inventory_and_mrp/purchase/manage_deals/manage.md)
+[Manage vendor bills](manage.md)

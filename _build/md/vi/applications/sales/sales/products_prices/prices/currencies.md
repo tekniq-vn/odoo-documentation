@@ -137,7 +137,7 @@ On the pricelist detail form, for either a new or existing pricelist, adjust the
 Currency field as desired.
 
 #### SEE ALSO
-[Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md) to learn more about pricelist configuration.
+[Pricelists, discounts, and formulas](pricing.md) to learn more about pricelist configuration.
 
 ## Auto-conversion from public price
 
@@ -185,4 +185,4 @@ designated pricelists are applied to a customer trying to purchase this specific
 pre-determined set prices appear.
 
 #### SEE ALSO
-[Pricelists, discounts, and formulas](applications/sales/sales/products_prices/prices/pricing.md)
+[Pricelists, discounts, and formulas](pricing.md)

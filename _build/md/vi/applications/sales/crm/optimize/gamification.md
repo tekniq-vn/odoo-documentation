@@ -19,7 +19,7 @@ and challenges related to the *CRM* and *Sales* applications.
 If **both** the *CRM* and *Sales* apps are installed, the *CRM Gamification* module is
 automatically installed on the database.
 
-To access the *Gamification Tools* menu, first enable [Chế độ lập trình viên (chế độ gỡ lỗi)](applications/general/developer_mode.md#developer-mode).
+To access the *Gamification Tools* menu, first enable [Chế độ lập trình viên (chế độ gỡ lỗi)](../../../general/developer_mode.md#developer-mode).
 
 Next, navigate to Settings app ‣ Gamification Tools.
 

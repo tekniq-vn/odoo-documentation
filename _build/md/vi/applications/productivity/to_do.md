@@ -18,7 +18,7 @@ Assignees, or more information using the Odoo Editor.
 
 ### Converting to-dos into project tasks
 
-If you use the [Project app](applications/services/project.md), you can convert to-dos into project tasks.
+If you use the [Project app](../services/project.md), you can convert to-dos into project tasks.
 To do so, open a to-do and click the gear button (⚙), then Convert to Task.
 
 Next, select the Project, Assignees, and Tags, then click
@@ -55,7 +55,7 @@ The To Do activity is *not* a to-do task. Selecting it does not create a to-do t
 
 ### Viewing to-dos in the Project app
 
-If you use the [Project app](applications/services/project.md), your to-dos also appear as private tasks
+If you use the [Project app](../services/project.md), your to-dos also appear as private tasks
 under the My Tasks view.
 
 ![Example of a "My Tasks" pipeline in the Project app](../../.gitbook/assets/my-task-pipeline.png)

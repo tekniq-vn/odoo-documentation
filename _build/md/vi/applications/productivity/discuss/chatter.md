@@ -129,7 +129,7 @@ Doing this opens a Compose Email pop-up window. Confirm or edit the intended
 Recipients of the message, or add additional recipients. The Subject field
 auto-populates based on the title of the record, though it can be edited, if desired.
 
-To use an [email template](applications/general/companies/email_template.md) for the message, select it
+To use an [email template](../../general/companies/email_template.md) for the message, select it
 from the drop-down menu in the Load template field.
 
 #### NOTE
@@ -278,8 +278,8 @@ Before the *WhatsApp* and *Google Translate* integrations can be used with the c
 **must** be configured. Step-by-step instructions on how to set-up each of these features can be
 found in the documentation below:
 
-- [WhatsApp](applications/productivity/whatsapp.md)
-- [Google Dịch](applications/general/integrations/google_translate.md)
+- [WhatsApp](../whatsapp.md)
+- [Google Dịch](../../general/integrations/google_translate.md)
 
 ### WhatsApp
 
@@ -296,7 +296,7 @@ templates are found for that model, clicking this button opens a Send WhatsApp M
 pop-up window.
 
 #### IMPORTANT
-*WhatsApp* templates **must** be approved before they can be used. See [WhatsApp templates](applications/productivity/whatsapp.md#productivity-whatsapp-templates) for more information.
+*WhatsApp* templates **must** be approved before they can be used. See [WhatsApp templates](../whatsapp.md#productivity-whatsapp-templates) for more information.
 
 ![A send WhatsApp message pop-up window.](../../../.gitbook/assets/whats-app-message.png)
 
@@ -304,7 +304,7 @@ pop-up window.
 
 *Google Translate* can be used to translate user-generated text in the Odoo chatter.
 
-To enable *Google Translate* on a database, an *API key* must first [be created](applications/general/integrations/google_translate.md) through the [Google API Console](https://console.developers.google.com/).
+To enable *Google Translate* on a database, an *API key* must first [be created](../../general/integrations/google_translate.md) through the [Google API Console](https://console.developers.google.com/).
 
 After creating the API key, navigate to the Settings app ‣ Discuss section and
 paste the key in the Message Translation field. Click Save to save the
@@ -314,7 +314,7 @@ changes.
 
 To translate a user's text from another language, click the <i class="fa fa-ellipsis-h"></i>
 (ellipsis) menu to the right of the chatter. Then, select Translate. The
-content translates to the language set in the [user's preferences](applications/general/users/language.md).
+content translates to the language set in the [user's preferences](../../general/users/language.md).
 
 ![alt text](../../../.gitbook/assets/chatter-translate-message.png)
 
@@ -322,7 +322,7 @@ content translates to the language set in the [user's preferences](applications/
 Using the *Google Translate* API **requires** a current billing account with [Google](https://myaccount.google.com/).
 
 #### SEE ALSO
-- [Thảo luận](applications/productivity/discuss.md)
-- [Kênh thảo luận](applications/productivity/discuss/team_communication.md)
-- [Hoạt động](applications/essentials/activities.md)
-- [WhatsApp](applications/productivity/whatsapp.md)
+- [Thảo luận](../discuss.md)
+- [Kênh thảo luận](team_communication.md)
+- [Hoạt động](../../essentials/activities.md)
+- [WhatsApp](../whatsapp.md)

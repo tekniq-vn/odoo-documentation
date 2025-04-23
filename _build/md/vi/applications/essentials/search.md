@@ -44,7 +44,7 @@ Cấu hình so khớp mặc định là Khớp bất kỳ quy tắc sau, cho bi�
 Theo mặc định, một quy tắc lọc duy nhất được thêm vào bộ lọc tùy chỉnh. Thông tin sau mô tả cấu trúc của một quy tắc lọc:
 
 1. Trường nội tuyến đầu tiên là *tên trường* để lọc theo. Một số trường có các tham số tinh chỉnh được lồng vào trong một trường khác. Các trường này có biểu tượng > (mũi tên) bên cạnh, có thể được chọn để hiển thị các trường lồng nhau.
-2. Trường nội tuyến thứ hai là *toán tử* có điều kiện được sử dụng để so sánh tên trường với giá trị. [Các toán tử có điều kiện khả dụng](developer/reference/backend/orm.md#reference-orm-domains) được áp dụng riêng theo kiểu dữ liệu của trường.
+2. Trường nội tuyến thứ hai là *toán tử* có điều kiện được sử dụng để so sánh tên trường với giá trị. [Các toán tử có điều kiện khả dụng](../../developer/reference/backend/orm.md#reference-orm-domains) được áp dụng riêng theo kiểu dữ liệu của trường.
 3. Trường nội tuyến thứ ba là biến *giá trị* của tên trường. Giá trị đầu vào có thể xuất hiện dưới dạng menu thả xuống, đầu vào dạng văn bản, đầu vào dạng số, đầu vào dạng ngày/giờ, bộ chọn boolean hoặc có thể được để trống, tùy thuộc vào toán tử được sử dụng và kiểu dữ liệu của trường.
 
 Ba nút nội tuyến cũng có ở bên phải tiêu chí lọc của quy tắc:
@@ -72,7 +72,7 @@ Bạn có thể sử dụng nhiều nhóm cùng lúc. Nhóm đầu tiên đượ
 
 ## So sánh
 
-Một số trang chủ báo cáo có chứa phần So sánh trong menu thả xuống của thanh Tìm kiếm.... Trong số đó có báo cáo [Hiệu suất thiết bị tổng thể](applications/inventory_and_mrp/manufacturing/reporting/oee.md) cho ứng dụng *Sản xuất* và báo cáo [Mua hàng](applications/inventory_and_mrp/purchase/advanced/analyze.md) cho ứng dụng *Mua hàng*, cũng như các báo cáo khác.
+Một số trang chủ báo cáo có chứa phần So sánh trong menu thả xuống của thanh Tìm kiếm.... Trong số đó có báo cáo [Hiệu suất thiết bị tổng thể](../inventory_and_mrp/manufacturing/reporting/oee.md) cho ứng dụng *Sản xuất* và báo cáo [Mua hàng](../inventory_and_mrp/purchase/advanced/analyze.md) cho ứng dụng *Mua hàng*, cũng như các báo cáo khác.
 
 Các tùy chọn trong phần <i class="fa fa-adjust"></i> So sánh được sử dụng để so sánh dữ liệu từ hai khoảng thời gian khác nhau. Có hai tùy chọn so sánh để lựa chọn: (Bộ lọc thời gian): Giai đoạn trước và (Bộ lọc thời gian): Năm trước.
 

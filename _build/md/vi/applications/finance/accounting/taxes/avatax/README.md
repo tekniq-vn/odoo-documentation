@@ -98,7 +98,7 @@ To set the Fiscal Country, navigate to Accounting app ‣ Configuration
 ‣ Settings.
 
 #### SEE ALSO
-[Fiscal localizations](applications/finance/fiscal_localizations.md)
+[Fiscal localizations](../../fiscal_localizations.md)
 
 Under the Taxes section, set the Fiscal Country feature to United
 States, Canada, or Brazil. Then, click Save.
@@ -121,8 +121,8 @@ the companies.
 This ensures accurate tax calculations and smooth end-of-year accounting operations.
 
 #### SEE ALSO
-- [Công ty](applications/general/companies.md)
-- [Bắt đầu](applications/finance/accounting/get_started.md)
+- [Công ty](../../../general/companies.md)
+- [Bắt đầu](../get_started.md)
 
 ### Cài đặt phân hệ
 
@@ -154,10 +154,10 @@ modules individually by clicking on Install on Avatax for geo localization
 and Amazon/Avatax Bridge, respectively.
 
 #### SEE ALSO
-For localization specific *AvaTax* instructions, view the following [fiscal localization](applications/finance/fiscal_localizations.md) documentation:
+For localization specific *AvaTax* instructions, view the following [fiscal localization](../../fiscal_localizations.md) documentation:
 
-- [Brazil](applications/finance/fiscal_localizations/brazil.md)
-- [Hợp chủng quốc Hoa Kỳ](applications/finance/fiscal_localizations/united_states.md)
+- [Brazil](../../fiscal_localizations/brazil.md)
+- [Hợp chủng quốc Hoa Kỳ](../../fiscal_localizations/united_states.md)
 
 <a id="avatax-credentials"></a>
 
@@ -285,7 +285,7 @@ Fiscal Position. Set the Fiscal Position field to the fiscal position
 for the customer.
 
 #### SEE ALSO
-[Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
+[Fiscal positions (tax and account mapping)](fiscal_positions.md)
 
 #### AvaTax accounts
 
@@ -328,10 +328,10 @@ Mapping an AvaTax Category on either the *Product* or *Product Category* should 
 completed for every *Product* or *Product Category*, depending on the route that is chosen.
 
 #### SEE ALSO
-- [Fiscal positions (tax and account mapping)](applications/finance/accounting/taxes/fiscal_positions.md)
-- [AvaTax use](applications/finance/accounting/taxes/avatax/avatax_use.md)
-- [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)
+- [Fiscal positions (tax and account mapping)](fiscal_positions.md)
+- [AvaTax use](avatax/avatax_use.md)
+- [Cổng thông tin Avalara (Avatax)](avatax/avalara_portal.md)
 - [US Tax Compliance: Avatax elearning video](https://www.odoo.com/slides/slide/us-tax-compliance-avatax-2858?fullscreen=1)
 
-* [AvaTax use](applications/finance/accounting/taxes/avatax/avatax_use.md)
-* [Cổng thông tin Avalara (Avatax)](applications/finance/accounting/taxes/avatax/avalara_portal.md)
+* [AvaTax use](avatax/avatax_use.md)
+* [Cổng thông tin Avalara (Avatax)](avatax/avalara_portal.md)

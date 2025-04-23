@@ -17,7 +17,7 @@ manually.
 ## Access scheduled actions
 
 #### IMPORTANT
-In order to access scheduled actions, [developer mode](applications/general/developer_mode.md#developer-mode) **must** be
+In order to access scheduled actions, [developer mode](../../general/developer_mode.md#developer-mode) **must** be
 activated.
 
 With developer mode activated, navigate to Settings app ‣ Technical ‣ Scheduled
@@ -54,7 +54,7 @@ form, in the Execute Every field.
 The scheduled action does **not** function correctly if the execution time is less than five
 minutes. This is a general rule for all scheduled actions.
 
-For more information, read the [Frequent Technical Questions](administration/odoo_sh/advanced/frequent_technical_questions.md) documentation.
+For more information, read the [Frequent Technical Questions](../../../administration/odoo_sh/advanced/frequent_technical_questions.md) documentation.
 
 ## Generate recurring invoices and payments
 
@@ -156,6 +156,6 @@ For example, if the next invoice date is July 1st, and the Automatic Closing is 
 '30 Days', the scheduled action would close the subscription on August 1st.
 
 #### SEE ALSO
-- [Đăng ký](applications/sales/subscriptions.md)
-- [Gói cước đăng ký](applications/sales/subscriptions/plans.md)
-- [Quy tắc tự động hoá](applications/sales/subscriptions/automatic_alerts.md)
+- [Đăng ký](../subscriptions.md)
+- [Gói cước đăng ký](plans.md)
+- [Quy tắc tự động hoá](automatic_alerts.md)

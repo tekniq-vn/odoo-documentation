@@ -1,6 +1,6 @@
 # Chapter 8: Computed Fields And Onchanges
 
-The [relations between models](developer/tutorials/server_framework_101/07_relations.md) are a key component of
+The [relations between models](07_relations.md) are a key component of
 any Odoo module. They are necessary for the modelization of any business case. However, we may want
 links between the fields within a given model. Sometimes the value of one field is determined from
 the values of other fields and other times we want to help the user with data entry.
@@ -13,7 +13,7 @@ other than class definitions and field declarations.
 ## Computed Fields
 
 **Reference**: the documentation related to this topic can be found in
-[Computed Fields](developer/reference/backend/orm.md#reference-fields-compute).
+[Computed Fields](../../reference/backend/orm.md#reference-fields-compute).
 
 #### NOTE
 **Goal**: at the end of this section:
@@ -41,7 +41,7 @@ method should set the value of the computed field for every record in
 
 By convention, `compute` methods are private, meaning that they cannot
 be called from the presentation tier, only from the business tier (see
-[Chapter 1: Architecture Overview](developer/tutorials/server_framework_101/01_architecture.md#tutorials-server-framework-101-01-architecture)). Private methods have a name starting with an
+[Chapter 1: Architecture Overview](01_architecture.md#tutorials-server-framework-101-01-architecture)). Private methods have a name starting with an
 underscore `_`.
 
 ### Dependencies
@@ -248,5 +248,5 @@ When using stored computed fields, pay close attention to the dependencies. When
 depend on other computed fields, changing a value can trigger a large number of recomputations.
 This leads to poor performance.
 
-In the [next chapter](developer/tutorials/server_framework_101/09_actions.md), we'll see how we can trigger some
+In the [next chapter](09_actions.md), we'll see how we can trigger some
 business logic when buttons are clicked.

@@ -7,7 +7,7 @@ Instead, once a sales order (SO) is confirmed, product availability **must** be 
 and the required quantity **must** be reserved manually.
 
 #### SEE ALSO
-[About reservation methods](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods.md)
+[About reservation methods](../reservation_methods.md)
 
 ## Cấu hình
 
@@ -92,5 +92,5 @@ This is because there is sufficient quantity in stock to reserve for the order.
 Once ready, click Validate.
 
 #### SEE ALSO
-- [At confirmation reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.md)
-- [Before scheduled date reservation](applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.md)
+- [At confirmation reservation](at_confirmation.md)
+- [Before scheduled date reservation](before_scheduled_date.md)

@@ -3,7 +3,7 @@
 The *Team Performance* report in the **Recruitment** app shows how many applicants each recruiter is
 managing.
 
-This information is determined by the individuals populating the [Recruiter](applications/hr/recruitment/add-new-applicants.md#recruitment-applicant-details) field on each applicant form.
+This information is determined by the individuals populating the [Recruiter](add-new-applicants.md#recruitment-applicant-details) field on each applicant form.
 
 ## Open report
 

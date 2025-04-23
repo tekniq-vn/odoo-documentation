@@ -185,4 +185,4 @@ important maintenance metrics: its , , and Est. Next Failure date.
 ![List of equipment included in a work center.](../../../.gitbook/assets/maintenance-setup-work-center.png)
 
 #### SEE ALSO
-[Add new equipment](applications/inventory_and_mrp/maintenance/add_new_equipment.md)
+[Add new equipment](add_new_equipment.md)

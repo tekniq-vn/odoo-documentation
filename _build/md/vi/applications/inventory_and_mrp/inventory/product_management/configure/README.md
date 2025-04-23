@@ -12,11 +12,11 @@ A group of products in Odoo can be further defined using:
     shelf.*
 - [Gói hàng](configure/packaging.md): groups the *same* products together to receive or sell them in
   specified quantities.
-  - *Ex: Cans of soda sold in packs of six, twelve, or twenty-four.*
+  * _Ex: Cans of soda sold in packs of six, twelve, or twenty-four._
 
 ## So sánh
 
-This table provides a detailed comparison of units of measure, packages, and packaging to help
+This table provides a detailed comparison of units of measure, packages, and packaging to help\
 businesses evaluate which best suits their requirements.
 
 | Tính năng                 | Đơn vị tính                                                                                                         | Kiện hàng                                                                                                                                                                                                                                                                                                               | Gói hàng                                                                                            |
@@ -36,56 +36,54 @@ businesses evaluate which best suits their requirements.
 
 ## Trường hợp vận dụng
 
-After comparing the various features, consider how these businesses, with various inventory
+After comparing the various features, consider how these businesses, with various inventory\
 management and logistics workflows, came to their decision.
 
 ### Pallets of items using packaging
 
 Một nhà kho tiếp nhận các lô xà phòng được sắp xếp trên các pallet vật lý, mỗi pallet chứa 96 thanh. Các pallet này được sử dụng để chuyển hàng nội bộ và cũng được bán dưới dạng các đơn vị độc lập. Vì mục đích logistics, trọng lượng của pallet phải được bao gồm trong tổng trọng lượng vận chuyển cho những lần giao hàng nhất định. Ngoài ra, pallet cần có mã vạch để dễ theo dõi và số lượng từng thanh xà phòng phải được bao gồm trong số lượng hàng tồn kho khi pallet được nhận.
 
-After evaluating various options, *product packaging* was the most suitable solution. Packaging
-enables assigning a barcode to a pallet, identifying it as a "pallet type" containing 96 soap bars.
-This barcode streamlines operations by automatically registering the grouped quantity. Key
+After evaluating various options, _product packaging_ was the most suitable solution. Packaging\
+enables assigning a barcode to a pallet, identifying it as a "pallet type" containing 96 soap bars.\
+This barcode streamlines operations by automatically registering the grouped quantity. Key\
 distinctions include:
 
-- **Warehouse tracking limitations**: Odoo tracks only the total quantity, not the number of
-  packagings. For instance, if a pallet with 12 and 24 quantities is received, Odoo records 36
+* **Warehouse tracking limitations**: Odoo tracks only the total quantity, not the number of\
+  packagings. For instance, if a pallet with 12 and 24 quantities is received, Odoo records 36\
   quantities, not the pallet details.
-- **Packaging barcodes are type-specific, not unique**: Barcodes represent packaging types (e.g.,
-  "pallet of 96 soap bars") but do not uniquely identify individual pallets, such as Pallet #1 or
+* **Packaging barcodes are type-specific, not unique**: Barcodes represent packaging types (e.g.,\
+  "pallet of 96 soap bars") but do not uniquely identify individual pallets, such as Pallet #1 or\
   Pallet #2.
 
 ### Capture product information using barcode
 
-An Odoo user expects the **Barcode** app to display the typical storage location of a product by
+An Odoo user expects the **Barcode** app to display the typical storage location of a product by\
 scanning a barcode for a container.
 
 *Packages* was the most suitable. When the [appropriate setting is enabled](configure/package.md#inventory-warehouses-storage-enable-package), scanning a package barcode displays its contents in
 the **Barcode** app.
 
-Packages represent physical containers, enabling detailed tracking of the items they hold.
-Scanning a package provides visibility into its contents and facilitates operations, like inventory
+Packages represent physical containers, enabling detailed tracking of the items they hold.\
+Scanning a package provides visibility into its contents and facilitates operations, like inventory\
 moves.
-
-<a id="inventory-product-management-lots-uom"></a>
 
 ### Track different units of measure in storage
 
-A fruit juice distributor tracks multiple  for their operations:
+A fruit juice distributor tracks multiple for their operations:
 
-- Fruits are purchased in tons.
-- Juice is produced and stored in kilograms.
-- Small samples are stored in grams for recipe testing.
+* Fruits are purchased in tons.
+* Juice is produced and stored in kilograms.
+* Small samples are stored in grams for recipe testing.
 
-*Unit of Measure* was most suitable. Odoo automatically converts tons to kilograms during
-receipts. However, since Odoo tracks only one  per product in the database, the company uses
+_Unit of Measure_ was most suitable. Odoo automatically converts tons to kilograms during\
+receipts. However, since Odoo tracks only one per product in the database, the company uses\
 lot numbers to differentiate :
 
-- LOT1: Grams (g)
-- LOT2: Kilograms (kg)
+* LOT1: Grams (g)
+* LOT2: Kilograms (kg)
 
-Manual inventory adjustments are required to convert between lots, such as subtracting 1 kg from
-LOT2 to add 1,000 g to LOT1. While functional, this workaround can be time-consuming and prone to
+Manual inventory adjustments are required to convert between lots, such as subtracting 1 kg from\
+LOT2 to add 1,000 g to LOT1. While functional, this workaround can be time-consuming and prone to\
 errors.
 
 * [Loại sản phẩm](configure/type.md)

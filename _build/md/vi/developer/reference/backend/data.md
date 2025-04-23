@@ -1,15 +1,15 @@
-<a id="reference-data"></a>
+# data
 
-# Data Files
+## Data Files
 
-Odoo is greatly data-driven, and a big part of modules definition is thus
-the definition of the various records it manages: UI (menus and views),
-security (access rights and record rules), reports and plain data are all
+Odoo is greatly data-driven, and a big part of modules definition is thus\
+the definition of the various records it manages: UI (menus and views),\
+security (access rights and record rules), reports and plain data are all\
 defined via records.
 
-## Structure
+### Structure
 
-The main way to define data in Odoo is via XML data files: The broad structure
+The main way to define data in Odoo is via XML data files: The broad structure\
 of an XML data file is the following:
 
 * Any number of operation elements within the root element `odoo`
@@ -23,14 +23,15 @@ of an XML data file is the following:
 </odoo>
 ```
 
-Data files are executed sequentially, operations can only refer to the result
+Data files are executed sequentially, operations can only refer to the result\
 of operations defined previously
 
-#### NOTE
-If the content of the data file is expected to be applied only once, you
-can specify the odoo flag `noupdate` set to 1.  If part of
-the data in the file is expected to be applied once, you can place this part
-of the file in a <data noupdate="1"> domain.
+**NOTE**
+
+If the content of the data file is expected to be applied only once, you\
+can specify the odoo flag `noupdate` set to 1. If part of\
+the data in the file is expected to be applied once, you can place this part\
+of the file in a domain.
 
 ```xml
 <odoo>
@@ -44,16 +45,14 @@ of the file in a <data noupdate="1"> domain.
 </odoo>
 ```
 
-## Core operations
+### Core operations
 
-<a id="reference-data-record"></a>
+#### `record`
 
-### `record`
-
-`record` appropriately defines or updates a database record, it has the
+`record` appropriately defines or updates a database record, it has the\
 following attributes:
 
-`model` (required)
+`model` (required)\
 : name of the model to create (or update)
 
 `id`
@@ -64,7 +63,12 @@ following attributes:
     refer to this record
   * for record modification, the record to modify
 
-`context`
+
+* for record creation, allows subsequent definitions to either modify or\
+  refer to this record
+* for record modification, the record to modify
+
+`context`\
 : context to use when creating the record
 
 `forcecreate`
@@ -72,19 +76,19 @@ following attributes:
   <br/>
   Requires an [external id](../../glossary.md#term-external-id), defaults to `True`.
 
-### `field`
+#### `field`
 
-Each record can be composed of `field` tags, defining values to set when
-creating the record. A `record` with no `field` will use all default
+Each record can be composed of `field` tags, defining values to set when\
+creating the record. A `record` with no `field` will use all default\
 values (creation) or do nothing (update).
 
-A `field` has a mandatory `name` attribute, the name of the field to set,
+A `field` has a mandatory `name` attribute, the name of the field to set,\
 and various methods to define the value itself:
 
-Nothing
-: if no value is provided for the field, an implicit `False` will be set
-  on the field. Can be used to clear a field, or avoid using a default value
-  for the field.
+Nothing\
+: if no value is provided for the field, an implicit `False` will be set\
+on the field. Can be used to clear a field, or avoid using a default value\
+for the field.
 
 `search`
 : for [relational fields](orm.md#reference-fields-relational), should be
@@ -149,12 +153,12 @@ Nothing
   identifiers](../../glossary.md#term-external-identifiers) (`ref`) and the model object for the current field if
   applicable (`obj`)
 
-### `delete`
+#### `delete`
 
-The `delete` tag can remove any number of records previously defined. It
+The `delete` tag can remove any number of records previously defined. It\
 has the following attributes:
 
-`model` (required)
+`model` (required)\
 : the model in which a specified record should be deleted
 
 `id`
@@ -166,14 +170,14 @@ has the following attributes:
 
 `id` and `search` are exclusive
 
-### `function`
+#### `function`
 
-The `function` tag calls a method on a model, with provided parameters.
-It has two mandatory parameters `model` and `name` specifying respectively
+The `function` tag calls a method on a model, with provided parameters.\
+It has two mandatory parameters `model` and `name` specifying respectively\
 the model and the name of the method to call.
 
-Parameters can be provided using `eval` (should evaluate to a sequence of
-parameters to call the method with) or `value` elements (see `list`
+Parameters can be provided using `eval` (should evaluate to a sequence of\
+parameters to call the method with) or `value` elements (see `list`\
 values).
 
 ```xml
@@ -197,17 +201,12 @@ values).
 </odoo>
 ```
 
-<!-- ignored assert -->
+### Shortcuts
 
-<a id="reference-data-shortcuts"></a>
+Because some important structural models of Odoo are complex and involved,\
+data files provide shorter alternatives to defining them using[record tags](data.md#reference-data-record):
 
-## Shortcuts
-
-Because some important structural models of Odoo are complex and involved,
-data files provide shorter alternatives to defining them using
-[record tags](#reference-data-record):
-
-### `menuitem`
+#### `menuitem`
 
 Defines an `ir.ui.menu` record with a number of defaults and fallbacks:
 
@@ -221,9 +220,12 @@ Defines an `ir.ui.menu` record with a number of defaults and fallbacks:
   * Otherwise the menu is defined as a "top-level" menu item (*not* a menu
     with no parent)
 
-`name`
-: If no `name` attribute is specified, tries to get the menu name from
-  a linked action if any. Otherwise uses the record's `id`
+* If no `parent` is provided, tries to interpret the `name` attribute\
+  as a `/`-separated sequence of menu names and find a place in the menu\
+  hierarchy. In that interpretation, intermediate menus are automatically\
+  created
+* Otherwise the menu is defined as a "top-level" menu item (_not_ a menu\
+  with no parent)
 
 `groups`
 : A `groups` attribute is interpreted as a comma-separated sequence of
@@ -238,9 +240,10 @@ Defines an `ir.ui.menu` record with a number of defaults and fallbacks:
 `id`
 : the menu item's [external id](../../glossary.md#term-external-id)
 
-<a id="reference-data-template"></a>
+#### `template`
 
-### `template`
+Creates a [QWeb view](developer/reference/user_interface/view_architectures.md#reference-view-architectures-qweb) requiring only the `arch`\
+section of the view, and allowing a few _optional_ attributes:
 
 Creates a [QWeb view](../user_interface/view_architectures.md#reference-view-architectures-qweb) requiring only the `arch`
 section of the view, and allowing a few *optional* attributes:
@@ -252,27 +255,25 @@ section of the view, and allowing a few *optional* attributes:
 : same as the corresponding field on `ir.ui.view` (nb: `inherit_id`
   should be an [external identifier](../../glossary.md#term-external-identifier))
 
-`primary`
-: if set to `True` and combined with a `inherit_id`, defines the view
-  as a primary
+`primary`\
+: if set to `True` and combined with a `inherit_id`, defines the view\
+as a primary
 
 `groups`
 : comma-separated list of group [external identifiers](../../glossary.md#term-external-identifiers)
 
-`page`
-: if set to `"True"`, the template is a website page (linkable to,
-  deletable)
+`page`\
+: if set to `"True"`, the template is a website page (linkable to,\
+deletable)
 
-`optional`
-: `enabled` or `disabled`, whether the view can be disabled (in the
-  website interface) and its default status. If unset, the view is always
-  enabled.
+`optional`\
+: `enabled` or `disabled`, whether the view can be disabled (in the\
+website interface) and its default status. If unset, the view is always\
+enabled.
 
-<a id="reference-data-csvdatafiles"></a>
+### CSV data files
 
-## CSV data files
-
-XML data files are flexible and self-descriptive, but very verbose when
+XML data files are flexible and self-descriptive, but very verbose when\
 creating a number of simple records of the same model in bulk.
 
 For this case, data files can also use [csv](https://en.wikipedia.org/wiki/Comma-separated_values), this is often the case for
@@ -283,10 +284,9 @@ For this case, data files can also use [csv](https://en.wikipedia.org/wiki/Comma
   for [external identifiers](../../glossary.md#term-external-identifiers) (used for creation or update)
 * each row thereafter creates a new record
 
-Here's the first lines of the data file defining country states
-`res.country.state.csv`
+Here's the first lines of the data file defining country states`res.country.state.csv`
 
-```text
+```
 "id","country_id:id","name","code"
 state_au_1,au,"Australian Capital Territory","ACT"
 state_au_2,au,"New South Wales","NSW"
@@ -306,22 +306,22 @@ state_us_6,us,"Colorado","CO"
 
 rendered in a more readable format:
 
-| id         | country_id:id   | name                         | code   |
-|------------|-----------------|------------------------------|--------|
-| state_au_1 | au              | Australian Capital Territory | ACT    |
-| state_au_2 | au              | New South Wales              | NSW    |
-| state_au_3 | au              | Northern Territory           | NT     |
-| state_au_4 | au              | Queensland                   | QLD    |
-| state_au_5 | au              | South Australia              | SA     |
-| state_au_6 | au              | Tasmania                     | TAS    |
-| state_au_7 | au              | Victoria                     | VIC    |
-| state_au_8 | au              | Western Australia            | WA     |
-| state_us_1 | us              | Alabama                      | AL     |
-| state_us_2 | us              | Alaska                       | AK     |
-| state_us_3 | us              | Arizona                      | AZ     |
-| state_us_4 | us              | Arkansas                     | AR     |
-| state_us_5 | us              | California                   | CA     |
-| state_us_6 | us              | Colorado                     | CO     |
+| id           | country\_id:id | name                         | code |
+| ------------ | -------------- | ---------------------------- | ---- |
+| state\_au\_1 | au             | Australian Capital Territory | ACT  |
+| state\_au\_2 | au             | New South Wales              | NSW  |
+| state\_au\_3 | au             | Northern Territory           | NT   |
+| state\_au\_4 | au             | Queensland                   | QLD  |
+| state\_au\_5 | au             | South Australia              | SA   |
+| state\_au\_6 | au             | Tasmania                     | TAS  |
+| state\_au\_7 | au             | Victoria                     | VIC  |
+| state\_au\_8 | au             | Western Australia            | WA   |
+| state\_us\_1 | us             | Alabama                      | AL   |
+| state\_us\_2 | us             | Alaska                       | AK   |
+| state\_us\_3 | us             | Arizona                      | AZ   |
+| state\_us\_4 | us             | Arkansas                     | AR   |
+| state\_us\_5 | us             | California                   | CA   |
+| state\_us\_6 | us             | Colorado                     | CO   |
 
 For each row (record):
 

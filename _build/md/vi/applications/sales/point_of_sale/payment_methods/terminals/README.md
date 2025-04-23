@@ -1,9 +1,7 @@
 # Payment terminals
 
-Connecting and integrating a payment terminal with your POS system allows you to accept multiple
+Connecting and integrating a payment terminal with your POS system allows you to accept multiple\
 payment options, including credit and debit cards, making the payment process more efficient.
-
-<a id="terminals-configuration"></a>
 
 ## Cấu hình
 
@@ -29,18 +27,11 @@ the POS](../payment_methods.md).
 
 ## Pay with a payment terminal
 
-When processing a payment, select the terminal's payment method. Check the amount and
-click on Send. Once the payment is successful, the status changes to Payment
+When processing a payment, select the terminal's payment method. Check the amount and\
+click on Send. Once the payment is successful, the status changes to Payment\
 Successful.
 
 #### NOTE
-- In case of connection issues between Odoo and the payment terminal, force the payment by
-  clicking on Force Done, which allows you to validate the order.
-  <br/>
-  This option is only available after receiving an error message informing you that the
-  connection failed.
-  <br/>
-- To cancel the payment request, click on Cancel.
 
 * [Adyen](terminals/adyen.md)
 * [Ingenico](terminals/ingenico.md)

@@ -4,7 +4,7 @@ Odoo eCommerce allows you to configure various shipping methods, enabling custom
 their preferred option at checkout. These methods include [external providers](#ecommerce-shipping-external-provider), [custom options](#ecommerce-shipping-custom-method)
 such as flat-rate or free shipping, local carriers via
 [Sendcloud](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.md)
-or [Based on Rules](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md#inventory-shipping-rules), and [in-store pickup](#ecommerce-shipping-instore-pickup).
+or [Based on Rules](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/#inventory-shipping-rules), and [in-store pickup](#ecommerce-shipping-instore-pickup).
 
 <a id="ecommerce-shipping-external-provider"></a>
 
@@ -58,14 +58,14 @@ Custom shipping methods must be created, for example:
 - to integrate shipping carriers through [Sendcloud](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.md);
 - to configure specific rules (e.g., to offer free shipping for orders above a specific amount) for
   a specific provider;
-- to configure [Fixed Price](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md#inventory-shipping-fixed) shipping or shipping
-  [Based on Rules](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md#inventory-shipping-rules).
+- to configure [Fixed Price](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/#inventory-shipping-fixed) shipping or shipping
+  [Based on Rules](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/#inventory-shipping-rules).
 
 To create a custom shipping method, go to Website ‣ Configuration ‣
 Shipping Methods, click New and fill in the [fields](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md#inventory-shipping-receiving-shipping-methods-details).
 
-In the Provider field, select [Based on Rules](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md#inventory-shipping-rules),
-[Fixed Price](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md#inventory-shipping-fixed), or [Pickup in store](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md#inventory-shipping-pickup)
+In the Provider field, select [Based on Rules](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/#inventory-shipping-rules),
+[Fixed Price](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/#inventory-shipping-fixed), or [Pickup in store](../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/#inventory-shipping-pickup)
 if the shiping method does not involve any specific provider.
 
 <a id="ecommerce-shipping-instore-pickup"></a>

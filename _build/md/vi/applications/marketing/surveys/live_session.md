@@ -14,7 +14,7 @@ Then, the audience of participants submit their answer, either via their compute
 and once the responses have been gathered, the host reveals all the participant's responses, in real
 time, with each answer's results displayed as a bar graph.
 
-![Rendered concept of how a Live Session question and answer result appears in Odoo Surveys.](../../../_images/live-session-concept-sample.png)
+![Rendered concept of how a Live Session question and answer result appears in Odoo Surveys.](../../../.gitbook/assets/live-session-concept-sample.png)
 
 ## Create Live Session survey
 
@@ -43,7 +43,7 @@ When the Question Time Limit option is enabled, a new field appears beside it, w
 the user **must** enter the desired amount of time (in seconds) the participant gets to answer the
 question.
 
-![The Live Session question time limit option for questions in the Odoo Surveys application.](../../../_images/question-time-limit-option.png)
+![The Live Session question time limit option for questions in the Odoo Surveys application.](../../../.gitbook/assets/question-time-limit-option.png)
 
 ### Options tab
 

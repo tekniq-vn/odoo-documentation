@@ -2,9 +2,9 @@
 
 To start using an IoT box:
 
-1. Make sure you have a [valid IoT box subscription](../iot.md#iot-iot-iot-subscription) in addition to
+1. Make sure you have a [valid IoT box subscription](./#iot-iot-iot-subscription) in addition to
    your Odoo subscription.
-2. Connect your [devices](devices.md) to the IoT box.
+2. Connect your [devices](devices/) to the IoT box.
 3. [Connect the IoT box to the network](#iot-iot-box-network).
 4. [Connect the IoT box to your Odoo database](connect.md).
 
@@ -62,12 +62,12 @@ manually.
 To access the IoT box's homepage, open a web browser **on the same network as the IoT box** and
 navigate to the IoT box's IP address.
 
-![IoT box's homepage](../../../_images/iot-homepage.png)
+![IoT box's homepage](../../../.gitbook/assets/iot-homepage.png)
 
 The IoT box's IP address can be retrieved by:
 
 - connecting the IoT box to an external monitor: the IP address is displayed on the screen.
-  ![POS display with IoT box's IP address](../../../_images/iot-pos-display.png)
+  ![POS display with IoT box's IP address](../../../.gitbook/assets/iot-pos-display.png)
 - connecting the IoT box to a printer: the IP address is automatically printed.
 - accessing the administrator interface of the router to which the IoT box is connected or using
   third-party software to scan the network.

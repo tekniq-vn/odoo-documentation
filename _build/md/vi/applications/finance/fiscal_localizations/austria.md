@@ -5,11 +5,11 @@
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Austrian
 localization.
 
-| Tên                          | Tên kỹ thuật      | Mô tả                                                                                            |
-|------------------------------|-------------------|--------------------------------------------------------------------------------------------------|
-| Áo - Kế toán                 | `l10n_at`         | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). |
-| Austria - Accounting Reports | `l10n_at_reports` | Adds localized versions of financial reports                                                     |
-| Xuất SAF-T của Áo            | `l10n_at_saft`    | Adds the SAF-T export.                                                                           |
+| Tên                          | Tên kỹ thuật      | Mô tả                                                                    |
+|------------------------------|-------------------|--------------------------------------------------------------------------|
+| Áo - Kế toán                 | `l10n_at`         | Default [fiscal localization package](./#fiscal-localizations-packages). |
+| Austria - Accounting Reports | `l10n_at_reports` | Adds localized versions of financial reports                             |
+| Xuất SAF-T của Áo            | `l10n_at_saft`    | Adds the SAF-T export.                                                   |
 
 ## Báo cáo tài chính
 
@@ -19,7 +19,7 @@ The following localized reports are available:
 > - Profit and loss according to [§ 231 UGB](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001702&Artikel=&Paragraf=231&Anlage=&Uebergangsrecht=) (Gesamtkostenverfahren)
 
 #### SEE ALSO
-[Accounting reporting documentation](../accounting/reporting.md)
+[Accounting reporting documentation](../accounting/reporting/)
 
 ## SAF-T (Standard Audit File for Tax)
 
@@ -97,4 +97,4 @@ or the mapping. Clicking View Problematic Accounts lets you view them.
 To export the SAF-T report, go to Accounting ‣ Reports ‣ General Ledger. Click
 the right side of the PDF button and select SAF-T.
 
-![The SAF-T button to export the file in XML format](../../../_images/austria-saft-button.png)
+![The SAF-T button to export the file in XML format](../../../.gitbook/assets/austria-saft-button.png)

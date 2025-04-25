@@ -13,7 +13,7 @@ To enable  campaigns in Odoo, make sure the *Mailing Campaigns*
 feature is activated by going to Email Marketing ‣ Configuration ‣ Settings,
 and then enable Mailing Campaigns and Save the changes.
 
-![View of the mailing campaigns setting in Odoo.](../../../_images/sms-mailing-campaigns.png)
+![View of the mailing campaigns setting in Odoo.](../../../.gitbook/assets/sms-mailing-campaigns.png)
 
 #### NOTE
 Activating the *Mailing Campaigns* feature in the *General Settings* also enables the *A/B Test*
@@ -34,7 +34,7 @@ initially, there's only a single checkbox labeled: Allow A/B Testing.
 
 When clicked, a series of other options appear.
 
-![The A/B Test tab is located on an Odoo SMS Marketing app campaign form.](../../../_images/ab-tests-sms.png)
+![The A/B Test tab is located on an Odoo SMS Marketing app campaign form.](../../../.gitbook/assets/ab-tests-sms.png)
 
 In the first field, enter a desired percentage of recipients to conduct the A/B Test on.
 
@@ -61,7 +61,7 @@ SMS Marketing app. On the Campaigns page, each campaign displays various
 information related to the mailings associated with that campaign (e.g. number of emails, social
 posts, SMSs, and push notifications).
 
-![Dasbhoard view of different Campaigns in the Odoo SMS Marketing app, separated by stage.](../../../_images/campaigns-page1.png)
+![Dasbhoard view of different Campaigns in the Odoo SMS Marketing app, separated by stage.](../../../.gitbook/assets/campaigns-page1.png)
 
 ## Campaign templates
 
@@ -69,7 +69,7 @@ Click Create to create a new campaign, and Odoo reveals a blank campaign templat
 to fill out. Alternatively, select any previously-made campaign in order to duplicate, review, or
 edit its campaign template form.
 
-![View of an SMS campaign template in Odoo SMS marketing.](../../../_images/sms-campaign-template.png)
+![View of an SMS campaign template in Odoo SMS marketing.](../../../.gitbook/assets/sms-campaign-template.png)
 
 With each campaign, the options to Send New Mailing, Send SMS,
 Send Social Post, and Push Notifications are available above the template
@@ -95,13 +95,13 @@ In order to send an  in this fashion, navigate to the
 Contacts app, select the desired contact in the database, and click on the
 SMS icon on the contact form (next to the Phone Number field).
 
-![The SMS icon is located on an individual's contact form in Odoo Contacts.](../../../_images/sms-contact-form.png)
+![The SMS icon is located on an individual's contact form in Odoo Contacts.](../../../.gitbook/assets/sms-contact-form.png)
 
 To send a message to multiple contacts at once, navigate to the main Contacts app
 main dashboard, choose the List View, and select all the desired contacts to whom the
 message should be sent. Then, under Action, select Send SMS.
 
-![Select a number of contacts, click action, and select send multiple SMSs.](../../../_images/sms-contacts-action-send-message.png)
+![Select a number of contacts, click action, and select send multiple SMSs.](../../../.gitbook/assets/sms-contacts-action-send-message.png)
 
 ## Set up SMS templates for future use
 
@@ -116,7 +116,7 @@ developer mode is currently active.
 Next return to the Settings app and, in the now-visible header menus at the top,
 choose Technical ‣ SMS Templates to begin setting up  templates for future marketing campaigns.
 
-![Select the SMS Template option in the Technical dropdown on the Settings app.](../../../_images/sms-template-setting.png)
+![Select the SMS Template option in the Technical dropdown on the Settings app.](../../../.gitbook/assets/sms-template-setting.png)
 
 Inside of the SMS Templates dashboard, Odoo reveals an entire page of  templates. The default List view showcases each template's name, and
 to which recipients it applies.
@@ -124,4 +124,4 @@ to which recipients it applies.
 On this page,  templates can be edited or created from scratch.
 
 ![The SMS Templates page in Odoo is available after enabling developer mode in the General
-Settings](../../../_images/sms-template.png)
+Settings](../../../.gitbook/assets/sms-template.png)

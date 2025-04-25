@@ -28,7 +28,7 @@ The entries are also color-coded. Current certifications that are still valid ap
 expired certifications appear in red, and certifications that are going to expire within the next
 90 days appear in orange.
 
-![The list of employee certifications.](../../../_images/certifications.png)
+![The list of employee certifications.](../../../.gitbook/assets/certifications.png)
 
 #### IMPORTANT
 **Only** certification records with the *Display Type* set to *Certification* on their
@@ -54,7 +54,7 @@ and lastly, certifications that are still Valid.
 This view provides an easy way to see which employees have certifications that are going to expire
 soon, to determine which employees need to take action to keep their certifications current.
 
-![The list of employee certifications, grouped by status.](../../../_images/status.png)
+![The list of employee certifications, grouped by status.](../../../.gitbook/assets/status.png)
 
 <a id="employees-certifications-form"></a>
 
@@ -94,4 +94,4 @@ information on the form:
   the start and end dates for the certification validity period. When the correct dates are
   selected, click <i class="fa fa-check"></i> Apply, and both fields are populated.
 
-![A certification form filled out for an OSHA certificate for construction.](../../../_images/osha.png)
+![A certification form filled out for an OSHA certificate for construction.](../../../.gitbook/assets/osha.png)

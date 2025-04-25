@@ -30,7 +30,7 @@ On the selected manufacturing or inventory order, a purple Quality Checks button
 above the order. Click the button to open the Quality Check pop-up window, from which
 any quality checks created for the order can be processed.
 
-![The Quality Check pop-up window on a manufacturing or inventory order.](../../../../_images/quality-check-pop-up.png)
+![The Quality Check pop-up window on a manufacturing or inventory order.](../../../../.gitbook/assets/quality-check-pop-up.png)
 
 To complete an *Instructions* quality check, follow the instructions detailed in the
 Quality Check pop-up window. Finally, click Validate to confirm that the
@@ -67,7 +67,7 @@ Begin processing the work order's steps until the *Instructions* quality check s
 Click on the step to open a pop-up window that details how to complete the quality check. Once
 completed, click the Next button to complete the check, and move on to the next step.
 
-![An Instruction check as it appears in the Shop Floor module.](../../../../_images/instructions-check-shop-floor.png)
+![An Instruction check as it appears in the Shop Floor module.](../../../../.gitbook/assets/instructions-check-shop-floor.png)
 
 Alternatively, an *Instructions* quality check can be completed by clicking the checkbox that
 appears on the right side of the step's line on the work order card. When using this method, the

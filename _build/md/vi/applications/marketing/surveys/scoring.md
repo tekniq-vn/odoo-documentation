@@ -32,14 +32,14 @@ pass the survey with a final score that is greater than or equal to the set Succ
 
 Trong phần Ứng viên, có thể yêu cầu người tham gia đăng nhập để thực hiện khảo sát. Nếu bật cài đặt Yêu cầu đăng nhập, hai tùy chọn mới sẽ xuất hiện: hộp kiểm Giới hạn lần làm để giới hạn số lần tham gia khảo sát, và tùy chọn Trao huy hiệu nằm dưới mục Chứng nhận trong phần Chấm điểm.
 
-![Setting the Required Score (percentage), login required, and certification template.](../../../_images/required-score-login.png)
+![Setting the Required Score (percentage), login required, and certification template.](../../../.gitbook/assets/required-score-login.png)
 
 Badges are displayed on the eLearning portion of a given user's portal, and are a way to set
 milestones and reward participants for passing surveys or gaining points. Besides the awardee,
 website visitors who access the Courses page will also be able to see the granted
 badges.
 
-![Example of how a badge looks on the eLearning portion of the website.](../../../_images/frontend-badges.png)
+![Example of how a badge looks on the eLearning portion of the website.](../../../.gitbook/assets/frontend-badges.png)
 
 #### SEE ALSO
 [Create questions](questions.md)

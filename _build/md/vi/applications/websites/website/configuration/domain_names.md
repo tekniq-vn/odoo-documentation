@@ -20,16 +20,16 @@ To register a one-year free domain name for your Odoo Online database, sign in t
 go to the [database manager](https://www.odoo.com/my/databases). Click the gear icon
 (⚙️) next to the database name and select Domain Names.
 
-![Accessing a database's domain names configuration](../../../../_images/domain-names.png)
+![Accessing a database's domain names configuration](../../../../.gitbook/assets/domain-names.png)
 
 Search for the desired domain name and check its availability.
 
-![Searching for an available domain name](../../../../_images/domain-search.png)
+![Searching for an available domain name](../../../../.gitbook/assets/domain-search.png)
 
 Select the desired domain name, fill in the Domain Owner form, and click
 Register. The chosen domain name is directly linked to the database.
 
-![Filling in the domain owner information](../../../../_images/domain-owner.png)
+![Filling in the domain owner information](../../../../.gitbook/assets/domain-owner.png)
 
 Next, you should [map your domain name to your Odoo website](#domain-name-website-map).
 
@@ -160,7 +160,7 @@ DNS hosting services do not offer an easy way to do so.
    - Target: e.g., `www.yourdomain.com`
    - Proxy status: Proxied
 
-   ![Adding a CNAME DNS record to Cloudflare to redirect a naked domain to a www subdomain](../../../../_images/cloudflare-cname-www.png)
+   ![Adding a CNAME DNS record to Cloudflare to redirect a naked domain to a www subdomain](../../../../.gitbook/assets/cloudflare-cname-www.png)
 6. Add another second CNAME record to redirect the `www` subdomain (e.g., `www.yourdomain.com`) to
    your database address (e.g., `mycompany.odoo.com`) using the following configuration:
    - Type: CNAME
@@ -168,7 +168,7 @@ DNS hosting services do not offer an easy way to do so.
    - Target: e.g., `mycompany.odoo.com`
    - Proxy status: DNS only
 
-   ![Adding a CNAME DNS record to Cloudflare to redirect a www subdomain to an Odoo database](../../../../_images/cloudflare-cname-db.png)
+   ![Adding a CNAME DNS record to Cloudflare to redirect a www subdomain to an Odoo database](../../../../.gitbook/assets/cloudflare-cname-db.png)
 7. Define a redirect rule to permanently redirect (301) your naked domain (e.g., `yourdomain.com`)
    to both `http://` and `https://` by going to Rules ‣ Create rule ‣ Products,
    and clicking Create a Rule under Redirect Rules:
@@ -184,9 +184,9 @@ DNS hosting services do not offer an easy way to do so.
      - Status code: 301
      - Preserve query string: enabled
 
-   ![Defining a Cloudflare redirect rule to create a permanent redirect (301)](../../../../_images/cloudflare-redirect-rule.png)
+   ![Defining a Cloudflare redirect rule to create a permanent redirect (301)](../../../../.gitbook/assets/cloudflare-redirect-rule.png)
 8. Go to SSL/TLS and set the encryption mode to Full.
-   ![Setting the encryption mode to full on Cloudflare](../../../../_images/cloudflare-encryption.png)
+   ![Setting the encryption mode to full on Cloudflare](../../../../.gitbook/assets/cloudflare-encryption.png)
 
 <a id="domain-name-db-map"></a>
 
@@ -210,14 +210,14 @@ Open the [database manager](https://www.odoo.com/my/databases), click the gear i
 own domain. Then, enter the domain name (e.g., `www.yourdomain.com`), click
 Verify and I confirm, it's done.
 
-![Mapping a domain name to an Odoo Online database](../../../../_images/map-database-online.png)
+![Mapping a domain name to an Odoo Online database](../../../../.gitbook/assets/map-database-online.png)
 
 Odoo.sh
 
 On Odoo.sh, go to Branches ‣ select your branch ‣ Settings ‣ Custom
 domains, type the domain name to add, then click Add domain.
 
-![Mapping a domain name to an Odoo.sh branch](../../../../_images/map-database-sh.png)
+![Mapping a domain name to an Odoo.sh branch](../../../../.gitbook/assets/map-database-sh.png)
 
 #### SEE ALSO
 [Odoo.sh branches: settings tab](../../../../administration/odoo_sh/getting_started/branches.md#odoosh-gettingstarted-branches-tabs-settings)

@@ -13,7 +13,7 @@ counts in the warehouse.
 To view the *Inventory Adjustments* page, navigate to Inventory app ‣ Operations
 ‣ Physical Inventory.
 
-![In stock products listed on the Inventory adjustments page.](../../../../../_images/inventory-adjustments-page.png)
+![In stock products listed on the Inventory adjustments page.](../../../../../.gitbook/assets/inventory-adjustments-page.png)
 
 In the Inventory Adjustments table, all products that are currently in stock are listed,
 with each product line containing the following information:
@@ -66,7 +66,7 @@ The fields below are optional and can be made visible by clicking the <i class="
 
 #### SEE ALSO
 - [Product type](../../product_management/configure/type.md)
-- [Tracking with lots, serial numbers, and expiration dates](../../product_management/product_tracking.md)
+- [Tracking with lots, serial numbers, and expiration dates](../../product_management/product_tracking/)
 
 ### Create an inventory adjustment
 
@@ -99,7 +99,7 @@ On Hand Quantity, the value in the Difference column is **red**. If the
 quantities match, and haven't been changed at all, no value appears in the Difference
 column.
 
-![Difference column on inventory adjustments page.](../../../../../_images/difference-column.png)
+![Difference column on inventory adjustments page.](../../../../../.gitbook/assets/difference-column.png)
 
 At this stage, the count () is recorded, but not yet applied. This means
 that the quantity on hand before the adjustment has not yet been updated to match the new, real
@@ -111,7 +111,7 @@ to click the checkbox on the far left of the line. Doing so reveals new button o
 the page, one of which is an Apply button. Clicking this button instead causes an
 Inventory Adjustment pop-up window to appear.
 
-![Apply all option applies the inventory adjustment once a reason is specified.](../../../../../_images/apply-inventory-adjustment.png)
+![Apply all option applies the inventory adjustment once a reason is specified.](../../../../../.gitbook/assets/apply-inventory-adjustment.png)
 
 From this pop-up menu, a reference or reason can be assigned to the inventory adjustment. By
 default, the Inventory Reason field is pre-populated with the date the adjustment is
@@ -142,7 +142,7 @@ Counted Quantity column, and sets the value of the Difference column to
 `0.00`. Subsequently, once applied, an inventory move with `0.00` Quantity Done is
 recorded in the product's inventory adjustment history.
 
-![Zero count inventory adjustment move.](../../../../../_images/zero-move.png)
+![Zero count inventory adjustment move.](../../../../../.gitbook/assets/zero-move.png)
 
 If the newly-counted value for a given product does **not** match the value in the On
 Hand Quantity recorded in the database, instead of clicking the Set button, record the
@@ -159,14 +159,14 @@ Difference column.
 Subsequently, once applied, a move with the difference between the On Hand Quantity and
 the Counted Quantity is recorded in the product's inventory adjustment history.
 
-![Inventory Adjustments History dashboard detailing a list of prior product moves.](../../../../../_images/history-inventory-adjustments.png)
+![Inventory Adjustments History dashboard detailing a list of prior product moves.](../../../../../.gitbook/assets/history-inventory-adjustments.png)
 
 The Actions menu appears when one or more products' checkboxes are selected. The
 Actions menu includes the option to Set to quantity on hand, which sets the
 selected products' Counted Quantity to the On Hand Quantity, and
 Set to 0, which sets the selected products' Counted Quantity to zero.
 
-![Inventory Adjustments Actions menu.](../../../../../_images/inventory-adjustment-actions.png)
+![Inventory Adjustments Actions menu.](../../../../../.gitbook/assets/inventory-adjustment-actions.png)
 
 #### IMPORTANT
 Đôi khi việc kiểm kê được thực hiện nhưng không thể áp dụng ngay vào cơ sở dữ liệu. Trong khoảng thời gian giữa kiểm kê thực tế và khi thực hiện điều chỉnh tồn kho, các điều chuyển hàng hóa có thể xảy ra. Khi đó, số lượng tồn kho hiện có trong cơ sở dữ liệu có thể thay đổi và không còn khớp với số lượng đã kiểm kê. Để đảm bảo độ chính xác, Odoo sẽ yêu cầu xác nhận trước khi áp dụng điều chỉnh tồn kho.
@@ -192,7 +192,7 @@ information can be filled:
 
 Finally, once ready, click Confirm to request the count.
 
-![Request a count popup on inventory adjustments page.](../../../../../_images/count-popup.png)
+![Request a count popup on inventory adjustments page.](../../../../../.gitbook/assets/count-popup.png)
 
 #### IMPORTANT
 In the Odoo **Barcode** app, users can only view inventory counts that are assigned to **them**,

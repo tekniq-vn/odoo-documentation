@@ -8,7 +8,7 @@ The global filters are represented by the <svg xmlns="http://www.w3.org/2000/svg
 via a pivot table, list, or chart to be filtered. Global filters differ from the *sort and
 filter* feature for cell ranges represented by the <i class="fa fa-filter"></i> (filter) icon.
 
-![The global filters menu sidebar on a spreadsheet.](../../../_images/global-filters-menu.png)
+![The global filters menu sidebar on a spreadsheet.](../../../.gitbook/assets/global-filters-menu.png)
 
 ## Thêm bộ lọc
 

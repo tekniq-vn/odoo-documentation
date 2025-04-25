@@ -15,7 +15,7 @@ To begin, navigate to Events app ‣ Configuration ‣ Event Templates. Doing so
 reveals the Event Templates page. Here, find all the existing event templates in the
 database.
 
-![The Event Templates page in the Odoo Events application.](../../../_images/event-templates-page.png)
+![The Event Templates page in the Odoo Events application.](../../../.gitbook/assets/event-templates-page.png)
 
 By default, Odoo provides three pre-configured event templates: Exhibition,
 Training, and Sport, which all have their own unique customizations applied
@@ -53,7 +53,7 @@ The event template would have to be modified, by selecting it on the *Event Temp
 All the fields on a standard Event Template form are *also* on the *Create Template*
 pop-up window, accessible via the *Template* field on an event form.
 
-![A standard event template form in the Odoo Events application.](../../../_images/event-template-form.png)
+![A standard event template form in the Odoo Events application.](../../../.gitbook/assets/event-template-form.png)
 
 Start by providing the event template with a name in the Event Template field, located
 at the top of the form.
@@ -127,7 +127,7 @@ Events app ‣ Configuration ‣ Booth Categories, and click New.
 To add a booth from the Booths tab of an event template form, click Add a
 line. Doing so reveals a blank Create Booths pop-up window.
 
-![A Create Booths pop-up window in the Odoo Events application.](../../../_images/create-booths-popup.png)
+![A Create Booths pop-up window in the Odoo Events application.](../../../.gitbook/assets/create-booths-popup.png)
 
 Start by providing a Name for this booth in the corresponding field at the top of the
 pop-up window.

@@ -22,7 +22,7 @@ To enable that setting, go to Sales app ‣ Configuration ‣ Settings, and scro
 to the Product Catalog section. Then, check the box next to the Variant Grid
 Entry option, and click Save.
 
-![The variant grid entry setting in the Odoo Sales application.](../../../../_images/order-grid-entry-setting.png)
+![The variant grid entry setting in the Odoo Sales application.](../../../../.gitbook/assets/order-grid-entry-setting.png)
 
 #### NOTE
 Of course, the Variants feature **must** also be activated, in order to use product
@@ -49,7 +49,7 @@ Entry.
 It should be noted that these options **only** appear if at least two values of an attribute have
 been added to the record.
 
-![Sales variant selection options on the attributes and variants tab on product form.](../../../../_images/attributes-variants-tab-selection-options.png)
+![Sales variant selection options on the attributes and variants tab on product form.](../../../../.gitbook/assets/attributes-variants-tab-selection-options.png)
 
 These options determine which method is used when adding product variants to quotations or sales
 orders.
@@ -68,7 +68,7 @@ The product configurator feature appears as a Configure pop-up window, as soon a
 product with (at least two) variants is added to a quotation or sales order, but **only** if the
 Product Configurator option is selected on its product form.
 
-![The product configurator pop-up window that appears on a quotation or sales order.](../../../../_images/product-configurator-window.png)
+![The product configurator pop-up window that appears on a quotation or sales order.](../../../../.gitbook/assets/product-configurator-window.png)
 
 #### NOTE
 This Configure pop-up window also appears if the Order Grid Entry setting
@@ -84,7 +84,7 @@ The order grid entry feature appears as a Choose Product Variants pop-up window,
 as a product with (at least two) variants is added to a quotation or sales order, but **only** if
 the Order Grid Entry option is selected on its product form.
 
-![The choose product variants pop-up window that appears on a quotation in Odoo.](../../../../_images/choose-product-variants-popup.png)
+![The choose product variants pop-up window that appears on a quotation in Odoo.](../../../../.gitbook/assets/choose-product-variants-popup.png)
 
 The Choose Product Variants pop-up window features all the variant options for that
 particular product. From this pop-up window, the salesperson can designate how many of each variant
@@ -94,7 +94,7 @@ When all the desired quantities and variants have been selected, the salesperson
 Confirm, and those orders are instantly added to the quotation/sales order in the
 Order Lines tab.
 
-![Populated order lines tab after order grid entry has been chosen to select products.](../../../../_images/order-grid-entry-order-lines-tab.png)
+![Populated order lines tab after order grid entry has been chosen to select products.](../../../../.gitbook/assets/order-grid-entry-order-lines-tab.png)
 
 #### SEE ALSO
 [Biến thể sản phẩm](../products_prices/products/variants.md)

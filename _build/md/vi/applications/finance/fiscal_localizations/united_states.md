@@ -31,7 +31,7 @@ Settings and under the Fiscal Localization section at the top, look for the `Gen
 Chart Template` selection to be listed next to the Package field label. This chart
 template includes the necessary settings for the US localization for the Odoo *Accounting* app.
 
-![The Generic Chart Template comes pre-configured for the US localization.](../../../_images/us-l10n-generic-chart-template.png)
+![The Generic Chart Template comes pre-configured for the US localization.](../../../.gitbook/assets/us-l10n-generic-chart-template.png)
 
 ### Modules installation
 
@@ -45,7 +45,7 @@ localization:
 | Bố cục séc của Hoa Kỳ                                       | `l10n_us_check_printing`     | Enables the printing of payments on pre-printed check paper. Supports the three most common<br/>check formats and will work out of the box with the linked checks from [checkdepot.net](https://checkdepot.net/collections/computer-checks/Odoo).<br/><br/>- [Check on top: Quicken / QuickBooks standard](https://checkdepot.net/collections/computer-checks/odoo+top-check)<br/>- [Check on middle: Peachtree standard](https://checkdepot.net/collections/computer-checks/odoo+middle-check)<br/>- [Check on bottom: ADP standard](https://checkdepot.net/collections/computer-checks/odoo+Bottom-Check) |
 | [Thanh toán NACHA](#l10n-us-nacha)                          | `l10n_us_payment_nacha`      | Export payments as NACHA files for use in the United States.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [Báo cáo 1099](#l10n-us-1099-report)                        | `l10n_us_1099`               | Export 1099 data for e-filing with a 3rd party.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [Avatax](#l10n-us-taxes-avatax)                             | `account_avatax`             | Module for the [AvaTax integration](../accounting/taxes/avatax.md) with Odoo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [Avatax](#l10n-us-taxes-avatax)                             | `account_avatax`             | Module for the [AvaTax integration](../accounting/taxes/avatax/) with Odoo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [United States - Payroll](#l10n-us-payroll)                 | `l10n_us_hr_payroll`         | Includes the necessary rules for United States payroll, including:<br/><br/>- Employee Details<br/>- Hợp đồng Lao động<br/>- Passport-based Contracts<br/>- Allowances/Deductions<br/>- Allow Configurations for Basic/Gross/Net Salary<br/>- Employee Payslip<br/>- Integration with Leaves Management                                                                                                                                                                                                                                                                                                     |
 | [United States - Payroll with Accounting](#l10n-us-payroll) | `l10n_us_hr_payroll_account` | Contains the necessary accounting data for the United States payroll rules.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [United States - Payroll - Export to ADP](#l10n-us-adp)     | `l10n_us_hr_payroll_adp`     | Export Work Entries to the ADP payroll software.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -104,7 +104,7 @@ the <i class="fa fa-caret-down"></i> (caret down) icon to access the drop-down m
 select Account Type under the Group By column heading to list all of the
 account types in the table.
 
-![Chart of Accounts grouped by Account Type.](../../../_images/us-l10n-coa-account-types.png)
+![Chart of Accounts grouped by Account Type.](../../../.gitbook/assets/us-l10n-coa-account-types.png)
 
 Besides structure, there are other key differences in the chart of accounts in the United States,
 compared to other countries:
@@ -148,13 +148,13 @@ tax calculations when items are sold, purchased, and invoiced in the database.
 
 #### IMPORTANT
 AvaTax is available for integration with databases/companies that have locations in the United
-States and Canada. Reference the [Fiscal country](../accounting/taxes/avatax.md#avatax-fiscal-country) documentation for more information.
+States and Canada. Reference the [Fiscal country](../accounting/taxes/avatax/#avatax-fiscal-country) documentation for more information.
 
 #### SEE ALSO
 Refer to the documentation articles below to integrate and configure an AvaTax account with an
 Odoo database:
 
-- [Tích hợp AvaTax](../accounting/taxes/avatax.md)
+- [Tích hợp AvaTax](../accounting/taxes/avatax/)
 - [Avalara management portal](../accounting/taxes/avatax/avalara_portal.md)
 - [Calculate taxes with AvaTax](../accounting/taxes/avatax/avatax_use.md)
 - [US Tax Compliance: AvaTax elearning video](https://www.odoo.com/slides/slide/us-tax-compliance-avatax-2858?fullscreen=1)
@@ -164,21 +164,21 @@ Odoo database:
 
 ## Báo cáo
 
-A number of [report selections](../accounting/reporting.md) are readily available for the US
+A number of [report selections](../accounting/reporting/) are readily available for the US
 localization, under the Accounting app ‣ Reporting drop-down menu:
 
-- [Balance Sheet](../accounting/reporting.md#accounting-reporting-balance-sheet): a "snapshot" of a company's financial
+- [Balance Sheet](../accounting/reporting/#accounting-reporting-balance-sheet): a "snapshot" of a company's financial
   position at a specific point in time, which contains an overview of a company's assets,
   liabilities, and equity.
-- [Profit & Loss](../accounting/reporting.md#accounting-reporting-balance-sheet): otherwise known as a *P&L statement* or
+- [Profit & Loss](../accounting/reporting/#accounting-reporting-balance-sheet): otherwise known as a *P&L statement* or
   *income statement*, provides a summary of a company's revenues, expenses, and profits/losses over
   a given period of time.
 - [Cash Flow Statement](#l10n-us-cash-flow-statement): shows how much cash and cash equivalents
   a company has received and spent in a given period.
-- [Executive Summary](../accounting/reporting.md#accounting-reporting-executive-summary): an overview report that covers
+- [Executive Summary](../accounting/reporting/#accounting-reporting-executive-summary): an overview report that covers
   the key performance indicators of a company's financial position, such as revenue, profit, and
   debt.
-- [Báo cáo thuế](../accounting/reporting.md#accounting-reporting-tax-report): một biểu mẫu chính thức được nộp cho cơ quan thuế, báo cáo thu nhập, chi phí và các thông tin thuế liên quan khác. Báo cáo thuế cho phép người nộp thuế tính toán nghĩa vụ thuế của mình, lên lịch thanh toán thuế hoặc yêu cầu hoàn thuế nếu đã nộp thừa. Trong Odoo, báo cáo thuế có thể được lập theo tháng, hai tháng một lần, hàng quý, 4 tháng một lần, nửa năm một lần hoặc hàng năm.
+- [Báo cáo thuế](../accounting/reporting/#accounting-reporting-tax-report): một biểu mẫu chính thức được nộp cho cơ quan thuế, báo cáo thu nhập, chi phí và các thông tin thuế liên quan khác. Báo cáo thuế cho phép người nộp thuế tính toán nghĩa vụ thuế của mình, lên lịch thanh toán thuế hoặc yêu cầu hoàn thuế nếu đã nộp thừa. Trong Odoo, báo cáo thuế có thể được lập theo tháng, hai tháng một lần, hàng quý, 4 tháng một lần, nửa năm một lần hoặc hàng năm.
 - Check Register: a report that displays cash transactions (regardless of the journal)
   with their running balance after the transaction. Only visible with the *US - Accounting Reports*
   (`l10n_us_reports`) module installed.
@@ -204,7 +204,7 @@ Depending on the type of report, certain filters are available at the top of the
   - There are view options in this filter, as well, one that will Hide lines at 0 for
     more relevant viewing, along with a Split Horizontally option to keep the report
     above the screen's fold, removing the need to scroll.
-    ![Accounting method filter menu for reports, covering accrual vs. cash basis methods.](../../../_images/us-l1on-accounting-method-reporting-menu.png)
+    ![Accounting method filter menu for reports, covering accrual vs. cash basis methods.](../../../.gitbook/assets/us-l1on-accounting-method-reporting-menu.png)
 - a *decimal* filter, that by default, includes figures with cents, as indicated by the
   In .$ setting. Use the other options in the drop-down menu to change figures in the
   report to whole numbers (In $), thousands (In K$), or millions
@@ -214,7 +214,7 @@ Depending on the type of report, certain filters are available at the top of the
   desired.
 
 #### SEE ALSO
-- [Báo cáo kế toán](../accounting/reporting.md)
+- [Báo cáo kế toán](../accounting/reporting/)
 - [Tìm kiếm, lọc, và nhóm bản ghi](../../essentials/search.md)
 
 <a id="l10n-us-1099-report"></a>
@@ -258,7 +258,7 @@ Chart of Accounts dashboard will be included in the report, which includes:
 Operating Activities, Financing Activities, and Investing &
 Extraordinary Activities.
 
-![Examples of tagged accounts that are included in the Cash Flow Statement in Odoo.](../../../_images/us-l10n-cash-flow-statement-tags.png)
+![Examples of tagged accounts that are included in the Cash Flow Statement in Odoo.](../../../.gitbook/assets/us-l10n-cash-flow-statement-tags.png)
 
 Additionally, the cash flow statement in Odoo:
 
@@ -483,7 +483,7 @@ with, a  configuration section needs to be filled out on the Odoo database.
 First, navigate to the Accounting app ‣ Configuration ‣ Journals. Open the
 bank journal and click into the Outgoing Payments tab.
 
-![NACHA (National Automated Clearing House Association) configuration settings on Odoo.](../../../_images/us-l10n-nacha-settings.png)
+![NACHA (National Automated Clearing House Association) configuration settings on Odoo.](../../../.gitbook/assets/us-l10n-nacha-settings.png)
 
 #### NOTE
 The following  configuration information is normally provided by the company's financial
@@ -508,7 +508,7 @@ Enter the numerical values in this section *exactly* as the company's financial 
 (e.g. bank or credit union) has provided them, otherwise risk failing a successful 
 configuration in Odoo.
 
-![NACHA settings with the standard entry class code drop-down menu highlighted.](../../../_images/us-l10n-nacha-dropdown.png)
+![NACHA settings with the standard entry class code drop-down menu highlighted.](../../../.gitbook/assets/us-l10n-nacha-dropdown.png)
 
 There are two options for the next field: Standard Entry Class Code. Select the
 drop-down menu to the right of the field and pick either Corporate Credit or Debit (CCD)
@@ -529,7 +529,7 @@ icon, or navigate away from this screen to auto-save. The configuration is now c
 Now, record each payment in Odoo using the  payment method.
 
 #### SEE ALSO
-[Register Payments in Odoo](../accounting/payments.md#accounting-payments-from-invoice-bill)
+[Register Payments in Odoo](../accounting/payments/#accounting-payments-from-invoice-bill)
 
 #### IMPORTANT
 Hãy lưu ý thời gian chốt đối với các khoản thanh toán trong ngày. Tệp cần có ngày thanh toán ở tương lai cho từng khoản hoặc phải được gửi trước thời gian chốt nếu ngày trong tệp trùng với ngày hôm nay. Hãy tham khảo tổ chức tài chính để biết chính xác thời gian chốt cho việc xử lý các khoản thanh toán trong ngày.
@@ -542,7 +542,7 @@ To create the batch payments, access the payments page, by navigating to Account
 file, by ticking the checkboxes to the far-left of the rows.
 
 ![On the payments screen, the action menu is highlighted with create a batch payment
-selected.](../../../_images/us-l10n-create-batch-payments.png)
+selected.](../../../.gitbook/assets/us-l10n-create-batch-payments.png)
 
 #### IMPORTANT
 All payments in the batch **must** share the same  payment method.
@@ -552,7 +552,7 @@ Click into the payment just created and then click into the Exported File tab. T
 generated file is listed with the Generation Date. Click the <i class="fa fa-download"></i>
 (download) button to download the file.
 
-![The exported file tab highlighted in the batch payment with the download circled.](../../../_images/us-l10n-batch-file.png)
+![The exported file tab highlighted in the batch payment with the download circled.](../../../.gitbook/assets/us-l10n-batch-file.png)
 
 If any adjustments need to be made, click the Re-generate Export File button to recreate
 a new   file.

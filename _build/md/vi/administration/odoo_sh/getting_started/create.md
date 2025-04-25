@@ -6,19 +6,19 @@
 
 Đi đến [Odoo.sh](https://www.odoo.sh/) và bấm nút *Triển khai nền tảng của bạn*.
 
-![image](../../../_images/deploy.png)
+![image](../../../.gitbook/assets/deploy.png)
 
 ## Đăng nhập bằng Github
 
 Đăng nhập bằng tài khoản Github của bạn. Nếu bạn chưa có tài khoản, hãy nhấp vào liên kết *Tạo tài khoản*.
 
-![image](../../../_images/github-signin.png)
+![image](../../../.gitbook/assets/github-signin.png)
 
 ## Uỷ quyền cho Odoo.sh
 
 Cấp cho Odoo.sh quyền truy cập cần thiết vào tài khoản của bạn bằng cách nhấp vào nút  *Ủy quyền*.
 
-![image](../../../_images/github-authorize.png)
+![image](../../../.gitbook/assets/github-authorize.png)
 
 Về cơ bản, Odoo.sh cần:
 
@@ -51,13 +51,13 @@ Khi gửi biểu mẫu, nếu bạn được thông báo rằng gói đăng ký 
 
 Nếu chưa chắc chắn về gói đăng ký của bạn, vui lòng liên hệ với [bộ phận hỗ trợ Odoo](https://www.odoo.com/help).
 
-![image](../../../_images/deploy-form.png)
+![image](../../../.gitbook/assets/deploy-form.png)
 
 ## Xong!
 
 Bạn có thể bắt đầu sử dụng Odoo.sh và bản dựng đầu tiên của bạn sắp được tạo. Bạn sẽ sớm có thể kết nối với cơ sở dữ liệu đầu tiên của mình.
 
-![image](../../../_images/deploy-done.png)
+![image](../../../.gitbook/assets/deploy-done.png)
 
 <a id="odoo-sh-import-your-database"></a>
 
@@ -86,17 +86,17 @@ Nếu bạn không thể truy cập trình quản lý cơ sở dữ liệu thì 
 
 Bạn sẽ cần mật khẩu chính của máy chủ cơ sở dữ liệu. Nếu không có, hãy liên hệ với quản trị viên hệ thống của bạn.
 
-![image](../../../_images/create-import-onpremise-backup.png)
+![image](../../../.gitbook/assets/create-import-onpremise-backup.png)
 
 Chọn zip bao gồm filestore làm định dạng sao lưu.
 
-![image](../../../_images/create-import-onpremise-backup-dialog.png)
+![image](../../../.gitbook/assets/create-import-onpremise-backup-dialog.png)
 
 #### Cơ sở dữ liệu Odoo Online
 
 [Truy cập trình quản lý cơ sở dữ liệu của bạn](https://accounts.odoo.com/my/databases/manage) và tải xuống bản sao lưu cơ sở dữ liệu.
 
-![image](../../../_images/create-import-online-backup.png)
+![image](../../../.gitbook/assets/create-import-online-backup.png)
 
 #### WARNING
 Các phiên bản online (VD: *saas-\**) không được hỗ trợ trên Odoo.sh.
@@ -105,11 +105,11 @@ Các phiên bản online (VD: *saas-\**) không được hỗ trợ trên Odoo.s
 
 Sau đó, trong dự án Odoo.sh của bạn, hãy nhập bản sao lưu bạn vừa tải xuống vào tab sao lưu của nhánh production.
 
-![image](../../../_images/create-import-production.png)
+![image](../../../.gitbook/assets/create-import-production.png)
 
 Sau khi nhập bản sao lưu, bạn có thể truy cập cơ sở dữ liệu bằng nút *Kết nối* trong tab lịch sử của nhánh.
 
-![image](../../../_images/create-import-production-done.png)
+![image](../../../.gitbook/assets/create-import-production-done.png)
 
 ### Kiểm tra máy chủ thư đi của bạn
 
@@ -134,4 +134,4 @@ Gói đăng ký của bạn bị hủy liên kết sau khi nhập.
 
 Theo mặc định, cơ sở dữ liệu đã nhập được coi là một bản sao và do đó gói đăng ký Enterprise sẽ bị xóa, vì mỗi gói đăng ký chỉ có thể được liên kết với một cơ sở dữ liệu.
 
-Nếu bạn định dùng cơ sở dữ liệu mới được nhập trong production, hãy hủy liên kết cơ sở dữ liệu cũ khỏi gói đăng ký và đăng ký cơ sở dữ liệu mới. Đọc [tài liệu đăng ký cơ sở dữ liệu](../../on_premise.md) để xem hướng dẫn.
+Nếu bạn định dùng cơ sở dữ liệu mới được nhập trong production, hãy hủy liên kết cơ sở dữ liệu cũ khỏi gói đăng ký và đăng ký cơ sở dữ liệu mới. Đọc [tài liệu đăng ký cơ sở dữ liệu](../../on_premise/) để xem hướng dẫn.

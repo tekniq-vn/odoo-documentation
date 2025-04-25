@@ -14,7 +14,7 @@ Hướng dẫn thay đổi loại hình lưu trữ cơ sở dữ liệu phụ th
 - Odoo Online *không* tương thích với **ứng dụng ngoại chuẩn**.
 - Phiên bản hiện tại của cơ sở dữ liệu phải [được hỗ trợ](supported_versions.md).
 
-1. Tạo một [bản sao của cơ sở dữ liệu](on_premise.md#on-premise-duplicate).
+1. Tạo một [bản sao của cơ sở dữ liệu](on_premise/#on-premise-duplicate).
 2. Trong bản sao này, gỡ cài đặt tất cả **ứng dụng ngoại chuẩn**.
 3. Sử dụng trình quản lý cơ sở dữ liệu để lấy *bản kết xuất với filestore*.
 4. [Gửi một phiếu hỗ trợ](https://www.odoo.com/help) gồm thông tin sau:

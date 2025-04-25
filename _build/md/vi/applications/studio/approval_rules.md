@@ -7,7 +7,7 @@ the criteria for when an approval is required before an action can be performed 
 
 To add approval rules with Studio, proceed as follows:
 
-1. [Open Studio](../studio.md#studio-access) and switch to the required [view](views.md).
+1. [Open Studio](./#studio-access) and switch to the required [view](views.md).
 2. Select the button for which you want to add approval rules.
 3. In the Properties tab on the left, enable the Set approval rules
    feature.
@@ -41,7 +41,7 @@ Once approval rules have been defined for a button:
 
 - A **user avatar** icon is displayed next to the button's label for each approval rule that has
   been defined.
-  > ![Confirm button with approval for purchase orders](../../_images/approvals-button.png)
+  > ![Confirm button with approval for purchase orders](../../.gitbook/assets/approvals-button.png)
 - When an unauthorized user clicks the button, an error message is displayed in the top-right corner
   and an activity is created for the user specified in the Responsible field.
 - Only users from the group defined in the Allowed Group field are authorized to approve
@@ -56,4 +56,4 @@ Authorized users can:
 - reject the action by clicking the **user avatar** icon next to the button's label, then clicking
   the <i class="fa fa-times"></i> (Reject) button in the dialog that opens.
 
-![Approval dialog](../../_images/approvals-awaiting.png)
+![Approval dialog](../../.gitbook/assets/approvals-awaiting.png)

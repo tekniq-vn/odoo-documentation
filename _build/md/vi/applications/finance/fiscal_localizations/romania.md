@@ -5,11 +5,11 @@
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Romanian
 localization.
 
-| Tên                    | Tên kỹ thuật   | Mô tả                                                                                            |
-|------------------------|----------------|--------------------------------------------------------------------------------------------------|
-| Romania - Kế toán      | `l10n_ro`      | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). |
-| Xuất SAF-T của Romania | `l10n_ro_saft` | Module to generate the **D.406 declaration** in the SAF-T format.                                |
-![Modules for the Romanian localization](../../../_images/romania-modules.png)
+| Tên                    | Tên kỹ thuật   | Mô tả                                                                    |
+|------------------------|----------------|--------------------------------------------------------------------------|
+| Romania - Kế toán      | `l10n_ro`      | Default [fiscal localization package](./#fiscal-localizations-packages). |
+| Xuất SAF-T của Romania | `l10n_ro_saft` | Module to generate the **D.406 declaration** in the SAF-T format.        |
+![Modules for the Romanian localization](../../../.gitbook/assets/romania-modules.png)
 
 ## D.406 declaration
 
@@ -78,7 +78,7 @@ declaration**. These can be found in the Excel spreadsheet published as guidance
 the declaration, which you can find on the [website of the Romanian Tax Agency](https://www.anaf.ro/anaf/internet/ANAF/despre_anaf/strategii_anaf/proiecte_digitalizare/saf_t/).
 
 #### SEE ALSO
-[Thuế](../accounting/taxes.md)
+[Thuế](../accounting/taxes/)
 
 #### Sản phẩm
 
@@ -113,7 +113,7 @@ of an invoice document received from a supplier).
 To export the XML for the D.406 declaration, go to Accounting ‣ Reports ‣
 General Ledger and click on SAF-T.
 
-![Click on the 'SAF-T' button to export the D.406 XML declaration.](../../../_images/romania-saft-button.png)
+![Click on the 'SAF-T' button to export the D.406 XML declaration.](../../../.gitbook/assets/romania-saft-button.png)
 
 You can then validate and sign the XML file using the Romanian Tax Agency's validation software,
 *DUKIntegrator*.
@@ -128,7 +128,7 @@ Once you have generated the XML, open 'DUKIntegrator' and select the file you ha
 Click on Validare + creare PDF to create an **unsigned** PDF containing your report, or
 Validare + creare PDF semnat to create a **signed** PDF containing your report.
 
-![The DUKIntegrator validation software.](../../../_images/romania-dukintegrator.png)
+![The DUKIntegrator validation software.](../../../.gitbook/assets/romania-dukintegrator.png)
 
 If the *DUKIntegrator* validator detects errors or inconsistencies in your data, it generates a file
 that explains the errors. In this case, you need to correct those inconsistencies in your data

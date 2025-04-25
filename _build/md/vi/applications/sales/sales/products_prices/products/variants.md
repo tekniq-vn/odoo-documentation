@@ -8,7 +8,7 @@ the Product Variants or Attributes page. All of these options are located
 within the Odoo *Sales* application.
 
 #### SEE ALSO
-[Biến thể sản phẩm](../../../../websites/ecommerce/products.md#ecommerce-products-product-variants)
+[Biến thể sản phẩm](../../../../websites/ecommerce/products/#ecommerce-products-product-variants)
 
 ## Cấu hình
 
@@ -20,7 +20,7 @@ Product Catalog section at the top of the page.
 
 In that section, check the box to enable the Variants feature.
 
-![Activating product variants on the Settings page of the Odoo Sales application.](../../../../../_images/activating-variants-setting.png)
+![Activating product variants on the Settings page of the Odoo Sales application.](../../../../../.gitbook/assets/activating-variants-setting.png)
 
 Then, click Save at the top of the Settings page.
 
@@ -36,7 +36,7 @@ The order of attributes on the Attributes page dictates how they appear on the
 To create a new attribute from the Attributes page, click New. Doing so
 reveals a blank attributes form that can be customized and configured in a number of ways.
 
-![A blank attribute creation form in the Odoo Sales application.](../../../../../_images/attribute-creation.png)
+![A blank attribute creation form in the Odoo Sales application.](../../../../../.gitbook/assets/attribute-creation.png)
 
 First, create an Attribute Name, such as `Color` or `Size`.
 
@@ -54,7 +54,7 @@ The Display Type options are:
 - Multi-checkbox (option): options appear as selectable checkboxes on the product page
   of the online store.
 
-![Display Types on Product Configurator on the online store in Odoo.](../../../../../_images/display-types.png)
+![Display Types on Product Configurator on the online store in Odoo.](../../../../../.gitbook/assets/display-types.png)
 
 The Variant Creation Mode field informs Odoo when to automatically create a new variant
 once an attribute is added to a product.
@@ -88,7 +88,7 @@ To view the details related to the attribute category selected, click the intern
 eCommerce Category field, once an option has been selected. Doing so reveals that
 attribute category's detail form.
 
-![A standard attribute category detail page accessible via its internal link arrow icon.](../../../../../_images/attribute-category-internal-link.png)
+![A standard attribute category detail page accessible via its internal link arrow icon.](../../../../../.gitbook/assets/attribute-category-internal-link.png)
 
 Here, the Category Name and Sequence is displayed at the top. Followed by
 Related Attributes associated with the category. These attributes can be
@@ -112,12 +112,12 @@ If the Display Type - Color option is selected, the option to add an HTML
 color code will appear to the far-right of the value line, to make it easier for salespeople and
 customers to know exactly what color option they're choosing.
 
-![Attribute values tab when add a line is clicked, showing the custom columns.](../../../../../_images/attribute-value-add-a-line.png)
+![Attribute values tab when add a line is clicked, showing the custom columns.](../../../../../.gitbook/assets/attribute-value-add-a-line.png)
 
 To choose a color, click the blank circle in the Color column, which reveals an HTML
 color selector pop-up window.
 
-![Selecting a color from the HTML color pop-up window that appears on attribute form.](../../../../../_images/picking-a-color.png)
+![Selecting a color from the HTML color pop-up window that appears on attribute form.](../../../../../.gitbook/assets/picking-a-color.png)
 
 In this pop-up window, select a specific color by dragging the color slider to a particular hue,
 and clicking on the color portion directly on the color gradient window.
@@ -139,7 +139,7 @@ product variant can be added.
 On the product form, click the Attributes & Variants tab to view, manage, and modify
 attributes and values for the product.
 
-![The attributes and values tab on a typical product form in Odoo Sales.](../../../../../_images/attributes-values-tab.png)
+![The attributes and values tab on a typical product form in Odoo Sales.](../../../../../.gitbook/assets/attributes-values-tab.png)
 
 To add an attribute to a product, and subsequent attribute values, click Add a line in
 the Attributes & Variants tab. Then, choose the desired attribute from the drop-down
@@ -157,7 +157,7 @@ There is no limit to how many values can be added.
 To the far-right of the attribute line is a Configure button. When clicked, Odoo reveals
 a separate page showcasing those specific Product Variant Values.
 
-![The Product Variant Values page accessible via the Configure button on a product form.](../../../../../_images/product-variant-values.png)
+![The Product Variant Values page accessible via the Configure button on a product form.](../../../../../.gitbook/assets/product-variant-values.png)
 
 Here, the specific Value name, HTML Color Index (if applicable), and
 Value Price Extra are viewable.
@@ -169,7 +169,7 @@ selected.
 When a value is clicked on the Product Variant Values page, Odoo reveals a separate
 page, detailing that value's related details.
 
-![A Product Variant Values page accessible via the Product Variants Values general page.](../../../../../_images/product-variant-value-page.png)
+![A Product Variant Values page accessible via the Product Variants Values general page.](../../../../../.gitbook/assets/product-variant-value-page.png)
 
 On the specific product variant detail page, the Value and Value Price Extra
 fields can be found, along with an Exclude for field.
@@ -184,12 +184,12 @@ When a product has attributes and variants configured in its Attributes & Varian
 a Variants smart button appears at the top of the product form. The Variants
 smart button indicates how many variants are currently configured for that specific product.
 
-![The variants smart button at the top of the product form in Odoo Sales.](../../../../../_images/variants-smart-button.png)
+![The variants smart button at the top of the product form in Odoo Sales.](../../../../../.gitbook/assets/variants-smart-button.png)
 
 When the Variants smart button is clicked, Odoo reveals a separate page showcasing all
 the specific product variant combinations configured for that specific product.
 
-![The variants page accessible via the variants smart button on the product form in Odoo.](../../../../../_images/variants-page.png)
+![The variants page accessible via the variants smart button on the product form in Odoo.](../../../../../.gitbook/assets/variants-page.png)
 
 ## Impact of variants
 

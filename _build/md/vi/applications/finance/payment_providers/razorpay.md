@@ -34,7 +34,7 @@ enable recurring payments.
 
 ## Configuration on Odoo
 
-1. [Navigate to the payment provider Razorpay](../payment_providers.md#payment-providers-add-new) and change its
+1. [Navigate to the payment provider Razorpay](./#payment-providers-add-new) and change its
    state to Enabled.
 2. In the Credentials tab, fill the Key Id, Key Secret, and
    Webhook Secret with the values you saved at the step
@@ -49,4 +49,4 @@ If you configure Odoo to capture amounts manually:
   **voided**.
 
 #### SEE ALSO
-- [Thanh toán online](../payment_providers.md)
+- [Thanh toán online](./)

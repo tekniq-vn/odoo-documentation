@@ -54,12 +54,12 @@ Odoo.
 sync to Odoo's attributes and values. Variations will appear in drop down menus near the top of the
 page when viewing an eBay listing. These are comparable to product variants in Odoo.
 
-![An example on eBay of the variations that can be added to a product.](../../../../_images/ebay-variation.png)
+![An example on eBay of the variations that can be added to a product.](../../../../.gitbook/assets/ebay-variation.png)
 
 *Item specifics*, located at the bottom of the listing, detail product-specific information. These
 specifics don't sync with Odoo fields by default; a development is required to link these fields.
 
-![Item specifics listed on an eBay product.](../../../../_images/item-specifics.png)
+![Item specifics listed on an eBay product.](../../../../.gitbook/assets/item-specifics.png)
 
 *Sandbox* and *Production* are terms that are used to categorize the eBay environments as either
 still in development/testing (*Sandbox*) or for use in the real instance of the database with real
@@ -106,7 +106,7 @@ The following items must be configured before eBay is set up:
       base product as a Component of the kit. When this linked eBay product is sold, the
       delivery order created will have the base product listed in lieu of the linked product.
 
-    ![Setting up bill of materials with base product and linked products.](../../../../_images/products-odoo.png)
+    ![Setting up bill of materials with base product and linked products.](../../../../.gitbook/assets/products-odoo.png)
 
   > #### SEE ALSO
   > [Danh mục vật tư](../../../inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md)
@@ -134,7 +134,7 @@ The following items must be configured before eBay is set up:
   eBay Marketplace Account Deletion/Closure Notifications section. This token will be
   used during the setup on eBay for the deletion/closure notifications configuration.
 
-![Generate a verification token in Odoo.](../../../../_images/generate-token.png)
+![Generate a verification token in Odoo.](../../../../.gitbook/assets/generate-token.png)
 
 ## Set up on eBay
 
@@ -158,7 +158,7 @@ The newly created *production keyset* is disabled by default. Activate it by sub
 eBay Marketplace 'account deletion or closure notifications' or by applying to eBay for an
 exemption. Once enabled, the database can make 5000 calls per day using this keyset.
 
-![Disabled keyset present after creating a keyset.](../../../../_images/disabled-keyset.png)
+![Disabled keyset present after creating a keyset.](../../../../.gitbook/assets/disabled-keyset.png)
 
 #### Configure account deletion / notification settings (Production)
 
@@ -181,7 +181,7 @@ for the eBay production environment. In Odoo, Copy the newly created token and n
 to eBay to fill in the Verification token field. Click Save to enable the
 Event Notification Delivery Method.
 
-![Configuring account deletion / notification settings in eBay.](../../../../_images/account-closure.png)
+![Configuring account deletion / notification settings in eBay.](../../../../.gitbook/assets/account-closure.png)
 
 After completing the above fields, click Send Test Notification to test the new
 notifications. Proceed to the next step when the green check mark appears. Revisit the above
@@ -211,7 +211,7 @@ Application Keys populates in a new screen and an email is also sent to the deve
 account. An App ID (Client ID), Dev ID, and Cert ID (Client
 Secret) all populate.
 
-![Application keys are populated after creating the app in eBay.](../../../../_images/application-keys.png)
+![Application keys are populated after creating the app in eBay.](../../../../.gitbook/assets/application-keys.png)
 
 Copy these values down as they will be input into Odoo later in the process.
 
@@ -220,7 +220,7 @@ Copy these values down as they will be input into Odoo later in the process.
 Now, create a *user token* in eBay by navigating to the `Hi [username]` at top right of screen,
 then User Access Tokens.
 
-![Generate user token s on the eBay developer console.](../../../../_images/user-tokens.png)
+![Generate user token s on the eBay developer console.](../../../../.gitbook/assets/user-tokens.png)
 
 Select the correct Environment: Sandbox for testing or
 Production for the live database. Maintain the same selection for all environment
@@ -269,7 +269,7 @@ Token will populate on the User Tokens page.
 A User Token will populate on the screen. Make sure to copy this token down as it will
 be used in the next steps along with the Application Keyset.
 
-![Generated user token and API explorer link on the eBay developer console.](../../../../_images/user-token.png)
+![Generated user token and API explorer link on the eBay developer console.](../../../../.gitbook/assets/user-token.png)
 
 #### IMPORTANT
 Signing in to the eBay account is necessary to create to the token. The eBay developer can also

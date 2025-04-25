@@ -16,18 +16,18 @@ bought on Amazon do not include the correct encryption needed to be used with an
 ### Configure the payment method
 
 Enable the payment terminal in the Payment Terminals section [of the application
-settings](../../configuration.md#configuration-settings).
+settings](../../configuration/#configuration-settings).
 
 Then, go to Point of Sale ‣ Configuration ‣ Payment Methods, and [create
-the related payment method](../../payment_methods.md). Set the journal type as Bank and
+the related payment method](../). Set the journal type as Bank and
 select Vantiv in the Use a Payment Terminal field.
 
 Type the name you want to give to your Vantiv Credentials and click Create
 and edit. Enter your Merchant ID and Merchant Password, then click
 Save & Close.
 
-![Vantiv payment method](../../../../../_images/vantiv-method.png)
+![Vantiv payment method](../../../../../.gitbook/assets/vantiv-method.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
-[POS' settings](../../configuration.md#configuration-settings) and add the payment method under the
+[POS' settings](../../configuration/#configuration-settings) and add the payment method under the
 Payment section.

@@ -30,7 +30,7 @@ covering several Asian countries and payment methods.
 
 ## Configuration on Odoo
 
-1. [Navigate to the payment provider AsiaPay](../payment_providers.md#payment-providers-add-new) and change its state
+1. [Navigate to the payment provider AsiaPay](./#payment-providers-add-new) and change its state
    to Enabled.
 2. In the Credentials tab, choose the Brand of your Asiapay account. Then
    fill in the Merchant ID and Secure Hash Secret, and the
@@ -44,4 +44,4 @@ covering several Asian countries and payment methods.
 3. Configure the rest of the options to your liking.
 
 #### SEE ALSO
-- [Thanh toán online](../payment_providers.md)
+- [Thanh toán online](./)

@@ -19,7 +19,7 @@ Refused.
 Hover the cursor over a month of the chart, and a pop-up window appears, displaying the specific
 numbers for that month.
 
-![The default Recruitment Analysis report.](../../../_images/line-chart1.png)
+![The default Recruitment Analysis report.](../../../.gitbook/assets/line-chart1.png)
 
 ### Pivot table view
 
@@ -35,11 +35,11 @@ In this example, there are 17 total applicants. Out of that, three have been hir
 refused. The Experienced Developer position has eight total applicants, two of which
 were hired, and two were refused.
 
-![The detailed pivot table view.](../../../_images/pivot-view.png)
+![The detailed pivot table view.](../../../.gitbook/assets/pivot-view.png)
 
 #### Use case: applicants with referrals
 
-To get a better understanding of how effective the company's [referral program](../referrals.md)
+To get a better understanding of how effective the company's [referral program](../referrals/)
 is, the Recruitment Analysis report can be modified to show how many applicants were
 referred by current employees.
 
@@ -53,7 +53,7 @@ default measures.
 Now, the column displays the number of applicants that came from a referral in the Has
 Referrer column, and the total number of applicants in the Count column.
 
-![The detailed pivot table view displaying the number of referrals and the total applicants.](../../../_images/referral.png)
+![The detailed pivot table view displaying the number of referrals and the total applicants.](../../../.gitbook/assets/referral.png)
 
 In this example, the Experienced Developer job position has the most applicants from
 referrals. Out of the eight applicants, six have applied through a referral from a current employee.
@@ -76,7 +76,7 @@ have any applicants, it does not appear in the list.
 To expand the other rows, and display the various states, click on the <i class="fa fa-plus-square"></i>
 [job position] button.
 
-![The detailed pivot table view displaying applicants hired through referrals.](../../../_images/state.png)
+![The detailed pivot table view displaying applicants hired through referrals.](../../../.gitbook/assets/state.png)
 
 In this example, the Experienced Developer job position is the most successful in terms
 of referrals. Both of the hired employees came from internal referrals. Meanwhile, there have been

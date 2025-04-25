@@ -87,7 +87,7 @@ The frequency of the invoicing and the services/products invoiced are
 defined on the contract.
 
 #### SEE ALSO
-- [Đăng ký](../../../sales/subscriptions.md)
+- [Đăng ký](../../../sales/subscriptions/)
 
 ## Khác
 

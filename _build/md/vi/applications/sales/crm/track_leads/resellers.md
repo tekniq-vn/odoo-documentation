@@ -9,7 +9,7 @@ To utilize the reseller features, the *Resellers* module first needs to be insta
 the Apps application, and remove the Apps filter from the
 Search... bar. Then, search for `Resellers`.
 
-![The resellers module in Odoo.](../../../../_images/resellers-module.png)
+![The resellers module in Odoo.](../../../../.gitbook/assets/resellers-module.png)
 
 Click Activate on the Resellers module card that appears. Doing so installs
 the module, and returns to the main Odoo dashboard.
@@ -69,7 +69,7 @@ the Name field of a desired level, and enter a new name.
 To change the active status of an activation, slide the toggle in the Active column of
 the desired activation to the *inactive* position.
 
-![The list of default partner activations in the CRM app.](../../../../_images/activations-toggle.png)
+![The list of default partner activations in the CRM app.](../../../../.gitbook/assets/activations-toggle.png)
 
 ## Partner assignments
 
@@ -95,7 +95,7 @@ partner. From that partner's contact form, click the Go to Website smart button 
 top of the page to open that partner's webpage.
 
 Next, click Edit at the top-right of the partner's webpage, and use the [building
-blocks](../../../websites/website/web_design/building_blocks.md) to add any additional design
+blocks](../../../websites/website/web_design/building_blocks/) to add any additional design
 elements, or information about the partner.
 
 After making any necessary changes to the page, click Save. At the top of the page,
@@ -103,4 +103,4 @@ slide the Unpublished toggle to the active, Published position, if needed.
 
 Repeat these steps for all partners.
 
-![An example of the partners webpage, displaying available partners by level and location.](../../../../_images/partners-webpage.png)
+![An example of the partners webpage, displaying available partners by level and location.](../../../../.gitbook/assets/partners-webpage.png)

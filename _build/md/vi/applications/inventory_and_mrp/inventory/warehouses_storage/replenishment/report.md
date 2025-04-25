@@ -23,7 +23,7 @@ Order Once.
 Clicking <i class="fa fa-bell-slash"></i> Snooze temporarily deactivates the reordering rule for
 the set period, hiding the entry from the replenishment dashboard, when it is supposed to appear.
 
-![Replenishment report that displays recommended quantities to order.](../../../../../_images/replenishment-dashboard.png)
+![Replenishment report that displays recommended quantities to order.](../../../../../.gitbook/assets/replenishment-dashboard.png)
 
 #### NOTE
 Automatic reordering rules appear on this menu, too but are hidden by default.

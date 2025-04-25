@@ -634,7 +634,7 @@ dbfilter=odoo
 ## Shell
 
 The Odoo command line also allows launching Odoo as a Python console environment, enabling direct
-interaction with the [orm](backend/orm.md#reference-orm) and its functionalities.
+interaction with the [orm](backend/orm/#reference-orm) and its functionalities.
 
 ```console
 $ odoo-bin shell
@@ -646,7 +646,7 @@ Specify a preferred REPL to use in shell mode. This shell is started with the `e
 already initialized to be able to access the ORM and other Odoo modules.
 
 #### SEE ALSO
-[Environment](backend/orm.md#reference-orm-environment)
+[Environment](backend/orm/#reference-orm-environment)
 
 <a id="reference-cmdline-scaffold"></a>
 

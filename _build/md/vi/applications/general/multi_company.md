@@ -10,9 +10,9 @@ Multi-company is **only** available in *One App Free* databases, or with [Custom
 
 ## Accessing multiple companies
 
-Danh sách [các công ty mà nhân viên có quyền truy cập](companies.md#general-employee-access) trong multi-company database có thể được tìm thấy ở góc trên bên phải của thanh menu chính của Odoo, nơi liệt kê những công ty đang hoạt động. Nhấp vào tên công ty để hiển thị danh sách tất cả công ty được phép. Để chuyển sang một công ty khác, hãy nhấp vào tên công ty trong menu thả xuống. Để bật nhiều công ty cùng một lúc, hãy đánh dấu vào hộp kiểm bên cạnh mỗi tên công ty mong muốn.
+Danh sách [các công ty mà nhân viên có quyền truy cập](companies/#general-employee-access) trong multi-company database có thể được tìm thấy ở góc trên bên phải của thanh menu chính của Odoo, nơi liệt kê những công ty đang hoạt động. Nhấp vào tên công ty để hiển thị danh sách tất cả công ty được phép. Để chuyển sang một công ty khác, hãy nhấp vào tên công ty trong menu thả xuống. Để bật nhiều công ty cùng một lúc, hãy đánh dấu vào hộp kiểm bên cạnh mỗi tên công ty mong muốn.
 
-![An example of the list of companies a user has access to when logged into a database.](../../_images/company-access.png)
+![An example of the list of companies a user has access to when logged into a database.](../../.gitbook/assets/company-access.png)
 
 #### NOTE
 The database may refresh after each checkbox is ticked.
@@ -51,7 +51,7 @@ select a company to assign the contact to.
 
 ## Giao dịch liên công ty
 
-The [Inter-Company Transactions](companies.md#general-inter-company) feature allows for one company in the
+The [Inter-Company Transactions](companies/#general-inter-company) feature allows for one company in the
 database to sell or purchase goods and services from another company within the same database.
 Counterpart documents for orders and invoices can be automatically generated and synchronized,
 depending on the configuration settings.
@@ -59,7 +59,7 @@ depending on the configuration settings.
 #### WARNING
 To ensure inter-company transactions are handled appropriately, certain configurations, such as
 fiscal positions and localizations, need to be accurately assigned. See [Inter-Company
-Transactions](companies.md#general-inter-company) for additional information.
+Transactions](companies/#general-inter-company) for additional information.
 
 ## Trường hợp vận dụng
 

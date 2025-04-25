@@ -195,4 +195,4 @@ $ odoo-bin shell
 
 Cuối cùng, *thông qua* Odoo Shell, bạn có thể kích hoạt đoạn mã/hàm/phương thức mà bạn muốn gỡ lỗi.
 
-![Ảnh chụp màn hình bảng điều khiển hiển thị ``pdb`` đang chạy trong shell Odoo.sh.](../../../_images/pdb_sh.png)
+![Ảnh chụp màn hình bảng điều khiển hiển thị ``pdb`` đang chạy trong shell Odoo.sh.](../../../.gitbook/assets/pdb_sh.png)

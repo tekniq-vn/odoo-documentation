@@ -19,19 +19,19 @@ you can:
 - **create a regular drop-down menu** by dragging and dropping the sub-menu items to the right,
   underneath their parent menu.
 
-![Menu editor with sub-menus](../../../../_images/menu-editor.png)
+![Menu editor with sub-menus](../../../../.gitbook/assets/menu-editor.png)
 
 #### NOTE
 You can also access the menu editor by clicking Edit, selecting any menu item and
 clicking the Edit Menu icon.
 
-![Access the Menu editor while in Edit mode.](../../../../_images/edit-menu-icon.png)
+![Access the Menu editor while in Edit mode.](../../../../.gitbook/assets/edit-menu-icon.png)
 
 <a id="website-regular-menus"></a>
 
 ### Adding regular menu items
 
-By default, pages are added to the menu as regular menu items when [they are created](../pages.md). You can also add regular menu items from the menu editor by clicking Add
+By default, pages are added to the menu as regular menu items when [they are created](./). You can also add regular menu items from the menu editor by clicking Add
 Menu Item. Enter the Name and URL of the related page in the pop-up window that appears
 on the screen and click OK.
 
@@ -41,7 +41,7 @@ on the screen and click OK.
 
 Menu chính tương tự như menu thả xuống, nhưng thay vì danh sách tiểu menu đơn giản, chúng lại hiển thị một bảng chia thành các nhóm tùy chọn điều hướng. Do đó, chúng phù hợp với các trang web có lượng nội dung lớn, vì chúng có thể giúp đưa tất cả trang trên trang web của bạn vào menu trong khi vẫn cho phép tất cả mục menu hiển thị cùng một lúc. Menu chính cũng có thể được cấu trúc trực quan hơn so với menu thả xuống thông thường, ví dụ, thông qua bố cục, kiểu chữ và biểu tượng.
 
-![Mega menu in the navigation bar.](../../../../_images/mega-menu.png)
+![Mega menu in the navigation bar.](../../../../.gitbook/assets/mega-menu.png)
 
 To create a mega menu, go to Website ‣ Site ‣ Menu Editor and click
 Add Mega Menu Item. Enter the Name of the mega menu in the pop-up, click
@@ -56,7 +56,7 @@ Customize tab in the website builder. For example, you can:
 - edit a menu item's URL by selecting the menu item, then clicking the Edit link button
   in the small preview pop-up. Type `/` to search for a page on your website, or `#` to search for
   an existing custom anchor.
-  ![Edit a mega menu option.](../../../../_images/mega-menu-option.png)
+  ![Edit a mega menu option.](../../../../.gitbook/assets/mega-menu-option.png)
 - move a menu item by dragging and dropping the related block to the desired position in the mega
   menu;
 - delete a menu item by deleting the related block.

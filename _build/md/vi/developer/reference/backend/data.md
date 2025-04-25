@@ -87,8 +87,8 @@ Nothing
   for the field.
 
 `search`
-: for [relational fields](orm.md#reference-fields-relational), should be
-  a [domain](orm.md#reference-orm-domains) on the field's model.
+: for [relational fields](orm/#reference-fields-relational), should be
+  a [domain](orm/#reference-orm-domains) on the field's model.
   <br/>
   Will evaluate the domain, search the field's model using it and set the
   search's result as the field's value. Will only use the first result if
@@ -161,7 +161,7 @@ has the following attributes:
 : the [external id](../../glossary.md#term-external-id) of a record to remove
 
 `search`
-: a [domain](orm.md#reference-orm-domains) to find records of the model to
+: a [domain](orm/#reference-orm-domains) to find records of the model to
   remove
 
 `id` and `search` are exclusive

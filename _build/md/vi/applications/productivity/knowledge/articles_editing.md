@@ -6,7 +6,7 @@ To start adding content, click anywhere on the page. Your cursor is automaticall
 article's first-level header. Once you are done writing the title, press **enter** on your keyboard
 to move to the next line.
 
-![knowledge's user interface](../../../_images/ui.png)
+![knowledge's user interface](../../../.gitbook/assets/ui.png)
 
 <a id="knowledge-text-editor"></a>
 
@@ -32,7 +32,7 @@ Then, you can:
   checklist;
 - Click the **chain** icon to insert or edit an URL link.
 
-![Text editor's toolbox](../../../_images/style-and-colors.png)
+![Text editor's toolbox](../../../.gitbook/assets/style-and-colors.png)
 
 To format a whole paragraph, type `/` anywhere in the text. Doing so opens the **powerbox**, which
 allows:

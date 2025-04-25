@@ -2,7 +2,7 @@
 
 DHL is one of the shipping carriers for which a *shipping connector* is available in Odoo's
 **Inventory** app. By enabling the shipping connector in the app's settings, and configuring at
-least one *shipping method*, the process of [calculating shipping rates](../setup_configuration.md) and [generating shipping labels](labels.md) is greatly simplified.
+least one *shipping method*, the process of [calculating shipping rates](./) and [generating shipping labels](labels.md) is greatly simplified.
 
 #### NOTE
 While a variety of shipping connectors are available for different carriers, this documentation
@@ -38,7 +38,7 @@ Inventory app ‣ Configuration ‣ Shipping Methods.
 Click New to open a blank shipping method form. If a shipping method has already been
 created, it can be selected from this screen.
 
-![The form for a DHL shipping method.](../../../../../_images/dhl-form.png)
+![The form for a DHL shipping method.](../../../../../.gitbook/assets/dhl-form.png)
 
 ### General information
 

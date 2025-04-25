@@ -18,7 +18,7 @@ To enable this feature, navigate to Inventory app ‣ Configuration ‣ Settings
 and scroll down to the Warehouse section. Then, tick the checkbox next to
 Storage Locations, and click Save.
 
-![Enabled Storage Locations setting in inventory settings.](../../../../../_images/cycle-counts-enabled-setting.png)
+![Enabled Storage Locations setting in inventory settings.](../../../../../.gitbook/assets/cycle-counts-enabled-setting.png)
 
 ## Change inventory count frequency by location
 
@@ -36,7 +36,7 @@ Under the Cyclic Counting section, locate the Inventory Frequency (Days)
 field, which should be set to `0` by default (if this location has not been edited previously). In
 this field, change the value to any number of days desired for the frequency of counts.
 
-![Location frequency setting on location.](../../../../../_images/cycle-counts-frequency-value.png)
+![Location frequency setting on location.](../../../../../.gitbook/assets/cycle-counts-frequency-value.png)
 
 Now, once an inventory adjustment is applied to this location, the next scheduled count date is
 automatically set, based on the value entered into the Inventory Frequency (Days) field.
@@ -56,7 +56,7 @@ To select a specific location, and view all products within that location, click
 (down arrow) icon, to the right of the Search... bar. Then, in the Group By
 column, click Add Custom Group to reveal a new drop-down menu.
 
-![Filters and Group By menu on Inventory Adjustments page.](../../../../../_images/cycle-counts-filter-menu.png)
+![Filters and Group By menu on Inventory Adjustments page.](../../../../../.gitbook/assets/cycle-counts-filter-menu.png)
 
 Click Location from the drop-down menu. Doing so sorts products into their storage
 locations on the Inventory Adjustments page, and a cycle count can be performed for all
@@ -73,7 +73,7 @@ Settings. Then, in the Operations section, locate the Annual Inventory Day
 and Month setting field, which includes a drop-down field that is set to `31` December,
 by default.
 
-![Frequency field in inventory app settings.](../../../../../_images/cycle-counts-frequency-calendar.png)
+![Frequency field in inventory app settings.](../../../../../.gitbook/assets/cycle-counts-frequency-calendar.png)
 
 To change the day, click the `31`, and change it to a day within the range `1-31`, depending on the
 desired month of the year.

@@ -11,7 +11,7 @@ They can be applied [automatically](#fiscal-positions-automatic), [manually](#fi
 
 #### NOTE
 Several default fiscal positions are available as part of your [fiscal localization
-package](../../fiscal_localizations.md#fiscal-localizations-packages).
+package](../../fiscal_localizations/#fiscal-localizations-packages).
 
 ## Cấu hình
 
@@ -28,7 +28,7 @@ product form.
 - To map to another tax or account, fill out the right column (Tax to Apply/
   Account to Use Instead).
 
-![Example of a fiscal position's tax mapping](../../../../_images/fiscal-positions-tax-mapping.png)![Example of a fiscal position's account mapping](../../../../_images/fiscal-positions-account-mapping.png)
+![Example of a fiscal position's tax mapping](../../../../.gitbook/assets/fiscal-positions-tax-mapping.png)![Example of a fiscal position's account mapping](../../../../.gitbook/assets/fiscal-positions-account-mapping.png)
 - To remove a tax, leave the field Tax to Apply empty.
 - To replace a tax with several other taxes, add multiple lines using the same Tax on
   Product.
@@ -53,7 +53,7 @@ From there, several conditions can be activated:
 - Country Group and Country: the fiscal position is only applied to the
   selected country or country group.
 
-![Example of a fiscal position automatic application settings](../../../../_images/fiscal-positions-automatic.png)
+![Example of a fiscal position automatic application settings](../../../../.gitbook/assets/fiscal-positions-automatic.png)
 
 #### NOTE
 - If the [Verify VAT Numbers](vat_verification.md) feature is enabled, any fiscal positions
@@ -78,7 +78,7 @@ To manually select a fiscal position, open a sales order, invoice, or bill, go t
 Other Info tab and select the desired Fiscal Position before adding product
 lines.
 
-![Selection of a fiscal position on a sales order, invoice, or bill](../../../../_images/fiscal-positions-manual.png)
+![Selection of a fiscal position on a sales order, invoice, or bill](../../../../.gitbook/assets/fiscal-positions-manual.png)
 
 <a id="fiscal-positions-partner"></a>
 
@@ -88,8 +88,8 @@ To define which fiscal position must be used by default for a specific partner, 
 Accounting ‣ Customers ‣ Customers, select the partner, open the
 Sales & Purchase tab, and select the Fiscal Position.
 
-![Selection of a fiscal position on a customer](../../../../_images/fiscal-positions-customer.png)
+![Selection of a fiscal position on a customer](../../../../.gitbook/assets/fiscal-positions-customer.png)
 
 #### SEE ALSO
-* [Thuế](../taxes.md)
+* [Thuế](./)
 * [B2B (tax excluded) and B2C (tax included) pricing](B2B_B2C.md)

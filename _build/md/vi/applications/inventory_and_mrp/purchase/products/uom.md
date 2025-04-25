@@ -17,7 +17,7 @@ Consider the following examples:
 Open your Sales app and go to Configuration ‣ Settings. Under Product Catalog,
 enable *Units of Measure*.
 
-![Enable the units of measure option in Odoo Sales](../../../../_images/uom-enable-option.png)
+![Enable the units of measure option in Odoo Sales](../../../../.gitbook/assets/uom-enable-option.png)
 
 ## Specify sales and purchase units of measure
 
@@ -37,7 +37,7 @@ Back to the first example, if you purchase orange juice from your vendor in **ga
 to your customers in **liters**, first select *L* (liters) as the *Unit of Measure*, and *gal (US)*
 (gallons) as the *Purchase Unit of Measure*, then click on *Save*.
 
-![Configure a product's units of measure in Odoo](../../../../_images/uom-product-configuration.png)
+![Configure a product's units of measure in Odoo](../../../../.gitbook/assets/uom-product-configuration.png)
 
 ### Create new units of measure and units of measure categories
 
@@ -52,7 +52,7 @@ Category* in order to relate both units of measure.
 To do so, go to Configuration ‣ Units of Measure Categories. Click on *Create*
 and name the category.
 
-![Create a new units of measure category in Odoo Purchase](../../../../_images/uom-new-category.png)
+![Create a new units of measure category in Odoo Purchase](../../../../.gitbook/assets/uom-new-category.png)
 
 The next step is to create the two units of measures. To do so, click into the Unit of
 Measure Category field and enter a name for the category. Then, under the Units of
@@ -67,7 +67,7 @@ this value.
 In the example, as you cannot purchase less than 1 roll and won't use fractions of a roll as a unit
 of measure, you can enter 1.
 
-![Create a new reference unit of measure in Odoo Purchase](../../../../_images/uom-new-reference-unit.png)
+![Create a new reference unit of measure in Odoo Purchase](../../../../.gitbook/assets/uom-new-reference-unit.png)
 
 #### NOTE
 Nếu bạn sử dụng  *Độ chính xác làm tròn* nhỏ hơn 0,01, một cảnh báo có thể xuất hiện để thông báo rằng nó cao hơn  *Độ chính xác thập phân* và có thể gây ra sự không nhất quán. Nếu bạn muốn sử dụng  *Độ chính xác làm tròn* nhỏ hơn 0,01, trước tiên hãy kích hoạt [chế độ lập trình viên](../../../general/developer_mode.md#developer-mode), sau đó đi tới Cài đặt ‣ Kỹ thuật ‣ Cấu trúc cơ sở dữ liệu ‣ Độ chính xác thập phân, chọn  *Đơn vị tính sản phẩm* và chỉnh sửa *Số chữ số* cho phù hợp. Ví dụ, nếu bạn muốn sử dụng độ chính xác làm tròn là 0,00001, hãy đặt *Số chữ số* thành 5.
@@ -86,4 +86,4 @@ For your curtain roll, the ratio should be set to 100.
 
 You can now configure your product just as you would using Odoo's standard units of measure.
 
-![Set a product's units of measure using your own units in Odoo Purchase](../../../../_images/uom-product-configuration-new-units.png)
+![Set a product's units of measure using your own units in Odoo Purchase](../../../../.gitbook/assets/uom-product-configuration-new-units.png)

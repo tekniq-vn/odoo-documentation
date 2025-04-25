@@ -4,7 +4,7 @@ Electronic shelf labels allow you to display product information like prices and
 shelves and to synchronize them remotely from the backend. This removes the need to print new labels
 when product information changes.
 
-![electronic label from Pricer](../../../../_images/electronic-label.png)
+![electronic label from Pricer](../../../../.gitbook/assets/electronic-label.png)
 
 #### NOTE
 Odoo uses electronic labels from [Pricer](https://www.pricer.com/).
@@ -43,7 +43,7 @@ The account associated with your Pricer store must have access to send API reque
 As a pre-requisite, [activate](../../../general/apps_modules.md#general-install) the POS Pricer module  *(technical
 name: pos_pricer)* to have all the required features to use Pricer electronic tags.
 
-![Installing POS Pricer module from Apps](../../../../_images/pricer-module.png)
+![Installing POS Pricer module from Apps](../../../../.gitbook/assets/pricer-module.png)
 
 Once the module is activated, configure your [pricer stores](#pricer-tags-stores) and associate
 [Pricer tags](#pricer-tags-tags) with your products.
@@ -64,7 +64,7 @@ New, and fill in the line with the required information:
 - Pricer Store ID: the ID of the related Pricer store as defined on your Pricer
   database.
 
-![Configuring a Pricer Store](../../../../_images/pricer-stores-setup.png)
+![Configuring a Pricer Store](../../../../.gitbook/assets/pricer-stores-setup.png)
 
 #### NOTE
 - The Pricer Tags column is updated automatically when a label is linked to a
@@ -86,7 +86,7 @@ product. To do so:
    If you are creating a new product, configure and save it before associating any Pricer tags.
 2. Go to the Sales tab, scroll to the Pricer section, and select the
    corresponding Pricer Store.
-   ![Linking Pricer tags to products](../../../../_images/pricer-product.png)
+   ![Linking Pricer tags to products](../../../../.gitbook/assets/pricer-product.png)
 3. Fill in the Pricer tags ids field by copying the label's ID from the label itself or
    scanning its barcode.
 
@@ -116,7 +116,7 @@ To force the update, activate the [developer mode](../../../general/developer_mo
 Alternatively, click Update all tags to force the update of every tag, regardless of
 whether changes were made.
 
-![Update all Pricer tags](../../../../_images/update-all.png)
+![Update all Pricer tags](../../../../.gitbook/assets/update-all.png)
 
 If Pricer has processed and accepted the request, the status field shows Update
 successfully sent to Pricer. If there is any issue, the system displays an error message.

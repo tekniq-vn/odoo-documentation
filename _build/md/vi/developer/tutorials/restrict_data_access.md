@@ -1,7 +1,7 @@
 # Restrict access to data
 
 #### IMPORTANT
-This tutorial is an extension of the [Server framework 101](server_framework_101.md) tutorial. Make sure you have
+This tutorial is an extension of the [Server framework 101](server_framework_101/) tutorial. Make sure you have
 completed it and use the `estate` module you have built as a base for the exercises in this
 tutorial.
 
@@ -132,7 +132,7 @@ individual records:
 </record>
 ```
 
-The [Search domains](../reference/backend/orm.md#reference-orm-domains) is how access is managed: if the record passes
+The [Search domains](../reference/backend/orm/#reference-orm-domains) is how access is managed: if the record passes
 then access is granted, otherwise access is rejected.
 
 The rule above:
@@ -157,7 +157,7 @@ if access rights are not set up correctly (are too permissive).
 If you try to mark a property as "sold" as the real estate agent, you should get
 an access error:
 
-![image](../../_images/error1.png)
+![image](../../.gitbook/assets/error1.png)
 
 This happens because `estate_account` tries to create an invoice during the
 process, but creating an invoice requires the right to all invoice management.

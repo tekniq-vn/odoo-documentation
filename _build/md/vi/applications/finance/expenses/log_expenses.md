@@ -49,7 +49,7 @@ Then, click New, and then fill out the following fields on the form that appears
 - Notes...: If any notes are needed to clarify the expense, enter them in the notes
   field.
 
-![A filled in expense form for a client lunch.](../../../_images/expense-filled-in.png)
+![A filled in expense form for a client lunch.](../../../.gitbook/assets/expense-filled-in.png)
 
 ### Attach receipts
 
@@ -61,7 +61,7 @@ The new receipt is recorded in the *chatter*, and the number of receipts appears
 <i class="fa fa-paperclip"></i> (paperclip) icon. Multiple receipts can be attached to an
 individual expense record, as needed.
 
-![Attach a receipt and it appears in the chatter.](../../../_images/receipt-icon.png)
+![Attach a receipt and it appears in the chatter.](../../../.gitbook/assets/receipt-icon.png)
 
 <a id="expenses-upload-receipt"></a>
 
@@ -108,7 +108,7 @@ Upload, and a file explorer appears. Navigate to the desired receipt, select it,
 click Open.
 
 ![Create an expense by scanning a receipt. Click Scan at the top of the Expenses dashboard
-view.](../../../_images/upload.png)
+view.](../../../.gitbook/assets/upload.png)
 
 The receipt is scanned, and a new expense record is created. The Expense Date field is
 populated with today's date, along with any other fields based on the scanned data, such as the
@@ -129,14 +129,14 @@ Configuration ‣ Settings. Ensure the checkbox beside Incoming Emails is ticked
 default email alias is *expense@(domain).com*. Change the email alias by entering the desired email
 in the field to the right of Alias. Then, click Save.
 
-![Te default email that populates the expenses email alias.](../../../_images/alias-email.png)
+![Te default email that populates the expenses email alias.](../../../.gitbook/assets/alias-email.png)
 
 #### NOTE
 If the domain alias needs to be set up, <i class="fa fa-arrow-right"></i> Setup your domain
 alias appears beneath the Incoming Emails checkbox, instead of the email address
 field.
 
-![Create the domain alias by clicking the link.](../../../_images/email-alias.png)
+![Create the domain alias by clicking the link.](../../../.gitbook/assets/email-alias.png)
 
 Refer to the [Tên miền](../../websites/website/configuration/domain_names.md) documentation for
 setup instructions and more information.
@@ -156,18 +156,18 @@ To check an expense category's internal reference, go to Expenses app ‣
 Configuration ‣ Expense Categories. If an internal reference is listed on the expense category,
 it is listed in the Internal Reference column.
 
-![Internal reference numbers are listed in the main Expense Categories view.](../../../_images/ref.png)
+![Internal reference numbers are listed in the main Expense Categories view.](../../../.gitbook/assets/ref.png)
 
 To add an internal reference on an expense category, click on the category to open the expense
 category form. Enter the Internal Reference in the corresponding field. Beneath the
 Internal Reference field, this sentence appears: Use this reference as a
 subject prefix when submitting by email.
 
-![Internal reference numbers are listed in the main Expense Products view.](../../../_images/mileage-internal-reference.png)
+![Internal reference numbers are listed in the main Expense Products view.](../../../.gitbook/assets/mileage-internal-reference.png)
 
 #### NOTE
 For security purposes, only authenticated employee emails are accepted by Odoo when creating an
 expense from an email. To confirm an authenticated employee email address, go to the employee
 card in the Employees app, and refer to the Work Email field.
 
-![Create the domain alias by clicking the link.](../../../_images/authenticated-email-address.png)
+![Create the domain alias by clicking the link.](../../../.gitbook/assets/authenticated-email-address.png)

@@ -1,6 +1,6 @@
 # Cấu hình hệ thống
 
-Tài liệu này mô tả các bước cơ bản để thiết lập Odoo trong môi trường production hoặc trên máy chủ kết nối internet. Tài liệu này tuân theo [cài đặt](../on_premise.md) và thường không cần thiết cho các hệ thống phát triển không được triển khai trên internet.
+Tài liệu này mô tả các bước cơ bản để thiết lập Odoo trong môi trường production hoặc trên máy chủ kết nối internet. Tài liệu này tuân theo [cài đặt](./) và thường không cần thiết cho các hệ thống phát triển không được triển khai trên internet.
 
 #### WARNING
 Nếu bạn đang thiết lập máy chủ công khai, hãy nhớ tham khảo các khuyến nghị về bảo mật của chúng tôi!

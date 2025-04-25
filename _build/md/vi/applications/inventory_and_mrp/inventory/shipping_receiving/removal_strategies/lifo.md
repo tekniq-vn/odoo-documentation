@@ -8,7 +8,7 @@ transfer is created for the lot/serial number that has most recently entered the
 lot/serial number that entered the warehouse's inventory).
 
 #### SEE ALSO
-[About removal strategies](../removal_strategies.md)
+[About removal strategies](./)
 
 #### WARNING
 In many countries, the  removal strategy is banned, since it can
@@ -19,8 +19,8 @@ Lots in the Inventory tab of the product form. The Force Removal Strategy
 for the cinder block's product category is set to Last In, First Out (LIFO).
 
 #### SEE ALSO
-- [Set up force removal strategy](../removal_strategies.md#inventory-warehouses-storage-removal-config)
-- [Enable lots tracking](../removal_strategies.md#inventory-warehouses-storage-lots-setup)
+- [Set up force removal strategy](./#inventory-warehouses-storage-removal-config)
+- [Enable lots tracking](./#inventory-warehouses-storage-lots-setup)
 - [Check arrival date](fifo.md#inventory-warehouses-storage-arrival-date)
 
 The following table represents the cinder blocks in stock, and their various lot number details.
@@ -45,4 +45,4 @@ In the Open: Stock move pop-up window, the Pick from field displays where
 the quantities to fulfill the Demand are picked from. Since the order demanded seven
 cinder blocks, the newest cinder blocks from `LOT3` are selected, using the  removal strategy.
 
-![The detailed operations shows which lots are being selected for the picking.](../../../../../_images/cinder-block-picking.png)
+![The detailed operations shows which lots are being selected for the picking.](../../../../../.gitbook/assets/cinder-block-picking.png)

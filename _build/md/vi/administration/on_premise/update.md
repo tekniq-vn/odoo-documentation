@@ -22,7 +22,7 @@ Trang này mô tả các bước thông thường cần thiết để *cập nh�
 
 Việc cập nhật Odoo được thực hiện đơn giản bằng cách cài đặt lại bản mới nhất của Phiên bản Odoo trên bản cài đặt hiện tại của bạn. Việc này sẽ bảo toàn dữ liệu của bạn mà không gây ra bất kỳ thay đổi nào, miễn là bạn không gỡ cài đặt PostgreSQL (hệ quản trị cơ sở dữ liệu đi kèm với Odoo).
 
-Tài liệu tham khảo chính về cập nhật là [hướng dẫn cài đặt](../on_premise.md) của Odoo, trong đó giải thích các phương pháp cài đặt phổ biến.
+Tài liệu tham khảo chính về cập nhật là [hướng dẫn cài đặt](./) của Odoo, trong đó giải thích các phương pháp cài đặt phổ biến.
 
 Việc cập nhật cũng nên được thực hiện bởi người triển khai Odoo lúc ban đầu, vì quy trình này rất giống nhau.
 

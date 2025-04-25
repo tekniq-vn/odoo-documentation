@@ -11,7 +11,7 @@ into [categories](#reference-frontend-odoo-editor-powerbox-category). It
 appears when typing `/` in the editor. The commands can be filtered when the
 user inputs text, and navigated with the arrow keys.
 
-![The Powerbox opened after typing "/".](../../../_images/powerbox.png)
+![The Powerbox opened after typing "/".](../../../.gitbook/assets/powerbox.png)
 
 ### Modifying the Powerbox
 
@@ -32,7 +32,7 @@ commands, bypassing all pre-existing ones. To do that, call the `open` method of
 the Powerbox and pass it your custom commands and categories.
 
 ![The Powerbox opened with custom categories and commands when pasting an
-image URL.](../../../_images/powerbox-custom.png)
+image URL.](../../../.gitbook/assets/powerbox-custom.png)
 
 ### Filtering commands
 
@@ -47,7 +47,7 @@ There are three ways to filter commands:
    Powerbox. It will fuzzy-match that text with the names of the categories and
    commands.
 
-![The Powerbox with its commands filtered using the word "head".](../../../_images/powerbox-filtered.png)
+![The Powerbox with its commands filtered using the word "head".](../../../.gitbook/assets/powerbox-filtered.png)
 
 ### Reference
 

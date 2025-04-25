@@ -12,7 +12,7 @@ This guide explains how to conduct inter-warehouse transfers using two replenish
 2. [Reordering rule](#inventory-warehouses-storage-reordering-rule)
 
 #### SEE ALSO
-[Difference between MTO and reordering rules](../replenishment.md)
+[Difference between MTO and reordering rules](./)
 
 ## Cấu hình
 
@@ -20,7 +20,7 @@ The initial configuration for both replenishment strategies is the same. First g
 Inventory app ‣ Configuration ‣ Settings. In the Warehouse section,
 activate Storage Locations. Then, click Save to apply the setting.
 
-![Enable Storage Locations in Inventory settings.](../../../../../_images/storage-locations.png)
+![Enable Storage Locations in Inventory settings.](../../../../../.gitbook/assets/storage-locations.png)
 
 ### Kho hàng
 
@@ -43,7 +43,7 @@ resupply this warehouse.
 #### SEE ALSO
 [Kho hàng](../inventory_management/warehouses.md)
 
-![Supply one warehouse with another in the Warehouse Configuration tab.](../../../../../_images/warehouse.png)
+![Supply one warehouse with another in the Warehouse Configuration tab.](../../../../../.gitbook/assets/warehouse.png)
 
 ### Set route on a product
 
@@ -100,11 +100,11 @@ After completing the setup, trigger replenishment using one of several methods, 
 
   Click the Replenish button on the top-left of the product page. In the pop-up window,
   set the warehouse to the retail shop, (e.g. `Store`), and click Confirm.
-  ![Replenish pop-up window on the product form.](../../../../../_images/replenish1.png)
+  ![Replenish pop-up window on the product form.](../../../../../.gitbook/assets/replenish1.png)
 - Create a quotation, and in the Other Info tab, set the Warehouse to the
   retail shop (e.g. `Store`), when selling the product makes the on-hand quantity of the product go
   below the minimum set on the reordering rule.
-  ![Create a quote at the store.](../../../../../_images/warehouse-field.png)
+  ![Create a quote at the store.](../../../../../.gitbook/assets/warehouse-field.png)
 
 Once triggered, Odoo creates two transfers: One is a *delivery order* from the central, supplying
 warehouse, which contains all the necessary products to the store, and the second is a *receipt* at

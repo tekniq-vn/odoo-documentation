@@ -43,12 +43,12 @@ Preferences tab. Either use any other email address or use your Odoo subdomain (
 When a message is sent, an <i class="fa fa-envelope-o"></i> (envelope) icon is displayed in the
 chatter. The icon turns red when delivery has failed for at least one recipient.
 
-![Red envelope icon displayed in the chatter.](../../../_images/red-envelope.png)
+![Red envelope icon displayed in the chatter.](../../../.gitbook/assets/red-envelope.png)
 
 Left-click the envelope to display information about the delivery, and, if possible, the relevant
 [error messages](#email-issues-outgoing-delivery-failure-messages).
 
-![Example of a sending failure.](../../../_images/sending-failures.png)
+![Example of a sending failure.](../../../.gitbook/assets/sending-failures.png)
 
 Click See Error Details to get extra information for the fail reason, **if** Odoo was
 able to process the original error or bounce email.
@@ -62,7 +62,7 @@ red to white.
 
 Unsent emails also appear in the Odoo email queue. To access it, activate the [developer mode](../developer_mode.md#developer-mode) and go to Settings ‣ Technical ‣ Email: Emails.
 
-![Example of the technical email queue view.](../../../_images/technical-menu-email-delivery-failed.png)
+![Example of the technical email queue view.](../../../.gitbook/assets/technical-menu-email-delivery-failed.png)
 
 Failed emails display the Delivery Failed status. Click Retry to put a
 failed email in the email queue again. It will then appear with the Outgoing status. The
@@ -83,7 +83,7 @@ scheduled action that cleans redundant data on your Odoo database.
 
 ##### Daily limit reached
 
-![Email limit reached warning.](../../../_images/email-limit.png)
+![Email limit reached warning.](../../../.gitbook/assets/email-limit.png)
 
 Odoo giới hạn số lượng email có thể được gửi từ một cơ sở dữ liệu Odoo Online. Hầu hết các nhà cung cấp dịch vụ email (VD: Google, Yahoo,...) sẽ đưa địa chỉ IP máy chủ của Odoo vào danh sách hạn chế nếu máy chủ email của Odoo gửi quá nhiều email đến các địa chỉ không tồn tại hoặc không còn hợp lệ. Điều này cũng áp dụng cho các email rác không được yêu cầu mà được gửi qua cơ sở dữ liệu Odoo.
 
@@ -103,7 +103,7 @@ If the daily limit is reached, you can:
   3. Bounce rate (the percentage of email addresses that did not receive emails because they were
      returned by an email server on their way to the final recipient).
   4. Whether your [email aliases are correctly set up and use the appropriate custom domains](email_servers_outbound.md#email-outbound-alias-domain).
-- [Use an external outgoing email server](../email_communication.md) to be independent of Odoo's
+- [Use an external outgoing email server](./) to be independent of Odoo's
   email limit.
 - Wait until the next day, and retry sending the email. To do so, activate the [developer mode](../developer_mode.md#developer-mode), go to Settings ‣ Technical ‣ Email: Emails, and click
   Retry next to the unsent email.
@@ -112,7 +112,7 @@ If the daily limit is reached, you can:
 The daily email limit counts every email leaving your Odoo database, triggered either manually
 or automatically. By default, any internal message, notification, logged note, etc., counts as an
 email if it notifies someone via email. This can be mitigated by receiving [notifications in
-Odoo](../../productivity/discuss.md#discuss-app-notification-preferences) instead of by email.
+Odoo](../../productivity/discuss/#discuss-app-notification-preferences) instead of by email.
 
 <a id="email-issues-outgoing-delivery-failure-messages-smtp"></a>
 
@@ -146,7 +146,7 @@ Support](#email-issues-support).
 One of the most common reasons for an email failing to be sent with no error message is related
 to the [SPF](email_domain.md#email-domain-spf) or [DKIM](email_domain.md#email-domain-dkim) configuration. Also,
 verify that the implemented email notification setup is adapted to your business needs. See the
-[Communication in Odoo by email documentation](../email_communication.md) for more
+[Communication in Odoo by email documentation](./) for more
 information.
 
 <a id="email-issues-outgoing-execution-time"></a>
@@ -161,7 +161,7 @@ Emails that are considered urgent (from one person to another, such as sales ord
 purchase orders, etc.) are sent immediately. They do not show up under Settings ‣
 Technical ‣ Email: Emails, unless their delivery fails.
 
-![Example of sending information header when a mailing campaign is queued.](../../../_images/email-marketing-asap-notice.png)
+![Example of sending information header when a mailing campaign is queued.](../../../.gitbook/assets/email-marketing-asap-notice.png)
 
 Email campaigns are sent as soon as possible (after clicking the Send button) or at a
 scheduled time (after clicking the Schedule button).

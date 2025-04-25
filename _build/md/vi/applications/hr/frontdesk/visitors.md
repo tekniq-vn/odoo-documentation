@@ -53,7 +53,7 @@ particular visitor requested a drink.
 When their drink has been served, click the Drink Served button to indicate the drink
 has been delivered to the guest. Once clicked, that button disappears.
 
-![The full list of currently checked in visitors, with the drinks to be served highlighted.](../../../_images/visitors.png)
+![The full list of currently checked in visitors, with the drinks to be served highlighted.](../../../.gitbook/assets/visitors.png)
 
 If any column is not visible, or if a visible column is preferred to be hidden, click the
 <i class="oi oi-settings-adjust"></i> (additional options) icon, located at the end of the column
@@ -89,7 +89,7 @@ listed as a planned guest in advance.
 
 ### Visitor check in
 
-When a visitor arrives at a facility, they approach a [Frontdesk kiosk](../frontdesk.md#frontdesk-kiosk), and
+When a visitor arrives at a facility, they approach a [Frontdesk kiosk](./#frontdesk-kiosk), and
 click Check in. The information requested from the visitor is what was configured for
 that specific *Frontdesk* station. If any information is required, the field displays a red asterisk
 (\*). The visitor **must** enter the required information in order to check in.

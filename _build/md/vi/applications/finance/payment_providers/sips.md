@@ -6,7 +6,7 @@ Worldline.
 ## Cấu hình
 
 #### SEE ALSO
-- [Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
+- [Enabling a payment provider](./#payment-providers-add-new)
 
 ### Credentials tab
 
@@ -25,4 +25,4 @@ If you are trying SIPS as a test, with the *TEST* credentials, change the **Stat
 Mode*. We recommend doing this on a test Odoo database, rather than on your main database.
 
 #### SEE ALSO
-- [Thanh toán online](../payment_providers.md)
+- [Thanh toán online](./)

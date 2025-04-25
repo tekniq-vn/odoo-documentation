@@ -8,7 +8,7 @@ support team to manage multi-channel support tickets from one central location.
 ## Enable channel options to submit tickets
 
 Go to Helpdesk app ‣ Configuration ‣ Helpdesk Teams, and choose an existing
-team, or click New to [create a new team](../../helpdesk.md).
+team, or click New to [create a new team](../).
 
 On the team's settings page, scroll down to the Channels and Help Center
 sections. Enable one or more channels by checking the respective boxes.
@@ -37,7 +37,7 @@ Then, scroll to Channels ‣ Email Alias. In the Alias field, type the
 desired name for the team's email alias.
 
 ![View of the settings page of a Helpdesk team emphasizing the email alias feature in Odoo
-Helpdesk.](../../../../_images/receiving-tickets-email-alias.png)
+Helpdesk.](../../../../.gitbook/assets/receiving-tickets-email-alias.png)
 
 #### NOTE
 Custom email domains are **not** required in order to use an email alias, however, they can be
@@ -64,7 +64,7 @@ Teams list view, select a team, and on the team's settings page, click the check
 Live Chat, under the Channels section.
 
 #### NOTE
-If this is the first time [Live Chat](../../../websites/livechat.md) has been enabled on
+If this is the first time [Live Chat](../../../websites/livechat/) has been enabled on
 the database, the page may need to be saved manually and refreshed before any further steps can
 be taken.
 
@@ -101,7 +101,7 @@ or by using one of the buttons located at the bottom of the form, such as Remove
 
 The Options tab contains the visual and text settings for the live chat window.
 
-![View of the options tab of a Live Chat channel's settings.](../../../../_images/receiving-tickets-options-tab.png)
+![View of the options tab of a Live Chat channel's settings.](../../../../.gitbook/assets/receiving-tickets-options-tab.png)
 - Notification Text: this field updates the greeting displayed in the text bubble when
   the live chat button appears on the website.
 - Livechat Button Color: this field alters the color of the live chat button as it
@@ -161,7 +161,7 @@ If this channel should only be available to users in specific countries, add tho
 Country field. If this field is left blank, the channel is available to all site
 visitors.
 
-![View of the Kanban cards for the available Live Chat channels.](../../../../_images/receiving-tickets-channel-rules.png)
+![View of the Kanban cards for the available Live Chat channels.](../../../../.gitbook/assets/receiving-tickets-channel-rules.png)
 
 ##### Widget tab
 
@@ -218,7 +218,7 @@ click the Contact Us button, at the bottom of the forum, to navigate to the tick
 submission form.
 
 ![View of the settings page of a helpdesk team emphasizing the Go to Website button in
-Odoo Helpdesk.](../../../../_images/receiving-tickets-go-to-website.png)
+Odoo Helpdesk.](../../../../.gitbook/assets/receiving-tickets-go-to-website.png)
 
 #### Website ticket form customization
 
@@ -250,7 +250,7 @@ Edit the other options for the new field in the sidebar, as desired:
   such as, device visibility, appear when certain options are selected.
 - Animation: choose whether or not the field should include animation.
 
-![View of the unpublished website form to submit a ticket for Odoo Helpdesk.](../../../../_images/receiving-tickets-web-form.png)
+![View of the unpublished website form to submit a ticket for Odoo Helpdesk.](../../../../.gitbook/assets/receiving-tickets-web-form.png)
 
 Once the form has been optimized, and is ready for public use, click Save to apply the
 changes. Then, publish the form by toggling the Unpublished switch to
@@ -261,7 +261,7 @@ Published at the top of the page, if necessary.
 All tickets include a Priority field. The highest priority tickets appear at the top of
 the Kanban and list views.
 
-![View of a team's Kanban view and the prioritized tasks in Odoo Helpdesk.](../../../../_images/receiving-tickets-priority.png)
+![View of a team's Kanban view and the prioritized tasks in Odoo Helpdesk.](../../../../.gitbook/assets/receiving-tickets-priority.png)
 
 The priority levels are represented by stars:
 
@@ -279,5 +279,5 @@ level of a ticket can alter the  deadline.
 
 #### SEE ALSO
 - [Close tickets](../advanced/close_tickets.md)
-- [Communication in Odoo by email](../../../general/email_communication.md)
-- [Trò chuyện Trực tiếp](../../../websites/livechat.md)
+- [Communication in Odoo by email](../../../general/email_communication/)
+- [Trò chuyện Trực tiếp](../../../websites/livechat/)

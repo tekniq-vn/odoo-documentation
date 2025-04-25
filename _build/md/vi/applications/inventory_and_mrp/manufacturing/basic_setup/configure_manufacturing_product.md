@@ -8,7 +8,7 @@ Tuyến Sản xuất được kích hoạt cho từng sản phẩm trên trang s
 
 Trên trang sản phẩm, chọn tab Tồn kho, sau đó bật hộp kiểm Sản xuất trong phần Tuyến. Điều này cho Odoo biết sản phẩm có thể được sản xuất.
 
-![Tuyến sản xuất trên tab Tồn kho của trang sản phẩm.](../../../../_images/manufacturing-route.png)
+![Tuyến sản xuất trên tab Tồn kho của trang sản phẩm.](../../../../.gitbook/assets/manufacturing-route.png)
 
 <a id="manufacturing-basic-setup-lot-serial-tracking"></a>
 
@@ -18,7 +18,7 @@ Việc chỉ định lô hoặc số sê-ri cho các sản phẩm mới sản xu
 
 Thao tác này sẽ kích hoạt trường *Số lô/sê-ri* trên lệnh sản xuất hoặc hướng dẫn *Ghi nhận sản xuất* trên thẻ công đoạn trong ứng dụng *Xưởng*.
 
-![Trường "Số lô/sê-ri" trên MO.](../../../../_images/lot-number-field.png)![Tùy chọn **Ghi nhận sản xuất** để tạo số lô/sê-ri trên thẻ công đoạn.](../../../../_images/register-production.png)
+![Trường "Số lô/sê-ri" trên MO.](../../../../.gitbook/assets/lot-number-field.png)![Tùy chọn **Ghi nhận sản xuất** để tạo số lô/sê-ri trên thẻ công đoạn.](../../../../.gitbook/assets/register-production.png)
 
 ## Cấu hình danh mục vật tư (BoM)
 
@@ -26,17 +26,17 @@ Tiếp theo, phải cấu hình  cho sản phẩm để Odoo biết cách sản 
 
 Để tạo  cho một sản phẩm cụ thể, hãy đi đến Sản xuất ‣ Sản phẩm ‣ Sản phẩm, sau đó chọn sản phẩm. Trên trang sản phẩm, nhấp vào nút Danh mục vật tư ở đầu trang, sau đó chọn Mới để cấu hình  mới.
 
-![Nút danh mục vật tư trên trang sản phẩm.](../../../../_images/bom-smart-button1.png)
+![Nút danh mục vật tư trên trang sản phẩm.](../../../../.gitbook/assets/bom-smart-button1.png)
 
 Trên , sản phẩm được tự động điền vào trường Sản phẩm. Trong trường Số lượng, hãy xác định số lượng đơn vị mà BoM sản xuất.
 
 Thêm một thành phần vào  bằng cách chọn tab Thành phần và nhấp vào Thêm một dòng. Chọn một thành phần từ menu Thành phần thả xuống, sau đó nhập số lượng vào trường Số lượng. Tiếp tục thêm thành phần trên các dòng mới cho đến khi tất cả thành phần được thêm vào.
 
-![Tab Thành phần trên danh mục vật tư.](../../../../_images/components-tab.png)
+![Tab Thành phần trên danh mục vật tư.](../../../../.gitbook/assets/components-tab.png)
 
 Tiếp theo, chọn tab Hoạt động. Nhấp vào Thêm một dòng và cửa sổ bật lên Tạo hoạt động sẽ xuất hiện. Trong trường Hoạt động, đặt tên cho hoạt động đang được thêm vào (VD: Lắp ráp, cắt,...). Chọn khu vực sản xuất, nơi hoạt động sẽ được thực hiện, từ menu thả xuống Khu vực sản xuất. Cuối cùng, nhấp vào Lưu & đóng để hoàn tất việc thêm hoạt động hoặc Lưu & mới để thêm hoạt động khác.
 
 #### IMPORTANT
 Tab Hoạt động chỉ xuất hiện nếu cài đặt Công đoạn được bật. Để thực hiện, hãy đi đến Sản xuất ‣ Cấu hình ‣ Cài đặt, sau đó bật hộp kiểm Công đoạn.
 
-![Tab Hoạt động trên danh mục vật tư.](../../../../_images/operations-tab1.png)
+![Tab Hoạt động trên danh mục vật tư.](../../../../.gitbook/assets/operations-tab1.png)

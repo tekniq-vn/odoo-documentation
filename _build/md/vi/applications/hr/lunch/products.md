@@ -26,7 +26,7 @@ Nhập thông tin sau đây trên biểu mẫu:
   <i class="fa fa-pencil"></i> (pencil) icon that appears. A file explorer pop-up window appears.
   Navigate to the image, then click Open.
 
-![A product form filled out for a nine inch pizza.](../../../_images/product.png)
+![A product form filled out for a nine inch pizza.](../../../.gitbook/assets/product.png)
 
 <a id="lunch-product-categories"></a>
 
@@ -51,4 +51,4 @@ If desired, add a photo for the category. Hover over the image box in the top-ri
 <i class="fa fa-pencil"></i> (pencil) icon that appears. This opens a file explorer pop-up window.
 Navigate to the image, then click Open.
 
-![The category form, with the fields filled out for a Soup category.](../../../_images/category.png)
+![The category form, with the fields filled out for a Soup category.](../../../.gitbook/assets/category.png)

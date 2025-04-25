@@ -24,7 +24,7 @@ be quickly seen, accessed, and analyzed.
 The kanban view is represented by an inverted bar graph icon in the upper-right
 corner.
 
-![Kanban view of the posts page in the Odoo Social Marketing application.](../../../_images/posts-page-kanban.png)
+![Kanban view of the posts page in the Odoo Social Marketing application.](../../../.gitbook/assets/posts-page-kanban.png)
 
 Chế độ xem lịch
 
@@ -38,7 +38,7 @@ post can be created, and Odoo will post it on that specific date/time.
 
 The calendar view is represented by a calendar icon in the upper-right corner.
 
-![Example of the calendar view in Odoo Social Marketing.](../../../_images/calendar-view1.png)
+![Example of the calendar view in Odoo Social Marketing.](../../../.gitbook/assets/calendar-view1.png)
 
 Xem danh sách
 
@@ -51,14 +51,14 @@ all connected Social Accounts, as well.
 
 The list view is represented by four vertical lines in the upper-right corner.
 
-![View of the list option on the posts page in Odoo Social Marketing.](../../../_images/list-view1.png)
+![View of the list option on the posts page in Odoo Social Marketing.](../../../.gitbook/assets/list-view1.png)
 
 Chế độ xem pivot
 
 The pivot view option provides a fully customizable grid table, where different measures of
 data can be added and analyzed.
 
-![View of the pivot option on the posts page in Odoo Social Marketing.](../../../_images/pivot-view1.png)
+![View of the pivot option on the posts page in Odoo Social Marketing.](../../../.gitbook/assets/pivot-view1.png)
 
 The pivot view option provides numerous analytical options, allowing for in-depth, detailed
 analysis of various posts and metrics.
@@ -85,7 +85,7 @@ From left to right, those options are:
 Clicking on a post from a social media stream reveals a pop-up window, showcasing the content of
 that specific post, along with all the engagement data related to it (e.g. likes, comments, etc.).
 
-![Sample of a social media post's pop-up window in Odoo Social Marketing application.](../../../_images/social-post-popup.png)
+![Sample of a social media post's pop-up window in Odoo Social Marketing application.](../../../.gitbook/assets/social-post-popup.png)
 
 If desired, the user can leave a new comment of the post from the post's pop-up window, by typing
 one in the Write a comment... field, and clicking Enter to post that
@@ -102,12 +102,12 @@ click the three vertical dots icon to the right of that comment.
 
 Doing so reveals a drop-down menu with the option: Create Lead.
 
-![The drop-down menu beside a comment revealing the option to create a lead.](../../../_images/create-lead-drop-down.png)
+![The drop-down menu beside a comment revealing the option to create a lead.](../../../.gitbook/assets/create-lead-drop-down.png)
 
 Upon clicking Create Lead from the comment's drop-down menu, a Conver Post to
 Lead pop-up window appears.
 
-![The convert post to lead pop-up window that appears in Odoo Social Marketing.](../../../_images/convert-post-to-lead-popup.png)
+![The convert post to lead pop-up window that appears in Odoo Social Marketing.](../../../.gitbook/assets/convert-post-to-lead-popup.png)
 
 In this pop-up window, select to either: Create a new customer, Link to an
 existing customer, or Do not link to a customer.
@@ -120,7 +120,7 @@ Once the desired selection has been made, click the Convert button at the bottom
 Convert Post to Lead pop-up window. Doing so reveals a fresh lead detail form, where the
 necessary information can be entered and processed.
 
-![New lead detail form generated from a social media comment in Odoo Social Marketing.](../../../_images/new-lead-detail-form-comments.png)
+![New lead detail form generated from a social media comment in Odoo Social Marketing.](../../../.gitbook/assets/new-lead-detail-form-comments.png)
 
 ### Thông tin chi tiết
 
@@ -130,7 +130,7 @@ displays and links that specific social media platform's KPIs (if the platform h
 To get redirected to the statistics and metrics related to any social media account's KPIs, click on
 the Insights link, located at the top of each stream.
 
-![Visual of how the Insights link appears on the dashboard of the Social Marketing app.](../../../_images/social-marketing-insights-link.png)
+![Visual of how the Insights link appears on the dashboard of the Social Marketing app.](../../../.gitbook/assets/social-marketing-insights-link.png)
 
 #### NOTE
 In a multi-company environment, if not *all* pages are selected, de-authentication happens.
@@ -151,17 +151,17 @@ To create content for social media accounts, navigated to the Social Marketing a
 and click New Post located in the upper-right corner of the *Social Marketing*
 dashboard.
 
-![New Post button on the main dashboard of the Odoo Social Marketing application.](../../../_images/new-post-button-social-marketing-dashboard.png)
+![New Post button on the main dashboard of the Odoo Social Marketing application.](../../../.gitbook/assets/new-post-button-social-marketing-dashboard.png)
 
 Or, navigate to Social Marketing app ‣ Posts and click the New
 button.
 
-![New button on the Social Posts page in the Odoo Social Marketing application.](../../../_images/new-button-social-posts-page.png)
+![New button on the Social Posts page in the Odoo Social Marketing application.](../../../.gitbook/assets/new-button-social-posts-page.png)
 
 Either route reveals a blank social media post detail form that can be customized and configured in
 a number of different ways.
 
-![Blank social media post detail page in Odoo Social Marketing.](../../../_images/blank-post-detail-page.png)
+![Blank social media post detail page in Odoo Social Marketing.](../../../.gitbook/assets/blank-post-detail-page.png)
 
 ### Post detail form
 
@@ -202,7 +202,7 @@ In the Message field, type in the desired message for the social post. After typ
 click away from the Message field to reveal visual samples of how the post will look on
 all the previously selected social media accounts (and/or websites, as push notifications).
 
-![Sample social media post with visual samples of how it will appear on social media outlets.](../../../_images/visual-samples-social-media-outlets-preview.png)
+![Sample social media post with visual samples of how it will appear on social media outlets.](../../../.gitbook/assets/visual-samples-social-media-outlets-preview.png)
 
 #### NOTE
 If Twitter is chosen in the Post on field, a character counter appears
@@ -218,7 +218,7 @@ upload it.
 After successfully uploading and attaching the desired image, Odoo reveals a new preview of the
 social media post, complete with the newly-added image, on the right side of the detail form.
 
-![Visualized samples of post with newly-attached images in Odoo Social Marketing.](../../../_images/attach-images-visual-social-post-sample.png)
+![Visualized samples of post with newly-attached images in Odoo Social Marketing.](../../../.gitbook/assets/attach-images-visual-social-post-sample.png)
 
 #### Chiến dịch
 
@@ -233,7 +233,7 @@ To create a new campaign directly from the social media post detail form, start 
 the new campaign in the blank Campaign field, and select either Create or
 Create and edit....
 
-![Drop-down menu options of Create or Create and edit in the Campaign field.](../../../_images/campaign-drop-down-menu-options.png)
+![Drop-down menu options of Create or Create and edit in the Campaign field.](../../../.gitbook/assets/campaign-drop-down-menu-options.png)
 
 Clicking Create creates the campaign, which can be edited/customized later.
 
@@ -241,7 +241,7 @@ Clicking Create and edit... creates the campaign, and reveals a Create
 Campaign pop-up form, wherein the Campaign Identifier, Responsible, and
 Tags can be instantly configured.
 
-![Create campaign pop-up window that appears on a social media post detail form.](../../../_images/create-campaign-popup.png)
+![Create campaign pop-up window that appears on a social media post detail form.](../../../.gitbook/assets/create-campaign-popup.png)
 
 When all the desired settings have been entered, click Save & Close to save the campaign
 and return to the social media post detail form.
@@ -255,7 +255,7 @@ time.
 If Schedule later is selected, a new Scheduled Date field appears. Clicking
 the empty field reveals a pop-up calendar, in which a future date and time can be designated.
 
-![Schedule date pop-up window that appears on social media post detail form in Odoo.](../../../_images/schedule-post-calendar-popup.png)
+![Schedule date pop-up window that appears on social media post detail form in Odoo.](../../../.gitbook/assets/schedule-post-calendar-popup.png)
 
 After selecting a desired date and time, click Apply. Then, Odoo will promptly publish
 the post at that specific date and time on the pre-detemined social media account(s).
@@ -274,7 +274,7 @@ If one (or multiple) [Push Notification] options are chosen in the Post on
 field, a specific Push Notification Options section appears at the bottom of the social
 media post detail form.
 
-![Push notification options section on a social media post detail form.](../../../_images/push-notification-options-section.png)
+![Push notification options section on a social media post detail form.](../../../.gitbook/assets/push-notification-options-section.png)
 
 It should be noted that *none* of these fields are required.
 
@@ -301,7 +301,7 @@ in the visitor's timezone, by enabling the Local Time option. If enabled, Odoo w
 send it at the appropriate, pre-determined time, taking the visitor's location into
 consideration.
 
-![The Local Time option in the Push Notification Options section of features.](../../../_images/push-notification-local-time.png)
+![The Local Time option in the Push Notification Options section of features.](../../../.gitbook/assets/push-notification-local-time.png)
 
 Then, there is the Match all records field. This field provides the ability to target a
 specific group of recipients in the database, based on certain criteria, and can be applied to match
@@ -313,7 +313,7 @@ rule field.
 In this equation-like rule field, specifiy the specific criteria Odoo should take into account when
 sending this post to a particular target audience.
 
-![Push notification conditions set up to match a specific amount of records in the database.](../../../_images/push-notification-condition.png)
+![Push notification conditions set up to match a specific amount of records in the database.](../../../.gitbook/assets/push-notification-condition.png)
 
 To add an additional rule, click the ➕ (plus sign) icon to the far-right of the rule.
 

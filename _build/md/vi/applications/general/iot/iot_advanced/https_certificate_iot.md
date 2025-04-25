@@ -24,16 +24,16 @@ the HTTPS certificate if the IoT system and database meet the eligibility criter
 - The database must be a **production** instance. The database instance should not be a copy, a
   duplicate, a staging, or a development environment.
 - The Odoo subscription must be ongoing (In Progress status) and have an [IoT
-  box subscription](../../iot.md#iot-iot-iot-subscription) line.
+  box subscription](../#iot-iot-iot-subscription) line.
 
 When the certificate has been received:
 
 - The IoT system's homepage address is updated to a new HTTPS URL ending with `.odoo-iot.com`. Click
   the URL to establish a secure HTTPS connection.
-  ![Odoo IoT app IoT box with .odoo-iot.com domain.](../../../../_images/iot-new-domain.png)
+  ![Odoo IoT app IoT box with .odoo-iot.com domain.](../../../../.gitbook/assets/iot-new-domain.png)
 - The HTTPS certificate banner displays the certificate's validity period. To view this
   information, click the <i class="fa fa-cogs"></i> (cogs) button on the IoT system's homepage.
-  ![IoT box homepage with HTTPS certificate validity date.](../../../../_images/https-valid.png)
+  ![IoT box homepage with HTTPS certificate validity date.](../../../../.gitbook/assets/https-valid.png)
 
 ## HTTPS certificate generation issues and errors
 
@@ -41,8 +41,8 @@ When the certificate has been received:
 
 Potential causes include the following:
 
-- No [IoT box subscription](../../iot.md#iot-iot-iot-subscription) is linked to your account.
-- The [IoT box subscription](../../iot.md#iot-iot-iot-subscription) was added *after* connecting the IoT
+- No [IoT box subscription](../#iot-iot-iot-subscription) is linked to your account.
+- The [IoT box subscription](../#iot-iot-iot-subscription) was added *after* connecting the IoT
   system to the database. In this case, refresh the IoT system's homepage or reboot/[restart](../windows_iot.md#iot-windows-iot-restart) the IoT system to regenerate the HTTPS certificate.
 - The firewall is preventing the HTTPS certificate from generating correctly. In this case,
   deactivate the firewall until the certificate is successfully generated.

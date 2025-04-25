@@ -8,7 +8,7 @@ Odoo follows a [multitier architecture](https://en.wikipedia.org/wiki/Multitier_
 logic and the data storage are separated. More specifically, it uses a three-tier architecture
 (image from Wikipedia):
 
-![Three-tier architecture](../../../_images/three_tier.svg)
+![Three-tier architecture](../../../.gitbook/assets/three_tier.svg)
 
 The presentation tier is a combination of HTML5, JavaScript and CSS. The logic tier is exclusively
 written in Python, while the data tier only supports PostgreSQL as an RDBMS.
@@ -52,7 +52,7 @@ form the `addons_path`.
 
 An Odoo module **can** contain a number of elements:
 
-[Business objects](../../reference/backend/orm.md#reference-orm)
+[Business objects](../../reference/backend/orm/#reference-orm)
 : A business object (e.g. an invoice) is declared as a Python class. The fields defined in
   these classes are automatically mapped to database columns thanks to the
    layer.

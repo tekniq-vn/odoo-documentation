@@ -2,7 +2,7 @@
 
 #### WARNING
 * This guide assumes [basic knowledge of Python](http://docs.python.org/2/tutorial/)
-* This guide assumes [an installed Odoo](../../administration/on_premise.md)
+* This guide assumes [an installed Odoo](../../administration/on_premise/)
 
 ## Creating a basic module
 
@@ -68,7 +68,7 @@ $ ./odoo-bin --addons-path addons,my-modules
 and open a page to [http://localhost:8069/academy/academy/](http://localhost:8069/academy/academy/), you should see your
 "page" appear:
 
-![image](../../_images/helloworld.png)
+![image](../../.gitbook/assets/helloworld.png)
 
 ## Templates
 
@@ -114,11 +114,11 @@ Academy and clicking Upgrade.
 
 Going to [http://localhost:8069/academy/academy/](http://localhost:8069/academy/academy/) should now result in:
 
-![image](../../_images/basic-list.png)
+![image](../../.gitbook/assets/basic-list.png)
 
 ## Storing data in Odoo
 
-[Odoo models](../reference/backend/orm.md#reference-orm-model) map to database tables.
+[Odoo models](../reference/backend/orm/#reference-orm-model) map to database tables.
 
 In the previous section we just displayed a list of string entered statically
 in the Python code. This doesn't allow modifications or persistent storage
@@ -286,7 +286,7 @@ manifest and template) access [http://localhost:8069/academy/academy/](http://lo
 yield a nicer looking page with branding and a number of built-in page
 elements (top-level menu, footer, …)
 
-![image](../../_images/layout1.png)
+![image](../../.gitbook/assets/layout1.png)
 
 The website layout also provides support for editing tools: click
 Sign In (in the top-right), fill the credentials in (`admin` /
@@ -570,8 +570,8 @@ a better experience:
 ### Relations between models
 
 We have seen a pair of "basic" fields stored directly in the record. There are
-[a number of basic fields](../reference/backend/orm.md#reference-fields-basic). The second
-broad categories of fields are [relational](../reference/backend/orm.md#reference-fields-relational) and used to link records to one another
+[a number of basic fields](../reference/backend/orm/#reference-fields-basic). The second
+broad categories of fields are [relational](../reference/backend/orm/#reference-fields-relational) and used to link records to one another
 (within a model or across models).
 
 For demonstration, let's create a *courses* model. Each course should have a

@@ -6,7 +6,7 @@ First, navigate to Employees app ‣ Reporting ‣ Contracts to open the
 Employee Analysis report. This report shows the number of all employees for the
 Last 365 Days, in a default <i class="fa fa-line-chart"></i> Line Chart.
 
-![The default Employees Analysis report.](../../../_images/employees-analysis.png)
+![The default Employees Analysis report.](../../../.gitbook/assets/employees-analysis.png)
 
 Next, click the Measures <i class="fa fa-caret-down"></i> button in the upper-left corner,
 revealing a drop-down menu. Click # Departure Employee in the list, then click away from
@@ -21,7 +21,7 @@ totals: the monthly Wage, the Fuel Card budget, total Annual
 Employee Budget (also referred to as the *annual salary*), the number of New Employees,
 as well as the number of Departure Employees (employees who left).
 
-![The Employees Analysis report, modified to show departed employees only.](../../../_images/pivot-departures.png)
+![The Employees Analysis report, modified to show departed employees only.](../../../.gitbook/assets/pivot-departures.png)
 
 ## Employee retention rate comparison report
 

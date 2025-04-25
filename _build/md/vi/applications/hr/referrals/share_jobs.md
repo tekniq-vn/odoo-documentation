@@ -16,7 +16,7 @@ button on the main *Referrals* dashboard. This presents all job positions, with 
 presented with its own card.
 
 ![The 'View Jobs' screen, displaying all current open job positions. All information is
-displayed on the card.](../../../_images/jobs1.png)
+displayed on the card.](../../../.gitbook/assets/jobs1.png)
 
 Each job position card contains the following information:
 
@@ -57,7 +57,7 @@ If desired, add any text or closing salutation to the email body. When all edits
 click Send Mail to send the email, or click Cancel to close the pop-up
 window.
 
-![Referral email pop-up window with the email message inside it.](../../../_images/email.png)
+![Referral email pop-up window with the email message inside it.](../../../.gitbook/assets/email.png)
 
 ## Share a job
 
@@ -66,7 +66,7 @@ tracking links to the job position. At the bottom of each job position card are 
 corresponding tracking links, that can be used to share the job position, keeping track of
 applicants in the *Referrals* application.
 
-![The various sharing icons that appear for each job.](../../../_images/share.png)
+![The various sharing icons that appear for each job.](../../../.gitbook/assets/share.png)
 
 ### Liên kết
 

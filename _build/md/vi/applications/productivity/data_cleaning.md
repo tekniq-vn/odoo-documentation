@@ -19,11 +19,11 @@ aligned with company-specific formatting requirements.
 The **Data Cleaning** application consists of several modules. [Install](../general/apps_modules.md#general-install) the
 following to access all available features:
 
-| Tên<br/><br/><br/>`Technical name`<br/><br/>               | Mô tả                                                                                                                                                                                    |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Data Recycle<br/><br/><br/>`data_recycle`<br/><br/>        | Base module to enable the recycle feature, available on [Odoo Community edition](../../administration.md#install-editions).                                                              |
-| Data Cleaning<br/><br/><br/>`data_cleaning`<br/><br/>      | Enables field cleaning feature to format text data across multiple records, available<br/>**only** on [Odoo Enterprise edition](../../administration.md#install-editions).               |
-| Data Cleaning (merge)<br/><br/><br/>`data_merge`<br/><br/> | Enables the deduplication feature to find similar (or duplicate) records, and merge them,<br/>available **only** on [Odoo Enterprise edition](../../administration.md#install-editions). |
+| Tên<br/><br/><br/>`Technical name`<br/><br/>               | Mô tả                                                                                                                                                                                  |
+|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Data Recycle<br/><br/><br/>`data_recycle`<br/><br/>        | Base module to enable the recycle feature, available on [Odoo Community edition](../../administration/#install-editions).                                                              |
+| Data Cleaning<br/><br/><br/>`data_cleaning`<br/><br/>      | Enables field cleaning feature to format text data across multiple records, available<br/>**only** on [Odoo Enterprise edition](../../administration/#install-editions).               |
+| Data Cleaning (merge)<br/><br/><br/>`data_merge`<br/><br/> | Enables the deduplication feature to find similar (or duplicate) records, and merge them,<br/>available **only** on [Odoo Enterprise edition](../../administration/#install-editions). |
 
 <a id="data-cleaning-deduplication"></a>
 
@@ -34,7 +34,7 @@ by matching conditions within the records set by the [deduplication rules](#data
 
 Navigate to this dashboard by going to Data Cleaning app ‣ Deduplication.
 
-![Deduplication dashboard in the Data Cleaning application.](../../_images/data-cleaning-duplicates.png)
+![Deduplication dashboard in the Data Cleaning application.](../../.gitbook/assets/data-cleaning-duplicates.png)
 
 The RULE sidebar lists each of the active deduplication rules, and displays the total
 number of duplicates detected beside each rule.
@@ -141,7 +141,7 @@ conditions within the records set by the [recycle record's rules](#data-cleaning
 
 Navigate to this dashboard by going to Data Cleaning app ‣ Recycle Records.
 
-![Field Recycle Records dashboard in the Data Cleaning application.](../../_images/data-cleaning-recycle.png)
+![Field Recycle Records dashboard in the Data Cleaning application.](../../.gitbook/assets/data-cleaning-recycle.png)
 
 The RECYCLE RULES sidebar lists each of the active recycle record rules.
 
@@ -219,7 +219,7 @@ to follow a convention set by the field cleaning rules.
 
 Navigate to this dashboard by going to Data Cleaning app ‣ Field Cleaning.
 
-![Field Cleaning Records dashboard in the Data Cleaning application.](../../_images/data-cleaning-field.png)
+![Field Cleaning Records dashboard in the Data Cleaning application.](../../.gitbook/assets/data-cleaning-field.png)
 
 The CLEANING RULES sidebar lists each of the active cleaning rules.
 

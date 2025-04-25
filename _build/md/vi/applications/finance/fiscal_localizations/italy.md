@@ -7,13 +7,13 @@
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Italian
 localization:
 
-| Tên                            | Tên kỹ thuật              | Mô tả                                                                                           |
-|--------------------------------|---------------------------|-------------------------------------------------------------------------------------------------|
-| Italy - Kế toán                | `l10n_it`                 | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
-| Ý - Hóa đơn Điện tử            | `l10n_it_edi`             | E-invoice implementation                                                                        |
-| Ý - Hóa đơn điện tử (Khấu trừ) | `l10n_it_edi_withholding` | E-invoice withholding                                                                           |
-| Ý - Báo cáo Kế toán            | `l10n_it_reports`         | Country-specific reports                                                                        |
-| Ý - Tồn kho DDT                | `l10n_it_stock_ddt`       | Transport documents - Documento di Trasporto (DDT)                                              |
+| Tên                            | Tên kỹ thuật              | Mô tả                                                                   |
+|--------------------------------|---------------------------|-------------------------------------------------------------------------|
+| Italy - Kế toán                | `l10n_it`                 | Default [fiscal localization package](./#fiscal-localizations-packages) |
+| Ý - Hóa đơn Điện tử            | `l10n_it_edi`             | E-invoice implementation                                                |
+| Ý - Hóa đơn điện tử (Khấu trừ) | `l10n_it_edi_withholding` | E-invoice withholding                                                   |
+| Ý - Báo cáo Kế toán            | `l10n_it_reports`         | Country-specific reports                                                |
+| Ý - Tồn kho DDT                | `l10n_it_stock_ddt`       | Transport documents - Documento di Trasporto (DDT)                      |
 
 ### Thông tin công ty
 
@@ -26,7 +26,7 @@ section, click Update info. From here, fill out the fields:
 - Codice Fiscale: the fiscal code of the company;
 - Tax System: the tax system under which the company falls;
 
-![Company information to be provided](../../../_images/company.png)
+![Company information to be provided](../../../.gitbook/assets/company.png)
 
 ### Taxes configuration
 
@@ -43,7 +43,7 @@ The use of sale taxes that amount to **zero percent** (0%) is required by Italia
 keep track of the exact Tax Exemption Kind (Natura) and Law Reference that
 justify the exemption operated on an invoice line.
 
-![Tax Exemption Settings](../../../_images/tax-exemption.png)
+![Tax Exemption Settings](../../../.gitbook/assets/tax-exemption.png)
 
 #### SEE ALSO
 There are many Tax Exemption Kind (Natura) and Law Reference codes. Make
@@ -102,7 +102,7 @@ The Italian localization has a specific [tax grid](../accounting/reporting/tax_r
 **reverse charge** taxes. These tax grids are identifiable by the [VJ](#italy-grids) tag, and
 can be found by going to Accounting ‣ Reporting ‣ Audit Reports: Tax Report.
 
-![Reverse charge tax grid from the VJ section of the Tax Declaration](../../../_images/grids.png)
+![Reverse charge tax grid from the VJ section of the Tax Declaration](../../../.gitbook/assets/grids.png)
 
 <a id="italy-e-invoicing"></a>
 
@@ -164,7 +164,7 @@ When in Test (Experimental) mode, all invoices sent *must* have a partner using 
 of the following fake Destination Code given by the : `0803HR0` - `N8MIMM9` - `X9XX79Z`. Any real production Codice Destinario
 of your customers will not be recognized as valid by the test service.
 
-![Electronic document invoicing settings](../../../_images/edi.png)
+![Electronic document invoicing settings](../../../.gitbook/assets/edi.png)
 
 <a id="italy-e-invoicing-process"></a>
 
@@ -178,7 +178,7 @@ process used for the mandatory transmission of tax documents in XML format betwe
 You can check the current status of an invoice by the SdI State field. The XML file
 is attached to the invoice.
 
-![EDI system architecture](../../../_images/edi-process.png)
+![EDI system architecture](../../../.gitbook/assets/edi-process.png)
 
 #### XML Documents creation
 
@@ -186,16 +186,16 @@ Odoo generates the required XML files as attachments to invoices in the `Fattura
 by the . Once the invoices needed are selected, go to
 Action and click on Send and Print.
 
-![Send and Print menu](../../../_images/edi-menu.png)
+![Send and Print menu](../../../.gitbook/assets/edi-menu.png)
 
 When the pop-up window opens there is a selection of actions that can be taken. Generate
 XML File generates the attachments.
 
-![Send and Print dialog](../../../_images/edi-send-and-print.png)
+![Send and Print dialog](../../../.gitbook/assets/edi-send-and-print.png)
 
 The XML file as well as the PDF once can be found attached to the invoice.
 
-![EDI Attachments](../../../_images/edi-attachments.png)
+![EDI Attachments](../../../.gitbook/assets/edi-attachments.png)
 
 #### Submission to SDI
 
@@ -208,7 +208,7 @@ invoice through the Check Sending button at the top of the invoice's view.
 
 Hệ thống  nhận tài liệu và kiểm tra các lỗi. Ở giai đoạn này, hóa đơn ở trạng thái SdI đang xử lý, như hiển thị trên hóa đơn. Hóa đơn cũng được gán một số Giao dịch FatturaPA hiển thị trong tab Hóa đơn điện tử. Quá trình kiểm tra có thể mất thời gian khác nhau, từ vài giây đến một ngày, tùy thuộc vào danh sách hóa đơn chờ được gửi trên toàn nước Ý.
 
-![Check Sending button and Sdi Processing state](../../../_images/edi-processing.png)
+![Check Sending button and Sdi Processing state](../../../.gitbook/assets/edi-processing.png)
 
 #### Acceptance
 
@@ -230,7 +230,7 @@ Hệ thống  có thể phát hiện các điểm không chính xác trong quá 
 To regenerate the XML, both the XML attachment and the PDF report must be deleted, so that they
 are then regenerated together. This ensures that both always contain the same data.
 
-![EDI Rejected State](../../../_images/edi-rejected.png)
+![EDI Rejected State](../../../.gitbook/assets/edi-rejected.png)
 
 #### Forwarding Completed
 
@@ -260,7 +260,7 @@ the top of the single vendor bill form to send them.
 When clicking on the Send Tax Integration button, an XML file of the appropriate
 Document Type is generated, attached to the bill, and sent as for invoices.
 
-![EDI Send Tax Integration button](../../../_images/edi-tax-integration-button.png)
+![EDI Send Tax Integration button](../../../.gitbook/assets/edi-tax-integration-button.png)
 
 <a id="italy-document-types"></a>
 
@@ -523,7 +523,7 @@ portal.
 2. Go to Settings ‣ Users & Companies ‣ Companies and select the company that
    will use Ri.Ba.
 3. Fill out the required SIA Code.
-   ![The company's SIA code](../../../_images/sia-code.png)
+   ![The company's SIA code](../../../.gitbook/assets/sia-code.png)
 
    #### NOTE
    The SIA Code identifies businesses within the Italian banking network and is used
@@ -532,7 +532,7 @@ portal.
 4. Ensure the Company's bank account has an Italian IBAN.
 
    #### SEE ALSO
-   How to configure [Bank Accounts](../accounting/bank.md)
+   How to configure [Bank Accounts](../accounting/bank/)
 
 ### Accept Ri.Ba. for your invoices
 
@@ -545,10 +545,10 @@ Make sure that your invoice involves a Partner that has a bank account with an I
 Then, all Payments must be grouped in a **Batch Payment**.
 
 #### SEE ALSO
-- [Batch Payments](../accounting/payments.md)
+- [Batch Payments](../accounting/payments/)
 - [Create a Batch Payment](../accounting/payments/batch.md)
 
 Once you press the Validate button for the Batch Payment, the  file is generated and attached to the Batch Payment, so you can download it and upload it
 through your bank's web portal.
 
-![The Ri.Ba. file attached](../../../_images/riba-attachment.png)
+![The Ri.Ba. file attached](../../../.gitbook/assets/riba-attachment.png)

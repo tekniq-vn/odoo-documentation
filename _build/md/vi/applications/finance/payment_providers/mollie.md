@@ -5,7 +5,7 @@
 ## Cấu hình
 
 #### SEE ALSO
-- [Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
+- [Enabling a payment provider](./#payment-providers-add-new)
 
 ### Credentials tab
 
@@ -24,4 +24,4 @@ If you are trying Mollie as a test, with the Test API key, change the **State** 
 We recommend doing this on a test Odoo database, rather than on your main database.
 
 #### SEE ALSO
-- [Thanh toán online](../payment_providers.md)
+- [Thanh toán online](./)

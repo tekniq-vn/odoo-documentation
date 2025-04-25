@@ -15,7 +15,7 @@ returned, and invoice customers from this single platform.
 
 Upon opening the *Rental* application, the Rental Orders dashboard is revealed.
 
-![Example of the Rental Orders dashboard available in the Odoo Rental application.](../../_images/rental-orders-dashboard.png)
+![Example of the Rental Orders dashboard available in the Odoo Rental application.](../../.gitbook/assets/rental-orders-dashboard.png)
 
 In the default kanban view, all rentals are visible. Each rental card displays the customer name,
 the price of the rental, the related sales order number, along with the status of the rental.
@@ -33,7 +33,7 @@ filters the displayed rentals on the dashboard.
 To configure additional rental delay costs, availability of rental items, or minimum time of rental,
 navigate to Rental app ‣ Configuration ‣ Settings.
 
-![How the Settings page appears in the Odoo Rental application.](../../_images/rental-settings.png)
+![How the Settings page appears in the Odoo Rental application.](../../.gitbook/assets/rental-settings.png)
 
 In the Rental section, there are options to configure Default Delay Costs
 and Default Padding Time. There is also the option to activate Rental
@@ -65,7 +65,7 @@ then select the desired product or click New to create a new product from scratc
 On the product form, ensure the Can be Rented checkbox is ticked. Then, open the
 Rental prices tab.
 
-![How the Settings page appears in the Odoo Rental application.](../../_images/rental-prices-tab.png)
+![How the Settings page appears in the Odoo Rental application.](../../.gitbook/assets/rental-prices-tab.png)
 
 #### NOTE
 If creating a rental product outside of the *Rental* app, just ensure the Can be
@@ -117,7 +117,7 @@ To create a rental order in the *Rental* app, navigate to Rental app ‣ Orders 
 Orders, and click New. Doing so reveals a blank rental order form to be filled in
 accordingly.
 
-![Sample of a filled out rental order available in the Odoo Rental application.](../../_images/rental-order.png)
+![Sample of a filled out rental order available in the Odoo Rental application.](../../.gitbook/assets/rental-order.png)
 
 Start by adding a Customer, then configure the desired duration of the rental in the
 Rental period field.
@@ -126,7 +126,7 @@ To adjust the rental duration, click the first date in the Rental period field, 
 select the range of dates to represent the rental duration from the pop-up calendar form that
 appears.
 
-![Sample of a rental period calendar pop-up window in the Odoo Rental application.](../../_images/rental-period-field-popup.png)
+![Sample of a rental period calendar pop-up window in the Odoo Rental application.](../../.gitbook/assets/rental-period-field-popup.png)
 
 Once complete, click Apply in the calendar pop-up form. Following that, the pop-up form
 disappears, and the designated time period of the rental is represented in the Duration
@@ -142,7 +142,7 @@ configured, the user can *still* adjust the Rental period field accordingly.
 Simply select the desired range of dates to represent the duration of the rental, then click
 Update Rental Prices in the Duration field.
 
-![The update rental prices option that appears in the Odoo Rental application.](../../_images/rental-update-rental-prices.png)
+![The update rental prices option that appears in the Odoo Rental application.](../../.gitbook/assets/rental-update-rental-prices.png)
 
 Doing so reveals a Confirmation pop-up window. If everything is correct, click
 Ok, and Odoo recalculates the rental price accordingly.
@@ -172,12 +172,12 @@ automatically installs it after activating the Digital Documents setting.
 To request a customer signature on a rental agreement, select a confirmed rental order, and click
 the Sign Documents button to reveal a Sign Documents pop-up window.
 
-![The Sign Documents pop-up window that appears in the Odoo Rental application.](../../_images/sign-documents-popup.png)
+![The Sign Documents pop-up window that appears in the Odoo Rental application.](../../.gitbook/assets/sign-documents-popup.png)
 
 From here, select the desired document from the Document Template field. Then, click
 Sign Document. Doing so reveals a New Signature Request pop-up window.
 
-![The New Signature Request pop-up window that appears in the Odoo Rental application.](../../_images/new-signature-request-form.png)
+![The New Signature Request pop-up window that appears in the Odoo Rental application.](../../.gitbook/assets/new-signature-request-form.png)
 
 Upon confirming the information in the New Signature Request pop-up form, click
 Sign Now to initiate the signing process.
@@ -188,12 +188,12 @@ customer via the customer portal.
 Odoo guides the customer through the signing process with clear, clickable indicators, and allows
 them to create electronic signatures to quickly complete the form.
 
-![The adopt your signature pop-up window that appears in the Odoo Rental application.](../../_images/adopt-signature-popup.png)
+![The adopt your signature pop-up window that appears in the Odoo Rental application.](../../.gitbook/assets/adopt-signature-popup.png)
 
 Once the document has been signed and completed, click the Validate & Send Completed
 Document button at the bottom of the document.
 
-![The validate and send completed document button in the Odoo Rental application.](../../_images/validate-send-doc-button.png)
+![The validate and send completed document button in the Odoo Rental application.](../../.gitbook/assets/validate-send-doc-button.png)
 
 Upon clicking the Validate & Send Completed Document button, Odoo presents the option to
 download the signed document for record-keeping purposes, if necessary.
@@ -227,7 +227,7 @@ products.
 To print pickup and/or return receipts, navigate to the appropriate rental order, click the
 ⚙️ (gear) icon to reveal a drop-down menu.
 
-![The pickup and return receipt print option in the Odoo Rental application.](../../_images/print-pickup-return-receipt.png)
+![The pickup and return receipt print option in the Odoo Rental application.](../../.gitbook/assets/print-pickup-return-receipt.png)
 
 From this drop-down menu, hover over the Print option to reveal a sub-menu. Then select
 Pickup and Return Receipt.

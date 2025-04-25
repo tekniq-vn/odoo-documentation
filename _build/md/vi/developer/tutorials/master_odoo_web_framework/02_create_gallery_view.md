@@ -32,7 +32,7 @@ First step is to create a JavaScript implementation with a simple component.
 4. Add `gallery` as one of the view type in the `contacts.action_contacts` action.
 5. Make sure that you can see your hello world component when switching to the gallery view.
 
-![image](../../../_images/view_button.png)![image](../../../_images/new_view.png)
+![image](../../../.gitbook/assets/view_button.png)![image](../../../.gitbook/assets/new_view.png)
 
 ## 2. Use the Layout component
 
@@ -43,7 +43,7 @@ have the standard features like other views.
 2. Update the template to use `Layout`. It needs a `display` prop, which can be found in
    `props.display`.
 
-![image](../../../_images/layout.png)
+![image](../../../.gitbook/assets/layout.png)
 
 ## 3. Parse the arch
 
@@ -84,7 +84,7 @@ service.
 #### NOTE
 The loading data code will be moved into a proper model in a next exercise.
 
-![image](../../../_images/gallery_data.png)
+![image](../../../.gitbook/assets/gallery_data.png)
 
 ## 5. Solve the concurrency problem
 
@@ -154,7 +154,7 @@ registry.category("views").add("my_gallery", {
 Update the renderer to display images in a nice way, if the field is set. If `image_field` is
 empty, display an empty box instead.
 
-![image](../../../_images/tshirt_images.png)
+![image](../../../.gitbook/assets/tshirt_images.png)
 
 ## 9. Switch to form view on click
 
@@ -177,7 +177,7 @@ It is useful to have some additional information on mouse hover.
    put the string in the `data-tooltip` attribute of the element.
 3. Update the customer gallery view arch to add the customer as tooltip field.
 
-![image](../../../_images/image_tooltip.png)
+![image](../../../.gitbook/assets/image_tooltip.png)
 
 #### SEE ALSO
 [Example: usage of t-att-data-tooltip](https://github.com/odoo/odoo/blob/145fe958c212ddef9fab56a232c8b2d3db635c8e/addons/survey/static/src/views/widgets/survey_question_trigger/survey_question_trigger.xml#L8)
@@ -186,7 +186,7 @@ It is useful to have some additional information on mouse hover.
 
 Let's add a pager on the control panel and manage all the pagination like in a normal Odoo view.
 
-![image](../../../_images/pagination.png)
+![image](../../../.gitbook/assets/pagination.png)
 
 #### SEE ALSO
 - [Code: The usePager hook](https://github.com/odoo/odoo/blob/17.0/addons/web/static/src/search/pager_hook.js)
@@ -258,7 +258,7 @@ Our gallery view does not allow users to upload images. Let us implement that.
    the `write_date` from the record to the image url.
 4. Make sure that clicking on the upload button does not trigger the switchView.
 
-![image](../../../_images/upload_image.png)
+![image](../../../.gitbook/assets/upload_image.png)
 
 #### SEE ALSO
 - [Example: usage of FileUploader](https://github.com/odoo/odoo/blob/7710c3331ebd22f8396870bd0731f8c1152d9c41/addons/mail/static/src/web/activity/activity.xml#L48-L52)
@@ -284,7 +284,7 @@ template for it ?
    tooltips. This hooks take as argument the Owl template and the variable needed by the
    template.
 
-![image](../../../_images/advanced_tooltip.png)
+![image](../../../.gitbook/assets/advanced_tooltip.png)
 
 #### SEE ALSO
 - [Example: useTooltip used in Kaban](https://github.com/odoo/odoo/blob/0e6481f359e2e4dd4f5b5147a1754bb3cca57311/addons/web/static/src/views/kanban/kanban_record.js#L189-L192)

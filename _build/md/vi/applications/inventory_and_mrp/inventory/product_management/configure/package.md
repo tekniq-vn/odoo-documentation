@@ -12,7 +12,7 @@ Kiện hàng thường được sử dụng cho các mục đích sau:
 
 Theo mặc định, trường *Sử dụng kiện hàng* trên biểu mẫu kiện hàng được đặt thành *Hộp dùng một lần*. Thay đổi trường này thành *Hộp tái sử dụng* **chỉ** khi cấu hình kiện hàng cho [lấy hàng theo cụm](#inventory-warehouses-storage-cluster-pack).
 
-*Loại kiện hàng* là tính năng tùy chọn được sử dụng để [tính toán phí vận chuyển](../../shipping_receiving/setup_configuration.md), dựa trên khối lượng vận chuyển thực tế. Tạo loại kiện hàng để tính cả khối lượng của chính kiện hàng đó (ví dụ: hộp, pallet, các loại bao bì vận chuyển khác) trong tính toán phí vận chuyển.
+*Loại kiện hàng* là tính năng tùy chọn được sử dụng để [tính toán phí vận chuyển](../../shipping_receiving/setup_configuration/), dựa trên khối lượng vận chuyển thực tế. Tạo loại kiện hàng để tính cả khối lượng của chính kiện hàng đó (ví dụ: hộp, pallet, các loại bao bì vận chuyển khác) trong tính toán phí vận chuyển.
 
 #### NOTE
 Mặc dù kiện hàng thường được sử dụng trong [tuyến giao hàng ba bước](../../shipping_receiving/daily_operations/delivery_three_steps.md), nhưng chúng có thể được sử dụng trong mọi quy trình liên quan đến các sản phẩm lưu kho.
@@ -23,7 +23,7 @@ Mặc dù kiện hàng thường được sử dụng trong [tuyến giao hàng 
 
 Để sử dụng kiện hàng, trước tiên hãy đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt. Trong tiêu đề Hoạt động, kích hoạt tính năng Kiện hàng. Sau đó, nhấp vào Lưu.
 
-![Kích hoạt cài đặt *Kiện hàng* trong Tồn kho > Cấu hình > Cài đặt.](../../../../../_images/enable-pack.png)
+![Kích hoạt cài đặt *Kiện hàng* trong Tồn kho > Cấu hình > Cài đặt.](../../../../../.gitbook/assets/enable-pack.png)
 
 <a id="inventory-product-management-move-entire-pack"></a>
 
@@ -51,13 +51,13 @@ Có thể thêm sản phẩm vào kiện hàng trong bất kỳ điều chuyển
 
 Trong bất kỳ điều chuyển tồn kho nào (VD: phiếu nhập kho, lệnh giao hàng), thêm sản phẩm vào kiện hàng bằng cách nhấp vào biểu tượng ⦙≣ (danh sách có dấu đầu dòng) trong tab Hoạt động.
 
-![Hiển thị biểu tượng "Hoạt động chi tiết" trong dòng sản phẩm.](../../../../../_images/detailed-operations.png)
+![Hiển thị biểu tượng "Hoạt động chi tiết" trong dòng sản phẩm.](../../../../../.gitbook/assets/detailed-operations.png)
 
 Thao tác này sẽ mở cửa sổ pop-up Hoạt động chi tiết cho Sản phẩm.
 
 Để đặt Sản phẩm vào một kiện hàng, nhấp vào Thêm một dòng và gán sản phẩm vào Kiện hàng đích. Chọn một kiện hàng hiện có hoặc tạo mới bằng cách nhập tên của kiện hàng mới, sau đó chọn Tạo....
 
-![Gán kiện hàng vào trường "Kiện hàng đích"](../../../../../_images/destination-package.png)
+![Gán kiện hàng vào trường "Kiện hàng đích"](../../../../../.gitbook/assets/destination-package.png)
 
 Sau đó, chỉ định số lượng mặt hàng sẽ đưa vào kiện hàng trong cột Hoàn tất. Lặp lại các bước trên để đặt Sản phẩm vào các kiện hàng khác nhau. Khi hoàn tất, nhấp vào Xác nhận để đóng cửa sổ.
 
@@ -73,7 +73,7 @@ Ngoài ra, bạn có thể nhấp vào nút Đóng hàng thành kiện trong **b
 #### IMPORTANT
 Nút Đóng hàng thành kiện xuất hiện trên phiếu nhập kho, lệnh giao hàng và các biểu mẫu điều chuyển khác khi tính năng *Kiện hàng* được bật trong Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt.
 
-![Hình ảnh nút "Đóng hàng thành kiện" được nhấp.](../../../../../_images/put-in-pack.png)
+![Hình ảnh nút "Đóng hàng thành kiện" được nhấp.](../../../../../.gitbook/assets/put-in-pack.png)
 
 <a id="inventory-warehouses-storage-package-type"></a>
 
@@ -83,7 +83,7 @@ Tạo loại kiện hàng bằng cách đi đến Ứng dụng Tồn kho ‣ C�
 
 #### SEE ALSO
 - [Đơn vị vận chuyển](../../shipping_receiving/setup_configuration/third_party_shipper.md)
-- [Delivery methods](../../shipping_receiving/setup_configuration.md)
+- [Delivery methods](../../shipping_receiving/setup_configuration/)
 
 Trên danh sách Loại kiện hàng, khi nhấp vào Mới sẽ mở một biểu mẫu loại kiện hàng trống. Các trường của biểu mẫu như sau:
 
@@ -100,7 +100,7 @@ Odoo tính toán khối lượng kiện hàng bằng cách cộng khối lượn
 - Đơn vị vận chuyển: chỉ định đơn vị vận chuyển dự kiến ​​cho loại kiện hàng này.
 - Mã đơn vị vận chuyển: chỉ định mã được liên kết với loại kiện hàng.
 
-![Loại kiện hàng dành cho hộp FedEx 25kg.](../../../../../_images/package-type.png)
+![Loại kiện hàng dành cho hộp FedEx 25kg.](../../../../../.gitbook/assets/package-type.png)
 
 <a id="inventory-warehouses-storage-cluster-pack"></a>
 
@@ -108,7 +108,7 @@ Odoo tính toán khối lượng kiện hàng bằng cách cộng khối lượn
 
 Để sử dụng *kiện hàng theo cụm*, trước tiên hãy đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt và kích hoạt tính năng Lệnh chuyển hàng theo lô, nằm trong phần Hoạt động. Sau đó, trường *Sử dụng kiện hàng* sẽ hiển thị trên biểu mẫu kiện hàng.
 
-![Kích hoạt tính năng *Lệnh chuyển hàng theo lô* trong Tồn kho > Cấu hình > Cài đặt.](../../../../../_images/enable-batch.png)
+![Kích hoạt tính năng *Lệnh chuyển hàng theo lô* trong Tồn kho > Cấu hình > Cài đặt.](../../../../../.gitbook/assets/enable-batch.png)
 
 Thêm các kiện hàng mới bằng cách đi đến Ứng dụng Tồn kho ‣ Sản phẩm ‣ Kiện hàng. Sau đó, nhấp vào Mới hoặc chọn một kiện hàng hiện có. Thao tác này sẽ mở biểu mẫu kiện hàng chứa các trường sau:
 
@@ -123,7 +123,7 @@ Thêm các kiện hàng mới bằng cách đi đến Ứng dụng Tồn kho ‣
 - Ngày đóng hàng: ngày kiện hàng được tạo.
 - Sử dụng kiện hàng: chọn Tái sử dụng cho các kiện hàng dùng để chuyển sản phẩm trong kho; Dùng một lần cho các kiện hàng dùng để vận chuyển sản phẩm đến tay khách hàng.
 
-![Hiển thị biểu mẫu kiện hàng để tạo kiện hàng theo cụm.](../../../../../_images/package.png)
+![Hiển thị biểu mẫu kiện hàng để tạo kiện hàng theo cụm.](../../../../../.gitbook/assets/package.png)
 
 #### SEE ALSO
 [Sử dụng kiện hàng theo cụm](../../shipping_receiving/picking_methods/cluster.md)

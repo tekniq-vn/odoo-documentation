@@ -314,7 +314,7 @@ negative `!` operator to exclude them.
 ### domain
 
 The filters to apply when displaying existing records for selection, as a Python expression that
-evaluates to a [domain](../backend/orm.md#reference-orm-domains).
+evaluates to a [domain](../backend/orm/#reference-orm-domains).
 
 * **Requirement:**
   Optional
@@ -2153,7 +2153,7 @@ type (e.g., `=` for float fields, but `ilike` for char fields and `child_of` for
 ### filter_domain
 
 The domain to use as the field's search domain, as a Python expression that evaluates to a
-[domain](../backend/orm.md#reference-orm-domains).
+[domain](../backend/orm/#reference-orm-domains).
 
 It  can use the `self` variable to inject the provided value in the custom domain. It can be used
 to generate significantly more flexible domains than with the `operator` attribute alone (e.g.,

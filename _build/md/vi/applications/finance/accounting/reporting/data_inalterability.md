@@ -45,10 +45,10 @@ inalterability check column, you can see whether or not a journal's posted entri
 a hash (V) or not (X). The coverage column tells you when a journal's posted entries started being
 locked.
 
-![Configuration report for two journals](../../../../_images/journal-overview.png)
+![Configuration report for two journals](../../../../.gitbook/assets/journal-overview.png)
 
 The second section gives you the result of the data consistency check for each hashed journal. You
 can view the first hashed entry and its corresponding hash and the last hashed entry and its
 corresponding hash.
 
-![Data consistency check report for a journal](../../../../_images/data-consistency-check.png)
+![Data consistency check report for a journal](../../../../.gitbook/assets/data-consistency-check.png)

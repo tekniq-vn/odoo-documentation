@@ -19,7 +19,7 @@ global variables that would be updated depending on installed modules.
 ## Object-Relational Mapping
 
 **Reference**: the documentation related to this topic can be found in the
-[Models](../../reference/backend/orm.md#reference-orm-model) API.
+[Models](../../reference/backend/orm/#reference-orm-model) API.
 
 #### NOTE
 **Goal**: at the end of this section, the table `estate_property` should be created:
@@ -96,7 +96,7 @@ the **Goal**.
 ## Model fields
 
 **Reference**: the documentation related to this topic can be found in the
-[Fields](../../reference/backend/orm.md#reference-orm-fields) API.
+[Fields](../../reference/backend/orm/#reference-orm-fields) API.
 
 Fields are used to define what the model can store and where they are stored. Fields are
 defined as attributes in the model class:
@@ -212,7 +212,7 @@ Some attributes are available on all fields, here are the most common ones:
 ### Automatic Fields
 
 **Reference**: the documentation related to this topic can be found in
-[Automatic fields](../../reference/backend/orm.md#reference-fields-automatic).
+[Automatic fields](../../reference/backend/orm/#reference-fields-automatic).
 
 You may have noticed your model has a few fields you never defined.
 Odoo creates a few fields in all models<sup>[1](#autofields)</sup>. These fields are
@@ -237,5 +237,5 @@ useful or necessary:
 Now that we have created our first model, let's
 [add some security](04_securityintro.md)!
 
-* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](../../reference/backend/orm.md#reference-fields-automatic-log-access)
+* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](../../reference/backend/orm/#reference-fields-automatic-log-access)
 * <a id='rawsql'>**[2]**</a> writing raw SQL queries is possible, but requires caution as this bypasses all Odoo authentication and security mechanisms.

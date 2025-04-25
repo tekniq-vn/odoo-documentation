@@ -5,7 +5,7 @@ Odoo community and Odoo employees alike, the preferred way is to perform a sourc
 ().
 
 #### IMPORTANT
-Follow the [Environment setup](../../contributing/development.md#contributing-development-setup) section of the contributing guide to prepare
+Follow the [Environment setup](../../contributing/development/#contributing-development-setup) section of the contributing guide to prepare
 your environment for pushing local changes to the Odoo repositories.
 
 ## Adapt the environment for the tutorials
@@ -52,7 +52,7 @@ created a repository to serve as an addons directory. This will allow you to pus
 #### IMPORTANT
 **For Odoo employees only:**
 
-1. Make sure to read very carefully [Make your first contribution](../../contributing/development.md#contributing-development-first-contribution). In particular,
+1. Make sure to read very carefully [Make your first contribution](../../contributing/development/#contributing-development-first-contribution). In particular,
    your branch name must follow our conventions.
 2. Once you have pushed your first change to the shared fork on **odoo-dev**, create a
    . Please put your quadrigram in the PR title (e.g., "abcd - Technical

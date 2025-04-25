@@ -35,14 +35,14 @@ Here are some terms that are essential on the Ecuadorian localization:
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Ecuadorian
 localization:
 
-| Tên                         | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                                                                                                                                                                                        |
-|-----------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ecuador - Kế toán           | `l10n_ec`              | [Gói bản địa hóa tài chính](../fiscal_localizations.md) mặc định bổ sung đặc điểm kế toán cho bản địa hoá Ecuador, đại diện cho cấu hình tối thiểu cần thiết để doanh nghiệp hoạt động tại Ecuador theo hướng dẫn của . Khi cài đặt, phân hệ sẽ tự động tải: Hệ thống tài khoản, thuế, loại chứng từ, loại hỗ trợ thuế. Đồng thời, hệ thống tự động tạo biểu mẫu 103 và 104. |
-| EDI kế toán của Ecuador     | `l10n_ec_edi`          | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](../accounting/customer_invoices/electronic_invoicing.md), based on the Technical<br/>documentation published by the SRI. The authorized documents are: Invoices, Credit Notes,<br/>Debit Notes, Withholdings and Purchase liquidations.                          |
-| Báo cáo kế toán của Ecuador | `l10n_ec_reports`      | Includes all the technical and functional requirements to generate forms 103 and 104.                                                                                                                                                                                                                                                                                        |
-| Ecuador - ATS Report        | `l10n_ec_reports_ats`  | Includes all the technical and functional requirements to generate the ATS report XML file<br/>ready to be uploaded to the *DIMM Formularios*.                                                                                                                                                                                                                               |
-| Trang web tiếng Ecuado      | `l10n_ec_website_sale` | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a Website sale.                                                                                                                                                                                                                                                    |
-| Ecuadorian Point of Sale    | `l10n_ec_edi_pos`      | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a POS sale.                                                                                                                                                                                                                                                        |
+| Tên                         | Tên kỹ thuật           | Mô tả                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ecuador - Kế toán           | `l10n_ec`              | [Gói bản địa hóa tài chính](./) mặc định bổ sung đặc điểm kế toán cho bản địa hoá Ecuador, đại diện cho cấu hình tối thiểu cần thiết để doanh nghiệp hoạt động tại Ecuador theo hướng dẫn của . Khi cài đặt, phân hệ sẽ tự động tải: Hệ thống tài khoản, thuế, loại chứng từ, loại hỗ trợ thuế. Đồng thời, hệ thống tự động tạo biểu mẫu 103 và 104. |
+| EDI kế toán của Ecuador     | `l10n_ec_edi`          | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](../accounting/customer_invoices/electronic_invoicing.md), based on the Technical<br/>documentation published by the SRI. The authorized documents are: Invoices, Credit Notes,<br/>Debit Notes, Withholdings and Purchase liquidations.  |
+| Báo cáo kế toán của Ecuador | `l10n_ec_reports`      | Includes all the technical and functional requirements to generate forms 103 and 104.                                                                                                                                                                                                                                                                |
+| Ecuador - ATS Report        | `l10n_ec_reports_ats`  | Includes all the technical and functional requirements to generate the ATS report XML file<br/>ready to be uploaded to the *DIMM Formularios*.                                                                                                                                                                                                       |
+| Trang web tiếng Ecuado      | `l10n_ec_website_sale` | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a Website sale.                                                                                                                                                                                                                            |
+| Ecuadorian Point of Sale    | `l10n_ec_edi_pos`      | Includes all the technical and functional requirements to generate automatic electronic<br/>invoices from a POS sale.                                                                                                                                                                                                                                |
 
 #### NOTE
 When you install a database from scratch selecting `Ecuador` as the country, Odoo automatically
@@ -65,7 +65,7 @@ to your company or activate [developer mode](../../general/developer_mode.md#dev
    - Email
 2. Upload company logo and save
 
-![Populate company data for Ecuador in Odoo Contacts.](../../../_images/ecuador-company.png)
+![Populate company data for Ecuador in Odoo Contacts.](../../../.gitbook/assets/ecuador-company.png)
 
 ### Chứng từ điện tử
 
@@ -94,7 +94,7 @@ Configure the next information:
 - Special tax contributor number: if your company is qualified as a special taxpayer,
   fill out this field with it's corresponding tax contributor number.
 
-![Electronic signature for Ecuador.](../../../_images/electronic-signature.png)
+![Electronic signature for Ecuador.](../../../.gitbook/assets/electronic-signature.png)
 
 #### NOTE
 When configuring the withholdings in the configuration menu, these suggested withholdings are
@@ -111,7 +111,7 @@ skip this step. To configure your VAT withholding, go to Accounting ‣ Accounti
 You must configure the withholding percentage that applies for each type of taxpayer, specify the
 Goods VAT Withholding and the Services VAT Withholding.
 
-![Taxpayer Type configuration for Ecuador.](../../../_images/contributor-type.png)
+![Taxpayer Type configuration for Ecuador.](../../../.gitbook/assets/contributor-type.png)
 
 ### Printer points
 
@@ -139,7 +139,7 @@ For each printer point, you need to configure the following information:
 Customer Invoice, Credit Notes and Debit Notes need to use the same journal as the
 Emission Point, and the Entity Point should be unique per journal.
 
-![Configuring a printer point for Ecuador electronic document type of Customer Invoices.](../../../_images/printer-point.png)
+![Configuring a printer point for Ecuador electronic document type of Customer Invoices.](../../../.gitbook/assets/printer-point.png)
 
 #### NOTE
 In the Advanced Settings tab, check the Electronic Invoicing checkbox to
@@ -165,7 +165,7 @@ Accounting:  Journals where you need to configure the following information:
 - Short Code: This is the unique code for the sequence of accounting entries, enter a
   unique 5-digit code, for example: `RT001`
 
-![Configuring withholding for Ecuador electronic document type of Withholding.](../../../_images/withhold.png)
+![Configuring withholding for Ecuador electronic document type of Withholding.](../../../.gitbook/assets/withhold.png)
 
 #### NOTE
 In the Advanced Settings tab, check the Electronic Invoicing checkbox to
@@ -188,7 +188,7 @@ information:
 - Short Code: This is the unique code for the sequence of accounting entries, enter a
   unique 5-digit code, for example: `RT001`
 
-![Configuring purchase liquidations for Ecuador electronic document type of Withholding.](../../../_images/purchase-liqudations.png)
+![Configuring purchase liquidations for Ecuador electronic document type of Withholding.](../../../.gitbook/assets/purchase-liqudations.png)
 
 #### NOTE
 In the Advanced Settings tab, check the Electronic Invoicing checkbox to
@@ -214,7 +214,7 @@ withholding code (tax) that applies.
 
 Go to Accounting ‣ Vendors:  Products under the tab "Purchase"
 
-![Sản phẩm dành cho Ecuador.](../../../_images/products.png)
+![Sản phẩm dành cho Ecuador.](../../../.gitbook/assets/products.png)
 
 #### Liên hệ
 
@@ -229,7 +229,7 @@ Configure the next information when you create a contact:
 - Điện thoại
 - Email
 
-![Liên hệ dành cho Ecuador.](../../../_images/contacts.png)
+![Liên hệ dành cho Ecuador.](../../../.gitbook/assets/contacts.png)
 
 #### NOTE
 The SRI Taxpayer Type has inside the configuration of which VAT and Profit
@@ -241,7 +241,7 @@ from there.
 As part of the localization module, taxes are automatically created with its configuration and
 related financial accounts.
 
-![Thuế dành cho Ecuador.](../../../_images/taxes.png)
+![Thuế dành cho Ecuador.](../../../.gitbook/assets/taxes.png)
 
 The following options have been automatically configured:
 
@@ -261,7 +261,7 @@ Once the Ecuador module is installed, the most common taxes are automatically co
 need to create an additional one, you can do so, for which you must base yourself on the
 configuration of the existing taxes.
 
-![Taxes with tax support for Ecuador.](../../../_images/taxes-with-tax-support.png)
+![Taxes with tax support for Ecuador.](../../../.gitbook/assets/taxes-with-tax-support.png)
 
 #### Review your Document Types
 
@@ -275,7 +275,7 @@ data is created automatically when the localization module is installed.
 The information required for the document types is included by default so the user does not need to
 fill anything there.
 
-![Document types for Ecuador.](../../../_images/document-types.png)
+![Document types for Ecuador.](../../../.gitbook/assets/document-types.png)
 
 ## Quy trình
 
@@ -294,7 +294,7 @@ documents can be created from your sales order or manually. They must contain th
 - Payment Method (SRI): select how the invoice is going to be paid.
 - Products: specify the product with the correct taxes.
 
-![Customer invoice for Ecuador.](../../../_images/customer-invoice.png)
+![Customer invoice for Ecuador.](../../../.gitbook/assets/customer-invoice.png)
 
 #### Giấy báo có khách hàng
 
@@ -320,7 +320,7 @@ form, then complete the following information:
 
 Once reviewed, you can click on the Reverse button.
 
-![Add Customer Credit Note for Ecuador.](../../../_images/add-customer-credit-note.png)
+![Add Customer Credit Note for Ecuador.](../../../.gitbook/assets/add-customer-credit-note.png)
 
 When the Partial Refund option is used, you can change the amount of the credit note and
 then validate it. Before validating the credit note, review the following information:
@@ -330,7 +330,7 @@ then validate it. Before validating the credit note, review the following inform
 - Document Type: this is the document type `(04) Credit Note`.
 - Products: It must specify the product with the correct taxes.
 
-![Customer Credit Note for Ecuador.](../../../_images/customer-credit-note.png)
+![Customer Credit Note for Ecuador.](../../../.gitbook/assets/customer-credit-note.png)
 
 #### Giấy báo nợ khách hàng
 
@@ -348,7 +348,7 @@ Create debit note form, then complete the following information:
 
 Once reviewed you can click on the Create Debit Note button.
 
-![Add Customer Debit Note for Ecuador.](../../../_images/add-customer-debit-note.png)
+![Add Customer Debit Note for Ecuador.](../../../.gitbook/assets/add-customer-debit-note.png)
 
 You can change the debit note amount, and then validate it. Before validating the debit note, review
 the following information:
@@ -358,7 +358,7 @@ the following information:
 - Document Type: this is the document type `(05) Debit Note`.
 - Products: It must specify the product with the correct taxes.
 
-![Customer Debit Note for Ecuador.](../../../_images/customer-debit-note.png)
+![Customer Debit Note for Ecuador.](../../../.gitbook/assets/customer-debit-note.png)
 
 #### Customer withholding
 
@@ -375,7 +375,7 @@ to the Customer withholding form, then complete the following information:
 Before validating the withholding, review that the amounts for each tax are the same as the original
 document.
 
-![Customer withhold for Ecuador.](../../../_images/customer-withhold.png)
+![Customer withhold for Ecuador.](../../../.gitbook/assets/customer-withhold.png)
 
 ### Purchase Documents
 
@@ -395,7 +395,7 @@ information:
 - Payment Method (SRI): select how the invoice is going to be paid.
 - Products: specify the product with the correct taxes.
 
-![Mua hàng dành cho Ecuador.](../../../_images/purchase-invoice.png)
+![Mua hàng dành cho Ecuador.](../../../.gitbook/assets/purchase-invoice.png)
 
 #### IMPORTANT
 When creating the purchase withholding, verify that the bases (base amounts) are correct. If you
@@ -432,7 +432,7 @@ from the Vendor Bills form view. It must contain the following data:
 
 Once you review the information you can validate the Purchase Liquidation.
 
-![Purchase liquidation for Ecuador.](../../../_images/purchase-liquidation.png)
+![Purchase liquidation for Ecuador.](../../../.gitbook/assets/purchase-liquidation.png)
 
 #### Purchase withholding
 
@@ -450,7 +450,7 @@ to be directed to the Withholding form, then complete the following information:
 
 Once you review the information you can validate the Withholding.
 
-![Purchase withhold for Ecuador.](../../../_images/purchase-withhold.png)
+![Purchase withhold for Ecuador.](../../../.gitbook/assets/purchase-withhold.png)
 
 #### NOTE
 You can't change the tax support for one that was not included in the configuration of the taxes
@@ -487,7 +487,7 @@ To activate the payment providers that should be used to capture eCommerce payme
 Website ‣ Configuration ‣ Payment Providers section and then click on the
 View other providers button under the Activate Payments heading. From here,
 each payment provider can be configured by selecting a provider record. Refer to the [payment
-provider](../payment_providers.md) documentation for more information.
+provider](../payment_providers/) documentation for more information.
 
 ###### Phương thức thanh toán
 
@@ -504,9 +504,9 @@ invoice from an eCommerce sale. Select a **payment method** to access its config
 the field.
 
 #### SEE ALSO
-[Nhà cung cấp dịch vụ thanh toán](../payment_providers.md)
+[Nhà cung cấp dịch vụ thanh toán](../payment_providers/)
 
-![l10n_ec SRI Payment Method.](../../../_images/l10n-ec-sri-payment-method.png)
+![l10n_ec SRI Payment Method.](../../../.gitbook/assets/l10n-ec-sri-payment-method.png)
 
 #### eCommerce workflow
 
@@ -516,7 +516,7 @@ The client who is making a purchase will have the option to indicate their ident
 number during the checkout process. This information is required to correctly generate the
 electronic invoice after the checkout is completed.
 
-![Biểu mẫu thanh toán trên trang web.](../../../_images/website-checkout-form.png)
+![Biểu mẫu thanh toán trên trang web.](../../../.gitbook/assets/website-checkout-form.png)
 
 #### NOTE
 Verification is done to ensure the Identification Number field is completed and has
@@ -537,7 +537,7 @@ Make sure the *Ecuadorian module for Point of Sale* (`l10n_ec_edi_pos`) is [inst
 
 #### Cấu hình phương thức thanh toán
 
-To [create a payment method for a point of sale](../../sales/point_of_sale/payment_methods.md),
+To [create a payment method for a point of sale](../../sales/point_of_sale/payment_methods/),
 go to Point of Sale ‣ Configuration ‣ Payment Methods. Then, set the
 SRI Payment Method in the payment method form.
 
@@ -545,7 +545,7 @@ SRI Payment Method in the payment method form.
 
 ##### Identification type and number
 
-The POS cashier can [create a new contact for a customer](../../sales/point_of_sale.md#pos-customers) who requests an
+The POS cashier can [create a new contact for a customer](../../sales/point_of_sale/#pos-customers) who requests an
 invoice from an open POS session.
 
 The *Ecuadorian Module for Point of Sale* adds two new fields to the contact creation form:
@@ -565,7 +565,7 @@ customer as Consumidor Final and generates an electronic invoice anyway.
 #### NOTE
 If the client requests a credit note due to a return of this type of purchase, the credit note
 should be made using the client's real contact information. Credit notes cannot be created to
-*Consumidor Final* and can be managed [directly from the POS session](../../sales/point_of_sale.md#pos-refund).
+*Consumidor Final* and can be managed [directly from the POS session](../../sales/point_of_sale/#pos-refund).
 
 ##### Electronic invoice: specific customer
 
@@ -574,7 +574,7 @@ with their fiscal information. This ensures the invoice is generated with accura
 
 #### NOTE
 If the client requests a credit note due to a return of this type of purchase, the credit note
-and return process can be managed [directly from the POS session](../../sales/point_of_sale.md#pos-refund).
+and return process can be managed [directly from the POS session](../../sales/point_of_sale/#pos-refund).
 
 ## Báo cáo tài chính
 
@@ -592,7 +592,7 @@ monthly or semi-annually.
 You can see the information needed to report, which includes base and tax amounts, but also includes
 the tax code within the parenthesis in order to report it to the SRI.
 
-![Report 103 form for Ecuador.](../../../_images/103-form.png)
+![Report 103 form for Ecuador.](../../../.gitbook/assets/103-form.png)
 
 ### Báo cáo 104
 
@@ -602,7 +602,7 @@ monthly or semi-annually.
 You can see the information needed to report, which includes base and tax amounts, but also includes
 the tax code within the parenthesis to report it to the SRI.
 
-![Report 104 form for Ecuador.](../../../_images/104-form.png)
+![Report 104 form for Ecuador.](../../../.gitbook/assets/104-form.png)
 
 <a id="ecuador-ats"></a>
 
@@ -647,7 +647,7 @@ Accounting ‣ Reports ‣ Tax Report and choose a time period for the desired
 
 The downloaded XML file is ready to be uploaded to *DIMM Formularios*.
 
-![ATS report download for Ecuador in Odoo Accounting.](../../../_images/ats-report.png)
+![ATS report download for Ecuador in Odoo Accounting.](../../../.gitbook/assets/ats-report.png)
 
 #### NOTE
 When downloading the  report, Odoo generates a

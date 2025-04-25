@@ -8,11 +8,11 @@
 
 Đi đến ứng dụng Liên hệ, và chọn biểu tượng <i class="oi oi-view-list"></i> (danh sách). Chọn hai hoặc nhiều liên hệ trùng lặp từ danh sách và đánh dấu vào hộp kiểm (ở bên trái) của các liên hệ cần được gộp. Sau đó, nhấp vào biểu tượng <i class="fa fa-cog"></i> Tác vụ, và chọn Gộp từ menu kết quả thả xuống.
 
-![Tùy chọn gộp liên hệ trong ứng dụng Liên hệ.](../../../_images/merge-menu.png)
+![Tùy chọn gộp liên hệ trong ứng dụng Liên hệ.](../../../.gitbook/assets/merge-menu.png)
 
 Thao tác này sẽ mở cửa sổ bật lên Gộp. Từ đây, hãy xem lại thông tin của các liên hệ trước khi xác nhận có nên gộp chúng hay không. Nếu có bất kỳ liên hệ nào trong danh sách **không** nên gộp, hãy nhấp vào biểu tượng <i class="fa fa-times"></i> (xoá) ở phía bên phải của liên hệ.
 
-![Cửa sổ bật lên để gộp trong ứng dụng Liên hệ.](../../../_images/merge-window.png)
+![Cửa sổ bật lên để gộp trong ứng dụng Liên hệ.](../../../.gitbook/assets/merge-window.png)
 
 Nhấp vào trường Liên hệ đích và chọn một tùy chọn từ danh sách thả xuống. Trường này mặc định là bản ghi liên hệ được tạo đầu tiên trong hệ thống.
 

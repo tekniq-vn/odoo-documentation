@@ -16,7 +16,7 @@ calendar, navigate to Maintenance app ‣ Maintenance ‣ Maintenance Calendar.
 To create a new request, click anywhere on the calendar. Doing so opens a New Event
 pop-up window. In the Name: field, assign a title to the new request.
 
-![New event creation pop-up window.](../../../_images/maintenance-calendar-new-event-popup.png)
+![New event creation pop-up window.](../../../.gitbook/assets/maintenance-calendar-new-event-popup.png)
 
 Clicking Create on the pop-up window saves the new request with no additional details.
 If the request's creation should be canceled, click Cancel.
@@ -32,7 +32,7 @@ In the Request field, assign a title to the new request. In the Created By
 field, from the drop-down menu, select which user the request was created by. By default, this field
 populates with the user actually creating the request.
 
-![New maintenance request form creation.](../../../_images/maintenance-calendar-new-request-form.png)
+![New maintenance request form creation.](../../../.gitbook/assets/maintenance-calendar-new-request-form.png)
 
 In the For field, from the drop-down menu, select if this request is being created for a
 piece of Equipment, or a Work Center.
@@ -74,7 +74,7 @@ From the drop-down menu for the Team field, select the desired maintenance team 
 perform the maintenance. In the Responsible field, select the technician responsible for
 the request.
 
-![Filled-out details of maintenance request form.](../../../_images/maintenance-calendar-filled-out-form.png)
+![Filled-out details of maintenance request form.](../../../.gitbook/assets/maintenance-calendar-filled-out-form.png)
 
 In the Scheduled Date field, click the date to open a calendar popover. From this
 popover, select the planned date of the maintenance, and click Apply to save the date.
@@ -97,7 +97,7 @@ In the Instructions tab, if necessary, select one of the three radio button opti
 provide maintenance instructions to the assigned team or technician. The available methods for
 providing instructions are via PDF, Google Slide, or Text.
 
-![Instructions tab options on maintenance request form.](../../../_images/maintenance-calendar-instructions-tab.png)
+![Instructions tab options on maintenance request form.](../../../.gitbook/assets/maintenance-calendar-instructions-tab.png)
 
 ## Calendar elements
 
@@ -121,7 +121,7 @@ are displayed.
 The right-hand side of the drop-down menu lists the Favorites, or any searches that have
 been saved as a favorite to be revisited at a later date.
 
-![Favorites section of filters drop-down menu.](../../../_images/maintenance-calendar-favorites-popover.png)
+![Favorites section of filters drop-down menu.](../../../.gitbook/assets/maintenance-calendar-favorites-popover.png)
 
 To save a new Favorite search, select the desired Filters. Then, click
 Save current search. In the field directly below Save current search, assign
@@ -145,7 +145,7 @@ The Maintenance Calendar is available in six different views: Calendar
 (default), Kanban, List, Pivot, Graph, and
 Activity.
 
-![Different view type icons for maintenance calendar.](../../../_images/maintenance-calendar-view-type-icons.png)
+![Different view type icons for maintenance calendar.](../../../.gitbook/assets/maintenance-calendar-view-type-icons.png)
 
 #### Chế độ xem lịch
 
@@ -155,7 +155,7 @@ maintenance requests.
 
 Ở góc trên bên trái trang có menu thả xuống mặc định hiển thị Tuần. Khi nhấp vào menu này sẽ hiển thị các khoảng thời gian khác nhau để xem lịch: Ngày, Tháng và Năm. Tùy chọn Hiển thị cuối tuần cũng được chọn mặc định. Nếu bỏ chọn, cuối tuần sẽ không hiển thị trên lịch.
 
-![Calendar period drop-down menu options.](../../../_images/maintenance-calendar-period-dropdown.png)
+![Calendar period drop-down menu options.](../../../.gitbook/assets/maintenance-calendar-period-dropdown.png)
 
 To the left of this menu, there is a ⬅️ (left arrow) icon and a ➡️ (right
 arrow) icon. Clicking these arrows moves the calendar backward or forward in time, respectively.
@@ -186,7 +186,7 @@ Each column has a name (i.e. In Progress). Hovering at the top of a column revea
 ⚙️ (gear) icon. Clicking the ⚙️ (gear) icon reveals a list of options for
 that column: Fold, Edit, Automations, and Delete.
 
-![Column options for stage in Kanban view.](../../../_images/maintenance-calendar-kanban-column.png)
+![Column options for stage in Kanban view.](../../../.gitbook/assets/maintenance-calendar-kanban-column.png)
 
 Clicking Fold folds the column to hide its contents.
 
@@ -194,7 +194,7 @@ Clicking Edit opens an Edit: (stage name) pop-up window, with the
 corresponding stage name, wherein the column's details can be edited. The following are the column
 options that can be edited:
 
-![Edit In Progress pop-up window.](../../../_images/maintenance-calendar-edit-stage-popup.png)
+![Edit In Progress pop-up window.](../../../.gitbook/assets/maintenance-calendar-edit-stage-popup.png)
 - Name: the name of the stage in the Kanban pipeline.
 - Folded in Maintenance Pipe: when checked, this stage's column is folded by default in
   the Kanban view type.
@@ -230,7 +230,7 @@ To add more data to the pivot table, click the Measures button to reveal a drop-
 menu. By default, Count is selected. Additional options to add to the table are
 Additional Leaves to Plan Ahead, Duration, and Repeat Every.
 
-![Measures options on Pivot view page.](../../../_images/maintenance-calendar-measures-menu.png)
+![Measures options on Pivot view page.](../../../.gitbook/assets/maintenance-calendar-measures-menu.png)
 
 To the right of the Measures button is the Insert in Spreadsheet button.
 Clicking this button opens a pop-up window titled Select a spreadsheet to insert your
@@ -250,7 +250,7 @@ With the graph view selected, the following options appear between the search ba
 representation of the data. These graph-specific options are located to the right of the
 Measures and Insert in Spreadsheet buttons.
 
-![Graph type icons on Graph view page.](../../../_images/maintenance-calendar-graph-view-icons.png)
+![Graph type icons on Graph view page.](../../../.gitbook/assets/maintenance-calendar-graph-view-icons.png)
 
 There are three different types of graphs available to users to view the data:
 
@@ -281,7 +281,7 @@ and no additional formatting options are available.
 With the Activity view selected, all open maintenance requests are listed in their own
 row, with the ability to schedule activities related to those requests.
 
-![Maintenance requests on Activity view.](../../../_images/maintenance-calendar-activity-view-type.png)
+![Maintenance requests on Activity view.](../../../.gitbook/assets/maintenance-calendar-activity-view-type.png)
 
 Maintenance requests are listed in the Maintenance Request column as activities.
 Clicking a request opens a Maintenance Request popover that indicates the status of the
@@ -292,7 +292,7 @@ From the pop-up window, choose the Activity Type, provide a Summary,
 schedule a Due Date, and choose the responsible user in the Assigned to
 field.
 
-![Schedule Activity pop-up window.](../../../_images/maintenance-calendar-schedule-activity-popover.png)
+![Schedule Activity pop-up window.](../../../.gitbook/assets/maintenance-calendar-schedule-activity-popover.png)
 
 Type any additional notes for the new activity in the blank space under the greyed-out
 Log a note... field. When clicked, this changes to Type "/" for commands.
@@ -310,7 +310,7 @@ To schedule an activity with that specific activity type, click into any blank b
 corresponding row for the desired maintenance request, and click the ➕ (plus) icon. This
 opens an Odoo pop-up window, wherein the activity can be scheduled.
 
-![Odoo pop-up schedule activity window.](../../../_images/maintenance-calendar-odoo-activity-popup.png)
+![Odoo pop-up schedule activity window.](../../../.gitbook/assets/maintenance-calendar-odoo-activity-popup.png)
 
 #### SEE ALSO
 - [Maintenance requests](maintenance_requests.md)

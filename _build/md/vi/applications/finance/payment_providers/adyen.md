@@ -4,8 +4,8 @@
 possibilities.
 
 #### SEE ALSO
-- [Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
-- [Thanh toán online](../payment_providers.md)
+- [Enabling a payment provider](./#payment-providers-add-new)
+- [Thanh toán online](./)
 
 #### NOTE
 Adyen works only with customers processing **more** than **10 million annually** or invoicing a
@@ -14,7 +14,7 @@ Adyen works only with customers processing **more** than **10 million annually**
 ## Cấu hình
 
 #### SEE ALSO
-[Enabling a payment provider](../payment_providers.md#payment-providers-add-new)
+[Enabling a payment provider](./#payment-providers-add-new)
 
 First, reach Adyen support to enable multiple partial capture for you.
 
@@ -64,17 +64,17 @@ In order to retrieve the HMAC Key, you'll need to configure a `Standard Notifica
 this, log into your Adyen account then go to Developers ‣ Webhooks ‣ Add webhook
 ‣ Add Standard notification.
 
-![Cấu hình webhook.](../../../_images/adyen-add-webhook.png)
+![Cấu hình webhook.](../../../.gitbook/assets/adyen-add-webhook.png)
 
 There, in General ‣ Server configuration ‣ URL, enter your server address
 followed by `/payment/adyen/notification`.
 
-![Enter the notification URL.](../../../_images/adyen-webhook-url.png)
+![Enter the notification URL.](../../../.gitbook/assets/adyen-webhook-url.png)
 
 Then enter Security ‣ HMAC Key ‣ Generate. Be careful to copy the key as you
 will not be allowed to do it later without generating a new one.
 
-![Generate a HMAC key and save it.](../../../_images/adyen-hmac-key.png)
+![Generate a HMAC key and save it.](../../../.gitbook/assets/adyen-hmac-key.png)
 
 You have to save the webhook to finalize its creation.
 
@@ -88,8 +88,8 @@ URLs, proceed as follows:
 1. Log into your Adyen account, then go to Developers ‣ API URLs.
 2. Copy the Prefix for your live Customer area (i.e., **data center**) and save it for
    later.
-   ![Copy the prefix for the Adyen APIs](../../../_images/adyen-api-urls.png)
-3. In Odoo, [navigate to the payment provider Adyen](../payment_providers.md#payment-providers-add-new).
+   ![Copy the prefix for the Adyen APIs](../../../.gitbook/assets/adyen-api-urls.png)
+3. In Odoo, [navigate to the payment provider Adyen](./#payment-providers-add-new).
 4. In the Checkout API URL field, enter the following URL and replace `yourprefix` with
    the prefix you previously saved:
    `https://yourprefix-checkout-live.adyenpayments.com/checkout`
@@ -113,23 +113,23 @@ To allow payment originated from your website, follow the steps in [API Key and 
 to navigate to your API user and go to Add allowed origins, then add the URLs from
 where payments will be made (the URLs of the servers hosting your Odoo instances).
 
-![Allows payments originated from a specific domain.](../../../_images/adyen-allowed-origins.png)
+![Allows payments originated from a specific domain.](../../../.gitbook/assets/adyen-allowed-origins.png)
 
 ### Place a hold on a card
 
 Adyen allows you to capture an amount manually instead of having an immediate capture.
 
 To set it up, enable the **Capture Amount Manually** option on Odoo, as explained in the
-[payment providers documentation](../payment_providers.md#payment-providers-manual-capture).
+[payment providers documentation](./#payment-providers-manual-capture).
 
 Then, open your Adyen Merchant Account, go to Account ‣ Settings, and set the
 **Capture Delay** to **manual**.
 
-![Capture Delay settings in Adyen](../../../_images/adyen_capture_delay.png)
+![Capture Delay settings in Adyen](../../../.gitbook/assets/adyen_capture_delay.png)
 
 #### NOTE
 - After **7 days**, if the transaction has not been captured yet, the customer has the right to
   **revoke** it.
 
 #### SEE ALSO
-[Thanh toán online](../payment_providers.md)
+[Thanh toán online](./)

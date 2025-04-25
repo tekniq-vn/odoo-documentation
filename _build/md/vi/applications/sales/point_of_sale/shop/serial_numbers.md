@@ -7,7 +7,7 @@ To enable traceability, go to Point of Sale ‣ Products ‣ Products. Then,
 select a product and check the Tracking By Unique Serial Number or the
 Tracking By Lots box in the Inventory tab.
 
-![Enable traceability settings](../../../../_images/product-form-traceability.png)
+![Enable traceability settings](../../../../.gitbook/assets/product-form-traceability.png)
 
 ## Serial numbers and lots importation
 
@@ -15,12 +15,12 @@ You can import serial numbers in Point of Sale. To do so, select a **sales order
 **quotation** containing tracked products. Then, agree to load the **Lots or Serial Numbers** linked
 to the .
 
-![Pop-up window for serial number import](../../../../_images/importing-sn.png)
+![Pop-up window for serial number import](../../../../.gitbook/assets/importing-sn.png)
 
 The imported tracking numbers appear below the tracked products. You can modify them by clicking on
 the list-view button next to the products.
 
-![Pop-up window for serial number import](../../../../_images/pos-sn-imported.png)
+![Pop-up window for serial number import](../../../../.gitbook/assets/pos-sn-imported.png)
 
 #### SEE ALSO
 - [Đơn bán hàng](sales_order.md)
@@ -31,7 +31,7 @@ If a tracked product is available in your POS, adding the product to the cart op
 where you can type or scan the product's serial or lot numbers. To add more than one of the same
 tracked products, click on **enter** to validate and start a new line.
 
-![adding new serial and lots numbers](../../../../_images/create-change-sn.png)
+![adding new serial and lots numbers](../../../../.gitbook/assets/create-change-sn.png)
 
 #### NOTE
 - Changing a tracked product's quantity using the numpad turns the list-view button red. Click on

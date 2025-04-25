@@ -18,7 +18,7 @@ must be used.
 Once the scale is connected to the IoT system, follow these steps to configure it in the POS
 settings:
 
-1. [Access the POS settings](../../../sales/point_of_sale/configuration.md#configuration-settings) and select your POS, or click the
+1. [Access the POS settings](../../../sales/point_of_sale/configuration/#configuration-settings) and select your POS, or click the
    vertical ellipsis button (⋮) on a POS card and click Edit.
 2. Scroll down to the Connected Devices section and enable IoT Box.
 3. Select the scale in the Electronic Scale field.
@@ -27,12 +27,12 @@ settings:
 #### SEE ALSO
 [Connect an IoT system to a POS](../../../sales/point_of_sale/configuration/pos_iot.md)
 
-The scale is then available in all the [POS's sessions](../../../sales/point_of_sale.md).
+The scale is then available in all the [POS's sessions](../../../sales/point_of_sale/).
 If a product is configured with a price per weight, selecting it on the PoS screen opens
 the scale popup. The cashier can then weigh the product to automatically add the correct price to
 the cart.
 
-![Electronic Scale dashboard view when no items are being weighed.](../../../../_images/scale-view.png)
+![Electronic Scale dashboard view when no items are being weighed.](../../../../.gitbook/assets/scale-view.png)
 
 ## Ariva S scales
 

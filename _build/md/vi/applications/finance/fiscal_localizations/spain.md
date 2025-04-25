@@ -2,7 +2,7 @@
 
 ## Cấu hình
 
-Install the 🇪🇸 **Spanish** [fiscal localization package](../fiscal_localizations.md) to get all
+Install the 🇪🇸 **Spanish** [fiscal localization package](./) to get all
 the default accounting features of the Spanish localization.
 
 Three **Spanish** localizations exist, each with its own pre-configured **PGCE** charts of accounts:
@@ -48,7 +48,7 @@ Here is the list of Spanish-specific statement reports available:
 You can access Spain-specific tax reports by clicking on the **book** icon when on a report and
 selecting its Spain-specific version: (ES).
 
-![Spain-specific tax reports.](../../../_images/modelo-reports.png)
+![Spain-specific tax reports.](../../../.gitbook/assets/modelo-reports.png)
 
 ### Modelo 130
 
@@ -104,10 +104,10 @@ the **Settings** app.
 
 ### Trường hợp vận dụng
 
-Once an invoice has been [created](../accounting/customer_invoices.md) and confirmed,
+Once an invoice has been [created](../accounting/customer_invoices/) and confirmed,
 a TicketBAI **banner** appears at the top.
 
-![TicketBAI banner at the top of the invoice once sent.](../../../_images/ticketbai-invoice.png)
+![TicketBAI banner at the top of the invoice once sent.](../../../.gitbook/assets/ticketbai-invoice.png)
 
 Odoo sends invoices through TicketBAI automatically every **24 hours**. However, you can click
 Process now to send the invoice immediately.
@@ -117,7 +117,7 @@ Khi hóa đơn được **gửi**, trạng thái trường Hóa đơn điện t�
 #### NOTE
 The TBAI **QR code** is displayed on the invoice PDF.
 
-![QR code of the TicketBAI on the invoice.](../../../_images/qr-code.png)
+![QR code of the TicketBAI on the invoice.](../../../.gitbook/assets/qr-code.png)
 
 ## FACe
 
@@ -136,7 +136,7 @@ certificate provided by the tax agency, and entering the provided password.
 
 ### Trường hợp vận dụng
 
-Once you have [created](../accounting/customer_invoices.md) an invoice and confirmed
+Once you have [created](../accounting/customer_invoices/) an invoice and confirmed
 it, click Send & Print. Make sure Generate Facturae edi file is enabled, and
 click Send & Print again. Once the invoice is sent, the generated XML file is available
 in the **chatter**.
@@ -161,4 +161,4 @@ Save. The **three** roles usually required are:
 - Unidad tramitadora: Pagador (Payer);
 - Oficina contable: Fiscal (Fiscal).
 
-![Administrative center contact form for public entities.](../../../_images/administrative-center.png)
+![Administrative center contact form for public entities.](../../../.gitbook/assets/administrative-center.png)

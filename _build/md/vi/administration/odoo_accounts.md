@@ -10,7 +10,7 @@ Từ cổng thông tin người dùng, bạn có thể truy cập tùy chọn x�
 
 Khi nhấp vào nút Xóa tài khoản, một cửa sổ bật lên sẽ xuất hiện để yêu cầu xác nhận việc xóa tài khoản.
 
-![Việc nhấp vào nút Xóa tài khoản sẽ hiển thị cửa sổ xác minh này thay đổi.](../_images/delete-account.png)
+![Việc nhấp vào nút Xóa tài khoản sẽ hiển thị cửa sổ xác minh này thay đổi.](../.gitbook/assets/delete-account.png)
 
 Để xác nhận xóa tài khoản, hãy nhập Mật khẩu và Thông tin đăng nhập của tài khoản đang bị xóa. Sau đó, nhấp vào nút Xóa tài khoản để xác nhận.
 

@@ -7,7 +7,7 @@ or region.
 
 #### SEE ALSO
 - [Payment terms and installment plans](payment_terms.md)
-- [Thanh toán](../payments.md)
+- [Thanh toán](../payments/)
 
 <a id="cash-discounts-configuration"></a>
 
@@ -38,7 +38,7 @@ the discount percentage, discount days, and [tax reduction](#cash-discounts-tax-
 fields.
 
 ![Configuration of payment terms named "2/7 Net 30". The field "Description on Invoices"
-reads: "Payment terms: 30 Days, 2% Early Payment Discount under 7 days".](../../../../_images/payment-terms.png)
+reads: "Payment terms: 30 Days, 2% Early Payment Discount under 7 days".](../../../../.gitbook/assets/payment-terms.png)
 
 <a id="cash-discounts-tax-reductions"></a>
 
@@ -67,7 +67,7 @@ Discount checkbox enabled, and select one of the three following options:
   computed according to the [type of tax reduction](#cash-discounts-tax-reductions) you
   configured.
 - The **type of cash discount tax reduction** may be correctly pre-configured, depending on your
-  [fiscal localization package](../../fiscal_localizations.md#fiscal-localizations-packages).
+  [fiscal localization package](../../fiscal_localizations/#fiscal-localizations-packages).
 
 <a id="cash-discounts-customer-invoice"></a>
 
@@ -80,17 +80,17 @@ Under the Journal Items tab, you can display the discount details by clicking on
 "toggle" button and adding the Discount Date and Discount Amount columns.
 
 ![An invoice of €100.00 with "2/7 Net 30" selected as payment terms. The "Journal Items" tab
-is open, and the "Discount Date" and "Discount Amount" columns are displayed.](../../../../_images/invoice-journal-entry.png)
+is open, and the "Discount Date" and "Discount Amount" columns are displayed.](../../../../.gitbook/assets/invoice-journal-entry.png)
 
 The discount amount and due date are also displayed on the generated invoice report sent to the
 customer if the Show installment dates option is checked on the payment terms.
 
 ![An invoice of €100.00 with the following text added to the terms and conditions: "30
-Days, 2% Early Payment Discount under 7 days. 118.58 € due if paid before 01/08/2023."](../../../../_images/invoice-print.png)
+Days, 2% Early Payment Discount under 7 days. 118.58 € due if paid before 01/08/2023."](../../../../.gitbook/assets/invoice-print.png)
 
 ### Đối chiếu thanh toán
 
-When you record a [payment](../payments.md) or [reconcile your bank transactions](../bank/reconciliation.md), Odoo takes the customer payment's date into account to determine if the
+When you record a [payment](../payments/) or [reconcile your bank transactions](../bank/reconciliation.md), Odoo takes the customer payment's date into account to determine if the
 customer can benefit from the cash discount or not.
 
 #### NOTE

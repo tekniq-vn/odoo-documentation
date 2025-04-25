@@ -21,7 +21,7 @@ read the reference documentation for a more complete overview.
 **Goal**: at the end of this section, a specific list of properties should be added to the property
 type view:
 
-![Inline list view](../../../_images/inline_view.png)
+![Inline list view](../../../.gitbook/assets/inline_view.png)
 
 In the real estate module we added a list of offers for a property. We simply added the field
 `offer_ids` with:
@@ -86,7 +86,7 @@ An example can be found
 **Goal**: at the end of this section, the state of the property should be displayed using a
 specific widget:
 
-![Statusbar widget](../../../_images/widget.png)
+![Statusbar widget](../../../.gitbook/assets/widget.png)
 
 Four states are displayed: New, Offer Received, Offer Accepted and Sold.
 
@@ -112,7 +112,7 @@ not supported.
 ## List Order
 
 **Reference**: the documentation related to this section can be found in
-[Models](../../reference/backend/orm.md#reference-orm-models).
+[Models](../../reference/backend/orm/#reference-orm-models).
 
 #### NOTE
 **Goal**: at the end of this section, all lists should display by default in a deterministic
@@ -178,7 +178,7 @@ view. Therefore, we'll stick to the most common ones.
 - Conditional display of buttons and fields
 - Tag colors
 
-![Form view with sprinkles](../../../_images/form.gif)
+![Form view with sprinkles](../../../.gitbook/assets/form.gif)
 
 In our real estate module, we want to modify the behavior of some fields. For example, we don't
 want to be able to create or edit a property type from the form view. Instead we expect the
@@ -221,7 +221,7 @@ server-side, therefore it's always possible to write on the field through a RPC 
 Additionally, offers and tags will be editable directly in the list, and the availability date will be
 hidden by default.
 
-![List view with decorations and optional field](../../../_images/decoration.png)![Editable list](../../../_images/editable_list.gif)
+![List view with decorations and optional field](../../../.gitbook/assets/decoration.png)![Editable list](../../../.gitbook/assets/editable_list.gif)
 
 When the model only has a few fields, it can be useful to edit records directly through the list
 view and not have to open the form view. In the real estate example, there is no need to open a form view
@@ -255,7 +255,7 @@ The records where `is_partner` is `True` will be displayed in green.
 and searching on the living area returns results where the area is larger than the given
 number.
 
-![Default filters and domains](../../../_images/search.gif)
+![Default filters and domains](../../../.gitbook/assets/search.gif)
 
 Last but not least, there are some tweaks we would like to apply when searching. First of all, we
 want to have our 'Available' filter applied by default when we access the properties. To make this happen, we
@@ -290,7 +290,7 @@ used to search on both `name` and `description` fields.
 **Goal**: at the end of this section, there will be a stat button on the property type form view
 which shows the list of all offers related to properties of the given type when it is clicked on.
 
-![Stat button](../../../_images/stat_button.gif)
+![Stat button](../../../.gitbook/assets/stat_button.gif)
 
 If you've already used some functional modules in Odoo, you've probably already encountered a 'stat
 button'. These buttons are displayed on the top right of a form view and give a quick access to
@@ -306,7 +306,7 @@ The following exercise might be a bit more difficult than the previous ones sinc
 are able to search for examples in the source code on your own. If you are stuck there is probably
 someone nearby who can help you ;-)
 
-The exercise introduces the concept of [Related fields](../../reference/backend/orm.md#reference-fields-related). The easiest way to
+The exercise introduces the concept of [Related fields](../../reference/backend/orm/#reference-fields-related). The easiest way to
 understand it is to consider it as a specific case of a computed field. The following definition
 of the `description` field:
 

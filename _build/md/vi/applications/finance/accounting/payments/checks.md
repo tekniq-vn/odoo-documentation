@@ -10,7 +10,7 @@ into account checks yet to be cashed.
 Cả hai phương pháp đều tạo ra cùng một dữ liệu kế toán khi quá trình kết thúc. Tuy nhiên, nếu có séc chưa được quy đổi, phương pháp **Tài khoản chưa thanh toán\* sẽ ghi nhận các séc này vào tài khoản \*\*Khoản thu chưa thanh toán**. Dù vậy, số tiền vẫn xuất hiện trong tài khoản ngân hàng của bạn, bất kể đã được đối soát hay chưa, vì giá trị ngân hàng được phản ánh tại thời điểm sao kê ngân hàng.
 
 #### SEE ALSO
-* [Tài khoản khoản chưa thanh toán](../bank.md#bank-outstanding-accounts)
+* [Tài khoản khoản chưa thanh toán](../bank/#bank-outstanding-accounts)
 * [Đối chiếu ngân hàng](../get_started/cheat_sheet.md#accounting-reconciliation)
 
 <a id="checks-outstanding-account"></a>
@@ -31,7 +31,7 @@ the reconciliation and creating only **one journal entry**.
 
 Để thực hiện việc này, bạn *bắt buộc* phải làm theo các bước thiết lập sau. Truy cập Kế toán ‣ Cấu hình ‣ Sổ nhật ký ‣ Ngân hàng. Nhấp vào tab Thanh toán đến sau đó chọn Thêm một dòng, chọn Thủ công làm Phương thức thanh toán, và nhập `Séc` làm Tên. Nhấp vào nút menu bật/tắt, tích chọn Tài khoản khoản thu chưa thanh toán, trong cột Tài khoản khoản thu chưa thanh toán, thiết lập tài khoản Ngân hàng cho phương thức thanh toán **Séc**.
 
-![Bypass the Outstanding Receipts account using the Bank account.](../../../../_images/outstanding-payment-accounts.png)
+![Bypass the Outstanding Receipts account using the Bank account.](../../../../.gitbook/assets/outstanding-payment-accounts.png)
 
 ## Payment registration
 
@@ -53,7 +53,7 @@ Customer ‣ Invoices), and click Register Payment. Fill in the payment informat
 - Memo: enter the check number;
 - Nhấp Tạo thanh toán.
 
-![Kiểm tra thông tin thanh toán](../../../../_images/payment-checks.png)
+![Kiểm tra thông tin thanh toán](../../../../.gitbook/assets/payment-checks.png)
 
 The generated journal entries are different depending on the payment registration method chosen.
 

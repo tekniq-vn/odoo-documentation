@@ -26,7 +26,7 @@ currency in the Main Currency setting.
 Go to Accounting ‣ Configuration ‣ Currencies, and enable the currencies you
 wish to use by toggling the Active button.
 
-![Enable the currencies you wish to use.](../../../../_images/enable-foreign-currencies.png)
+![Enable the currencies you wish to use.](../../../../.gitbook/assets/enable-foreign-currencies.png)
 
 <a id="multi-currency-config-rates"></a>
 
@@ -38,7 +38,7 @@ To manually create and set a currency rate, go to Accounting ‣ Configuration �
 Currencies, click on the currency you wish to change the rate of, and under the Rates
 tab, click Add a line to create a new rate.
 
-![Create or modify the currency rate.](../../../../_images/manual-rate-update.png)
+![Create or modify the currency rate.](../../../../.gitbook/assets/manual-rate-update.png)
 
 #### Cập nhật tự động
 
@@ -82,7 +82,7 @@ If a currency is set on a **journal**, that journal only handles transactions in
 To do so, go to Accounting ‣ Configuration ‣ Journals, open the journal you
 want to edit, and select a currency in the field Currency.
 
-![Select the currency for the journal to handle.](../../../../_images/journal-currency.png)
+![Select the currency for the journal to handle.](../../../../.gitbook/assets/journal-currency.png)
 
 <a id="multi-currency-mca"></a>
 
@@ -95,7 +95,7 @@ want to edit, and select a currency in the field Currency.
 For all documents, you can select the currency and journal to use for the transaction on the
 document itself.
 
-![Select the currency and journal to use.](../../../../_images/currency-field.png)
+![Select the currency and journal to use.](../../../../.gitbook/assets/currency-field.png)
 
 <a id="multi-currency-mca-payment"></a>
 
@@ -105,7 +105,7 @@ To register a payment in a currency other than your company's main currency, cli
 Register Payment payment button of your document and, in the pop-up window, select a
 **currency** in the Amount field.
 
-![Select the currency and journal to use before registering the payment.](../../../../_images/register-payment.png)
+![Select the currency and journal to use before registering the payment.](../../../../.gitbook/assets/register-payment.png)
 
 <a id="multi-currency-mca-statements"></a>
 
@@ -116,7 +116,7 @@ a **foreign currency**, select a currency in the Foreign Currency. Once selected
 the Amount in your main currency for it to automatically get converted in the foreign
 currency in the Amount in Currency field.
 
-![The extra fields related to foreign currencies.](../../../../_images/foreign-fields.png)
+![The extra fields related to foreign currencies.](../../../../.gitbook/assets/foreign-fields.png)
 
 When reconciling, Odoo displays both the foreign currency amount and the equivalent amount in your
 company's main currency.
@@ -128,4 +128,4 @@ company's main currency.
 To see **exchange difference journal entries**, go to Accounting Dashboard ‣
 Accounting ‣ Journals: Miscellaneous.
 
-![Exchange rate journal entry.](../../../../_images/exchange-journal-currency.png)
+![Exchange rate journal entry.](../../../../.gitbook/assets/exchange-journal-currency.png)

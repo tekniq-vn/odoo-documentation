@@ -5,7 +5,7 @@ You can [install](#general-install), [upgrade](#general-upgrade) and [uninstall]
 By default, an *Apps* filter is applied. If you want to search for modules, click on
 *Filters* and select *Extra*.
 
-![Add "Extra" filter in Odoo Apps](../../_images/apps-search-filter.png)
+![Add "Extra" filter in Odoo Apps](../../.gitbook/assets/apps-search-filter.png)
 
 #### WARNING
 Odoo is *not a smartphone*, and its apps shouldn't be installed or uninstalled carelessly. Apply
@@ -55,12 +55,12 @@ Go to Apps, click on the *dropdown menu* of the app you want to upgrade, then on
 Go to Apps, click on the *dropdown menu* of the app you want to uninstall, then on
 *Uninstall*.
 
-![image](../../_images/uninstall.png)
+![image](../../.gitbook/assets/uninstall.png)
 
 Some apps have dependencies, meaning that one app requires another. Therefore, uninstalling one app
 may uninstall multiple apps and modules. Odoo warns you which dependent apps and modules are
 affected by it.
 
-![image](../../_images/uninstall_deps.png)
+![image](../../.gitbook/assets/uninstall_deps.png)
 
 To complete the uninstallation, click on *Confirm*.

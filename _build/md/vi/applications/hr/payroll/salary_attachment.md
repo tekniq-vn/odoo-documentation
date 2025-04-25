@@ -22,7 +22,7 @@ Attachment of Salary, Assignment of Salary, and Child Support.
 Each entry displays the total amount paid for each specific type of salary attachment, for each
 employee.
 
-![The Attachment of Salary report that shows all salary garnishments in a condensed view.](../../../_images/salary-attachment.png)
+![The Attachment of Salary report that shows all salary garnishments in a condensed view.](../../../.gitbook/assets/salary-attachment.png)
 
 The report can be downloaded as an XLSX file, or [inserted into a spreadsheet](../../productivity/spreadsheet/insert.md) using the corresponding buttons at the top.
 
@@ -45,4 +45,4 @@ End Date: Previous Year, beneath the <i class="fa fa-adjust"></i> Comparison col
 The report updates and displays the current time period values, and the previous time period values,
 as well as the Variation between the two, in a percentage.
 
-![The salary attachment report modified to compare to the previous year.](../../../_images/comparison-attachment.png)
+![The salary attachment report modified to compare to the previous year.](../../../.gitbook/assets/comparison-attachment.png)

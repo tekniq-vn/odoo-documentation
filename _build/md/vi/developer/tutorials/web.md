@@ -12,7 +12,7 @@ This guide assumes knowledge of:
 * [jQuery](http://jquery.org)
 * [Underscore.js](http://underscorejs.org)
 
-It also requires [an installed Odoo](../../administration/on_premise.md), and [Git](http://git-scm.com).
+It also requires [an installed Odoo](../../administration/on_premise/), and [Git](http://git-scm.com).
 
 ## A Simple Module
 
@@ -112,7 +112,7 @@ readable. It is possible to disable this process by enabling the
 Odoo screen) and select About Odoo then Activate
 the developer mode:
 
-![image](../../_images/about_odoo.png)![image](../../_images/devmode.png)
+![image](../../.gitbook/assets/about_odoo.png)![image](../../.gitbook/assets/devmode.png)
 
 This will reload the web client with optimizations disabled, making
 development and debugging significantly more comfortable.
@@ -1409,7 +1409,7 @@ When an `ActionManager` instance receive an action of type
 the views themselves to a *view manager*, which will then set up one or
 multiple views depending on the original action's requirements:
 
-![image](../../_images/viewarchitecture.png)
+![image](../../.gitbook/assets/viewarchitecture.png)
 
 #### The Views
 

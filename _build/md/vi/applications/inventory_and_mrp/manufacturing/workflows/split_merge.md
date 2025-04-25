@@ -21,11 +21,11 @@ reference number appears with a ⚙️ (settings) button next to it.
 Click the ⚙️ (settings) button to open the general settings for the manufacturing order,
 then select Split.
 
-![The Settings and Split buttons on a manufacturing order.](../../../../_images/settings-split.png)
+![The Settings and Split buttons on a manufacturing order.](../../../../.gitbook/assets/settings-split.png)
 
 Sau khi chọn Tách, thì cửa sổ bật lên Tách sản lượng sẽ xuất hiện. Trong trường Tách #, hãy nhập số lượng lệnh sản xuất mà lệnh gốc sẽ được chia ra, sau đó nhấp ra ngoài trường. Một bảng sẽ xuất hiện bên dưới và chứa mỗi dòng cho một lệnh sản xuất mới sẽ được tạo ra bởi thao tác chia tách. Trong cột Số lượng cần sản xuất, hãy nhập số lượng đơn vị sẽ được chỉ định cho mỗi lệnh sản xuất mới. Cuối cùng, nhấp vào Tách để tách lệnh sản xuất.
 
-![The Split production pop-up window for a manufacturing order.](../../../../_images/split-production-window.png)
+![The Split production pop-up window for a manufacturing order.](../../../../.gitbook/assets/split-production-window.png)
 
 After clicking Split, the original manufacturing order is split into the number of
 orders that was specified in the Split # field. The reference numbers for the new
@@ -38,12 +38,12 @@ To merge two or more manufacturing orders into a single order, begin by navigati
 Manufacturing ‣ Operations ‣ Manufacturing Orders. Select the manufacturing
 orders that will be merged by activating the checkbox to the left of the name of each order.
 
-![Select manufacturing orders that will be merged by clicking the checkbox for each.](../../../../_images/select-orders.png)
+![Select manufacturing orders that will be merged by clicking the checkbox for each.](../../../../.gitbook/assets/select-orders.png)
 
 Once all manufacturing orders have been selected, click the Actions button at the top of
 the page, then select Merge from the drop-down menu.
 
-![The Actions and Merge buttons on the Manufacturing Orders page.](../../../../_images/actions-merge.png)
+![The Actions and Merge buttons on the Manufacturing Orders page.](../../../../.gitbook/assets/actions-merge.png)
 
 The selected manufacturing orders are merged into a single order. The reference number for the new
 manufacturing order is the next sequential number that has *not* already been assigned to an order.

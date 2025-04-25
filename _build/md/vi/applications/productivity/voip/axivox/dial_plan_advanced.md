@@ -38,7 +38,7 @@ Next, click on the Visual Editor button to the right of the desired dial plan to
 it. Finally, open the New element drop-down menu, select the element, and click
 Add.
 
-![Visual editor for a dial plan in Axivox, with Add and the dispatcher element highlighted.](../../../../_images/visual-editor.png)
+![Visual editor for a dial plan in Axivox, with Add and the dispatcher element highlighted.](../../../../.gitbook/assets/visual-editor.png)
 
 For more information, visit [Dial plans](dial_plan_basics.md#voip-axivox-dial-plans).
 
@@ -148,7 +148,7 @@ their customers to certain queues, or users based on the customer's geo-location
 To specify all numbers behind a certain country code, or area code, include `d+` after the country
 code, or country code + area code.
 
-![Dispatcher configuration panel, with name, regular expression and add a line highlighted.](../../../../_images/dispatcher.png)
+![Dispatcher configuration panel, with name, regular expression and add a line highlighted.](../../../../.gitbook/assets/dispatcher.png)
 
 When the desired configurations are complete on the Dispatcher pop-up window, be sure to
 click Save.
@@ -164,7 +164,7 @@ after setting at least one Regular Expression.
 Calls follow this route/path when their number does not match any Regular Expression set
 on the Dispatcher element.
 
-![Dial plan with dispatcher element highlighted.](../../../../_images/dispatcher-element.png)
+![Dial plan with dispatcher element highlighted.](../../../../.gitbook/assets/dispatcher-element.png)
 
 ### Time condition scenario
 
@@ -182,7 +182,7 @@ The Time Condition element is especially useful for holidays, weekends, and to s
 working hours. When a caller reaches a destination where they can be helped, either with a real
 person or voicemail, this reduces wasted time and hangups.
 
-![Time condition element set in a dial plan on Axivox. Time condition is highlighted.](../../../../_images/time-condition.png)
+![Time condition element set in a dial plan on Axivox. Time condition is highlighted.](../../../../.gitbook/assets/time-condition.png)
 
 #### IMPORTANT
 To set the Timezone that the Time Condition operates under, navigate to
@@ -201,7 +201,7 @@ double-clicking on the element directly in the Dialplan Editor pop-up window.
 Two fields appear where regular expressions can based in the Allow and Deny
 fields of the Access List pop-up window.
 
-![Access list element configuration with the allow/deny fields highlighted.](../../../../_images/access-config.png)
+![Access list element configuration with the allow/deny fields highlighted.](../../../../.gitbook/assets/access-config.png)
 
 After setting the Allow and Deny fields with regular expressions or numbers,
 click Save on the Access List pop-up window.
@@ -214,7 +214,7 @@ connecting it to the Unknown path. Refused calls can be routed to the
 Hang up element. Lastly, Authorized callers can be sent to a specific
 extension or queue.
 
-![Access list element highlighted in an example dial plan.](../../../../_images/access-list.png)
+![Access list element highlighted in an example dial plan.](../../../../.gitbook/assets/access-list.png)
 
 ## Switches
 
@@ -263,7 +263,7 @@ pop-up window.
 Then, from the New element drop-down menu, select Switch, and then click
 Add. Double-click on the element to further configure the Switch element.
 
-![Switch configuration in a dial plan, with inactive and active routes highlighted.](../../../../_images/switch.png)
+![Switch configuration in a dial plan, with inactive and active routes highlighted.](../../../../.gitbook/assets/switch.png)
 
 ### Multi-switch
 
@@ -298,4 +298,4 @@ On the Dialplan Editor pop-up window that appears, click on the New element
 drop-down menu, and select Multi-Switch. Then, click Add. Double-click on
 the element to further configure the Switch element.
 
-![Multi-switch configuration in a dial plan, with chosen route highlighted.](../../../../_images/multi-switch.png)
+![Multi-switch configuration in a dial plan, with chosen route highlighted.](../../../../.gitbook/assets/multi-switch.png)

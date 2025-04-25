@@ -39,7 +39,7 @@ the Copyright section at the bottom of the page. To edit the language selector m
    Copyright section of the website builder;
 3. Set the Language Selector field to either Dropdown or Inline.
    Click None if you do not want to display the  Language selector;
-   > ![Add a language selector menu.](../../../../_images/language-selector.png)
+   > ![Add a language selector menu.](../../../../.gitbook/assets/language-selector.png)
 4. Nhấp Lưu.
 
 <a id="translate-translate"></a>
@@ -53,7 +53,7 @@ translation mode so that you can translate what has not been translated automati
 Translated text strings are highlighted in green; text strings that were not translated
 automatically are highlighted in yellow.
 
-![Entering the translation mode](../../../../_images/translated-text.png)
+![Entering the translation mode](../../../../.gitbook/assets/translated-text.png)
 
 In this mode, you can only translate text. To change the page's structure, you must edit the master
 page, i.e., the page in the original language of the database. Any changes made to the master page

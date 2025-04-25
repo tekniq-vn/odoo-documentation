@@ -14,19 +14,19 @@ To use this feature, you first need to activate the *Barcode*
 functionality via Inventory ‣ Settings ‣ Barcode Scanner. Once you
 have ticked the feature, you can hit save.
 
-![image](../../../../_images/software_01.png)
+![image](../../../../.gitbook/assets/software_01.png)
 
 ## Set Product Barcodes
 
 You can easily assign barcodes to your different products via the
 *Inventory* app. To do so, go to Settings ‣ Configure Products Barcodes.
 
-![image](../../../../_images/software_02.png)
+![image](../../../../.gitbook/assets/software_02.png)
 
 Then, you have the possibility to assign barcodes to your products
 directly at creation on the product form.
 
-![image](../../../../_images/software_03.png)![image](../../../../_images/software_04.png)
+![image](../../../../.gitbook/assets/software_03.png)![image](../../../../.gitbook/assets/software_04.png)
 
 #### NOTE
 Be careful to add barcodes directly on the product variants and not on
@@ -41,7 +41,7 @@ If you manage multiple locations, you will find useful to attribute a
 barcode to each location and stick it on the location. You can configure
 the locations barcodes in Inventory ‣ Configuration ‣ Locations.
 
-![image](../../../../_images/software_05.png)![image](../../../../_images/software_06.png)
+![image](../../../../.gitbook/assets/software_05.png)![image](../../../../.gitbook/assets/software_06.png)
 
 #### NOTE
 You can easily print the barcode you allocate to the locations via the

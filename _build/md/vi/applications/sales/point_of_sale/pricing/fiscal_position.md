@@ -8,7 +8,7 @@ taxes and accounts used for each transaction.
 
 #### SEE ALSO
 - [Fiscal positions (tax and account mapping)](../../../finance/accounting/taxes/fiscal_positions.md)
-- [Thuế](../../../finance/accounting/taxes.md)
+- [Thuế](../../../finance/accounting/taxes/)
 
 ## Cấu hình
 
@@ -19,9 +19,9 @@ Then, set a default fiscal position that should be applied to all sales in the s
 Default field. You can also add more fiscal positions to choose from in the
 Allowed field.
 
-![image](../../../../_images/flexible-taxes-setting.png)
+![image](../../../../.gitbook/assets/flexible-taxes-setting.png)
 
-According to the [fiscal localization package](../../../finance/fiscal_localizations.md)
+According to the [fiscal localization package](../../../finance/fiscal_localizations/)
 activated, several fiscal positions are preconfigured and can be set and used in POS. However, you
 can also [create new fiscal positions](../../../finance/accounting/taxes/fiscal_positions.md#fiscal-positions-mapping).
 
@@ -31,12 +31,12 @@ on the product form.
 
 ## Use fiscal positions
 
-Open a [POS session](../../point_of_sale.md#pos-session-start) to use one of the allowed fiscal positions. Then,
+Open a [POS session](../#pos-session-start) to use one of the allowed fiscal positions. Then,
 click the Tax button next to the **book-shaped** icon and select a fiscal position from
 the list. Doing so applies the defined rules automatically to all the products subject to the chosen
 fiscal position's regulations.
 
-![image](../../../../_images/set-tax.png)
+![image](../../../../.gitbook/assets/set-tax.png)
 
 #### NOTE
 If a default fiscal position is set, the tax button displays the name of the fiscal position.

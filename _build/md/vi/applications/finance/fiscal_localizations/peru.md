@@ -33,7 +33,7 @@ Go to *Apps* and search for Peru, then click Install in the module Peru EDI. Thi
 dependency with *Peru - Accounting*. In case this last one is not installed, Odoo installs it
 automatically within EDI.
 
-![The "Module" filter is set on "Peru"](../../../_images/peru-modules.png)
+![The "Module" filter is set on "Peru"](../../../.gitbook/assets/peru-modules.png)
 
 #### NOTE
 When you install a database from scratch selecting Peru as country, Odoo automatically
@@ -46,7 +46,7 @@ essential for the Electronic Invoice to work properly. The field **Address Type 
 the establishment code assigned by the SUNAT when companies register their RUC (Unique Contributor
 Registration):
 
-![Company data for Peru including RUC and Address type code.](../../../_images/peru-company.png)
+![Company data for Peru including RUC and Address type code.](../../../.gitbook/assets/peru-company.png)
 
 #### NOTE
 The NIF should be set following the RUC format.
@@ -99,7 +99,7 @@ Please refer to the sections below to check the details and considerations for e
 This is the default and the suggested option, considering the digital ceritificate is included as
 part of the service.
 
-![IAP option as signature providers.](../../../_images/peru-IAP.png)
+![IAP option as signature providers.](../../../.gitbook/assets/peru-IAP.png)
 
 ###### What is the IAP?
 
@@ -149,7 +149,7 @@ document validation directly to Digiflow. In this case you need to consider:
 - Sign a service agreement directly with [Digiflow](https://www.digiflow.pe/).
 - Provide your SOL credentials.
 
-![Digiflow.](../../../_images/peru-Digiflow.png)
+![Digiflow.](../../../.gitbook/assets/peru-Digiflow.png)
 
 ##### SUNAT
 
@@ -178,14 +178,14 @@ In case you don’t use Odoo IAP, in order to generate the electronic invoice si
 certificate with the extension `.pfx` is required. Proceed to this section and load your file and
 password.
 
-![EDI Certificate wizard.](../../../_images/peru-Certificate.png)
+![EDI Certificate wizard.](../../../.gitbook/assets/peru-Certificate.png)
 
 #### Nhiều loại tiền tệ
 
 The official currency exchange rate in Peru is provided by the SUNAT. Odoo can connect directly to
 its services and get the currency rate either automatically or manually.
 
-![SUNAT displayed in Multicurrency Service option.](../../../_images/l10n-pe-banksync-sunat.png)
+![SUNAT displayed in Multicurrency Service option.](../../../.gitbook/assets/l10n-pe-banksync-sunat.png)
 
 Please refer to the next section in our documentation for more information about
 [multicurrencies](../accounting/get_started/multi_currency.md).
@@ -199,7 +199,7 @@ Please refer to the next section in our documentation for more information about
 As part of the localization module the taxes are created automatically with their related
 financial account and electronic invoice configuration.
 
-![List of default taxes.](../../../_images/peru-taxes.png)
+![List of default taxes.](../../../.gitbook/assets/peru-taxes.png)
 
 ##### EDI Configuration
 
@@ -207,7 +207,7 @@ As part of the taxes configuration, there are three new fields required for elec
 the taxes created by default have this data included, but in case you create new taxes make
 sure you fill in the fields:
 
-![Taxes EDI data for Peru.](../../../_images/peru-taxes-edi.png)
+![Taxes EDI data for Peru.](../../../.gitbook/assets/peru-taxes-edi.png)
 
 #### Vị trí tài chính
 
@@ -230,7 +230,7 @@ is created automatically when the localization module is installed.
 The information required for the document types is included by default so the user does not need
 to fill anything on this view:
 
-![Document Type list.](../../../_images/peru-document-type.png)
+![Document Type list.](../../../.gitbook/assets/peru-document-type.png)
 
 #### WARNING
 Currently the documents supported on customer invoices are: Invoice, Boleta, Debit Note and
@@ -252,7 +252,7 @@ document types available in Peru. By default, all the sales journals created use
 This section indicates which EDI workflow is used in the invoice, for Peru we must select
 “Peru UBL 2.1”.
 
-![Journal EDI field.](../../../_images/peru-journal-edi.png)
+![Journal EDI field.](../../../.gitbook/assets/peru-journal-edi.png)
 
 #### WARNING
 By default, the value Factur-X (FR) is always displayed, make sure you can uncheck it manually.
@@ -265,14 +265,14 @@ As part of the Peruvian localization, the identification types defined by the SU
 available on the Partner form, this information is essential for most transactions either on
 the sender company and in the customer, make sure you fill in this information in your records.
 
-![Partner identification type.](../../../_images/peru-id-type.png)
+![Partner identification type.](../../../.gitbook/assets/peru-id-type.png)
 
 #### Sản phẩm
 
 Additional to the basic information in your products, for the Peruvian localization, the UNSPC
 Code on the product is a required value to be configured.
 
-![UNSPC Code on products.](../../../_images/peru-unspc-code.png)
+![UNSPC Code on products.](../../../.gitbook/assets/peru-unspc-code.png)
 
 ## Usage and testing
 
@@ -287,13 +287,13 @@ fields required as part of the Peru EDI:
 
 - **Document type**: The default value is “Factura Electronica” but  you can manually change the
   document type if needed and select Boleta for example.
-  ![Invoice document type field on invoices.](../../../_images/peru-invoice-document-type.png)
+  ![Invoice document type field on invoices.](../../../.gitbook/assets/peru-invoice-document-type.png)
 - **Operation type**: This value is required for Electronic Invoice and indicates the transaction
   type, the default value is “Internal Sale” but another value can be selected manually when needed,
   for example Export of Goods.
-  ![Invoice operation type field on invoices.](../../../_images/peru-operation-type.png)
+  ![Invoice operation type field on invoices.](../../../.gitbook/assets/peru-operation-type.png)
 - **Lý do ảnh hưởng EDI**: Trong các dòng hóa đơn, bên cạnh trường Thuế còn có trường “Lý do ảnh hưởng EDI” dùng để xác định phạm vi thuế dựa trên danh sách của SUNAT hiển thị. Tất cả các loại thuế được tải mặc định đều được gán với một lý do ảnh hưởng EDI mặc định, nếu cần bạn có thể chọn thủ công một lý do khác khi tạo hóa đơn.
-  ![Tax affectation reason in invoice line.](../../../_images/peru-tax-affectation-reason.png)
+  ![Tax affectation reason in invoice line.](../../../.gitbook/assets/peru-tax-affectation-reason.png)
 
 #### Invoice validation
 
@@ -301,7 +301,7 @@ Once you check all the information in your invoice is correct, you can proceed t
 action registers the account move and triggers the Electronic invoice workflow to send it to the
 OSE and the SUNAT. The following message is displayed at the top of the invoice:
 
-![Sending of EDI Invoice in blue.](../../../_images/peru-posted-invoice.png)
+![Sending of EDI Invoice in blue.](../../../.gitbook/assets/peru-posted-invoice.png)
 
 Asynchronous means that the document is not sent automatically after the invoice has been posted.
 
@@ -313,13 +313,13 @@ Asynchronous means that the document is not sent automatically after the invoice
 done either automatically by Odoo with a *cron* that runs every hour, or the user can send it
 immediately by clicking on the button “Sent now”.
 
-![Send EDI manually.](../../../_images/peru-sent-manual.png)
+![Send EDI manually.](../../../.gitbook/assets/peru-sent-manual.png)
 
 **Sent**: Indicates the document was sent to the OSE and was successfully validated. As part of
 the validation a ZIP file is downloaded and a message is logged in the chatter indicating the
 correct Government validation.
 
-![Message on chatter when the invoice is valid.](../../../_images/peru-invoice-sent.png)
+![Message on chatter when the invoice is valid.](../../../.gitbook/assets/peru-invoice-sent.png)
 
 In case there is a validation error the Electronic Invoice status remains in “To be sent” so the
 corrections can be made and the invoice can be sent again.
@@ -343,7 +343,7 @@ If a validation error is received, you have two options:
 - If the error is related to some data recorded on the invoice directly (Operation type, missing
   data on the invoice lines), the correct solution is to reset the invoice to Draft, apply the
   changes, and then send the invoice again to the SUNAT for another validation.
-  ![List of common errors on invoices.](../../../_images/peru-errors.png)
+  ![List of common errors on invoices.](../../../.gitbook/assets/peru-errors.png)
 
 For more detail please refert to [Common errors in SUNAT](https://www.nubefact.com/codigos-error-sunat/).
 
@@ -352,7 +352,7 @@ For more detail please refert to [Common errors in SUNAT](https://www.nubefact.c
 After the invoice is accepted and validated by the SUNAT, the invoice PDF report can be printed.
 The report includes a QR code, indicating the invoice is a valid fiscal document.
 
-![Invoice PDF report.](../../../_images/peru-PDF.png)
+![Invoice PDF report.](../../../.gitbook/assets/peru-PDF.png)
 
 #### Tín dụng IAP
 
@@ -363,7 +363,7 @@ Once you run out of credits a red label is displayed at the top of the invoice i
 additional credits are required, you can easily buy them by accessing the link provided in
 the message.
 
-![Buying credits in the IAP.](../../../_images/peru-credits-IAP.png)
+![Buying credits in the IAP.](../../../.gitbook/assets/peru-credits-IAP.png)
 
 In the IAP service includes packages with different pricing based on the number of credits.
 The price list in the IAP is always displayed in EUR.
@@ -376,7 +376,7 @@ Some scenarios require an invoice cancellation, for example, when an invoice was
 If the invoice was already sent and validated by the SUNAT, the correct way to proceed is by
 clicking on the button Request Cancellation:
 
-![Request invoice cancellation button.](../../../_images/peru-cancellation.png)
+![Request invoice cancellation button.](../../../.gitbook/assets/peru-cancellation.png)
 
 In order to cancel an invoice, please provide a cancellation Reason.
 
@@ -384,13 +384,13 @@ In order to cancel an invoice, please provide a cancellation Reason.
 
 **Cần hủy**: Cho biết yêu cầu hủy đã sẵn sàng để gửi đến OSE. Việc này có thể được thực hiện tự động bởi Odoo thông qua một *cron* chạy mỗi giờ hoặc người dùng có thể gửi ngay lập tức bằng cách nhấp vào nút “Gửi ngay”. Sau khi gửi, một yêu cầu hủy sẽ được tạo, và kết quả là tin nhắn tiếp theo cùng tệp CDR sẽ được ghi lại trong cửa sổ trò chuyện.
 
-![Cancellation CDR sent by the SUNAT.](../../../_images/peru-cancellation-cdr.png)
+![Cancellation CDR sent by the SUNAT.](../../../.gitbook/assets/peru-cancellation-cdr.png)
 
 **Cancelled**: Indicates the cancellation request was sent to the OSE and was successfully
 validated. As part of the validation a ZIP file is downloaded and a message is logged in the
 chatter indicating the correct Government validation.
 
-![Invoice after cancellation.](../../../_images/peru-cancelled.png)
+![Invoice after cancellation.](../../../.gitbook/assets/peru-cancelled.png)
 
 #### WARNING
 One credit is consumed on each cancellation request.
@@ -403,7 +403,7 @@ When creating exportation invoices, take into account the next considerations:
 - Operation type in your invoice must be an Exportation one.
 - The taxes included in the invoice lines should be EXP taxes.
 
-![Exportation invoices main data.](../../../_images/peru-exp-invoice.png)
+![Exportation invoices main data.](../../../.gitbook/assets/peru-exp-invoice.png)
 
 ##### Advance Payments
 
@@ -418,9 +418,9 @@ When creating exportation invoices, take into account the next considerations:
 When creating invoices that is subject to Detractions, take into account the next considerations:
 
 1. All the products included in the invoice must have these fields configured:
-   ![Detraction fields on products.](../../../_images/peru-detraction.png)
+   ![Detraction fields on products.](../../../.gitbook/assets/peru-detraction.png)
 2. Operation type in your invoice must be `1001`
-   ![Detraction code on invoices.](../../../_images/peru-detraction-invoice.png)
+   ![Detraction code on invoices.](../../../.gitbook/assets/peru-detraction-invoice.png)
 
 ### Giấy báo có
 
@@ -428,11 +428,11 @@ When a correction or refund is needed over a validated invoice, a credit note mu
 for this just click on the button “Add Credit Note”, a part of the Peruvian localization you need
 to prove a Credit Reason selecting one of the options in the list.
 
-![Add Credit Note from invoice.](../../../_images/peru-credit-note.png)
+![Add Credit Note from invoice.](../../../.gitbook/assets/peru-credit-note.png)
 
 By default the Credit Note is set in the document type:
 
-![Credit Note document type.](../../../_images/peru-credit-note-document.png)
+![Credit Note document type.](../../../.gitbook/assets/peru-credit-note-document.png)
 
 To finish the workflow please follow the instructions on [our page about Credit Notes](../accounting/customer_invoices/credit_notes.md).
 
@@ -562,7 +562,7 @@ Configure the following Sunat Delivery Guide API fields:
 - Guide SOL User: the RUC Number + SOL username
 - Guide SOL Password: the SOL user password
 
-![Example for the SUNAT Delivery Guide API section configuration.](../../../_images/gre-fields-example.png)
+![Example for the SUNAT Delivery Guide API section configuration.](../../../.gitbook/assets/gre-fields-example.png)
 
 #### NOTE
 It is required to follow the format `RUC + UsuarioSol` (e.g., `20557912879SOLUSER`) for the
@@ -586,7 +586,7 @@ For the customer address, make sure the following fields are complete:
 - ID thuế (DNI/RUC)
 - Mã số thuế
 
-![Individual type operator configurations in the Contact form.](../../../_images/operator-configuration.png)
+![Individual type operator configurations in the Contact form.](../../../.gitbook/assets/operator-configuration.png)
 
 ##### Đơn vị vận chuyển
 
@@ -605,7 +605,7 @@ For the company address, make sure the following fields are complete:
 - ID thuế (DNI/RUC)
 - Mã số thuế
 
-![Company type operator configurations in the Contact form.](../../../_images/company-operator-configuration.png)
+![Company type operator configurations in the Contact form.](../../../.gitbook/assets/company-operator-configuration.png)
 
 ##### Phương tiện
 
@@ -624,7 +624,7 @@ Vehicles and fill in the vehicle form with the information needed for the vehicl
 It is important to check the Is M1 or L? checkbox if the vehicle has fewer than four
 wheels or fewer than eight seats.
 
-![Vehicle not selected as an M1 or L type with extra fields shown.](../../../_images/vehicle-not-m1-or-l-pe.png)
+![Vehicle not selected as an M1 or L type with extra fields shown.](../../../.gitbook/assets/vehicle-not-m1-or-l-pe.png)
 
 ##### Sản phẩm
 
@@ -649,13 +649,13 @@ Guia de Remision PE tab.
 The delivery transfer has to be marked as *Done* for the Generar Guia de Remision button
 to appear on the left menu of the transfer form.
 
-![Generar Guia de Remision button on a transfer form in the Done stage.](../../../_images/generate-gre-transferview.png)
+![Generar Guia de Remision button on a transfer form in the Done stage.](../../../.gitbook/assets/generate-gre-transferview.png)
 
 Once the transfer form is correctly validated by , the generated XML file becomes available
 in the chatter. You can now print the delivery slip that shows the transfer details and the QR
 code validated by .
 
-![Transfer details and QR code on generated delivery slip.](../../../_images/gre-delivery-slip.png)
+![Transfer details and QR code on generated delivery slip.](../../../.gitbook/assets/gre-delivery-slip.png)
 
 #### Common errors
 
@@ -724,9 +724,9 @@ the following configurations for the **eCommerce** flow:
 
 - [Client account registration](../../websites/ecommerce/checkout.md#checkout-sign);
 - [Hoá đơn tự động](../../websites/ecommerce/order_handling.md#handling-legal);
-- [Sản phẩm](../../websites/ecommerce/products.md): Set the Invoicing Policy to
+- [Sản phẩm](../../websites/ecommerce/products/): Set the Invoicing Policy to
   Ordered quantities and define the desired Customer taxes.
-- [Thanh toán online](../payment_providers.md);
+- [Thanh toán online](../payment_providers/);
 - [Vận chuyển](../../websites/ecommerce/shipping.md): For each shipping method, set
   the Provider field to Fixed Price. Then, set a Fixed Price
   amount greater than `0.00` (not zero), as the shipping method price is added to the invoice line.
@@ -810,7 +810,7 @@ warehouse and should only be a numeric combination, containing between 4 to 7 di
 ##### Inventory transfers
 
 Transferring inventory is a key process captured in the  12.1 and  13.1 reports.
-[Inventory transfers](../../inventory_and_mrp/inventory/shipping_receiving/daily_operations.md)
+[Inventory transfers](../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/)
 include both incoming and outgoing shipments.
 
 When validating an inventory transfer (either on a warehouse receipt or delivery order), select the
@@ -827,7 +827,7 @@ the PLE Reports button. Then, select the Period and choose a report to
 export: either the PLE 12.1 or PLE 13.1. Odoo generates a `.txt` file
 for the chosen report.
 
-![Export Buttons selection](../../../_images/l10n-ple-export-button.png)
+![Export Buttons selection](../../../.gitbook/assets/l10n-ple-export-button.png)
 
 #### NOTE
 Only a download of the report in `.txt` format is available. There is no preview or visualization

@@ -137,7 +137,7 @@ When ready, click Send, and fill in the required fields. Once sent, your documen
 remains available. Go to Documents ‣ All Documents to see your document
 and the status of the signatures.
 
-![Trạng thái chữ ký](../../_images/signature-status.png)
+![Trạng thái chữ ký](../../.gitbook/assets/signature-status.png)
 
 #### Validity dates and reminders
 
@@ -206,7 +206,7 @@ The person signing the document fills in the Signature field, then Sign, and
 clicks Validate & Send Completed Document. A Final Validation page pops up
 where to add their phone number. One-time codes are sent by SMS.
 
-![Add a hash to your document](../../_images/sms-verification.png)
+![Add a hash to your document](../../.gitbook/assets/sms-verification.png)
 
 #### NOTE
 - This feature is enabled by default.
@@ -228,7 +228,7 @@ Step column for the role, and select Via itsme®.
 Go to the document that needs to be signed and add the Signature field. Switch to any
 role configured to use the feature, and click Validate and Send.
 
-![select customer identified with itsme®](../../_images/itsme-identification.png)
+![select customer identified with itsme®](../../.gitbook/assets/itsme-identification.png)
 
 Upon signing the document, the signer completes the Signature field and proceeds by
 clicking on Validate & Send Completed Document, triggering a
@@ -245,7 +245,7 @@ A visual security frame displaying the beginning of the hash is added to the sig
 users can hide or show it by turning the Frame option on or off when signing the
 document.
 
-![Adding the visual security frame to a signature.](../../_images/sign-hash.png)
+![Adding the visual security frame to a signature.](../../.gitbook/assets/sign-hash.png)
 
 <a id="sign-field-types"></a>
 
@@ -275,7 +275,7 @@ Send, toggle the Specify Signing Order switch and search for the signer's
 name or email information to add them. You can decide on the signing order by typing **1** or **2**
 in the first column.
 
-![Toggle the switch to specify the signing order.](../../_images/specify-signing-order.png)
+![Toggle the switch to specify the signing order.](../../.gitbook/assets/specify-signing-order.png)
 
 Each recipient receives the signature request notification only once the previous recipient has
 completed their action.
@@ -323,4 +323,4 @@ screen during the signing process to help them understand what the step entails 
 or “Fill in your birthdate”). You can also use a Placeholder text to be displayed inside
 the field before it is completed.
 
-![Tip and placeholder example in Odoo Sign](../../_images/tip-placeholder.png)
+![Tip and placeholder example in Odoo Sign](../../.gitbook/assets/tip-placeholder.png)

@@ -30,7 +30,7 @@ In this view, it is easier to visualize the differences between the job position
 long applicants stay in each stage. From this view, recruiters can more easily determine which job
 positions have delays or bottlenecks at certain stages.
 
-![The bar chart view of the Time In Stage Analysis report.](../../../_images/bar-chart2.png)
+![The bar chart view of the Time In Stage Analysis report.](../../../.gitbook/assets/bar-chart2.png)
 
 ### Use case: comparing times by month
 
@@ -46,7 +46,7 @@ the various boxes.
 If a field is empty, it indicates no applicant has been in that stage. Instead, all applicants
 moved from a previous stage without being placed in the stage with an empty field.
 
-![The pivot table view of the Time In Stage Analysis report.](../../../_images/time-pivot.png)
+![The pivot table view of the Time In Stage Analysis report.](../../../.gitbook/assets/time-pivot.png)
 
 Click <i class="fa fa-minus-square-o"></i> Total above the job position rows to collapse the
 information. Next, click <i class="fa fa-plus-square"></i> Total again, revealing a drop-down menu.
@@ -56,7 +56,7 @@ further grouping options. Click Start Date from the expanded list.
 After doing so, the data presented is grouped with the various months from the previous 365 days for
 the rows, leaving the Days In Stage as the columns.
 
-![The pivot table showing the months averages for times in stage.](../../../_images/time-dates.png)
+![The pivot table showing the months averages for times in stage.](../../../.gitbook/assets/time-dates.png)
 
 In this example, July 2024 had the longest time that applicants spent in each stage, on
 average. In addition, the Contract Proposal stage had the longest wait time in July,

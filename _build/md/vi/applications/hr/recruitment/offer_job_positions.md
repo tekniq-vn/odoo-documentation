@@ -4,7 +4,7 @@ Once an applicant has successfully passed the various interview stages, the recr
 ready to send an offer for employment. The next step is to send the applicant a contract.
 
 #### SEE ALSO
-Refer to the [recruitment](../recruitment.md) documentation for details on the various stages
+Refer to the [recruitment](./) documentation for details on the various stages
 of the recruitment process.
 
 ## Contract proposal
@@ -85,7 +85,7 @@ To send an offer, ensure the *Sign* application is installed. This is necessary,
 be sent to the applicant by the recruiter, and they can actually sign the offer. The applicant
 does **not** need any software installed to sign the offer.
 
-![Send an email to the applicant with a link to the offered salary.](../../../_images/send-offer.png)
+![Send an email to the applicant with a link to the offered salary.](../../../.gitbook/assets/send-offer.png)
 
 ### Configure your package
 
@@ -119,7 +119,7 @@ Contract Signed from the resulting drop-down menu.
 Once the applicant is moved to the Contract Signed stage, a green HIRED
 banner appears in the top-right of the applicant's card and form.
 
-![Hired banner in the top right corner of applicant card.](../../../_images/hired.png)
+![Hired banner in the top right corner of applicant card.](../../../.gitbook/assets/hired.png)
 
 <a id="recruitment-new-employee"></a>
 

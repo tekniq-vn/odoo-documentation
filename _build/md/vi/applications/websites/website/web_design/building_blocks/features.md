@@ -1,6 +1,6 @@
 # Tính năng
 
-The Features [building blocks](../building_blocks.md) allow you to list multiple
+The Features [building blocks](./) allow you to list multiple
 items next to each other.
 
 The [Table of Content](#features-table-of-content) and the [Call to Action](#features-call-to-action) blocks are presented below.
@@ -18,7 +18,7 @@ selected.
 The Table of Content block is used to list many different items grouped under several
 headings. A clickable index is available to navigate quickly between the different categories.
 
-![The default Table of Content block](../../../../../_images/table-of-content.png)
+![The default Table of Content block](../../../../../.gitbook/assets/table-of-content.png)
 
 <a id="features-call-to-action"></a>
 
@@ -27,7 +27,7 @@ headings. A clickable index is available to navigate quickly between the differe
 The Call to Action block is used to prompt visitors to take a specific action, such
 as signing up for a newsletter or contacting you.
 
-![The default Call to Action block](../../../../../_images/call-to-action.png)
+![The default Call to Action block](../../../../../.gitbook/assets/call-to-action.png)
 
 To change the button's link, select it, go to the Customize tab's Inline
 Text section and replace `/contactus` with another URL.

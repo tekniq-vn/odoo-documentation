@@ -30,17 +30,17 @@ The integration of the Google sign-in function requires configuration both on Go
 2. Make sure the right project is opened. If there isn't a project yet, click on Create
    Project, fill out the project name and other details of the company, and click on
    Create.
-   ![Filling out the details of a new project.](../../../_images/new-project-details.png)
+   ![Filling out the details of a new project.](../../../.gitbook/assets/new-project-details.png)
 
 <a id="google-sign-in-oauth"></a>
 
 #### OAuth consent screen
 
 1. On the left side menu, click on OAuth consent screen.
-   ![Google OAuth consent selection menu.](../../../_images/consent-selection.png)
+   ![Google OAuth consent selection menu.](../../../.gitbook/assets/consent-selection.png)
 2. Choose one of the options (Internal / External), and click on
    Create.
-   ![Choice of a user type in OAuth consent.](../../../_images/consent.png)
+   ![Choice of a user type in OAuth consent.](../../../.gitbook/assets/consent.png)
 
    #### WARNING
    *Personal* Gmail Accounts are only allowed to be **External** User Type, which means Google
@@ -62,9 +62,9 @@ The integration of the Google sign-in function requires configuration both on Go
 #### Thông tin đăng nhập
 
 1. On the left side menu, click on Credentials.
-   ![Credentials button menu.](../../../_images/credentials-button.png)
+   ![Credentials button menu.](../../../.gitbook/assets/credentials-button.png)
 2. Click on Create Credentials, and select OAuth client ID.
-   ![OAuth client id selection.](../../../_images/client-id.png)
+   ![OAuth client id selection.](../../../.gitbook/assets/client-id.png)
 3. Select Web Application as the Application Type. Now, configure the
    allowed pages on which Odoo will be redirected.
 
@@ -86,7 +86,7 @@ The integration of the Google sign-in function requires configuration both on Go
 Once the previous steps are complete, two keys are generated on the Google API Dashboard:
 Client ID and Client Secret. Copy the Client ID.
 
-![Google OAuth Client ID generated.](../../../_images/secret-ids.png)
+![Google OAuth Client ID generated.](../../../.gitbook/assets/secret-ids.png)
 
 <a id="google-sign-in-odoo-activation"></a>
 
@@ -101,7 +101,7 @@ Client ID and Client Secret. Copy the Client ID.
    the selection and Save. Next, return to General Settings ‣
    Integrations ‣ Google Authentication and activate the selection. Then fill out the
    Client ID with the key from the Google API Dashboard, and Save.
-   ![Filling out the client id in Odoo settings.](../../../_images/odoo-client-id.png)
+   ![Filling out the client id in Odoo settings.](../../../.gitbook/assets/odoo-client-id.png)
 
    #### NOTE
    Google OAuth2 configuration can also be accessed by clicking on OAuth Providers
@@ -114,9 +114,9 @@ Client ID and Client Secret. Copy the Client ID.
 To link the Google account to the Odoo profile, click on Log in with Google when first
 logging into Odoo.
 
-> ![Reset password screen with "Log in with Google" button.](../../../_images/first-login.png)
+> ![Reset password screen with "Log in with Google" button.](../../../.gitbook/assets/first-login.png)
 
-Existing users must [reset their password](../users.md#users-reset-password) to access the
+Existing users must [reset their password](./#users-reset-password) to access the
 Reset Password page, while new users can directly click on Log in with
 Google, instead of choosing a new password.
 

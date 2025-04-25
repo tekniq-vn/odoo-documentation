@@ -49,13 +49,13 @@ A vendor **must** be set for temporary reordering rules to work. While a  can st
 Replenishment dashboard in the *Inventory* app triggers a warning to add a vendor on
 the product form.
 
-![Warning pop-up upon clicking to replenish product with no set vendor.](../../../../_images/temporary-reordering-warning-popup.png)
+![Warning pop-up upon clicking to replenish product with no set vendor.](../../../../.gitbook/assets/temporary-reordering-warning-popup.png)
 
 Before creating a  for the product, ensure the On Hand smart
 button on the product form reads `0.00 Units`. Then, ensure that the Reordering Rules
 smart button reads `0`, indicating there are no rules applied to this product.
 
-![Product form smart button row displaying reordering rules and on hand buttons.](../../../../_images/temporary-reordering-smart-buttons.png)
+![Product form smart button row displaying reordering rules and on hand buttons.](../../../../.gitbook/assets/temporary-reordering-smart-buttons.png)
 
 ## Trigger temporary reordering rule
 
@@ -66,7 +66,7 @@ Then, add a customer in the Customer field, and click Add a product under
 the Product column in the Order Lines tab. Next, select the desired product
 from the drop-down menu. Lastly, Confirm the .
 
-![Sales order for product with no set reordering rules.](../../../../_images/temporary-reordering-sales-order.png)
+![Sales order for product with no set reordering rules.](../../../../.gitbook/assets/temporary-reordering-sales-order.png)
 
 ## Check replenishment report
 
@@ -81,7 +81,7 @@ Route, and To Order quantity to replenish can be seen.
 Additionally, two replenishment options are located to the far-right of the row: Order
 Once and Automate.
 
-![Replenishment report displaying temporary reordering rule and options.](../../../../_images/temporary-reordering-replenishment-dashboard.png)
+![Replenishment report displaying temporary reordering rule and options.](../../../../.gitbook/assets/temporary-reordering-replenishment-dashboard.png)
 
 To use the one-time, temporary reordering rule, click Order Once. This action triggers a
 confirmation pop-up window in the top-right corner, reading The following replenishment
@@ -96,7 +96,7 @@ Requests for Quotation overview.
 From here, click Confirm Order, then click Receive Products. Finally, click
 Validate to complete the purchase order.
 
-![Purchase order for product ordered with temporary reordering rule.](../../../../_images/temporary-reordering-purchase-order.png)
+![Purchase order for product ordered with temporary reordering rule.](../../../../.gitbook/assets/temporary-reordering-purchase-order.png)
 
 Now, the original sales order can be delivered and invoiced.
 

@@ -54,7 +54,7 @@ created it, why it was created, etc.).
 Finally, if the check is being processed immediately, click the Pass button at the top
 left of the screen if the check passes, or the Fail button if the check fails.
 
-![A quality check form filled out for a Pass - Fail check.](../../../../_images/quality-check-form1.png)
+![A quality check form filled out for a Pass - Fail check.](../../../../.gitbook/assets/quality-check-form1.png)
 
 ## Process quality check
 
@@ -88,7 +88,7 @@ check is being processed, complete the check by clicking Pass or Fail at the
 bottom of the pop-up window. For all other quality check types, a Validate button
 appears instead. Click it to complete the check.
 
-![The "Quality Check" pop-up window on a manufacturing order.](../../../../_images/quality-check-pop-up1.png)
+![The "Quality Check" pop-up window on a manufacturing order.](../../../../.gitbook/assets/quality-check-pop-up1.png)
 
 ### Quality check on work order
 

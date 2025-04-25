@@ -14,7 +14,7 @@ Tùy vào báo cáo, Odoo có thể hiển thị dữ liệu theo nhiều cách 
 
 [Chế độ xem biểu đồ](#reporting-using-graph) được sử dụng để trực quan hóa dữ liệu bản ghi của bạn, giúp bạn xác định các xu hướng. Chế độ xem này thường nằm trong menu Báo cáo của ứng dụng nhưng cũng có thể nằm ở nơi khác. Nhấp vào **nút chế độ xem biểu đồ** nằm ở phía trên cùng bên phải để truy cập.
 
-![Chọn chế độ xem biểu đồ](../../_images/graph-button.png)
+![Chọn chế độ xem biểu đồ](../../.gitbook/assets/graph-button.png)
 
 <a id="reporting-views-pivot"></a>
 
@@ -22,7 +22,7 @@ Tùy vào báo cáo, Odoo có thể hiển thị dữ liệu theo nhiều cách 
 
 [Chế độ xem pivot](#reporting-using-pivot) được sử dụng để tổng hợp dữ liệu trên các bản ghi của bạn và chia nhỏ chúng để phân tích. Chế độ xem này thường nằm trong menu Báo cáo của ứng dụng nhưng cũng có thể nằm ở nơi khác. Nhấp vào **nút chế độ xem pivot** nằm ở phía trên cùng bên phải để truy cập.
 
-![Chọn chế độ xem pivot](../../_images/pivot-button.png)
+![Chọn chế độ xem pivot](../../.gitbook/assets/pivot-button.png)
 
 <a id="reporting-choosing-measures"></a>
 
@@ -60,12 +60,12 @@ Có ba loại biểu đồ: biểu đồ cột, đường, và tròn.
 
 Biểu đồ cột
 
-![Báo cáo Phân tích doanh số dưới dạng biểu đồ cột](../../_images/bar.png)
+![Báo cáo Phân tích doanh số dưới dạng biểu đồ cột](../../.gitbook/assets/bar.png)
 
 Biểu đồ đường
 
-![Báo cáo Phân tích doanh số dưới dạng biểu đồ đường](../../_images/line.png)
+![Báo cáo Phân tích doanh số dưới dạng biểu đồ đường](../../.gitbook/assets/line.png)
 
 Biểu đồ tròn
 
-![Báo cáo Phân tích doanh số dưới dạng biểu đồ tròn](../../_images/pie.png)
+![Báo cáo Phân tích doanh số dưới dạng biểu đồ tròn](../../.gitbook/assets/pie.png)

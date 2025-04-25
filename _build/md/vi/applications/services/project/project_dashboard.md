@@ -27,7 +27,7 @@ The following smart buttons are displayed on the top left of the project dashboa
 >   [tasks](tasks/task_stages_statuses.md#project-tasks-task-stages-statuses-statuses)) and all tasks, in format
 >   completed/all, as well as the entire project's completion percentage estimation.
 > - Timesheets: the number of hours or days (depending on the **Timesheets** app
->   configuration) linked to the project. This includes all [timesheets](../timesheets.md),
+>   configuration) linked to the project. This includes all [timesheets](../timesheets/),
 >   whether or not they have been validated.
 > - Planned: the number of hours that have been planned for shifts in the **Planning**
 >   app. This includes all [planned shifts](../planning.md), including past shifts and shifts that

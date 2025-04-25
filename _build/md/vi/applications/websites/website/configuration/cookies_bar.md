@@ -46,4 +46,4 @@ Website ‣ Site ‣ Pages.
 To adapt the content of the page according to your needs, click the Edit button.
 
 #### SEE ALSO
-[Trang](../pages.md)
+[Trang](../pages/)

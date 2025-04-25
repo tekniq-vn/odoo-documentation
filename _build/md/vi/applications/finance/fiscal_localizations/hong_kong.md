@@ -33,7 +33,7 @@ in the Proxy Value field, depending on the type chosen.
 Remember to include the invoice number in the QR code, by ticking the Include Reference
 checkbox.
 
-![FPS bank account configuration.](../../../_images/hk-fps-bank-setting.png)
+![FPS bank account configuration.](../../../.gitbook/assets/hk-fps-bank-setting.png)
 
 #### IMPORTANT
 - The account holder's country must be set to `Hong Kong` on its contact form.
@@ -42,7 +42,7 @@ checkbox.
   Reference checkbox.
 
 #### SEE ALSO
-[Bank and cash accounts](../accounting/bank.md)
+[Bank and cash accounts](../accounting/bank/)
 
 ### Cấu hình sổ nhật ký ngân hàng
 
@@ -50,14 +50,14 @@ Go to Accounting app ‣ Configuration ‣ Journals and open the bank journal.
 Then, fill out the Account Number and Bank fields, located in the
 Journal Entries tab.
 
-![Bank Account's journal configuration.](../../../_images/hk-bank-account-journal-setting.png)
+![Bank Account's journal configuration.](../../../.gitbook/assets/hk-bank-account-journal-setting.png)
 
 ### Issue invoices with FPS QR codes
 
 When creating a new invoice, open the Other Info tab and set the Payment
 QR-code option to EMV Merchant-Presented QR-code.
 
-![Select EMV Merchant-Presented QR-code option.](../../../_images/hk-qr-code-invoice-setting.png)
+![Select EMV Merchant-Presented QR-code option.](../../../.gitbook/assets/hk-qr-code-invoice-setting.png)
 
 Ensure that the Recipient Bank is configured, as Odoo uses this field to generate the
 FPS QR code.
@@ -143,7 +143,7 @@ Timesheets do **not** impact work entries in Odoo.
 Once all information has been setup, set the contract status to Running by clicking the
 Running button in the top-right of the page.
 
-![Hong Kong employment contract.](../../../_images/hk-contract.png)
+![Hong Kong employment contract.](../../../.gitbook/assets/hk-contract.png)
 
 <a id="hong-kong-running-payslips"></a>
 
@@ -165,7 +165,7 @@ Odoo provides **four** different salary structures under CAP57 regulation:
 Before running the payslips, the accounts used in the salary rule can be adjusted by navigating to
 Payroll app ‣ Configuration ‣ Rules.
 
-![Hong Kong Salary Rules.](../../../_images/hk-salary-rules.png)
+![Hong Kong Salary Rules.](../../../.gitbook/assets/hk-salary-rules.png)
 
 Odoo can create pay runs in two ways: via [batch](#hong-kong-batch-payslips) or
 [individual](#hong-kong-individual-payslips) payslips.
@@ -235,7 +235,7 @@ the salary rules configured for each structure type.
 There are no MPF contributions for the first month. Both employee and employer contribution
 starts on second month.
 
-![Hong Kong Salary computation.](../../../_images/hk-salary-computation.png)
+![Hong Kong Salary computation.](../../../.gitbook/assets/hk-salary-computation.png)
 
 Under the Other Inputs section in Worked Days & Inputs tab, there are
 additional manual input types:
@@ -266,11 +266,11 @@ choose between **two** different *payment methods*:
 
 - From the employee's payslip (Payroll app ‣ Payslips ‣ All Payslips), once the
   payslip's journal entry has been posted, click Register Payment. The process is the
-  same as [paying vendor bills](../accounting/payments.md). Select the desired bank journal and
+  same as [paying vendor bills](../accounting/payments/). Select the desired bank journal and
   payment method, then later reconcile the payment with the corresponding bank statement.
 - For batch payments (Payroll app ‣ Payslips ‣ Batches), once all draft journal
   entries from the batch are confirmed, click Mark as Paid to post the payment journal
-  entry. Then [create a payment](../accounting/payments.md) in the *Accounting* app, and
+  entry. Then [create a payment](../accounting/payments/) in the *Accounting* app, and
   reconcile accordingly.
 
 ### Attendances and hourly wage
@@ -289,7 +289,7 @@ To record the hours logged by the employee using *Attendances* app:
    Payroll app ‣ Work Entries ‣ Work Entries.
 4. Next, generate the [payslips](#hong-kong-running-payslips) and process the payment.
 
-![Hong Kong Attendance Work Entry.](../../../_images/hk-attendance-work-entry.png)![Hong Kong Attendance Payslip.](../../../_images/hk-attendance-payslip.png)
+![Hong Kong Attendance Work Entry.](../../../.gitbook/assets/hk-attendance-work-entry.png)![Hong Kong Attendance Payslip.](../../../.gitbook/assets/hk-attendance-payslip.png)
 
 ### Time Off with Payroll
 
@@ -304,10 +304,10 @@ There are two checkboxes to be considered when setting up the work entry type:
 - Use 713: Include this leave type as part of 713 computation.
 - Non-full pay: 80% of the .
 
-![Hong Kong Work Entry Type.](../../../_images/hk-work-entry-type.png)
+![Hong Kong Work Entry Type.](../../../.gitbook/assets/hk-work-entry-type.png)
 
 #### SEE ALSO
-[Creating and configuring work entry types](../../hr/payroll.md#payroll-work-entries)
+[Creating and configuring work entry types](../../hr/payroll/#payroll-work-entries)
 
 ### Understanding 713 Ordinance
 
@@ -316,7 +316,7 @@ The *Hong Kong - Payroll* module is compliant with 713 Ordinance which relates t
 
 The ADW computation is as follows:
 
-![Hong Kong ADW Formula.](../../../_images/hk-adw.png)
+![Hong Kong ADW Formula.](../../../.gitbook/assets/hk-adw.png)
 
 #### NOTE
 For 418 compliance, there is no automated allocation of the *Statutory Holiday* entitlement to
@@ -358,7 +358,7 @@ Configure the following in the HK Localization section:
 - Employer's File Number
 - Manulife MPF Scheme
 
-![Hong Kong Payroll Settings.](../../../_images/hk-report-setup.png)
+![Hong Kong Payroll Settings.](../../../.gitbook/assets/hk-report-setup.png)
 
 #### IRD report
 
@@ -379,7 +379,7 @@ Sheet options:
    Generated PDF status once the schedule runs.
 5. Once the PDF is generated, the IRD form may be downloaded.
 
-![Hong Kong IR56B report.](../../../_images/hk-ir56b.png)
+![Hong Kong IR56B report.](../../../.gitbook/assets/hk-ir56b.png)
 
 #### NOTE
 The scheduled action called *Payroll: Generate pdfs* can be manually triggered. It is set by
@@ -394,7 +394,7 @@ Go to Payroll app ‣ Reporting ‣ Manulife MPF Sheet.
 3. Click on Create XLSX.
 4. The *Manulife MPF XLSX* file is then generated, and available for download.
 
-![Hong Kong Manulife Sheet.](../../../_images/hk-manulife-sheet.png)
+![Hong Kong Manulife Sheet.](../../../.gitbook/assets/hk-manulife-sheet.png)
 
 #### NOTE
 Odoo will not be developing further reports for other MPF trustee as there will soon be an
@@ -408,6 +408,6 @@ eMPF platform setup by the local government.
 If *HSBC Autopay* is selected as the batch payment method, click on Create HSBC Autopay
 Report, and fill in the mandatory fields:
 
-![Hong Kong HSBC Autopay wizard.](../../../_images/hk-generate-autopay.png)
+![Hong Kong HSBC Autopay wizard.](../../../.gitbook/assets/hk-generate-autopay.png)
 
 This creates an `.apc` file format which can be uploaded to the HSCB portal for processing.

@@ -10,7 +10,7 @@ The reporting feature is only accessible to users with [admin access](../../../.
 
 To access the stock report, go to Inventory app ‣ Reporting ‣ Moves History.
 
-![Display Moves History report.](../../../../../_images/moves-history.png)
+![Display Moves History report.](../../../../../.gitbook/assets/moves-history.png)
 
 <a id="inventory-warehouses-storage-moves-history-report"></a>
 

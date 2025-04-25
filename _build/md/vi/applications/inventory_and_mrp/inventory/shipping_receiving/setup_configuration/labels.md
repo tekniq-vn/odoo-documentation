@@ -17,7 +17,7 @@ labels. Finally, provide the company's [source address](third_party_shipper.md#i
 #### SEE ALSO
 [Third-party shipping carriers](third_party_shipper.md)
 
-![Set the "Get Rate and Create Shipment" option.](../../../../../_images/integration-level.png)
+![Set the "Get Rate and Create Shipment" option.](../../../../../.gitbook/assets/integration-level.png)
 
 <a id="inventory-shipping-receiving-picking-config"></a>
 
@@ -56,7 +56,7 @@ To generate a tracking label for an order, begin by creating a quotation in Sale
 app ‣ Orders ‣ Quotations, clicking New, and filling out the quotation form. Then,
 click the Add Shipping button in the bottom-right corner of the quotation.
 
-![Show the "Add Shipping" button on the quotation.](../../../../../_images/add-shipping-button.png)
+![Show the "Add Shipping" button on the quotation.](../../../../../.gitbook/assets/add-shipping-button.png)
 
 In the resulting pop-up window, select the intended carrier from the Shipping Method
 drop-down menu. The Total Order Weight field is automatically populated, based on the
@@ -71,11 +71,11 @@ If clicking Get Rate results in an error, ensure the [warehouse's address](third
 order](third_party_shipper.md#inventory-shipping-receiving-configure-weight) are properly configured.
 
 Click Add to add the cost to the quotation, which is listed as the [configured
-delivery product](../setup_configuration.md#inventory-shipping-receiving-delivery-product). Finally, click
+delivery product](./#inventory-shipping-receiving-delivery-product). Finally, click
 Confirm on the quotation, and click the Delivery smart button to access the
 .
 
-![Show "Get rate" pop-up window.](../../../../../_images/get-rate.png)
+![Show "Get rate" pop-up window.](../../../../../.gitbook/assets/get-rate.png)
 
 <a id="inventory-shipping-receiving-validate-print-label"></a>
 
@@ -101,13 +101,13 @@ shipping carrier's website.
 
 The tracking label is found in PDF format in the chatter.
 
-![Show generated shipping label in the chatter.](../../../../../_images/shipping-label.png)
+![Show generated shipping label in the chatter.](../../../../../.gitbook/assets/shipping-label.png)
 
 #### NOTE
 For multi-package shipping, one label is generated per package. Each label appears in the
 chatter.
 
-![Sample label generated from Odoo's shipping connector with FedEx.](../../../../../_images/sample-label.png)
+![Sample label generated from Odoo's shipping connector with FedEx.](../../../../../.gitbook/assets/sample-label.png)
 
 #### SEE ALSO
 - lập hoá đơn

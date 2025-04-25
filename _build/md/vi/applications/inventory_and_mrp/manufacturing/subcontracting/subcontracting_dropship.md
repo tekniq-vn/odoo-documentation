@@ -71,7 +71,7 @@ For a full overview of  configuration, see the [Bill of materials](../basic_setu
 In the BoM Type field, select the Subcontracting option. Then, add one or
 more subcontractors in the Subcontractors field that appears below.
 
-![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](../../../../_images/bom-type1.png)
+![The "BoM Type" field on a BoM, configured to manufacture the product using subcontracting.](../../../../.gitbook/assets/bom-type1.png)
 
 Finally, make sure that all necessary components are specified on the Components tab. To
 add a new component, click Add a line, select the component in the Component
@@ -171,7 +171,7 @@ receipt or dropship order is automatically created, and can be accessed from the
 Receipt or Dropship smart button that appears at the top of the .
 
 ![A subcontractor PO for a *Dropship Subcontractor on Order* product, with a Receipt smart
-button at the top of the page.](../../../../_images/subcontractor-po1.png)
+button at the top of the page.](../../../../.gitbook/assets/subcontractor-po1.png)
 
 In addition, an  is created for the components that are purchased from the vendor and sent to
 the subcontractor. However, the  **IS NOT** automatically linked to the *subcontractor* .
@@ -196,7 +196,7 @@ of the *vendor* , and a Resupply smart button appears at the top of the
 *subcontractor* .
 
 ![A vendor PO for the components of a *Dropship Subcontractor on Order* product, with a
-Dropship smart button at the top of the page.](../../../../_images/vendor-po.png)
+Dropship smart button at the top of the page.](../../../../.gitbook/assets/vendor-po.png)
 
 ### Process Dropship Subcontractor order
 

@@ -100,4 +100,4 @@ mailing list contacts, and fill the *Confirmed contacts* mailing list with engag
 #### SEE ALSO
 - [Campaign metrics](../understanding_metrics.md)
 - [Mailing lists](../../email_marketing/mailing_lists.md)
-- [Email Marketing](../../email_marketing.md)
+- [Email Marketing](../../email_marketing/)

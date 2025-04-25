@@ -7,10 +7,10 @@ the transactions sent from Odoo to *AvaTax*, details on how the taxes are calcul
 tax exemption management, and tax return resources.
 
 To access the console, first, navigate to either Avalara's [sandbox](https://sandbox.admin.avalara.com/) or [production](https://admin.avalara.com/) environment.
-This will depend on which type of account was set in the [integration](../avatax.md). Log in to
+This will depend on which type of account was set in the [integration](./). Log in to
 the management console.
 
-![Avalara dashboard after logging into management portal.](../../../../../_images/avalara-portal.png)
+![Avalara dashboard after logging into management portal.](../../../../../.gitbook/assets/avalara-portal.png)
 
 #### SEE ALSO
 For more information see Avalara's documentation: [Activate your Communications Customer Portal
@@ -24,7 +24,7 @@ To access transactions, click in the Transactions link on the main dashboard upo
 logging into the [Cổng thông tin Avalara (Avatax)](#avatax-portal). To manually access the *Transactions* page, while logged into
 the Avalara console, navigate to Transactions ‣ Transactions.
 
-![Avalara portal with the transactions shortcut highlighted.](../../../../../_images/avalara-transactions.png)
+![Avalara portal with the transactions shortcut highlighted.](../../../../../.gitbook/assets/avalara-transactions.png)
 
 ### Edit transaction
 
@@ -75,7 +75,7 @@ available by default, to sort by ascending or descending order:
 - Amount: the numeric amount of the total amount on the Odoo document.
 - Tax: the numeric amount of the tax applied to the total.
 
-![Transactions page on the Avalara portal with the filter and sort-by options highlighted.](../../../../../_images/transactions.png)
+![Transactions page on the Avalara portal with the filter and sort-by options highlighted.](../../../../../.gitbook/assets/transactions.png)
 
 #### Customize columns
 
@@ -151,7 +151,7 @@ the device.
 
 Additional jurisdictions (tax locations) can be added in the Avalara management console. Navigate to
 either Avalara's [sandbox](https://sandbox.admin.avalara.com/) or [production](https://admin.avalara.com/) environment. This will depend on which type of account was set in the
-[integration](../avatax.md).
+[integration](./).
 
 Tiếp theo, đi đến Cài đặt ‣ Nơi bạn thu thuế. Chọn một trong ba tab khác nhau tùy theo nhu cầu kinh doanh. Tab đầu tiên là Thuế bán hàng và sử dụng, nơi có thể thu thuế cho Hoa Kỳ. Nhấp vào <i class="fa fa-plus"></i> Thêm vào nơi bạn thu thuế bán hàng và sử dụng để thêm một địa điểm khác mà công ty thu thuế bán hàng và sử dụng.
 
@@ -164,7 +164,7 @@ the company collects customs duty. Simply click on the <i class="fa fa-plus"></i
 where you calculate customs duty icon below the tab.
 
 ![AvaTax management console, on the Where you collect tax page, with the add button and
-sales and use tax tab highlighted.](../../../../../_images/where-you-collect-tax.png)
+sales and use tax tab highlighted.](../../../../../.gitbook/assets/where-you-collect-tax.png)
 
 #### SEE ALSO
 [See Avalara's documentation: Add local jurisdiction taxes](https://community.avalara.com/support/s/document-item?language=en_US&bundleId=bla1700809896571_bla1700809896571&topicId=nbw1698727575499.html&_LANG=enus).
@@ -185,12 +185,12 @@ certificate images, and to be ready for an audit. For more on subscribing to thi
 
 Dịch vụ của Avalara bao gồm cả dịch vụ khai thuế, dành cho thời điểm nộp thuế vào cuối năm. Để truy cập vào dịch vụ thuế của Avalara, hãy đăng nhập vào cổng quản lý <[https://admin.avalara.com/](https://admin.avalara.com/)>_. Sau đó, từ trang chủ, nhấp vào Khai thuế. Avalara sẽ yêu cầu người dùng Avalara đăng nhập lại vì lý do bảo mật và sẽ chuyển hướng người dùng đến cổng thông tin *Khai thuế*.
 
-![Avalara portal with the returns shortcut highlighted.](../../../../../_images/avalara-returns.png)
+![Avalara portal with the returns shortcut highlighted.](../../../../../.gitbook/assets/avalara-returns.png)
 
 Click Get started to begin the tax return process. For more information, refer to this
 Avalara documentation: [About Managed Returns](https://community.avalara.com/support/s/document-item?language=en_US&bundleId=hps1656397152776_hps1656397152776&topicId=Learn_about_Managed_Returns.html&_LANG=enus).
 
 #### SEE ALSO
-- [AvaTax integration](../avatax.md)
+- [AvaTax integration](./)
 - [AvaTax use](avatax_use.md)
 - [US Tax Compliance: Avatax elearning video](https://www.odoo.com/slides/slide/us-tax-compliance-avatax-2858?fullscreen=1)

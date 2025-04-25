@@ -107,7 +107,7 @@ global status (or not) of the rule.
 
 #### domain_force
 
-A predicate specified as a [domain](orm.md#reference-orm-domains), the
+A predicate specified as a [domain](orm/#reference-orm-domains), the
 rule allows the selected operations if the domain matches the record,
 and forbids it otherwise.
 

@@ -166,7 +166,7 @@ Effects are graphical elements that can be temporarily displayed on top of the p
 
 A good example would be the rainbow man:
 
-![The rainbow man effect](../../../_images/rainbow_man.png)
+![The rainbow man effect](../../../.gitbook/assets/rainbow_man.png)
 
 Here's how this can be displayed:
 
@@ -285,7 +285,7 @@ const effectService = useService("effect");
 effectService.add({ type: "sepia" });
 ```
 
-![Odoo in sepia](../../../_images/odoo_sepia.png)
+![Odoo in sepia](../../../.gitbook/assets/odoo_sepia.png)
 
 <a id="frontend-services-http"></a>
 
@@ -404,7 +404,7 @@ this.notificationService.add("You closed a deal!", {
 });
 ```
 
-![Example of notification](../../../_images/notification_service.png)
+![Example of notification](../../../.gitbook/assets/notification_service.png)
 
 A notification that closes after a second:
 

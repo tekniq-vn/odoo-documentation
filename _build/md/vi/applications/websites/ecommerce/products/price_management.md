@@ -12,8 +12,8 @@ To add a tax on a product, you can either set a tax in the Customer Taxes field 
 [fiscal positions](../../../finance/accounting/taxes/fiscal_positions.md).
 
 #### SEE ALSO
-- [Thuế](../../../finance/accounting/taxes.md)
-- [AvaTax integration](../../../finance/accounting/taxes/avatax.md)
+- [Thuế](../../../finance/accounting/taxes/)
+- [AvaTax integration](../../../finance/accounting/taxes/avatax/)
 - [Fiscal positions (tax and account mapping)](../../../finance/accounting/taxes/fiscal_positions.md)
 
 <a id="ecommerce-price-management-tax-display"></a>
@@ -39,7 +39,7 @@ You can choose to display the type of pricing next to the product price by going
 Website ‣ Site ‣ Homepage ‣ Shop, selecting a product, and then
 Edit ‣ Customize tab and enabling Tax Indication.
 
-![Tax type displayed on the product page](../../../../_images/price-tax-display-type.png)
+![Tax type displayed on the product page](../../../../.gitbook/assets/price-tax-display-type.png)
 
 #### SEE ALSO
 [B2B (tax excluded) and B2C (tax included) pricing](../../../finance/accounting/taxes/B2B_B2C.md)
@@ -52,12 +52,12 @@ Reference Price under the Shop - Products section. When enabled, ensure an amoun
 set in the Base Unit Count field of the **product template**, and in the
 Sales Price.
 
-![Cost per unit pricing on the product template](../../../../_images/price-cost-per-unit.png)
+![Cost per unit pricing on the product template](../../../../.gitbook/assets/price-cost-per-unit.png)
 
 The price per unit of measure can be found above the Add to Cart button on the product
 page.
 
-![Cost per unit pricing on the product page](../../../../_images/price-cost-per-unit-page.png)
+![Cost per unit pricing on the product page](../../../../.gitbook/assets/price-cost-per-unit-page.png)
 
 #### NOTE
 Pay attention that having the price per unit may be **mandatory** in some countries.
@@ -93,7 +93,7 @@ If you are selling in **multiple currencies** and have pricelists in foreign cur
 can select their corresponding pricelist anywhere on the Shop page from the drop-down
 menu next to the **search bar**.
 
-![Pricelists selection](../../../../_images/price-pricelists.png)
+![Pricelists selection](../../../../.gitbook/assets/price-pricelists.png)
 
 #### SEE ALSO
 - [Pricelists, discounts, and formulas](../../../sales/sales/products_prices/prices/pricing.md)
@@ -105,7 +105,7 @@ If you have permanently reduced the price of a product, a popular means to attra
 **strikethrough** strategy. The strategy consists in displaying the previous price crossed out and
 the **new discounted price** next to it.
 
-![Giá gạch ngang](../../../../_images/price-strikethrough.png)
+![Giá gạch ngang](../../../../.gitbook/assets/price-strikethrough.png)
 
 To display a 'striked' price, enable the Comparison Price option under
 Website ‣ Configuration ‣ Settings ‣ Shop - Products category. Then, head to

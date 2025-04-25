@@ -1,7 +1,7 @@
 # Work entries
 
 Work entries are created automatically in the *Payroll* app, based on the employee's [salary
-structure type](../payroll.md#payroll-structure-types), and from the *Planning*, *Attendances*, and *Time Off*
+structure type](./#payroll-structure-types), and from the *Planning*, *Attendances*, and *Time Off*
 applications.
 
 The *Work Entries* dashboard of the *Payroll* application provides a visual overview of the
@@ -20,7 +20,7 @@ To remove the filter from the Search... bar to view all work entries, click the
 ✖️ (remove) icon on the Conflicting filter in the Search... bar,
 and all work entries appear in the list.
 
-![Conflicts dashboard view showing all employee's conflicts in work entries.](../../../_images/work-entries-overview.png)
+![Conflicts dashboard view showing all employee's conflicts in work entries.](../../../.gitbook/assets/work-entries-overview.png)
 
 <a id="payroll-adjust-view"></a>
 
@@ -54,7 +54,7 @@ Nhập thông tin sau đây trên biểu mẫu:
   this field is left blank, it automatically populates once an employee is selected. The default
   entry is `Attendance: (Employee)`.
 - Employee: select the employee the work entry is for, using the drop-down menu.
-- Work Entry Type: select the [work entry type](../payroll.md#payroll-work-entries) using the
+- Work Entry Type: select the [work entry type](./#payroll-work-entries) using the
   drop-down menu.
 - From and To: enter the start (From) and end (To)
   dates and times for the work entry.
@@ -74,7 +74,7 @@ Nhập thông tin sau đây trên biểu mẫu:
 Once the desired information is entered, click Save & Close to save the entry, and close
 the pop-up form.
 
-![Filling in the work entry Create form in Odoo.](../../../_images/create.png)
+![Filling in the work entry Create form in Odoo.](../../../.gitbook/assets/create.png)
 
 <a id="payroll-conflicts"></a>
 
@@ -92,7 +92,7 @@ Conflicts are indicated with an orange triangle in the top-left corner of each i
 entry. Click on an individual work entry to see the date and time for the specific work entry, then
 click Edit to view the conflict details in a pop-up window.
 
-![A row of conflicts, with one entry showing details for the conflict.](../../../_images/conflict-pop-up.png)
+![A row of conflicts, with one entry showing details for the conflict.](../../../.gitbook/assets/conflict-pop-up.png)
 
 The conflict is briefly explained in an orange text box in the Open pop-up window that
 appears.
@@ -104,7 +104,7 @@ well as the total time (in hours) in the Duration field, appears on the right si
 If the conflict is due to a time off request that has not been approved yet, a Time Off
 field appears on the left side, with the type of time off requested in the description.
 
-![The detailed conflict pop-up window that appears when Edit is clicked.](../../../_images/conflict-details.png)
+![The detailed conflict pop-up window that appears when Edit is clicked.](../../../.gitbook/assets/conflict-details.png)
 
 ### Time off conflicts
 
@@ -136,7 +136,7 @@ request details appear in a new pop-up window. The request can be modified, if n
 Click the Approve button to approve the request, then click the Save & Close
 button to save the changes, and go back to the work entry conflict pop-up window.
 
-![The detailed time off request form.](../../../_images/time-off-details.png)
+![The detailed time off request form.](../../../.gitbook/assets/time-off-details.png)
 
 Now, the Approve Time Off button is hidden, only the Refuse Time Off button
 is visible.
@@ -172,7 +172,7 @@ the From and To fields, so the correct date range is displayed.
 Click the Regenerate Work Entries button, and the work entries are recreated. Once
 finished, the pop-up window closes.
 
-![Regenerate a work entry for a particular employee.](../../../_images/regenerate-details.png)
+![Regenerate a work entry for a particular employee.](../../../.gitbook/assets/regenerate-details.png)
 
 ## Generating payslips
 
@@ -194,7 +194,7 @@ Click the Create Draft Entry button to create the payslips for the batch.
 Click the Payslips smart button at the top of the page to view all the payslips for the
 batch.
 
-![Information that appears when generating payslips.](../../../_images/generate-payslips.png)
+![Information that appears when generating payslips.](../../../.gitbook/assets/generate-payslips.png)
 
 ### Printing payslips
 
@@ -207,7 +207,7 @@ all the payslips in the list at once.
 
 Click the Print button, and a PDF file is created with all the specified payslips.
 
-![Print button for printing the payslips.](../../../_images/print-payslips.png)
+![Print button for printing the payslips.](../../../.gitbook/assets/print-payslips.png)
 
 #### NOTE
 The Print button does **not** appear until at least one payslip is selected in the
@@ -241,7 +241,7 @@ report is To Defer.
 All time off requests that need to be applied to the following pay period appear with a
 Payslip State of To defer to next payslip.
 
-![A list of all time off requests that were not approved before payslips were generated.](../../../_images/time-off-to-report.png)
+![A list of all time off requests that were not approved before payslips were generated.](../../../.gitbook/assets/time-off-to-report.png)
 
 ### Defer multiple time off entries
 
@@ -257,7 +257,7 @@ When all the desired work entries are selected, click the Actions button, and a 
 appears with several choices. Click Defer to Next Month in the list, and all selected
 entries are deferred to the following month.
 
-![The actions button and # Selected buttons that appear after any selections are made.](../../../_images/batch-defer.png)
+![The actions button and # Selected buttons that appear after any selections are made.](../../../.gitbook/assets/batch-defer.png)
 
 ### Defer individual time off entries
 
@@ -277,7 +277,7 @@ in Current Payslip.
 To go back to the Time Off to Report list, click on Time Off in the
 breadcrumb menu.
 
-![The time off details for an individual request that needs to be deferred.](../../../_images/single-defer.png)
+![The time off details for an individual request that needs to be deferred.](../../../.gitbook/assets/single-defer.png)
 
 #### SEE ALSO
-[Configure work entries](../payroll.md#payroll-work-entries-config)
+[Configure work entries](./#payroll-work-entries-config)

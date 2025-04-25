@@ -26,7 +26,7 @@ You need the following credentials to set up the payment method in Odoo:
 
 1. [Activate the POS Razorpay module](../../../../general/apps_modules.md) to enable the
    payment terminal.
-2. [Create the related payment method](../../payment_methods.md) by going to
+2. [Create the related payment method](../) by going to
    Point of Sale ‣ Configuration ‣ Payment Methods.
    1. Set the Journal type as Bank.
    2. Select Razorpay in the Use a Payment Terminal field.
@@ -35,14 +35,14 @@ You need the following credentials to set up the payment method in Odoo:
    4. Fill in the Razorpay API Key field with the [Razorpay API key](#razorpay-credentials).
    5. Set the Razorpay Allowed Payment Modes according to your needs.
 
-   ![Razorpay connection form](../../../../../_images/create-method-razorpay.png)
+   ![Razorpay connection form](../../../../../.gitbook/assets/create-method-razorpay.png)
 
    #### NOTE
    You can enable the Razorpay Test Mode field while testing or keep it unchecked for
    production.
 
 Once the payment method is created, you can enable it for your POS. To do so, go to the [POS'
-settings](../../configuration.md#configuration-settings) and add the payment method under the Payment section.
+settings](../../configuration/#configuration-settings) and add the payment method under the Payment section.
 
 #### NOTE
 The terminal must have at least a 10% battery level to use it.

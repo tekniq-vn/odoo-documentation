@@ -67,7 +67,7 @@ The IoT system can be connected to the Odoo database using a [pairing code](#iot
 Once the IoT system is connected to the Odoo database, it is displayed as a card in the IoT app.
 Click the IP address on the card to access the [IoT box's](windows_iot.md#iot-windows-iot-homepage) or
 [Windows virtual IoT's](iot_box.md#iot-iot-box-homepage) homepage. Click the card to access the
-list of [devices](devices.md) connected to the IoT system.
+list of [devices](devices/) connected to the IoT system.
 
 #### NOTE
 By default, drivers are automatically [updated](iot_advanced/updating_iot.md#iot-updating-iot-handlers) every time the

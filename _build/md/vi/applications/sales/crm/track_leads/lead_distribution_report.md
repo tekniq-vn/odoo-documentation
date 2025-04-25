@@ -48,7 +48,7 @@ leads are selected from.
 For example, setting `01/01/2024 00:00:00` only includes leads created from, and including, the
 first day of 2024.
 
-![Add a Created On rule for the start of the year onward.](../../../../_images/created-on2.png)
+![Add a Created On rule for the start of the year onward.](../../../../.gitbook/assets/created-on2.png)
 
 <a id="crm-track-leads-sales-team"></a>
 
@@ -63,7 +63,7 @@ In this third field, enter the name of the desired sales team(s) that are to be 
 report. It is important for all contains argument values to be specific enough and
 spelled correctly as they exist in Odoo, otherwise this risks returning multiple (or zero) values.
 
-![Use Sales Team to filter the location the lead is associated with.](../../../../_images/sales-team-location.png)
+![Use Sales Team to filter the location the lead is associated with.](../../../../.gitbook/assets/sales-team-location.png)
 
 #### IMPORTANT
 By adding more than one rule to the form, a new option emerges at the top of the pop-up window
@@ -113,7 +113,7 @@ to create a new line of fields beneath it.
 
 Set the first field to Active. Then, select is not set in the next field.
 
-![Use Active to include active status in the report.](../../../../_images/active-set.png)
+![Use Active to include active status in the report.](../../../../.gitbook/assets/active-set.png)
 
 This rule adds the activity status of the lead to the report.
 

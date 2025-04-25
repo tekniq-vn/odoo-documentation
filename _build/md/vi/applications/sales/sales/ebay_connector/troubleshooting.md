@@ -70,7 +70,7 @@ First, input random text values for the Production App Key and for the
 Production Cert Key. Click on Generate Token to retrieve the
 Verification Token.
 
-![Generate a verification token in Odoo.](../../../../_images/generate-token1.png)
+![Generate a verification token in Odoo.](../../../../.gitbook/assets/generate-token1.png)
 
 <a id="ebay-subscribe-account-deletion-notifications"></a>
 
@@ -80,7 +80,7 @@ Navigate to the [eBay developer portal](https://go.developer.ebay.com/). Configu
 deletion/notification settings in eBay by navigating to the `Hi [username]` at the top right of
 screen, then go to Alerts & Notifications.
 
-![Overview of the Alerts & Notifications dashboard of eBay](../../../../_images/ebay-your-account.png)
+![Overview of the Alerts & Notifications dashboard of eBay](../../../../.gitbook/assets/ebay-your-account.png)
 
 To subscribe to deletion/closure notifications, eBay needs a few details:
 
@@ -89,7 +89,7 @@ To subscribe to deletion/closure notifications, eBay needs a few details:
   - The URL to Odoo's account deletion notification endpoint
   - A verification token
 
-![Dedicated fields to enter the endpoint details](../../../../_images/ebay-notification-endpoint.png)
+![Dedicated fields to enter the endpoint details](../../../../.gitbook/assets/ebay-notification-endpoint.png)
 
 ### Verify the connectivity with the endpoint
 
@@ -97,7 +97,7 @@ After setting the retrieved endpoint details in eBay's dashboard, consider testi
 with the Send Test Notification button.
 
 > The following confirmation message should be received: "A test notification was sent successfully!"
-![Button to send test notification](../../../../_images/test-notification.png)
+![Button to send test notification](../../../../.gitbook/assets/test-notification.png)
 
 #### SEE ALSO
 - [How to list a product?](manage.md)

@@ -39,7 +39,7 @@ We will need to display a list of customers, so we might as well create the comp
 4. Subclass the kanban controller to add `CustomerList` in its sub-components.
 5. Make sure you see your component in the kanban view.
 
-![image](../../../_images/customer_list_component.png)
+![image](../../../.gitbook/assets/customer_list_component.png)
 
 #### SEE ALSO
 [Template inheritance](../../reference/frontend/qweb.md#reference-qweb-template-inheritance)
@@ -50,7 +50,7 @@ We will need to display a list of customers, so we might as well create the comp
 2. Display the list in the template with a `t-foreach`.
 3. Whenever a customer is selected, call the `selectCustomer` function prop.
 
-![image](../../../_images/customer_data.png)
+![image](../../../.gitbook/assets/customer_data.png)
 
 #### SEE ALSO
 - [Example: fetching records from a model](https://github.com/odoo/odoo/blob/986c00c1bd1b3ca16a04ab25f5a2504108136112/addons/project/static/src/views/burndown_chart/burndown_chart_model.js#L26-L31)
@@ -67,7 +67,7 @@ You can use [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 to make sure that the custom `isFromAwesomeKanban` key will not collide with keys any other
 code might add to the object.
 
-![image](../../../_images/customer_filter.png)
+![image](../../../.gitbook/assets/customer_filter.png)
 
 ## 5. Only display customers which have an active order
 
@@ -78,14 +78,14 @@ customers with at least one opportunity.
    next to it.
 2. Changing the value of the checkbox should filter the list of customers.
 
-![image](../../../_images/active_customer.png)
+![image](../../../.gitbook/assets/active_customer.png)
 
 ## 6. Add a search bar to the customer list
 
 Add an input above the customer list that allows the user to enter a string and to filter the
 displayed customers, according to their name.
 
-![image](../../../_images/customer_search.png)
+![image](../../../.gitbook/assets/customer_search.png)
 
 #### SEE ALSO
 - [Code: The fuzzylookup function](https://github.com/odoo/odoo/blob/235fc69280a18a5805d8eb84d76ada91ba49fe67/addons/web/static/src/core/utils/search.js#L41-L54)
@@ -112,4 +112,4 @@ us see how we could do it in a more declarative way, with the [t-model](https://
 This is actually pretty hard, in particular in combination with the filtering done in the
 previous exercise. There are many edge cases to take into account.
 
-![image](../../../_images/customer_pager.png)
+![image](../../../.gitbook/assets/customer_pager.png)

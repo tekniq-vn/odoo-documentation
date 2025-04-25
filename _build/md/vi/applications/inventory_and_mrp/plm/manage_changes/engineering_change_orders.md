@@ -64,7 +64,7 @@ The Revision smart button is available **only** when the Bill of
 Materials radio button is selected in the Apply on field, and the Start
 Revision button has been pressed.
 
-![ECO with overview of stages in the top-right corner, and *Revision* smart button.](../../../../_images/eco-form.png)
+![ECO with overview of stages in the top-right corner, and *Revision* smart button.](../../../../.gitbook/assets/eco-form.png)
 
 ## Change components
 
@@ -190,12 +190,12 @@ the desired work order to open the *tablet view* of the operation.
 #### IMPORTANT
 The 📱 (mobile phone) icon is **only** available for  with a Confirmed or In Progress status.
 
-![Find the tablet icon for each operation, second from the far right.](../../../../_images/tablet-icon.png)
+![Find the tablet icon for each operation, second from the far right.](../../../../.gitbook/assets/tablet-icon.png)
 
 Next, add an instructional step, by clicking the ☰ (three horizontal lines) icon in the
 tablet view of an operation. Doing so opens the Menu of action items for a . Then, click the Add a step button.
 
-![Open the *Add a Step* pop-up by clicking the three horizontal lines icon in tablet view.](../../../../_images/additional-options-menu.png)
+![Open the *Add a Step* pop-up by clicking the three horizontal lines icon in tablet view.](../../../../.gitbook/assets/additional-options-menu.png)
 
 Clicking the button reveals an Add a step pop-up window, where the proposed changes are
 submitted.
@@ -232,7 +232,7 @@ horizontal lines) icon. Doing so opens a list of Steps to perform the operation,
 the newest instruction titled `New Step Suggestion:`, followed by the user-entered title. Click the
 line item to view the suggested changes.
 
-!["Show Instructions" icon in the *Operations* tab of a BoM.](../../../../_images/show-instructions.png)
+!["Show Instructions" icon in the *Operations* tab of a BoM.](../../../../.gitbook/assets/show-instructions.png)
 
 On the [quality control point](../../quality/quality_management/quality_control_points.md#quality-quality-management-quality-control-points) form, ensure
 the following form fields are accurately filled out to give detailed instructions for operators:

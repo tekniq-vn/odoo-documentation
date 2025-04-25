@@ -1,6 +1,14 @@
 ### no use now, leave it for later
 import os
 import sys
+from pathlib import Path
+
+import logging
+print("##############################################")
+logger = logging.getLogger(__name__)
+logger.info(sys.path)
+print(sys.path)
+
 
 # Save original directory
 original_cwd = os.getcwd()
@@ -17,22 +25,21 @@ sys.path.insert(0, odoo_docs_path)
 
 # Import Odoo's Sphinx config
 from conf import *  # noqa: F403
+logger.info(sys.path)
+print(sys.path)
 
 # Revert back if needed
 os.chdir(original_cwd)
 
 # --- Your custom overrides below ---
+# Add extensions directory to PYTHONPATH
+extension_dir = Path('extensions')
+sys.path.insert(0, str(extension_dir.absolute()))
+logger.info(sys.path)
+print(sys.path)
 
 # Append your own extensions
 extensions += [
-    'sphinx.ext.duration',
-    'sphinx.ext.autosectionlabel',
+    'gitbook',
 ]
-
-# Override theme options
-html_title = "Custom Docs Based on Odoo"
-html_theme_options['logo_only'] = True  # noqa: F405
-
-# Add your custom static assets
-html_static_path.append('_static')  # noqa: F405
 

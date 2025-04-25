@@ -45,7 +45,7 @@ Fill out the following fields on the form:
 
 Khi hoàn thành biểu mẫu, nhấp Áp dụng. Hồ sơ nhân viên sẽ được lưu trữ, một email chứa liên kết tải tài liệu cá nhân sẽ được gửi đến địa chỉ email riêng của nhân viên (nếu được chọn), và biểu ngữ màu đỏ Đã lưu trữ sẽ xuất hiện ở góc trên bên phải biểu mẫu nhân viên. Cửa sổ trò chuyện sẽ ghi lại Ngày nghỉ việc và Lý do nghỉ việc, cùng với việc liên kết truy cập đã được gửi email hay chưa.
 
-![The employee termination form with all fields filled out.](../../../_images/termination.png)
+![The employee termination form with all fields filled out.](../../../.gitbook/assets/termination.png)
 
 #### NOTE
 While attempting to send the HR documents access link, an Invalid Operation pop-up

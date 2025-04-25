@@ -7,7 +7,8 @@ ifndef WORKERS
 endif
 
 ODOO_DIR       = odoo-docs
-MARKDOWN_IMAGE_DIR = "_images"
+MARKDOWN_IMAGE_DIR = ".gitbook/assets"
+MARDOWN_FOLDER_README = True
 
 ifndef BUILD_DIR
   BUILD_DIR    = _build
@@ -22,7 +23,7 @@ CONFIG_DIR     = $(ODOO_DIR)
 SPHINXOPTS     = -D project_root=$(ROOT) -D canonical_version=$(CANONICAL_VERSION) \
                  -D versions=$(VERSIONS) -D languages=$(LANGUAGES) -D language=$(CURRENT_LANG) \
                  -D is_remote_build=$(IS_REMOTE_BUILD) \
-				 -D markdown_image_dir=$(MARKDOWN_IMAGE_DIR) \
+				 -D markdown_image_dir=$(MARKDOWN_IMAGE_DIR) -D markdown_folder_readme=$(MARDOWN_FOLDER_README) \
                  -T \
                  -A google_analytics_key=$(GOOGLE_ANALYTICS_KEY) \
                  -A plausible_script=$(PLAUSIBLE_SCRIPT) \

@@ -7,14 +7,14 @@ Accounting ‣ Configuration ‣ Chart of Accounts.
 When browsing your chart of accounts, you can sort the accounts by Code,
 Account Name, or Type, but other options are available in the drop-down menu
 
-![Drop-down toggle button](../../../../_images/drop-down.png)![Group the accounts by type in Odoo Accounting](../../../../_images/chart-of-accounts-sort.png)
+![Drop-down toggle button](../../../../.gitbook/assets/drop-down.png)![Group the accounts by type in Odoo Accounting](../../../../.gitbook/assets/chart-of-accounts-sort.png)
 
 <a id="chart-of-account-create"></a>
 
 ## Configuration of an account
 
 The country you select during the creation of your database (or additional company in your database)
-determines which [fiscal localization package](../../fiscal_localizations.md) is installed by
+determines which [fiscal localization package](../../fiscal_localizations/) is installed by
 default. This package includes a standard chart of accounts already configured according to the
 country's regulations. You can use it directly or set it according to your company's needs.
 
@@ -106,13 +106,13 @@ Accounting ‣ Configuration ‣ Account Groups. Here, create a new group and en
 the name, code prefix, and company to which that group account should be available. Note
 that you must enter the same code prefix in both From and to fields.
 
-![Account groups creation.](../../../../_images/account-groups.png)
+![Account groups creation.](../../../../.gitbook/assets/account-groups.png)
 
 To display your **Trial Balance** report with your account groups, go to
 Accounting ‣ Reporting ‣ Trial Balance, then open the Options menu
 and select Hierarchy and Subtotals.
 
-![Account Groups in the Trial Balance in Odoo Accounting](../../../../_images/chart-of-accounts-groups.png)
+![Account Groups in the Trial Balance in Odoo Accounting](../../../../.gitbook/assets/chart-of-accounts-groups.png)
 
 ### Allow reconciliation
 
@@ -126,7 +126,7 @@ its payment. Therefore, the account used to record credit card payments needs to
 To do so, check the Allow Reconciliation box in the account's settings, and
 Save; or enable the button from the chart of accounts view.
 
-![Allow reconciliation for accounts in Odoo Accounting](../../../../_images/chart-of-accounts-reconciliation.png)
+![Allow reconciliation for accounts in Odoo Accounting](../../../../.gitbook/assets/chart-of-accounts-reconciliation.png)
 
 ### Ngừng sử dụng
 
@@ -139,6 +139,6 @@ account's settings, and Save.
 * [Non-current assets and fixed assets](../vendor_bills/assets.md)
 * [Deferred expenses](../vendor_bills/deferred_expenses.md)
 * [Doanh thu chưa thực hiện](../customer_invoices/deferred_revenues.md)
-* [Fiscal localizations](../../fiscal_localizations.md)
+* [Fiscal localizations](../../fiscal_localizations/)
 * [Odoo Tutorials: Chart of accounts](https://www.odoo.com/slides/slide/chart-of-accounts-1630)
 * [Odoo Tutorials: Update your chart of accounts](https://www.odoo.com/slides/slide/update-your-chart-of-accounts-1658)

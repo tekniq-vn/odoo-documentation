@@ -9,7 +9,7 @@ Chatbots can be customized to fill various roles, from customer support, to crea
 collecting contact information. The goal of each chatbot can vary based on several criteria,
 including the webpage where it is located, and the information it captures.
 
-![View of the chat window with a helpdesk ticket created in Odoo Live Chat.](../../../_images/chatbot-visitor-view.png)
+![View of the chat window with a helpdesk ticket created in Odoo Live Chat.](../../../.gitbook/assets/chatbot-visitor-view.png)
 
 ## Build a chatbot
 
@@ -30,7 +30,7 @@ new steps can be added to customize the script, as needed.
 
 *Welcome Bot* can be deleted or archived, if necessary.
 
-![View of the Welcome Bot script in Odoo Live Chat.](../../../_images/chatbot-welcome-bot.png)
+![View of the Welcome Bot script in Odoo Live Chat.](../../../.gitbook/assets/chatbot-welcome-bot.png)
 
 To create a new chatbot, navigate to the Chatbot page (Live Chat app ‣
 Configuration ‣ Chatbots) and click New. This opens a blank chatbot details page.
@@ -92,7 +92,7 @@ The **only** accepted inputs for this step type are email addresses that are in 
 visitor attempts to enter anything other than a valid email address, the chatbot responds with a
 message stating it does not recognize the information submitted.
 
-![View of a chatbot responding to an invalid email.](../../../_images/chatbot-invalid-email.png)
+![View of a chatbot responding to an invalid email.](../../../.gitbook/assets/chatbot-invalid-email.png)
 
 ##### Điện thoại
 
@@ -113,7 +113,7 @@ qualify conversations before they reach live operators.
 #### NOTE
 Nếu không có nhân viên hỗ trợ nào đang hoạt động trên kênh, chatbot sẽ tiếp tục trò chuyện với khách truy cập. Do đó, cần thêm các bước tiếp theo sau bước này để đảm bảo cuộc trò chuyện không kết thúc đột ngột. Các bước bổ sung có thể vừa thông báo cho khách truy cập về việc không có nhân viên hỗ trợ (VD: `Rất tiếc, hiện không có nhân viên hỗ trợ nào có thể tham gia phiên chat.`) vừa tiếp tục cuộc trò chuyện (ví dụ: `Bạn có muốn để lại địa chỉ email không?`).
 
-![View of a chatbot follow up messages when no live chat operator is available.](../../../_images/chatbot-no-operator.png)
+![View of a chatbot follow up messages when no live chat operator is available.](../../../.gitbook/assets/chatbot-no-operator.png)
 
 ##### Free Input/Multi-Line
 
@@ -188,7 +188,7 @@ drop-down menu. Click Configure Channel to open the channel detail form.
 
 #### NOTE
 To create a new live chat channel, open the Live Chat app and click
-New. See [Live Chat](../livechat.md) for more information.
+New. See [Live Chat](./) for more information.
 
 Click on the Channel Rules tab. Then, open an existing rule, or create a new one by
 clicking Add a line.
@@ -199,7 +199,7 @@ field.
 If the chatbot should **only** be active if there are no live chat operators available, check the
 box labeled Enabled only if no operator.
 
-![View of the channel rules emphasizing the chatbot field.](../../../_images/chatbot-add-to-channel.png)
+![View of the channel rules emphasizing the chatbot field.](../../../.gitbook/assets/chatbot-add-to-channel.png)
 
 #### SEE ALSO
-[Live chat channel rules](../livechat.md)
+[Live chat channel rules](./)

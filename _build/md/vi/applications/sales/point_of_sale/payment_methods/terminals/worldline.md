@@ -4,7 +4,7 @@ Connecting a payment terminal allows you to offer a fluid payment flow to your c
 the work of your cashiers.
 
 #### IMPORTANT
-- Worldline payment terminals require an [IoT Box](../../../../general/iot.md).
+- Worldline payment terminals require an [IoT Box](../../../../general/iot/).
 - Worldline is currently only available in Belgium, the Netherlands and Luxembourg.
 - Odoo is compatible with Worldline terminals that use the CTEP protocol (e.g., the Yomani XR and
   Yoximo terminals). If you have any doubts, contact your payment provider to ensure your
@@ -16,7 +16,7 @@ the work of your cashiers.
 
 Connecting a Worldline Payment Terminal to Odoo is a feature that requires an IoT system. For more
 information on how to connect one to your database, please refer to the
-[IoT documentation](../../../../general/iot.md).
+[IoT documentation](../../../../general/iot/).
 
 ### Configure the protocol
 
@@ -46,20 +46,20 @@ OK (*ECR protocol SSL no*) ‣ OK. Click on **Stop** three times;
 the terminal automatically restarts.
 
 #### WARNING
-For the [Windows virtual IoT](../../../../general/iot.md), the `9050` port must be added
+For the [Windows virtual IoT](../../../../general/iot/), the `9050` port must be added
 as a [Windows Firewall exception](../../../../general/iot/windows_iot.md#iot-windows-iot-firewall).
 
 ### Configure the payment method
 
-Enable the payment terminal [in the application settings](../../configuration.md#configuration-settings) and
-[create the related payment method](../../payment_methods.md). Set the journal type as
+Enable the payment terminal [in the application settings](../../configuration/#configuration-settings) and
+[create the related payment method](../). Set the journal type as
 Bank and select Worldline in the Use a Payment Terminal field.
 Then, select your terminal device in the Payment Terminal Device field.
 
-![image](../../../../../_images/worldline-payment-terminals.png)
+![image](../../../../../.gitbook/assets/worldline-payment-terminals.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
-[POS' settings](../../configuration.md#configuration-settings), click Edit, and add the payment method
+[POS' settings](../../configuration/#configuration-settings), click Edit, and add the payment method
 under the Payments section.
 
 <a id="worldline-yomani-info"></a>

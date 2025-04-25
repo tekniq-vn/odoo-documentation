@@ -6,10 +6,10 @@
 
 The following modules are installed automatically with the Jordanian localization:
 
-| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                                         |
-|---------------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jordan - Accounting | `l10n_jo`      | Jordanian [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages), complete with<br/>the Jordanian chart of accounts, taxes, tax report, and fiscal positions |
-| Jordan E-Invoicing  | `l10n_jo_edi`  | Integration module for JoFotara to support Jordanian e-invoicing requirements                                                                                                                 |
+| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                 |
+|---------------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Jordan - Accounting | `l10n_jo`      | Jordanian [fiscal localization package](./#fiscal-localizations-packages), complete with<br/>the Jordanian chart of accounts, taxes, tax report, and fiscal positions |
+| Jordan E-Invoicing  | `l10n_jo_edi`  | Integration module for JoFotara to support Jordanian e-invoicing requirements                                                                                         |
 
 #### NOTE
 In some cases, such as when upgrading to a version with additional modules, it is possible that
@@ -40,7 +40,7 @@ local fiscal and accounting regulations:
 
 ### Thuế
 
-The following [taxes](../accounting/taxes.md) are available by default with the Jordanian
+The following [taxes](../accounting/taxes/) are available by default with the Jordanian
 localization package:
 
 - standard sales tax (16%): applied to most goods and services within Jordan.
@@ -53,7 +53,7 @@ localization package:
 ### Tax reporting
 
 The [VAT summary](../accounting/reporting/tax_returns.md) provides a detailed breakdown of
-taxable, zero-rated, and exempt transactions. Like other [financial reports](../accounting/reporting.md), the VAT summary can be filtered by period, compared against other
+taxable, zero-rated, and exempt transactions. Like other [financial reports](../accounting/reporting/), the VAT summary can be filtered by period, compared against other
 periods, and exported in Excel and PDF formats, ensuring compliance with Jordanian tax laws.
 
 <a id="localizations-jordan-jofotara"></a>

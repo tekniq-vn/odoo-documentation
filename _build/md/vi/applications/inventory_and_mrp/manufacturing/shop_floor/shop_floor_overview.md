@@ -37,7 +37,7 @@ the top of the module:
 
 Bên trái của phân hệ là bảng điều khiển người vận hành, hiển thị tất cả các nhân viên hiện đang đăng nhập vào *Xưởng*, và cho phép nhân viên mới đăng nhập. Bảng điều khiển người vận hành luôn có sẵn trong phân hệ, bất kể đang chọn chế độ xem nào. Nó có thể được bật/tắt bằng cách nhấp vào nút thanh bên ở cuối bên trái của thanh điều hướng.
 
-![The "sidebar" button, which is used to toggle the operator panel on or off.](../../../../_images/sidebar-button.png)
+![The "sidebar" button, which is used to toggle the operator panel on or off.](../../../../.gitbook/assets/sidebar-button.png)
 
 ### All page
 
@@ -82,7 +82,7 @@ with additional options for the :
 - Add Component is used to add an additional component to the .
 - Open Backend MO opens the  in the Manufacturing app.
 
-![An information card for an MO on the "All" page of the Shop Floor module.](../../../../_images/mo-card.png)
+![An information card for an MO on the "All" page of the Shop Floor module.](../../../../.gitbook/assets/mo-card.png)
 
 ### Work center pages
 
@@ -132,7 +132,7 @@ with additional options for the work order:
 - Create a Quality Alert opens a quality alert form that can be filled out to alert a
   quality team about a potential issue.
 
-![An information card for a work order in the Shop Floor module.](../../../../_images/wo-card.png)
+![An information card for a work order in the Shop Floor module.](../../../../.gitbook/assets/wo-card.png)
 
 ### Operator panel
 
@@ -154,7 +154,7 @@ bottom of the panel. Then, select an employee from the Select Employee pop-up wi
 To remove an employee from the operator panel, simply click the x button next to their
 name in the panel.
 
-![The operator panel of the Shop Floor module, showing three employees signed in.](../../../../_images/operator-panel.png)
+![The operator panel of the Shop Floor module, showing three employees signed in.](../../../../.gitbook/assets/operator-panel.png)
 
 ## MO/WO prioritization
 

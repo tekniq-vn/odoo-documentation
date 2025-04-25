@@ -20,7 +20,7 @@ configurable in their respective view.
 In the pop-up box, either create a new spreadsheet by selecting Blank spreadsheet or
 insert it in an existing one by selecting it and clicking Confirm.
 
-![Inserting a pivot in a spreadsheet](../../../_images/insert-spreadsheet.png)
+![Inserting a pivot in a spreadsheet](../../../.gitbook/assets/insert-spreadsheet.png)
 
 #### NOTE
 By default, new spreadsheets are saved under the Spreadsheet workspace of the
@@ -44,7 +44,7 @@ go to the menu bar and click Data ‣ Re-insert pivot to fully update the pivot.
 Alternatively, click Insert pivot, select the pivot, and tick Display missing
 cells only to preview first the missing data.
 
-> ![Displaying missing cells in a pivot](../../../_images/missing-cells.png)
+> ![Displaying missing cells in a pivot](../../../.gitbook/assets/missing-cells.png)
 
 To change which records are [used by the pivot](../../essentials/search.md#search-preconfigured-filters), right-click on
 a pivot cell, select See pivot properties, and click Edit domain.

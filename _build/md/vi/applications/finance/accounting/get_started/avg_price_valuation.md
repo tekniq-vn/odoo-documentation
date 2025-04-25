@@ -191,19 +191,19 @@ Under Account Properties, create a new Price Difference Account by typing in
 the name of the account and clicking Create and Edit. Then set the account
 Type as `Expenses`, and click Save.
 
-![Create price difference account.](../../../../_images/create-price-difference.png)
+![Create price difference account.](../../../../.gitbook/assets/create-price-difference.png)
 
 Then, receive the shipment in the *Purchase* app or *Inventory* app, and navigate to the
 Accounting app ‣ Accounting ‣ Journal Entries. In the list, find the
 Reference that matches the warehouse reception operation for the relevant product.
 
-![Show accounting entry of 8 tables from the list.](../../../../_images/search-for-entry-of-tables.png)
+![Show accounting entry of 8 tables from the list.](../../../../.gitbook/assets/search-for-entry-of-tables.png)
 
 Click on the line for 8 tables. This accounting journal entry shows that when the 8 tables were
 received, the `Stock Valuation` account increased by `$80`. Conversely, the **Stock Input** account
 (set as `Stock Interim (Received)` account by default) is credited `$80`.
 
-![Debit stock valuation and credit stock input 80 dollars.](../../../../_images/accounting-entry-8-tables.png)
+![Debit stock valuation and credit stock input 80 dollars.](../../../../.gitbook/assets/accounting-entry-8-tables.png)
 
 #### Accounts balanced at received vendor bill
 
@@ -225,7 +225,7 @@ Switch to the Journal Items tab to view how `$80` is transferred from the holdin
 account, `Stock Interim (Received)` to `Accounts Payable`. Confirm the bill to record
 the payment to the vendor.
 
-![Show bill linked to the purchase order for 8 tables.](../../../../_images/receive-8-table-bill.png)
+![Show bill linked to the purchase order for 8 tables.](../../../../.gitbook/assets/receive-8-table-bill.png)
 
 ### On product delivery
 
@@ -237,7 +237,7 @@ To put it simply:
    `$120` worth of products exiting the company.
 2. Debit **Accounts Receivable** to record revenue from the sale.
 
-![Show journal items linked to sale order.](../../../../_images/sell-10-tables.png)
+![Show journal items linked to sale order.](../../../../.gitbook/assets/sell-10-tables.png)
 
 ### On product return
 
@@ -254,7 +254,7 @@ Tóm tắt:
 2. Debit **Stock Input** an additional `$2` to account for the **Price Difference**.
 3. Credit **Stock Valuation** `$12` because the item is leaving the stock.
 
-![2 dollar difference expensed in Price Difference account.](../../../../_images/expensing-price-difference-account.png)
+![2 dollar difference expensed in Price Difference account.](../../../../.gitbook/assets/expensing-price-difference-account.png)
 
 Once the vendor's refund is received,
 
@@ -262,4 +262,4 @@ Once the vendor's refund is received,
 2. Debit **Accounts Payable** `$10` to have the accountants collect and register the payment in
    their journal.
 
-![Return to get 10 dollars back.](../../../../_images/return-credit-note.png)
+![Return to get 10 dollars back.](../../../../.gitbook/assets/return-credit-note.png)

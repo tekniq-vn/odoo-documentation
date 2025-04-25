@@ -2,7 +2,7 @@
 
 #### WARNING
 This tutorial requires knowledge about how to build a module in Odoo (see
-[Server framework 101](../tutorials/server_framework_101.md)).
+[Server framework 101](../tutorials/server_framework_101/)).
 
 ## Installation procedure
 
@@ -59,7 +59,7 @@ l10n_xx
 In the first file `models/template_xx.py`, we set the name for the chart of accounts along with some basic fields.
 
 #### SEE ALSO
-[Chart Template References](../reference/standard_modules/account.md)
+[Chart Template References](../reference/standard_modules/account/)
 
 ## Chart of Accounts
 
@@ -101,7 +101,7 @@ It works with the prefix *start*/*end*, so every account where the code starts w
 
 #### SEE ALSO
 - [Tax References](../reference/standard_modules/account/account_tax.md#reference-account-tax)
-- [Thuế](../../applications/finance/accounting/taxes.md)
+- [Thuế](../../applications/finance/accounting/taxes/)
 
 To add taxes you first need to specify tax groups. You normally need just one tax group for every tax rate, except for the 0% as you need to often distinguish between exempt, 0%, not subject, ... taxes.
 This model only has two required fields: `name` and `country`. Create the file `data/template/account.tax.group-xx.csv` and list the groups.
@@ -161,7 +161,7 @@ Finally, you may add a demo company, so the localization can easily be tested in
 <div><span class="badge" style="background-color:#AD5E99">Enterprise feature</span><div>
 
 #### SEE ALSO
-[Báo cáo](../../applications/finance/accounting/reporting.md)
+[Báo cáo](../../applications/finance/accounting/reporting/)
 
 Accounting reports should be added via a separate module `l10n_XX_reports` that should go to the [enterprise repository](https://github.com/odoo/enterprise/blob/17.0).
 
@@ -184,7 +184,7 @@ Basic `__manifest__.py` file for such a module looks as following:
 }
 ```
 
-Functional overview of financial reports is here: [Báo cáo](../../applications/finance/accounting/reporting.md).
+Functional overview of financial reports is here: [Báo cáo](../../applications/finance/accounting/reporting/).
 
 Some good examples:
 

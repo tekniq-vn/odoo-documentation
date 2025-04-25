@@ -24,7 +24,7 @@ and click Save.
 Then, return to Sales app ‣ Configuration ‣ Settings ‣ Connectors section,
 and click on the Amazon Accounts link under the Amazon Sync setting.
 
-![The Amazon Accounts link beneath the Amazon Sync settings in Odoo Sales.](../../../../_images/amazon-accounts-link-setting.png)
+![The Amazon Accounts link beneath the Amazon Sync settings in Odoo Sales.](../../../../.gitbook/assets/amazon-accounts-link-setting.png)
 
 Doing so reveals a separate Amazon Accounts page. From here, click New to
 create and link a new Amazon account.
@@ -33,12 +33,12 @@ On the blank Amazon Account form page, start by choosing a name for the account 
 `American Marketplace`). Then, in the Credentials tab, select the marketplace on which
 the seller account was initially created from the Home Marketplace drop-down menu.
 
-![A typical Amazon Account form page in the Odoo Sales application.](../../../../_images/amazon-accounts-form-page.png)
+![A typical Amazon Account form page in the Odoo Sales application.](../../../../.gitbook/assets/amazon-accounts-form-page.png)
 
 After saving, the field in the Credentials tab is replaced by a Link with
 Amazon button.
 
-![A typical Amazon Account form page and Link with Amazon button in Odoo Sales.](../../../../_images/amazon-accounts-form-link-button.png)
+![A typical Amazon Account form page and Link with Amazon button in Odoo Sales.](../../../../.gitbook/assets/amazon-accounts-form-link-button.png)
 
 Clicking that button redirects to either the Amazon login page, or directly to the required consent
 page, if the user is already logged in to Amazon.
@@ -71,7 +71,7 @@ the Amazon *Gift Wrapping* code for gift wrapping charges.
 For marketplace products, pairings are saved as *Amazon Offers*, which are listed under the
 Offers smart button on the account form.
 
-![The Amazon Offers smart button on the account form in Odoo Sales.](../../../../_images/amazon-offers-button.png)
+![The Amazon Offers smart button on the account form in Odoo Sales.](../../../../.gitbook/assets/amazon-offers-button.png)
 
 Offers are automatically created when the pairing is established, and they're used for subsequent
 orders to lookup SKUs. If no offer with a matching SKU is found, [the internal reference is

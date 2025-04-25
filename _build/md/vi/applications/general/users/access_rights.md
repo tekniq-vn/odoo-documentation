@@ -9,12 +9,12 @@ should not have access to.
 
 ## Người dùng
 
-The access rights for [individual users](../users.md#users-add-individual) are set when the user is added
+The access rights for [individual users](./#users-add-individual) are set when the user is added
 to the database, but they can be adjusted at any point in the user's profile.
 
 To make changes to a user's rights, click on the desired user to edit their profile.
 
-![Users menu in the Users & Companies section of the Settings app of Odoo.](../../../_images/navigate-to-users-menu.png)
+![Users menu in the Users & Companies section of the Settings app of Odoo.](../../../.gitbook/assets/navigate-to-users-menu.png)
 
 On the user's profile page, in the Access Rights tab, scroll down to view the current
 permissions.
@@ -26,7 +26,7 @@ Documents, User: All Documents, or Administrator.
 The Administration field in the Access Rights tab has the following options:
 Settings or Access Rights.
 
-![The Sales apps drop-down menu to set the user's level of permissions.](../../../_images/user-permissions-dropdown-menu.png)
+![The Sales apps drop-down menu to set the user's level of permissions.](../../../.gitbook/assets/user-permissions-dropdown-menu.png)
 
 <a id="access-rights-groups"></a>
 
@@ -39,7 +39,7 @@ define rules for models within an application.
 To access groups, first activate Odoo's [developer mode](../developer_mode.md#developer-mode), then go to
 Settings app ‣ Users & Companies ‣ Groups.
 
-![Groups menu in the Users & Companies section of the Settings app of Odoo.](../../../_images/click-users-and-companies.png)
+![Groups menu in the Users & Companies section of the Settings app of Odoo.](../../../.gitbook/assets/click-users-and-companies.png)
 
 To create a new group from the Groups page, click Create. Then, from the
 blank group form, select an Application, and complete the group form (detailed below).
@@ -57,7 +57,7 @@ The group form contains multiple tabs for managing all elements of the group. In
 Add a line to add a new row for users or rules, and click the ❌ (remove)
 icon to remove a row.
 
-![Tabs in the Groups form to modify the settings of the group.](../../../_images/groups-form.png)
+![Tabs in the Groups form to modify the settings of the group.](../../../.gitbook/assets/groups-form.png)
 - Users tab: lists the current users in the group. Users listed in black have
   administrative rights. Users without administrative access appear in blue. Click Add a
   line to add users to this group.

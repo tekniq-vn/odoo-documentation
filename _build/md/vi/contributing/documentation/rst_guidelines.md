@@ -1,7 +1,7 @@
 # RST guidelines and cheat sheet
 
 #### IMPORTANT
-We strongly recommend reading the [Content guidelines](content_guidelines.md) and main [Documentation](../documentation.md)
+We strongly recommend reading the [Content guidelines](content_guidelines.md) and main [Documentation](./)
 pages before contributing.
 
 Follow the RST guidelines below when contributing to the documentation to help maintain consistency
@@ -193,7 +193,7 @@ Only include actual menu items in the `menuselection` markup:
   ```
 - Do not include menu section names. For example, in the screenshot below, `Journals` should not
   be included in the menu path Accounting ‣ Accounting ‣ Journal Entries:
-  ![Accounting menu showing the Journals menu section.](../../_images/accounting-menu.png)
+  ![Accounting menu showing the Journals menu section.](../../.gitbook/assets/accounting-menu.png)
 
 <a id="contributing-rst-file"></a>
 
@@ -335,7 +335,7 @@ relative file path. There are two ways to use the markup, both using the `doc` m
 2. `:doc:`label <path_to_doc_page>`` creates a hyperlink to the documentation page with the given
    label.
 
-| Please refer to the [Accounting documentation](../../applications/finance/accounting.md) to learn more about<br/>[Hóa đơn bán hàng](../../applications/finance/accounting/customer_invoices.md).              |
+| Please refer to the [Accounting documentation](../../applications/finance/accounting/) to learn more about<br/>[Hóa đơn bán hàng](../../applications/finance/accounting/customer_invoices/).                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```text<br/>Please refer to the :doc:`Accounting documentation <../../../applications/finance/accounting>`<br/>to learn more about :doc:`../../../applications/finance/accounting/customer_invoices`.<br/>``` |
 
@@ -362,7 +362,7 @@ reference it using a [relative link](#contributing-rst-relative-links).
 
 The `image` markup allows inserting images in a document.
 
-| ![Create an invoice.](../../_images/create-invoice1.png)                                         |
+| ![Create an invoice.](../../.gitbook/assets/create-invoice1.png)                                 |
 |--------------------------------------------------------------------------------------------------|
 | ```text<br/>.. image:: rst_guidelines/create-invoice.png<br/>   :alt: Create an invoice.<br/>``` |
 
@@ -377,7 +377,7 @@ The `image` markup allows inserting images in a document.
 
 ### See also
 
-| #### SEE ALSO<br/>- [Accounting documentation](../../applications/finance/accounting.md)<br/>- [Hóa đơn chiếu lệ](../../applications/sales/sales/invoicing/proforma.md)<br/>- [Google documentation on setting up Analytics for a website](https://support.google.com/analytics/answer/1008015?hl=en/)               |
+| #### SEE ALSO<br/>- [Accounting documentation](../../applications/finance/accounting/)<br/>- [Hóa đơn chiếu lệ](../../applications/sales/sales/invoicing/proforma.md)<br/>- [Google documentation on setting up Analytics for a website](https://support.google.com/analytics/answer/1008015?hl=en/)                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```text<br/>.. seealso::<br/>- :doc:`Accounting documentation <../../../applications/finance/accounting>`<br/>- :doc:`../../../applications/sales/sales/invoicing/proforma`<br/>- `Google documentation on setting up Analytics for a website <https://support.google.com/analytics/answer/1008015?hl=en/>`_<br/>``` |
 

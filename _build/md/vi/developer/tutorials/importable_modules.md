@@ -1,7 +1,7 @@
 # Write importable modules
 
 #### IMPORTANT
-This tutorial assumes familiarity with the [Server framework 101](server_framework_101.md) tutorial and the
+This tutorial assumes familiarity with the [Server framework 101](server_framework_101/) tutorial and the
 [Define module data](define_module_data.md) tutorial.
 
 Although, as developers, we prefer to have the full power of Python to write our modules,
@@ -10,7 +10,7 @@ allow the deployment of custom Python code like the [Odoo.com](https://www.odoo.
 platform.
 
 However, the flexible nature of Odoo is meant to allow customizations out of the box. Whilst
-a lot is possible with [Studio](../../applications/studio.md), it is also possible to define
+a lot is possible with [Studio](../../applications/studio/), it is also possible to define
 models, fields and logic in [XML Data Files](define_module_data.md). This makes it easier
 to develop, maintain and deploy these customizations.
 
@@ -20,10 +20,10 @@ We will also see the limitations of this approach to module development.
 
 ## Problem statement
 
-Like in the [Server framework 101](server_framework_101.md) tutorial, we will be working on Real Estate concepts.
+Like in the [Server framework 101](server_framework_101/) tutorial, we will be working on Real Estate concepts.
 
 Our goal is to create a new application to manage Real Estate properties in a similar (albeit
-simpler) way to the [Server framework 101](server_framework_101.md) tutorial. We will define the models, fields and
+simpler) way to the [Server framework 101](server_framework_101/) tutorial. We will define the models, fields and
 logic in XML data files instead of Python files.
 
 At the end of this tutorial, we will be able to achieve the following in our app:
@@ -324,7 +324,7 @@ based on other fields. This is useful for fields that are derived from other fie
 sum of sub-records (adding up the price of all the items in a sale order).
 
 **Reference**: the documentation related to this topic can be found in
-[Computed Fields](../reference/backend/orm.md#reference-fields-compute).
+[Computed Fields](../reference/backend/orm/#reference-fields-compute).
 
 Data modules can define computed fields of any type, but are quite limited compared to Python
 modules. Indeed, since data modules are meant to be deployed on systems that do not allow arbitrary
@@ -395,7 +395,7 @@ Related fields are a simplified form of computed fields that mirror the value of
 through a many2one relationship.
 
 **Reference**: the documentation related to this topic can be found in
-[Related fields](../reference/backend/orm.md#reference-fields-related).
+[Related fields](../reference/backend/orm/#reference-fields-related).
 
 Related fields can be of any type (the type of the field at the other end of the relation
 traversal). They are defined as if one were adding the field directly to the model with the
@@ -448,7 +448,7 @@ This environment contains several utilities to help you interact with the Odoo d
 - `float_compare`: a utility function to compare two float values with a given precision
 - `b64encode` and `b64decode`: utility functions to encode and decode values in base64
 - `Command`: a utility class to help build complex expressions and commands (see the `Command`
-  class in the [ORM reference](../reference/backend/orm.md#reference-fields-relational))
+  class in the [ORM reference](../reference/backend/orm/#reference-fields-relational))
 
 In addition, you have access to the recordset on which the action is executed (typically a single
 record when the action is executed from a form view, and multiple records when the action is

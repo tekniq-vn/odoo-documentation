@@ -65,7 +65,7 @@ out with kiosks.
 
 ## Kiosk mode
 
-Entering *Kiosk Mode* is **only** available for users with specific [access rights](../attendances.md#attendances-access-rights).
+Entering *Kiosk Mode* is **only** available for users with specific [access rights](./#attendances-access-rights).
 
 *Kiosk Mode* can be activated in two different ways:
 
@@ -75,7 +75,7 @@ Entering *Kiosk Mode* is **only** available for users with specific [access righ
    Settings section, use the link in the Attendance Kiosk Url field to open *Kiosk
    Mode* on any device.
 
-![The Attendances Kiosk URL field in the settings section of the Attendances application.](../../../_images/kiosk-url.png)
+![The Attendances Kiosk URL field in the settings section of the Attendances application.](../../../.gitbook/assets/kiosk-url.png)
 
 As a security measure, once a device is in *Kiosk Mode*, it is not possible to go back into the
 database without signing back in.
@@ -96,7 +96,7 @@ Odoo.
 To check in or out using a badge, tap the <i class="fa fa-camera"></i> Tap to scan image in the
 center of the kiosk.
 
-![The Attendances Kiosk view displaying the scan badge image.](../../../_images/scan-badge.png)
+![The Attendances Kiosk view displaying the scan badge image.](../../../.gitbook/assets/scan-badge.png)
 
 Then, scan the barcode on the badge using the method configured in the [Kiosk Settings](#attendances-kiosk-settings) section of the configuration menu.
 
@@ -139,7 +139,7 @@ above the numbers.
 Tap in the PIN using the number pad, then tap OK when done. The employee is then checked
 in or out, and a [confirmation message](#attendances-confirmation) appears.
 
-![The pop-up that appears when prompted to enter a pin.](../../../_images/enter-pin.png)
+![The pop-up that appears when prompted to enter a pin.](../../../.gitbook/assets/enter-pin.png)
 
 <a id="attendances-confirmation"></a>
 
@@ -159,4 +159,4 @@ When checking out, the screen displays a goodbye message, with the date and time
 the total hours logged for the day. Beneath the message is a Goodbye button. To exit the
 screen before the preset time, tap the Goodbye button.
 
-![The goodbye message with all the employee's check out information.](../../../_images/goodbye-message.png)
+![The goodbye message with all the employee's check out information.](../../../.gitbook/assets/goodbye-message.png)

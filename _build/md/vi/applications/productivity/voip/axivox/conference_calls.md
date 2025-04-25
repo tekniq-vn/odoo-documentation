@@ -14,7 +14,7 @@ left.
 Next, click the green button labeled, Add a conference, and a New conference
 form appears.
 
-![New conference form on Axivox.](../../../../_images/new-conference.png)
+![New conference form on Axivox.](../../../../.gitbook/assets/new-conference.png)
 
 From here, fill in the Name field, and set an Internal extension.
 
@@ -49,7 +49,7 @@ Once the extension or number is added into the Please enter the phone number of 
 person you want to invite field, click the green Invite button, and the recipient
 immediately receives a phone call, automatically linking them to the conference.
 
-![New conference form on Axivox.](../../../../_images/conference-invite.png)
+![New conference form on Axivox.](../../../../.gitbook/assets/conference-invite.png)
 
 ## Incoming numbers
 
@@ -77,7 +77,7 @@ Anywhere in the Odoo database, open the *VoIP* widget, by clicking the ☎️ (p
 located in the upper-right corner. Then, dial the specific extension number for the conference, and
 click the 📞 (phone) icon.
 
-![Connecting to a conference extension using the Odoo VoIP widget.](../../../../_images/phone-widget.png)
+![Connecting to a conference extension using the Odoo VoIP widget.](../../../../.gitbook/assets/phone-widget.png)
 
 Once the digital receptionist answers, enter the Access code (if needed), and press the
 # (pound) icon/key.

@@ -2,7 +2,7 @@
 
 Odoo is usually extended internally via modules, but many of its features and
 all of its data are also available from the outside for external analysis or
-integration with various tools. Part of the [Models](backend/orm.md#reference-orm-model) API is
+integration with various tools. Part of the [Models](backend/orm/#reference-orm-model) API is
 easily available over [XML-RPC](https://en.wikipedia.org/wiki/XML-RPC) and accessible from a variety of languages.
 
 #### IMPORTANT
@@ -108,12 +108,12 @@ account (although they can not be used to log-in via the interface).
 In order to add a key to your account, simply go to your
 Preferences (or My Profile):
 
-![image](../../_images/preferences.png)
+![image](../../.gitbook/assets/preferences.png)
 
 then open the Account Security tab, and click
 New API Key:
 
-![image](../../_images/account-security1.png)
+![image](../../.gitbook/assets/account-security1.png)
 
 Input a description for the key, **this description should be as clear and
 complete as possible**: it is the only way you will have to identify your keys
@@ -128,7 +128,7 @@ lost).
 Once you have keys configured on your account, they will appear above the
 New API Key button, and you will be able to delete them:
 
-![image](../../_images/delete-key.png)
+![image](../../.gitbook/assets/delete-key.png)
 
 **A deleted API key can not be undeleted or re-set**. You will have to generate
 a new key and update all the places where you used the old one.
@@ -339,7 +339,7 @@ Each call to `execute_kw` takes the following parameters:
 Records can be listed and filtered via `search()`.
 
 `search()` takes a mandatory
-[domain](backend/orm.md#reference-orm-domains) filter (possibly empty), and returns the
+[domain](backend/orm/#reference-orm-domains) filter (possibly empty), and returns the
 database identifiers of all records matching the filter.
 
 #### Pagination
@@ -353,7 +353,7 @@ available to only retrieve a subset of all matched records.
 Rather than retrieve a possibly gigantic list of records and count them,
 `search_count()` can be used to retrieve
 only the number of records matching the query. It takes the same
-[domain](backend/orm.md#reference-orm-domains) filter as
+[domain](backend/orm/#reference-orm-domains) filter as
 `search()` and no other parameter.
 
 #### NOTE
@@ -499,7 +499,7 @@ custom fields without using Python code.
 : the field's user-readable label (e.g. `string` in `fields_get`)
 
 `ttype`
-: the [type](backend/orm.md#reference-orm-fields) of field to create
+: the [type](backend/orm/#reference-orm-fields) of field to create
 
 `state`
 : whether the field was created via Python code (`base`) or via
@@ -514,7 +514,7 @@ custom fields without using Python code.
 
 `selection`, `size`, `on_delete`, `relation`, `relation_field`, `domain`
 : type-specific properties and customizations, see [the fields
-  documentation](backend/orm.md#reference-orm-fields) for details
+  documentation](backend/orm/#reference-orm-fields) for details
 
 #### IMPORTANT
 - Like custom models, only new fields created with `state="manual"` are activated as actual

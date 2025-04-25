@@ -1,6 +1,6 @@
 # Viva Wallet
 
-Connecting a **Viva Wallet** [payment terminal](../terminals.md)  allows you to offer a fluid
+Connecting a **Viva Wallet** [payment terminal](./)  allows you to offer a fluid
 payment flow to your customers and ease the work of your cashiers.
 
 #### NOTE
@@ -23,7 +23,7 @@ Locate your [Merchant ID and API key following the Viva documentation](https://d
 Then, save the keys and paste them into the Odoo Merchant ID and API Key
 fields [when creating the payment method](#viva-wallet-method-creation).
 
-![merchant ID and API key fields](../../../../../_images/access-cred.png)
+![merchant ID and API key fields](../../../../../.gitbook/assets/access-cred.png)
 
 #### NOTE
 These credentials are used for APIs that authenticate with Basic Auth.
@@ -39,7 +39,7 @@ fields [when creating the payment method](#viva-wallet-method-creation).
 #### WARNING
 These credentials are only displayed once. Ensure you keep a copy to secure them.
 
-![Client secret and client ID fields](../../../../../_images/api-cred.png)
+![Client secret and client ID fields](../../../../../.gitbook/assets/api-cred.png)
 
 #### NOTE
 These credentials are used for Android and iOS POS Activation requests, as well as the Cloud
@@ -57,7 +57,7 @@ Your terminal ID number is used to identify your terminal. To find it:
 The terminal ID number is located under the Terminal ID (TID) column. Save it to paste
 it into the Terminal ID field [when creating the payment method](#viva-wallet-method-creation).
 
-![Viva terminal ID](../../../../../_images/terminal-id1.png)
+![Viva terminal ID](../../../../../.gitbook/assets/terminal-id1.png)
 
 <a id="viva-wallet-method-creation"></a>
 
@@ -65,7 +65,7 @@ it into the Terminal ID field [when creating the payment method](#viva-wallet-me
 
 1. [Activate the POS Viva Wallet module](../../../../general/apps_modules.md) to enable the
    payment terminal.
-2. [Create the related payment method](../../payment_methods.md) by going to
+2. [Create the related payment method](../) by going to
    Point of Sale ‣ Configuration ‣ Payment Methods and clicking
    New.
 3. Set the journal type as Bank.
@@ -77,7 +77,7 @@ it into the Terminal ID field [when creating the payment method](#viva-wallet-me
 6. Save the form and copy the generated webhook URL from the Viva Wallet Webhook
    Endpoint field. This URL is necessary [when configuring the webhook](#viva-wallet-webhook).
 
-![payment method creation form](../../../../../_images/create-method-viva-wallet.png)
+![payment method creation form](../../../../../.gitbook/assets/create-method-viva-wallet.png)
 
 <a id="viva-wallet-webhook"></a>
 
@@ -92,5 +92,5 @@ Wallet account. Set them up for [payment transactions following the Viva documen
 ### Link the payment method to a POS
 
 You can select the payment method in your POS settings once the payment method is created. To do so,
-go to the [POS' settings](../../configuration.md#configuration-settings) and add the payment method under the
+go to the [POS' settings](../../configuration/#configuration-settings) and add the payment method under the
 Payment methods field of the Payment section.

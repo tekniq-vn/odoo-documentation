@@ -43,7 +43,7 @@ To edit existing taxes or to Create a new tax, go to Accounting ‣
 Configuration ‣ Accounting: Taxes.
 
 #### SEE ALSO
-- [thuế](../accounting/taxes.md)
+- [thuế](../accounting/taxes/)
 - Tutorial: [Tax report and return](https://www.odoo.com/slides/slide/tax-report-and-return-1719?fullscreen=1).
 
 ### Making Tax Digital (MTD)
@@ -135,7 +135,7 @@ Then, create a vendor batch payment:
 Once validated, the Bacs file is available in the chatter. You can also Re-generate
 Export File if you need a new Bacs file for that batch payment.
 
-![Vendor Batch Payment view with generated BACS file.](../../../_images/bacs-files.png)
+![Vendor Batch Payment view with generated BACS file.](../../../.gitbook/assets/bacs-files.png)
 
 ### Invoice payments
 

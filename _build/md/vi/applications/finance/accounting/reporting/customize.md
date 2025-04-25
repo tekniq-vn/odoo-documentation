@@ -12,7 +12,7 @@ To create a new report, go to Accounting ‣ Configuration ‣ Management:
 Accounting Reports. From here, you can either create a [root report](#customize-reports-root)
 or a [variant](#customize-reports-variants).
 
-![Accounting reports engine.](../../../../_images/engine-accounting-reports.png)
+![Accounting reports engine.](../../../../.gitbook/assets/engine-accounting-reports.png)
 
 <a id="customize-reports-root"></a>
 
@@ -30,7 +30,7 @@ the page; the report is now available under Accounting ‣ Reporting.
 Cases that require creating a new root report are rare, such as when a country's tax authorities
 require a new and specific type of report.
 
-![Create Menu Item button.](../../../../_images/engine-create-menu-item.png)
+![Create Menu Item button.](../../../../.gitbook/assets/engine-create-menu-item.png)
 
 <a id="customize-reports-variants"></a>
 
@@ -47,7 +47,7 @@ displayed in the variant selector in the top right corner of the view.
 
 Sau khi tạo báo cáo (dạng gốc hoặc biến thể), bạn cần thêm các dòng vào báo cáo. Bạn có thể tạo dòng mới bằng cách nhấp Thêm dòng, hoặc chỉnh sửa dòng hiện có bằng cách nhấp vào nó. Tất cả dòng *bắt buộc* phải có Tên, và có thể thêm Mã tùy chọn (tự chọn) nếu muốn sử dụng giá trị của chúng trong công thức.
 
-![Engine lines options.](../../../../_images/engine-lines-options.png)
+![Engine lines options.](../../../../.gitbook/assets/engine-lines-options.png)
 
 ## Biểu thức
 
@@ -62,7 +62,7 @@ Depending on the engine, subformulas may also be required.
 
 ### 'Odoo Domain' engine
 
-With this engine, a formula is interpreted as an [Odoo domain](../../../../developer/reference/backend/orm.md#reference-orm-domains)
+With this engine, a formula is interpreted as an [Odoo domain](../../../../developer/reference/backend/orm/#reference-orm-domains)
 targeting `account.move.line` objects.
 
 The subformula allows you to define how the move lines matching the domain are used to compute the
@@ -87,7 +87,7 @@ value of the expression:
 You can also put a `-` sign at the beginning of the subformula to **reverse** the sign of the
 result.
 
-![Expression line within a line report](../../../../_images/engine-expressions.png)
+![Expression line within a line report](../../../../.gitbook/assets/engine-expressions.png)
 
 ### 'Tax Tags' engine
 
@@ -197,7 +197,7 @@ custom module of your own.
 
 Báo cáo có thể có **số lượng cột không giới hạn** để hiển thị. Mỗi cột nhận giá trị từ các **biểu thức** được khai báo trên **dòng**. Trường expression_label của cột cung cấp nhãn cho các biểu thức có giá trị được hiển thị. Nếu một dòng không có **biểu thức** trong trường đó, thì không có gì được hiển thị cho nó trong cột này. Nếu cần nhiều cột, bạn phải sử dụng các nhãn **biểu thức** khác nhau.
 
-![Columns of report.](../../../../_images/engine-columns.png)
+![Columns of report.](../../../../.gitbook/assets/engine-columns.png)
 
 When using the **period comparison** feature found under the Options tab of an
 accounting report, all columns are repeated in and for each period.

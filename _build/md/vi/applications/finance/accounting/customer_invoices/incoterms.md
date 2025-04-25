@@ -19,8 +19,8 @@ By default, all 11 Incoterms are available in Odoo:
 
 #### SEE ALSO
 - [Intrastat](../reporting/intrastat.md)
-- [Hóa đơn bán hàng](../customer_invoices.md)
-- [Vendor bills](../vendor_bills.md)
+- [Hóa đơn bán hàng](./)
+- [Vendor bills](../vendor_bills/)
 
 <a id="incoterms-invoices"></a>
 

@@ -88,7 +88,7 @@ usually the default configuration, but you can check your **Default Sale
 Tax** from the menu Configuration ‣ Settings
 of the Accounting application.
 
-![image](../../../../_images/price_B2C_B2B01.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B01.png)
 
 Once done, you can create a **B2C** pricelist. You can activate the
 pricelist feature per customer from the menu:
@@ -104,7 +104,7 @@ included in price) and set a price on this product for B2C customers at
 10€, from the Sales ‣ Products
 menu of the Sales application:
 
-![image](../../../../_images/price_B2C_B2B02.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B02.png)
 
 ### Setting the B2C fiscal position
 
@@ -113,7 +113,7 @@ menu: Configuration ‣ Fiscal Positions.
 This fiscal position should map the VAT 21% (tax excluded of price)
 with a VAT 21% (tax included in price)
 
-![image](../../../../_images/price_B2C_B2B03.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B03.png)
 
 ## Test by creating a quotation
 
@@ -121,14 +121,14 @@ Create a quotation from the Sale application, using the
 Sales ‣ Quotations menu. You should have the
 following result: 8.26€ + 1.73€ = 9.99€.
 
-![image](../../../../_images/price_B2C_B2B04.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B04.png)
 
 Then, create a quotation but **change the pricelist to B2C and the
 fiscal position to B2C** on the quotation, before adding your product.
 You should have the expected result, which is a total price of 10€ for
 the customer: 8.26€ + 1.74€ = 10.00€.
 
-![image](../../../../_images/price_B2C_B2B05.png)
+![image](../../../../.gitbook/assets/price_B2C_B2B05.png)
 
 This is the expected behavior for a customer of your shop.
 

@@ -5,11 +5,11 @@
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Saudi Arabian
 localization:
 
-| Tên                           | Tên kỹ thuật   | Mô tả                                                                                           |
-|-------------------------------|----------------|-------------------------------------------------------------------------------------------------|
-| Ả Rập Xê Út - Kế toán         | `l10n_sa`      | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
-| Ả Rập Xê Út - Hoá đơn điện tử | `l10n_sa_edi`  | Triển khai hóa đơn điện tử ZATCA                                                                |
-| Ả Rập Xê Út - POS             | `l10n_sa_pos`  | Point of Sale compliance                                                                        |
+| Tên                           | Tên kỹ thuật   | Mô tả                                                                   |
+|-------------------------------|----------------|-------------------------------------------------------------------------|
+| Ả Rập Xê Út - Kế toán         | `l10n_sa`      | Default [fiscal localization package](./#fiscal-localizations-packages) |
+| Ả Rập Xê Út - Hoá đơn điện tử | `l10n_sa_edi`  | Triển khai hóa đơn điện tử ZATCA                                        |
+| Ả Rập Xê Út - POS             | `l10n_sa_pos`  | Point of Sale compliance                                                |
 
 ## ZATCA e-invoices
 

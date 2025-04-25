@@ -6,7 +6,7 @@ all of its assets.
 
 Theo mặc định, Odoo sử dụng phương pháp định giá tồn kho định kỳ (còn gọi là định giá tồn kho thủ công). Phương pháp này yêu cầu bộ phận kế toán ghi sổ bút toán theo cách thủ công dựa trên tồn kho thực tế của công ty, và nhân viên kho dành thời gian để kiểm đếm hàng tồn kho. Trong Odoo, mỗi danh mục sản phẩm phản ánh điều này với Phương pháp tính chi phí được đặt thành Giá tiêu chuẩn và Định giá tồn kho (không hiển thị theo mặc định) được đặt thành Thủ công.
 
-![The Costing Method field is located on the Product Categories form.](../../../../../_images/inventory-valuation-fields.png)
+![The Costing Method field is located on the Product Categories form.](../../../../../.gitbook/assets/inventory-valuation-fields.png)
 
 Alternatively, perpetual (automatic) inventory valuation creates real-time *journal entries* in the
 *Accounting* app whenever stock enters or leaves the company's warehouse.
@@ -50,7 +50,7 @@ Save.
 Enabling Automatic Accounting shows the previously invisible *Inventory Valuation*
 field on a product category.
 
-![Automatic Accounting feature in Stock Valuation section of Settings page.](../../../../../_images/auto-accounting.png)
+![Automatic Accounting feature in Stock Valuation section of Settings page.](../../../../../.gitbook/assets/auto-accounting.png)
 
 Refer to the [Expense](#inventory-warehouses-storage-expense-account) and [Stock
 input/output](#inventory-warehouses-storage-stock-account) sections of documentation for details on
@@ -72,7 +72,7 @@ category intending to use automatic inventory valuation.
 After enabling automatic accounting, each new stock move layer (SVL), that is created during
 inventory valuation updates, generates a journal entry.
 
-![Inventory Valuation field on the product category, with its various stock accounts.](../../../../../_images/automated-inventory-valuation.png)
+![Inventory Valuation field on the product category, with its various stock accounts.](../../../../../.gitbook/assets/automated-inventory-valuation.png)
 
 <a id="inventory-warehouses-storage-costing-methods"></a>
 
@@ -223,7 +223,7 @@ the account.
 In the pop-up window, choose Expenses or Cost of Revenue from
 the Type drop-down menu.
 
-![Show **Expense Account** field, and external link icon.](../../../../../_images/external-link.png)
+![Show **Expense Account** field, and external link icon.](../../../../../.gitbook/assets/external-link.png)
 
 Thủ công
 
@@ -231,7 +231,7 @@ To configure the Expense Account, choose Stock Valuation from
 the field's drop-down menu. Verify the account's type by clicking the <i class="fa fa-arrow-right"></i> (right arrow)
 icon, and then ensure the Type is Current Assets.
 
-![Show the **Expense Account** field.](../../../../../_images/manual-anglo-saxon-expense.png)
+![Show the **Expense Account** field.](../../../../../.gitbook/assets/manual-anglo-saxon-expense.png)
 
 Continental
 
@@ -280,7 +280,7 @@ To modify the account type, go to the click the <i class="fa fa-arrow-right"></i
 input/output account. In the pop-up window, choose Current Assets from the
 Type drop-down menu.
 
-![Display account setup page, highlighting the **Type** field.](../../../../../_images/account-type.png)
+![Display account setup page, highlighting the **Type** field.](../../../../../.gitbook/assets/account-type.png)
 
 Continental
 
@@ -299,7 +299,7 @@ Stock Valuation, Stock Interim (Received), and Stock Interim
 - [Stock accounts and what they do](#inventory-warehouses-storage-stock-account)
 - [Accounting cheat sheet](../../../../finance/accounting/get_started/cheat_sheet.md)
 
-![See the full inventory valuation breakdown in Odoo Accounting app.](../../../../../_images/stock-balance-sheet.png)
+![See the full inventory valuation breakdown in Odoo Accounting app.](../../../../../.gitbook/assets/stock-balance-sheet.png)
 
 Access more specific information by clicking the <i class="fa fa-ellipsis-v"></i> (ellipsis) icon
 to the right of the desired journal. Select General Ledger to see a list of all of the
@@ -310,4 +310,4 @@ entry.
 Additionally, annotations to the Balance Sheet can be added by choosing
 Annotate, filling in the text box, and clicking Save.
 
-![Show Stock Valuation journals in a list.](../../../../../_images/journals.png)
+![Show Stock Valuation journals in a list.](../../../../../.gitbook/assets/journals.png)

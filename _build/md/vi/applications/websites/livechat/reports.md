@@ -28,7 +28,7 @@ provides access to the complete transcripts of live chat sessions.
 
 To access this report, navigate to Live Chat app ‣ Report ‣ Sessions History.
 
-![Example of the Sessions History report from the Live Chat application.](../../../_images/sessions-history.png)
+![Example of the Sessions History report from the Live Chat application.](../../../.gitbook/assets/sessions-history.png)
 
 The information in this report can be exported, or inserted into a spreadsheet.
 
@@ -51,7 +51,7 @@ At the top of the conversation, there is a list of the web pages the visitor bro
 beginning their chat session, along with corresponding time stamps. If the visitor left a rating, it
 is included at the end of the transcript.
 
-![View of the chat transcript in the Discuss application.](../../../_images/chat-transcript.png)
+![View of the chat transcript in the Discuss application.](../../../.gitbook/assets/chat-transcript.png)
 
 <a id="livechat-session-statistics"></a>
 
@@ -63,7 +63,7 @@ view for this report displays sessions grouped by the date of creation.
 To access this report, navigate to Live Chat app ‣ Reports ‣ Session
 Statistics.
 
-![Example of the Sessions Statistics report from the Live Chat application.](../../../_images/sessions-statistics.png)
+![Example of the Sessions Statistics report from the Live Chat application.](../../../.gitbook/assets/sessions-statistics.png)
 
 To view a different measure, click the Measures drop-down menu at the top-left of the
 report. The measures available for this report include:
@@ -107,7 +107,7 @@ report. The measures available for this report include:
   request, in seconds.
 - Count: the total number of sessions.
 
-![Example of the Operator Analysis report from the Live Chat application.](../../../_images/operator-analysis.png)
+![Example of the Operator Analysis report from the Live Chat application.](../../../.gitbook/assets/operator-analysis.png)
 
 ## View and filter options
 

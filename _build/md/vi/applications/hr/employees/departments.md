@@ -8,7 +8,7 @@ To make a new department, navigate to Employees app ‣ Departments, then click
 New in the top-left to reveal a blank department form. Fill out the following
 information on the department form:
 
-![The department for with all fields filled out.](../../../_images/department-form.png)
+![The department for with all fields filled out.](../../../.gitbook/assets/department-form.png)
 - Department Name: enter a name for the department.
 - Manager: using the drop-down menu, select the department manager.
 - Parent Department: if the new department is housed within another department (has a
@@ -38,7 +38,7 @@ Department Organization chart is visible upon opening the department card from t
 Departments dashboard.
 
 #### SEE ALSO
-Refer to the [Đánh giá](../appraisals.md) documentation for more information.
+Refer to the [Đánh giá](../appraisals/) documentation for more information.
 
 ## Departments dashboard
 
@@ -46,7 +46,7 @@ To view the currently configured departments, navigate to Employees app ‣
 Departments. All departments appear in a Kanban view, by default, and are listed in alphabetical
 order.
 
-![The departments dashboard view with all the department cards in a Kanban view.](../../../_images/departments.png)
+![The departments dashboard view with all the department cards in a Kanban view.](../../../.gitbook/assets/departments.png)
 
 ### Chế độ xem kanban
 
@@ -89,7 +89,7 @@ Parent Department, and Color for each department.
 
 The departments are sorted alphabetically by Department Name, by default.
 
-![The departments presented in a list view.](../../../_images/list1.png)
+![The departments presented in a list view.](../../../.gitbook/assets/list1.png)
 
 ### Hierarchy view
 

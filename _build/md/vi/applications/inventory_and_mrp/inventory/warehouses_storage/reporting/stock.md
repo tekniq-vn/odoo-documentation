@@ -8,7 +8,7 @@ The reporting feature is only accessible to users with [admin access](../../../.
 
 To access the stock report, go to Inventory app ‣ Reporting ‣ Stock.
 
-![Show the stock report, accessible by going to Inventory > Reporting > Stock.](../../../../../_images/stock-report1.png)
+![Show the stock report, accessible by going to Inventory > Reporting > Stock.](../../../../../.gitbook/assets/stock-report1.png)
 
 ## Navigate the stock report
 
@@ -66,7 +66,7 @@ find specific stock records.
   of Sale* app. Appears in the search because the Available in Self Order checkbox
   was ticked in the Point of Sale section of a product form's Sales
   tab. The option is only available when the Available in POS checkbox is ticked.
-  ![In the Sales tab of a product form, showing *Available in Self Order* setting.](../../../../../_images/available-in-self-order.png)
+  ![In the Sales tab of a product form, showing *Available in Self Order* setting.](../../../../../.gitbook/assets/available-in-self-order.png)
 - Not available in Self: display products available in *PoS*, but not available in
   self order.
 
@@ -100,7 +100,7 @@ search results.
 - Product Type: group items by [product type](../../product_management/configure/type.md).
 - Product Category: group items by product category. To configure these, go to
   Inventory app ‣ Configuration ‣ Products: Product Categories.
-- POS Product Category: group items by [point of sale product categories](../../../../sales/point_of_sale/configuration.md).
+- POS Product Category: group items by [point of sale product categories](../../../../sales/point_of_sale/configuration/).
 
 Yêu thích
 

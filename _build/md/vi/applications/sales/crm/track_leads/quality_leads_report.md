@@ -44,7 +44,7 @@ conditions:
 - [Add rules for quality leads](#quality-leads-report-add-quality-rules): includes or excludes
   results based on criteria that is specific to a company or sales team.
 
-![An example of the Custom Filter pop-up window with all of the rules configured.](../../../../_images/configured-custom-rules.png)
+![An example of the Custom Filter pop-up window with all of the rules configured.](../../../../.gitbook/assets/configured-custom-rules.png)
 
 <a id="quality-leads-report-starting-date"></a>
 
@@ -99,7 +99,7 @@ operator excludes any leads not assigned to a specific salesperson.
 Next, in the upper-right corner of the Add Custom filter pop-up window, move the
 Include archived toggle to active.
 
-![The Add Custom Filter pop-up with emphasis on the Include Archived toggle.](../../../../_images/include-archived.png)
+![The Add Custom Filter pop-up with emphasis on the Include Archived toggle.](../../../../.gitbook/assets/include-archived.png)
 
 Enabling this feature adds archived (inactive) leads to the report.
 
@@ -144,7 +144,7 @@ or all of the rules. In order to properly run the report, only records that matc
 **all** of the following filters should be included. Before adding the filters, make sure
 all is selected in this field.
 
-![Close up on the match all rules option on the add a custom filter pop-up window.](../../../../_images/match-all-rules.png)
+![Close up on the match all rules option on the add a custom filter pop-up window.](../../../../.gitbook/assets/match-all-rules.png)
 
 After the filters are configured, click Add. The default display for the report is a bar
 graph, where the leads are grouped by *stage*.

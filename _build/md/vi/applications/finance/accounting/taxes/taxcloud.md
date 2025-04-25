@@ -9,4 +9,4 @@ If you are hosted on-premise or on Odoo.SH and you wish to use Taxcloud, you can
 directly [here](https://taxcloud.com/blog/odoo-integration/).
 
 #### SEE ALSO
-[AvaTax integration](avatax.md)
+[AvaTax integration](avatax/)

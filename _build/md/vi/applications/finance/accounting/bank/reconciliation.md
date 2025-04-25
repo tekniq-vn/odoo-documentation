@@ -1,13 +1,13 @@
 # Đối chiếu ngân hàng
 
-**Đối chiếu ngân hàng** là quy trình khớp các [giao dịch ngân hàng](transactions.md) của bạn với hồ sơ kinh doanh như [hóa đơn bán hàng](../customer_invoices.md), [hóa đơn mua hàng](../vendor_bills.md) và [thanh toán](../payments.md). Quy trình này không chỉ bắt buộc với hầu hết doanh nghiệp mà còn mang lại nhiều lợi ích như: giảm thiểu rủi ro sai sót trong báo cáo tài chính, phát hiện hoạt động gian lận và quản lý dòng tiền hiệu quả hơn.
+**Đối chiếu ngân hàng** là quy trình khớp các [giao dịch ngân hàng](transactions.md) của bạn với hồ sơ kinh doanh như [hóa đơn bán hàng](../customer_invoices/), [hóa đơn mua hàng](../vendor_bills/) và [thanh toán](../payments/). Quy trình này không chỉ bắt buộc với hầu hết doanh nghiệp mà còn mang lại nhiều lợi ích như: giảm thiểu rủi ro sai sót trong báo cáo tài chính, phát hiện hoạt động gian lận và quản lý dòng tiền hiệu quả hơn.
 
 Thanks to the bank [reconciliation models](reconciliation_models.md), Odoo pre-selects the
 matching entries automatically.
 
 #### SEE ALSO
 - [Odoo Tutorials: Bank reconciliation](https://www.odoo.com/slides/slide/bank-reconciliation-2724)
-- [Đồng bộ hoá ngân hàng](bank_synchronization.md)
+- [Đồng bộ hoá ngân hàng](bank_synchronization/)
 - [Giao dịch](transactions.md)
 
 ## Bank reconciliation view
@@ -21,12 +21,12 @@ either:
   reconciliation. You can remove the Not Matched filter from the search bar to include
   previously reconciled transactions.
 
-![Reaching the bank reconciliation tool from your accounting dashboard](../../../../_images/bank-card.png)
+![Reaching the bank reconciliation tool from your accounting dashboard](../../../../.gitbook/assets/bank-card.png)
 
 The bank reconciliation view is structured into three distinct sections: transactions, counterpart
 entries, and resulting entry.
 
-![The user interface of the reconciliation view of a bank journal.](../../../../_images/user-interface.png)
+![The user interface of the reconciliation view of a bank journal.](../../../../.gitbook/assets/user-interface.png)
 
 Giao dịch
 : The transactions section on the left shows all bank transactions, with the newest displayed
@@ -93,7 +93,7 @@ of the relevant optional fields.
 Lines are silently reconciled unless a write-off entry is required, which launches a
 reconciliation wizard.
 
-![Click on fully paid to manually set an invoice as entirely paid.](../../../../_images/fully-paid.png)
+![Click on fully paid to manually set an invoice as entirely paid.](../../../../.gitbook/assets/fully-paid.png)
 
 <a id="reconciliation-button"></a>
 

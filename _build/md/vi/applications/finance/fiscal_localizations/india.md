@@ -7,15 +7,15 @@
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Indian
 localization:
 
-| Tên                         | Tên kỹ thuật             | Mô tả                                                                                           |
-|-----------------------------|--------------------------|-------------------------------------------------------------------------------------------------|
-| Ấn Độ - Kế toán             | `l10n_in`                | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
-| Indian E-invoicing          | `l10n_in_edi`            | [Indian e-invoicing integration](#india-e-invoicing)                                            |
-| Indian E-waybill            | `l10n_in_edi_ewaybill`   | [Indian E-way bill integration](#india-e-waybill)                                               |
-| Indian E-waybill Stock      | `l10n_in_ewaybill_stock` | [E-waybill creation from the Inventory app](#india-e-waybill-stock)                             |
-| Indian - GSTR India eFiling | `l10n_in_reports_gstr`   | [Indian GST Return filing](#india-gstr)                                                         |
-| Indian - Accounting Reports | `l10n_in_reports`        | [Indian tax reports](#india-gstr-reports)                                                       |
-![Indian localization modules](../../../_images/india-modules.png)
+| Tên                         | Tên kỹ thuật             | Mô tả                                                                   |
+|-----------------------------|--------------------------|-------------------------------------------------------------------------|
+| Ấn Độ - Kế toán             | `l10n_in`                | Default [fiscal localization package](./#fiscal-localizations-packages) |
+| Indian E-invoicing          | `l10n_in_edi`            | [Indian e-invoicing integration](#india-e-invoicing)                    |
+| Indian E-waybill            | `l10n_in_edi_ewaybill`   | [Indian E-way bill integration](#india-e-waybill)                       |
+| Indian E-waybill Stock      | `l10n_in_ewaybill_stock` | [E-waybill creation from the Inventory app](#india-e-waybill-stock)     |
+| Indian - GSTR India eFiling | `l10n_in_reports_gstr`   | [Indian GST Return filing](#india-gstr)                                 |
+| Indian - Accounting Reports | `l10n_in_reports`        | [Indian tax reports](#india-gstr-reports)                               |
+![Indian localization modules](../../../.gitbook/assets/india-modules.png)
 
 <a id="india-e-invoicing"></a>
 
@@ -38,7 +38,7 @@ You must register on the  e-Invoice portal to get your
    #### NOTE
    If you are already registered on the NIC portal, you can use the same login credentials.
 
-   ![Register Odoo ERP system on e-invoice web portal](../../../_images/e-invoice-system-login.png)
+   ![Register Odoo ERP system on e-invoice web portal](../../../.gitbook/assets/e-invoice-system-login.png)
 2. From the dashboard, go to API Registration ‣ User Credentials ‣ Create API
    User;
 3. After that, you should receive an  code on your registered mobile
@@ -46,7 +46,7 @@ You must register on the  e-Invoice portal to get your
 4. Select Through GSP for the API interface, set Tera Software Limited as
    GSP, and type in a Username and Password for your API. Once it is done,
    click Submit.
-   ![Submit API specific Username and Password](../../../_images/submit-api-registration-details.png)
+   ![Submit API specific Username and Password](../../../.gitbook/assets/submit-api-registration-details.png)
 
 <a id="india-e-invoicing-configuration"></a>
 
@@ -56,7 +56,7 @@ To enable the e-Invoice service in Odoo, go to Accounting ‣ Configuration ‣
 Settings ‣ Indian Electronic Invoicing, and enter the Username and
 Password previously set for the API.
 
-![Setup e-invoice service](../../../_images/e-invoice-setup.png)
+![Setup e-invoice service](../../../.gitbook/assets/e-invoice-setup.png)
 
 <a id="india-e-invoicing-journals"></a>
 
@@ -79,7 +79,7 @@ Once an invoice is validated, a confirmation message is displayed at the top. Od
 uploads the JSON-signed file of validated invoices to the NIC e-Invoice portal after some time. If
 you want to process the invoice immediately, click Process now.
 
-![Indian e-invoicing confirmation message](../../../_images/e-invoice-process.png)
+![Indian e-invoicing confirmation message](../../../.gitbook/assets/e-invoice-process.png)
 
 #### NOTE
 - You can find the JSON-signed file in the attached files in the chatter.
@@ -95,7 +95,7 @@ includes the , Ack. No (acknowledgment number) and
 Ack. Date (acknowledgment date), and QR code. These certify that the invoice is a valid
 fiscal document.
 
-![IRN and QR code](../../../_images/invoice-report.png)
+![IRN and QR code](../../../.gitbook/assets/invoice-report.png)
 
 <a id="india-edi-cancellation"></a>
 
@@ -109,7 +109,7 @@ Cancel.
 #### IMPORTANT
 Doing so cancels both the [e-Invoice](#india-e-invoicing) and the [E-Way bill](#india-e-waybill).
 
-![cancel reason and remarks](../../../_images/e-invoice-cancellation.png)
+![cancel reason and remarks](../../../.gitbook/assets/e-invoice-cancellation.png)
 
 #### NOTE
 - If you want to abort the cancellation before processing the invoice, then click Call
@@ -130,10 +130,10 @@ website itself.
 2. Open the [NIC e-Invoice portal](https://einvoice1.gst.gov.in/) and go to
    Search ‣ Verify Signed Invoice;
 3. Select the JSON file and submit it;
-   ![select the JSON file for verify invoice](../../../_images/verify-invoice.png)
+   ![select the JSON file for verify invoice](../../../.gitbook/assets/verify-invoice.png)
 
    If the file is signed, a confirmation message is displayed.
-   ![verified e-invoice](../../../_images/signed-invoice.png)
+   ![verified e-invoice](../../../.gitbook/assets/signed-invoice.png)
 
 <a id="india-e-waybill"></a>
 
@@ -159,10 +159,10 @@ You must register on the  E-Way bill portal to create your
    enter it and click Verify OTP;
 4. Check if Tera Software Limited is already on the registered GSP/ERP list. If so, use
    the username and password used to log in to the NIC portal. Otherwise, follow the next steps;
-   ![E-Way bill list of registered GSP/ERP](../../../_images/e-waybill-gsp-list.png)
+   ![E-Way bill list of registered GSP/ERP](../../../.gitbook/assets/e-waybill-gsp-list.png)
 5. Select Add/New, select Tera Software Limited as your GSP Name, create a
    Username and a Password for your API, and click Add.
-   ![Submit GSP API registration details](../../../_images/e-waybill-registration-details.png)
+   ![Submit GSP API registration details](../../../.gitbook/assets/e-waybill-registration-details.png)
 
 <a id="india-e-waybill-configuration"></a>
 
@@ -172,7 +172,7 @@ To set up the E-Way bill service, go to Accounting ‣ Configuration ‣ Setting
 ‣ Indian Electronic WayBill ‣ Setup E-Way bill, and enter your Username and
 Password.
 
-![E-way bill setup odoo](../../../_images/e-waybill-configuration.png)
+![E-way bill setup odoo](../../../.gitbook/assets/e-waybill-configuration.png)
 
 <a id="india-e-waybill-workflow"></a>
 
@@ -185,7 +185,7 @@ Password.
 To send an E-Way bill, confirm the customer invoice/vendor bill and click Send E-Way
 bill.
 
-![Send E-waybill button on invoices](../../../_images/e-waybill-send-button.png)
+![Send E-waybill button on invoices](../../../.gitbook/assets/e-waybill-send-button.png)
 
 <a id="india-invoice-validation-e-way"></a>
 
@@ -194,7 +194,7 @@ bill.
 Once an invoice/bill has been issued and sent via Send E-Way bill, a confirmation
 message is displayed.
 
-![Indian e-Way bill confirmation message](../../../_images/e-waybill-process.png)
+![Indian e-Way bill confirmation message](../../../.gitbook/assets/e-waybill-process.png)
 
 #### NOTE
 - You can find the JSON-signed file in the attached files in the chatter.
@@ -206,7 +206,7 @@ message is displayed.
 You can print the invoice PDF report once you have submitted the E-Way bill. The report includes the
 **E-Way bill number** and the **E-Way bill validity date**.
 
-![E-way bill acknowledgment number and date](../../../_images/e-waybill-invoice-report.png)
+![E-way bill acknowledgment number and date](../../../.gitbook/assets/e-waybill-invoice-report.png)
 
 <a id="india-e-waybill-cancellation"></a>
 
@@ -220,7 +220,7 @@ click Request EDI Cancellation.
 Doing so cancels both the [e-Invoice](#india-e-invoicing) (if applicable) and the
 [E-Way bill](#india-e-waybill).
 
-![Cancel reason and remarks](../../../_images/e-waybill-cancellation.png)
+![Cancel reason and remarks](../../../.gitbook/assets/e-waybill-cancellation.png)
 
 #### NOTE
 - If you want to abort the cancellation before processing the invoice, click Call Off
@@ -237,7 +237,7 @@ Doing so cancels both the [e-Invoice](#india-e-invoicing) (if applicable) and th
 Make sure the **E-Way bill Stock** module is [installed](../../general/apps_modules.md#general-install) and
 the [E-Way bill setup](#india-e-waybill-setup) is complete.
 
-To create E-Way bills from [receipts and deliveries](../../inventory_and_mrp/inventory/shipping_receiving/daily_operations.md) in the Inventory
+To create E-Way bills from [receipts and deliveries](../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/) in the Inventory
 app, follow these steps:
 
 1. Go to Inventory ‣ Operations ‣ Deliveries or Inventory ‣
@@ -267,9 +267,9 @@ To file GST Returns in Odoo, you must first enable API access on the GST portal.
 1. Log into the [GST portal](https://services.gst.gov.in/services/login) by entering your
    Username and Password, and go to My Profile on your **profile
    menu**;
-   ![Click On the My Profile from profile](../../../_images/gst-portal-my-profile.png)
+   ![Click On the My Profile from profile](../../../.gitbook/assets/gst-portal-my-profile.png)
 2. Select Manage API Access, and click Yes to enable API access;
-   ![Click Yes](../../../_images/gst-portal-api-yes.png)
+   ![Click Yes](../../../.gitbook/assets/gst-portal-api-yes.png)
 
 #### NOTE
 It is recommended to set the Duration to 30 days to avoid the need for
@@ -289,7 +289,7 @@ Go to Accounting ‣ Configuration ‣ Settings ‣ Indian GST Service and enter
 the GST Username. Click Send OTP, enter the code, and finally,
 Validate.
 
-> ![Please enter your GST portal Username as Username](../../../_images/gst-setup.png)
+> ![Please enter your GST portal Username as Username](../../../.gitbook/assets/gst-setup.png)
 
 <a id="india-gstr-workflow"></a>
 
@@ -312,29 +312,29 @@ needs.
    **GST portal** by clicking GSTR-1 Report;
 2. The user can also get details to be submitted in **GSTR-1** in **Spreadsheet view** by clicking
    on Generate;
-   ![GSTR-1 generate](../../../_images/gst-gstr-1-generate.png)![GSTR-1 Spreadsheet View](../../../_images/gst-gstr-1-spreadsheet-view.png)
+   ![GSTR-1 generate](../../../.gitbook/assets/gst-gstr-1-generate.png)![GSTR-1 Spreadsheet View](../../../.gitbook/assets/gst-gstr-1-spreadsheet-view.png)
 3. If the **GSTR-1** report is correct, then click Push to GSTN to send it to the **GST
    portal**. The status of the GSTR-1 report changes to Sending;
-   ![GSTR-1 in the Sending Status](../../../_images/gst-gstr-1-sending.png)
+   ![GSTR-1 in the Sending Status](../../../.gitbook/assets/gst-gstr-1-sending.png)
 4. After a few seconds, the status of the **GSTR-1** report changes to Waiting for
    Status. It means that the **GSTR-1** report has been sent to the GST Portal and is
    being verified on the GST Portal;
-   ![GSTR-1 in the Waiting for Status](../../../_images/gst-gstr-1-waiting.png)
+   ![GSTR-1 in the Waiting for Status](../../../.gitbook/assets/gst-gstr-1-waiting.png)
 5. Once more, after a few seconds, the status either changes to Sent or Error
    in Invoice. The status Error in Invoice indicates that some of the invoices are not
    correctly filled out to be validated by the **GST portal**;
    - If the state of the **GSTR-1** is Sent, it means your **GSTR-1** report is ready to
      be filed on the **GST portal**.
-     ![Đã gửi GSTR-1](../../../_images/gst-gstr-1-sent.png)
+     ![Đã gửi GSTR-1](../../../.gitbook/assets/gst-gstr-1-sent.png)
    - If the state of the **GSTR-1** is Error in Invoice, invoices can be checked for
      errors in the Log Note. Once issues have been resolved, the user can click
      Push to GSTN to submit the file again on the **GST portal**.
-     ![GSTR-1 Error in Invoice](../../../_images/gst-gstr-1-error.png)
+     ![GSTR-1 Error in Invoice](../../../.gitbook/assets/gst-gstr-1-error.png)
 
-   ![GSTR-1 Error in Invoice Log](../../../_images/gst-gstr-1-error-log.png)
+   ![GSTR-1 Error in Invoice Log](../../../.gitbook/assets/gst-gstr-1-error-log.png)
 6. Click Mark as Filed after filing the **GSTR-1** report on the **GST portal**. The
    status of the report changes to Filed in **Odoo**.
-   ![GSTR-1 in the Filed Status](../../../_images/gst-gstr-1-filed.png)
+   ![GSTR-1 in the Filed Status](../../../.gitbook/assets/gst-gstr-1-filed.png)
 
 <a id="india-gstr-2b"></a>
 
@@ -346,17 +346,17 @@ the **GSTR-2B** report with your Odoo bills;
 1. Click Fetch GSTR-2B Summary to retrieve the **GSTR-2B** summary. After a few seconds,
    the status of the report changes to Waiting for Reception. This means Odoo is trying
    to receive the **GSTR-2B** report from the **GST portal**;
-   ![GSTR-2B in Waiting for Reception](../../../_images/gst-gstr-2b-waiting.png)
+   ![GSTR-2B in Waiting for Reception](../../../.gitbook/assets/gst-gstr-2b-waiting.png)
 2. Once more, after a few seconds, the status of the **GSTR-2B** changes to the Being
    Processed. It means Odoo is reconciling the **GSTR-2B** report with your Odoo bills;
-   ![GSTR-2B in Waiting for Reception](../../../_images/gst-gstr-2b-processed.png)
+   ![GSTR-2B in Waiting for Reception](../../../.gitbook/assets/gst-gstr-2b-processed.png)
 3. Once it is done, the status of the **GSTR-2B** report changes to either Matched or
    Partially Matched;
    - If the status is Matched:
-     > ![GSTR-2B Matched](../../../_images/gst-gstr-2b-matched.png)
+     > ![GSTR-2B Matched](../../../.gitbook/assets/gst-gstr-2b-matched.png)
    - If the status is Partially Matched, you can make changes in bills by clicking
      View Reconciled Bills. Once it is done, click re-match.
-     > ![GSTR-2B Partially Matched](../../../_images/gst-gstr-2b-partially.png)![GSTR-2B Reconciled Bills](../../../_images/gst-gstr-2b-reconcile.png)
+     > ![GSTR-2B Partially Matched](../../../.gitbook/assets/gst-gstr-2b-partially.png)![GSTR-2B Reconciled Bills](../../../.gitbook/assets/gst-gstr-2b-reconcile.png)
 
 <a id="india-gstr-3"></a>
 
@@ -369,12 +369,12 @@ This return is auto-generated by extracting information from **GSTR-1** and **GS
    **GST portal** to verify if they match by clicking GSTR-3 Report;
 2. Once the **GSTR-3** report has been verified by the user and the tax amount on the **GST portal**
    has been paid. Once paid, the report can be **closed** by clicking Closing Entry;
-   ![GSTR-3](../../../_images/gst-gstr-3.png)
+   ![GSTR-3](../../../.gitbook/assets/gst-gstr-3.png)
 3. In Closing Entry, add the tax amount paid on the **GST portal** using challan, and
    click POST to post the Closing Entry;
-   ![GSTR-3 Post Entry](../../../_images/gst-gstr-3-post.png)
+   ![GSTR-3 Post Entry](../../../.gitbook/assets/gst-gstr-3-post.png)
 4. Once posted, the **GSTR-3** report status changes to Filed.
-   ![GSTR-3 Filed](../../../_images/gst-gstr-3-filed.png)
+   ![GSTR-3 Filed](../../../.gitbook/assets/gst-gstr-3-filed.png)
 
 <a id="india-gstr-reports"></a>
 
@@ -388,7 +388,7 @@ The GSTR-1 report is divided into sections. It displays the Base amount,
 , ,
 , and CESS for each section.
 
-> ![Báo cáo GSTR-1](../../../_images/gst-gstr-1-sale-report.png)
+> ![Báo cáo GSTR-1](../../../.gitbook/assets/gst-gstr-1-sale-report.png)
 
 <a id="india-gstr-3-report"></a>
 
@@ -400,4 +400,4 @@ The GSTR-3 report contains different sections:
 - Eligible ;
 - Values of **exempt**, **Nil-rated**, and **non-GST** inward supply;
 - Details of inter-state supplies made to **unregistered** persons.
-  > ![Báo cáo GSTR-3](../../../_images/gst-gstr-3-report.png)
+  > ![Báo cáo GSTR-3](../../../.gitbook/assets/gst-gstr-3-report.png)

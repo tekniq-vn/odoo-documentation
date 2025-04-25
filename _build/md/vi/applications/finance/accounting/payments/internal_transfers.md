@@ -4,7 +4,7 @@ Internal money transfers can be handled in Odoo. At least two bank accounts are 
 internal transfers.
 
 #### SEE ALSO
-[How to add an additional bank account](../bank.md)
+[How to add an additional bank account](../bank/)
 
 ## Cấu hình
 

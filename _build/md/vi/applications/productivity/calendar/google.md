@@ -22,19 +22,19 @@ agree to the Terms of Service. Select a country from the drop-down list and agre
 Next, click Select a project and select (or create) an API project to configure OAuth
 in, and store credentials. Click New Project.
 
-![Create a new API project to store credentials.](../../../_images/new-api-project.png)
+![Create a new API project to store credentials.](../../../.gitbook/assets/new-api-project.png)
 
 ### Enable Google calendar API
 
 Now, click on Enabled APIs and Services in the left menu. Select Enabled APIs
 and Services again if the Search bar doesn't appear.
 
-![Enable APIs and Services on the API Project.](../../../_images/enable-apis-services.png)
+![Enable APIs and Services on the API Project.](../../../.gitbook/assets/enable-apis-services.png)
 
 After that, search for `Google Calendar API` using the search bar and select Google
 Calendar API from the search results. Click Enable.
 
-![Enable the Google Calendar API.](../../../_images/enable-google-cal-api.png)
+![Enable the Google Calendar API.](../../../.gitbook/assets/enable-google-cal-api.png)
 
 ### OAuth consent screen
 
@@ -80,7 +80,7 @@ Application Type field, and type `My Odoo Database` for the Name.
   company's Odoo  address followed by
   `/google_account/authentication`. Finally, click Create.
 
-![Add the authorized JavaScript origins and the authorized redirect URIs.](../../../_images/uri.png)
+![Add the authorized JavaScript origins and the authorized redirect URIs.](../../../.gitbook/assets/uri.png)
 
 A Client ID and Client Secret will appear, copy these to a notepad.
 
@@ -90,7 +90,7 @@ Once the *Client ID* and the *Client Secret* are located, open the Odoo database
 Settings ‣ General Settings ‣ Integrations ‣ Google Calendar. Check the box
 next to Google Calendar.
 
-![The Google Calendar checkbox in General Settings.](../../../_images/settings-google-cal.png)
+![The Google Calendar checkbox in General Settings.](../../../.gitbook/assets/settings-google-cal.png)
 
 Next, copy and paste the *Client ID* and the *Client Secret* from the Google Calendar API
 credentials page into their respective fields below the Google Calendar checkbox. Then,
@@ -101,7 +101,7 @@ click Save.
 Finally, open the Calendar app in Odoo and click on the Google sync
 button to sync Google Calendar with Odoo.
 
-![Click the Google sync button in Odoo Calendar to sync Google Calendar with Odoo.](../../../_images/sync-google.png)
+![Click the Google sync button in Odoo Calendar to sync Google Calendar with Odoo.](../../../.gitbook/assets/sync-google.png)
 
 #### NOTE
 When syncing Google Calendar with Odoo for the first time, the page will redirect to the Google
@@ -109,7 +109,7 @@ Account. From there, select the Email Account that should have access, then sele
 Continue (should the app be unverifed), and finally select Continue (to
 give permission for the transfer of data)\`.
 
-![Give Odoo permission to access Google Calendar.](../../../_images/trust-odoo.png)
+![Give Odoo permission to access Google Calendar.](../../../.gitbook/assets/trust-odoo.png)
 
 Now, Odoo Calendar is successfully synced with Google Calendar!
 
@@ -138,7 +138,7 @@ Reset Account button, which can be accessed by navigating to Settings
 app ‣ Manage Users. Then, select the user to modify the calendar, and click the
 Calendar tab.
 
-![Reset buttons highlighted on the calendar tab of the user.](../../../_images/google-reset.png)
+![Reset buttons highlighted on the calendar tab of the user.](../../../.gitbook/assets/google-reset.png)
 
 Next, click Reset Account under the correct calendar.
 
@@ -146,7 +146,7 @@ Next, click Reset Account under the correct calendar.
 
 The following reset options are available for troubleshooting Google calendar sync with Odoo:
 
-![Google calendar reset options in Odoo.](../../../_images/reset-calendar.png)
+![Google calendar reset options in Odoo.](../../../.gitbook/assets/reset-calendar.png)
 
 User's Existing Events:
 
@@ -188,7 +188,7 @@ is In Production, click Back to Testing to correct the issue.
 If no test users are added to the OAuth consent screen, then an Error 403:
 access_denied populates.
 
-![403 Access Denied Error.](../../../_images/403-error1.png)
+![403 Access Denied Error.](../../../.gitbook/assets/403-error1.png)
 
 To correct this error, return to the OAuth consent screen, under APIs &
 Services, and add test users to the app. Add the email to be configured in Odoo.
@@ -199,7 +199,7 @@ When creating the credentials (OAuth *Client ID* and *Client Secret*), if Deskto
 selected for the Application Type, an Authorization Error appears
 (Error 400:redirect_uri_mismatch).
 
-![Error 400 Redirect URI Mismatch.](../../../_images/error-4001.png)
+![Error 400 Redirect URI Mismatch.](../../../.gitbook/assets/error-4001.png)
 
 To correct this error, delete the existing credentials, and create new credentials, by selecting
 Web Application for the Application Type.

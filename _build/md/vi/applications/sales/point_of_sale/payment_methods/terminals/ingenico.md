@@ -4,7 +4,7 @@ Connecting a payment terminal allows you to offer a fluid payment flow to your c
 the work of your cashiers.
 
 #### IMPORTANT
-- Ingenico payment terminals require an [IoT system](../../../../general/iot.md).
+- Ingenico payment terminals require an [IoT system](../../../../general/iot/).
 - Ingenico is currently only available in Belgium, the Netherlands and Luxembourg.
 - Odoo works with the Ingenico Lane/, Desk/, and Move/ payment terminals as they support the TLV
   communication protocol through TCP/IP.
@@ -15,7 +15,7 @@ the work of your cashiers.
 
 Connecting an Ingenico payment terminal to Odoo is a feature that requires an IoT system. For more
 information on how to connect an IoT system to your database, please refer to the [IoT
-documentation](../../../../general/iot.md).
+documentation](../../../../general/iot/).
 
 ### Configure the Lane/Desk/Move 5000 terminals for Ingenico BENELUX
 
@@ -29,17 +29,17 @@ documentation](../../../../general/iot.md).
 
 At this point, the terminal restarts and should be displayed on the IoT system's form in Odoo.
 
-![image](../../../../../_images/payment_terminal_02.png)
+![image](../../../../../.gitbook/assets/payment_terminal_02.png)
 
 ### Configure the payment method
 
-Enable the payment terminal [in the application settings](../../configuration.md#configuration-settings) and
-[create the related payment method](../../payment_methods.md). Set the journal type as
+Enable the payment terminal [in the application settings](../../configuration/#configuration-settings) and
+[create the related payment method](../). Set the journal type as
 Bank and select Ingenico in the Use a Payment Terminal field.
 Then, select your terminal device in the Payment Terminal Device field.
 
-![image](../../../../../_images/payment-method2.png)
+![image](../../../../../.gitbook/assets/payment-method2.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
-[POS' settings](../../configuration.md#configuration-settings), click Edit, and add the payment method
+[POS' settings](../../configuration/#configuration-settings), click Edit, and add the payment method
 under the Payments section.

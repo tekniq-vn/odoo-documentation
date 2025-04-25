@@ -11,11 +11,11 @@ about the Odoo JavaScript framework in its entirety, as used by the web client.
 <!-- S[Slot] -->
 <!-- E[Event] -->
 <!-- end -->
-<!-- odoo[Odoo JavaScript framework] --> Owl -->![image](../../../_images/previously_learned.svg)
+<!-- odoo[Odoo JavaScript framework] --> Owl -->![image](../../../.gitbook/assets/previously_learned.svg)
 
 To get started, you need a running Odoo server and a development environment setup. Before getting
 into the exercises, make sure you have followed all the steps described in this
-[tutorial introduction](../discover_js_framework.md#tutorials-discover-js-framework-setup). For this chapter, we will start
+[tutorial introduction](./#tutorials-discover-js-framework-setup). For this chapter, we will start
 from the empty dashboard provided by the `awesome_dashboard` addon. We will progressively add
 features to it, using the Odoo JavaScript framework.
 
@@ -35,7 +35,7 @@ and a main content zone just below. This is done using the [Layout component](ht
 Open [http://localhost:8069/web](http://localhost:8069/web), then open the Awesome Dashboard app, and see the
 result.
 
-![image](../../../_images/new_layout.png)
+![image](../../../.gitbook/assets/new_layout.png)
 
 #### SEE ALSO
 - [Example: use of Layout in client action](https://github.com/odoo/odoo/blob/17.0/addons/web/static/src/webclient/actions/reports/report_action.js) and
@@ -138,7 +138,7 @@ Let us now add two buttons to our control panel:
 2. A button `Leads`, which opens a dynamic action on the `crm.lead` model with a list and a form
    view. Follow the example of [this use of the action service](https://github.com/odoo/odoo/blob/ef424a9dc22a5abbe7b0a6eff61cf113826f04c0/addons/account/static/src/components/journal_dashboard_activity/journal_dashboard_activity.js#L28-L35).
 
-![image](../../../_images/navigation_buttons.png)
+![image](../../../.gitbook/assets/navigation_buttons.png)
 
 #### SEE ALSO
 [Code: action service](https://github.com/odoo/odoo/blob/17.0/addons/web/static/src/webclient/actions/action_service.js)
@@ -152,7 +152,7 @@ Let us now improve our content.
    hardcoded to `(18*size)rem`.
 2. Add two cards to the dashboard. One with no size, and the other with a size of 2.
 
-![image](../../../_images/dashboard_item.png)
+![image](../../../.gitbook/assets/dashboard_item.png)
 
 #### SEE ALSO
 [Owl's slot system](https://github.com/odoo/owl/blob/master/doc/reference/slots.md)
@@ -186,7 +186,7 @@ setup() {
    - Number of cancelled orders this month
    - Average time for an order to go from 'new' to 'sent' or 'cancelled'
 
-![image](../../../_images/statistics1.png)
+![image](../../../.gitbook/assets/statistics1.png)
 
 #### SEE ALSO
 [Code: rpc service](https://github.com/odoo/odoo/blob/17.0/addons/web/static/src/core/network/rpc_service.js)
@@ -230,7 +230,7 @@ the chartjs code every time if they don't need it.
 4. The `PieChart` component will need to render a canvas, and draw on it using `chart.js`.
 5. Make it work!
 
-![image](../../../_images/pie_chart.png)
+![image](../../../.gitbook/assets/pie_chart.png)
 
 #### SEE ALSO
 - [Example: lazy loading a js file](https://github.com/odoo/odoo/blob/1f4e583ba20a01f4c44b0a4ada42c4d3bb074273/addons/web/static/src/views/graph/graph_renderer.js#L57)
@@ -367,7 +367,7 @@ The dashboard configuration will be saved as a list of removed item ids.
 6. And modify the `Dashboard` component to filter the current items by removing the ids of items
    from the configuration.
 
-![image](../../../_images/items_configuration.png)
+![image](../../../.gitbook/assets/items_configuration.png)
 
 ## 12. Going further
 

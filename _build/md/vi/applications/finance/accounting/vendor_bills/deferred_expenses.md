@@ -74,7 +74,7 @@ To access it, go to Accounting ‣ Reporting ‣ Deferred Expense.
 To view the journal items of each account, click on the account name and then Journal
 Items.
 
-![Deferred expense report](../../../../_images/deferred_expense_report.png)
+![Deferred expense report](../../../../.gitbook/assets/deferred_expense_report.png)
 
 #### NOTE
 Only bills whose accounting date is before the end of the period of the report

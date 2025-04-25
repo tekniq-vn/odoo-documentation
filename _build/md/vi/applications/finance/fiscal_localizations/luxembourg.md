@@ -5,16 +5,16 @@
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Luxembourgish
 localization:
 
-| Tên                             | Tên kỹ thuật                 | Mô tả                                                                                           |
-|---------------------------------|------------------------------|-------------------------------------------------------------------------------------------------|
-| Luxembourg - Kế toán            | `l10n_lu`                    | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) |
-| Luxembourg - Accounting Reports | `l10n_lu_reports`            | Country-specific reports                                                                        |
-| Luxembourg - Annual VAT Report  | `l10n_lu_reports_annual_vat` | Country-specific reports                                                                        |
-![The three modules for the Luxembourgish Fiscal Localization Package on Odoo](../../../_images/modules.png)
+| Tên                             | Tên kỹ thuật                 | Mô tả                                                                   |
+|---------------------------------|------------------------------|-------------------------------------------------------------------------|
+| Luxembourg - Kế toán            | `l10n_lu`                    | Default [fiscal localization package](./#fiscal-localizations-packages) |
+| Luxembourg - Accounting Reports | `l10n_lu_reports`            | Country-specific reports                                                |
+| Luxembourg - Annual VAT Report  | `l10n_lu_reports_annual_vat` | Country-specific reports                                                |
+![The three modules for the Luxembourgish Fiscal Localization Package on Odoo](../../../.gitbook/assets/modules.png)
 
 ## Standard Chart of Accounts - PCN 2020
 
-Odoo's [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages) for Luxembourg includes
+Odoo's [fiscal localization package](./#fiscal-localizations-packages) for Luxembourg includes
 the current **Standard Chart of Accounts (PCN 2020)**, effective since January 2020.
 
 ## Tờ khai thuế eCDF
@@ -38,13 +38,13 @@ on Create, then define the annual period in the Year field.
 The **simplified annual declaration** is automatically generated. You can manually add values in all
 the fields to get a **complete annual declaration**.
 
-![Odoo Accounting (Luxembourg localization) generates an annual tax declaration.](../../../_images/annual-tax-report.png)
+![Odoo Accounting (Luxembourg localization) generates an annual tax declaration.](../../../.gitbook/assets/annual-tax-report.png)
 
 To help you complete it, you can use the information provided on the Tax Report. To do
 so, go to Accounting ‣ Report ‣ Audit Reports ‣ Tax Report, then click on the
 Tax Report dropdown menu and select the type of report you want to display.
 
-![Dropdown menu to select the type of Tax Report](../../../_images/tax-report-types.png)
+![Dropdown menu to select the type of Tax Report](../../../.gitbook/assets/tax-report-types.png)
 
 Finally, click on Export XML to download the XML file.
 

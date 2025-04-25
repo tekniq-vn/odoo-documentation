@@ -7,7 +7,7 @@ The goal of this strategy is to save the warehouse worker from taking a long jou
 shelf when the product is also available at a closer location.
 
 #### SEE ALSO
-[About removal strategies](../removal_strategies.md)
+[About removal strategies](./)
 
 <a id="inventory-warehouses-storage-sequence"></a>
 
@@ -18,7 +18,7 @@ To use this removal strategy, the Storage Locations and Multi-Step Routes
 settings **must** be enabled in Inventory app ‣ Configuration ‣ Settings.
 
 #### SEE ALSO
-[Set up removal strategy](../removal_strategies.md#inventory-warehouses-storage-removal-config)
+[Set up removal strategy](./#inventory-warehouses-storage-removal-config)
 
 <a id="inventory-warehouses-storage-location-name"></a>
 
@@ -60,4 +60,4 @@ the quantities to fulfill the Demand are picked. All fifteen of the units stored
 closest location, `WH/Stock/Shelf 1`, are picked first. The remaining three units are then selected
 from the second closest location, `WH/Stock/Shelf 2`.
 
-![Display *Pick From* quantities for the order for iPhone chargers.](../../../../../_images/stock-move-window.png)
+![Display *Pick From* quantities for the order for iPhone chargers.](../../../../../.gitbook/assets/stock-move-window.png)

@@ -23,13 +23,13 @@ Trường Số cột được sử dụng để xác định số lượng đơn
 
 Nếu giá trị của trường Khoảng thời gian hoặc Số cột bị thay đổi, hãy nhấp vào Lưu một lần nữa để lưu các thay đổi.
 
-![Cài đặt MPS trong phần cài đặt của ứng dụng Sản xuất.](../../../../_images/mps-setting.png)
+![Cài đặt MPS trong phần cài đặt của ứng dụng Sản xuất.](../../../../.gitbook/assets/mps-setting.png)
 
 ## Trang chủ
 
 Để mở , hãy đi đến Ứng dụng Sản xuất ‣ Kế hoạch ‣ Kế hoạch sản xuất tổng thể. Chế độ xem  xuất hiện như sau:
 
-![Kế hoạch sản xuất tổng thể trong ứng dụng Sản xuất.](../../../../_images/mps.png)
+![Kế hoạch sản xuất tổng thể trong ứng dụng Sản xuất.](../../../../.gitbook/assets/mps.png)
 
 Cột màu xám ở bên trái màn hình hiển thị một phần dành cho mọi sản phẩm được thêm vào , mỗi phần sản phẩm được chia thành các hàng nhỏ hơn. Thông tin hiển thị trong các hàng phụ thuộc vào bộ lọc được chọn trong menu thả xuống của thanh Tìm kiếm... ở đầu trang. Những mục mặc định xuất hiện trong các hàng này là:
 
@@ -37,7 +37,7 @@ Cột màu xám ở bên trái màn hình hiển thị một phần dành cho m�
 - - Nhu cầu được dự báo: dự báo nhu cầu, được nhập thủ công. Trường này thể hiện ước tính nhu cầu cho sản phẩm trong từng khoảng thời gian.
 - - Dự báo nhu cầu gián tiếp: mặc dù đây là mục mặc định, nhưng nó **chỉ** xuất hiện đối với các sản phẩm là thành phần của sản phẩm khác. Nó cho biết nhu cầu thành phần từ các MO hiện có.
 - + Bổ sung hàng được đề xuất: số lượng sản phẩm được đề xuất bổ sung thông qua  hoặc . Bên phải tiêu đề mục là nút Bổ sung hàng, được sử dụng để bổ sung sản phẩm thủ công, dựa trên số lượng được đề xuất bổ sung.
-  ![Nút Bổ sung hàng trên hàng "+ Bổ sung hàng được đề xuất".](../../../../_images/replenish-button.png)
+  ![Nút Bổ sung hàng trên hàng "+ Bổ sung hàng được đề xuất".](../../../../.gitbook/assets/replenish-button.png)
 - = Tồn kho được dự báo: số lượng sản phẩm được dự báo sẽ có trong kho vào cuối mỗi khoảng thời gian, giả sử số lượng bổ sung hàng đề xuất đã được đáp ứng.
 
 Các mục mặc định này tạo thành một phương trình:
@@ -94,7 +94,7 @@ Trong trường Số lượng bổ sung tối đa, hãy nhập số lượng s�
 
 Cuối cùng, nhấp vào Lưu để thêm sản phẩm vào . Giờ đây, sản phẩm sẽ xuất hiện trên trang  mỗi khi mở ra. Nếu một  được chọn trong trường Danh mục vật tư của cửa sổ bật lên Thêm sản phẩm, thì mọi thành phần được liệt kê trên  này cũng sẽ xuất hiện trên trang.
 
-![Cửa sổ bật lên Thêm sản phẩm trong MPS.](../../../../_images/add-a-product.png)
+![Cửa sổ bật lên Thêm sản phẩm trong MPS.](../../../../.gitbook/assets/add-a-product.png)
 
 ### Sửa sản phẩm
 

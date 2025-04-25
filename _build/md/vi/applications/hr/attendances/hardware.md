@@ -38,7 +38,7 @@ that can be scanned at a kiosk to check in and out.
 
 Badges can be printed for employees using any thermal or inkjet printer.
 
-![A badge for an employee that is created from the Employees app.](../../../_images/badge.png)
+![A badge for an employee that is created from the Employees app.](../../../.gitbook/assets/badge.png)
 
 #### NOTE
 Badges are **not** required, as employees can manually identify themselves on the kiosk.
@@ -71,7 +71,7 @@ It is **required** to purchase *both* RFID key fobs and an RFID reader to use th
 in and out. Follow the manufacturer's directions to install the RFID reader, and set up the RFID key
 fob.
 
-![An RFID key fob is placed on an RFID reader.](../../../_images/rfid-reader.jpg)
+![An RFID key fob is placed on an RFID reader.](../../../.gitbook/assets/rfid-reader.jpg)
 
 #### NOTE
 An IoT box is **not** required to use RFID key fobs.

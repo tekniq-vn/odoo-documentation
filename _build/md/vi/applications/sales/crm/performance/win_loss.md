@@ -8,7 +8,7 @@ Analysis* page to gain insight into the effectiveness of the pipeline and its us
 
 To access the *Pipeline Analysis* page, go to CRM app ‣ Reporting ‣ Pipeline.
 
-![Open the CRM app and click on the Reporting tab along the top, then click Pipeline.](../../../../_images/reporting-tab-and-pipeline-view.png)
+![Open the CRM app and click on the Reporting tab along the top, then click Pipeline.](../../../../.gitbook/assets/reporting-tab-and-pipeline-view.png)
 
 <a id="win-loss-pipeline"></a>
 
@@ -18,7 +18,7 @@ Upon accessing the Pipeline Analysis page, a bar graph showcasing the leads from
 past year automatically populates. The bars represent the number of leads in each stage of the sales
 pipeline, color-coded to show the month the lead reached that stage.
 
-![The default state of the Pipeline Analysis page is a graph, with many options to change it.](../../../../_images/pipeline-analysis-page.png)
+![The default state of the Pipeline Analysis page is a graph, with many options to change it.](../../../../.gitbook/assets/pipeline-analysis-page.png)
 
 The interactive elements of the Pipeline Analysis page manipulate the graph to report
 different metrics in several views. From left-to-right, top-to-bottom, the elements include:
@@ -87,7 +87,7 @@ To add new search criteria, type the desired criteria into the search bar, or cl
 ⬇️ (down arrow) icon, next to the search bar, to open a drop-down menu of all options.
 See the sections below for more information on what each option does.
 
-![Clicking on the down arrow next to the search bar opens a menu of filters for the analysis.](../../../../_images/search-panel-filters-and-group-by-options.png)
+![Clicking on the down arrow next to the search bar opens a menu of filters for the analysis.](../../../../.gitbook/assets/search-panel-filters-and-group-by-options.png)
 
 Bộ lọc
 
@@ -209,7 +209,7 @@ display the information in a more organized fashion.
    - **To create more complex rules:** click the Add branch icon to the right of the
      rule. This adds another modifier below the rule for adding an "all of" or "any of" statement.
 
-![The add branch feature allows the creation of more complex all or any statements for rules.](../../../../_images/custom-filter-add-branch.png)
+![The add branch feature allows the creation of more complex all or any statements for rules.](../../../../.gitbook/assets/custom-filter-add-branch.png)
 1. Once all rules have been added, click Add to add the custom filter to the search
    criteria.
    - **To remove a custom filter:** click the ✖️ (x) icon beside the filter in the
@@ -273,7 +273,7 @@ Salesperson.
 By default, the graph measures the Count of leads in each group, but this can be
 changed by clicking the Measures button, and [selecting another option](#win-loss-measure) from the resulting drop-down menu.
 
-![The Graph View displays the analysis as a Bar Chart, Line Chart, or Pie Chart.](../../../../_images/graph-view1.png)
+![The Graph View displays the analysis as a Bar Chart, Line Chart, or Pie Chart.](../../../../.gitbook/assets/graph-view1.png)
 
 Chế độ xem pivot
 
@@ -284,7 +284,7 @@ The pivot view is useful for analyzing more detailed numbers than the graph view
 or for adding the data to a spreadsheet, where custom formulas can be set up, like in an Excel
 file.
 
-![The Pivot View displays the analysis as a table.](../../../../_images/pivot-view3.png)
+![The Pivot View displays the analysis as a table.](../../../../.gitbook/assets/pivot-view3.png)
 
 The three icons at the top-left of the page perform the following functions:
 
@@ -304,7 +304,7 @@ weeks, months, or years. By default, Week is selected.
 
 This view option is useful specifically for comparing how long it has taken to close leads.
 
-![The Cohort View displays the analysis as individual weeks of the year.](../../../../_images/cohort-view.png)
+![The Cohort View displays the analysis as individual weeks of the year.](../../../../.gitbook/assets/cohort-view.png)
 
 From left-to-right, top-to-bottom, the columns in the chart represent the following:
 
@@ -331,7 +331,7 @@ icon in the top-right of the list.
 
 This view option is useful for reviewing many records at once.
 
-![The List View displays a single list of all records matching the search criteria.](../../../../_images/list-view3.png)
+![The List View displays a single list of all records matching the search criteria.](../../../../.gitbook/assets/list-view3.png)
 
 Clicking the ⚙️ (gear) icon opens the Actions drop-down menu, with options for the
 following:
@@ -381,14 +381,14 @@ A win/loss report filters the leads from the past year, whether won or lost, and
 by their stage in the pipeline. Creating this report requires a custom filter, and grouping the
 results by Stage.
 
-![The search criteria for win/loss reports is Created On, Stage, and Active is in true false.](../../../../_images/search-criteria-for-basic-win-loss.png)
+![The search criteria for win/loss reports is Created On, Stage, and Active is in true false.](../../../../.gitbook/assets/search-criteria-for-basic-win-loss.png)
 
 Follow the steps below to create a win/loss report:
 
 1. Navigate to CRM app ‣ Reporting ‣ Pipeline.
 2. On the Pipeline Analysis page, click the ⬇️ (down arrow) icon, next to
    the search bar, to open a drop-down menu of filters and groupings.
-   ![The Search menu containing the filters for a basic win/loss report.](../../../../_images/filters-for-basic-win-loss-report.png)
+   ![The Search menu containing the filters for a basic win/loss report.](../../../../.gitbook/assets/filters-for-basic-win-loss-report.png)
 3. In drop-down menu that appears, under the Group By heading, click Stage.
 4. Under the Filters heading, click Add Custom Filter to open another pop-up
    menu.
@@ -407,13 +407,13 @@ Follow the steps below to create a win/loss report:
    not set. In total, the rule reads Active is not set.
 8. Nhấp Thêm.
 
-![The Add Custom Filter menu showing two rules: (1) Active is set, and (2) Active is not set.](../../../../_images/add-custom-active-filter.png)
+![The Add Custom Filter menu showing two rules: (1) Active is set, and (2) Active is not set.](../../../../.gitbook/assets/add-custom-active-filter.png)
 
 The report now displays the total Count of leads, whether "Won" or "Lost," grouped by
 their stage in the CRM pipeline. Hover over a section of the report to see the number of leads in
 that stage.
 
-![A basic win/loss report showing all leads whether won or lost grouped by stage.](../../../../_images/basic-win-loss-report.png)
+![A basic win/loss report showing all leads whether won or lost grouped by stage.](../../../../.gitbook/assets/basic-win-loss-report.png)
 
 #### Customize win/loss reports
 
@@ -442,7 +442,7 @@ Some useful options include:
   - Adding Medium or Source can reveal what marketing avenues generate
     more sales.
 
-![The Search menu open and the Won and Lost filters highlighted.](../../../../_images/search-panel-filters-and-group-by-options.png)
+![The Search menu open and the Won and Lost filters highlighted.](../../../../.gitbook/assets/search-panel-filters-and-group-by-options.png)
 
 Chế độ xem pivot
 
@@ -459,7 +459,7 @@ To flesh out the table:
    - Other useful measures for pivot view include Days to Assign and
      Days to Close.
 
-![A win/loss report in Pivot View displays the data in table form.](../../../../_images/win-loss-pivot-view.png)
+![A win/loss report in Pivot View displays the data in table form.](../../../../.gitbook/assets/win-loss-pivot-view.png)
 
 #### IMPORTANT
 In pivot view, the Insert In Spreadsheet button may be greyed out due to the
@@ -483,7 +483,7 @@ To add more columns to the list:
      Website, etc.) that originated each lead.
    - **Source**: Shows the source of each lead (Newsletter, Lead Recall, Search Engine, etc.).
 
-![A win/loss report in List View displays all leads in an easy-to-read list.](../../../../_images/win-loss-list-view.png)
+![A win/loss report in List View displays all leads in an easy-to-read list.](../../../../.gitbook/assets/win-loss-list-view.png)
 
 <a id="win-loss-save-reports"></a>
 
@@ -511,7 +511,7 @@ To save a report for later:
 4. Finally, click Save. The report is now saved under the Favorites
    heading.
 
-![Under the Favorites heading, click Save current search and save the report for later.](../../../../_images/save-to-favorites.png)
+![Under the Favorites heading, click Save current search and save the report for later.](../../../../.gitbook/assets/save-to-favorites.png)
 
 Add to a Spreadsheet
 
@@ -531,7 +531,7 @@ To save a report as a spreadsheet:
 
 Saved reports are viewable in the *Documents* app.
 
-> ![Pivot View reports especially benefit from being inserted in spreadsheets.](../../../../_images/pivot-view-in-spreadsheet.png)
+> ![Pivot View reports especially benefit from being inserted in spreadsheets.](../../../../.gitbook/assets/pivot-view-in-spreadsheet.png)
 
 Add to a Dashboard
 
@@ -551,7 +551,7 @@ To view a saved report:
 1. Return to the main apps page, and navigate to Dashboards app ‣ My
    Dashboard.
 
-![To access the saved report, open the Dashboard app and click My Dashboard.](../../../../_images/add-to-dashboard.png)
+![To access the saved report, open the Dashboard app and click My Dashboard.](../../../../.gitbook/assets/add-to-dashboard.png)
 
 #### SEE ALSO
 - [Convert leads into opportunities](../acquire_leads/convert.md)

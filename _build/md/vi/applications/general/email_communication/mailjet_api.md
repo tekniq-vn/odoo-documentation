@@ -13,7 +13,7 @@ To get started, sign in to the [Mailjet Account Information](https://app.mailjet
 page. Next, navigate to the Senders & Domains section and click on SMTP and
 SEND API Settings.
 
-![SMTP and Send API Settings link in the Senders & Domains section of Mailjet.](../../../_images/api-settings.png)
+![SMTP and Send API Settings link in the Senders & Domains section of Mailjet.](../../../.gitbook/assets/api-settings.png)
 
 Sau đó, sao chép cài đặt cấu hình  vào một tệp ghi chú. Các cài đặt này có thể được tìm thấy trong phần Cấu hình (chỉ SMTP). Cài đặt cấu hình  bao gồm địa chỉ máy chủ, tùy chọn bảo mật cần thiết (Sử dụng /), và số cổng. Những cài đặt này cần thiết để cấu hình Mailjet trong Odoo, sẽ được đề cập ở [phần cuối](#maintain-mailjet-api-odoo-setup).
 
@@ -24,7 +24,7 @@ Sau đó, sao chép cài đặt cấu hình  vào một tệp ghi chú. Các cà
 Odoo [blocks port 25](email_servers_outbound.md#email-outbound-port-restriction) on Odoo Online and Odoo.sh
 databases.
 
-![SMTP configuration from Mailjet.](../../../_images/smtp-config.png)
+![SMTP configuration from Mailjet.](../../../.gitbook/assets/smtp-config.png)
 
 Next, click on the button labeled Retrieve your API credentials to retrieve the Mailjet
 API credentials.
@@ -38,7 +38,7 @@ notepad, as this serves as the Password in the Odoo configuration.
 
 Bước tiếp theo là thêm địa chỉ người gửi hoặc tên miền vào phần cài đặt tài khoản Mailjet để địa chỉ email hoặc tên miền đó được phê duyệt gửi email thông qua máy chủ của Mailjet. Đầu tiên, truy cập trang `Thông tin tài khoản Mailjet <https://app.mailjet.com/account>`. Sau đó, nhấp vào liên kết Thêm miền hoặc địa chỉ người gửi trong phần Người gửi & miền.
 
-![Add a sender domain or address in the Mailjet interface.](../../../_images/add-domain-email.png)
+![Add a sender domain or address in the Mailjet interface.](../../../.gitbook/assets/add-domain-email.png)
 
 Determine if a sender's email address or the entire domain needs to be added to the Mailjet
 settings. It may be easier to configure the domain as a whole if 
@@ -94,7 +94,7 @@ After adding the domain, a validation page will populate. Unless the Odoo databa
 (in which case, choose Option 1), choose Option 2: Create a DNS Record.
 Copy the TXT record information to a notepad and then navigate to the domain's  provider to complete validation.
 
-![The TXT record information to input on the domain's DNS.](../../../_images/host-value-dns.png)
+![The TXT record information to input on the domain's DNS.](../../../.gitbook/assets/host-value-dns.png)
 
 #### Setup in the domain's DNS
 
@@ -111,7 +111,7 @@ This action can also be done by going to the [Sender domains & addresses](https:
 Next, click Check Now to validate the TXT record that was added on the domain. A
 success screen will appear if the domain is configured correctly.
 
-![Check DNS record in Mailjet.](../../../_images/check-dns.png)
+![Check DNS record in Mailjet.](../../../.gitbook/assets/check-dns.png)
 
 After successfully setting up the domain, there is an option to Authenticate this domain
 (SPF/DKIM). This button populates  &  provider.
@@ -119,7 +119,7 @@ After successfully setting up the domain, there is an option to Authenticate thi
 #### SEE ALSO
 [Tài liệu SPF/DKIM/DMARC của Mailjet](https://documentation.mailjet.com/hc/articles/360042412734-Authenticating-Domains-with-SPF-DKIM)
 
-![Authenticate the domain with SPF/DKIM records in Mailjet.](../../../_images/authenticate.png)
+![Authenticate the domain with SPF/DKIM records in Mailjet.](../../../.gitbook/assets/authenticate.png)
 
 <a id="maintain-mailjet-api-odoo-setup"></a>
 
@@ -142,4 +142,4 @@ Then, if the Mailjet server is used for mass emailing, set the Priority value hi
 than that of any transactional email server(s). Finally, save the settings and Test the
 Connection.
 
-![Odoo outgoing email server settings.](../../../_images/server-settings.png)
+![Odoo outgoing email server settings.](../../../.gitbook/assets/server-settings.png)

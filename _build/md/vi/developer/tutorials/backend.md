@@ -5,7 +5,7 @@
 # Building a Module
 
 #### WARNING
-This tutorial requires [having installed Odoo](../../administration/on_premise.md)
+This tutorial requires [having installed Odoo](../../administration/on_premise/)
 
 ## Start/Stop the Odoo server
 
@@ -426,7 +426,7 @@ The second inheritance mechanism (delegation) allows to link every record of a
 model to a record in a parent model, and provides transparent access to the
 fields of the parent record.
 
-![image](../../_images/inheritance_methods.png)
+![image](../../.gitbook/assets/inheritance_methods.png)
 
 #### SEE ALSO
 * `_inherit`
@@ -484,7 +484,7 @@ instead of a single view its `arch` field is composed of any number of
 
 #### Domains
 
-In Odoo, [Search domains](../reference/backend/orm.md#reference-orm-domains) are values that encode conditions on
+In Odoo, [Search domains](../reference/backend/orm/#reference-orm-domains) are values that encode conditions on
 records. A domain is a  list of criteria used to select a subset of a model's
 records. Each criteria is a triple with a field name, an operator and a value.
 
@@ -761,7 +761,7 @@ default and behave as booleans (they can only be enabled by default).
 ### Gantt
 
 #### WARNING
-The gantt view requires the web_gantt module which is present in the [enterprise edition](../../administration.md#install-editions) version.
+The gantt view requires the web_gantt module which is present in the [enterprise edition](../../administration/#install-editions) version.
 
 Horizontal bar charts typically used to show project planning and advancement,
 their root element is `<gantt>`.
@@ -1012,7 +1012,7 @@ installed) and the PDF version through
 
 ### Dashboards
 
-* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](../reference/backend/orm.md#reference-fields-automatic-log-access)
+* <a id='autofields'>**[1]**</a> it is possible to [disable the automatic creation of some fields](../reference/backend/orm/#reference-fields-automatic-log-access)
 * <a id='rawsql'>**[2]**</a> writing raw SQL queries is possible, but requires care as it bypasses all Odoo authentication and security mechanisms.
 
 <a id="postgresql-s-documentation"></a>

@@ -24,7 +24,7 @@ Settings. Then under the Barcode section, check the Barcode Scanner box.
 Next, select Barcode Nomenclature ‣ Default GS1 Nomenclature from the default
 barcode nomenclature options.
 
-![Choose GS1 from dropdown and click the external link to see the list of GS1 rules.](../../../../_images/setup-gs1-nomenclature.png)
+![Choose GS1 from dropdown and click the external link to see the list of GS1 rules.](../../../../.gitbook/assets/setup-gs1-nomenclature.png)
 
 The list of GS1 *rules* and *barcode patterns* Odoo supports by default is accessible by clicking
 the ➡️ (arrow) icon to the right of the Barcode Nomenclature selection.

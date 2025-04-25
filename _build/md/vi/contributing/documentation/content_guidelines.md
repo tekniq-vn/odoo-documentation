@@ -4,7 +4,7 @@ While we encourage you to adopt your own writing style, some rules still apply t
 and ensure readers can easily understand the content.
 
 #### IMPORTANT
-We strongly recommend to read the [RST guidelines and cheat sheet](rst_guidelines.md) and the main [Documentation](../documentation.md)
+We strongly recommend to read the [RST guidelines and cheat sheet](rst_guidelines.md) and the main [Documentation](./)
 pages before contributing.
 
 <a id="contributing-content-organization"></a>

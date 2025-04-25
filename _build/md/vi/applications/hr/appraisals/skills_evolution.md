@@ -49,7 +49,7 @@ have increased since the last appraisal appear in green, as an *Improvement*. Sk
 
 This report can be modified to find specific information by adjusting the [filters](../../essentials/search.md#search-filters) and [groupings](../../essentials/search.md#search-group) set in the search bar at the top.
 
-![A report showing all the skills grouped by employee.](../../../_images/skills-report.png)
+![A report showing all the skills grouped by employee.](../../../.gitbook/assets/skills-report.png)
 
 <a id="appraisals-identify-skills"></a>
 
@@ -80,12 +80,12 @@ all.
 
 Finally, click the Add button.
 
-![The Custom Filter pop-up with the parameters set.](../../../_images/javascript.png)
+![The Custom Filter pop-up with the parameters set.](../../../.gitbook/assets/javascript.png)
 
 Now, only employees that have an Expert level for the skill Javascript
 appear. In this example, only Marc Demo meets these criteria.
 
-![The employees with expert Javascript skills.](../../../_images/results.png)
+![The employees with expert Javascript skills.](../../../.gitbook/assets/results.png)
 
 #### SEE ALSO
 - [Odoo essentials reporting](../../essentials/reporting.md)

@@ -47,7 +47,7 @@ clients or customers. This is accomplished by implementing one (or more) of the 
 aliases, live chat conversations, and website forms.
 
 Using these methods, customers can submit feedback about problems, which is then reviewed by a
-member of a [helpdesk team](../../../services/helpdesk.md). Depending on the outcome of the
+member of a [helpdesk team](../../../services/helpdesk/). Depending on the outcome of the
 review, the team member may decide to take further action to ensure the issue is addressed. This can
 include creating a [quality alert](../../quality/quality_management/quality_alerts.md).
 
@@ -144,6 +144,6 @@ After implementing changes to a product or process, it may be wise to solicit cu
 feedback directly, rather than waiting to hear from them of their own volition. This may bring to
 light feedback that customers may have otherwise neglected to share.
 
-One of the best ways to accomplish this is through the [Surveys](../../../marketing/surveys.md)
+One of the best ways to accomplish this is through the [Surveys](../../../marketing/surveys/)
 app. Creating a survey, and sending it to customers who receive an updated product, increases the
 likelihood of receiving relevant feedback about the product.

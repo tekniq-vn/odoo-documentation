@@ -19,7 +19,7 @@ request by the tax authorities for audit purposes.
 ### Import FEC
 
 To make the onboarding of new users easier, Odoo Enterprise's French [fiscal localization
-package](../fiscal_localizations.md#fiscal-localizations-packages) includes the **FEC Import** feature (module name:
+package](./#fiscal-localizations-packages) includes the **FEC Import** feature (module name:
 `l10n_fr_fec_import`), which enables the import of existing FEC files from older software.
 
 To enable this feature, go to Accounting ‣ Configuration ‣ Settings ‣
@@ -219,7 +219,7 @@ itself if the targeted Journal is of type *payable* or *receivable*.
 
 ### Xuất
 
-If you have installed the French [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages),
+If you have installed the French [fiscal localization package](./#fiscal-localizations-packages),
 you should be able to download the FEC. To do so, go to Accounting ‣ Reporting ‣
 France ‣ FEC.
 

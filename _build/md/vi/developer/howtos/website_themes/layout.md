@@ -647,4 +647,4 @@ Hide a column on mobile:
   Website Builder displays a list of these elements allowing the end-user to force show the
   element and edit it without switching between mobile and desktop mode.
 
-![Force show a hidden element on the current device.](../../../_images/screenshot-visibility.png)
+![Force show a hidden element on the current device.](../../../.gitbook/assets/screenshot-visibility.png)

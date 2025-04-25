@@ -22,7 +22,7 @@ SEPA Direct Debit (SDD), and click on Save. Enter your company's
 Creditor Identifier. This number is provided by your bank institution, or the authority
 responsible for delivering them.
 
-![Add a SEPA Creditor Identifier to Odoo Accounting](../../../../_images/creditor-identifier.png)
+![Add a SEPA Creditor Identifier to Odoo Accounting](../../../../.gitbook/assets/creditor-identifier.png)
 
 ## SEPA Direct Debit Mandates
 
@@ -38,7 +38,7 @@ upload the signed file and click on Validate to start running the mandate.
 
 #### IMPORTANT
 Make sure that the **IBAN bank accounts details** are correctly recorded on the debtor’s contact
-form, under the Accounting tab, and in your own [Bank Account](../bank.md) settings.
+form, under the Accounting tab, and in your own [Bank Account](../bank/) settings.
 
 ### SEPA Direct Debit as a payment method
 
@@ -93,12 +93,12 @@ To do so, go to Accounting app ‣ Customers ‣ Payments, select the needed
 payments, then click on Action, and finally Create a batch Payment. Once
 you click on Validate, the `.xml` file is directly available for download.
 
-![Generate an .XML file for your SDD payments in Odoo Accounting](../../../../_images/xml.png)
+![Generate an .XML file for your SDD payments in Odoo Accounting](../../../../.gitbook/assets/xml.png)
 
 Finally, upload this file to your online banking interface to process the payments.
 
 #### SEE ALSO
 * [Batch payments by bank deposit](batch.md)
-* [Bank and cash accounts](../bank.md)
+* [Bank and cash accounts](../bank/)
 * [List of all SEPA countries](https://www.europeanpaymentscouncil.eu/document-library/other/epc-list-sepa-scheme-countries)
 * [Hướng dẫn Sepa](https://www.europeanpaymentscouncil.eu/document-library/implementation-guidelines/sepa-credit-transfer-inter-psp-implementation-guidelines)

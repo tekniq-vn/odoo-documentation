@@ -20,7 +20,7 @@ password:
    Debug.
 3. In the Remote Debugging popup that opens, click Generate and save the
    password securely. Once you close the popup, the password will no longer be available.
-   ![The Remote Debugging password generation window.](../../../../_images/ssh-generate-password.png)
+   ![The Remote Debugging password generation window.](../../../../.gitbook/assets/ssh-generate-password.png)
 4. Enter the Authentication Token provided by the user attempting to connect to the IoT
    box.
 5. Click Enable Remote Debugging.

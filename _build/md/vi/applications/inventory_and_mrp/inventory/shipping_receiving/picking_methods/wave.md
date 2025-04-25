@@ -19,7 +19,7 @@ First, go to Inventory ‣ Configuration ‣ Settings. In the
 Operations section, enable Batch Transfers and Wave Transfers.
 Then, click Save to apply the settings.
 
-![View of Odoo Inventory app settings to enable the wave transfers option.](../../../../../_images/wave-transfers-setting.png)
+![View of Odoo Inventory app settings to enable the wave transfers option.](../../../../../.gitbook/assets/wave-transfers-setting.png)
 
 ## Add products to a wave
 
@@ -30,12 +30,12 @@ all the transfers and product lines in a specific operation, first go to the Inv
 dashboard and locate the desired operation type's card. Then, open the options menu (the three dots
 icon in the corner of the operation type's card) and click Operations.
 
-![How to get an operation type's list of operations.](../../../../../_images/list-of-operations.png)
+![How to get an operation type's list of operations.](../../../../../.gitbook/assets/list-of-operations.png)
 
 On the operations page, select the product lines you want to add in a new or existing wave. Then,
 click Add to Wave.
 
-![Select lines to add to the wave.](../../../../../_images/select-lines.png)
+![Select lines to add to the wave.](../../../../../.gitbook/assets/select-lines.png)
 
 After that, a pop-up box appears.
 

@@ -10,7 +10,7 @@ Odoo cung cấp nhiều chủ đề để tô điểm trang web của bạn, bao
   to update it. Each color preset contains colors for your building block's Background,
   Text, Headings, Links, Primary Buttons, and
   Secondary Buttons.
-  ![select the colors of your website](../../../../_images/colors.png)
+  ![select the colors of your website](../../../../.gitbook/assets/colors.png)
 
   **To apply a color preset** to a building block of your site, select it, go to the
   Customize tab, click the Background button, and select the preset.
@@ -25,7 +25,7 @@ Odoo cung cấp nhiều chủ đề để tô điểm trang web của bạn, bao
 - Headings: Customize the formatting of your headings.
 - Button: Customize the Primary Style and Secondary Style
   buttons.
-  ![Two types of buttons in Odoo](../../../../_images/buttons.png)
+  ![Two types of buttons in Odoo](../../../../.gitbook/assets/buttons.png)
 - Link: To edit the style of the hyperlinks available on your website.
 - Input Fields: Customize fields where you can enter data, e.g., a search bar or a form.
 - Advanced: You can hide the header bar of your website using the

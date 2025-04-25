@@ -15,7 +15,7 @@ expense reports, navigate to Expenses app ‣ Expense Reports. Next, to view
 **only** approved expense reports that need to be posted, adjust the filters on the left side, so
 only the Approved checkbox is ticked.
 
-![View reports to post by clicking on expense reports, then reports to post.](../../../_images/post-reports.png)
+![View reports to post by clicking on expense reports, then reports to post.](../../../.gitbook/assets/post-reports.png)
 
 #### NOTE
 The default All Reports dashboard displays all expense reports, except reports with a
@@ -57,4 +57,4 @@ Entries button is **not** visible.
 
 Next, click the Post Entries button.
 
-![Post multiple reports at a time from the Expense Reports view, with the Approved filter.](../../../_images/post-entries.png)
+![Post multiple reports at a time from the Expense Reports view, with the Approved filter.](../../../.gitbook/assets/post-entries.png)

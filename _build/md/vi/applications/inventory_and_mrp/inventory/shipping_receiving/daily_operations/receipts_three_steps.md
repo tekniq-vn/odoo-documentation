@@ -15,7 +15,7 @@ receipts. First, make sure the *Multi-Step Routes* option is enabled in Inventor
 ‣ Configuration ‣ Settings ‣ Warehouse. Note that activating Multi-Step Routes
 will also activate *Storage Locations*.
 
-![Activate multi-step routes and storage locations in Inventory settings.](../../../../../_images/receipts-three-steps-multi-step-routes.png)
+![Activate multi-step routes and storage locations in Inventory settings.](../../../../../.gitbook/assets/receipts-three-steps-multi-step-routes.png)
 
 Next, the warehouse needs to be configured for three-step receipts. To do that, go to
 Inventory app ‣ Configuration ‣ Warehouses, and select the desired warehouse to
@@ -24,7 +24,7 @@ be edited. Doing so reveals the detail form for that specific warehouse.
 On that Warehouse detail form page, select Receive goods in input, then
 quality and then stock (3 steps) for Incoming Shipments.
 
-![Set incoming shipment option to receive in three steps.](../../../../../_images/receipts-three-steps-incoming-shipments.png)
+![Set incoming shipment option to receive in three steps.](../../../../../.gitbook/assets/receipts-three-steps-incoming-shipments.png)
 
 Activating three-step receipts and deliveries creates two new internal locations: *Input*
 (WH/Input), and *Quality Control* (WH/Quality Control). To rename these locations, go to
@@ -43,7 +43,7 @@ A Receipt smart button will appear in the top right, and the receipt will be ass
 with the purchase order. Clicking on the Receipt smart button will show the receipt
 order.
 
-![After confirming a purchase order, a Receipt smart button will appear.](../../../../../_images/receipts-three-steps-smart-button.png)
+![After confirming a purchase order, a Receipt smart button will appear.](../../../../../.gitbook/assets/receipts-three-steps-smart-button.png)
 
 ### Process a receipt
 
@@ -59,7 +59,7 @@ receipt associated with the previous purchase order.
 Click Validate to validate the receipt, and move the product to the destination
 location, WH/Input.
 
-![Receipt operation for product being moved to WH/Input location.](../../../../../_images/receipts-three-steps-receipt-form.png)
+![Receipt operation for product being moved to WH/Input location.](../../../../../.gitbook/assets/receipts-three-steps-receipt-form.png)
 
 ### Process a transfer to Quality Control
 
@@ -75,7 +75,7 @@ the internal transfer associated with the validated receipt.
 Once ready, click Validate to complete the transfer, and move the product from
 WH/Input to WH/Quality Control.
 
-![Internal transfer for product being moved to quality control zone.](../../../../../_images/receipts-three-steps-internal-transfer.png)
+![Internal transfer for product being moved to quality control zone.](../../../../../.gitbook/assets/receipts-three-steps-internal-transfer.png)
 
 ## Process a transfer to stock
 
@@ -89,4 +89,4 @@ internal transfers to process. Then, select the new internal transfer to move th
 Once ready, click Validate to complete the transfer, and move the product from
 WH/Quality Control to WH/Stock.
 
-![Internal transfer for product being moved to warehouse stock.](../../../../../_images/receipts-three-steps-second-transfer.png)
+![Internal transfer for product being moved to warehouse stock.](../../../../../.gitbook/assets/receipts-three-steps-second-transfer.png)

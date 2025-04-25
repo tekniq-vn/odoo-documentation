@@ -76,4 +76,4 @@ for every computed *due date*.
 This makes for easier [follow-ups](../payments/follow_up.md) and
 [reconciliation](../bank/reconciliation.md) since Odoo takes each
 due date into account, rather than just the balance due date. It also helps to get an accurate
-[aged receivable report](../customer_invoices.md#accounting-invoices-aging-report).
+[aged receivable report](./#accounting-invoices-aging-report).

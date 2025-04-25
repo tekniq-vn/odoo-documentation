@@ -35,14 +35,14 @@ To refine the Filter rules of a campaign, click the ➕ Add condition button
 to reveal a new row with configurable rule parameters. See the [Search, filter, and group
 records](../../essentials/search.md#search-custom-filters) documentation for more information on how to create filter rules.
 
-![A new filter rule row on the campaign form Filters.](../../../_images/domain-filters.png)
+![A new filter rule row on the campaign form Filters.](../../../.gitbook/assets/domain-filters.png)
 
 At the bottom of the filter rules is a # record(s) button, which indicates the total
 number of records targeted by this domain. Select the # record(s) button to open a
 Selected records pop-up window, in which the targeted records can be viewed.
 
 #### SEE ALSO
-- [Domain developer documentation](../../../developer/reference/backend/orm.md#reference-orm-domains)
+- [Domain developer documentation](../../../developer/reference/backend/orm/#reference-orm-domains)
 - [Campaign workflow activities](workflow_activities.md)
 - [Testing/running campaigns](testing_running.md)
 - [Campaign metrics](understanding_metrics.md)

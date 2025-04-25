@@ -1,7 +1,7 @@
 # Safeguard your code with unit tests
 
 #### IMPORTANT
-This tutorial is an extension of the [Server framework 101](server_framework_101.md) tutorial. Make sure you have
+This tutorial is an extension of the [Server framework 101](server_framework_101/) tutorial. Make sure you have
 completed it and use the `estate` module you have built as a base for the exercises in this
 tutorial.
 

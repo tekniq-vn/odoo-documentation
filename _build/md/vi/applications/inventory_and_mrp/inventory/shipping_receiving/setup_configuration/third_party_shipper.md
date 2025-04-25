@@ -3,7 +3,7 @@
 <a id="inventory-shipping-third-party"></a>
 
 Users can link third-party shipping carriers to Odoo databases, in order to verify carriers'
-delivery to specific addresses, [automatically calculate shipping costs](../setup_configuration.md), and [generate shipping labels](labels.md).
+delivery to specific addresses, [automatically calculate shipping costs](./), and [generate shipping labels](labels.md).
 
 In Odoo, shipping carriers can be applied to a sales order (SO), invoice, or delivery order. For
 tips on resolving common issues when configuring shipping connectors, skip to the
@@ -55,10 +55,10 @@ to install it. Multiple third-party shipping connectors can be selected at once.
 Save.
 
 #### NOTE
-[Delivery methods](../setup_configuration.md) can also be integrated with operations in the
+[Delivery methods](./) can also be integrated with operations in the
 *Sales*, *eCommerce*, and *Website* apps. To install, refer to the [install apps and modules](../../../../general/apps_modules.md#general-install) documentation.
 
-![Options of available shipping connectors in Odoo.](../../../../../_images/shipping-connectors.png)
+![Options of available shipping connectors in Odoo.](../../../../../.gitbook/assets/shipping-connectors.png)
 
 <a id="inventory-shipping-receiving-configure-delivery-method"></a>
 
@@ -75,7 +75,7 @@ international shipping and one for domestic shipping.
 Additional delivery methods can be created for specific purposes, such as [packaging](../../product_management/configure/packaging.md).
 
 #### SEE ALSO
-[Configure delivery methods](../setup_configuration.md)
+[Configure delivery methods](./)
 
 #### NOTE
 Ensure the delivery method is published when it should be available on the *Website* app. To
@@ -114,7 +114,7 @@ The Shipping Method page contains details about the provider, including:
 - Insurance Percentage: specify a percentage amount of the shipping costs reimbursed to
   the senders if the package is lost or stolen in transit.
 
-![Screenshot of a FedEx shipping method.](../../../../../_images/fedex.png)
+![Screenshot of a FedEx shipping method.](../../../../../.gitbook/assets/fedex.png)
 
 In the Configuration tab, fill out the API credential fields (e.g. API key, password,
 account number, etc.). Depending on the third-party shipping carrier chosen in the
@@ -140,7 +140,7 @@ are at risk of being charged through their carrier account (e.g. UPS, FedEx, etc
 users charge customers for shipping. Verify all configurations are correct before launching the
 delivery method to Production.
 
-![Show the "Test Environment" smart button.](../../../../../_images/production.png)
+![Show the "Test Environment" smart button.](../../../../../.gitbook/assets/production.png)
 
 <a id="inventory-shipping-receiving-configure-source-address"></a>
 
@@ -153,12 +153,12 @@ Warehouses, and select the desired warehouse.
 On the warehouse configuration page, open the warehouse contact page by clicking the
 Company field.
 
-![Highlight the "Company" field.](../../../../../_images/internal-link.png)
+![Highlight the "Company" field.](../../../../../.gitbook/assets/internal-link.png)
 
 Verify that the Address and Phone number are correct, as they are required
 for the shipping connector to work properly.
 
-![Show company address and phone number.](../../../../../_images/company1.png)
+![Show company address and phone number.](../../../../../.gitbook/assets/company1.png)
 
 <a id="inventory-shipping-receiving-configure-weight"></a>
 
@@ -170,7 +170,7 @@ Inventory app ‣ Products ‣ Products, and selecting the desired product.
 Then, switch to the Inventory tab, and define the Weight of the product in
 the Logistics section.
 
-![Display the "Weight" field in the Inventory tab of the product form.](../../../../../_images/product-weight.png)
+![Display the "Weight" field in the Inventory tab of the product form.](../../../../../.gitbook/assets/product-weight.png)
 
 <a id="inventory-shipping-receiving-apply-third-party-carrier"></a>
 
@@ -187,7 +187,7 @@ by going to Sales app ‣ Orders ‣ Quotations.
 
 Để chỉ định đơn vị vận chuyển bên thứ ba và nhận ước tính chi phí vận chuyển, hãy bắt đầu bằng cách truy cập Ứng dụng Bán hàng ‣ Đơn hàng ‣ Báo giá. Tạo hoặc chọn một báo giá hiện có, sau đó thêm chi phí vận chuyển thông qua đơn vị vận chuyển bên thứ ba vào báo giá bằng cách nhấp vào nút Thêm vận chuyển ở góc dưới bên phải của tab Chi tiết đơn hàng.
 
-![Show the "Add shipping" button at the bottom of a quotation.](../../../../../_images/add-shipping1.png)
+![Show the "Add shipping" button at the bottom of a quotation.](../../../../../.gitbook/assets/add-shipping1.png)
 
 In the resulting Add a shipping method pop-up window, select the intended carrier from
 the Shipping Method drop-down menu. The Cost field is automatically filled
@@ -224,7 +224,7 @@ provided.
 #### SEE ALSO
 [Generate shipping labels](labels.md)
 
-![Show the delivery order's "Additional info" tab.](../../../../../_images/delivery-info.png)
+![Show the delivery order's "Additional info" tab.](../../../../../.gitbook/assets/delivery-info.png)
 
 <a id="inventory-shipping-receiving-third-party-troubles"></a>
 
@@ -252,7 +252,7 @@ method's configuration page (Inventory app ‣ Configuration ‣ Shipping
 Method), and select the desired shipping method. Click the No Debugging smart button to
 activate Debug Requests.
 
-![Show the "No Debug" smart button.](../../../../../_images/no-debug.png)
+![Show the "No Debug" smart button.](../../../../../.gitbook/assets/no-debug.png)
 
 With Debug Requests activated, each time the shipping connector is used to estimate the
 cost of shipping, records are saved in the Logging report. To access the report, turn on
@@ -264,10 +264,10 @@ Logs are created for a shipping method each time the [Get Rate](#inventory-shipp
 and invoices, **and** when a customer adds the shipping carrier to their order through the
 *Website* app.
 
-![Show how to find the "Logging" option from the "Technical" menu.](../../../../../_images/log.png)
+![Show how to find the "Logging" option from the "Technical" menu.](../../../../../.gitbook/assets/log.png)
 
 Click the *HTTP request* line item to open a detailed page, and verify the correct information is
 sent from Odoo to the shipping carrier. In the *HTTP response*, verify that the same information is
 received.
 
-![Show debug request history in Settings > Technical > Logging.](../../../../../_images/logging1.png)
+![Show debug request history in Settings > Technical > Logging.](../../../../../.gitbook/assets/logging1.png)

@@ -10,7 +10,7 @@ This is usually done with a  cable of some sort.
 If the camera is [supported](https://www.odoo.com/page/iot-hardware), there is no need to set up
 anything, as it'll be detected as soon as it's connected.
 
-![Camera recognized on the IoT box.](../../../../_images/camera-dropdown.png)
+![Camera recognized on the IoT box.](../../../../.gitbook/assets/camera-dropdown.png)
 
 ## Link camera to quality control point in manufacturing process
 
@@ -23,12 +23,12 @@ clicking on Take a Picture from the drop-down menu. Doing so reveals a field cal
 Device, wherein the attached *device* can be selected. Save the changes, if
 required.
 
-![Setting up the device on the quality control point.](../../../../_images/control-point-device.png)
+![Setting up the device on the quality control point.](../../../../.gitbook/assets/control-point-device.png)
 
 The camera is now useable with the selected quality control point. When the quality control point
 is reached during the manufacturing process, the database prompts the operator to take a picture.
 
-![Graphic user interface of the device on the quality control point.](../../../../_images/serial-number-picture.png)
+![Graphic user interface of the device on the quality control point.](../../../../.gitbook/assets/serial-number-picture.png)
 
 #### NOTE
 Quality control points can also be accessed by navigating to IoT App ‣

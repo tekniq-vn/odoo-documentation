@@ -24,7 +24,7 @@ one to generate a CSV file for one tax invoice or for a batch of tax invoices to
   field on the customer's contact to set the NPWP needed to generate the e-Faktur file. If your
   customer does not have an NPWP, just enter the NIK in the same VAT field.
   <br/>
-  ![image](../../../_images/indonesia-partner-nik.png)
+  ![image](../../../.gitbook/assets/indonesia-partner-nik.png)
 
 <a id="localization-indonesia-e-faktur-usage"></a>
 
@@ -37,7 +37,7 @@ one to generate a CSV file for one tax invoice or for a batch of tax invoices to
 1. Truy cập Kế toán ‣ Khách hàng ‣ e-Faktur. Để có thể xuất hóa đơn khách hàng dưới dạng e-Faktur cho chính phủ Indonesia, bạn cần nhập vào đây các dải số được chính phủ cấp. Khi xác nhận một hóa đơn, hệ thống sẽ tự động gán số từ các dải số này. Sau đó, bạn có thể lọc các hóa đơn chưa xuất trong danh sách hóa đơn và nhấp *Tác vụ*, sau đó chọn *Tải xuống e-Faktur*.
 2. Sau khi nhận được các số sê-ri hóa đơn mới từ Cục Thuế Indonesia, bạn có thể tạo một nhóm các số sê-ri hóa đơn thuế thông qua chế độ xem danh sách này. Bạn chỉ cần chỉ định số nhỏ nhất và số lớn nhất của từng nhóm số sê-ri, và Odoo sẽ tự động định dạng các số này thành chuỗi 13 chữ số, theo yêu cầu của Cục Thuế Indonesia.
 3. There is a counter to inform you how many unused numbers are left in that group.
-   ![image](../../../_images/indonesia-sn-count.png)
+   ![image](../../../.gitbook/assets/indonesia-sn-count.png)
 
 <a id="localization-indonesia-csv"></a>
 
@@ -48,15 +48,15 @@ one to generate a CSV file for one tax invoice or for a batch of tax invoices to
    create an e-Faktur.
 2. Set a Kode Transaksi for the e-Faktur. There are constraints related to the Kode transaksi and
    the type of VAT applied to invoice lines.
-   ![image](../../../_images/indonesia-kode-transaksi.png)
+   ![image](../../../.gitbook/assets/indonesia-kode-transaksi.png)
 3. Odoo will automatically pick the next available serial number from the e-Faktur number table (see
    the [section above](#localization-indonesia-tax-invoice-sn)) and generate the e-faktur
    number as a concatenation of Kode Transaksi and serial number. You can see this from the invoice
    form view under the page *Extra Info* in the box *Electronic Tax*.
-   ![image](../../../_images/indonesia-e-faktur-sn.png)
+   ![image](../../../.gitbook/assets/indonesia-e-faktur-sn.png)
 4. Once the invoice is posted, you can generate and download the e-Faktur from the *Action* menu
    item *Download e-faktur*. The checkbox *CSV created* will be set.
-   ![image](../../../_images/indonesia-csv-created.png)
+   ![image](../../../.gitbook/assets/indonesia-csv-created.png)
 5. You can select multiple invoices in list view and generate a batch e-Faktur .csv.
 
 <a id="localization-indonesia-kode-transaksi-fp"></a>
@@ -77,7 +77,7 @@ Các mã sau đây có sẵn khi tạo e-Faktur. - 01 Kepada Pihak yang Bukan Pe
    replaced invoice replacing the third digit of the original serial number with *1* (as requested
    to upload a replacement invoice in the e-Faktur app).
 
-![image](../../../_images/indonesia-replace-invoice.png)
+![image](../../../.gitbook/assets/indonesia-replace-invoice.png)
 
 <a id="localization-indonesia-reset-e-faktur"></a>
 
@@ -88,4 +88,4 @@ Các mã sau đây có sẵn khi tạo e-Faktur. - 01 Kepada Pihak yang Bukan Pe
 3. The serial number will be unassigned, and we will be able to reset the invoice to draft, edit it
    and re-assign a new serial number.
 
-![image](../../../_images/indonesia-e-faktur-reset.png)
+![image](../../../.gitbook/assets/indonesia-e-faktur-reset.png)

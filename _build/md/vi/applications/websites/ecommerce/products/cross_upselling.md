@@ -23,7 +23,7 @@ To enable **optional products**, go to Website ‣ eCommerce ‣ Products, selec
 product, go to the Sales tab, and enter the products you wish to feature in the
 Optional Products field.
 
-![Optional products cross-selling](../../../../_images/add-to-cart.png)
+![Optional products cross-selling](../../../../.gitbook/assets/add-to-cart.png)
 
 <a id="ecommerce-cross-upselling-accessory"></a>
 
@@ -36,7 +36,7 @@ To enable **accessory products**, go to Website ‣ eCommerce ‣ Products, sele
 a product, go to the Sales tab, and enter the products you wish to feature in the
 Accessory Products field.
 
-![Suggested accessories at checkout during cart review](../../../../_images/accessory-products.png)
+![Suggested accessories at checkout during cart review](../../../../.gitbook/assets/accessory-products.png)
 
 <a id="ecommerce-cross-upselling-alternative"></a>
 
@@ -46,7 +46,7 @@ You can display **alternative products** at the bottom of the product page as an
 technique, encouraging customers to consider a more expensive variant or product than their
 initial choice by presenting appealing alternatives.
 
-![Alternative products on the product page](../../../../_images/cross_upselling-alternative.png)
+![Alternative products on the product page](../../../../.gitbook/assets/cross_upselling-alternative.png)
 
 To enable alternative products, navigate to Website ‣ eCommerce ‣ Products,
 select the desired product, and go to the Sales tab. In the
@@ -56,6 +56,6 @@ Click Go to Website to view the alternative products displayed at the bottom of 
 product page.
 
 To adjust the settings, click Edit and select the related
-[building block](../../website/web_design/building_blocks.md). In the Customize
+[building block](../../website/web_design/building_blocks/). In the Customize
 tab, scroll to the Alternative Products section and modify the settings as needed to
 tailor the display to your preferences.

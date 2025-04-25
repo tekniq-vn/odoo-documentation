@@ -37,10 +37,10 @@ The following terms are used throughout the Uruguayan localization:
 [Install](../../general/apps_modules.md#general-install) the following modules to get all the features of the Uruguayan
 localization:
 
-| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                                                                                                                                                                                                                                                        |
-|---------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uruguay - Kế toán   | `l10n_uy`      | The default [fiscal localization package](../fiscal_localizations.md). It adds accounting<br/>characteristics for the Uruguayan localization, which represent the minimum configuration<br/>required for a company to operate in Uruguay according to the guidelines set by the .<br/>The module's installation automatically loads: chart of accounts, taxes, documents types, and<br/>tax supported types. |
-| Uruguay EDI Kế toán | `l10n_uy_edi`  | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](../accounting/customer_invoices/electronic_invoicing.md), based on<br/>the technical documentation published by the . The authorized documents are [listed<br/>above](#uruguay-intro).                                                                                                           |
+| Tên                 | Tên kỹ thuật   | Mô tả                                                                                                                                                                                                                                                                                                                                                                                |
+|---------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Uruguay - Kế toán   | `l10n_uy`      | The default [fiscal localization package](./). It adds accounting<br/>characteristics for the Uruguayan localization, which represent the minimum configuration<br/>required for a company to operate in Uruguay according to the guidelines set by the .<br/>The module's installation automatically loads: chart of accounts, taxes, documents types, and<br/>tax supported types. |
+| Uruguay EDI Kế toán | `l10n_uy_edi`  | Includes all the technical and functional requirements to generate and validate<br/>[Electronics Documents](../accounting/customer_invoices/electronic_invoicing.md), based on<br/>the technical documentation published by the . The authorized documents are [listed<br/>above](#uruguay-intro).                                                                                   |
 
 #### NOTE
 Odoo automatically installs the base module **Uruguay - Accounting** when a database is installed
@@ -147,7 +147,7 @@ Then, enter the Uruware Data:
 - Commerce Code
 - Terminal Code
 
-![Required information for electronic invoice.](../../../_images/electronic-invoice-data1.png)
+![Required information for electronic invoice.](../../../.gitbook/assets/electronic-invoice-data1.png)
 
 #### NOTE
 This data can be obtained from the Uruware portal after configuring the [Uruware account](#l10n-uy-uruware-account).
@@ -194,7 +194,7 @@ enter the following information:
 As part of the Uruguay localization module, taxes are automatically created with its configuration
 and related financial accounts.
 
-![Taxes for Uruguay.](../../../_images/taxes1.png)
+![Taxes for Uruguay.](../../../.gitbook/assets/taxes1.png)
 
 #### Document types
 
@@ -213,7 +213,7 @@ In Uruguay,  **must** be uploaded in Uruware. Sequences (and PDFs) are received 
 from Uruware, based on their .  are **only** used in production. When testing, only a
 range of sequences used in Uruware need to be set.
 
-![Document types for Uruguay.](../../../_images/document-types1.png)
+![Document types for Uruguay.](../../../.gitbook/assets/document-types1.png)
 
 #### Sổ nhật ký bán hàng
 
@@ -235,7 +235,7 @@ Once you have configured your database, you can create your documents.
 
 #### Hóa đơn bán hàng
 
-[Customer invoices](../accounting/customer_invoices.md) are electronic documents that, when
+[Customer invoices](../accounting/customer_invoices/) are electronic documents that, when
 validated, are sent to  via Uruware. These documents can be created from your sales order or
 manually. They must contain the following data:
 

@@ -6,10 +6,10 @@ for example. By using , companies can prevent prolonged stock
 retention of specific styles.
 
 #### SEE ALSO
-[About removal strategies](../removal_strategies.md)
+[About removal strategies](./)
 
 #### SEE ALSO
-[Lot/serial number setup details](../removal_strategies.md#inventory-warehouses-storage-lots-setup)
+[Lot/serial number setup details](./#inventory-warehouses-storage-lots-setup)
 
 <a id="inventory-warehouses-storage-arrival-date"></a>
 
@@ -34,8 +34,8 @@ The white shirts are tracked By Lots in the Inventory tab of the product
 form.
 
 #### SEE ALSO
-- [Set up force removal strategy](../removal_strategies.md#inventory-warehouses-storage-removal-config)
-- [Enable lots tracking](../removal_strategies.md#inventory-warehouses-storage-lots-setup)
+- [Set up force removal strategy](./#inventory-warehouses-storage-removal-config)
+- [Enable lots tracking](./#inventory-warehouses-storage-lots-setup)
 
 The following table represents the on-hand stock and lot number details of white shirts.
 
@@ -58,4 +58,4 @@ In the Open: Stock move pop-up window, the Pick from field displays where
 the quantities to fulfill the Demand are picked from. Since the order demanded six
 shirts, all five shirts from `LOT1`, and one shirt from `LOT2`, are selected.
 
-![Two lots being reserved for a sales order with the FIFO strategy.](../../../../../_images/white-shirt-picking.png)
+![Two lots being reserved for a sales order with the FIFO strategy.](../../../../../.gitbook/assets/white-shirt-picking.png)

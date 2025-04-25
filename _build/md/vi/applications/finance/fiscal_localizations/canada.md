@@ -86,7 +86,7 @@ The following fiscal positions are available by default:
 - Yukon (YT)
 - Quốc tế (INTL)
 
-![The default fiscal positions for the Canada localization in Odoo Accounting.](../../../_images/l10n-ca-fiscal-positions.png)
+![The default fiscal positions for the Canada localization in Odoo Accounting.](../../../.gitbook/assets/l10n-ca-fiscal-positions.png)
 
 #### NOTE
 When considering what taxes to be applied, it is the province where the delivery occurs that
@@ -115,13 +115,13 @@ and region-specific tax calculations when items are sold, purchased, and invoice
 
 #### IMPORTANT
 AvaTax is available for integration with databases/companies that have locations in Canada and/or
-the United States. Reference the [Fiscal country](../accounting/taxes/avatax.md#avatax-fiscal-country) documentation for more information.
+the United States. Reference the [Fiscal country](../accounting/taxes/avatax/#avatax-fiscal-country) documentation for more information.
 
 #### SEE ALSO
 Refer to the documentation articles below to integrate and configure an AvaTax account with an
 Odoo database:
 
-- [Tích hợp AvaTax](../accounting/taxes/avatax.md)
+- [Tích hợp AvaTax](../accounting/taxes/avatax/)
 - [Avalara management portal](../accounting/taxes/avatax/avalara_portal.md)
 - [Calculate taxes with AvaTax](../accounting/taxes/avatax/avatax_use.md)
 - Avalara's support documents: [About AvaTax](https://community.avalara.com/support/s/document-item?language=en_US&bundleId=dqa1657870670369_dqa1657870670369&topicId=About_AvaTax.html&_LANG=enus)
@@ -130,32 +130,32 @@ Odoo database:
 
 ## Báo cáo
 
-A number of [report selections](../accounting/reporting.md) are readily available for the
+A number of [report selections](../accounting/reporting/) are readily available for the
 Canadian localization, under the Accounting app ‣ Reporting drop-down menu:
 
-- [Balance Sheet](../accounting/reporting.md#accounting-reporting-balance-sheet): a "snapshot" of a company's financial
+- [Balance Sheet](../accounting/reporting/#accounting-reporting-balance-sheet): a "snapshot" of a company's financial
   position at a specific point in time, which contains an overview of a company's assets,
   liabilities, and equity.
 
   Be sure to select the Balance sheet (CA) option from the <i class="fa fa-book"></i>
   Report filter.
-  ![Balance sheet report selection for CA localization in Odoo.](../../../_images/l10n-ca-balance-sheet.png)
-- [Profit & Loss](../accounting/reporting.md#accounting-reporting-balance-sheet): otherwise known as a *P&L statement* or
+  ![Balance sheet report selection for CA localization in Odoo.](../../../.gitbook/assets/l10n-ca-balance-sheet.png)
+- [Profit & Loss](../accounting/reporting/#accounting-reporting-balance-sheet): otherwise known as a *P&L statement* or
   *income statement*, provides a summary of a company's revenues, expenses, and profits/losses over
   a given period of time.
 
   Be sure to select the Profit and loss (CA) option from the <i class="fa fa-book"></i>
   Report filter.
-  ![Profit and loss report selection for CA localization in Odoo.](../../../_images/l10n-ca-profit-loss.png)
+  ![Profit and loss report selection for CA localization in Odoo.](../../../.gitbook/assets/l10n-ca-profit-loss.png)
 - Cash Flow Statement: shows how much cash and cash equivalents a company has received
   and spent in a given period.
-- [Executive Summary](../accounting/reporting.md#accounting-reporting-executive-summary): an overview report that covers
+- [Executive Summary](../accounting/reporting/#accounting-reporting-executive-summary): an overview report that covers
   the key performance indicators of a company's financial position, such as revenue, profit, and
   debt.
-- [Báo cáo thuế](../accounting/reporting.md#accounting-reporting-tax-report): một biểu mẫu chính thức được nộp cho cơ quan thuế, báo cáo thu nhập, chi phí và các thông tin thuế liên quan khác. Báo cáo thuế cho phép người nộp thuế tính toán nghĩa vụ thuế của mình, lên lịch thanh toán thuế hoặc yêu cầu hoàn thuế nếu đã nộp thừa. Trong Odoo, báo cáo thuế có thể được lập theo tháng, hai tháng một lần, hàng quý, 4 tháng một lần, nửa năm một lần hoặc hàng năm.
+- [Báo cáo thuế](../accounting/reporting/#accounting-reporting-tax-report): một biểu mẫu chính thức được nộp cho cơ quan thuế, báo cáo thu nhập, chi phí và các thông tin thuế liên quan khác. Báo cáo thuế cho phép người nộp thuế tính toán nghĩa vụ thuế của mình, lên lịch thanh toán thuế hoặc yêu cầu hoàn thuế nếu đã nộp thừa. Trong Odoo, báo cáo thuế có thể được lập theo tháng, hai tháng một lần, hàng quý, 4 tháng một lần, nửa năm một lần hoặc hàng năm.
 
 #### SEE ALSO
-- [Báo cáo kế toán](../accounting/reporting.md)
+- [Báo cáo kế toán](../accounting/reporting/)
 - [Tìm kiếm, lọc, và nhóm bản ghi](../../essentials/search.md)
 
 <a id="l10n-ca-cash-discount"></a>
@@ -205,5 +205,5 @@ In the Odoo Canadian localization, pre-authorized debits are facilitated through
 [integration with Stripe](../payment_providers/stripe.md).
 
 #### SEE ALSO
-- [Setting up payment providers](../payment_providers.md)
+- [Setting up payment providers](../payment_providers/)
 - [Stripe's pre-authorized debit payments documentation](https://docs.stripe.com/payments/acss-debit)

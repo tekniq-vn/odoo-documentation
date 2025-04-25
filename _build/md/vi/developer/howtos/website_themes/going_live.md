@@ -20,7 +20,7 @@ Follow these steps the first time you import a module:
 5. Click on Import Module in the menu.
 6. Upload your ZIP file, tick Force init, and click the Import App button.
 
-![Import a module on Odoo Online](../../../_images/screenshot-import-module.png)
+![Import a module on Odoo Online](../../../.gitbook/assets/screenshot-import-module.png)
 
 If you need to re-import a module after making some changes, follow the same steps, but before
 importing the module, open the developer menu and select Become Superuser. To leave the
@@ -55,7 +55,7 @@ redirects as well as your domain name.
 **SEO & Redirects**
 
 - [Search Engine Optimization (SEO)](../../../applications/websites/website/pages/seo.md)
-- [URL redirect mapping](../../../applications/websites/website/pages.md#website-url-redirection)
+- [URL redirect mapping](../../../applications/websites/website/pages/#website-url-redirection)
 
 **Domain name**
 

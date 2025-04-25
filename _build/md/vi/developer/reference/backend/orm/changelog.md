@@ -43,7 +43,7 @@
   [#87527](https://github.com/odoo/odoo/pull/87527).
   New methods have been added to `odoo.models.Model` and `odoo.api.Environment`,
   and are less confusing about what is actually done in each case.
-  See the section [SQL Execution](../orm.md#reference-orm-sql).
+  See the section [SQL Execution](./#reference-orm-sql).
 
 ## Odoo Online version 15.3
 
@@ -59,7 +59,7 @@
 
 - Specific index types on fields:  With [#83274](https://github.com/odoo/odoo/pull/83274) and
   [#83015](https://github.com/odoo/odoo/pull/83015), developers can now define what type of
-  indexes can be used on fields by PostgreSQL. See the [index property](../orm.md#reference-fields) of
+  indexes can be used on fields by PostgreSQL. See the [index property](./#reference-fields) of
   `odoo.fields.Field`.
 - The `_sequence` attribute of `Model` is removed. Odoo lets PostgreSQL use the default sequence of the primary key. [#82727](https://github.com/odoo/odoo/pull/82727)
 - The method `_write()` does not raise an error for non-existing records. [#82727](https://github.com/odoo/odoo/pull/82727)

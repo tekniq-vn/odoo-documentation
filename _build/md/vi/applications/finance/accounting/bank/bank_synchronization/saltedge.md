@@ -8,7 +8,7 @@ Odoo can synchronize directly with your bank to get all bank statements imported
 automatically into your database.
 
 #### SEE ALSO
-- [Đồng bộ hoá ngân hàng](../bank_synchronization.md)
+- [Đồng bộ hoá ngân hàng](./)
 - [Giao dịch](../transactions.md)
 
 ## Cấu hình
@@ -23,12 +23,12 @@ automatically into your database.
    address is used to create your Salt Edge account. Please make sure you enter a
    valid email address, as otherwise, you will not be able to access your Salt Edge
    account.
-   ![Email address to provide to Salt Edge for the creation of your account.](../../../../../_images/saltedge-contact-email.png)
+   ![Email address to provide to Salt Edge for the creation of your account.](../../../../../.gitbook/assets/saltedge-contact-email.png)
 4. After entering your email address, you are redirected to Salt Edge to continue
    the synchronization process.
-   ![Salt Edge Login page.](../../../../../_images/saltedge-login-page.png)
+   ![Salt Edge Login page.](../../../../../.gitbook/assets/saltedge-login-page.png)
 5. Make sure you give your consent by checking the consent checkbox.
-   ![Salt Edge give consent page.](../../../../../_images/saltedge-give-consent.png)
+   ![Salt Edge give consent page.](../../../../../.gitbook/assets/saltedge-give-consent.png)
 6. Complete the synchronization by following the steps.
 
 ### Update your credentials

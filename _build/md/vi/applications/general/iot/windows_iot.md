@@ -5,7 +5,7 @@ To start using the Windows virtual IoT:
 1. Make sure all [prerequisites](#iot-windows-iot-prerequisites) are met.
 2. [Install the Windows virtual IoT](#iot-windows-iot-installation) on a Windows computer.
 3. [Configure the Windows Firewall](#iot-windows-iot-firewall).
-4. Connect your [devices](devices.md) to the Windows virtual IoT.
+4. Connect your [devices](devices/) to the Windows virtual IoT.
 5. [Connect the Windows virtual IoT to your Odoo database](connect.md).
 
 <a id="iot-windows-iot-prerequisites"></a>
@@ -14,7 +14,7 @@ To start using the Windows virtual IoT:
 
 The following prerequisites must be met before setting up and using the Windows virtual IoT:
 
-- A valid [IoT box subscription](../iot.md#iot-iot-iot-subscription).
+- A valid [IoT box subscription](./#iot-iot-iot-subscription).
 - An updated and recent version of Windows (i.e., Windows 10 or Windows 11) installed on a Windows
   computer (laptop, desktop, or server).
 
@@ -111,14 +111,14 @@ Once the Windows virtual IoT is [connected to the Odoo database](connect.md), it
 be accessed from Odoo by opening the IoT app and clicking the URL displayed on the IoT system's
 card.
 
-![Windows virtual IoT's homepage](../../../_images/iot-windows-homepage.png)
+![Windows virtual IoT's homepage](../../../.gitbook/assets/iot-windows-homepage.png)
 
 #### NOTE
 Make sure the [Windows Firewall is configured](#iot-windows-iot-firewall) to allow access.
 
 ## Device connection
 
-Most [devices](devices.md) automatically connect to the Windows computer used for the Windows
+Most [devices](devices/) automatically connect to the Windows computer used for the Windows
 Virtual IoT through [Windows Plug and Play (PnP)](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-plug-and-play).
 However, if Windows does not recognize the device automatically upon connection, the administrator
 may need to manually install the appropriate drivers.

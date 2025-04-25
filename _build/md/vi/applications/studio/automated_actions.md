@@ -6,7 +6,7 @@ a record 7 days after its last update), or external events.
 
 To create an automation rule with Studio, proceed as follows:
 
-1. [Open Studio](../studio.md#studio-access) and click Automations, then New.
+1. [Open Studio](./#studio-access) and click Automations, then New.
 2. Select the [Kích hoạt](#studio-automated-actions-trigger) and, if necessary, fill in the fields that
    appear on the screen based on the chosen trigger.
 3. Click Add an action, then select the Type of
@@ -36,7 +36,7 @@ The triggers available in this category depend on the model and are based on com
 such as adding a specific tag (e.g., to a task) or setting the User field. Select the
 trigger, then select a value if required.
 
-![Example of a Values Updated trigger](../../_images/values-updated-trigger.png)
+![Example of a Values Updated trigger](../../.gitbook/assets/values-updated-trigger.png)
 
 <a id="studio-automated-actions-trigger-email-events"></a>
 

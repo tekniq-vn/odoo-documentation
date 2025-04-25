@@ -32,7 +32,7 @@ Phiên bản Enterprise:
 #### NOTE
 Bạn cần phải cài đặt [Git](https://git-scm.com/) và nên có kiến ​​thức cơ bản về các lệnh Git để có thể tiếp tục.
 
-Để sao chép kho lưu trữ Git, hãy chọn một trong hai cách sao chép bằng HTTPS hoặc SSH. Trong hầu hết trường hợp, tùy chọn tốt nhất là HTTPS. Tuy nhiên, hãy chọn SSH nếu bạn muốn đóng góp vào mã nguồn Odoo hoặc khi làm theo [Hướng dẫn bắt ​​đầu dành cho lập trình viên](../../developer/tutorials/server_framework_101.md).
+Để sao chép kho lưu trữ Git, hãy chọn một trong hai cách sao chép bằng HTTPS hoặc SSH. Trong hầu hết trường hợp, tùy chọn tốt nhất là HTTPS. Tuy nhiên, hãy chọn SSH nếu bạn muốn đóng góp vào mã nguồn Odoo hoặc khi làm theo [Hướng dẫn bắt ​​đầu dành cho lập trình viên](../../developer/tutorials/server_framework_101/).
 
 Linux
 

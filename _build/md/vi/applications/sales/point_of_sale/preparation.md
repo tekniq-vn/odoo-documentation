@@ -11,11 +11,11 @@ Concretely,
 
 To enable the preparation display feature,
 
-1. Go to the [POS settings](configuration.md#configuration-settings).
+1. Go to the [POS settings](configuration/#configuration-settings).
 2. Scroll down to the Connected Devices section.
 3. Check the Preparation Display option.
 
-![Setting to enable the preparation display feature](../../../_images/preparation-setting.png)
+![Setting to enable the preparation display feature](../../../.gitbook/assets/preparation-setting.png)
 
 To create and set up a preparation display,
 
@@ -32,7 +32,7 @@ To create and set up a preparation display,
       - Define an Alert timer (min) for each stage to indicate the expected processing
         time.
 
-![preparation display set-up form](../../../_images/display-form.png)
+![preparation display set-up form](../../../.gitbook/assets/display-form.png)
 
 #### NOTE
 To edit a pre-existing preparation display, click the vertical ellipsis button
@@ -43,7 +43,7 @@ To edit a pre-existing preparation display, click the vertical ellipsis button
 Go to Point of Sale ‣ Orders ‣ Preparation Display to get an overview of all
 your displays.
 
-![Kanban view of the preparation display](../../../_images/display-card.png)
+![Kanban view of the preparation display](../../../.gitbook/assets/display-card.png)
 
 The display card shows:
 
@@ -68,7 +68,7 @@ designed for employees, shows:
 #### NOTE
 The duration indicator turns red if the elapsed time exceeds the predefined alert time.
 
-![the preparation display interface with orders to process.](../../../_images/preparation-display.png)
+![the preparation display interface with orders to process.](../../../.gitbook/assets/preparation-display.png)
 
 To update order progress:
 

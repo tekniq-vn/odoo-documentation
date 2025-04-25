@@ -30,7 +30,7 @@ To reveal the Mandatory Answer column on the Questions tab, which indicates
 if questions require a mandatory answer or not, click the (optional columns) icon
 located to the far-right of the column titles.
 
-![The slider drop-down menu showing the Mandatory Answer option in Odoo Surveys.](../../../_images/slider-dropdown-mandatory-answer.png)
+![The slider drop-down menu showing the Mandatory Answer option in Odoo Surveys.](../../../.gitbook/assets/slider-dropdown-mandatory-answer.png)
 
 ### Create sections
 
@@ -75,7 +75,7 @@ Click Discard to discard the question entirely.
 
 ### Create Sections and Questions pop-up window
 
-![The Create Sections and Questions pop-up form in Odoo Surveys.](../../../_images/create-sections-questions-popup.png)
+![The Create Sections and Questions pop-up form in Odoo Surveys.](../../../.gitbook/assets/create-sections-questions-popup.png)
 
 In the Create Sections and Questions pop-up window, start by typing the question into
 the Question field, located at the top of the pop-up window.
@@ -130,7 +130,7 @@ If the Single Line Text Box is selected as the Question Type, the
 Answers tab remains, although it only provides two checkbox options: Input
 must be an email and Save as user nickname.
 
-![The Single Line Text box question type answers tab in Odoo Surveys.](../../../_images/single-line-answer-tab.png)
+![The Single Line Text box question type answers tab in Odoo Surveys.](../../../.gitbook/assets/single-line-answer-tab.png)
 
 If the Input must be an email option is enabled, a new field, Save as user
 email appears. If that box is ticked, Odoo saves the participant's answer to that specific question
@@ -142,7 +142,7 @@ its nickname.
 For all other applicable Question Type options that provide answer options to the
 participant, the Answers tab appears the same.
 
-![The answer tab with a multiple choice answer option selected in Odoo Surveys.](../../../_images/multiple-choice-answer-options.png)
+![The answer tab with a multiple choice answer option selected in Odoo Surveys.](../../../.gitbook/assets/multiple-choice-answer-options.png)
 
 From here, users can add answer options by clicking Add a line, and typing in the
 various answer options for that question. Then, either press `Enter` to lock in that answer
@@ -175,7 +175,7 @@ Type. If that's chosen, the Answers tab remains, but below the typical
 Choices section, there is a Rows section. That's because the
 Matrix option provides an answer table for participants to fill out.
 
-![The answer tab with a matrix question type selected in Odoo Surveys.](../../../_images/matrix-answer-tab.png)
+![The answer tab with a matrix question type selected in Odoo Surveys.](../../../.gitbook/assets/matrix-answer-tab.png)
 
 #### Tab mô tả
 
@@ -207,7 +207,7 @@ present in the Answers section.
 When enabled, two additional fields appear: Comment Message and Comment is an
 answer.
 
-![The answers section of the options tab when a multiple choice question type is selected.](../../../_images/multiple-choice-options-tab.png)
+![The answers section of the options tab when a multiple choice question type is selected.](../../../.gitbook/assets/multiple-choice-options-tab.png)
 
 In the Comment Message field, type in a guiding message to help participants know what
 is expected of them (e.g. `If other, please specify`).
@@ -222,7 +222,7 @@ If the selected Question Type is Multiple Lines Text Box, a
 Placeholder field appears in the Answers section of the Options
 tab.
 
-![The placeholder field when a multiple lines text box option is chosen in Odoo Surveys.](../../../_images/multiple-lines-placeholder.png)
+![The placeholder field when a multiple lines text box option is chosen in Odoo Surveys.](../../../.gitbook/assets/multiple-lines-placeholder.png)
 
 In the Placeholder field, enter a guiding direction to help participants know what they
 should write in the Multiple Lines Text Box presented to them.
@@ -236,7 +236,7 @@ section of the Options tab: Validate Entry and Placeholder.
 If the Validate Entry option is enabled, two additional fields appear beneath:
 Min/Max Limits and Validation Error.
 
-![The answers section of the option tab when a single line text box question type is chosen.](../../../_images/single-line-validate-entry.png)
+![The answers section of the option tab when a single line text box question type is chosen.](../../../.gitbook/assets/single-line-validate-entry.png)
 
 In the Min/Max Limits field, designate the minimum and maximum allowed quantities for
 that specific question.
@@ -252,7 +252,7 @@ should write in the Multiple Lines Text Box presented to them.
 The Constraints section in the Options tab is the same, regardless of the
 selected Question Type.
 
-![The Constraints section in the options tab in Odoo Surveys.](../../../_images/constraints-section.png)
+![The Constraints section in the options tab in Odoo Surveys.](../../../.gitbook/assets/constraints-section.png)
 
 In the Constraints section, there is one option available: Mandatory Answer.
 
@@ -275,7 +275,7 @@ when questions are randomly picked.
 There is only one field in the Conditional Display section: Triggering
 Answers.
 
-![The Conditional Display section of the options tab in the Odoo Surveys application.](../../../_images/conditional-display-section.png)
+![The Conditional Display section of the options tab in the Odoo Surveys application.](../../../.gitbook/assets/conditional-display-section.png)
 
 In the Triggering Answers field, select specific responses from previous questions that
 would trigger this question. More than one answer can be selected. Leave the field empty if the
@@ -289,7 +289,7 @@ supported by *Live Session* surveys.
 There is only one option available in the Live Sessions section: Question
 Time Limit.
 
-![The Live Sessions section of the Option tab in the Odoo Surveys application.](../../../_images/live-sessions-section.png)
+![The Live Sessions section of the Option tab in the Odoo Surveys application.](../../../.gitbook/assets/live-sessions-section.png)
 
 When the Question Time Limit option is enabled, designate how much time (in
 seconds) participants have to answer the question during a *Live Session* survey.

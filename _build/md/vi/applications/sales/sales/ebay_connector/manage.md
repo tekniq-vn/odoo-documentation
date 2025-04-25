@@ -36,7 +36,7 @@ In order to list a product, select the Sell on eBay field on a product template.
 Sell on eBay is either in an eBay tab or under the Product
 name. Click Save if necessary.
 
-![The eBay template form listed in the product template in Odoo.](../../../../_images/manage-ebay-template.png)
+![The eBay template form listed in the product template in Odoo.](../../../../.gitbook/assets/manage-ebay-template.png)
 
 When the Use Stock Quantity field is checked, the quantity set on eBay is the Odoo
 *Forecast Quantity* (Odoo *Inventory* app).
@@ -74,7 +74,7 @@ variant table at the bottom of the eBay tab, in which the Fixed Price can be
 entered, and the decision to Publish on eBay can be made for specific variants, along
 with other options.
 
-![The fixed price listing type in the eBay tab on a product form in Odoo sales.](../../../../_images/fixed-listing-price.png)
+![The fixed price listing type in the eBay tab on a product form in Odoo sales.](../../../../.gitbook/assets/fixed-listing-price.png)
 
 ## Product identifiers
 

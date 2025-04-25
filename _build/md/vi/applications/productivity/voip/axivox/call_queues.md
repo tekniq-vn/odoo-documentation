@@ -131,7 +131,7 @@ Connect an agent by clicking the orange button labeled, Connect an agent. Then, 
 the desired agent's name from the drop-down menu, and click Connect.
 
 ![Call queue with connected agents column highlighted and connect an agent and report buttons
-highlighted.](../../../../_images/call-queue.png)
+highlighted.](../../../../.gitbook/assets/call-queue.png)
 
 #### SEE ALSO
 For more information on static and dynamic agents, see this documentation:
@@ -171,7 +171,7 @@ options:
 - Transfer
 - Blind Transfer
 
-![Event types in the Axivox queue reporting feature.](../../../../_images/event-type.png)
+![Event types in the Axivox queue reporting feature.](../../../../.gitbook/assets/event-type.png)
 
 There is no limit to how many options can be selected from the Event type drop-down
 menu.
@@ -181,7 +181,7 @@ clicking Uncheck all removes all selections from the drop-down menu.
 
 To select an individual Event type, click on the desired option in the drop-down menu.
 
-![Axivox queue report with result, event type, and period highlighted.](../../../../_images/report1.png)
+![Axivox queue report with result, event type, and period highlighted.](../../../../.gitbook/assets/report1.png)
 
 ### Connect to queue on Odoo
 

@@ -23,7 +23,7 @@ browse for the Location. Set the Location as the *Google Workspace
 organization*. If a personal Gmail account is being used, leave the Location as
 No Organization.
 
-![Project Name and Location for Google OAuth.](../../../_images/new-project1.png)
+![Project Name and Location for Google OAuth.](../../../.gitbook/assets/new-project1.png)
 
 Click on Create to finish this step.
 
@@ -52,7 +52,7 @@ To begin this process, click Credentials in the left sidebar menu.
 Then, click Create Credentials in the top menu, and select API key from the
 drop-down menu.
 
-![Create an API key in the Google API console.](../../../_images/api-key.png)
+![Create an API key in the Google API console.](../../../.gitbook/assets/api-key.png)
 
 Copy the API key for use in the next section.
 
@@ -80,7 +80,7 @@ section. Enter the API key into the field labeled Message Translation. Then,
 Save the settings, and *Google Translate* can be used in any chatter throughout the
 database.
 
-![Odoo configuration of the API key from the *Google API Console*.](../../../_images/odoo-config.png)
+![Odoo configuration of the API key from the *Google API Console*.](../../../.gitbook/assets/odoo-config.png)
 
 ## Translate chatter
 
@@ -88,7 +88,7 @@ To translate a user's text from another language, click the ... (three dot) icon
 the right of the chatter. Then, select Translate. The content translates to the
 *language* set on the user's preferences.
 
-![Google Translate present in an Odoo database's chatter.](../../../_images/google-translate.png)
+![Google Translate present in an Odoo database's chatter.](../../../.gitbook/assets/google-translate.png)
 
 #### SEE ALSO
 [Thay đổi ngôn ngữ](../users/language.md#language-install)

@@ -17,7 +17,7 @@ results for that mailing. Click on one of the mailings in the list to open the r
 
 At the top of the record, detailed metrics are displayed as smart buttons.
 
-![The smart buttons on a mass mailing, displaying the results of the message.](../../../_images/metric-smart-buttons.png)
+![The smart buttons on a mass mailing, displaying the results of the message.](../../../.gitbook/assets/metric-smart-buttons.png)
 
 ### Tỷ lệ mở
 
@@ -136,5 +136,5 @@ The following define possible reasons for a high bounce rate or low received rat
 - Failing to [configure the proper DNS records](../../general/email_communication/email_domain.md) can also result in a high bounce rate.
 
 #### SEE ALSO
-- [Mailing campaigns](../email_marketing.md#email-marketing-mailing-campaigns)
+- [Mailing campaigns](./#email-marketing-mailing-campaigns)
 - [Manage unsubscriptions](unsubscriptions.md)

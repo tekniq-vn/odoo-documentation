@@ -30,7 +30,7 @@ consider the following product and stock moves scenario below.
 Next, assume 10 tables are purchased at a price of $10.00, each. The  for
 those tables will show the subtotal of the purchase as $100, plus any additional costs or taxes.
 
-![Purchase order with 10 tables products valued at $10.00 each.](../../../../../_images/purchase-order.png)
+![Purchase order with 10 tables products valued at $10.00 each.](../../../../../.gitbook/assets/purchase-order.png)
 
 After selecting Validate on the , the Valuation
 smart button is enabled. Clicking on this button displays a report showing how the inventory
@@ -40,7 +40,7 @@ valuation for the table was affected by this purchase.
 [Developer mode](../../../../general/developer_mode.md#developer-mode) **must** be turned on to see the Valuation
 smart button.
 
-![See Valuation smart button on a receipt, with Developer mode enabled.](../../../../../_images/valuation-smart-button.png)
+![See Valuation smart button on a receipt, with Developer mode enabled.](../../../../../.gitbook/assets/valuation-smart-button.png)
 
 For a comprehensive dashboard that includes the inventory valuation of all product shipments,
 inventory adjustments, and warehouse operations, refer to the [stock valuation report](#inventory-management-reporting-valuation-report).
@@ -51,7 +51,7 @@ In the same logic, when a table is shipped to a customer and leaves the warehous
 valuation decreases. The Valuation smart button on the ,
 likewise, displays the stock valuation record as it does on a .
 
-![Decreased stock valuation after a product is shipped.](../../../../../_images/decreased-stock-valuation.png)
+![Decreased stock valuation after a product is shipped.](../../../../../.gitbook/assets/decreased-stock-valuation.png)
 
 <a id="inventory-management-reporting-valuation-report"></a>
 
@@ -66,7 +66,7 @@ inventory.
 [Developer mode](../../../../general/developer_mode.md#developer-mode) **must** be enabled to see the Valuation
 option under Reporting.
 
-![Inventory valuation report showing multiple products.](../../../../../_images/inventory-valuation-products.png)
+![Inventory valuation report showing multiple products.](../../../../../.gitbook/assets/inventory-valuation-products.png)
 
 The Valuation At Date button, located in the top-left corner of the Stock
 Valuation page, reveals a pop-up window. In this pop-up, the inventory valuation of products
@@ -83,7 +83,7 @@ Manual valuation is intended for products that can be purchased and received for
 than 0, or have product categories set with Costing Method set as either
 Average Cost (AVCO) or First In First Out (FIFO).
 
-![Add manual valuation of stock value to a product.](../../../../../_images/add-manual-valuation.png)
+![Add manual valuation of stock value to a product.](../../../../../.gitbook/assets/add-manual-valuation.png)
 
 Tạo bút toán định giá thủ công trên trang chủ Định giá tồn kho bằng cách đầu tiên đi đến Ứng dụng Tồn kho ‣ Báo cáo ‣ Định giá. Tiếp theo, để bật tính năng  *định giá lại sản phẩm*, chọn Nhóm theo ‣ Sản phẩm để sắp xếp tất cả bản ghi theo sản phẩm. Nhấp vào biểu tượng ▶️ (tam giác xổ xuống) màu xám để hiển thị các dòng định giá tồn kho bên dưới, cũng như nút ➕ (dấu cộng) màu xanh dương ở bên phải.
 
@@ -95,7 +95,7 @@ unit price of each product.
 The ▶️ (drop-down triangle) and ➕ (plus) buttons are only visible after
 grouping entries by product.
 
-![Product revaluation form adding a value of $1.00 with the reason being inflation.](../../../../../_images/product-revaluation.png)
+![Product revaluation form adding a value of $1.00 with the reason being inflation.](../../../../../.gitbook/assets/product-revaluation.png)
 
 ### Inventory valuation journal entries
 

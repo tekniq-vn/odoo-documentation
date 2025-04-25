@@ -40,7 +40,7 @@ There are two options:
 
 To create a credit note from scratch, go to Accounting ‣ Customers ‣ Credit
 Notes, and click New. Filling out a credit note follows the same process as completing
-an [invoice](../customer_invoices.md#accounting-invoice-creation).
+an [invoice](./#accounting-invoice-creation).
 
 #### NOTE
 A credit note sequence starts with `R` and is followed by the related document number (e.g.,

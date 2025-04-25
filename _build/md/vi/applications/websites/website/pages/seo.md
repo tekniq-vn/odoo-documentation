@@ -7,7 +7,7 @@ speed.
 
 #### NOTE
 - Odoo provides several modules to help you build your website content, such as
-  [eCommerce](../../ecommerce.md), [Blog](../../blog.md), [eLearning](../../elearning.md), and [Forum](../../forum.md).
+  [eCommerce](../../ecommerce/), [Blog](../../blog.md), [eLearning](../../elearning.md), and [Forum](../../forum.md).
 - All Odoo [themes](../web_design/themes.md) rely on the CSS Framework [Bootstrap](https://getbootstrap.com/) to render efficiently according to the device: desktop, tablet,
   or mobile, which positively impacts ranking in search engines.
 
@@ -16,7 +16,7 @@ speed.
 To optimize a webpage's SEO, access the page, then go to Website ‣ Site ‣
 Optimize SEO.
 
-![Tối ưu hoá SEO](../../../../_images/optimize-seo.png)
+![Tối ưu hoá SEO](../../../../.gitbook/assets/optimize-seo.png)
 
 ### Meta tags
 
@@ -56,7 +56,7 @@ image by clicking the upward arrow.
   shared.
 - If you change the title of a blog post or the name of a product, the changes apply
   automatically everywhere on your website. The old link still functions when external websites
-  use a [301 redirect](../pages.md#website-url-redirection), maintaining the SEO link juice.
+  use a [301 redirect](./#website-url-redirection), maintaining the SEO link juice.
 
 ## Hình ảnh
 
@@ -68,7 +68,7 @@ Odoo tự động nén các hình ảnh được tải lên và chuyển đổi 
 **To modify an image** from your website, select the image, click Edit, then go to the
 Customize tab, and adapt the Format in the Image section.
 
-![automated image compression](../../../../_images/image-format.png)
+![automated image compression](../../../../.gitbook/assets/image-format.png)
 
 #### IMPORTANT
 Thẻ alt được sử dụng để cung cấp ngữ cảnh cho nội dung mà hình ảnh hiển thị, giúp các trình thu thập dữ liệu của công cụ tìm kiếm hiểu và lập chỉ mục hình ảnh một cách chính xác. Từ góc độ SEO, việc thêm từ khóa thẻ alt vào trường Mô tả là rất quan trọng. Mô tả này sẽ được thêm vào mã HTML của hình ảnh và sẽ hiển thị khi hình ảnh không thể được hiển thị.
@@ -86,7 +86,7 @@ for content types, including Reviews, People, Products, Businesses, Events, and 
 
 Microdata là một tập hợp thẻ, xuất hiện cùng HTML5, giúp công cụ tìm kiếm hiểu rõ hơn nội dung của bạn và hiển thị nó một cách phù hợp. Odoo triển khai microdata theo [đặc tả](https://schema.org/docs/gs.html) của schema.org cho sự kiện, sản phẩm thương mại điện tử, bài đăng diễn đàn và địa chỉ liên hệ. Điều này cho phép trang sản phẩm của bạn hiển thị trên Google với các thông tin bổ sung như giá cả và đánh giá sản phẩm:
 
-![snippets in search engine results](../../../../_images/data-markup.png)
+![snippets in search engine results](../../../../.gitbook/assets/data-markup.png)
 
 ### robots.txt
 

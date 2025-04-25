@@ -1,0 +1,17 @@
+# Quản lý sản phẩm
+
+* [Cấu hình sản phẩm](configure/)
+  * [Loại sản phẩm](configure/type.md)
+  * [Đơn vị tính](configure/uom.md)
+  * [Kiện hàng](configure/package.md)
+  * [Gói hàng](configure/packaging.md)
+* [Theo dõi sản phẩm](product_tracking/)
+  * [Sử dụng số sê-ri để theo dõi sản phẩm](product_tracking/serial_numbers.md)
+  * [Chỉ định số sê-ri](product_tracking/create_sn.md)
+  * [Số lô](product_tracking/lots.md)
+  * [Reassign lot/serial numbers](product_tracking/reassign.md)
+  * [Ngày hết hạn](product_tracking/expiration_dates.md)
+* [Định giá tồn kho](inventory_valuation/)
+  * [Định giá tồn kho tự động](inventory_valuation/inventory_valuation_config.md)
+  * [Using inventory valuation](inventory_valuation/using_inventory_valuation.md)
+  * [Landed costs](inventory_valuation/landed_costs.md)

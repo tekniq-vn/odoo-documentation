@@ -60,4 +60,4 @@ the quantities to fulfill the Demand are picked. All fifteen of the units stored
 closest location, `WH/Stock/Shelf 1`, are picked first. The remaining three units are then selected
 from the second closest location, `WH/Stock/Shelf 2`.
 
-![Display *Pick From* quantities for the order for iPhone chargers.](../../../../../.gitbook/assets/stock-move-window.png)
+![Display *Pick From* quantities for the order for iPhone chargers.](../../../../../_images/stock-move-window.png)

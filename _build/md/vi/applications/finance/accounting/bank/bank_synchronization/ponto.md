@@ -21,12 +21,12 @@ and Odoo.
 1. Go to [Ponto's website (https://myponto.com)](https://myponto.com).
 2. Create an account if you don't have one yet.
 3. Once you are logged in, create an *organization*.
-   ![Fill out the form to add an organization in Ponto.](../../../../../.gitbook/assets/ponto-organization.png)
+   ![Fill out the form to add an organization in Ponto.](../../../../../_images/ponto-organization.png)
 4. Go to Accounts ‣ Live, and click Add account. You might have to
    add your **Billing Information** first.
 5. Select your country, your bank institutions, give your consent to Ponto, and follow the steps
    on-screen to link your bank account with your Ponto account.
-   ![Add bank accounts to your Ponto account.](../../../../../.gitbook/assets/ponto-add-account.png)
+   ![Add bank accounts to your Ponto account.](../../../../../_images/ponto-add-account.png)
 6. Add all bank accounts you want to synchronize with your Odoo database and move to the next steps.
 
 ### Link your Ponto account with your Odoo database
@@ -37,7 +37,7 @@ and Odoo.
 3. Click Connect and follow the steps.
 4. Select **all accounts** you want to access and synchronize in Odoo, even the ones coming from
    other banking institutions.
-   ![Selection of the accounts you wish to synchronize with Odoo.](../../../../../.gitbook/assets/ponto-select-accounts.png)
+   ![Selection of the accounts you wish to synchronize with Odoo.](../../../../../_images/ponto-select-accounts.png)
 5. Finish the flow.
 
 #### NOTE

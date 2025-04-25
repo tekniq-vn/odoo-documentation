@@ -22,7 +22,7 @@ Select a Company from the drop-down menu to assign this team to.
 #### NOTE
 The Company field is only visible in multi-company databases, and is not required.
 
-![The settings page for a new sales team.](../../../../.gitbook/assets/sales-team-creation.png)
+![The settings page for a new sales team.](../../../../_images/sales-team-creation.png)
 
 #### NOTE
 If the *Sales* app is installed on the database, an Invoicing Target field appears on
@@ -40,13 +40,13 @@ If the Rule-Based Assignment feature has **not** been enabled on the *CRM* app's
 Add: Salespersons pop-up window. Tick the checkbox to the far-left of the
 salesperson to be added to the team, then click Select.
 
-![The Add: Salespersons pop-up window on a new sales team.](../../../../.gitbook/assets/add-salespersons.png)
+![The Add: Salespersons pop-up window on a new sales team.](../../../../_images/add-salespersons.png)
 
 Select a user from the Salesperson drop-down list to add them to the team. To prevent
 this salesperson from being automatically assigned leads, tick the Skip auto assignment
 checkbox. If this feature is activated, the salesperson can still be assigned leads manually.
 
-![The Create Sales Team Members pop-up window.](../../../../.gitbook/assets/create-sales-team-members.png)
+![The Create Sales Team Members pop-up window.](../../../../_images/create-sales-team-members.png)
 
 The Leads (30 days) field tracks how many leads the salesperson has been assigned in the
 past thirty days for this team, and the maximum number of leads they should be assigned. To edit the
@@ -62,7 +62,7 @@ be enabled. First, navigate to CRM app ‣ Configuration ‣ Settings. Under the
 CRM section, tick the checkbox labeled Multi Teams. Then, click
 Save at the top-left of the page.
 
-![The settings page of the CRM app with the Multi Teams setting enabled.](../../../../.gitbook/assets/enable-multi-teams.png)
+![The settings page of the CRM app with the Multi Teams setting enabled.](../../../../_images/enable-multi-teams.png)
 
 <a id="crm-sales-team-dashboard"></a>
 
@@ -71,7 +71,7 @@ Save at the top-left of the page.
 To view the sales team dashboard, go to CRM app ‣ Sales ‣ Teams. Any team the
 user is a member of appears in the dashboard.
 
-![The sales team dashboard in the CRM app.](../../../../.gitbook/assets/sales-teams-dashboard.png)
+![The sales team dashboard in the CRM app.](../../../../_images/sales-teams-dashboard.png)
 
 Each Kanban card gives an overview of the sales team's open opportunities, quotations, sales orders,
 and expected revenue, as well as a bar graph of new opportunities per week, and an invoicing

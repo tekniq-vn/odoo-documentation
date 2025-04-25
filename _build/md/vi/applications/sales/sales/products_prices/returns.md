@@ -15,11 +15,11 @@ To start a return before invoicing, navigate to the Sales app, select the desire
 sales order, and click on the Delivery smart button to open the associated delivery
 order.
 
-![A typical sales order with a highlighted delivery smart button in Odoo Sales.](../../../../.gitbook/assets/sales-order-delivery-smart-button.png)
+![A typical sales order with a highlighted delivery smart button in Odoo Sales.](../../../../_images/sales-order-delivery-smart-button.png)
 
 On the validated delivery order, click Return.
 
-![A validated delivery order with a highlighted Return button in Odoo Sales.](../../../../.gitbook/assets/validated-delivery-order-return-button.png)
+![A validated delivery order with a highlighted Return button in Odoo Sales.](../../../../_images/validated-delivery-order-return-button.png)
 
 This opens a Reverse Transfer pop-up window.
 
@@ -27,18 +27,18 @@ By default, the Quantity matches the validated quantities from the delivery orde
 Update the quantities, if necessary. Click on the 🗑️ (trash) icon next to a line item
 to remove it from the return.
 
-![The "Reverse Transfer" pop-up window, to make a return before invoicing the customer.](../../../../.gitbook/assets/reverse-transfer-popup.png)
+![The "Reverse Transfer" pop-up window, to make a return before invoicing the customer.](../../../../_images/reverse-transfer-popup.png)
 
 Next, click Return to confirm the return. This generates a new warehouse operation for
 the incoming returned product(s).
 
-![Warehouse operation after a return has been confirmed in Odoo Sales.](../../../../.gitbook/assets/warehouse-operation-confirmed-return.png)
+![Warehouse operation after a return has been confirmed in Odoo Sales.](../../../../_images/warehouse-operation-confirmed-return.png)
 
 Upon receiving the return, the warehouse team validates the warehouse operation by clicking
 Validate. Then, on the original sales order, the Delivered quantity updates
 to reflect the difference between the initial validated quantities and the returned quantities.
 
-![The updated "Delivered" quantity on the sales order after the reverse transfer.](../../../../.gitbook/assets/updated-sales-quantities.png)
+![The updated "Delivered" quantity on the sales order after the reverse transfer.](../../../../_images/updated-sales-quantities.png)
 
 When an invoice is created, the customer receives an invoice **only** for the products they are
 keeping, if any.
@@ -59,7 +59,7 @@ If there is a payment registered on the sales order, the payment details appear 
 the invoice (accessible through the Invoices smart button) has a green In
 Payment banner.
 
-![Sample of a green in payment banner in Odoo Sales.](../../../../.gitbook/assets/green-in-payment-banner.png)
+![Sample of a green in payment banner in Odoo Sales.](../../../../_images/green-in-payment-banner.png)
 
 From the sales order, click on the Delivery smart button to view the validated delivery
 order. Then, click Return to open the Reverse Transfer pop-up window.
@@ -76,11 +76,11 @@ To process a refund, navigate to the relevant invoice (from the sales order, cli
 Invoices smart button). Then, click the Credit Note button at the top of the
 validated invoice.
 
-![A typical customer invoice with a Credit Note button highlighted in Odoo Sales.](../../../../.gitbook/assets/credit-note-button.png)
+![A typical customer invoice with a Credit Note button highlighted in Odoo Sales.](../../../../_images/credit-note-button.png)
 
 Doing so reveals a Credit Note pop-up form.
 
-![Typical credit note pop-up form that appears in Odoo Sales.](../../../../.gitbook/assets/credit-note-pop-up-form.png)
+![Typical credit note pop-up form that appears in Odoo Sales.](../../../../_images/credit-note-pop-up-form.png)
 
 Start by entering a Reason displayed on Credit Note and a specific Journal
 to process the credit. Then, select a specific Reversal Date.

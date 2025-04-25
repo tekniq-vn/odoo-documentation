@@ -25,7 +25,7 @@ Trên Odoo.sh, trong chế độ xem nhánh của dự án, hãy chọn nhánh m
 
 Ở góc trên bên phải, nhấp vào nút *Phân hệ phụ*, sau đó nhấp vào *Chạy*.
 
-![image](../../../.gitbook/assets/advanced-submodules-button.png)
+![image](../../../_images/advanced-submodules-button.png)
 
 Một hộp thoại có biểu mẫu sẽ hiển thị. Điền các thông tin đầu vào như sau:
 
@@ -33,11 +33,11 @@ Một hộp thoại có biểu mẫu sẽ hiển thị. Điền các thông tin 
 * Nhánh: Nhánh bạn muốn sử dụng.
 * Đường dẫn: Thư mục mà bạn muốn thêm phân hệ phụ này vào nhánh của mình.
 
-![image](../../../.gitbook/assets/advanced-submodules-dialog.png)
+![image](../../../_images/advanced-submodules-dialog.png)
 
 Trên Github, bạn có thể lấy URL kho lưu trữ bằng nút *Sao chép hoặc tải xuống* của kho lưu trữ. Hãy nhớ *sử dụng SSH*.
 
-![image](../../../.gitbook/assets/advanced-submodules-github-sshurl.png)
+![image](../../../_images/advanced-submodules-github-sshurl.png)
 
 <a id="odoosh-advanced-submodules-withgit"></a>
 

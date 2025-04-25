@@ -31,7 +31,7 @@ Settings and under the Fiscal Localization section at the top, look for the `Gen
 Chart Template` selection to be listed next to the Package field label. This chart
 template includes the necessary settings for the US localization for the Odoo *Accounting* app.
 
-![The Generic Chart Template comes pre-configured for the US localization.](../../../.gitbook/assets/us-l10n-generic-chart-template.png)
+![The Generic Chart Template comes pre-configured for the US localization.](../../../_images/us-l10n-generic-chart-template.png)
 
 ### Modules installation
 
@@ -104,7 +104,7 @@ the <i class="fa fa-caret-down"></i> (caret down) icon to access the drop-down m
 select Account Type under the Group By column heading to list all of the
 account types in the table.
 
-![Chart of Accounts grouped by Account Type.](../../../.gitbook/assets/us-l10n-coa-account-types.png)
+![Chart of Accounts grouped by Account Type.](../../../_images/us-l10n-coa-account-types.png)
 
 Besides structure, there are other key differences in the chart of accounts in the United States,
 compared to other countries:
@@ -204,7 +204,7 @@ Depending on the type of report, certain filters are available at the top of the
   - There are view options in this filter, as well, one that will Hide lines at 0 for
     more relevant viewing, along with a Split Horizontally option to keep the report
     above the screen's fold, removing the need to scroll.
-    ![Accounting method filter menu for reports, covering accrual vs. cash basis methods.](../../../.gitbook/assets/us-l1on-accounting-method-reporting-menu.png)
+    ![Accounting method filter menu for reports, covering accrual vs. cash basis methods.](../../../_images/us-l1on-accounting-method-reporting-menu.png)
 - a *decimal* filter, that by default, includes figures with cents, as indicated by the
   In .$ setting. Use the other options in the drop-down menu to change figures in the
   report to whole numbers (In $), thousands (In K$), or millions
@@ -258,7 +258,7 @@ Chart of Accounts dashboard will be included in the report, which includes:
 Operating Activities, Financing Activities, and Investing &
 Extraordinary Activities.
 
-![Examples of tagged accounts that are included in the Cash Flow Statement in Odoo.](../../../.gitbook/assets/us-l10n-cash-flow-statement-tags.png)
+![Examples of tagged accounts that are included in the Cash Flow Statement in Odoo.](../../../_images/us-l10n-cash-flow-statement-tags.png)
 
 Additionally, the cash flow statement in Odoo:
 
@@ -483,7 +483,7 @@ with, a  configuration section needs to be filled out on the Odoo database.
 First, navigate to the Accounting app ‣ Configuration ‣ Journals. Open the
 bank journal and click into the Outgoing Payments tab.
 
-![NACHA (National Automated Clearing House Association) configuration settings on Odoo.](../../../.gitbook/assets/us-l10n-nacha-settings.png)
+![NACHA (National Automated Clearing House Association) configuration settings on Odoo.](../../../_images/us-l10n-nacha-settings.png)
 
 #### NOTE
 The following  configuration information is normally provided by the company's financial
@@ -508,7 +508,7 @@ Enter the numerical values in this section *exactly* as the company's financial 
 (e.g. bank or credit union) has provided them, otherwise risk failing a successful 
 configuration in Odoo.
 
-![NACHA settings with the standard entry class code drop-down menu highlighted.](../../../.gitbook/assets/us-l10n-nacha-dropdown.png)
+![NACHA settings with the standard entry class code drop-down menu highlighted.](../../../_images/us-l10n-nacha-dropdown.png)
 
 There are two options for the next field: Standard Entry Class Code. Select the
 drop-down menu to the right of the field and pick either Corporate Credit or Debit (CCD)
@@ -542,7 +542,7 @@ To create the batch payments, access the payments page, by navigating to Account
 file, by ticking the checkboxes to the far-left of the rows.
 
 ![On the payments screen, the action menu is highlighted with create a batch payment
-selected.](../../../.gitbook/assets/us-l10n-create-batch-payments.png)
+selected.](../../../_images/us-l10n-create-batch-payments.png)
 
 #### IMPORTANT
 All payments in the batch **must** share the same  payment method.
@@ -552,7 +552,7 @@ Click into the payment just created and then click into the Exported File tab. T
 generated file is listed with the Generation Date. Click the <i class="fa fa-download"></i>
 (download) button to download the file.
 
-![The exported file tab highlighted in the batch payment with the download circled.](../../../.gitbook/assets/us-l10n-batch-file.png)
+![The exported file tab highlighted in the batch payment with the download circled.](../../../_images/us-l10n-batch-file.png)
 
 If any adjustments need to be made, click the Re-generate Export File button to recreate
 a new   file.

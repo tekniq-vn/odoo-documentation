@@ -28,7 +28,7 @@ Multi-Step Routes features are enabled.
 
 Next, activate the Storage Categories feature. Finally, click Save.
 
-![Show the Storage Categories feature.](../../../../../.gitbook/assets/enable-categories.png)
+![Show the Storage Categories feature.](../../../../../_images/enable-categories.png)
 
 <a id="inventory-routes-define-storage"></a>
 

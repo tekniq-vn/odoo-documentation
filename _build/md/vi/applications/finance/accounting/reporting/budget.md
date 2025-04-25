@@ -35,11 +35,11 @@ First, we need to define what accounts relate to our project’s expenses. Go to
 Accounting ‣ Configuration ‣ Management: Budgetary positions, and click
 New to add a position. Add the accounts wherein expenses will be booked.
 
-![display the Smith and Co expenses](../../../../.gitbook/assets/smith-and-co-expenses.png)
+![display the Smith and Co expenses](../../../../_images/smith-and-co-expenses.png)
 
 Let's repeat the steps to create a budgetary position that reflects the revenue.
 
-![display the Smith and Co revenue](../../../../.gitbook/assets/smith-and-co-revenue.png)
+![display the Smith and Co revenue](../../../../_images/smith-and-co-revenue.png)
 
 ### Analytical accounts
 
@@ -55,7 +55,7 @@ Analytic Plans.
 
 When creating a new customer invoice and/or vendor bill, you have to refer to this analytic account.
 
-![add analytic accounts in a new invoice or bill.](../../../../.gitbook/assets/analytic-accounts.png)
+![add analytic accounts in a new invoice or bill.](../../../../_images/analytic-accounts.png)
 
 ### Define the budget
 
@@ -67,7 +67,7 @@ First, fill in your Budget Name. Then, select the Period wherein the budget
 is applicable. Next, add the Budgetary Position you want to track, define the related
 Analytic Account, and add the Planned Amount.
 
-![budget lines display](../../../../.gitbook/assets/define-the-budget.png)
+![budget lines display](../../../../_images/define-the-budget.png)
 
 #### NOTE
 When recording a planned amount related to expenses, the amount must be negative.

@@ -30,13 +30,13 @@ field once your database server is connected to the IoT system. Click Configure,
 in the Terminal ID field with the ID received from Six, and click Connect.
 Your Six terminal ID should appear in the Current Terminal Id section.
 
-![Setting the Six terminal ID](../../../../../.gitbook/assets/terminal-id.png)
+![Setting the Six terminal ID](../../../../../_images/terminal-id.png)
 
 Odoo automatically restarts the IoT system when the Six terminal ID is configured. If your Six
 terminal is online, it will be automatically detected and connected to the database. Check the IoT
 system's homepage under the Payments section to confirm the connection.
 
-![Confirming the connection to the Six payment terminal](../../../../../.gitbook/assets/id-configured.png)
+![Confirming the connection to the Six payment terminal](../../../../../_images/id-configured.png)
 
 <a id="six-configure"></a>
 
@@ -47,4 +47,4 @@ Enable the payment terminal [in the application settings](../../configuration.md
 Bank and select SIX IOT in the Use a Payment Terminal field.
 Then, select your terminal device in the Payment Terminal Device field.
 
-![Creating a new payment method for the SIX payment terminal](../../../../../.gitbook/assets/new-payment-method.png)
+![Creating a new payment method for the SIX payment terminal](../../../../../_images/new-payment-method.png)

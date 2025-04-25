@@ -6,7 +6,7 @@ companies, where every employee is also a user, this feature may be useful.
 
 Người dùng có thể chấm check in/out trên bảng điều khiển chính của cơ sở dữ liệu Odoo hoặc khi đang ở trong bất kỳ ứng dụng nào. Để thực hiện, ở góc trên cùng bên phải của menu tiêu đề chính (luôn hiển thị bất kể người dùng đang ở ứng dụng nào), sẽ hiển thị biểu tượng 🔴 (vòng tròn đỏ) hoặc 🟢 (vòng tròn xanh). Nhấp vào vòng tròn màu để hiển thị ích chấm công, cho phép người dùng check in/out.
 
-![Top right main menu with check in button highlighted.](../../../.gitbook/assets/top-menu.png)
+![Top right main menu with check in button highlighted.](../../../_images/top-menu.png)
 
 <a id="attendances-check-in"></a>
 
@@ -16,7 +16,7 @@ If the attendance widget circle is red, this indicates the user is not currently
 the 🔴 (red circle), and the attendance widget appears, displaying a green
 Check in <i class="fa fa-sign-in"></i> button.
 
-![Top right main menu with check in button highlighted.](../../../.gitbook/assets/check-in.png)
+![Top right main menu with check in button highlighted.](../../../_images/check-in.png)
 
 When the user checks in from the database, the *Attendances* app logs the location details for the
 user, including the IP Address and GPS coordinates.
@@ -54,4 +54,4 @@ When the user checks out from the database, the *Attendances* app logs the locat
 user. This information is **only** logged if the user allows their computer to access this
 information.
 
-![The pop-up that appears when an employee checks in inside the database.](../../../.gitbook/assets/check-in-database-message.png)
+![The pop-up that appears when an employee checks in inside the database.](../../../_images/check-in-database-message.png)

@@ -26,7 +26,7 @@ Có thể tạo hoạt động từ nội dung trò chuyện trên bất kỳ b�
 
 Để lên lịch cho một hoạt động mới, nhấp nút Hoạt động, nằm ở đầu cửa sổ trò chuyện. Trong cửa sổ pop-up Lên lịch hoạt động xuất hiện, [điền vào biểu mẫu Lên lịch hoạt động](#activities-form).
 
-![Biểu mẫu loại hoạt động mới.](../../.gitbook/assets/chatter.png)
+![Biểu mẫu loại hoạt động mới.](../../_images/chatter.png)
 
 <a id="activities-kanban"></a>
 
@@ -44,7 +44,7 @@ Bạn có thể tạo hoạt động từ chế độ xem <i class="oi oi-view-k
 
 Nhấp + Lên lịch một hoạt động, sau đó [điền vào biểu mẫu Lên lịch hoạt động](#activities-form).
 
-![Chế độ xem kanban của chu trình CRM và tùy chọn lên lịch hoạt động.](../../.gitbook/assets/schedule-kanban-activity.png)
+![Chế độ xem kanban của chu trình CRM và tùy chọn lên lịch hoạt động.](../../_images/schedule-kanban-activity.png)
 
 #### NOTE
 Nếu một bản ghi đã có hoạt động được lên lịch, biểu tượng 
@@ -80,7 +80,7 @@ Nếu một bản ghi đã có hoạt động được lên lịch, biểu tư�
 
  sẽ được thay thế bằng biểu tượng đại diện cho hoạt động được lên lịch có sẵn. Nhấp vào biểu tượng của loại hoạt động để lên lịch hoạt động khác.
 
-![Chế độ xem danh sách của chu trình CRM và tùy chọn lên lịch hoạt động.](../../.gitbook/assets/schedule-list-activity.png)
+![Chế độ xem danh sách của chu trình CRM và tùy chọn lên lịch hoạt động.](../../_images/schedule-list-activity.png)
 
 <a id="activities-activity"></a>
 
@@ -102,7 +102,7 @@ Hầu hết các ứng dụng trong Odoo đều có chế độ xem *Hoạt đ�
 
 .
 
-![Menu góc trên bên phải có biểu tượng Hoạt động.](../../.gitbook/assets/activities.png)
+![Menu góc trên bên phải có biểu tượng Hoạt động.](../../_images/activities.png)
 
 Ở chế độ xem này, mọi hoạt động có sẵn sẽ được liệt kê trong các cột, trong khi các dòng theo chiều ngang thể hiện tất cả bản ghi riêng lẻ.
 
@@ -117,7 +117,7 @@ Màu sắc của hoạt động và mối quan hệ của chúng với ngày h�
 
 Để lên lịch hoạt động cho một bản ghi, hãy di chuột qua trường tương ứng. Nhấp vào biểu tượng <i class="fa fa-plus"></i> (dấu cộng), sau đó  [điền vào biểu mẫu Lên lịch hoạt động](#activities-form).
 
-![Chế độ xem hoạt động của chu trình CRM và tùy chọn lên lịch hoạt động.](../../.gitbook/assets/activity-view.png)
+![Chế độ xem hoạt động của chu trình CRM và tùy chọn lên lịch hoạt động.](../../_images/activity-view.png)
 
 <a id="activities-form"></a>
 
@@ -148,7 +148,7 @@ Khi cửa sổ bật lên Lên lịch hoạt động hoàn tất, hãy nhấp v�
 - Hoàn tất & Lên lịch tiếp theo: thêm chi tiết về hoạt động vào phần Hôm nay trong cửa sổ trò chuyện. Hoạt động không được lên lịch, được tự động đánh dấu là hoàn tất và cửa sổ bật lên Lên lịch hoạt động mới sẽ xuất hiện.
 - Huỷ bỏ: huỷ mọi thay đổi được thực hiện trên cửa sổ bật lên Lên lịch hoạt động.
 
-![Chế độ xem lead CRM và tùy chọn lên lịch hoạt động.](../../.gitbook/assets/schedule-pop-up.png)
+![Chế độ xem lead CRM và tùy chọn lên lịch hoạt động.](../../_images/schedule-pop-up.png)
 
 <a id="activities-all"></a>
 
@@ -187,7 +187,7 @@ Nhập thông tin sau đây trên biểu mẫu:
 
 Khi đã hoàn thành tất cả các trường, hãy nhấp vào Yêu cầu để gửi yêu cầu tài liệu.
 
-![Biểu mẫu Yêu cầu tệp, trong đó đã điền đầy đủ các trường để yêu cầu một hợp đồng.](../../.gitbook/assets/request-doc.png)
+![Biểu mẫu Yêu cầu tệp, trong đó đã điền đầy đủ các trường để yêu cầu một hợp đồng.](../../_images/request-doc.png)
 
 <a id="activities-types"></a>
 
@@ -195,11 +195,11 @@ Khi đã hoàn thành tất cả các trường, hãy nhấp vào Yêu cầu đ�
 
 Để xem các loại hoạt động hiện được cấu hình trong cơ sở dữ liệu, hãy đi đến Cài đặt ứng dụng ‣ Phần Thảo luận ‣ Cài đặt hoạt động ‣ Loại hoạt động.
 
-![Nút Loại hoạt động trong phần Thảo luận của ứng dụng Cài đặt.](../../.gitbook/assets/settings-activities-types.png)
+![Nút Loại hoạt động trong phần Thảo luận của ứng dụng Cài đặt.](../../_images/settings-activities-types.png)
 
 Thao tác này sẽ hiển thị trang Loại hoạt động, nơi chứa các loại hoạt động hiện có.
 
-![Danh sách các loại hoạt động đã được cấu hình và có sẵn.](../../.gitbook/assets/activity-list.png)
+![Danh sách các loại hoạt động đã được cấu hình và có sẵn.](../../_images/activity-list.png)
 
 ### Chỉnh sửa loại hoạt động
 
@@ -250,7 +250,7 @@ Bạn có thể kích hoạt hoặc đề xuất một hoạt động khác. Đ�
 
   Cuối cùng, sử dụng menu thả xuống, chọn xem hoạt động được lên lịch hay kích hoạt sau thời hạn hoạt động trước đó hay sau ngày hoàn thành.
 
-![Một biểu mẫu Hoạt động mới được điền đầy đủ thông tin](../../.gitbook/assets/new-activity.png)
+![Một biểu mẫu Hoạt động mới được điền đầy đủ thông tin](../../_images/new-activity.png)
 
 #### SEE ALSO
 - [Thảo luận](../productivity/discuss.md)

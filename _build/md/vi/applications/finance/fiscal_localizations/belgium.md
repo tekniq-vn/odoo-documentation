@@ -77,7 +77,7 @@ Here is the list of Belgian-specific reports available:
 You can access Belgian-specific versions of reports by clicking on the **book** icon when on a
 report and selecting its Belgian version: **(BE)**.
 
-![Belgian version of reports](../../../.gitbook/assets/belgian-reports.png)
+![Belgian version of reports](../../../_images/belgian-reports.png)
 
 #### SEE ALSO
 [Báo cáo](../accounting/reporting.md)
@@ -102,7 +102,7 @@ Let's take an example reflecting **restaurant** and **car expenses**.
 In Belgium, 31% of **restaurant** expenses are non-deductible. Create a new **disallowed expenses
 category** and set both Related Account(s) and Current Rate.
 
-![Danh mục chi phí không được phép](../../../.gitbook/assets/restaurant-expenses.png)
+![Danh mục chi phí không được phép](../../../_images/restaurant-expenses.png)
 
 <a id="belgium-vehicle-split"></a>
 
@@ -113,12 +113,12 @@ Tại Bỉ, tỷ lệ khấu trừ thay đổi tùy theo từng xe và do đó c
 When you create a bill for car expenses, you can link each expense to a specific car by filling the
 Vehicle column, so the right percentage is applied.
 
-![Danh mục chi phí không được phép](../../../.gitbook/assets/car-bill.png)
+![Danh mục chi phí không được phép](../../../_images/car-bill.png)
 
 The vehicle split option available in the disallowed expenses report allows you to see
 the rate and disallowed amount for each car.
 
-![Danh mục chi phí không được phép](../../../.gitbook/assets/vehicle-split.png)
+![Danh mục chi phí không được phép](../../../_images/vehicle-split.png)
 
 <a id="belgium-forms"></a>
 
@@ -130,7 +130,7 @@ the rate and disallowed amount for each car.
 
 Hàng năm, một **biểu mẫu phí 281.50** phải được báo cáo cho cơ quan thuế. Để thực hiện, thẻ `281.50` phải được thêm vào **biểu mẫu liên hệ** của các thực thể chịu **phí 281.50**. Để thêm thẻ, mở Liên hệ, chọn cá nhân hoặc công ty bạn muốn tạo **biểu mẫu phí 281.50**, và thêm thẻ `281.50` vào trường Thẻ.
 
-![add the tag 281.50 on a contact form](../../../.gitbook/assets/281-50.png)
+![add the tag 281.50 on a contact form](../../../_images/281-50.png)
 
 #### NOTE
 Make sure the **street, zip code, country**, and **VAT number** are also informed on the
@@ -150,7 +150,7 @@ Create 325 form. A new page pops up: select the right options and click Generate
 form. To open an already generated **325 form**, go to Accounting ‣ Reporting ‣
 Belgium: Open 325 forms.
 
-![Add the tag 281-50 on a contact form](../../../.gitbook/assets/325-form.png)
+![Add the tag 281-50 on a contact form](../../../_images/325-form.png)
 
 <a id="belgium-coda-soda"></a>
 
@@ -164,7 +164,7 @@ Belgium: Open 325 forms.
 files from your bank and import them directly into Odoo by clicking Import file from
 your Bank journal on your dashboard.
 
-![Nhập tệp CODA](../../../.gitbook/assets/coda-import.png)
+![Nhập tệp CODA](../../../_images/coda-import.png)
 
 #### SEE ALSO
 [Import bank files](../accounting/bank/transactions.md#transactions-import)
@@ -179,7 +179,7 @@ files can be imported into the journal you use to record salaries by going to yo
 
 Once your **SODA** files are imported, the entries are created automatically in your salary journal.
 
-![Nhập tệp SODA](../../../.gitbook/assets/soda-import.png)
+![Nhập tệp SODA](../../../_images/soda-import.png)
 
 <a id="belgium-einvoicing"></a>
 
@@ -257,7 +257,7 @@ Dành cho tệp CODA
 2. Set the right IBAN in the Account Number field.
 3. Select CodaBox synchronization as the Bank Feed.
 
-![Configuration of a CODA journal.](../../../.gitbook/assets/codabox_configuration_coda_journal.png)
+![Configuration of a CODA journal.](../../../_images/codabox_configuration_coda_journal.png)
 
 Dành cho tệp SODA
 
@@ -266,7 +266,7 @@ Dành cho tệp SODA
    CodaBox section.
 3. Select the journal you just created in the SODA journal field.
 
-![Configuration of a SODA journal.](../../../.gitbook/assets/codabox_configuration_soda_setting.png)
+![Configuration of a SODA journal.](../../../_images/codabox_configuration_soda_setting.png)
 
 #### Đồng bộ
 
@@ -440,11 +440,11 @@ Before setting up your database to work with an FDM, ensure you have the followi
 As a pre-requisite, [activate](../../general/apps_modules.md#general-install) the `Belgian Registered Cash Register` module
 (technical name: `pos_blackbox_be`).
 
-![black box modules for belgian fiscal certification](../../../.gitbook/assets/be-modules.png)
+![black box modules for belgian fiscal certification](../../../_images/be-modules.png)
 
 Sau khi phân hệ được kích hoạt, hãy thêm mã số thuế GTGT của bạn vào thông tin công ty. Để thiết lập, đi đến Cài đặt ‣ Công ty ‣ Cập nhật thông tin và điền vào trường Thuế GTGT. Sau đó, nhập số đăng ký quốc gia cho mọi nhân viên vận hành hệ thống POS. Để thực hiện, hãy vào ứng dụng Nhân viên và mở biểu mẫu nhân viên. Tại đó, vào Tab Cài đặt HR ‣ Chấm công/Điểm bán hàng và điền vào trường Số INSZ hoặc BIS.
 
-![ISNZ or BIS number field on employee form](../../../.gitbook/assets/bis-number.png)
+![ISNZ or BIS number field on employee form](../../../_images/bis-number.png)
 
 #### WARNING
 You must configure the  directly in the production database.
@@ -466,7 +466,7 @@ Once your IoT box is certified, [connect](../../general/iot/connect.md) it to yo
 verify that the IoT Box recognizes the FDM, go to the IoT homepage and scroll down the
 IOT Device section, which should display the FDM.
 
-![Hardware status page on a registered IoT Box](../../../.gitbook/assets/iot-devices.png)
+![Hardware status page on a registered IoT Box](../../../_images/iot-devices.png)
 
 Then, add the IoT to your POS. To do so, go to Point of Sale ‣ Configuration ‣
 Point of Sale, select your POS, scroll down to the Connected Device section, and enable

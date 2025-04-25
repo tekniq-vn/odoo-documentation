@@ -36,7 +36,7 @@ for filling the role (i.e. the recruiter), and the points earned.
 
 For referrals that have been hired, the selected avatar also appears on the card.
 
-![Two referral cards, one hired and one in-progress.](../../../.gitbook/assets/referrals.png)
+![Two referral cards, one hired and one in-progress.](../../../_images/referrals.png)
 
 ### Điểm
 

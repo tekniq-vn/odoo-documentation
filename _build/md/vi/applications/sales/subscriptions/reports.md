@@ -74,7 +74,7 @@ The available view options, from left to right, are:
 - Danh sách
 - Pivot
 
-![The different view options available on the Subscriptions Analysis page.](../../../.gitbook/assets/subscriptions-analysis-page-view-options.png)
+![The different view options available on the Subscriptions Analysis page.](../../../_images/subscriptions-analysis-page-view-options.png)
 
 Each view has its own series of related view-specific visual options.
 
@@ -84,7 +84,7 @@ With the graph view selected, the following options appear between the search ba
 representation of the data. These graph-specific options are located to the right of the
 Measures and Insert in Spreadsheet buttons.
 
-![The different graph view options in the Odoo Subscriptions app.](../../../.gitbook/assets/subscriptions-graph-specific-options.png)
+![The different graph view options in the Odoo Subscriptions app.](../../../_images/subscriptions-graph-specific-options.png)
 
 The first three options, from left to right, represent different graph-related views. The remaining
 options represent different ways to organize and visualize that specific graph-related data.
@@ -138,7 +138,7 @@ bar).
 Three pivot-specific options are available, located to the right of the Measures
 drop-down menu and Insert in Spreadsheet button.
 
-![The pivot-specific view options available in the Odoo Subscriptions app.](../../../.gitbook/assets/subscriptions-pivot-view-options.png)
+![The pivot-specific view options available in the Odoo Subscriptions app.](../../../_images/subscriptions-pivot-view-options.png)
 
 From left to right, those pivot-specific view options are:
 
@@ -154,7 +154,7 @@ The graph and pivot reporting pages have their own metric-specific Measures drop
 menu of data-related options to choose from, located in the upper-left corner, above the visual
 representation of metrics.
 
-![The standard measures drop-down menu in the Odoo Subscriptions app.](../../../.gitbook/assets/subscriptions-measures-drop-down.png)
+![The standard measures drop-down menu in the Odoo Subscriptions app.](../../../_images/subscriptions-measures-drop-down.png)
 
 When the Measures button is clicked, a series of selectable measures becomes available,
 via a drop-down menu. When any of the options are selected from the Measures drop-down
@@ -173,7 +173,7 @@ button.
 When clicked, the ability to add the configured data currently being showcased on the reporting page
 into a new or pre-existing spreadsheet or dashboard becomes available, via a pop-up window.
 
-![The spreadsheet pop-up window of the Subscriptions Analysis page.](../../../.gitbook/assets/subscriptions-analysis-spreadsheet-popup.png)
+![The spreadsheet pop-up window of the Subscriptions Analysis page.](../../../_images/subscriptions-analysis-spreadsheet-popup.png)
 
 Select the desired option from this pop-up window, then click Confirm.
 
@@ -208,12 +208,12 @@ Subscriptions Analysis reporting page.
 The following filters are also present in the search bar: In Progress or Paused and
 Recurring.
 
-![The default view of the Subscriptions Analysis reporting page in Odoo Subscriptions.](../../../.gitbook/assets/subscriptions-analysis-page-default.png)
+![The default view of the Subscriptions Analysis reporting page in Odoo Subscriptions.](../../../_images/subscriptions-analysis-page-default.png)
 
 When the Measures button on the Subscriptions Analysis page is
 clicked, a series of metric-related options becomes available as a drop-down menu.
 
-![The measures drop-down menu of the Subscriptions Analysis page.](../../../.gitbook/assets/subscriptions-analysis-measures.png)
+![The measures drop-down menu of the Subscriptions Analysis page.](../../../_images/subscriptions-analysis-measures.png)
 
 The metric-related options in the Measures drop-down menu on the
 Subscriptions Analysis page are:
@@ -240,12 +240,12 @@ The Retention Analysis reporting page differs from the other **Subscriptions** a
 reporting pages, in that it does **not** provide any additional view options. The data on this page
 is only presented in a customizable data chart.
 
-![The default view of the Retention Analysis reporting page in Odoo Subscriptions.](../../../.gitbook/assets/subscriptions-retention-analysis-page-default.png)
+![The default view of the Retention Analysis reporting page in Odoo Subscriptions.](../../../_images/subscriptions-retention-analysis-page-default.png)
 
 When the Measures drop-down menu on the Retention Analysis reporting page is
 clicked, a series of metric-related options become available.
 
-![The measures drop-down menu of the Retention Analysis page.](../../../.gitbook/assets/subscriptions-retention-analysis-measures.png)
+![The measures drop-down menu of the Retention Analysis page.](../../../_images/subscriptions-retention-analysis-measures.png)
 
 The metric-related options in the Measures drop-down menu on the Retention
 Analysis reporting page are:
@@ -267,7 +267,7 @@ Month.
 
 When clicked, a drop-down menu of various time period options become available.
 
-![The time period drop-down menu of the Retention Analysis page.](../../../.gitbook/assets/subscriptions-retention-analysis-time-periods.png)
+![The time period drop-down menu of the Retention Analysis page.](../../../_images/subscriptions-retention-analysis-time-periods.png)
 
 The time period options are:
 
@@ -292,12 +292,12 @@ with the Bar Chart option and Stacked option selected.
 
 A default filter is also available in the search bar for Event Date: Month > Event Type.
 
-![The default appearance of the MRR Breakdown reporting page in Odoo Subscriptions.](../../../.gitbook/assets/subscriptions-mrr-breakdown-default.png)
+![The default appearance of the MRR Breakdown reporting page in Odoo Subscriptions.](../../../_images/subscriptions-mrr-breakdown-default.png)
 
 When the Measures drop-down menu on the MRR Breakdown reporting page is
 clicked, a series of metric-related options become available.
 
-![The default appearance of the MRR Breakdown reporting page in Odoo Subscriptions.](../../../.gitbook/assets/subscriptions-mrr-breakdown-measures.png)
+![The default appearance of the MRR Breakdown reporting page in Odoo Subscriptions.](../../../_images/subscriptions-mrr-breakdown-measures.png)
 
 The metric-related options in the Measures drop-down menu on the MRR
 Breakdown reporting page are:
@@ -321,12 +321,12 @@ selected.
 
 A default filter is also found in the search bar for Event Date: Month.
 
-![The default appearance of the MRR Analysis reporting page in Odoo Subscriptions.](../../../.gitbook/assets/subscriptions-mrr-analysis-default.png)
+![The default appearance of the MRR Analysis reporting page in Odoo Subscriptions.](../../../_images/subscriptions-mrr-analysis-default.png)
 
 When the Measures drop-down menu on the MRR Analysis reporting page is
 clicked, a series of metric-related options become available.
 
-![The default appearance of the MRR Analysis reporting page in Odoo Subscriptions.](../../../.gitbook/assets/subscriptions-mrr-analysis-measures.png)
+![The default appearance of the MRR Analysis reporting page in Odoo Subscriptions.](../../../_images/subscriptions-mrr-analysis-measures.png)
 
 The metric-related options in the Measures drop-down menu on the MRR
 Analysis reporting page are:

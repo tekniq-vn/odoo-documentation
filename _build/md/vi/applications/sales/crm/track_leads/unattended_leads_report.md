@@ -62,7 +62,7 @@ scroll to search through the list to locate it. Then, next to Activities, click 
 Type `Due Date` in the Search... bar, or scroll to search through the list. Click
 Due Date to add it to the rule.
 
-> ![Custom filter pop-up with emphasis on the options for activities and due date.](../../../../.gitbook/assets/activities-due.png)
+> ![Custom filter pop-up with emphasis on the options for activities and due date.](../../../../_images/activities-due.png)
 
 Then, click into then next field and select <= from the drop-down menu. Selecting this
 operator includes all activities with a due date up to, and including, the date selected in the next
@@ -100,7 +100,7 @@ Lastly, in the third field, select the desired sales team from the drop-down men
 can be added in this field, where each parameter is treated with an "or" (e.g. "any") operator in
 the search logic.
 
-![An example of the Custom Filter pop-up window with all of the rules configured.](../../../../.gitbook/assets/configured-custom-rules1.png)
+![An example of the Custom Filter pop-up window with all of the rules configured.](../../../../_images/configured-custom-rules1.png)
 
 <a id="unattended-leads-report-view-results"></a>
 
@@ -111,7 +111,7 @@ all of the rules. In order to properly run the report, only records that match *
 of the following filters should be included. Before adding the filters, make sure all is
 selected in this field.
 
-![Example of overdue activities notification in the chatter of a lead.](../../../../.gitbook/assets/all-custom-filter.png)
+![Example of overdue activities notification in the chatter of a lead.](../../../../_images/all-custom-filter.png)
 
 After the filters are configured, click Add. The resulting report displays all leads
 assigned to a salesperson where an activity is past due, or is due on the current date. The default

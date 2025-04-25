@@ -9,7 +9,7 @@ or if, for any reason, the customer needs their order to be shipped later, etc.
 [Go to the POS settings](../configuration.md#configuration-settings), scroll down to the Inventory
 section, and enable Allow Ship Later.
 
-![settings to enable and configure the ship later feature](../../../../.gitbook/assets/settings4.png)
+![settings to enable and configure the ship later feature](../../../../_images/settings4.png)
 
 Once activated, you can:
 
@@ -29,7 +29,7 @@ Once activated, you can:
 2. On the payment screen, set a customer and select Ship Later.
 3. On the popup window, set a shipping date and click Confirm to proceed to payment.
 
-![selecting ship later at checkout.](../../../../.gitbook/assets/payment1.png)
+![selecting ship later at checkout.](../../../../_images/payment1.png)
 
 The system instantly creates a delivery order from the warehouse to the shipping address.
 

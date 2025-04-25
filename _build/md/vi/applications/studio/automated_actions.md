@@ -36,7 +36,7 @@ The triggers available in this category depend on the model and are based on com
 such as adding a specific tag (e.g., to a task) or setting the User field. Select the
 trigger, then select a value if required.
 
-![Example of a Values Updated trigger](../../.gitbook/assets/values-updated-trigger.png)
+![Example of a Values Updated trigger](../../_images/values-updated-trigger.png)
 
 <a id="studio-automated-actions-trigger-email-events"></a>
 

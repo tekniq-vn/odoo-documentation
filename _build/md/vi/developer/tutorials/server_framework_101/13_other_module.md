@@ -14,7 +14,7 @@ is set to 'Sold', an invoice is created in the Invoicing application.
 - A new module `estate_account` should be created
 - When a property is sold, an invoice should be issued for the buyer
 
-![Invoice creation](../../../.gitbook/assets/create_inv.gif)
+![Invoice creation](../../../_images/create_inv.gif)
 
 Any time we interact with another module, we need to keep in mind the modularity. If we intend
 to sell our application to real estate agencies, some may want the invoicing feature but

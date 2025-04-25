@@ -31,14 +31,14 @@ Enable from the user interface
    - Open the [developer mode tools](../../../applications/general/developer_mode.md#developer-mode-tools), then toggle the
      Enable profiling button. A wizard suggests a set of expiry times for the
      profiling. Click on ENABLE PROFILING to enable the profiler globally.
-     ![image](../../../.gitbook/assets/enable_profiling_wizard.png)
+     ![image](../../../_images/enable_profiling_wizard.png)
    - Go to Settings --> General Settings --> Performance and set the desired time to
      the field Enable profiling until.
 3. After the profiler is enabled on the database, users can enable it on their session. To do
    so, toggle the Enable profiling button in the [developer mode tools](../../../applications/general/developer_mode.md#developer-mode-tools) again. By default, the recommended options Record
    sql and Record traces are enabled. To learn more about the different options,
    head over to [Collectors](#performance-profiling-collectors).
-   ![image](../../../.gitbook/assets/profiling_debug_menu.png)
+   ![image](../../../_images/profiling_debug_menu.png)
 
 When the profiler is enabled, all the requests made to the server are profiled and saved into
 an `ir.profile` record. Such records are grouped into the current profiling session which
@@ -69,11 +69,11 @@ To browse the profiling results, make sure that the [profiler is enabled globall
 database](#performance-profiling-enable), then open the [developer mode tools](../../../applications/general/developer_mode.md#developer-mode-tools) and click on the button in the top-right corner of the profiling
 section. A list view of the `ir.profile` records grouped by profiling session opens.
 
-![image](../../../.gitbook/assets/profiling_web.png)
+![image](../../../_images/profiling_web.png)
 
 Each record has a clickable link that opens the speedscope results in a new tab.
 
-![image](../../../.gitbook/assets/flamegraph_example.png)
+![image](../../../_images/flamegraph_example.png)
 
 Speedscope falls out of the scope of this documentation but there are a lot of tools to try: search,
 highlight of similar frames, zoom on frame, timeline, left heavy, sandwich view...
@@ -81,7 +81,7 @@ highlight of similar frames, zoom on frame, timeline, left heavy, sandwich view.
 Depending on the profiling options that were activated, Odoo generates different view modes that you
 can access from the top menu.
 
-![image](../../../.gitbook/assets/speedscope_modes.png)
+![image](../../../_images/speedscope_modes.png)
 - The Combined view shows all the SQL queries and traces merged togethers.
 - The Combined no context view shows the same result but ignores the saved execution
   context <performance/profiling/enable>\`.

@@ -5,7 +5,7 @@ Odoo without them, can lead to inconsistent records. Follow this documentation t
 an inventory adjustment to assign lot or serial numbers to products that were not originally
 assigned lots.
 
-![Warning message: products in stock have no lot/serial number.](../../../../../.gitbook/assets/warning.png)
+![Warning message: products in stock have no lot/serial number.](../../../../../_images/warning.png)
 
 #### NOTE
 This document outlines the process of using two inventory adjustments: one to remove incorrect
@@ -28,7 +28,7 @@ page. In the On Hand Quantity column, change the value to zero.
 If the product is stored in multiple locations, make sure the **total** on hand quantity at
 **all** locations is zero.
 
-![Show the Inventory Adjustments model, highlighting the "On Hand Quantity" field.](../../../../../.gitbook/assets/remove-quant.png)
+![Show the Inventory Adjustments model, highlighting the "On Hand Quantity" field.](../../../../../_images/remove-quant.png)
 
 ## Change traceability setting
 
@@ -40,7 +40,7 @@ Unique Serial Number.
 #### SEE ALSO
 [Ngày hết hạn](expiration_dates.md)
 
-![Enable lots and serial numbers.](../../../../../.gitbook/assets/tracking.png)
+![Enable lots and serial numbers.](../../../../../_images/tracking.png)
 
 ## Restore on-hand quantity
 
@@ -53,4 +53,4 @@ Trên trang Cập nhật số lượng, do trước đó, số lượng hiện c
 #### SEE ALSO
 [Điều chỉnh tồn kho](../../warehouses_storage/inventory_management/count_products.md)
 
-![Fill in the "Lot/Serial Number" and "On Hand Quantity" field.](../../../../../.gitbook/assets/update-quantity.png)
+![Fill in the "Lot/Serial Number" and "On Hand Quantity" field.](../../../../../_images/update-quantity.png)

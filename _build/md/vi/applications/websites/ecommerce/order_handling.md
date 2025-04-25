@@ -15,7 +15,7 @@ Odoo:
 
 Bước đầu tiên khi khách hàng thêm sản phẩm vào giỏ hàng là tạo báo giá. Đơn hàng có thể được quản lý từ **Trang web** hoặc ứng dụng [Bán hàng](../../sales/sales.md). Đơn hàng thương mại điện tử có thể tự động được chỉ định cho một bộ phận bán hàng cụ thể bằng cách vào Trang web ‣ Cấu hình ‣ Cài đặt. Trong phần **Cửa hàng - Quy trình thanh toán**, chọn Bộ phận sales hoặc Chuyên viên sales để xử lý đơn hàng thương mại điện tử.
 
-![Assignment of online orders to a sales team or salesperson](../../../.gitbook/assets/handling-salesteam.png)
+![Assignment of online orders to a sales team or salesperson](../../../_images/handling-salesteam.png)
 
 Orders can be found under Website ‣ eCommerce ‣ Orders/Unpaid Orders. Each
 order goes through a different status:
@@ -27,7 +27,7 @@ order goes through a different status:
 - **Order**: the customer has gone through the checkout process, confirmed the order, and the
   payment is received.
 
-![Statuses of eCommerce orders](../../../.gitbook/assets/handling-status.png)
+![Statuses of eCommerce orders](../../../_images/handling-status.png)
 
 ### Giỏ hàng bỏ dở
 

@@ -28,7 +28,7 @@ Doing so installs the **Barcode** app in the database.
 Next, in the Barcode Nomenclature field, ensure Default Nomenclature is
 selected. Then, click Save.
 
-![Enabled barcode setting with Default Nomenclature selected.](../../../../.gitbook/assets/enable-nomenclature.png)
+![Enabled barcode setting with Default Nomenclature selected.](../../../../_images/enable-nomenclature.png)
 
 With the **Barcode** module installed, and the Default Nomenclature selected, the
 barcode actions using  and , detailed in the [default nomenclature list](#barcode-operations-default-nomenclature-list), are available for use. And, by default, Odoo
@@ -53,20 +53,20 @@ To configure the product barcode for `Pasta Bolognese`, the  barcode for weighte
 going to Inventory app ‣ Products ‣ Products, and selecting the desired
 product). In addition, the Unit of Measure is set to kg.
 
-![Barcode field on the product form.](../../../../.gitbook/assets/barcode.png)
+![Barcode field on the product form.](../../../../_images/barcode.png)
 
 Next, a customer's bowl of pasta is weighed to be `1.5` kilograms. This generates a new barcode for
 the pasta, according to the weight: `211234501500`, which has a check digit of `2`. The new barcode
 is `2112345015002`.
 
-![Generated barcode that includes a weight of 1.5 kg.](../../../../.gitbook/assets/weighted-barcode.png)
+![Generated barcode that includes a weight of 1.5 kg.](../../../../_images/weighted-barcode.png)
 
 Ensure the products scan properly, by navigating to the Barcode app ‣ Operations.
 Next, click any operation type, such as Receipts. Then, click the New button
 to create a draft stock move. Scan the product weight barcode, such as `2112345015002`, and if the
 intended product appears, the barcode setup is correct.
 
-![Show successfully scanned barcode.](../../../../.gitbook/assets/barcode-scan.png)
+![Show successfully scanned barcode.](../../../../_images/barcode-scan.png)
 
 ## Tạo quy tắc
 
@@ -90,7 +90,7 @@ On this page, configure the following optional fields:
 - Is GS1 Nomenclature: ensure this checkbox is **not** ticked, as the
   Default Nomenclature uses  and  encoding, *not* GS1 encoding.
 
-![Default Nomenclature page setting fields.](../../../../.gitbook/assets/rule-config.png)
+![Default Nomenclature page setting fields.](../../../../_images/rule-config.png)
 
 On the Default Nomenclature page, click Add a line at the bottom of the
 table, which opens a Create Rules pop-up window to create a new rule.

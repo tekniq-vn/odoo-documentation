@@ -20,11 +20,11 @@ database. Duplicate (or trial) databases have limited email sending capabilities
 To start a test, click the Launch a Test button at the top of the campaign form, to the
 right of the Start button.
 
-![Launch a test button on a campaign detail form in Odoo Marketing Automation.](../../../.gitbook/assets/launch-test.png)
+![Launch a test button on a campaign detail form in Odoo Marketing Automation.](../../../_images/launch-test.png)
 
 When clicked, a Launch a test pop-up window appears.
 
-![Launch a test pop-up window that appears in Odoo Markting Automation.](../../../.gitbook/assets/launch-test-popup-window.png)
+![Launch a test pop-up window that appears in Odoo Markting Automation.](../../../_images/launch-test-popup-window.png)
 
 In the Launch a test pop-up window, click the Pick or create a/an Contact to
 generate a Test Participant field to reveal a drop-down menu of contacts. From this drop-down menu,
@@ -36,20 +36,20 @@ Only one contact can be selected from the Launch a test pop-up window.
 To create a new contact directly from the Launch a test pop-up window, start typing the
 name of the new contact in the blank field, and click Create and edit....
 
-![Typing in a new contact directly from the launch a test pop-up window in Odoo.](../../../.gitbook/assets/new-contact-from-launch-test-popup.png)
+![Typing in a new contact directly from the launch a test pop-up window in Odoo.](../../../_images/new-contact-from-launch-test-popup.png)
 
 Doing so reveals a blank Create Record pop-up form, in which the necessary contact
 information (Email, Mobile, etc.) *must* be entered, in order for the test
 to work. When the necessary information is entered, click Save & Close.
 
-![A blank contact form from a launch test pop-up window in Odoo Marketing Automation.](../../../.gitbook/assets/blank-contact-form.png)
+![A blank contact form from a launch test pop-up window in Odoo Marketing Automation.](../../../_images/blank-contact-form.png)
 
 When all the necessary fields have been entered, click Save & Close to return to the
 Launch a test pop-up window.
 
 Once a contact is selected, click Launch to reveal the campaign test page.
 
-![Test screen in Odoo Marketing Automation.](../../../.gitbook/assets/test-screen.png)
+![Test screen in Odoo Marketing Automation.](../../../_images/test-screen.png)
 
 On the campaign test page, the name of the Record being tested is visible, along with
 the precise time this test workflow was started in the Workflow Started On field.
@@ -65,7 +65,7 @@ If a child activity is scheduled beneath a parent activity, that child activity 
 slightly indented in the workflow, once that parent activity has been run, via the ▶️
 (play button) icon.
 
-![Workflow test progress in Odoo Marketing Automation.](../../../.gitbook/assets/workflow-test-progress.png)
+![Workflow test progress in Odoo Marketing Automation.](../../../_images/workflow-test-progress.png)
 
 Once all the workflow activities are completed, the test ends, and the status bar (in the
 upper-right corner) moves to the Completed stage.
@@ -85,14 +85,14 @@ configured target audience specified on the campaign detail form.
 Clicking Start launches the campaign, and the status bar of the campaign switches to
 Running, which is located in the upper-right corner of the campaign detail form.
 
-![The status of a marketing campaign changing to running in the upper-right corner.](../../../.gitbook/assets/campaign-running-status.png)
+![The status of a marketing campaign changing to running in the upper-right corner.](../../../_images/campaign-running-status.png)
 
 #### NOTE
 If some participants are already running on a campaign, and was stopped for any reason, clicking
 the Start button again prompts a pop-up warning. This warning advises the user to
 click an Update button to apply any modifications made to the campaign.
 
-![The workflow has been modified warning pop-up window of a marketing campaign form.](../../../.gitbook/assets/workflow-modification-warning.png)
+![The workflow has been modified warning pop-up window of a marketing campaign form.](../../../_images/workflow-modification-warning.png)
 
 Be aware that participants that had already gone through an entire campaign in its original state
 **can** be reintroduced into the newly-modified campaign, and new traces could be created for
@@ -105,7 +105,7 @@ smart buttons that appear at the top of the campaign detail form, as well.
 These analytical smart buttons will *also* populate with real-time data as the campaign progresses:
 Templates, Clicks, Tests, Participants.
 
-![The row of smart buttons that appear in a currently running marketing campaign in Odoo.](../../../.gitbook/assets/campaign-smart-buttons.png)
+![The row of smart buttons that appear in a currently running marketing campaign in Odoo.](../../../_images/campaign-smart-buttons.png)
 
 ## Stop campaigns
 
@@ -113,12 +113,12 @@ To stop a campaign that's currently running, navigate to the Marketing Automatio
 app, and select the desired campaign to stop. On the campaign detail form, click the
 Stop button in the upper-left corner.
 
-![The stop button on a typical campaign detail form in Odoo Marketing Automation application.](../../../.gitbook/assets/stop-button-campaign-form.png)
+![The stop button on a typical campaign detail form in Odoo Marketing Automation application.](../../../_images/stop-button-campaign-form.png)
 
 When clicked, the campaign is officially stopped, and the status changes to Stopped in
 the upper-right corner of the campaign detail form.
 
-![Marketing campaign's stopped status on a campaign detail form in Odoo Marketing Automation.](../../../.gitbook/assets/campaign-stopped-status-bar.png)
+![Marketing campaign's stopped status on a campaign detail form in Odoo Marketing Automation.](../../../_images/campaign-stopped-status-bar.png)
 
 #### SEE ALSO
 - [Campaign configuration](../marketing_automation.md)

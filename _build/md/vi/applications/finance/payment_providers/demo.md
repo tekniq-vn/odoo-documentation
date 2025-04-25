@@ -17,7 +17,7 @@ Upon checkout or when paying a bill online, you can choose the payment outcome w
 payment provider. To do so, click on the Payment Status drop-down menu and select the
 desired outcome.
 
-![Payment status outcomes.](../../../.gitbook/assets/demo-payment-outcome.png)
+![Payment status outcomes.](../../../_images/demo-payment-outcome.png)
 
 ## Transaction state
 
@@ -27,4 +27,4 @@ transaction straight from its form view. To access a transaction's form view, ac
 Configuration ‣ Payment Transactions. Then, change the status of a transaction by clicking on the
 state bar (Draft, Pending, Authorized, Confirmed, Canceled, Error).
 
-![Thanh trạng thái giao dịch](../../../.gitbook/assets/demo-view-form.png)
+![Thanh trạng thái giao dịch](../../../_images/demo-view-form.png)

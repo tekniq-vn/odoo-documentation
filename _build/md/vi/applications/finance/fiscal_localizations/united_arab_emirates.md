@@ -13,7 +13,7 @@ Emirates** localization:
 | U.A.E. - Bảng lương                            | `l10n_ae_hr_payroll`         | Includes all rules, calculations, and salary structures.                                                          |
 | U.A.E. - Bảng lương với Kế toán                | `l10n_ae_hr_payroll_account` | Includes all accounts related to the payroll module.                                                              |
 | United Arab Emirates - Point of Sale           | `l10n_ae_pos`                | Includes the UAE-compliant POS receipt.                                                                           |
-![Select the modules to install.](../../../.gitbook/assets/l10n-ae-modules.png)
+![Select the modules to install.](../../../_images/l10n-ae-modules.png)
 
 ## Hệ thống tài khoản
 
@@ -57,7 +57,7 @@ to your needs.
 #### NOTE
 The  is supported by Odoo.
 
-![Preview of the UAE localization package's taxes.](../../../.gitbook/assets/uae-localization-taxes.png)
+![Preview of the UAE localization package's taxes.](../../../_images/uae-localization-taxes.png)
 
 ## Tỷ giá hối đoái
 
@@ -80,7 +80,7 @@ The UAE - Payroll module creates the necessary **salary rules** in the Payroll a
 compliance with the UAE rules and regulations. The salary rules are linked to the corresponding
 accounts in the **chart of accounts**.
 
-![The UAE Employee Payroll Structure.](../../../.gitbook/assets/uae-localization-salary-rules.png)
+![The UAE Employee Payroll Structure.](../../../_images/uae-localization-salary-rules.png)
 
 ### Salary rules
 
@@ -88,7 +88,7 @@ To apply these rules to an employee's contract, go to Payroll ‣ Contracts ‣
 Contracts and select the employee's contract. In the Salary Structure Type field,
 select UAE Employee.
 
-![Select the Salary Structure Type to apply to the contract.](../../../.gitbook/assets/uae-localization-salary-structure.png)
+![Select the Salary Structure Type to apply to the contract.](../../../_images/uae-localization-salary-structure.png)
 
 Under the Salary Information tab, you can find details such as the:
 

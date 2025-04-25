@@ -27,7 +27,7 @@ Navigate to the ePOS' IP address (e.g., `https://192.168.1.25`) and force the
 connection by clicking Advanced and Proceed to [IP address]
 (unsafe).
 
-![warning page about the connection privacy on Google Chrome](../../../../.gitbook/assets/browser-https-insecure.png)
+![warning page about the connection privacy on Google Chrome](../../../../_images/browser-https-insecure.png)
 
 Then, sign in using your printer credentials to access the ePOS printer settings. To
 sign in, enter `epson` in the ID field and your printer serial number in the
@@ -55,7 +55,7 @@ If you are using **Google Chrome**,
 
 1. click Not secure next to the search bar, and Certificate is
    not valid;
-   ![Connection to the printer not secure button in Google Chrome browser.](../../../../.gitbook/assets/browser-warning.png)
+   ![Connection to the printer not secure button in Google Chrome browser.](../../../../_images/browser-warning.png)
 2. go to the Details tab and click Export;
 3. add `.crt` at the end of the file name to ensure it has the correct extension;
 4. select Base64-encoded ASCII, single certificate, at the bottom of the
@@ -72,7 +72,7 @@ If you are using **Mozilla Firefox**,
 2. go to Connection not secure ‣ More information ‣ Security tab
    ‣ View certificate;
 
-![Connection is not secure button in Mozilla Firefox browser](../../../../.gitbook/assets/mozilla-not-secure.png)
+![Connection is not secure button in Mozilla Firefox browser](../../../../_images/mozilla-not-secure.png)
 1. scroll down to the Miscellaneous section;
 2. click PEM (cert) in the Download section;
 3. save, and the certificate is exported.
@@ -96,7 +96,7 @@ imported from the certification file rather than the browser. To do so,
 4. on the `Certificate Store` screen, tick Place all certificates in
    the following store, click Browse..., and select
    Trusted Root Certification Authorities;
-   ![image](../../../../.gitbook/assets/win-cert-wizard-store.png)
+   ![image](../../../../_images/win-cert-wizard-store.png)
 5. click Finish, accept the pop-up security window;
 6. restart the computer to make sure that the changes are applied.
 
@@ -140,7 +140,7 @@ Navigate to the ePOS' IP address (e.g., `https://192.168.1.25`) and force the
 connection by clicking Advanced and Proceed to [IP address]
 (unsafe).
 
-![Warning page about the connection privacy on Google Chrome](../../../../.gitbook/assets/browser-https-insecure.png)
+![Warning page about the connection privacy on Google Chrome](../../../../_images/browser-https-insecure.png)
 
 Then, sign in using your printer credentials to access the ePOS printer settings. To
 sign in, enter `epson` in the ID field and your printer serial number in the
@@ -168,7 +168,7 @@ If you are using **Google Chrome**,
 
 1. click Not secure next to the search bar, and Certificate is
    not valid;
-   ![Connection to the printer not secure button in Google Chrome](../../../../.gitbook/assets/browser-warning.png)
+   ![Connection to the printer not secure button in Google Chrome](../../../../_images/browser-warning.png)
 2. go to the Details tab and click Export;
 3. add `.crt` at the end of the file name to ensure it has the correct extension;
 4. select Base64-encoded ASCII, single certificate, at the bottom of the
@@ -184,7 +184,7 @@ If you are using **Mozilla Firefox**,
 1. click the **lock-shaped** icon on the left of the address bar;
 2. go to Connection not secure ‣ More information ‣ Security tab
    ‣ View certificate;
-   ![Connection is not secure button in Mozilla Firefox](../../../../.gitbook/assets/mozilla-not-secure.png)
+   ![Connection is not secure button in Mozilla Firefox](../../../../_images/mozilla-not-secure.png)
 3. scroll down to the Miscellaneous section;
 4. click PEM (cert) in the Download section;
 5. save, and the certificate is exported.
@@ -221,7 +221,7 @@ the configuration profile, and close the second pop-up window. Then,
    window;
 7. nhấp Hoàn tất.
 
-![image](../../../../.gitbook/assets/ssl-ios-verified.png)
+![image](../../../../_images/ssl-ios-verified.png)
 
 The certificate is installed, but it still needs to be authenticated. To do so,
 

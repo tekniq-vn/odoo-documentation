@@ -24,7 +24,7 @@ follows:
 - In the Instructions text field of the Notes tab, enter instructions for
   how to complete the quality check and the criteria that must be met for the check to pass.
 
-![A quality check form configured for a Pass - Fail quality check.](../../../../.gitbook/assets/quality-check-form.png)
+![A quality check form configured for a Pass - Fail quality check.](../../../../_images/quality-check-form.png)
 
 ### Quality Control Point (QCP)
 
@@ -38,7 +38,7 @@ the new  form as follows:
 - In the Instructions text field, enter instructions for how to complete the quality
   check and the criteria that must be met for the check to pass.
 
-![A Quality Control Point (QCP) form configured to create a Pass - Fail quality check.](../../../../.gitbook/assets/qcp-form.png)
+![A Quality Control Point (QCP) form configured to create a Pass - Fail quality check.](../../../../_images/qcp-form.png)
 
 ## Process a Pass - Fail quality check
 
@@ -67,7 +67,7 @@ To process a *Pass - Fail* quality check, follow the instructions shown on the Q
 Check pop-up window. If the criteria for the check is met, click the Pass button at the
 bottom of the window. If the criteria is not met, click the Fail button.
 
-![A Pass - Fail quality check pop-up window on a manufacturing or inventory order.](../../../../.gitbook/assets/pass-fail-check-pop-up.png)
+![A Pass - Fail quality check pop-up window on a manufacturing or inventory order.](../../../../_images/pass-fail-check-pop-up.png)
 
 If a quality alert must be created, click the Quality Alert button that appears at the
 top of the manufacturing or inventory order after the check fails. Clicking Quality
@@ -104,4 +104,4 @@ If the Pass button is clicked, the pop-up window moves to the next step for the 
 order. If the Fail button is clicked, a Quality Check Failed pop-up window
 appears, detailing what should be done next.
 
-![A Pass - Fail check as it appears in the Shop Floor module.](../../../../.gitbook/assets/pass-fail-check-shop-floor.png)
+![A Pass - Fail check as it appears in the Shop Floor module.](../../../../_images/pass-fail-check-shop-floor.png)

@@ -17,16 +17,16 @@ Use the following settings:
 - Layout: Four layouts are available:
 
   Sáng
-  ![Light report layout sample](../../.gitbook/assets/layout-light.png)
+  ![Light report layout sample](../../_images/layout-light.png)
 
   Đóng hộp
-  ![Boxed report layout sample](../../.gitbook/assets/layout-boxed.png)
+  ![Boxed report layout sample](../../_images/layout-boxed.png)
 
   In đậm
-  ![Bold report layout sample](../../.gitbook/assets/layout-bold.png)
+  ![Bold report layout sample](../../_images/layout-bold.png)
 
   Kẻ sọc
-  ![Striped report layout sample](../../.gitbook/assets/layout-striped.png)
+  ![Striped report layout sample](../../_images/layout-striped.png)
 
 <a id="studio-pdf-reports-default-layout-font"></a>
 - Font: Seven fonts are available: Lato, Roboto, Open Sans, Montserrat, Oswald, Raleway,
@@ -101,7 +101,7 @@ duplicated version. To duplicate a report, hover the mouse pointer on the top ri
 of the report, click the vertical ellipsis icon (⋮), and then select
 Duplicate.
 
-![Duplicating a PDF report](../../.gitbook/assets/duplicate-report.png)
+![Duplicating a PDF report](../../_images/duplicate-report.png)
 
 ### Tùy chọn
 
@@ -135,11 +135,11 @@ Editing the header and footer of a report impacts all standard and custom report
 The dashed rectangles represent **conditional blocks** (*if/else* statements). These are used to
 show/hide content based on specific conditions. Click on the block to view the conditions.
 
-![View conditions applied to a block.](../../.gitbook/assets/conditional-block-if.png)
+![View conditions applied to a block.](../../_images/conditional-block-if.png)
 
 Select a value to preview its corresponding output and edit it if necessary.
 
-![Preview the output of another condition.](../../.gitbook/assets/conditional-block-else.png)
+![Preview the output of another condition.](../../_images/conditional-block-else.png)
 
 #### NOTE
 Conditions can only be edited in [XML](#studio-pdf-reports-xml-editing).
@@ -169,7 +169,7 @@ To add a field, type `/` and select the Field command. In the list that opens, s
 or search for the field; click the right arrow next to the field name to access the list of related
 fields if needed. Then, specify the default value and press `Enter`.
 
-![Chọn một trường liên quan.](../../.gitbook/assets/powerbox-field.png)
+![Chọn một trường liên quan.](../../_images/powerbox-field.png)
 
 ##### Add a data table
 
@@ -183,12 +183,12 @@ Only relations of type `one2many` or `many2many` can be displayed as data tables
 Once the table has been added, you can add columns using the table tools. Position the cursor on top
 of the column, then click the purple rectangle and select an option.
 
-![Add a column in a dynamic table.](../../.gitbook/assets/table-add-column.png)
+![Add a column in a dynamic table.](../../_images/table-add-column.png)
 
 You can then insert the [field of your choice](#studio-pdf-reports-add-field) in the columns. The dialog box that opens shows the source object
 for the field (e.g., the *Tag* model) and the list of available fields.
 
-![List of available fields for the Tag model.](../../.gitbook/assets/dynamic-table.png)
+![List of available fields for the Tag model.](../../_images/dynamic-table.png)
 
 #### NOTE
 - The default row automatically iterates over the field's content, generating a row on the report
@@ -201,7 +201,7 @@ for the field (e.g., the *Tag* model) and the list of available fields.
 To format text in the report, select it, then format it using the options in the
 [Trình soạn thảo văn bản](../productivity/knowledge/articles_editing.md#knowledge-text-editor).
 
-> ![Format text using the text editor.](../../.gitbook/assets/text-editor.png)
+> ![Format text using the text editor.](../../_images/text-editor.png)
 
 <a id="studio-pdf-reports-xml-editing"></a>
 

@@ -18,7 +18,7 @@ purchasing data can be configured.
 To configure purchasable products, tick the Can be purchased checkbox, under the product
 name. Then, go to the Inventory tab, and enable the Buy route.
 
-![Required configuration for purchasable products.](../../../../.gitbook/assets/product-vendor-pricelist-config.png)
+![Required configuration for purchasable products.](../../../../_images/product-vendor-pricelist-config.png)
 
 <a id="purchase-manage-deals-vendor-pricelist"></a>
 
@@ -65,7 +65,7 @@ Additionally, the dashboard includes buttons for:
 - Waiting:  that have been sent by email, and are waiting on vendor confirmation.
 - Late:  or  where the Order Deadline has passed.
 
-![RFQ dashboard with orders and order statuses.](../../../../.gitbook/assets/rfq-dashboard.png)
+![RFQ dashboard with orders and order statuses.](../../../../_images/rfq-dashboard.png)
 
 In addition to various view options, the Requests for Quotation dashboard provides
 Filters and Group By options, accessible via the search bar drop-down menu.

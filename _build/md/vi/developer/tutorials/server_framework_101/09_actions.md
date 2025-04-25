@@ -22,17 +22,17 @@ accepted we want to set the selling price and the buyer for the property.
 
 - You should be able to cancel or set a property as sold:
 
-![Cancel and set to sold](../../../.gitbook/assets/property.gif)
+![Cancel and set to sold](../../../_images/property.gif)
 
 A canceled property cannot be sold and a sold property cannot be canceled. For the sake of
 clarity, the `state` field has been added on the view.
 
 - You should be able to accept or refuse an offer:
 
-![Accept or refuse an offer](../../../.gitbook/assets/offer_01.gif)
+![Accept or refuse an offer](../../../_images/offer_01.gif)
 - Once an offer is accepted, the selling price and the buyer should be set:
 
-![Accept an offer](../../../.gitbook/assets/offer_02.gif)
+![Accept an offer](../../../_images/offer_02.gif)
 
 In our real estate module, we want to link business logic with some buttons. The most common way to
 do this is to:

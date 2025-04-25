@@ -23,7 +23,7 @@ First, you need to create combination choices. To do so:
 As a reference, the selected product's original price is displayed in the Original
 Price column.
 
-![image](../../../.gitbook/assets/combo-form.png)
+![image](../../../_images/combo-form.png)
 
 Second, you need to create a specific product to gather combo choices. To do this:
 
@@ -37,7 +37,7 @@ Second, you need to create a specific product to gather combo choices. To do thi
    combinations to add. You can also create a new combination at this step by clicking
    New on the popup window.
 
-![image](../../../.gitbook/assets/combo-product-form.png)
+![image](../../../_images/combo-product-form.png)
 
 Once you have created and added the combo choices into a product, you can sell combos in your retail
 store or restaurant.
@@ -47,4 +47,4 @@ store or restaurant.
 [Open a POS session](../point_of_sale.md#pos-session-start) and select the combo product. Choose the options and
 click Add to order. As a reminder, the extra price appears under the related choices.
 
-![image](../../../.gitbook/assets/combo-select.png)
+![image](../../../_images/combo-select.png)

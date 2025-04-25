@@ -7,7 +7,7 @@ ifndef WORKERS
 endif
 
 ODOO_DIR       = odoo-docs
-MARKDOWN_IMAGE_DIR = ".gitbook/assets"
+MARKDOWN_IMAGE_DIR = "_images"
 
 ifndef BUILD_DIR
   BUILD_DIR    = _build

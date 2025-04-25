@@ -20,10 +20,10 @@ other than class definitions and field declarations.
 
 - In the property model, the total area and the best offer should be computed:
 
-![Compute fields](../../../.gitbook/assets/compute.gif)
+![Compute fields](../../../_images/compute.gif)
 - In the property offer model, the validity date should be computed and can be updated:
 
-![Compute field with inverse](../../../.gitbook/assets/compute_inverse.gif)
+![Compute field with inverse](../../../_images/compute_inverse.gif)
 
 In our real estate module, we have defined the living area as well as the garden area. It is then
 natural to define the total area as the sum of both fields. We will use the concept of a computed
@@ -184,7 +184,7 @@ reaches a production server that you realize it slows down a whole process. Not 
 **Goal**: at the end of this section, enabling the garden will set a default area of 10 and
 an orientation to North.
 
-![Onchange](../../../.gitbook/assets/onchange.gif)
+![Onchange](../../../_images/onchange.gif)
 
 In our real estate module, we also want to help the user with data entry. When the 'garden'
 field is set, we want to give a default value for the garden area as well as the orientation.

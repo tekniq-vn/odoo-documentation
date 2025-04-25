@@ -9,7 +9,7 @@ localization.
 |------------------------|----------------|--------------------------------------------------------------------------------------------------|
 | Romania - Kế toán      | `l10n_ro`      | Default [fiscal localization package](../fiscal_localizations.md#fiscal-localizations-packages). |
 | Xuất SAF-T của Romania | `l10n_ro_saft` | Module to generate the **D.406 declaration** in the SAF-T format.                                |
-![Modules for the Romanian localization](../../../.gitbook/assets/romania-modules.png)
+![Modules for the Romanian localization](../../../_images/romania-modules.png)
 
 ## D.406 declaration
 
@@ -113,7 +113,7 @@ of an invoice document received from a supplier).
 To export the XML for the D.406 declaration, go to Accounting ‣ Reports ‣
 General Ledger and click on SAF-T.
 
-![Click on the 'SAF-T' button to export the D.406 XML declaration.](../../../.gitbook/assets/romania-saft-button.png)
+![Click on the 'SAF-T' button to export the D.406 XML declaration.](../../../_images/romania-saft-button.png)
 
 You can then validate and sign the XML file using the Romanian Tax Agency's validation software,
 *DUKIntegrator*.
@@ -128,7 +128,7 @@ Once you have generated the XML, open 'DUKIntegrator' and select the file you ha
 Click on Validare + creare PDF to create an **unsigned** PDF containing your report, or
 Validare + creare PDF semnat to create a **signed** PDF containing your report.
 
-![The DUKIntegrator validation software.](../../../.gitbook/assets/romania-dukintegrator.png)
+![The DUKIntegrator validation software.](../../../_images/romania-dukintegrator.png)
 
 If the *DUKIntegrator* validator detects errors or inconsistencies in your data, it generates a file
 that explains the errors. In this case, you need to correct those inconsistencies in your data

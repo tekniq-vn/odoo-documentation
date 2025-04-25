@@ -97,4 +97,4 @@ or the mapping. Clicking View Problematic Accounts lets you view them.
 To export the SAF-T report, go to Accounting ‣ Reports ‣ General Ledger. Click
 the right side of the PDF button and select SAF-T.
 
-![The SAF-T button to export the file in XML format](../../../.gitbook/assets/austria-saft-button.png)
+![The SAF-T button to export the file in XML format](../../../_images/austria-saft-button.png)

@@ -11,11 +11,11 @@ In Odoo, a withholding tax is defined by creating a negative tax. To create one,
 to Accounting ‣ Configuration ‣ Taxes and, in the Amount field,
 enter a negative amount.
 
-![negative tax amount in field](../../../../.gitbook/assets/negative-amount.png)
+![negative tax amount in field](../../../../_images/negative-amount.png)
 
 Then, go to the Advanced Options tab and create a retention Tax Group.
 
-![tax group for retention tax.](../../../../.gitbook/assets/tax-group.png)
+![tax group for retention tax.](../../../../_images/tax-group.png)
 
 ## Retention taxes on invoices
 
@@ -23,7 +23,7 @@ Once the retention tax has been created, it can be used on customer forms, sales
 customer invoices.
 Several taxes can be applied on a single customer invoice line.
 
-![invoice lines with taxes](../../../../.gitbook/assets/invoice-tax.png)
+![invoice lines with taxes](../../../../_images/invoice-tax.png)
 
 #### SEE ALSO
 [Thuế](../taxes.md)

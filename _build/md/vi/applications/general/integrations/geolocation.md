@@ -2,7 +2,7 @@
 
 You can locate contacts or places and generate routes on a map in Odoo.
 
-![Map displaying a contact's location.](../../../.gitbook/assets/contacts1.png)
+![Map displaying a contact's location.](../../../_images/contacts1.png)
 
 To use the feature, open the Settings app, and, under the Integrations,
 section, activate Geo Localization. Then, choose between using the OpenStreetMap or
@@ -26,7 +26,7 @@ Using the Google Places API could require [payment to Google](https://mapsplatfo
 
 To use it, select Google Place Map and enter your [API Key](../../websites/website/configuration/address_autocomplete.md#address-autocomplete-generate-api-key).
 
-![Google Places API key](../../../.gitbook/assets/google-places-api-key.png)
+![Google Places API key](../../../_images/google-places-api-key.png)
 
 #### SEE ALSO
 [Address autocomplete](../../websites/website/configuration/address_autocomplete.md)

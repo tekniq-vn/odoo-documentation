@@ -10,13 +10,13 @@ Odoo có thể được thiết lập để sử dụng nhiều  *đơn vị tí
 
 Để sử dụng các đơn vị tính khác nhau trong Odoo, trước tiên hãy đi đến Ứng dụng Tồn kho ‣ Cấu hình ‣ Cài đặt, và trong phần Sản phẩm, kích hoạt cài đặt Đơn vị tính. Sau đó, nhấp vào Lưu.
 
-![Bật Đơn vị đo tính trong cài đặt Tồn kho.](../../../../../.gitbook/assets/uom-enable-setting.png)
+![Bật Đơn vị đo tính trong cài đặt Tồn kho.](../../../../../_images/uom-enable-setting.png)
 
 ## Danh mục đơn vị tính
 
 Sau khi bật cài đặt  *Đơn vị tính*, xem các danh mục đơn vị tính mặc định trong Ứng dụng Tồn kho ‣ Cấu hình ‣ Danh mục ĐVT. Danh mục này rất quan trọng đối với việc chuyển đổi đơn vị; Odoo chỉ có thể chuyển đổi đơn vị của sản phẩm từ đơn vị này sang đơn vị khác **nếu** cả hai đơn vị đều thuộc cùng một danh mục.
 
-![Thiết lập các loại đơn vị tính.](../../../../../.gitbook/assets/category1.png)
+![Thiết lập các loại đơn vị tính.](../../../../../_images/category1.png)
 
 Mỗi danh mục đơn vị tính đều có một đơn vị tham chiếu. Đơn vị tham chiếu được tô màu xanh lam trong cột ĐVT của trang Danh mục đơn vị tính. Odoo sử dụng đơn vị tham chiếu làm cơ sở cho bất kỳ đơn vị mới nào.
 
@@ -32,7 +32,7 @@ Trong trường Tỷ lệ, hãy nhập số lượng đơn vị đơn lẻ trong
 
  mới, chẳng hạn như `6.00000` khi sử dụng ví dụ về `Hộp 6 đơn vị` (vì hộp 6 đơn vị *lớn hơn* 6 lần so với đơn vị tham chiếu, `1.00000`).
 
-![Chuyển đổi sản phẩm từ đơn vị này sang đơn vị khác miễn là chúng thuộc cùng một danh mục.](../../../../../.gitbook/assets/convert-products-by-unit.png)
+![Chuyển đổi sản phẩm từ đơn vị này sang đơn vị khác miễn là chúng thuộc cùng một danh mục.](../../../../../_images/convert-products-by-unit.png)
 
 ## Chỉ định đơn vị tính của sản phẩm
 
@@ -111,7 +111,7 @@ Sau khi nhấp vào Bổ sung hàng, tab bổ sung hàng sẽ bật lên. Nếu 
 #### IMPORTANT
  **chỉ** có thể được tạo tự động nếu có ít nhất **một** nhà cung cấp được liệt kê trong tab Mua hàng của biểu mẫu sản phẩm.
 
-![Nhấp vào nút Bổ sung hàng để bổ sung hàng thủ công.](../../../../../.gitbook/assets/replenish.png)
+![Nhấp vào nút Bổ sung hàng để bổ sung hàng thủ công.](../../../../../_images/replenish.png)
 
 Đi đến  đã tạo bằng cách nhấp vào nút thông minh Được dự báo trên biểu mẫu sản phẩm. Cuộn xuống phần Tồn kho được dự báo và trong dòng Yêu cầu báo giá, nhấp vào số tham chiếu  để mở bản nháp . Nếu cần, có thể chỉnh sửa 
 

@@ -27,7 +27,7 @@ To do that, navigate to Sales app ‣ Configuration ‣ Settings. Then, on the
 Settings page, scroll to the Quotations & Orders section, and locate the
 PDF Quote builder feature.
 
-![The PDF Quote Builder feature located on the Settings page of the Sales application.](../../../../.gitbook/assets/pdf-quote-builder-feature.png)
+![The PDF Quote Builder feature located on the Settings page of the Sales application.](../../../../_images/pdf-quote-builder-feature.png)
 
 Here, custom Header pages and Footer pages can be uploaded. To upload
 either, click the Upload your file button, or the ✏️ (pencil) icon to the
@@ -111,7 +111,7 @@ and proceed to upload the custom document(s) to the specific product variant.
 
 On the product page, click the Documents smart button at the top of the page.
 
-![The Documents smart button on a product form in Odoo Sales.](../../../../.gitbook/assets/documents-smart-button1.png)
+![The Documents smart button on a product form in Odoo Sales.](../../../../_images/documents-smart-button1.png)
 
 Doing so reveals a separate Documents page for that product, wherein files related to
 that product can be uploaded. From this page, either click New or Upload.
@@ -124,7 +124,7 @@ Clicking New reveals a blank documents form, in which the desired PDF can be upl
 via the Upload your file button on the form, located in the File Content
 field.
 
-![A standard document form with various fields for a specific product in Odoo Sales.](../../../../.gitbook/assets/blank-document-form.png)
+![A standard document form with various fields for a specific product in Odoo Sales.](../../../../_images/blank-document-form.png)
 
 Various information and configurations related to the uploaded document can be modified here.
 
@@ -135,7 +135,7 @@ Name field is auto-populated with the name of the PDF, and it can then be edited
 Prior to uploading a document, there's the option to designate whether the document is a
 File or URL from the Type drop-down field menu.
 
-![A standard document form with an uploaded pdf in Odoo Sales.](../../../../.gitbook/assets/document-form-uploaded-pdf.png)
+![A standard document form with an uploaded pdf in Odoo Sales.](../../../../_images/document-form-uploaded-pdf.png)
 
 #### NOTE
 If a PDF is uploaded, the Type field is auto-populated to File, and it
@@ -163,7 +163,7 @@ To print the PDF quote, navigate to the confirmed quote, and click the ⚙️ (g
 reveal a drop-down menu. From this drop-down menu, select Print, then select
 PDF Quote.
 
-![Print pdf quote option on drop-down menu located on confirmed sales order in Odoo Sales.](../../../../.gitbook/assets/drop-down-print-pdf.png)
+![Print pdf quote option on drop-down menu located on confirmed sales order in Odoo Sales.](../../../../_images/drop-down-print-pdf.png)
 
 Doing so instantly downloads the PDF quote. When opened, the PDF quote, along with the configured
 product PDF that was set to be visible inside the quote, can be viewed and printed.

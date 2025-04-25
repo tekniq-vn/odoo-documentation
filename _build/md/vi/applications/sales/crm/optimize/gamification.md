@@ -13,7 +13,7 @@ Type `CRM Gamification` to search.
 On the CRM Gamification module, click Install. This module features goals
 and challenges related to the *CRM* and *Sales* applications.
 
-![View of the gamification module being installed in Odoo.](../../../../.gitbook/assets/gamification-module-install.png)
+![View of the gamification module being installed in Odoo.](../../../../_images/gamification-module-install.png)
 
 #### NOTE
 If **both** the *CRM* and *Sales* apps are installed, the *CRM Gamification* module is
@@ -23,7 +23,7 @@ To access the *Gamification Tools* menu, first enable [Chế độ lập trình 
 
 Next, navigate to Settings app ‣ Gamification Tools.
 
-![View if the gamification tools menu in Odoo Settings.](../../../../.gitbook/assets/gamification-tools-menu.png)
+![View if the gamification tools menu in Odoo Settings.](../../../../_images/gamification-tools-menu.png)
 
 <a id="crm-create-rewards"></a>
 
@@ -36,7 +36,7 @@ they accomplish the goal.
 To view the existing badges, or create a new one, navigate to Settings ‣
 Gamification Tools ‣ Badges.
 
-![View of the badges page in Odoo.](../../../../.gitbook/assets/badges.png)
+![View of the badges page in Odoo.](../../../../_images/badges.png)
 
 #### NOTE
 Some badges can be awarded outside of challenges, as well. Select the Kanban card for the desired
@@ -67,7 +67,7 @@ checkbox. This sets a limit on the number of times a user can grant this badge. 
 Limitation Number field, enter the maximum number of times this badge can be sent per
 month, per person.
 
-![The details page for a new badge.](../../../../.gitbook/assets/create-badge.png)
+![The details page for a new badge.](../../../../_images/create-badge.png)
 
 <a id="crm-create-challenge"></a>
 
@@ -101,7 +101,7 @@ Enter a Target for the goal based on the Suffix.
 
 Repeat these steps for each additional goal.
 
-![The goals tab of a challenge form.](../../../../.gitbook/assets/challenge-goals.png)
+![The goals tab of a challenge form.](../../../../_images/challenge-goals.png)
 
 ### Thêm phần thưởng
 

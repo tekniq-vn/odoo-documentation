@@ -17,13 +17,13 @@ Changes made to reference numbers are logged in the chatter.
 To customize the default sequence, open the last confirmed vendor bill, click Reset to
 Draft, and edit the vendor bill's reference number.
 
-![Editing the reference number of a vendor bill.](../../../../.gitbook/assets/sequence-reference-number.png)
+![Editing the reference number of a vendor bill.](../../../../_images/sequence-reference-number.png)
 
 Odoo then explains how the detected format will be applied to all future vendor bills. For example,
 if the current vendor bill's month is withdrawn, the sequence's periodicity will change to every
 year instead of every month.
 
-![Editing the reference number of a vendor bill.](../../../../.gitbook/assets/sequence-dialog1.png)
+![Editing the reference number of a vendor bill.](../../../../_images/sequence-dialog1.png)
 
 <a id="accounting-vendor-bills-mass-resequencing"></a>
 
@@ -49,4 +49,4 @@ Follow these steps to resequence vendor bill numbers:
 
 The first vendor bill using the new sequence appears in red in the Bills list view.
 
-![Resequence options window](../../../../.gitbook/assets/sequence-bill-sequencing.png)
+![Resequence options window](../../../../_images/sequence-bill-sequencing.png)

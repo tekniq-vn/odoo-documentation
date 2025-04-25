@@ -69,7 +69,7 @@ or actions to be taken for the quality alert. They can be filled out as follows:
   Company field. Finally, specify when the alert was assigned to a quality team in the
   Date Assigned field.
 
-![A quality alert form that has been filled out.](../../../../.gitbook/assets/alert-form1.png)
+![A quality alert form that has been filled out.](../../../../_images/alert-form1.png)
 
 ## Manage quality alerts
 
@@ -83,4 +83,4 @@ the quality alert form.
 
 Để tạo cảnh báo mới trong một giai đoạn cụ thể, nhấp vào nút + (dấu cộng) bên phải tên giai đoạn. Trong thẻ cảnh báo mới xuất hiện bên dưới tiêu đề giai đoạn, nhập Tiêu đề cảnh báo, sau đó nhấp Thêm. Để cấu hình phần còn lại của cảnh báo, chọn thẻ cảnh báo để mở biểu mẫu của nó.
 
-![The Quality Alerts page, displaying alerts in a Kanban view.](../../../../.gitbook/assets/alert-kanban.png)
+![The Quality Alerts page, displaying alerts in a Kanban view.](../../../../_images/alert-kanban.png)

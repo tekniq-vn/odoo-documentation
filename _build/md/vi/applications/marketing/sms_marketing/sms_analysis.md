@@ -12,4 +12,4 @@ For example, while in the default Graph view,  data
 is visualized as different graphs and charts, which can be sorted and grouped in various ways (e.g.
 Measures drop down menu).
 
-![Reporting page in SMS Marketing.](../../../.gitbook/assets/sms-reporting-page.png)
+![Reporting page in SMS Marketing.](../../../_images/sms-reporting-page.png)

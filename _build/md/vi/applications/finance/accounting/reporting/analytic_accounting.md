@@ -38,7 +38,7 @@ project or department.
 You can access the analytic plans by going to Accounting ‣ Configuration ‣
 Analytic Accounting: Analytic Plans. Click New to create a new plan.
 
-![create an analytic plan](../../../../.gitbook/assets/analytic_plans.png)
+![create an analytic plan](../../../../_images/analytic_plans.png)
 
 The following information must be completed:
 
@@ -78,7 +78,7 @@ Two smart buttons are available in the top-right corner:
 
 Thêm một kế hoạch vào cột Phân tích khi tạo hóa đơn hoặc hóa đơn mua hàng. Trường này chỉ bắt buộc nếu bạn đã liên kết kế hoạch phân tích của mình với ít nhất một tài khoản phân tích trước đó. Sau khi thêm kế hoạch, một **tiện ích** sẽ mở ra, nơi bạn có thể điền các thông tin khác nhau. Bạn có thể thêm **thẻ** để phản ánh các tài khoản phân tích liên quan và quyết định cách phân bổ chi phí giữa các tài khoản bằng cách thay đổi tỷ lệ phần trăm.
 
-![create a distribution template](../../../../.gitbook/assets/analytic_distribution.png)
+![create a distribution template](../../../../_images/analytic_distribution.png)
 
 <a id="analytic-distribution-models"></a>
 

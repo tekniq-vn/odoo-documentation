@@ -19,7 +19,7 @@ Source, and further separated by stage (In Progress and Hired)
 
 Hover the cursor over any column to view the specific numbers fort that column.
 
-![The default bar chart of the source analysis information.](../../../.gitbook/assets/source-analysis.png)
+![The default bar chart of the source analysis information.](../../../_images/source-analysis.png)
 
 To view more details, view the Source Analysis report in a pivot table. To do so, click
 the <i class="oi oi-view-pivot"></i> (Pivot) icon in the top-right corner. The data is presented in
@@ -43,7 +43,7 @@ This information, as presented, makes it difficult to view the specific numbers 
 Click the <i class="fa fa-exchange"></i> (Flip axis) icon, to swap the information. After that, the
 rows represent the source, and the columns represent the job positions, further divided by stage.
 
-![The axes flipped in the source analysis report, in pivot table view.](../../../.gitbook/assets/source-pivot.png)
+![The axes flipped in the source analysis report, in pivot table view.](../../../_images/source-pivot.png)
 
 In this view, the total number of applicants, hired employees, and refused applicants, are displayed
 for each source, as well as for each stage by job position.
@@ -63,7 +63,7 @@ presents the specific mediums, relevant to that specific source.
 Once Medium is selected for one source, clicking into another row automatically reveals
 the specific metrics for the mediums for that source.
 
-![The sources rows, expanded to also show the medium for each source.](../../../.gitbook/assets/medium.png)
+![The sources rows, expanded to also show the medium for each source.](../../../_images/medium.png)
 
 #### NOTE
 The only mediums that appear for a source, are mediums that have been set on an applicant's form.

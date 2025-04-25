@@ -38,7 +38,7 @@ subcontractor in the Vendor column.
 Once the subcontractor has been added, enter the number of days it takes them to manufacture and
 deliver the product, in the Delivery Lead Time column.
 
-![The Delivery Lead Time field for a subcontractor, on the Purchase tab of a product page.](../../../../.gitbook/assets/delivery-lead-time.png)
+![The Delivery Lead Time field for a subcontractor, on the Purchase tab of a product page.](../../../../_images/delivery-lead-time.png)
 
 #### NOTE
 Multiple subcontractors can be added to the Purchase tab on a product's page, and a

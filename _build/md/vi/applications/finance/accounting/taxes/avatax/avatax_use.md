@@ -10,7 +10,7 @@ Automatically calculate taxes on Odoo quotations and invoices with AvaTax by con
 documents during the sales flow. Alternatively, calculate the taxes manually by clicking the
 Compute Taxes button, while these documents are in draft stage.
 
-![Sales quotation with the confirm and compute taxes button highlighted.](../../../../../.gitbook/assets/calculate-avatax.png)
+![Sales quotation with the confirm and compute taxes button highlighted.](../../../../../_images/calculate-avatax.png)
 
 The tax calculation is triggered during the following [automatic trigger](#avatax-automatic-triggers) and [manual trigger](#avatax-manual-triggers) circumstances.
 
@@ -59,7 +59,7 @@ Then click Create and view invoice. The recorded taxes can be seen in the
 Journal Items tab of the invoice. There will be different taxes depending on the
 location of the Delivery Address.
 
-![Journal items highlighted on a invoice in Odoo.](../../../../../.gitbook/assets/journal-items.png)
+![Journal items highlighted on a invoice in Odoo.](../../../../../_images/journal-items.png)
 
 Finally, press the Confirm button to complete the invoice and synchronize with the
 AvaTax portal.
@@ -103,7 +103,7 @@ following columns:
 - Line: indicates the line the calculation is made on.
 - Function: indicates the calculation taken on the line.
 
-![Avalara logging page with top row of list highlighted.](../../../../../.gitbook/assets/logging.png)
+![Avalara logging page with top row of list highlighted.](../../../../../_images/logging.png)
 
 Click into the log line to reveal another field, called Message.
 

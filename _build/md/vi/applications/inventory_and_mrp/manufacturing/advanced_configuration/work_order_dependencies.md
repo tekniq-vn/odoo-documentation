@@ -14,15 +14,15 @@ Hạng mục phụ thuộc của công đoạn được cấu hình trên  của
 
 Trên , nhấp vào tab Thông tin khác, sau đó bật hộp kiểm Hạng mục phụ thuộc của công đoạn. Thao tác này tạo tùy chọn Bị chặn bởi mới trong phần cài đặt của tab Hoạt động.
 
-![Hộp kiểm Hạng mục phụ thuộc của hoạt động trên tab Thông tin khác của BoM.](../../../../.gitbook/assets/operation-dependencies.png)
+![Hộp kiểm Hạng mục phụ thuộc của hoạt động trên tab Thông tin khác của BoM.](../../../../_images/operation-dependencies.png)
 
 Tiếp theo, nhấp vào tab Hoạt động. Ở góc trên bên phải của tab này, nhấp vào nút cài đặt của tab, sau đó bật hộp kiểm Bị chặn bởi. Thao tác này sẽ tạo ra trường Bị chặn bởi cho mỗi hoạt động trên tab Hoạt động.
 
-![Thiết lập cho tab Hoạt động trên BoM.](../../../../.gitbook/assets/operations-settings.png)
+![Thiết lập cho tab Hoạt động trên BoM.](../../../../_images/operations-settings.png)
 
 Trong dòng hoạt động cần bị chặn, hãy nhấp vào trường Bị chặn bởi, và cửa sổ bật lên Mở: Hoạt động sẽ xuất hiện. Trong trường thả xuống Bị chặn bởi trên cửa sổ bật lên này, hãy chọn hoạt động chặn cần phải hoàn thành *trước* hoạt động bị chặn.
 
-![Trường thả xuống Bị chặn bởi cho một hoạt động trên BoM.](../../../../.gitbook/assets/blocked-by.png)
+![Trường thả xuống Bị chặn bởi cho một hoạt động trên BoM.](../../../../_images/blocked-by.png)
 
 Cuối cùng, lưu  bằng cách nhấp vào Lưu.
 
@@ -36,11 +36,11 @@ Sau khi xác nhận lệnh sản xuất, hãy chọn tab Công đoạn để xem
 
 Các công đoạn bị chặn bởi một hoặc nhiều công đoạn sẽ hiển thị thẻ `Đang chờ công đoạn khác`. Khi (các) công đoạn chặn hoàn tất, thẻ này sẽ được cập nhật thành `Sẵn sàng`.
 
-![Thẻ trạng thái cho công đoạn trong lệnh sản xuất.](../../../../.gitbook/assets/work-order-status.png)
+![Thẻ trạng thái cho công đoạn trong lệnh sản xuất.](../../../../_images/work-order-status.png)
 
 Để lên lịch cho các công đoạn của lệnh sản xuất, hãy nhấp vào nút Kế hoạch ở đầu trang. Sau đó, ngày và giờ bắt đầu theo lịch trình sẽ tự động được điền vào trường Ngày bắt đầu đã lên lịch cho mỗi công đoạn trên tab Công đoạn. Công đoạn bị chặn sẽ được lên lịch vào cuối khoảng thời gian đã xác định trong trường Thời lượng dự kiến của công đoạn trước đó.
 
-![Trường Ngày bắt đầu đã lên lịch cho các công đoạn trong lệnh sản xuất.](../../../../.gitbook/assets/scheduled-start-date.png)
+![Trường Ngày bắt đầu đã lên lịch cho các công đoạn trong lệnh sản xuất.](../../../../_images/scheduled-start-date.png)
 
 ### Lập kế hoạch theo khu vực sản xuất
 
@@ -48,4 +48,4 @@ Các công đoạn bị chặn bởi một hoặc nhiều công đoạn sẽ hi�
 
 Nếu một công đoạn bị chặn do cần hoàn thành công đoạn khác trước, thì công đoạn bị chặn sẽ được hiển thị là đã lên lịch bắt đầu sau công đoạn chặn nó. Ngoài ra, một mũi tên sẽ kết nối hai công đoạn, dẫn từ hoạt động chặn đến hoạt động bị chặn.
 
-![Mũi tên kết nối công đoạn bị chặn với công đoạn đang chặn công đoạn đó.](../../../../.gitbook/assets/planning-arrow.png)
+![Mũi tên kết nối công đoạn bị chặn với công đoạn đang chặn công đoạn đó.](../../../../_images/planning-arrow.png)

@@ -33,7 +33,7 @@ Each appraisal card displays the following information:
 
 To view the details of any appraisal, click on the card to open the appraisal form.
 
-![The Appraisals dashboard with each appraisal in its own box.](../../../.gitbook/assets/dashboard.png)
+![The Appraisals dashboard with each appraisal in its own box.](../../../_images/dashboard.png)
 
 ## Create an appraisal
 
@@ -99,7 +99,7 @@ file explorer window appears. Navigate to the file(s), select them, then click O
 
 When the email is ready to send, click Send.
 
-![The email pop-up when requesting feedback from other employees.](../../../.gitbook/assets/ask-feedback.png)
+![The email pop-up when requesting feedback from other employees.](../../../_images/ask-feedback.png)
 
 ### Appraisal form
 
@@ -120,7 +120,7 @@ Feedback section, under the Appraisal tab.
 When completed, click the Not Visible to Manager toggle (the default setting once an
 appraisal is confirmed). When clicked, the toggle changes to Visible to Manager.
 
-![The feedback section for the employee with the toggle button highlighted.](../../../.gitbook/assets/employee-feedback.png)
+![The feedback section for the employee with the toggle button highlighted.](../../../_images/employee-feedback.png)
 
 <a id="appraisals-manager-feedback"></a>
 
@@ -136,7 +136,7 @@ When the feedback section is completed, click the Not Visible to Employee toggle
 default setting once an appraisal is confirmed). When clicked, the toggle changes to
 Visible to Employee.
 
-![The feedback section for both employees and managers. The toggle buttons are highlighted.](../../../.gitbook/assets/manager-feedback.png)
+![The feedback section for both employees and managers. The toggle buttons are highlighted.](../../../_images/manager-feedback.png)
 
 #### Tab kỹ năng
 
@@ -160,7 +160,7 @@ on adding or updating a skill.
 After an appraisal is completed, and the skills have been updated, the next time an appraisal is
 confirmed, the updated skills populate the Skills tab.
 
-![The skills tab of an appraisal form, all filled out.](../../../.gitbook/assets/skills.png)
+![The skills tab of an appraisal form, all filled out.](../../../_images/skills.png)
 
 #### NOTE
 The Skills tab can be modified **after** the employee and their manager have met and
@@ -218,7 +218,7 @@ Once all the desired changes are complete, click Save & Close.
 
 The meeting now appears on the calendar, and the invited parties are informed, via email.
 
-![The meeting form with all information entered for Ronnie Hart's annual appraisal.](../../../.gitbook/assets/meeting.png)
+![The meeting form with all information entered for Ronnie Hart's annual appraisal.](../../../_images/meeting.png)
 
 The other way to schedule a meeting is from the individual appraisal form. To do this, navigate to
 the Appraisal app dashboard, then click on an appraisal card.

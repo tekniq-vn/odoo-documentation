@@ -12,7 +12,7 @@ ellipsis button (⋮) on a POS card and click Edit. Then, enable
 Multi Employees per Session, and add the allowed employees in the Allowed
 Employees field.
 
-![setting to enable multiple cashiers in POS](../../../.gitbook/assets/setting1.png)
+![setting to enable multiple cashiers in POS](../../../_images/setting1.png)
 
 <a id="employee-login-use"></a>
 
@@ -21,16 +21,16 @@ Employees field.
 Once the feature is activated, cashiers can log in [by scanning their badge](#employee-login-badge) or selecting their name from the list of allowed employees to [open the
 session](../point_of_sale.md#pos-session-start).
 
-![window to open a session when the multiple cashiers feature is enabled](../../../.gitbook/assets/open-session.png)
+![window to open a session when the multiple cashiers feature is enabled](../../../_images/open-session.png)
 
 To switch to another user [from an open session](../point_of_sale.md#pos-session-start), click the employee name
 at the top-right of the screen and select the employee to swap with from the list.
 
-![button to switch from one cashier to another.](../../../.gitbook/assets/switch-user.png)
+![button to switch from one cashier to another.](../../../_images/switch-user.png)
 
 Bạn cũng có thể yêu cầu nhân viên nhập mã PIN mỗi khi đăng nhập vào POS để ngăn họ đăng nhập bằng tài khoản người khác. Để thiết lập mã này, vào ứng dụng **Nhân viên**, mở biểu mẫu nhân viên và nhấp vào tab Cài đặt HR. Sau đó, nhập mã PIN tùy chọn vào trường Mã PIN trong danh mục Chấm công/Điểm bán hàng.
 
-![setting on the employee form to assign a badge ID and a PIN code.](../../../.gitbook/assets/pin-and-badgeid.png)
+![setting on the employee form to assign a badge ID and a PIN code.](../../../_images/pin-and-badgeid.png)
 
 <a id="employee-login-badge"></a>
 

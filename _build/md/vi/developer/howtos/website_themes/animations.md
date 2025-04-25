@@ -44,7 +44,7 @@ attribute to control the animation's direction intensity.
 </div>
 ```
 
-![Animation on appearance options](../../../.gitbook/assets/appearance.png)
+![Animation on appearance options](../../../_images/appearance.png)
 
 <a id="website-themes-animations-scroll"></a>
 
@@ -79,7 +79,7 @@ Additionally, we can also set an `in` or `out` effect, an animation `direction` 
 | Intensity         | `--wanim-intensity`      | Integer (in the CSS) |
 | Scroll Zone Start | `data-scroll-zone-start` | Integer              |
 | Scroll Zone End   | `data-scroll-zone-end`   | Integer              |
-![Animation on scroll options](../../../.gitbook/assets/scroll.png)
+![Animation on scroll options](../../../_images/scroll.png)
 
 #### SEE ALSO
 [Website Animate](https://github.com/odoo/odoo/blob/34c0c9c1ae00aba391932129d4cefd027a9c6bbd/addons/website/static/src/scss/website.scss#L1638)
@@ -120,7 +120,7 @@ also define the type of animation in the `data-hover-effect` attribute.
 | Intensity              | `data-hover-effect-intensity` | Integer                   |
 | Overlay / Stroke color | `data-hover-effect-color`     | Hexadecimal or RGBA value |
 | Stroke width           | `data-hover-stroke-width`     | Integer (saved as `px`)   |
-![Animation on hover options](../../../.gitbook/assets/hover.png)
+![Animation on hover options](../../../_images/hover.png)
 
 #### SEE ALSO
 [Hover effect options](https://github.com/odoo/odoo/blob/f43fbf67c98236434429e26d9d93de71ddb06790/addons/website/views/snippets/snippets.xml#L405)

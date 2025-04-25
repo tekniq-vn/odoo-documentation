@@ -23,7 +23,7 @@ so, the Storage Locations feature is also automatically activated.
 
 Finally, click Save.
 
-![Activate Multi-Step Routes in Inventory configuration settings.](../../../../../.gitbook/assets/activate-multi-step-routes.png)
+![Activate Multi-Step Routes in Inventory configuration settings.](../../../../../_images/activate-multi-step-routes.png)
 
 <a id="inventory-routes-putaway-rule"></a>
 

@@ -1,55 +1,54 @@
-# 01\_architecture
+<a id="tutorials-server-framework-101-01-architecture"></a>
 
-## Chapter 1: Architecture Overview
+# Chapter 1: Architecture Overview
 
-### Multitier application
+## Multitier application
 
-Odoo follows a [multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), meaning that the presentation, the business\
-logic and the data storage are separated. More specifically, it uses a three-tier architecture\
+Odoo follows a [multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), meaning that the presentation, the business
+logic and the data storage are separated. More specifically, it uses a three-tier architecture
 (image from Wikipedia):
 
-![Three-tier architecture](../../../.gitbook/assets/three_tier.svg)
+![Three-tier architecture](../../../_images/three_tier.svg)
 
-The presentation tier is a combination of HTML5, JavaScript and CSS. The logic tier is exclusively\
+The presentation tier is a combination of HTML5, JavaScript and CSS. The logic tier is exclusively
 written in Python, while the data tier only supports PostgreSQL as an RDBMS.
 
-Depending on the scope of your module, Odoo development can be done in any of these tiers.\
-Therefore, before going any further, it may be a good idea to refresh your memory if you don't have\
+Depending on the scope of your module, Odoo development can be done in any of these tiers.
+Therefore, before going any further, it may be a good idea to refresh your memory if you don't have
 an intermediate level in these topics.
 
-In order to go through this tutorial, you will need a very basic knowledge of HTML and an intermediate\
-level of Python. Advanced topics will require more knowledge in the other subjects. There are\
-plenty of tutorials freely accessible, so we cannot recommend one over another since it depends\
+In order to go through this tutorial, you will need a very basic knowledge of HTML and an intermediate
+level of Python. Advanced topics will require more knowledge in the other subjects. There are
+plenty of tutorials freely accessible, so we cannot recommend one over another since it depends
 on your background.
 
 For reference this is the official [Python tutorial](https://docs.python.org/3.7/tutorial/).
 
-**NOTE**
-
-Since version 15.0, Odoo is actively transitioning to using its own in-house developed [OWL\
-framework](https://odoo.github.io/owl/) as part of its presentation tier. The legacy JavaScript\
-framework is still supported but will be deprecated over time. This will be discussed further in\
+#### NOTE
+Since version 15.0, Odoo is actively transitioning to using its own in-house developed [OWL
+framework](https://odoo.github.io/owl/) as part of its presentation tier. The legacy JavaScript
+framework is still supported but will be deprecated over time. This will be discussed further in
 advanced topics.
 
-### Odoo modules
+## Odoo modules
 
-Both server and client extensions are packaged as _modules_ which are\
-optionally loaded in a _database_. A module is a collection of functions and data that target a\
+Both server and client extensions are packaged as *modules* which are
+optionally loaded in a *database*. A module is a collection of functions and data that target a
 single purpose.
 
-Odoo modules can either add brand new business logic to an Odoo system or\
-alter and extend existing business logic. One module can be created to add your\
-country's accounting rules to Odoo's generic accounting support, while\
+Odoo modules can either add brand new business logic to an Odoo system or
+alter and extend existing business logic. One module can be created to add your
+country's accounting rules to Odoo's generic accounting support, while
 a different module can add support for real-time visualisation of a bus fleet.
 
 Everything in Odoo starts and ends with modules.
 
-Terminology: developers group their business features in Odoo _modules_. The main user-facing\
-modules are flagged and exposed as _Apps_, but a majority of the modules aren't Apps. _Modules_\
-may also be referred to as _addons_ and the directories where the Odoo server finds them\
+Terminology: developers group their business features in Odoo *modules*. The main user-facing
+modules are flagged and exposed as *Apps*, but a majority of the modules aren't Apps. *Modules*
+may also be referred to as *addons* and the directories where the Odoo server finds them
 form the `addons_path`.
 
-#### Composition of a module
+### Composition of a module
 
 An Odoo module **can** contain a number of elements:
 
@@ -73,14 +72,14 @@ An Odoo module **can** contain a number of elements:
 [Web controllers](../../reference/backend/http.md#reference-controllers)
 : Handle requests from web browsers
 
-Static web data\
+Static web data
 : Images, CSS or JavaScript files used by the web interface or website
 
-None of these elements are mandatory. Some modules may only add data files (e.g. country-specific\
-accounting configuration), while others may only add business objects. During this training, we will\
+None of these elements are mandatory. Some modules may only add data files (e.g. country-specific
+accounting configuration), while others may only add business objects. During this training, we will
 create business objects, object views and data files.
 
-#### Module structure
+### Module structure
 
 Each module is a directory within a *module directory*. Module directories
 are specified by using the [`--addons-path`](../../reference/cli.md#cmdoption-odoo-bin-addons-path)
@@ -88,8 +87,9 @@ option.
 
 An Odoo module is declared by its [manifest](../../reference/backend/module.md#reference-module-manifest).
 
-When an Odoo module includes business objects (i.e. Python files), they are organized as a[Python package](https://docs.python.org/3/tutorial/modules.html#packages)\
-with a `__init__.py` file. This file contains import instructions for various Python\
+When an Odoo module includes business objects (i.e. Python files), they are organized as a
+[Python package](https://docs.python.org/3/tutorial/modules.html#packages)
+with a `__init__.py` file. This file contains import instructions for various Python
 files in the module.
 
 Here is a simplified module directory:
@@ -105,11 +105,11 @@ module
 └── __manifest__.py
 ```
 
-### Odoo Editions
+## Odoo Editions
 
-Odoo is available in [two versions](https://www.odoo.com/page/editions): Odoo Enterprise (licensed & shared sources) and Odoo Community\
-(open-source). In addition to services such as support or upgrades, the Enterprise version provides extra\
-functionalities to Odoo. From a technical point-of-view, these functionalities are simply\
+Odoo is available in [two versions](https://www.odoo.com/page/editions): Odoo Enterprise (licensed & shared sources) and Odoo Community
+(open-source). In addition to services such as support or upgrades, the Enterprise version provides extra
+functionalities to Odoo. From a technical point-of-view, these functionalities are simply
 new modules installed on top of the modules provided by the Community version.
 
 Ready to start? It is now time to [write your own application](02_newapp.md)!

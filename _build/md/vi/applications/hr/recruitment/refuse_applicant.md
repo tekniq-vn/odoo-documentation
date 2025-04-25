@@ -86,7 +86,7 @@ After clicking the Refuse button on an applicant form, a [Refuse Reason](#recrui
 Then, two fields appear below the selected refusal reason: Send Email and
 Email Template.
 
-![The Refuse Reason pop-up window that appears when refusing an applicant.](../../../.gitbook/assets/refuse-pop-up.png)
+![The Refuse Reason pop-up window that appears when refusing an applicant.](../../../_images/refuse-pop-up.png)
 
 The applicant's email address automatically populates the Send Email field; additional
 email recipients **cannot** be added.
@@ -102,7 +102,7 @@ then click Refuse at the bottom of the Refuse Reason pop-up window. The
 refusal email is sent to the applicant, and a red Refused banner appears on the
 applicant's card in the top-right corner.
 
-![An applicant's card with the refused banner appearing in the top-right corner in red.](../../../.gitbook/assets/refuse.png)
+![An applicant's card with the refused banner appearing in the top-right corner in red.](../../../_images/refuse.png)
 
 ## View refused applicants
 

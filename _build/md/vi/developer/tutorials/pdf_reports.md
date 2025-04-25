@@ -55,7 +55,7 @@ are loaded sequentially!
 **Goal**: at the end of this section, we will can print a report that displays all offers for a
 property.
 
-![Simple PDF report](../../.gitbook/assets/simple_report.png)
+![Simple PDF report](../../_images/simple_report.png)
 
 In our real estate example there are many useful reports that we could create. One simple report we
 can create is one that displays all of a property's offers.
@@ -171,7 +171,7 @@ that only make sense under specific conditions. For example, if we wanted to mak
 report, then we can link it to a "Print Sale Info" button that appears in the form view only when
 the property is "Sold".
 
-![Print Menu Button](../../.gitbook/assets/print_menu.png)
+![Print Menu Button](../../_images/print_menu.png)
 
 You may have noticed or are wondered why our report template loops through a recordset. When our
 template is passed more than one record, it can produce one PDF report for all the records.
@@ -186,7 +186,7 @@ Finally, you now know where to create your files and how the content of the file
 #### NOTE
 **Goal**: at the end of this section, we will have a sub-template that we use in 2 reports.
 
-![Report using a subtemplate](../../.gitbook/assets/report_subtemplate.png)
+![Report using a subtemplate](../../_images/report_subtemplate.png)
 
 There are two main reasons for using sub-templates. One is to make the code easier to read when working with
 extra-long or complicated templates. The other is to reuse code where possible. Our simple property offers
@@ -204,7 +204,7 @@ See if you can understand how to call a sub-template by reading the
 **Goal**: at the end of this section, we will inherit the property report in the `estate_account`
 module.
 
-![An inherited report](../../.gitbook/assets/inherited_report.png)
+![An inherited report](../../_images/inherited_report.png)
 
 Inheritance in QWeb uses the same `xpath` elements as [views inheritance](../reference/user_interface/view_records.md#reference-view-records-inheritance).
 A QWeb template refers to its parent template in a different way though. It is even easier to do by just adding

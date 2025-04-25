@@ -15,7 +15,7 @@ Cơ sở dữ liệu Odoo Online được truy cập bằng bất kỳ trình du
 
 Tất cả tùy chọn quản lý cơ sở dữ liệu chính đều có sẵn khi nhấp vào tên cơ sở dữ liệu, ngoại trừ tùy chọn nâng cấp, có thể truy cập được bằng cách nhấp vào biểu tượng **mũi tên trong vòng tròn** cạnh tên cơ sở dữ liệu. Tuỳ chọn này chỉ được hiển thị nếu có bản nâng cấp.
 
-![Truy cập các tùy chọn quản lý cơ sở dữ liệu](../.gitbook/assets/database-manager.png)
+![Truy cập các tùy chọn quản lý cơ sở dữ liệu](../_images/database-manager.png)
 - [Nâng cấp](#odoo-online-upgrade)
 - [Nhân bản](#odoo-online-duplicate)
 - [Đổi tên](#odoo-online-rename)
@@ -82,7 +82,7 @@ Xóa cơ sở dữ liệu ngay lập tức.
 
 Đọc kỹ nội dung cảnh báo và chỉ tiếp tục nếu bạn đã hiểu rõ ý nghĩa của việc xóa cơ sở dữ liệu.
 
-![Nội dung cảnh báo hiển thị trước khi xóa cơ sở dữ liệu](../.gitbook/assets/delete.png)
+![Nội dung cảnh báo hiển thị trước khi xóa cơ sở dữ liệu](../_images/delete.png)
 
 #### NOTE
 - Chỉ quản trị viên mới có thể xóa cơ sở dữ liệu.
@@ -101,7 +101,7 @@ Truy cập [trang hỗ trợ Odoo.com](https://www.odoo.com/help) với thông t
 
 Để mời người dùng, điền địa chỉ email của người dùng mới và nhấp vào Mời. Để thêm nhiều người dùng, nhấp vào Thêm nhiều người dùng.
 
-![Mời người dùng trên cơ sở dữ liệu](../.gitbook/assets/invite-users.png)
+![Mời người dùng trên cơ sở dữ liệu](../_images/invite-users.png)
 
 Để gỡ bỏ người dùng, chọn họ và nhấp vào Gỡ bỏ.
 

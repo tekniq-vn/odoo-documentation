@@ -18,7 +18,7 @@ configured, or create a new one by clicking New.
 In the General tab, locate the Reservation Method field, and select
 Manually.
 
-![Reservation method field on delivery order operation type form.](../../../../../.gitbook/assets/manually-operations-type.png)
+![Reservation method field on delivery order operation type form.](../../../../../_images/manually-operations-type.png)
 
 #### NOTE
 When the Type of Operation is changed to Receipt on an
@@ -53,7 +53,7 @@ tooltip reads Reserved, and reveals the available number of units (e.g., `0 Unit
 Additionally, unless there is a set replenishment or a live receipt, it also reads No
 future availability, in red text.
 
-![Confirmed sales order with product availability tooltip selected.](../../../../../.gitbook/assets/manually-availability-tooltip.png)
+![Confirmed sales order with product availability tooltip selected.](../../../../../_images/manually-availability-tooltip.png)
 
 Once the  is confirmed, navigate to the Inventory app, and locate the
 Delivery Orders card on the Inventory Overview page.
@@ -62,7 +62,7 @@ The Delivery Orders card displays the current status of live orders, including t
 with a Waiting status. Orders with this status indicate that the products in those
 orders have either not been reserved yet, or are not in stock at all.
 
-![Delivery orders task card with waiting status orders.](../../../../../.gitbook/assets/manually-delivery-orders-card.png)
+![Delivery orders task card with waiting status orders.](../../../../../_images/manually-delivery-orders-card.png)
 
 To see the  created previously, click the (#) Waiting button on the card (in this
 case, `8 Waiting`).
@@ -80,7 +80,7 @@ Demand column and the Quantity column do *not* match.
 In this case, the Demand column lists `10.00`, while the Quantity column
 lists `0`.
 
-![Delivery order form with product availability and reserved quantity.](../../../../../.gitbook/assets/manually-delivery-order-form.png)
+![Delivery order form with product availability and reserved quantity.](../../../../../_images/manually-delivery-order-form.png)
 
 To manually reserve the specified quantity of the product for this order, click the
 Check Availability button at the top of the form. Doing so turns the `Available` status

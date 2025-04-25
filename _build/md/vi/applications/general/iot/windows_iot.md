@@ -111,7 +111,7 @@ Once the Windows virtual IoT is [connected to the Odoo database](connect.md), it
 be accessed from Odoo by opening the IoT app and clicking the URL displayed on the IoT system's
 card.
 
-![Windows virtual IoT's homepage](../../../.gitbook/assets/iot-windows-homepage.png)
+![Windows virtual IoT's homepage](../../../_images/iot-windows-homepage.png)
 
 #### NOTE
 Make sure the [Windows Firewall is configured](#iot-windows-iot-firewall) to allow access.

@@ -70,7 +70,7 @@ current map or by creating a alternate map without modifying the initial one.
 
 First, we can use a shape like this:
 
-![Initial shape](../../../.gitbook/assets/shapes-initial.png)
+![Initial shape](../../../_images/shapes-initial.png)
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" width="100%" height="100%">
     <defs>
@@ -97,7 +97,7 @@ The shape is declared as follows in SCSS:
 'Zigs/06': ('position': bottom, 'size': 30px 100%, 'colors': (4, 5), 'repeat-x': true),
 ```
 
-![Shape colors](../../../.gitbook/assets/shapes-bg.jpg)
+![Shape colors](../../../_images/shapes-bg.jpg)
 
 The blackish color is used at the top (`c5`), the lightish (`c4`) at the bottom and in between,
 the shape is simply transparent.
@@ -120,7 +120,7 @@ The `c4` (white) will be replaced by `c3` (whitish) and `c5` (black) by `c1` (wh
 
 **Results**
 
-![Shape final](../../../.gitbook/assets/shapes-final.png)![Shape final options](../../../.gitbook/assets/shapes-final-options.png)
+![Shape final](../../../_images/shapes-final.png)![Shape final options](../../../_images/shapes-final-options.png)
 
 <a id="website-themes-shapes-bg-standard-colors-extra"></a>
 

@@ -73,7 +73,7 @@ performed. Select one of the three options, and then include the instructions as
 - Text: enter the instructions in the text-entry field that appears after the option is
   selected.
 
-![A maintenance request form filled out for a piece of equipment.](../../../.gitbook/assets/request-form.png)
+![A maintenance request form filled out for a piece of equipment.](../../../_images/request-form.png)
 
 ## Process maintenance request
 

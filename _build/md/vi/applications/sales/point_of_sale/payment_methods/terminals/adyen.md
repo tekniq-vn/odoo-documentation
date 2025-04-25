@@ -66,7 +66,7 @@ Bank and select Adyen in the Use a Payment Terminal field.
 Finally, fill in the mandatory fields with your [Adyen API key](#adyen-api), [Adyen
 Terminal Identifier](#adyen-identifier), and Adyen Merchant Account.
 
-![image](../../../../../.gitbook/assets/payment-method1.png)
+![image](../../../../../_images/payment-method1.png)
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to the
 [POS' settings](../../configuration.md#configuration-settings), click Edit, and add the payment method

@@ -22,7 +22,7 @@ To create a task dependency from the Gantt view, hover your mouse over the prede
 click one of the dots that appear around it. Drag and drop the dot onto the successor task. An arrow
 appears, indicating the dependency from the predecessor task to the successor.
 
-![Task dependency](../../../../.gitbook/assets/task-dependency.png)
+![Task dependency](../../../../_images/task-dependency.png)
 
 Odoo automatically manages task progress based on their dependency. Successor tasks are assigned the
 Waiting status and cannot be moved to In Progress until their predecessor

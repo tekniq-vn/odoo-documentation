@@ -14,7 +14,7 @@ Trong phân hệ Sản xuất, chọn Cấu hình ‣ Khu vực sản xuất ‣
 - Giờ làm việc: xác định số giờ mà khu vực sản xuất có thể được sử dụng mỗi tuần
 - Công ty: chọn công ty mà khu vực sản xuất thuộc về
 
-![Ví dụ về biểu mẫu khu vực sản xuất được cấu hình đầy đủ.](../../../../.gitbook/assets/work-center-form.png)
+![Ví dụ về biểu mẫu khu vực sản xuất được cấu hình đầy đủ.](../../../../_images/work-center-form.png)
 
 <a id="manufacturing-management-using-work-centers-wc-setup"></a>
 
@@ -30,7 +30,7 @@ Tab Thông tin chung trên biểu mẫu khu vực sản xuất cho phép chỉ �
 - Chi phí theo giờ: chi phí vận hành khu vực sản xuất trong một giờ
 - Tài khoản phân tích: tài khoản dùng để ghi lại chi phí của khu vực sản xuất
 
-![Tab thông tin chung của biểu mẫu khu vực sản xuất.](../../../../.gitbook/assets/work-center-general-information.png)
+![Tab thông tin chung của biểu mẫu khu vực sản xuất.](../../../../_images/work-center-general-information.png)
 
 ### Chỉ định thiết bị cho một khu vực sản xuất
 
@@ -43,7 +43,7 @@ Sử dụng tab Thiết bị, có thể gán các thiết bị cụ thể cho m�
 - MTTR: thời gian trung bình để phục hồi; thời gian trung bình để thiết bị hoạt động trở lại hoàn toàn
 - Lần hỏng kế tiếp dự kiến: ước tính thời điểm tiếp theo xảy ra trục trặc thiết bị
 
-![Tab thiết bị của biểu mẫu khu vực sản xuất.](../../../../.gitbook/assets/work-center-equipment.png)
+![Tab thiết bị của biểu mẫu khu vực sản xuất.](../../../../_images/work-center-equipment.png)
 
 #### NOTE
 MTBF, MTTR và Lần hỏng kế tiếp dự kiến đều được tính toán tự động dựa trên dữ liệu lỗi trước đó, nếu có.
@@ -58,7 +58,7 @@ Tab Bộ kích hoạt IoT cho phép tích hợp các thiết bị  với một k
 - Khoá: khóa bảo mật cho thiết bị
 - Tác vụ: tác vụ của thiết bị IoT được kích hoạt
 
-![Tab Bộ kích hoạt IoT của biểu mẫu khu vực sản xuất.](../../../../.gitbook/assets/work-center-iot.png)
+![Tab Bộ kích hoạt IoT của biểu mẫu khu vực sản xuất.](../../../../_images/work-center-iot.png)
 
 ## Trường hợp vận dụng: cấu hình một khu vực sản xuất thay thế
 
@@ -68,11 +68,11 @@ Bắt đầu bằng cách tạo một khu vực sản xuất mới. Cấu hình 
 
 Bây giờ, hãy tạo một lệnh sản xuất mới sử dụng khu vực sản xuất chính để xử lý một trong các hoạt động của lệnh sản xuất này. Khu vực sản xuất chính sẽ tự động được chọn cho hoạt động trong tab Công đoạn. Sau khi xác nhận lệnh sản xuất, hãy nhấp vào nút Kế hoạch xuất hiện ở góc trên bên trái của biểu mẫu.
 
-![Nhấp vào nút kế hoạch để tự động chọn khu vực sản xuất khả dụng.](../../../../.gitbook/assets/manufacturing-order-plan-button.png)
+![Nhấp vào nút kế hoạch để tự động chọn khu vực sản xuất khả dụng.](../../../../_images/manufacturing-order-plan-button.png)
 
 Nếu khu vực sản xuất chính đã quá tải, thì khu vực sản xuất cho hoạt động này sẽ tự động được chuyển sang khu vực sản xuất dự trù.
 
-![Khu vực sản xuất dự trù sẽ được chọn tự động.](../../../../.gitbook/assets/automatic-work-center-selection.png)
+![Khu vực sản xuất dự trù sẽ được chọn tự động.](../../../../_images/automatic-work-center-selection.png)
 
 ## Giám sát hiệu suất của khu vực sản xuất
 

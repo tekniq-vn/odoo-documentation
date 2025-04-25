@@ -69,7 +69,7 @@ The report now displays a list of expired products.
 This report can also be generated from the [Lot and Serials Numbers](../../product_management/product_tracking/expiration_dates.md#inventory-product-management-expiration-alerts) page, accessed by going to
 Inventory app ‣ Products ‣ Lots/Serial Numbers.
 
-![Show a list of products whose expiration dates have exceeded today.](../../../../../.gitbook/assets/dead-stock.png)
+![Show a list of products whose expiration dates have exceeded today.](../../../../../_images/dead-stock.png)
 
 <a id="inventory-warehouse-storage-stranded"></a>
 
@@ -87,7 +87,7 @@ To get a list of items that might be sitting idly in storage, follow these steps
    intended to be moved to, such as `WH/Input`,  or `WH/Packing`.
 3. Select the Search Location for: [location name] option from the resulting drop-down
    menu that appears beneath the Search... bar.
-   ![Show search result for the location.](../../../../../.gitbook/assets/search-input-location.png)
+   ![Show search result for the location.](../../../../../_images/search-input-location.png)
 
 The report now displays a list of products at the transit location.
 
@@ -101,7 +101,7 @@ To generate a report of items that have been moved since the last [inventory aud
 3. Enable the Internal Locations and Conflicts option from the
    Filters section.
 4. The report now displays items whose quantities have changed since the last cycle count.
-   ![Show items from the *Conflicts* filter in the report.](../../../../../.gitbook/assets/discrepancy.png)
+   ![Show items from the *Conflicts* filter in the report.](../../../../../_images/discrepancy.png)
 5. Click the <i class="fa fa-history"></i> History button to view inventory transfers, including
    receipts and deliveries, that have occurred since the inventory adjustment.
-   ![Show *Moves History*, showing a delivery that occurred after an inventory adjustment.](../../../../../.gitbook/assets/history1.png)
+   ![Show *Moves History*, showing a delivery that occurred after an inventory adjustment.](../../../../../_images/history1.png)

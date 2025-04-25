@@ -13,7 +13,7 @@ Then, define the Tax Cash Basis Journal. Click on the external link button next 
 journal to update its default properties such as the Journal Name, Type or
 Short Code.
 
-![Select your Tax Cash Basis Journal and click on the external link](../../../../.gitbook/assets/tax_cash_basis_journal.png)
+![Select your Tax Cash Basis Journal and click on the external link](../../../../_images/tax_cash_basis_journal.png)
 
 #### NOTE
 By default, the journal entries of the Cash Basis Taxes journal are named using the
@@ -27,7 +27,7 @@ The Account column reflects the proper transitional accounts to post taxes until
 payment is registered.
 
 ![Fill in the account column with a transitional accounts where taxes go until the payment
-is registered](../../../../.gitbook/assets/account_column.png)
+is registered](../../../../_images/account_column.png)
 
 In the Advanced Options tab, decide of the Tax Exigilibity. Select
 Based on Payment, so the tax is due when the payment of the invoice is received. You can
@@ -35,14 +35,14 @@ then also define the Cash Basis Transition Account where the tax amount is recor
 long as the original invoice has not been reconciled.
 
 ![Fill in the Cash Basis Transition Account where taxes amounts go until payment
-reconciliation.](../../../../.gitbook/assets/advanced_options.png)
+reconciliation.](../../../../_images/advanced_options.png)
 
 ## Impact of cash basis taxes on accounting
 
 To illustrate the impact of cash basis taxes on accounting transactions, let's take an example with
 the sales of a product that costs 1,000$, with a cash basis tax of 15%.
 
-![](../../../../.gitbook/assets/customer_invoice_with_cbt.png)
+![](../../../../_images/customer_invoice_with_cbt.png)
 
 The following entries are created in your accounting, and the tax report is currently empty.
 

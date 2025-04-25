@@ -19,7 +19,7 @@ message.
 To create or update a sales teams' email alias, navigate to CRM app ‣
 Configuration ‣ Sales Teams. Click on a team from the list to open the team's details page.
 
-![The sales team details page, focused on the email alias section.](../../../../.gitbook/assets/email-alias1.png)
+![The sales team details page, focused on the email alias section.](../../../../_images/email-alias1.png)
 
 In the Email Alias field, enter a name for the email alias, or edit the existing name.
 In the Accept Emails From field, use the drop-down menu to choose who is allowed to send
@@ -42,7 +42,7 @@ The email received by the alias is added to the *chatter* thread for the lead. T
 the message is added to the title field, and the Email field is updated with the
 contact's email address.
 
-![The chatter thread of a newly created lead in the CRM app.](../../../../.gitbook/assets/chatter-message.png)
+![The chatter thread of a newly created lead in the CRM app.](../../../../_images/chatter-message.png)
 
 #### NOTE
 If the *leads* feature is **not** enabled on the database, messages to the email alias are added
@@ -99,4 +99,4 @@ displayed first.
 
 Once all the necessary information has been entered, click Add.
 
-![The CRM pipeline with a newly created opportunity.](../../../../.gitbook/assets/create-opportunities.png)
+![The CRM pipeline with a newly created opportunity.](../../../../_images/create-opportunities.png)

@@ -23,7 +23,7 @@ the backend interface and opening Settings ‣ Translations
 * select your module
 * click Export and download the file
 
-![image](../../.gitbook/assets/po-export.png)
+![image](../../_images/po-export.png)
 
 This gives you a file called `*yourmodule*.pot` which should be moved to
 the `*yourmodule*/i18n/` directory. The file is a *PO Template* which

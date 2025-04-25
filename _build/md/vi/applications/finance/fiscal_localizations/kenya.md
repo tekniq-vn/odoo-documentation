@@ -85,7 +85,7 @@ To fetch them manually, proceed as follows:
 Go to Accounting ‣ Configuration ‣ KE OSCU Codes to view the complete list of
 fetched OSCU codes.
 
-![List of fetched OSCU codes.](../../../.gitbook/assets/oscu-codes.png)
+![List of fetched OSCU codes.](../../../_images/oscu-codes.png)
 
 <a id="etims-unspsc"></a>
 
@@ -189,7 +189,7 @@ If the elements above are defined, the product is automatically registered while
 operation to the KRA. If not, you will be alerted by a yellow banner at the top of the screen
 inviting you to check the missing elements.
 
-![Product registration template.](../../../.gitbook/assets/product-registration.png)
+![Product registration template.](../../../_images/product-registration.png)
 
 ## Stock movements
 
@@ -242,7 +242,7 @@ are the following:
    vendor bill has been confirmed on eTIMS, the **KRA invoice number** can be found in the
    eTIMS Details tab.
 
-![Bill registration steps.](../../../.gitbook/assets/purchase-order-lines.png)
+![Bill registration steps.](../../../_images/purchase-order-lines.png)
 
 ## Xuất hóa đơn
 

@@ -10,7 +10,7 @@ To properly utilize multiple addresses in Odoo, go to Accounting app ‣
 Configuration ‣ Settings, and scroll down to the Customer Invoices heading. Then,
 tick the checkbox.
 
-![Activate the Customer Addresses setting.](../../../../.gitbook/assets/customer-addresses-setting.png)
+![Activate the Customer Addresses setting.](../../../../_images/customer-addresses-setting.png)
 
 <a id="sales-send-quotations-contact-form-config"></a>
 
@@ -24,7 +24,7 @@ From the contact form, click Edit, and then select Add, which is located
 under the Contacts & Addresses tab. Doing so reveals a Create Contact pop-up
 form, in which additional addresses can be configured.
 
-![Thêm liên hệ/địa chỉ vào biểu mẫu liên hệ.](../../../../.gitbook/assets/contact-form-add-address1.png)
+![Thêm liên hệ/địa chỉ vào biểu mẫu liên hệ.](../../../../_images/contact-form-add-address1.png)
 
 On the Create Contact pop-up form, start by clicking the default Other
 Address field to reveal a drop-down menu of address-related options.
@@ -40,7 +40,7 @@ Chọn bất kỳ tùy chọn nào sau đây:
 Once an option is selected, proceed to enter the corresponding contact information that should be
 used for the specified address type.
 
-![Tạo một liên hệ/địa chỉ mới trên biểu mẫu liên hệ.](../../../../.gitbook/assets/create-contact-window1.png)
+![Tạo một liên hệ/địa chỉ mới trên biểu mẫu liên hệ.](../../../../_images/create-contact-window1.png)
 
 Then, click Save & Close to save the address and close the Create Contact
 window. Or, click Save & New to save the address and immediately input another one.
@@ -51,7 +51,7 @@ When a customer is added to a quotation, the Invoice Address and Delivery
 Address fields autopopulate with the corresponding addresses specified on the customer's contact
 form.
 
-![Invoice and Delivery Addresses autopopulate on a quotation.](../../../../.gitbook/assets/quotation-address-autopopulate.png)
+![Invoice and Delivery Addresses autopopulate on a quotation.](../../../../_images/quotation-address-autopopulate.png)
 
 The Invoice Address and Delivery Address can also be edited directly from
 the quotation by clicking the Edit button, and then clicking the ➡️ (right

@@ -15,11 +15,11 @@ behavior of the standard CRUD (Create, Retrieve, Update or Delete) methods.
 
 - It should not be possible to delete a property which is not new or canceled.
 
-![Unlink](../../../.gitbook/assets/unlink.gif)
+![Unlink](../../../_images/unlink.gif)
 - When an offer is created, the property state should change to 'Offer Received'
 - It should not be possible to create an offer with a lower price than an existing offer
 
-![Create](../../../.gitbook/assets/create.gif)
+![Create](../../../_images/create.gif)
 
 In our real estate module, we never had to develop anything specific to be able to do the
 standard CRUD actions. The Odoo framework provides the necessary
@@ -97,7 +97,7 @@ The second inheritance mechanism (delegation) allows every record of a model to 
 to a parent model's record and provides transparent access to the
 fields of this parent record.
 
-![Inheritance Methods](../../../.gitbook/assets/inheritance_methods1.png)
+![Inheritance Methods](../../../_images/inheritance_methods1.png)
 
 In Odoo, the first mechanism is by far the most used. In our case, we want to add a field to an
 existing model, which means we will use the first mechanism. For example:
@@ -129,7 +129,7 @@ In the next section let's add the field to the view and check that everything is
 **Goal**: at the end of this section, the list of available properties linked
 to a salesperson should be displayed in their user form view
 
-![Users](../../../.gitbook/assets/users.png)
+![Users](../../../_images/users.png)
 
 Instead of modifying existing views in place (by overwriting them), Odoo
 provides view inheritance where children 'extension' views are applied on top of

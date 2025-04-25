@@ -36,7 +36,7 @@ they are therefore linked to a model. In Odoo, you can find the different models
 backend by enabling the [developer mode](../../../applications/general/developer_mode.md#developer-mode) and then going to
 Settings ‣ Technical ‣ Database Structure: Models.
 
-![Models page](../../../.gitbook/assets/models-page.png)
+![Models page](../../../_images/models-page.png)
 
 <a id="website-themes-setup-databases-fields"></a>
 
@@ -139,10 +139,10 @@ Go to `<database_url>/saas_worker/dump`.
    button.
 6. Click the Download icon. Select Testing under
    Purpose and With filestore under Filestore.
-   ![Download backup](../../../.gitbook/assets/download-backup.png)
+   ![Download backup](../../../_images/download-backup.png)
 7. You will receive a notification when the dump is ready to be downloaded. Open it and click on
    Download to get your dump.
-   ![Database backup](../../../.gitbook/assets/database-backup.png)
+   ![Database backup](../../../_images/database-backup.png)
 
 <a id="website-themes-setup-databases-import-filestore"></a>
 
@@ -234,7 +234,7 @@ After the server has started (the INFO log `odoo.modules.loading: Modules loaded
 
 Type **admin** for the email and **admin** for the password.
 
-![Welcome homepage](../../../.gitbook/assets/welcome-homepage.png)
+![Welcome homepage](../../../_images/welcome-homepage.png)
 
 <a id="website-themes-setup-getting-started-developer-mode"></a>
 

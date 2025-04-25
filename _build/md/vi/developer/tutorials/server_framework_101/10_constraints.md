@@ -19,10 +19,10 @@ Odoo provides two ways to set up automatically verified invariants:
 
 - Amounts should be (strictly) positive
 
-![Constraints on amounts](../../../.gitbook/assets/sql_01.gif)
+![Constraints on amounts](../../../_images/sql_01.gif)
 - Property types and tags should have a unique name
 
-![Constraints on names](../../../.gitbook/assets/sql_02.gif)
+![Constraints on names](../../../_images/sql_02.gif)
 
 SQL constraints are defined through the model attribute
 `_sql_constraints`. This attribute is assigned a list
@@ -52,7 +52,7 @@ the problematic data in order to apply the new constraints.
 **Goal**: at the end of this section, it will not be possible to accept an offer
 lower than 90% of the expected price.
 
-![Python constraint](../../../.gitbook/assets/python.gif)
+![Python constraint](../../../_images/python.gif)
 
 SQL constraints are an efficient way of ensuring data consistency. However it may be necessary
 to make more complex checks which require Python code. In this case we need a Python constraint.

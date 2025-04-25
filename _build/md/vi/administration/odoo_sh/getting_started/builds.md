@@ -6,7 +6,7 @@
 
 Trong Odoo.sh, bản dựng là một cơ sở dữ liệu được tải bởi máy chủ Odoo ([odoo/odoo](https://github.com/odoo/odoo) & [odoo/enterprise](https://github.com/odoo/enterprise)) chạy trên một bản sửa đổi cụ thể của kho lưu trữ dự án của bạn trong môi trường được container hoá. Mục đích là kiểm thử hành vi khả quan của máy chủ, cơ sở dữ liệu và các tính năng với bản sửa đổi này.
 
-![image](../../../.gitbook/assets/interface-builds.png)
+![image](../../../_images/interface-builds.png)
 
 Trong chế độ xem này, một hàng biểu thị một nhánh và mỗi ô trong hàng biểu thị một bản dựng của nhánh này.
 
@@ -59,16 +59,16 @@ Theo danh sách phân hệ cần cài đặt và kiểm thử, bản dựng phá
 
 Nhánh production sẽ luôn xuất hiện đầu tiên, sau đó các nhánh khác được sắp xếp theo thứ tự bản dựng được tạo gần nhất. Bạn có thể lọc các nhánh.
 
-![image](../../../.gitbook/assets/interface-builds-branches.png)
+![image](../../../_images/interface-builds-branches.png)
 
 Đối với mỗi nhánh, bạn có thể truy cập cơ sở dữ liệu của bản dựng cuối cùng bằng liên kết *Kết nối* và đi đến mã nhánh bằng liên kết *Github*. Đối với các nhánh khác không phải nhánh sản xuất, bạn có thể tạo bản dựng mới sẽ sử dụng bản sửa đổi mới nhất của nhánh bằng liên kết *dựng lại*. Liên kết cuối cùng này không khả dụng khi đã có bản dựng đang tiến hành cho nhánh.
 
-![image](../../../.gitbook/assets/interface-builds-build.png)
+![image](../../../_images/interface-builds-build.png)
 
 Đối với mỗi bản dựng, bạn có thể truy cập các thay đổi trên bản sửa đổi bằng nút có biểu tượng Github. Bạn có thể truy cập cơ sở dữ liệu của bản dựng với tư cách là quản trị viên bằng nút *Kết nối*. Ngoài ra, bạn có thể truy cập cơ sở dữ liệu với tư cách người dùng khác bằng nút *Kết nối với tư cách* trong menu thả xuống của nút *Kết nối*.
 
 <a id="odoosh-gettingstarted-builds-download-dump"></a>
-![image](../../../.gitbook/assets/interface-builds-build-dropdown.png)
+![image](../../../_images/interface-builds-build-dropdown.png)
 
 <a id="odoosh-gettingstarted-builds-dropdown-menu"></a>
 

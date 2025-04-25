@@ -22,7 +22,7 @@ section, and click Activate the developer mode.
 
 Once activated, the Deactivate the developer mode option becomes available.
 
-![Activating the developer mode in the Settings app](../../.gitbook/assets/settings.png)
+![Activating the developer mode in the Settings app](../../_images/settings.png)
 
 To activate the developer mode **from anywhere in the database**, add `?debug=1` to the URL after
 `/web` (e.g., `https://example.odoo.com/web?debug=1#action=menu&cids=1`). To deactivate it, use
@@ -40,9 +40,9 @@ Once the developer mode is activated, the developer tools can be accessed by cli
 technical data, such as a view's field, filters, or actions. The options available depend on where
 the menu is accessed from.
 
-![Accessing the developer tools](../../.gitbook/assets/tools.png)
+![Accessing the developer tools](../../_images/tools.png)
 
 Database administrators can access the technical menu from the Settings app. It contains
 advanced database settings, such as ones related to the database structure, security, actions, etc.
 
-![Accessing the technical menu](../../.gitbook/assets/technical.png)
+![Accessing the technical menu](../../_images/technical.png)

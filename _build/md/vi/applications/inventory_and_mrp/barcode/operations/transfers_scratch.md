@@ -26,7 +26,7 @@ nomenclature selected changes how scanners interpret barcodes in Odoo.
 There is also a Configure Product Barcodes internal link arrow, and a set of
 Print buttons for printing barcode commands and a barcode demo sheet.
 
-![Enabled Barcode feature in Inventory app settings.](../../../../.gitbook/assets/transfers-scratch-enabled-barcode-setting.png)
+![Enabled Barcode feature in Inventory app settings.](../../../../_images/transfers-scratch-enabled-barcode-setting.png)
 
 For more on setting up and configuring the Barcode app, refer to the [Set up your
 barcode scanner](../setup/hardware.md) and [Activate the Barcodes in Odoo](../setup/software.md)
@@ -60,7 +60,7 @@ Transfers. Under that field, the Source Location and Destination Location
 are set as WH/Stock by default, but can be changed to whichever locations the products
 are being moved from, and moved to.
 
-![Blank internal transfer form with source location and destination location.](../../../../.gitbook/assets/transfers-scratch-internal-transfer-form.png)
+![Blank internal transfer form with source location and destination location.](../../../../_images/transfers-scratch-internal-transfer-form.png)
 
 Once the desired locations have been selected, products can be added to the transfer. On the
 Product line under the Products tab, click Add a product, and
@@ -70,7 +70,7 @@ Once ready, click Save at the top of the form to save the new internal transfer.
 saved, click the Detailed Operations icon (four lines, at the far right of the
 Product line) to open the Detailed Operations pop-up window.
 
-![Internal transfer detailed operations pop-up window.](../../../../.gitbook/assets/transfers-scratch-detailed-operations-popup.png)
+![Internal transfer detailed operations pop-up window.](../../../../_images/transfers-scratch-detailed-operations-popup.png)
 
 From the pop-up, click Add a line.
 
@@ -90,7 +90,7 @@ options is presented.
 To process internal transfers, click on the Operations button at the bottom of the
 screen. This navigates to an Operations overview page.
 
-![Barcode app start screen with scanner.](../../../../.gitbook/assets/transfers-scratch-barcode-app.png)
+![Barcode app start screen with scanner.](../../../../_images/transfers-scratch-barcode-app.png)
 
 From this page, locate the Internal Transfers card, and click the # To
 Process button to view all outstanding internal transfers. Then, select the desired operation to
@@ -110,7 +110,7 @@ From this screen, an overview of all products to process within that specific in
 Product or Validate, depending on if products need to be added to the operation, or if
 the whole operation should be validated at once.
 
-![Overview of receipts in transfer to scan.](../../../../.gitbook/assets/transfers-scratch-receipts-overview.png)
+![Overview of receipts in transfer to scan.](../../../../_images/transfers-scratch-receipts-overview.png)
 
 Then, scan the barcode of the product to process the internal transfer.
 
@@ -163,7 +163,7 @@ and add the products and product quantities that should be transferred.
 
 Once ready, click Confirm to confirm the changes made to the product line.
 
-![Blank product editor in scratch internal transfer.](../../../../.gitbook/assets/transfers-scratch-blank-product-editor.png)
+![Blank product editor in scratch internal transfer.](../../../../_images/transfers-scratch-blank-product-editor.png)
 
 Then, from the overview page with all products to process within that transfer (**WH/INT/000XX**),
 click Validate. The internal transfer has now been processed, and the *Barcode* app can

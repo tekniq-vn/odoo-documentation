@@ -12,7 +12,7 @@ supported](https://developer.paypal.com/docs/reports/reference/paypal-supported-
 To access your PayPal account settings, log into PayPal, open the Account Settings, and
 open the Website payments menu.
 
-![PayPal account menu](../../../.gitbook/assets/paypal-account.png)
+![PayPal account menu](../../../_images/paypal-account.png)
 
 #### IMPORTANT
 Note that for PayPal to work **in Odoo**, the options [Auto Return](#paypal-auto-return) and

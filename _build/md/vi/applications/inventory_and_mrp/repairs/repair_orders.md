@@ -25,7 +25,7 @@ Doing so opens the delivery order (DO) form.
 
 From this form, click Return. This opens a Reverse Transfer pop-up window.
 
-![Reverse transfer pop-up window on delivery order form.](../../../.gitbook/assets/repair-orders-reverse-transfer.png)
+![Reverse transfer pop-up window on delivery order form.](../../../_images/repair-orders-reverse-transfer.png)
 
 This pop-up lists the Product included in the order, the Quantity delivered
 to the customer, and the Unit of Measure the product was in.
@@ -51,7 +51,7 @@ Once products have been returned, their repairs can be tracked by creating a rep
 To create a new , navigate to Repairs app, and click New. This
 opens a blank  form.
 
-![Left-hand side of blank repair order form.](../../../.gitbook/assets/repair-orders-left-hand-form.png)
+![Left-hand side of blank repair order form.](../../../_images/repair-orders-left-hand-form.png)
 
 On this form, begin by selecting a Customer. The customer selected should be for whom
 the order will be invoiced and delivered.
@@ -77,7 +77,7 @@ order.
 In the Scheduled Date field, click the date to reveal a calendar popover window. From
 this calendar, select a date for the repair, and click Apply.
 
-![Right-hand side of blank repair order form.](../../../.gitbook/assets/repair-orders-completed-repair-form.png)
+![Right-hand side of blank repair order form.](../../../_images/repair-orders-completed-repair-form.png)
 
 In the Responsible field, click the drop-down menu and select the user who should be
 responsible for the repair.
@@ -96,7 +96,7 @@ at the bottom of the form.
 In the Type column, click the box to reveal three options to choose from:
 Add (selected by default), Remove, and Recycle.
 
-![Type column options or new part under Parts tab.](../../../.gitbook/assets/repair-orders-type-column.png)
+![Type column options or new part under Parts tab.](../../../_images/repair-orders-type-column.png)
 
 Choosing Add adds this part to the . Adding parts lists components for use in the
 repair. If the components are used, the user completing the repair can record they were used. If
@@ -125,7 +125,7 @@ process.
 To add additional columns to the line, click the (optional columns drop-down) icon, at
 the far-right of the header row. Select the desired options to add to the line.
 
-![Optional additional options to add to new part line.](../../../.gitbook/assets/repair-orders-additional-options.png)
+![Optional additional options to add to new part line.](../../../_images/repair-orders-additional-options.png)
 
 ### Repair Notes and Miscellaneous tabs
 
@@ -155,7 +155,7 @@ database, click End Repair.
 If all parts added to the  were not used, clicking End Repair causes an
 Uncomplete Move(s) pop-up window to appear.
 
-![Uncomplete Moves pop-up window for unused parts.](../../../.gitbook/assets/repair-orders-uncomplete-moves.png)
+![Uncomplete Moves pop-up window for unused parts.](../../../_images/repair-orders-uncomplete-moves.png)
 
 The pop-up window informs the user that there is a difference between the initial demand and the
 actual quantity used for the order.
@@ -169,7 +169,7 @@ appears above the form.
 Click the Product Moves smart button to view the product's moves history during and
 after the repair process.
 
-![Moves history of product included in the repair order.](../../../.gitbook/assets/repair-orders-product-moves.png)
+![Moves history of product included in the repair order.](../../../_images/repair-orders-product-moves.png)
 
 <a id="repairs-repair-orders-return-customer"></a>
 
@@ -185,7 +185,7 @@ If the product is not under warranty, or should the customer bear the repair cos
 Create Quotation. This opens a new  form, pre-populated with the parts used in the
 , with the total cost of the repair calculated.
 
-![Pre-populated new quotation for parts included in repair order.](../../../.gitbook/assets/repair-orders-new-quotation.png)
+![Pre-populated new quotation for parts included in repair order.](../../../_images/repair-orders-new-quotation.png)
 
 If this  should be sent to the customer, click Confirm, and proceed to invoice the
 customer for the repair.
@@ -203,7 +203,7 @@ appears, linking this return to the completed .
 Click Return at the top of the form. This opens a Reverse Transfer pop-up
 window.
 
-![Reverse transfer pop-up window on delivery order form.](../../../.gitbook/assets/repair-orders-reverse-transfer.png)
+![Reverse transfer pop-up window on delivery order form.](../../../_images/repair-orders-reverse-transfer.png)
 
 This pop-up lists the Product included in the order, the Quantity delivered
 to the customer, and the Unit of Measure the product was in.

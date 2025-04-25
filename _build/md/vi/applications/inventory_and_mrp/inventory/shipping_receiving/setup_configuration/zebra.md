@@ -29,7 +29,7 @@ Reports page.
 To manually navigate to the Reports page, go to Settings app ‣
 Technical ‣ Reporting: Reports.
 
-![Show global search result for "Reports".](../../../../../.gitbook/assets/search.png)
+![Show global search result for "Reports".](../../../../../_images/search.png)
 
 On the Reports page, in the Search... bar, type `ZPL`, and hit `Enter`.
 Upon doing so, Odoo presents a list of available Zebra labels in Odoo. Select the desired Zebra
@@ -48,14 +48,14 @@ Printable ZPL labels in Odoo:
 Next, click the <i class="fa fa-code"></i> Qweb Views smart button, and choose the desired label
 [view](../../../../../developer/reference/user_interface/view_records.md).
 
-![Show Qweb smart button on the Lot and Serial Number (ZPL) report.](../../../../../.gitbook/assets/qweb-views.png)
+![Show Qweb smart button on the Lot and Serial Number (ZPL) report.](../../../../../_images/qweb-views.png)
 
 On the resulting view form, go to the Architecture tab to view the  code.
 
 #### IMPORTANT
 Để đảm bảo tùy chỉnh **không** bị ghi đè khi cập nhật, hãy nhấp vào biểu tượng <i class="fa fa-bug"></i> (bọ) trên trang chế độ xem. Sau đó, chọn tùy chọn Xem siêu dữ liệu từ menu thả xuống để mở cửa sổ bật lên Xem siêu dữ liệu. Tiếp theo, đảm bảo trường Không cập nhật được đặt thành đúng (thay đổi). Nhấp Đồng ý để thoát khỏi cửa sổ bật lên Xem siêu dữ liệu.
 
-![Architecture tab in the view.](../../../../../.gitbook/assets/architecture.png)
+![Architecture tab in the view.](../../../../../_images/architecture.png)
 
 <a id="inventory-shipping-receiving-margin"></a>
 
@@ -71,7 +71,7 @@ When customizing lot/serial number labels, look for the `^FO` command, instead o
 
 Mặc định
 
-![Example barcode label with the product name cut off.](../../../../../.gitbook/assets/default-margin.png)
+![Example barcode label with the product name cut off.](../../../../../_images/default-margin.png)
 
 **Mã**:
 
@@ -84,7 +84,7 @@ Mặc định
 
 Modified
 
-![Example barcode label with the product name margin adjusted to the left.](../../../../../.gitbook/assets/fixed-margin.png)
+![Example barcode label with the product name margin adjusted to the left.](../../../../../_images/fixed-margin.png)
 
 **Mã**:
 
@@ -108,7 +108,7 @@ width to three dots, a typical size that is easy for barcode scanners to read.
 
 Mặc định
 
-![Ví dụ nhãn mã vạch.](../../../../../.gitbook/assets/normal-barcode.png)
+![Ví dụ nhãn mã vạch.](../../../../../_images/normal-barcode.png)
 
 **Mã**:
 
@@ -122,7 +122,7 @@ Mặc định
 
 Modified
 
-![Example barcode label with the barcode size reduced.](../../../../../.gitbook/assets/shrink-barcode.png)
+![Example barcode label with the barcode size reduced.](../../../../../_images/shrink-barcode.png)
 
 **Mã**:
 
@@ -150,7 +150,7 @@ defines the rotation of an item, which can be:
 
 Mặc định
 
-![Ví dụ nhãn mã vạch.](../../../../../.gitbook/assets/lot.png)
+![Ví dụ nhãn mã vạch.](../../../../../_images/lot.png)
 
 **Mã**:
 
@@ -164,7 +164,7 @@ Mặc định
 
 Modified
 
-![Example barcode label with the barcode rotated.](../../../../../.gitbook/assets/rotate.png)
+![Example barcode label with the barcode rotated.](../../../../../_images/rotate.png)
 
 **Mã**:
 

@@ -9,7 +9,7 @@
 #### SEE ALSO
 [Danh mục vật tư](../basic_setup/bill_configuration.md)
 
-![Danh mục vật tư cho bán thành phẩm.](../../../../.gitbook/assets/semifinished-product-bom.png)
+![Danh mục vật tư cho bán thành phẩm.](../../../../_images/semifinished-product-bom.png)
 
 ## Tạo danh mục vật tư (BoM) cấp cao nhất
 
@@ -17,7 +17,7 @@ Sau khi các sản phẩm bán thành phẩm được cấu hình đầy đủ, 
 
 Sau khi cấu hình xong sản phẩm cấp cao nhất, hãy nhấp vào nút thông minh Danh mục vật tư trên biểu mẫu sản phẩm, sau đó nhấp vào Tạo để tạo  cho sản phẩm cấp cao nhất. Tiếp theo, chỉ cần thêm các sản phẩm bán thành phẩm vào  này, cùng với những thành phần cần thiết khác.
 
-![Danh mục vật tư cho sản phẩm cấp cao nhất, bao gồm một thành phần là bán thành phẩm.](../../../../.gitbook/assets/custom-computer-bom.png)
+![Danh mục vật tư cho sản phẩm cấp cao nhất, bao gồm một thành phần là bán thành phẩm.](../../../../_images/custom-computer-bom.png)
 
 ## Quản lý kế hoạch sản xuất
 
@@ -39,4 +39,4 @@ Tùy chọn 1 linh hoạt hơn Tùy chọn 2 và do đó được khuyên dùng.
 
 Dù bạn chọn tuỳ chọn nào, các sản phẩm bán thành phẩm phải được sản xuất hoàn chỉnh trước khi có thể bắt đầu sản xuất sản phẩm cấp cao nhất.
 
-![Lệnh sản xuất cho một sản phẩm cấp cao nhất.](../../../../.gitbook/assets/semifinished-on-mo.png)
+![Lệnh sản xuất cho một sản phẩm cấp cao nhất.](../../../../_images/semifinished-on-mo.png)

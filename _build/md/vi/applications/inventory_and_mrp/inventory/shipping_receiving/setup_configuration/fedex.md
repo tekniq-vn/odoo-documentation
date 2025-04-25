@@ -19,7 +19,7 @@ the checkbox next to FedEx Connector.
 Finally, click Save to save the changes. After doing so, a <i class="oi oi-arrow-right"></i>
 FedEx Shipping Methods button appears below FedEx Connector.
 
-![The FedEx Shipping Methods button below the FedEx Connector.](../../../../../.gitbook/assets/fsm-button.png)
+![The FedEx Shipping Methods button below the FedEx Connector.](../../../../../_images/fsm-button.png)
 
 ## Configure shipping method
 
@@ -38,7 +38,7 @@ Inventory app ‣ Configuration ‣ Shipping Methods.
 Select a shipping method to open its form. Alternatively, click New to open a blank
 form, and configure a new shipping method.
 
-![The form for a FedEx shipping method.](../../../../../.gitbook/assets/fedex-form.png)
+![The form for a FedEx shipping method.](../../../../../_images/fedex-form.png)
 
 #### IMPORTANT
 Enabling the FedEx shipping connector automatically creates two default shipping methods:

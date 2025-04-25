@@ -5,7 +5,7 @@ trusted before you can use them to make an outgoing payment.
 
 To do so, open the vendor bank account and click on the Send Money toggle switch button.
 
-![Example of a vendor bank account with the "Send Money" toggle button switched to "trusted."](../../../../.gitbook/assets/send-money-toggle.png)
+![Example of a vendor bank account with the "Send Money" toggle button switched to "trusted."](../../../../_images/send-money-toggle.png)
 
 #### NOTE
 All accounts are initially marked as untrusted.

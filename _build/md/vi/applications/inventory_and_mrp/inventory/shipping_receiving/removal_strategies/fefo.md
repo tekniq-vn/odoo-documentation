@@ -43,7 +43,7 @@ Next, click the additional options icon, located on the far-right, and select th
 Expiration Date and Removal Date.
 
 ![Show expiration dates from the inventory adjustments model accessed from the *On Hand*
-smart button from the product form.](../../../../../.gitbook/assets/removal-date.png)
+smart button from the product form.](../../../../../_images/removal-date.png)
 
 ## Quy trình
 
@@ -85,4 +85,4 @@ Since the order demanded six Cartons of eggs, using the
 removal strategy, all five Cartons from `LOT1`, with the removal date of February 26th, are picked.
 The remaining Carton is selected from `LOT2`, which has a removal date of March 4th.
 
-![The stock moves window that shows the lots to be removed using FEFO.](../../../../../.gitbook/assets/eggs-picking.png)
+![The stock moves window that shows the lots to be removed using FEFO.](../../../../../_images/eggs-picking.png)

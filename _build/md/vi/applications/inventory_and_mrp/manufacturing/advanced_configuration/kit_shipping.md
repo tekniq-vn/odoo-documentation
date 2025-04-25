@@ -75,7 +75,7 @@ specify their quantities under the Quantity column.
 
 Once ready, click Save to save the newly created .
 
-![Chọn kit trên danh mục vật tư.](../../../../.gitbook/assets/bom-kit-selection.png)
+![Chọn kit trên danh mục vật tư.](../../../../_images/bom-kit-selection.png)
 
 Nếu kit chỉ được sử dụng như một sản phẩm có thể bán được thì chỉ cần thêm các thành phần vào tab Thành phần và không cần cấu hình hoạt động sản xuất.
 

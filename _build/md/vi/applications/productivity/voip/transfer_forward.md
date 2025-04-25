@@ -17,7 +17,7 @@ to make a call.
 Additionally, one can also use the Search bar in the VOIP pop-up window to
 find any desired contact.
 
-![Using the VoIP phone widget to make calls.](../../../.gitbook/assets/widget-operation.png)
+![Using the VoIP phone widget to make calls.](../../../_images/widget-operation.png)
 
 To manually make a call, click the ⌨️ (keyboard) icon, and proceed to manually key in
 the desired number. Do not forget to lead with the + (plus) icon, followed by the
@@ -27,7 +27,7 @@ After entering the full number, with the required + (plus) icon prefix and count
 click the green 📞 (phone) icon to start the call. When finished, click the red
 📞 (phone) icon to end the call.
 
-![Using the VoIP phone widget to make calls.](../../../.gitbook/assets/manual-call.png)
+![Using the VoIP phone widget to make calls.](../../../_images/manual-call.png)
 
 ## Nhận cuộc gọi
 
@@ -40,14 +40,14 @@ Once back to the tab, the calling screen of the *VoIP* phone widget appears.
 Click the green 📞 (phone) icon to pick up the call, or the red 📞 (phone)
 icon to reject the call.
 
-![Incoming call on the VoIP widget, with the call answer and call reject buttons highlighted.](../../../.gitbook/assets/incoming-call1.png)
+![Incoming call on the VoIP widget, with the call answer and call reject buttons highlighted.](../../../_images/incoming-call1.png)
 
 ## Thêm vào danh sách cuộc gọi chờ
 
 All the contacts and customers that need to be called can be seen in one place with the Odoo *VoIP*
 phone widget, under the Next activities tab.
 
-![VoIP widget with next activities highlighted, showing tasks below.](../../../.gitbook/assets/next-activities.png)
+![VoIP widget with next activities highlighted, showing tasks below.](../../../_images/next-activities.png)
 
 To add a call to the Next activities tab, click the green 📞 (phone) icon,
 while in kanban view of the *CRM* application.
@@ -59,7 +59,7 @@ When navigating back to the *VoIP* phone widget, **only** the calls that are sch
 for that day appear in the queue under the Next Activities tab of the *VoIP* pop-up
 widget.
 
-![Adding a call to the next activities tab in the VoIP phone widget.](../../../.gitbook/assets/add-call-queue.png)
+![Adding a call to the next activities tab in the VoIP phone widget.](../../../_images/add-call-queue.png)
 
 The Next Activities tab of the *VoIP* phone widget is integrated with the following Odoo
 apps: *CRM*, *Project*, and *Helpdesk*.
@@ -100,7 +100,7 @@ Once the incoming call is answered, click the ↔ (left-right arrow) icon. Then,
 extension of the user the call should be forwarded to. Finally, click Transfer to route
 the call to that phone number.
 
-![Transferring a call within the phone widget, with the transfer buttons highlighted.](../../../.gitbook/assets/transfer.png)
+![Transferring a call within the phone widget, with the transfer buttons highlighted.](../../../_images/transfer.png)
 
 ## Forward calls
 

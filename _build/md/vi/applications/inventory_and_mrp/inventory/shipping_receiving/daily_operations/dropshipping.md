@@ -13,18 +13,18 @@ an existing product or select Create to configure a new one. On the Product
 page, make sure that the Can be Sold and Can be Purchased checkboxes are
 enabled.
 
-![Enable the "Can be Sold" and "Can be Purchased" checkboxes on the product form.](../../../../../.gitbook/assets/sold-purchased-checkboxes.png)
+![Enable the "Can be Sold" and "Can be Purchased" checkboxes on the product form.](../../../../../_images/sold-purchased-checkboxes.png)
 
 Click on the Purchase tab and specify a vendor and the price that they sell the product
 for. Multiple vendors can be added, but the vendor at the top of the list will be the one
 automatically selected for purchase orders.
 
-![The product form with a vendor specified.](../../../../../.gitbook/assets/product-vendor-config.png)
+![The product form with a vendor specified.](../../../../../_images/product-vendor-config.png)
 
 Finally, select the Inventory tab and enable the Dropship checkbox in the
 Routes section.
 
-![Enable the Dropship option in the product inventory tab.](../../../../../.gitbook/assets/enable-dropship-route.png)
+![Enable the Dropship option in the product inventory tab.](../../../../../_images/enable-dropship-route.png)
 
 #### NOTE
 While it is not necessary to enable the Buy route in addition to the
@@ -35,22 +35,22 @@ purchasing it directly.
 
 Khi một đơn bán hàng được tạo cho sản phẩm dropship, một yêu cầu báo giá (RfQ) liên quan sẽ tự động được tạo để mua sản phẩm từ nhà cung cấp. Bạn có thể xem đơn bán hàng trong ứng dụng Bán hàng bằng cách chọn Đơn hàng ‣ Đơn hàng. Nhấp vào nút thông minh Mua hàng ở góc trên bên phải của đơn hàng bán để xem  liên quan.
 
-![A dropship sales order with the Purchase smart button in the top right corner.](../../../../../.gitbook/assets/dropship-sales-order.png)
+![A dropship sales order with the Purchase smart button in the top right corner.](../../../../../_images/dropship-sales-order.png)
 
 Once the  is confirmed, it becomes a purchase order, and a
 dropship receipt is created and linked to it. The receipt can be viewed by clicking the
 Dropship smart button in the top-right corner of the purchase order form.
 
-![A dropship purchase order with the Receipt smart button in the top right corner.](../../../../../.gitbook/assets/dropship-purchase-order.png)
+![A dropship purchase order with the Receipt smart button in the top right corner.](../../../../../_images/dropship-purchase-order.png)
 
 The dropship receipt displays Partners/Vendors in the Source Location field,
 and Partners/Customers in the Destination Location field. Upon delivery of
 the product to the customer, click on the Validate button at the top-left of the
 dropship receipt to confirm the delivered quantity.
 
-![Validate the dropship receipt after delivery.](../../../../../.gitbook/assets/validate-dropship-receipt.png)
+![Validate the dropship receipt after delivery.](../../../../../_images/validate-dropship-receipt.png)
 
 To view all dropship orders, simply navigate to the Inventory Overview
 dashboard and click the teal # TO PROCESS button on the Dropship card.
 
-![Click the green button on the Dropship card to view all dropship orders.](../../../../../.gitbook/assets/view-all-dropship-orders.png)
+![Click the green button on the Dropship card to view all dropship orders.](../../../../../_images/view-all-dropship-orders.png)

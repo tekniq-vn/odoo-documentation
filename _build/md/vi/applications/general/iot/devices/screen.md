@@ -3,7 +3,7 @@
 In Odoo, an  box can be connected to a screen display. After being
 configured, the screen can be used to display a Point of Sale (PoS) order to a client.
 
-![image](../../../../.gitbook/assets/screen-pos-client-display.png)
+![image](../../../../_images/screen-pos-client-display.png)
 
 Access the customer display by going to the  box homepage and
 clicking on the PoS Display button. To get to the  box
@@ -39,18 +39,18 @@ If the connection was successful, the screen should display the POS Client displ
 screen.
 
 ![The default "POS Client Display" screen that appears when a screen display is successfully
-connected to an IoT box.](../../../../.gitbook/assets/screen-pos-client-display-no-order.png)
+connected to an IoT box.](../../../../_images/screen-pos-client-display-no-order.png)
 
 The screen should also appear in the list of Displays on the  box homepage. Alternatively, the display can be seen by accessing IoT app
 ‣ Devices.
 
-![An example of a screen display name shown on the IoT Box Home Page.](../../../../.gitbook/assets/screen-screen-name-example.png)
+![An example of a screen display name shown on the IoT Box Home Page.](../../../../_images/screen-screen-name-example.png)
 
 #### NOTE
 If no screen is detected, a default display named Distant Display will be displayed
 instead. This indicates that there is no hardware screen connected.
 
-> ![The "Distant Display" screen name will be used if no screen is detected.](../../../../.gitbook/assets/screen-no-screen.png)
+> ![The "Distant Display" screen name will be used if no screen is detected.](../../../../_images/screen-no-screen.png)
 
 <a id="iot-usage-screen"></a>
 
@@ -65,18 +65,18 @@ necessary, and enable the IoT Box feature.
 Next, select the screen from the Customer Display drop-down menu. Then click
 Save, if required.
 
-![Connect the screen display to the Point of Sale app.](../../../../.gitbook/assets/screen-pos-screen-config.png)
+![Connect the screen display to the Point of Sale app.](../../../../_images/screen-pos-screen-config.png)
 
 The screen is now available for  sessions. A screen icon will appear in
 the menu at the top of the screen to indicate the screen's connection status.
 
 ![The "screen" icon on the Point of Sale display shows the connection status with the
-screen.](../../../../.gitbook/assets/screen-pos-icon.png)
+screen.](../../../../_images/screen-pos-icon.png)
 
 The screen will automatically show the  orders and update when changes
 are made to the order.
 
-![An example of a PoS order on a screen display.](../../../../.gitbook/assets/screen-pos-client-display.png)
+![An example of a PoS order on a screen display.](../../../../_images/screen-pos-client-display.png)
 
 ### Display a website on the screen
 

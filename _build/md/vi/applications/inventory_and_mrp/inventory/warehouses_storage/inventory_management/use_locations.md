@@ -12,14 +12,14 @@ section, tick the Storage Locations checkbox. Then, click Save.
 Typically, the Storage Locations feature is used with [Multi-Step Routes](../../shipping_receiving/daily_operations/use_routes.md), which controls how products move between
 locations.
 
-![Show Storage Locations feature.](../../../../../.gitbook/assets/enable-location1.png)
+![Show Storage Locations feature.](../../../../../_images/enable-location1.png)
 
 ## Create new location
 
 After enabling *Storage Locations*, go to Inventory app ‣ Configuration ‣
 Locations.
 
-![List of internal locations.](../../../../../.gitbook/assets/locations3.png)
+![List of internal locations.](../../../../../_images/locations3.png)
 
 On this page, click New. The new location form can then be configured as follows:
 
@@ -49,7 +49,7 @@ location serves its intended purpose in the database:
   a destination for receiving products from *Buy*, *Manufacture*, or other procurement routes,
   ensuring products are correctly supplied to the warehouse.
 
-![Additional Information section of new location creation form.](../../../../../.gitbook/assets/new-location.png)
+![Additional Information section of new location creation form.](../../../../../_images/new-location.png)
 
 Configure the remaining fields in the Additional Information section as follows:
 
@@ -66,7 +66,7 @@ Configure the remaining fields in the Additional Information section as follows:
 In the Cyclic Counting section, change the value in the Inventory Frequency
 (Days) field from the default `0`, if necessary.
 
-![Cyclic Counting section of new location creation form.](../../../../../.gitbook/assets/use-locations-cyclic-counting.png)
+![Cyclic Counting section of new location creation form.](../../../../../_images/use-locations-cyclic-counting.png)
 
 When different than `0`, the inventory count dates for products stored at this location are
 automatically set at the defined frequency.

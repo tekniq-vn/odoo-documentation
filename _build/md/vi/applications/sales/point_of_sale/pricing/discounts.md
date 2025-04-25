@@ -19,7 +19,7 @@ products inside an order.
 
 From your PoS session interface, use the *Disc* button.
 
-![View of the discount button for manual discount](../../../../.gitbook/assets/discounts_01.png)
+![View of the discount button for manual discount](../../../../_images/discounts_01.png)
 
 Then, you can input a discount over the product that is currently
 selected.
@@ -31,15 +31,15 @@ Sales ‣ Configuration ‣ Point of Sale and select your PoS.
 
 Once on your PoS form, select *Global Discounts*, under the *Pricing* category.
 
-![View of the feature to enable for global discount](../../../../.gitbook/assets/discounts_02.png)
+![View of the feature to enable for global discount](../../../../_images/discounts_02.png)
 
 Now, you have a new *Discount* button appearing on your PoS interface.
 
-![View of the button to use for global discount via the pos interface](../../../../.gitbook/assets/discounts_03.png)
+![View of the button to use for global discount via the pos interface](../../../../_images/discounts_03.png)
 
 Click on it and enter the wanted discount.
 
-![View of the discount offered in the payment summary](../../../../.gitbook/assets/discounts_04.png)
+![View of the discount offered in the payment summary](../../../../_images/discounts_04.png)
 
 #### NOTE
 On this example, there is a global discount of 50% as well as a specific
@@ -52,7 +52,7 @@ feature. To do so, go to Point of Sales ‣
 Configuration ‣ Point of Sale and open your PoS. Then, enable the
 pricelist feature.
 
-![View of the pricelist feature](../../../../.gitbook/assets/discounts_05.png)
+![View of the pricelist feature](../../../../_images/discounts_05.png)
 
 Once activated, you must choose the pricelists you want to make
 available in the PoS and define a default one.
@@ -67,13 +67,13 @@ When creating a pricelist, you can set several criteria to use a
 specific price: period, min. quantity, etc. You can also decide to apply
 that pricelist on specific products or on the whole range.
 
-![View of a time-limited pricelist for two products](../../../../.gitbook/assets/discounts_06.png)
+![View of a time-limited pricelist for two products](../../../../_images/discounts_06.png)
 
 ### Using a pricelist with the PoS interface
 
 On the PoS interface, a new button appears. Use it to select a
 pricelist.
 
-![View of the button to use for time-limited discounts via the pos interface](../../../../.gitbook/assets/discounts_07.png)
+![View of the button to use for time-limited discounts via the pos interface](../../../../_images/discounts_07.png)
 
 Click on it to instantly update the prices with the selected pricelist. Then, you can finalize the order.

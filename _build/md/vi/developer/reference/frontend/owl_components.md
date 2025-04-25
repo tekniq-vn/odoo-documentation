@@ -169,7 +169,7 @@ element might be swipable, its animation and the minimum portion to swipe to per
 
 You can use the component to interact easily with records, messages, items in lists and much more.
 
-![Example of ActionSwiper usage](../../../.gitbook/assets/actionswiper.png)
+![Example of ActionSwiper usage](../../../_images/actionswiper.png)
 
 The following example creates a basic ActionSwiper component.
 Here, the swipe is enabled in both directions.

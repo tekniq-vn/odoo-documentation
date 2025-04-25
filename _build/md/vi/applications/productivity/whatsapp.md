@@ -67,7 +67,7 @@ Under the Business Accounts heading, click on the desired business that the What
 configuration should take place in. This will be the account for which Odoo will send and receive
 WhatsApp messages.
 
-![Toggle between Meta personal and business accounts.](../../.gitbook/assets/toggle.png)
+![Toggle between Meta personal and business accounts.](../../_images/toggle.png)
 
 #### IMPORTANT
 In order to create a Meta business account, the user must already have a personal Facebook
@@ -159,7 +159,7 @@ should have directed to the WhatsApp Quickstart page; this Quickstart page
 is where to begin configuring the WhatsApp API by adding a phone number and then sending an initial
 test message.
 
-![Navigating to the WhatsApp quickstart wizard in Meta for Developer dashboard.](../../.gitbook/assets/quickstart.png)
+![Navigating to the WhatsApp quickstart wizard in Meta for Developer dashboard.](../../_images/quickstart.png)
 
 #### NOTE
 If the browser isn't on the Quickstart page for WhatsApp, navigate to
@@ -273,7 +273,7 @@ After making the selections, click Done.
 
 The finished Webhooks configuration will appear like this in the Meta developer console:
 
-![WhatsApp webhooks set in the Meta developer console.](../../.gitbook/assets/webhooks-done.png)
+![WhatsApp webhooks set in the Meta developer console.](../../_images/webhooks-done.png)
 
 #### IMPORTANT
 The Webhook fields will only appear once the subscription is confirmed using the
@@ -440,7 +440,7 @@ In order to find specific fields, multiple levels may need to be navigated in th
 box. Use the > (right chevron) and ⬅️ (left arrow) icons to navigate
 between the menu levels.
 
-![Searching for the phone field in the search bar.](../../.gitbook/assets/phone-field.png)
+![Searching for the phone field in the search bar.](../../_images/phone-field.png)
 
 Thay đổi Danh mục cho phù hợp với Marketing, Tiện ích hoặc Xác thực. Trong hầu hết trường hợp sẽ sử dụng hai tùy chọn đầu, trừ khi người dùng muốn gửi yêu cầu đặt lại mật khẩu hoặc nội dung liên quan bảo mật. Chọn Marketing nếu gửi nội dung khuyến mại và chọn Tiện ích nếu gửi thông điệp giao dịch thông thường (VD: đơn bán hàng, vé sự kiện,...).
 
@@ -489,7 +489,7 @@ Dynamic variables reference certain fields within the Odoo database to produce u
 WhatsApp message when using a template. Dynamic variables are encoded to display fields from within
 the database, referencing fields from within a model.
 
-![WhatsApp message with dynamic variables highlighted.](../../.gitbook/assets/message.png)
+![WhatsApp message with dynamic variables highlighted.](../../_images/message.png)
 
 Dynamic variables can be added in to the Body by adding placeholders in the
 *text*. To add a placeholder in the *message body* enter the following text `{{1}}`. For the second
@@ -531,7 +531,7 @@ documentation: [Đồng bộ mẫu](#productivity-whatsapp-sync).
 Các mẫu tin nhắn phải được đồng bộ trên cơ sở dữ liệu Odoo sau khi được đội ngũ Meta phê duyệt. Để thực hiện việc này, trước tiên hãy đi đến Ứng dụng WhatsApp ‣ Cấu hình ‣ Tài khoản WhatsApp Business và chọn cấu hình cần đồng bộ. Trong phần Gửi tin nhắn, cuối trang, nhấp vào Đồng bộ mẫu. Meta sẽ cập nhật các mẫu đã được phê duyệt để chúng có thể được sử dụng với các ứng dụng khác nhau trong cơ sở dữ liệu.
 
 ![Syncing Meta WhatsApp templates to the Odoo database, with the 'Sync Templates'
-highlighted.](../../.gitbook/assets/sync-template.png)
+highlighted.](../../_images/sync-template.png)
 
 A successful message in green appears in the upper-right corner with the number of templates
 updated.
@@ -541,7 +541,7 @@ updated.
 First, navigate to [Meta's WhatsApp template dashboard](https://business.facebook.com/wa/manage/home), and then go to Account tools ‣
 Message templates.
 
-![Account tools highlighted in business manager with the manage templates link highlighted.](../../.gitbook/assets/account-tools.png)
+![Account tools highlighted in business manager with the manage templates link highlighted.](../../_images/account-tools.png)
 
 To create a WhatsApp template, click on the blue Create template button, and then select
 the Category. The options listed include: Marketing, Utility,
@@ -556,14 +556,14 @@ Multiple languages can be selected by typing the language name(s) and selecting 
 languages as needed.
 
 ![Template configuration options listed, with Marketing, Utility, Name and Language
-highlighted.](../../.gitbook/assets/template-config.png)
+highlighted.](../../_images/template-config.png)
 
 After making the appropriate selections, click on Continue in the upper-right corner.
 The page redirects to the Edit template page. Here the Header,
 Body, Footer and Buttons are configured. To the right of the
 template is a preview of what the template will look like in production.
 
-![Edit the template using a header, body, footer and buttons.](../../.gitbook/assets/edit-template.png)
+![Edit the template using a header, body, footer and buttons.](../../_images/edit-template.png)
 
 When all the necessary changes are made to the template, click on the Submit button in
 the upper-right corner. A confirmation window appears to confirm the language— click
@@ -598,7 +598,7 @@ Users can be added to a WhatsApp chat by expanding the WhatsApp pop-up window. W
 conversations are located in the *Discuss* app. Click on the 👤+ (add user) icon next to
 it, and a window appears to invite users to the conversation.
 
-![Adding users to a WhatsApp conversation, with the add user icon highlighted.](../../.gitbook/assets/add-users.png)
+![Adding users to a WhatsApp conversation, with the add user icon highlighted.](../../_images/add-users.png)
 
 ## WhatsApp API FAQ
 
@@ -623,7 +623,7 @@ name on Meta's business manager and in Odoo. This causes a duplicate validation 
 this issue, rename the duplicate template name on Odoo and sync the templates once again by
 following the steps here: [Đồng bộ mẫu](#productivity-whatsapp-sync).
 
-![User error populated in Odoo when a duplicate template exists.](../../.gitbook/assets/validation-error-2.png)
+![User error populated in Odoo when a duplicate template exists.](../../_images/validation-error-2.png)
 
 ### Lỗi token
 
@@ -633,7 +633,7 @@ Should the temporary token not be replaced with a permanent token a user error w
 when testing the connection after sending fails. To correct this issues see
 [Token vĩnh viễn](#productivity-whatsapp-token).
 
-![User error populated in Odoo when token expires.](../../.gitbook/assets/user-error1.png)
+![User error populated in Odoo when token expires.](../../_images/user-error1.png)
 
 #### System user error 100
 
@@ -643,4 +643,4 @@ Should the system user be an Employee when setting up the permanent token, a use
 To correct this error, create an Admin system user, following the process outlined here:
 [Token vĩnh viễn](#productivity-whatsapp-token).
 
-![User error populated in Odoo when an employee token is generated instead of a Admin user.](../../.gitbook/assets/user-error-2.png)
+![User error populated in Odoo when an employee token is generated instead of a Admin user.](../../_images/user-error-2.png)

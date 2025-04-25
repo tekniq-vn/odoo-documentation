@@ -16,7 +16,7 @@ From the resulting Teams page, a list of all existing teams (if any) is displaye
 the Team Name, Team Members, and Company listed in the columns,
 by default.
 
-![List of Teams on Maintenance Teams page.](../../../.gitbook/assets/maintenance-setup-teams-list.png)
+![List of Teams on Maintenance Teams page.](../../../_images/maintenance-setup-teams-list.png)
 
 To add a new team, click New. This adds a blank line at the bottom of the list of teams.
 In the blank field that appears below the Team Name column, assign a name to the new
@@ -28,7 +28,7 @@ users in the database. Choose which users should be members of the new maintenan
 Click Search More... to open a Search: Team Members pop-up window to search
 for users **not** shown on the initial drop-down menu.
 
-![Search: Team Members pop-up window.](../../../.gitbook/assets/maintenance-setup-search-team-members.png)
+![Search: Team Members pop-up window.](../../../_images/maintenance-setup-search-team-members.png)
 
 In the Company column, if in a multi-company environment, click the drop-down menu to
 select the company in the database to which this new maintenance team belongs.
@@ -50,7 +50,7 @@ To create a new equipment category, navigate to Maintenance app ‣ Configuratio
 ‣ Equipment Categories, and click New. Doing so opens a blank equipment category
 form.
 
-![Equipment category form with various information filled out.](../../../.gitbook/assets/maintenance-setup-category-form.png)
+![Equipment category form with various information filled out.](../../../_images/maintenance-setup-category-form.png)
 
 On the blank form, assign a name in the Category Name field.
 
@@ -74,7 +74,7 @@ Navigate to Maintenance app ‣ Configuration ‣ Equipment Categories, and
 select a category to view. Locate the Equipment and Maintenance smart
 buttons at the top of the form.
 
-![Equipment and Maintenance smart buttons on equipment category form.](../../../.gitbook/assets/maintenance-setup-smart-buttons.png)
+![Equipment and Maintenance smart buttons on equipment category form.](../../../_images/maintenance-setup-smart-buttons.png)
 
 Click the Equipment smart button to view all equipment belonging to this category.
 Click the Maintenance smart button to view any past, or currently open, maintenance
@@ -95,7 +95,7 @@ select the company in the database to whom the new equipment belongs.
 In the Used By field, select from one of three radio button options:
 Department, Employee, or Other.
 
-![Left-hand side of information fields on new equipment form.](../../../.gitbook/assets/maintenance-setup-new-equipment-left-side.png)
+![Left-hand side of information fields on new equipment form.](../../../_images/maintenance-setup-new-equipment-left-side.png)
 
 If Department is selected, a Department field appears below the
 Used By field. Click the drop-down menu and select the department that uses this
@@ -111,7 +111,7 @@ for the respective fields, and choose which department and employee uses this eq
 In the Maintenance Team field, select the team responsible for this equipment. In the
 Technician field, select the team member/user responsible for this equipment.
 
-![Right-hand side of information fields on new equipment form.](../../../.gitbook/assets/maintenance-setup-new-equipment-right-side.png)
+![Right-hand side of information fields on new equipment form.](../../../_images/maintenance-setup-new-equipment-right-side.png)
 
 In the Used in location field, enter the location wherein this equipment will be used,
 if not in an internal work center (e.g. in an office).
@@ -127,7 +127,7 @@ information describing the equipment for users to reference.
 To add any relevant information while creating a new piece of equipment, from the equipment form,
 click the Product Information tab.
 
-![Product Information tab with available fields below it.](../../../.gitbook/assets/maintenance-setup-product-information.png)
+![Product Information tab with available fields below it.](../../../_images/maintenance-setup-product-information.png)
 
 In the Vendor field, add the vendor from which the equipment was purchased. In the
 Vendor Reference field, add the product reference number obtained from the vendor, if
@@ -153,7 +153,7 @@ computed, based on corrective maintenance, and planned preventive maintenance.
 To view the maintenance metrics for a specific piece of equipment, from the equipment form, click
 the Maintenance tab.
 
-![Maintenance tab on equipment form showing computed metrics fields.](../../../.gitbook/assets/maintenance-setup-metrics.png)
+![Maintenance tab on equipment form showing computed metrics fields.](../../../_images/maintenance-setup-metrics.png)
 
 Doing so reveals the following fields:
 
@@ -182,7 +182,7 @@ Each piece of equipment is listed with certain relevant information: the Equipme
 the responsible Technician, the Equipment Category it belongs to, and a few
 important maintenance metrics: its , , and Est. Next Failure date.
 
-![List of equipment included in a work center.](../../../.gitbook/assets/maintenance-setup-work-center.png)
+![List of equipment included in a work center.](../../../_images/maintenance-setup-work-center.png)
 
 #### SEE ALSO
 [Add new equipment](add_new_equipment.md)

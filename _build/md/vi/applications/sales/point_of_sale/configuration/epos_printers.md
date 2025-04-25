@@ -12,7 +12,7 @@ To use an ePos printer in Point of Sale:
 2. Activate the ePos Printer feature.
 3. Fill in the field with your ePos IP address.
 
-![setting to enable the ePos printer feature](../../../../.gitbook/assets/setting.png)
+![setting to enable the ePos printer feature](../../../../_images/setting.png)
 
 #### NOTE
 When the printer connects to a network, it automatically prints a ticket with its IP address.

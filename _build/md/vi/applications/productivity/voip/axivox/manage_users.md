@@ -98,7 +98,7 @@ specific country code.
 
 For a list of comprehensive country codes, visit: [https://countrycode.org](https://countrycode.org).
 
-![General tab layout in the Axivox management console.](../../../../.gitbook/assets/general-tab.png)
+![General tab layout in the Axivox management console.](../../../../_images/general-tab.png)
 
 In the Voicemail field, select either Yes or No from the
 drop-down menu.
@@ -150,7 +150,7 @@ When clicked, they can then set the Destination (user) and time frame. Should th
 original user's  extension, or incoming number, be busy,
 the call is forwarded to the destination(s).
 
-![Manage forwarding calls to different users or phone numbers in the Forwardings tab.](../../../../.gitbook/assets/forwardings-tab.png)
+![Manage forwarding calls to different users or phone numbers in the Forwardings tab.](../../../../_images/forwardings-tab.png)
 
 When the desired configurations are complete, click Save, then click Apply
 changes in the upper-right corner of the page.
@@ -173,7 +173,7 @@ The original user's  number does **not** ring with
 this option selected. Ring times can also be staggered, so the call is forwarded to another user
 after the first user does not pick up the call.
 
-![Ring destinations like different users or phone numbers from the Follow Me tab.](../../../../.gitbook/assets/follow-me-tab.png)
+![Ring destinations like different users or phone numbers from the Follow Me tab.](../../../../_images/follow-me-tab.png)
 
 #### IMPORTANT
 The Odoo mobile app, or another  mobile client, allows
@@ -201,7 +201,7 @@ These actions can be set on each number:
 - Pickup: this action allows the user to pick up an incoming call from a desk-phone.
 
 ![Manage user page with Keys tab highlighted and number 2 key drop-down menu selected (with
-highlight)](../../../../.gitbook/assets/user-keys.png)
+highlight)](../../../../_images/user-keys.png)
 
 Once all the desired configurations are complete, click Save, then click
 Apply changes in the upper-right corner.
@@ -236,7 +236,7 @@ The Domain field is assigned to the company by the Axivox representative.
 The value in the SIP Password field is unique for every Axivox user. This value is used
 to sign into Axivox on Odoo, and for any mobile  clients.
 
-![Important credentials used for external configurations of Axivox VoIP.](../../../../.gitbook/assets/sip-identifiers-tab.png)
+![Important credentials used for external configurations of Axivox VoIP.](../../../../_images/sip-identifiers-tab.png)
 
 The value listed in the Address of the proxy server field is typically:
 `pabx.axivox.com`, but is subject to change by Axivox, so be sure to check the SIP
@@ -292,7 +292,7 @@ Apply changes in the upper-right corner.
 Upon finishing the setup for a new user, an [Incoming numbers](#voip-axivox-incoming-number) can be linked.
 
 ![Manage a user page, with the permissions tab highlighted, along with the first permission
-highlighted indicating a no selection.](../../../../.gitbook/assets/user-permissions.png)
+highlighted indicating a no selection.](../../../../_images/user-permissions.png)
 
 <a id="voip-axivox-user-groups"></a>
 

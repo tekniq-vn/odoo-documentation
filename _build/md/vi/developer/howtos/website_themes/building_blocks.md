@@ -252,7 +252,7 @@ A video background can be set on a section. Refer to the "[Media](media.md)" cha
 
 Text highlights are SVG files that can be incorporated onto specific words or phrases to emphasize them. Text highlights offer customizable options for colors and thickness.
 
-![Example of text highlight](../../../.gitbook/assets/text-highlight.jpg)
+![Example of text highlight](../../../_images/text-highlight.jpg)
 ```xml
 <h2>
    Title with
@@ -565,7 +565,7 @@ Add titles between options to categorize them.
 <we-title>Option subtitle 1</we-title>
 ```
 
-![Add a subtitle between custom options](../../../.gitbook/assets/we-title.jpg)
+![Add a subtitle between custom options](../../../_images/we-title.jpg)
 
 <a id="website-themes-building-blocks-custom-options-layout-fields-we-row"></a>
 
@@ -582,7 +582,7 @@ Create a row in which elements is displayed next to each other.
 
 The perfect example for this case is the Animation row:
 
-![Group different option fields into the same row.](../../../.gitbook/assets/we-row.png)
+![Group different option fields into the same row.](../../../_images/we-row.png)
 
 <a id="website-themes-building-blocks-custom-options-layout-fields-we-button"></a>
 
@@ -609,7 +609,7 @@ user experience.
    data-position="last" />
 ```
 
-![Add option choices and style them with some icons](../../../.gitbook/assets/we-button.jpg)
+![Add option choices and style them with some icons](../../../_images/we-button.jpg)
 
 <a id="website-themes-building-blocks-custom-options-layout-fields-we-select"></a>
 
@@ -621,7 +621,7 @@ Formats the option as a dropdown list. Add `string=""` to indicate the field nam
 <we-select string="Layout">...</we-select>
 ```
 
-![Add a dropddown list field](../../../.gitbook/assets/we-select.jpg)
+![Add a dropddown list field](../../../_images/we-select.jpg)
 
 <a id="website-themes-building-blocks-custom-options-layout-fields-we-button-group"></a>
 
@@ -633,7 +633,7 @@ Formats the option as buttons next to each other.
 <we-button-group string="Before">...</we-button-group>
 ```
 
-![Add a dropddown list field](../../../.gitbook/assets/we-button-group.jpg)
+![Add a dropddown list field](../../../_images/we-button-group.jpg)
 
 <a id="website-themes-building-blocks-custom-options-layout-fields-we-checkbox"></a>
 
@@ -647,7 +647,7 @@ Formats the option as a toggle switch.
    data-select-class="s_airproof_snippet_tooltip" />
 ```
 
-![Add a toggle switch.](../../../.gitbook/assets/we-checkbox.jpg)
+![Add a toggle switch.](../../../_images/we-checkbox.jpg)
 
 <a id="website-themes-building-blocks-custom-options-layout-fields-we-range"></a>
 
@@ -663,7 +663,7 @@ Formats the option as a slider.
 
 Each step of the range is separated by a `|`. Here, each class name corresponds to a step.
 
-![Add a toggle switch.](../../../.gitbook/assets/we-range.jpg)
+![Add a toggle switch.](../../../_images/we-range.jpg)
 
 <a id="website-themes-building-blocks-custom-options-layout-fields-we-input"></a>
 
@@ -679,7 +679,7 @@ Formats the option as a text field.
    data-step="0.1" />
 ```
 
-![Add a text field.](../../../.gitbook/assets/we-input.jpg)
+![Add a text field.](../../../_images/we-input.jpg)
 
 `<we-input>` comes with optional attributes particularly useful in specific case:
 
@@ -704,7 +704,7 @@ Formats the option as a color/gradient to choose from.
    data-apply-to=".s_map_color_filter" />
 ```
 
-![Add a colorpicker.](../../../.gitbook/assets/we-colorpicker.jpg)
+![Add a colorpicker.](../../../_images/we-colorpicker.jpg)
 
 | Attribute           | Description                                                                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|

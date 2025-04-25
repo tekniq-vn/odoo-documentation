@@ -117,4 +117,4 @@ The Notes tab is used to provide additional information about the , like the rea
 it was created. The information entered in this tab is **not** shown to employees processing the
 quality checks created by the .
 
-![A QCP configured to create Pass - Fail checks for a work order operation.](../../../../.gitbook/assets/qcp-form2.png)
+![A QCP configured to create Pass - Fail checks for a work order operation.](../../../../_images/qcp-form2.png)

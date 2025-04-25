@@ -18,7 +18,7 @@ and publish an event schedule with various tracks.
 Also, when that setting checkbox is ticked, two additional setting options appear beneath it:
 Live Broadcast and Event Gamification.
 
-![The Schedule and Tracks setting in the Odoo Events app, along with corresponding options.](../../../.gitbook/assets/track-settings.png)
+![The Schedule and Tracks setting in the Odoo Events app, along with corresponding options.](../../../_images/track-settings.png)
 
 The Live Broadcast option provides the ability to air tracks online through a *YouTube*
 integration.
@@ -49,7 +49,7 @@ Clicking the Tracks smart button reveals the Event Tracks page for that
 particular event, which presents all the tracks (both scheduled and proposed) for the event, if
 there are any.
 
-![Typical event tracks page for an event in the Odoo Events application.](../../../.gitbook/assets/event-tracks-page.png)
+![Typical event tracks page for an event in the Odoo Events application.](../../../_images/event-tracks-page.png)
 
 The tracks are presented in a default <i class="oi oi-view-kanban"></i> (Kanban) view, but there is
 also the option to view these tracks in a <i class="oi oi-view-list"></i> (List),
@@ -71,7 +71,7 @@ particular track.
 From the Event Tracks page, click New in the upper-left corner to reveal a
 blank event track form to create an event track.
 
-![Typical event track form in the Odoo Events application.](../../../.gitbook/assets/event-track-form.png)
+![Typical event track form in the Odoo Events application.](../../../_images/event-track-form.png)
 
 Start by giving this track a Title. This field is **required** by Odoo.
 
@@ -109,7 +109,7 @@ Beneath that general information section, there are three tabs: [Speaker](#event
 The Speaker tab on an event track form is filled with various fields related to the
 specific speaker who is planning to conduct/host the track.
 
-![The Speaker tab on an event track form in the Odoo Events application.](../../../.gitbook/assets/speaker-tab.png)
+![The Speaker tab on an event track form in the Odoo Events application.](../../../_images/speaker-tab.png)
 
 ##### Contact Details section
 
@@ -165,7 +165,7 @@ event website.
 The Interactivity tab on an event track form features a single option at first:
 Magic Button.
 
-![The Interactivity tab on an event track form in the Odoo Events application.](../../../.gitbook/assets/interactivity-tab.png)
+![The Interactivity tab on an event track form in the Odoo Events application.](../../../_images/interactivity-tab.png)
 
 When the checkbox beside Magic Button is ticked, Odoo displays a *call to action* button
 to attendees on the track sidebar, while the track is taking place.
@@ -192,7 +192,7 @@ setting is enabled in the Odoo *Events* settings.
 To add a quiz to the event track, click the Add Quiz button. Doing so reveals a separate
 page where an event track quiz can be created and configured.
 
-![The Add Quiz page in the Odoo Events application for an event track.](../../../.gitbook/assets/add-quiz.png)
+![The Add Quiz page in the Odoo Events application for an event track.](../../../_images/add-quiz.png)
 
 Start by entering a title for the quiz in the blank field at the top of the page. Then, if
 participants should be allowed to try the quiz multiple times, tick the checkbox beside
@@ -204,7 +204,7 @@ corresponding event and track this quiz is associated with.
 To add questions to the quiz, click Add a line beneath the Question column.
 Doing so reveals a Create Questions pop-up window.
 
-![The Create Questions pop-up window on an event-specific track quiz in the Odoo Events app.](../../../.gitbook/assets/create-questions.png)
+![The Create Questions pop-up window on an event-specific track quiz in the Odoo Events app.](../../../_images/create-questions.png)
 
 #### NOTE
 **All** track quiz questions are multiple choice.
@@ -253,7 +253,7 @@ Odoo automatically publishes the track on the event website.
 
 Một phần nội dung của sự kiện *cũng* có thể được công bố bằng cách mở biểu mẫu nội dung sự kiện mong muốn, rồi nhấp vào nút thông minh Đi đến trang web. Sau đó, để người tham dự có thể xem và truy cập trang của phần nội dung này, hãy chuyển nút <i class="fa fa-toggle-off"></i> Đã huỷ đăng ở đầu trang sang trạng thái <i class="fa fa-toggle-on"></i> Đã đăng; thao tác này sẽ đổi màu từ đỏ sang xanh lá, và giúp người tham dự có thể truy cập được nội dung.
 
-![The track-related event submenu options on an event website built with Odoo Events.](../../../.gitbook/assets/published-toggle.png)
+![The track-related event submenu options on an event website built with Odoo Events.](../../../_images/published-toggle.png)
 
 #### SEE ALSO
 - [Create events](create_events.md)

@@ -45,7 +45,7 @@ subcontractor in the Vendor field.
 Once the subcontractor has been added, enter the number of days it takes them to manufacture and
 deliver the product, in the Delivery Lead Time column.
 
-![The Delivery Lead Time field for a subcontractor, on the Purchase tab of a product page.](../../../../.gitbook/assets/delivery-lead-time2.png)
+![The Delivery Lead Time field for a subcontractor, on the Purchase tab of a product page.](../../../../_images/delivery-lead-time2.png)
 
 ### Product manufacturing lead time
 
@@ -56,7 +56,7 @@ On the , select the Miscellaneous tab. In the Manuf. Lead Time field,
 enter the same number of days that was entered in the Delivery Lead Time field of the
 's product.
 
-![The Manuf. Lead Time field on a product's BoM.](../../../../.gitbook/assets/manufacturing-lead-time1.png)
+![The Manuf. Lead Time field on a product's BoM.](../../../../_images/manufacturing-lead-time1.png)
 
 Mặc dù không phải đơn vị gia công sẽ sử dụng tất cả những ngày này để sản xuất, song việc thiết lập cùng số ngày trong mỗi trường sẽ báo cho Odoo biết rằng đơn vị gia công phải nhận các linh kiện và bắt đầu sản xuất trước thời gian hoàn thành giao sản phẩm. Điều này giúp đơn vị gia công có đủ thời gian để cả sản xuất và giao sản phẩm.
 

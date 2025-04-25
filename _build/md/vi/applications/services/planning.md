@@ -49,7 +49,7 @@ View on the shift that you wish to edit. If the Role field is empty, fill it
 in with the desired role, then click the cog icon and select Add Properties.
 [Configure](../productivity/knowledge/properties.md) the new field according to your needs.
 
-![Creating a new property field in Planning.](../../.gitbook/assets/add-properties1.png)
+![Creating a new property field in Planning.](../../_images/add-properties1.png)
 
 The property field is linked to the role and is included in the shift form of all shifts performed
 by this role.
@@ -64,7 +64,7 @@ To adapt the employee's planning settings, go to Planning ‣ Configuration ‣
 Employees, and choose the employee for whom you want to edit the settings. Then, go to the
 Work Information tab.
 
-![Employee profile and the work information tab.](../../.gitbook/assets/employee-tab.png)
+![Employee profile and the work information tab.](../../_images/employee-tab.png)
 
 Two sections of the employee's Work Information tab have an impact on Planning:
 Schedule (namely, the Working Hours field) and Planning.
@@ -127,7 +127,7 @@ To create a shift template, click New on any schedule, then fill in the
 [details of the shift](#planning-create-shift). In order for the shift to be saved as a
 template, tick Save as Template.
 
-![Shift form with the option `save template` ticked.](../../.gitbook/assets/save-template.png)
+![Shift form with the option `save template` ticked.](../../_images/save-template.png)
 
 Alternatively, you can go to Planning ‣ Configuration ‣ Shift Templates, then
 click New. Fill in the Start Hour and Shift Duration. The
@@ -151,7 +151,7 @@ as well as reporting and configuration menus.
 The schedule is displayed in the Gantt view, which allows you to edit (with a drag and drop),
 resize, split, and duplicate shifts without having to open them.
 
-![A schedule displaying various visual elements.](../../.gitbook/assets/schedule.png)
+![A schedule displaying various visual elements.](../../_images/schedule.png)
 
 The following visual elements are used on the shifts in the schedules:
 

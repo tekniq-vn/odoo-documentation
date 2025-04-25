@@ -47,7 +47,7 @@ quarter. Previous Year compares the same time period from the previous year.
 While multiple time-based filters can be added at once, only one comparison can be selected at a
 time.
 
-![The drop-down menu of filters, group by and comparison options for the vendor costs report.](../../../../.gitbook/assets/filters-groups1.png)
+![The drop-down menu of filters, group by and comparison options for the vendor costs report.](../../../../_images/filters-groups1.png)
 
 ### Add measures
 
@@ -66,7 +66,7 @@ the *Documents* app.
 The Insert in Spreadsheet option is only available if the *Documents Spreadsheet*
 module is installed.
 
-![A sample of a vendor costs report with the measures set as total and average costs.](../../../../.gitbook/assets/sample-vendor-report.png)
+![A sample of a vendor costs report with the measures set as total and average costs.](../../../../_images/sample-vendor-report.png)
 
 #### NOTE
 The vendor costs report is also available in *graph* view. Click the <i class="fa fa-area-chart"></i>

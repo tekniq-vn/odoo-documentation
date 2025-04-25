@@ -41,7 +41,7 @@ You can add and create tags directly from posts by clicking Edit ‣ Customize a
 select the post's cover. Under Tags, click Choose a record..., and select
 or create a tag.
 
-![Adding a tag to a blog post](../../.gitbook/assets/create-tag.png)
+![Adding a tag to a blog post](../../_images/create-tag.png)
 
 #### NOTE
 To manage tag categories, go to Website ‣ Configuration ‣ Blogs: Tag

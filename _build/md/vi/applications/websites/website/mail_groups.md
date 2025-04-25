@@ -45,7 +45,7 @@ To configure mail groups, proceed as follows:
 Based on the [configuration of the mail group](#website-mailing-lists-configure-groups),
 users can subscribe to and unsubscribe from mail groups from the website page (`/groups` by default).
 
-![Mail group web page.](../../../.gitbook/assets/mail-group-page.png)
+![Mail group web page.](../../../_images/mail-group-page.png)
 
 Internal users can also do this from Website ‣ Configuration ‣ Mailing Lists,
 using the Join and Leave buttons.
@@ -70,7 +70,7 @@ mail group, and click the To review smart button. You can moderate messages usin
 buttons at the end of the message line or select a message to view its content and moderate it
 accordingly.
 
-> ![Moderation buttons in the message line.](../../../.gitbook/assets/mail-group-moderation.png)
+> ![Moderation buttons in the message line.](../../../_images/mail-group-moderation.png)
 
 The following actions are available:
 

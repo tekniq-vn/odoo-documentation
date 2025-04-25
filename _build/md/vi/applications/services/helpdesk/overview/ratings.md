@@ -14,7 +14,7 @@ page. Scroll to the Performance section, and tick the Customer Ratings
 checkbox.
 
 ![Overview of the settings page of a helpdesk team emphasizing the rating on ticket feature
-in Odoo Helpdesk.](../../../../.gitbook/assets/ratings-enable.png)
+in Odoo Helpdesk.](../../../../_images/ratings-enable.png)
 
 ## Set a ratings request email template on a stage
 
@@ -66,7 +66,7 @@ To view the ratings for a team, a customer will log into the portal and navigate
 tickets. After clicking on the team name in the Managed By field, they will be directed
 to a page with the team's ratings over the past thirty days.
 
-![View of the ratings performance overview from the customer portal.](../../../../.gitbook/assets/ratings-portal-overview.png)
+![View of the ratings performance overview from the customer portal.](../../../../_images/ratings-portal-overview.png)
 
 #### SEE ALSO
 [Portal access](../../../general/users/portal.md)
@@ -88,7 +88,7 @@ in one of the following ways:
 
 Once on the rating details page, check the Visible Internally Only box.
 
-![View of the ratings performance overview from the customer portal.](../../../../.gitbook/assets/ratings-keep-internal.png)
+![View of the ratings performance overview from the customer portal.](../../../../_images/ratings-keep-internal.png)
 
 #### SEE ALSO
 - [Close tickets](../advanced/close_tickets.md)

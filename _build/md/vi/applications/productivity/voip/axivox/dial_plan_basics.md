@@ -29,7 +29,7 @@ Axivox has no limit to the number of dial plans that can be created. These can b
 improved upon, at any time. This allows for sandboxes to be created with many different
 configurations.
 
-![Dial plan dashboard with the edit features and Add a dial plan button highlighted.](../../../../.gitbook/assets/dial-plan-edits.png)
+![Dial plan dashboard with the edit features and Add a dial plan button highlighted.](../../../../_images/dial-plan-edits.png)
 
 To edit an existing dial plan, choose one of the following options to the right of the saved dial
 plan:
@@ -51,7 +51,7 @@ configured. In this window, a  appears, where various dial
 plan elements can be configured and linked together.
 
 ![Visual editor for an example dial plan, with the new element, Add, and Save buttons
-highlighted.](../../../../.gitbook/assets/dial-plan-visual.png)
+highlighted.](../../../../_images/dial-plan-visual.png)
 
 #### IMPORTANT
 New dial plans come blank with New element options for the user to Add
@@ -92,7 +92,7 @@ to a Menu element or Digital Receptionist element elsewhere in the dial
 plan.
 
 ![Dial plan, shown with highlight looping open end back to the beginning of the menu
-element.](../../../../.gitbook/assets/loop-back.png)
+element.](../../../../_images/loop-back.png)
 
 Once all desired dial plan elements and configurations are complete, remember to click
 Save before exiting the Dialplan Editor pop-up window. Then, click
@@ -173,7 +173,7 @@ be added to expand the setup. This basic dial plan scenario includes the followi
 Start ‣ Play a file ‣ Menu ‣ (Hang-up, Calls, Queues, Conferences) ‣
 (Voicemail, Hang-up).
 
-![Basic dial plan configuration.](../../../../.gitbook/assets/basic-scenario.png)
+![Basic dial plan configuration.](../../../../_images/basic-scenario.png)
 
 #### SEE ALSO
 This setup does **not** include any basic or advanced call routing. For more information on call

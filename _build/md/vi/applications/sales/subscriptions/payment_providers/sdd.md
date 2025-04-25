@@ -68,7 +68,7 @@ that is displayed, if the order remains pending after the payment is processed. 
 this field contains the message: Please make an unique payment transfer to
 confirm the SEPA mandate.
 
-![The SEPA Direct Debit Payment Provider form.](../../../../.gitbook/assets/sdd-payment-provider.png)
+![The SEPA Direct Debit Payment Provider form.](../../../../_images/sdd-payment-provider.png)
 
 Once all necessary configuration settings are complete, the <i class="fa fa-eye-slash"></i>
 Unpublished smart button, located at the top of the page automatically changes to
@@ -151,7 +151,7 @@ checkbox at the top of the list to select all entries at once.
 Next, click Create Batch. A new batch payment form appears with the selected payments
 added to the list in the Batch Content tab.
 
-![The batch payment form containing the selected payments.](../../../../.gitbook/assets/batch-payment-form.png)
+![The batch payment form containing the selected payments.](../../../../_images/batch-payment-form.png)
 
 This form also contains optional fields to customize the batch payment:
 

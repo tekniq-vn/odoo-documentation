@@ -22,7 +22,7 @@ Each goal card contains the following information:
 
 If a goal is completed, a Done banner appears in the top-right corner of the goal card.
 
-![The goals Kanban view, with nine goal cards.](../../../.gitbook/assets/goals.png)
+![The goals Kanban view, with nine goal cards.](../../../_images/goals.png)
 
 #### NOTE
 Every individual goal requires its own record for each employee. If multiple employees have the
@@ -49,7 +49,7 @@ field populates with the manager set on the employee profile.
 Make any necessary changes to the form, and add any notes that might be useful to clarify the goal
 in the Description tab.
 
-![A goal form filled out for a Python skill, set to 50% proficiency.](../../../.gitbook/assets/new-goal.png)
+![A goal form filled out for a Python skill, set to 50% proficiency.](../../../_images/new-goal.png)
 
 ## Completed goals
 

@@ -135,7 +135,7 @@ Then, create a vendor batch payment:
 Once validated, the Bacs file is available in the chatter. You can also Re-generate
 Export File if you need a new Bacs file for that batch payment.
 
-![Vendor Batch Payment view with generated BACS file.](../../../.gitbook/assets/bacs-files.png)
+![Vendor Batch Payment view with generated BACS file.](../../../_images/bacs-files.png)
 
 ### Invoice payments
 

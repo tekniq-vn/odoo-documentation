@@ -21,7 +21,7 @@ Next, on the product form, enable reordering by checking the Can be Purchased op
 underneathe the Product Name field. Finally, set the Product Type to
 `Storable Product` under the General Information tab.
 
-![Configure a product for reordering in Odoo.](../../../../.gitbook/assets/product-configured-for-reordering.png)
+![Configure a product for reordering in Odoo.](../../../../_images/product-configured-for-reordering.png)
 
 ## Add a reordering rule to a product
 
@@ -29,7 +29,7 @@ After properly configuring a product, a reordering rule can be added to it by se
 visible Reordering Rules tab at the top of that product's form, and then clicking
 Create on the Reordering Rules dashboard.
 
-![Access reordering rules for a product from the product page in Odoo.](../../../../.gitbook/assets/reordering-rules-tab.png)
+![Access reordering rules for a product from the product page in Odoo.](../../../../_images/reordering-rules-tab.png)
 
 Once created, the reordering rule can be configured to generate purchase orders automatically by
 defining the following fields:
@@ -47,7 +47,7 @@ defining the following fields:
   discrete products, this should be set to `Units`. However, it can also be set to units of
   measurement like `Volume` or `Weight` for non-discrete products like water or bricks.
 
-![Configure the reordering rule in Odoo.](../../../../.gitbook/assets/reordering-rule-configuration.png)
+![Configure the reordering rule in Odoo.](../../../../_images/reordering-rule-configuration.png)
 
 ## Manually trigger reordering rules using the scheduler
 

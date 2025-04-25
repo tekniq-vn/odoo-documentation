@@ -23,7 +23,7 @@ In our real estate module, we need to organize the fields in a logical way:
 #### NOTE
 **Goal**: at the end of this section, the list view should look like this:
 
-![List view](../../../.gitbook/assets/list2.png)
+![List view](../../../_images/list2.png)
 
 List views, also called tree views, display records in a tabular form.
 
@@ -55,7 +55,7 @@ remains unique for each view!
 #### NOTE
 **Goal**: at the end of this section, the form view should look like this:
 
-![Form view](../../../.gitbook/assets/form.png)
+![Form view](../../../_images/form.png)
 
 Forms are used to create and edit single records.
 
@@ -108,7 +108,7 @@ This parameter allows you to just refresh the page to view your view modificatio
 #### NOTE
 **Goal**: at the end of this section, the search view should look like this:
 
-![Search fields](../../../.gitbook/assets/search_01.png)![Filter](../../../.gitbook/assets/search_02.png)![Group By](../../../.gitbook/assets/search_03.png)
+![Search fields](../../../_images/search_01.png)![Filter](../../../_images/search_02.png)![Group By](../../../_images/search_03.png)
 
 Search views are slightly different from the list and form views since they don't display
 *content*. Although they apply to a specific model, they are used to filter

@@ -104,7 +104,7 @@ To send the email with the interview link to the applicant, click Send at the bo
 the email pop-up window.
 
 ![Send a custom survey, also referred to as an interview form, to an applicant using a
-pre-configured template.](../../../.gitbook/assets/send-survey1.png)
+pre-configured template.](../../../_images/send-survey1.png)
 
 <a id="recruitment-initial-qualification"></a>
 
@@ -129,7 +129,7 @@ informs the recruitment team to potentially set up a phone call or an interview 
 > Click the desired stage for the card, and the stage changes. A log note indicating the stage
 > change appears in the chatter, as well.
 ![Change the stage of an applicant by clicking on the desired stage at the top of the
-applicant's card.](../../../.gitbook/assets/stage-change.png)
+applicant's card.](../../../_images/stage-change.png)
 
 <a id="recruitment-first-interview"></a>
 
@@ -146,7 +146,7 @@ Alternatively, open the desired applicant's card from the Applications page, and
 the First Interview stage on the status bar at the top of the individual applicant's
 card.
 
-![An applicant's card moves from one stage to another by using the click and drag method.](../../../.gitbook/assets/move.png)
+![An applicant's card moves from one stage to another by using the click and drag method.](../../../_images/move.png)
 
 <a id="recruitment-second-interview"></a>
 

@@ -39,23 +39,23 @@ corner, and select My Profile from the resulting drop-down menu.
 Click the Account Security tab, then slide the Two-Factor Authentication
 toggle to *active*.
 
-![image](../../../.gitbook/assets/account-security.png)
+![image](../../../_images/account-security.png)
 
 This generates a Security Control pop-up window that requires password confirmation to
 continue. Enter the appropriate password, then click Confirm Password. Next, a
 Two-Factor Authentication Activation pop-up window appears, with a  code.
 
-![image](../../../.gitbook/assets/qr-code1.png)
+![image](../../../_images/qr-code1.png)
 
 Using the desired authenticator application, scan the  code when prompted.
 
 Afterwards, the authenticator should display a *verification code*.
 
-![image](../../../.gitbook/assets/authenticator.png)
+![image](../../../_images/authenticator.png)
 
 Enter the code into the Verification Code field, then click Activate.
 
-![image](../../../.gitbook/assets/2fa-enabled.png)
+![image](../../../_images/2fa-enabled.png)
 
 ## Logging in
 
@@ -65,7 +65,7 @@ On the login page, input the username and password, then click Log in. On the
 Two-factor Authentication page, input the code provided by the chosen authenticator in
 the Authentication Code field, then click Log in.
 
-![The login page with 2fa enabled.](../../../.gitbook/assets/2fa-login.png)
+![The login page with 2fa enabled.](../../../_images/2fa-login.png)
 
 ## Áp dụng xác thực hai yếu tố
 
@@ -75,7 +75,7 @@ by mail`.
 
 Click Install on the Kanban card for the 2FA by mail module.
 
-![The 2FA by mail module in the Apps directory.](../../../.gitbook/assets/2FA-by-mail.png)
+![The 2FA by mail module in the Apps directory.](../../../_images/2FA-by-mail.png)
 
 After installation is complete, go to Settings app: Permissions. Tick the checkbox
 labeled, Enforce two-factor authentication. Then, use the radio buttons to choose
@@ -84,6 +84,6 @@ whether to apply this setting to Employees only, or All users.
 #### NOTE
 Selecting All users applies the setting to portal users, in addition to employees.
 
-![The enforce two factor setting in the Settings application.](../../../.gitbook/assets/enforce-settings.png)
+![The enforce two factor setting in the Settings application.](../../../_images/enforce-settings.png)
 
 Click Save to commit any unsaved changes.

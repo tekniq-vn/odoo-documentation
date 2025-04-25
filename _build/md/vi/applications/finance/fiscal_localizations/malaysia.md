@@ -70,7 +70,7 @@ environments are supported.
    top-right corner and select View Taxpayer Profile.
 3. In the Representatives section, click Add Intermediary in the top-right
    corner.
-   ![MyInvois add intermediary](../../../.gitbook/assets/myinvois-add-intermediary.png)
+   ![MyInvois add intermediary](../../../_images/myinvois-add-intermediary.png)
 4. Add `ODOO S.A.` as an intermediary using the following information:
    - TIN: `C57800417080`
    - BRN: `BE0477472701`
@@ -89,7 +89,7 @@ environments are supported.
    - Odoo, as an intermediary, does not store invoices sent on behalf of the client on the proxy
      server.
 6. Click Save. The status for `ODOO S.A.` is then Active.
-   ![MyInvois status active](../../../.gitbook/assets/myinvois-intermediary-active.png)
+   ![MyInvois status active](../../../_images/myinvois-intermediary-active.png)
 
 <a id="malaysia-myinvois-setup-odoo"></a>
 

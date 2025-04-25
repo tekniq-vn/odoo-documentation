@@ -14,7 +14,7 @@ activate Snailmail.
 To make it a by-default feature, select Send by Post in the Default Sending
 Options section.
 
-![Under settings enable the snailmail feature in Odoo Accounting](../../../../.gitbook/assets/setup-snailmail.png)
+![Under settings enable the snailmail feature in Odoo Accounting](../../../../_images/setup-snailmail.png)
 
 ## Send invoices by post
 

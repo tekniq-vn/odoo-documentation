@@ -28,7 +28,7 @@ information auto-populate on a request for quotation each time the product is li
 #### SEE ALSO
 [Vendor pricelist on product form](../manage_deals/rfq.md#purchase-manage-deals-vendor-pricelist)
 
-![Vendor pricelist on product form.](../../../../.gitbook/assets/product-form-pricelist.png)
+![Vendor pricelist on product form.](../../../../_images/product-form-pricelist.png)
 
 <a id="purchase-products-import-pricelist"></a>
 
@@ -51,7 +51,7 @@ On the page, tick the checkbox(es) for the desired vendor pricelists.
 Then, click the <i class="fa fa-cog"></i> Actions button that appears, and choose <i class="fa fa-upload"></i>
 Export from the drop-down menu.
 
-![Show selected exported fields, with the Export button visible.](../../../../.gitbook/assets/export1.png)
+![Show selected exported fields, with the Export button visible.](../../../../_images/export1.png)
 
 In the resulting pop-up window, fields listed under the Fields to export section are
 included in the exported file. To add more fields, find the desired field in the
@@ -128,7 +128,7 @@ file, confirm the correct fields, and click Import.
 - [Xuất và nhập dữ liệu](../../../essentials/export_import_data.md)
 - [Common fields](#purchase-products-common-fields)
 
-![Upload file screen.](../../../../.gitbook/assets/supplier-pricelist-example.png)
+![Upload file screen.](../../../../_images/supplier-pricelist-example.png)
 
 #### Formatting import file
 

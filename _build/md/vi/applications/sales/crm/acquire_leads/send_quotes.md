@@ -18,7 +18,7 @@ quotations is listed on the smart button, as well.
 
 At the top-left of the form, click the New Quotation button.
 
-![Qualified lead form with New Quotation button emphasized.](../../../../.gitbook/assets/send-quotes-new-button.png)
+![Qualified lead form with New Quotation button emphasized.](../../../../_images/send-quotes-new-button.png)
 
 #### IMPORTANT
 The **Sales** application **must** be installed for the New Quotation button to
@@ -55,7 +55,7 @@ of the form, and update any missing or incorrect fields:
 - Pricelist: select a pricelist to be applied to this order.
 - Payment Terms: select any applicable payment terms for this quotation.
 
-![Qualified lead form with New Quotation button emphasized.](../../../../.gitbook/assets/send-quotes-new-quotation.png)
+![Qualified lead form with New Quotation button emphasized.](../../../../_images/send-quotes-new-quotation.png)
 
 ### Chi tiết đơn hàng
 
@@ -78,7 +78,7 @@ Then, click the <i class="oi oi-draggable"></i> (drag) icon to the left of the n
 move the section to the appropriate location. Move each product using the same method to finish
 organizing the quotation order lines.
 
-![Categories are used to create separate sections on the order lines of a quote.](../../../../.gitbook/assets/product-sections.png)
+![Categories are used to create separate sections on the order lines of a quote.](../../../../_images/product-sections.png)
 
 #### Danh mục sản phẩm
 
@@ -88,14 +88,14 @@ product catalog.
 All products in the database are listed as cards and can be sorted in the left panel by
 Product Category and Attributes.
 
-![The product catalog displays all products as cards.](../../../../.gitbook/assets/product-catalog.png)
+![The product catalog displays all products as cards.](../../../../_images/product-catalog.png)
 
 To add a product, click the <i class="fa fa-shopping-cart"></i> Add button on the product card.
 Set the quantity of the item using the <i class="fa fa-plus"></i> (add) or <i class="fa fa-minus"></i>
 (subtract) buttons, or type the quantity in the number field between the two buttons.
 To remove an item, click the <i class="fa fa-trash"></i> Remove button on the product card.
 
-![The purple add and subtract buttons are used to set the quantity of an item.](../../../../.gitbook/assets/set-quantity.png)
+![The purple add and subtract buttons are used to set the quantity of an item.](../../../../_images/set-quantity.png)
 
 Once all product quantities are set, click the Back to Quotation button to return to the
 quotation. The items selected in the product catalog now appear in the Order Lines tab.

@@ -45,4 +45,4 @@ In the Open: Stock move pop-up window, the Pick from field displays where
 the quantities to fulfill the Demand are picked from. Since the order demanded seven
 cinder blocks, the newest cinder blocks from `LOT3` are selected, using the  removal strategy.
 
-![The detailed operations shows which lots are being selected for the picking.](../../../../../.gitbook/assets/cinder-block-picking.png)
+![The detailed operations shows which lots are being selected for the picking.](../../../../../_images/cinder-block-picking.png)

@@ -26,7 +26,7 @@ Add a product. Next, select a product from the drop-down menu.
 
 Lastly, click Confirm to confirm the sales order.
 
-![This is how a confirmed sales order looks in the Odoo Sales application.](../../../../.gitbook/assets/confirmed-sales-order.png)
+![This is how a confirmed sales order looks in the Odoo Sales application.](../../../../_images/confirmed-sales-order.png)
 
 With the sales order confirmed, it's time to create an expense.
 
@@ -35,7 +35,7 @@ To do that, navigate to the *Expenses* application, by going to main Odoo dashbo
 
 Then, from the *Expenses* dashboard, click New to reveal a blank expenses form.
 
-![A blank expenses form in the Odoo Expenses application.](../../../../.gitbook/assets/blank-expenses-form.png)
+![A blank expenses form in the Odoo Expenses application.](../../../../_images/blank-expenses-form.png)
 
 On the expenses form, add a Description to easily reference the expense.
 
@@ -87,7 +87,7 @@ are available to modify, if needed.
 Also, at the bottom of the expense form, there is a Notes... section, wherein any notes
 related to this expense can be added, if needed.
 
-![A filled out expenses form in the Odoo Expenses application.](../../../../.gitbook/assets/filled-in-expense-form.png)
+![A filled out expenses form in the Odoo Expenses application.](../../../../_images/filled-in-expense-form.png)
 
 At the top of the expense form, there are buttons to Attach Receipt, Create
 Report, and Split Expense.
@@ -104,7 +104,7 @@ report that was just configured.
 
 Doing so reveals an Expense Report Summary for the new expense.
 
-![An expense report summary in the Odoo Expenses application.](../../../../.gitbook/assets/expense-report-summary-form.png)
+![An expense report summary in the Odoo Expenses application.](../../../../_images/expense-report-summary-form.png)
 
 Here, once the details related to the expense have been confirmed, click Submit to
 Manager. This sends the expense report to the approving manager, who will review the expense.
@@ -114,14 +114,14 @@ the expense, and if there are no issues, they will click the Approve button — 
 *only* appears on the manager's view of the Expense Report Summary that's been submitted
 to the manager by the employee.
 
-![An expense report summary that a manager will approve with an Approve button.](../../../../.gitbook/assets/expense-report-summary-manager-approve.png)
+![An expense report summary that a manager will approve with an Approve button.](../../../../_images/expense-report-summary-manager-approve.png)
 
 Once approved, the buttons at the top of the Expense Report Summary change once again.
 At this point, the buttons at the top of the Expense Report Summary are: Post
 Journal Entries, Report in Next Payslip, Refuse, and Reset to
 Draft.
 
-![An expense report summary with post journal entries button at the top of the form.](../../../../.gitbook/assets/expense-report-summary-manager-post-journal.png)
+![An expense report summary with post journal entries button at the top of the form.](../../../../_images/expense-report-summary-manager-post-journal.png)
 
 When the manager is satisfied with the Expense Report Summary, they'll click
 Post Journal Entries.
@@ -145,7 +145,7 @@ to view a list of all expense categories in the database.
 Look in the Re-Invoice Expenses column to see which selections have been made for
 each expense category.
 
-![The Re-Invoice Expenses column on the Expense Categories page in the Odoo Expenses app.](../../../../.gitbook/assets/expense-categories-page.png)
+![The Re-Invoice Expenses column on the Expense Categories page in the Odoo Expenses app.](../../../../_images/expense-categories-page.png)
 
 To modify an expense category, click the <i class="fa fa-arrow-right"></i> (right arrow) in the
 Category field, to reveal that specific expense from.
@@ -153,7 +153,7 @@ Category field, to reveal that specific expense from.
 Under the Invoicing section, in the Re-Invoice Expenses field, select
 either At cost or Sales price.
 
-![The Re-Invoice Expenses field on an Expense Category form in the Odoo Expenses app.](../../../../.gitbook/assets/reinvoice-expenses-field.png)
+![The Re-Invoice Expenses field on an Expense Category form in the Odoo Expenses app.](../../../../_images/reinvoice-expenses-field.png)
 
 ## Reinvoice expense
 
@@ -166,12 +166,12 @@ appropriate sales order that should be reinvoiced for the expense.
 On the sales form, the newly-configured expense is now in the Order Lines tab, with its
 Delivered column filled in, and ready to be invoiced.
 
-![A sales order with the configured expense ready to be invoiced in the Order Lines tab.](../../../../.gitbook/assets/sales-order-with-expense-order-lines.png)
+![A sales order with the configured expense ready to be invoiced in the Order Lines tab.](../../../../_images/sales-order-with-expense-order-lines.png)
 
 After confirming the details of the expense, click Create Invoice at the top of the
 sales order. When clicked, a Create invoices pop-up window appears.
 
-![A create invoices pop-up window that appears when the Create Invoice is clicked.](../../../../.gitbook/assets/create-invoices-popup.png)
+![A create invoices pop-up window that appears when the Create Invoice is clicked.](../../../../_images/create-invoices-popup.png)
 
 From this pop-up window, leave the Create Invoice field on the default
 Regular invoice option, and click Create Draft Invoice.
@@ -179,7 +179,7 @@ Regular invoice option, and click Create Draft Invoice.
 Doing so reveals a Customer Invoice Draft showing *only* the expense in the
 Invoice Lines tab.
 
-![A customer invoice draft with the expense in the Invoice Lines tab of the form.](../../../../.gitbook/assets/customer-invoice-draft-with-expense.png)
+![A customer invoice draft with the expense in the Invoice Lines tab of the form.](../../../../_images/customer-invoice-draft-with-expense.png)
 
 If all the information related to the expense is correct, click Confirm to confirm the
 invoice. Doing so moves the status of the invoice from Draft to Posted.
@@ -195,19 +195,19 @@ the invoice is automatically downloaded for record-keeping and/or printing purpo
 Back on the Customer Invoice, click the Register Payment button when the
 customer pays for the invoiced expense.
 
-![A customer invoice with the register payment button ready to be clicked.](../../../../.gitbook/assets/customer-invoice-register-payment.png)
+![A customer invoice with the register payment button ready to be clicked.](../../../../_images/customer-invoice-register-payment.png)
 
 When Register Payment is clicked, a Register Payment pop-up window appears.
 In this pop-up window, the necessary fields are auto-populated with the correct information. After
 reviewing the information, click Create Payment.
 
-![A register payment pop-up window on a customer invoice in Odoo Sales.](../../../../.gitbook/assets/register-payment-popup.png)
+![A register payment pop-up window on a customer invoice in Odoo Sales.](../../../../_images/register-payment-popup.png)
 
 Once Create Payment is clicked, the pop-up window disappears, and a green In
 Payment banner is in the upper-right corner of the invoice, signifying this invoice is paid for in
 full. Thus, completing the workflow.
 
-![A register payment pop-up window on a customer invoice in Odoo Sales.](../../../../.gitbook/assets/expense-invoice-in-payment-banner.png)
+![A register payment pop-up window on a customer invoice in Odoo Sales.](../../../../_images/expense-invoice-in-payment-banner.png)
 
 #### SEE ALSO
 - [Invoice based on delivered or ordered quantities](invoicing_policy.md)

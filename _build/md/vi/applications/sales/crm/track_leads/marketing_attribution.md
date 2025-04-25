@@ -13,7 +13,7 @@ Begin by navigating to the Leads Analysis dashboard by going to CRM app
 - [Convert leads into opportunities](../acquire_leads/convert.md)
 - [Create leads](../acquire_leads/email_manual.md)
 
-![Open the CRM app and click on the Reporting tab at the top of the page, then click Leads.](../../../../.gitbook/assets/reporting-tab-and-leads.png)
+![Open the CRM app and click on the Reporting tab at the top of the page, then click Leads.](../../../../_images/reporting-tab-and-leads.png)
 
 The <i class="fa fa-area-chart"></i> (graph) view is shown, by default, with Active or
 Inactive and Created on: [current year] filters active in the Search...
@@ -24,7 +24,7 @@ Switch the view to the <i class="oi oi-view-list"></i> (list) option, by clickin
 icon located at the top-right of the dashboard. This allows leads to easily be displayed in the
 grouping set by the *Group By* parameters.
 
-![Click the button with four horizontal lines on the top right of the Leads Analysis page.](../../../../.gitbook/assets/list-view-button.png)
+![Click the button with four horizontal lines on the top right of the Leads Analysis page.](../../../../_images/list-view-button.png)
 
 ## Add UTM parameters
 
@@ -64,7 +64,7 @@ have been won in the attribution report.
 Group By, found in the middle column, is used to organize the results into groups, and
 can be used with or without filters.
 
-![Select any number of filters and groups in the search options.](../../../../.gitbook/assets/search-results-multiple-options.png)
+![Select any number of filters and groups in the search options.](../../../../_images/search-results-multiple-options.png)
 
 ## Export reports
 
@@ -92,7 +92,7 @@ report can be set with the field labeled: `Insert the first _ records of the lis
 either a new Blank spreadsheet, or export into an existing spreadsheet. Finally, click
 the Confirm button.
 
-![Set the name, number of records, and location of the export in the option menu.](../../../../.gitbook/assets/documents-export.png)
+![Set the name, number of records, and location of the export in the option menu.](../../../../_images/documents-export.png)
 
 To export the report as a .xlsx file, for use in an external spreadsheets program, click the
 Actions <i class="fa fa-cog"></i> (gear) icon, and select the <i class="fa fa-upload"></i>

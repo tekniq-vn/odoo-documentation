@@ -15,7 +15,7 @@ configure, or create a new one by clicking New.
 In the General tab on the operation type form, locate the Reservation Method
 field, and select At Confirmation.
 
-![Reservation method field on delivery order operation type form.](../../../../../.gitbook/assets/at-confirmation-operations-type.png)
+![Reservation method field on delivery order operation type form.](../../../../../_images/at-confirmation-operations-type.png)
 
 ## Quy trình
 
@@ -39,14 +39,14 @@ If there is **not** sufficient quantity of stock for the product included in the
 Instead of revealing the reserved number of units for the order, the Availability
 tooltip reads Available, and reveals the available number of units (e.g., `0 Units`).
 
-![Confirmed sales order with product availability tooltip selected.](../../../../../.gitbook/assets/at-confirmation-availability-tooltip.png)
+![Confirmed sales order with product availability tooltip selected.](../../../../../_images/at-confirmation-availability-tooltip.png)
 
 To deliver the products, click the Delivery smart button at the top of the sales order
 form. To confirm that the reservation worked properly, ensure that the Product
 Availability field reads `Available` (in green text), and the numbers in the Demand and
 Quantity columns match (in this case, both should read `100.00`).
 
-![Delivery order for product included in sales order with at confirmation reservation.](../../../../../.gitbook/assets/at-confirmation-delivery-order.png)
+![Delivery order for product included in sales order with at confirmation reservation.](../../../../../_images/at-confirmation-delivery-order.png)
 
 Once ready, click Validate.
 

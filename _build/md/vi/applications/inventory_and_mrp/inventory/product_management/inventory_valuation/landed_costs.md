@@ -22,7 +22,7 @@ Costs feature in the Valuation section.
 Click the Default Journal drop-down menu to reveal a list of accounting journals. Select
 a journal for which all accounting entries related to landed costs should be recorded.
 
-![Landed Costs feature and resulting Default Journal field in the Inventory settings.](../../../../../.gitbook/assets/integrating-landed-costs-enabled-setting.png)
+![Landed Costs feature and resulting Default Journal field in the Inventory settings.](../../../../../_images/integrating-landed-costs-enabled-setting.png)
 
 ## Create landed cost product
 
@@ -52,7 +52,7 @@ appears below it, prompting a selection. Clicking that drop-down menu reveals th
 - By Weight: splits the cost, according to the weight of the products in the receipt.
 - By Volume: splits the cost, according to the volume of the products in the receipt.
 
-![Is a Landed Cost checkbox and Default Split Method on service type product form.](../../../../../.gitbook/assets/integrating-landed-costs-landed-cost-product.png)
+![Is a Landed Cost checkbox and Default Split Method on service type product form.](../../../../../_images/integrating-landed-costs-landed-cost-product.png)
 
 When creating new vendor bills, this product can be added as an invoice line as a landed cost.
 
@@ -87,7 +87,7 @@ menu in the Product column to select the previously-created landed cost product.
 the <i class="fa fa-cloud-upload"></i> (cloud with arrow) icon to manually save and update the
 draft bill.
 
-![Landed Costs column checkboxes for product and landed cost.](../../../../../.gitbook/assets/integrating-landed-costs-checkboxes.png)
+![Landed Costs column checkboxes for product and landed cost.](../../../../../_images/integrating-landed-costs-checkboxes.png)
 
 In the Landed Costs column, the product ordered from the vendor does **not** have its
 checkbox ticked, while the landed cost product's checkbox **is** ticked. This differentiates landed
@@ -95,7 +95,7 @@ costs from all other costs displayed on the bill.
 
 Additionally, at the top of the form, a Create Landed Costs button appears.
 
-![Create Landed Costs button on vendor bill.](../../../../../.gitbook/assets/integrating-landed-costs-create-button.png)
+![Create Landed Costs button on vendor bill.](../../../../../_images/integrating-landed-costs-create-button.png)
 
 ## Thêm chi phí nhập kho
 
@@ -108,7 +108,7 @@ product line in the Additional Costs tab.
 From the Landed Cost form, click the Transfers drop-down menu, and select
 which transfer the landed cost belongs to.
 
-![Landed cost form with selected receipt transfer.](../../../../../.gitbook/assets/integrating-landed-costs-transfers-menu.png)
+![Landed cost form with selected receipt transfer.](../../../../../_images/integrating-landed-costs-transfers-menu.png)
 
 After setting the picking from the Transfers drop-down menu, click Compute
 (at the bottom of the form, under the Total: cost).
@@ -141,4 +141,4 @@ Journal Entries, and locate the correct entry, by number (i.e. `PBNK1/2024/XXXXX
 Click into the journal entry to view the Journal Items, and other information about
 the entry.
 
-![Journal Entry form for landed cost created from vendor bill.](../../../../../.gitbook/assets/integrating-landed-costs-journal-entry.png)
+![Journal Entry form for landed cost created from vendor bill.](../../../../../_images/integrating-landed-costs-journal-entry.png)

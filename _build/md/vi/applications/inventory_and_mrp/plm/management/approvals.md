@@ -57,7 +57,7 @@ Here's what each button on an ECO project card does:
    needs to click on the  to enter the form view, and click the Apply Changes
    button.
 
-![Display count of validations to-do and buttons to open filtered list of ECOs.](../../../../.gitbook/assets/validation-overview.png)
+![Display count of validations to-do and buttons to open filtered list of ECOs.](../../../../_images/validation-overview.png)
 
 ### Phê duyệt ECO
 
@@ -90,7 +90,7 @@ By clicking a pending , a *planned activity* for ECO Approval is recorded in the
 chatter. Click on the i (Info) icon to view additional information, including the
 approval's Created date, the approver Assigned to it, and the due date.
 
-![Show additional details of the planned ECO approval.](../../../../.gitbook/assets/planned-activity.png)
+![Show additional details of the planned ECO approval.](../../../../_images/planned-activity.png)
 
 #### Hoạt động follow-up
 
@@ -102,7 +102,7 @@ Select the Mark Done button in the Planned Activities section of the chatter
 to close the activity, and open a pop-up window for creating tasks.
 
 ![Show *Mark Done* window to show *Done & Schedule Next*, *Done*, and *Discard* buttons to
-close the planned activity.](../../../../.gitbook/assets/mark-as-done.png)
+close the planned activity.](../../../../_images/mark-as-done.png)
 
 In the Mark Done window, click Done & Schedule Next to open a new
 Schedule an Activity window. Next, set the Assigned to team member and the

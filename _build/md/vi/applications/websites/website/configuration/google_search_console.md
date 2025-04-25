@@ -8,7 +8,7 @@ performance.
 To enable Google Search Console for your website, go to [Google Search Console](https://search.google.com/search-console/welcome). Then, select the property type
 [Domain property](#gsc-domain) or [URL prefix property](#gsc-url-prefix).
 
-![Google Search Console domain or URL prefix](../../../../.gitbook/assets/add-domain-or-url-prefix.png)
+![Google Search Console domain or URL prefix](../../../../_images/add-domain-or-url-prefix.png)
 
 <a id="gsc-domain"></a>
 
@@ -62,13 +62,13 @@ have to put in your Odoo's Website Settings. Google verifies ownership by checki
 
 1. Once you added your website URL under the URL prefix option and clicked continue,
    expand the HTML file section where you find a download <i class="fa fa-download"></i> button.
-   ![HTML file download](../../../../.gitbook/assets/html-file-download.png)
+   ![HTML file download](../../../../_images/html-file-download.png)
 2. Download your HTML verification file and copy the verification code (e.g., `google123abc.html`).
-   ![Open and copy html file](../../../../.gitbook/assets/open-copy-html-file.png)
+   ![Open and copy html file](../../../../_images/open-copy-html-file.png)
 3. In your Odoo database, go to Website ‣ Configuration ‣ Settings,
    and enable Google Search Console in the SEO section. Paste the
    verification code (e.g., `google123abc.html`) in the dedicated field.
-   ![Paste html code in Odoo](../../../../.gitbook/assets/paste-html-code-settings.png)
+   ![Paste html code in Odoo](../../../../_images/paste-html-code-settings.png)
 4. In Google Search Console, click Verify. If you perform the steps above correctly,
    verification should be done immediately.
 

@@ -147,7 +147,7 @@ Then, enter the Uruware Data:
 - Commerce Code
 - Terminal Code
 
-![Required information for electronic invoice.](../../../.gitbook/assets/electronic-invoice-data1.png)
+![Required information for electronic invoice.](../../../_images/electronic-invoice-data1.png)
 
 #### NOTE
 This data can be obtained from the Uruware portal after configuring the [Uruware account](#l10n-uy-uruware-account).
@@ -194,7 +194,7 @@ enter the following information:
 As part of the Uruguay localization module, taxes are automatically created with its configuration
 and related financial accounts.
 
-![Taxes for Uruguay.](../../../.gitbook/assets/taxes1.png)
+![Taxes for Uruguay.](../../../_images/taxes1.png)
 
 #### Document types
 
@@ -213,7 +213,7 @@ In Uruguay,  **must** be uploaded in Uruware. Sequences (and PDFs) are received 
 from Uruware, based on their .  are **only** used in production. When testing, only a
 range of sequences used in Uruware need to be set.
 
-![Document types for Uruguay.](../../../.gitbook/assets/document-types1.png)
+![Document types for Uruguay.](../../../_images/document-types1.png)
 
 #### Sổ nhật ký bán hàng
 

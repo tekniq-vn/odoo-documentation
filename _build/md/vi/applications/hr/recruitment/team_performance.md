@@ -19,7 +19,7 @@ filter, as displayed in the search bar.
 Hover the cursor over any column to view a popover window, displaying the specific details for that
 column.
 
-![The default bar chart of the team performance report.](../../../.gitbook/assets/team-performance.png)
+![The default bar chart of the team performance report.](../../../_images/team-performance.png)
 
 ### Pivot table view
 
@@ -43,7 +43,7 @@ addition, the Experienced Developer has the least amount of refused applicants.
 This pivot table also shows that the Chief Executive Officer position is the hardest to
 fill, as it has the fewest total applicants.
 
-![The detailed pivot table view.](../../../.gitbook/assets/team-perf-pivot.png)
+![The detailed pivot table view.](../../../_images/team-perf-pivot.png)
 
 ## Use case: recruiter performance over time
 
@@ -56,7 +56,7 @@ drop-down menu. Click Add Custom Group <i class="oi oi-caret-down"></i> at the b
 <i class="oi oi-group"></i> Group By column, then click Recruiter. Click away from the
 drop-down menu to close it. Now, each row on the table represents a recruiter.
 
-![The pivot table now displaying the recruiters in the rows.](../../../.gitbook/assets/by-recruiter.png)
+![The pivot table now displaying the recruiters in the rows.](../../../_images/by-recruiter.png)
 
 To compare the team's performance over different time periods, click the <i class="fa fa-caret-down"></i>
 (down arrow) in the search bar. Click Start Date <i class="fa fa-caret-down"></i> in
@@ -70,7 +70,7 @@ After making this selection, a <i class="fa fa-adjust"></i> Comparison column ap
 Start Date: Previous Period to compare the third quarter with the second quarter, for
 the various recruiters.
 
-![A comparison table of recruiter totals of Q2 and Q3.](../../../.gitbook/assets/compare.png)
+![A comparison table of recruiter totals of Q2 and Q3.](../../../_images/compare.png)
 
 From this report, several things can be extrapolated: the total number of applicants increased, the
 number of hired applicants remained the same, while the number of refused applicants decreased.

@@ -193,7 +193,7 @@ Only include actual menu items in the `menuselection` markup:
   ```
 - Do not include menu section names. For example, in the screenshot below, `Journals` should not
   be included in the menu path Accounting ‣ Accounting ‣ Journal Entries:
-  ![Accounting menu showing the Journals menu section.](../../.gitbook/assets/accounting-menu.png)
+  ![Accounting menu showing the Journals menu section.](../../_images/accounting-menu.png)
 
 <a id="contributing-rst-file"></a>
 
@@ -362,7 +362,7 @@ reference it using a [relative link](#contributing-rst-relative-links).
 
 The `image` markup allows inserting images in a document.
 
-| ![Create an invoice.](../../.gitbook/assets/create-invoice1.png)                                 |
+| ![Create an invoice.](../../_images/create-invoice1.png)                                         |
 |--------------------------------------------------------------------------------------------------|
 | ```text<br/>.. image:: rst_guidelines/create-invoice.png<br/>   :alt: Create an invoice.<br/>``` |
 

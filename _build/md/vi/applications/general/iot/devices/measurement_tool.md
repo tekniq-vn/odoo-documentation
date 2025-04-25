@@ -13,14 +13,14 @@ Find the list of supported devices here: [Supported devices](https://www.odoo.co
 To add a device connected by , plug the  cable into the  box, and the device appears in the Odoo
 database.
 
-![Measurement tool recognized on the IoT box.](../../../../.gitbook/assets/device-dropdown.png)
+![Measurement tool recognized on the IoT box.](../../../../_images/device-dropdown.png)
 
 ## Connect with bluetooth
 
 Activate the Bluetooth functionality on the device (see the device manual for further explanation),
 and the  box automatically connects to the device.
 
-![Bluetooth indicator on measurement tool.](../../../../.gitbook/assets/measurement-tool.png)
+![Bluetooth indicator on measurement tool.](../../../../_images/measurement-tool.png)
 
 ## Link a measurement tool to a quality control point in the manufacturing process
 
@@ -38,7 +38,7 @@ changes, if required.
 At this point, the measurement tool is linked to the chosen quality control point. The value, which
 usually needs to be changed manually, is automatically updated while the tool is being used.
 
-![Measurement tool input in the Odoo database.](../../../../.gitbook/assets/measurement-control-point.png)
+![Measurement tool input in the Odoo database.](../../../../_images/measurement-control-point.png)
 
 #### NOTE
 On a quality check detail form, the Type of check can also be specified to
